@@ -11,5 +11,23 @@
     "body": "<line>This page went down faster than a full stall landing.</line>Maybe your GPS needs recalibrating? 🪂",
     "cta": "Find Better Lift"
   },
-  "opensInNewTab": "(opens in a new tab)"
+  "opensInNewTab": "(opens in a new tab)",
+  "compass": {
+    "N": "N",
+    "NNE": "NNE",
+    "NE": "NE",
+    "ENE": "ENE",
+    "E": "E",
+    "ESE": "ESE",
+    "SE": "SE",
+    "SSE": "SSE",
+    "S": "S",
+    "SSW": "SSW",
+    "SW": "SW",
+    "WSW": "WSW",
+    "W": "W",
+    "WNW": "WNW",
+    "NW": "NW",
+    "NNW": "NNW"
+  }
 }

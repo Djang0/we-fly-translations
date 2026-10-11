@@ -1,0 +1,328 @@
+{
+  "trends": {
+    "title": "Trends",
+    "weekOf": "Week of {date}",
+    "controls": {
+      "metric": "Metric",
+      "interval": "Interval",
+      "period": "Period",
+      "breakdown": "Breakdown",
+      "display": "Display"
+    },
+    "metric": {
+      "airtime": "Air time",
+      "flights": "Flights",
+      "avgDistance": "Avg distance",
+      "avgAirtime": "Avg air time",
+      "avgSpeed": "Avg speed"
+    },
+    "interval": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "period": {
+      "30d": "30 days",
+      "12m": "12 months",
+      "ytd": "This year",
+      "all": "All"
+    },
+    "breakdown": {
+      "total": "Total",
+      "glider": "By glider"
+    },
+    "display": {
+      "chart": "Chart",
+      "table": "Table"
+    },
+    "series": {
+      "total": "All flights",
+      "unknown": "Unknown glider",
+      "other": "Other ({count})"
+    },
+    "caption": {
+      "table": "Within your filters. Open a period to see its flights in the logbook.",
+      "avgSpeed": "Scored distance over air time, within your filters. Click a column to open its flights.",
+      "chart": "Within your filters. Click a column to open its flights in the logbook."
+    },
+    "empty": {
+      "tooManyDays": "Too many days to draw. Pick a shorter period or a wider interval.",
+      "tooManyWeeks": "Too many weeks to draw. Pick a shorter period or a wider interval.",
+      "none": "No flights in this period."
+    },
+    "tooltip": {
+      "noFlight": "No flight",
+      "flightsClickToOpen": "{count, plural, one {# flight} other {# flights}} · click to open"
+    },
+    "table": {
+      "period": "Period"
+    }
+  },
+  "thermaling": {
+    "groups": {
+      "label": "Chart group",
+      "efficiency": "Efficiency",
+      "volume": "Volume",
+      "technique": "Technique",
+      "mastery": "Mastery"
+    },
+    "empty": {
+      "title": "No thermaling data available",
+      "body": "Add flights with thermal data to see your thermaling analytics"
+    },
+    "progression": "Season-over-season progression",
+    "notEnoughData": "Not enough data for this metric yet",
+    "kpi": {
+      "medianClimb": {
+        "label": "Median Climb",
+        "tooltip": "Median net climb rate across every individual thermal in the filtered dataset (heightgain ÷ duration)."
+      },
+      "bestClimb": {
+        "label": "Best Climb",
+        "tooltip": "Strongest sustained 5 s peak vario across every thermal."
+      },
+      "medianHeightGain": {
+        "label": "Median Height Gain",
+        "tooltip": "Median altitude gained per thermal across every individual climb."
+      },
+      "perHour": {
+        "label": "Thermals/hr",
+        "tooltip": "Total thermals ÷ total airtime (across the filtered dataset)."
+      },
+      "thermalingTime": {
+        "label": "Thermaling Time",
+        "tooltip": "% of airtime spent thermaling."
+      },
+      "totalThermals": {
+        "label": "Total Thermals"
+      },
+      "circleTime": {
+        "label": "Med. Circle Time",
+        "tooltip": "Median time per 360° turn across every individual thermal."
+      },
+      "circleRadius": {
+        "label": "Med. Circle Radius",
+        "tooltip": "Median per-turn radius across every individual thermal."
+      },
+      "lowSaves": {
+        "label": "Low Saves",
+        "tooltip": "Real low saves: moments you were about to land (≥5 min of unbroken glide, ≥200 m altitude lost, lowest <150 m AGL over landable terrain) and a thermal rescued you.",
+        "lowest": "· {value} low"
+      }
+    },
+    "charts": {
+      "medianClimb": {
+        "title": "Climb Rate",
+        "description": "Median climb rate per season",
+        "axis": "Median Climb (m/s)"
+      },
+      "medianHeightGain": {
+        "title": "Height Gain",
+        "description": "Median height gained per thermal",
+        "axis": "Height Gain (m)"
+      },
+      "perHour": {
+        "title": "Thermal Frequency",
+        "description": "Thermals found per hour of flight",
+        "axis": "Thermals/hr"
+      },
+      "ratio": {
+        "title": "Thermaling Ratio",
+        "description": "% of flight time spent thermaling",
+        "axis": "Thermaling %"
+      },
+      "circleTime": {
+        "title": "Circle Time",
+        "description": "Median time per 360° turn, lower is tighter",
+        "axis": "Circle Time (s)"
+      },
+      "circleRadius": {
+        "title": "Circle Radius",
+        "description": "Median circle radius, lower means tighter turns",
+        "axis": "Circle Radius (m)"
+      },
+      "avgQuality": {
+        "title": "Quality Score",
+        "description": "Avg thermal quality: climb, centering, consistency",
+        "axis": "Quality Score"
+      },
+      "ceiling": {
+        "title": "Operational Ceiling",
+        "description": "Median exit altitude, how high the day flew",
+        "axis": "Operational Ceiling (m)"
+      }
+    },
+    "inversion": {
+      "summary": "<b>{count, number}</b> {count, plural, one {flight shows} other {flights show}} a clear ceiling shift (inversion break or late-day decay).",
+      "viewList": "View list",
+      "title": "Days with a clear ceiling shift",
+      "description": "Flights where the operational ceiling jumped or decayed mid-day: a morning inversion breaking through, or late-day overdevelopment lowering the working altitude. Click a row to open the flight.",
+      "inversionBreak": "Inversion break",
+      "ceilingDecay": "Ceiling decay"
+    },
+    "strongest": {
+      "summary": "<b>{count, number}</b> strongest {count, plural, one {thermal} other {thermals}} by sustained peak vario.",
+      "viewList": "View list",
+      "title": "Strongest thermals",
+      "description": "Top 10 thermals across the filtered dataset, ranked by sustained 5 s peak vario. Ties broken by quality score. Click a row to jump to that thermal in its source flight.",
+      "qualityScore": "QS {score, number}"
+    },
+    "lowSaves": {
+      "summary": "<b>{count, number}</b> low {count, plural, one {save} other {saves}}{hasLowest, select, yes {, lowest <b>{lowest}</b> AGL} other {}}{hasRecovery, select, yes {, <b>+{recovery}</b> clawed back} other {}}.",
+      "viewList": "View list",
+      "title": "Low saves",
+      "description": "Moments you were about to land (≥5 min of unbroken glide, ≥200 m altitude lost, lowest below 150 m AGL over landable terrain) and a thermal rescued you. Ridge thermals are excluded by design. Top 10 across the filtered dataset, ordered by lowest AGL reached.",
+      "searchContext": "{minutes, number} min search · −{lost}",
+      "aglValue": "{value} AGL"
+    }
+  },
+  "phases": {
+    "empty": {
+      "title": "No phase data available",
+      "body": "Phase detection runs on every upload. Older flights need to be backfilled to appear here."
+    },
+    "phase": {
+      "thermal": "Thermal",
+      "search": "Search",
+      "glide": "Glide",
+      "float": "Float"
+    },
+    "radar": {
+      "thermalTime": "Thermal Time",
+      "glideTime": "Glide Time",
+      "glideRatio": "Glide Ratio",
+      "circlesPerMin": "Circles/min"
+    },
+    "kpi": {
+      "glideRatio": {
+        "label": "Median Glide Ratio",
+        "tooltip": "Median glide ratio across flights with glide phases."
+      },
+      "glideSpeed": {
+        "label": "Median Glide Speed",
+        "tooltip": "Median ground speed during glide phases."
+      },
+      "thermalTime": {
+        "label": "Thermal Time",
+        "tooltip": "% of total airtime spent in thermal phase."
+      },
+      "glideTime": {
+        "label": "Glide Time",
+        "tooltip": "% of total airtime spent in glide phase."
+      },
+      "searchTime": {
+        "label": "Search Time",
+        "tooltip": "% of total airtime spent searching for lift."
+      },
+      "floatTime": {
+        "label": "Float Time",
+        "tooltip": "% of total airtime in float (small altitude swings)."
+      },
+      "circlesPerMin": {
+        "label": "Circles / min",
+        "tooltip": "Average circling rate during thermal phases."
+      }
+    },
+    "charts": {
+      "glideRatio": {
+        "title": "Glide Ratio",
+        "description": "Median glide ratio per season, higher is more efficient"
+      },
+      "thermalPct": {
+        "title": "Thermal Time %",
+        "description": "% of airtime spent in thermal phase"
+      }
+    },
+    "composition": {
+      "title": "Phase Composition",
+      "description": "How your time in the air is allocated, season by season"
+    },
+    "profile": {
+      "title": "Flying Profile",
+      "description": "Each season as a polygon, watch the shape evolve",
+      "empty": "Need at least one season of phase data"
+    },
+    "showAll": "Show all",
+    "legend": {
+      "showSeason": "Show season {season}",
+      "hideSeason": "Hide season {season}",
+      "showPhase": "Show {phase} phase",
+      "hidePhase": "Hide {phase} phase"
+    },
+    "basedOnFlights": "based on {count, plural, one {# flight} other {# flights}}"
+  },
+  "overview": {
+    "pts": "pts",
+    "gUnit": "g",
+    "headline": {
+      "totalFlights": "Total flights",
+      "totalAirTime": "Total air time",
+      "distance": "Distance",
+      "trackLength": "track length",
+      "longestFlight": "Longest flight",
+      "viewLongest": "View longest flight: {duration}"
+    },
+    "efficiency": {
+      "title": "Flight efficiency",
+      "description": "Time distribution between thermaling and gliding.",
+      "thermaling": "Thermaling",
+      "gliding": "Gliding",
+      "thermal": "Thermal",
+      "glide": "Glide"
+    },
+    "balance": {
+      "title": "Thermaling balance",
+      "description": "Turn direction distribution while thermaling.",
+      "leftTurns": "Left turns",
+      "rightTurns": "Right turns",
+      "left": "Left",
+      "right": "Right"
+    },
+    "mode": {
+      "balanceTitle": "Flight mode balance",
+      "balanceDescription": "Distribution of solo vs tandem flight time.",
+      "solo": "Solo",
+      "tandem": "Tandem",
+      "title": "Flight mode",
+      "allSolo": "All your flights are solo.",
+      "soloFlights": "solo flights"
+    },
+    "distance": {
+      "title": "Distance",
+      "description": "Total distances covered.",
+      "xcDistance": "XC distance",
+      "xcPoints": "XC points",
+      "trackLength": "Track length"
+    },
+    "bests": {
+      "title": "Personal bests",
+      "description": "Maximum values across all flights.",
+      "maxAltitude": "Max altitude",
+      "maxHeightGain": "Max height gain",
+      "maxSpeed": "Max speed",
+      "bestXcDistance": "Best XC distance",
+      "bestXcScore": "Best XC score",
+      "viewFlight": "View flight with {label}: {value}"
+    },
+    "lowSave": {
+      "label": "Lowest low save",
+      "agl": "{unit} AGL",
+      "regained": "+{value} {unit} regained",
+      "ariaLabel": "View lowest low save flight: {agl} above ground{hasRecovery, select, yes { (+{recovery} regained)} other {}}"
+    },
+    "performance": {
+      "title": "Performance metrics",
+      "description": "Median values across all flights.",
+      "circleTime": "Med. circle time",
+      "circleRadius": "Med. circle radius",
+      "gFactor": "Median G-factor",
+      "strongestThermal": "Strongest thermal peak",
+      "viewStrongest": "View strongest thermal peak flight: {value}"
+    }
+  },
+  "backfill": {
+    "phases": "phase detection",
+    "thermaling": "advanced thermal analysis"
+  }
+}

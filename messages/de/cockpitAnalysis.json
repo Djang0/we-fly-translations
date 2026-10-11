@@ -1,0 +1,328 @@
+{
+  "trends": {
+    "title": "Trends",
+    "weekOf": "Woche vom {date}",
+    "controls": {
+      "metric": "Kennzahl",
+      "interval": "Intervall",
+      "period": "Zeitraum",
+      "breakdown": "Aufteilung",
+      "display": "Anzeige"
+    },
+    "metric": {
+      "airtime": "Flugzeit",
+      "flights": "Flüge",
+      "avgDistance": "Ø Strecke",
+      "avgAirtime": "Ø Flugzeit",
+      "avgSpeed": "Ø Geschwindigkeit"
+    },
+    "interval": {
+      "day": "Tag",
+      "week": "Woche",
+      "month": "Monat",
+      "year": "Jahr"
+    },
+    "period": {
+      "30d": "30 Tage",
+      "12m": "12 Monate",
+      "ytd": "Dieses Jahr",
+      "all": "Alle"
+    },
+    "breakdown": {
+      "total": "Gesamt",
+      "glider": "Nach Schirm"
+    },
+    "display": {
+      "chart": "Diagramm",
+      "table": "Tabelle"
+    },
+    "series": {
+      "total": "Alle Flüge",
+      "unknown": "Unbekannter Schirm",
+      "other": "Andere ({count})"
+    },
+    "caption": {
+      "table": "Innerhalb deiner Filter. Öffne einen Zeitraum, um seine Flüge im Flugbuch zu sehen.",
+      "avgSpeed": "Wertungsdistanz geteilt durch Flugzeit, innerhalb deiner Filter. Klick auf eine Säule, um ihre Flüge zu öffnen.",
+      "chart": "Innerhalb deiner Filter. Klick auf eine Säule, um ihre Flüge im Flugbuch zu öffnen."
+    },
+    "empty": {
+      "tooManyDays": "Zu viele Tage zum Zeichnen. Wähl einen kürzeren Zeitraum oder ein größeres Intervall.",
+      "tooManyWeeks": "Zu viele Wochen zum Zeichnen. Wähl einen kürzeren Zeitraum oder ein größeres Intervall.",
+      "none": "Keine Flüge in diesem Zeitraum."
+    },
+    "tooltip": {
+      "noFlight": "Kein Flug",
+      "flightsClickToOpen": "{count, plural, one {# Flug} other {# Flüge}} · zum Öffnen klicken"
+    },
+    "table": {
+      "period": "Zeitraum"
+    }
+  },
+  "thermaling": {
+    "groups": {
+      "label": "Diagrammgruppe",
+      "efficiency": "Effizienz",
+      "volume": "Umfang",
+      "technique": "Technik",
+      "mastery": "Können"
+    },
+    "empty": {
+      "title": "Keine Kurbeldaten vorhanden",
+      "body": "Füge Flüge mit Thermikdaten hinzu, um deine Kurbelanalyse zu sehen"
+    },
+    "progression": "Entwicklung von Saison zu Saison",
+    "notEnoughData": "Für diese Kennzahl gibt es noch nicht genug Daten",
+    "kpi": {
+      "medianClimb": {
+        "label": "Median-Steigen",
+        "tooltip": "Median des Netto-Steigwerts über alle einzelnen Bärte im gefilterten Datensatz (Höhengewinn ÷ Dauer)."
+      },
+      "bestClimb": {
+        "label": "Bestes Steigen",
+        "tooltip": "Stärkster über 5 s gehaltener Vario-Spitzenwert über alle Bärte."
+      },
+      "medianHeightGain": {
+        "label": "Median-Höhengewinn",
+        "tooltip": "Median des Höhengewinns pro Bart über alle einzelnen Steigphasen."
+      },
+      "perHour": {
+        "label": "Bärte/h",
+        "tooltip": "Bärte gesamt ÷ Flugzeit gesamt (über den gefilterten Datensatz)."
+      },
+      "thermalingTime": {
+        "label": "Kurbelzeit",
+        "tooltip": "Anteil der Flugzeit, die du gekurbelt hast, in %."
+      },
+      "totalThermals": {
+        "label": "Bärte gesamt"
+      },
+      "circleTime": {
+        "label": "Med. Kreiszeit",
+        "tooltip": "Median der Zeit pro 360°-Kreis über alle einzelnen Bärte."
+      },
+      "circleRadius": {
+        "label": "Med. Kreisradius",
+        "tooltip": "Median des Radius pro Kreis über alle einzelnen Bärte."
+      },
+      "lowSaves": {
+        "label": "Low Saves",
+        "tooltip": "Echte Low Saves: Momente, in denen du kurz vor der Landung warst (≥5 min durchgehender Gleitflug, ≥200 m Höhe verloren, tiefster Punkt <150 m AGL über landbarem Gelände) und dich ein Bart gerettet hat.",
+        "lowest": "· {value} tief"
+      }
+    },
+    "charts": {
+      "medianClimb": {
+        "title": "Steigwert",
+        "description": "Median-Steigwert pro Saison",
+        "axis": "Median-Steigen (m/s)"
+      },
+      "medianHeightGain": {
+        "title": "Höhengewinn",
+        "description": "Median-Höhengewinn pro Bart",
+        "axis": "Höhengewinn (m)"
+      },
+      "perHour": {
+        "title": "Thermikhäufigkeit",
+        "description": "Gefundene Bärte pro Flugstunde",
+        "axis": "Bärte/h"
+      },
+      "ratio": {
+        "title": "Kurbelanteil",
+        "description": "Anteil der Flugzeit, die du gekurbelt hast, in %",
+        "axis": "Kurbelanteil %"
+      },
+      "circleTime": {
+        "title": "Kreiszeit",
+        "description": "Median der Zeit pro 360°-Kreis, niedriger heißt enger",
+        "axis": "Kreiszeit (s)"
+      },
+      "circleRadius": {
+        "title": "Kreisradius",
+        "description": "Median des Kreisradius, niedriger heißt engere Kreise",
+        "axis": "Kreisradius (m)"
+      },
+      "avgQuality": {
+        "title": "Qualitätswert",
+        "description": "Ø Thermikqualität: Steigen, Zentrieren, Gleichmäßigkeit",
+        "axis": "Qualitätswert"
+      },
+      "ceiling": {
+        "title": "Arbeitshöhe",
+        "description": "Median der Ausstiegshöhe, so hoch ging der Tag",
+        "axis": "Arbeitshöhe (m)"
+      }
+    },
+    "inversion": {
+      "summary": "<b>{count, number}</b> {count, plural, one {Flug zeigt} other {Flüge zeigen}} eine deutliche Verschiebung der Basis (Inversion durchbrochen oder Abbau am späten Tag).",
+      "viewList": "Liste ansehen",
+      "title": "Tage mit deutlicher Verschiebung der Basis",
+      "description": "Flüge, bei denen die Arbeitshöhe im Lauf des Tages sprunghaft stieg oder abnahm: eine Morgeninversion, die aufbricht, oder Überentwicklung am späten Tag, die die Arbeitshöhe drückt. Klick auf eine Zeile, um den Flug zu öffnen.",
+      "inversionBreak": "Inversion durchbrochen",
+      "ceilingDecay": "Basis sinkt"
+    },
+    "strongest": {
+      "summary": "<b>{count, number}</b> {count, plural, one {stärkster Bart} other {stärkste Bärte}} nach gehaltenem Vario-Spitzenwert.",
+      "viewList": "Liste ansehen",
+      "title": "Stärkste Bärte",
+      "description": "Die 10 stärksten Bärte im gefilterten Datensatz, sortiert nach dem über 5 s gehaltenen Vario-Spitzenwert. Bei Gleichstand entscheidet der Qualitätswert. Klick auf eine Zeile, um im zugehörigen Flug direkt zu diesem Bart zu springen.",
+      "qualityScore": "QW {score, number}"
+    },
+    "lowSaves": {
+      "summary": "<b>{count, number}</b> {count, plural, one {Low Save} other {Low Saves}}{hasLowest, select, yes {, am tiefsten <b>{lowest}</b> AGL} other {}}{hasRecovery, select, yes {, <b>+{recovery}</b> zurückgeholt} other {}}.",
+      "viewList": "Liste ansehen",
+      "title": "Low Saves",
+      "description": "Momente, in denen du kurz vor der Landung warst (≥5 min durchgehender Gleitflug, ≥200 m Höhe verloren, tiefster Punkt unter 150 m AGL über landbarem Gelände) und dich ein Bart gerettet hat. Hangthermik ist bewusst ausgenommen. Die 10 besten im gefilterten Datensatz, sortiert nach der geringsten erreichten Höhe AGL.",
+      "searchContext": "{minutes, number} min Suche · −{lost}",
+      "aglValue": "{value} AGL"
+    }
+  },
+  "phases": {
+    "empty": {
+      "title": "Keine Phasendaten vorhanden",
+      "body": "Die Phasenerkennung läuft bei jedem Upload. Ältere Flüge müssen nachträglich verarbeitet werden, damit sie hier erscheinen."
+    },
+    "phase": {
+      "thermal": "Thermik",
+      "search": "Suche",
+      "glide": "Gleitflug",
+      "float": "Schweben"
+    },
+    "radar": {
+      "thermalTime": "Thermikzeit",
+      "glideTime": "Gleitzeit",
+      "glideRatio": "Gleitzahl",
+      "circlesPerMin": "Kreise/min"
+    },
+    "kpi": {
+      "glideRatio": {
+        "label": "Median-Gleitzahl",
+        "tooltip": "Median der Gleitzahl über alle Flüge mit Gleitphasen."
+      },
+      "glideSpeed": {
+        "label": "Median-Gleitgeschwindigkeit",
+        "tooltip": "Median der Geschwindigkeit über Grund in den Gleitphasen."
+      },
+      "thermalTime": {
+        "label": "Thermikzeit",
+        "tooltip": "Anteil der gesamten Flugzeit in der Thermikphase, in %."
+      },
+      "glideTime": {
+        "label": "Gleitzeit",
+        "tooltip": "Anteil der gesamten Flugzeit in der Gleitphase, in %."
+      },
+      "searchTime": {
+        "label": "Suchzeit",
+        "tooltip": "Anteil der gesamten Flugzeit auf der Suche nach Steigen, in %."
+      },
+      "floatTime": {
+        "label": "Schwebezeit",
+        "tooltip": "Anteil der gesamten Flugzeit im Schweben (kleine Höhenschwankungen), in %."
+      },
+      "circlesPerMin": {
+        "label": "Kreise / min",
+        "tooltip": "Durchschnittliche Kreisrate in den Thermikphasen."
+      }
+    },
+    "charts": {
+      "glideRatio": {
+        "title": "Gleitzahl",
+        "description": "Median-Gleitzahl pro Saison, höher ist effizienter"
+      },
+      "thermalPct": {
+        "title": "Thermikzeit %",
+        "description": "Anteil der Flugzeit in der Thermikphase, in %"
+      }
+    },
+    "composition": {
+      "title": "Phasenverteilung",
+      "description": "Wie sich deine Zeit in der Luft verteilt, Saison für Saison"
+    },
+    "profile": {
+      "title": "Flugprofil",
+      "description": "Jede Saison als Polygon: Schau, wie sich die Form entwickelt",
+      "empty": "Mindestens eine Saison mit Phasendaten nötig"
+    },
+    "showAll": "Alle anzeigen",
+    "legend": {
+      "showSeason": "Saison {season} einblenden",
+      "hideSeason": "Saison {season} ausblenden",
+      "showPhase": "Phase {phase} einblenden",
+      "hidePhase": "Phase {phase} ausblenden"
+    },
+    "basedOnFlights": "basierend auf {count, plural, one {# Flug} other {# Flügen}}"
+  },
+  "overview": {
+    "pts": "Pkt.",
+    "gUnit": "g",
+    "headline": {
+      "totalFlights": "Flüge gesamt",
+      "totalAirTime": "Flugzeit gesamt",
+      "distance": "Strecke",
+      "trackLength": "Tracklänge",
+      "longestFlight": "Längster Flug",
+      "viewLongest": "Längsten Flug ansehen: {duration}"
+    },
+    "efficiency": {
+      "title": "Flugeffizienz",
+      "description": "Zeitverteilung zwischen Kurbeln und Gleiten.",
+      "thermaling": "Kurbeln",
+      "gliding": "Gleiten",
+      "thermal": "Thermik",
+      "glide": "Gleitflug"
+    },
+    "balance": {
+      "title": "Kurbelrichtung",
+      "description": "Verteilung der Drehrichtung beim Kurbeln.",
+      "leftTurns": "Linkskreise",
+      "rightTurns": "Rechtskreise",
+      "left": "Links",
+      "right": "Rechts"
+    },
+    "mode": {
+      "balanceTitle": "Solo und Tandem",
+      "balanceDescription": "Verteilung der Flugzeit auf Solo- und Tandemflüge.",
+      "solo": "Solo",
+      "tandem": "Tandem",
+      "title": "Flugmodus",
+      "allSolo": "Alle deine Flüge sind Soloflüge.",
+      "soloFlights": "Soloflüge"
+    },
+    "distance": {
+      "title": "Strecke",
+      "description": "Insgesamt zurückgelegte Strecken.",
+      "xcDistance": "XC-Strecke",
+      "xcPoints": "XC-Punkte",
+      "trackLength": "Tracklänge"
+    },
+    "bests": {
+      "title": "Persönliche Bestwerte",
+      "description": "Höchstwerte über alle Flüge.",
+      "maxAltitude": "Max. Höhe",
+      "maxHeightGain": "Max. Höhengewinn",
+      "maxSpeed": "Max. Geschwindigkeit",
+      "bestXcDistance": "Beste XC-Strecke",
+      "bestXcScore": "Beste XC-Wertung",
+      "viewFlight": "Flug mit {label} ansehen: {value}"
+    },
+    "lowSave": {
+      "label": "Tiefster Low Save",
+      "agl": "{unit} AGL",
+      "regained": "+{value} {unit} zurückgeholt",
+      "ariaLabel": "Flug mit dem tiefsten Low Save ansehen: {agl} über Grund{hasRecovery, select, yes { (+{recovery} zurückgeholt)} other {}}"
+    },
+    "performance": {
+      "title": "Leistungswerte",
+      "description": "Medianwerte über alle Flüge.",
+      "circleTime": "Med. Kreiszeit",
+      "circleRadius": "Med. Kreisradius",
+      "gFactor": "Median-G-Faktor",
+      "strongestThermal": "Stärkster Thermik-Spitzenwert",
+      "viewStrongest": "Flug mit dem stärksten Thermik-Spitzenwert ansehen: {value}"
+    }
+  },
+  "backfill": {
+    "phases": "Phasenerkennung",
+    "thermaling": "erweiterte Thermikanalyse"
+  }
+}

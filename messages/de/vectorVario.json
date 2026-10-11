@@ -1,0 +1,164 @@
+{
+  "tab": {
+    "noDataTitle": "Keine Vector-Vario-Daten",
+    "noDataBody": "Dieser Flug wurde mit einem normalen IGC-Logger aufgezeichnet. Vector-Vario-Daten (sekündliche Fahrt, Lastvielfaches, Fluglage, Netto usw.) erscheinen hier, wenn die IGC-Datei LXVV-Datensätze enthält.",
+    "loadFailedTitle": "Vector-Vario-Messwerte konnten nicht geladen werden",
+    "loadFailedBody": "{message}. Die Zusammenfassung oben stammt aus dem Flugdokument und bleibt korrekt; nur die sekündlichen Diagramme hängen von der Zusatzdatei ab.",
+    "unknownError": "Unbekannter Fehler"
+  },
+  "hero": {
+    "title": "Vector Vario",
+    "profilePro": "Pro",
+    "profileClassic": "Classic",
+    "samplesAndCadence": "{samples} Messwerte · {cadence} Hz",
+    "meanAirspeed": "Mittlere Fahrt",
+    "meanAirspeedSub": "IAS · p90 {value}",
+    "peakLoad": "Max. Lastvielfaches",
+    "peakLoadSub": "Mittel {value}",
+    "meanNetto": "Mittleres Netto",
+    "meanNettoSub": "freie Höhe {altitude}",
+    "temperatureRange": "Temperaturbereich",
+    "temperatureRangeSub": "mittlere rel. Feuchte {value} %"
+  },
+  "compass": {
+    "n": "N",
+    "e": "O",
+    "s": "S",
+    "w": "W"
+  },
+  "noCompass": "Dieser Logger hat keinen Kompass, sein sekündlicher Wind ist also keine direkte Messung: Als Pfeile gezeichnet folgt er nur deiner Flugrichtung. Im Tab „Wind“ findest du den Wind, den We-Fly aus dem Versatz deiner Kreise ableitet.",
+  "airspeed": {
+    "title": "Fahrt",
+    "titleFull": "Fahrt (IAS und TAS)",
+    "empty": "Keine Fahrtmesswerte für diesen Flug.",
+    "description": "IAS ist der rohe Wert des Staurohrs. TAS ist die IAS, korrigiert um die lokale Luftdichte anhand von Temperatur und Feuchte pro Messwert."
+  },
+  "attitude": {
+    "title": "Nicken und Rollen",
+    "empty": "Keine Fluglage-Messwerte für diesen Flug.",
+    "description": "Nicken (Nase hoch/runter) und Rollen (Schräglage links/rechts). Positives Nicken heißt Nase hoch, positives Rollen heißt rechte Seite unten.",
+    "pitch": "Nicken",
+    "roll": "Rollen"
+  },
+  "gforce": {
+    "title": "Lastvielfaches (G)",
+    "empty": "Keine Messwerte zum Lastvielfachen für diesen Flug.",
+    "description": "Am Instrument gemessen. 1,00 G ist Geradeausflug; Werte über 2 G sind meist enge Kurven oder kräftiges Aufrichten.",
+    "series": "Lastvielfaches"
+  },
+  "heading": {
+    "title": "Steuerkurs",
+    "empty": "Keine Steuerkurs-Messwerte für diesen Flug.",
+    "description": "Richtung, in die die Nase zeigt. Als Punkte dargestellt, weil eine durchgehende Linie jedes Mal einen 350°-Sprung zeichnen würde, wenn du genau Nord kreuzt."
+  },
+  "netto": {
+    "title": "Netto (vertikaler Wind)",
+    "empty": "Keine Netto-Messwerte für diesen Flug.",
+    "description": "Die vertikale Komponente der umgebenden Luftmasse, bereinigt um das Eigensinken des Schirms. Über 0 {unit} = steigende Luft, darunter = sinkende Luft.",
+    "lift": "Steigen",
+    "sink": "Sinken",
+    "tooltip": "Netto"
+  },
+  "tempHumidity": {
+    "title": "Temperatur und Feuchte",
+    "empty": "Keine Umweltmesswerte für diesen Flug.",
+    "description": "Umgebungsluft am Instrument. Zwei Achsen: Temperatur links, relative Feuchte rechts.",
+    "temperature": "Temperatur",
+    "humidity": "Feuchte",
+    "tooltipTemp": "Temp.",
+    "tooltipHumidity": "rF"
+  },
+  "windDirect": {
+    "titleEmpty": "Wind (gemessen)",
+    "title": "Wind (sekündlich gemessen)",
+    "empty": "Keine direkten Windmesswerte für diesen Flug.",
+    "descriptionCompass": "Geschwindigkeit und Herkunft des Winds, vom Vector Vario an jedem Fix gemessen. Die Herkunft folgt der meteorologischen Konvention: Wind AUS dieser Richtung.",
+    "descriptionNoCompass": "Sekündlicher Wind laut Logger. Dieses Gerät hat keinen Kompass, die Richtung folgt also eher deinem Kurs als dem echten Wind. Im Tab „Wind“ findest du die Schätzung, die We-Fly aus dem Versatz ableitet. Die Herkunft folgt der meteorologischen Konvention (Wind AUS).",
+    "speed": "Windgeschwindigkeit",
+    "direction": "Windrichtung",
+    "tooltipSpeed": "Geschw.",
+    "tooltipFrom": "Aus"
+  },
+  "windMap": {
+    "titleEmpty": "Windkarte",
+    "title": "Windkarte (gemessen)",
+    "emptyCoordinates": "Keine Koordinaten pro Messwert für diesen Flug (die Vector-Vario-Zusatzdatei ist älter als PR #6).",
+    "description": "Track in Grau; {count, plural, one {# Windpfeil} other {# Windpfeile}} über den Flug verteilt. Die Pfeile zeigen mit dem Wind; der Farbton dreht mit der Richtung, die Länge wächst mit der Geschwindigkeit.",
+    "from": "aus {degrees}°"
+  },
+  "wind3d": {
+    "title": "Wind 3D",
+    "emptyScene": "Nicht genug Koordinaten und Windmesswerte für eine 3D-Szene.",
+    "description": "{points} Trackpunkte und {arrows, plural, one {# Windpfeil} other {# Windpfeile}} in einer 3D-Szene. Ziehen zum Drehen, mit rechter Maustaste ziehen zum Verschieben, scrollen zum Zoomen.",
+    "loading": "3D-Szene wird geladen…",
+    "controls": "Steuerung",
+    "controlDrag": "• Ziehen: drehen",
+    "controlRightDrag": "• Rechts ziehen: verschieben",
+    "controlScroll": "• Scrollen: zoomen",
+    "sceneScale": "Szenenmaßstab",
+    "trackLength": "Tracklänge: ~{distance} Radius",
+    "altitudeRange": "Höhe: {from}-{to} {unit}"
+  },
+  "polar": {
+    "title": "Leistung im Gleitflug",
+    "emptyDescription": "Keine Messwerte aus Gleitphasen für diesen Flug. Leistung ist nur im ruhigen Gleitflug aussagekräftig.",
+    "emptyLabel": "Keine Messwerte (TAS, Vario) aus Gleitphasen vorhanden.",
+    "sparseDescription": "Nur {samples} Messwerte aus Gleitphasen, zu wenige für Perzentile pro TAS. Die Punktwolke dient nur zur Orientierung.",
+    "description": "Beobachteter Bereich aus {published} von {total} Messwerten aus Gleitphasen, gruppiert in TAS-Klassen zu {bin} km/h (mindestens {min} Messwerte pro Klasse). Das schattierte Band ist das 10. bis 90. Perzentil des Varios bei jeder TAS; die durchgezogene Linie ist der Median. Die gestrichelte Linie ist der Median des Quartils mit dem niedrigsten Netto jeder Klasse, das Nächste an „was der Schirm in Luft ohne Steigen macht“, ohne Herstellerpolare.",
+    "bandSeries": "10. bis 90. Perzentil",
+    "medianSeries": "Median-Vario",
+    "cleanAirSeries": "Median im Quartil mit niedrigstem Netto",
+    "tasAxis": "Wahre Fahrt ({unit})",
+    "varioAxis": "Vario ({unit})",
+    "tasName": "TAS",
+    "glideCell": "Gleitzelle",
+    "legendBand": "Band 10.-90. Perzentil",
+    "legendMedian": "Median-Vario",
+    "legendCleanAir": "Median in ruhiger Luft (Quartil mit niedrigstem Netto)",
+    "legendSinking": "Sinkende Luft",
+    "legendLifting": "Steigende Luft",
+    "bestSinkLabel": "Bestes beobachtetes Sinken (Median)",
+    "bestGlideLabel": "Beste beobachtete Gleitzahl (Median)",
+    "bestGlideLabelNone": "Beste beobachtete Gleitzahl",
+    "noGlide": "Keine Klasse erreichte einen negativen Vario-Median (jede TAS-Klasse lag im Netto-Steigen)",
+    "location": "bei {speed} · {count, plural, one {# Messwert} other {# Messwerte}}",
+    "spread": "10.-90. Perzentil: {range}",
+    "spreadWithLift": "10.-90. Perzentil: {range} (einige Messwerte lagen im Steigen, daher keine endliche Gleitzahl)",
+    "cleanAirSink": "{value} im Quartil mit niedrigem Netto",
+    "cleanAirSinkAtTas": "{value} Sinken bei dieser TAS im Quartil mit niedrigem Netto",
+    "cleanAirProxy": "Näherung für ruhige Luft: {value}",
+    "range": "{from} bis {to}",
+    "caveat": "Du siehst die Leistung von <em>Pilot + Schirm + Luft</em> in den Gleitphasen <em>dieses</em> Flugs, nicht die veröffentlichte Polare des Schirms in ruhiger Luft. Klassen mit zu wenigen Messwerten fallen weg, das Diagramm endet also sichtbar dort, wo die Daten enden. Die Zellen sind nach Netto eingefärbt: Blaue Zellen wurden in sinkender Luft geflogen, warme in steigender. Die gestrichelte Linie fasst das Quartil mit niedrigem Netto jeder Klasse zusammen, als beste empirische Näherung für den Schirm allein. Die grauen diagonalen Strahlen sind Linien gleicher Gleitzahl; wo die Linie für ruhige Luft eine davon schneidet, ist das die Gleitzahl, die du bei dieser TAS in Luft ohne Steigen erreichst. <link>Das Diagramm ausführlich erklärt →</link>",
+    "tooltipBin": "Klasse {speed}",
+    "tooltipPercentiles": "P10-P90",
+    "tooltipMedian": "Median",
+    "tooltipCoolMedian": "Median ruhige Luft",
+    "tooltipSamples": "Messwerte",
+    "tooltipTas": "TAS",
+    "tooltipVario": "Vario",
+    "tooltipMeanNetto": "Mittleres Netto"
+  },
+  "skewT": {
+    "title": "Skew-T-log-p-Diagramm",
+    "empty": "Für ein Skew-T-Profil braucht es mindestens zwei Höhenklassen mit Temperaturmesswerten.",
+    "description": "Temperatur (warm) und Taupunkt (kühl) gegen den Druck, um 45° geneigt. Labil ist es, wo das warme Profil steiler nach links kippt als die grünen Trockenadiabaten; stabil, wo es flacher verläuft. Windfähnchen laufen am rechten Rand entlang.",
+    "pointTitle": "{altitude} · {pressure} hPa\nTemp.: {temp}",
+    "pointDew": "\nTaupunkt: {dew}",
+    "pointWind": "\nWind: {direction}° · {speed}",
+    "pressureAxis": "Druck (hPa)",
+    "altitudeAxis": "Höhe ({unit})",
+    "temperatureAxis": "Temperatur ({unit})",
+    "legendTemperature": "Temperatur",
+    "legendDewPoint": "Taupunkt",
+    "legendDry": "Trockenadiabaten",
+    "legendSaturated": "Feuchtadiabaten",
+    "legendIsotherms": "Isothermen",
+    "barbKey": "▎ Dreieck = 50 · lang = 10 · kurz = 5 km/h",
+    "stability": {
+      "unstable": "Labile Luftmasse",
+      "neutral": "Bedingt labil",
+      "stable": "Stabile Luftmasse",
+      "unknown": "Schichtung"
+    }
+  }
+}

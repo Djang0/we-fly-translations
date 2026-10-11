@@ -1,0 +1,349 @@
+{
+  "layers": {
+    "title": "Ebenen",
+    "activeCount": "{count} an"
+  },
+  "more": {
+    "title": "Mehr",
+    "shareReplay": "Replay teilen",
+    "recordVideo": "Video aufnehmen",
+    "hideOverlays": "Overlays ausblenden",
+    "pastTrack": "Bisheriger Track",
+    "opacity": "Deckkraft",
+    "length": "Länge",
+    "keyboardShortcuts": "Tastenkürzel"
+  },
+  "toolbar": {
+    "camera": "Kamera",
+    "cameraModes": {
+      "chase": "Verfolgen",
+      "cockpit": "Cockpit",
+      "top": "Von oben",
+      "orbit": "Orbit"
+    },
+    "cameraAria": "Kamera: {mode}",
+    "layersAria": "Ebenen, {count} an",
+    "layers": "Ebenen",
+    "more": "Mehr",
+    "showOverlays": "Overlays einblenden"
+  },
+  "scene": {
+    "approaching": "Anflug auf {name}",
+    "autoFocus": "Auto-Fokus",
+    "dragToTakeControl": "Ziehen, um die Kamera zu übernehmen",
+    "varioLegend": "Vario · {unit}",
+    "gaggle": "Pulk · <n>{count}</n> {count, plural, one {Pilot} other {Piloten}} von diesem Startplatz",
+    "openComparison": "Diese Piloten im vollständigen Vergleich öffnen",
+    "loadingTerrain": "Gelände wird geladen…"
+  },
+  "telemetry": {
+    "alt": "Höhe",
+    "agl": "AGL",
+    "vario": "Vario",
+    "speed": "Geschw.",
+    "glide": "GZ",
+    "wind": "Wind",
+    "airHead": "Luft · Gegenw.",
+    "airTail": "Luft · Rückenw.",
+    "time": "Zeit",
+    "timeZone": "Zeit · {zone}",
+    "windTitle": "Wind aus {degrees}° · {source, select, band {in dieser Höhe gemessen} sample {zeitlich nächster Kreis} other {Flugdurchschnitt}}",
+    "noWind": "Keine Windschätzung, auf diesem Flug wurde nie lange genug gekreist",
+    "following": "Verfolgt"
+  },
+  "dock": {
+    "markerLaunched": "{who} gestartet · {time}",
+    "markerLanded": "{who} gelandet · {time}",
+    "markerBestClimb": "{who} bestes Steigen · {climb} · {time}",
+    "markerBiggestGap": "Größter Abstand zu {name} · {gap} tiefer · {time}",
+    "speedAria": "Wiedergabegeschwindigkeit {speed}x",
+    "timeline": "Zeitleiste der Wiedergabe",
+    "backTitle": "10 s zurück (←)",
+    "backAria": "10 Sekunden zurück",
+    "playPauseTitle": "Wiedergabe / Pause (Leertaste)",
+    "pause": "Pause",
+    "play": "Abspielen",
+    "forwardTitle": "10 s vor (→)",
+    "forwardAria": "10 Sekunden vor",
+    "hideCharts": "Diagramme ausblenden",
+    "showCharts": "Diagramme einblenden",
+    "shortcutsTitle": "Tastenkürzel (?)",
+    "shortcuts": "Tastenkürzel",
+    "exitFullscreenTitle": "Vollbild beenden (F)",
+    "fullscreenTitle": "Vollbild (F)",
+    "exitFullscreen": "Vollbild beenden",
+    "enterFullscreen": "Vollbild",
+    "imageryCollapsed": "Bilder © Esri und Mitwirkende · Details",
+    "speed": "Wiedergabegeschwindigkeit",
+    "shortcutKeys": {
+      "play": "Leertaste",
+      "seek": "← / →",
+      "fullscreen": "F",
+      "hide": "H",
+      "help": "?",
+      "escape": "Esc"
+    },
+    "shortcutHelp": {
+      "play": "Wiedergabe / Pause",
+      "seek": "10 s zurück / vor",
+      "fullscreen": "Vollbild",
+      "hide": "Overlays ausblenden",
+      "help": "Tastenkürzel",
+      "escape": "Menü schließen, dann Vollbild beenden"
+    }
+  },
+  "rank": {
+    "follow": "{name} verfolgen",
+    "hideTrace": "Track von {name} ausblenden",
+    "showTrace": "Track von {name} einblenden",
+    "toggleTrace": "Track ein- oder ausblenden",
+    "moments": "Momente · zum Springen klicken",
+    "circlingTogether": "Kurbeln zusammen: {names}",
+    "rank": "Platz",
+    "liveRank": "Live-Platzierung",
+    "liveRankBasis": "Live-Platzierung · {basis, select, altitude {Höhe} race {Rennen} other {{basis}}}",
+    "clickToFollow": "zum Verfolgen klicken"
+  },
+  "shell": {
+    "close": "Schließen"
+  },
+  "hud": {
+    "shareTitle": "3D-Replay · We-Fly",
+    "groups": {
+      "flight": "Flug",
+      "taskAndAirspace": "Task und Luftraum",
+      "community": "Community"
+    },
+    "status": {
+      "inFlightOnly": "Nur im Flug",
+      "pauseToCompute": "Zum Berechnen pausieren",
+      "nowhere": "Nirgends",
+      "signIn": "Anmelden",
+      "unavailable": "Nicht verfügbar",
+      "noneHere": "Keine hier",
+      "flewAlone": "Allein geflogen"
+    },
+    "layers": {
+      "vario": {
+        "label": "Vario",
+        "desc": "Track nach Steigwert einfärben"
+      },
+      "thermals": {
+        "label": "Thermik",
+        "desc": "Steigsäulen entlang des Tracks"
+      },
+      "wind": {
+        "label": "Wind",
+        "desc": "Windpfeil und -geschwindigkeit am Schirm"
+      },
+      "windProfile": {
+        "label": "Windprofil",
+        "desc": "Windmast nach Höhe am Startplatz"
+      },
+      "reach": {
+        "label": "Reichweite",
+        "desc": "Gelände, das mit diesem Wind und dieser Gleitzahl noch erreichbar ist. Wird in der Pause berechnet."
+      },
+      "task": {
+        "label": "Task",
+        "desc": "Wendepunkte, Zylinder und optimierte Route"
+      },
+      "airspace": {
+        "label": "Luftraum",
+        "desc": "Lufträume entlang der Route",
+        "descFile": "Aus {file}, an diesen Flug angehängt",
+        "noneFound": "Keine in der Nähe dieses Flugs gefunden"
+      },
+      "autoFocus": {
+        "label": "Auto-Fokus",
+        "desc": "Kamera rahmt jede Luftraumverletzung ein"
+      },
+      "hotspots": {
+        "label": "Hotspots",
+        "desc": "Thermikgebiete der Community"
+      },
+      "gaggle": {
+        "label": "Pulk",
+        "desc": "Andere Piloten, die zur selben Zeit vom selben Startplatz in der Luft waren",
+        "bridge": "{count, plural, one {# Pilot} other {# Piloten}} gefunden · Diese Piloten im vollständigen Vergleich öffnen"
+      }
+    }
+  },
+  "share": {
+    "tracksExcluded": "{count, plural, one {# Track ist} other {# Tracks sind}} nicht enthalten. Hochgeladene IGC-Dateien und private Piloten bleiben aus Freigabelinks draußen.",
+    "linkCopied": "Replay-Link kopiert",
+    "linkCopiedPost": "Replay-Link kopiert! Klick auf Teilen, um ihn zu posten.",
+    "failed": "Replay konnte nicht geteilt werden",
+    "shareReplay": "Replay teilen"
+  },
+  "hudShared": {
+    "progressOpacity": "Verlauf · Deckkraft",
+    "progressLength": "Verlauf · Länge",
+    "settings": "Replay-Einstellungen",
+    "settingsButton": "Einstellungen",
+    "closeSettings": "Einstellungen schließen",
+    "layers": {
+      "thermals": "Thermik",
+      "task": "Task",
+      "airspace": "Luftraum",
+      "autoFocus": "Auto-Fokus",
+      "vario": "Vario",
+      "wind": "Wind",
+      "windProfile": "Windprofil",
+      "hotspots": "Hotspots",
+      "gaggle": "Pulk",
+      "reach": "Reichweite"
+    },
+    "layerTitles": {
+      "airspace": "Kontrollierte und gesperrte Lufträume rund um den Flug (OpenAIP)",
+      "autoFocus": "We-Fly rahmt jede Luftraumverletzung automatisch ein (Kamera und Zoom)",
+      "wind": "Windpfeil am Schirm, in seiner Höhe gemessen",
+      "windProfile": "Wind nach Höhe als Mast. Erkenne die Scherung",
+      "hotspots": "Wo die Community hier in der Gegend steigt (öffentliche Flüge, zusammengefasst)",
+      "gaggle": "Andere Piloten von diesem Startplatz, die zur selben Zeit in der Luft waren",
+      "reach": "Gelände, das von hier aus mit diesem Wind und der Gleitzahl des verfolgten Piloten noch erreichbar ist (zum Berechnen pausieren)"
+    },
+    "openGaggle": "Diese Piloten im vollständigen Vergleich öffnen",
+    "compareGaggle": "Pulk vergleichen",
+    "record": "Dieses Replay als Video aufnehmen",
+    "dismissRotate": "Hinweis zum Drehen schließen",
+    "rotate": "Dreh dein Handy für eine bessere Ansicht",
+    "toggleState": "{label} {state}",
+    "on": "an",
+    "off": "aus"
+  },
+  "shared": {
+    "loading": {
+      "replay3d": "3D-Replay wird geladen…",
+      "replay": "Replay wird geladen…",
+      "tracks": "Tracks werden geladen…",
+      "track": "Track wird geladen…"
+    },
+    "unknownPilotTitle": "Unbekannter Pilot",
+    "unknownPilot": "Unbekannter Pilot",
+    "unknownTakeoff": "Unbekannter Startplatz",
+    "notFoundTitle": "Replay nicht gefunden",
+    "notFoundBody": "Dieser Replay-Link ist ungültig oder wurde entfernt.",
+    "noData": "Keine Flugdaten vorhanden",
+    "subtitle": "3D-Replay · {date}"
+  },
+  "recorder": {
+    "seconds": "{s} s",
+    "minutes": "{m} min",
+    "minutesSeconds": "{m} min {s} s",
+    "title": "Dieses 3D-Replay aufnehmen",
+    "getReady": "Mach dich bereit, zieh am Globus, um die Kamera zu lenken",
+    "rec": "REC {time}",
+    "dragToOrbit": "· ziehen zum Kreisen",
+    "stop": "Stopp",
+    "saving": "Video wird gespeichert…",
+    "savedTitle": "Aufnahme gespeichert",
+    "saved": "Die .{extension}-Datei liegt in deinen Downloads.",
+    "savedWithSize": "Die .{extension}-Datei liegt in deinen Downloads ({size}).",
+    "close": "Schließen",
+    "failedTitle": "Aufnahme fehlgeschlagen",
+    "failedBody": "Bei der Aufnahme ist etwas schiefgegangen.",
+    "briefingIntro": "Ein kurzes Briefing, bevor es losgeht. Einmal lesen, dann die Kamera fliegen.",
+    "unsupported": "Dieser Browser kann kein Canvas als Video aufnehmen. Chrome, Edge und Firefox auf dem Desktop funktionieren.",
+    "briefing": {
+      "filmed": {
+        "title": "Was du siehst, wird gefilmt",
+        "body": "Der Globus wird live in einem Durchgang aufgenommen. Es gibt kein nachträgliches Rendern: Die Einstellung, die du fliegst, ist die, die du behältst."
+      },
+      "direct": {
+        "title": "Du führst die Kamera, während es läuft",
+        "body": "Im Orbit-Modus ziehst du, um um den Schirm zu schwenken, scrollst oder ziehst mit zwei Fingern zum Zoomen und ziehst mit rechts zum Neigen. Verfolgen, Cockpit und Von oben sind nur einen Klick entfernt und lassen sich mitten in der Aufnahme wechseln."
+      },
+      "realTime": {
+        "title": "Es läuft in Echtzeit und stoppt von selbst",
+        "body": "Das Replay springt zurück zum Start, zählt herunter und nimmt bis zur Landung auf. Drück früher auf Stopp, sobald du deine Einstellung hast. Die Datei wird in jedem Fall gespeichert."
+      }
+    },
+    "panelsNotFilmed": "Die Bedienfelder rund um den Globus werden nicht gefilmt. Stattdessen werden eine kompakte Leiste mit Höhe, Vario und Geschwindigkeit sowie ein Fortschrittsbalken ins Video eingebrannt. Schalte sie unten aus, wenn du ein sauberes Bild willst.",
+    "playbackSpeed": "Wiedergabegeschwindigkeit",
+    "speedOption": "{speed}× · {length} Aufnahme",
+    "resolution": "Auflösung",
+    "fileFormat": "Dateiformat",
+    "formatHints": {
+      "mp4": "Läuft überall: Handys, soziale Apps, Videoschnitt.",
+      "webm": "Kleinere Datei bei gleicher Qualität. Am besten fürs Web."
+    },
+    "quality": "Qualität",
+    "qualityStandard": "Standard · 6 Mbps",
+    "qualityHigh": "Hoch · 12 Mbps",
+    "burnIn": "Telemetrie einbrennen",
+    "burnInHint": "Höhe, Vario, Geschwindigkeit, Uhrzeit und ein Fortschrittsbalken.",
+    "summary": "<strong>{length}</strong> Aufnahme bei {speed}× · etwa {size} · {format}",
+    "tips": "Am schärfsten wird es mit einem großen Globus, also geh in den Vollbildmodus, bevor du dieses Fenster öffnest. Lass den Tab außerdem im Vordergrund: Ein Hintergrund-Tab bremst den Globus und damit auch das Video.",
+    "cancel": "Abbrechen",
+    "start": "Aufnahme starten"
+  },
+  "flight": {
+    "alertMax": "max. {altitude}",
+    "attachedFile": "der angehängten Datei",
+    "shareTitle": "{pilot, select, other {3D-Replay von {pilot}}} · {place} · We-Fly",
+    "shareFallbackPlace": "Gleitschirmflug"
+  },
+  "recap": {
+    "unavailable": "Für diese Saison gibt es keinen Rückblick.",
+    "seasonRecap": "Saisonrückblick · {season}",
+    "season": "Saison {season}",
+    "summary": "{flights, plural, one {# Flug} other {# Flüge}}, {hours, plural, one {# Stunde} other {# Stunden}} in der Luft.",
+    "summaryCountries": "{flights, plural, one {# Flug} other {# Flüge}}, {hours, plural, one {# Stunde} other {# Stunden}} in der Luft in {countries} Ländern.",
+    "totalXc": "XC-Strecke gesamt",
+    "bestFlight": "Bester Flug",
+    "unknownTakeoff": "Unbekannter Startplatz",
+    "dateRange": "{from} bis {to}",
+    "shareTitle": "Saisonrückblick {season} von {name} · We-Fly",
+    "shareText": "{flights, plural, one {# Flug} other {# Flüge}}, {distance} XC in dieser Saison!",
+    "stats": {
+      "flights": "Flüge",
+      "airtime": "Flugzeit",
+      "sitesFlown": "Geflogene Fluggebiete",
+      "countries": "Länder"
+    },
+    "records": {
+      "title": "Persönliche Rekorde",
+      "bestXc": "Bester XC",
+      "longestFlight": "Längster Flug",
+      "highestAltitude": "Größte Höhe",
+      "strongestThermal": "Stärkster Bart",
+      "openFlight": "Flug öffnen: {label}"
+    },
+    "whereYouFlew": "Wo du geflogen bist",
+    "flightCount": "{count, plural, one {# Flug} other {# Flüge}}",
+    "monthlyActivity": "Aktivität pro Monat",
+    "peak": "Spitze im {month} · {count, plural, one {# Flug} other {# Flüge}}",
+    "ranking": {
+      "xcDistance": "XC-Strecke",
+      "flights": "Flüge",
+      "airtime": "Flugzeit",
+      "xcDistanceLower": "XC-Strecke",
+      "flightsLower": "Flüge",
+      "airtimeLower": "Flugzeit",
+      "top": "Top {pct} %",
+      "xcDistanceTooltip": "Dieser Pilot ist mehr XC-Strecke geflogen als {pct} % der Community.",
+      "flightsTooltip": "Mehr Flüge als {pct} % der Community.",
+      "airtimeTooltip": "Mehr Flugzeit als {pct} % der Community."
+    },
+    "poster": {
+      "seasonTag": "· Saison {season}",
+      "seasonLower": "Saison {season}",
+      "dateArrow": "{from} → {to}",
+      "headline": "Streckenflug auf <strong>{flights, plural, one {# Flug} other {# Flüge}}</strong>{hasWing, select, yes {, mit <strong>{wing}</strong>} other {}}{hasCountries, select, yes {, in {countries}} other {}}.",
+      "inTheAir": "in der Luft",
+      "monthlyRhythm": "Monatsrhythmus · {count, plural, one {# Flug} other {# Flüge}}",
+      "standoutFlight": "Herausragender Flug",
+      "distance": "Strecke",
+      "duration": "Dauer",
+      "avgClimb": "Ø Steigen",
+      "homeSite": "Hausberg",
+      "homeSiteShare": "{count, plural, one {Flug} other {Flüge}} · {pct} % der Saison",
+      "communityRanking": "Community-Ranking",
+      "countries": "Länder · {count}",
+      "countriesWithDistance": "Länder · {count} · {distance}",
+      "xc": "XC",
+      "footer": "we-fly.cloud · Flugbuch für Präzisionspiloten"
+    }
+  }
+}

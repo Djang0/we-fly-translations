@@ -1,0 +1,39 @@
+{
+  "attach": {
+    "titleChange": "Cambiar el archivo de espacio aéreo",
+    "titleAttach": "Adjuntar un archivo de espacio aéreo",
+    "description": "El archivo OpenAir pasa a ser el único espacio aéreo de este vuelo en el mapa, la repetición 3D y las comparaciones, y la comprobación de espacio aéreo se hace con él. Los archivos son públicos y se comparten con los pilotos de la misma manga.",
+    "usedByTaskPilots": "Usados por pilotos de esta manga",
+    "lookingForFiles": "Buscando archivos…",
+    "use": "Usar",
+    "orUploadOwn": "O sube el tuyo",
+    "chooseFile": "Elegir un archivo OpenAir",
+    "formats": "<mono>.txt</mono> o <mono>.air</mono>, hasta 8 MB. Un archivo que otro piloto ya subió se guarda una sola vez.",
+    "suggestionMeta": "{zones, plural, one {# espacio aéreo} other {# espacios aéreos}} · {size} · {attribution}",
+    "attributedBy": "Adjuntado por {who, select, you {ti} named {{name}} other {otro piloto}}{date, select, none {} other {, {date}}}{flights, plural, =0 {} =1 {} other { · usado en # vuelos}}",
+    "sizeKb": "{value} KB",
+    "sizeMb": "{value} MB",
+    "attachedFile": "Archivo de espacio aéreo {name} adjuntado",
+    "attachedUpload": "{name} adjuntado ({count, plural, one {# espacio aéreo} other {# espacios aéreos}})",
+    "tooLarge": "El archivo de espacio aéreo supera el límite de 8 MB",
+    "uploadFailed": "No se pudo adjuntar este archivo"
+  },
+  "badge": {
+    "detached": "Archivo de espacio aéreo quitado",
+    "gone": "El archivo de espacio aéreo adjunto ya no existe.",
+    "attachAnother": "Adjuntar otro",
+    "label": "Espacio aéreo",
+    "changeTitle": "{name}: cambiar el archivo de espacio aéreo",
+    "zones": "{count, plural, one {# zona} other {# zonas}}",
+    "detachAria": "Quitar el archivo de espacio aéreo"
+  },
+  "errors": {
+    "notAuthenticated": "No has iniciado sesión",
+    "invalidId": "ID no válido",
+    "invalidFlightId": "ID de vuelo no válido",
+    "fileNotFound": "Archivo de espacio aéreo no encontrado",
+    "flightNotFound": "Vuelo no encontrado",
+    "fileGone": "Este archivo de espacio aéreo se acaba de eliminar. Vuelve a subirlo.",
+    "internal": "Error interno"
+  }
+}

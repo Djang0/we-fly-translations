@@ -1,0 +1,449 @@
+{
+  "altitudeChart": {
+    "gpsAlt": "GPS-Höhe",
+    "baroAlt": "Baro-Höhe",
+    "alt": "Höhe",
+    "altitude": "Höhe",
+    "ground": "Gelände",
+    "agl": "AGL",
+    "hoverHint": "Fahr über die Kurve für Höhe, Gelände und Luftraum",
+    "lowAglLabel": "{value} AGL"
+  },
+  "benchmarks": {
+    "climb": "Steigen",
+    "climbCount": "{count, plural, one {# Bart} other {# Bärte}}",
+    "career": "Gesamt",
+    "noCareerBaseline": "noch kein Vergleichswert",
+    "site": "Fluggebiet",
+    "firstHere": "erster Flug hier",
+    "siteFlights": "{count, plural, one {# Flug} other {# Flüge}}",
+    "onPar": "im Schnitt"
+  },
+  "cta": {
+    "title": "Thermikanalyse",
+    "subtitle": "Detaillierte Auswertung",
+    "thermalCount": "{count, plural, one {# Bart} other {# Bärte}}",
+    "open": "Öffnen"
+  },
+  "floatChart": {
+    "title": "Schwebephasen nach Höhe & Zeit",
+    "description": "Mittlere Vertikalgeschwindigkeit in den Schwebephasen auf jeder Höhe über den ganzen Flug",
+    "tooltipAltitude": "{value} {unit} MSL"
+  },
+  "gFactorChart": {
+    "total": "G-Faktor gesamt",
+    "tooltip": "G-Faktor:"
+  },
+  "gFactorTab": {
+    "notAvailable": "Für diesen Flug sind keine G-Faktor-Daten verfügbar",
+    "title": "Lastvielfachen-Analyse",
+    "stats": {
+      "min": "Min. G-Faktor",
+      "max": "Max. G-Faktor",
+      "mean": "Mittlerer G-Faktor",
+      "median": "Median G-Faktor",
+      "deviation": "Standardabw."
+    },
+    "event": {
+      "title": "Höchstes Lastvielfaches",
+      "gFactor": "G-Faktor",
+      "time": "Zeit",
+      "coordinates": "Koordinaten"
+    },
+    "chart": {
+      "total": "G-Faktor gesamt",
+      "vertical": "Vertikaler G-Faktor",
+      "lateral": "Seitlicher G-Faktor",
+      "overTime": "G-Faktor im Zeitverlauf",
+      "overTimeDescription": "Verlauf des Lastvielfachen über den ganzen Flug",
+      "loading": "Diagrammdaten werden geladen …",
+      "unavailable": "Keine G-Faktor-Zeitreihe verfügbar",
+      "failed": "G-Faktor-Diagramm konnte nicht geladen werden",
+      "axis": "G-Faktor",
+      "tooltip": "G-Faktor:",
+      "normal": "1 G (normal)",
+      "noData": "Keine Diagrammdaten verfügbar"
+    },
+    "info": {
+      "title": "Was der G-Faktor bedeutet",
+      "intro": "Der <link>G-Faktor (Lastvielfaches)</link> gibt die vertikale Last an, die im Flug auftritt:",
+      "normal": "<strong>1,0 G:</strong> normale Schwerkraft (Geradeausflug)",
+      "gentle": "<strong>1,0 bis 2,0 G:</strong> sanfte Kurven und Kurbeln in der Thermik",
+      "aggressive": "<strong>2,0 bis 5,0 G:</strong> dynamische Manöver und Steilspiralen",
+      "extreme": "<strong>Über 5,0 G:</strong> extreme Manöver (nahe an den strukturellen Grenzen)",
+      "method": "Diese Analyse kombiniert die vertikale Beschleunigung (aus den Höhenänderungen) und die seitliche Beschleunigung (aus den Kurven).<br></br><b>Halte immer die zugelassenen G-Grenzen deines Schirms ein</b> (8 G während 3 Sekunden nach <standard>EN 926-1</standard>)."
+    }
+  },
+  "quality": {
+    "outstanding": "Herausragend",
+    "excellent": "Exzellent",
+    "good": "Gut",
+    "fair": "Mittel",
+    "poor": "Schwach"
+  },
+  "compass": {
+    "from": "AUS {point}",
+    "windFromAria": "Wind aus {point}"
+  },
+  "coaching": {
+    "centeringWidened": "Die Kreise wurden von {r25} (p25) auf {r75} (p75) weiter, um einen Kern von {core}: Der Bart wurde oben enger. Zieh die Kreise beim Steigen enger.",
+    "centeringOrbit": "Du bist {dist} entfernt um einen Kern von {core} gekreist (mittlerer Abstand ca. {ratio}× Kernradius). Kreis enger, wenn du das stärkste Steigen spürst.",
+    "centeringExcellent": "Exzellent zentriert: Du bist innerhalb von {dist} um einen Kern von {core} geblieben.",
+    "slowCoreEntry": "Langsam in den Kern: {seconds} s ({pct} % des Steigens), bis du das stärkste Steigen gefunden hast. Flieg anfangs weitere Kreise, um den Gradienten zu spüren.",
+    "greatCoreEntry": "Super in den Kern: stärkstes Steigen nach {seconds} s gefunden.",
+    "lowEfficiency": "Geringe Effizienz: {gain} Höhengewinn bei {drift} Versatz ({pct} %) und {wind} Wind. Kreis enger, um über dem Steigen zu bleiben.",
+    "goodEfficiency": "Gute Effizienz: {gain} Höhengewinn bei nur {drift} Versatz ({pct} %).",
+    "variabilityPoorCentering": "Starke Schwankungen (±{variability}) bei Kreisradien von {r25} bis {r75}. Eher schlecht zentriert als ein turbulenter Bart.",
+    "variabilityTurbulentCircling": "Starke Schwankungen (±{variability}) bei gleichmäßigen Kreisen von {r25} bis {r75}. Turbulenter Bart.",
+    "variabilityTurbulent": "Starke Schwankungen (±{variability}). Turbulenter Bart.",
+    "smoothClimbAirspeed": "Ruhiges, gleichmäßiges Steigen (±{variability}) bei {airspeed} Fahrt. Gut gemacht!",
+    "smoothClimb": "Ruhiges, gleichmäßiges Steigen (±{variability}). Gut gemacht!",
+    "flatBank": "Flache Schräglage ({bank}°) in einem engen Kern von {core}: Versuch es mit ca. 25°, damit dein Kurvenradius zum Steigen passt.",
+    "steepBank": "Steile Schräglage ({bank}°) in einem weiten Bart von {core}: Etwas flacher spart Fahrt und verringert das Sinken.",
+    "solidWork": "Saubere Thermikarbeit: {gain} Höhengewinn bei {pct} % Effizienz.",
+    "flightSummary": "Über {count} Bärte: medianes Zentrieren {median} %, davon {excellent} exzellent und {poor} unter 50 %.",
+    "flightSlowEntry": "Langsam in den Kern bei {count} Bärten (über 50 % des Steigens mit der Kernsuche verbracht). Flieg anfangs weitere Kreise, um den Gradienten zu spüren.",
+    "flightFlatBank": "Schräglage blieb flach (unter 20°) in {count} engen Kernen: Versuch es mit ca. 25°, damit dein Kurvenradius zum Steigen passt.",
+    "flightBestClimb": "Bestes Steigen: T#{index} um {time}, {gain} Höhengewinn, {pct} % Zentrieren, {maxClimb} konstant. Starke Arbeit.",
+    "flightWorstClimb": "Lohnt einen zweiten Blick: T#{index} um {time}, {dist} entfernt um einen Kern von {core} gekreist ({pct} % Zentrieren). Kreis enger, wenn du das stärkste Steigen spürst."
+  },
+  "chart": {
+    "resetZoom": "Zoom zurücksetzen",
+    "dragToZoom": "Zum Zoomen ziehen"
+  },
+  "trackMap": {
+    "noTrack": "Keine Trackdaten",
+    "takeoff": "Start",
+    "landing": "Landung"
+  },
+  "speedChart": {
+    "groundSpeed": "Grundgeschwindigkeit",
+    "airspeed": "Fahrt",
+    "ground": "Grund",
+    "groundTooltip": "Grund:",
+    "airspeedTooltip": "Fahrt:",
+    "hideGround": "Grundgeschwindigkeit ausblenden",
+    "showGround": "Grundgeschwindigkeit einblenden",
+    "hideAirspeed": "Fahrt ausblenden",
+    "showAirspeed": "Fahrt einblenden",
+    "resetZoom": "Zoom zurücksetzen",
+    "dragToZoom": "Zum Zoomen ziehen"
+  },
+  "speedMap": {
+    "showPickerAria": "Auswahl der Geschwindigkeitsebene anzeigen",
+    "collapsePickerAria": "Auswahl der Geschwindigkeitsebene einklappen",
+    "windUnavailable": "Für diesen Flug sind keine Winddaten verfügbar",
+    "noTrack": "Keine Trackdaten",
+    "takeoff": "Start",
+    "landing": "Landung",
+    "tickTail": "−{value} Rückenwind",
+    "tickHead": "{value} Gegenwind",
+    "tickLeft": "{value} links",
+    "tickRight": "{value} rechts",
+    "modes": {
+      "gs": "Grund",
+      "tas": "Fahrt",
+      "headwind": "Gegenwind",
+      "crosswind": "Seitenwind"
+    },
+    "modeTitles": {
+      "gs": "Grundgeschwindigkeit: was das GPS über Grund misst",
+      "tas": "Wahre Fahrt: deine Geschwindigkeit durch die Luft (Grund minus Wind)",
+      "headwind": "Gegenwindkomponente (rot = gegen den Wind, blau = mit dem Wind)",
+      "crosswind": "Seitenwindkomponente (lila = von rechts, türkis = von links)"
+    }
+  },
+  "speedTab": {
+    "loadingMap": "Karte wird geladen …",
+    "maxSpeed": "Max. Geschwindigkeit",
+    "avgSpeed": "Ø Geschwindigkeit"
+  },
+  "thermal3d": {
+    "loading": "3D-Ansicht wird geladen …",
+    "leave": "Verlassen · {altitude}",
+    "entry": "Einstieg · {altitude}",
+    "exit": "Ausstieg · {altitude}",
+    "legend": {
+      "strongLift": "Starkes Steigen",
+      "weakLift": "Schwaches Steigen",
+      "sink": "Sinken",
+      "core": "Thermikkern",
+      "leaveAltitude": "Ausstiegshöhe",
+      "currentPosition": "Aktuelle Position"
+    }
+  },
+  "qualityStrip": {
+    "efficiency": "Eff.",
+    "centering": "Zentr."
+  },
+  "scoreBreakdown": {
+    "climb": "Steigen",
+    "efficiency": "Effizienz",
+    "centering": "Zentrieren",
+    "consistency": "Gleichmäßigkeit",
+    "sustained": "Konstanz",
+    "sustainedActual": "{seconds} s · {turns} Kr.",
+    "howCalculated": "Wie wird das berechnet?"
+  },
+  "thermalCard": {
+    "selectAria": "Bart {number} auswählen",
+    "title": "Bart #{number}",
+    "resetZoomAria": "Zoom für Bart {number} zurücksetzen",
+    "resetZoomTooltip": "Zoom zurücksetzen und zentrieren",
+    "time": "Zeit",
+    "gain": "Gewinn",
+    "climb": "Steigen"
+  },
+  "timelineStrip": {
+    "listAria": "Bart auswählen"
+  },
+  "thermalDetails": {
+    "seconds": "{value} s",
+    "climb": {
+      "title": "Steigen",
+      "preview": "Ø {avg} · max. {max}",
+      "gain": "Gewinn",
+      "avg": "Ø",
+      "max": "Max.",
+      "min": "Min.",
+      "variability": "Schwank.",
+      "peak": "Spitze {value}"
+    },
+    "core": {
+      "title": "Kern",
+      "strength": "Stärke",
+      "centeringTime": "Zentrierzeit",
+      "size": "Größe",
+      "liftRadius": "Steigradius",
+      "meanDistance": "Ø Abstand",
+      "fromCore": "vom Kern",
+      "centering": "Zentrieren"
+    },
+    "turn": {
+      "title": "Kurvendynamik",
+      "preview": "{direction} · {count, plural, one {# Kreis} other {# Kreise}} · {rate}°/s",
+      "direction": "Richtung",
+      "right": "Rechts",
+      "left": "Links",
+      "turns": "Kreise",
+      "rate": "Drehrate",
+      "rateValue": "{value}°/s",
+      "bankAngle": "Schräglage",
+      "estimatedAirspeed": "geschätzte Fahrt {value}",
+      "timePerCircle": "Zeit pro Kreis",
+      "min": "min.",
+      "median": "Median",
+      "max": "max.",
+      "circleRadius": "Kreisradius",
+      "p25": "p25",
+      "p75": "p75"
+    },
+    "wind": {
+      "title": "Versatz & Wind",
+      "preview": "{speed} · Versatz {drift} · aus {compass}",
+      "speed": "Windgeschwindigkeit",
+      "driftDistance": "Versatz",
+      "direction": "Richtung",
+      "from": "aus {compass}"
+    },
+    "time": {
+      "title": "Zeit",
+      "start": "Beginn",
+      "end": "Ende",
+      "duration": "Dauer"
+    },
+    "score": {
+      "title": "Punkteaufschlüsselung",
+      "preview": "wie sich {score} zusammensetzt"
+    },
+    "tips": {
+      "title": "Empfehlungen",
+      "count": "{count, plural, one {# Tipp} other {# Tipps}}"
+    }
+  },
+  "thermalMap": {
+    "thermal": "Bart #{number}",
+    "thermalSelected": "Bart #{number} (ausgewählt)",
+    "strength": "Stärke: {value}",
+    "thermalCore": "Thermikkern",
+    "vario": "Vario: {value}",
+    "altitude": "Höhe: {value}",
+    "entryPoint": "Einstiegspunkt",
+    "exitPoint": "Ausstiegspunkt",
+    "currentPosition": "Aktuelle Position"
+  },
+  "thermalTimeAltitude": {
+    "title": "Steigwert nach Höhe & Zeit",
+    "description": "Mittleres Steigen pro Bart auf jeder Höhe über den ganzen Flug",
+    "referenceAria": "Höhenbezug",
+    "amsl": "MSL",
+    "agl": "AGL",
+    "asl": "MSL",
+    "aglTitle": "Über Startplatz (Höhengewinn über der Starthöhe)",
+    "amslTitle": "Über dem Meeresspiegel (rohe GPS-Höhe)",
+    "pointAria": "Bart #{number} um {time}, {altitude}, {climb}",
+    "pointAriaUnnumbered": "Bart um {time} auswählen, {altitude}, {climb}",
+    "ceilingEarly": "früh {altitude}",
+    "ceilingLate": "spät {altitude}",
+    "ceiling": "Basis {altitude}",
+    "thermalNumber": "Bart #{number}",
+    "tooltipAltitude": "{value} {unit} {reference}",
+    "caption": "Die gestrichelte Linie ist die nutzbare Basis des Tages: wie hoch deine Bärte typischerweise gingen (Median der Ausstiegshöhen aller Bärte mit mindestens 100 m Höhengewinn). Teilt sich die Linie in zwei Stufen, lag die Basis vormittags und nachmittags unterschiedlich hoch. Eine Stufe nach oben heißt meist, dass eine Inversion durchbrochen wurde, eine Stufe nach unten meist, dass die Thermik am Abend nachlässt."
+  },
+  "thermalsTab": {
+    "title": "Bart #{number}",
+    "view2d": "2D-Karte",
+    "view3d": "3D-Ansicht",
+    "loadError": "Flugtrack konnte nicht geladen werden",
+    "loadingTrack": "Flugtrack wird geladen …",
+    "stats": {
+      "thermals": "Bärte",
+      "best": "Bester",
+      "bestSub": "Bart #{number} · {quality}",
+      "gain": "Gewinn",
+      "avgClimb": "Ø Steigen",
+      "quality": "Qualität",
+      "median": "Median {value}"
+    },
+    "filters": {
+      "all": "Alle",
+      "best5": "Beste 5",
+      "belowMedian": "Unter Median",
+      "drifty": "Starker Versatz",
+      "driftyHint": ">30 m Versatz / 100 m Gewinn",
+      "shown": "{shown} von {total}",
+      "empty": "Kein Bart passt zu diesem Filter."
+    },
+    "animation": {
+      "play": "Abspielen",
+      "pause": "Pause",
+      "resetAria": "Animation zurücksetzen",
+      "previousFrameAria": "Vorheriges Frame",
+      "nextFrameAria": "Nächstes Frame",
+      "frame": "Frame <strong>{current}</strong><muted>/{total}</muted>",
+      "resetZoomAria": "Kartenzoom zurücksetzen",
+      "centreMap": "Karte auf diesen Bart zentrieren"
+    }
+  },
+  "varioChart": {
+    "lift": "Steigen",
+    "sink": "Sinken",
+    "tooltip": "Vario:"
+  },
+  "varioRadius": {
+    "title": "Vario vs. Kreisradius",
+    "description": "Steigwert jedes Kreises gegen seinen Kurvenradius aufgetragen. Die Farbe folgt der Vario-Skala",
+    "tooltipRadius": "Radius:",
+    "tooltipDuration": "Dauer:",
+    "tooltipDirection": "Richtung:",
+    "seconds": "{value} s",
+    "left": "Links",
+    "right": "Rechts",
+    "vario": "Vario",
+    "axisRadius": "Radius ({unit})",
+    "zones": {
+      "risky": "riskant",
+      "ideal": "ideal",
+      "ok": "ok",
+      "tighten": "enger kreisen"
+    },
+    "radius": "Radius"
+  },
+  "varioTimeAltitude": {
+    "title": "Vario nach Höhe & Zeit",
+    "description": "Steigen und Sinken über das ganze Flugprofil",
+    "tooltipAltitude": "{value} {unit} MSL"
+  },
+  "windRose": {
+    "roseAria": "Windrose. Gesamt aus {point} ({bearing}°), Streuung ±{spread}°, {count, plural, one {# Höhenband} other {# Höhenbänder}}.",
+    "bandAria": "{min} bis {max} {unit}: {speed} aus {point} ({bearing}°)",
+    "altitudeBand": "Höhenband",
+    "direction": "Richtung",
+    "speed": "Geschwindigkeit",
+    "bandRange": "{min} bis {max} {unit}",
+    "bandStats": "n = {count} · {bearing}°"
+  },
+  "windTab": {
+    "confidence": {
+      "high": "Hohe Zuverlässigkeit",
+      "medium": "Mittlere Zuverlässigkeit",
+      "low": "Geringe Zuverlässigkeit"
+    },
+    "measuredBadge": "Vom Vector Vario gemessen",
+    "measuredTooltip": "Dieser Flug wurde mit einem Vector Vario aufgezeichnet, das den Wind jede Sekunde aus Fahrt und Steuerkurs misst. Alles in diesem Tab nutzt diese Messung statt der Schätzung aus dem Thermikversatz.",
+    "sampleMeasured": "{minutes} min gemessen",
+    "sampleThermals": "{count, plural, one {# Bart ausgewertet} other {# Bärte ausgewertet}}",
+    "altitudeBands": "{count, plural, one {# Höhenband} other {# Höhenbänder}}",
+    "header": {
+      "eyebrow": "Windanalyse",
+      "fromAveraging": "Aus <accent>{bearing}</accent>, im Mittel {speed}.",
+      "averaging": "Im Mittel <accent>{speed}</accent>.",
+      "unavailable": "Für diesen Flug ließ sich kein Wind schätzen.",
+      "spreadMeasured": "Richtung · Streuung ±{spread}° über {minutes} min",
+      "spreadSamples": "Richtung · Streuung ±{spread}° über {count, plural, one {# Messpunkt} other {# Messpunkte}}"
+    },
+    "lede": {
+      "measuredHigh": "Sekunde für Sekunde über {minutes} min Flug gemessen, und die Richtung blieb stabil (±{spread}°).",
+      "measuredSwing": "Sekunde für Sekunde über {minutes} min Flug gemessen. Die Richtung schwankte um ±{spread}°. Das ist die Luft selbst, die dreht, kein Schätzrauschen.",
+      "noData": "Der Wind wird beim Kurbeln aus den Abweichungen des Tracks über Grund abgeleitet. Dieser Flug hatte nicht genug geeignete Bärte für ein Modell.",
+      "low": "Die Windrichtung streute um ±{spread}° über {count, plural, one {# Thermikmesspunkt} other {# Thermikmesspunkte}}. Nimm die Richtung mit Vorsicht, die Geschwindigkeit ist genauer.",
+      "medium": "Die Richtung stimmte auf ±{spread}° überein, über {count, plural, one {# Thermikmesspunkt} other {# Thermikmesspunkte}}. Solide genug zum Planen, aber ein Abgleich mit Radiosonden-Aufstiegen lohnt sich.",
+      "high": "Die Richtung blieb stabil (±{spread}° über {count, plural, one {# Thermikmesspunkt} other {# Thermikmesspunkte}}). Der Wind war im ganzen Steigband gleichmäßig."
+    },
+    "hero": {
+      "windFrom": "Wind aus",
+      "average": "Mittel",
+      "median": "Median {value}",
+      "range": "Bereich",
+      "rangeMeasured": "p10 · max.",
+      "rangeEstimated": "min. · max.",
+      "sample": "Stichprobe",
+      "minutesUnit": "min",
+      "readings": "{count, plural, one {# Messwert} other {# Messwerte}} · 1 Hz",
+      "thermalsUnit": "{count, plural, one {Bart} other {Bärte}}",
+      "meanAirspeed": "Mittlere Fahrt",
+      "airspeedSub": "p90 {p90} · max. {max}"
+    },
+    "conditions": {
+      "mean": "Mittelwert",
+      "meanTooltip": "Durchschnitt aller Werte. Empfindlich gegenüber Ausreißern und Extremwerten.",
+      "median": "Median",
+      "medianTooltip": "Mittlerer Wert der sortierten Reihe. Robuster als der Mittelwert, wenn die Daten schief verteilt sind.",
+      "stdDev": "Standardabw.",
+      "stdDevTooltip": "Standardabweichung: wie stark die Werte um den Mittelwert streuen. Niedriger heißt gleichmäßiger.",
+      "maximum": "Maximum",
+      "percentile10": "10. Perzentil",
+      "percentile10Tooltip": "Neun von zehn Messwerten waren stärker. Stabiler als ein reines Minimum, das ein einzelner Sensoraussetzer auf null drücken kann.",
+      "minimum": "Minimum",
+      "bearingRange": "Richtungsbereich"
+    },
+    "empty": "Zu wenig Thermikdaten, um die Windverhältnisse dieses Flugs zu schätzen.",
+    "heatmap": {
+      "eyebrow": "01 · Geschwindigkeit × Zeit × Höhe",
+      "title": "Windgeschwindigkeit nach Höhe über den Flug",
+      "ledeMeasured": "Jeder Kreis mittelt einen Ausschnitt der sekündlichen Windmessungen des Vector Vario. Das interpolierte Feld zeigt, wo die Luft stärker gearbeitet hat; fahr irgendwo darüber, um die Geschwindigkeit zu sehen.",
+      "ledeEstimated": "Jeder Kreis ist ein Bart, in dem der Wind geschätzt wurde. Das interpolierte Feld zeigt, wo die Luft stärker gearbeitet hat; fahr über einen Bart für Richtung & Geschwindigkeit."
+    },
+    "direction": {
+      "eyebrow": "02 · Richtung",
+      "title": "Woher die Luft kam",
+      "ledeRose": "Der orange Zeiger markiert die Gesamtrichtung, der lavendelfarbene Bogen die Streuung, farbige Punkte setzen jedes Höhenband auf die Rose. Der Abstand eines Punkts zur Mitte steht für die Windgeschwindigkeit.",
+      "ledeSingleBand": "Es wurde nur ein Höhenband erfasst. Der Zeiger markiert die Gesamtrichtung.",
+      "aggregateBearing": "Gesamtrichtung",
+      "aggregateNotch": "Gesamtrichtung ({bearing}°)",
+      "scatterHalo": "Streuung ±{spread}°",
+      "bandRange": "{min}-{max} {unit}",
+      "byAltitudeBand": "Nach Höhenband",
+      "bandCount": "{count, plural, one {# Band} other {# Bänder}}"
+    },
+    "detail": {
+      "readings": "Details · {count, plural, one {# Messwert} other {# Messwerte}}",
+      "samples": "Details · {count, plural, one {# Messpunkt} other {alle # Messpunkte}}",
+      "bearingRangeNote": "Richtungsbereich = Mittel ± zirkuläres σ"
+    }
+  },
+  "windTimeAltitude": {
+    "altitudeAxis": "Höhe {unit}",
+    "timeAxis": "Tageszeit →"
+  }
+}

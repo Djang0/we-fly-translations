@@ -1,0 +1,96 @@
+{
+  "views": {
+    "altitude": "Altitude",
+    "vario": "Vario",
+    "speed": "Speed",
+    "gfactor": "G-Factor"
+  },
+  "panel": {
+    "title": "Annotations",
+    "add": "Add annotation",
+    "addTooltip": "Add annotation, or right-click the flight trace on any map",
+    "requestReview": "Request a review",
+    "requestReviewTooltip": "Ask a pilot to review this flight",
+    "close": "Close annotations panel",
+    "publicLabel": "Public",
+    "publicOn": "Your annotations are visible on community and shared views",
+    "publicOff": "Show your annotations on community and shared views",
+    "publicAria": "Make my annotations public",
+    "empty": "No annotations yet.",
+    "emptyHint": "Right-click a point of the flight trace on the map to add one.",
+    "blockTitle": "Block {name}?",
+    "blockTitleFallback": "Block this pilot?",
+    "blockDescription": "They will no longer be able to annotate any of your flights. Their existing annotations stay until you delete them. You can unblock them anytime from your profile page.",
+    "cancel": "Cancel",
+    "blockConfirm": "Block pilot",
+    "blockAria": "Block {name}",
+    "deleteAria": "Delete annotation"
+  },
+  "dialog": {
+    "title": "Annotate this flight",
+    "description": "Pin a remark to a moment of the flight. Plain text only: links and markup are not allowed.",
+    "flightTime": "Flight time",
+    "flightTimeAria": "Flight time of the annotation",
+    "mapView": "Map view",
+    "annotation": "Annotation",
+    "placeholder": "e.g. You left this thermal too early. The climb was still 2 m/s.",
+    "cancel": "Cancel",
+    "submit": "Add annotation"
+  },
+  "validation": {
+    "empty": "Annotation cannot be empty",
+    "tooLong": "Annotation cannot exceed {max} characters",
+    "url": "Annotation cannot contain a URL",
+    "markup": "Annotation cannot contain the characters < or >",
+    "invalidChars": "Annotation contains invalid characters"
+  },
+  "map": {
+    "annotateHere": "Annotate here",
+    "seeAirspaces": "See airspaces ({count})"
+  },
+  "reviewer": {
+    "title": "Request a review",
+    "description": "Ask a more experienced pilot to review this flight and leave annotations on the track. Enter the exact email address they use on We-Fly. For privacy, pilots cannot be browsed or searched.",
+    "placeholder": "pilot@example.com",
+    "hint": "The pilot will receive an email and a notification asking them to review this flight.",
+    "incomplete": "Enter a complete email address.",
+    "checking": "Checking…",
+    "found": "This email matches a pilot on We-Fly.",
+    "notFound": "No pilot with this email accepts review requests.",
+    "send": "Send request",
+    "sent": "Review request sent",
+    "sendFailed": "Failed to send review request"
+  },
+  "toasts": {
+    "added": "Annotation added",
+    "addFailed": "Failed to add annotation",
+    "deleted": "Annotation deleted",
+    "deleteFailed": "Failed to delete annotation",
+    "blocked": "Pilot blocked from annotating your flights",
+    "blockFailed": "Failed to block pilot",
+    "visibilityOn": "Your annotations are now visible on community and shared views",
+    "visibilityOff": "Your annotations are private again",
+    "visibilityFailed": "Failed to update visibility"
+  },
+  "errors": {
+    "notAuthenticated": "Not authenticated",
+    "invalidFlightId": "Invalid flight id",
+    "flightNotFound": "Flight not found",
+    "notWhileImpersonating": "Not available while impersonating",
+    "invalidMapView": "Invalid map view",
+    "invalidTimeCode": "Invalid flight time code",
+    "timeCodeOutOfRange": "Flight time code is out of range",
+    "notAllowed": "You are not allowed to annotate this flight",
+    "addFailed": "Failed to add annotation",
+    "visibilityFailed": "Failed to update visibility",
+    "invalidAnnotation": "Invalid annotation",
+    "annotationNotFound": "Annotation not found",
+    "deleteFailed": "Failed to delete annotation",
+    "cannotBlockSelf": "You cannot block yourself",
+    "blockFailed": "Failed to block annotator",
+    "invalidUser": "Invalid user",
+    "unblockFailed": "Failed to unblock annotator",
+    "commentTooLong": "Comment cannot exceed {max} characters",
+    "internal": "Internal error"
+  }
+}

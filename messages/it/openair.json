@@ -1,0 +1,39 @@
+{
+  "attach": {
+    "titleChange": "Cambia file degli spazi aerei",
+    "titleAttach": "Allega un file degli spazi aerei",
+    "description": "Il file OpenAir diventa l'unico spazio aereo di questo volo sulla mappa, nel replay 3D e nei confronti, e il controllo degli spazi aerei viene fatto su di esso. I file sono pubblici e condivisi con i piloti dello stesso task.",
+    "usedByTaskPilots": "Usati dai piloti di questo task",
+    "lookingForFiles": "Ricerca dei file…",
+    "use": "Usa",
+    "orUploadOwn": "Oppure carica il tuo",
+    "chooseFile": "Scegli un file OpenAir",
+    "formats": "<mono>.txt</mono> o <mono>.air</mono>, fino a 8 MB. Un file già caricato da un altro pilota viene salvato una sola volta.",
+    "suggestionMeta": "{zones, plural, one {# spazio aereo} other {# spazi aerei}} · {size} · {attribution}",
+    "attributedBy": "Allegato da {who, select, you {te} named {{name}} other {un altro pilota}}{date, select, none {} other {, {date}}}{flights, plural, =0 {} =1 {} other { · usato su # voli}}",
+    "sizeKb": "{value} KB",
+    "sizeMb": "{value} MB",
+    "attachedFile": "File degli spazi aerei {name} allegato",
+    "attachedUpload": "{name} allegato ({count, plural, one {# spazio aereo} other {# spazi aerei}})",
+    "tooLarge": "Il file degli spazi aerei supera il limite di 8 MB",
+    "uploadFailed": "Impossibile allegare questo file"
+  },
+  "badge": {
+    "detached": "File degli spazi aerei rimosso",
+    "gone": "Il file degli spazi aerei allegato non esiste più.",
+    "attachAnother": "Allegane un altro",
+    "label": "Spazio aereo",
+    "changeTitle": "{name}: cambia il file degli spazi aerei",
+    "zones": "{count, plural, one {# zona} other {# zone}}",
+    "detachAria": "Rimuovi il file degli spazi aerei"
+  },
+  "errors": {
+    "notAuthenticated": "Non autenticato",
+    "invalidId": "ID non valido",
+    "invalidFlightId": "ID del volo non valido",
+    "fileNotFound": "File degli spazi aerei non trovato",
+    "flightNotFound": "Volo non trovato",
+    "fileGone": "Questo file degli spazi aerei è appena stato rimosso. Caricalo di nuovo.",
+    "internal": "Errore interno"
+  }
+}

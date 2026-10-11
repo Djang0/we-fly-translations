@@ -1,0 +1,164 @@
+{
+  "tab": {
+    "noDataTitle": "No Vector Vario data",
+    "noDataBody": "This flight was recorded with a standard IGC logger. Vector Vario data (per-second airspeed, load factor, attitude, netto, etc.) appears here when the IGC contains LXVV records.",
+    "loadFailedTitle": "Couldn't load Vector Vario samples",
+    "loadFailedBody": "{message}. The summary above is from the flight document and stays accurate; only the per-second charts depend on the sidecar.",
+    "unknownError": "Unknown error"
+  },
+  "hero": {
+    "title": "Vector Vario",
+    "profilePro": "Pro",
+    "profileClassic": "Classic",
+    "samplesAndCadence": "{samples} samples · {cadence} Hz",
+    "meanAirspeed": "Mean airspeed",
+    "meanAirspeedSub": "IAS · p90 {value}",
+    "peakLoad": "Peak load factor",
+    "peakLoadSub": "mean {value}",
+    "meanNetto": "Mean netto",
+    "meanNettoSub": "free altitude {altitude}",
+    "temperatureRange": "Temperature range",
+    "temperatureRangeSub": "mean RH {value}%"
+  },
+  "compass": {
+    "n": "N",
+    "e": "E",
+    "s": "S",
+    "w": "W"
+  },
+  "noCompass": "This logger has no compass, so its per-second wind isn't a direct measurement: drawn as arrows it just tracks your direction of travel. See the Wind tab for the wind We-Fly derives from the drift of your circles.",
+  "airspeed": {
+    "title": "Airspeed",
+    "titleFull": "Airspeed (IAS vs TAS)",
+    "empty": "No airspeed samples on this flight.",
+    "description": "IAS is the raw pitot reading. TAS is IAS corrected for local air density via per-sample temperature and humidity."
+  },
+  "attitude": {
+    "title": "Pitch & roll",
+    "empty": "No attitude samples on this flight.",
+    "description": "Pitch (nose up/down) and roll (bank left/right). Positive pitch is nose-up; positive roll is right wing down.",
+    "pitch": "Pitch",
+    "roll": "Roll"
+  },
+  "gforce": {
+    "title": "Load factor (G)",
+    "empty": "No load-factor samples on this flight.",
+    "description": "Measured at the instrument. 1.00 G is straight-and-level; values above 2 G are typically tight banks or hard pull-ups.",
+    "series": "Load factor"
+  },
+  "heading": {
+    "title": "Heading",
+    "empty": "No heading samples on this flight.",
+    "description": "Direction the nose is pointing. Plotted as dots, because a continuous line would draw a 350° spike every time you cross due north."
+  },
+  "netto": {
+    "title": "Netto (vertical wind)",
+    "empty": "No netto samples on this flight.",
+    "description": "The vertical component of the surrounding air mass, stripped of the glider's own sink. Above 0 {unit} = ascending air, below = descending.",
+    "lift": "Lift",
+    "sink": "Sink",
+    "tooltip": "Netto"
+  },
+  "tempHumidity": {
+    "title": "Temperature & humidity",
+    "empty": "No environmental samples on this flight.",
+    "description": "Ambient air at the instrument. Dual axis: temperature on the left, relative humidity on the right.",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "tooltipTemp": "Temp",
+    "tooltipHumidity": "RH"
+  },
+  "windDirect": {
+    "titleEmpty": "Wind (measured)",
+    "title": "Wind (measured per second)",
+    "empty": "No direct wind samples on this flight.",
+    "descriptionCompass": "Speed and origin of the wind measured by Vector Vario at every fix. Origin follows the meteorological convention: wind coming FROM that direction.",
+    "descriptionNoCompass": "Per-second wind reported by the logger. This unit has no compass, so the direction tends to track your heading rather than the true wind. See the Wind tab for We-Fly's drift-derived estimate. Origin follows the meteorological convention (wind FROM).",
+    "speed": "Wind speed",
+    "direction": "Wind direction",
+    "tooltipSpeed": "Speed",
+    "tooltipFrom": "From"
+  },
+  "windMap": {
+    "titleEmpty": "Wind map",
+    "title": "Wind map (measured)",
+    "emptyCoordinates": "No per-sample coordinates on this flight (Vector Vario sidecar predates PR #6).",
+    "description": "Track in grey; {count, plural, one {# wind arrow} other {# wind arrows}} sampled across the flight. Arrows point downwind; hue rotates with direction, length scales with speed.",
+    "from": "from {degrees}°"
+  },
+  "wind3d": {
+    "title": "Wind 3D",
+    "emptyScene": "Not enough coordinates + wind samples to build a 3D scene.",
+    "description": "{points} track points and {arrows, plural, one {# wind arrow} other {# wind arrows}} in a single 3D scene. Drag to rotate, right-drag to pan, scroll to zoom.",
+    "loading": "Loading 3D scene…",
+    "controls": "Controls",
+    "controlDrag": "• Drag: rotate",
+    "controlRightDrag": "• Right-drag: pan",
+    "controlScroll": "• Scroll: zoom",
+    "sceneScale": "Scene scale",
+    "trackLength": "Track length: ~{distance} radius",
+    "altitudeRange": "Altitude: {from}-{to} {unit}"
+  },
+  "polar": {
+    "title": "Glide-phase performance",
+    "emptyDescription": "No glide-phase samples on this flight. Performance is only meaningful during steady glide.",
+    "emptyLabel": "No glide-phase (TAS, vario) samples available.",
+    "sparseDescription": "Only {samples} glide-phase samples observed, too sparse to publish per-TAS percentiles. Scatter shown for context only.",
+    "description": "Observed envelope across {published} of {total} glide-phase samples, grouped into {bin} km/h TAS bins (at least {min} samples per bin). The shaded band is the 10th-90th percentile of vario at each TAS; the solid line is the median. The dashed line is the median across each bin's coolest-netto quartile, the closest we get to \"what the wing does in non-lifting air\" without a manufacturer polar.",
+    "bandSeries": "10th-90th percentile",
+    "medianSeries": "Median vario",
+    "cleanAirSeries": "Coolest-netto-quartile median",
+    "tasAxis": "True Airspeed ({unit})",
+    "varioAxis": "Vario ({unit})",
+    "tasName": "TAS",
+    "glideCell": "Glide cell",
+    "legendBand": "10-90 pctile band",
+    "legendMedian": "Median vario",
+    "legendCleanAir": "Clean-air median (coolest netto quartile)",
+    "legendSinking": "Sinking air",
+    "legendLifting": "Lifting air",
+    "bestSinkLabel": "Best observed sink (median)",
+    "bestGlideLabel": "Best observed glide ratio (median)",
+    "bestGlideLabelNone": "Best observed glide ratio",
+    "noGlide": "No bucket reached a negative-vario median (every TAS bin was in net lift)",
+    "location": "at {speed} · {count, plural, one {# sample} other {# samples}}",
+    "spread": "10-90 pctile: {range}",
+    "spreadWithLift": "10-90 pctile: {range} (some samples were in lift, so no finite ratio)",
+    "cleanAirSink": "{value} in cool-netto quartile",
+    "cleanAirSinkAtTas": "{value} sink at this TAS in cool-netto quartile",
+    "cleanAirProxy": "Clean-air proxy: {value}",
+    "range": "{from} to {to}",
+    "caveat": "What you see is the performance of <em>pilot + wing + air</em> during glide phases of <em>this</em> flight, not the wing's published polar in still air. Bins are dropped where there are too few samples, so the chart visibly ends where the data ends. Cells are coloured by netto: blue cells were flown through sinking air, warm cells through lifting air. The dashed line aggregates the cool-netto quartile of each bin as the closest empirical proxy for the wing alone. The grey diagonal rays are glide-ratio isolines; where the clean-air line crosses one, that's the glide ratio you'd achieve at that TAS in non-lifting air. <link>Reading the chart in full →</link>",
+    "tooltipBin": "{speed} bin",
+    "tooltipPercentiles": "P10-P90",
+    "tooltipMedian": "Median",
+    "tooltipCoolMedian": "Cool-air median",
+    "tooltipSamples": "Samples",
+    "tooltipTas": "TAS",
+    "tooltipVario": "Vario",
+    "tooltipMeanNetto": "Mean netto"
+  },
+  "skewT": {
+    "title": "Skew-T log-P emagramme",
+    "empty": "Need at least two altitude bins with temperature samples to draw a skew-T profile.",
+    "description": "Temperature (warm) and dew point (cool) vs pressure, skewed 45°. Read instability where the warm profile leans steeper to the left than the green dry adiabats; stability where it leans shallower. Wind barbs run down the right edge.",
+    "pointTitle": "{altitude} · {pressure} hPa\nTemp: {temp}",
+    "pointDew": "\nDew: {dew}",
+    "pointWind": "\nWind: {direction}° · {speed}",
+    "pressureAxis": "Pressure (hPa)",
+    "altitudeAxis": "Altitude ({unit})",
+    "temperatureAxis": "Temperature ({unit})",
+    "legendTemperature": "Temperature",
+    "legendDewPoint": "Dew point",
+    "legendDry": "Dry adiabats",
+    "legendSaturated": "Saturated adiabats",
+    "legendIsotherms": "Isotherms",
+    "barbKey": "▎ flag = 50 · long = 10 · short = 5 km/h",
+    "stability": {
+      "unstable": "Unstable air mass",
+      "neutral": "Conditionally unstable",
+      "stable": "Stable air mass",
+      "unknown": "Stability"
+    }
+  }
+}

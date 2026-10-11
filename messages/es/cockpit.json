@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Cockpit",
+    "description": "Tu centro de mando de parapente. Consulta las estadísticas de tus vuelos, analiza la evolución de tu rendimiento y entiende cómo progresas como piloto.",
+    "ogTitle": "Cockpit - We-Fly"
+  },
+  "tabs": {
+    "eyebrow": "Análisis",
+    "title": "Cockpit",
+    "subtitle": "Estadísticas de tus vuelos filtrados.",
+    "subtitleCount": "Estadísticas de {count, plural, one {# vuelo filtrado} other {# vuelos filtrados}}.",
+    "flightCount": "{count, plural, one {# vuelo} other {# vuelos}}"
+  },
+  "errorState": {
+    "title": "Error al cargar los vuelos",
+    "body": "No se pudieron obtener los datos de vuelo",
+    "retry": "Reintentar",
+    "invalidFormat": "Formato de datos no válido",
+    "reload": "Recargar"
+  },
+  "summaryStrip": {
+    "entities": "{entity, select, glider {Velas} takeoff {Despegues} country {Países} season {Temporadas} other {Elementos}}",
+    "topEntity": "{entity, select, glider {Vela principal} takeoff {Despegue principal} country {País principal} season {Mejor temporada} other {Elemento principal}}",
+    "flights": "Vuelos",
+    "airTime": "Tiempo de vuelo",
+    "hoursUnit": "h",
+    "averageSub": "media {value} h / vuelo",
+    "topSub": "{hours} h · {count, plural, one {# vuelo} other {# vuelos}}"
+  },
+  "metricCard": {
+    "totalHours": "Horas totales",
+    "flights": "Vuelos",
+    "avgPerFlight": "Media por vuelo",
+    "zScore": "Puntuación z",
+    "hoursUnit": "h"
+  },
+  "statsTable": {
+    "rank": "Puesto",
+    "flights": "Vuelos",
+    "totalHours": "Horas totales",
+    "avgPerFlight": "Media/vuelo",
+    "zScore": "Puntuación z",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# vuelo} other {# vuelos}} · media {value} h"
+  },
+  "chartTabs": {
+    "title": "Análisis visual",
+    "defaultDescription": "Compara según distintas métricas.",
+    "metric": "Métrica",
+    "duration": "Duración",
+    "count": "Número",
+    "zScore": "Puntuación z",
+    "seriesCount": "Número de vuelos",
+    "seriesAirTime": "Tiempo de vuelo",
+    "seriesEfficiency": "Eficiencia",
+    "seriesZScore": "Puntuación z"
+  },
+  "linkableMetric": {
+    "showDetailChart": "Ver el gráfico detallado de {label}",
+    "viewFlight": "Ver el vuelo con {label}: {value}"
+  },
+  "overview": {
+    "loadingVisualization": "Cargando visualización...",
+    "error": {
+      "title": "No se pudieron cargar los datos de vuelo",
+      "body": "Hubo un error al cargar tus estadísticas de vuelo. Puede ser un problema temporal.",
+      "retry": "Reintentar"
+    },
+    "empty": {
+      "title": "No hay datos de vuelo",
+      "body": "Tu libro de vuelo está vacío. Empieza subiendo tus archivos IGC para ver estadísticas, mapas y análisis.",
+      "cta": "Subir archivos IGC"
+    }
+  },
+  "byGlider": {
+    "emptyTitle": "No hay datos de velas",
+    "emptyBody": "Añade vuelos para ver las estadísticas de tus velas",
+    "topPerformers": "Velas destacadas",
+    "comparisonTitle": "Comparativa de velas",
+    "comparisonDescription": "Compara las métricas de rendimiento de todas tus velas",
+    "entityLabel": "Vela",
+    "chartDescription": "Compara velas según distintas métricas."
+  },
+  "byCountry": {
+    "emptyTitle": "No hay datos de países",
+    "emptyBody": "Añade vuelos para ver tus estadísticas por país",
+    "topPerformers": "Países destacados",
+    "comparisonTitle": "Comparativa de países",
+    "comparisonDescription": "Compara las métricas de rendimiento de todos los países",
+    "entityLabel": "País",
+    "chartDescription": "Compara países según distintas métricas."
+  },
+  "bySeason": {
+    "emptyTitle": "No hay datos de temporadas",
+    "emptyBody": "Añade vuelos para ver tus estadísticas por temporada",
+    "topPerformers": "Mejores temporadas",
+    "comparisonTitle": "Comparativa de temporadas",
+    "comparisonDescription": "Compara las métricas de rendimiento de todas las temporadas",
+    "entityLabel": "Temporada",
+    "chartDescription": "Compara temporadas según distintas métricas."
+  },
+  "byTakeoff": {
+    "emptyTitle": "No hay datos de despegues",
+    "emptyBody": "Añade vuelos para ver tus estadísticas por despegue",
+    "topPerformers": "Despegues destacados",
+    "tableTitle": "Despegues",
+    "tableCaption": "Comparativa ordenable con indicadores visuales. Haz clic en los encabezados para ordenar.",
+    "rank": "Puesto",
+    "location": "Despegue",
+    "flights": "Vuelos",
+    "totalHours": "Horas totales",
+    "avgPerFlight": "Media/vuelo",
+    "zScore": "Puntuación z",
+    "above": "por encima",
+    "below": "por debajo",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# vuelo} other {# vuelos}} · media {value} h"
+  },
+  "byMonth": {
+    "emptyTitle": "No hay datos mensuales",
+    "emptyBody": "Añade vuelos para ver tus estadísticas mensuales",
+    "mostActiveMonths": "Meses más activos",
+    "visualAnalysis": "Análisis visual",
+    "visualDescription": "Tendencias mensuales según distintas métricas y años.",
+    "duration": "Duración",
+    "count": "Número",
+    "zScore": "Puntuación z",
+    "viewMode": "Vista:",
+    "grouped": "Agrupado",
+    "stacked": "Apilado",
+    "years": "Años:",
+    "breakdownTitle": "Desglose mensual por año",
+    "breakdownDescription": "Compara tu actividad de vuelo por meses y años",
+    "month": "Mes",
+    "total": "Total",
+    "card": {
+      "totalFlights": "Vuelos totales",
+      "allYears": "todos los años",
+      "mostActiveYear": "Año más activo",
+      "flights": "{count, plural, one {# vuelo} other {# vuelos}}",
+      "activityByYear": "Actividad por año"
+    }
+  },
+  "byCivl": {
+    "refreshFailed": "No se pudieron actualizar los datos CIVL",
+    "loading": "Cargando…",
+    "noId": "No tienes un ID CIVL. Añádelo en los <link>ajustes del perfil</link> para ver aquí tu ranking.",
+    "title": "Ranking CIVL",
+    "updated": "Actualizado el {date}",
+    "currentStandings": "Clasificación actual",
+    "rankingHistory": "Historial del ranking",
+    "world": "Mundial",
+    "country": "País",
+    "europe": "Europa",
+    "date": "Fecha",
+    "rank": "Puesto",
+    "points": "Puntos",
+    "scoringComposition": "Composición de la puntuación"
+  },
+  "flightComment": {
+    "title": "Debriefing del piloto",
+    "ariaEditable": "Debriefing del vuelo",
+    "tooLong": "El comentario no puede superar los {max} caracteres",
+    "saveFailed": "No se pudo guardar el comentario",
+    "placeholder": "¿Qué tal el día? ¿Qué funcionó y qué no?",
+    "charsRemaining": "Quedan {count} caracteres",
+    "hint": "Cmd/Ctrl-Intro para guardar · Esc para cancelar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "edit": "Editar comentario",
+    "add": "Añade un debriefing: anota las condiciones, lo que probaste y lo que aprendiste."
+  },
+  "thermalVarioDialog": {
+    "title": "Térmica más fuerte",
+    "titleWithValue": "Térmica más fuerte: {value}",
+    "description": "Señal del vario ±5 segundos alrededor del pico, ayuda a detectar errores",
+    "peak": "Pico",
+    "peakLower": "pico",
+    "offsetSeconds": "{value} s",
+    "loading": "Cargando…",
+    "series": "Vario",
+    "errors": {
+      "fetch": "No se pudieron obtener los datos del track",
+      "insufficient": "Datos de track insuficientes",
+      "unknown": "Error desconocido"
+    }
+  },
+  "map": {
+    "emptyTitle": "No hay datos de vuelo",
+    "emptyBody": "Añade vuelos para ver tus despegues en el mapa",
+    "flights": "{count, plural, one {# vuelo} other {# vuelos}}",
+    "asl": "{altitude} s.n.m.",
+    "fullscreen": "Pantalla completa",
+    "exitFullscreen": "Salir de pantalla completa",
+    "openFullscreenAria": "Abrir el mapa a pantalla completa",
+    "exitFullscreenAria": "Salir del mapa a pantalla completa",
+    "exitFullscreenTitle": "Salir de pantalla completa (Esc)"
+  },
+  "statsUtils": {
+    "r2": {
+      "strong": "Fuerte",
+      "moderate": "Moderada",
+      "weak": "Débil",
+      "strongText": "Tendencia fuerte: la progresión de una temporada a otra es constante.",
+      "moderateText": "Tendencia moderada: hay una dirección general, pero con variaciones de un año a otro.",
+      "weakText": "Tendencia débil: los datos están dispersos; todavía no hay una progresión fiable.",
+      "tooltipTitle": "Fuerza de la tendencia (R²)",
+      "tooltipBody": "Mide lo bien que la línea discontinua se ajusta a las barras. <b>0</b> = sin tendencia, <b>1</b> = tendencia perfecta."
+    },
+    "basedOnFlights": "a partir de {count, plural, one {# vuelo} other {# vuelos}}",
+    "fadedBars": "Barras atenuadas = menos vuelos, menos fiable.",
+    "fadedDots": "Puntos atenuados = menos vuelos, menos fiable.",
+    "backfill": "{count, plural, one {<b>#</b> vuelo queda excluido porque aún no tiene {what}. Ejecuta <code>{script}</code> para incluirlo.} other {<b>#</b> vuelos quedan excluidos porque aún no tienen {what}. Ejecuta <code>{script}</code> para incluirlos.}}"
+  },
+  "zWhat": {
+    "text": "¿Te lía la puntuación z? <link>¡Échale un vistazo!</link>"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "views": {
+    "altitude": "Hoogte",
+    "vario": "Vario",
+    "speed": "Snelheid",
+    "gfactor": "G-factor"
+  },
+  "panel": {
+    "title": "Notities",
+    "add": "Notitie toevoegen",
+    "addTooltip": "Voeg een notitie toe, of klik met rechts op de track op een kaart",
+    "requestReview": "Review vragen",
+    "requestReviewTooltip": "Vraag een piloot om deze vlucht te bekijken",
+    "close": "Notitiepaneel sluiten",
+    "publicLabel": "Openbaar",
+    "publicOn": "Je notities zijn zichtbaar in de community en in gedeelde weergaven",
+    "publicOff": "Toon je notities in de community en in gedeelde weergaven",
+    "publicAria": "Mijn notities openbaar maken",
+    "empty": "Nog geen notities.",
+    "emptyHint": "Klik met rechts op een punt van de track op de kaart om er een toe te voegen.",
+    "blockTitle": "{name} blokkeren?",
+    "blockTitleFallback": "Deze piloot blokkeren?",
+    "blockDescription": "Deze piloot kan dan geen notities meer zetten bij je vluchten. Bestaande notities blijven staan tot je ze verwijdert. Je kunt de blokkering altijd opheffen via je profielpagina.",
+    "cancel": "Annuleren",
+    "blockConfirm": "Piloot blokkeren",
+    "blockAria": "{name} blokkeren",
+    "deleteAria": "Notitie verwijderen"
+  },
+  "dialog": {
+    "title": "Notitie bij deze vlucht",
+    "description": "Koppel een opmerking aan een moment van de vlucht. Alleen platte tekst: links en opmaak zijn niet toegestaan.",
+    "flightTime": "Vluchttijdstip",
+    "flightTimeAria": "Tijdstip van de notitie in de vlucht",
+    "mapView": "Kaartweergave",
+    "annotation": "Notitie",
+    "placeholder": "Bijv. Je verliet deze thermiek te vroeg. Hij ging nog 2 m/s.",
+    "cancel": "Annuleren",
+    "submit": "Notitie toevoegen"
+  },
+  "validation": {
+    "empty": "Een notitie mag niet leeg zijn",
+    "tooLong": "Een notitie mag niet langer zijn dan {max} tekens",
+    "url": "Een notitie mag geen URL bevatten",
+    "markup": "Een notitie mag de tekens < of > niet bevatten",
+    "invalidChars": "De notitie bevat ongeldige tekens"
+  },
+  "map": {
+    "annotateHere": "Notitie hier",
+    "seeAirspaces": "Luchtruimen bekijken ({count})"
+  },
+  "reviewer": {
+    "title": "Review vragen",
+    "description": "Vraag een meer ervaren piloot om deze vlucht te bekijken en notities op de track te zetten. Vul het exacte e-mailadres in dat die piloot op We-Fly gebruikt. Om privacyredenen kun je piloten niet doorbladeren of zoeken.",
+    "placeholder": "piloot@voorbeeld.nl",
+    "hint": "De piloot krijgt een e-mail en een melding met de vraag om deze vlucht te bekijken.",
+    "incomplete": "Vul een volledig e-mailadres in.",
+    "checking": "Controleren…",
+    "found": "Dit e-mailadres hoort bij een piloot op We-Fly.",
+    "notFound": "Geen piloot met dit e-mailadres aanvaardt reviewverzoeken.",
+    "send": "Verzoek versturen",
+    "sent": "Reviewverzoek verstuurd",
+    "sendFailed": "Reviewverzoek versturen mislukt"
+  },
+  "toasts": {
+    "added": "Notitie toegevoegd",
+    "addFailed": "Notitie toevoegen mislukt",
+    "deleted": "Notitie verwijderd",
+    "deleteFailed": "Notitie verwijderen mislukt",
+    "blocked": "Piloot kan geen notities meer zetten bij je vluchten",
+    "blockFailed": "Piloot blokkeren mislukt",
+    "visibilityOn": "Je notities zijn nu zichtbaar in de community en in gedeelde weergaven",
+    "visibilityOff": "Je notities zijn weer privé",
+    "visibilityFailed": "Zichtbaarheid bijwerken mislukt"
+  },
+  "errors": {
+    "notAuthenticated": "Niet ingelogd",
+    "invalidFlightId": "Ongeldige vlucht-id",
+    "flightNotFound": "Vlucht niet gevonden",
+    "notWhileImpersonating": "Niet beschikbaar tijdens impersonatie",
+    "invalidMapView": "Ongeldige kaartweergave",
+    "invalidTimeCode": "Ongeldige tijdcode",
+    "timeCodeOutOfRange": "Tijdcode valt buiten de vlucht",
+    "notAllowed": "Je mag geen notities zetten bij deze vlucht",
+    "addFailed": "Notitie toevoegen mislukt",
+    "visibilityFailed": "Zichtbaarheid bijwerken mislukt",
+    "invalidAnnotation": "Ongeldige notitie",
+    "annotationNotFound": "Notitie niet gevonden",
+    "deleteFailed": "Notitie verwijderen mislukt",
+    "cannotBlockSelf": "Je kunt jezelf niet blokkeren",
+    "blockFailed": "Piloot blokkeren mislukt",
+    "invalidUser": "Ongeldige gebruiker",
+    "unblockFailed": "Blokkering opheffen mislukt",
+    "commentTooLong": "Een opmerking mag niet langer zijn dan {max} tekens",
+    "internal": "Interne fout"
+  }
+}

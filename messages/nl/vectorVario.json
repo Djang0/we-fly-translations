@@ -1,0 +1,164 @@
+{
+  "tab": {
+    "noDataTitle": "Geen Vector Vario-gegevens",
+    "noDataBody": "Deze vlucht is opgenomen met een standaard IGC-logger. Vector Vario-gegevens (luchtsnelheid per seconde, belastingsfactor, stand, netto, enz.) verschijnen hier wanneer het IGC-bestand LXVV-records bevat.",
+    "loadFailedTitle": "Kon de Vector Vario-samples niet laden",
+    "loadFailedBody": "{message}. Het overzicht hierboven komt uit het vluchtdocument en blijft correct; alleen de grafieken per seconde hangen af van het sidecar-bestand.",
+    "unknownError": "Onbekende fout"
+  },
+  "hero": {
+    "title": "Vector Vario",
+    "profilePro": "Pro",
+    "profileClassic": "Classic",
+    "samplesAndCadence": "{samples} samples · {cadence} Hz",
+    "meanAirspeed": "Gem. luchtsnelheid",
+    "meanAirspeedSub": "IAS · p90 {value}",
+    "peakLoad": "Max. belastingsfactor",
+    "peakLoadSub": "gem. {value}",
+    "meanNetto": "Gem. netto",
+    "meanNettoSub": "vrije hoogte {altitude}",
+    "temperatureRange": "Temperatuurbereik",
+    "temperatureRangeSub": "gem. RV {value}%"
+  },
+  "compass": {
+    "n": "N",
+    "e": "O",
+    "s": "Z",
+    "w": "W"
+  },
+  "noCompass": "Deze logger heeft geen kompas, dus de wind per seconde is geen directe meting: als pijlen getekend volgt hij gewoon je vliegrichting. Kijk in het tabblad Wind voor de wind die We-Fly afleidt uit de drift van je cirkels.",
+  "airspeed": {
+    "title": "Luchtsnelheid",
+    "titleFull": "Luchtsnelheid (IAS vs TAS)",
+    "empty": "Geen luchtsnelheidssamples in deze vlucht.",
+    "description": "IAS is de ruwe pitotmeting. TAS is de IAS gecorrigeerd voor de lokale luchtdichtheid via temperatuur en vochtigheid per sample."
+  },
+  "attitude": {
+    "title": "Pitch en rol",
+    "empty": "Geen standsamples in deze vlucht.",
+    "description": "Pitch (neus omhoog/omlaag) en rol (helling links/rechts). Positieve pitch is neus omhoog; positieve rol is rechtervleugel omlaag.",
+    "pitch": "Pitch",
+    "roll": "Rol"
+  },
+  "gforce": {
+    "title": "Belastingsfactor (G)",
+    "empty": "Geen samples van de belastingsfactor in deze vlucht.",
+    "description": "Gemeten aan het instrument. 1,00 G is rechtuit vliegen; waarden boven 2 G zijn meestal steile bochten of stevig optrekken.",
+    "series": "Belastingsfactor"
+  },
+  "heading": {
+    "title": "Koers",
+    "empty": "Geen koerssamples in deze vlucht.",
+    "description": "Richting waarin de neus wijst. Getekend als punten, want een doorlopende lijn zou elke keer dat je pal noord kruist een piek van 350° tekenen."
+  },
+  "netto": {
+    "title": "Netto (verticale wind)",
+    "empty": "Geen nettosamples in deze vlucht.",
+    "description": "De verticale component van de omringende luchtmassa, zonder de eigen daalsnelheid van het scherm. Boven 0 {unit} = stijgende lucht, eronder = dalende lucht.",
+    "lift": "Stijgen",
+    "sink": "Dalen",
+    "tooltip": "Netto"
+  },
+  "tempHumidity": {
+    "title": "Temperatuur en vochtigheid",
+    "empty": "Geen omgevingssamples in deze vlucht.",
+    "description": "Omgevingslucht aan het instrument. Dubbele as: temperatuur links, relatieve vochtigheid rechts.",
+    "temperature": "Temperatuur",
+    "humidity": "Vochtigheid",
+    "tooltipTemp": "Temp",
+    "tooltipHumidity": "RV"
+  },
+  "windDirect": {
+    "titleEmpty": "Wind (gemeten)",
+    "title": "Wind (gemeten per seconde)",
+    "empty": "Geen directe windsamples in deze vlucht.",
+    "descriptionCompass": "Snelheid en herkomst van de wind, gemeten door de Vector Vario bij elk fix. De herkomst volgt de meteorologische conventie: wind die UIT die richting komt.",
+    "descriptionNoCompass": "Wind per seconde zoals de logger hem meldt. Dit toestel heeft geen kompas, dus de richting volgt eerder je koers dan de echte wind. Kijk in het tabblad Wind voor de schatting van We-Fly op basis van drift. De herkomst volgt de meteorologische conventie (wind UIT).",
+    "speed": "Windsnelheid",
+    "direction": "Windrichting",
+    "tooltipSpeed": "Snelheid",
+    "tooltipFrom": "Uit"
+  },
+  "windMap": {
+    "titleEmpty": "Windkaart",
+    "title": "Windkaart (gemeten)",
+    "emptyCoordinates": "Geen coördinaten per sample in deze vlucht (Vector Vario-sidecar van vóór PR #6).",
+    "description": "Track in grijs; {count, plural, one {# windpijl} other {# windpijlen}} verspreid over de vlucht. Pijlen wijzen met de wind mee; de kleur draait mee met de richting, de lengte schaalt met de snelheid.",
+    "from": "uit {degrees}°"
+  },
+  "wind3d": {
+    "title": "Wind 3D",
+    "emptyScene": "Niet genoeg coördinaten en windsamples om een 3D-scène te bouwen.",
+    "description": "{points} trackpunten en {arrows, plural, one {# windpijl} other {# windpijlen}} in één 3D-scène. Sleep om te draaien, sleep met rechts om te verschuiven, scroll om te zoomen.",
+    "loading": "3D-scène laden…",
+    "controls": "Bediening",
+    "controlDrag": "• Slepen: draaien",
+    "controlRightDrag": "• Rechts slepen: verschuiven",
+    "controlScroll": "• Scrollen: zoomen",
+    "sceneScale": "Schaal van de scène",
+    "trackLength": "Tracklengte: straal van ~{distance}",
+    "altitudeRange": "Hoogte: {from}-{to} {unit}"
+  },
+  "polar": {
+    "title": "Prestaties in glijvlucht",
+    "emptyDescription": "Geen samples uit glijvluchtfasen in deze vlucht. Prestaties zijn alleen zinvol tijdens een stabiele glijvlucht.",
+    "emptyLabel": "Geen samples (TAS, vario) uit glijvluchtfasen beschikbaar.",
+    "sparseDescription": "Slechts {samples} samples uit glijvluchtfasen gevonden, te weinig om percentielen per TAS te tonen. De puntenwolk staat er enkel ter context.",
+    "description": "Waargenomen envelop over {published} van {total} samples uit glijvluchtfasen, gegroepeerd in TAS-klassen van {bin} km/h (minstens {min} samples per klasse). De gearceerde band is het 10e-90e percentiel van de vario bij elke TAS; de volle lijn is de mediaan. De stippellijn is de mediaan over het kwartiel met de laagste netto in elke klasse, het dichtst dat we zonder polaire van de fabrikant bij \"wat het scherm doet in lucht zonder stijgen\" komen.",
+    "bandSeries": "10e-90e percentiel",
+    "medianSeries": "Mediane vario",
+    "cleanAirSeries": "Mediaan laagste-nettokwartiel",
+    "tasAxis": "Ware luchtsnelheid ({unit})",
+    "varioAxis": "Vario ({unit})",
+    "tasName": "TAS",
+    "glideCell": "Glijcel",
+    "legendBand": "Band 10-90 pctl",
+    "legendMedian": "Mediane vario",
+    "legendCleanAir": "Mediaan in rustige lucht (laagste nettokwartiel)",
+    "legendSinking": "Dalende lucht",
+    "legendLifting": "Stijgende lucht",
+    "bestSinkLabel": "Beste waargenomen daalsnelheid (mediaan)",
+    "bestGlideLabel": "Beste waargenomen glijgetal (mediaan)",
+    "bestGlideLabelNone": "Beste waargenomen glijgetal",
+    "noGlide": "Geen enkele klasse haalde een negatieve mediane vario (elke TAS-klasse zat in netto stijgen)",
+    "location": "bij {speed} · {count, plural, one {# sample} other {# samples}}",
+    "spread": "10-90 pctl: {range}",
+    "spreadWithLift": "10-90 pctl: {range} (sommige samples zaten in stijgende lucht, dus geen eindig glijgetal)",
+    "cleanAirSink": "{value} in het laagste nettokwartiel",
+    "cleanAirSinkAtTas": "{value} dalen bij deze TAS in het laagste nettokwartiel",
+    "cleanAirProxy": "Benadering in rustige lucht: {value}",
+    "range": "{from} tot {to}",
+    "caveat": "Wat je ziet zijn de prestaties van <em>piloot + scherm + lucht</em> tijdens de glijvluchtfasen van <em>deze</em> vlucht, niet de gepubliceerde polaire van het scherm in stilstaande lucht. Klassen met te weinig samples vallen weg, dus de grafiek stopt zichtbaar waar de data stopt. Cellen zijn gekleurd volgens netto: blauwe cellen werden door dalende lucht gevlogen, warme cellen door stijgende lucht. De stippellijn bundelt het laagste nettokwartiel van elke klasse als de beste empirische benadering van het scherm alleen. De grijze diagonale stralen zijn lijnen van gelijk glijgetal; waar de lijn voor rustige lucht er een kruist, is dat het glijgetal dat je bij die TAS in lucht zonder stijgen zou halen. <link>Lees de volledige uitleg van de grafiek →</link>",
+    "tooltipBin": "Klasse {speed}",
+    "tooltipPercentiles": "P10-P90",
+    "tooltipMedian": "Mediaan",
+    "tooltipCoolMedian": "Mediaan rustige lucht",
+    "tooltipSamples": "Samples",
+    "tooltipTas": "TAS",
+    "tooltipVario": "Vario",
+    "tooltipMeanNetto": "Gem. netto"
+  },
+  "skewT": {
+    "title": "Skew-T log-P-emagram",
+    "empty": "Er zijn minstens twee hoogteklassen met temperatuursamples nodig om een skew-T-profiel te tekenen.",
+    "description": "Temperatuur (warm) en dauwpunt (koel) tegen druk, 45° scheefgetrokken. Onstabiel is waar het warme profiel steiler naar links helt dan de groene droogadiabaten; stabiel waar het minder steil helt. Windvaantjes staan langs de rechterrand.",
+    "pointTitle": "{altitude} · {pressure} hPa\nTemp: {temp}",
+    "pointDew": "\nDauwpunt: {dew}",
+    "pointWind": "\nWind: {direction}° · {speed}",
+    "pressureAxis": "Druk (hPa)",
+    "altitudeAxis": "Hoogte ({unit})",
+    "temperatureAxis": "Temperatuur ({unit})",
+    "legendTemperature": "Temperatuur",
+    "legendDewPoint": "Dauwpunt",
+    "legendDry": "Droogadiabaten",
+    "legendSaturated": "Natadiabaten",
+    "legendIsotherms": "Isothermen",
+    "barbKey": "▎ vlag = 50 · lang = 10 · kort = 5 km/h",
+    "stability": {
+      "unstable": "Onstabiele luchtmassa",
+      "neutral": "Voorwaardelijk onstabiel",
+      "stable": "Stabiele luchtmassa",
+      "unknown": "Stabiliteit"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "attach": {
+    "titleChange": "Changer de fichier d’espaces aériens",
+    "titleAttach": "Joindre un fichier d’espaces aériens",
+    "description": "Le fichier OpenAir devient le seul jeu d’espaces aériens de ce vol sur la carte, le replay 3D et les comparaisons, et la vérification des espaces aériens se fait sur lui. Les fichiers sont publics et partagés avec les pilotes de la même manche.",
+    "usedByTaskPilots": "Utilisés par les pilotes de cette manche",
+    "lookingForFiles": "Recherche de fichiers…",
+    "use": "Utiliser",
+    "orUploadOwn": "Ou importe le tien",
+    "chooseFile": "Choisir un fichier OpenAir",
+    "formats": "<mono>.txt</mono> ou <mono>.air</mono>, 8 Mo max. Un fichier déjà importé par un autre pilote n’est stocké qu’une fois.",
+    "suggestionMeta": "{zones, plural, one {# espace aérien} other {# espaces aériens}} · {size} · {attribution}",
+    "attributedBy": "Joint par {who, select, you {toi} named {{name}} other {un autre pilote}}{date, select, none {} other {, {date}}}{flights, plural, =0 {} =1 {} one {} other { · utilisé sur # vols}}",
+    "sizeKb": "{value} Ko",
+    "sizeMb": "{value} Mo",
+    "attachedFile": "Fichier d’espaces aériens {name} joint",
+    "attachedUpload": "{name} joint ({count, plural, one {# espace aérien} other {# espaces aériens}})",
+    "tooLarge": "Le fichier d’espaces aériens dépasse la limite de 8 Mo",
+    "uploadFailed": "Impossible de joindre ce fichier"
+  },
+  "badge": {
+    "detached": "Fichier d’espaces aériens retiré",
+    "gone": "Le fichier d’espaces aériens joint n’existe plus.",
+    "attachAnother": "En joindre un autre",
+    "label": "Espaces aériens",
+    "changeTitle": "{name} : changer le fichier d’espaces aériens",
+    "zones": "{count, plural, one {# zone} other {# zones}}",
+    "detachAria": "Retirer le fichier d’espaces aériens"
+  },
+  "errors": {
+    "notAuthenticated": "Non connecté",
+    "invalidId": "Identifiant invalide",
+    "invalidFlightId": "Identifiant de vol invalide",
+    "fileNotFound": "Fichier d’espaces aériens introuvable",
+    "flightNotFound": "Vol introuvable",
+    "fileGone": "Ce fichier d’espaces aériens vient d’être supprimé. Importe-le à nouveau.",
+    "internal": "Erreur interne"
+  }
+}

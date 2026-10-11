@@ -1,0 +1,328 @@
+{
+  "trends": {
+    "title": "Trends",
+    "weekOf": "Week van {date}",
+    "controls": {
+      "metric": "Maatstaf",
+      "interval": "Interval",
+      "period": "Periode",
+      "breakdown": "Opsplitsing",
+      "display": "Weergave"
+    },
+    "metric": {
+      "airtime": "Vliegtijd",
+      "flights": "Vluchten",
+      "avgDistance": "Gem. afstand",
+      "avgAirtime": "Gem. vliegtijd",
+      "avgSpeed": "Gem. snelheid"
+    },
+    "interval": {
+      "day": "Dag",
+      "week": "Week",
+      "month": "Maand",
+      "year": "Jaar"
+    },
+    "period": {
+      "30d": "30 dagen",
+      "12m": "12 maanden",
+      "ytd": "Dit jaar",
+      "all": "Alles"
+    },
+    "breakdown": {
+      "total": "Totaal",
+      "glider": "Per scherm"
+    },
+    "display": {
+      "chart": "Grafiek",
+      "table": "Tabel"
+    },
+    "series": {
+      "total": "Alle vluchten",
+      "unknown": "Onbekend scherm",
+      "other": "Overige ({count})"
+    },
+    "caption": {
+      "table": "Binnen je filters. Open een periode om de vluchten ervan in het logboek te zien.",
+      "avgSpeed": "Gescoorde afstand gedeeld door vliegtijd, binnen je filters. Klik op een kolom om de vluchten te openen.",
+      "chart": "Binnen je filters. Klik op een kolom om de vluchten ervan in het logboek te openen."
+    },
+    "empty": {
+      "tooManyDays": "Te veel dagen om te tekenen. Kies een kortere periode of een groter interval.",
+      "tooManyWeeks": "Te veel weken om te tekenen. Kies een kortere periode of een groter interval.",
+      "none": "Geen vluchten in deze periode."
+    },
+    "tooltip": {
+      "noFlight": "Geen vlucht",
+      "flightsClickToOpen": "{count, plural, one {# vlucht} other {# vluchten}} · klik om te openen"
+    },
+    "table": {
+      "period": "Periode"
+    }
+  },
+  "thermaling": {
+    "groups": {
+      "label": "Grafiekgroep",
+      "efficiency": "Efficiëntie",
+      "volume": "Volume",
+      "technique": "Techniek",
+      "mastery": "Beheersing"
+    },
+    "empty": {
+      "title": "Geen thermiekgegevens beschikbaar",
+      "body": "Voeg vluchten met thermiekgegevens toe om je thermiekanalyses te zien"
+    },
+    "progression": "Vooruitgang van seizoen tot seizoen",
+    "notEnoughData": "Nog niet genoeg gegevens voor deze maatstaf",
+    "kpi": {
+      "medianClimb": {
+        "label": "Mediane stijging",
+        "tooltip": "Mediane netto stijgsnelheid over elke afzonderlijke thermiek in de gefilterde gegevens (hoogtewinst ÷ duur)."
+      },
+      "bestClimb": {
+        "label": "Beste stijging",
+        "tooltip": "Sterkste aanhoudende variopiek over 5 s, over alle thermieken."
+      },
+      "medianHeightGain": {
+        "label": "Mediane hoogtewinst",
+        "tooltip": "Mediane hoogtewinst per thermiek over elke afzonderlijke stijging."
+      },
+      "perHour": {
+        "label": "Thermiek/u",
+        "tooltip": "Totaal aantal thermieken ÷ totale vliegtijd (over de gefilterde gegevens)."
+      },
+      "thermalingTime": {
+        "label": "Thermiektijd",
+        "tooltip": "% van de vliegtijd besteed aan thermieken."
+      },
+      "totalThermals": {
+        "label": "Totaal thermiek"
+      },
+      "circleTime": {
+        "label": "Med. cirkeltijd",
+        "tooltip": "Mediane tijd per volle cirkel van 360° over elke afzonderlijke thermiek."
+      },
+      "circleRadius": {
+        "label": "Med. cirkelstraal",
+        "tooltip": "Mediane straal per cirkel over elke afzonderlijke thermiek."
+      },
+      "lowSaves": {
+        "label": "Low saves",
+        "tooltip": "Echte low saves: momenten waarop je bijna moest landen (≥5 min ononderbroken glijvlucht, ≥200 m hoogte verloren, laagste punt <150 m AGL boven landbaar terrein) en een thermiek je redde.",
+        "lowest": "· {value} laag"
+      }
+    },
+    "charts": {
+      "medianClimb": {
+        "title": "Stijgsnelheid",
+        "description": "Mediane stijgsnelheid per seizoen",
+        "axis": "Mediane stijging (m/s)"
+      },
+      "medianHeightGain": {
+        "title": "Hoogtewinst",
+        "description": "Mediane hoogtewinst per thermiek",
+        "axis": "Hoogtewinst (m)"
+      },
+      "perHour": {
+        "title": "Thermiekfrequentie",
+        "description": "Gevonden thermieken per vlieguur",
+        "axis": "Thermiek/u"
+      },
+      "ratio": {
+        "title": "Thermiekaandeel",
+        "description": "% van de vliegtijd besteed aan thermieken",
+        "axis": "Thermieken %"
+      },
+      "circleTime": {
+        "title": "Cirkeltijd",
+        "description": "Mediane tijd per volle cirkel van 360°, lager is krapper",
+        "axis": "Cirkeltijd (s)"
+      },
+      "circleRadius": {
+        "title": "Cirkelstraal",
+        "description": "Mediane cirkelstraal, lager betekent krappere cirkels",
+        "axis": "Cirkelstraal (m)"
+      },
+      "avgQuality": {
+        "title": "Kwaliteitsscore",
+        "description": "Gem. thermiekkwaliteit: stijging, centreren, regelmaat",
+        "axis": "Kwaliteitsscore"
+      },
+      "ceiling": {
+        "title": "Werkplafond",
+        "description": "Mediane uitstaphoogte: hoe hoog de dag ging",
+        "axis": "Werkplafond (m)"
+      }
+    },
+    "inversion": {
+      "summary": "<b>{count, number}</b> {count, plural, one {vlucht toont} other {vluchten tonen}} een duidelijke verschuiving van het plafond (doorbrekende inversie of afzwakking later op de dag).",
+      "viewList": "Lijst bekijken",
+      "title": "Dagen met een duidelijke verschuiving van het plafond",
+      "description": "Vluchten waarbij het werkplafond midden op de dag sprong of zakte: een ochtendinversie die doorbreekt, of overontwikkeling later op de dag die de werkhoogte verlaagt. Klik op een rij om de vlucht te openen.",
+      "inversionBreak": "Inversie doorbroken",
+      "ceilingDecay": "Plafond zakt"
+    },
+    "strongest": {
+      "summary": "<b>{count, number}</b> {count, plural, one {sterkste thermiek} other {sterkste thermieken}} op aanhoudende variopiek.",
+      "viewList": "Lijst bekijken",
+      "title": "Sterkste thermiek",
+      "description": "Top 10 thermieken over de gefilterde gegevens, gerangschikt op aanhoudende variopiek over 5 s. Bij gelijke stand beslist de kwaliteitsscore. Klik op een rij om naar die thermiek in de bijbehorende vlucht te springen.",
+      "qualityScore": "Kwaliteit {score, number}"
+    },
+    "lowSaves": {
+      "summary": "<b>{count, number}</b> low {count, plural, one {save} other {saves}}{hasLowest, select, yes {, laagste <b>{lowest}</b> AGL} other {}}{hasRecovery, select, yes {, <b>+{recovery}</b> teruggewonnen} other {}}.",
+      "viewList": "Lijst bekijken",
+      "title": "Low saves",
+      "description": "Momenten waarop je bijna moest landen (≥5 min ononderbroken glijvlucht, ≥200 m hoogte verloren, laagste punt onder 150 m AGL boven landbaar terrein) en een thermiek je redde. Hellingthermiek telt bewust niet mee. Top 10 over de gefilterde gegevens, gesorteerd op de laagste bereikte hoogte AGL.",
+      "searchContext": "{minutes, number} min zoeken · −{lost}",
+      "aglValue": "{value} AGL"
+    }
+  },
+  "phases": {
+    "empty": {
+      "title": "Geen fasegegevens beschikbaar",
+      "body": "Fasedetectie draait bij elke upload. Oudere vluchten moeten eerst bijgewerkt worden voordat ze hier verschijnen."
+    },
+    "phase": {
+      "thermal": "Thermiek",
+      "search": "Zoeken",
+      "glide": "Glijvlucht",
+      "float": "Zweven"
+    },
+    "radar": {
+      "thermalTime": "Thermiektijd",
+      "glideTime": "Glijtijd",
+      "glideRatio": "Glijgetal",
+      "circlesPerMin": "Cirkels/min"
+    },
+    "kpi": {
+      "glideRatio": {
+        "label": "Mediaan glijgetal",
+        "tooltip": "Mediaan glijgetal over vluchten met glijfasen."
+      },
+      "glideSpeed": {
+        "label": "Mediane glijsnelheid",
+        "tooltip": "Mediane grondsnelheid tijdens glijfasen."
+      },
+      "thermalTime": {
+        "label": "Thermiektijd",
+        "tooltip": "% van de totale vliegtijd in de thermiekfase."
+      },
+      "glideTime": {
+        "label": "Glijtijd",
+        "tooltip": "% van de totale vliegtijd in de glijfase."
+      },
+      "searchTime": {
+        "label": "Zoektijd",
+        "tooltip": "% van de totale vliegtijd besteed aan het zoeken naar stijgende lucht."
+      },
+      "floatTime": {
+        "label": "Zweeftijd",
+        "tooltip": "% van de totale vliegtijd in zweefvlucht (kleine hoogteschommelingen)."
+      },
+      "circlesPerMin": {
+        "label": "Cirkels / min",
+        "tooltip": "Gemiddeld aantal cirkels per minuut tijdens thermiekfasen."
+      }
+    },
+    "charts": {
+      "glideRatio": {
+        "title": "Glijgetal",
+        "description": "Mediaan glijgetal per seizoen, hoger is efficiënter"
+      },
+      "thermalPct": {
+        "title": "Thermiektijd %",
+        "description": "% van de vliegtijd in de thermiekfase"
+      }
+    },
+    "composition": {
+      "title": "Fasesamenstelling",
+      "description": "Hoe je tijd in de lucht verdeeld is, seizoen per seizoen"
+    },
+    "profile": {
+      "title": "Vliegprofiel",
+      "description": "Elk seizoen als veelhoek: zie de vorm evolueren",
+      "empty": "Minstens één seizoen met fasegegevens nodig"
+    },
+    "showAll": "Alles tonen",
+    "legend": {
+      "showSeason": "Seizoen {season} tonen",
+      "hideSeason": "Seizoen {season} verbergen",
+      "showPhase": "Fase {phase} tonen",
+      "hidePhase": "Fase {phase} verbergen"
+    },
+    "basedOnFlights": "op basis van {count, plural, one {# vlucht} other {# vluchten}}"
+  },
+  "overview": {
+    "pts": "ptn",
+    "gUnit": "g",
+    "headline": {
+      "totalFlights": "Totaal vluchten",
+      "totalAirTime": "Totale vliegtijd",
+      "distance": "Afstand",
+      "trackLength": "tracklengte",
+      "longestFlight": "Langste vlucht",
+      "viewLongest": "Langste vlucht bekijken: {duration}"
+    },
+    "efficiency": {
+      "title": "Vluchtefficiëntie",
+      "description": "Verdeling van de tijd tussen thermieken en glijden.",
+      "thermaling": "Thermieken",
+      "gliding": "Glijden",
+      "thermal": "Thermiek",
+      "glide": "Glijvlucht"
+    },
+    "balance": {
+      "title": "Draairichting in thermiek",
+      "description": "Verdeling van de draairichting tijdens het thermieken.",
+      "leftTurns": "Linksom",
+      "rightTurns": "Rechtsom",
+      "left": "Links",
+      "right": "Rechts"
+    },
+    "mode": {
+      "balanceTitle": "Verdeling solo/tandem",
+      "balanceDescription": "Verdeling van de vliegtijd tussen solo en tandem.",
+      "solo": "Solo",
+      "tandem": "Tandem",
+      "title": "Vliegmodus",
+      "allSolo": "Al je vluchten zijn solo.",
+      "soloFlights": "solovluchten"
+    },
+    "distance": {
+      "title": "Afstand",
+      "description": "Totaal afgelegde afstanden.",
+      "xcDistance": "XC-afstand",
+      "xcPoints": "XC-punten",
+      "trackLength": "Tracklengte"
+    },
+    "bests": {
+      "title": "Persoonlijke records",
+      "description": "Maximale waarden over alle vluchten.",
+      "maxAltitude": "Max. hoogte",
+      "maxHeightGain": "Max. hoogtewinst",
+      "maxSpeed": "Max. snelheid",
+      "bestXcDistance": "Beste XC-afstand",
+      "bestXcScore": "Beste XC-score",
+      "viewFlight": "Vlucht bekijken met {label}: {value}"
+    },
+    "lowSave": {
+      "label": "Laagste low save",
+      "agl": "{unit} AGL",
+      "regained": "+{value} {unit} teruggewonnen",
+      "ariaLabel": "Vlucht met de laagste low save bekijken: {agl} boven de grond{hasRecovery, select, yes { (+{recovery} teruggewonnen)} other {}}"
+    },
+    "performance": {
+      "title": "Prestatiecijfers",
+      "description": "Mediane waarden over alle vluchten.",
+      "circleTime": "Med. cirkeltijd",
+      "circleRadius": "Med. cirkelstraal",
+      "gFactor": "Mediane g-factor",
+      "strongestThermal": "Sterkste thermiekpiek",
+      "viewStrongest": "Vlucht met de sterkste thermiekpiek bekijken: {value}"
+    }
+  },
+  "backfill": {
+    "phases": "fasedetectie",
+    "thermaling": "geavanceerde thermiekanalyse"
+  }
+}

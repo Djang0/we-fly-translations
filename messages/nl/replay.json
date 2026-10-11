@@ -1,0 +1,349 @@
+{
+  "layers": {
+    "title": "Lagen",
+    "activeCount": "{count} aan"
+  },
+  "more": {
+    "title": "Meer",
+    "shareReplay": "Replay delen",
+    "recordVideo": "Video opnemen",
+    "hideOverlays": "Overlays verbergen",
+    "pastTrack": "Afgelegde track",
+    "opacity": "Dekking",
+    "length": "Lengte",
+    "keyboardShortcuts": "Sneltoetsen"
+  },
+  "toolbar": {
+    "camera": "Camera",
+    "cameraModes": {
+      "chase": "Volgen",
+      "cockpit": "Cockpit",
+      "top": "Boven",
+      "orbit": "Rondom"
+    },
+    "cameraAria": "Camera: {mode}",
+    "layersAria": "Lagen, {count} aan",
+    "layers": "Lagen",
+    "more": "Meer",
+    "showOverlays": "Overlays tonen"
+  },
+  "scene": {
+    "approaching": "Nadert {name}",
+    "autoFocus": "Autofocus",
+    "dragToTakeControl": "Sleep om zelf te sturen",
+    "varioLegend": "Vario · {unit}",
+    "gaggle": "Gaggle · <n>{count}</n> {count, plural, one {piloot} other {piloten}} van deze start",
+    "openComparison": "Open deze piloten in de volledige vergelijking",
+    "loadingTerrain": "Terrein laden…"
+  },
+  "telemetry": {
+    "alt": "Hoogte",
+    "agl": "AGL",
+    "vario": "Vario",
+    "speed": "Snelheid",
+    "glide": "Glijgetal",
+    "wind": "Wind",
+    "airHead": "Lucht · tegen",
+    "airTail": "Lucht · mee",
+    "time": "Tijd",
+    "timeZone": "Tijd · {zone}",
+    "windTitle": "Wind uit {degrees}° · {source, select, band {gemeten op deze hoogte} sample {dichtstbijzijnde cirkel in de tijd} other {gemiddelde van de vlucht}}",
+    "noWind": "Geen windschatting, er is nooit lang genoeg gecirkeld",
+    "following": "Gevolgd"
+  },
+  "dock": {
+    "markerLaunched": "{who} gestart · {time}",
+    "markerLanded": "{who} geland · {time}",
+    "markerBestClimb": "{who} beste stijging · {climb} · {time}",
+    "markerBiggestGap": "Grootste verschil met {name} · {gap} lager · {time}",
+    "speedAria": "Afspeelsnelheid {speed}x",
+    "timeline": "Afspeeltijdlijn",
+    "backTitle": "10 s terug (←)",
+    "backAria": "10 seconden terug",
+    "playPauseTitle": "Afspelen / pauzeren (spatie)",
+    "pause": "Pauze",
+    "play": "Afspelen",
+    "forwardTitle": "10 s vooruit (→)",
+    "forwardAria": "10 seconden vooruit",
+    "hideCharts": "Grafieken verbergen",
+    "showCharts": "Grafieken tonen",
+    "shortcutsTitle": "Sneltoetsen (?)",
+    "shortcuts": "Sneltoetsen",
+    "exitFullscreenTitle": "Volledig scherm sluiten (F)",
+    "fullscreenTitle": "Volledig scherm (F)",
+    "exitFullscreen": "Volledig scherm sluiten",
+    "enterFullscreen": "Volledig scherm",
+    "imageryCollapsed": "Beelden © Esri en bijdragers · details",
+    "speed": "Afspeelsnelheid",
+    "shortcutKeys": {
+      "play": "Spatie",
+      "seek": "← / →",
+      "fullscreen": "F",
+      "hide": "H",
+      "help": "?",
+      "escape": "Esc"
+    },
+    "shortcutHelp": {
+      "play": "Afspelen / pauzeren",
+      "seek": "10 s terug / vooruit",
+      "fullscreen": "Volledig scherm",
+      "hide": "Overlays verbergen",
+      "help": "Sneltoetsen",
+      "escape": "Menu sluiten, daarna volledig scherm verlaten"
+    }
+  },
+  "rank": {
+    "follow": "{name} volgen",
+    "hideTrace": "Track van {name} verbergen",
+    "showTrace": "Track van {name} tonen",
+    "toggleTrace": "Track tonen of verbergen",
+    "moments": "Momenten · klik om te springen",
+    "circlingTogether": "Samen aan het draaien: {names}",
+    "rank": "Positie",
+    "liveRank": "Live positie",
+    "liveRankBasis": "Live positie · {basis, select, altitude {hoogte} race {race} other {{basis}}}",
+    "clickToFollow": "klik om te volgen"
+  },
+  "shell": {
+    "close": "Sluiten"
+  },
+  "hud": {
+    "shareTitle": "3D-replay · We-Fly",
+    "groups": {
+      "flight": "Vlucht",
+      "taskAndAirspace": "Taak en luchtruim",
+      "community": "Community"
+    },
+    "status": {
+      "inFlightOnly": "Alleen in de lucht",
+      "pauseToCompute": "Pauzeer om te berekenen",
+      "nowhere": "Nergens",
+      "signIn": "Inloggen",
+      "unavailable": "Niet beschikbaar",
+      "noneHere": "Geen hier",
+      "flewAlone": "Alleen gevlogen"
+    },
+    "layers": {
+      "vario": {
+        "label": "Vario",
+        "desc": "Kleur de track naar stijgsnelheid"
+      },
+      "thermals": {
+        "label": "Thermiek",
+        "desc": "Thermiekkolommen langs de track"
+      },
+      "wind": {
+        "label": "Wind",
+        "desc": "Windpijl en windsnelheid bij het scherm"
+      },
+      "windProfile": {
+        "label": "Windprofiel",
+        "desc": "Windmast per hoogte boven de startplaats"
+      },
+      "reach": {
+        "label": "Bereik",
+        "desc": "Grond die je met deze wind en dit glijgetal nog haalt. Berekend tijdens pauze."
+      },
+      "task": {
+        "label": "Taak",
+        "desc": "Keerpunten, cilinders en optimale route"
+      },
+      "airspace": {
+        "label": "Luchtruim",
+        "desc": "Luchtruimvolumes langs de route",
+        "descFile": "Uit {file}, gekoppeld aan deze vlucht",
+        "noneFound": "Niets gevonden rond deze vlucht"
+      },
+      "autoFocus": {
+        "label": "Autofocus",
+        "desc": "Camera kadreert elke luchtruimschending"
+      },
+      "hotspots": {
+        "label": "Hotspots",
+        "desc": "Stijgzones van de community"
+      },
+      "gaggle": {
+        "label": "Gaggle",
+        "desc": "Andere piloten die op hetzelfde moment van dezelfde start in de lucht waren",
+        "bridge": "{count, plural, one {# piloot} other {# piloten}} gevonden · Open deze piloten in de volledige vergelijking"
+      }
+    }
+  },
+  "share": {
+    "tracksExcluded": "{count, plural, one {# track is} other {# tracks zijn}} niet meegenomen. Geüploade IGC's en privépiloten blijven buiten gedeelde links.",
+    "linkCopied": "Replaylink gekopieerd",
+    "linkCopiedPost": "Replaylink gekopieerd! Klik op delen om hem te posten.",
+    "failed": "Replay delen mislukt",
+    "shareReplay": "Replay delen"
+  },
+  "hudShared": {
+    "progressOpacity": "Voortgang · dekking",
+    "progressLength": "Voortgang · lengte",
+    "settings": "Replay-instellingen",
+    "settingsButton": "Instellingen",
+    "closeSettings": "Instellingen sluiten",
+    "layers": {
+      "thermals": "Thermiek",
+      "task": "Taak",
+      "airspace": "Luchtruim",
+      "autoFocus": "Autofocus",
+      "vario": "Vario",
+      "wind": "Wind",
+      "windProfile": "Windprofiel",
+      "hotspots": "Hotspots",
+      "gaggle": "Gaggle",
+      "reach": "Bereik"
+    },
+    "layerTitles": {
+      "airspace": "Gecontroleerd en beperkt luchtruim rond de vlucht (OpenAIP)",
+      "autoFocus": "Laat We-Fly elke luchtruimschending automatisch kadreren (camera + zoom)",
+      "wind": "Windpijl op het scherm, gemeten op zijn hoogte",
+      "windProfile": "Wind per hoogte, als een mast. Zie de windschering",
+      "hotspots": "Waar de community hier in de buurt stijgt (openbare vluchten, samengevoegd)",
+      "gaggle": "Andere piloten van deze start die tegelijk in de lucht waren",
+      "reach": "Grond die je van hieruit nog haalt, met deze wind en het glijgetal van de gevolgde piloot (pauzeer om te berekenen)"
+    },
+    "openGaggle": "Open deze piloten in de volledige vergelijking",
+    "compareGaggle": "Gaggle vergelijken",
+    "record": "Deze replay als video opnemen",
+    "dismissRotate": "Draaitip sluiten",
+    "rotate": "Draai je telefoon voor een beter beeld",
+    "toggleState": "{label} {state}",
+    "on": "aan",
+    "off": "uit"
+  },
+  "shared": {
+    "loading": {
+      "replay3d": "3D-replay laden…",
+      "replay": "Replay laden…",
+      "tracks": "Vluchttracks laden…",
+      "track": "Vluchttrack laden…"
+    },
+    "unknownPilotTitle": "Onbekende piloot",
+    "unknownPilot": "Onbekende piloot",
+    "unknownTakeoff": "Onbekende startplaats",
+    "notFoundTitle": "Replay niet gevonden",
+    "notFoundBody": "Deze gedeelde replaylink is ongeldig of verwijderd.",
+    "noData": "Geen vluchtgegevens beschikbaar",
+    "subtitle": "3D-replay · {date}"
+  },
+  "recorder": {
+    "seconds": "{s}s",
+    "minutes": "{m} min",
+    "minutesSeconds": "{m} min {s}s",
+    "title": "Deze 3D-replay opnemen",
+    "getReady": "Maak je klaar, sleep de wereldbol om de camera te sturen",
+    "rec": "REC {time}",
+    "dragToOrbit": "· sleep om rond te draaien",
+    "stop": "Stop",
+    "saving": "Video opslaan…",
+    "savedTitle": "Opname opgeslagen",
+    "saved": "Het .{extension}-bestand staat in je downloads.",
+    "savedWithSize": "Het .{extension}-bestand staat in je downloads ({size}).",
+    "close": "Sluiten",
+    "failedTitle": "Opname mislukt",
+    "failedBody": "Er ging iets mis tijdens de opname.",
+    "briefingIntro": "Een korte briefing voor je start. Lees het één keer en vlieg dan met de camera.",
+    "unsupported": "Deze browser kan een canvas niet als video opnemen. Chrome, Edge en Firefox op desktop werken wel.",
+    "briefing": {
+      "filmed": {
+        "title": "Wat je ziet, wordt gefilmd",
+        "body": "De wereldbol wordt live opgenomen, in één take. Er wordt achteraf niets opnieuw gerenderd: het shot dat je vliegt, is het shot dat je houdt."
+      },
+      "direct": {
+        "title": "Jij regisseert de camera tijdens het afspelen",
+        "body": "In de modus Rondom sleep je om rond het scherm te draaien, scroll of knijp je om te zoomen en sleep je met rechts om te kantelen. Volgen, Cockpit en Boven zijn één klik verwijderd en kun je midden in een take wisselen."
+      },
+      "realTime": {
+        "title": "Het loopt in echte tijd en stopt vanzelf",
+        "body": "De replay spoelt terug naar de start, telt af en neemt op tot de landing. Druk eerder op Stop zodra je je shot hebt. Het bestand wordt in elk geval opgeslagen."
+      }
+    },
+    "panelsNotFilmed": "De panelen rond de wereldbol worden niet gefilmd. In plaats daarvan worden een compacte strook met hoogte / vario / snelheid en een voortgangsbalk in de video ingebrand. Zet ze hieronder uit voor een schoon beeld.",
+    "playbackSpeed": "Afspeelsnelheid",
+    "speedOption": "{speed}× · take van {length}",
+    "resolution": "Resolutie",
+    "fileFormat": "Bestandsformaat",
+    "formatHints": {
+      "mp4": "Speelt overal af: telefoons, sociale apps, videobewerkers.",
+      "webm": "Kleiner bestand bij dezelfde kwaliteit. Ideaal voor het web."
+    },
+    "quality": "Kwaliteit",
+    "qualityStandard": "Standaard · 6 Mbps",
+    "qualityHigh": "Hoog · 12 Mbps",
+    "burnIn": "Telemetrie inbranden",
+    "burnInHint": "Hoogte, vario, snelheid, klok en een voortgangsbalk.",
+    "summary": "<strong>{length}</strong> opname op {speed}× · ongeveer {size} · {format}",
+    "tips": "De scherpste resultaten krijg je met een grote wereldbol, dus ga naar volledig scherm voor je dit paneel opent. Houd het tabblad ook vooraan: een tabblad op de achtergrond remt de wereldbol af, en de video meteen mee.",
+    "cancel": "Annuleren",
+    "start": "Opname starten"
+  },
+  "flight": {
+    "alertMax": "max {altitude}",
+    "attachedFile": "het gekoppelde bestand",
+    "shareTitle": "3D-replay van {pilot, select, other {{pilot}}} vanaf {place} · We-Fly",
+    "shareFallbackPlace": "een paraglidingvlucht"
+  },
+  "recap": {
+    "unavailable": "Geen overzicht beschikbaar voor dit seizoen.",
+    "seasonRecap": "Seizoensoverzicht · {season}",
+    "season": "Seizoen {season}",
+    "summary": "{flights, plural, one {# vlucht} other {# vluchten}}, {hours, plural, one {# uur} other {# uur}} in de lucht.",
+    "summaryCountries": "{flights, plural, one {# vlucht} other {# vluchten}}, {hours, plural, one {# uur} other {# uur}} in de lucht in {countries} landen.",
+    "totalXc": "Totale XC-afstand",
+    "bestFlight": "Beste vlucht",
+    "unknownTakeoff": "Onbekende startplaats",
+    "dateRange": "{from} tot {to}",
+    "shareTitle": "Seizoensoverzicht {season} van {name} · We-Fly",
+    "shareText": "{flights, plural, one {# vlucht} other {# vluchten}}, {distance} XC dit seizoen!",
+    "stats": {
+      "flights": "Vluchten",
+      "airtime": "Vliegtijd",
+      "sitesFlown": "Vlieggebieden",
+      "countries": "Landen"
+    },
+    "records": {
+      "title": "Persoonlijke records",
+      "bestXc": "Beste XC",
+      "longestFlight": "Langste vlucht",
+      "highestAltitude": "Grootste hoogte",
+      "strongestThermal": "Sterkste thermiek",
+      "openFlight": "Vlucht openen: {label}"
+    },
+    "whereYouFlew": "Waar je vloog",
+    "flightCount": "{count, plural, one {# vlucht} other {# vluchten}}",
+    "monthlyActivity": "Activiteit per maand",
+    "peak": "Piek {month} · {count, plural, one {# vlucht} other {# vluchten}}",
+    "ranking": {
+      "xcDistance": "XC-afstand",
+      "flights": "Vluchten",
+      "airtime": "Vliegtijd",
+      "xcDistanceLower": "XC-afstand",
+      "flightsLower": "vluchten",
+      "airtimeLower": "vliegtijd",
+      "top": "Top {pct}%",
+      "xcDistanceTooltip": "Deze piloot vloog meer XC-afstand dan {pct}% van de community.",
+      "flightsTooltip": "Meer vluchten dan {pct}% van de community.",
+      "airtimeTooltip": "Meer vliegtijd dan {pct}% van de community."
+    },
+    "poster": {
+      "seasonTag": "· seizoen {season}",
+      "seasonLower": "seizoen {season}",
+      "dateArrow": "{from} → {to}",
+      "headline": "overland, verdeeld over <strong>{flights, plural, one {# vlucht} other {# vluchten}}</strong>{hasWing, select, yes {, onder <strong>{wing}</strong>} other {}}{hasCountries, select, yes {, tussen {countries}} other {}}.",
+      "inTheAir": "in de lucht",
+      "monthlyRhythm": "Ritme per maand · {count, plural, one {# vlucht} other {# vluchten}}",
+      "standoutFlight": "Uitschieter",
+      "distance": "Afstand",
+      "duration": "Duur",
+      "avgClimb": "Gem. stijging",
+      "homeSite": "Thuisgebied",
+      "homeSiteShare": "{count, plural, one {vlucht} other {vluchten}} · {pct}% van het seizoen",
+      "communityRanking": "Positie in de community",
+      "countries": "Landen · {count}",
+      "countriesWithDistance": "Landen · {count} · {distance}",
+      "xc": "XC",
+      "footer": "we-fly.cloud · paragliding-logboek voor precieze piloten"
+    }
+  }
+}

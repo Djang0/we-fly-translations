@@ -1,0 +1,96 @@
+{
+  "views": {
+    "altitude": "Altitude",
+    "vario": "Vario",
+    "speed": "Vitesse",
+    "gfactor": "Facteur de charge"
+  },
+  "panel": {
+    "title": "Annotations",
+    "add": "Ajouter une annotation",
+    "addTooltip": "Ajoute une annotation, ou fais un clic droit sur la trace du vol sur n’importe quelle carte",
+    "requestReview": "Demander un débrief",
+    "requestReviewTooltip": "Demander à un pilote de débriefer ce vol",
+    "close": "Fermer le panneau des annotations",
+    "publicLabel": "Public",
+    "publicOn": "Tes annotations sont visibles dans la communauté et sur les vues partagées",
+    "publicOff": "Afficher tes annotations dans la communauté et sur les vues partagées",
+    "publicAria": "Rendre mes annotations publiques",
+    "empty": "Pas encore d’annotation.",
+    "emptyHint": "Fais un clic droit sur un point de la trace sur la carte pour en ajouter une.",
+    "blockTitle": "Bloquer {name} ?",
+    "blockTitleFallback": "Bloquer ce pilote ?",
+    "blockDescription": "Il ne pourra plus annoter aucun de tes vols. Ses annotations existantes restent jusqu’à ce que tu les supprimes. Tu peux le débloquer à tout moment depuis ta page de profil.",
+    "cancel": "Annuler",
+    "blockConfirm": "Bloquer le pilote",
+    "blockAria": "Bloquer {name}",
+    "deleteAria": "Supprimer l’annotation"
+  },
+  "dialog": {
+    "title": "Annoter ce vol",
+    "description": "Épingle une remarque à un moment du vol. Texte brut uniquement : les liens et le balisage ne sont pas autorisés.",
+    "flightTime": "Temps de vol",
+    "flightTimeAria": "Temps de vol de l’annotation",
+    "mapView": "Vue de carte",
+    "annotation": "Annotation",
+    "placeholder": "ex. Tu as quitté ce thermique trop tôt. Ça montait encore à 2 m/s.",
+    "cancel": "Annuler",
+    "submit": "Ajouter l’annotation"
+  },
+  "validation": {
+    "empty": "L’annotation ne peut pas être vide",
+    "tooLong": "L’annotation ne peut pas dépasser {max} caractères",
+    "url": "L’annotation ne peut pas contenir d’URL",
+    "markup": "L’annotation ne peut pas contenir les caractères < ou >",
+    "invalidChars": "L’annotation contient des caractères invalides"
+  },
+  "map": {
+    "annotateHere": "Annoter ici",
+    "seeAirspaces": "Voir les espaces aériens ({count})"
+  },
+  "reviewer": {
+    "title": "Demander un débrief",
+    "description": "Demande à un pilote plus expérimenté de débriefer ce vol et de laisser des annotations sur la trace. Saisis l’adresse e-mail exacte qu’il utilise sur We-Fly. Pour protéger la vie privée, on ne peut ni parcourir ni rechercher les pilotes.",
+    "placeholder": "pilote@exemple.com",
+    "hint": "Le pilote recevra un e-mail et une notification lui demandant de débriefer ce vol.",
+    "incomplete": "Saisis une adresse e-mail complète.",
+    "checking": "Vérification…",
+    "found": "Cette adresse correspond à un pilote sur We-Fly.",
+    "notFound": "Aucun pilote avec cette adresse n’accepte les demandes de débrief.",
+    "send": "Envoyer la demande",
+    "sent": "Demande de débrief envoyée",
+    "sendFailed": "Impossible d’envoyer la demande de débrief"
+  },
+  "toasts": {
+    "added": "Annotation ajoutée",
+    "addFailed": "Impossible d’ajouter l’annotation",
+    "deleted": "Annotation supprimée",
+    "deleteFailed": "Impossible de supprimer l’annotation",
+    "blocked": "Ce pilote ne peut plus annoter tes vols",
+    "blockFailed": "Impossible de bloquer le pilote",
+    "visibilityOn": "Tes annotations sont maintenant visibles dans la communauté et sur les vues partagées",
+    "visibilityOff": "Tes annotations sont à nouveau privées",
+    "visibilityFailed": "Impossible de modifier la visibilité"
+  },
+  "errors": {
+    "notAuthenticated": "Non connecté",
+    "invalidFlightId": "Identifiant de vol invalide",
+    "flightNotFound": "Vol introuvable",
+    "notWhileImpersonating": "Indisponible pendant l’usurpation d’identité",
+    "invalidMapView": "Vue de carte invalide",
+    "invalidTimeCode": "Repère temporel invalide",
+    "timeCodeOutOfRange": "Le repère temporel est hors du vol",
+    "notAllowed": "Tu n’as pas le droit d’annoter ce vol",
+    "addFailed": "Impossible d’ajouter l’annotation",
+    "visibilityFailed": "Impossible de modifier la visibilité",
+    "invalidAnnotation": "Annotation invalide",
+    "annotationNotFound": "Annotation introuvable",
+    "deleteFailed": "Impossible de supprimer l’annotation",
+    "cannotBlockSelf": "Tu ne peux pas te bloquer toi-même",
+    "blockFailed": "Impossible de bloquer l’annotateur",
+    "invalidUser": "Utilisateur invalide",
+    "unblockFailed": "Impossible de débloquer l’annotateur",
+    "commentTooLong": "Le commentaire ne peut pas dépasser {max} caractères",
+    "internal": "Erreur interne"
+  }
+}

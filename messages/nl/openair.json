@@ -1,0 +1,39 @@
+{
+  "attach": {
+    "titleChange": "Luchtruimbestand wijzigen",
+    "titleAttach": "Luchtruimbestand koppelen",
+    "description": "Het OpenAir-bestand wordt het enige luchtruim van deze vlucht op de kaart, in de 3D-replay en in vergelijkingen, en de luchtruimcontrole gebeurt ermee. Bestanden zijn openbaar en worden gedeeld met piloten van dezelfde taak.",
+    "usedByTaskPilots": "Gebruikt door piloten van deze taak",
+    "lookingForFiles": "Bestanden zoeken…",
+    "use": "Gebruiken",
+    "orUploadOwn": "Of upload je eigen bestand",
+    "chooseFile": "Kies een OpenAir-bestand",
+    "formats": "<mono>.txt</mono> of <mono>.air</mono>, tot 8 MB. Een bestand dat een andere piloot al uploadde, wordt maar één keer opgeslagen.",
+    "suggestionMeta": "{zones, plural, one {# luchtruim} other {# luchtruimen}} · {size} · {attribution}",
+    "attributedBy": "Gekoppeld door {who, select, you {jou} named {{name}} other {een andere piloot}}{date, select, none {} other {, {date}}}{flights, plural, =0 {} =1 {} other { · gebruikt bij # vluchten}}",
+    "sizeKb": "{value} KB",
+    "sizeMb": "{value} MB",
+    "attachedFile": "Luchtruimbestand {name} gekoppeld",
+    "attachedUpload": "{name} gekoppeld ({count, plural, one {# luchtruim} other {# luchtruimen}})",
+    "tooLarge": "Luchtruimbestand is groter dan 8 MB",
+    "uploadFailed": "Dit bestand kon niet gekoppeld worden"
+  },
+  "badge": {
+    "detached": "Luchtruimbestand ontkoppeld",
+    "gone": "Het gekoppelde luchtruimbestand bestaat niet meer.",
+    "attachAnother": "Ander bestand koppelen",
+    "label": "Luchtruim",
+    "changeTitle": "{name}: luchtruimbestand wijzigen",
+    "zones": "{count, plural, one {# zone} other {# zones}}",
+    "detachAria": "Luchtruimbestand ontkoppelen"
+  },
+  "errors": {
+    "notAuthenticated": "Niet ingelogd",
+    "invalidId": "Ongeldige id",
+    "invalidFlightId": "Ongeldige vlucht-id",
+    "fileNotFound": "Luchtruimbestand niet gevonden",
+    "flightNotFound": "Vlucht niet gevonden",
+    "fileGone": "Dit luchtruimbestand is net verwijderd. Upload het opnieuw.",
+    "internal": "Interne fout"
+  }
+}

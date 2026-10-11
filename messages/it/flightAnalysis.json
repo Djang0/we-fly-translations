@@ -1,0 +1,449 @@
+{
+  "altitudeChart": {
+    "gpsAlt": "Quota GPS",
+    "baroAlt": "Quota baro",
+    "alt": "Quota",
+    "altitude": "Quota",
+    "ground": "Suolo",
+    "agl": "AGL",
+    "hoverHint": "Passa sulla curva per quota, suolo e spazi aerei",
+    "lowAglLabel": "{value} AGL"
+  },
+  "benchmarks": {
+    "climb": "Salita",
+    "climbCount": "{count, plural, one {# salita} other {# salite}}",
+    "career": "Carriera",
+    "noCareerBaseline": "nessun riferimento di carriera",
+    "site": "Sito",
+    "firstHere": "prima volta qui",
+    "siteFlights": "{count, plural, one {# volo} other {# voli}}",
+    "onPar": "nella media"
+  },
+  "cta": {
+    "title": "Analisi delle termiche",
+    "subtitle": "Analisi avanzate",
+    "thermalCount": "{count, plural, one {# termica} other {# termiche}}",
+    "open": "Apri"
+  },
+  "floatChart": {
+    "title": "Galleggiamento per quota e ora",
+    "description": "Velocità verticale media durante le fasi di galleggiamento a ogni quota lungo tutto il volo",
+    "tooltipAltitude": "{value} {unit} s.l.m."
+  },
+  "gFactorChart": {
+    "total": "Fattore G totale",
+    "tooltip": "Fattore G:"
+  },
+  "gFactorTab": {
+    "notAvailable": "Dati del fattore G non disponibili per questo volo",
+    "title": "Analisi del fattore di carico",
+    "stats": {
+      "min": "Fattore G min",
+      "max": "Fattore G max",
+      "mean": "Fattore G medio",
+      "median": "Fattore G mediano",
+      "deviation": "Deviazione std"
+    },
+    "event": {
+      "title": "Picco del fattore di carico",
+      "gFactor": "Fattore G",
+      "time": "Ora",
+      "coordinates": "Coordinate"
+    },
+    "chart": {
+      "total": "Fattore G totale",
+      "vertical": "Fattore G verticale",
+      "lateral": "Fattore G laterale",
+      "overTime": "Fattore G nel tempo",
+      "overTimeDescription": "Variazione del fattore di carico lungo tutto il volo",
+      "loading": "Caricamento dei dati del grafico...",
+      "unavailable": "Serie temporale del fattore G non disponibile",
+      "failed": "Impossibile caricare i dati del grafico del fattore G",
+      "axis": "Fattore G",
+      "tooltip": "Fattore G:",
+      "normal": "1G (normale)",
+      "noData": "Nessun dato disponibile per il grafico"
+    },
+    "info": {
+      "title": "Capire il fattore G",
+      "intro": "Il <link>fattore G (fattore di carico)</link> rappresenta il carico verticale subito durante il volo:",
+      "normal": "<strong>1,0 G:</strong> gravità normale (volo rettilineo livellato)",
+      "gentle": "<strong>1,0-2,0 G:</strong> virate dolci e termiche",
+      "aggressive": "<strong>2,0-5,0 G:</strong> manovre aggressive e spirali",
+      "extreme": "<strong>Oltre 5,0 G:</strong> manovre estreme (vicine ai limiti strutturali)",
+      "method": "Questa analisi combina l'accelerazione verticale (dalle variazioni di quota) e quella laterale (dalle virate).<br></br><b>Rispetta sempre i limiti G certificati della tua vela</b> (8G per 3 secondi secondo la <standard>EN 926-1</standard>)."
+    }
+  },
+  "quality": {
+    "outstanding": "Eccezionale",
+    "excellent": "Ottima",
+    "good": "Buona",
+    "fair": "Discreta",
+    "poor": "Scarsa"
+  },
+  "compass": {
+    "from": "DA {point}",
+    "windFromAria": "Vento da {point}"
+  },
+  "coaching": {
+    "centeringWidened": "I giri si sono allargati da {r25} (p25) a {r75} (p75) attorno a un nucleo di {core}: salendo la termica si è stretta. Prova a stringere mentre sali.",
+    "centeringOrbit": "Hai girato a {dist} da un nucleo di {core} (distanza media ~{ratio}× il raggio del nucleo). Prova a stringere le virate quando senti la salita più forte.",
+    "centeringExcellent": "Centratura eccellente: sei rimasto entro {dist} da un nucleo di {core}.",
+    "slowCoreEntry": "Ingresso lento nel nucleo: {seconds} s ({pct}% della salita) prima di trovare la salita più forte. Prova giri iniziali più larghi per sentire il gradiente.",
+    "greatCoreEntry": "Ottimo ingresso nel nucleo: hai trovato la salita più forte in {seconds} s.",
+    "lowEfficiency": "Efficienza bassa: {gain} guadagnati per {drift} di deriva ({pct}%) con vento di {wind}. Prova virate più strette per restare nella salita.",
+    "goodEfficiency": "Buona efficienza: {gain} guadagnati con solo {drift} di deriva ({pct}%).",
+    "variabilityPoorCentering": "Variabilità alta (±{variability}) con raggio dei giri da {r25} a {r75}. Probabilmente una centratura imprecisa più che una termica turbolenta.",
+    "variabilityTurbulentCircling": "Variabilità alta (±{variability}) con giri regolari da {r25} a {r75}. Termica turbolenta.",
+    "variabilityTurbulent": "Variabilità alta (±{variability}). Termica turbolenta.",
+    "smoothClimbAirspeed": "Salita regolare e costante (±{variability}) a {airspeed} di velocità all'aria. Ben fatto!",
+    "smoothClimb": "Salita regolare e costante (±{variability}). Ben fatto!",
+    "flatBank": "Inclinazione piatta ({bank}°) in un nucleo stretto di {core}: prova ~25° per adattare il raggio di virata alla zona di salita.",
+    "steepBank": "Inclinazione forte ({bank}°) in una termica larga di {core}: allentando conserveresti velocità all'aria e ridurresti il tasso di caduta.",
+    "solidWork": "Buon lavoro in termica: {gain} guadagnati con il {pct}% di efficienza.",
+    "flightSummary": "Su {count} termiche: centratura mediana {median}%, con {excellent} eccellenti e {poor} sotto il 50%.",
+    "flightSlowEntry": "Ingresso lento nel nucleo in {count} termiche (oltre il 50% della salita speso a cercare il nucleo). Prova giri iniziali più larghi per sentire il gradiente.",
+    "flightFlatBank": "Inclinazione rimasta piatta (<20°) in {count} nuclei stretti: prova ~25° per adattare il raggio di virata alla zona di salita.",
+    "flightBestClimb": "Salita migliore: T#{index} alle {time}, {gain} guadagnati, {pct}% di centratura, {maxClimb} sostenuti. Lavoro eccellente.",
+    "flightWorstClimb": "Da rivedere: T#{index} alle {time}, hai girato a {dist} da un nucleo di {core} ({pct}% di centratura). Prova a stringere le virate quando senti la salita più forte."
+  },
+  "chart": {
+    "resetZoom": "Reimposta lo zoom",
+    "dragToZoom": "Trascina per zoomare"
+  },
+  "trackMap": {
+    "noTrack": "Nessun dato di traccia",
+    "takeoff": "Decollo",
+    "landing": "Atterraggio"
+  },
+  "speedChart": {
+    "groundSpeed": "Velocità al suolo",
+    "airspeed": "Velocità all'aria",
+    "ground": "Suolo",
+    "groundTooltip": "Suolo:",
+    "airspeedTooltip": "All'aria:",
+    "hideGround": "Nascondi la velocità al suolo",
+    "showGround": "Mostra la velocità al suolo",
+    "hideAirspeed": "Nascondi la velocità all'aria",
+    "showAirspeed": "Mostra la velocità all'aria",
+    "resetZoom": "Reimposta lo zoom",
+    "dragToZoom": "Trascina per zoomare"
+  },
+  "speedMap": {
+    "showPickerAria": "Mostra la scelta del livello di velocità",
+    "collapsePickerAria": "Comprimi la scelta del livello di velocità",
+    "windUnavailable": "Dati del vento non disponibili per questo volo",
+    "noTrack": "Nessun dato di traccia",
+    "takeoff": "Decollo",
+    "landing": "Atterraggio",
+    "tickTail": "−{value} in coda",
+    "tickHead": "{value} contrario",
+    "tickLeft": "{value} da sinistra",
+    "tickRight": "{value} da destra",
+    "modes": {
+      "gs": "Suolo",
+      "tas": "Aria",
+      "headwind": "Vento contrario",
+      "crosswind": "Vento laterale"
+    },
+    "modeTitles": {
+      "gs": "Velocità al suolo: quello che il GPS misura rispetto al terreno",
+      "tas": "Velocità all'aria vera: la tua velocità nella massa d'aria (suolo − vento)",
+      "headwind": "Componente di vento contrario (rosso = contro vento, blu = vento in coda)",
+      "crosswind": "Componente di vento laterale (viola = da destra, verde acqua = da sinistra)"
+    }
+  },
+  "speedTab": {
+    "loadingMap": "Caricamento della mappa…",
+    "maxSpeed": "Velocità max",
+    "avgSpeed": "Velocità media"
+  },
+  "thermal3d": {
+    "loading": "Caricamento della vista 3D…",
+    "leave": "Uscita · {altitude}",
+    "entry": "Ingresso · {altitude}",
+    "exit": "Uscita · {altitude}",
+    "legend": {
+      "strongLift": "Salita forte",
+      "weakLift": "Salita debole",
+      "sink": "Discendenza",
+      "core": "Nucleo della termica",
+      "leaveAltitude": "Quota di uscita",
+      "currentPosition": "Posizione attuale"
+    }
+  },
+  "qualityStrip": {
+    "efficiency": "eff",
+    "centering": "ctr"
+  },
+  "scoreBreakdown": {
+    "climb": "Salita",
+    "efficiency": "Efficienza",
+    "centering": "Centratura",
+    "consistency": "Regolarità",
+    "sustained": "Sostenuta",
+    "sustainedActual": "{seconds}s · {turns}g",
+    "howCalculated": "Come viene calcolato?"
+  },
+  "thermalCard": {
+    "selectAria": "Seleziona la termica {number}",
+    "title": "Termica #{number}",
+    "resetZoomAria": "Reimposta lo zoom della termica {number}",
+    "resetZoomTooltip": "Reimposta zoom e centratura",
+    "time": "Ora",
+    "gain": "Guadagno",
+    "climb": "Salita"
+  },
+  "timelineStrip": {
+    "listAria": "Seleziona una termica"
+  },
+  "thermalDetails": {
+    "seconds": "{value} s",
+    "climb": {
+      "title": "Salita",
+      "preview": "{avg} media · {max} max",
+      "gain": "Guadagno",
+      "avg": "Media",
+      "max": "Max",
+      "min": "Min",
+      "variability": "Variab.",
+      "peak": "picco {value}"
+    },
+    "core": {
+      "title": "Nucleo",
+      "strength": "Forza",
+      "centeringTime": "Tempo centr.",
+      "size": "Dimensione",
+      "liftRadius": "raggio di salita",
+      "meanDistance": "Dist. media",
+      "fromCore": "dal nucleo",
+      "centering": "Centratura"
+    },
+    "turn": {
+      "title": "Dinamica delle virate",
+      "preview": "{direction} · {count, plural, one {# giro} other {# giri}} · {rate}°/s",
+      "direction": "Senso",
+      "right": "Destra",
+      "left": "Sinistra",
+      "turns": "Giri",
+      "rate": "Velocità",
+      "rateValue": "{value}°/s",
+      "bankAngle": "Inclinazione",
+      "estimatedAirspeed": "vel. all'aria stimata {value}",
+      "timePerCircle": "Tempo per giro",
+      "min": "min",
+      "median": "mediana",
+      "max": "max",
+      "circleRadius": "Raggio del giro",
+      "p25": "p25",
+      "p75": "p75"
+    },
+    "wind": {
+      "title": "Deriva e vento",
+      "preview": "{speed} · deriva {drift} · da {compass}",
+      "speed": "Velocità del vento",
+      "driftDistance": "Dist. deriva",
+      "direction": "Direzione",
+      "from": "da {compass}"
+    },
+    "time": {
+      "title": "Tempo",
+      "start": "Inizio",
+      "end": "Fine",
+      "duration": "Durata"
+    },
+    "score": {
+      "title": "Dettaglio del punteggio",
+      "preview": "come si compone il {score}"
+    },
+    "tips": {
+      "title": "Consigli",
+      "count": "{count, plural, one {# consiglio} other {# consigli}}"
+    }
+  },
+  "thermalMap": {
+    "thermal": "Termica #{number}",
+    "thermalSelected": "Termica #{number} (selezionata)",
+    "strength": "Forza: {value}",
+    "thermalCore": "nucleo della termica",
+    "vario": "Vario: {value}",
+    "altitude": "Quota: {value}",
+    "entryPoint": "Punto di ingresso",
+    "exitPoint": "Punto di uscita",
+    "currentPosition": "Posizione attuale"
+  },
+  "thermalTimeAltitude": {
+    "title": "Rateo di salita per quota e ora",
+    "description": "Rateo di salita medio di ogni termica a ogni quota lungo tutto il volo",
+    "referenceAria": "Riferimento di quota",
+    "amsl": "s.l.m.",
+    "agl": "AGL",
+    "asl": "s.l.m.",
+    "aglTitle": "Sopra il decollo (quota guadagnata rispetto alla quota del decollo)",
+    "amslTitle": "Sul livello medio del mare (quota GPS grezza)",
+    "pointAria": "Termica #{number} alle {time}, {altitude}, {climb}",
+    "pointAriaUnnumbered": "Seleziona la termica alle {time}, {altitude}, {climb}",
+    "ceilingEarly": "mattino {altitude}",
+    "ceilingLate": "pomeriggio {altitude}",
+    "ceiling": "plafond {altitude}",
+    "thermalNumber": "Termica #{number}",
+    "tooltipAltitude": "{value} {unit} {reference}",
+    "caption": "La linea tratteggiata è il plafond utile della giornata: fin dove arrivavano di solito le tue salite (quota mediana di uscita delle salite con almeno 100 m di guadagno). Quando la linea si divide in due gradini, il plafond del mattino e quello del pomeriggio erano diversi. Un gradino verso l'alto di solito significa che un'inversione è saltata, uno verso il basso di solito indica il calo di fine giornata."
+  },
+  "thermalsTab": {
+    "title": "Termica #{number}",
+    "view2d": "Mappa 2D",
+    "view3d": "Vista 3D",
+    "loadError": "Impossibile caricare la traccia del volo",
+    "loadingTrack": "Caricamento della traccia del volo…",
+    "stats": {
+      "thermals": "Termiche",
+      "best": "Migliore",
+      "bestSub": "Termica #{number} · {quality}",
+      "gain": "Guadagno",
+      "avgClimb": "Salita media",
+      "quality": "Qualità",
+      "median": "mediana {value}"
+    },
+    "filters": {
+      "all": "Tutte",
+      "best5": "Migliori 5",
+      "belowMedian": "Sotto la mediana",
+      "drifty": "Con deriva",
+      "driftyHint": ">30 m di deriva / 100 m di guadagno",
+      "shown": "{shown} di {total}",
+      "empty": "Nessuna termica corrisponde a questo filtro."
+    },
+    "animation": {
+      "play": "Riproduci",
+      "pause": "Pausa",
+      "resetAria": "Reimposta l'animazione",
+      "previousFrameAria": "Fotogramma precedente",
+      "nextFrameAria": "Fotogramma successivo",
+      "frame": "Fotogramma <strong>{current}</strong><muted>/{total}</muted>",
+      "resetZoomAria": "Reimposta lo zoom della mappa",
+      "centreMap": "Centra la mappa su questa termica"
+    }
+  },
+  "varioChart": {
+    "lift": "Salita",
+    "sink": "Discendenza",
+    "tooltip": "Vario:"
+  },
+  "varioRadius": {
+    "title": "Vario e raggio dei giri",
+    "description": "Rateo di salita di ogni giro in funzione del suo raggio di virata. Il colore segue la scala del vario",
+    "tooltipRadius": "Raggio:",
+    "tooltipDuration": "Durata:",
+    "tooltipDirection": "Senso:",
+    "seconds": "{value} s",
+    "left": "Sinistra",
+    "right": "Destra",
+    "vario": "Vario",
+    "axisRadius": "raggio ({unit})",
+    "zones": {
+      "risky": "rischioso",
+      "ideal": "ideale",
+      "ok": "ok",
+      "tighten": "stringi"
+    },
+    "radius": "Raggio"
+  },
+  "varioTimeAltitude": {
+    "title": "Vario per quota e ora",
+    "description": "Rateo di salita e di discesa lungo tutto il profilo del volo",
+    "tooltipAltitude": "{value} {unit} s.l.m."
+  },
+  "windRose": {
+    "roseAria": "Rosa dei venti. Media da {point} ({bearing}°), dispersione ±{spread}°, {count, plural, one {# fascia di quota} other {# fasce di quota}}.",
+    "bandAria": "Da {min} a {max} {unit}: {speed} da {point} ({bearing}°)",
+    "altitudeBand": "Fascia di quota",
+    "direction": "Direzione",
+    "speed": "Velocità",
+    "bandRange": "{min}-{max} {unit}",
+    "bandStats": "n = {count} · {bearing}°"
+  },
+  "windTab": {
+    "confidence": {
+      "high": "Affidabilità alta",
+      "medium": "Affidabilità media",
+      "low": "Affidabilità bassa"
+    },
+    "measuredBadge": "Misurato dal Vector Vario",
+    "measuredTooltip": "Questo volo è stato registrato con un Vector Vario, che misura il vento ogni secondo a partire da velocità all'aria e prua. Tutto in questa scheda usa quella misura invece della stima ricavata dalla deriva in termica.",
+    "sampleMeasured": "{minutes} min misurati",
+    "sampleThermals": "{count, plural, one {# termica campionata} other {# termiche campionate}}",
+    "altitudeBands": "{count, plural, one {# fascia di quota} other {# fasce di quota}}",
+    "header": {
+      "eyebrow": "Analisi del vento",
+      "fromAveraging": "Da <accent>{bearing}</accent>, in media {speed}.",
+      "averaging": "In media <accent>{speed}</accent>.",
+      "unavailable": "Non è stato possibile stimare il vento per questo volo.",
+      "spreadMeasured": "direzione · dispersione di ±{spread}° su {minutes} min",
+      "spreadSamples": "direzione · dispersione di ±{spread}° su {count, plural, one {# campione} other {# campioni}}"
+    },
+    "lede": {
+      "measuredHigh": "Misurato secondo per secondo su {minutes} min di volo, e la direzione è rimasta stabile (±{spread}°).",
+      "measuredSwing": "Misurato secondo per secondo su {minutes} min di volo. La direzione ha oscillato di ±{spread}°. È l'aria stessa che girava, non rumore di stima.",
+      "noData": "Il vento si ricava dagli scarti della traccia al suolo mentre giri in termica. Questo volo non ha abbastanza termiche valide per costruire un modello.",
+      "low": "Direzione del vento dispersa di ±{spread}° su {count, plural, one {# campione in termica} other {# campioni in termica}}. Prendi la direzione con cautela; la stima della velocità è più precisa.",
+      "medium": "Direzione coerente entro ±{spread}° su {count, plural, one {# campione in termica} other {# campioni in termica}}. Abbastanza solida per pianificare, ma conviene confrontarla con i radiosondaggi.",
+      "high": "Direzione stabile (±{spread}° su {count, plural, one {# campione in termica} other {# campioni in termica}}). Il vento è rimasto coerente in tutta la fascia di salita."
+    },
+    "hero": {
+      "windFrom": "Vento da",
+      "average": "Media",
+      "median": "mediana {value}",
+      "range": "Intervallo",
+      "rangeMeasured": "p10 · max",
+      "rangeEstimated": "min · max",
+      "sample": "Campione",
+      "minutesUnit": "min",
+      "readings": "{count, plural, one {# lettura} other {# letture}} · 1 Hz",
+      "thermalsUnit": "{count, plural, one {termica} other {termiche}}",
+      "meanAirspeed": "Velocità all'aria media",
+      "airspeedSub": "p90 {p90} · max {max}"
+    },
+    "conditions": {
+      "mean": "Media",
+      "meanTooltip": "Media di tutti i valori. Sensibile ai valori anomali e alle letture estreme.",
+      "median": "Mediana",
+      "medianTooltip": "Valore centrale dopo l'ordinamento. Più robusta della media quando i dati sono sbilanciati.",
+      "stdDev": "Dev. std.",
+      "stdDevTooltip": "Deviazione standard: quanto i valori sono dispersi attorno alla media. Più bassa significa più regolare.",
+      "maximum": "Massimo",
+      "percentile10": "10° percentile",
+      "percentile10Tooltip": "Nove letture su dieci erano più forti di questa. Più stabile di un minimo grezzo, che un solo buco del sensore può portare a zero.",
+      "minimum": "Minimo",
+      "bearingRange": "Intervallo di direzione"
+    },
+    "empty": "Dati in termica insufficienti per stimare le condizioni di vento di questo volo.",
+    "heatmap": {
+      "eyebrow": "01 · Velocità × tempo × quota",
+      "title": "Velocità del vento per quota durante il volo",
+      "ledeMeasured": "Ogni cerchio fa la media di una porzione delle letture del vento al secondo del Vector Vario. Il campo interpolato mostra dove l'aria lavorava di più; passa sopra un punto qualsiasi per la velocità.",
+      "ledeEstimated": "Ogni cerchio è una termica in cui è stato stimato il vento. Il campo interpolato mostra dove l'aria lavorava di più; passa sopra una termica per direzione e velocità."
+    },
+    "direction": {
+      "eyebrow": "02 · Direzione",
+      "title": "Da dove arrivava l'aria",
+      "ledeRose": "L'indicatore arancione segna la direzione media; l'arco lavanda mostra la dispersione; i punti colorati collocano ogni fascia di quota sulla rosa. La distanza del punto dal centro indica la velocità del vento.",
+      "ledeSingleBand": "È stata campionata una sola fascia di quota. L'indicatore segna la direzione media.",
+      "aggregateBearing": "Direzione media",
+      "aggregateNotch": "Tacca della media ({bearing}°)",
+      "scatterHalo": "Alone di dispersione ±{spread}°",
+      "bandRange": "{min}-{max} {unit}",
+      "byAltitudeBand": "Per fascia di quota",
+      "bandCount": "{count, plural, one {# fascia} other {# fasce}}"
+    },
+    "detail": {
+      "readings": "Dettaglio · {count, plural, one {# lettura} other {# letture}}",
+      "samples": "Dettaglio · {count, plural, one {# campione} other {tutti i # campioni}}",
+      "bearingRangeNote": "intervallo di direzione = media ± σ circolare"
+    }
+  },
+  "windTimeAltitude": {
+    "altitudeAxis": "Quota {unit}",
+    "timeAxis": "Ora del giorno →"
+  }
+}

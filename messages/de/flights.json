@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "Meine Flüge",
+    "description": "Sieh dir deine Gleitschirmflüge an und verwalte sie. Verfolge deinen Fortschritt, analysiere deine Flugdaten und schau dir die Statistik jedes Flugs im Detail an.",
+    "ogTitle": "Meine Flüge - We-Fly"
+  },
+  "header": {
+    "flightsTab": "Flüge",
+    "wingsTab": "Schirme",
+    "viewLabel": "Flugbuch-Ansicht",
+    "eyebrow": "Flugbuch",
+    "title": "Flugliste",
+    "subtitleCounts": "{fetched} von {total, plural, one {# Flug} other {# Flügen}} · sortiert nach {sort}.",
+    "defaultSort": "Datum",
+    "subtitleEmpty": "Deine Flüge, sortiert nach Datum.",
+    "columns": "Spalten",
+    "columnsAria": "Spalten ein- oder ausblenden"
+  },
+  "columns": {
+    "menu": {
+      "date": "Datum",
+      "takeoff": "Startplatz",
+      "glider": "Schirm",
+      "instrument": "Instrument",
+      "duration": "Dauer",
+      "distance": "Strecke",
+      "launchType": "Startart",
+      "type": "Typ",
+      "maxAltitude": "Max. Höhe",
+      "maxAltitudeGain": "Max. Höhengewinn",
+      "maxClimb": "Max. Steigen",
+      "maxSink": "Max. Sinken",
+      "maxSpeed": "Max. Geschwindigkeit",
+      "thermals": "Bärte",
+      "quality": "Qualität",
+      "qualityVsAvg": "Ggü. deinem Ø",
+      "qualityDeviation": "Gleichmäßigkeit",
+      "gFactorMedian": "G-Faktor Median",
+      "gFactorDeviation": "G-Faktor Streuung",
+      "thermalVzDeviation": "Turbulenz",
+      "avgGlideRatio": "Ø Gleitzahl",
+      "avgGlideSpeed": "Ø Gleitgeschwindigkeit",
+      "trackSpeed": "Track-Geschwindigkeit",
+      "scoringSpeed": "Wertungsgeschwindigkeit",
+      "routeEfficiency": "Routeneffizienz",
+      "validation": "FAI-gültig"
+    },
+    "header": {
+      "date": "Datum",
+      "takeoff": "Startplatz",
+      "glider": "Schirm",
+      "instrument": "Instrument",
+      "duration": "Dauer",
+      "distance": "Strecke",
+      "launchType": "Startart",
+      "type": "Typ",
+      "maxAltitude": "Max. Höhe",
+      "maxAltitudeGain": "Max. Gewinn",
+      "maxClimb": "Max. Steigen",
+      "maxSink": "Max. Sinken",
+      "maxSpeed": "Max. Geschw.",
+      "thermals": "Bärte",
+      "quality": "Qualität",
+      "qualityVsAvg": "Ggü. deinem Ø",
+      "qualityDeviation": "Gleichmäßigkeit",
+      "gFactorMedian": "G-Faktor Median",
+      "gFactorDeviation": "G-Faktor Streuung",
+      "thermalVzDeviation": "Turbulenz",
+      "avgGlideRatio": "Ø Gleitzahl",
+      "avgGlideSpeed": "Ø Gleitgeschw.",
+      "trackSpeed": "Track-Geschw.",
+      "scoringSpeed": "Wertungsgeschw.",
+      "routeEfficiency": "Routeneffizienz",
+      "validation": "FAI-gültig"
+    },
+    "hint": {
+      "qualityVsAvg": "Wie die Qualität dieses Flugs im Vergleich zu deinem Median über alle Flüge abschneidet.",
+      "qualityDeviation": "Standardabweichung der Qualitätswerte der Bärte in diesem Flug. Niedriger = gleichmäßigeres Steigen.",
+      "routeEfficiency": "Verhältnis von Wertungsdistanz zur gesamten Tracklänge. Aussagekräftiger bei Streckenflügen."
+    },
+    "selectAll": "Alle auswählen",
+    "selectRow": "Zeile auswählen",
+    "gpsCorruption": "GPS-Fehler erkannt",
+    "gpsCorruptionHint": "Die IGC-Datei enthält fehlerhafte GPS-Daten. Wertungsdistanz und Tracklänge sind möglicherweise ungenau.",
+    "previewHint": "Mit der Maus darüberfahren für eine Vorschau des Tracks",
+    "lifetimeMedian": "Median über alle Flüge: {value}"
+  },
+  "launchType": {
+    "Self": "Eigenstart",
+    "Towed": "Schlepp",
+    "Powered": "Motorisiert",
+    "Driving": "Autofahrt",
+    "hint": {
+      "Self": "Eigenstart (Fußstart)",
+      "Towed": "Schleppstart (Flugzeug-/Windenschlepp)",
+      "Powered": "Motorstart (Paramotor)",
+      "Driving": "Autofahrt (kein Flug)"
+    }
+  },
+  "launchDialog": {
+    "option": {
+      "Self": {
+        "label": "Eigenstart",
+        "hint": "Fußstart vom Hang oder von der Kante"
+      },
+      "Towed": {
+        "label": "Schlepp",
+        "hint": "Flugzeugschlepp, Windenschlepp oder anderer unterstützter Start"
+      },
+      "Powered": {
+        "label": "Motorisiert",
+        "hint": "Paramotor, Trike oder anderer Motorstart"
+      },
+      "Driving": {
+        "label": "Autofahrt",
+        "hint": "Autofahrt (kein Flug)"
+      }
+    },
+    "title": "Startart ändern",
+    "description": "Startart für <badge>{count, plural, one {# Flug} other {# Flüge}}</badge> festlegen",
+    "singleDescription": "Ändere die Startart für diesen Flug",
+    "select": "Startart wählen",
+    "selectNew": "Neue Startart wählen",
+    "current": "Aktuelle Startart",
+    "willUpdate": "Damit bekommt {count, plural, one {# ausgewählter Flug} other {jeder der # ausgewählten Flüge}} die gewählte Startart.",
+    "willUpdateSingle": "Die Startart wird geändert",
+    "cancel": "Abbrechen",
+    "updating": "Wird aktualisiert…",
+    "submit": "{count, plural, one {# Flug aktualisieren} other {# Flüge aktualisieren}}",
+    "thisSite": "diesem Fluggebiet",
+    "bulkTitle": "Alle Flüge von {takeoff} aktualisieren?",
+    "bulkDescription": "Du hast {count, plural, one {# weiteren Flug} other {# weitere Flüge}} von <strong>{takeoff}</strong>. Willst du alle auf <strong>{type}</strong> setzen?",
+    "bulkConfirm": "{count, plural, one {# Flug aktualisieren} other {# Flüge aktualisieren}}",
+    "bulkSuccess": "{count, plural, one {# weiterer Flug} other {# weitere Flüge}} von {takeoff} aktualisiert",
+    "bulkFailed": "Flüge konnten nicht aktualisiert werden",
+    "noJustSelected": "Nein, nur die ausgewählten",
+    "noJustThis": "Nein, nur diesen Flug"
+  },
+  "list": {
+    "applyToSelection": "Auf Auswahl anwenden",
+    "apply": "Anwenden",
+    "updateLaunchType": "Startart ändern",
+    "updateLaunchTypeHint": "Startart für die ausgewählten Flüge festlegen",
+    "selected": "{count} ausgewählt",
+    "clearSelection": "Auswahl aufheben",
+    "viewDetails": "Flugdetails ansehen",
+    "noResults": "Keine Ergebnisse.",
+    "scrollForMore": "Nach unten scrollen, um mehr Flüge zu laden",
+    "loadingMore": "Weitere Flüge werden geladen…",
+    "loadingMoreAria": "Weitere Flüge werden geladen",
+    "allLoaded": "Alle Flüge geladen"
+  },
+  "table": {
+    "countOfTotal": "{count} von {total, plural, one {# Flug} other {# Flügen}}",
+    "loadError": "Fehler beim Laden der Flüge",
+    "selection": {
+      "fromTrends": "Aus deinen Trends:",
+      "range": "{from} bis {to}",
+      "glidersCount": "{count, plural, one {# Schirm} other {# Schirme}}",
+      "showAll": "Alle Flüge anzeigen"
+    },
+    "empty": {
+      "title": "Dein Flugbuch ist leer",
+      "body": "Lade deine erste IGC-Datei hoch und fang an, deine Flughistorie aufzubauen.",
+      "upload": "Flüge hochladen",
+      "features": {
+        "maps": {
+          "title": "Interaktive Flugkarten",
+          "desc": "Höhenprofil, Bärte, G-Kräfte: jedes Detail deines Flugs."
+        },
+        "progress": {
+          "title": "Fortschritt über die Zeit",
+          "desc": "Saisonrückblick, Verlauf deiner XC-Strecken, persönliche Rekorde."
+        },
+        "badges": {
+          "title": "Abzeichen und Herausforderungen",
+          "desc": "Sammle Abzeichen für Meilensteine: erster Streckenflug, erste 50 km, 100 Flüge."
+        },
+        "community": {
+          "title": "Community",
+          "desc": "Entdecke neue Fluggebiete und sieh, wo andere Piloten fliegen."
+        }
+      },
+      "exportTitle": "So exportierst du deine IGC-Dateien",
+      "exportBody": "Schritt-für-Schritt-Anleitungen für XContest, DHV-XC, Flyskyhy, XCTrack, Oudie, Flymaster und mehr.",
+      "exportLink": "Zur vollständigen Export-Anleitung →",
+      "rightsTitle": "Deine Datenrechte",
+      "rightsBody": "Nach <access>Art. 15 DSGVO</access> (Auskunftsrecht) und <portability>Art. 20</portability> (Recht auf Datenübertragbarkeit) kannst du jede Plattform (XContest, DHV-XC, Syride oder andere) auffordern, dir eine Kopie deiner personenbezogenen Daten zu geben, einschließlich deiner Tracks."
+    }
+  },
+  "sort": {
+    "label": {
+      "date": "Datum",
+      "takeoff": "Startplatz",
+      "glider": "Schirm",
+      "instrument": "Instrument",
+      "duration": "Dauer",
+      "distance": "Strecke",
+      "type": "Typ",
+      "maxAltitude": "max. Höhe",
+      "maxGain": "max. Höhengewinn",
+      "maxClimb": "max. Steigen",
+      "maxSink": "max. Sinken",
+      "maxSpeed": "max. Geschwindigkeit",
+      "thermals": "Bärte",
+      "quality": "Qualität",
+      "vsAvg": "Ggü. deinem Ø",
+      "efficiency": "Effizienz"
+    },
+    "option": {
+      "date": "Datum",
+      "distance": "Strecke",
+      "duration": "Dauer",
+      "takeoff": "Startplatz",
+      "glider": "Schirm",
+      "maxAltitude": "Max. Höhe",
+      "maxGain": "Max. Höhengewinn",
+      "maxClimb": "Max. Steigen",
+      "maxSpeed": "Max. Geschwindigkeit",
+      "thermals": "Bärte",
+      "quality": "Qualität",
+      "routeEfficiency": "Routeneffizienz"
+    },
+    "menuAria": "Flüge sortieren, aktuell nach {field} {direction}",
+    "button": "Sortieren",
+    "sortBy": "Sortieren nach",
+    "ascending": "Aufsteigend",
+    "descending": "Absteigend"
+  },
+  "card": {
+    "unknownTakeoff": "Unbekannter Startplatz",
+    "viewFlight": "Flug von {site} am {date} ansehen",
+    "select": "Flug auswählen",
+    "gpsCorruption": "GPS-Fehler erkannt",
+    "hideDetails": "Flugdetails ausblenden",
+    "showDetails": "Flugdetails einblenden",
+    "stats": {
+      "time": "Zeit",
+      "maxAlt": "Max. Höhe",
+      "climb": "Steigen",
+      "thermals": "Bärte"
+    },
+    "preview": "Vorschau"
+  },
+  "validation": {
+    "title": "Ergebnis der FAI-Validierung",
+    "passedDescription": "Dieser Flug wurde von der FAI erfolgreich validiert.",
+    "failedDescription": "Dieser Flug hat die FAI-Validierung nicht bestanden.",
+    "status": "Status",
+    "passed": "BESTANDEN",
+    "failed": "NICHT BESTANDEN",
+    "message": "Meldung",
+    "fullData": "Vollständige Validierungsdaten"
+  },
+  "sharedLink": {
+    "title": "Freigabelink für den Flug",
+    "description": "Jeder mit diesem Link kann den Flug ansehen, ohne sich anzumelden.",
+    "copiedToast": "Link in die Zwischenablage kopiert!",
+    "copyFailed": "Link konnte nicht kopiert werden",
+    "copied": "Kopiert",
+    "copy": "In die Zwischenablage kopieren",
+    "openPage": "Freigegebene Seite öffnen"
+  },
+  "sharedLinkConfirm": {
+    "title": "Freigabelink erstellen?",
+    "intro": "Du erstellst gleich einen geheimen Link, mit dem jeder, der die URL kennt, diesen Flug ohne Anmeldung ansehen kann.",
+    "noticeTitle": "Sicherheitshinweis",
+    "noticeBody": "Die URL enthält zwar eine schwer zu erratende Kennung, gefunden werden kann sie trotzdem. Wer den Link bekommt, kann diesen Flug ansehen. Teil ihn nur mit Leuten, denen du vertraust.",
+    "revoke": "Du kannst den Freigabelink jederzeit entfernen und den Zugriff damit widerrufen.",
+    "cancel": "Abbrechen",
+    "confirm": "Link erstellen"
+  },
+  "delete": {
+    "success": "{count, plural, one {# Flug gelöscht} other {# Flüge gelöscht}}",
+    "failed": "Flüge konnten nicht gelöscht werden",
+    "unexpectedError": "Beim Löschen der Flüge ist ein unerwarteter Fehler aufgetreten",
+    "triggerAria": "{count, plural, one {# Flug löschen} other {# Flüge löschen}}",
+    "action": "{count, plural, one {Flug löschen} other {# Flüge löschen}}",
+    "title": "{count, plural, one {Flug löschen?} other {Flüge löschen?}}",
+    "description": "Du löschst gleich <strong>{count, plural, one {# Flug} other {# Flüge}}</strong> endgültig. Das lässt sich nicht rückgängig machen.",
+    "warning": "Sowohl der <strong>Datenbankeintrag</strong> als auch {count, plural, one {die <strong>IGC-Datei</strong>} other {die <strong>IGC-Dateien</strong>}} werden endgültig vom Server entfernt.",
+    "cancel": "Abbrechen",
+    "deleting": "Wird gelöscht…",
+    "bulkAria": "Ausgewählte Flüge löschen: Flüge und IGC-Dateien endgültig entfernen",
+    "bulkLabel": "Ausgewählte löschen",
+    "bulkHint": "Flüge und Dateien endgültig entfernen"
+  },
+  "download": {
+    "failed": "Flüge konnten nicht heruntergeladen werden",
+    "success": "{count, plural, one {# Flug als ZIP heruntergeladen} other {# Flüge als ZIP heruntergeladen}}",
+    "aria": "{count, plural, one {# IGC-Datei als ZIP-Archiv herunterladen} other {# IGC-Dateien als ZIP-Archiv herunterladen}}",
+    "downloading": "Wird heruntergeladen…",
+    "creatingZip": "ZIP-Archiv wird erstellt",
+    "label": "IGC-Dateien herunterladen",
+    "hint": "{count, plural, one {# Datei als ZIP-Archiv} other {# Dateien als ZIP-Archiv}}"
+  },
+  "actions": {
+    "createLinkFailed": "Link konnte nicht erstellt werden",
+    "linkCopied": "Link in die Zwischenablage kopiert",
+    "copyFailed": "Link konnte nicht kopiert werden",
+    "openMenu": "Menü öffnen",
+    "view": "Ansehen",
+    "download": "Herunterladen",
+    "fixTakeoff": "Startplatz korrigieren",
+    "sendToLeague": "An Wettbewerb senden",
+    "copyLink": "Link kopieren",
+    "deleteFlight": "Flug löschen"
+  },
+  "update": {
+    "cancel": "Abbrechen",
+    "processing": "Wird verarbeitet…",
+    "updating": "Wird aktualisiert…",
+    "saving": "Wird gespeichert…",
+    "newWingName": "Neuer Schirmname",
+    "wingPlaceholder": "Schirmname eingeben (z. B. Nova Mentor 7)",
+    "dates": {
+      "triggerAria": "Flugdaten korrigieren: falsch codiertes Datum deines Instruments reparieren",
+      "trigger": "Datumsformat korrigieren",
+      "triggerHint": "Probleme mit TTMMJJ/JJMMTT beheben",
+      "title": "Datumsformat korrigieren",
+      "description": "Damit werden Tag und Jahr für <strong>{count, plural, one {# Flug} other {# Flüge}}</strong> vertauscht",
+      "criticalTitle": "Wichtig: Erst verstehen, dann loslegen",
+      "explanation": "Der IGC-Standard verlangt Datumsangaben im Format <strong>DDMMYY</strong> (TTMMJJ). Manche Instrumente schreiben fälschlich <strong>YYMMDD</strong> (JJMMTT). Dieser Vorgang vertauscht Tag und Jahr.",
+      "current": "Aktuell:",
+      "fixed": "Korrigiert:",
+      "warning": "<strong>Achtung:</strong> Nutze das nur, wenn dein Instrument falsche Datumsformate schreibt. Falsch angewendet bringt es deine Zeitachse durcheinander. <learn>Mehr erfahren</learn>",
+      "apply": "Korrektur anwenden"
+    },
+    "wings": {
+      "triggerAria": "Schirmnamen ändern: Schirm für alle ausgewählten Flüge aktualisieren",
+      "trigger": "Schirmnamen ändern",
+      "triggerHint": "Schirm für die ausgewählten Flüge ändern",
+      "title": "Schirmnamen ändern",
+      "description": "Neuen Schirmnamen für <badge>{count, plural, one {# Flug} other {# Flüge}}</badge> festlegen",
+      "willUpdate": "Damit {count, plural, one {wird # ausgewählter Flug} other {werden alle # ausgewählten Flüge}} aktualisiert",
+      "submit": "{count, plural, one {# Flug aktualisieren} other {# Flüge aktualisieren}}"
+    },
+    "date": {
+      "trigger": "Datum ändern",
+      "title": "Flugdatum ändern",
+      "description": "Wähle das richtige Datum für diesen Flug",
+      "suggestedAvailable": "Korrekturvorschlag verfügbar",
+      "suggestedHint": "Manche Instrumente verwenden falsche Datumsformate (JJMMTT statt TTMMJJ)",
+      "currentDate": "Aktuelles Datum",
+      "suggestedDate": "Vorgeschlagenes Datum",
+      "useSuggested": "Vorschlag übernehmen",
+      "selectDate": "Datum wählen",
+      "preserveTime": "Ändert das Datum, die Uhrzeit des Flugs bleibt erhalten. <spec>IGC-Spezifikation</spec>",
+      "save": "Datum speichern"
+    },
+    "wing": {
+      "trigger": "Schirm ändern",
+      "title": "Schirm ändern",
+      "description": "Ändere den Schirm, mit dem du diesen Flug geflogen bist",
+      "currentWing": "Aktueller Schirm",
+      "willUpdate": "Der Schirmname wird geändert",
+      "submit": "Schirm aktualisieren"
+    }
+  },
+  "fixTakeoff": {
+    "loadNearbyFailed": "Startplätze in der Nähe konnten nicht geladen werden",
+    "searchFailed": "Startplatzsuche fehlgeschlagen",
+    "selectSite": "Bitte wähle einen Startplatz",
+    "updatedWithCascade": "{count, plural, one {Startplatz aktualisiert (+# weiterer Flug)} other {Startplatz aktualisiert (+# weitere Flüge)}}",
+    "updated": "Startplatz aktualisiert",
+    "updateFailed": "Startplatz konnte nicht aktualisiert werden",
+    "updateFailedRetry": "Startplatz konnte nicht aktualisiert werden. Versuch es bitte noch einmal.",
+    "updateError": "Beim Aktualisieren ist ein Fehler aufgetreten",
+    "title": "Startplatz korrigieren",
+    "description": "Wähle den richtigen Startplatz für diesen Flug",
+    "loadingNearby": "Startplätze in der Nähe werden geladen…",
+    "nearby": "Startplätze in der Nähe (im Umkreis von 1 km)",
+    "searchDifferent": "Nach einem anderen Startplatz suchen",
+    "noneNearby": "Keine Startplätze im Umkreis von 1 km gefunden. Such bitte nach dem Namen.",
+    "searchLabel": "Startplatz nach Namen suchen",
+    "searchPlaceholder": "Mindestens 3 Zeichen eingeben…",
+    "searching": "Wird gesucht…",
+    "results": "Suchergebnisse",
+    "noResults": "Keine Startplätze für „{query}“ gefunden",
+    "showNearby": "Startplätze in der Nähe anzeigen",
+    "cancel": "Abbrechen",
+    "updating": "Wird aktualisiert…",
+    "submit": "Startplatz aktualisieren"
+  },
+  "leagues": {
+    "title": "An einen Wettbewerb senden",
+    "description": "Lade die IGC-Datei dieses Flugs mit deinem eigenen Login bei einem Online-Wettbewerb hoch.",
+    "noneConnected": "Noch kein Wettbewerb verbunden. Hinterleg einmal deinen CFD- oder DHV-XC-Login, dann kannst du jeden Flug von hier aus senden oder neue Flüge automatisch senden lassen.",
+    "connect": "Wettbewerb verbinden",
+    "send": "Senden",
+    "sendAgain": "Erneut senden",
+    "sending": "Wird gesendet…",
+    "sendFailed": "Senden an {league} fehlgeschlagen",
+    "sent": "An {league} gesendet",
+    "sentNeedsCompletion": "An {league} gesendet. Öffne den Link, um deine Meldung abzuschließen.",
+    "alreadyThere": "{league} hat diesen Flug schon",
+    "outcomeError": "{league}: {outcome}",
+    "outcome": {
+      "sent": "Gesendet",
+      "duplicate": "Schon vorhanden",
+      "auth_failed": "Login abgelehnt",
+      "rejected": "Abgelehnt",
+      "unavailable": "Nicht erreichbar"
+    },
+    "remoteId": "ID {id}",
+    "finishDeclaration": "Meldung beim CFD abschließen",
+    "openOnSite": "Auf der Website des Wettbewerbs öffnen",
+    "errors": {
+      "unknownLeague": "Unbekannter Wettbewerb",
+      "invalidFlight": "Ungültiger Flug",
+      "tooManyUploads": "Zu viele Uploads. Versuch es in einer Minute noch einmal.",
+      "notConnected": "Verbinde diesen Wettbewerb zuerst unter Profil > Verbundene Dienste.",
+      "flightNotFound": "Wir konnten die IGC-Datei dieses Flugs nicht finden.",
+      "uploadFailed": "Der Upload ist fehlgeschlagen. Versuch es später noch einmal."
+    }
+  },
+  "anomalies": {
+    "notifier": {
+      "message": "{count, plural, one {Du hast # Flug-Anomalie zu prüfen} other {Du hast # Flug-Anomalien zu prüfen}}",
+      "view": "Ansehen"
+    },
+    "view": {
+      "resolved": "Behoben",
+      "resolvedDescription": "{count, plural, one {# kürzester Flug gelöscht} other {# kürzeste Flüge gelöscht}}",
+      "resolveFailed": "Beheben fehlgeschlagen",
+      "tryAgain": "Bitte versuch es noch einmal",
+      "tryAgainLater": "Bitte versuch es später noch einmal",
+      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten",
+      "scanDetected": "{count, plural, one {# neue Anomalie erkannt} other {# neue Anomalien erkannt}}",
+      "scanResolved": "{count} behoben",
+      "scanNoChanges": "Keine Änderungen erkannt",
+      "scanComplete": "Prüfung abgeschlossen",
+      "scanFailed": "Prüfung fehlgeschlagen",
+      "scanning": "Wird geprüft…",
+      "rescan": "Erneut prüfen",
+      "eyebrow": "Datenintegrität",
+      "title": "Flug-Anomalien",
+      "subtitle": "Prüfe Unstimmigkeiten, die in deinen Flugdaten erkannt wurden.",
+      "backToProfile": "← Zurück zum Profil",
+      "allClear": "Alles in Ordnung",
+      "allClearBody": "Keine Anomalien erkannt. Deine Flugdaten sehen gut aus.",
+      "stats": {
+        "active": "Offene Probleme",
+        "concurrent": "Überlappend",
+        "altitude": "Höhe",
+        "unknownGlider": "Unbekannter Schirm"
+      },
+      "cancel": "Abbrechen",
+      "concurrent": {
+        "title": "Überlappende Flüge · {count}",
+        "caption": "Zeitlich überlappende Flüge sind für einen einzelnen Piloten physikalisch unmöglich.",
+        "resolving": "Wird behoben…",
+        "resolveAll": "Alle beheben",
+        "confirmTitle": "Alle überlappenden Flüge beheben?",
+        "confirmBody": "Damit wird bei {count, plural, one {# überlappenden Flugpaar} other {allen # überlappenden Flugpaaren}} jeweils der kürzere Flug endgültig gelöscht. Das lässt sich nicht rückgängig machen.",
+        "confirmAction": "Kürzere Flüge löschen",
+        "overlap": "Überlappung",
+        "date": "Datum",
+        "flightA": "Flug A",
+        "flightB": "Flug B"
+      },
+      "altitude": {
+        "title": "Unplausible Höhenwerte · {count}",
+        "caption": "Ein Höhenkanal (Druck oder GPS) war bei einem erheblichen Teil der Fixes unplausibel. Der Parser hat den anderen Kanal verwendet, damit die Flugzusammenfassung stimmt, aber das Gerät muss eventuell kalibriert werden."
+      },
+      "glider": {
+        "title": "Unbekannter Schirmtyp · {count}",
+        "caption": "Flüge, bei denen im Header der IGC-Datei die Schirmangabe fehlt. Du kannst sie von Hand ergänzen."
+      }
+    },
+    "concurrent": {
+      "shortest": "Kürzester",
+      "unknownInstrument": "Unbekanntes Instrument",
+      "viewFlightOn": "Flug vom {date} ansehen",
+      "viewFlight": "Flug ansehen",
+      "deleted": "Flug gelöscht",
+      "deletedDescription": "Der kürzere Flug wurde endgültig gelöscht",
+      "deleteFailed": "Löschen fehlgeschlagen",
+      "tryAgain": "Bitte versuch es noch einmal",
+      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten",
+      "overlapMinutes": "{minutes} min",
+      "overlapLabel": "Überlappung",
+      "deleteShortestAria": "Den kürzeren der überlappenden Flüge löschen",
+      "deleting": "Wird gelöscht…",
+      "deleteShortest": "Kürzeren löschen",
+      "confirmTitle": "Kürzeren Flug löschen?",
+      "confirmBody": "Damit wird der Flug vom <strong>{date}</strong> ({takeoff} nach {landing}, {duration}) endgültig gelöscht. Das lässt sich nicht rückgängig machen, und die zugehörige IGC-Datei wird ebenfalls entfernt.",
+      "cancel": "Abbrechen",
+      "confirmAction": "Flug löschen"
+    },
+    "altitude": {
+      "unknownDate": "Unbekanntes Datum",
+      "percentOfFixes": "{percent} % der Fixes",
+      "viewFlight": "Flug ansehen"
+    },
+    "glider": {
+      "viewFlightFrom": "Flug vom {date} ansehen",
+      "renameHint": "Klick auf Umbenennen, um für jeden Flug die Schirmangabe zu ergänzen",
+      "viewInLogbook": "Im Flugbuch ansehen"
+    },
+    "rename": {
+      "nameRequired": "Schirmname erforderlich",
+      "nameRequiredHint": "Bitte gib einen Schirmnamen ein",
+      "updated": "Schirm aktualisiert",
+      "updatedDescription": "Schirm des Flugs auf „{name}“ gesetzt",
+      "updateFailed": "Aktualisierung fehlgeschlagen",
+      "updateFailedHint": "Schirmtyp konnte nicht aktualisiert werden",
+      "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten",
+      "trigger": "Umbenennen",
+      "title": "Schirmtyp festlegen",
+      "description": "Ergänze die Schirmangabe für diesen Flug",
+      "date": "Datum:",
+      "site": "Fluggebiet:",
+      "gliderName": "Schirmname",
+      "placeholder": "z. B. Ozone Rush 5",
+      "nameHint": "Gib den Modellnamen deines Gleitschirms ein",
+      "cancel": "Abbrechen",
+      "updating": "Wird aktualisiert…",
+      "submit": "Schirm aktualisieren"
+    }
+  },
+  "errors": {
+    "notAuthenticated": "Nicht angemeldet",
+    "invalidFlightOrSite": "Ungültige Flug- oder Fluggebiets-ID",
+    "takeoffSiteNotFound": "Startplatz nicht gefunden",
+    "flightNotOwned": "Flug nicht gefunden oder gehört nicht dir",
+    "updateTakeoffFailed": "Startplatz konnte nicht aktualisiert werden",
+    "noFlightsSpecified": "Keine Flüge angegeben",
+    "invalidFlightId": "Ungültige Flug-ID: {id}",
+    "someFlightsNotOwned": "Einige Flüge wurden nicht gefunden oder gehören nicht dir",
+    "deleteFailed": "Flüge konnten nicht gelöscht werden",
+    "anomalyNotFoundResolved": "Anomalie nicht gefunden oder schon behoben",
+    "anomalyNotFoundIgnored": "Anomalie nicht gefunden oder schon ignoriert",
+    "resolveAnomalyFailed": "Anomalie konnte nicht behoben werden",
+    "ignoreAnomalyFailed": "Anomalie konnte nicht ignoriert werden",
+    "detectionFailed": "Erkennung konnte nicht ausgeführt werden",
+    "presetNameRequired": "Name ist erforderlich",
+    "presetNameTooLong": "Name zu lang (max. 64 Zeichen)",
+    "presetNameUrls": "Der Name darf keine URLs enthalten",
+    "presetNameHtml": "Der Name darf kein HTML enthalten",
+    "presetNameInvalid": "Der Name enthält ungültige Zeichen",
+    "presetMax": "Maximal {max} gespeicherte Filter erreicht",
+    "presetDuplicate": "Ein gespeicherter Filter mit diesem Namen existiert schon",
+    "presetSaveFailed": "Filter konnte nicht gespeichert werden",
+    "presetInvalidId": "Ungültige Filter-ID",
+    "presetNotFound": "Gespeicherter Filter nicht gefunden",
+    "presetUpdateFailed": "Filter konnte nicht aktualisiert werden",
+    "presetDeleteFailed": "Filter konnte nicht gelöscht werden"
+  }
+}

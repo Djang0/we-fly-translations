@@ -1,0 +1,328 @@
+{
+  "trends": {
+    "title": "Tendances",
+    "weekOf": "Semaine du {date}",
+    "controls": {
+      "metric": "Indicateur",
+      "interval": "Intervalle",
+      "period": "Période",
+      "breakdown": "Répartition",
+      "display": "Affichage"
+    },
+    "metric": {
+      "airtime": "Temps de vol",
+      "flights": "Vols",
+      "avgDistance": "Distance moy.",
+      "avgAirtime": "Temps de vol moy.",
+      "avgSpeed": "Vitesse moy."
+    },
+    "interval": {
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "year": "Année"
+    },
+    "period": {
+      "30d": "30 jours",
+      "12m": "12 mois",
+      "ytd": "Cette année",
+      "all": "Tout"
+    },
+    "breakdown": {
+      "total": "Total",
+      "glider": "Par voile"
+    },
+    "display": {
+      "chart": "Graphique",
+      "table": "Tableau"
+    },
+    "series": {
+      "total": "Tous les vols",
+      "unknown": "Voile inconnue",
+      "other": "Autres ({count})"
+    },
+    "caption": {
+      "table": "Selon tes filtres. Ouvre une période pour voir ses vols dans le carnet de vol.",
+      "avgSpeed": "Distance au score divisée par le temps de vol, selon tes filtres. Clique sur une colonne pour ouvrir ses vols.",
+      "chart": "Selon tes filtres. Clique sur une colonne pour ouvrir ses vols dans le carnet de vol."
+    },
+    "empty": {
+      "tooManyDays": "Trop de jours à afficher. Choisis une période plus courte ou un intervalle plus large.",
+      "tooManyWeeks": "Trop de semaines à afficher. Choisis une période plus courte ou un intervalle plus large.",
+      "none": "Aucun vol sur cette période."
+    },
+    "tooltip": {
+      "noFlight": "Aucun vol",
+      "flightsClickToOpen": "{count, plural, one {# vol} other {# vols}} · clique pour ouvrir"
+    },
+    "table": {
+      "period": "Période"
+    }
+  },
+  "thermaling": {
+    "groups": {
+      "label": "Groupe de graphiques",
+      "efficiency": "Efficacité",
+      "volume": "Volume",
+      "technique": "Technique",
+      "mastery": "Maîtrise"
+    },
+    "empty": {
+      "title": "Aucune donnée d’enroulement",
+      "body": "Ajoute des vols avec des données de thermiques pour voir tes analyses d’enroulement"
+    },
+    "progression": "Progression d’une saison à l’autre",
+    "notEnoughData": "Pas encore assez de données pour cet indicateur",
+    "kpi": {
+      "medianClimb": {
+        "label": "Montée médiane",
+        "tooltip": "Taux de montée net médian sur chaque thermique des vols filtrés (gain d’altitude ÷ durée)."
+      },
+      "bestClimb": {
+        "label": "Meilleure montée",
+        "tooltip": "Pic de vario soutenu sur 5 s le plus fort, tous thermiques confondus."
+      },
+      "medianHeightGain": {
+        "label": "Gain médian",
+        "tooltip": "Gain d’altitude médian par thermique, sur chaque montée."
+      },
+      "perHour": {
+        "label": "Thermiques/h",
+        "tooltip": "Nombre total de thermiques ÷ temps de vol total (sur les vols filtrés)."
+      },
+      "thermalingTime": {
+        "label": "Temps d’enroulement",
+        "tooltip": "% du temps de vol passé à enrouler."
+      },
+      "totalThermals": {
+        "label": "Thermiques au total"
+      },
+      "circleTime": {
+        "label": "Durée méd. d’un tour",
+        "tooltip": "Durée médiane d’un tour de 360°, sur chaque thermique."
+      },
+      "circleRadius": {
+        "label": "Rayon méd. d’un tour",
+        "tooltip": "Rayon médian par tour, sur chaque thermique."
+      },
+      "lowSaves": {
+        "label": "Remontées de bas",
+        "tooltip": "Vraies remontées de bas : les moments où tu allais te poser (≥5 min de transition sans interruption, ≥200 m d’altitude perdue, point le plus bas <150 m sol au-dessus d’un terrain posable) et où un thermique t’a sauvé.",
+        "lowest": "· {value} au plus bas"
+      }
+    },
+    "charts": {
+      "medianClimb": {
+        "title": "Taux de montée",
+        "description": "Taux de montée médian par saison",
+        "axis": "Montée médiane (m/s)"
+      },
+      "medianHeightGain": {
+        "title": "Gain d’altitude",
+        "description": "Gain d’altitude médian par thermique",
+        "axis": "Gain d’altitude (m)"
+      },
+      "perHour": {
+        "title": "Fréquence des thermiques",
+        "description": "Thermiques trouvés par heure de vol",
+        "axis": "Thermiques/h"
+      },
+      "ratio": {
+        "title": "Part d’enroulement",
+        "description": "% du temps de vol passé à enrouler",
+        "axis": "Enroulement %"
+      },
+      "circleTime": {
+        "title": "Durée d’un tour",
+        "description": "Durée médiane d’un tour de 360°, plus c’est bas, plus c’est serré",
+        "axis": "Durée d’un tour (s)"
+      },
+      "circleRadius": {
+        "title": "Rayon d’un tour",
+        "description": "Rayon médian des tours, plus c’est bas, plus tu enroules serré",
+        "axis": "Rayon d’un tour (m)"
+      },
+      "avgQuality": {
+        "title": "Note de qualité",
+        "description": "Qualité moyenne des thermiques : montée, centrage, régularité",
+        "axis": "Note de qualité"
+      },
+      "ceiling": {
+        "title": "Plafond exploitable",
+        "description": "Altitude médiane de sortie de thermique, la hauteur à laquelle la journée a porté",
+        "axis": "Plafond exploitable (m)"
+      }
+    },
+    "inversion": {
+      "summary": "<b>{count, number}</b> {count, plural, one {vol montre} other {vols montrent}} un net changement de plafond (percée d’inversion ou baisse en fin de journée).",
+      "viewList": "Voir la liste",
+      "title": "Journées avec un net changement de plafond",
+      "description": "Vols où le plafond exploitable a bondi ou baissé en cours de journée : une inversion matinale qui cède, ou un surdéveloppement en fin de journée qui fait baisser l’altitude de travail. Clique sur une ligne pour ouvrir le vol.",
+      "inversionBreak": "Percée d’inversion",
+      "ceilingDecay": "Baisse du plafond"
+    },
+    "strongest": {
+      "summary": "<b>{count, number}</b> {count, plural, one {thermique le plus fort} other {thermiques les plus forts}} au pic de vario soutenu.",
+      "viewList": "Voir la liste",
+      "title": "Thermiques les plus forts",
+      "description": "Les 10 meilleurs thermiques des vols filtrés, classés par pic de vario soutenu sur 5 s. En cas d’égalité, la note de qualité départage. Clique sur une ligne pour aller à ce thermique dans son vol.",
+      "qualityScore": "NQ {score, number}"
+    },
+    "lowSaves": {
+      "summary": "<b>{count, number}</b> {count, plural, one {remontée de bas} other {remontées de bas}}{hasLowest, select, yes {, au plus bas à <b>{lowest}</b> sol} other {}}{hasRecovery, select, yes {, <b>+{recovery}</b> regagnés} other {}}.",
+      "viewList": "Voir la liste",
+      "title": "Remontées de bas",
+      "description": "Les moments où tu allais te poser (≥5 min de transition sans interruption, ≥200 m d’altitude perdue, point le plus bas sous 150 m sol au-dessus d’un terrain posable) et où un thermique t’a sauvé. Les thermiques de pente sont volontairement exclus. Les 10 premières des vols filtrés, classées par hauteur sol la plus basse atteinte.",
+      "searchContext": "{minutes, number} min de recherche · −{lost}",
+      "aglValue": "{value} sol"
+    }
+  },
+  "phases": {
+    "empty": {
+      "title": "Aucune donnée de phases",
+      "body": "La détection des phases tourne à chaque import. Les vols plus anciens doivent être retraités pour apparaître ici."
+    },
+    "phase": {
+      "thermal": "Thermique",
+      "search": "Recherche",
+      "glide": "Transition",
+      "float": "Flottement"
+    },
+    "radar": {
+      "thermalTime": "Temps en thermique",
+      "glideTime": "Temps en transition",
+      "glideRatio": "Finesse",
+      "circlesPerMin": "Tours/min"
+    },
+    "kpi": {
+      "glideRatio": {
+        "label": "Finesse médiane",
+        "tooltip": "Finesse médiane sur les vols comportant des phases de transition."
+      },
+      "glideSpeed": {
+        "label": "Vitesse médiane en transition",
+        "tooltip": "Vitesse sol médiane pendant les phases de transition."
+      },
+      "thermalTime": {
+        "label": "Temps en thermique",
+        "tooltip": "% du temps de vol total passé en phase de thermique."
+      },
+      "glideTime": {
+        "label": "Temps en transition",
+        "tooltip": "% du temps de vol total passé en phase de transition."
+      },
+      "searchTime": {
+        "label": "Temps de recherche",
+        "tooltip": "% du temps de vol total passé à chercher l’ascendance."
+      },
+      "floatTime": {
+        "label": "Temps de flottement",
+        "tooltip": "% du temps de vol total en flottement (petites variations d’altitude)."
+      },
+      "circlesPerMin": {
+        "label": "Tours / min",
+        "tooltip": "Rythme moyen de rotation pendant les phases de thermique."
+      }
+    },
+    "charts": {
+      "glideRatio": {
+        "title": "Finesse",
+        "description": "Finesse médiane par saison, plus c’est haut, plus c’est efficace"
+      },
+      "thermalPct": {
+        "title": "Temps en thermique %",
+        "description": "% du temps de vol passé en phase de thermique"
+      }
+    },
+    "composition": {
+      "title": "Répartition des phases",
+      "description": "Comment se répartit ton temps en l’air, saison après saison"
+    },
+    "profile": {
+      "title": "Profil de vol",
+      "description": "Chaque saison sous forme de polygone, regarde la forme évoluer",
+      "empty": "Il faut au moins une saison de données de phases"
+    },
+    "showAll": "Tout afficher",
+    "legend": {
+      "showSeason": "Afficher la saison {season}",
+      "hideSeason": "Masquer la saison {season}",
+      "showPhase": "Afficher la phase {phase}",
+      "hidePhase": "Masquer la phase {phase}"
+    },
+    "basedOnFlights": "sur la base de {count, plural, one {# vol} other {# vols}}"
+  },
+  "overview": {
+    "pts": "pts",
+    "gUnit": "g",
+    "headline": {
+      "totalFlights": "Vols au total",
+      "totalAirTime": "Temps de vol total",
+      "distance": "Distance",
+      "trackLength": "longueur de trace",
+      "longestFlight": "Vol le plus long",
+      "viewLongest": "Voir le vol le plus long : {duration}"
+    },
+    "efficiency": {
+      "title": "Efficacité en vol",
+      "description": "Répartition du temps entre enroulement et transition.",
+      "thermaling": "Enroulement",
+      "gliding": "Transition",
+      "thermal": "Thermique",
+      "glide": "Transition"
+    },
+    "balance": {
+      "title": "Équilibre d’enroulement",
+      "description": "Répartition du sens de rotation en thermique.",
+      "leftTurns": "Virages à gauche",
+      "rightTurns": "Virages à droite",
+      "left": "Gauche",
+      "right": "Droite"
+    },
+    "mode": {
+      "balanceTitle": "Répartition solo / biplace",
+      "balanceDescription": "Répartition du temps de vol entre solo et biplace.",
+      "solo": "Solo",
+      "tandem": "Biplace",
+      "title": "Mode de vol",
+      "allSolo": "Tous tes vols sont en solo.",
+      "soloFlights": "vols en solo"
+    },
+    "distance": {
+      "title": "Distance",
+      "description": "Distances totales parcourues.",
+      "xcDistance": "Distance en cross",
+      "xcPoints": "Points cross",
+      "trackLength": "Longueur de trace"
+    },
+    "bests": {
+      "title": "Records perso",
+      "description": "Valeurs maximales sur tous les vols.",
+      "maxAltitude": "Altitude max",
+      "maxHeightGain": "Gain d’altitude max",
+      "maxSpeed": "Vitesse max",
+      "bestXcDistance": "Meilleure distance en cross",
+      "bestXcScore": "Meilleur score cross",
+      "viewFlight": "Voir le vol avec {label} : {value}"
+    },
+    "lowSave": {
+      "label": "Remontée de bas la plus basse",
+      "agl": "{unit} sol",
+      "regained": "+{value} {unit} regagnés",
+      "ariaLabel": "Voir le vol de la remontée de bas la plus basse : {agl} au-dessus du sol{hasRecovery, select, yes { (+{recovery} regagnés)} other {}}"
+    },
+    "performance": {
+      "title": "Indicateurs de performance",
+      "description": "Valeurs médianes sur tous les vols.",
+      "circleTime": "Durée méd. d’un tour",
+      "circleRadius": "Rayon méd. d’un tour",
+      "gFactor": "Facteur de charge médian",
+      "strongestThermal": "Pic du thermique le plus fort",
+      "viewStrongest": "Voir le vol du pic de thermique le plus fort : {value}"
+    }
+  },
+  "backfill": {
+    "phases": "détection des phases",
+    "thermaling": "analyse avancée des thermiques"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Cockpit",
+    "description": "Your paragliding command center. View flight statistics, analyze performance trends, and gain insights into your flying progression.",
+    "ogTitle": "Cockpit - We-Fly"
+  },
+  "tabs": {
+    "eyebrow": "Analytics",
+    "title": "Cockpit",
+    "subtitle": "Statistics across your filtered flights.",
+    "subtitleCount": "Statistics across {count, plural, one {# filtered flight} other {# filtered flights}}.",
+    "flightCount": "{count, plural, one {# flight} other {# flights}}"
+  },
+  "errorState": {
+    "title": "Error loading flights",
+    "body": "Unable to retrieve flight data",
+    "retry": "Try Again",
+    "invalidFormat": "Invalid data format",
+    "reload": "Reload"
+  },
+  "summaryStrip": {
+    "entities": "{entity, select, glider {Gliders} takeoff {Takeoffs} country {Countries} season {Seasons} other {Items}}",
+    "topEntity": "{entity, select, glider {Top glider} takeoff {Top takeoff} country {Top country} season {Top season} other {Top item}}",
+    "flights": "Flights",
+    "airTime": "Air time",
+    "hoursUnit": "h",
+    "averageSub": "avg {value} h / flight",
+    "topSub": "{hours} h · {count, plural, one {# flight} other {# flights}}"
+  },
+  "metricCard": {
+    "totalHours": "Total hours",
+    "flights": "Flights",
+    "avgPerFlight": "Avg per flight",
+    "zScore": "Z-score",
+    "hoursUnit": "h"
+  },
+  "statsTable": {
+    "rank": "Rank",
+    "flights": "Flights",
+    "totalHours": "Total hours",
+    "avgPerFlight": "Avg/flight",
+    "zScore": "Z-score",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# flight} other {# flights}} · avg {value} h"
+  },
+  "chartTabs": {
+    "title": "Visual analysis",
+    "defaultDescription": "Compare across different metrics.",
+    "metric": "Metric",
+    "duration": "Duration",
+    "count": "Count",
+    "zScore": "Z-Score",
+    "seriesCount": "Flight Count",
+    "seriesAirTime": "Air time",
+    "seriesEfficiency": "Efficiency",
+    "seriesZScore": "Z-Score"
+  },
+  "linkableMetric": {
+    "showDetailChart": "Show {label} detail chart",
+    "viewFlight": "View flight with {label}: {value}"
+  },
+  "overview": {
+    "loadingVisualization": "Loading visualization...",
+    "error": {
+      "title": "Failed to Load Flight Data",
+      "body": "We encountered an error while loading your flight statistics. This might be a temporary issue.",
+      "retry": "Try Again"
+    },
+    "empty": {
+      "title": "No Flight Data Available",
+      "body": "Your logbook is empty. Start by uploading your IGC flight files to see statistics, maps, and analysis.",
+      "cta": "Upload IGC Files"
+    }
+  },
+  "byGlider": {
+    "emptyTitle": "No glider data available",
+    "emptyBody": "Add flights to see your glider statistics",
+    "topPerformers": "Top Performers",
+    "comparisonTitle": "Glider Comparison",
+    "comparisonDescription": "Compare performance metrics across all your gliders",
+    "entityLabel": "Glider",
+    "chartDescription": "Compare gliders across different metrics."
+  },
+  "byCountry": {
+    "emptyTitle": "No country data available",
+    "emptyBody": "Add flights to see your country statistics",
+    "topPerformers": "Top Countries",
+    "comparisonTitle": "Country Comparison",
+    "comparisonDescription": "Compare performance metrics across all countries",
+    "entityLabel": "Country",
+    "chartDescription": "Compare countries across different metrics."
+  },
+  "bySeason": {
+    "emptyTitle": "No season data available",
+    "emptyBody": "Add flights to see your seasonal statistics",
+    "topPerformers": "Top Performing Seasons",
+    "comparisonTitle": "Season Comparison",
+    "comparisonDescription": "Compare performance metrics across all seasons",
+    "entityLabel": "Season",
+    "chartDescription": "Compare seasons across different metrics."
+  },
+  "byTakeoff": {
+    "emptyTitle": "No takeoff data available",
+    "emptyBody": "Add flights to see your takeoff location statistics",
+    "topPerformers": "Top Takeoff Locations",
+    "tableTitle": "Takeoff locations",
+    "tableCaption": "Sortable comparison with inline visual indicators. Click column headers to sort.",
+    "rank": "Rank",
+    "location": "Takeoff Location",
+    "flights": "Flights",
+    "totalHours": "Total Hours",
+    "avgPerFlight": "Avg/Flight",
+    "zScore": "Z-Score",
+    "above": "above",
+    "below": "below",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# flight} other {# flights}} · avg {value} h"
+  },
+  "byMonth": {
+    "emptyTitle": "No monthly data available",
+    "emptyBody": "Add flights to see your monthly statistics",
+    "mostActiveMonths": "Most Active Months",
+    "visualAnalysis": "Visual Analysis",
+    "visualDescription": "Monthly trends across different metrics and years.",
+    "duration": "Duration",
+    "count": "Count",
+    "zScore": "Z-Score",
+    "viewMode": "View Mode:",
+    "grouped": "Grouped",
+    "stacked": "Stacked",
+    "years": "Years:",
+    "breakdownTitle": "Monthly Breakdown by Year",
+    "breakdownDescription": "Compare flight activity across months and years",
+    "month": "Month",
+    "total": "Total",
+    "card": {
+      "totalFlights": "Total Flights",
+      "allYears": "all years",
+      "mostActiveYear": "Most Active Year",
+      "flights": "{count, plural, one {# flight} other {# flights}}",
+      "activityByYear": "Activity by Year"
+    }
+  },
+  "byCivl": {
+    "refreshFailed": "CIVL data could not be refreshed",
+    "loading": "Loading…",
+    "noId": "No CIVL ID set. Add yours in <link>Profile settings</link> to see your ranking here.",
+    "title": "CIVL Ranking",
+    "updated": "Updated {date}",
+    "currentStandings": "Current standings",
+    "rankingHistory": "Ranking history",
+    "world": "World",
+    "country": "Country",
+    "europe": "Europe",
+    "date": "Date",
+    "rank": "Rank",
+    "points": "Points",
+    "scoringComposition": "Scoring composition"
+  },
+  "flightComment": {
+    "title": "Pilot's debrief",
+    "ariaEditable": "Flight debrief",
+    "tooLong": "Comment cannot exceed {max} characters",
+    "saveFailed": "Failed to save comment",
+    "placeholder": "How was the day? What worked, what didn't?",
+    "charsRemaining": "{count} chars remaining",
+    "hint": "Cmd/Ctrl-Enter to save · Esc to cancel",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "edit": "Edit comment",
+    "add": "Add a debrief: record conditions, what you tried, lessons learned."
+  },
+  "thermalVarioDialog": {
+    "title": "Strongest Thermal",
+    "titleWithValue": "Strongest Thermal: {value}",
+    "description": "Vario signal ±5 seconds around peak, helps identify glitches",
+    "peak": "Peak",
+    "peakLower": "peak",
+    "offsetSeconds": "{value}s",
+    "loading": "Loading…",
+    "series": "Vario",
+    "errors": {
+      "fetch": "Failed to fetch track data",
+      "insufficient": "Insufficient track data",
+      "unknown": "Unknown error"
+    }
+  },
+  "map": {
+    "emptyTitle": "No flight data available",
+    "emptyBody": "Add flights to see your takeoff locations on the map",
+    "flights": "{count, plural, one {# flight} other {# flights}}",
+    "asl": "{altitude} ASL",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "openFullscreenAria": "Open fullscreen map view",
+    "exitFullscreenAria": "Exit fullscreen map view",
+    "exitFullscreenTitle": "Exit fullscreen (Esc)"
+  },
+  "statsUtils": {
+    "r2": {
+      "strong": "Strong",
+      "moderate": "Moderate",
+      "weak": "Weak",
+      "strongText": "Strong trend: season-over-season progression is consistent.",
+      "moderateText": "Moderate trend: there is a general direction but with year-to-year variation.",
+      "weakText": "Weak trend: data is scattered; no reliable progression yet.",
+      "tooltipTitle": "Trend strength (R²)",
+      "tooltipBody": "Measures how well the dashed line fits the bars. <b>0</b> = no trend, <b>1</b> = perfect trend."
+    },
+    "basedOnFlights": "based on {count, plural, one {# flight} other {# flights}}",
+    "fadedBars": "Faded bars = fewer flights, less reliable.",
+    "fadedDots": "Faded dots = fewer flights, less reliable.",
+    "backfill": "{count, plural, one {<b>#</b> flight is excluded because it has no {what} yet. Run <code>{script}</code> to include them.} other {<b>#</b> flights are excluded because they have no {what} yet. Run <code>{script}</code> to include them.}}"
+  },
+  "zWhat": {
+    "text": "Confused about z-score? <link>Check this out!</link>"
+  }
+}

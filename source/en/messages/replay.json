@@ -1,0 +1,349 @@
+{
+  "layers": {
+    "title": "Layers",
+    "activeCount": "{count} on"
+  },
+  "more": {
+    "title": "More",
+    "shareReplay": "Share replay",
+    "recordVideo": "Record video",
+    "hideOverlays": "Hide overlays",
+    "pastTrack": "Past track",
+    "opacity": "Opacity",
+    "length": "Length",
+    "keyboardShortcuts": "Keyboard shortcuts"
+  },
+  "toolbar": {
+    "camera": "Camera",
+    "cameraModes": {
+      "chase": "Chase",
+      "cockpit": "Cockpit",
+      "top": "Top",
+      "orbit": "Orbit"
+    },
+    "cameraAria": "{mode} camera",
+    "layersAria": "Layers, {count} on",
+    "layers": "Layers",
+    "more": "More",
+    "showOverlays": "Show overlays"
+  },
+  "scene": {
+    "approaching": "Approaching {name}",
+    "autoFocus": "Auto-focus",
+    "dragToTakeControl": "Drag to take control",
+    "varioLegend": "Vario · {unit}",
+    "gaggle": "Gaggle · <n>{count}</n> {count, plural, one {pilot} other {pilots}} from this launch",
+    "openComparison": "Open these pilots in the full comparison",
+    "loadingTerrain": "Loading terrain…"
+  },
+  "telemetry": {
+    "alt": "Alt",
+    "agl": "AGL",
+    "vario": "Vario",
+    "speed": "Speed",
+    "glide": "L/D",
+    "wind": "Wind",
+    "airHead": "Air · head",
+    "airTail": "Air · tail",
+    "time": "Time",
+    "timeZone": "Time · {zone}",
+    "windTitle": "Wind from {degrees}° · {source, select, band {measured at this altitude} sample {nearest circle in time} other {flight average}}",
+    "noWind": "No wind estimate, the flight never circled long enough",
+    "following": "Following"
+  },
+  "dock": {
+    "markerLaunched": "{who} launched · {time}",
+    "markerLanded": "{who} landed · {time}",
+    "markerBestClimb": "{who} best climb · {climb} · {time}",
+    "markerBiggestGap": "Biggest gap vs {name} · {gap} below · {time}",
+    "speedAria": "Playback speed {speed}x",
+    "timeline": "Playback timeline",
+    "backTitle": "Back 10 s (←)",
+    "backAria": "Back 10 seconds",
+    "playPauseTitle": "Play / pause (Space)",
+    "pause": "Pause",
+    "play": "Play",
+    "forwardTitle": "Forward 10 s (→)",
+    "forwardAria": "Forward 10 seconds",
+    "hideCharts": "Hide charts",
+    "showCharts": "Show charts",
+    "shortcutsTitle": "Keyboard shortcuts (?)",
+    "shortcuts": "Keyboard shortcuts",
+    "exitFullscreenTitle": "Exit fullscreen (F)",
+    "fullscreenTitle": "Fullscreen (F)",
+    "exitFullscreen": "Exit fullscreen",
+    "enterFullscreen": "Enter fullscreen",
+    "imageryCollapsed": "Imagery © Esri and contributors · details",
+    "speed": "Playback speed",
+    "shortcutKeys": {
+      "play": "Space",
+      "seek": "← / →",
+      "fullscreen": "F",
+      "hide": "H",
+      "help": "?",
+      "escape": "Esc"
+    },
+    "shortcutHelp": {
+      "play": "Play / pause",
+      "seek": "Back / forward 10 s",
+      "fullscreen": "Fullscreen",
+      "hide": "Hide overlays",
+      "help": "Shortcuts",
+      "escape": "Close menu, then exit fullscreen"
+    }
+  },
+  "rank": {
+    "follow": "Follow {name}",
+    "hideTrace": "Hide {name}'s trace",
+    "showTrace": "Show {name}'s trace",
+    "toggleTrace": "Show or hide trace",
+    "moments": "Moments · click to jump",
+    "circlingTogether": "Circling together: {names}",
+    "rank": "Rank",
+    "liveRank": "Live rank",
+    "liveRankBasis": "Live rank · {basis, select, altitude {altitude} race {race} other {{basis}}}",
+    "clickToFollow": "click to follow"
+  },
+  "shell": {
+    "close": "Close"
+  },
+  "hud": {
+    "shareTitle": "3D replay · We-Fly",
+    "groups": {
+      "flight": "Flight",
+      "taskAndAirspace": "Task and airspace",
+      "community": "Community"
+    },
+    "status": {
+      "inFlightOnly": "In flight only",
+      "pauseToCompute": "Pause to compute",
+      "nowhere": "Nowhere",
+      "signIn": "Sign in",
+      "unavailable": "Unavailable",
+      "noneHere": "None here",
+      "flewAlone": "Flew alone"
+    },
+    "layers": {
+      "vario": {
+        "label": "Vario",
+        "desc": "Colour the track by climb rate"
+      },
+      "thermals": {
+        "label": "Thermals",
+        "desc": "Climb columns along the track"
+      },
+      "wind": {
+        "label": "Wind",
+        "desc": "Wind arrow and speed at the glider"
+      },
+      "windProfile": {
+        "label": "Wind profile",
+        "desc": "Wind-by-altitude mast at takeoff"
+      },
+      "reach": {
+        "label": "Reach",
+        "desc": "Ground still reachable with this wind and glide. Computed when paused."
+      },
+      "task": {
+        "label": "Task",
+        "desc": "Turnpoints, cylinders and optimised route"
+      },
+      "airspace": {
+        "label": "Airspace",
+        "desc": "Airspace volumes along the route",
+        "descFile": "From {file}, attached to this flight",
+        "noneFound": "None found near this flight"
+      },
+      "autoFocus": {
+        "label": "Auto-focus",
+        "desc": "Camera frames each airspace penetration"
+      },
+      "hotspots": {
+        "label": "Hotspots",
+        "desc": "Community climb areas"
+      },
+      "gaggle": {
+        "label": "Gaggle",
+        "desc": "Other pilots airborne from the same launch at the same time",
+        "bridge": "{count, plural, one {# pilot} other {# pilots}} found · Open these pilots in the full comparison"
+      }
+    }
+  },
+  "share": {
+    "tracksExcluded": "{count, plural, one {# track isn't} other {# tracks aren't}} included. Uploaded IGCs and private pilots stay out of shared links.",
+    "linkCopied": "Replay link copied",
+    "linkCopiedPost": "Replay link copied! Click share to post it.",
+    "failed": "Failed to share replay",
+    "shareReplay": "Share replay"
+  },
+  "hudShared": {
+    "progressOpacity": "Progress · opacity",
+    "progressLength": "Progress · length",
+    "settings": "Replay settings",
+    "settingsButton": "Settings",
+    "closeSettings": "Close settings",
+    "layers": {
+      "thermals": "Thermals",
+      "task": "Task",
+      "airspace": "Airspace",
+      "autoFocus": "Auto-focus",
+      "vario": "Vario",
+      "wind": "Wind",
+      "windProfile": "Wind profile",
+      "hotspots": "Hotspots",
+      "gaggle": "Gaggle",
+      "reach": "Reach"
+    },
+    "layerTitles": {
+      "airspace": "Controlled & restricted airspace around the flight (OpenAIP)",
+      "autoFocus": "Let We-Fly frame each airspace penetration automatically (camera + zoom)",
+      "wind": "Wind arrow on the glider, measured at its altitude",
+      "windProfile": "Wind by altitude, as a mast. Spot the shear",
+      "hotspots": "Where the community climbs around here (public flights, aggregated)",
+      "gaggle": "Other pilots from this launch who were in the air at the same time",
+      "reach": "Ground still reachable from here, with this wind and the glide of the followed pilot (pause to compute)"
+    },
+    "openGaggle": "Open these pilots in the full comparison",
+    "compareGaggle": "Compare gaggle",
+    "record": "Record this replay to video",
+    "dismissRotate": "Dismiss rotate hint",
+    "rotate": "Rotate your phone for a better view",
+    "toggleState": "{label} {state}",
+    "on": "on",
+    "off": "off"
+  },
+  "shared": {
+    "loading": {
+      "replay3d": "Loading 3D replay…",
+      "replay": "Loading replay…",
+      "tracks": "Loading flight tracks…",
+      "track": "Loading flight track…"
+    },
+    "unknownPilotTitle": "Unknown Pilot",
+    "unknownPilot": "Unknown pilot",
+    "unknownTakeoff": "Unknown takeoff",
+    "notFoundTitle": "Replay Not Found",
+    "notFoundBody": "This shared replay link is invalid or has been removed.",
+    "noData": "No flight data available",
+    "subtitle": "3D replay · {date}"
+  },
+  "recorder": {
+    "seconds": "{s}s",
+    "minutes": "{m} min",
+    "minutesSeconds": "{m} min {s}s",
+    "title": "Record this 3D replay",
+    "getReady": "Get ready, drag the globe to steer the camera",
+    "rec": "REC {time}",
+    "dragToOrbit": "· drag to orbit",
+    "stop": "Stop",
+    "saving": "Saving video…",
+    "savedTitle": "Recording saved",
+    "saved": "The .{extension} file is in your downloads.",
+    "savedWithSize": "The .{extension} file is in your downloads ({size}).",
+    "close": "Close",
+    "failedTitle": "Recording failed",
+    "failedBody": "Something went wrong during the recording.",
+    "briefingIntro": "A quick briefing before you roll. Read it once, then fly the camera.",
+    "unsupported": "This browser cannot record a canvas to video. Chrome, Edge and Firefox on desktop all work.",
+    "briefing": {
+      "filmed": {
+        "title": "What you see is what gets filmed",
+        "body": "The globe is captured live, in one take. There is no re-render afterwards: the shot you fly is the shot you keep."
+      },
+      "direct": {
+        "title": "You direct the camera while it plays",
+        "body": "In Orbit mode, drag to swing around the glider, scroll or pinch to zoom, right-drag to tilt. Chase, Cockpit and Top stay one click away and can be switched mid-take."
+      },
+      "realTime": {
+        "title": "It runs in real time, then stops itself",
+        "body": "The replay rewinds to launch, counts you in, and records until landing. Press Stop earlier whenever you have the shot. The file is saved either way."
+      }
+    },
+    "panelsNotFilmed": "The panels around the globe are not filmed. A compact altitude / vario / speed strip and a progress bar are burned into the video instead. Switch them off below for a clean picture.",
+    "playbackSpeed": "Playback speed",
+    "speedOption": "{speed}× · {length} take",
+    "resolution": "Resolution",
+    "fileFormat": "File format",
+    "formatHints": {
+      "mp4": "Plays everywhere: phones, social apps, video editors.",
+      "webm": "Smaller file at the same quality. Best for the web."
+    },
+    "quality": "Quality",
+    "qualityStandard": "Standard · 6 Mbps",
+    "qualityHigh": "High · 12 Mbps",
+    "burnIn": "Burn in telemetry",
+    "burnInHint": "Altitude, vario, speed, clock and a progress bar.",
+    "summary": "<strong>{length}</strong> of recording at {speed}× · about {size} · {format}",
+    "tips": "Sharpest results come from a big globe, so go fullscreen before you open this panel. Keep the tab in front, too: a background tab throttles the globe, and the video with it.",
+    "cancel": "Cancel",
+    "start": "Start recording"
+  },
+  "flight": {
+    "alertMax": "max {altitude}",
+    "attachedFile": "the attached file",
+    "shareTitle": "{pilot, select, other {{pilot}'s}} 3D replay from {place} · We-Fly",
+    "shareFallbackPlace": "a paragliding flight"
+  },
+  "recap": {
+    "unavailable": "No recap available for this season.",
+    "seasonRecap": "Season recap · {season}",
+    "season": "{season} Season",
+    "summary": "{flights, plural, one {# flight} other {# flights}}, {hours, plural, one {# hour} other {# hours}} in the air.",
+    "summaryCountries": "{flights, plural, one {# flight} other {# flights}}, {hours, plural, one {# hour} other {# hours}} in the air across {countries} countries.",
+    "totalXc": "Total XC distance",
+    "bestFlight": "Best flight",
+    "unknownTakeoff": "Unknown takeoff",
+    "dateRange": "{from} to {to}",
+    "shareTitle": "{name}'s {season} Season Recap · We-Fly",
+    "shareText": "{flights, plural, one {# flight} other {# flights}}, {distance} XC this season!",
+    "stats": {
+      "flights": "Flights",
+      "airtime": "Airtime",
+      "sitesFlown": "Sites flown",
+      "countries": "Countries"
+    },
+    "records": {
+      "title": "Personal records",
+      "bestXc": "Best XC",
+      "longestFlight": "Longest flight",
+      "highestAltitude": "Highest altitude",
+      "strongestThermal": "Strongest thermal",
+      "openFlight": "Open flight: {label}"
+    },
+    "whereYouFlew": "Where you flew",
+    "flightCount": "{count, plural, one {# flight} other {# flights}}",
+    "monthlyActivity": "Monthly activity",
+    "peak": "Peak {month} · {count, plural, one {# flight} other {# flights}}",
+    "ranking": {
+      "xcDistance": "XC distance",
+      "flights": "Flights",
+      "airtime": "Airtime",
+      "xcDistanceLower": "xc distance",
+      "flightsLower": "flights",
+      "airtimeLower": "airtime",
+      "top": "Top {pct}%",
+      "xcDistanceTooltip": "This pilot flew more XC distance than {pct}% of the community.",
+      "flightsTooltip": "More flights than {pct}% of the community.",
+      "airtimeTooltip": "More airtime than {pct}% of the community."
+    },
+    "poster": {
+      "seasonTag": "· season {season}",
+      "seasonLower": "{season} season",
+      "dateArrow": "{from} → {to}",
+      "headline": "of cross-country, across <strong>{flights, plural, one {# flight} other {# flights}}</strong>{hasWing, select, yes {, under <strong>{wing}</strong>} other {}}{hasCountries, select, yes {, between {countries}} other {}}.",
+      "inTheAir": "in the air",
+      "monthlyRhythm": "Monthly rhythm · {count, plural, one {# flight} other {# flights}}",
+      "standoutFlight": "Standout flight",
+      "distance": "Distance",
+      "duration": "Duration",
+      "avgClimb": "Avg climb",
+      "homeSite": "Home site",
+      "homeSiteShare": "{count, plural, one {flight} other {flights}} · {pct}% of season",
+      "communityRanking": "Community ranking",
+      "countries": "Countries · {count}",
+      "countriesWithDistance": "Countries · {count} · {distance}",
+      "xc": "XC",
+      "footer": "we-fly.cloud · paragliding logbook for precision pilots"
+    }
+  }
+}

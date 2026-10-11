@@ -1,0 +1,449 @@
+{
+  "altitudeChart": {
+    "gpsAlt": "GPS alt",
+    "baroAlt": "Baro alt",
+    "alt": "Alt",
+    "altitude": "Altitude",
+    "ground": "Ground",
+    "agl": "AGL",
+    "hoverHint": "Hover the curve for altitude, ground & airspace",
+    "lowAglLabel": "{value} AGL"
+  },
+  "benchmarks": {
+    "climb": "Climb",
+    "climbCount": "{count, plural, one {# climb} other {# climbs}}",
+    "career": "Career",
+    "noCareerBaseline": "no career baseline",
+    "site": "Site",
+    "firstHere": "first here",
+    "siteFlights": "{count, plural, one {# flight} other {# flights}}",
+    "onPar": "on par"
+  },
+  "cta": {
+    "title": "Thermal Analysis",
+    "subtitle": "Advanced insights",
+    "thermalCount": "{count, plural, one {# thermal} other {# thermals}}",
+    "open": "Open"
+  },
+  "floatChart": {
+    "title": "Float Activity by Altitude & Time",
+    "description": "Mean vertical speed during float phases at each altitude throughout the flight",
+    "tooltipAltitude": "{value} {unit} ASL"
+  },
+  "gFactorChart": {
+    "total": "Total G-Factor",
+    "tooltip": "G-Factor:"
+  },
+  "gFactorTab": {
+    "notAvailable": "G-factor data not available for this flight",
+    "title": "Load Factor Analysis",
+    "stats": {
+      "min": "Min G-Factor",
+      "max": "Max G-Factor",
+      "mean": "Mean G-Factor",
+      "median": "Median G-Factor",
+      "deviation": "Std Deviation"
+    },
+    "event": {
+      "title": "Maximum Load Factor Event",
+      "gFactor": "G-Factor",
+      "time": "Time",
+      "coordinates": "Coordinates"
+    },
+    "chart": {
+      "total": "Total G-Factor",
+      "vertical": "Vertical G-Factor",
+      "lateral": "Lateral G-Factor",
+      "overTime": "G-Factor Over Time",
+      "overTimeDescription": "Load factor variation throughout the flight",
+      "loading": "Loading chart data...",
+      "unavailable": "G-factor time series data not available",
+      "failed": "Failed to load G-factor chart data",
+      "axis": "G-Factor",
+      "tooltip": "G-Factor:",
+      "normal": "1G (Normal)",
+      "noData": "No chart data available"
+    },
+    "info": {
+      "title": "Understanding G-Factor",
+      "intro": "<link>G-factor (load factor)</link> represents the vertical load experienced during flight:",
+      "normal": "<strong>1.0 G:</strong> Normal gravity (straight and level flight)",
+      "gentle": "<strong>1.0-2.0 G:</strong> Gentle turns and thermals",
+      "aggressive": "<strong>2.0-5.0 G:</strong> Aggressive maneuvers and spirals",
+      "extreme": "<strong>Over 5.0 G:</strong> Extreme maneuvers (approach structural limits)",
+      "method": "This analysis combines vertical acceleration (from altitude changes) and lateral acceleration (from turning).<br></br><b>Always respect your wing's certified G-limits</b> (8G during 3 seconds for <standard>EN 926-1</standard>)."
+    }
+  },
+  "quality": {
+    "outstanding": "Outstanding",
+    "excellent": "Excellent",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor"
+  },
+  "compass": {
+    "from": "FROM {point}",
+    "windFromAria": "Wind from {point}"
+  },
+  "coaching": {
+    "centeringWidened": "Circles widened from {r25} (p25) to {r75} (p75) around a {core} core: the lift narrowed at altitude. Try tightening as you climb.",
+    "centeringOrbit": "You orbited {dist} from a {core} core (mean distance ~{ratio}× core radius). Try tighter turns when you feel the strongest lift.",
+    "centeringExcellent": "Excellent centring: you stayed within {dist} of a {core} core.",
+    "slowCoreEntry": "Slow core entry: {seconds} s ({pct}% of the climb) before reaching strongest lift. Consider wider initial circles to feel the gradient.",
+    "greatCoreEntry": "Great core entry: found the strongest lift in {seconds} s.",
+    "lowEfficiency": "Low efficiency: {gain} gain for {drift} of drift ({pct}%) in {wind} wind. Try tighter turns to stay over the lift.",
+    "goodEfficiency": "Good efficiency: {gain} gain with only {drift} of drift ({pct}%).",
+    "variabilityPoorCentering": "High variability (±{variability}) with circle radius spanning {r25} to {r75}. Likely poor centring rather than a turbulent thermal.",
+    "variabilityTurbulentCircling": "High variability (±{variability}) with consistent {r25} to {r75} circling. Turbulent thermal.",
+    "variabilityTurbulent": "High variability (±{variability}). Turbulent thermal.",
+    "smoothClimbAirspeed": "Smooth, consistent climb (±{variability}) at {airspeed} airspeed. Well done!",
+    "smoothClimb": "Smooth, consistent climb (±{variability}). Well done!",
+    "flatBank": "Flat bank ({bank}°) in a tight {core} core: try ~25° to keep your turn radius matched to the lift zone.",
+    "steepBank": "Steep bank ({bank}°) in a wide {core} thermal: easing off would conserve airspeed and reduce sink rate.",
+    "solidWork": "Solid thermal work: {gain} gained with {pct}% efficiency.",
+    "flightSummary": "Across {count} thermals: median centring {median}%, with {excellent} excellent and {poor} below 50%.",
+    "flightSlowEntry": "Slow core entry on {count} thermals (>50% of climb spent finding the core). Try wider initial circles to feel the gradient.",
+    "flightFlatBank": "Bank stayed flat (<20°) in {count} tight cores: try ~25° to keep your turn radius matched to the lift zone.",
+    "flightBestClimb": "Best climb: T#{index} at {time}, {gain} gain, {pct}% centring, {maxClimb} sustained. Excellent work.",
+    "flightWorstClimb": "Worth reviewing: T#{index} at {time}, orbited {dist} from a {core} core ({pct}% centring). Try tighter turns when you feel the strongest lift."
+  },
+  "chart": {
+    "resetZoom": "Reset zoom",
+    "dragToZoom": "Drag to zoom"
+  },
+  "trackMap": {
+    "noTrack": "No track data",
+    "takeoff": "Takeoff",
+    "landing": "Landing"
+  },
+  "speedChart": {
+    "groundSpeed": "Ground speed",
+    "airspeed": "Airspeed",
+    "ground": "Ground",
+    "groundTooltip": "Ground:",
+    "airspeedTooltip": "Airspeed:",
+    "hideGround": "Hide ground speed",
+    "showGround": "Show ground speed",
+    "hideAirspeed": "Hide airspeed",
+    "showAirspeed": "Show airspeed",
+    "resetZoom": "Reset zoom",
+    "dragToZoom": "Drag to zoom"
+  },
+  "speedMap": {
+    "showPickerAria": "Show speed layer picker",
+    "collapsePickerAria": "Collapse speed layer picker",
+    "windUnavailable": "Wind data unavailable for this flight",
+    "noTrack": "No track data",
+    "takeoff": "Takeoff",
+    "landing": "Landing",
+    "tickTail": "−{value} tail",
+    "tickHead": "{value} head",
+    "tickLeft": "{value} left",
+    "tickRight": "{value} right",
+    "modes": {
+      "gs": "Ground",
+      "tas": "Airspeed",
+      "headwind": "Headwind",
+      "crosswind": "Crosswind"
+    },
+    "modeTitles": {
+      "gs": "Ground speed: what the GPS measures over the ground",
+      "tas": "True airspeed: your speed through the air (ground − wind)",
+      "headwind": "Headwind component (red = into wind, blue = with wind)",
+      "crosswind": "Crosswind component (purple = from right, teal = from left)"
+    }
+  },
+  "speedTab": {
+    "loadingMap": "Loading map…",
+    "maxSpeed": "Max Speed",
+    "avgSpeed": "Avg Speed"
+  },
+  "thermal3d": {
+    "loading": "Loading 3D view…",
+    "leave": "Leave · {altitude}",
+    "entry": "Entry · {altitude}",
+    "exit": "Exit · {altitude}",
+    "legend": {
+      "strongLift": "Strong lift",
+      "weakLift": "Weak lift",
+      "sink": "Sink",
+      "core": "Thermal core",
+      "leaveAltitude": "Leave altitude",
+      "currentPosition": "Current position"
+    }
+  },
+  "qualityStrip": {
+    "efficiency": "eff",
+    "centering": "ctr"
+  },
+  "scoreBreakdown": {
+    "climb": "Climb",
+    "efficiency": "Efficiency",
+    "centering": "Centering",
+    "consistency": "Consistency",
+    "sustained": "Sustained",
+    "sustainedActual": "{seconds}s · {turns}t",
+    "howCalculated": "How is this calculated?"
+  },
+  "thermalCard": {
+    "selectAria": "Select thermal {number}",
+    "title": "Thermal #{number}",
+    "resetZoomAria": "Reset zoom for thermal {number}",
+    "resetZoomTooltip": "Reset zoom and center",
+    "time": "Time",
+    "gain": "Gain",
+    "climb": "Climb"
+  },
+  "timelineStrip": {
+    "listAria": "Select a thermal"
+  },
+  "thermalDetails": {
+    "seconds": "{value} s",
+    "climb": {
+      "title": "Climb",
+      "preview": "{avg} avg · {max} max",
+      "gain": "Gain",
+      "avg": "Avg",
+      "max": "Max",
+      "min": "Min",
+      "variability": "Variab.",
+      "peak": "peak {value}"
+    },
+    "core": {
+      "title": "Core",
+      "strength": "Strength",
+      "centeringTime": "Ctr time",
+      "size": "Size",
+      "liftRadius": "lift radius",
+      "meanDistance": "Mean dist",
+      "fromCore": "from core",
+      "centering": "Centering"
+    },
+    "turn": {
+      "title": "Turn Dynamics",
+      "preview": "{direction} · {count, plural, one {# turn} other {# turns}} · {rate}°/s",
+      "direction": "Direction",
+      "right": "Right",
+      "left": "Left",
+      "turns": "Turns",
+      "rate": "Rate",
+      "rateValue": "{value}°/s",
+      "bankAngle": "Bank angle",
+      "estimatedAirspeed": "est. airspeed {value}",
+      "timePerCircle": "Time per circle",
+      "min": "min",
+      "median": "median",
+      "max": "max",
+      "circleRadius": "Circle radius",
+      "p25": "p25",
+      "p75": "p75"
+    },
+    "wind": {
+      "title": "Drift & Wind",
+      "preview": "{speed} · drift {drift} · from {compass}",
+      "speed": "Wind speed",
+      "driftDistance": "Drift dist.",
+      "direction": "Direction",
+      "from": "from {compass}"
+    },
+    "time": {
+      "title": "Time",
+      "start": "Start",
+      "end": "End",
+      "duration": "Duration"
+    },
+    "score": {
+      "title": "Score Breakdown",
+      "preview": "how the {score} is built"
+    },
+    "tips": {
+      "title": "Recommendations",
+      "count": "{count, plural, one {# tip} other {# tips}}"
+    }
+  },
+  "thermalMap": {
+    "thermal": "Thermal #{number}",
+    "thermalSelected": "Thermal #{number} (Selected)",
+    "strength": "Strength: {value}",
+    "thermalCore": "thermal core",
+    "vario": "Vario: {value}",
+    "altitude": "Alt: {value}",
+    "entryPoint": "Entry Point",
+    "exitPoint": "Exit Point",
+    "currentPosition": "Current Position"
+  },
+  "thermalTimeAltitude": {
+    "title": "Climb Rate by Altitude & Time",
+    "description": "Average climb rate per thermal at each altitude throughout the flight",
+    "referenceAria": "Altitude reference",
+    "amsl": "AMSL",
+    "agl": "AGL",
+    "asl": "ASL",
+    "aglTitle": "Above takeoff (height gained over launch elevation)",
+    "amslTitle": "Above mean sea level (raw GPS altitude)",
+    "pointAria": "Thermal #{number} at {time}, {altitude}, {climb}",
+    "pointAriaUnnumbered": "Select thermal at {time}, {altitude}, {climb}",
+    "ceilingEarly": "early {altitude}",
+    "ceilingLate": "late {altitude}",
+    "ceiling": "ceiling {altitude}",
+    "thermalNumber": "Thermal #{number}",
+    "tooltipAltitude": "{value} {unit} {reference}",
+    "caption": "The dashed line is the day's working ceiling: how high your climbs typically topped out (median exit altitude of climbs gaining 100 m or more). When the line splits into two steps, the morning and afternoon ceilings differed. A step up usually means an inversion broke through, a step down usually means late-day decay."
+  },
+  "thermalsTab": {
+    "title": "Thermal #{number}",
+    "view2d": "2D Map",
+    "view3d": "3D View",
+    "loadError": "Could not load flight track",
+    "loadingTrack": "Loading flight track…",
+    "stats": {
+      "thermals": "Thermals",
+      "best": "Best",
+      "bestSub": "Thermal #{number} · {quality}",
+      "gain": "Gain",
+      "avgClimb": "Avg climb",
+      "quality": "Quality",
+      "median": "median {value}"
+    },
+    "filters": {
+      "all": "All",
+      "best5": "Best 5",
+      "belowMedian": "Below median",
+      "drifty": "Drifty",
+      "driftyHint": ">30 m drift / 100 m gain",
+      "shown": "{shown} of {total}",
+      "empty": "No thermals match this filter."
+    },
+    "animation": {
+      "play": "Play",
+      "pause": "Pause",
+      "resetAria": "Reset animation",
+      "previousFrameAria": "Previous frame",
+      "nextFrameAria": "Next frame",
+      "frame": "Frame <strong>{current}</strong><muted>/{total}</muted>",
+      "resetZoomAria": "Reset map zoom",
+      "centreMap": "Centre map on this thermal"
+    }
+  },
+  "varioChart": {
+    "lift": "Lift",
+    "sink": "Sink",
+    "tooltip": "Vario:"
+  },
+  "varioRadius": {
+    "title": "Vario vs Circle Radius",
+    "description": "Climb rate for each circle plotted against its turning radius. Colour matches the vario scale",
+    "tooltipRadius": "Radius:",
+    "tooltipDuration": "Duration:",
+    "tooltipDirection": "Direction:",
+    "seconds": "{value} s",
+    "left": "Left",
+    "right": "Right",
+    "vario": "Vario",
+    "axisRadius": "radius ({unit})",
+    "zones": {
+      "risky": "risky",
+      "ideal": "ideal",
+      "ok": "ok",
+      "tighten": "tighten"
+    },
+    "radius": "Radius"
+  },
+  "varioTimeAltitude": {
+    "title": "Vario by Altitude & Time",
+    "description": "Climb and sink rate across the full flight profile",
+    "tooltipAltitude": "{value} {unit} ASL"
+  },
+  "windRose": {
+    "roseAria": "Wind rose. Aggregate from {point} ({bearing}°), spread ±{spread}°, {count, plural, one {# altitude band} other {# altitude bands}}.",
+    "bandAria": "{min} to {max} {unit}: {speed} from {point} ({bearing}°)",
+    "altitudeBand": "Altitude band",
+    "direction": "Direction",
+    "speed": "Speed",
+    "bandRange": "{min} – {max} {unit}",
+    "bandStats": "n = {count} · {bearing}°"
+  },
+  "windTab": {
+    "confidence": {
+      "high": "High confidence",
+      "medium": "Medium confidence",
+      "low": "Low confidence"
+    },
+    "measuredBadge": "Measured by Vector Vario",
+    "measuredTooltip": "This flight was logged with a Vector Vario, which measures the wind every second from airspeed and heading. Everything on this tab uses that measurement instead of the estimate from thermal drift.",
+    "sampleMeasured": "{minutes} min measured",
+    "sampleThermals": "{count, plural, one {# thermal} other {# thermals}} sampled",
+    "altitudeBands": "{count, plural, one {# altitude band} other {# altitude bands}}",
+    "header": {
+      "eyebrow": "Wind analysis",
+      "fromAveraging": "From <accent>{bearing}</accent>, averaging {speed}.",
+      "averaging": "Averaging <accent>{speed}</accent>.",
+      "unavailable": "Wind couldn't be estimated for this flight.",
+      "spreadMeasured": "direction · ±{spread}° spread across {minutes} min",
+      "spreadSamples": "direction · ±{spread}° spread across {count, plural, one {# sample} other {# samples}}"
+    },
+    "lede": {
+      "measuredHigh": "Measured second by second over {minutes} min of flight, and the direction held tight (±{spread}°).",
+      "measuredSwing": "Measured second by second over {minutes} min of flight. The direction swung ±{spread}°. That's the air itself shifting, not estimation noise.",
+      "noData": "Wind is derived from ground-track residuals during thermalling. This flight didn't include enough qualifying thermals to fit a model.",
+      "low": "Wind direction scattered ±{spread}° across {count, plural, one {# thermal sample} other {# thermal samples}}. Take direction estimates with care; speed estimates are tighter.",
+      "medium": "Direction agreed within ±{spread}° across {count, plural, one {# thermal sample} other {# thermal samples}}. Solid enough to plan around, but worth a sanity-check against soundings.",
+      "high": "Direction held tight (±{spread}° across {count, plural, one {# thermal sample} other {# thermal samples}}). The wind read consistent through the climbing band."
+    },
+    "hero": {
+      "windFrom": "Wind from",
+      "average": "Average",
+      "median": "median {value}",
+      "range": "Range",
+      "rangeMeasured": "p10 · max",
+      "rangeEstimated": "min · max",
+      "sample": "Sample",
+      "minutesUnit": "min",
+      "readings": "{count, plural, one {# reading} other {# readings}} · 1 Hz",
+      "thermalsUnit": "{count, plural, one {thermal} other {thermals}}",
+      "meanAirspeed": "Mean airspeed",
+      "airspeedSub": "p90 {p90} · max {max}"
+    },
+    "conditions": {
+      "mean": "Mean",
+      "meanTooltip": "Average of all values. Sensitive to outliers and extreme readings.",
+      "median": "Median",
+      "medianTooltip": "Middle value when sorted. More robust than the mean when data is skewed.",
+      "stdDev": "Std. dev.",
+      "stdDevTooltip": "Standard deviation: how spread out the values are around the mean. Lower means more consistent.",
+      "maximum": "Maximum",
+      "percentile10": "10th percentile",
+      "percentile10Tooltip": "Nine readings in ten were stronger than this. Steadier than a raw minimum, which a single sensor dropout can pin to zero.",
+      "minimum": "Minimum",
+      "bearingRange": "Bearing range"
+    },
+    "empty": "Not enough thermal data to estimate wind conditions for this flight.",
+    "heatmap": {
+      "eyebrow": "01 · Speed × time × altitude",
+      "title": "Wind speed by altitude through the flight",
+      "ledeMeasured": "Each circle averages a slice of the Vector Vario's per-second wind readings. The interpolated field shows where the air was working harder; hover anywhere for the speed.",
+      "ledeEstimated": "Each circle is a thermal where wind was estimated. The interpolated field shows where the air was working harder; hover any thermal for direction & speed."
+    },
+    "direction": {
+      "eyebrow": "02 · Direction",
+      "title": "Where the air came from",
+      "ledeRose": "The orange pointer marks the aggregate bearing; the lavender arc shows scatter; coloured dots place each altitude band on the rose. Dot radius from centre encodes wind speed.",
+      "ledeSingleBand": "Only one altitude band was sampled. The pointer marks the aggregate bearing.",
+      "aggregateBearing": "Aggregate bearing",
+      "aggregateNotch": "Aggregate notch ({bearing}°)",
+      "scatterHalo": "±{spread}° scatter halo",
+      "bandRange": "{min}–{max} {unit}",
+      "byAltitudeBand": "By altitude band",
+      "bandCount": "{count, plural, one {# band} other {# bands}}"
+    },
+    "detail": {
+      "readings": "Detail · {count, plural, one {# reading} other {# readings}}",
+      "samples": "Detail · all {count, plural, one {# sample} other {# samples}}",
+      "bearingRangeNote": "bearing range = mean ± circular σ"
+    }
+  },
+  "windTimeAltitude": {
+    "altitudeAxis": "Alt {unit}",
+    "timeAxis": "Time of day →"
+  }
+}

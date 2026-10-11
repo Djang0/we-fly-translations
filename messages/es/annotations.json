@@ -1,0 +1,96 @@
+{
+  "views": {
+    "altitude": "Altitud",
+    "vario": "Vario",
+    "speed": "Velocidad",
+    "gfactor": "Factor G"
+  },
+  "panel": {
+    "title": "Anotaciones",
+    "add": "Añadir anotación",
+    "addTooltip": "Añade una anotación, o haz clic derecho sobre el track en cualquier mapa",
+    "requestReview": "Pedir una revisión",
+    "requestReviewTooltip": "Pide a un piloto que revise este vuelo",
+    "close": "Cerrar el panel de anotaciones",
+    "publicLabel": "Públicas",
+    "publicOn": "Tus anotaciones se ven en la comunidad y en las vistas compartidas",
+    "publicOff": "Muestra tus anotaciones en la comunidad y en las vistas compartidas",
+    "publicAria": "Hacer públicas mis anotaciones",
+    "empty": "Aún no hay anotaciones.",
+    "emptyHint": "Haz clic derecho en un punto del track en el mapa para añadir una.",
+    "blockTitle": "¿Bloquear a {name}?",
+    "blockTitleFallback": "¿Bloquear a este piloto?",
+    "blockDescription": "Ya no podrá anotar ninguno de tus vuelos. Sus anotaciones actuales se quedan hasta que las borres. Puedes desbloquearlo cuando quieras desde tu página de perfil.",
+    "cancel": "Cancelar",
+    "blockConfirm": "Bloquear piloto",
+    "blockAria": "Bloquear a {name}",
+    "deleteAria": "Eliminar anotación"
+  },
+  "dialog": {
+    "title": "Anotar este vuelo",
+    "description": "Fija un comentario en un momento del vuelo. Solo texto: no se permiten enlaces ni marcado.",
+    "flightTime": "Tiempo de vuelo",
+    "flightTimeAria": "Tiempo de vuelo de la anotación",
+    "mapView": "Vista del mapa",
+    "annotation": "Anotación",
+    "placeholder": "p. ej. Dejaste esta térmica demasiado pronto. Todavía subía a 2 m/s.",
+    "cancel": "Cancelar",
+    "submit": "Añadir anotación"
+  },
+  "validation": {
+    "empty": "La anotación no puede estar vacía",
+    "tooLong": "La anotación no puede superar los {max} caracteres",
+    "url": "La anotación no puede contener una URL",
+    "markup": "La anotación no puede contener los caracteres < o >",
+    "invalidChars": "La anotación contiene caracteres no válidos"
+  },
+  "map": {
+    "annotateHere": "Anotar aquí",
+    "seeAirspaces": "Ver espacios aéreos ({count})"
+  },
+  "reviewer": {
+    "title": "Pedir una revisión",
+    "description": "Pide a un piloto con más experiencia que revise este vuelo y deje anotaciones en el track. Escribe el correo exacto que usa en We-Fly. Por privacidad, no se puede explorar ni buscar pilotos.",
+    "placeholder": "piloto@ejemplo.com",
+    "hint": "El piloto recibirá un correo y una notificación pidiéndole que revise este vuelo.",
+    "incomplete": "Escribe un correo completo.",
+    "checking": "Comprobando…",
+    "found": "Este correo corresponde a un piloto de We-Fly.",
+    "notFound": "Ningún piloto con este correo acepta solicitudes de revisión.",
+    "send": "Enviar solicitud",
+    "sent": "Solicitud de revisión enviada",
+    "sendFailed": "No se pudo enviar la solicitud de revisión"
+  },
+  "toasts": {
+    "added": "Anotación añadida",
+    "addFailed": "No se pudo añadir la anotación",
+    "deleted": "Anotación eliminada",
+    "deleteFailed": "No se pudo eliminar la anotación",
+    "blocked": "Piloto bloqueado: ya no puede anotar tus vuelos",
+    "blockFailed": "No se pudo bloquear al piloto",
+    "visibilityOn": "Tus anotaciones ya se ven en la comunidad y en las vistas compartidas",
+    "visibilityOff": "Tus anotaciones vuelven a ser privadas",
+    "visibilityFailed": "No se pudo actualizar la visibilidad"
+  },
+  "errors": {
+    "notAuthenticated": "No has iniciado sesión",
+    "invalidFlightId": "ID de vuelo no válido",
+    "flightNotFound": "Vuelo no encontrado",
+    "notWhileImpersonating": "No disponible mientras suplantas a un usuario",
+    "invalidMapView": "Vista de mapa no válida",
+    "invalidTimeCode": "Código de tiempo de vuelo no válido",
+    "timeCodeOutOfRange": "El código de tiempo de vuelo está fuera de rango",
+    "notAllowed": "No tienes permiso para anotar este vuelo",
+    "addFailed": "No se pudo añadir la anotación",
+    "visibilityFailed": "No se pudo actualizar la visibilidad",
+    "invalidAnnotation": "Anotación no válida",
+    "annotationNotFound": "Anotación no encontrada",
+    "deleteFailed": "No se pudo eliminar la anotación",
+    "cannotBlockSelf": "No puedes bloquearte a ti mismo",
+    "blockFailed": "No se pudo bloquear al anotador",
+    "invalidUser": "Usuario no válido",
+    "unblockFailed": "No se pudo desbloquear al anotador",
+    "commentTooLong": "El comentario no puede superar los {max} caracteres",
+    "internal": "Error interno"
+  }
+}

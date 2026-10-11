@@ -1,0 +1,164 @@
+{
+  "tab": {
+    "noDataTitle": "Sin datos de Vector Vario",
+    "noDataBody": "Este vuelo se grabó con un registrador IGC estándar. Los datos de Vector Vario (velocidad aire, factor de carga, actitud, netto, etc. segundo a segundo) aparecen aquí cuando el IGC contiene registros LXVV.",
+    "loadFailedTitle": "No se pudieron cargar las muestras de Vector Vario",
+    "loadFailedBody": "{message}. El resumen de arriba sale del documento del vuelo y sigue siendo correcto; solo los gráficos segundo a segundo dependen del archivo complementario.",
+    "unknownError": "Error desconocido"
+  },
+  "hero": {
+    "title": "Vector Vario",
+    "profilePro": "Pro",
+    "profileClassic": "Classic",
+    "samplesAndCadence": "{samples} muestras · {cadence} Hz",
+    "meanAirspeed": "Velocidad aire media",
+    "meanAirspeedSub": "IAS · p90 {value}",
+    "peakLoad": "Factor de carga máximo",
+    "peakLoadSub": "media {value}",
+    "meanNetto": "Netto medio",
+    "meanNettoSub": "altitud libre {altitude}",
+    "temperatureRange": "Rango de temperatura",
+    "temperatureRangeSub": "HR media {value} %"
+  },
+  "compass": {
+    "n": "N",
+    "e": "E",
+    "s": "S",
+    "w": "O"
+  },
+  "noCompass": "Este registrador no tiene brújula, así que su viento segundo a segundo no es una medición directa: dibujado como flechas, solo sigue tu dirección de avance. Mira la pestaña Viento para ver el viento que We-Fly deduce de la deriva de tus giros.",
+  "airspeed": {
+    "title": "Velocidad aire",
+    "titleFull": "Velocidad aire (IAS frente a TAS)",
+    "empty": "No hay muestras de velocidad aire en este vuelo.",
+    "description": "La IAS es la lectura bruta del pitot. La TAS es la IAS corregida según la densidad del aire local, usando la temperatura y la humedad de cada muestra."
+  },
+  "attitude": {
+    "title": "Cabeceo y alabeo",
+    "empty": "No hay muestras de actitud en este vuelo.",
+    "description": "Cabeceo (morro arriba/abajo) y alabeo (inclinación a izquierda/derecha). Un cabeceo positivo es morro arriba; un alabeo positivo es ala derecha abajo.",
+    "pitch": "Cabeceo",
+    "roll": "Alabeo"
+  },
+  "gforce": {
+    "title": "Factor de carga (G)",
+    "empty": "No hay muestras de factor de carga en este vuelo.",
+    "description": "Medido en el instrumento. 1,00 G es vuelo recto y nivelado; valores por encima de 2 G suelen ser virajes muy cerrados o tirones fuertes.",
+    "series": "Factor de carga"
+  },
+  "heading": {
+    "title": "Rumbo",
+    "empty": "No hay muestras de rumbo en este vuelo.",
+    "description": "Dirección hacia la que apunta el morro. Se dibuja con puntos, porque una línea continua trazaría un pico de 350° cada vez que pasas por el norte."
+  },
+  "netto": {
+    "title": "Netto (viento vertical)",
+    "empty": "No hay muestras de netto en este vuelo.",
+    "description": "La componente vertical de la masa de aire que te rodea, sin la tasa de caída propia de la vela. Por encima de 0 {unit} = aire ascendente, por debajo = descendente.",
+    "lift": "Ascendencia",
+    "sink": "Descendencia",
+    "tooltip": "Netto"
+  },
+  "tempHumidity": {
+    "title": "Temperatura y humedad",
+    "empty": "No hay muestras ambientales en este vuelo.",
+    "description": "Aire ambiente medido en el instrumento. Doble eje: temperatura a la izquierda, humedad relativa a la derecha.",
+    "temperature": "Temperatura",
+    "humidity": "Humedad",
+    "tooltipTemp": "Temp.",
+    "tooltipHumidity": "HR"
+  },
+  "windDirect": {
+    "titleEmpty": "Viento (medido)",
+    "title": "Viento (medido cada segundo)",
+    "empty": "No hay muestras de viento directo en este vuelo.",
+    "descriptionCompass": "Velocidad y procedencia del viento medidas por el Vector Vario en cada punto. La procedencia sigue la convención meteorológica: viento que viene DESDE esa dirección.",
+    "descriptionNoCompass": "Viento segundo a segundo según el registrador. Este equipo no tiene brújula, así que la dirección tiende a seguir tu rumbo más que el viento real. Mira la pestaña Viento para ver la estimación de We-Fly a partir de la deriva. La procedencia sigue la convención meteorológica (viento DESDE).",
+    "speed": "Velocidad del viento",
+    "direction": "Dirección del viento",
+    "tooltipSpeed": "Velocidad",
+    "tooltipFrom": "Desde"
+  },
+  "windMap": {
+    "titleEmpty": "Mapa de viento",
+    "title": "Mapa de viento (medido)",
+    "emptyCoordinates": "Este vuelo no tiene coordenadas por muestra (el archivo complementario del Vector Vario es anterior a la PR #6).",
+    "description": "Track en gris; {count, plural, one {# flecha de viento muestreada} other {# flechas de viento muestreadas}} a lo largo del vuelo. Las flechas apuntan a sotavento; el color gira con la dirección y la longitud crece con la velocidad.",
+    "from": "desde {degrees}°"
+  },
+  "wind3d": {
+    "title": "Viento 3D",
+    "emptyScene": "No hay suficientes coordenadas y muestras de viento para crear una escena 3D.",
+    "description": "{points} puntos del track y {arrows, plural, one {# flecha de viento} other {# flechas de viento}} en una sola escena 3D. Arrastra para girar, arrastra con el botón derecho para desplazar y usa la rueda para hacer zoom.",
+    "loading": "Cargando la escena 3D…",
+    "controls": "Controles",
+    "controlDrag": "• Arrastrar: girar",
+    "controlRightDrag": "• Botón derecho: desplazar",
+    "controlScroll": "• Rueda: zoom",
+    "sceneScale": "Escala de la escena",
+    "trackLength": "Longitud del track: radio de ~{distance}",
+    "altitudeRange": "Altitud: {from}-{to} {unit}"
+  },
+  "polar": {
+    "title": "Rendimiento en planeo",
+    "emptyDescription": "No hay muestras en fase de planeo en este vuelo. El rendimiento solo tiene sentido en un planeo estable.",
+    "emptyLabel": "No hay muestras (TAS, vario) en fase de planeo.",
+    "sparseDescription": "Solo hay {samples} muestras en fase de planeo, demasiado pocas para publicar percentiles por TAS. La nube de puntos se muestra solo como contexto.",
+    "description": "Envolvente observada con {published} de {total} muestras en fase de planeo, agrupadas en tramos de TAS de {bin} km/h (al menos {min} muestras por tramo). La banda sombreada es el percentil 10-90 del vario en cada TAS; la línea continua es la mediana. La línea discontinua es la mediana del cuartil con el netto más bajo de cada tramo, lo más parecido a \"lo que hace la vela en aire sin ascendencia\" sin una polar del fabricante.",
+    "bandSeries": "Percentil 10-90",
+    "medianSeries": "Vario mediano",
+    "cleanAirSeries": "Mediana del cuartil de netto más bajo",
+    "tasAxis": "Velocidad aire verdadera ({unit})",
+    "varioAxis": "Vario ({unit})",
+    "tasName": "TAS",
+    "glideCell": "Celda de planeo",
+    "legendBand": "Banda percentil 10-90",
+    "legendMedian": "Vario mediano",
+    "legendCleanAir": "Mediana en aire limpio (cuartil de netto más bajo)",
+    "legendSinking": "Aire descendente",
+    "legendLifting": "Aire ascendente",
+    "bestSinkLabel": "Mejor tasa de caída observada (mediana)",
+    "bestGlideLabel": "Mejor fineza observada (mediana)",
+    "bestGlideLabelNone": "Mejor fineza observada",
+    "noGlide": "Ningún tramo llegó a una mediana de vario negativa (todos los tramos de TAS estaban en ascendencia neta)",
+    "location": "a {speed} · {count, plural, one {# muestra} other {# muestras}}",
+    "spread": "Percentil 10-90: {range}",
+    "spreadWithLift": "Percentil 10-90: {range} (algunas muestras estaban en ascendencia, así que no hay fineza finita)",
+    "cleanAirSink": "{value} en el cuartil de netto más bajo",
+    "cleanAirSinkAtTas": "{value} de caída a esta TAS en el cuartil de netto más bajo",
+    "cleanAirProxy": "Aproximación en aire limpio: {value}",
+    "range": "{from} a {to}",
+    "caveat": "Lo que ves es el rendimiento de <em>piloto + vela + aire</em> durante las fases de planeo de <em>este</em> vuelo, no la polar publicada de la vela en aire en calma. Los tramos con muy pocas muestras se descartan, así que el gráfico termina donde terminan los datos. Las celdas se colorean según el netto: las azules se volaron en aire descendente y las cálidas en aire ascendente. La línea discontinua agrupa el cuartil de netto más bajo de cada tramo como la mejor aproximación empírica a la vela sola. Los rayos diagonales grises son isolíneas de fineza; donde la línea de aire limpio cruza una, esa es la fineza que conseguirías a esa TAS en aire sin ascendencia. <link>Cómo leer el gráfico en detalle →</link>",
+    "tooltipBin": "Tramo de {speed}",
+    "tooltipPercentiles": "P10-P90",
+    "tooltipMedian": "Mediana",
+    "tooltipCoolMedian": "Mediana en aire frío",
+    "tooltipSamples": "Muestras",
+    "tooltipTas": "TAS",
+    "tooltipVario": "Vario",
+    "tooltipMeanNetto": "Netto medio"
+  },
+  "skewT": {
+    "title": "Emagrama Skew-T log-P",
+    "empty": "Hacen falta al menos dos tramos de altitud con muestras de temperatura para dibujar un perfil Skew-T.",
+    "description": "Temperatura (cálida) y punto de rocío (fría) frente a la presión, inclinados 45°. Hay inestabilidad donde el perfil cálido se inclina hacia la izquierda más que las adiabáticas secas verdes, y estabilidad donde se inclina menos. Las barbas de viento van por el borde derecho.",
+    "pointTitle": "{altitude} · {pressure} hPa\nTemp.: {temp}",
+    "pointDew": "\nRocío: {dew}",
+    "pointWind": "\nViento: {direction}° · {speed}",
+    "pressureAxis": "Presión (hPa)",
+    "altitudeAxis": "Altitud ({unit})",
+    "temperatureAxis": "Temperatura ({unit})",
+    "legendTemperature": "Temperatura",
+    "legendDewPoint": "Punto de rocío",
+    "legendDry": "Adiabáticas secas",
+    "legendSaturated": "Adiabáticas saturadas",
+    "legendIsotherms": "Isotermas",
+    "barbKey": "▎ banderín = 50 · larga = 10 · corta = 5 km/h",
+    "stability": {
+      "unstable": "Masa de aire inestable",
+      "neutral": "Condicionalmente inestable",
+      "stable": "Masa de aire estable",
+      "unknown": "Estabilidad"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "views": {
+    "altitude": "Höhe",
+    "vario": "Vario",
+    "speed": "Geschwindigkeit",
+    "gfactor": "G-Faktor"
+  },
+  "panel": {
+    "title": "Anmerkungen",
+    "add": "Anmerkung hinzufügen",
+    "addTooltip": "Anmerkung hinzufügen, oder auf einer beliebigen Karte per Rechtsklick auf den Track",
+    "requestReview": "Review anfragen",
+    "requestReviewTooltip": "Bitte einen Piloten, diesen Flug zu besprechen",
+    "close": "Anmerkungen schließen",
+    "publicLabel": "Öffentlich",
+    "publicOn": "Deine Anmerkungen sind in Community- und geteilten Ansichten sichtbar",
+    "publicOff": "Deine Anmerkungen in Community- und geteilten Ansichten zeigen",
+    "publicAria": "Meine Anmerkungen öffentlich machen",
+    "empty": "Noch keine Anmerkungen.",
+    "emptyHint": "Mach einen Rechtsklick auf einen Punkt des Tracks auf der Karte, um eine hinzuzufügen.",
+    "blockTitle": "{name} blockieren?",
+    "blockTitleFallback": "Diesen Piloten blockieren?",
+    "blockDescription": "Dieser Pilot kann dann keinen deiner Flüge mehr kommentieren. Bestehende Anmerkungen bleiben, bis du sie löschst. Du kannst die Blockierung jederzeit in deinem Profil aufheben.",
+    "cancel": "Abbrechen",
+    "blockConfirm": "Pilot blockieren",
+    "blockAria": "{name} blockieren",
+    "deleteAria": "Anmerkung löschen"
+  },
+  "dialog": {
+    "title": "Diesen Flug kommentieren",
+    "description": "Häng eine Bemerkung an einen Moment des Flugs. Nur reiner Text: Links und Formatierungen sind nicht erlaubt.",
+    "flightTime": "Flugzeit",
+    "flightTimeAria": "Flugzeit der Anmerkung",
+    "mapView": "Kartenansicht",
+    "annotation": "Anmerkung",
+    "placeholder": "z. B. Du hast diesen Bart zu früh verlassen. Es ging noch mit 2 m/s.",
+    "cancel": "Abbrechen",
+    "submit": "Anmerkung hinzufügen"
+  },
+  "validation": {
+    "empty": "Die Anmerkung darf nicht leer sein",
+    "tooLong": "Die Anmerkung darf höchstens {max} Zeichen lang sein",
+    "url": "Die Anmerkung darf keine URL enthalten",
+    "markup": "Die Anmerkung darf die Zeichen < oder > nicht enthalten",
+    "invalidChars": "Die Anmerkung enthält ungültige Zeichen"
+  },
+  "map": {
+    "annotateHere": "Hier kommentieren",
+    "seeAirspaces": "Lufträume anzeigen ({count})"
+  },
+  "reviewer": {
+    "title": "Review anfragen",
+    "description": "Bitte einen erfahreneren Piloten, diesen Flug anzuschauen und Anmerkungen am Track zu hinterlassen. Gib die genaue E-Mail-Adresse ein, die er bei We-Fly nutzt. Aus Datenschutzgründen lassen sich Piloten weder durchblättern noch suchen.",
+    "placeholder": "pilot@example.com",
+    "hint": "Der Pilot erhält eine E-Mail und eine Benachrichtigung mit der Bitte, diesen Flug zu besprechen.",
+    "incomplete": "Gib eine vollständige E-Mail-Adresse ein.",
+    "checking": "Wird geprüft …",
+    "found": "Diese E-Mail gehört zu einem Piloten auf We-Fly.",
+    "notFound": "Kein Pilot mit dieser E-Mail nimmt Review-Anfragen an.",
+    "send": "Anfrage senden",
+    "sent": "Review-Anfrage gesendet",
+    "sendFailed": "Review-Anfrage konnte nicht gesendet werden"
+  },
+  "toasts": {
+    "added": "Anmerkung hinzugefügt",
+    "addFailed": "Anmerkung konnte nicht hinzugefügt werden",
+    "deleted": "Anmerkung gelöscht",
+    "deleteFailed": "Anmerkung konnte nicht gelöscht werden",
+    "blocked": "Pilot darf deine Flüge nicht mehr kommentieren",
+    "blockFailed": "Pilot konnte nicht blockiert werden",
+    "visibilityOn": "Deine Anmerkungen sind jetzt in Community- und geteilten Ansichten sichtbar",
+    "visibilityOff": "Deine Anmerkungen sind wieder privat",
+    "visibilityFailed": "Sichtbarkeit konnte nicht geändert werden"
+  },
+  "errors": {
+    "notAuthenticated": "Nicht angemeldet",
+    "invalidFlightId": "Ungültige Flug-ID",
+    "flightNotFound": "Flug nicht gefunden",
+    "notWhileImpersonating": "Beim Impersonieren nicht verfügbar",
+    "invalidMapView": "Ungültige Kartenansicht",
+    "invalidTimeCode": "Ungültiger Flugzeitpunkt",
+    "timeCodeOutOfRange": "Flugzeitpunkt liegt außerhalb des Flugs",
+    "notAllowed": "Du darfst diesen Flug nicht kommentieren",
+    "addFailed": "Anmerkung konnte nicht hinzugefügt werden",
+    "visibilityFailed": "Sichtbarkeit konnte nicht geändert werden",
+    "invalidAnnotation": "Ungültige Anmerkung",
+    "annotationNotFound": "Anmerkung nicht gefunden",
+    "deleteFailed": "Anmerkung konnte nicht gelöscht werden",
+    "cannotBlockSelf": "Du kannst dich nicht selbst blockieren",
+    "blockFailed": "Kommentierender Pilot konnte nicht blockiert werden",
+    "invalidUser": "Ungültiger Benutzer",
+    "unblockFailed": "Blockierung konnte nicht aufgehoben werden",
+    "commentTooLong": "Der Kommentar darf höchstens {max} Zeichen lang sein",
+    "internal": "Interner Fehler"
+  }
+}

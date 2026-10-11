@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Cockpit",
+    "description": "Deine Kommandozentrale fürs Gleitschirmfliegen. Sieh dir deine Flugstatistik an, analysiere Leistungstrends und verfolge, wie du dich als Pilot entwickelst.",
+    "ogTitle": "Cockpit - We-Fly"
+  },
+  "tabs": {
+    "eyebrow": "Analysen",
+    "title": "Cockpit",
+    "subtitle": "Statistik über deine gefilterten Flüge.",
+    "subtitleCount": "Statistik über {count, plural, one {# gefilterten Flug} other {# gefilterte Flüge}}.",
+    "flightCount": "{count, plural, one {# Flug} other {# Flüge}}"
+  },
+  "errorState": {
+    "title": "Fehler beim Laden der Flüge",
+    "body": "Flugdaten konnten nicht abgerufen werden",
+    "retry": "Erneut versuchen",
+    "invalidFormat": "Ungültiges Datenformat",
+    "reload": "Neu laden"
+  },
+  "summaryStrip": {
+    "entities": "{entity, select, glider {Schirme} takeoff {Startplätze} country {Länder} season {Saisons} other {Einträge}}",
+    "topEntity": "{entity, select, glider {Top-Schirm} takeoff {Top-Startplatz} country {Top-Land} season {Top-Saison} other {Top-Eintrag}}",
+    "flights": "Flüge",
+    "airTime": "Flugzeit",
+    "hoursUnit": "h",
+    "averageSub": "Ø {value} h / Flug",
+    "topSub": "{hours} h · {count, plural, one {# Flug} other {# Flüge}}"
+  },
+  "metricCard": {
+    "totalHours": "Stunden gesamt",
+    "flights": "Flüge",
+    "avgPerFlight": "Ø pro Flug",
+    "zScore": "Z-Score",
+    "hoursUnit": "h"
+  },
+  "statsTable": {
+    "rank": "Rang",
+    "flights": "Flüge",
+    "totalHours": "Stunden gesamt",
+    "avgPerFlight": "Ø/Flug",
+    "zScore": "Z-Score",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# Flug} other {# Flüge}} · Ø {value} h"
+  },
+  "chartTabs": {
+    "title": "Visuelle Analyse",
+    "defaultDescription": "Vergleiche verschiedene Kennzahlen.",
+    "metric": "Kennzahl",
+    "duration": "Dauer",
+    "count": "Anzahl",
+    "zScore": "Z-Score",
+    "seriesCount": "Anzahl Flüge",
+    "seriesAirTime": "Flugzeit",
+    "seriesEfficiency": "Effizienz",
+    "seriesZScore": "Z-Score"
+  },
+  "linkableMetric": {
+    "showDetailChart": "Detaildiagramm für {label} anzeigen",
+    "viewFlight": "Flug mit {label} ansehen: {value}"
+  },
+  "overview": {
+    "loadingVisualization": "Diagramm wird geladen…",
+    "error": {
+      "title": "Flugdaten konnten nicht geladen werden",
+      "body": "Beim Laden deiner Flugstatistik ist ein Fehler aufgetreten. Das ist vielleicht nur vorübergehend.",
+      "retry": "Erneut versuchen"
+    },
+    "empty": {
+      "title": "Keine Flugdaten vorhanden",
+      "body": "Dein Flugbuch ist leer. Lade zuerst deine IGC-Dateien hoch, dann siehst du Statistik, Karten und Analysen.",
+      "cta": "IGC-Dateien hochladen"
+    }
+  },
+  "byGlider": {
+    "emptyTitle": "Keine Schirmdaten vorhanden",
+    "emptyBody": "Füge Flüge hinzu, um die Statistik zu deinen Schirmen zu sehen",
+    "topPerformers": "Spitzenreiter",
+    "comparisonTitle": "Schirmvergleich",
+    "comparisonDescription": "Vergleiche die Kennzahlen all deiner Schirme",
+    "entityLabel": "Schirm",
+    "chartDescription": "Vergleiche deine Schirme über verschiedene Kennzahlen."
+  },
+  "byCountry": {
+    "emptyTitle": "Keine Länderdaten vorhanden",
+    "emptyBody": "Füge Flüge hinzu, um die Statistik zu deinen Ländern zu sehen",
+    "topPerformers": "Top-Länder",
+    "comparisonTitle": "Ländervergleich",
+    "comparisonDescription": "Vergleiche die Kennzahlen aller Länder",
+    "entityLabel": "Land",
+    "chartDescription": "Vergleiche Länder über verschiedene Kennzahlen."
+  },
+  "bySeason": {
+    "emptyTitle": "Keine Saisondaten vorhanden",
+    "emptyBody": "Füge Flüge hinzu, um deine Statistik pro Saison zu sehen",
+    "topPerformers": "Beste Saisons",
+    "comparisonTitle": "Saisonvergleich",
+    "comparisonDescription": "Vergleiche die Kennzahlen aller Saisons",
+    "entityLabel": "Saison",
+    "chartDescription": "Vergleiche Saisons über verschiedene Kennzahlen."
+  },
+  "byTakeoff": {
+    "emptyTitle": "Keine Startplatzdaten vorhanden",
+    "emptyBody": "Füge Flüge hinzu, um die Statistik zu deinen Startplätzen zu sehen",
+    "topPerformers": "Top-Startplätze",
+    "tableTitle": "Startplätze",
+    "tableCaption": "Sortierbarer Vergleich mit Balken in der Tabelle. Klick auf eine Spaltenüberschrift zum Sortieren.",
+    "rank": "Rang",
+    "location": "Startplatz",
+    "flights": "Flüge",
+    "totalHours": "Stunden gesamt",
+    "avgPerFlight": "Ø/Flug",
+    "zScore": "Z-Score",
+    "above": "über",
+    "below": "unter",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# Flug} other {# Flüge}} · Ø {value} h"
+  },
+  "byMonth": {
+    "emptyTitle": "Keine Monatsdaten vorhanden",
+    "emptyBody": "Füge Flüge hinzu, um deine Statistik pro Monat zu sehen",
+    "mostActiveMonths": "Aktivste Monate",
+    "visualAnalysis": "Visuelle Analyse",
+    "visualDescription": "Monatliche Trends über verschiedene Kennzahlen und Jahre.",
+    "duration": "Dauer",
+    "count": "Anzahl",
+    "zScore": "Z-Score",
+    "viewMode": "Ansicht:",
+    "grouped": "Gruppiert",
+    "stacked": "Gestapelt",
+    "years": "Jahre:",
+    "breakdownTitle": "Monate nach Jahr",
+    "breakdownDescription": "Vergleiche deine Flugaktivität über Monate und Jahre",
+    "month": "Monat",
+    "total": "Gesamt",
+    "card": {
+      "totalFlights": "Flüge gesamt",
+      "allYears": "alle Jahre",
+      "mostActiveYear": "Aktivstes Jahr",
+      "flights": "{count, plural, one {# Flug} other {# Flüge}}",
+      "activityByYear": "Aktivität pro Jahr"
+    }
+  },
+  "byCivl": {
+    "refreshFailed": "CIVL-Daten konnten nicht aktualisiert werden",
+    "loading": "Wird geladen…",
+    "noId": "Keine CIVL-ID hinterlegt. Trag deine in den <link>Profileinstellungen</link> ein, dann siehst du hier deine Platzierung.",
+    "title": "CIVL-Ranking",
+    "updated": "Aktualisiert am {date}",
+    "currentStandings": "Aktueller Stand",
+    "rankingHistory": "Ranking-Verlauf",
+    "world": "Welt",
+    "country": "Land",
+    "europe": "Europa",
+    "date": "Datum",
+    "rank": "Rang",
+    "points": "Punkte",
+    "scoringComposition": "Zusammensetzung der Punkte"
+  },
+  "flightComment": {
+    "title": "Debriefing",
+    "ariaEditable": "Flug-Debriefing",
+    "tooLong": "Der Kommentar darf höchstens {max} Zeichen lang sein",
+    "saveFailed": "Kommentar konnte nicht gespeichert werden",
+    "placeholder": "Wie war der Tag? Was hat geklappt, was nicht?",
+    "charsRemaining": "Noch {count} Zeichen",
+    "hint": "Cmd/Strg+Enter zum Speichern · Esc zum Abbrechen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "saving": "Wird gespeichert…",
+    "edit": "Kommentar bearbeiten",
+    "add": "Schreib ein Debriefing: Bedingungen, was du ausprobiert hast, was du gelernt hast."
+  },
+  "thermalVarioDialog": {
+    "title": "Stärkster Bart",
+    "titleWithValue": "Stärkster Bart: {value}",
+    "description": "Vario-Signal ±5 Sekunden um den Spitzenwert, hilft Messfehler zu erkennen",
+    "peak": "Spitze",
+    "peakLower": "Spitze",
+    "offsetSeconds": "{value} s",
+    "loading": "Wird geladen…",
+    "series": "Vario",
+    "errors": {
+      "fetch": "Trackdaten konnten nicht geladen werden",
+      "insufficient": "Zu wenige Trackdaten",
+      "unknown": "Unbekannter Fehler"
+    }
+  },
+  "map": {
+    "emptyTitle": "Keine Flugdaten vorhanden",
+    "emptyBody": "Füge Flüge hinzu, um deine Startplätze auf der Karte zu sehen",
+    "flights": "{count, plural, one {# Flug} other {# Flüge}}",
+    "asl": "{altitude} MSL",
+    "fullscreen": "Vollbild",
+    "exitFullscreen": "Vollbild beenden",
+    "openFullscreenAria": "Karte im Vollbild öffnen",
+    "exitFullscreenAria": "Vollbild der Karte beenden",
+    "exitFullscreenTitle": "Vollbild beenden (Esc)"
+  },
+  "statsUtils": {
+    "r2": {
+      "strong": "Stark",
+      "moderate": "Mittel",
+      "weak": "Schwach",
+      "strongText": "Starker Trend: Die Entwicklung von Saison zu Saison ist konstant.",
+      "moderateText": "Mittlerer Trend: Eine Richtung ist erkennbar, schwankt aber von Jahr zu Jahr.",
+      "weakText": "Schwacher Trend: Die Daten streuen stark, noch keine verlässliche Entwicklung.",
+      "tooltipTitle": "Trendstärke (R²)",
+      "tooltipBody": "Misst, wie gut die gestrichelte Linie zu den Balken passt. <b>0</b> = kein Trend, <b>1</b> = perfekter Trend."
+    },
+    "basedOnFlights": "basierend auf {count, plural, one {# Flug} other {# Flügen}}",
+    "fadedBars": "Blasse Balken = weniger Flüge, weniger verlässlich.",
+    "fadedDots": "Blasse Punkte = weniger Flüge, weniger verlässlich.",
+    "backfill": "{count, plural, one {<b>#</b> Flug ist ausgeschlossen, weil er noch keine {what} hat. Führe <code>{script}</code> aus, um ihn einzubeziehen.} other {<b>#</b> Flüge sind ausgeschlossen, weil sie noch keine {what} haben. Führe <code>{script}</code> aus, um sie einzubeziehen.}}"
+  },
+  "zWhat": {
+    "text": "Z-Score unklar? <link>Schau mal hier!</link>"
+  }
+}

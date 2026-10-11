@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "My Flights",
+    "description": "View and manage your paragliding flights. Track your progress, analyze flight data, and review detailed statistics for each flight.",
+    "ogTitle": "My Flights - We-Fly"
+  },
+  "header": {
+    "flightsTab": "Flights",
+    "wingsTab": "Wings",
+    "viewLabel": "Logbook view",
+    "eyebrow": "Logbook",
+    "title": "Flights log",
+    "subtitleCounts": "{fetched} of {total, plural, one {# flight} other {# flights}} · sorted by {sort}.",
+    "defaultSort": "date",
+    "subtitleEmpty": "Your flights, sorted by date.",
+    "columns": "Columns",
+    "columnsAria": "Show or hide columns"
+  },
+  "columns": {
+    "menu": {
+      "date": "Date",
+      "takeoff": "Takeoff",
+      "glider": "Glider",
+      "instrument": "Instrument",
+      "duration": "Duration",
+      "distance": "Distance",
+      "launchType": "Launch type",
+      "type": "Type",
+      "maxAltitude": "Max altitude",
+      "maxAltitudeGain": "Max gain",
+      "maxClimb": "Max climb",
+      "maxSink": "Max sink",
+      "maxSpeed": "Max speed",
+      "thermals": "Thermals",
+      "quality": "Quality",
+      "qualityVsAvg": "Vs Your Avg",
+      "qualityDeviation": "Consistency",
+      "gFactorMedian": "G-factor median",
+      "gFactorDeviation": "G-factor deviation",
+      "thermalVzDeviation": "Turbulence",
+      "avgGlideRatio": "Avg glide ratio",
+      "avgGlideSpeed": "Avg glide speed",
+      "trackSpeed": "Track speed",
+      "scoringSpeed": "Scoring speed",
+      "routeEfficiency": "Route efficiency",
+      "validation": "FAI valid"
+    },
+    "header": {
+      "date": "Date",
+      "takeoff": "Takeoff",
+      "glider": "Glider",
+      "instrument": "Instrument",
+      "duration": "Duration",
+      "distance": "Distance",
+      "launchType": "Launch Type",
+      "type": "Type",
+      "maxAltitude": "Max. Alt.",
+      "maxAltitudeGain": "Max. Gain",
+      "maxClimb": "Max. Climb",
+      "maxSink": "Max. Sink",
+      "maxSpeed": "Max. Speed",
+      "thermals": "Thermals",
+      "quality": "Quality",
+      "qualityVsAvg": "Vs Your Avg",
+      "qualityDeviation": "Consistency",
+      "gFactorMedian": "G-Factor Median",
+      "gFactorDeviation": "G-Factor Deviation",
+      "thermalVzDeviation": "Turbulence",
+      "avgGlideRatio": "Avg. Glide ratio",
+      "avgGlideSpeed": "Avg. Glide speed",
+      "trackSpeed": "Track Speed",
+      "scoringSpeed": "Scoring Speed",
+      "routeEfficiency": "Route Efficiency",
+      "validation": "FAI Valid"
+    },
+    "hint": {
+      "qualityVsAvg": "How this flight's quality compares to your lifetime median.",
+      "qualityDeviation": "Standard deviation of the quality scores of the thermals within this flight. Lower = more consistent climbs.",
+      "routeEfficiency": "Ratio of scoring distance to total track distance. More meaningful for cross-country flights."
+    },
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "gpsCorruption": "GPS corruption detected",
+    "gpsCorruptionHint": "IGC file contains GPS corruption. Scored distance and track length may be unreliable.",
+    "previewHint": "Hover to preview the flight trace",
+    "lifetimeMedian": "Lifetime median: {value}"
+  },
+  "launchType": {
+    "Self": "Self",
+    "Towed": "Towed",
+    "Powered": "Powered",
+    "Driving": "Driving",
+    "hint": {
+      "Self": "Self-launched (foot launch)",
+      "Towed": "Towed launch (aerotow/winch)",
+      "Powered": "Powered launch (paramotor)",
+      "Driving": "Driving track (not a flight)"
+    }
+  },
+  "launchDialog": {
+    "option": {
+      "Self": {
+        "label": "Self-Launched",
+        "hint": "Foot launch from hill or cliff"
+      },
+      "Towed": {
+        "label": "Towed",
+        "hint": "Aerotow, winch, or other assisted launch"
+      },
+      "Powered": {
+        "label": "Powered",
+        "hint": "Paramotor, trike, or other powered launch"
+      },
+      "Driving": {
+        "label": "Driving",
+        "hint": "Driving track (not a flight)"
+      }
+    },
+    "title": "Update Launch Type",
+    "description": "Set launch type for <badge>{count, plural, one {# flight} other {# flights}}</badge>",
+    "singleDescription": "Change the launch type for this flight",
+    "select": "Select Launch Type",
+    "selectNew": "Select New Launch Type",
+    "current": "Current Launch Type",
+    "willUpdate": "This will update all {count, plural, one {# selected flight} other {# selected flights}} with the chosen launch type.",
+    "willUpdateSingle": "Launch type will be updated",
+    "cancel": "Cancel",
+    "updating": "Updating...",
+    "submit": "{count, plural, one {Update # Flight} other {Update # Flights}}",
+    "thisSite": "this site",
+    "bulkTitle": "Update all flights from {takeoff}?",
+    "bulkDescription": "You have {count, plural, one {# other flight} other {# other flights}} from <strong>{takeoff}</strong>. Would you like to update them all to <strong>{type}</strong>?",
+    "bulkConfirm": "{count, plural, one {Update # flight} other {Update # flights}}",
+    "bulkSuccess": "{count, plural, one {Updated # other flight} other {Updated # other flights}} from {takeoff}",
+    "bulkFailed": "Failed to update flights",
+    "noJustSelected": "No, just the selected",
+    "noJustThis": "No, just this flight"
+  },
+  "list": {
+    "applyToSelection": "Apply to selection",
+    "apply": "Apply",
+    "updateLaunchType": "Update Launch Type",
+    "updateLaunchTypeHint": "Set launch type for selected flights",
+    "selected": "{count} selected",
+    "clearSelection": "Clear selection",
+    "viewDetails": "View flight details",
+    "noResults": "No results.",
+    "scrollForMore": "Scroll down to load more flights",
+    "loadingMore": "Loading more flights...",
+    "loadingMoreAria": "Loading more flights",
+    "allLoaded": "All flights loaded"
+  },
+  "table": {
+    "countOfTotal": "{count} of {total, plural, one {# flight} other {# flights}}",
+    "loadError": "Error loading flights",
+    "selection": {
+      "fromTrends": "From your trends:",
+      "range": "{from} to {to}",
+      "glidersCount": "{count, plural, one {# glider} other {# gliders}}",
+      "showAll": "Show all flights"
+    },
+    "empty": {
+      "title": "Your logbook is empty",
+      "body": "Upload your first IGC file to start building your flight history.",
+      "upload": "Upload flights",
+      "features": {
+        "maps": {
+          "title": "Interactive flight maps",
+          "desc": "Altitude profile, thermals, G-forces: every detail of your flight."
+        },
+        "progress": {
+          "title": "Progress over time",
+          "desc": "Season recap, XC distance history, personal records."
+        },
+        "badges": {
+          "title": "Badges & challenges",
+          "desc": "Earn badges for milestones: first XC, first 50 km, 100 flights."
+        },
+        "community": {
+          "title": "Community",
+          "desc": "Discover new sites and see where other pilots are flying."
+        }
+      },
+      "exportTitle": "How to export your IGC files",
+      "exportBody": "Step-by-step instructions for XContest, DHV-XC, Flyskyhy, XCTrack, Oudie, Flymaster, and more.",
+      "exportLink": "View the full export guide →",
+      "rightsTitle": "Your data rights",
+      "rightsBody": "Under <access>GDPR Article 15</access> (right of access) and <portability>Article 20</portability> (right to data portability), you can request any platform (XContest, DHV-XC, Syride, or others) to provide a copy of your personal data, including your flight tracks."
+    }
+  },
+  "sort": {
+    "label": {
+      "date": "date",
+      "takeoff": "takeoff",
+      "glider": "glider",
+      "instrument": "instrument",
+      "duration": "duration",
+      "distance": "distance",
+      "type": "type",
+      "maxAltitude": "max altitude",
+      "maxGain": "max gain",
+      "maxClimb": "max climb",
+      "maxSink": "max sink",
+      "maxSpeed": "max speed",
+      "thermals": "thermals",
+      "quality": "quality",
+      "vsAvg": "Vs Your Avg",
+      "efficiency": "efficiency"
+    },
+    "option": {
+      "date": "Date",
+      "distance": "Distance",
+      "duration": "Duration",
+      "takeoff": "Takeoff",
+      "glider": "Glider",
+      "maxAltitude": "Max altitude",
+      "maxGain": "Max gain",
+      "maxClimb": "Max climb",
+      "maxSpeed": "Max speed",
+      "thermals": "Thermals",
+      "quality": "Quality",
+      "routeEfficiency": "Route efficiency"
+    },
+    "menuAria": "Sort flights, currently by {field} {direction}",
+    "button": "Sort",
+    "sortBy": "Sort by",
+    "ascending": "Ascending",
+    "descending": "Descending"
+  },
+  "card": {
+    "unknownTakeoff": "Unknown takeoff",
+    "viewFlight": "View flight from {site} on {date}",
+    "select": "Select flight",
+    "gpsCorruption": "GPS corruption detected",
+    "hideDetails": "Hide flight details",
+    "showDetails": "Show flight details",
+    "stats": {
+      "time": "Time",
+      "maxAlt": "Max alt",
+      "climb": "Climb",
+      "thermals": "Thermals"
+    },
+    "preview": "Preview"
+  },
+  "validation": {
+    "title": "FAI Validation Result",
+    "passedDescription": "This flight has been successfully validated by FAI.",
+    "failedDescription": "This flight did not pass FAI validation.",
+    "status": "Status",
+    "passed": "PASSED",
+    "failed": "FAILED",
+    "message": "Message",
+    "fullData": "Full Validation Data"
+  },
+  "sharedLink": {
+    "title": "Shared Flight Link",
+    "description": "Anyone with this link can view this flight without signing in.",
+    "copiedToast": "Link copied to clipboard!",
+    "copyFailed": "Failed to copy link",
+    "copied": "Copied",
+    "copy": "Copy to clipboard",
+    "openPage": "Open shared page"
+  },
+  "sharedLinkConfirm": {
+    "title": "Create Shared Link?",
+    "intro": "You're about to create a secret link that allows anyone with the URL to view this flight without signing in.",
+    "noticeTitle": "Security Notice",
+    "noticeBody": "While the URL contains a hard-to-guess identifier, it's not impossible to discover. Anyone who obtains the link can view this flight. Only share with people you trust.",
+    "revoke": "You can remove the shared link at any time to revoke access.",
+    "cancel": "Cancel",
+    "confirm": "Create Link"
+  },
+  "delete": {
+    "success": "{count, plural, one {Successfully deleted # flight} other {Successfully deleted # flights}}",
+    "failed": "Failed to delete flights",
+    "unexpectedError": "An unexpected error occurred while deleting flights",
+    "triggerAria": "{count, plural, one {Delete # flight} other {Delete # flights}}",
+    "action": "{count, plural, one {Delete Flight} other {Delete # Flights}}",
+    "title": "{count, plural, one {Delete Flight?} other {Delete Flights?}}",
+    "description": "You are about to permanently delete <strong>{count, plural, one {# flight} other {# flights}}</strong>. This action cannot be undone.",
+    "warning": "Both the <strong>database record</strong> and <strong>{count, plural, one {IGC file} other {IGC files}}</strong> will be permanently removed from the server.",
+    "cancel": "Cancel",
+    "deleting": "Deleting...",
+    "bulkAria": "Delete selected flights - Permanently remove flights and IGC files",
+    "bulkLabel": "Delete Selected",
+    "bulkHint": "Permanently remove flights and files"
+  },
+  "download": {
+    "failed": "Failed to download flights",
+    "success": "{count, plural, one {Downloaded # flight as ZIP} other {Downloaded # flights as ZIP}}",
+    "aria": "{count, plural, one {Download # IGC file as ZIP archive} other {Download # IGC files as ZIP archive}}",
+    "downloading": "Downloading...",
+    "creatingZip": "Creating ZIP archive",
+    "label": "Download IGC Files",
+    "hint": "{count, plural, one {# file as ZIP archive} other {# files as ZIP archive}}"
+  },
+  "actions": {
+    "createLinkFailed": "Failed to create link",
+    "linkCopied": "Link copied to clipboard",
+    "copyFailed": "Failed to copy link",
+    "openMenu": "Open menu",
+    "view": "View",
+    "download": "Download",
+    "fixTakeoff": "Fix Takeoff",
+    "sendToLeague": "Send to league",
+    "copyLink": "Copy link",
+    "deleteFlight": "Delete Flight"
+  },
+  "update": {
+    "cancel": "Cancel",
+    "processing": "Processing...",
+    "updating": "Updating...",
+    "saving": "Saving...",
+    "newWingName": "New Wing Name",
+    "wingPlaceholder": "Enter wing name (e.g., Nova Mentor 7)",
+    "dates": {
+      "triggerAria": "Fix flights dates - Try to fix your instrument's wrong date encoding",
+      "trigger": "Fix Date Encoding",
+      "triggerHint": "Repair DDMMYY/YYMMDD format issues",
+      "title": "Fix Date Encoding Issue",
+      "description": "This will swap day and year values for <strong>{count, plural, one {# flight} other {# flights}}</strong>",
+      "criticalTitle": "Critical: Understand Before Proceeding",
+      "explanation": "The IGC standard requires dates in <strong>DDMMYY</strong> format. Some instruments incorrectly produce <strong>YYMMDD</strong> format. This operation swaps day and year values.",
+      "current": "Current:",
+      "fixed": "Fixed:",
+      "warning": "<strong>Warning:</strong> Only use this if your instrument produces wrong date formats. Incorrect use will corrupt your timeline. <learn>Learn more</learn>",
+      "apply": "Apply Fix"
+    },
+    "wings": {
+      "triggerAria": "Change Wing Name - Update wing for all selected flights",
+      "trigger": "Update Wing Name",
+      "triggerHint": "Change wing for selected flights",
+      "title": "Update Wing Name",
+      "description": "Set a new wing name for <badge>{count, plural, one {# flight} other {# flights}}</badge>",
+      "willUpdate": "This will update all {count, plural, one {# selected flight} other {# selected flights}}",
+      "submit": "{count, plural, one {Update # Flight} other {Update # Flights}}"
+    },
+    "date": {
+      "trigger": "Change Date",
+      "title": "Update Flight Date",
+      "description": "Choose the correct date for this flight",
+      "suggestedAvailable": "Suggested Fix Available",
+      "suggestedHint": "Some instruments use wrong date formats (YYMMDD instead of DDMMYY)",
+      "currentDate": "Current Date",
+      "suggestedDate": "Suggested Date",
+      "useSuggested": "Use Suggested Date",
+      "selectDate": "Select Date",
+      "preserveTime": "Changes the date while preserving the flight time. <spec>IGC specification</spec>",
+      "save": "Save Date"
+    },
+    "wing": {
+      "trigger": "Change Wing",
+      "title": "Update Wing",
+      "description": "Change the wing used for this flight",
+      "currentWing": "Current Wing",
+      "willUpdate": "Wing name will be updated",
+      "submit": "Update Wing"
+    }
+  },
+  "fixTakeoff": {
+    "loadNearbyFailed": "Failed to load nearby takeoffs",
+    "searchFailed": "Failed to search takeoffs",
+    "selectSite": "Please select a takeoff site",
+    "updatedWithCascade": "{count, plural, one {Takeoff updated successfully (+# other flight)} other {Takeoff updated successfully (+# other flights)}}",
+    "updated": "Takeoff updated successfully",
+    "updateFailed": "Failed to update takeoff",
+    "updateFailedRetry": "Failed to update takeoff. Please try again.",
+    "updateError": "An error occurred while updating",
+    "title": "Correct Takeoff Site",
+    "description": "Select the correct takeoff site for this flight",
+    "loadingNearby": "Loading nearby takeoffs...",
+    "nearby": "Nearby takeoffs (within 1km)",
+    "searchDifferent": "Search for a different takeoff",
+    "noneNearby": "No takeoffs found within 1km. Please search by name.",
+    "searchLabel": "Search takeoff by name",
+    "searchPlaceholder": "Type at least 3 characters...",
+    "searching": "Searching...",
+    "results": "Search results",
+    "noResults": "No takeoffs found matching \"{query}\"",
+    "showNearby": "Show nearby takeoffs",
+    "cancel": "Cancel",
+    "updating": "Updating...",
+    "submit": "Update Takeoff"
+  },
+  "leagues": {
+    "title": "Send to a league",
+    "description": "Upload this flight's IGC to an online contest with your own login.",
+    "noneConnected": "No league is connected yet. Add your CFD or DHV-XC login once, and you can send any flight from here, or have new flights sent automatically.",
+    "connect": "Connect a league",
+    "send": "Send",
+    "sendAgain": "Send again",
+    "sending": "Sending…",
+    "sendFailed": "Could not send to {league}",
+    "sent": "Sent to {league}",
+    "sentNeedsCompletion": "Sent to {league}. Open the link to finish your declaration.",
+    "alreadyThere": "{league} already has this flight",
+    "outcomeError": "{league}: {outcome}",
+    "outcome": {
+      "sent": "Sent",
+      "duplicate": "Already there",
+      "auth_failed": "Login refused",
+      "rejected": "Refused",
+      "unavailable": "Not reachable"
+    },
+    "remoteId": "ID {id}",
+    "finishDeclaration": "Finish the declaration on the CFD",
+    "openOnSite": "Open on the league site",
+    "errors": {
+      "unknownLeague": "Unknown league",
+      "invalidFlight": "Invalid flight",
+      "tooManyUploads": "Too many uploads. Try again in a minute.",
+      "notConnected": "Connect this league first in Profile > Connected services.",
+      "flightNotFound": "We could not find this flight's IGC file.",
+      "uploadFailed": "The upload failed. Try again later."
+    }
+  },
+  "anomalies": {
+    "notifier": {
+      "message": "{count, plural, one {You have # flight anomaly to review} other {You have # flight anomalies to review}}",
+      "view": "View"
+    },
+    "view": {
+      "resolved": "Resolved",
+      "resolvedDescription": "{count, plural, one {# shortest flight deleted} other {# shortest flights deleted}}",
+      "resolveFailed": "Failed to resolve",
+      "tryAgain": "Please try again",
+      "tryAgainLater": "Please try again later",
+      "unexpectedError": "An unexpected error occurred",
+      "scanDetected": "{count, plural, one {# new anomaly detected} other {# new anomalies detected}}",
+      "scanResolved": "{count} resolved",
+      "scanNoChanges": "No changes detected",
+      "scanComplete": "Scan complete",
+      "scanFailed": "Scan failed",
+      "scanning": "Scanning...",
+      "rescan": "Re-scan",
+      "eyebrow": "Data integrity",
+      "title": "Flight anomalies",
+      "subtitle": "Review inconsistencies detected in your flight data.",
+      "backToProfile": "← Back to profile",
+      "allClear": "All clear",
+      "allClearBody": "No anomalies detected. Your flight data looks good.",
+      "stats": {
+        "active": "Active issues",
+        "concurrent": "Concurrent",
+        "altitude": "Altitude",
+        "unknownGlider": "Unknown glider"
+      },
+      "cancel": "Cancel",
+      "concurrent": {
+        "title": "Concurrent flights · {count}",
+        "caption": "Overlapping time periods are physically impossible for one pilot.",
+        "resolving": "Resolving...",
+        "resolveAll": "Resolve all",
+        "confirmTitle": "Resolve all concurrent flights?",
+        "confirmBody": "This will permanently delete the shortest flight from each of the {count, plural, one {# concurrent flight pair} other {# concurrent flight pairs}}. This action cannot be undone.",
+        "confirmAction": "Delete shortest flights",
+        "overlap": "Overlap",
+        "date": "Date",
+        "flightA": "Flight A",
+        "flightB": "Flight B"
+      },
+      "altitude": {
+        "title": "Implausible altitude readings · {count}",
+        "caption": "One altitude channel (pressure or GPS) was implausible on a significant fraction of fixes. The parser used the other channel so the flight summary stays accurate, but the device may need calibration."
+      },
+      "glider": {
+        "title": "Unknown glider type · {count}",
+        "caption": "Flights missing glider information in the IGC file header. You can add it manually."
+      }
+    },
+    "concurrent": {
+      "shortest": "Shortest",
+      "unknownInstrument": "Unknown instrument",
+      "viewFlightOn": "View flight on {date}",
+      "viewFlight": "View flight",
+      "deleted": "Flight deleted",
+      "deletedDescription": "The shortest flight has been permanently deleted",
+      "deleteFailed": "Failed to delete",
+      "tryAgain": "Please try again",
+      "unexpectedError": "An unexpected error occurred",
+      "overlapMinutes": "{minutes} min",
+      "overlapLabel": "overlap",
+      "deleteShortestAria": "Delete the shortest concurrent flight",
+      "deleting": "Deleting...",
+      "deleteShortest": "Delete shortest",
+      "confirmTitle": "Delete shortest flight?",
+      "confirmBody": "This will permanently delete the flight from <strong>{date}</strong> ({takeoff} to {landing}, {duration}). This action cannot be undone and will also remove the associated IGC file.",
+      "cancel": "Cancel",
+      "confirmAction": "Delete flight"
+    },
+    "altitude": {
+      "unknownDate": "Unknown date",
+      "percentOfFixes": "{percent}% of fixes",
+      "viewFlight": "View flight"
+    },
+    "glider": {
+      "viewFlightFrom": "View flight from {date}",
+      "renameHint": "Click Rename to add glider information for each flight",
+      "viewInLogbook": "View in logbook"
+    },
+    "rename": {
+      "nameRequired": "Glider name required",
+      "nameRequiredHint": "Please enter a glider name",
+      "updated": "Glider updated",
+      "updatedDescription": "Flight glider set to \"{name}\"",
+      "updateFailed": "Update failed",
+      "updateFailedHint": "Could not update glider type",
+      "unexpectedError": "An unexpected error occurred",
+      "trigger": "Rename",
+      "title": "Set Glider Type",
+      "description": "Add glider information for this flight",
+      "date": "Date:",
+      "site": "Site:",
+      "gliderName": "Glider Name",
+      "placeholder": "e.g., Ozone Rush 5",
+      "nameHint": "Enter the model name of your paraglider wing",
+      "cancel": "Cancel",
+      "updating": "Updating...",
+      "submit": "Update Glider"
+    }
+  },
+  "errors": {
+    "notAuthenticated": "Not authenticated",
+    "invalidFlightOrSite": "Invalid flight or site ID",
+    "takeoffSiteNotFound": "Takeoff site not found",
+    "flightNotOwned": "Flight not found or not owned by user",
+    "updateTakeoffFailed": "Failed to update takeoff",
+    "noFlightsSpecified": "No flights specified",
+    "invalidFlightId": "Invalid flight ID: {id}",
+    "someFlightsNotOwned": "Some flights not found or not owned by user",
+    "deleteFailed": "Failed to delete flights",
+    "anomalyNotFoundResolved": "Anomaly not found or already resolved",
+    "anomalyNotFoundIgnored": "Anomaly not found or already ignored",
+    "resolveAnomalyFailed": "Failed to resolve anomaly",
+    "ignoreAnomalyFailed": "Failed to ignore anomaly",
+    "detectionFailed": "Failed to run detection",
+    "presetNameRequired": "Name is required",
+    "presetNameTooLong": "Name too long (64 chars max)",
+    "presetNameUrls": "Name cannot contain URLs",
+    "presetNameHtml": "Name cannot contain HTML",
+    "presetNameInvalid": "Name contains invalid characters",
+    "presetMax": "Maximum {max} presets reached",
+    "presetDuplicate": "A preset with this name already exists",
+    "presetSaveFailed": "Failed to save preset",
+    "presetInvalidId": "Invalid preset ID",
+    "presetNotFound": "Preset not found",
+    "presetUpdateFailed": "Failed to update preset",
+    "presetDeleteFailed": "Failed to delete preset"
+  }
+}

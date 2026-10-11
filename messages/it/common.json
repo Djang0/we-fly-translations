@@ -11,5 +11,23 @@
     "body": "<line>Questa pagina è scesa più in fretta di un atterraggio in stallo completo.</line>Forse il tuo GPS va ricalibrato? 🪂",
     "cta": "Cerca una termica migliore"
   },
-  "opensInNewTab": "(si apre in una nuova scheda)"
+  "opensInNewTab": "(si apre in una nuova scheda)",
+  "compass": {
+    "N": "N",
+    "NNE": "NNE",
+    "NE": "NE",
+    "ENE": "ENE",
+    "E": "E",
+    "ESE": "ESE",
+    "SE": "SE",
+    "SSE": "SSE",
+    "S": "S",
+    "SSW": "SSO",
+    "SW": "SO",
+    "WSW": "OSO",
+    "W": "O",
+    "WNW": "ONO",
+    "NW": "NO",
+    "NNW": "NNO"
+  }
 }

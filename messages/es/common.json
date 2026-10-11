@@ -11,5 +11,23 @@
     "body": "<line>Esta página ha bajado más rápido que un aterrizaje en pérdida total.</line>¿Quizá tu GPS necesita recalibrarse? 🪂",
     "cta": "Buscar mejor ascendencia"
   },
-  "opensInNewTab": "(se abre en una pestaña nueva)"
+  "opensInNewTab": "(se abre en una pestaña nueva)",
+  "compass": {
+    "N": "N",
+    "NNE": "NNE",
+    "NE": "NE",
+    "ENE": "ENE",
+    "E": "E",
+    "ESE": "ESE",
+    "SE": "SE",
+    "SSE": "SSE",
+    "S": "S",
+    "SSW": "SSO",
+    "SW": "SO",
+    "WSW": "OSO",
+    "W": "O",
+    "WNW": "ONO",
+    "NW": "NO",
+    "NNW": "NNO"
+  }
 }

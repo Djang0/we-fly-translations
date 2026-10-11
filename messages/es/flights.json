@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "Mis vuelos",
+    "description": "Consulta y gestiona tus vuelos en parapente. Sigue tu progresión, analiza los datos de vuelo y revisa las estadísticas detalladas de cada vuelo.",
+    "ogTitle": "Mis vuelos - We-Fly"
+  },
+  "header": {
+    "flightsTab": "Vuelos",
+    "wingsTab": "Velas",
+    "viewLabel": "Vista del libro de vuelo",
+    "eyebrow": "Libro de vuelo",
+    "title": "Registro de vuelos",
+    "subtitleCounts": "{fetched} de {total, plural, one {# vuelo} other {# vuelos}} · ordenados por {sort}.",
+    "defaultSort": "fecha",
+    "subtitleEmpty": "Tus vuelos, ordenados por fecha.",
+    "columns": "Columnas",
+    "columnsAria": "Mostrar u ocultar columnas"
+  },
+  "columns": {
+    "menu": {
+      "date": "Fecha",
+      "takeoff": "Despegue",
+      "glider": "Vela",
+      "instrument": "Instrumento",
+      "duration": "Duración",
+      "distance": "Distancia",
+      "launchType": "Tipo de lanzamiento",
+      "type": "Tipo",
+      "maxAltitude": "Altitud máx.",
+      "maxAltitudeGain": "Ganancia máx.",
+      "maxClimb": "Ascenso máx.",
+      "maxSink": "Descenso máx.",
+      "maxSpeed": "Velocidad máx.",
+      "thermals": "Térmicas",
+      "quality": "Calidad",
+      "qualityVsAvg": "Frente a tu media",
+      "qualityDeviation": "Regularidad",
+      "gFactorMedian": "Factor G mediano",
+      "gFactorDeviation": "Desviación del factor G",
+      "thermalVzDeviation": "Turbulencia",
+      "avgGlideRatio": "Fineza media",
+      "avgGlideSpeed": "Velocidad de planeo media",
+      "trackSpeed": "Velocidad en track",
+      "scoringSpeed": "Velocidad puntuada",
+      "routeEfficiency": "Eficiencia de ruta",
+      "validation": "Válido FAI"
+    },
+    "header": {
+      "date": "Fecha",
+      "takeoff": "Despegue",
+      "glider": "Vela",
+      "instrument": "Instrumento",
+      "duration": "Duración",
+      "distance": "Distancia",
+      "launchType": "Lanzamiento",
+      "type": "Tipo",
+      "maxAltitude": "Alt. máx.",
+      "maxAltitudeGain": "Ganancia máx.",
+      "maxClimb": "Ascenso máx.",
+      "maxSink": "Descenso máx.",
+      "maxSpeed": "Vel. máx.",
+      "thermals": "Térmicas",
+      "quality": "Calidad",
+      "qualityVsAvg": "Frente a tu media",
+      "qualityDeviation": "Regularidad",
+      "gFactorMedian": "Factor G mediano",
+      "gFactorDeviation": "Desviación factor G",
+      "thermalVzDeviation": "Turbulencia",
+      "avgGlideRatio": "Fineza media",
+      "avgGlideSpeed": "Vel. de planeo media",
+      "trackSpeed": "Vel. en track",
+      "scoringSpeed": "Vel. puntuada",
+      "routeEfficiency": "Eficiencia de ruta",
+      "validation": "Válido FAI"
+    },
+    "hint": {
+      "qualityVsAvg": "Cómo se compara la calidad de este vuelo con tu mediana histórica.",
+      "qualityDeviation": "Desviación estándar de las puntuaciones de calidad de las térmicas de este vuelo. Cuanto menor, más regulares los ascensos.",
+      "routeEfficiency": "Relación entre la distancia puntuada y la distancia total del track. Tiene más sentido en vuelos de distancia."
+    },
+    "selectAll": "Seleccionar todo",
+    "selectRow": "Seleccionar fila",
+    "gpsCorruption": "GPS corrupto detectado",
+    "gpsCorruptionHint": "El archivo IGC contiene datos GPS corruptos. La distancia puntuada y la longitud del track pueden no ser fiables.",
+    "previewHint": "Pasa el ratón para ver el track del vuelo",
+    "lifetimeMedian": "Mediana histórica: {value}"
+  },
+  "launchType": {
+    "Self": "A pie",
+    "Towed": "Remolcado",
+    "Powered": "Motorizado",
+    "Driving": "En coche",
+    "hint": {
+      "Self": "Despegue autónomo (despegue a pie)",
+      "Towed": "Despegue remolcado (aerorremolque/torno)",
+      "Powered": "Despegue motorizado (paramotor)",
+      "Driving": "Track en coche (no es un vuelo)"
+    }
+  },
+  "launchDialog": {
+    "option": {
+      "Self": {
+        "label": "A pie",
+        "hint": "Despegue a pie desde una ladera o un acantilado"
+      },
+      "Towed": {
+        "label": "Remolcado",
+        "hint": "Aerorremolque, torno u otro despegue asistido"
+      },
+      "Powered": {
+        "label": "Motorizado",
+        "hint": "Paramotor, trike u otro despegue con motor"
+      },
+      "Driving": {
+        "label": "En coche",
+        "hint": "Track en coche (no es un vuelo)"
+      }
+    },
+    "title": "Cambiar el tipo de lanzamiento",
+    "description": "Define el tipo de lanzamiento de <badge>{count, plural, one {# vuelo} other {# vuelos}}</badge>",
+    "singleDescription": "Cambia el tipo de lanzamiento de este vuelo",
+    "select": "Elige el tipo de lanzamiento",
+    "selectNew": "Elige el nuevo tipo de lanzamiento",
+    "current": "Tipo de lanzamiento actual",
+    "willUpdate": "Se actualizarán {count, plural, one {el # vuelo seleccionado} other {los # vuelos seleccionados}} con el tipo de lanzamiento elegido.",
+    "willUpdateSingle": "Se actualizará el tipo de lanzamiento",
+    "cancel": "Cancelar",
+    "updating": "Actualizando...",
+    "submit": "{count, plural, one {Actualizar # vuelo} other {Actualizar # vuelos}}",
+    "thisSite": "este despegue",
+    "bulkTitle": "¿Actualizar todos los vuelos desde {takeoff}?",
+    "bulkDescription": "Tienes {count, plural, one {# vuelo más} other {# vuelos más}} desde <strong>{takeoff}</strong>. ¿Quieres pasarlos todos a <strong>{type}</strong>?",
+    "bulkConfirm": "{count, plural, one {Actualizar # vuelo} other {Actualizar # vuelos}}",
+    "bulkSuccess": "{count, plural, one {Actualizado # vuelo más} other {Actualizados # vuelos más}} desde {takeoff}",
+    "bulkFailed": "No se pudieron actualizar los vuelos",
+    "noJustSelected": "No, solo los seleccionados",
+    "noJustThis": "No, solo este vuelo"
+  },
+  "list": {
+    "applyToSelection": "Aplicar a la selección",
+    "apply": "Aplicar",
+    "updateLaunchType": "Cambiar tipo de lanzamiento",
+    "updateLaunchTypeHint": "Define el tipo de lanzamiento de los vuelos seleccionados",
+    "selected": "{count} seleccionados",
+    "clearSelection": "Quitar selección",
+    "viewDetails": "Ver detalles del vuelo",
+    "noResults": "Sin resultados.",
+    "scrollForMore": "Desplázate hacia abajo para cargar más vuelos",
+    "loadingMore": "Cargando más vuelos...",
+    "loadingMoreAria": "Cargando más vuelos",
+    "allLoaded": "Todos los vuelos cargados"
+  },
+  "table": {
+    "countOfTotal": "{count} de {total, plural, one {# vuelo} other {# vuelos}}",
+    "loadError": "Error al cargar los vuelos",
+    "selection": {
+      "fromTrends": "Desde tus tendencias:",
+      "range": "{from} a {to}",
+      "glidersCount": "{count, plural, one {# vela} other {# velas}}",
+      "showAll": "Ver todos los vuelos"
+    },
+    "empty": {
+      "title": "Tu libro de vuelo está vacío",
+      "body": "Sube tu primer archivo IGC para empezar a construir tu historial de vuelos.",
+      "upload": "Subir vuelos",
+      "features": {
+        "maps": {
+          "title": "Mapas de vuelo interactivos",
+          "desc": "Perfil de altitud, térmicas, fuerzas G: cada detalle de tu vuelo."
+        },
+        "progress": {
+          "title": "Tu progresión en el tiempo",
+          "desc": "Resumen de temporada, historial de distancia XC, récords personales."
+        },
+        "badges": {
+          "title": "Insignias y retos",
+          "desc": "Gana insignias por tus hitos: primer XC, primeros 50 km, 100 vuelos."
+        },
+        "community": {
+          "title": "Comunidad",
+          "desc": "Descubre nuevas zonas de vuelo y mira dónde vuelan otros pilotos."
+        }
+      },
+      "exportTitle": "Cómo exportar tus archivos IGC",
+      "exportBody": "Instrucciones paso a paso para XContest, DHV-XC, Flyskyhy, XCTrack, Oudie, Flymaster y más.",
+      "exportLink": "Ver la guía de exportación completa →",
+      "rightsTitle": "Tus derechos sobre tus datos",
+      "rightsBody": "Según el <access>artículo 15 del RGPD</access> (derecho de acceso) y el <portability>artículo 20</portability> (derecho a la portabilidad de los datos), puedes pedir a cualquier plataforma (XContest, DHV-XC, Syride u otras) una copia de tus datos personales, incluidos los tracks de tus vuelos."
+    }
+  },
+  "sort": {
+    "label": {
+      "date": "fecha",
+      "takeoff": "despegue",
+      "glider": "vela",
+      "instrument": "instrumento",
+      "duration": "duración",
+      "distance": "distancia",
+      "type": "tipo",
+      "maxAltitude": "altitud máx.",
+      "maxGain": "ganancia máx.",
+      "maxClimb": "ascenso máx.",
+      "maxSink": "descenso máx.",
+      "maxSpeed": "velocidad máx.",
+      "thermals": "térmicas",
+      "quality": "calidad",
+      "vsAvg": "Frente a tu media",
+      "efficiency": "eficiencia"
+    },
+    "option": {
+      "date": "Fecha",
+      "distance": "Distancia",
+      "duration": "Duración",
+      "takeoff": "Despegue",
+      "glider": "Vela",
+      "maxAltitude": "Altitud máx.",
+      "maxGain": "Ganancia máx.",
+      "maxClimb": "Ascenso máx.",
+      "maxSpeed": "Velocidad máx.",
+      "thermals": "Térmicas",
+      "quality": "Calidad",
+      "routeEfficiency": "Eficiencia de ruta"
+    },
+    "menuAria": "Ordenar vuelos, ahora por {field} {direction}",
+    "button": "Ordenar",
+    "sortBy": "Ordenar por",
+    "ascending": "Ascendente",
+    "descending": "Descendente"
+  },
+  "card": {
+    "unknownTakeoff": "Despegue desconocido",
+    "viewFlight": "Ver el vuelo desde {site} el {date}",
+    "select": "Seleccionar vuelo",
+    "gpsCorruption": "GPS corrupto detectado",
+    "hideDetails": "Ocultar detalles del vuelo",
+    "showDetails": "Mostrar detalles del vuelo",
+    "stats": {
+      "time": "Tiempo",
+      "maxAlt": "Alt. máx.",
+      "climb": "Ascenso",
+      "thermals": "Térmicas"
+    },
+    "preview": "Vista previa"
+  },
+  "validation": {
+    "title": "Resultado de la validación FAI",
+    "passedDescription": "Este vuelo ha superado la validación FAI.",
+    "failedDescription": "Este vuelo no ha superado la validación FAI.",
+    "status": "Estado",
+    "passed": "VÁLIDO",
+    "failed": "NO VÁLIDO",
+    "message": "Mensaje",
+    "fullData": "Datos completos de la validación"
+  },
+  "sharedLink": {
+    "title": "Enlace para compartir el vuelo",
+    "description": "Cualquiera con este enlace puede ver este vuelo sin iniciar sesión.",
+    "copiedToast": "¡Enlace copiado al portapapeles!",
+    "copyFailed": "No se pudo copiar el enlace",
+    "copied": "Copiado",
+    "copy": "Copiar al portapapeles",
+    "openPage": "Abrir la página compartida"
+  },
+  "sharedLinkConfirm": {
+    "title": "¿Crear un enlace para compartir?",
+    "intro": "Vas a crear un enlace secreto que permite a cualquiera con la URL ver este vuelo sin iniciar sesión.",
+    "noticeTitle": "Aviso de seguridad",
+    "noticeBody": "Aunque la URL contiene un identificador difícil de adivinar, no es imposible descubrirlo. Cualquiera que consiga el enlace podrá ver este vuelo. Compártelo solo con gente de confianza.",
+    "revoke": "Puedes eliminar el enlace en cualquier momento para retirar el acceso.",
+    "cancel": "Cancelar",
+    "confirm": "Crear enlace"
+  },
+  "delete": {
+    "success": "{count, plural, one {# vuelo eliminado} other {# vuelos eliminados}}",
+    "failed": "No se pudieron eliminar los vuelos",
+    "unexpectedError": "Se produjo un error inesperado al eliminar los vuelos",
+    "triggerAria": "{count, plural, one {Eliminar # vuelo} other {Eliminar # vuelos}}",
+    "action": "{count, plural, one {Eliminar vuelo} other {Eliminar # vuelos}}",
+    "title": "{count, plural, one {¿Eliminar el vuelo?} other {¿Eliminar los vuelos?}}",
+    "description": "Vas a eliminar para siempre <strong>{count, plural, one {# vuelo} other {# vuelos}}</strong>. Esta acción no se puede deshacer.",
+    "warning": "Se eliminarán para siempre del servidor tanto el <strong>registro en la base de datos</strong> como {count, plural, one {el <strong>archivo IGC</strong>} other {los <strong>archivos IGC</strong>}}.",
+    "cancel": "Cancelar",
+    "deleting": "Eliminando...",
+    "bulkAria": "Eliminar los vuelos seleccionados: borra para siempre los vuelos y los archivos IGC",
+    "bulkLabel": "Eliminar seleccionados",
+    "bulkHint": "Borra para siempre vuelos y archivos"
+  },
+  "download": {
+    "failed": "No se pudieron descargar los vuelos",
+    "success": "{count, plural, one {# vuelo descargado en ZIP} other {# vuelos descargados en ZIP}}",
+    "aria": "{count, plural, one {Descargar # archivo IGC en un archivo ZIP} other {Descargar # archivos IGC en un archivo ZIP}}",
+    "downloading": "Descargando...",
+    "creatingZip": "Creando el archivo ZIP",
+    "label": "Descargar archivos IGC",
+    "hint": "{count, plural, one {# archivo en ZIP} other {# archivos en ZIP}}"
+  },
+  "actions": {
+    "createLinkFailed": "No se pudo crear el enlace",
+    "linkCopied": "Enlace copiado al portapapeles",
+    "copyFailed": "No se pudo copiar el enlace",
+    "openMenu": "Abrir menú",
+    "view": "Ver",
+    "download": "Descargar",
+    "fixTakeoff": "Corregir despegue",
+    "sendToLeague": "Enviar a una liga",
+    "copyLink": "Copiar enlace",
+    "deleteFlight": "Eliminar vuelo"
+  },
+  "update": {
+    "cancel": "Cancelar",
+    "processing": "Procesando...",
+    "updating": "Actualizando...",
+    "saving": "Guardando...",
+    "newWingName": "Nuevo nombre de la vela",
+    "wingPlaceholder": "Escribe el nombre de la vela (p. ej. Nova Mentor 7)",
+    "dates": {
+      "triggerAria": "Corregir las fechas de los vuelos: intenta arreglar la codificación de fecha errónea de tu instrumento",
+      "trigger": "Corregir formato de fecha",
+      "triggerHint": "Arregla problemas de formato DDMMYY/YYMMDD",
+      "title": "Corregir el formato de fecha",
+      "description": "Se intercambiarán el día y el año de <strong>{count, plural, one {# vuelo} other {# vuelos}}</strong>",
+      "criticalTitle": "Importante: entiéndelo antes de seguir",
+      "explanation": "El estándar IGC exige fechas en formato <strong>DDMMYY</strong>. Algunos instrumentos generan por error el formato <strong>YYMMDD</strong>. Esta operación intercambia el día y el año.",
+      "current": "Actual:",
+      "fixed": "Corregida:",
+      "warning": "<strong>Atención:</strong> úsalo solo si tu instrumento genera fechas en un formato erróneo. Si lo usas mal, desordenarás tu historial. <learn>Más información</learn>",
+      "apply": "Aplicar la corrección"
+    },
+    "wings": {
+      "triggerAria": "Cambiar el nombre de la vela: actualiza la vela de todos los vuelos seleccionados",
+      "trigger": "Cambiar nombre de vela",
+      "triggerHint": "Cambia la vela de los vuelos seleccionados",
+      "title": "Cambiar el nombre de la vela",
+      "description": "Define un nuevo nombre de vela para <badge>{count, plural, one {# vuelo} other {# vuelos}}</badge>",
+      "willUpdate": "Se actualizarán {count, plural, one {el # vuelo seleccionado} other {los # vuelos seleccionados}}",
+      "submit": "{count, plural, one {Actualizar # vuelo} other {Actualizar # vuelos}}"
+    },
+    "date": {
+      "trigger": "Cambiar fecha",
+      "title": "Cambiar la fecha del vuelo",
+      "description": "Elige la fecha correcta de este vuelo",
+      "suggestedAvailable": "Hay una corrección sugerida",
+      "suggestedHint": "Algunos instrumentos usan un formato de fecha erróneo (YYMMDD en lugar de DDMMYY)",
+      "currentDate": "Fecha actual",
+      "suggestedDate": "Fecha sugerida",
+      "useSuggested": "Usar la fecha sugerida",
+      "selectDate": "Elegir fecha",
+      "preserveTime": "Cambia la fecha manteniendo la hora del vuelo. <spec>Especificación IGC</spec>",
+      "save": "Guardar fecha"
+    },
+    "wing": {
+      "trigger": "Cambiar vela",
+      "title": "Cambiar la vela",
+      "description": "Cambia la vela usada en este vuelo",
+      "currentWing": "Vela actual",
+      "willUpdate": "Se actualizará el nombre de la vela",
+      "submit": "Actualizar vela"
+    }
+  },
+  "fixTakeoff": {
+    "loadNearbyFailed": "No se pudieron cargar los despegues cercanos",
+    "searchFailed": "No se pudieron buscar despegues",
+    "selectSite": "Elige un despegue",
+    "updatedWithCascade": "{count, plural, one {Despegue actualizado (+# vuelo más)} other {Despegue actualizado (+# vuelos más)}}",
+    "updated": "Despegue actualizado",
+    "updateFailed": "No se pudo actualizar el despegue",
+    "updateFailedRetry": "No se pudo actualizar el despegue. Inténtalo de nuevo.",
+    "updateError": "Se produjo un error al actualizar",
+    "title": "Corregir el despegue",
+    "description": "Elige el despegue correcto de este vuelo",
+    "loadingNearby": "Cargando despegues cercanos...",
+    "nearby": "Despegues cercanos (a menos de 1 km)",
+    "searchDifferent": "Buscar otro despegue",
+    "noneNearby": "No hay despegues a menos de 1 km. Búscalo por nombre.",
+    "searchLabel": "Buscar despegue por nombre",
+    "searchPlaceholder": "Escribe al menos 3 caracteres...",
+    "searching": "Buscando...",
+    "results": "Resultados de la búsqueda",
+    "noResults": "No hay despegues que coincidan con \"{query}\"",
+    "showNearby": "Ver despegues cercanos",
+    "cancel": "Cancelar",
+    "updating": "Actualizando...",
+    "submit": "Actualizar despegue"
+  },
+  "leagues": {
+    "title": "Enviar a una liga",
+    "description": "Sube el IGC de este vuelo a un concurso online con tu propio usuario.",
+    "noneConnected": "Aún no hay ninguna liga conectada. Añade tu usuario de CFD o DHV-XC una vez y podrás enviar cualquier vuelo desde aquí, o que los vuelos nuevos se envíen automáticamente.",
+    "connect": "Conectar una liga",
+    "send": "Enviar",
+    "sendAgain": "Enviar de nuevo",
+    "sending": "Enviando…",
+    "sendFailed": "No se pudo enviar a {league}",
+    "sent": "Enviado a {league}",
+    "sentNeedsCompletion": "Enviado a {league}. Abre el enlace para terminar tu declaración.",
+    "alreadyThere": "{league} ya tiene este vuelo",
+    "outcomeError": "{league}: {outcome}",
+    "outcome": {
+      "sent": "Enviado",
+      "duplicate": "Ya estaba",
+      "auth_failed": "Acceso rechazado",
+      "rejected": "Rechazado",
+      "unavailable": "Sin conexión"
+    },
+    "remoteId": "ID {id}",
+    "finishDeclaration": "Terminar la declaración en la CFD",
+    "openOnSite": "Abrir en la web de la liga",
+    "errors": {
+      "unknownLeague": "Liga desconocida",
+      "invalidFlight": "Vuelo no válido",
+      "tooManyUploads": "Demasiados envíos. Inténtalo de nuevo en un minuto.",
+      "notConnected": "Conecta primero esta liga en Perfil > Servicios conectados.",
+      "flightNotFound": "No encontramos el archivo IGC de este vuelo.",
+      "uploadFailed": "El envío falló. Inténtalo más tarde."
+    }
+  },
+  "anomalies": {
+    "notifier": {
+      "message": "{count, plural, one {Tienes # anomalía de vuelo por revisar} other {Tienes # anomalías de vuelo por revisar}}",
+      "view": "Ver"
+    },
+    "view": {
+      "resolved": "Resuelto",
+      "resolvedDescription": "{count, plural, one {Eliminado # vuelo más corto} other {Eliminados # vuelos más cortos}}",
+      "resolveFailed": "No se pudo resolver",
+      "tryAgain": "Inténtalo de nuevo",
+      "tryAgainLater": "Inténtalo más tarde",
+      "unexpectedError": "Se produjo un error inesperado",
+      "scanDetected": "{count, plural, one {# anomalía nueva detectada} other {# anomalías nuevas detectadas}}",
+      "scanResolved": "{count} resueltas",
+      "scanNoChanges": "No se detectaron cambios",
+      "scanComplete": "Análisis completado",
+      "scanFailed": "El análisis falló",
+      "scanning": "Analizando...",
+      "rescan": "Volver a analizar",
+      "eyebrow": "Integridad de datos",
+      "title": "Anomalías de vuelo",
+      "subtitle": "Revisa las incoherencias detectadas en tus datos de vuelo.",
+      "backToProfile": "← Volver al perfil",
+      "allClear": "Todo en orden",
+      "allClearBody": "No se detectaron anomalías. Tus datos de vuelo están bien.",
+      "stats": {
+        "active": "Problemas activos",
+        "concurrent": "Simultáneos",
+        "altitude": "Altitud",
+        "unknownGlider": "Vela desconocida"
+      },
+      "cancel": "Cancelar",
+      "concurrent": {
+        "title": "Vuelos simultáneos · {count}",
+        "caption": "Que un mismo piloto tenga vuelos que se solapan en el tiempo es físicamente imposible.",
+        "resolving": "Resolviendo...",
+        "resolveAll": "Resolver todo",
+        "confirmTitle": "¿Resolver todos los vuelos simultáneos?",
+        "confirmBody": "Se eliminará para siempre el vuelo más corto de {count, plural, one {la # pareja de vuelos simultáneos} other {cada una de las # parejas de vuelos simultáneos}}. Esta acción no se puede deshacer.",
+        "confirmAction": "Eliminar los vuelos más cortos",
+        "overlap": "Solapamiento",
+        "date": "Fecha",
+        "flightA": "Vuelo A",
+        "flightB": "Vuelo B"
+      },
+      "altitude": {
+        "title": "Lecturas de altitud imposibles · {count}",
+        "caption": "Un canal de altitud (presión o GPS) daba valores imposibles en una parte importante de los puntos. El analizador usó el otro canal, así que el resumen del vuelo es correcto, pero puede que el instrumento necesite calibrarse."
+      },
+      "glider": {
+        "title": "Vela desconocida · {count}",
+        "caption": "Vuelos sin información de la vela en la cabecera del archivo IGC. Puedes añadirla a mano."
+      }
+    },
+    "concurrent": {
+      "shortest": "Más corto",
+      "unknownInstrument": "Instrumento desconocido",
+      "viewFlightOn": "Ver el vuelo del {date}",
+      "viewFlight": "Ver vuelo",
+      "deleted": "Vuelo eliminado",
+      "deletedDescription": "El vuelo más corto se ha eliminado para siempre",
+      "deleteFailed": "No se pudo eliminar",
+      "tryAgain": "Inténtalo de nuevo",
+      "unexpectedError": "Se produjo un error inesperado",
+      "overlapMinutes": "{minutes} min",
+      "overlapLabel": "solapamiento",
+      "deleteShortestAria": "Eliminar el vuelo simultáneo más corto",
+      "deleting": "Eliminando...",
+      "deleteShortest": "Eliminar el más corto",
+      "confirmTitle": "¿Eliminar el vuelo más corto?",
+      "confirmBody": "Se eliminará para siempre el vuelo del <strong>{date}</strong> ({takeoff} a {landing}, {duration}). Esta acción no se puede deshacer y también borrará el archivo IGC asociado.",
+      "cancel": "Cancelar",
+      "confirmAction": "Eliminar vuelo"
+    },
+    "altitude": {
+      "unknownDate": "Fecha desconocida",
+      "percentOfFixes": "{percent} % de los puntos",
+      "viewFlight": "Ver vuelo"
+    },
+    "glider": {
+      "viewFlightFrom": "Ver el vuelo del {date}",
+      "renameHint": "Haz clic en Renombrar para añadir la vela de cada vuelo",
+      "viewInLogbook": "Ver en el libro de vuelo"
+    },
+    "rename": {
+      "nameRequired": "Falta el nombre de la vela",
+      "nameRequiredHint": "Escribe el nombre de la vela",
+      "updated": "Vela actualizada",
+      "updatedDescription": "Vela del vuelo cambiada a \"{name}\"",
+      "updateFailed": "La actualización falló",
+      "updateFailedHint": "No se pudo actualizar la vela",
+      "unexpectedError": "Se produjo un error inesperado",
+      "trigger": "Renombrar",
+      "title": "Definir la vela",
+      "description": "Añade la vela de este vuelo",
+      "date": "Fecha:",
+      "site": "Despegue:",
+      "gliderName": "Nombre de la vela",
+      "placeholder": "p. ej. Ozone Rush 5",
+      "nameHint": "Escribe el modelo de tu vela de parapente",
+      "cancel": "Cancelar",
+      "updating": "Actualizando...",
+      "submit": "Actualizar vela"
+    }
+  },
+  "errors": {
+    "notAuthenticated": "No has iniciado sesión",
+    "invalidFlightOrSite": "ID de vuelo o de despegue no válido",
+    "takeoffSiteNotFound": "Despegue no encontrado",
+    "flightNotOwned": "Vuelo no encontrado o no es tuyo",
+    "updateTakeoffFailed": "No se pudo actualizar el despegue",
+    "noFlightsSpecified": "No se indicó ningún vuelo",
+    "invalidFlightId": "ID de vuelo no válido: {id}",
+    "someFlightsNotOwned": "Algunos vuelos no se encontraron o no son tuyos",
+    "deleteFailed": "No se pudieron eliminar los vuelos",
+    "anomalyNotFoundResolved": "Anomalía no encontrada o ya resuelta",
+    "anomalyNotFoundIgnored": "Anomalía no encontrada o ya ignorada",
+    "resolveAnomalyFailed": "No se pudo resolver la anomalía",
+    "ignoreAnomalyFailed": "No se pudo ignorar la anomalía",
+    "detectionFailed": "No se pudo ejecutar la detección",
+    "presetNameRequired": "El nombre es obligatorio",
+    "presetNameTooLong": "Nombre demasiado largo (máx. 64 caracteres)",
+    "presetNameUrls": "El nombre no puede contener URL",
+    "presetNameHtml": "El nombre no puede contener HTML",
+    "presetNameInvalid": "El nombre contiene caracteres no válidos",
+    "presetMax": "Has llegado al máximo de {max} filtros guardados",
+    "presetDuplicate": "Ya existe un filtro guardado con este nombre",
+    "presetSaveFailed": "No se pudo guardar el filtro",
+    "presetInvalidId": "ID de filtro no válido",
+    "presetNotFound": "Filtro guardado no encontrado",
+    "presetUpdateFailed": "No se pudo actualizar el filtro",
+    "presetDeleteFailed": "No se pudo eliminar el filtro"
+  }
+}

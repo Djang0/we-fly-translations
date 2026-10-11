@@ -1,0 +1,449 @@
+{
+  "altitudeChart": {
+    "gpsAlt": "GPS-hoogte",
+    "baroAlt": "Barohoogte",
+    "alt": "Hoogte",
+    "altitude": "Hoogte",
+    "ground": "Grond",
+    "agl": "AGL",
+    "hoverHint": "Beweeg over de curve voor hoogte, grond en luchtruim",
+    "lowAglLabel": "{value} AGL"
+  },
+  "benchmarks": {
+    "climb": "Stijging",
+    "climbCount": "{count, plural, one {# stijging} other {# stijgingen}}",
+    "career": "Carrière",
+    "noCareerBaseline": "geen carrièrereferentie",
+    "site": "Vlieggebied",
+    "firstHere": "eerste keer hier",
+    "siteFlights": "{count, plural, one {# vlucht} other {# vluchten}}",
+    "onPar": "gelijk"
+  },
+  "cta": {
+    "title": "Thermiekanalyse",
+    "subtitle": "Diepgaande analyses",
+    "thermalCount": "{count, plural, one {# thermiek} other {# thermieken}}",
+    "open": "Openen"
+  },
+  "floatChart": {
+    "title": "Zweven per hoogte en tijd",
+    "description": "Gemiddelde verticale snelheid tijdens zweeffases op elke hoogte, over de hele vlucht",
+    "tooltipAltitude": "{value} {unit} ASL"
+  },
+  "gFactorChart": {
+    "total": "Totale G-factor",
+    "tooltip": "G-factor:"
+  },
+  "gFactorTab": {
+    "notAvailable": "Geen G-factorgegevens voor deze vlucht",
+    "title": "Analyse van de belastingsfactor",
+    "stats": {
+      "min": "Min. G-factor",
+      "max": "Max. G-factor",
+      "mean": "Gem. G-factor",
+      "median": "Mediaan G-factor",
+      "deviation": "Standaardafwijking"
+    },
+    "event": {
+      "title": "Moment van maximale belasting",
+      "gFactor": "G-factor",
+      "time": "Tijd",
+      "coordinates": "Coördinaten"
+    },
+    "chart": {
+      "total": "Totale G-factor",
+      "vertical": "Verticale G-factor",
+      "lateral": "Laterale G-factor",
+      "overTime": "G-factor in de tijd",
+      "overTimeDescription": "Verloop van de belastingsfactor tijdens de vlucht",
+      "loading": "Grafiekgegevens laden...",
+      "unavailable": "Geen G-factortijdreeks beschikbaar",
+      "failed": "G-factorgrafiek laden mislukt",
+      "axis": "G-factor",
+      "tooltip": "G-factor:",
+      "normal": "1G (normaal)",
+      "noData": "Geen grafiekgegevens beschikbaar"
+    },
+    "info": {
+      "title": "Wat is de G-factor?",
+      "intro": "De <link>G-factor (belastingsfactor)</link> geeft de verticale belasting tijdens de vlucht weer:",
+      "normal": "<strong>1,0 G:</strong> normale zwaartekracht (rechtuit vliegen)",
+      "gentle": "<strong>1,0 tot 2,0 G:</strong> rustige bochten en thermieken",
+      "aggressive": "<strong>2,0 tot 5,0 G:</strong> stevige manoeuvres en spiralen",
+      "extreme": "<strong>Meer dan 5,0 G:</strong> extreme manoeuvres (dicht bij de structurele limieten)",
+      "method": "Deze analyse combineert verticale versnelling (uit hoogteveranderingen) en laterale versnelling (uit het draaien).<br></br><b>Respecteer altijd de gecertificeerde G-limieten van je scherm</b> (8G gedurende 3 seconden volgens <standard>EN 926-1</standard>)."
+    }
+  },
+  "quality": {
+    "outstanding": "Uitzonderlijk",
+    "excellent": "Uitstekend",
+    "good": "Goed",
+    "fair": "Redelijk",
+    "poor": "Zwak"
+  },
+  "compass": {
+    "from": "UIT {point}",
+    "windFromAria": "Wind uit {point}"
+  },
+  "coaching": {
+    "centeringWidened": "Je cirkels werden wijder, van {r25} (p25) tot {r75} (p75), rond een kern van {core}: de thermiek werd smaller met de hoogte. Draai krapper naarmate je klimt.",
+    "centeringOrbit": "Je draaide op {dist} van een kern van {core} (gemiddelde afstand ~{ratio}× de kernstraal). Draai krapper waar je het sterkste stijgen voelt.",
+    "centeringExcellent": "Uitstekend gecentreerd: je bleef binnen {dist} van een kern van {core}.",
+    "slowCoreEntry": "Trage instap in de kern: {seconds} s ({pct}% van de stijging) voor je het sterkste stijgen vond. Begin met wijdere cirkels om de gradiënt te voelen.",
+    "greatCoreEntry": "Sterke instap: het sterkste stijgen gevonden in {seconds} s.",
+    "lowEfficiency": "Lage efficiëntie: {gain} winst voor {drift} drift ({pct}%) bij {wind} wind. Draai krapper om boven de thermiek te blijven.",
+    "goodEfficiency": "Goede efficiëntie: {gain} winst met maar {drift} drift ({pct}%).",
+    "variabilityPoorCentering": "Grote variatie (±{variability}) met een cirkelstraal van {r25} tot {r75}. Waarschijnlijk slecht gecentreerd, eerder dan een turbulente thermiek.",
+    "variabilityTurbulentCircling": "Grote variatie (±{variability}) bij gelijkmatige cirkels van {r25} tot {r75}. Turbulente thermiek.",
+    "variabilityTurbulent": "Grote variatie (±{variability}). Turbulente thermiek.",
+    "smoothClimbAirspeed": "Mooie, gelijkmatige stijging (±{variability}) bij {airspeed} luchtsnelheid. Goed gedaan!",
+    "smoothClimb": "Mooie, gelijkmatige stijging (±{variability}). Goed gedaan!",
+    "flatBank": "Vlakke hellingshoek ({bank}°) in een smalle kern van {core}: probeer ~25° zodat je draaicirkel past bij de stijgzone.",
+    "steepBank": "Steile hellingshoek ({bank}°) in een brede thermiek van {core}: wat minder hellen spaart luchtsnelheid en verlaagt je daalsnelheid.",
+    "solidWork": "Degelijk thermiekwerk: {gain} gewonnen met {pct}% efficiëntie.",
+    "flightSummary": "Over {count} thermieken: mediane centrering {median}%, met {excellent} uitstekend en {poor} onder 50%.",
+    "flightSlowEntry": "Trage instap in de kern bij {count} thermieken (>50% van de stijging nodig om de kern te vinden). Begin met wijdere cirkels om de gradiënt te voelen.",
+    "flightFlatBank": "Vlakke hellingshoek (<20°) in {count} smalle kernen: probeer ~25° zodat je draaicirkel past bij de stijgzone.",
+    "flightBestClimb": "Beste stijging: T#{index} om {time}, {gain} winst, {pct}% centrering, {maxClimb} volgehouden. Uitstekend werk.",
+    "flightWorstClimb": "Het bekijken waard: T#{index} om {time}, je draaide op {dist} van een kern van {core} ({pct}% centrering). Draai krapper waar je het sterkste stijgen voelt."
+  },
+  "chart": {
+    "resetZoom": "Zoom herstellen",
+    "dragToZoom": "Sleep om te zoomen"
+  },
+  "trackMap": {
+    "noTrack": "Geen trackgegevens",
+    "takeoff": "Start",
+    "landing": "Landing"
+  },
+  "speedChart": {
+    "groundSpeed": "Grondsnelheid",
+    "airspeed": "Luchtsnelheid",
+    "ground": "Grond",
+    "groundTooltip": "Grond:",
+    "airspeedTooltip": "Luchtsnelheid:",
+    "hideGround": "Grondsnelheid verbergen",
+    "showGround": "Grondsnelheid tonen",
+    "hideAirspeed": "Luchtsnelheid verbergen",
+    "showAirspeed": "Luchtsnelheid tonen",
+    "resetZoom": "Zoom herstellen",
+    "dragToZoom": "Sleep om te zoomen"
+  },
+  "speedMap": {
+    "showPickerAria": "Snelheidslagen tonen",
+    "collapsePickerAria": "Snelheidslagen inklappen",
+    "windUnavailable": "Geen windgegevens voor deze vlucht",
+    "noTrack": "Geen trackgegevens",
+    "takeoff": "Start",
+    "landing": "Landing",
+    "tickTail": "−{value} mee",
+    "tickHead": "{value} tegen",
+    "tickLeft": "{value} links",
+    "tickRight": "{value} rechts",
+    "modes": {
+      "gs": "Grond",
+      "tas": "Luchtsnelheid",
+      "headwind": "Tegenwind",
+      "crosswind": "Zijwind"
+    },
+    "modeTitles": {
+      "gs": "Grondsnelheid: wat de GPS boven de grond meet",
+      "tas": "Ware luchtsnelheid: je snelheid door de lucht (grond − wind)",
+      "headwind": "Tegenwindcomponent (rood = tegenwind, blauw = meewind)",
+      "crosswind": "Zijwindcomponent (paars = van rechts, blauwgroen = van links)"
+    }
+  },
+  "speedTab": {
+    "loadingMap": "Kaart laden…",
+    "maxSpeed": "Max. snelheid",
+    "avgSpeed": "Gem. snelheid"
+  },
+  "thermal3d": {
+    "loading": "3D-weergave laden…",
+    "leave": "Verlaten · {altitude}",
+    "entry": "Instap · {altitude}",
+    "exit": "Uitstap · {altitude}",
+    "legend": {
+      "strongLift": "Sterk stijgen",
+      "weakLift": "Zwak stijgen",
+      "sink": "Dalende lucht",
+      "core": "Thermiekkern",
+      "leaveAltitude": "Uitstaphoogte",
+      "currentPosition": "Huidige positie"
+    }
+  },
+  "qualityStrip": {
+    "efficiency": "eff",
+    "centering": "cent"
+  },
+  "scoreBreakdown": {
+    "climb": "Stijging",
+    "efficiency": "Efficiëntie",
+    "centering": "Centrering",
+    "consistency": "Regelmaat",
+    "sustained": "Volgehouden",
+    "sustainedActual": "{seconds}s · {turns}r",
+    "howCalculated": "Hoe wordt dit berekend?"
+  },
+  "thermalCard": {
+    "selectAria": "Thermiek {number} selecteren",
+    "title": "Thermiek #{number}",
+    "resetZoomAria": "Zoom herstellen voor thermiek {number}",
+    "resetZoomTooltip": "Zoom herstellen en centreren",
+    "time": "Tijd",
+    "gain": "Winst",
+    "climb": "Stijging"
+  },
+  "timelineStrip": {
+    "listAria": "Kies een thermiek"
+  },
+  "thermalDetails": {
+    "seconds": "{value} s",
+    "climb": {
+      "title": "Stijging",
+      "preview": "{avg} gem. · {max} max.",
+      "gain": "Winst",
+      "avg": "Gem.",
+      "max": "Max.",
+      "min": "Min.",
+      "variability": "Variatie",
+      "peak": "piek {value}"
+    },
+    "core": {
+      "title": "Kern",
+      "strength": "Sterkte",
+      "centeringTime": "Centreertijd",
+      "size": "Grootte",
+      "liftRadius": "straal stijgzone",
+      "meanDistance": "Gem. afst.",
+      "fromCore": "van de kern",
+      "centering": "Centrering"
+    },
+    "turn": {
+      "title": "Draaigedrag",
+      "preview": "{direction} · {count, plural, one {# cirkel} other {# cirkels}} · {rate}°/s",
+      "direction": "Richting",
+      "right": "Rechts",
+      "left": "Links",
+      "turns": "Cirkels",
+      "rate": "Draaisnelheid",
+      "rateValue": "{value}°/s",
+      "bankAngle": "Hellingshoek",
+      "estimatedAirspeed": "geschatte luchtsnelheid {value}",
+      "timePerCircle": "Tijd per cirkel",
+      "min": "min.",
+      "median": "mediaan",
+      "max": "max.",
+      "circleRadius": "Cirkelstraal",
+      "p25": "p25",
+      "p75": "p75"
+    },
+    "wind": {
+      "title": "Drift en wind",
+      "preview": "{speed} · drift {drift} · uit {compass}",
+      "speed": "Windsnelheid",
+      "driftDistance": "Driftafst.",
+      "direction": "Richting",
+      "from": "uit {compass}"
+    },
+    "time": {
+      "title": "Tijd",
+      "start": "Begin",
+      "end": "Einde",
+      "duration": "Duur"
+    },
+    "score": {
+      "title": "Opbouw van de score",
+      "preview": "hoe de {score} tot stand komt"
+    },
+    "tips": {
+      "title": "Tips",
+      "count": "{count, plural, one {# tip} other {# tips}}"
+    }
+  },
+  "thermalMap": {
+    "thermal": "Thermiek #{number}",
+    "thermalSelected": "Thermiek #{number} (geselecteerd)",
+    "strength": "Sterkte: {value}",
+    "thermalCore": "thermiekkern",
+    "vario": "Vario: {value}",
+    "altitude": "Hoogte: {value}",
+    "entryPoint": "Instappunt",
+    "exitPoint": "Uitstappunt",
+    "currentPosition": "Huidige positie"
+  },
+  "thermalTimeAltitude": {
+    "title": "Stijgsnelheid per hoogte en tijd",
+    "description": "Gemiddelde stijgsnelheid per thermiek op elke hoogte, over de hele vlucht",
+    "referenceAria": "Hoogtereferentie",
+    "amsl": "AMSL",
+    "agl": "AGL",
+    "asl": "ASL",
+    "aglTitle": "Boven de startplaats (hoogtewinst boven de starthoogte)",
+    "amslTitle": "Boven gemiddeld zeeniveau (ruwe GPS-hoogte)",
+    "pointAria": "Thermiek #{number} om {time}, {altitude}, {climb}",
+    "pointAriaUnnumbered": "Thermiek om {time} selecteren, {altitude}, {climb}",
+    "ceilingEarly": "vroeg {altitude}",
+    "ceilingLate": "laat {altitude}",
+    "ceiling": "basis {altitude}",
+    "thermalNumber": "Thermiek #{number}",
+    "tooltipAltitude": "{value} {unit} {reference}",
+    "caption": "De stippellijn is de werkbare basis van de dag: hoe hoog je stijgingen meestal uitkwamen (mediane uitstaphoogte van stijgingen met minstens 100 m winst). Splitst de lijn in twee treden, dan verschilde de basis tussen ochtend en middag. Een trede omhoog betekent meestal dat een inversie doorbrak, een trede omlaag wijst meestal op het afzwakken aan het eind van de dag."
+  },
+  "thermalsTab": {
+    "title": "Thermiek #{number}",
+    "view2d": "2D-kaart",
+    "view3d": "3D-weergave",
+    "loadError": "Track kon niet geladen worden",
+    "loadingTrack": "Track laden…",
+    "stats": {
+      "thermals": "Thermieken",
+      "best": "Beste",
+      "bestSub": "Thermiek #{number} · {quality}",
+      "gain": "Winst",
+      "avgClimb": "Gem. stijging",
+      "quality": "Kwaliteit",
+      "median": "mediaan {value}"
+    },
+    "filters": {
+      "all": "Alle",
+      "best5": "Beste 5",
+      "belowMedian": "Onder mediaan",
+      "drifty": "Veel drift",
+      "driftyHint": ">30 m drift / 100 m winst",
+      "shown": "{shown} van {total}",
+      "empty": "Geen thermieken voor deze filter."
+    },
+    "animation": {
+      "play": "Afspelen",
+      "pause": "Pauze",
+      "resetAria": "Animatie terugzetten",
+      "previousFrameAria": "Vorig frame",
+      "nextFrameAria": "Volgend frame",
+      "frame": "Frame <strong>{current}</strong><muted>/{total}</muted>",
+      "resetZoomAria": "Kaartzoom herstellen",
+      "centreMap": "Kaart centreren op deze thermiek"
+    }
+  },
+  "varioChart": {
+    "lift": "Stijgen",
+    "sink": "Dalen",
+    "tooltip": "Vario:"
+  },
+  "varioRadius": {
+    "title": "Vario t.o.v. cirkelstraal",
+    "description": "Stijgsnelheid van elke cirkel uitgezet tegen de draaistraal. De kleur volgt de varioschaal",
+    "tooltipRadius": "Straal:",
+    "tooltipDuration": "Duur:",
+    "tooltipDirection": "Richting:",
+    "seconds": "{value} s",
+    "left": "Links",
+    "right": "Rechts",
+    "vario": "Vario",
+    "axisRadius": "straal ({unit})",
+    "zones": {
+      "risky": "riskant",
+      "ideal": "ideaal",
+      "ok": "ok",
+      "tighten": "krapper"
+    },
+    "radius": "Straal"
+  },
+  "varioTimeAltitude": {
+    "title": "Vario per hoogte en tijd",
+    "description": "Stijg- en daalsnelheid over het volledige vluchtprofiel",
+    "tooltipAltitude": "{value} {unit} ASL"
+  },
+  "windRose": {
+    "roseAria": "Windroos. Gemiddeld uit {point} ({bearing}°), spreiding ±{spread}°, {count, plural, one {# hoogteband} other {# hoogtebanden}}.",
+    "bandAria": "{min} tot {max} {unit}: {speed} uit {point} ({bearing}°)",
+    "altitudeBand": "Hoogteband",
+    "direction": "Richting",
+    "speed": "Snelheid",
+    "bandRange": "{min} tot {max} {unit}",
+    "bandStats": "n = {count} · {bearing}°"
+  },
+  "windTab": {
+    "confidence": {
+      "high": "Hoge betrouwbaarheid",
+      "medium": "Gemiddelde betrouwbaarheid",
+      "low": "Lage betrouwbaarheid"
+    },
+    "measuredBadge": "Gemeten door Vector Vario",
+    "measuredTooltip": "Deze vlucht is gelogd met een Vector Vario, die de wind elke seconde meet uit luchtsnelheid en koers. Alles op dit tabblad gebruikt die meting in plaats van de schatting uit de thermiekdrift.",
+    "sampleMeasured": "{minutes} min gemeten",
+    "sampleThermals": "{count, plural, one {# thermiek} other {# thermieken}} bemonsterd",
+    "altitudeBands": "{count, plural, one {# hoogteband} other {# hoogtebanden}}",
+    "header": {
+      "eyebrow": "Windanalyse",
+      "fromAveraging": "Uit <accent>{bearing}</accent>, gemiddeld {speed}.",
+      "averaging": "Gemiddeld <accent>{speed}</accent>.",
+      "unavailable": "De wind kon voor deze vlucht niet geschat worden.",
+      "spreadMeasured": "richting · ±{spread}° spreiding over {minutes} min",
+      "spreadSamples": "richting · ±{spread}° spreiding over {count, plural, one {# meetpunt} other {# meetpunten}}"
+    },
+    "lede": {
+      "measuredHigh": "Seconde per seconde gemeten over {minutes} min vliegen, en de richting bleef stabiel (±{spread}°).",
+      "measuredSwing": "Seconde per seconde gemeten over {minutes} min vliegen. De richting schommelde ±{spread}°. Dat is de lucht zelf die draait, geen ruis in de schatting.",
+      "noData": "De wind wordt afgeleid uit afwijkingen in de grondtrack tijdens het thermieken. Deze vlucht had niet genoeg bruikbare thermieken om een model te passen.",
+      "low": "De windrichting verspreidde zich ±{spread}° over {count, plural, one {# thermiekmeting} other {# thermiekmetingen}}. Neem de richting met een korrel zout; de snelheid is nauwkeuriger.",
+      "medium": "De richting kwam overeen binnen ±{spread}° over {count, plural, one {# thermiekmeting} other {# thermiekmetingen}}. Degelijk genoeg om op te plannen, maar vergelijk even met de sonderingen.",
+      "high": "De richting bleef stabiel (±{spread}° over {count, plural, one {# thermiekmeting} other {# thermiekmetingen}}). De wind was consistent over de hele stijgband."
+    },
+    "hero": {
+      "windFrom": "Wind uit",
+      "average": "Gemiddeld",
+      "median": "mediaan {value}",
+      "range": "Bereik",
+      "rangeMeasured": "p10 · max.",
+      "rangeEstimated": "min. · max.",
+      "sample": "Steekproef",
+      "minutesUnit": "min",
+      "readings": "{count, plural, one {# meting} other {# metingen}} · 1 Hz",
+      "thermalsUnit": "{count, plural, one {thermiek} other {thermieken}}",
+      "meanAirspeed": "Gem. luchtsnelheid",
+      "airspeedSub": "p90 {p90} · max. {max}"
+    },
+    "conditions": {
+      "mean": "Gemiddelde",
+      "meanTooltip": "Gemiddelde van alle waarden. Gevoelig voor uitschieters en extreme metingen.",
+      "median": "Mediaan",
+      "medianTooltip": "De middelste waarde na sorteren. Robuuster dan het gemiddelde als de gegevens scheef verdeeld zijn.",
+      "stdDev": "Std.afw.",
+      "stdDevTooltip": "Standaardafwijking: hoe sterk de waarden rond het gemiddelde spreiden. Lager betekent regelmatiger.",
+      "maximum": "Maximum",
+      "percentile10": "10e percentiel",
+      "percentile10Tooltip": "Negen op de tien metingen waren sterker dan dit. Stabieler dan een ruw minimum, dat door één sensoruitval op nul kan vallen.",
+      "minimum": "Minimum",
+      "bearingRange": "Richtingsbereik"
+    },
+    "empty": "Niet genoeg thermiekgegevens om de wind voor deze vlucht te schatten.",
+    "heatmap": {
+      "eyebrow": "01 · Snelheid × tijd × hoogte",
+      "title": "Windsnelheid per hoogte tijdens de vlucht",
+      "ledeMeasured": "Elke cirkel is het gemiddelde van een stukje van de windmetingen per seconde van de Vector Vario. Het geïnterpoleerde veld toont waar de lucht harder werkte; beweeg ergens over de grafiek voor de snelheid.",
+      "ledeEstimated": "Elke cirkel is een thermiek waar de wind geschat werd. Het geïnterpoleerde veld toont waar de lucht harder werkte; beweeg over een thermiek voor richting en snelheid."
+    },
+    "direction": {
+      "eyebrow": "02 · Richting",
+      "title": "Waar de lucht vandaan kwam",
+      "ledeRose": "De oranje wijzer toont de gemiddelde richting; de lila boog toont de spreiding; gekleurde stippen plaatsen elke hoogteband op de roos. De afstand van een stip tot het midden geeft de windsnelheid weer.",
+      "ledeSingleBand": "Er werd maar één hoogteband gemeten. De wijzer toont de gemiddelde richting.",
+      "aggregateBearing": "Gemiddelde richting",
+      "aggregateNotch": "Gemiddelde richting ({bearing}°)",
+      "scatterHalo": "Spreiding ±{spread}°",
+      "bandRange": "{min} tot {max} {unit}",
+      "byAltitudeBand": "Per hoogteband",
+      "bandCount": "{count, plural, one {# band} other {# banden}}"
+    },
+    "detail": {
+      "readings": "Detail · {count, plural, one {# meting} other {# metingen}}",
+      "samples": "Detail · {count, plural, one {# meetpunt} other {alle # meetpunten}}",
+      "bearingRangeNote": "richtingsbereik = gemiddelde ± circulaire σ"
+    }
+  },
+  "windTimeAltitude": {
+    "altitudeAxis": "Hoogte {unit}",
+    "timeAxis": "Tijdstip →"
+  }
+}

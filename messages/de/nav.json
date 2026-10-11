@@ -90,7 +90,7 @@
       "myFlights": "Meine Flüge",
       "pilots": "Piloten",
       "pages": "Seiten",
-      "filterPresets": "Filtervorlagen",
+      "filterPresets": "Gespeicherte Filter",
       "actions": "Aktionen",
       "articles": "Artikel",
       "help": "Hilfe"
@@ -107,7 +107,7 @@
       "uploadFlights": "Flüge hochladen",
       "planXcRoute": "XC-Route planen",
       "openFilters": "Filter öffnen",
-      "applyPreset": "Filtervorlage anwenden: {name}",
+      "applyPreset": "Gespeicherten Filter anwenden: {name}",
       "presetMeta": "Vorlage",
       "switchToLight": "Zum hellen Design wechseln",
       "switchToDark": "Zum dunklen Design wechseln",

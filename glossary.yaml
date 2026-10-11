@@ -578,3 +578,87 @@ terms:
     nl: gekoppelde diensten
     it: servizi collegati
     es: servicios conectados
+
+  # --- added after the flights + cockpit pass (2026-10-11) ----------------
+  "float (flight phase: straight, neither climbing nor sinking)":
+    fr: flottement
+    de: Schweben
+    nl: zweven
+    it: galleggiamento
+    es: planeo neutro
+  "thermal (counted, in stats: '3 thermals', 'thermals/h')":
+    fr: thermique
+    de: Bart
+    nl: thermiek
+    it: termica
+    es: térmica
+    note: "de plural 'Bärte' (Thermik = the phenomenon); nl plural 'thermieken'."
+  "search (flight phase: circling to find a core)":
+    fr: recherche
+    de: Suchen
+    nl: zoeken
+    it: ricerca
+    es: búsqueda
+  centring (thermal centring quality):
+    fr: centrage
+    de: Zentrieren
+    nl: centreren
+    it: centratura
+    es: centrado
+  airspeed:
+    fr: vitesse air
+    de: Fahrt
+    nl: luchtsnelheid
+    it: velocità all’aria
+    es: velocidad aire
+  ground speed:
+    fr: vitesse sol
+    de: Grundgeschwindigkeit
+    nl: grondsnelheid
+    it: velocità al suolo
+    es: velocidad suelo
+  load factor (G):
+    fr: facteur de charge
+    de: Lastvielfaches
+    nl: belastingsfactor
+    it: fattore di carico
+    es: factor de carga
+  netto (air-mass vertical speed):
+    keep: true
+  gaggle:
+    fr: gaggle
+    de: Pulk
+    nl: gaggle
+    it: gaggle
+    es: grupo
+  start gate (competition time):
+    fr: heure de départ
+    de: Startgate
+    nl: startgate
+    it: apertura della partenza
+    es: hora de salida
+  operational ceiling (the day's working altitude):
+    fr: plafond exploitable
+    de: Arbeitshöhe
+    nl: werkplafond
+    it: plafond operativo
+    es: techo operativo
+    note: "Not the cloudbase and not a single flight's ceiling."
+  launch type values (self / towed / powered / driving):
+    fr: "à pied / tracté / motorisé / route"
+    de: "Eigenstart / Schlepp / motorisiert / Autofahrt"
+    nl: "voetstart / gesleept / gemotoriseerd / autorit"
+    it: "a piedi / al traino / a motore / in auto"
+    es: "a pie / remolcado / motorizado / en coche"
+  replay camera 'cockpit' (pilot's-eye view, not the Cockpit dashboard):
+    fr: pilote
+    de: Pilotensicht
+    nl: pilotenzicht
+    it: soggettiva
+    es: piloto
+  flight review request (coach annotates a flight):
+    fr: débrief
+    de: Flugbesprechung
+    nl: nabespreking
+    it: debriefing
+    es: revisión

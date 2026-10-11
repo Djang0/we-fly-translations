@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "Mijn vluchten",
+    "description": "Bekijk en beheer je paraglidingvluchten. Volg je vooruitgang, analyseer je vluchtgegevens en bekijk gedetailleerde statistieken per vlucht.",
+    "ogTitle": "Mijn vluchten - We-Fly"
+  },
+  "header": {
+    "flightsTab": "Vluchten",
+    "wingsTab": "Schermen",
+    "viewLabel": "Logboekweergave",
+    "eyebrow": "Logboek",
+    "title": "Vluchtlog",
+    "subtitleCounts": "{fetched} van {total, plural, one {# vlucht} other {# vluchten}} · gesorteerd op {sort}.",
+    "defaultSort": "datum",
+    "subtitleEmpty": "Je vluchten, gesorteerd op datum.",
+    "columns": "Kolommen",
+    "columnsAria": "Kolommen tonen of verbergen"
+  },
+  "columns": {
+    "menu": {
+      "date": "Datum",
+      "takeoff": "Startplaats",
+      "glider": "Scherm",
+      "instrument": "Instrument",
+      "duration": "Duur",
+      "distance": "Afstand",
+      "launchType": "Starttype",
+      "type": "Type",
+      "maxAltitude": "Max. hoogte",
+      "maxAltitudeGain": "Max. hoogtewinst",
+      "maxClimb": "Max. stijgen",
+      "maxSink": "Max. dalen",
+      "maxSpeed": "Max. snelheid",
+      "thermals": "Thermiek",
+      "quality": "Kwaliteit",
+      "qualityVsAvg": "T.o.v. je gem.",
+      "qualityDeviation": "Consistentie",
+      "gFactorMedian": "Mediaan G-factor",
+      "gFactorDeviation": "Afwijking G-factor",
+      "thermalVzDeviation": "Turbulentie",
+      "avgGlideRatio": "Gem. glijgetal",
+      "avgGlideSpeed": "Gem. glijsnelheid",
+      "trackSpeed": "Tracksnelheid",
+      "scoringSpeed": "Scoresnelheid",
+      "routeEfficiency": "Route-efficiëntie",
+      "validation": "FAI-geldig"
+    },
+    "header": {
+      "date": "Datum",
+      "takeoff": "Startplaats",
+      "glider": "Scherm",
+      "instrument": "Instrument",
+      "duration": "Duur",
+      "distance": "Afstand",
+      "launchType": "Starttype",
+      "type": "Type",
+      "maxAltitude": "Max. hoogte",
+      "maxAltitudeGain": "Max. winst",
+      "maxClimb": "Max. stijgen",
+      "maxSink": "Max. dalen",
+      "maxSpeed": "Max. snelheid",
+      "thermals": "Thermiek",
+      "quality": "Kwaliteit",
+      "qualityVsAvg": "T.o.v. je gem.",
+      "qualityDeviation": "Consistentie",
+      "gFactorMedian": "Mediaan G-factor",
+      "gFactorDeviation": "Afwijking G-factor",
+      "thermalVzDeviation": "Turbulentie",
+      "avgGlideRatio": "Gem. glijgetal",
+      "avgGlideSpeed": "Gem. glijsnelheid",
+      "trackSpeed": "Tracksnelheid",
+      "scoringSpeed": "Scoresnelheid",
+      "routeEfficiency": "Route-efficiëntie",
+      "validation": "FAI-geldig"
+    },
+    "hint": {
+      "qualityVsAvg": "Hoe de kwaliteit van deze vlucht zich verhoudt tot je mediaan over al je vluchten.",
+      "qualityDeviation": "Standaardafwijking van de kwaliteitsscores van de thermieken in deze vlucht. Lager = gelijkmatiger stijgen.",
+      "routeEfficiency": "Verhouding tussen gescoorde afstand en totale tracklengte. Zinvoller bij overlandvluchten."
+    },
+    "selectAll": "Alles selecteren",
+    "selectRow": "Rij selecteren",
+    "gpsCorruption": "GPS-fouten gevonden",
+    "gpsCorruptionHint": "Het IGC-bestand bevat corrupte GPS-gegevens. Gescoorde afstand en tracklengte kunnen onbetrouwbaar zijn.",
+    "previewHint": "Beweeg erover om de track te bekijken",
+    "lifetimeMedian": "Mediaan over al je vluchten: {value}"
+  },
+  "launchType": {
+    "Self": "Zelf",
+    "Towed": "Gesleept",
+    "Powered": "Gemotoriseerd",
+    "Driving": "Autorit",
+    "hint": {
+      "Self": "Zelf gestart (voetstart)",
+      "Towed": "Sleepstart (lier of sleepvliegtuig)",
+      "Powered": "Gemotoriseerde start (paramotor)",
+      "Driving": "Autorit (geen vlucht)"
+    }
+  },
+  "launchDialog": {
+    "option": {
+      "Self": {
+        "label": "Zelf gestart",
+        "hint": "Voetstart vanaf een helling of klif"
+      },
+      "Towed": {
+        "label": "Gesleept",
+        "hint": "Sleepvliegtuig, lier of een andere geassisteerde start"
+      },
+      "Powered": {
+        "label": "Gemotoriseerd",
+        "hint": "Paramotor, trike of een andere gemotoriseerde start"
+      },
+      "Driving": {
+        "label": "Autorit",
+        "hint": "Autorit (geen vlucht)"
+      }
+    },
+    "title": "Starttype wijzigen",
+    "description": "Stel het starttype in voor <badge>{count, plural, one {# vlucht} other {# vluchten}}</badge>",
+    "singleDescription": "Wijzig het starttype van deze vlucht",
+    "select": "Kies het starttype",
+    "selectNew": "Kies het nieuwe starttype",
+    "current": "Huidig starttype",
+    "willUpdate": "Alle {count, plural, one {# geselecteerde vlucht krijgt} other {# geselecteerde vluchten krijgen}} het gekozen starttype.",
+    "willUpdateSingle": "Het starttype wordt bijgewerkt",
+    "cancel": "Annuleren",
+    "updating": "Bijwerken...",
+    "submit": "{count, plural, one {# vlucht bijwerken} other {# vluchten bijwerken}}",
+    "thisSite": "deze startplaats",
+    "bulkTitle": "Alle vluchten vanaf {takeoff} bijwerken?",
+    "bulkDescription": "Je hebt nog {count, plural, one {# andere vlucht} other {# andere vluchten}} vanaf <strong>{takeoff}</strong>. Wil je ze allemaal op <strong>{type}</strong> zetten?",
+    "bulkConfirm": "{count, plural, one {# vlucht bijwerken} other {# vluchten bijwerken}}",
+    "bulkSuccess": "{count, plural, one {# andere vlucht bijgewerkt} other {# andere vluchten bijgewerkt}} vanaf {takeoff}",
+    "bulkFailed": "Vluchten bijwerken mislukt",
+    "noJustSelected": "Nee, alleen de geselecteerde",
+    "noJustThis": "Nee, alleen deze vlucht"
+  },
+  "list": {
+    "applyToSelection": "Toepassen op selectie",
+    "apply": "Toepassen",
+    "updateLaunchType": "Starttype wijzigen",
+    "updateLaunchTypeHint": "Stel het starttype in voor de geselecteerde vluchten",
+    "selected": "{count} geselecteerd",
+    "clearSelection": "Selectie wissen",
+    "viewDetails": "Vluchtdetails bekijken",
+    "noResults": "Geen resultaten.",
+    "scrollForMore": "Scrol omlaag om meer vluchten te laden",
+    "loadingMore": "Meer vluchten laden...",
+    "loadingMoreAria": "Meer vluchten laden",
+    "allLoaded": "Alle vluchten geladen"
+  },
+  "table": {
+    "countOfTotal": "{count} van {total, plural, one {# vlucht} other {# vluchten}}",
+    "loadError": "Fout bij het laden van vluchten",
+    "selection": {
+      "fromTrends": "Uit je trends:",
+      "range": "{from} tot {to}",
+      "glidersCount": "{count, plural, one {# scherm} other {# schermen}}",
+      "showAll": "Alle vluchten tonen"
+    },
+    "empty": {
+      "title": "Je logboek is leeg",
+      "body": "Upload je eerste IGC-bestand en begin je vluchtgeschiedenis op te bouwen.",
+      "upload": "Vluchten uploaden",
+      "features": {
+        "maps": {
+          "title": "Interactieve vluchtkaarten",
+          "desc": "Hoogteprofiel, thermiek, G-krachten: elk detail van je vlucht."
+        },
+        "progress": {
+          "title": "Je vooruitgang in de tijd",
+          "desc": "Seizoensoverzicht, verloop van je XC-afstanden, persoonlijke records."
+        },
+        "badges": {
+          "title": "Badges en uitdagingen",
+          "desc": "Verdien badges voor mijlpalen: eerste XC, eerste 50 km, 100 vluchten."
+        },
+        "community": {
+          "title": "Community",
+          "desc": "Ontdek nieuwe vlieggebieden en zie waar andere piloten vliegen."
+        }
+      },
+      "exportTitle": "Zo exporteer je je IGC-bestanden",
+      "exportBody": "Stap-voor-stapuitleg voor XContest, DHV-XC, Flyskyhy, XCTrack, Oudie, Flymaster en meer.",
+      "exportLink": "Bekijk de volledige exporthandleiding →",
+      "rightsTitle": "Je rechten over je gegevens",
+      "rightsBody": "Op grond van <access>artikel 15 AVG</access> (recht op inzage) en <portability>artikel 20</portability> (recht op overdraagbaarheid) kun je elk platform (XContest, DHV-XC, Syride of andere) vragen om een kopie van je persoonsgegevens, inclusief je vluchttracks."
+    }
+  },
+  "sort": {
+    "label": {
+      "date": "datum",
+      "takeoff": "startplaats",
+      "glider": "scherm",
+      "instrument": "instrument",
+      "duration": "duur",
+      "distance": "afstand",
+      "type": "type",
+      "maxAltitude": "max. hoogte",
+      "maxGain": "max. hoogtewinst",
+      "maxClimb": "max. stijgen",
+      "maxSink": "max. dalen",
+      "maxSpeed": "max. snelheid",
+      "thermals": "thermiek",
+      "quality": "kwaliteit",
+      "vsAvg": "t.o.v. je gem.",
+      "efficiency": "efficiëntie"
+    },
+    "option": {
+      "date": "Datum",
+      "distance": "Afstand",
+      "duration": "Duur",
+      "takeoff": "Startplaats",
+      "glider": "Scherm",
+      "maxAltitude": "Max. hoogte",
+      "maxGain": "Max. hoogtewinst",
+      "maxClimb": "Max. stijgen",
+      "maxSpeed": "Max. snelheid",
+      "thermals": "Thermiek",
+      "quality": "Kwaliteit",
+      "routeEfficiency": "Route-efficiëntie"
+    },
+    "menuAria": "Vluchten sorteren, nu op {field} {direction}",
+    "button": "Sorteren",
+    "sortBy": "Sorteren op",
+    "ascending": "Oplopend",
+    "descending": "Aflopend"
+  },
+  "card": {
+    "unknownTakeoff": "Onbekende startplaats",
+    "viewFlight": "Vlucht vanaf {site} op {date} bekijken",
+    "select": "Vlucht selecteren",
+    "gpsCorruption": "GPS-fouten gevonden",
+    "hideDetails": "Vluchtdetails verbergen",
+    "showDetails": "Vluchtdetails tonen",
+    "stats": {
+      "time": "Tijd",
+      "maxAlt": "Max. hoogte",
+      "climb": "Stijgen",
+      "thermals": "Thermiek"
+    },
+    "preview": "Voorbeeld"
+  },
+  "validation": {
+    "title": "Resultaat FAI-validatie",
+    "passedDescription": "Deze vlucht is met succes gevalideerd door de FAI.",
+    "failedDescription": "Deze vlucht is niet door de FAI-validatie gekomen.",
+    "status": "Status",
+    "passed": "GESLAAGD",
+    "failed": "MISLUKT",
+    "message": "Bericht",
+    "fullData": "Volledige validatiegegevens"
+  },
+  "sharedLink": {
+    "title": "Deellink van de vlucht",
+    "description": "Iedereen met deze link kan deze vlucht bekijken zonder in te loggen.",
+    "copiedToast": "Link gekopieerd naar het klembord!",
+    "copyFailed": "Link kopiëren mislukt",
+    "copied": "Gekopieerd",
+    "copy": "Kopiëren naar klembord",
+    "openPage": "Gedeelde pagina openen"
+  },
+  "sharedLinkConfirm": {
+    "title": "Deellink maken?",
+    "intro": "Je maakt een geheime link waarmee iedereen met de URL deze vlucht kan bekijken zonder in te loggen.",
+    "noticeTitle": "Veiligheidsmelding",
+    "noticeBody": "De URL bevat een moeilijk te raden code, maar ontdekken is niet onmogelijk. Wie de link heeft, kan deze vlucht bekijken. Deel hem alleen met mensen die je vertrouwt.",
+    "revoke": "Je kunt de deellink op elk moment verwijderen om de toegang in te trekken.",
+    "cancel": "Annuleren",
+    "confirm": "Link maken"
+  },
+  "delete": {
+    "success": "{count, plural, one {# vlucht verwijderd} other {# vluchten verwijderd}}",
+    "failed": "Vluchten verwijderen mislukt",
+    "unexpectedError": "Er ging iets onverwachts mis bij het verwijderen van de vluchten",
+    "triggerAria": "{count, plural, one {# vlucht verwijderen} other {# vluchten verwijderen}}",
+    "action": "{count, plural, one {Vlucht verwijderen} other {# vluchten verwijderen}}",
+    "title": "{count, plural, one {Vlucht verwijderen?} other {Vluchten verwijderen?}}",
+    "description": "Je staat op het punt <strong>{count, plural, one {# vlucht} other {# vluchten}}</strong> definitief te verwijderen. Dit kan niet ongedaan worden gemaakt.",
+    "warning": "Zowel het <strong>databaserecord</strong> als <strong>{count, plural, one {het IGC-bestand} other {de IGC-bestanden}}</strong> worden definitief van de server verwijderd.",
+    "cancel": "Annuleren",
+    "deleting": "Verwijderen...",
+    "bulkAria": "Geselecteerde vluchten verwijderen: vluchten en IGC-bestanden definitief wissen",
+    "bulkLabel": "Selectie verwijderen",
+    "bulkHint": "Vluchten en bestanden definitief wissen"
+  },
+  "download": {
+    "failed": "Vluchten downloaden mislukt",
+    "success": "{count, plural, one {# vlucht gedownload als ZIP} other {# vluchten gedownload als ZIP}}",
+    "aria": "{count, plural, one {# IGC-bestand downloaden als ZIP-archief} other {# IGC-bestanden downloaden als ZIP-archief}}",
+    "downloading": "Downloaden...",
+    "creatingZip": "ZIP-archief maken",
+    "label": "IGC-bestanden downloaden",
+    "hint": "{count, plural, one {# bestand als ZIP-archief} other {# bestanden als ZIP-archief}}"
+  },
+  "actions": {
+    "createLinkFailed": "Link maken mislukt",
+    "linkCopied": "Link gekopieerd naar het klembord",
+    "copyFailed": "Link kopiëren mislukt",
+    "openMenu": "Menu openen",
+    "view": "Bekijken",
+    "download": "Downloaden",
+    "fixTakeoff": "Startplaats corrigeren",
+    "sendToLeague": "Naar competitie sturen",
+    "copyLink": "Link kopiëren",
+    "deleteFlight": "Vlucht verwijderen"
+  },
+  "update": {
+    "cancel": "Annuleren",
+    "processing": "Verwerken...",
+    "updating": "Bijwerken...",
+    "saving": "Opslaan...",
+    "newWingName": "Nieuwe schermnaam",
+    "wingPlaceholder": "Vul de schermnaam in (bv. Nova Mentor 7)",
+    "dates": {
+      "triggerAria": "Vluchtdatums corrigeren: probeer de verkeerde datumcodering van je instrument te herstellen",
+      "trigger": "Datumcodering corrigeren",
+      "triggerHint": "Problemen met DDMMYY/YYMMDD herstellen",
+      "title": "Fout in datumcodering corrigeren",
+      "description": "Dit verwisselt dag en jaar voor <strong>{count, plural, one {# vlucht} other {# vluchten}}</strong>",
+      "criticalTitle": "Belangrijk: lees dit eerst",
+      "explanation": "De IGC-standaard vraagt datums in het formaat <strong>DDMMYY</strong>. Sommige instrumenten schrijven ten onrechte <strong>YYMMDD</strong>. Deze bewerking verwisselt dag en jaar.",
+      "current": "Nu:",
+      "fixed": "Gecorrigeerd:",
+      "warning": "<strong>Let op:</strong> gebruik dit alleen als je instrument verkeerde datums schrijft. Verkeerd gebruik haalt je tijdlijn door elkaar. <learn>Meer info</learn>",
+      "apply": "Correctie toepassen"
+    },
+    "wings": {
+      "triggerAria": "Schermnaam wijzigen: scherm bijwerken voor alle geselecteerde vluchten",
+      "trigger": "Schermnaam wijzigen",
+      "triggerHint": "Scherm wijzigen voor de geselecteerde vluchten",
+      "title": "Schermnaam wijzigen",
+      "description": "Stel een nieuwe schermnaam in voor <badge>{count, plural, one {# vlucht} other {# vluchten}}</badge>",
+      "willUpdate": "Dit werkt alle {count, plural, one {# geselecteerde vlucht} other {# geselecteerde vluchten}} bij",
+      "submit": "{count, plural, one {# vlucht bijwerken} other {# vluchten bijwerken}}"
+    },
+    "date": {
+      "trigger": "Datum wijzigen",
+      "title": "Vluchtdatum wijzigen",
+      "description": "Kies de juiste datum voor deze vlucht",
+      "suggestedAvailable": "Voorgestelde correctie beschikbaar",
+      "suggestedHint": "Sommige instrumenten gebruiken een verkeerd datumformaat (YYMMDD in plaats van DDMMYY)",
+      "currentDate": "Huidige datum",
+      "suggestedDate": "Voorgestelde datum",
+      "useSuggested": "Voorgestelde datum gebruiken",
+      "selectDate": "Datum kiezen",
+      "preserveTime": "Wijzigt de datum en behoudt het tijdstip van de vlucht. <spec>IGC-specificatie</spec>",
+      "save": "Datum opslaan"
+    },
+    "wing": {
+      "trigger": "Scherm wijzigen",
+      "title": "Scherm wijzigen",
+      "description": "Wijzig het scherm waarmee je deze vlucht vloog",
+      "currentWing": "Huidig scherm",
+      "willUpdate": "De schermnaam wordt bijgewerkt",
+      "submit": "Scherm bijwerken"
+    }
+  },
+  "fixTakeoff": {
+    "loadNearbyFailed": "Startplaatsen in de buurt laden mislukt",
+    "searchFailed": "Startplaatsen zoeken mislukt",
+    "selectSite": "Kies een startplaats",
+    "updatedWithCascade": "{count, plural, one {Startplaats bijgewerkt (+# andere vlucht)} other {Startplaats bijgewerkt (+# andere vluchten)}}",
+    "updated": "Startplaats bijgewerkt",
+    "updateFailed": "Startplaats bijwerken mislukt",
+    "updateFailedRetry": "Startplaats bijwerken mislukt. Probeer het opnieuw.",
+    "updateError": "Er ging iets mis bij het bijwerken",
+    "title": "Startplaats corrigeren",
+    "description": "Kies de juiste startplaats voor deze vlucht",
+    "loadingNearby": "Startplaatsen in de buurt laden...",
+    "nearby": "Startplaatsen in de buurt (binnen 1 km)",
+    "searchDifferent": "Een andere startplaats zoeken",
+    "noneNearby": "Geen startplaatsen binnen 1 km gevonden. Zoek op naam.",
+    "searchLabel": "Startplaats zoeken op naam",
+    "searchPlaceholder": "Typ minstens 3 tekens...",
+    "searching": "Zoeken...",
+    "results": "Zoekresultaten",
+    "noResults": "Geen startplaatsen gevonden voor \"{query}\"",
+    "showNearby": "Startplaatsen in de buurt tonen",
+    "cancel": "Annuleren",
+    "updating": "Bijwerken...",
+    "submit": "Startplaats bijwerken"
+  },
+  "leagues": {
+    "title": "Naar een online competitie sturen",
+    "description": "Upload de IGC van deze vlucht naar een online competitie met je eigen login.",
+    "noneConnected": "Er is nog geen competitie gekoppeld. Voeg één keer je CFD- of DHV-XC-login toe, dan kun je elke vlucht van hieruit insturen of nieuwe vluchten automatisch laten insturen.",
+    "connect": "Competitie koppelen",
+    "send": "Insturen",
+    "sendAgain": "Opnieuw insturen",
+    "sending": "Insturen…",
+    "sendFailed": "Insturen naar {league} mislukt",
+    "sent": "Ingestuurd naar {league}",
+    "sentNeedsCompletion": "Ingestuurd naar {league}. Open de link om je aangifte af te ronden.",
+    "alreadyThere": "{league} heeft deze vlucht al",
+    "outcomeError": "{league}: {outcome}",
+    "outcome": {
+      "sent": "Ingestuurd",
+      "duplicate": "Staat er al",
+      "auth_failed": "Login geweigerd",
+      "rejected": "Geweigerd",
+      "unavailable": "Niet bereikbaar"
+    },
+    "remoteId": "ID {id}",
+    "finishDeclaration": "Rond de aangifte af op de CFD",
+    "openOnSite": "Openen op de site van de competitie",
+    "errors": {
+      "unknownLeague": "Onbekende competitie",
+      "invalidFlight": "Ongeldige vlucht",
+      "tooManyUploads": "Te veel uploads. Probeer het over een minuut opnieuw.",
+      "notConnected": "Koppel deze competitie eerst via Profiel > Gekoppelde diensten.",
+      "flightNotFound": "We vinden het IGC-bestand van deze vlucht niet.",
+      "uploadFailed": "De upload is mislukt. Probeer het later opnieuw."
+    }
+  },
+  "anomalies": {
+    "notifier": {
+      "message": "{count, plural, one {Je hebt # vluchtafwijking om te bekijken} other {Je hebt # vluchtafwijkingen om te bekijken}}",
+      "view": "Bekijken"
+    },
+    "view": {
+      "resolved": "Opgelost",
+      "resolvedDescription": "{count, plural, one {# kortste vlucht verwijderd} other {# kortste vluchten verwijderd}}",
+      "resolveFailed": "Oplossen mislukt",
+      "tryAgain": "Probeer het opnieuw",
+      "tryAgainLater": "Probeer het later opnieuw",
+      "unexpectedError": "Er ging iets onverwachts mis",
+      "scanDetected": "{count, plural, one {# nieuwe afwijking gevonden} other {# nieuwe afwijkingen gevonden}}",
+      "scanResolved": "{count} opgelost",
+      "scanNoChanges": "Geen wijzigingen gevonden",
+      "scanComplete": "Scan voltooid",
+      "scanFailed": "Scan mislukt",
+      "scanning": "Scannen...",
+      "rescan": "Opnieuw scannen",
+      "eyebrow": "Gegevensintegriteit",
+      "title": "Vluchtafwijkingen",
+      "subtitle": "Bekijk de inconsistenties die in je vluchtgegevens gevonden zijn.",
+      "backToProfile": "← Terug naar profiel",
+      "allClear": "Alles in orde",
+      "allClearBody": "Geen afwijkingen gevonden. Je vluchtgegevens zien er goed uit.",
+      "stats": {
+        "active": "Open problemen",
+        "concurrent": "Overlappend",
+        "altitude": "Hoogte",
+        "unknownGlider": "Onbekend scherm"
+      },
+      "cancel": "Annuleren",
+      "concurrent": {
+        "title": "Overlappende vluchten · {count}",
+        "caption": "Overlappende tijden zijn fysiek onmogelijk voor één piloot.",
+        "resolving": "Oplossen...",
+        "resolveAll": "Alles oplossen",
+        "confirmTitle": "Alle overlappende vluchten oplossen?",
+        "confirmBody": "Dit verwijdert definitief de kortste vlucht van elk van de {count, plural, one {# overlappende vluchtpaar} other {# overlappende vluchtparen}}. Dit kan niet ongedaan worden gemaakt.",
+        "confirmAction": "Kortste vluchten verwijderen",
+        "overlap": "Overlap",
+        "date": "Datum",
+        "flightA": "Vlucht A",
+        "flightB": "Vlucht B"
+      },
+      "altitude": {
+        "title": "Onwaarschijnlijke hoogtemetingen · {count}",
+        "caption": "Eén hoogtekanaal (barometrisch of GPS) gaf bij een flink deel van de fixes onwaarschijnlijke waarden. De parser gebruikte het andere kanaal, dus de vluchtsamenvatting klopt, maar je toestel moet misschien gekalibreerd worden."
+      },
+      "glider": {
+        "title": "Onbekend schermtype · {count}",
+        "caption": "Vluchten zonder scherminformatie in de header van het IGC-bestand. Je kunt die zelf toevoegen."
+      }
+    },
+    "concurrent": {
+      "shortest": "Kortste",
+      "unknownInstrument": "Onbekend instrument",
+      "viewFlightOn": "Vlucht van {date} bekijken",
+      "viewFlight": "Vlucht bekijken",
+      "deleted": "Vlucht verwijderd",
+      "deletedDescription": "De kortste vlucht is definitief verwijderd",
+      "deleteFailed": "Verwijderen mislukt",
+      "tryAgain": "Probeer het opnieuw",
+      "unexpectedError": "Er ging iets onverwachts mis",
+      "overlapMinutes": "{minutes} min",
+      "overlapLabel": "overlap",
+      "deleteShortestAria": "De kortste overlappende vlucht verwijderen",
+      "deleting": "Verwijderen...",
+      "deleteShortest": "Kortste verwijderen",
+      "confirmTitle": "Kortste vlucht verwijderen?",
+      "confirmBody": "Dit verwijdert definitief de vlucht van <strong>{date}</strong> ({takeoff} naar {landing}, {duration}). Dit kan niet ongedaan worden gemaakt en het bijbehorende IGC-bestand wordt ook gewist.",
+      "cancel": "Annuleren",
+      "confirmAction": "Vlucht verwijderen"
+    },
+    "altitude": {
+      "unknownDate": "Onbekende datum",
+      "percentOfFixes": "{percent}% van de fixes",
+      "viewFlight": "Vlucht bekijken"
+    },
+    "glider": {
+      "viewFlightFrom": "Vlucht van {date} bekijken",
+      "renameHint": "Klik op Hernoemen om per vlucht scherminformatie toe te voegen",
+      "viewInLogbook": "Bekijken in logboek"
+    },
+    "rename": {
+      "nameRequired": "Schermnaam verplicht",
+      "nameRequiredHint": "Vul een schermnaam in",
+      "updated": "Scherm bijgewerkt",
+      "updatedDescription": "Scherm van de vlucht ingesteld op \"{name}\"",
+      "updateFailed": "Bijwerken mislukt",
+      "updateFailedHint": "Schermtype kon niet worden bijgewerkt",
+      "unexpectedError": "Er ging iets onverwachts mis",
+      "trigger": "Hernoemen",
+      "title": "Schermtype instellen",
+      "description": "Voeg scherminformatie toe aan deze vlucht",
+      "date": "Datum:",
+      "site": "Vlieggebied:",
+      "gliderName": "Schermnaam",
+      "placeholder": "bv. Ozone Rush 5",
+      "nameHint": "Vul de modelnaam van je paraglider in",
+      "cancel": "Annuleren",
+      "updating": "Bijwerken...",
+      "submit": "Scherm bijwerken"
+    }
+  },
+  "errors": {
+    "notAuthenticated": "Niet ingelogd",
+    "invalidFlightOrSite": "Ongeldige vlucht- of startplaats-ID",
+    "takeoffSiteNotFound": "Startplaats niet gevonden",
+    "flightNotOwned": "Vlucht niet gevonden of niet van jou",
+    "updateTakeoffFailed": "Startplaats bijwerken mislukt",
+    "noFlightsSpecified": "Geen vluchten opgegeven",
+    "invalidFlightId": "Ongeldige vlucht-ID: {id}",
+    "someFlightsNotOwned": "Sommige vluchten niet gevonden of niet van jou",
+    "deleteFailed": "Vluchten verwijderen mislukt",
+    "anomalyNotFoundResolved": "Afwijking niet gevonden of al opgelost",
+    "anomalyNotFoundIgnored": "Afwijking niet gevonden of al genegeerd",
+    "resolveAnomalyFailed": "Afwijking oplossen mislukt",
+    "ignoreAnomalyFailed": "Afwijking negeren mislukt",
+    "detectionFailed": "Detectie uitvoeren mislukt",
+    "presetNameRequired": "Naam is verplicht",
+    "presetNameTooLong": "Naam te lang (max. 64 tekens)",
+    "presetNameUrls": "De naam mag geen URL's bevatten",
+    "presetNameHtml": "De naam mag geen HTML bevatten",
+    "presetNameInvalid": "De naam bevat ongeldige tekens",
+    "presetMax": "Maximum van {max} filtersets bereikt",
+    "presetDuplicate": "Er bestaat al een filterset met deze naam",
+    "presetSaveFailed": "Filterset opslaan mislukt",
+    "presetInvalidId": "Ongeldige filterset-ID",
+    "presetNotFound": "Filterset niet gevonden",
+    "presetUpdateFailed": "Filterset bijwerken mislukt",
+    "presetDeleteFailed": "Filterset verwijderen mislukt"
+  }
+}

@@ -11,5 +11,23 @@
     "body": "<line>Diese Seite ist schneller runtergekommen als eine Landung im Fullstall.</line>Vielleicht muss dein GPS neu kalibriert werden? 🪂",
     "cta": "Ab zum nächsten Bart"
   },
-  "opensInNewTab": "(öffnet in neuem Tab)"
+  "opensInNewTab": "(öffnet in neuem Tab)",
+  "compass": {
+    "N": "N",
+    "NNE": "NNO",
+    "NE": "NO",
+    "ENE": "ONO",
+    "E": "O",
+    "ESE": "OSO",
+    "SE": "SO",
+    "SSE": "SSO",
+    "S": "S",
+    "SSW": "SSW",
+    "SW": "SW",
+    "WSW": "WSW",
+    "W": "W",
+    "WNW": "WNW",
+    "NW": "NW",
+    "NNW": "NNW"
+  }
 }

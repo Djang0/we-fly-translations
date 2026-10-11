@@ -1,0 +1,39 @@
+{
+  "attach": {
+    "titleChange": "Change airspace file",
+    "titleAttach": "Attach an airspace file",
+    "description": "The OpenAir file becomes this flight's only airspace on the map, the 3D replay and comparisons, and the airspace check runs against it. Files are public and shared with pilots of the same task.",
+    "usedByTaskPilots": "Used by pilots of this task",
+    "lookingForFiles": "Looking for files…",
+    "use": "Use",
+    "orUploadOwn": "Or upload your own",
+    "chooseFile": "Choose an OpenAir file",
+    "formats": "<mono>.txt</mono> or <mono>.air</mono>, up to 8 MB. A file another pilot already uploaded is stored only once.",
+    "suggestionMeta": "{zones, plural, one {# airspace} other {# airspaces}} · {size} · {attribution}",
+    "attributedBy": "Attached by {who, select, you {you} named {{name}} other {another pilot}}{date, select, none {} other {, {date}}}{flights, plural, =0 {} =1 {} other { · used on # flights}}",
+    "sizeKb": "{value} KB",
+    "sizeMb": "{value} MB",
+    "attachedFile": "Airspace file {name} attached",
+    "attachedUpload": "Attached {name} ({count, plural, one {# airspace} other {# airspaces}})",
+    "tooLarge": "Airspace file exceeds the 8 MB limit",
+    "uploadFailed": "Could not attach this file"
+  },
+  "badge": {
+    "detached": "Airspace file detached",
+    "gone": "The attached airspace file is gone.",
+    "attachAnother": "Attach another",
+    "label": "Airspace",
+    "changeTitle": "{name}: change the airspace file",
+    "zones": "{count, plural, one {# zone} other {# zones}}",
+    "detachAria": "Detach airspace file"
+  },
+  "errors": {
+    "notAuthenticated": "Not authenticated",
+    "invalidId": "Invalid id",
+    "invalidFlightId": "Invalid flight id",
+    "fileNotFound": "Airspace file not found",
+    "flightNotFound": "Flight not found",
+    "fileGone": "This airspace file was just removed. Upload it again.",
+    "internal": "Internal error"
+  }
+}

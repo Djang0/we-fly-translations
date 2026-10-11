@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Cockpit",
+    "description": "Je paragliding-commandocentrum. Bekijk je vluchtstatistieken, analyseer trends in je prestaties en zie hoe je vliegen vooruitgaat.",
+    "ogTitle": "Cockpit - We-Fly"
+  },
+  "tabs": {
+    "eyebrow": "Analyses",
+    "title": "Cockpit",
+    "subtitle": "Statistieken over je gefilterde vluchten.",
+    "subtitleCount": "Statistieken over {count, plural, one {# gefilterde vlucht} other {# gefilterde vluchten}}.",
+    "flightCount": "{count, plural, one {# vlucht} other {# vluchten}}"
+  },
+  "errorState": {
+    "title": "Fout bij het laden van vluchten",
+    "body": "Vluchtgegevens konden niet opgehaald worden",
+    "retry": "Opnieuw proberen",
+    "invalidFormat": "Ongeldig gegevensformaat",
+    "reload": "Herladen"
+  },
+  "summaryStrip": {
+    "entities": "{entity, select, glider {Schermen} takeoff {Startplaatsen} country {Landen} season {Seizoenen} other {Items}}",
+    "topEntity": "{entity, select, glider {Topscherm} takeoff {Topstartplaats} country {Topland} season {Topseizoen} other {Topitem}}",
+    "flights": "Vluchten",
+    "airTime": "Vliegtijd",
+    "hoursUnit": "u",
+    "averageSub": "gem. {value} u / vlucht",
+    "topSub": "{hours} u · {count, plural, one {# vlucht} other {# vluchten}}"
+  },
+  "metricCard": {
+    "totalHours": "Totaal uren",
+    "flights": "Vluchten",
+    "avgPerFlight": "Gem. per vlucht",
+    "zScore": "Z-score",
+    "hoursUnit": "u"
+  },
+  "statsTable": {
+    "rank": "Rang",
+    "flights": "Vluchten",
+    "totalHours": "Totaal uren",
+    "avgPerFlight": "Gem./vlucht",
+    "zScore": "Z-score",
+    "hoursUnit": "u",
+    "phoneRow": "{count, plural, one {# vlucht} other {# vluchten}} · gem. {value} u"
+  },
+  "chartTabs": {
+    "title": "Visuele analyse",
+    "defaultDescription": "Vergelijk op verschillende maatstaven.",
+    "metric": "Maatstaf",
+    "duration": "Duur",
+    "count": "Aantal",
+    "zScore": "Z-score",
+    "seriesCount": "Aantal vluchten",
+    "seriesAirTime": "Vliegtijd",
+    "seriesEfficiency": "Efficiëntie",
+    "seriesZScore": "Z-score"
+  },
+  "linkableMetric": {
+    "showDetailChart": "Detailgrafiek {label} tonen",
+    "viewFlight": "Vlucht bekijken met {label}: {value}"
+  },
+  "overview": {
+    "loadingVisualization": "Visualisatie laden...",
+    "error": {
+      "title": "Vluchtgegevens laden mislukt",
+      "body": "Er ging iets mis bij het laden van je vluchtstatistieken. Misschien is het een tijdelijk probleem.",
+      "retry": "Opnieuw proberen"
+    },
+    "empty": {
+      "title": "Geen vluchtgegevens beschikbaar",
+      "body": "Je logboek is leeg. Upload eerst je IGC-bestanden om statistieken, kaarten en analyses te zien.",
+      "cta": "IGC-bestanden uploaden"
+    }
+  },
+  "byGlider": {
+    "emptyTitle": "Geen schermgegevens beschikbaar",
+    "emptyBody": "Voeg vluchten toe om de statistieken van je schermen te zien",
+    "topPerformers": "Toppers",
+    "comparisonTitle": "Schermen vergelijken",
+    "comparisonDescription": "Vergelijk de prestaties van al je schermen",
+    "entityLabel": "Scherm",
+    "chartDescription": "Vergelijk schermen op verschillende maatstaven."
+  },
+  "byCountry": {
+    "emptyTitle": "Geen landgegevens beschikbaar",
+    "emptyBody": "Voeg vluchten toe om je statistieken per land te zien",
+    "topPerformers": "Toplanden",
+    "comparisonTitle": "Landen vergelijken",
+    "comparisonDescription": "Vergelijk de prestaties in alle landen",
+    "entityLabel": "Land",
+    "chartDescription": "Vergelijk landen op verschillende maatstaven."
+  },
+  "bySeason": {
+    "emptyTitle": "Geen seizoensgegevens beschikbaar",
+    "emptyBody": "Voeg vluchten toe om je statistieken per seizoen te zien",
+    "topPerformers": "Beste seizoenen",
+    "comparisonTitle": "Seizoenen vergelijken",
+    "comparisonDescription": "Vergelijk de prestaties over alle seizoenen",
+    "entityLabel": "Seizoen",
+    "chartDescription": "Vergelijk seizoenen op verschillende maatstaven."
+  },
+  "byTakeoff": {
+    "emptyTitle": "Geen startplaatsgegevens beschikbaar",
+    "emptyBody": "Voeg vluchten toe om je statistieken per startplaats te zien",
+    "topPerformers": "Topstartplaatsen",
+    "tableTitle": "Startplaatsen",
+    "tableCaption": "Sorteerbare vergelijking met visuele indicatoren. Klik op een kolomkop om te sorteren.",
+    "rank": "Rang",
+    "location": "Startplaats",
+    "flights": "Vluchten",
+    "totalHours": "Totaal uren",
+    "avgPerFlight": "Gem./vlucht",
+    "zScore": "Z-score",
+    "above": "boven",
+    "below": "onder",
+    "hoursUnit": "u",
+    "phoneRow": "{count, plural, one {# vlucht} other {# vluchten}} · gem. {value} u"
+  },
+  "byMonth": {
+    "emptyTitle": "Geen maandgegevens beschikbaar",
+    "emptyBody": "Voeg vluchten toe om je statistieken per maand te zien",
+    "mostActiveMonths": "Actiefste maanden",
+    "visualAnalysis": "Visuele analyse",
+    "visualDescription": "Maandelijkse trends over verschillende maatstaven en jaren.",
+    "duration": "Duur",
+    "count": "Aantal",
+    "zScore": "Z-score",
+    "viewMode": "Weergave:",
+    "grouped": "Gegroepeerd",
+    "stacked": "Gestapeld",
+    "years": "Jaren:",
+    "breakdownTitle": "Maandoverzicht per jaar",
+    "breakdownDescription": "Vergelijk je vliegactiviteit over maanden en jaren",
+    "month": "Maand",
+    "total": "Totaal",
+    "card": {
+      "totalFlights": "Totaal vluchten",
+      "allYears": "alle jaren",
+      "mostActiveYear": "Actiefste jaar",
+      "flights": "{count, plural, one {# vlucht} other {# vluchten}}",
+      "activityByYear": "Activiteit per jaar"
+    }
+  },
+  "byCivl": {
+    "refreshFailed": "CIVL-gegevens konden niet vernieuwd worden",
+    "loading": "Laden…",
+    "noId": "Geen CIVL-ID ingesteld. Voeg de jouwe toe in je <link>profielinstellingen</link> om hier je ranking te zien.",
+    "title": "CIVL-ranking",
+    "updated": "Bijgewerkt op {date}",
+    "currentStandings": "Huidige stand",
+    "rankingHistory": "Rankinggeschiedenis",
+    "world": "Wereld",
+    "country": "Land",
+    "europe": "Europa",
+    "date": "Datum",
+    "rank": "Rang",
+    "points": "Punten",
+    "scoringComposition": "Samenstelling van de score"
+  },
+  "flightComment": {
+    "title": "Debriefing van de piloot",
+    "ariaEditable": "Vluchtdebriefing",
+    "tooLong": "Een commentaar mag niet langer zijn dan {max} tekens",
+    "saveFailed": "Commentaar opslaan mislukt",
+    "placeholder": "Hoe was de dag? Wat werkte, wat niet?",
+    "charsRemaining": "Nog {count} tekens",
+    "hint": "Cmd/Ctrl-Enter om op te slaan · Esc om te annuleren",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "saving": "Opslaan…",
+    "edit": "Commentaar bewerken",
+    "add": "Voeg een debriefing toe: noteer de omstandigheden, wat je probeerde en wat je leerde."
+  },
+  "thermalVarioDialog": {
+    "title": "Sterkste thermiek",
+    "titleWithValue": "Sterkste thermiek: {value}",
+    "description": "Variosignaal ±5 seconden rond de piek, handig om meetfouten op te sporen",
+    "peak": "Piek",
+    "peakLower": "piek",
+    "offsetSeconds": "{value}s",
+    "loading": "Laden…",
+    "series": "Vario",
+    "errors": {
+      "fetch": "Trackgegevens ophalen mislukt",
+      "insufficient": "Onvoldoende trackgegevens",
+      "unknown": "Onbekende fout"
+    }
+  },
+  "map": {
+    "emptyTitle": "Geen vluchtgegevens beschikbaar",
+    "emptyBody": "Voeg vluchten toe om je startplaatsen op de kaart te zien",
+    "flights": "{count, plural, one {# vlucht} other {# vluchten}}",
+    "asl": "{altitude} AMSL",
+    "fullscreen": "Volledig scherm",
+    "exitFullscreen": "Volledig scherm sluiten",
+    "openFullscreenAria": "Kaart op volledig scherm openen",
+    "exitFullscreenAria": "Kaart op volledig scherm sluiten",
+    "exitFullscreenTitle": "Volledig scherm sluiten (Esc)"
+  },
+  "statsUtils": {
+    "r2": {
+      "strong": "Sterk",
+      "moderate": "Matig",
+      "weak": "Zwak",
+      "strongText": "Sterke trend: je vooruitgang van seizoen tot seizoen is consistent.",
+      "moderateText": "Matige trend: er is een algemene richting, maar met schommelingen van jaar tot jaar.",
+      "weakText": "Zwakke trend: de gegevens liggen verspreid; nog geen betrouwbare vooruitgang.",
+      "tooltipTitle": "Sterkte van de trend (R²)",
+      "tooltipBody": "Meet hoe goed de stippellijn bij de staven past. <b>0</b> = geen trend, <b>1</b> = perfecte trend."
+    },
+    "basedOnFlights": "op basis van {count, plural, one {# vlucht} other {# vluchten}}",
+    "fadedBars": "Vervaagde staven = minder vluchten, minder betrouwbaar.",
+    "fadedDots": "Vervaagde punten = minder vluchten, minder betrouwbaar.",
+    "backfill": "{count, plural, one {<b>#</b> vlucht telt niet mee omdat de {what} er nog niet op gedraaid heeft. Voer <code>{script}</code> uit om ze mee te tellen.} other {<b>#</b> vluchten tellen niet mee omdat de {what} er nog niet op gedraaid heeft. Voer <code>{script}</code> uit om ze mee te tellen.}}"
+  },
+  "zWhat": {
+    "text": "Snap je de z-score niet goed? <link>Kijk hier!</link>"
+  }
+}

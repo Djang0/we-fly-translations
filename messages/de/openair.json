@@ -1,0 +1,39 @@
+{
+  "attach": {
+    "titleChange": "Luftraumdatei ändern",
+    "titleAttach": "Luftraumdatei anhängen",
+    "description": "Die OpenAir-Datei wird zum einzigen Luftraum dieses Flugs auf der Karte, im 3D-Replay und in Vergleichen, und die Luftraumprüfung läuft gegen sie. Dateien sind öffentlich und werden mit den Piloten derselben Task geteilt.",
+    "usedByTaskPilots": "Von Piloten dieser Task genutzt",
+    "lookingForFiles": "Suche nach Dateien …",
+    "use": "Verwenden",
+    "orUploadOwn": "Oder lade deine eigene hoch",
+    "chooseFile": "OpenAir-Datei wählen",
+    "formats": "<mono>.txt</mono> oder <mono>.air</mono>, bis 8 MB. Eine Datei, die ein anderer Pilot schon hochgeladen hat, wird nur einmal gespeichert.",
+    "suggestionMeta": "{zones, plural, one {# Luftraum} other {# Lufträume}} · {size} · {attribution}",
+    "attributedBy": "Angehängt von {who, select, you {dir} named {{name}} other {einem anderen Piloten}}{date, select, none {} other {, {date}}}{flights, plural, =0 {} =1 {} other { · bei # Flügen genutzt}}",
+    "sizeKb": "{value} KB",
+    "sizeMb": "{value} MB",
+    "attachedFile": "Luftraumdatei {name} angehängt",
+    "attachedUpload": "{name} angehängt ({count, plural, one {# Luftraum} other {# Lufträume}})",
+    "tooLarge": "Die Luftraumdatei überschreitet die Grenze von 8 MB",
+    "uploadFailed": "Diese Datei konnte nicht angehängt werden"
+  },
+  "badge": {
+    "detached": "Luftraumdatei entfernt",
+    "gone": "Die angehängte Luftraumdatei ist nicht mehr vorhanden.",
+    "attachAnother": "Andere anhängen",
+    "label": "Luftraum",
+    "changeTitle": "{name}: Luftraumdatei ändern",
+    "zones": "{count, plural, one {# Zone} other {# Zonen}}",
+    "detachAria": "Luftraumdatei entfernen"
+  },
+  "errors": {
+    "notAuthenticated": "Nicht angemeldet",
+    "invalidId": "Ungültige ID",
+    "invalidFlightId": "Ungültige Flug-ID",
+    "fileNotFound": "Luftraumdatei nicht gefunden",
+    "flightNotFound": "Flug nicht gefunden",
+    "fileGone": "Diese Luftraumdatei wurde gerade entfernt. Lade sie erneut hoch.",
+    "internal": "Interner Fehler"
+  }
+}

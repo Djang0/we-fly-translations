@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Cockpit",
+    "description": "La tua plancia di comando per il parapendio. Consulta le statistiche dei voli, analizza l'andamento delle prestazioni e segui i tuoi progressi in volo.",
+    "ogTitle": "Cockpit - We-Fly"
+  },
+  "tabs": {
+    "eyebrow": "Analisi",
+    "title": "Cockpit",
+    "subtitle": "Statistiche sui voli filtrati.",
+    "subtitleCount": "Statistiche su {count, plural, one {# volo filtrato} other {# voli filtrati}}.",
+    "flightCount": "{count, plural, one {# volo} other {# voli}}"
+  },
+  "errorState": {
+    "title": "Errore nel caricamento dei voli",
+    "body": "Impossibile recuperare i dati di volo",
+    "retry": "Riprova",
+    "invalidFormat": "Formato dei dati non valido",
+    "reload": "Ricarica"
+  },
+  "summaryStrip": {
+    "entities": "{entity, select, glider {Vele} takeoff {Decolli} country {Paesi} season {Stagioni} other {Elementi}}",
+    "topEntity": "{entity, select, glider {Vela più usata} takeoff {Decollo top} country {Paese top} season {Stagione top} other {Elemento top}}",
+    "flights": "Voli",
+    "airTime": "Tempo di volo",
+    "hoursUnit": "h",
+    "averageSub": "media {value} h / volo",
+    "topSub": "{hours} h · {count, plural, one {# volo} other {# voli}}"
+  },
+  "metricCard": {
+    "totalHours": "Ore totali",
+    "flights": "Voli",
+    "avgPerFlight": "Media per volo",
+    "zScore": "Z-score",
+    "hoursUnit": "h"
+  },
+  "statsTable": {
+    "rank": "Pos.",
+    "flights": "Voli",
+    "totalHours": "Ore totali",
+    "avgPerFlight": "Media/volo",
+    "zScore": "Z-score",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# volo} other {# voli}} · media {value} h"
+  },
+  "chartTabs": {
+    "title": "Analisi visiva",
+    "defaultDescription": "Confronta su metriche diverse.",
+    "metric": "Metrica",
+    "duration": "Durata",
+    "count": "Numero",
+    "zScore": "Z-score",
+    "seriesCount": "Numero di voli",
+    "seriesAirTime": "Tempo di volo",
+    "seriesEfficiency": "Rendimento",
+    "seriesZScore": "Z-score"
+  },
+  "linkableMetric": {
+    "showDetailChart": "Mostra il grafico di dettaglio di {label}",
+    "viewFlight": "Vedi il volo con {label}: {value}"
+  },
+  "overview": {
+    "loadingVisualization": "Caricamento della visualizzazione...",
+    "error": {
+      "title": "Impossibile caricare i dati di volo",
+      "body": "Si è verificato un errore durante il caricamento delle tue statistiche. Potrebbe essere un problema temporaneo.",
+      "retry": "Riprova"
+    },
+    "empty": {
+      "title": "Nessun dato di volo disponibile",
+      "body": "Il tuo libretto è vuoto. Inizia caricando i tuoi file IGC per vedere statistiche, mappe e analisi.",
+      "cta": "Carica file IGC"
+    }
+  },
+  "byGlider": {
+    "emptyTitle": "Nessun dato sulle vele",
+    "emptyBody": "Aggiungi voli per vedere le statistiche delle tue vele",
+    "topPerformers": "Le più usate",
+    "comparisonTitle": "Confronto vele",
+    "comparisonDescription": "Confronta le metriche di tutte le tue vele",
+    "entityLabel": "Vela",
+    "chartDescription": "Confronta le vele su metriche diverse."
+  },
+  "byCountry": {
+    "emptyTitle": "Nessun dato sui paesi",
+    "emptyBody": "Aggiungi voli per vedere le statistiche per paese",
+    "topPerformers": "Paesi top",
+    "comparisonTitle": "Confronto paesi",
+    "comparisonDescription": "Confronta le metriche di tutti i paesi",
+    "entityLabel": "Paese",
+    "chartDescription": "Confronta i paesi su metriche diverse."
+  },
+  "bySeason": {
+    "emptyTitle": "Nessun dato sulle stagioni",
+    "emptyBody": "Aggiungi voli per vedere le statistiche stagionali",
+    "topPerformers": "Stagioni migliori",
+    "comparisonTitle": "Confronto stagioni",
+    "comparisonDescription": "Confronta le metriche di tutte le stagioni",
+    "entityLabel": "Stagione",
+    "chartDescription": "Confronta le stagioni su metriche diverse."
+  },
+  "byTakeoff": {
+    "emptyTitle": "Nessun dato sui decolli",
+    "emptyBody": "Aggiungi voli per vedere le statistiche dei tuoi decolli",
+    "topPerformers": "Decolli top",
+    "tableTitle": "Decolli",
+    "tableCaption": "Confronto ordinabile con indicatori visivi. Clicca sulle intestazioni delle colonne per ordinare.",
+    "rank": "Pos.",
+    "location": "Decollo",
+    "flights": "Voli",
+    "totalHours": "Ore totali",
+    "avgPerFlight": "Media/volo",
+    "zScore": "Z-score",
+    "above": "sopra",
+    "below": "sotto",
+    "hoursUnit": "h",
+    "phoneRow": "{count, plural, one {# volo} other {# voli}} · media {value} h"
+  },
+  "byMonth": {
+    "emptyTitle": "Nessun dato mensile",
+    "emptyBody": "Aggiungi voli per vedere le statistiche mensili",
+    "mostActiveMonths": "Mesi più attivi",
+    "visualAnalysis": "Analisi visiva",
+    "visualDescription": "Andamento mensile su metriche e anni diversi.",
+    "duration": "Durata",
+    "count": "Numero",
+    "zScore": "Z-score",
+    "viewMode": "Vista:",
+    "grouped": "Affiancate",
+    "stacked": "Impilate",
+    "years": "Anni:",
+    "breakdownTitle": "Dettaglio mensile per anno",
+    "breakdownDescription": "Confronta l'attività di volo tra mesi e anni",
+    "month": "Mese",
+    "total": "Totale",
+    "card": {
+      "totalFlights": "Voli totali",
+      "allYears": "tutti gli anni",
+      "mostActiveYear": "Anno più attivo",
+      "flights": "{count, plural, one {# volo} other {# voli}}",
+      "activityByYear": "Attività per anno"
+    }
+  },
+  "byCivl": {
+    "refreshFailed": "Impossibile aggiornare i dati CIVL",
+    "loading": "Caricamento…",
+    "noId": "Nessun ID CIVL impostato. Aggiungi il tuo nelle <link>impostazioni del profilo</link> per vedere qui la tua posizione in classifica.",
+    "title": "Classifica CIVL",
+    "updated": "Aggiornata il {date}",
+    "currentStandings": "Posizione attuale",
+    "rankingHistory": "Storico della classifica",
+    "world": "Mondo",
+    "country": "Paese",
+    "europe": "Europa",
+    "date": "Data",
+    "rank": "Pos.",
+    "points": "Punti",
+    "scoringComposition": "Composizione del punteggio"
+  },
+  "flightComment": {
+    "title": "Debriefing del pilota",
+    "ariaEditable": "Debriefing del volo",
+    "tooLong": "Il commento non può superare {max} caratteri",
+    "saveFailed": "Salvataggio del commento non riuscito",
+    "placeholder": "Com'era la giornata? Cosa ha funzionato e cosa no?",
+    "charsRemaining": "{count} caratteri rimanenti",
+    "hint": "Cmd/Ctrl-Invio per salvare · Esc per annullare",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "saving": "Salvataggio…",
+    "edit": "Modifica il commento",
+    "add": "Aggiungi un debriefing: annota le condizioni, cosa hai provato, cosa hai imparato."
+  },
+  "thermalVarioDialog": {
+    "title": "Termica più forte",
+    "titleWithValue": "Termica più forte: {value}",
+    "description": "Segnale del vario ±5 secondi attorno al picco, utile per individuare anomalie",
+    "peak": "Picco",
+    "peakLower": "picco",
+    "offsetSeconds": "{value}s",
+    "loading": "Caricamento…",
+    "series": "Vario",
+    "errors": {
+      "fetch": "Impossibile recuperare i dati della traccia",
+      "insufficient": "Dati della traccia insufficienti",
+      "unknown": "Errore sconosciuto"
+    }
+  },
+  "map": {
+    "emptyTitle": "Nessun dato di volo disponibile",
+    "emptyBody": "Aggiungi voli per vedere i tuoi decolli sulla mappa",
+    "flights": "{count, plural, one {# volo} other {# voli}}",
+    "asl": "{altitude} s.l.m.",
+    "fullscreen": "Schermo intero",
+    "exitFullscreen": "Esci da schermo intero",
+    "openFullscreenAria": "Apri la mappa a schermo intero",
+    "exitFullscreenAria": "Esci dalla mappa a schermo intero",
+    "exitFullscreenTitle": "Esci da schermo intero (Esc)"
+  },
+  "statsUtils": {
+    "r2": {
+      "strong": "Forte",
+      "moderate": "Moderata",
+      "weak": "Debole",
+      "strongText": "Tendenza forte: la progressione da una stagione all'altra è costante.",
+      "moderateText": "Tendenza moderata: c'è una direzione generale, ma con variazioni da un anno all'altro.",
+      "weakText": "Tendenza debole: i dati sono sparsi, nessuna progressione affidabile per ora.",
+      "tooltipTitle": "Forza della tendenza (R²)",
+      "tooltipBody": "Misura quanto la linea tratteggiata segue le barre. <b>0</b> = nessuna tendenza, <b>1</b> = tendenza perfetta."
+    },
+    "basedOnFlights": "su {count, plural, one {# volo} other {# voli}}",
+    "fadedBars": "Barre sbiadite = meno voli, meno affidabili.",
+    "fadedDots": "Punti sbiaditi = meno voli, meno affidabili.",
+    "backfill": "{count, plural, one {<b>#</b> volo è escluso perché non ha ancora {what}. Esegui <code>{script}</code> per includerlo.} other {<b>#</b> voli sono esclusi perché non hanno ancora {what}. Esegui <code>{script}</code> per includerli.}}"
+  },
+  "zWhat": {
+    "text": "Lo z-score ti confonde? <link>Dai un'occhiata qui!</link>"
+  }
+}

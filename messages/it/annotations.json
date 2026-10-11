@@ -1,0 +1,96 @@
+{
+  "views": {
+    "altitude": "Quota",
+    "vario": "Vario",
+    "speed": "Velocità",
+    "gfactor": "Fattore G"
+  },
+  "panel": {
+    "title": "Annotazioni",
+    "add": "Aggiungi annotazione",
+    "addTooltip": "Aggiungi un'annotazione, oppure fai clic destro sulla traccia del volo in una qualsiasi mappa",
+    "requestReview": "Chiedi una revisione",
+    "requestReviewTooltip": "Chiedi a un pilota di rivedere questo volo",
+    "close": "Chiudi il pannello delle annotazioni",
+    "publicLabel": "Pubbliche",
+    "publicOn": "Le tue annotazioni sono visibili nella community e nelle viste condivise",
+    "publicOff": "Mostra le tue annotazioni nella community e nelle viste condivise",
+    "publicAria": "Rendi pubbliche le mie annotazioni",
+    "empty": "Ancora nessuna annotazione.",
+    "emptyHint": "Fai clic destro su un punto della traccia sulla mappa per aggiungerne una.",
+    "blockTitle": "Bloccare {name}?",
+    "blockTitleFallback": "Bloccare questo pilota?",
+    "blockDescription": "Non potrà più annotare nessuno dei tuoi voli. Le annotazioni già presenti restano finché non le elimini. Puoi sbloccarlo quando vuoi dalla pagina del tuo profilo.",
+    "cancel": "Annulla",
+    "blockConfirm": "Blocca pilota",
+    "blockAria": "Blocca {name}",
+    "deleteAria": "Elimina annotazione"
+  },
+  "dialog": {
+    "title": "Annota questo volo",
+    "description": "Fissa un commento a un momento del volo. Solo testo semplice: link e markup non sono ammessi.",
+    "flightTime": "Tempo di volo",
+    "flightTimeAria": "Tempo di volo dell'annotazione",
+    "mapView": "Vista mappa",
+    "annotation": "Annotazione",
+    "placeholder": "es. Hai lasciato questa termica troppo presto. Saliva ancora a 2 m/s.",
+    "cancel": "Annulla",
+    "submit": "Aggiungi annotazione"
+  },
+  "validation": {
+    "empty": "L'annotazione non può essere vuota",
+    "tooLong": "L'annotazione non può superare {max} caratteri",
+    "url": "L'annotazione non può contenere un URL",
+    "markup": "L'annotazione non può contenere i caratteri < o >",
+    "invalidChars": "L'annotazione contiene caratteri non validi"
+  },
+  "map": {
+    "annotateHere": "Annota qui",
+    "seeAirspaces": "Vedi gli spazi aerei ({count})"
+  },
+  "reviewer": {
+    "title": "Chiedi una revisione",
+    "description": "Chiedi a un pilota più esperto di rivedere questo volo e lasciare annotazioni sulla traccia. Inserisci l'indirizzo email esatto che usa su We-Fly. Per la privacy, i piloti non si possono sfogliare né cercare.",
+    "placeholder": "pilota@example.com",
+    "hint": "Il pilota riceverà un'email e una notifica che gli chiedono di rivedere questo volo.",
+    "incomplete": "Inserisci un indirizzo email completo.",
+    "checking": "Verifica…",
+    "found": "Questa email corrisponde a un pilota su We-Fly.",
+    "notFound": "Nessun pilota con questa email accetta richieste di revisione.",
+    "send": "Invia richiesta",
+    "sent": "Richiesta di revisione inviata",
+    "sendFailed": "Impossibile inviare la richiesta di revisione"
+  },
+  "toasts": {
+    "added": "Annotazione aggiunta",
+    "addFailed": "Impossibile aggiungere l'annotazione",
+    "deleted": "Annotazione eliminata",
+    "deleteFailed": "Impossibile eliminare l'annotazione",
+    "blocked": "Il pilota non può più annotare i tuoi voli",
+    "blockFailed": "Impossibile bloccare il pilota",
+    "visibilityOn": "Le tue annotazioni ora sono visibili nella community e nelle viste condivise",
+    "visibilityOff": "Le tue annotazioni sono di nuovo private",
+    "visibilityFailed": "Impossibile aggiornare la visibilità"
+  },
+  "errors": {
+    "notAuthenticated": "Non autenticato",
+    "invalidFlightId": "ID del volo non valido",
+    "flightNotFound": "Volo non trovato",
+    "notWhileImpersonating": "Non disponibile durante l'impersonificazione",
+    "invalidMapView": "Vista mappa non valida",
+    "invalidTimeCode": "Codice temporale del volo non valido",
+    "timeCodeOutOfRange": "Il codice temporale del volo è fuori intervallo",
+    "notAllowed": "Non hai il permesso di annotare questo volo",
+    "addFailed": "Impossibile aggiungere l'annotazione",
+    "visibilityFailed": "Impossibile aggiornare la visibilità",
+    "invalidAnnotation": "Annotazione non valida",
+    "annotationNotFound": "Annotazione non trovata",
+    "deleteFailed": "Impossibile eliminare l'annotazione",
+    "cannotBlockSelf": "Non puoi bloccare te stesso",
+    "blockFailed": "Impossibile bloccare l'autore delle annotazioni",
+    "invalidUser": "Utente non valido",
+    "unblockFailed": "Impossibile sbloccare l'autore delle annotazioni",
+    "commentTooLong": "Il commento non può superare {max} caratteri",
+    "internal": "Errore interno"
+  }
+}
