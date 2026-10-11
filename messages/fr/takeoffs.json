@@ -184,13 +184,6 @@
       "title": "Carte en plein écran",
       "close": "Fermer"
     },
-    "scoringTypes": {
-      "freeFlight": "Distance libre",
-      "freeTriangle": "Triangle plat",
-      "faiTriangle": "Triangle FAI",
-      "closedFreeTriangle": "Triangle plat fermé",
-      "closedFaiTriangle": "Triangle FAI fermé"
-    },
     "conditions": {
       "title": "Conditions en direct",
       "justNow": "à l’instant",

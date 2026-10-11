@@ -1,0 +1,282 @@
+{
+  "common": {
+    "defaultName": "Piloto",
+    "greeting": "Hola, {name}:",
+    "sentTo": "Enviado a {email}",
+    "tagline": "We&#8209;Fly: registra tus vuelos de parapente",
+    "fallbackLink": "Si el botón no funciona, pega esto en tu navegador:"
+  },
+  "auth": {
+    "securityEyebrow": "Seguridad de la cuenta",
+    "supportNote": "¿Dudas? <link>Escríbenos</link>.",
+    "verify": {
+      "subject": "Verifica tu correo electrónico | We-Fly",
+      "defaultExpiry": "24 horas",
+      "preheader": "Un clic y tu libro de vuelo está listo. El enlace es válido durante {expiresIn}.",
+      "eyebrow": "Confirma tu cuenta",
+      "heading": "Verifica tu correo electrónico",
+      "intro": "Te damos la bienvenida a We-Fly. Confirma tu dirección de correo para terminar de configurar tu cuenta y empezar a registrar tus vuelos.",
+      "button": "Verificar correo",
+      "notice": "Este enlace caduca en {expiresIn}. Si no has creado una cuenta en We-Fly, puedes ignorar este correo sin problema.",
+      "noticeLabel": "Atención",
+      "text": "Verifica tu correo electrónico\n\n¡Te damos la bienvenida a We-Fly! Verifica tu dirección de correo para completar el registro.\n\nHaz clic en este enlace para verificar tu correo:\n{url}\n\nEste enlace caduca en {expiresIn}.\n\nSi no has creado una cuenta en We-Fly, puedes ignorar este correo sin problema.\n\n---\nEste correo se envió a {email}\nWe-Fly: registra tus vuelos de parapente\n¿Dudas? Escríbenos en {supportUrl}"
+    },
+    "reset": {
+      "subject": "Restablece tu contraseña | We-Fly",
+      "defaultExpiry": "1 hora",
+      "preheader": "Elige una contraseña nueva. El enlace es válido durante {expiresIn}.",
+      "heading": "Restablece tu contraseña",
+      "intro": "Hemos recibido una solicitud para restablecer la contraseña de tu cuenta de We-Fly. Elige una nueva a continuación.",
+      "button": "Restablecer contraseña",
+      "notice": "Este enlace caduca en {expiresIn}. Si no has pedido restablecerla, ignora este correo: tu contraseña sigue siendo la misma.",
+      "noticeLabel": "Aviso de seguridad",
+      "tipsIntro": "Ya que estás, una buena contraseña es:",
+      "tipUnique": "Larga, única y no la usas en ningún otro sitio",
+      "tipNeverShared": "No la compartes con nadie. Nunca te la pediremos por correo",
+      "tipTwoFactor": "Reforzada con autenticación en dos pasos allí donde se ofrezca",
+      "text": "Restablece tu contraseña\n\nHemos recibido una solicitud para restablecer la contraseña de tu cuenta de We-Fly.\n\nHaz clic en este enlace para crear una contraseña nueva:\n{url}\n\nEste enlace caduca en {expiresIn}.\n\nAviso de seguridad: si no has pedido restablecer la contraseña, ignora este correo. Tu contraseña no cambiará.\n\nPor tu seguridad, te recomendamos:\n- Usar una contraseña robusta y única\n- No compartir tu contraseña con nadie\n- Activar la autenticación en dos pasos cuando esté disponible\n\n---\nEste correo se envió a {email}\nWe-Fly: registra tus vuelos de parapente\n¿Dudas? Escríbenos en {supportUrl}"
+    },
+    "welcome": {
+      "subject": "¡Te damos la bienvenida a We-Fly! 🪂",
+      "preheader": "Tu cuenta ya está activa. Es hora de llenar ese libro de vuelo.",
+      "eyebrow": "Ya estás a bordo",
+      "heading": "Te damos la bienvenida a bordo, {name}.",
+      "verified": "Tu correo está verificado y tu cuenta está activa. Todo listo para tu primer vuelo.",
+      "featuresIntro": "Esto es lo que We-Fly hace con un archivo IGC:",
+      "featureDecode": "Descifra el track: térmicas, viento, fases de ascenso y calidad del vuelo",
+      "featureMap": "Pone cada vuelo en un mapa, con perfiles de altitud y estadísticas completas",
+      "featureProgress": "Sigue tu progresión: resumen de temporada, historial de distancias en cross, récords personales",
+      "featureCommunity": "Te conecta con la comunidad: zonas de vuelo, clubes y dónde están volando los pilotos",
+      "button": "Iniciar sesión",
+      "closing": "Buenos vuelos. Tenemos muchas ganas de ver hasta dónde te llevan tus aventuras.",
+      "text": "¡Te damos la bienvenida a bordo, {name}!\n\nTu correo se ha verificado y tu cuenta ya está activa. ¡Todo listo para empezar a registrar tus vuelos de parapente!\n\nEsto es lo que puedes hacer con We-Fly:\n- Subir y analizar tus archivos de vuelo IGC\n- Ver estadísticas detalladas y mapas de tus vuelos\n- Seguir tu progresión a lo largo del tiempo\n- Compartir vuelos con la comunidad\n\nInicia sesión ahora: {url}\n\n¡Buenos vuelos! Tenemos muchas ganas de ver hasta dónde te llevan tus aventuras.\n\n---\nEste correo se envió a {email}\nWe-Fly: registra tus vuelos de parapente\n¿Dudas? Escríbenos en {supportUrl}"
+    },
+    "passkey": {
+      "subject": "Se ha añadido una llave de acceso a tu cuenta | We-Fly",
+      "preheader": "Ya puedes iniciar sesión con un toque. ¿No has sido tú? Elimínala ahora.",
+      "heading": "Nueva llave de acceso añadida",
+      "body": "Se ha añadido una llave de acceso llamada <strong>{name}</strong> a tu cuenta de We-Fly el {when}. Ya puedes iniciar sesión con ella en un toque, y tus otros métodos de inicio de sesión siguen funcionando.",
+      "button": "Revisar métodos de inicio de sesión",
+      "notice": "Si no has añadido esta llave de acceso, elimínala ya desde <em>Perfil → Métodos de inicio de sesión</em> y <link>avísanos</link>.",
+      "noticeLabel": "¿No has sido tú?",
+      "text": "Nueva llave de acceso añadida\n\nSe ha añadido una llave de acceso llamada «{name}» a tu cuenta de We-Fly el {when}.\nYa puedes iniciar sesión con ella en un toque. Tus otros métodos de inicio de sesión siguen funcionando.\n\nRevisa tus métodos de inicio de sesión: {url}\n\nSi no has añadido esta llave de acceso, elimínala ya desde Perfil > Métodos de inicio de sesión y avísanos: {supportUrl}\n\n---\nEste correo se envió a {email}\nWe-Fly: registra tus vuelos de parapente"
+    },
+    "passwordChanged": {
+      "subject": "Tu contraseña se ha cambiado | We-Fly",
+      "preheader": "Si no has sido tú, contacta con nosotros enseguida: se han cerrado todas las sesiones.",
+      "heading": "Contraseña cambiada correctamente",
+      "body": "Acaban de cambiar la contraseña de tu cuenta de We-Fly. Si has sido tú, no tienes que hacer nada más.",
+      "notMe": "Si no has hecho este cambio, <link>contacta con nosotros</link> de inmediato.",
+      "notice": "Por seguridad, se han cerrado todas tus sesiones abiertas.",
+      "noticeLabel": "Aviso de seguridad",
+      "button": "Iniciar sesión",
+      "text": "Contraseña cambiada correctamente\n\nAcaban de cambiar la contraseña de tu cuenta de We-Fly. Si has sido tú, no tienes que hacer nada más.\n\nSi no has hecho este cambio, contacta con nosotros de inmediato en {supportUrl}.\n\nAviso de seguridad: por seguridad, se han cerrado todas tus sesiones abiertas.\n\nInicia sesión en: {url}"
+    }
+  },
+  "flightReview": {
+    "unknownTakeoff": "un vuelo",
+    "request": {
+      "unknownOwner": "Un piloto",
+      "subject": "{owner} te pide que revises un vuelo en We-Fly",
+      "preheader": "{owner} quiere tu opinión sobre un vuelo desde {takeoff}.",
+      "eyebrow": "Solicitud de revisión",
+      "body": "<strong>{owner}</strong> quiere que le eches tu ojo experto a uno de sus vuelos. Mira el track y deja tus anotaciones directamente sobre él. Verá exactamente a qué momento del vuelo se refiere cada comentario.",
+      "flightOf": "Vuelo del {date}",
+      "button": "Ver mis solicitudes de revisión",
+      "legal": "Recibes este correo porque {owner} te ha pedido una revisión en We-Fly.",
+      "text": "Hola, {reviewer}:\n\n{owner} quiere que le eches tu ojo experto a uno de sus vuelos\n({takeoff}, {date}).\n\nMira el track y deja tus anotaciones directamente sobre el vuelo.\n\nVer tus solicitudes de revisión: {url}\n\n---\nRecibes este correo porque {owner} te ha pedido una revisión en We-Fly."
+    },
+    "annotation": {
+      "subject": "{commentator} ha anotado tu vuelo en We-Fly",
+      "preheader": "Una nueva anotación en tu vuelo en {takeoff}.",
+      "eyebrow": "Nueva anotación",
+      "body": "<strong>{commentator}</strong> acaba de dejar una anotación en tu vuelo en <strong>{takeoff}</strong>. Abre el vuelo para leerla en contexto: cada anotación está fijada en el momento exacto del vuelo al que se refiere.",
+      "button": "Leer la anotación",
+      "legal": "Recibes este correo porque {commentator} ha revisado un vuelo que compartiste para revisión en We-Fly.",
+      "text": "Hola, {owner}:\n\n{commentator} acaba de dejar una anotación en tu vuelo en {takeoff}.\n\nLee la anotación: {url}\n\n---\nRecibes este correo porque {commentator} ha revisado un vuelo que compartiste para revisión en We-Fly."
+    }
+  },
+  "onboardingNudge": {
+    "subject": "Tu libro de vuelo espera su primer vuelo",
+    "preheader": "¿Vuelas con XCTrack? Configura la sincronización automática una vez y cada vuelo llegará solo a We-Fly.",
+    "eyebrow": "Primeros pasos",
+    "heading": "Hola, {name}: tu libro de vuelo sigue vacío",
+    "openingRecent": "Te uniste a We-Fly hace poco, pero todavía no ha llegado ningún vuelo a tu libro de vuelo. La mayoría de los pilotos ya tienen una o dos temporadas guardadas en el instrumento, así que aquí tienes la forma más rápida de traerlas.",
+    "openingOld": "Te uniste a We-Fly hace tiempo, pero tu libro de vuelo sigue esperando su primer vuelo. La mayoría de los pilotos ya tienen una o dos temporadas guardadas en el instrumento, así que aquí tienes la forma más rápida de traerlas.",
+    "stepPasswordTitle": "Crea una contraseña de dispositivo",
+    "stepPasswordDetail": "En We-Fly, abre <strong>Perfil &#8594; Servicios conectados</strong> y toca <strong>Generar</strong> en la tarjeta Sincronización con instrumento y nube. ¿Estás en el ordenador? Pásala al móvil escaneando el código QR.",
+    "stepFolderSyncTitle": "Añade We-Fly a FolderSync",
+    "stepFolderSyncDetail": "Instala FolderSync desde Play Store y añade una cuenta WebDAV con estos datos.",
+    "stepPairTitle": "Vincúlalo con tu carpeta Tracklogs",
+    "stepPairDetail": "Solo subida, desde {path}. Android 11 o posterior oculta esa carpeta; <link>esta guía de dos minutos</link> la desbloquea.",
+    "panelLabel": "Recomendado para XCTrack y Air³",
+    "panelTitle": "Configúralo una vez y olvídate de subir vuelos",
+    "panelIntro": "FolderSync vigila la carpeta de tracks de XCTrack y pasa cada vuelo nuevo a We-Fly en cuanto vuelves a tener wifi. Todo tu archivo se sube también, y los duplicados se omiten.",
+    "fieldServerUrl": "URL del servidor",
+    "fieldUsername": "Usuario",
+    "fieldPassword": "Contraseña",
+    "fieldPasswordValue": "Tu contraseña de dispositivo del paso 1",
+    "button": "Configurar la sincronización",
+    "otherWaysHeading": "¿No usas XCTrack?",
+    "otherWays": {
+      "migrate": {
+        "title": "Si vienes de XContest, Syride, SeeYou o Logfly",
+        "description": "Exporta allí tu historial una vez y trae todos tus vuelos de golpe.",
+        "action": "Guía de migración"
+      },
+      "flyskyhy": {
+        "title": "Flyskyhy en iPhone o iPad",
+        "description": "Flyskyhy puede enviar cada vuelo a We-Fly en cuanto aterrizas.",
+        "action": "Configurarlo"
+      },
+      "googleDrive": {
+        "title": "Archivos IGC en Google Drive",
+        "description": "Elígelos directamente desde Drive en la página de subida, sin descargarlos.",
+        "action": "Abrir la subida"
+      },
+      "anyInstrument": {
+        "title": "Cualquier otro instrumento",
+        "description": "Conéctalo y suelta los archivos .igc en la página de subida, todos los que quieras.",
+        "action": "Subir archivos"
+      }
+    },
+    "valueBody": "Cada archivo IGC se convierte en un mapa y un perfil de altitud, tus térmicas, el viento y los planeos, tus récords personales y tus primeras insignias.",
+    "valueLabel": "Lo que te da un solo archivo",
+    "legal": "Este es un recordatorio único, enviado porque tu cuenta de We-Fly aún no tiene vuelos. No te lo volveremos a enviar. ¿Prefieres no recibir consejos como este? Puedes {mode, select, unsubscribe {<link>dejar de recibir estos consejos</link>} other {<link>desactivar los consejos en tu perfil</link>}}.",
+    "otherWayLine": "- {title}: {description} {url}",
+    "text": "Hola, {name}: tu libro de vuelo sigue vacío\n\n{opening}\n\nRECOMENDADO PARA XCTRACK Y AIR³\nConfigúralo una vez y olvídate de subir vuelos\n\nFolderSync vigila la carpeta de tracks de XCTrack y pasa cada vuelo nuevo a We-Fly en cuanto vuelves a tener wifi. Todo tu archivo se sube también, y los duplicados se omiten.\n\n1. Crea una contraseña de dispositivo\n   En We-Fly, abre Perfil > Servicios conectados y toca Generar en la tarjeta Sincronización con instrumento y nube. ¿Estás en el ordenador? Pásala al móvil escaneando el código QR.\n2. Añade We-Fly a FolderSync\n   Instala FolderSync desde Play Store y añade una cuenta WebDAV:\n     URL del servidor: {webdavUrl}\n     Usuario:          {email}\n     Contraseña:       tu contraseña de dispositivo del paso 1\n3. Vincúlalo con tu carpeta Tracklogs\n   Solo subida, desde {tracklogs}. Android 11 o posterior oculta esa carpeta; esta guía de dos minutos la desbloquea: {folderGuideUrl}\n\nConfigura la sincronización automática: {syncGuideUrl}\n\n¿NO USAS XCTRACK?\n{otherWays}\n\nLo que te da un solo archivo: cada archivo IGC se convierte en un mapa y un perfil de altitud, tus térmicas, el viento y los planeos, tus récords personales y tus primeras insignias.\n\n---\nEste es un recordatorio único, enviado porque tu cuenta de We-Fly aún no tiene vuelos. No te lo volveremos a enviar.\n¿Prefieres no recibir consejos como este? {mode, select, unsubscribe {Date de baja aquí: {stopUrl}} other {Desactívalos en tu perfil: {stopUrl}}}\nWe-Fly: registra tus vuelos de parapente"
+  },
+  "safety": {
+    "unknownPilot": "Un piloto de We-Fly",
+    "legalRemove": "Recibes este correo porque {pilot} te ha añadido como contacto de seguridad en We-Fly. <remove>Quitarme de esta lista</remove>.",
+    "locationTitle": "Última posición conocida",
+    "openInMaps": "Abrir en mapas",
+    "textReceiving": "Recibes este correo porque {pilot} te ha añadido como contacto de seguridad en We-Fly.",
+    "textRemove": "Darte de baja: {url}",
+    "textPosition": "Posición: {where}",
+    "takeoff": {
+      "subject": "{pilot} ha despegado",
+      "preheader": "Despegue a las {when}.",
+      "eyebrow": "Despegue",
+      "body": "<strong>{pilot}</strong> ha despegado a las {when}.",
+      "text": "{pilot} ha despegado a las {when}."
+    },
+    "landing": {
+      "subject": "{pilot} ha aterrizado",
+      "preheader": "Aterrizaje a las {when}.",
+      "eyebrow": "Aterrizaje",
+      "body": "<strong>{pilot}</strong> ha aterrizado sin problemas a las {when}.",
+      "quote": "&laquo;{message}&raquo;",
+      "text": "{pilot} ha aterrizado sin problemas a las {when}.",
+      "textQuote": "«{message}»"
+    },
+    "emergency": {
+      "subject": "EMERGENCIA: {pilot} ha enviado una alerta",
+      "preheaderPosition": "Última posición conocida: {where}",
+      "preheaderTime": "Enviada a las {when}.",
+      "eyebrow": "Alerta de emergencia",
+      "heading": "{pilot} ha enviado una alerta de emergencia.",
+      "raisedAt": "Enviada a las <strong>{when}</strong>.",
+      "message": "Mensaje del piloto: &laquo;{message}&raquo;",
+      "disclaimer": "El instrumento de vuelo de {pilot} ha enviado esta alerta automáticamente. We-Fly no puede confirmar la situación sobre el terreno. Si crees que el piloto está en peligro, llama a los servicios de emergencia de tu zona.",
+      "textRaisedAt": "Enviada a las {when}.",
+      "textPosition": "Última posición conocida: {where}",
+      "textMessage": "Mensaje del piloto: «{message}»",
+      "textDisclaimer": "El instrumento de vuelo del piloto ha enviado esta alerta automáticamente. We-Fly no puede confirmar la situación sobre el terreno. Si crees que el piloto está en peligro, llama a los servicios de emergencia de tu zona."
+    },
+    "confirmation": {
+      "subject": "{pilot} te ha añadido como contacto de seguridad",
+      "preheader": "Confirma para que pueda avisarte cuando aterrice.",
+      "eyebrow": "Contacto de seguridad",
+      "body": "<strong>{pilot}</strong> vuela en parapente y te ha añadido como uno de sus contactos de seguridad en We-Fly. Si confirmas, recibirás un mensaje breve cuando aterrice, y una alerta de emergencia si alguna vez envía una.",
+      "removeAnytime": "Puedes darte de baja cuando quieras, desde este mensaje o desde cualquier mensaje que te enviemos.",
+      "confirmButton": "Sí, mantenme al tanto",
+      "removeButton": "No, quitarme",
+      "legal": "Recibes este correo porque {pilot} te ha añadido como contacto de seguridad en We-Fly. Si no haces nada, solo tendrás noticias nuestras si {pilot} envía una alerta de emergencia.",
+      "text": "Hola, {contact}:\n\n{pilot} te ha añadido como uno de sus contactos de seguridad en We-Fly.\nSi confirmas, recibirás un mensaje breve cuando aterrice, y una alerta de emergencia si alguna vez envía una.\n\nConfirmar: {confirmUrl}\nQuitarme: {removeUrl}\n\nSi no haces nada, solo tendrás noticias nuestras si {pilot} envía una alerta de emergencia.\n\nWe-Fly, {appUrl}"
+    }
+  },
+  "survey": {
+    "subjectActive": "Ayúdanos a decidir el futuro de We-Fly (4 min)",
+    "subjectDormant": "We-Fly ha crecido mucho y nos encantaría saber tu opinión (4 min)",
+    "preheaderActive": "Cuatro minutos sobre qué deberíamos hacer ahora. Leemos todas las respuestas.",
+    "preheaderDormant": "Cuatro minutos, y leemos todas las respuestas. ¿Qué te alejó?",
+    "eyebrow": "Encuesta a la comunidad · 2026",
+    "dormantIntro": "Hace tiempo que no pasas por aquí y, la verdad, We-Fly ya no es la app que recuerdas. Un vistazo a lo nuevo:",
+    "dormantAsk": "Estamos planeando lo que viene, y la opinión de los pilotos que se alejaron cuenta <strong>al menos tanto</strong> como la de cualquiera. ¿Qué te alejó? ¿Qué te haría volver? Nuestra encuesta a la comunidad lleva unos cuatro minutos, y leemos todas las respuestas.",
+    "activeIntro": "Eres uno de los pilotos que hacen de We-Fly lo que es, y estamos planeando qué construir ahora. Antes de cerrar la hoja de ruta, queremos escucharlo de quienes vuelan con ella de verdad.",
+    "activeAsk": "La encuesta a la comunidad lleva unos cuatro minutos: cómo lo estamos haciendo, qué usas y qué te encantaría ver después. Leemos todas las respuestas.",
+    "highlights": {
+      "cockpit": {
+        "title": "Análisis de vuelo en Cockpit",
+        "description": "Térmicas, viento, fases de ascenso y calidad del vuelo, descifrados de cada IGC que subes."
+      },
+      "xcPlanner": {
+        "title": "Planificador XC",
+        "description": "Planifica rutas y mangas de competición con control del espacio aéreo y capas de puntos calientes de térmicas."
+      },
+      "badges": {
+        "title": "Insignias, retos y resumen de temporada",
+        "description": "Hitos, retos de la comunidad y un resumen de tu año de vuelo."
+      },
+      "sync": {
+        "title": "Sincronización con instrumentos y la nube",
+        "description": "Los vuelos llegan solos desde tu instrumento, Dropbox, OneDrive o Google Drive."
+      }
+    },
+    "button": "Responder a la encuesta",
+    "anonymous": "Tus respuestas son anónimas salvo que elijas lo contrario en el último paso.",
+    "legal": "Este es un correo único sobre la encuesta a la comunidad y no enviaremos recordatorios. Lo recibes porque tienes una cuenta de We-Fly. Puedes <link>gestionar tu cuenta</link> cuando quieras.",
+    "textHighlight": "- {title}: {description}",
+    "textDormantIntro": "Hace tiempo que no pasas por aquí y, la verdad, We-Fly ya no es la app que recuerdas. Lo nuevo:\n\n{highlights}\n\nEstamos planeando lo que viene, y la opinión de los pilotos que se alejaron cuenta al menos tanto como la de cualquiera. ¿Qué te alejó? ¿Qué te haría volver? Nuestra encuesta a la comunidad lleva unos cuatro minutos, y leemos todas las respuestas.",
+    "textActiveIntro": "Eres uno de los pilotos que hacen de We-Fly lo que es, y estamos planeando qué construir ahora. Antes de cerrar la hoja de ruta, queremos escucharlo de quienes vuelan con ella de verdad.\n\nLa encuesta a la comunidad lleva unos cuatro minutos: cómo lo estamos haciendo, qué usas y qué te encantaría ver después. Leemos todas las respuestas.",
+    "text": "Hola, {name}:\n\n{intro}\n\nResponde a la encuesta: {url}\n\nTus respuestas son anónimas salvo que elijas lo contrario en el último paso.\n\n---\nEste es un correo único sobre la encuesta a la comunidad y no enviaremos recordatorios.\nLo recibes porque tienes una cuenta de We-Fly.\nWe-Fly: registra tus vuelos de parapente"
+  },
+  "contact": {
+    "subject": "Hemos recibido tu mensaje: {subject}",
+    "preheader": "Solemos responder en 24 a 48 horas en días laborables.",
+    "eyebrow": "Mensaje recibido",
+    "thanks": "Gracias por escribirnos. Hemos recibido tu mensaje y nuestro equipo lo revisará en breve. Solemos responder en 24 a 48 horas en días laborables.",
+    "yourMessage": "Tu mensaje",
+    "fieldSubject": "Asunto",
+    "urgent": "Si es algo urgente, también puedes escribirnos en nuestra página de <link>GitHub Issues</link>.",
+    "legal": "Esta es una confirmación automática de We-Fly. No respondas directamente a este correo. <site>we&#8209;fly.cloud</site>",
+    "text": "MENSAJE RECIBIDO\n================\n\nHola, {name}:\n\n¡Gracias por escribirnos! Hemos recibido tu mensaje y nuestro equipo lo revisará en breve. Solemos responder en 24 a 48 horas en días laborables.\n\nRESUMEN DE TU MENSAJE\n---------------------\nAsunto: {subject}\nMensaje: {message}\n\nSi es algo urgente, también puedes escribirnos en nuestra página de GitHub Issues:\n{issuesUrl}\n\n---\nEsta es una confirmación automática de We-Fly\nNo respondas directamente a este correo\n{siteUrl}"
+  },
+  "dataRetention": {
+    "defaultName": "Usuario",
+    "eyebrow": "Conservación de datos",
+    "deletedAccount": "Tu cuenta y la información de tu perfil",
+    "deletedFlights": "Todos los datos de vuelo y los tracks GPS",
+    "deletedConsent": "Todos los registros de consentimiento",
+    "deletion": {
+      "subject": "Tu cuenta de We-Fly se ha eliminado",
+      "preheader": "Eliminada tras más de 3 años de inactividad. Último inicio de sesión: {date}.",
+      "body": "Te escribimos para informarte de que tu cuenta de <strong>We-Fly</strong> se ha eliminado de forma permanente por inactividad.",
+      "fieldLastLogin": "Último inicio de sesión",
+      "fieldReason": "Motivo",
+      "reason": "Más de 3 años de inactividad",
+      "fieldLegalBasis": "Base jurídica",
+      "legalBasis": "Artículo 5.1.e del RGPD (limitación del plazo de conservación)",
+      "deletedHeading": "Qué se ha eliminado",
+      "retention": "Conservaremos durante 7 años un registro de auditoría seudonimizado de esta eliminación para cumplir con la normativa. Este registro no contiene ningún dato que permita identificarte.",
+      "retentionLabel": "Conservación",
+      "comeBack": "Si quieres volver a usar We-Fly en el futuro, puedes <link>crear una cuenta nueva</link> cuando quieras.",
+      "legal": "¿Dudas sobre esta eliminación o nuestra política de conservación de datos? Escríbenos a <mail>{address}</mail>. Este correo se ha enviado conforme a nuestra Política de conservación de datos y a los requisitos del RGPD.",
+      "text": "Hola, {name}:\n\nTe escribimos para informarte de que tu cuenta de We-Fly se ha eliminado de forma permanente por inactividad.\n\nDetalles de la eliminación de la cuenta:\n- Último inicio de sesión: {date}\n- Motivo: más de 3 años de inactividad (artículo 5.1.e del RGPD, limitación del plazo de conservación)\n\nQué se ha eliminado:\n- Tu cuenta y la información de tu perfil\n- Todos los datos de vuelo y los tracks GPS\n- Todos los registros de consentimiento\n\nConservaremos durante 7 años un registro de auditoría seudonimizado de esta eliminación para cumplir con la normativa. Este registro no contiene ningún dato que permita identificarte.\n\nSi quieres volver a usar We-Fly en el futuro, puedes crear una cuenta nueva en {registerUrl}.\n\nSi tienes cualquier pregunta sobre esta eliminación o nuestra política de conservación de datos, escríbenos a {address}.\n\nUn saludo,\nEl equipo de We-Fly\n\n---\nEste correo se ha enviado conforme a nuestra Política de conservación de datos y a los requisitos del RGPD."
+    },
+    "warning": {
+      "subject": "Tu cuenta de We-Fly se eliminará dentro de 6 meses: acción necesaria",
+      "preheader": "Inicia sesión una vez y el contador de inactividad vuelve a cero. No hace falta nada más.",
+      "noticed": "Hemos visto que no inicias sesión en tu cuenta de <strong>We-Fly</strong> desde hace más de <strong>2,5 años</strong>.",
+      "policy": "Según nuestra Política de conservación de datos (<em>artículo 5.1.e del RGPD, limitación del plazo de conservación</em>), las cuentas sin ningún inicio de sesión durante <strong>3 años seguidos</strong> se eliminan automáticamente.",
+      "notice": "Tu cuenta se eliminará de forma permanente dentro de unos 6 meses. Ocurrirá si no inicias sesión antes de cumplirse los 3 años de inactividad.",
+      "noticeLabel": "Acción necesaria",
+      "deletedHeading": "Qué se eliminará",
+      "button": "Iniciar sesión y conservar mi cuenta",
+      "reset": "Al iniciar sesión, el contador de inactividad vuelve a cero y se evita la eliminación automática.",
+      "legal": "¿Dudas? Escríbenos a <mail>{address}</mail>. Nota: conservaremos durante 7 años un registro de auditoría seudonimizado de la eliminación para cumplir con la normativa.",
+      "text": "Hola, {name}:\n\nHemos visto que no inicias sesión en tu cuenta de We-Fly desde hace más de 2,5 años.\n\nSegún nuestra Política de conservación de datos (artículo 5.1.e del RGPD, limitación del plazo de conservación), las cuentas sin ningún inicio de sesión durante 3 años seguidos se eliminan automáticamente.\n\nTu cuenta se eliminará de forma permanente dentro de unos 6 meses si no inicias sesión.\n\nQué se eliminará:\n- Tu cuenta y la información de tu perfil\n- Todos los datos de vuelo y los tracks GPS\n- Todos los registros de consentimiento\n\nPara evitar la eliminación, basta con que inicies sesión en tu cuenta:\n{loginUrl}\n\nAl iniciar sesión, el contador de inactividad vuelve a cero y se evita la eliminación automática.\n\nSi tienes cualquier pregunta, escríbenos a {address}.\n\nUn saludo,\nEl equipo de We-Fly\n\n---\nNota: conservaremos durante 7 años un registro de auditoría seudonimizado de la eliminación para cumplir con la normativa."
+    }
+  }
+}

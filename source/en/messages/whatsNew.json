@@ -1,0 +1,33 @@
+{
+  "links": {
+    "changelogTitle": "See what changed",
+    "changelogSub": "Release notes & full changelog",
+    "latestPost": "Latest blog post"
+  },
+  "dialog": {
+    "title": "A new version has landed",
+    "description": "We-Fly was updated with fresh improvements. Catch up whenever you like, and happy flying!",
+    "gotIt": "Got it"
+  },
+  "shiny": {
+    "preview": "Preview",
+    "close": "Close",
+    "sparkle": "Make it sparkle",
+    "eyebrow": "Shiny release",
+    "title": "Something shiny just landed",
+    "description": "This one is special: a release we polished until it sparkled. Take a moment to see what's new, then go chase some thermals.",
+    "cta": "Let's fly"
+  },
+  "about": {
+    "tagline": "Paragliding flight logbook and analysis platform",
+    "developer": "Developer",
+    "website": "Website",
+    "whatsNew": "What's New",
+    "fullChangelog": "Full changelog",
+    "latestPost": "Latest blog post",
+    "loadFailed": "Failed to load changelog: {error}",
+    "unknownError": "Unknown error",
+    "showLess": "Show less",
+    "showMore": "Show more"
+  }
+}

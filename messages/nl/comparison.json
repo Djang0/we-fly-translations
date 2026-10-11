@@ -69,11 +69,6 @@
     "close": "Sluiten"
   },
   "dataTable": {
-    "flightType": {
-      "open": "Vrij",
-      "flatTriangle": "Platte △",
-      "faiTriangle": "FAI-△"
-    },
     "unit": {
       "pts": "ptn"
     },

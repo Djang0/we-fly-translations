@@ -98,5 +98,11 @@
     "editingHint": "Passe die Filter an und speichere dann.",
     "newPlaceholder": "z. B. Alpen im Sommer",
     "saveCurrent": "Aktuellen speichern…"
+  },
+  "bar": {
+    "savedSets": "Gespeicherte Filtersets",
+    "manage": "Filter speichern oder verwalten…",
+    "editAria": "Filter {label} bearbeiten",
+    "noFilters": "Keine Filter · alle Flüge"
   }
 }

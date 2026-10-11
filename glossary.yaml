@@ -658,10 +658,11 @@ terms:
     es: piloto
   flight review request (coach annotates a flight):
     fr: débrief
-    de: Flugbesprechung
+    de: Review (Review-Anfrage)
     nl: nabespreking
-    it: debriefing
+    it: revisione (richiesta di revisione)
     es: revisión
+    note: "Matches the request button in the app. it: 'debriefing' is the Cockpit's own-notes feature; an annotation is 'annotazione' (it), 'Anmerkung' (de), 'opmerking' (nl), 'anotación' (es)."
 
   # --- added after the community + takeoffs pass (2026-10-11) -------------
   "challenge (community flight challenge)":
@@ -779,3 +780,29 @@ terms:
     es: encuadrar
   "XCTrack menu paths":
     note: "Keep XCTrack's own menu labels in English (e.g. 'Task → Edit → Load from XContest') until its localised labels are confirmed."
+  safety contact (person alerted on take-off, landing, emergency):
+    fr: contact de sécurité
+    de: Sicherheitskontakt
+    nl: veiligheidscontact
+    it: contatto di sicurezza
+    es: contacto de seguridad
+  emergency alert:
+    fr: alerte d’urgence
+    de: Notfallalarm
+    nl: noodmelding
+    it: allarme di emergenza
+    es: alerta de emergencia
+  "release notes (changelog)":
+    fr: notes de version
+    de: Versionshinweise
+    nl: release-opmerkingen
+    it: note di rilascio
+    es: notas de versión
+  "Let's fly (shiny release button)":
+    fr: On décolle !
+    de: Ab in die Luft
+    nl: "Let's fly"
+    it: Si vola
+    es: ¡A volar!
+  "safety emails (gender)":
+    note: "Safety contacts and pilots can be anyone: avoid gendered agreement (fr 'a ajouté ton adresse', not 't’a inscrit'; nl 'als veiligheidscontact', not 'zijn of haar')."

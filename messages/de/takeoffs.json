@@ -184,13 +184,6 @@
       "title": "Karte im Vollbild",
       "close": "Schließen"
     },
-    "scoringTypes": {
-      "freeFlight": "Freie Strecke",
-      "freeTriangle": "Flaches Dreieck",
-      "faiTriangle": "FAI-Dreieck",
-      "closedFreeTriangle": "Geschlossenes flaches Dreieck",
-      "closedFaiTriangle": "Geschlossenes FAI-Dreieck"
-    },
     "conditions": {
       "title": "Aktuelle Bedingungen",
       "justNow": "gerade eben",

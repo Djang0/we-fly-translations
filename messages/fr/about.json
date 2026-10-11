@@ -60,7 +60,8 @@
     "latest": "Dernière",
     "shiny": "✦ Shiny",
     "unreleasedTag": "Non publiée",
-    "changeCount": "{count, plural, one {# changement} other {# changements}}"
+    "changeCount": "{count, plural, one {# changement} other {# changements}}",
+    "englishOnlyNote": "Les versions plus anciennes restent en anglais."
   },
   "meta": {
     "title": "À propos",

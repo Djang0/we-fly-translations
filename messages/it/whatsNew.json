@@ -1,0 +1,33 @@
+{
+  "links": {
+    "changelogTitle": "Guarda cosa è cambiato",
+    "changelogSub": "Note di rilascio e storico completo",
+    "latestPost": "Ultimo articolo del blog"
+  },
+  "dialog": {
+    "title": "È arrivata una nuova versione",
+    "description": "We-Fly è stato aggiornato con nuovi miglioramenti. Dai un’occhiata quando vuoi, e buoni voli!",
+    "gotIt": "Ok, capito"
+  },
+  "shiny": {
+    "preview": "Anteprima",
+    "close": "Chiudi",
+    "sparkle": "Falla brillare",
+    "eyebrow": "Versione Shiny",
+    "title": "È appena arrivato qualcosa di speciale",
+    "description": "Questa è speciale: una versione che abbiamo lucidato finché non ha brillato. Prenditi un momento per scoprire le novità, poi vai a cercare qualche termica.",
+    "cta": "Si vola"
+  },
+  "about": {
+    "tagline": "Libretto di volo e piattaforma di analisi per il parapendio",
+    "developer": "Sviluppatore",
+    "website": "Sito web",
+    "whatsNew": "Novità",
+    "fullChangelog": "Storico completo",
+    "latestPost": "Ultimo articolo del blog",
+    "loadFailed": "Impossibile caricare lo storico delle versioni: {error}",
+    "unknownError": "Errore sconosciuto",
+    "showLess": "Mostra meno",
+    "showMore": "Mostra di più"
+  }
+}

@@ -22,6 +22,7 @@ We want the app to sound like a pilot talking to a pilot, not like a manual.
 | `messages/<lang>/<namespace>.json` | Interface strings ([ICU message format](https://next-intl.dev/docs/usage/messages): keep `{variables}` and `plural` blocks intact) |
 | `docs/<lang>/<slug>.md` | Pilot documentation (keep the front matter keys, translate `title` and `description`) |
 | `blog/<lang>/<date>.md` | Blog posts |
+| `changelog/<lang>.json` | Release notes, one entry per id (`{ "id": "entry" }`, English in `source/en/changelog.json`). Keep the `feat(scope):` prefix as is, the **bold headline** first, links and `code` unchanged |
 | `glossary.yaml` | Paragliding vocabulary per language |
 | `style/<lang>.md` | Tone and typography per language |
 

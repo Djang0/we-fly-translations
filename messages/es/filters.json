@@ -98,5 +98,11 @@
     "editingHint": "Ajusta los filtros y luego guarda.",
     "newPlaceholder": "p. ej. Alpes en verano",
     "saveCurrent": "Guardar actual…"
+  },
+  "bar": {
+    "savedSets": "Conjuntos de filtros guardados",
+    "manage": "Guardar o gestionar filtros…",
+    "editAria": "Editar el filtro {label}",
+    "noFilters": "Sin filtros · todos los vuelos"
   }
 }

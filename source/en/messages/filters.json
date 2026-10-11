@@ -98,5 +98,11 @@
     "editingHint": "Adjust the filters, then save.",
     "newPlaceholder": "e.g. Summer Alps",
     "saveCurrent": "Save current…"
+  },
+  "bar": {
+    "savedSets": "Saved filter sets",
+    "manage": "Save or manage presets…",
+    "editAria": "Edit {label} filter",
+    "noFilters": "No filters · all flights"
   }
 }

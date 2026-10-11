@@ -60,7 +60,8 @@
     "latest": "Nieuwste",
     "shiny": "✦ Shiny",
     "unreleasedTag": "Niet uitgebracht",
-    "changeCount": "{count, plural, one {# wijziging} other {# wijzigingen}}"
+    "changeCount": "{count, plural, one {# wijziging} other {# wijzigingen}}",
+    "englishOnlyNote": "Oudere releases staan in het Engels."
   },
   "meta": {
     "title": "Over",

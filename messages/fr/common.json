@@ -30,5 +30,12 @@
     "NW": "NO",
     "NNW": "NNO"
   },
-  "coordinatesPair": "{lat} ; {lon}"
+  "coordinatesPair": "{lat} ; {lon}",
+  "flightTypes": {
+    "freeFlight": "Distance libre",
+    "freeTriangle": "Triangle plat",
+    "faiTriangle": "Triangle FAI",
+    "closedFreeTriangle": "Triangle plat fermé",
+    "closedFaiTriangle": "Triangle FAI fermé"
+  }
 }

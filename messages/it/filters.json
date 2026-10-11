@@ -98,5 +98,11 @@
     "editingHint": "Regola i filtri, poi salva.",
     "newPlaceholder": "es. Alpi d'estate",
     "saveCurrent": "Salva i filtri attuali…"
+  },
+  "bar": {
+    "savedSets": "Set di filtri salvati",
+    "manage": "Salva o gestisci i filtri…",
+    "editAria": "Modifica il filtro {label}",
+    "noFilters": "Nessun filtro · tutti i voli"
   }
 }

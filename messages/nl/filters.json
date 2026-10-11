@@ -98,5 +98,11 @@
     "editingHint": "Pas de filters aan en sla op.",
     "newPlaceholder": "bv. Alpen zomer",
     "saveCurrent": "Huidige opslaan…"
+  },
+  "bar": {
+    "savedSets": "Opgeslagen filtersets",
+    "manage": "Filtersets opslaan of beheren…",
+    "editAria": "Filter {label} bewerken",
+    "noFilters": "Geen filters · alle vluchten"
   }
 }

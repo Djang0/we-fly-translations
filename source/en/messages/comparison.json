@@ -69,11 +69,6 @@
     "close": "Close"
   },
   "dataTable": {
-    "flightType": {
-      "open": "Open",
-      "flatTriangle": "Flat △",
-      "faiTriangle": "FAI △"
-    },
     "unit": {
       "pts": "pts"
     },

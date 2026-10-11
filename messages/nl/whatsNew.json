@@ -1,0 +1,33 @@
+{
+  "links": {
+    "changelogTitle": "Bekijk wat er veranderd is",
+    "changelogSub": "Release notes en volledige changelog",
+    "latestPost": "Laatste blogpost"
+  },
+  "dialog": {
+    "title": "Er is een nieuwe versie geland",
+    "description": "We-Fly is bijgewerkt met verse verbeteringen. Lees het wanneer je zin hebt, en goede vluchten!",
+    "gotIt": "Begrepen"
+  },
+  "shiny": {
+    "preview": "Voorbeeld",
+    "close": "Sluiten",
+    "sparkle": "Laat het schitteren",
+    "eyebrow": "Glimmende release",
+    "title": "Er is iets glimmends geland",
+    "description": "Deze is speciaal: een release die we hebben opgepoetst tot hij schitterde. Neem even de tijd om te zien wat er nieuw is, en ga dan thermiek jagen.",
+    "cta": "Let's fly"
+  },
+  "about": {
+    "tagline": "Logboek en analyseplatform voor paraglidingvluchten",
+    "developer": "Ontwikkelaar",
+    "website": "Website",
+    "whatsNew": "Wat is er nieuw",
+    "fullChangelog": "Volledige changelog",
+    "latestPost": "Laatste blogpost",
+    "loadFailed": "Changelog laden mislukt: {error}",
+    "unknownError": "Onbekende fout",
+    "showLess": "Minder tonen",
+    "showMore": "Meer tonen"
+  }
+}

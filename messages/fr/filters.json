@@ -98,5 +98,11 @@
     "editingHint": "Ajuste les filtres, puis enregistre.",
     "newPlaceholder": "ex. Alpes en été",
     "saveCurrent": "Enregistrer les filtres…"
+  },
+  "bar": {
+    "savedSets": "Jeux de filtres enregistrés",
+    "manage": "Enregistrer ou gérer les filtres…",
+    "editAria": "Modifier le filtre {label}",
+    "noFilters": "Aucun filtre · tous les vols"
   }
 }

@@ -184,13 +184,6 @@
       "title": "Fullscreen Map View",
       "close": "Close"
     },
-    "scoringTypes": {
-      "freeFlight": "Free Flight",
-      "freeTriangle": "Free Triangle",
-      "faiTriangle": "FAI Triangle",
-      "closedFreeTriangle": "Closed Free Triangle",
-      "closedFaiTriangle": "Closed FAI Triangle"
-    },
     "conditions": {
       "title": "Live conditions",
       "justNow": "just now",

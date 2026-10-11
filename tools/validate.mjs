@@ -1,6 +1,9 @@
 // Validates every translation against the English source in source/en:
 // JSON syntax, ICU syntax, identical {placeholders} and <tags>, no unknown keys.
 // Markdown: same front-matter keys, link targets and code fences.
+// Changelog (changelog/<lang>.json): every id exists in source/en/changelog.json,
+// the `type(scope):` prefix is kept, same **bold** spans (headline first),
+// link targets and inline code, one line per entry.
 // Run: npm ci && node tools/validate.mjs
 import fs from "node:fs";
 import path from "node:path";
@@ -89,6 +92,50 @@ for (const locale of LOCALES) {
       if (fences(a) !== fences(b)) errors.push(`${dir2}/${file}: code fence count differs from English`);
       if (links(a) !== links(b)) errors.push(`${dir2}/${file}: link targets differ from English`);
       if (fmKeys(a) !== fmKeys(b)) errors.push(`${dir2}/${file}: front matter keys differ from English`);
+    }
+  }
+}
+
+// Keep in sync with validateChangelogEntry in the app (src/lib/changelog-i18n.ts).
+const TYPE_PREFIX = /^(?:feat|fix|refactor|style|chore|docs|perf|test|build|ci|revert)\([^)]+\):\s*/i;
+const prefixOf = (s) => s.match(TYPE_PREFIX)?.[0].trim() ?? null;
+const validateChangelogEntry = (source, translation) => {
+  const problems = [];
+  if (translation.trim() === "") return ["empty translation"];
+  if (/[\r\n]/.test(translation.trim())) problems.push("must stay on one line");
+  const p = prefixOf(source);
+  if (p !== prefixOf(translation.trim())) {
+    problems.push(p ? `must start with '${p}' untranslated` : "must not add a type(scope): prefix");
+  }
+  const body = (s) => s.trim().replace(/^[^\s(]+\([^)]+\):\s*/, "");
+  if (body(source).startsWith("**") && !body(translation).startsWith("**")) {
+    problems.push("must keep the **bold headline** first");
+  }
+  const bold = (s) => (s.match(/\*\*/g) || []).length;
+  if (bold(source) !== bold(translation)) problems.push("bold markers differ");
+  const links = (s) => [...s.matchAll(/\]\(([^)\s]+)[^)]*\)/g)].map((m) => m[1]).sort().join("\n");
+  if (links(source) !== links(translation)) problems.push("link targets differ");
+  const code = (s) => [...s.matchAll(/`([^`]+)`/g)].map((m) => m[1]).sort().join("\n");
+  if (code(source) !== code(translation)) problems.push("inline code differs");
+  return problems;
+};
+
+const changelogSrcFile = "source/en/changelog.json";
+const changelogSrc = fs.existsSync(changelogSrcFile) ? readJson(changelogSrcFile) : null;
+for (const locale of LOCALES) {
+  const where = path.join("changelog", `${locale}.json`);
+  if (!fs.existsSync(where)) continue;
+  if (!changelogSrc) {
+    errors.push(`${where}: no English source (${changelogSrcFile})`);
+    continue;
+  }
+  for (const [id, value] of Object.entries(readJson(where))) {
+    if (typeof value !== "string") {
+      errors.push(`${where} ${id}: must be a string`);
+    } else if (typeof changelogSrc[id] !== "string") {
+      errors.push(`${where}: unknown entry id '${id}' (the English entry was edited or removed)`);
+    } else {
+      for (const problem of validateChangelogEntry(changelogSrc[id], value)) errors.push(`${where} ${id}: ${problem}`);
     }
   }
 }

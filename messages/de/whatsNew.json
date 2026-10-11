@@ -1,0 +1,33 @@
+{
+  "links": {
+    "changelogTitle": "Was ist neu?",
+    "changelogSub": "Versionshinweise und kompletter Versionsverlauf",
+    "latestPost": "Neuester Blogbeitrag"
+  },
+  "dialog": {
+    "title": "Eine neue Version ist gelandet",
+    "description": "We-Fly hat frische Verbesserungen bekommen. Schau rein, wann immer du magst, und gute Flüge!",
+    "gotIt": "Alles klar"
+  },
+  "shiny": {
+    "preview": "Vorschau",
+    "close": "Schließen",
+    "sparkle": "Lass es funkeln",
+    "eyebrow": "Shiny-Version",
+    "title": "Gerade ist etwas Glänzendes gelandet",
+    "description": "Diese hier ist besonders: eine Version, die wir poliert haben, bis sie funkelt. Nimm dir kurz Zeit für die Neuigkeiten, und dann ab zur nächsten Thermik.",
+    "cta": "Ab in die Luft"
+  },
+  "about": {
+    "tagline": "Flugbuch und Analyseplattform fürs Gleitschirmfliegen",
+    "developer": "Entwickler",
+    "website": "Website",
+    "whatsNew": "Neuigkeiten",
+    "fullChangelog": "Kompletter Versionsverlauf",
+    "latestPost": "Neuester Blogbeitrag",
+    "loadFailed": "Versionsverlauf konnte nicht geladen werden: {error}",
+    "unknownError": "Unbekannter Fehler",
+    "showLess": "Weniger anzeigen",
+    "showMore": "Mehr anzeigen"
+  }
+}

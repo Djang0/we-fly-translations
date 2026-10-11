@@ -1,0 +1,282 @@
+{
+  "common": {
+    "defaultName": "Piloot",
+    "greeting": "Hoi {name},",
+    "sentTo": "Verstuurd naar {email}",
+    "tagline": "We&#8209;Fly: houd je paraglidingvluchten bij",
+    "fallbackLink": "Werkt de knop niet? Plak dit in je browser:"
+  },
+  "auth": {
+    "securityEyebrow": "Accountbeveiliging",
+    "supportNote": "Vragen? <link>Neem contact op</link>.",
+    "verify": {
+      "subject": "Bevestig je e-mailadres - We-Fly",
+      "defaultExpiry": "24 uur",
+      "preheader": "Eén klik en je logboek ligt open. De link is {expiresIn} geldig.",
+      "eyebrow": "Bevestig je account",
+      "heading": "Bevestig je e-mailadres",
+      "intro": "Welkom bij We-Fly. Bevestig je e-mailadres om je account af te ronden en je vluchten bij te houden.",
+      "button": "E-mailadres bevestigen",
+      "notice": "Deze link verloopt over {expiresIn}. Heb je geen We-Fly-account aangemaakt? Dan kun je deze e-mail gerust negeren.",
+      "noticeLabel": "Let op",
+      "text": "Bevestig je e-mailadres\n\nWelkom bij We-Fly! Bevestig je e-mailadres om je registratie af te ronden.\n\nKlik op deze link om je e-mailadres te bevestigen:\n{url}\n\nDeze link verloopt over {expiresIn}.\n\nHeb je geen account bij We-Fly aangemaakt? Dan kun je deze e-mail gerust negeren.\n\n---\nDeze e-mail is verstuurd naar {email}\nWe-Fly - Houd je paraglidingvluchten bij\nVragen? Neem contact op via {supportUrl}"
+    },
+    "reset": {
+      "subject": "Stel je wachtwoord opnieuw in - We-Fly",
+      "defaultExpiry": "1 uur",
+      "preheader": "Kies een nieuw wachtwoord. De link is {expiresIn} geldig.",
+      "heading": "Stel je wachtwoord opnieuw in",
+      "intro": "We kregen een verzoek om het wachtwoord van je We-Fly-account opnieuw in te stellen. Kies hieronder een nieuw wachtwoord.",
+      "button": "Wachtwoord opnieuw instellen",
+      "notice": "Deze link verloopt over {expiresIn}. Heb je dit niet aangevraagd? Negeer dan deze e-mail: je wachtwoord blijft zoals het is.",
+      "noticeLabel": "Beveiligingsmelding",
+      "tipsIntro": "Nu je hier toch bent, een goed wachtwoord is:",
+      "tipUnique": "Lang, uniek en nergens anders gebruikt",
+      "tipNeverShared": "Met niemand gedeeld. We vragen er nooit naar per e-mail",
+      "tipTwoFactor": "Beschermd met tweestapsverificatie waar dat kan",
+      "text": "Stel je wachtwoord opnieuw in\n\nWe kregen een verzoek om het wachtwoord van je We-Fly-account opnieuw in te stellen.\n\nKlik op deze link om een nieuw wachtwoord te kiezen:\n{url}\n\nDeze link verloopt over {expiresIn}.\n\nBeveiligingsmelding: heb je geen nieuw wachtwoord aangevraagd? Negeer dan deze e-mail. Je wachtwoord blijft ongewijzigd.\n\nVoor je veiligheid raden we aan:\n- Een sterk, uniek wachtwoord te gebruiken\n- Je wachtwoord met niemand te delen\n- Tweestapsverificatie aan te zetten waar dat kan\n\n---\nDeze e-mail is verstuurd naar {email}\nWe-Fly - Houd je paraglidingvluchten bij\nVragen? Neem contact op via {supportUrl}"
+    },
+    "welcome": {
+      "subject": "Welkom bij We-Fly! 🪂",
+      "preheader": "Je account staat klaar. Tijd om dat logboek te vullen.",
+      "eyebrow": "Welkom aan boord",
+      "heading": "Welkom aan boord, {name}.",
+      "verified": "Je e-mailadres is bevestigd en je account is actief. Alles staat klaar voor je eerste vlucht.",
+      "featuresIntro": "Dit doet We-Fly met een IGC-bestand:",
+      "featureDecode": "Ontleedt de track: thermiek, wind, stijgfases en vluchtkwaliteit",
+      "featureMap": "Zet elke vlucht op de kaart, met hoogteprofiel en volledige statistieken",
+      "featureProgress": "Volgt je vooruitgang: seizoensoverzicht, je XC-afstanden door de jaren, persoonlijke records",
+      "featureCommunity": "Verbindt je met de community: vlieggebieden, clubs en waar er gevlogen wordt",
+      "button": "Inloggen",
+      "closing": "Goede vluchten. We zijn benieuwd waar je avonturen je naartoe brengen.",
+      "text": "Welkom aan boord, {name}!\n\nJe e-mailadres is bevestigd en je account is nu actief. Je kunt meteen je paraglidingvluchten gaan bijhouden!\n\nDit kun je met We-Fly:\n- Je IGC-vluchtbestanden uploaden en analyseren\n- Gedetailleerde vluchtstatistieken en kaarten bekijken\n- Je vooruitgang door de tijd volgen\n- Vluchten delen met de community\n\nLog nu in: {url}\n\nGoede vluchten! We zijn benieuwd waar je avonturen je naartoe brengen.\n\n---\nDeze e-mail is verstuurd naar {email}\nWe-Fly - Houd je paraglidingvluchten bij\nVragen? Neem contact op via {supportUrl}"
+    },
+    "passkey": {
+      "subject": "Er is een passkey aan je account toegevoegd - We-Fly",
+      "preheader": "Je kunt nu met één tik inloggen. Was jij dit niet? Verwijder hem meteen.",
+      "heading": "Nieuwe passkey toegevoegd",
+      "body": "Er is op {when} een passkey met de naam <strong>{name}</strong> aan je We-Fly-account toegevoegd. Je kunt er nu met één tik mee inloggen, en je andere inlogmethoden blijven gewoon werken.",
+      "button": "Inlogmethoden bekijken",
+      "notice": "Heb je deze passkey niet zelf toegevoegd? Verwijder hem dan meteen via <em>Profiel → Inlogmethoden</em> en <link>laat het ons weten</link>.",
+      "noticeLabel": "Was jij dit niet?",
+      "text": "Nieuwe passkey toegevoegd\n\nEr is op {when} een passkey met de naam \"{name}\" aan je We-Fly-account toegevoegd.\nJe kunt er nu met één tik mee inloggen. Je andere inlogmethoden blijven gewoon werken.\n\nBekijk je inlogmethoden: {url}\n\nHeb je deze passkey niet zelf toegevoegd? Verwijder hem dan meteen via Profiel > Inlogmethoden en laat het ons weten: {supportUrl}\n\n---\nDeze e-mail is verstuurd naar {email}\nWe-Fly - Houd je paraglidingvluchten bij"
+    },
+    "passwordChanged": {
+      "subject": "Je wachtwoord is gewijzigd - We-Fly",
+      "preheader": "Was jij dit niet? Neem meteen contact op: alle sessies zijn uitgelogd.",
+      "heading": "Wachtwoord gewijzigd",
+      "body": "Het wachtwoord van je We-Fly-account is zojuist gewijzigd. Heb je dit zelf gedaan, dan hoef je verder niets te doen.",
+      "notMe": "Heb je dit niet zelf gedaan? <link>Neem dan meteen contact met ons op</link>.",
+      "notice": "Voor je veiligheid zijn al je bestaande sessies uitgelogd.",
+      "noticeLabel": "Beveiligingsmelding",
+      "button": "Inloggen",
+      "text": "Wachtwoord gewijzigd\n\nHet wachtwoord van je We-Fly-account is zojuist gewijzigd. Heb je dit zelf gedaan, dan hoef je verder niets te doen.\n\nHeb je dit niet zelf gedaan? Neem dan meteen contact met ons op via {supportUrl}.\n\nBeveiligingsmelding: voor je veiligheid zijn al je bestaande sessies uitgelogd.\n\nInloggen: {url}"
+    }
+  },
+  "flightReview": {
+    "unknownTakeoff": "een vlucht",
+    "request": {
+      "unknownOwner": "Een piloot",
+      "subject": "{owner} vraagt je een vlucht te bekijken op We-Fly",
+      "preheader": "{owner} wil jouw blik op een vlucht vanaf {takeoff}.",
+      "eyebrow": "Verzoek om nabespreking",
+      "body": "<strong>{owner}</strong> wil graag dat je met je ervaren blik naar een vlucht kijkt. Bekijk de track en zet je opmerkingen er rechtstreeks op. Zo ziet de piloot precies bij welk moment van de vlucht elke opmerking hoort.",
+      "flightOf": "Vlucht van {date}",
+      "button": "Mijn nabesprekingsverzoeken",
+      "legal": "Je krijgt deze e-mail omdat {owner} je op We-Fly om een nabespreking heeft gevraagd.",
+      "text": "Hoi {reviewer},\n\n{owner} wil graag dat je met je ervaren blik naar een vlucht kijkt\n({takeoff}, {date}).\n\nBekijk de track en zet je opmerkingen rechtstreeks op de vlucht.\n\nBekijk je nabesprekingsverzoeken: {url}\n\n---\nJe krijgt deze e-mail omdat {owner} je op We-Fly om een nabespreking heeft gevraagd."
+    },
+    "annotation": {
+      "subject": "{commentator} heeft een opmerking op je vlucht gezet op We-Fly",
+      "preheader": "Een nieuwe opmerking op je vlucht vanaf {takeoff}.",
+      "eyebrow": "Nieuwe opmerking",
+      "body": "<strong>{commentator}</strong> heeft zojuist een opmerking gezet op je vlucht vanaf <strong>{takeoff}</strong>. Open de vlucht om ze in context te lezen: elke opmerking hangt vast aan het precieze moment van de vlucht waar ze over gaat.",
+      "button": "Opmerking lezen",
+      "legal": "Je krijgt deze e-mail omdat {commentator} een vlucht heeft nabesproken die je op We-Fly ter nabespreking hebt gedeeld.",
+      "text": "Hoi {owner},\n\n{commentator} heeft zojuist een opmerking gezet op je vlucht vanaf {takeoff}.\n\nLees de opmerking: {url}\n\n---\nJe krijgt deze e-mail omdat {commentator} een vlucht heeft nabesproken die je op We-Fly ter nabespreking hebt gedeeld."
+    }
+  },
+  "onboardingNudge": {
+    "subject": "Je logboek wacht op zijn eerste vlucht",
+    "preheader": "Vlieg je met XCTrack? Stel auto-sync één keer in en elke vlucht komt vanzelf in We-Fly terecht.",
+    "eyebrow": "Aan de slag",
+    "heading": "Hoi {name}, je logboek is nog leeg",
+    "openingRecent": "Je bent een tijdje geleden bij We-Fly gekomen, maar er is nog geen vlucht in je logboek geland. De meeste piloten hebben al een seizoen of twee op hun instrument staan, dus hier is de snelste manier om die binnen te halen.",
+    "openingOld": "Je bent al een tijd geleden bij We-Fly gekomen, maar je logboek wacht nog altijd op zijn eerste vlucht. De meeste piloten hebben al een seizoen of twee op hun instrument staan, dus hier is de snelste manier om die binnen te halen.",
+    "stepPasswordTitle": "Maak een apparaatwachtwoord aan",
+    "stepPasswordDetail": "Open in We-Fly <strong>Profiel &#8594; Gekoppelde diensten</strong> en tik op <strong>Aanmaken</strong> op de kaart Instrument- en cloudsync. Zit je achter een laptop? Scan het met de QR-code naar je telefoon.",
+    "stepFolderSyncTitle": "Voeg We-Fly toe aan FolderSync",
+    "stepFolderSyncDetail": "Installeer FolderSync uit de Play Store en voeg een WebDAV-account toe met de gegevens hieronder.",
+    "stepPairTitle": "Koppel het aan je map Tracklogs",
+    "stepPairDetail": "Alleen uploaden, vanuit {path}. Android 11 of nieuwer verbergt die map; <link>deze handleiding van twee minuten</link> maakt hem weer zichtbaar.",
+    "panelLabel": "Aanbevolen voor XCTrack en Air³",
+    "panelTitle": "Eén keer instellen, nooit meer uploaden",
+    "panelIntro": "FolderSync houdt de tracklogmap van XCTrack in de gaten en geeft elke nieuwe vlucht door aan We-Fly zodra je weer op wifi zit. Je hele archief komt ook mee, en dubbele vluchten worden overgeslagen.",
+    "fieldServerUrl": "Server-URL",
+    "fieldUsername": "Gebruikersnaam",
+    "fieldPassword": "Wachtwoord",
+    "fieldPasswordValue": "Je apparaatwachtwoord uit stap 1",
+    "button": "Auto-sync instellen",
+    "otherWaysHeading": "Geen XCTrack?",
+    "otherWays": {
+      "migrate": {
+        "title": "Je komt van XContest, Syride, SeeYou of Logfly",
+        "description": "Exporteer daar één keer je geschiedenis en haal al je vluchten in één keer over.",
+        "action": "Migratiehandleiding"
+      },
+      "flyskyhy": {
+        "title": "Flyskyhy op iPhone of iPad",
+        "description": "Flyskyhy kan elke vlucht naar We-Fly sturen zodra je geland bent.",
+        "action": "Instellen"
+      },
+      "googleDrive": {
+        "title": "IGC-bestanden in Google Drive",
+        "description": "Kies ze rechtstreeks uit Drive op de uploadpagina, zonder ze eerst te downloaden.",
+        "action": "Naar uploaden"
+      },
+      "anyInstrument": {
+        "title": "Elk ander instrument",
+        "description": "Sluit het aan en sleep de .igc-bestanden naar de uploadpagina, zoveel als je wilt.",
+        "action": "Bestanden uploaden"
+      }
+    },
+    "valueBody": "Elk IGC-bestand wordt een kaart en een hoogteprofiel, je thermiek, wind en glijvluchten, persoonlijke records en je eerste badges.",
+    "valueLabel": "Wat één bestand je oplevert",
+    "legal": "Dit is een eenmalige herinnering, verstuurd omdat je We-Fly-account nog geen vluchten heeft. We sturen hem niet opnieuw. Liever geen tips zoals deze? Je kunt {mode, select, unsubscribe {<link>dit soort tips stopzetten</link>} other {<link>tips uitzetten in je profiel</link>}}.",
+    "otherWayLine": "- {title}: {description} {url}",
+    "text": "Hoi {name}, je logboek is nog leeg\n\n{opening}\n\nAANBEVOLEN VOOR XCTRACK EN AIR³\nEén keer instellen, nooit meer uploaden\n\nFolderSync houdt de tracklogmap van XCTrack in de gaten en geeft elke nieuwe vlucht door aan We-Fly zodra je weer op wifi zit. Je hele archief komt ook mee, en dubbele vluchten worden overgeslagen.\n\n1. Maak een apparaatwachtwoord aan\n   Open in We-Fly Profiel > Gekoppelde diensten en tik op Aanmaken op de kaart Instrument- en cloudsync. Zit je achter een laptop? Scan het met de QR-code naar je telefoon.\n2. Voeg We-Fly toe aan FolderSync\n   Installeer FolderSync uit de Play Store en voeg een WebDAV-account toe:\n     Server-URL:      {webdavUrl}\n     Gebruikersnaam:  {email}\n     Wachtwoord:      je apparaatwachtwoord uit stap 1\n3. Koppel het aan je map Tracklogs\n   Alleen uploaden, vanuit {tracklogs}. Android 11 of nieuwer verbergt die map; deze handleiding van twee minuten maakt hem weer zichtbaar: {folderGuideUrl}\n\nAuto-sync instellen: {syncGuideUrl}\n\nGEEN XCTRACK?\n{otherWays}\n\nWat één bestand je oplevert: elk IGC-bestand wordt een kaart en een hoogteprofiel, je thermiek, wind en glijvluchten, persoonlijke records en je eerste badges.\n\n---\nDit is een eenmalige herinnering, verstuurd omdat je We-Fly-account nog geen vluchten heeft. We sturen hem niet opnieuw.\nLiever geen tips zoals deze? {mode, select, unsubscribe {Zet ze hier stop: {stopUrl}} other {Zet ze uit in je profiel: {stopUrl}}}\nWe-Fly: houd je paraglidingvluchten bij"
+  },
+  "safety": {
+    "unknownPilot": "Een We-Fly-piloot",
+    "legalRemove": "Je krijgt deze e-mail omdat {pilot} je op We-Fly als veiligheidscontact heeft opgegeven. <remove>Haal me van deze lijst</remove>.",
+    "locationTitle": "Laatst bekende positie",
+    "openInMaps": "Openen in kaarten",
+    "textReceiving": "Je krijgt deze e-mail omdat {pilot} je op We-Fly als veiligheidscontact heeft opgegeven.",
+    "textRemove": "Jezelf verwijderen: {url}",
+    "textPosition": "Positie: {where}",
+    "takeoff": {
+      "subject": "{pilot} is gestart",
+      "preheader": "Gestart om {when}.",
+      "eyebrow": "Start",
+      "body": "<strong>{pilot}</strong> is gestart om {when}.",
+      "text": "{pilot} is gestart om {when}."
+    },
+    "landing": {
+      "subject": "{pilot} is geland",
+      "preheader": "Geland om {when}.",
+      "eyebrow": "Landing",
+      "body": "<strong>{pilot}</strong> is veilig geland om {when}.",
+      "quote": "&ldquo;{message}&rdquo;",
+      "text": "{pilot} is veilig geland om {when}.",
+      "textQuote": "\"{message}\""
+    },
+    "emergency": {
+      "subject": "NOODMELDING: {pilot} heeft alarm gegeven",
+      "preheaderPosition": "Laatst bekende positie: {where}",
+      "preheaderTime": "Alarm gegeven om {when}.",
+      "eyebrow": "Noodmelding",
+      "heading": "{pilot} heeft een noodmelding verstuurd.",
+      "raisedAt": "Alarm gegeven om <strong>{when}</strong>.",
+      "message": "Bericht van de piloot: &ldquo;{message}&rdquo;",
+      "disclaimer": "Deze melding is automatisch verstuurd door het vlieginstrument van {pilot}. We-Fly kan de situatie ter plaatse niet bevestigen. Denk je dat de piloot in gevaar is, neem dan contact op met de hulpdiensten in de buurt.",
+      "textRaisedAt": "Alarm gegeven om {when}.",
+      "textPosition": "Laatst bekende positie: {where}",
+      "textMessage": "Bericht van de piloot: \"{message}\"",
+      "textDisclaimer": "Deze melding is automatisch verstuurd door het vlieginstrument van de piloot. We-Fly kan de situatie ter plaatse niet bevestigen. Denk je dat de piloot in gevaar is, neem dan contact op met de hulpdiensten in de buurt."
+    },
+    "confirmation": {
+      "subject": "{pilot} heeft je opgegeven als veiligheidscontact",
+      "preheader": "Bevestig, dan krijg je een bericht zodra de piloot geland is.",
+      "eyebrow": "Veiligheidscontact",
+      "body": "<strong>{pilot}</strong> vliegt paraglider en heeft je op We-Fly opgegeven als veiligheidscontact. Als je bevestigt, krijg je een kort bericht na elke landing, en een noodmelding als er ooit alarm gegeven wordt.",
+      "removeAnytime": "Je kunt jezelf altijd verwijderen, via dit bericht of via elk ander bericht dat we je sturen.",
+      "confirmButton": "Ja, houd me op de hoogte",
+      "removeButton": "Nee, verwijder me",
+      "legal": "Je krijgt deze e-mail omdat {pilot} je op We-Fly als veiligheidscontact heeft opgegeven. Doe je niets, dan hoor je alleen van ons als {pilot} een noodmelding verstuurt.",
+      "text": "Hoi {contact},\n\n{pilot} heeft je op We-Fly opgegeven als veiligheidscontact.\nAls je bevestigt, krijg je een kort bericht na elke landing, en een noodmelding als er ooit alarm gegeven wordt.\n\nBevestigen: {confirmUrl}\nVerwijder me: {removeUrl}\n\nDoe je niets, dan hoor je alleen van ons als {pilot} een noodmelding verstuurt.\n\nWe-Fly, {appUrl}"
+    }
+  },
+  "survey": {
+    "subjectActive": "Bepaal mee hoe We-Fly verder gaat (4 min)",
+    "subjectDormant": "We-Fly is flink gegroeid, en we horen graag je mening (4 min)",
+    "preheaderActive": "Vier minuten over wat we hierna moeten bouwen. Elk antwoord wordt gelezen.",
+    "preheaderDormant": "Vier minuten, en elk antwoord wordt gelezen. Waarom bleef je weg?",
+    "eyebrow": "Community-enquête · 2026",
+    "dormantIntro": "Je laatste bezoek is alweer een tijd geleden, en eerlijk gezegd is We-Fly niet meer de app die je je herinnert. Een greep uit wat er nieuw is:",
+    "dormantAsk": "We plannen wat er hierna komt, en de mening van piloten die afgehaakt zijn telt <strong>minstens zo zwaar</strong> als die van wie dan ook. Waarom bleef je weg? Wat zou je terugbrengen? Onze community-enquête duurt ongeveer vier minuten, en elk antwoord wordt gelezen.",
+    "activeIntro": "Je bent een van de piloten die We-Fly maken tot wat het is, en we plannen wat we hierna gaan bouwen. Voor we de roadmap vastleggen, willen we het horen van de mensen die er echt mee vliegen.",
+    "activeAsk": "De community-enquête duurt ongeveer vier minuten: hoe we het doen, wat je gebruikt en wat je graag zou zien. Elk antwoord wordt gelezen.",
+    "highlights": {
+      "cockpit": {
+        "title": "Vluchtanalyse in de Cockpit",
+        "description": "Thermiek, wind, stijgfases en vluchtkwaliteit, ontleed uit elk IGC-bestand dat je uploadt."
+      },
+      "xcPlanner": {
+        "title": "XC-planner",
+        "description": "Plan routes en wedstrijdtaken met luchtruimcontrole en lagen met thermiekhotspots."
+      },
+      "badges": {
+        "title": "Badges, uitdagingen en seizoensoverzicht",
+        "description": "Mijlpalen, community-uitdagingen en een jaaroverzicht van je vliegen."
+      },
+      "sync": {
+        "title": "Instrument- en cloudsync",
+        "description": "Vluchten komen vanzelf binnen vanaf je instrument, Dropbox, OneDrive of Google Drive."
+      }
+    },
+    "button": "Doe mee aan de enquête",
+    "anonymous": "Je antwoorden zijn anoniem, tenzij je in de laatste stap anders kiest.",
+    "legal": "Dit is een eenmalige e-mail over de community-enquête, en we sturen geen herinneringen. Je krijgt hem omdat je een We-Fly-account hebt. Je kunt <link>je account beheren</link> wanneer je wilt.",
+    "textHighlight": "- {title}: {description}",
+    "textDormantIntro": "Je laatste bezoek is alweer een tijd geleden, en eerlijk gezegd is We-Fly niet meer de app die je je herinnert. Wat er nieuw is:\n\n{highlights}\n\nWe plannen wat er hierna komt, en de mening van piloten die afgehaakt zijn telt minstens zo zwaar als die van wie dan ook. Waarom bleef je weg? Wat zou je terugbrengen? Onze community-enquête duurt ongeveer vier minuten, en elk antwoord wordt gelezen.",
+    "textActiveIntro": "Je bent een van de piloten die We-Fly maken tot wat het is, en we plannen wat we hierna gaan bouwen. Voor we de roadmap vastleggen, willen we het horen van de mensen die er echt mee vliegen.\n\nDe community-enquête duurt ongeveer vier minuten: hoe we het doen, wat je gebruikt en wat je graag zou zien. Elk antwoord wordt gelezen.",
+    "text": "Hoi {name},\n\n{intro}\n\nDoe mee aan de enquête: {url}\n\nJe antwoorden zijn anoniem, tenzij je in de laatste stap anders kiest.\n\n---\nDit is een eenmalige e-mail over de community-enquête, en we sturen geen herinneringen.\nJe krijgt hem omdat je een We-Fly-account hebt.\nWe-Fly: houd je paraglidingvluchten bij"
+  },
+  "contact": {
+    "subject": "We hebben je bericht ontvangen: {subject}",
+    "preheader": "We antwoorden meestal binnen 24 tot 48 uur op werkdagen.",
+    "eyebrow": "Bericht ontvangen",
+    "thanks": "Bedankt voor je bericht. We hebben het goed ontvangen en ons team bekijkt het binnenkort. We antwoorden meestal binnen 24 tot 48 uur op werkdagen.",
+    "yourMessage": "Je bericht",
+    "fieldSubject": "Onderwerp",
+    "urgent": "Is het dringend? Je kunt ons ook bereiken via onze pagina <link>GitHub Issues</link>.",
+    "legal": "Dit is een automatische bevestiging van We-Fly. Antwoord niet rechtstreeks op deze e-mail. <site>we&#8209;fly.cloud</site>",
+    "text": "BERICHT ONTVANGEN\n=================\n\nHoi {name},\n\nBedankt voor je bericht! We hebben het goed ontvangen en ons team bekijkt het binnenkort. We antwoorden meestal binnen 24 tot 48 uur op werkdagen.\n\nSAMENVATTING VAN JE BERICHT\n---------------------------\nOnderwerp: {subject}\nBericht: {message}\n\nIs het dringend? Je kunt ons ook bereiken via onze pagina GitHub Issues:\n{issuesUrl}\n\n---\nDit is een automatische bevestiging van We-Fly\nAntwoord niet rechtstreeks op deze e-mail\n{siteUrl}"
+  },
+  "dataRetention": {
+    "defaultName": "Gebruiker",
+    "eyebrow": "Bewaren van gegevens",
+    "deletedAccount": "Je account- en profielgegevens",
+    "deletedFlights": "Al je vluchtgegevens en GPS-tracks",
+    "deletedConsent": "Al je toestemmingsregistraties",
+    "deletion": {
+      "subject": "Je We-Fly-account is verwijderd",
+      "preheader": "Verwijderd na meer dan 3 jaar inactiviteit. Laatst ingelogd: {date}.",
+      "body": "We laten je weten dat je <strong>We-Fly</strong>-account wegens inactiviteit definitief is verwijderd.",
+      "fieldLastLogin": "Laatst ingelogd",
+      "fieldReason": "Reden",
+      "reason": "Meer dan 3 jaar inactief",
+      "fieldLegalBasis": "Rechtsgrond",
+      "legalBasis": "AVG artikel 5, lid 1, onder e: opslagbeperking",
+      "deletedHeading": "Wat is verwijderd",
+      "retention": "Een gepseudonimiseerd auditverslag van deze verwijdering wordt om wettelijke redenen 7 jaar bewaard. Dat verslag bevat geen persoonsgegevens.",
+      "retentionLabel": "Bewaring",
+      "comeBack": "Wil je later weer met We-Fly vliegen? Dan ben je welkom om <link>een nieuw account aan te maken</link>.",
+      "legal": "Vragen over deze verwijdering of ons bewaarbeleid? Mail ons op <mail>{address}</mail>. Deze e-mail is verstuurd volgens ons beleid voor het bewaren van gegevens en de AVG.",
+      "text": "Hoi {name},\n\nWe laten je weten dat je We-Fly-account wegens inactiviteit definitief is verwijderd.\n\nGegevens over de verwijdering:\n- Laatst ingelogd: {date}\n- Reden: meer dan 3 jaar inactief (AVG artikel 5, lid 1, onder e: opslagbeperking)\n\nWat is verwijderd:\n- Je account- en profielgegevens\n- Al je vluchtgegevens en GPS-tracks\n- Al je toestemmingsregistraties\n\nEen gepseudonimiseerd auditverslag van deze verwijdering wordt om wettelijke redenen 7 jaar bewaard. Dat verslag bevat geen persoonsgegevens.\n\nWil je later weer met We-Fly vliegen? Dan ben je welkom om een nieuw account aan te maken via {registerUrl}.\n\nVragen over deze verwijdering of ons bewaarbeleid? Mail ons op {address}.\n\nMet vriendelijke groet,\nHet We-Fly-team\n\n---\nDeze e-mail is verstuurd volgens ons beleid voor het bewaren van gegevens en de AVG."
+    },
+    "warning": {
+      "subject": "Je We-Fly-account wordt over 6 maanden verwijderd - actie vereist",
+      "preheader": "Log één keer in en de inactiviteitsteller begint opnieuw. Meer hoeft niet.",
+      "noticed": "We zien dat je al meer dan <strong>2,5 jaar</strong> niet bent ingelogd op je <strong>We-Fly</strong>-account.",
+      "policy": "Volgens ons beleid voor het bewaren van gegevens (<em>AVG artikel 5, lid 1, onder e: opslagbeperking</em>) worden accounts zonder enige login gedurende <strong>3 jaar op rij</strong> automatisch verwijderd.",
+      "notice": "Je account wordt over ongeveer 6 maanden definitief verwijderd. Dat gebeurt als je niet inlogt voor de grens van 3 jaar inactiviteit bereikt is.",
+      "noticeLabel": "Actie vereist",
+      "deletedHeading": "Wat wordt verwijderd",
+      "button": "Inloggen en mijn account houden",
+      "reset": "Door in te loggen begint de inactiviteitsteller opnieuw en wordt je account niet automatisch verwijderd.",
+      "legal": "Vragen? Mail ons op <mail>{address}</mail>. Let op: een gepseudonimiseerd auditverslag van de verwijdering wordt om wettelijke redenen 7 jaar bewaard.",
+      "text": "Hoi {name},\n\nWe zien dat je al meer dan 2,5 jaar niet bent ingelogd op je We-Fly-account.\n\nVolgens ons beleid voor het bewaren van gegevens (AVG artikel 5, lid 1, onder e: opslagbeperking) worden accounts zonder enige login gedurende 3 jaar op rij automatisch verwijderd.\n\nJe account wordt over ongeveer 6 maanden definitief verwijderd als je niet inlogt.\n\nWat wordt verwijderd:\n- Je account- en profielgegevens\n- Al je vluchtgegevens en GPS-tracks\n- Al je toestemmingsregistraties\n\nLog gewoon in op je account om verwijdering te voorkomen:\n{loginUrl}\n\nDoor in te loggen begint de inactiviteitsteller opnieuw en wordt je account niet automatisch verwijderd.\n\nVragen? Mail ons op {address}.\n\nMet vriendelijke groet,\nHet We-Fly-team\n\n---\nLet op: een gepseudonimiseerd auditverslag van de verwijdering wordt om wettelijke redenen 7 jaar bewaard."
+    }
+  }
+}

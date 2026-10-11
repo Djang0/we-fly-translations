@@ -30,5 +30,12 @@
     "NW": "NW",
     "NNW": "NNW"
   },
-  "coordinatesPair": "{lat}; {lon}"
+  "coordinatesPair": "{lat}; {lon}",
+  "flightTypes": {
+    "freeFlight": "Vrije afstand",
+    "freeTriangle": "Platte driehoek",
+    "faiTriangle": "FAI-driehoek",
+    "closedFreeTriangle": "Gesloten platte driehoek",
+    "closedFaiTriangle": "Gesloten FAI-driehoek"
+  }
 }
