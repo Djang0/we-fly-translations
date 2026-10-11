@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Seguimiento en vivo"
+  },
+  "page": {
+    "defaultPilot": "Un piloto",
+    "title": "{pilot}, en vivo",
+    "expires": "El enlace caduca el {date}"
+  },
+  "empty": "Todavía no hay ninguna posición. Esta página se actualiza sola, así que déjala abierta.",
+  "modes": {
+    "map": "Mapa",
+    "threeD": "3D"
+  },
+  "pilot": "Piloto",
+  "ago": {
+    "seconds": "hace {count} s",
+    "minutes": "hace {count} min",
+    "hours": "hace {count} h"
+  },
+  "map": {
+    "lastSeen": "visto por última vez {time}",
+    "reconnecting": "reconectando…"
+  },
+  "threeD": {
+    "pilotAgo": "{pilot} · {time}",
+    "reconnecting": "reconectando…",
+    "altitude": "Alt",
+    "vario": "Vario",
+    "speed": "Velocidad",
+    "followPilot": "Seguir al piloto",
+    "loadingTerrain": "Cargando el terreno…"
+  }
+}

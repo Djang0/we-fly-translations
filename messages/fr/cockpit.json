@@ -56,8 +56,8 @@
     "seriesZScore": "Score z"
   },
   "linkableMetric": {
-    "showDetailChart": "Afficher le graphique détaillé : {label}",
-    "viewFlight": "Voir le vol avec {label} : {value}"
+    "showDetailChart": "Afficher le graphique détaillé : {label}",
+    "viewFlight": "Voir le vol avec {label} : {value}"
   },
   "overview": {
     "loadingVisualization": "Chargement de la visualisation…",
@@ -125,10 +125,10 @@
     "duration": "Durée",
     "count": "Nombre",
     "zScore": "Score z",
-    "viewMode": "Affichage :",
+    "viewMode": "Affichage :",
     "grouped": "Groupé",
     "stacked": "Empilé",
-    "years": "Années :",
+    "years": "Années :",
     "breakdownTitle": "Détail mensuel par année",
     "breakdownDescription": "Compare ton activité de vol selon les mois et les années",
     "month": "Mois",
@@ -162,18 +162,18 @@
     "ariaEditable": "Débrief du vol",
     "tooLong": "Le commentaire ne peut pas dépasser {max} caractères",
     "saveFailed": "Impossible d’enregistrer le commentaire",
-    "placeholder": "C’était comment, cette journée ? Qu’est-ce qui a marché, qu’est-ce qui a coincé ?",
+    "placeholder": "C’était comment, cette journée ? Qu’est-ce qui a marché, qu’est-ce qui a coincé ?",
     "charsRemaining": "{count} caractères restants",
     "hint": "Cmd/Ctrl-Entrée pour enregistrer · Échap pour annuler",
     "cancel": "Annuler",
     "save": "Enregistrer",
     "saving": "Enregistrement…",
     "edit": "Modifier le commentaire",
-    "add": "Ajoute un débrief : note les conditions, ce que tu as tenté, ce que tu en retiens."
+    "add": "Ajoute un débrief : note les conditions, ce que tu as tenté, ce que tu en retiens."
   },
   "thermalVarioDialog": {
     "title": "Thermique le plus fort",
-    "titleWithValue": "Thermique le plus fort : {value}",
+    "titleWithValue": "Thermique le plus fort : {value}",
     "description": "Signal du vario ±5 secondes autour du pic, pour repérer les anomalies",
     "peak": "Pic",
     "peakLower": "pic",
@@ -202,9 +202,9 @@
       "strong": "Forte",
       "moderate": "Modérée",
       "weak": "Faible",
-      "strongText": "Tendance forte : ta progression d’une saison à l’autre est régulière.",
-      "moderateText": "Tendance modérée : il y a une direction générale, mais avec des variations d’une année à l’autre.",
-      "weakText": "Tendance faible : les données sont dispersées, pas encore de progression fiable.",
+      "strongText": "Tendance forte : ta progression d’une saison à l’autre est régulière.",
+      "moderateText": "Tendance modérée : il y a une direction générale, mais avec des variations d’une année à l’autre.",
+      "weakText": "Tendance faible : les données sont dispersées, pas encore de progression fiable.",
       "tooltipTitle": "Force de la tendance (R²)",
       "tooltipBody": "Mesure à quel point la ligne pointillée colle aux barres. <b>0</b> = aucune tendance, <b>1</b> = tendance parfaite."
     },
@@ -214,6 +214,6 @@
     "backfill": "{count, plural, one {<b>#</b> vol est exclu car il n’a pas encore de {what}. Lance <code>{script}</code> pour l’inclure.} other {<b>#</b> vols sont exclus car ils n’ont pas encore de {what}. Lance <code>{script}</code> pour les inclure.}}"
   },
   "zWhat": {
-    "text": "Le score z te laisse perplexe ? <link>Jette un œil ici !</link>"
+    "text": "Le score z te laisse perplexe ? <link>Jette un œil ici !</link>"
   }
 }

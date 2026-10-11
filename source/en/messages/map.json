@@ -1,0 +1,154 @@
+{
+  "baseLayers": {
+    "wefly": { "name": "We-Fly theme" },
+    "opentopomap": { "name": "OpenTopoMap" },
+    "terrain": { "name": "Terrain (OpenFreeMap)" },
+    "satellite": { "name": "Satellite" },
+    "geoportail": { "name": "Geoportail.fr (slow)" }
+  },
+  "measure": {
+    "toggle": "Measure distance",
+    "clear": "Clear measurement"
+  },
+  "legend": {
+    "title": "Climb / Sink Rate"
+  },
+  "flight": {
+    "takeoff": "Takeoff",
+    "landing": "Landing",
+    "legPopup": "{name} : {distance}"
+  },
+  "siteType": {
+    "takeoff": "Takeoff",
+    "landingZone": "Landing Zone",
+    "parking": "Parking"
+  },
+  "menu": {
+    "title": "Map layers",
+    "collapse": "Collapse layers panel",
+    "open": "Open map layers panel",
+    "button": "Layers",
+    "active": "Overlays active"
+  },
+  "layerOrder": {
+    "listLabel": "Layer order",
+    "flightTrace": "Flight trace",
+    "pois": "Points of interest",
+    "airspaces": "Airspaces",
+    "skyways": "Skyways"
+  },
+  "overlays": {
+    "layerOrderTitle": "Layer order",
+    "layerOrderHint": "Drag to reorder. The top layer draws in front. A highlighted airspace always stays on top.",
+    "skyways": "Skyways",
+    "airspaces": "Airspaces",
+    "layer": "Layer",
+    "season": "Season",
+    "time": "Time",
+    "floor": "Floor",
+    "opacity": "Opacity · {value, number, percent}",
+    "skywaysType": {
+      "skyways": "Skyways",
+      "thermals": "Thermals"
+    },
+    "skywaysMonth": {
+      "all": "All year",
+      "jan": "Winter",
+      "apr": "Spring",
+      "jul": "Summer",
+      "oct": "Autumn"
+    },
+    "skywaysTime": {
+      "all": "All day",
+      "04": "Morning",
+      "07": "Midday",
+      "10": "Evening"
+    },
+    "floorAny": "Any",
+    "floorBelow": "Below {value} m",
+    "legendToggle": "{hidden, select, yes {Show {label} airspaces} other {Hide {label} airspaces}}",
+    "classGroup": "Class A-G",
+    "classGroupToggle": "{hidden, select, yes {Show class A-G airspaces} other {Hide class A-G airspaces}}",
+    "classLetter": "Class {letter}",
+    "legend": {
+      "prohibited": "Prohibited",
+      "restricted": "Restricted",
+      "danger": "Danger",
+      "tsa": "TSA",
+      "tra": "TRA",
+      "military": "Military",
+      "ctr": "CTR",
+      "atz": "ATZ",
+      "tma": "TMA / CTA",
+      "tmz": "TMZ",
+      "rmz": "RMZ",
+      "alert": "Alert / ADIZ",
+      "sport": "Gliding / sport",
+      "dynamicOpen": "Dynamic open",
+      "protected": "Protected",
+      "info": "FIR / info",
+      "other": "Other"
+    },
+    "airspaceHint": "Hover an airspace to see its vertical limits. Click a legend color to hide or show its airspaces.",
+    "pointsOfInterest": "Points of interest",
+    "airports": "Airports",
+    "peaks": "Mountain peaks",
+    "passes": "Mountain passes",
+    "takeoffs": "Takeoffs",
+    "landings": "Landings",
+    "zoomHint": "Zoom in to load nearby points.",
+    "attribution": "Skyways © thermal.kk7.ch · Airspaces © openAIP · POI © OpenStreetMap{sites, select, yes { · Sites © We-Fly} other {}}"
+  },
+  "openAirFile": {
+    "tooLarge": "Airspace file exceeds the 8 MB limit",
+    "loaded": "Loaded {count, plural, one {# airspace} other {# airspaces}} from {name}",
+    "readFailed": "Could not read this file.",
+    "yourFile": "{count, plural, one {# airspace} other {# airspaces}} · your file",
+    "useDefault": "Use default",
+    "load": "Load OpenAir file",
+    "hint": "Use your own <mono>.txt</mono> OpenAir airspace, parsed in your browser, never uploaded.",
+    "loadingAttached": "Loading the flight's airspace file…",
+    "attachedFailed": "This flight's airspace file could not be loaded, so no airspace is shown.",
+    "attachedToFlight": "{count, plural, one {# airspace} other {# airspaces}} · attached to this flight"
+  },
+  "airspaceCheck": {
+    "title": "Airspace check",
+    "run": "Run check",
+    "rerun": "Re-run",
+    "checkedSaved": "Checked {date}, saved, no need to re-run unless the flight or airspace data changed.",
+    "idleUser": "Check the flown track against your OpenAir file ({name}), computed in your browser.",
+    "idleDefault": "Check the flown track against openAIP controlled and restricted airspaces, computed in your browser.",
+    "failed": "The check failed: the airspace tiles could not be loaded. Try again.",
+    "noIncursions": "No airspace incursions detected on this flight.",
+    "selectDetails": "Select an incursion to open its full airspace details.",
+    "selectHighlight": "Select an incursion to highlight that portion of the flight on the map.",
+    "rowShowDetails": "Show full airspace details",
+    "rowClearHighlight": "Clear the highlight",
+    "rowHighlight": "Highlight this portion of the flight on the map",
+    "ground": "GND",
+    "band": "{floor} → {top}",
+    "durationSeconds": "{count} s",
+    "durationMinutes": "{count} min",
+    "segment": "{start} to {end} ({duration}) · max {altitude}",
+    "openAipTitle": "Official airspace description on openAIP (new tab)",
+    "openAipAria": "Official description of {name} on openAIP (opens in a new tab)",
+    "inactive": "Crossed but inactive at flight time (activation windows), so not flagged: {names}.",
+    "tilesFailed": "Some airspace tiles failed to load, so coverage is incomplete.",
+    "terrainMissing": "Terrain data is missing for parts of this track, so ground-referenced airspace limits may be under-reported.",
+    "disclaimer": "Class E and uncontrolled airspace are not flagged. {source, select, user {Your OpenAir file} other {openAIP data}}, informative only, never a substitute for official aeronautical information."
+  },
+  "airspaceInspector": {
+    "showDetails": "Show airspace details",
+    "clearHighlight": "Clear airspace highlight"
+  },
+  "airspaceList": {
+    "title": "Airspaces here",
+    "description": "{count, plural, one {# airspace} other {# airspaces}} at this point, highest first. {mode, select, selectDetails {Select adds one to your airspace list; Show highlights it on the map; the info button opens its full record.} select {Select adds one to your airspace list; Show highlights it on the map.} other {Select one to highlight it on the map.}}",
+    "selected": "Selected",
+    "select": "Select",
+    "show": "Show",
+    "viewDetailsAria": "View details for {name}",
+    "viewDetails": "View airspace details",
+    "fetching": "Fetching the full airspace outline…"
+  }
+}

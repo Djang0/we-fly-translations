@@ -107,7 +107,7 @@
       },
       "lowSaves": {
         "label": "Remontées de bas",
-        "tooltip": "Vraies remontées de bas : les moments où tu allais te poser (≥5 min de transition sans interruption, ≥200 m d’altitude perdue, point le plus bas <150 m sol au-dessus d’un terrain posable) et où un thermique t’a sauvé.",
+        "tooltip": "Vraies remontées de bas : les moments où tu allais te poser (≥5 min de transition sans interruption, ≥200 m d’altitude perdue, point le plus bas <150 m sol au-dessus d’un terrain posable) et où un thermique t’a sauvé.",
         "lowest": "· {value} au plus bas"
       }
     },
@@ -144,7 +144,7 @@
       },
       "avgQuality": {
         "title": "Note de qualité",
-        "description": "Qualité moyenne des thermiques : montée, centrage, régularité",
+        "description": "Qualité moyenne des thermiques : montée, centrage, régularité",
         "axis": "Note de qualité"
       },
       "ceiling": {
@@ -157,7 +157,7 @@
       "summary": "<b>{count, number}</b> {count, plural, one {vol montre} other {vols montrent}} un net changement de plafond (percée d’inversion ou baisse en fin de journée).",
       "viewList": "Voir la liste",
       "title": "Journées avec un net changement de plafond",
-      "description": "Vols où le plafond exploitable a bondi ou baissé en cours de journée : une inversion matinale qui cède, ou un surdéveloppement en fin de journée qui fait baisser l’altitude de travail. Clique sur une ligne pour ouvrir le vol.",
+      "description": "Vols où le plafond exploitable a bondi ou baissé en cours de journée : une inversion matinale qui cède, ou un surdéveloppement en fin de journée qui fait baisser l’altitude de travail. Clique sur une ligne pour ouvrir le vol.",
       "inversionBreak": "Percée d’inversion",
       "ceilingDecay": "Baisse du plafond"
     },
@@ -261,7 +261,7 @@
       "distance": "Distance",
       "trackLength": "longueur de trace",
       "longestFlight": "Vol le plus long",
-      "viewLongest": "Voir le vol le plus long : {duration}"
+      "viewLongest": "Voir le vol le plus long : {duration}"
     },
     "efficiency": {
       "title": "Efficacité en vol",
@@ -303,13 +303,13 @@
       "maxSpeed": "Vitesse max",
       "bestXcDistance": "Meilleure distance en cross",
       "bestXcScore": "Meilleur score cross",
-      "viewFlight": "Voir le vol avec {label} : {value}"
+      "viewFlight": "Voir le vol avec {label} : {value}"
     },
     "lowSave": {
       "label": "Remontée de bas la plus basse",
       "agl": "{unit} sol",
       "regained": "+{value} {unit} regagnés",
-      "ariaLabel": "Voir le vol de la remontée de bas la plus basse : {agl} au-dessus du sol{hasRecovery, select, yes { (+{recovery} regagnés)} other {}}"
+      "ariaLabel": "Voir le vol de la remontée de bas la plus basse : {agl} au-dessus du sol{hasRecovery, select, yes { (+{recovery} regagnés)} other {}}"
     },
     "performance": {
       "title": "Indicateurs de performance",
@@ -318,7 +318,7 @@
       "circleRadius": "Rayon méd. d’un tour",
       "gFactor": "Facteur de charge médian",
       "strongestThermal": "Pic du thermique le plus fort",
-      "viewStrongest": "Voir le vol du pic de thermique le plus fort : {value}"
+      "viewStrongest": "Voir le vol du pic de thermique le plus fort : {value}"
     }
   },
   "backfill": {

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Community Survey",
+    "description": "Help shape the future of We-Fly."
+  },
+  "noSurvey": {
+    "title": "No survey open right now",
+    "description": "There is no community survey running at the moment. Thanks for wanting to share your opinion. Check back soon!",
+    "back": "Back to your logbook"
+  },
+  "thanks": {
+    "title": "Thank you!",
+    "submitted": "Your answers are in. They directly shape what we build next. Thank you for taking the time.",
+    "already": "You already answered this survey. Your input is in good hands.",
+    "back": "Back to your logbook"
+  },
+  "intro": {
+    "meta": "~{minutes} minutes · {sections, plural, one {# short section} other {# short sections}}",
+    "anonymity": "At the end, you choose whether your answers stay anonymous or may be linked to your account.",
+    "start": "Start"
+  },
+  "progress": {
+    "last": "Last step",
+    "section": "Section {current} of {total}"
+  },
+  "privacy": {
+    "title": "Your privacy, your call",
+    "description": "By default your answers are stored anonymously, nothing links them to you. If you allow it, we link them to your account so we can read your feedback in context (flights logged, how long you've been around) and maybe follow up on a great idea.",
+    "linkLabel": "You may link my answers to my We-Fly account.",
+    "linkHint": "Optional. Leave unchecked to stay fully anonymous."
+  },
+  "nav": {
+    "back": "Back",
+    "next": "Next",
+    "sending": "Sending…",
+    "send": "Send my answers"
+  },
+  "optional": "(optional)",
+  "selectedCount": "{count}/{max} selected",
+  "prompt": {
+    "ariaLabel": "Community survey invitation",
+    "title": "Help shape the future of We-Fly",
+    "body": "Our community survey takes ~{minutes} minutes and directly drives what we build next. We'll only ask once.",
+    "dismissLabel": "Dismiss survey invitation",
+    "noThanks": "No thanks",
+    "take": "Take the survey"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "notAuthenticated": "Not authenticated",
+    "dismissFailed": "Failed to dismiss prompt",
+    "tooManyAttempts": "Too many attempts, try again later.",
+    "closed": "This survey is no longer open.",
+    "alreadyAnswered": "You already answered this survey. Thank you!",
+    "saveFailed": "Failed to save your answers. Please try again."
+  },
+  "definitions": {
+    "community-survey-2026": {
+      "title": "We-Fly Community Survey 2026",
+      "intro": "We-Fly is built for pilots, and you're the ones who know where it should go next. This short survey helps us understand what works, what doesn't, and what to build next. It takes about four minutes.",
+      "steps": {
+        "about-you": {
+          "title": "You & your flying",
+          "description": "A little context so we can read the answers right."
+        },
+        "satisfaction": {
+          "title": "How are we doing?"
+        },
+        "features": {
+          "title": "What you use"
+        },
+        "future": {
+          "title": "The future of We-Fly",
+          "description": "This is the part that directly shapes the roadmap."
+        },
+        "last-word": {
+          "title": "One last thing"
+        }
+      }
+    }
+  },
+  "questions": {
+    "experience": {
+      "title": "How long have you been flying paragliders?"
+    },
+    "usage-frequency": {
+      "title": "How often do you use We-Fly?"
+    },
+    "nps": {
+      "title": "How likely are you to recommend We-Fly to a fellow pilot?",
+      "minLabel": "Not at all likely",
+      "maxLabel": "Extremely likely"
+    },
+    "nps-why": {
+      "title": "What's the main reason for your score?",
+      "placeholder": "The honest version, please. Praise and gripes equally welcome."
+    },
+    "features-used": {
+      "title": "Which features do you use regularly?"
+    },
+    "favorite-feature": {
+      "title": "If you could keep only one feature, which would it be?"
+    },
+    "future-features": {
+      "title": "What would you most like to see next?",
+      "description": "Pick up to three."
+    },
+    "future-free": {
+      "title": "Anything else you'd love We-Fly to do?",
+      "description": "Wildest ideas welcome. This is the box we read twice.",
+      "placeholder": "Dream big…"
+    },
+    "away-reason": {
+      "title": "If you've been away from We-Fly for a while, what kept you away, and what would bring you back?",
+      "placeholder": "Skip this if you're a regular."
+    },
+    "anything-else": {
+      "title": "Anything else you'd like to tell us?"
+    }
+  },
+  "options": {
+    "experience": {
+      "lt1": "Less than a year",
+      "1-3": "1 to 3 years",
+      "4-10": "4 to 10 years",
+      "gt10": "More than 10 years"
+    },
+    "usage-frequency": {
+      "every-flight": "After almost every flight",
+      "monthly": "A few times a month",
+      "seasonal": "A few times a season",
+      "rarely": "Rarely, I'm just (re)discovering it"
+    },
+    "features": {
+      "logbook": "Logbook & flight maps",
+      "cockpit": "Cockpit flight analysis (thermals, wind, phases)",
+      "badges": "Badges & challenges",
+      "community": "Community statistics & rankings",
+      "clubs": "Clubs",
+      "takeoffs": "Takeoff finder & site pages",
+      "xc-planner": "XC planner (routes, tasks, airspace)",
+      "recap": "Season recap",
+      "sharing": "Sharing flights & pilot profiles",
+      "connectivity": "Instrument & cloud sync (WebDAV, Dropbox…)"
+    },
+    "future-features": {
+      "mobile-app": "Native mobile app",
+      "live-tracking": "Live tracking",
+      "weather": "Weather & flyability forecasts",
+      "competition": "Competition & task tools",
+      "social": "More social features (comments, follows)",
+      "progression": "Training & progression insights",
+      "airspace": "Deeper airspace tools",
+      "integrations": "More integrations (XContest, WeGlide…)",
+      "offline": "Offline support",
+      "i18n": "More languages"
+    }
+  }
+}

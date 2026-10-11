@@ -3,7 +3,7 @@
     "noDataTitle": "Pas de données Vector Vario",
     "noDataBody": "Ce vol a été enregistré avec un enregistreur IGC classique. Les données Vector Vario (vitesse air, facteur de charge, assiette, netto, etc. à la seconde) s’affichent ici quand l’IGC contient des enregistrements LXVV.",
     "loadFailedTitle": "Impossible de charger les échantillons Vector Vario",
-    "loadFailedBody": "{message}. Le résumé ci-dessus vient de la fiche du vol et reste juste ; seuls les graphiques à la seconde dépendent du fichier annexe.",
+    "loadFailedBody": "{message}. Le résumé ci-dessus vient de la fiche du vol et reste juste ; seuls les graphiques à la seconde dépendent du fichier annexe.",
     "unknownError": "Erreur inconnue"
   },
   "hero": {
@@ -26,7 +26,7 @@
     "s": "S",
     "w": "O"
   },
-  "noCompass": "Cet enregistreur n’a pas de compas, donc son vent à la seconde n’est pas une vraie mesure : dessiné en flèches, il suit simplement ta direction de déplacement. Va voir l’onglet Vent pour le vent que We-Fly déduit de la dérive de tes cercles.",
+  "noCompass": "Cet enregistreur n’a pas de compas, donc son vent à la seconde n’est pas une vraie mesure : dessiné en flèches, il suit simplement ta direction de déplacement. Va voir l’onglet Vent pour le vent que We-Fly déduit de la dérive de tes cercles.",
   "airspeed": {
     "title": "Vitesse air",
     "titleFull": "Vitesse air (IAS vs TAS)",
@@ -36,14 +36,14 @@
   "attitude": {
     "title": "Tangage et roulis",
     "empty": "Pas d’échantillon d’assiette sur ce vol.",
-    "description": "Tangage (nez vers le haut ou le bas) et roulis (inclinaison à gauche ou à droite). Un tangage positif, c’est nez en haut ; un roulis positif, c’est aile droite basse.",
+    "description": "Tangage (nez vers le haut ou le bas) et roulis (inclinaison à gauche ou à droite). Un tangage positif, c’est nez en haut ; un roulis positif, c’est aile droite basse.",
     "pitch": "Tangage",
     "roll": "Roulis"
   },
   "gforce": {
     "title": "Facteur de charge (G)",
     "empty": "Pas d’échantillon de facteur de charge sur ce vol.",
-    "description": "Mesuré au niveau de l’instrument. 1,00 G, c’est le vol droit en palier ; au-delà de 2 G, ce sont en général des virages serrés ou des ressources franches.",
+    "description": "Mesuré au niveau de l’instrument. 1,00 G, c’est le vol droit en palier ; au-delà de 2 G, ce sont en général des virages serrés ou des ressources franches.",
     "series": "Facteur de charge"
   },
   "heading": {
@@ -54,7 +54,7 @@
   "netto": {
     "title": "Netto (vent vertical)",
     "empty": "Pas d’échantillon de netto sur ce vol.",
-    "description": "La composante verticale de la masse d’air autour de toi, sans le taux de chute propre de la voile. Au-dessus de 0 {unit}, l’air monte ; en dessous, il descend.",
+    "description": "La composante verticale de la masse d’air autour de toi, sans le taux de chute propre de la voile. Au-dessus de 0 {unit}, l’air monte ; en dessous, il descend.",
     "lift": "Ascendance",
     "sink": "Descendance",
     "tooltip": "Netto"
@@ -62,7 +62,7 @@
   "tempHumidity": {
     "title": "Température et humidité",
     "empty": "Pas d’échantillon d’environnement sur ce vol.",
-    "description": "L’air ambiant au niveau de l’instrument. Double axe : température à gauche, humidité relative à droite.",
+    "description": "L’air ambiant au niveau de l’instrument. Double axe : température à gauche, humidité relative à droite.",
     "temperature": "Température",
     "humidity": "Humidité",
     "tooltipTemp": "Temp.",
@@ -72,7 +72,7 @@
     "titleEmpty": "Vent (mesuré)",
     "title": "Vent (mesuré à la seconde)",
     "empty": "Pas d’échantillon de vent direct sur ce vol.",
-    "descriptionCompass": "Force et provenance du vent mesurées par le Vector Vario à chaque point. La provenance suit la convention météo : le vent VIENT de cette direction.",
+    "descriptionCompass": "Force et provenance du vent mesurées par le Vector Vario à chaque point. La provenance suit la convention météo : le vent VIENT de cette direction.",
     "descriptionNoCompass": "Vent à la seconde fourni par l’enregistreur. Cet appareil n’a pas de compas, donc la direction a tendance à suivre ton cap plutôt que le vrai vent. Va voir l’onglet Vent pour l’estimation de We-Fly tirée de la dérive. La provenance suit la convention météo (vent qui VIENT de).",
     "speed": "Force du vent",
     "direction": "Direction du vent",
@@ -83,7 +83,7 @@
     "titleEmpty": "Carte du vent",
     "title": "Carte du vent (mesuré)",
     "emptyCoordinates": "Pas de coordonnées par échantillon sur ce vol (le fichier annexe Vector Vario est antérieur à la PR #6).",
-    "description": "Trace en gris ; {count, plural, one {# flèche de vent échantillonnée} other {# flèches de vent échantillonnées}} sur le vol. Les flèches pointent sous le vent ; la teinte tourne avec la direction, la longueur suit la force.",
+    "description": "Trace en gris ; {count, plural, one {# flèche de vent échantillonnée} other {# flèches de vent échantillonnées}} sur le vol. Les flèches pointent sous le vent ; la teinte tourne avec la direction, la longueur suit la force.",
     "from": "du {degrees}°"
   },
   "wind3d": {
@@ -92,19 +92,19 @@
     "description": "{points} points de trace et {arrows, plural, one {# flèche de vent} other {# flèches de vent}} dans une seule scène 3D. Fais glisser pour tourner, clic droit glissé pour déplacer, molette pour zoomer.",
     "loading": "Chargement de la scène 3D…",
     "controls": "Commandes",
-    "controlDrag": "• Glisser : tourner",
-    "controlRightDrag": "• Clic droit glissé : déplacer",
-    "controlScroll": "• Molette : zoomer",
+    "controlDrag": "• Glisser : tourner",
+    "controlRightDrag": "• Clic droit glissé : déplacer",
+    "controlScroll": "• Molette : zoomer",
     "sceneScale": "Échelle de la scène",
-    "trackLength": "Longueur de la trace : rayon d’environ {distance}",
-    "altitudeRange": "Altitude : {from}-{to} {unit}"
+    "trackLength": "Longueur de la trace : rayon d’environ {distance}",
+    "altitudeRange": "Altitude : {from}-{to} {unit}"
   },
   "polar": {
     "title": "Performances en transition",
     "emptyDescription": "Pas d’échantillon en transition sur ce vol. Les performances n’ont de sens qu’en plané stabilisé.",
     "emptyLabel": "Aucun échantillon (TAS, vario) en transition disponible.",
     "sparseDescription": "Seulement {samples} échantillons en transition, trop peu pour publier des percentiles par TAS. Le nuage de points est affiché à titre indicatif.",
-    "description": "Enveloppe observée sur {published} des {total} échantillons en transition, regroupés par tranches de TAS de {bin} km/h (au moins {min} échantillons par tranche). La bande grisée couvre le 10e au 90e percentile du vario pour chaque TAS ; la ligne pleine est la médiane. La ligne pointillée est la médiane du quartile au netto le plus bas de chaque tranche, ce qui se rapproche le plus de « ce que fait la voile en air calme » sans polaire constructeur.",
+    "description": "Enveloppe observée sur {published} des {total} échantillons en transition, regroupés par tranches de TAS de {bin} km/h (au moins {min} échantillons par tranche). La bande grisée couvre le 10e au 90e percentile du vario pour chaque TAS ; la ligne pleine est la médiane. La ligne pointillée est la médiane du quartile au netto le plus bas de chaque tranche, ce qui se rapproche le plus de « ce que fait la voile en air calme » sans polaire constructeur.",
     "bandSeries": "10e-90e percentile",
     "medianSeries": "Vario médian",
     "cleanAirSeries": "Médiane du quartile au netto le plus bas",
@@ -122,13 +122,13 @@
     "bestGlideLabelNone": "Meilleure finesse observée",
     "noGlide": "Aucune tranche n’a de vario médian négatif (chaque tranche de TAS était en ascendance nette)",
     "location": "à {speed} · {count, plural, one {# échantillon} other {# échantillons}}",
-    "spread": "10-90e pctl : {range}",
-    "spreadWithLift": "10-90e pctl : {range} (certains échantillons étaient en ascendance, donc pas de finesse finie)",
+    "spread": "10-90e pctl : {range}",
+    "spreadWithLift": "10-90e pctl : {range} (certains échantillons étaient en ascendance, donc pas de finesse finie)",
     "cleanAirSink": "{value} dans le quartile au netto bas",
     "cleanAirSinkAtTas": "{value} de chute à cette TAS dans le quartile au netto bas",
-    "cleanAirProxy": "Approximation air calme : {value}",
+    "cleanAirProxy": "Approximation air calme : {value}",
     "range": "{from} à {to}",
-    "caveat": "Ce que tu vois, ce sont les performances <em>pilote + voile + air</em> pendant les transitions de <em>ce</em> vol, pas la polaire publiée de la voile en air calme. Les tranches avec trop peu d’échantillons sont écartées, donc le graphique s’arrête visiblement là où s’arrêtent les données. Les cellules sont colorées selon le netto : bleues dans l’air descendant, chaudes dans l’air ascendant. La ligne pointillée agrège le quartile au netto bas de chaque tranche, la meilleure approximation empirique de la voile seule. Les rayons diagonaux gris sont des isolignes de finesse ; là où la ligne air calme en croise une, c’est la finesse que tu obtiendrais à cette TAS en air calme. <link>Lire le graphique en détail →</link>",
+    "caveat": "Ce que tu vois, ce sont les performances <em>pilote + voile + air</em> pendant les transitions de <em>ce</em> vol, pas la polaire publiée de la voile en air calme. Les tranches avec trop peu d’échantillons sont écartées, donc le graphique s’arrête visiblement là où s’arrêtent les données. Les cellules sont colorées selon le netto : bleues dans l’air descendant, chaudes dans l’air ascendant. La ligne pointillée agrège le quartile au netto bas de chaque tranche, la meilleure approximation empirique de la voile seule. Les rayons diagonaux gris sont des isolignes de finesse ; là où la ligne air calme en croise une, c’est la finesse que tu obtiendrais à cette TAS en air calme. <link>Lire le graphique en détail →</link>",
     "tooltipBin": "Tranche {speed}",
     "tooltipPercentiles": "P10-P90",
     "tooltipMedian": "Médiane",
@@ -142,9 +142,9 @@
     "title": "Émagramme Skew-T log-P",
     "empty": "Il faut au moins deux tranches d’altitude avec des échantillons de température pour tracer un profil Skew-T.",
     "description": "Température (chaud) et point de rosée (froid) en fonction de la pression, inclinés à 45°. L’air est instable là où le profil chaud penche plus fort vers la gauche que les adiabatiques sèches vertes, stable là où il penche moins. Les barbules de vent descendent le long du bord droit.",
-    "pointTitle": "{altitude} · {pressure} hPa\nTemp. : {temp}",
-    "pointDew": "\nRosée : {dew}",
-    "pointWind": "\nVent : {direction}° · {speed}",
+    "pointTitle": "{altitude} · {pressure} hPa\nTemp. : {temp}",
+    "pointDew": "\nRosée : {dew}",
+    "pointWind": "\nVent : {direction}° · {speed}",
     "pressureAxis": "Pression (hPa)",
     "altitudeAxis": "Altitude ({unit})",
     "temperatureAxis": "Température ({unit})",

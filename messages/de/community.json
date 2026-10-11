@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "hub": {
+      "title": "Community-Übersicht",
+      "description": "Was in der We-Fly-Community los ist: neueste Flüge, Rekorde der Woche und die meistgeflogenen Startplätze.",
+      "ogTitle": "Community-Übersicht · We-Fly"
+    },
+    "flights": {
+      "title": "Öffentliche Flüge",
+      "description": "Stöbere in Gleitschirmflügen, die die Community teilt. Detaillierte Tracks, Statistiken und Pilotenprofile aus aller Welt.",
+      "ogTitle": "Öffentliche Flüge · We-Fly"
+    },
+    "following": {
+      "title": "Ich folge",
+      "description": "Neueste Flüge der Piloten, denen du folgst."
+    },
+    "pilots": {
+      "title": "Pilotenverzeichnis",
+      "description": "Entdecke Piloten mit öffentlichem Profil. Suche nach Name, Ort oder Flugstatistik und vernetz dich mit der Gleitschirm-Community.",
+      "ogTitle": "Pilotenverzeichnis · We-Fly"
+    },
+    "leaderboard": {
+      "title": "Community-Rangliste",
+      "description": "Ranglisten, Rekorde, Aktivität und Schirmleistung aus öffentlichen Gleitschirmflügen der Community.",
+      "ogTitle": "Community-Rangliste · We-Fly"
+    },
+    "instruments": {
+      "title": "Instrumente",
+      "description": "Mit welchen Fluginstrumenten die Community fliegt: Apps oder Geräte, Marken, Firmware und Trends aus öffentlichen Gleitschirmflügen.",
+      "ogTitle": "Instrumente · We-Fly",
+      "ogDescription": "Mit welchen Fluginstrumenten die Community fliegt: Apps oder Geräte, Marken und Trends."
+    },
+    "challenges": {
+      "title": "Herausforderungen · We-Fly",
+      "description": "Mach bei den monatlichen Flug-Herausforderungen mit, miss dich mit der Community und sammle Abzeichen."
+    },
+    "challengeDetail": {
+      "title": "Herausforderung · We-Fly",
+      "description": "Details und Rangliste der Flug-Herausforderung."
+    },
+    "flightDetail": {
+      "title": "{pilot}: Flug ab {takeoff}",
+      "description": "Community-Flug am {date} • {distance} km • {duration} Flugdauer",
+      "ogTitle": "{title} · We-Fly",
+      "durationHm": "{hours} h {minutes} min",
+      "durationM": "{minutes} min",
+      "unknownPilot": "Unbekannter Pilot",
+      "unknownLocation": "Unbekannter Ort",
+      "notFoundTitle": "Flug nicht gefunden",
+      "notFoundDescription": "Diesen Flug gibt es nicht.",
+      "fallbackTitle": "Flugdetails",
+      "fallbackDescription": "Details eines Community-Flugs ansehen"
+    },
+    "pilotProfile": {
+      "title": "Profil von {pilot}",
+      "description": "Flüge, Statistik und Aktivität von {pilot} in der We-Fly-Community.",
+      "ogTitle": "{title} · We-Fly",
+      "unknownPilot": "Unbekannter Pilot",
+      "notFoundTitle": "Pilot nicht gefunden",
+      "notFoundDescription": "Dieses Pilotenprofil gibt es nicht.",
+      "notPublicDescription": "Dieses Pilotenprofil ist nicht verfügbar oder nicht öffentlich freigegeben.",
+      "fallbackTitle": "Pilotenprofil",
+      "fallbackDescription": "Pilotenprofil und Flugstatistik ansehen"
+    }
+  },
+  "hub": {
+    "weekRecords": {
+      "title": "Rekorde der Woche",
+      "caption": "Die besten Leistungen der letzten 7 Tage",
+      "empty": "Diese Woche noch keine Rekorde.",
+      "airTime": "{hours} h {minutes}",
+      "rows": {
+        "longestXc": "Längster Streckenflug",
+        "longestAirTime": "Längste Flugzeit",
+        "highestAltitude": "Größte Höhe"
+      }
+    },
+    "quickAccess": {
+      "title": "Entdecken",
+      "tiles": {
+        "takeoffs": {
+          "label": "Startplatz-Datenbank",
+          "description": "Entdecke Startplätze weltweit. Filtere nach Entfernung, Bedingungen und Flughistorie."
+        },
+        "flights": {
+          "label": "Alle öffentlichen Flüge",
+          "description": "Durchsuche und filtere alle geteilten Flüge der Community."
+        },
+        "searchFlights": {
+          "label": "Flüge auf der Karte suchen",
+          "description": "Wähle einen Startplatz und sieh alle Community-Flüge, die dort gestartet sind."
+        },
+        "pilots": {
+          "label": "Pilotenverzeichnis",
+          "description": "Finde Piloten nach Name, Gegend oder Flugstatistik."
+        },
+        "clubs": {
+          "label": "Vereine",
+          "description": "Stöbere in Vereinen und ihren Mitgliedern."
+        },
+        "leaderboard": {
+          "label": "Rangliste & Statistik",
+          "description": "Pilotenranglisten, Rekorde und tiefe Analysen."
+        },
+        "instruments": {
+          "label": "Instrumente",
+          "description": "Mit welchen Varios und Apps die Community fliegt: Apps oder Geräte, Marken und Trends."
+        },
+        "recap": {
+          "label": "Saisonrückblick",
+          "description": "Wie sich die ganze Community Jahr für Jahr entwickelt hat: Jahrgänge, Fluggebiete, Rekorde."
+        }
+      }
+    },
+    "privacyBanner": {
+      "title": "Dein Profil ist privat",
+      "body": "Mach dein Profil öffentlich, um im Verzeichnis zu erscheinen, deine Flüge zu teilen und in den Ranglisten mitzumischen.",
+      "goPublic": "Öffentlich machen"
+    },
+    "pulse": {
+      "flightsWeek": "Flüge diese Woche",
+      "hoursFlown": "Geflogene Stunden",
+      "distanceCovered": "Zurückgelegte Strecke",
+      "activePilots": "Aktive Piloten",
+      "thisMonth": "{value} diesen Monat",
+      "publicProfiles": "{count, plural, one {# öffentliches Profil} other {# öffentliche Profile}}"
+    },
+    "hotTakeoffs": {
+      "title": "Angesagte Startplätze",
+      "caption": "Die meistgeflogenen Startplätze dieser Woche",
+      "browse": "Alle ansehen →",
+      "empty": "Diese Woche keine Aktivität an Startplätzen.",
+      "pilots": "{count, plural, one {# Pilot} other {# Piloten}}"
+    },
+    "recentFlights": {
+      "title": "Neueste Flüge",
+      "caption": "Frische Tracks aus der Community",
+      "seeAll": "Alle ansehen →",
+      "empty": "Noch keine öffentlichen Flüge. Teil als Erster einen.",
+      "following": "Folge ich",
+      "tandem": "Tandem",
+      "date": {
+        "today": "Heute",
+        "yesterday": "Gestern",
+        "daysAgo": "vor {days} T."
+      }
+    },
+    "since": {
+      "none": "Keine Flüge",
+      "today": "Heute",
+      "daysAgo": "vor {days} T.",
+      "weeksAgo": "vor {weeks} Wo.",
+      "monthsAgo": "vor {months} Mon."
+    },
+    "followedTile": {
+      "latestFlight": "{name}: neuester Flug",
+      "profile": "{name}: Profil"
+    },
+    "suggestion": {
+      "fliesSite": "Fliegt in {site}",
+      "fliesYourSites": "Fliegt in deinen Fluggebieten",
+      "flightsThisMonth": "{count, plural, one {# Flug} other {# Flüge}} diesen Monat"
+    },
+    "strip": {
+      "suggestionsTitle": "Piloten zum Folgen",
+      "suggestionsHint": "Folge Piloten, um ihre Flüge immer griffbereit zu haben",
+      "followingTitle": "Piloten, denen du folgst",
+      "followingHint": "Piloten mit Ring sind diese Woche geflogen",
+      "theirFlights": "Ihre Flüge",
+      "more": "Mehr"
+    }
+  },
+  "leaderboard": {
+    "panelTitle": "{metric} · gesamt",
+    "updated": "Aktualisiert {when}",
+    "liveBadge": "live",
+    "metricLabel": "Kennzahl der Rangliste",
+    "metrics": {
+      "score": "XC-Punkte",
+      "distance": "XC-Strecke",
+      "hours": "Flugzeit"
+    },
+    "points": "{value} Pkt.",
+    "empty": "Noch keine gewerteten Flüge. Sicher dir als Erster einen Platz.",
+    "loadError": "Die Rangliste konnte gerade nicht geladen werden.",
+    "retry": "Erneut versuchen",
+    "columns": {
+      "pilot": "Pilot",
+      "result": "Ergebnis",
+      "flights": "Flüge",
+      "hours": "Stunden",
+      "xc": "XC {unit}"
+    },
+    "relative": {
+      "live": "live",
+      "justNow": "gerade eben",
+      "minutesAgo": "vor {count} min",
+      "hoursAgo": "vor {count} h",
+      "daysAgo": "vor {count} T."
+    }
+  },
+  "following": {
+    "day": {
+      "today": "Heute",
+      "yesterday": "Gestern"
+    },
+    "loadError": "Die Flüge konnten gerade nicht geladen werden. Versuch es gleich noch einmal.",
+    "emptyPilot": "{name} hat noch keinen Flug auf We-Fly geloggt.",
+    "emptyAll": "Die Piloten, denen du folgst, haben noch keinen Flug geloggt.",
+    "sharedTakeoff": "{count, plural, =2 {{names} sind beide von <strong>{takeoff}</strong> gestartet} other {{names} sind von <strong>{takeoff}</strong> gestartet}}",
+    "pilotsYouFollow": "Piloten, denen du folgst",
+    "allShort": "Alle",
+    "allPilots": "Alle Piloten",
+    "suggested": "Vorschläge",
+    "findMorePilots": "Weitere Piloten finden",
+    "everyone": "Alle",
+    "find": "Finden",
+    "showAllPilots": "Alle Piloten anzeigen",
+    "latestFlights": "Neueste Flüge",
+    "profile": "Profil",
+    "emptyTitle": "Folge Piloten, um ihre Flüge hier zu sehen",
+    "emptyBody": "Freunde, Vereinskollegen, die Locals an deinem Startplatz: Folge ihnen, und jeder Flug, den sie loggen, landet hier auf dieser Seite, nach Tagen sortiert und mit ihren Tracks.",
+    "browseAllPilots": "Alle Piloten ansehen"
+  },
+  "social": {
+    "follow": "Folgen",
+    "following": "Folge ich",
+    "unfollow": "Entfolgen",
+    "connections": "Verbindungen",
+    "followersTab": "Follower · {count}",
+    "followingTab": "Folgt · {count}",
+    "noFollowers": "Noch keine Follower.",
+    "noFollowing": "Folgt noch niemandem.",
+    "privateProfile": "Privates Profil",
+    "loading": "Wird geladen …",
+    "loadMore": "Mehr laden",
+    "fallbackPilot": "Pilot"
+  },
+  "pages": {
+    "hub": {
+      "eyebrow": "Community",
+      "title": "Community",
+      "subtitle": "Was gerade los ist: Piloten, Flüge und Fluggebiete auf We-Fly."
+    },
+    "following": {
+      "eyebrow": "Community",
+      "title": "Ich folge",
+      "subtitle": "Alle Flüge der Piloten, denen du folgst, die neuesten zuerst."
+    },
+    "leaderboard": {
+      "eyebrow": "Community",
+      "title": "Die Rangliste, über die dein Verein streitet.",
+      "subtitle": "Nur aus validierten IGC-Dateien berechnet: keine selbst gemeldeten Strecken."
+    },
+    "instruments": {
+      "eyebrow": "Community",
+      "title": "Womit die Community fliegt.",
+      "subtitle": "Jede IGC-Datei nennt das Instrument, das sie aufgezeichnet hat."
+    },
+    "pilotProfile": {
+      "privateTitle": "Privates Profil",
+      "privateBody": "Dieses Pilotenprofil ist privat. Der Pilot hat sein Profil nicht öffentlich freigegeben.",
+      "backToFlights": "Zurück zu den Community-Flügen"
+    }
+  },
+  "stats": {
+    "nav": {
+      "sectionsLabel": "Statistikbereiche",
+      "pulse": "Aktivität",
+      "records": "Rekorde",
+      "efficiency": "Effizienz",
+      "clubs": "Vereine",
+      "wings": "Schirme",
+      "insights": "Analysen",
+      "errorTitle": "Statistik konnte nicht geladen werden",
+      "errorHint": "Prüf deine Verbindung und versuch es noch einmal.",
+      "retry": "Erneut versuchen"
+    },
+    "pulse": {
+      "metrics": {
+        "flights": "Flüge",
+        "flightsUnit": "gesamt",
+        "airTime": "Flugzeit",
+        "airTimeUnit": "Stunden",
+        "xcDistance": "XC-Strecke",
+        "pilots": "Piloten",
+        "pilotsUnit": "aktiv",
+        "takeoffs": "Startplätze",
+        "takeoffsUnit": "Orte",
+        "countries": "Länder",
+        "countriesUnit": "Nationen"
+      },
+      "snapshot": {
+        "title": "Community auf einen Blick",
+        "caption": "Durchschnittswerte aus öffentlichen Flügen",
+        "avgThermal": "Ø Thermikstärke",
+        "direction": "Kurbelrichtung",
+        "directionValue": "{left} % L / {right} % R",
+        "soloRatio": "Solo-Anteil",
+        "soloValue": "{percent} % solo",
+        "commonType": "Häufigster Flugtyp",
+        "avgWind": "Ø Windgeschwindigkeit"
+      },
+      "launch": {
+        "title": "Startarten",
+        "caption": "Wie die Piloten in die Luft kommen",
+        "self": "Eigenstart",
+        "towed": "Schlepp",
+        "powered": "Motorisiert",
+        "driving": "Autofahrt",
+        "barAria": "{label}: {percent} %"
+      }
+    },
+    "records": {
+      "noData": "Noch keine Daten",
+      "scoreUnit": "Pkt.",
+      "cardAria": "{label}: {value} von {pilot}",
+      "cards": {
+        "longestFlight": "Längster Flug",
+        "highestAltitude": "Größte Höhe",
+        "greatestAltitudeGain": "Größter Höhengewinn",
+        "longestXcDistance": "Längste XC-Strecke",
+        "bestXcScore": "Beste XC-Punktzahl",
+        "strongestThermal": "Stärkster Bart",
+        "maxSpeed": "Höchstgeschwindigkeit"
+      }
+    },
+    "leaderboard": {
+      "title": "Top 10 Piloten",
+      "captionActivity": "Nach XC-Gesamtpunkten aus öffentlichen Flügen",
+      "captionEfficiency": "Nach Flugeffizienz (z-Wert normalisiert)",
+      "typeLabel": "Art der Rangliste",
+      "activity": "Aktivität",
+      "efficiency": "Effizienz",
+      "emptyTitle": "Noch keine Ranglistendaten",
+      "emptyHint": "Für die Rangliste braucht es öffentliche Flüge.",
+      "noActivity": "Noch keine Aktivitätsdaten verfügbar.",
+      "notEnoughPilots": "Nicht genug Piloten in der Wertung. Dafür braucht es mindestens 5 Streckenflüge.",
+      "efficiencyInfo": "Kombinierter z-Wert aus Strecke pro Stunde, Strecke pro Flug und Anzahl gewerteter Flüge. Fahr mit der Maus über eine Zeile für Details.",
+      "distancePerHour": "Strecke/h ({unit})",
+      "distancePerFlight": "Strecke/Flug ({unit})",
+      "qualifyingFlights": "Gewertete Flüge",
+      "zScore": "(z: {value})",
+      "colPilot": "Pilot",
+      "colFlights": "Flüge",
+      "colHours": "Stunden",
+      "colXcDistance": "XC {unit}",
+      "colXcScore": "XC-Punkte",
+      "colDistPerHour": "Str./h ({unit})",
+      "colDistPerFlight": "Str./Flug ({unit})"
+    },
+    "clubs": {
+      "empty": "Noch keine Vereine. Piloten können ihren Verein in ihrem Profil angeben.",
+      "title": "Vereine",
+      "caption": "Nach geflogener Gesamtstrecke",
+      "colClub": "Verein",
+      "colPilots": "Piloten",
+      "colFlights": "Flüge",
+      "colDistance": "Strecke ({unit})",
+      "colAirtime": "Flugzeit (h)"
+    },
+    "pilotFlights": {
+      "triggerAria": "Gewertete Flüge von {name} ansehen",
+      "title": "Gewertete Flüge von {name}",
+      "description": "Öffentliche Flüge mit mindestens 10 km XC-Strecke (ohne motorisierte Starts und Autofahrten), nach Datum sortiert.",
+      "loadError": "Flüge konnten nicht geladen werden. Bitte versuch es noch einmal.",
+      "none": "Keine gewerteten Flüge gefunden.",
+      "colDate": "Datum",
+      "colTakeoff": "Startplatz",
+      "colXcDistance": "XC {unit}",
+      "colXcScore": "XC-Punkte",
+      "colDuration": "Dauer",
+      "openFlight": "Flug öffnen"
+    },
+    "insights": {
+      "hoursSeries": "Stunden",
+      "empty": "Keine Daten verfügbar",
+      "cards": {
+        "flightsByMonth": {
+          "title": "Stunden pro Monat",
+          "description": "Die 10 Monate mit den meisten Flugstunden"
+        },
+        "flightsByDayOfWeek": {
+          "title": "Beliebte Tage",
+          "description": "An welchen Tagen die Piloten die meisten Stunden fliegen"
+        },
+        "topWings": {
+          "title": "Top-Schirme",
+          "description": "Die meistgeflogenen Schirmmodelle nach Stunden"
+        },
+        "topTakeoffs": {
+          "title": "Top-Startplätze",
+          "description": "Die beliebtesten Startplätze nach Stunden"
+        },
+        "topCountries": {
+          "title": "Top-Länder",
+          "description": "Länder mit den meisten Flugstunden"
+        },
+        "flightTypeDistribution": {
+          "title": "Flugtypen",
+          "description": "Verteilung der XC-Flugtypen nach Stunden"
+        }
+      }
+    },
+    "challenges": {
+      "active": "Aktive Herausforderungen",
+      "noActive": "Gerade keine aktiven Herausforderungen. Schau bald wieder vorbei!",
+      "recent": "Letzte Herausforderungen",
+      "viewAll": "Alle Herausforderungen ansehen"
+    }
+  },
+  "instruments": {
+    "kindApp": "App",
+    "kindDevice": "Gerät",
+    "noInstruments": "Noch keine Instrumente",
+    "pilotsUnit": "Piloten",
+    "flightsCount": "{count} Flüge",
+    "flightsUnit": "Flüge",
+    "loadError": "Die Instrumentenstatistik konnte nicht geladen werden.",
+    "retry": "Erneut versuchen",
+    "emptyTitle": "Noch keine Instrumentendaten",
+    "emptyHint": "Die Instrumentendaten werden beim Verarbeiten öffentlicher Flüge ausgelesen. Schau wieder vorbei, wenn mehr Flüge eingeordnet sind.",
+    "footnote": "Nur auf Basis öffentlicher Flüge. Die Instrumentennamen stammen direkt aus der jeweiligen IGC-Datei und werden automatisch gruppiert.",
+    "kind": {
+      "software": "App (Handy / Tablet)",
+      "device": "Eigenes Gerät",
+      "unknown": "Nicht erkannt"
+    },
+    "kpi": {
+      "flights": "Flüge",
+      "flightsSub": "eingeordnet",
+      "pilots": "Piloten",
+      "pilotsSub": "vertreten",
+      "instruments": "Instrumente",
+      "instrumentsSub": "Modelle & Apps",
+      "brands": "Marken",
+      "brandsSub": "Hersteller",
+      "software": "Apps",
+      "devices": "Geräte",
+      "ofFlights": "der Flüge"
+    },
+    "kindSplit": {
+      "title": "Apps oder Geräte",
+      "description": "Anteil der eingeordneten Flüge nach Instrumententyp",
+      "center": "{percent} der Flüge werden mit einer Handy- oder Tablet-App aufgezeichnet",
+      "empty": "Noch keine eingeordneten Flüge"
+    },
+    "platform": {
+      "title": "Worauf die Apps laufen",
+      "description": "Betriebssystem der App-Instrumente, nach Piloten",
+      "empty": "Noch keine App-Plattform erfasst"
+    },
+    "top": {
+      "title": "Meistgeflogene Instrumente",
+      "description": "Nach Anzahl verschiedener Piloten"
+    },
+    "brands": {
+      "title": "Top-Marken",
+      "description": "Verschiedene Piloten pro Hersteller",
+      "unit": "Piloten",
+      "empty": "Noch keine Marken"
+    },
+    "trend": {
+      "title": "Verbreitung im Lauf der Zeit",
+      "description": "Flüge pro Instrumentenmarke und Jahr",
+      "empty": "Noch nicht genug Verlauf"
+    },
+    "manufacturers": {
+      "title": "Herstellercodes",
+      "description": "Aus dem IGC-A-Datensatz, nach Flügen",
+      "empty": "Keine Codes erfasst"
+    },
+    "sensors": {
+      "title": "Drucksensoren",
+      "description": "Verwendete barometrische Sensoren, nach Flügen",
+      "empty": "Keine Sensoren erfasst"
+    },
+    "firmware": {
+      "title": "Firmware im Umlauf",
+      "description": "Häufigste Firmware-Versionen, nach Flügen",
+      "empty": "Keine Firmware erfasst"
+    }
+  },
+  "challenges": {
+    "card": {
+      "progress": "Fortschritt",
+      "topWin": "Top {count} gewinnen",
+      "yourBest": "Dein Bestwert: {value}",
+      "participants": "{count, plural, one {# Pilot} other {# Piloten}}",
+      "endsToday": "Endet heute",
+      "daysLeft": "{count, plural, one {noch # Tag} other {noch # Tage}}",
+      "ended": "Beendet",
+      "done": "Geschafft",
+      "active": "Aktiv",
+      "upcoming": "Demnächst"
+    },
+    "leaderboard": {
+      "empty": "Noch keine Teilnehmer. Sei der Erste!",
+      "you": "(du)",
+      "done": "Geschafft",
+      "units": {
+        "sites": "Fluggebiete",
+        "hours": "h",
+        "flights": "Flüge",
+        "countries": "Länder",
+        "days": "Tage"
+      }
+    },
+    "detail": {
+      "notFound": "Herausforderung nicht gefunden.",
+      "eyebrow": "Community · Herausforderungen",
+      "completed": "Geschafft",
+      "allChallenges": "Alle Herausforderungen",
+      "dateRange": "{start} bis {end}",
+      "daysLeft": "{count, plural, one {noch # Tag} other {noch # Tage}}",
+      "participants": "{count, plural, one {# Pilot} other {# Piloten}}",
+      "topWin": "Top {count} gewinnen",
+      "yourProgress": "Dein Fortschritt",
+      "yourBestScore": "Dein Bestwert",
+      "leaderboard": "Rangliste"
+    },
+    "view": {
+      "eyebrow": "Community",
+      "title": "Flug-Herausforderungen",
+      "subtitle": "Meistere Herausforderungen, klettere in der Rangliste nach oben, sammle Abzeichen.",
+      "emptyTitle": "Noch keine Herausforderungen",
+      "emptyHint": "Schau bald wieder vorbei, neue Herausforderungen sind unterwegs!",
+      "active": "Aktive Herausforderungen",
+      "upcoming": "Demnächst",
+      "past": "Vergangene Herausforderungen"
+    }
+  },
+  "pilots": {
+    "eyebrow": "Community",
+    "title": "Piloten",
+    "subtitle": "{profiles} öffentliche Profile · {matches} passen zu deinen Filtern.",
+    "pulse": {
+      "activeFortnight": "Aktiv in den letzten 2 Wochen",
+      "flights": "Community-Flüge",
+      "airtime": "Community-Flugzeit"
+    },
+    "hoursUnit": "h",
+    "hoursShort": "{value} h",
+    "searchPlaceholder": "Nach Name suchen",
+    "searchAria": "Piloten nach Name suchen",
+    "minFlights": "Min. Flüge",
+    "minFlightsAria": "Mindestanzahl an Flügen",
+    "sortBy": "Sortieren nach",
+    "sort": {
+      "recent": "Zuletzt aktiv",
+      "flights": "Meiste Flüge",
+      "airtime": "Meiste Flugzeit",
+      "longest": "Längster Streckenflug",
+      "name": "Name (A bis Z)"
+    },
+    "filter": {
+      "all": "Alle Piloten",
+      "active": "Aktiv",
+      "tandem": "Tandempiloten",
+      "new": "Neu in dieser Saison"
+    },
+    "clear": "Zurücksetzen",
+    "neverFlown": "noch nie geflogen",
+    "lastFlight": {
+      "today": "heute",
+      "yesterday": "gestern",
+      "daysAgo": "vor {count} T.",
+      "monthsAgo": "vor {count} Mon."
+    },
+    "tandemTag": "Tandem",
+    "wingUnknown": "Schirm unbekannt",
+    "since": "seit {year}",
+    "last12Months": "letzte 12 Monate",
+    "stats": {
+      "flights": "Flüge",
+      "airtime": "Flugzeit",
+      "bestXc": "Bester XC"
+    },
+    "pageOf": "Seite {page} von {total}",
+    "previousPage": "Vorherige Seite",
+    "nextPage": "Nächste Seite",
+    "empty": {
+      "title": "Kein Pilot passt zu diesen Filtern.",
+      "hint": "Setz die Mindestanzahl an Flügen herunter oder entferne die Filter oben.",
+      "clear": "Filter zurücksetzen"
+    },
+    "error": {
+      "title": "Piloten konnten nicht geladen werden",
+      "hint": "Bitte lade die Seite neu oder versuch es später noch einmal"
+    }
+  },
+  "flightsFilter": {
+    "searchPlaceholder": "Suchen …",
+    "noMatches": "Keine Treffer",
+    "searchAll": "Piloten, Fluggebiete, Schirme suchen …",
+    "clearSearch": "Suche löschen",
+    "all": "Alle",
+    "selected": "{count} ausgewählt",
+    "date": "Datum",
+    "pilot": "Pilot",
+    "site": "Fluggebiet",
+    "glider": "Schirm",
+    "launch": "Start",
+    "presets": {
+      "all": "Gesamter Zeitraum",
+      "today": "Heute",
+      "d7": "Letzte 7 Tage",
+      "d30": "Letzte 30 Tage",
+      "d90": "Letzte 90 Tage",
+      "year": "Letztes Jahr",
+      "custom": "Eigener"
+    },
+    "range": "{from} bis {to}",
+    "rangeFrom": "Ab {date}",
+    "rangeUntil": "Bis {date}",
+    "customRange": "Eigener Zeitraum …",
+    "presetsBack": "Vorgaben",
+    "pickDates": "Wähle ein Start- und ein Enddatum",
+    "clear": "Zurücksetzen",
+    "allPilots": "Alle Piloten",
+    "allSites": "Alle Fluggebiete",
+    "allGliders": "Alle Schirme",
+    "allLaunchTypes": "Alle Startarten",
+    "density": {
+      "compact": "Kompakt",
+      "comfortable": "Bequem",
+      "spacious": "Luftig"
+    },
+    "removeFilter": "Filter entfernen",
+    "launchChip": "Start: {type}",
+    "searchChip": "„{query}“",
+    "showing": "<n>{shown}</n> von <n>{total}</n> {count, plural, one {Flug} other {Flügen}} angezeigt",
+    "clearAll": "Alle zurücksetzen"
+  },
+  "flightsTable": {
+    "columns": {
+      "date": "Datum",
+      "pilot": "Pilot",
+      "takeoff": "Startplatz",
+      "glider": "Schirm",
+      "distance": "Strecke",
+      "duration": "Dauer",
+      "launch": "Start",
+      "quality": "Qualität",
+      "routeEfficiency": "Routeneff."
+    },
+    "gpsCorruption": "GPS-Fehler erkannt",
+    "preview": "Vorschau",
+    "hoverPreview": "Mit der Maus darüberfahren für eine Vorschau des Tracks",
+    "empty": "Keine Community-Flüge passen zu diesen Filtern.",
+    "loadingMore": "Weitere Flüge werden geladen …",
+    "allLoaded": "{count, plural, one {# Flug geladen.} other {Alle # Flüge geladen.}}",
+    "shownOf": "{shown} von {total}",
+    "sort": "Sortieren"
+  },
+  "flightsView": {
+    "eyebrow": "Community",
+    "title": "Community-Flüge",
+    "subtitleCount": "Was die anderen fliegen. {count, plural, one {# öffentlicher Flug} other {# öffentliche Flüge}} von Piloten, die das Teilen aktiviert haben.",
+    "subtitleEmpty": "Was die anderen fliegen. Stöbere in Flügen von Piloten, die das öffentliche Teilen aktiviert haben.",
+    "loading": "Community-Flüge werden geladen …"
+  },
+  "pulseStrip": {
+    "freeFlights": "Freiflüge",
+    "freeFlightsSub": "ohne Motorschirm & Autofahrt",
+    "activePilots": "Aktive Piloten",
+    "activePilotsSub": "mit geteiltem Profil",
+    "topSite": "Top-Fluggebiet",
+    "hoursFlown": "{hours} h geflogen",
+    "longestXc": "Längster Streckenflug"
+  },
+  "publicFlights": {
+    "columns": {
+      "date": "Datum",
+      "takeoff": "Startplatz",
+      "pilot": "Pilot",
+      "glider": "Schirm",
+      "distance": "Strecke",
+      "launchType": "Startart",
+      "type": "Typ",
+      "duration": "Dauer",
+      "quality": "Qualität",
+      "qualityDeviation": "Gleichmäßigkeit",
+      "thermalVzDeviation": "Turbulenz",
+      "avgGlideRatio": "Ø Gleitzahl",
+      "avgGlideSpeed": "Ø Gleitgeschwindigkeit",
+      "trackSpeed": "Track-Geschwindigkeit",
+      "scoringSpeed": "Wertungsgeschwindigkeit",
+      "routeEfficiency": "Routeneffizienz"
+    },
+    "hints": {
+      "qualityDeviation": "Standardabweichung der Qualitätswerte der Bärte in diesem Flug. Niedriger = gleichmäßigeres Steigen.",
+      "routeEfficiency": "Verhältnis von Wertungsdistanz zur gesamten Tracklänge. Aussagekräftiger bei Streckenflügen."
+    },
+    "gpsCorruption": "GPS-Fehler erkannt",
+    "gpsCorruptionHint": "Die IGC-Datei enthält fehlerhafte GPS-Daten. Wertungsdistanz und Tracklänge sind möglicherweise ungenau.",
+    "viewFlight": "Flug ansehen",
+    "pageTitle": "Community",
+    "loadError": "Fehler beim Laden der Community-Flüge",
+    "filters": "Filter",
+    "shownOfTotal": "{shown} / {total}",
+    "resetFilters": "Filter zurücksetzen",
+    "columnsMenu": "Spalten",
+    "noMatchTitle": "Keine Flüge passen zu deinen Filtern",
+    "noMatchHint": "Passe die aktiven Filter an oder setze sie zurück",
+    "clearFilters": "Filter zurücksetzen",
+    "empty": "Keine Community-Flüge gefunden.",
+    "loadingMore": "Weitere Flüge werden geladen …",
+    "allLoaded": "Alle Flüge geladen",
+    "filterDialog": {
+      "title": "Community-Flüge filtern",
+      "description": "Grenze die Liste der Community-Flüge mit Filtern ein",
+      "dateRange": "Zeitraum",
+      "pilot": "Pilot",
+      "pilotsSelected": "{count, plural, one {# Pilot ausgewählt} other {# Piloten ausgewählt}}",
+      "selectPilots": "Pilot(en) wählen",
+      "searchPilot": "Pilot suchen …",
+      "noPilot": "Kein Pilot gefunden.",
+      "glider": "Schirm",
+      "glidersSelected": "{count, plural, one {# Schirm ausgewählt} other {# Schirme ausgewählt}}",
+      "selectGliders": "Schirm(e) wählen",
+      "searchGlider": "Schirm suchen …",
+      "noGlider": "Kein Schirm gefunden.",
+      "takeoffSite": "Startplatz",
+      "sitesSelected": "{count, plural, one {# Startplatz ausgewählt} other {# Startplätze ausgewählt}}",
+      "selectSites": "Startplatz/Startplätze wählen",
+      "searchSite": "Startplatz suchen …",
+      "noSite": "Kein Startplatz gefunden.",
+      "flightTypes": "Flugtypen",
+      "selectFlightType": "Flugtyp wählen",
+      "allFlightTypes": "Alle Flugtypen",
+      "distanceRange": "Streckenbereich: {min} bis {max} {unit}",
+      "flightMode": "Flugmodus",
+      "all": "Alle",
+      "solo": "Solo",
+      "tandem": "Tandem",
+      "launchType": "Startart",
+      "reset": "Zurücksetzen",
+      "apply": "Filter anwenden"
+    }
+  }
+}

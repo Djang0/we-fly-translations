@@ -29,7 +29,7 @@
   },
   "safety": {
     "lead": "La sécurité d’abord.",
-    "text": "Les badges célèbrent ta progression : ne repousse jamais tes limites juste pour en décrocher un."
+    "text": "Les badges célèbrent ta progression : ne repousse jamais tes limites juste pour en décrocher un."
   },
   "entry": {
     "moreMilestones": "+ {count, plural, one {# palier de plus} other {# paliers de plus}}",

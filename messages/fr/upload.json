@@ -29,7 +29,7 @@
     "title": "Imports du jour",
     "parsedCount": "{count} sur {total} analysés",
     "progressAria": "Progression de l’import",
-    "progressValueAria": "Progression de l’import : {percent}",
+    "progressValueAria": "Progression de l’import : {percent}",
     "fileSize": "{size} Mo",
     "fileSizeParsed": "{size} Mo · Analysé",
     "queued": "En attente",
@@ -51,12 +51,12 @@
     "ignoredTooLarge": "{count, plural, one {# fichier ignoré (plus de {size} Mo).} other {# fichiers ignorés (plus de {size} Mo).}}",
     "noFilesInFolder": "Aucun fichier trouvé dans le ou les dossiers déposés",
     "waitRateLimit": "Attends la fin de la limite d’envoi avant d’ajouter d’autres fichiers.",
-    "retryUnavailable": "Impossible de réessayer : les données du fichier ne sont plus disponibles",
+    "retryUnavailable": "Impossible de réessayer : les données du fichier ne sont plus disponibles",
     "retrySucceeded": "{name} importé avec succès",
-    "retryFailed": "Nouvel essai échoué : {message}"
+    "retryFailed": "Nouvel essai échoué : {message}"
   },
   "rateLimit": {
-    "banner": "{count, plural, one {Limite d’import atteinte. # fichier en attente d’import automatique. NE RECHARGE PAS cette page : les imports reprendront tout seuls.} other {Limite d’import atteinte. # fichiers en attente d’import automatique. NE RECHARGE PAS cette page : les imports reprendront tout seuls.}}"
+    "banner": "{count, plural, one {Limite d’import atteinte. # fichier en attente d’import automatique. NE RECHARGE PAS cette page : les imports reprendront tout seuls.} other {Limite d’import atteinte. # fichiers en attente d’import automatique. NE RECHARGE PAS cette page : les imports reprendront tout seuls.}}"
   },
   "errors": {
     "statusFailed": "Échec de l’import (statut {status})",
@@ -82,7 +82,7 @@
     "tooLarge": "Requête trop volumineuse. Les fichiers IGC doivent faire moins de 3 Mo.",
     "noFile": "Aucun fichier importé",
     "invalidFile": "Les fichiers importés doivent être des .IGC de moins de 3 Mo (1,8 Mo, c’est un vol de 531 km).",
-    "insufficientFixes": "Pas assez de points GPS : {count} trames B trouvées (minimum {minimum})",
+    "insufficientFixes": "Pas assez de points GPS : {count} trames B trouvées (minimum {minimum})",
     "processFailed": "Impossible de traiter ce vol. Réessaie plus tard.",
     "uploaded": "Le fichier {name} a bien été importé",
     "internal": "Erreur interne du serveur"

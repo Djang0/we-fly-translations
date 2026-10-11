@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Place to be",
+    "description": "Die besten Fluggebiete der Community, Saison für Saison, gerankt nach Qualität, Aktivität, Community und Beständigkeit.",
+    "ogTitle": "Place to be - We-Fly",
+    "ogDescription": "Die besten Fluggebiete der Community, Saison für Saison."
+  },
+  "header": {
+    "eyebrow": "Community",
+    "title": "Place to be",
+    "subtitle": "Die besten Fluggebiete der Community, Saison für Saison."
+  },
+  "signals": {
+    "quality": "Qualität",
+    "consistency": "Beständigkeit",
+    "activity": "Aktivität",
+    "community": "Community",
+    "qualityShort": "Qualität",
+    "consistencyShort": "Best.",
+    "activityShort": "Aktivität",
+    "communityShort": "Comm."
+  },
+  "seasons": {
+    "winter": "Winter",
+    "spring": "Frühling",
+    "summer": "Sommer",
+    "autumn": "Herbst"
+  },
+  "time": {
+    "seasonLabel": "Saison",
+    "monthsLabel": "Monate",
+    "summary": "{label} · alle Jahre",
+    "weightsRail": "Gewichtung",
+    "weightsTooltip": "Score = gewichtete Summe, normiert innerhalb des Zeitfensters",
+    "weightSegment": "{label} · {weight, number, percent}",
+    "percent": "{value, number, percent}"
+  },
+  "board": {
+    "mapLoading": "Karte wird geladen…",
+    "legendRegion": "H3-r5-Region · ~250 km²",
+    "legendSelected": "Ausgewählt",
+    "regionsRanked": "Gerankte Regionen",
+    "explainerToggle": "So entsteht der Score",
+    "rankedCount": "{count, plural, one {# Region gerankt} other {# Regionen gerankt}}",
+    "noFlights": "Für dieses Zeitfenster wurden noch keine Flüge hochgeladen."
+  },
+  "explainer": {
+    "intro": "Vier Signale, gewichtet und addiert. Jedes wird innerhalb des gewählten Zeitfensters normiert, das Ranking zeigt also immer den Place to be <em>in genau diesem Zeitfenster</em>. Startplätze werden zu H3-Regionen von <mono>~250 km²</mono> zusammengefasst, damit Berge mit vielen Startplätzen nicht benachteiligt werden.",
+    "qualityDesc": "Median der XContest-Punkte pro Flug.",
+    "consistencyDesc": "Anteil der fliegbaren Tage, an denen in der Region geflogen wurde.",
+    "activityDesc": "Anzahl der Flüge in der Region.",
+    "communityDesc": "Verschiedene Piloten, damit kein Einzelpilot das Ergebnis verzerrt.",
+    "minimumSample": "Mindestmenge: <mono>{flights, plural, one {# Flug} other {# Flüge}} · {pilots, plural, one {# Pilot} other {# Piloten}}</mono>. Darunter landet eine Region in der <em>ruhigen Schublade</em>."
+  },
+  "rank": {
+    "empty": "In diesem Zeitfenster hat keine Region die Mindestmenge erreicht. Versuch eine längere Saison oder schau dir unten die ruhigen Regionen an.",
+    "aggregates": "Fasst {count, plural, one {# Startplatz} other {# Startplätze}} der Region zusammen",
+    "flights": "<v>{count}</v> {count, plural, one {Flug} other {Flüge}}",
+    "pilots": "<v>{count}</v> {count, plural, one {Pilot} other {Piloten}}",
+    "median": "Median <v>{value}</v>",
+    "score": "Score"
+  },
+  "quiet": {
+    "title": "Zu ruhig fürs Ranking",
+    "count": "{count, plural, one {# Region} other {# Regionen}}",
+    "explain": "Diese Regionen gibt es, aber im Zeitfenster wurden weniger als <mono>{flights, plural, one {# Flug} other {# Flüge}}</mono> oder <mono>{pilots, plural, one {# Pilot} other {# Piloten}}</mono> geloggt. Sie bleiben außen vor, damit nicht ein einziger Top-Flug alles dominiert.",
+    "rowTitle": "{name} · {flights, plural, one {# Flug} other {# Flüge}} · {pilots, plural, one {# Pilot} other {# Piloten}}",
+    "flightsShort": "{count} Fl."
+  },
+  "detail": {
+    "close": "Details schließen",
+    "more": "+{count} weitere",
+    "regionKind": "Region · H3 r5",
+    "breakdown": "Zusammensetzung des Scores",
+    "takeoffsTitle": "Startplätze in dieser Region",
+    "anchor": "Hauptstartplatz",
+    "anchorTooltip": "Hauptstartplatz, die meisten Flüge der Region",
+    "topFlight": "Top-Flug in diesem Zeitfenster",
+    "noTopFlight": "Kein herausragender Flug erfasst.",
+    "wind": "Wind",
+    "ceiling": "Basis",
+    "launch": "Start",
+    "asl": "{unit} MSL",
+    "typical": "typisch",
+    "openTakeoff": "Startplatzseite öffnen"
+  },
+  "teaser": {
+    "title": "Place to be",
+    "subtitle": "{season}: Top-Regionen, alle Jahre",
+    "browse": "Ansehen",
+    "empty": "Noch nicht genug Aktivität für ein Ranking dieser Saison.",
+    "stats": "{flights, plural, one {# Flug} other {# Flüge}} · {pilots, plural, one {# Pilot} other {# Piloten}} · Q{quality} · A{activity}"
+  }
+}

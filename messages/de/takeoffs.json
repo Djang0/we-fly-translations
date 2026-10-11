@@ -1,0 +1,327 @@
+{
+  "viewToggle": {
+    "label": "Ansicht der Startplätze",
+    "map": "Karte",
+    "list": "Liste",
+    "favorites": "Favoriten"
+  },
+  "weather": {
+    "wind": "Wind",
+    "gusts": "Böen {value}",
+    "speedFrom": "{speed} aus {dir}",
+    "speedFromGusts": "{speed} aus {dir}, Böen {gusts}",
+    "ariaLabel": "Windbedingungen: {status}. {reason}. {speed} aus {dir}.",
+    "justNow": "gerade eben",
+    "minutesAgo": "vor {count} min",
+    "hoursAgo": "vor {count} h",
+    "status": {
+      "flyable": "Fliegbar",
+      "marginal": "Grenzwertig",
+      "unflyable": "Nicht fliegbar",
+      "calm": "Windstill"
+    }
+  },
+  "card": {
+    "unknownLocation": "Unbekannter Ort",
+    "viewAria": "{name}, {country} ansehen",
+    "windTitle": "{reason}: {speed} {dir}",
+    "checkWind": "Windbedingungen prüfen",
+    "removeFavorite": "Aus Favoriten entfernen",
+    "addFavorite": "Zu Favoriten hinzufügen"
+  },
+  "favorites": {
+    "checking": "Bedingungen werden geprüft…",
+    "noneFlyable": "Gerade ist keiner deiner Favoriten fliegbar.",
+    "emptyTitle": "Noch keine Lieblingsstartplätze",
+    "emptyBody": "Startplätze, von denen du schon geflogen bist, werden automatisch Favoriten. Du kannst auch jeden Startplatz auf seiner Detailseite hinzufügen.",
+    "listLabel": "Lieblingsstartplätze"
+  },
+  "filters": {
+    "searchPlaceholder": "Startplätze suchen: Name, Region, Land…",
+    "searchAria": "Startplätze nach Name, Land oder Beschreibung suchen",
+    "clearSearch": "Suche löschen",
+    "disableLocation": "Standortfilter ausschalten",
+    "enableLocation": "Standortfilter einschalten",
+    "nearby": "In der Nähe",
+    "sortingByDistance": "Sortiert nach Entfernung zu deinem Standort",
+    "sortByDistance": "Nach Entfernung zu deinem Standort sortieren",
+    "within": "Umkreis",
+    "distanceAria": "Entfernung in Kilometern",
+    "flyableNow": "Jetzt fliegbar",
+    "sortAria": "Startplätze sortieren",
+    "clearAll": "Alle Filter löschen",
+    "clear": "Löschen",
+    "sort": {
+      "nameAsc": "Name A→Z",
+      "nameDesc": "Name Z→A",
+      "bearingAsc": "Ausrichtung aufsteigend",
+      "bearingDesc": "Ausrichtung absteigend",
+      "countryAsc": "Land A→Z",
+      "countryDesc": "Land Z→A",
+      "elevationAsc": "Höhe niedrig→hoch",
+      "elevationDesc": "Höhe hoch→niedrig"
+    }
+  },
+  "results": {
+    "loadFailed": "Startplätze konnten nicht geladen werden",
+    "tryAgain": "Bitte versuch es noch einmal",
+    "retry": "Erneut versuchen",
+    "flyableNowCount": "{count, number} jetzt fliegbar",
+    "checkingCount": "{count, number} werden geprüft",
+    "siteCount": "{count, plural, one {# Startplatz} other {# Startplätze}}",
+    "updating": "Wird aktualisiert",
+    "emptyTitle": "Keine Startplätze gefunden",
+    "noResults": "Keine Ergebnisse für „{search}“",
+    "adjustFilters": "Versuch, deine Filter anzupassen",
+    "clearFilters": "Filter löschen",
+    "listLabel": "Startplätze",
+    "colElevation": "Höhe",
+    "colSite": "Startplatz",
+    "colWind": "Wind",
+    "colWindow": "Windfenster",
+    "allChecked": "Alle {count, number} Startplätze geprüft",
+    "allLoaded": "Alle {count, number} Startplätze geladen",
+    "loadMore": "Mehr laden"
+  },
+  "page": {
+    "loadingMap": "Karte wird geladen…",
+    "locationDenied": "Standortzugriff verweigert",
+    "geolocationUnsupported": "Standortbestimmung wird nicht unterstützt",
+    "subtitleFavorites": "{count, plural, one {# Lieblingsstartplatz} other {# Lieblingsstartplätze}}",
+    "subtitleCommunity": "{count, number} Startplätze der Community",
+    "subtitleDefault": "Startplätze der Community",
+    "loading": "Wird geladen…",
+    "eyebrow": "Startplätze der Community",
+    "title": "Startplätze"
+  },
+  "mapView": {
+    "loadingMap": "Karte wird geladen…",
+    "count": "{count, plural, one {<b>#</b> Startplatz} other {<b>#</b> Startplätze}}",
+    "countFlyable": "{count, plural, one {<b>#</b> Startplatz} other {<b>#</b> Startplätze}} jetzt fliegbar",
+    "countInView": "{count, plural, one {<b>#</b> Startplatz} other {<b>#</b> Startplätze}} im Ausschnitt",
+    "checking": "{count, number} werden geprüft",
+    "clickToFocus": "Zum Fokussieren klicken",
+    "noMatch": "Kein Startplatz passt. Versuch, deine Filter zu lockern.",
+    "removeFavorite": "Aus Favoriten entfernen",
+    "addFavorite": "Zu Favoriten hinzufügen",
+    "open": "Öffnen"
+  },
+  "map": {
+    "loading": "Startplätze werden geladen...",
+    "youAreHere": "Du bist hier",
+    "elevationAsl": "{altitude} MSL",
+    "facing": "Ausrichtung: {bearing}",
+    "zoomForFlyable": "Hineinzoomen, um nur fliegbare Startplätze zu zeigen"
+  },
+  "detail": {
+    "back": "Zurück",
+    "siteType": {
+      "takeoff": "Startplatz",
+      "landing": "Landeplatz",
+      "parking": "Parkplatz"
+    },
+    "favorites": {
+      "add": "Zu Favoriten hinzufügen",
+      "remove": "Aus Favoriten entfernen"
+    },
+    "copyCoordinates": "Koordinaten kopieren",
+    "share": "Teilen",
+    "rename": "Umbenennen",
+    "toast": {
+      "elevationUpdated": "Höhe aktualisiert: {value}",
+      "elevationFailed": "Höhe konnte nicht abgerufen werden",
+      "elevationRetry": "Höhe konnte nicht abgerufen werden. Bitte versuch es noch einmal.",
+      "locationUpdated": "Ortsdaten erfolgreich aktualisiert",
+      "geocodingFailed": "Geodaten konnten nicht abgerufen werden",
+      "geocodingRetry": "Geodaten konnten nicht abgerufen werden. Bitte versuch es noch einmal.",
+      "coordinatesCopied": "Koordinaten kopiert",
+      "linkCopied": "Link kopiert"
+    },
+    "stats": {
+      "elevation": "Höhe MSL",
+      "orientation": "Ausrichtung",
+      "windFrom": "Wind aus dieser Richtung",
+      "loggedFlights": "Geloggte Flüge",
+      "atThisSite": "{kind, select, landing {an diesem Landeplatz} parking {an diesem Parkplatz} other {an diesem Startplatz}}",
+      "coordinates": "Koordinaten",
+      "latLon": "Breite · Länge",
+      "timezone": "Zeitzone",
+      "coordinatesPair": "{lat}; {lon}"
+    },
+    "siteTypeHeading": "Art des Platzes",
+    "landingDescription": "Hier landen Piloten üblicherweise. Prüf vorher Hindernisse, Windrichtung und ob der Landwirt einverstanden ist.",
+    "parkingDescription": "Ein in der Community bekannter Parkplatz oder Treffpunkt in der Nähe eines Fluggebiets.",
+    "map": {
+      "title": "Lageplan",
+      "collapseMap": "Karte einklappen",
+      "expandMap": "Karte ausklappen",
+      "collapse": "Einklappen",
+      "expand": "Ausklappen",
+      "openFullscreen": "Karte im Vollbild öffnen"
+    },
+    "community": {
+      "label": "Community",
+      "summary": "<b>{count, plural, one {# Flug} other {# Flüge}}</b> hier geloggt. Die letzten Aktivitäten findest du unten.",
+      "view": "Zur Community →"
+    },
+    "footer": {
+      "base": "Startplatzdaten von <psLink>paraglidingspots.com</psLink>. Prüf vor dem Fliegen immer die örtlichen Regeln, die Vorgaben des Fluggebiets und die Luftraumbestimmungen.",
+      "withOsm": "Startplatzdaten von <psLink>paraglidingspots.com</psLink> · Ortsdaten © <osmLink>OpenStreetMap-Mitwirkende</osmLink>. Prüf vor dem Fliegen immer die örtlichen Regeln, die Vorgaben des Fluggebiets und die Luftraumbestimmungen."
+    },
+    "siteInfo": {
+      "title": "Infos zum Fluggebiet",
+      "subtitle": "Community-Infos von paraglidingspots.com"
+    },
+    "sections": {
+      "map": "Karte",
+      "rules": "Regeln",
+      "analytics": "Statistik",
+      "recentFlights": "Letzte Flüge",
+      "navLabel": "Abschnitte der Seite",
+      "onThisPage": "Auf dieser Seite"
+    },
+    "fullscreen": {
+      "title": "Karte im Vollbild",
+      "close": "Schließen"
+    },
+    "scoringTypes": {
+      "free_flight": "Freie Strecke",
+      "flat_triangle": "Geschlossenes FAI-Δ",
+      "fai_triangle": "FAI-Δ",
+      "free_triangle": "Geschlossenes freies Δ"
+    },
+    "conditions": {
+      "title": "Aktuelle Bedingungen",
+      "justNow": "gerade eben",
+      "minutesAgo": "vor {count} min",
+      "hoursAgo": "vor {count} h",
+      "unavailable": "Keine Live-Winddaten verfügbar",
+      "statusWithReason": "{status}: {reason}",
+      "status": {
+        "flyable": "Fliegbar",
+        "marginal": "Grenzwertig",
+        "unflyable": "Nicht fliegbar",
+        "calm": "Schwacher Wind"
+      },
+      "reason": {
+        "gustsTooStrong": "Böen {speed}, zu stark",
+        "windTooStrong": "Wind {speed}, zu stark",
+        "lightWind": "Schwacher Wind, Thermikfliegen möglich",
+        "bearingUnknown": "Ausrichtung des Startplatzes unbekannt",
+        "strongWindBearingUnknown": "Starker Wind, Ausrichtung des Startplatzes unbekannt",
+        "favorable": "Windrichtung passt",
+        "crosswind": "Seitenwind, Vorsicht",
+        "tailwind": "Rückenwind oder starker Seitenwind"
+      },
+      "gusts": "Böen <b>{value}</b>",
+      "siteFaces": "Startrichtung <b>{bearing}</b>",
+      "wind": "Wind",
+      "gustsLabel": "Böen",
+      "temp": "Temp.",
+      "source": "Quelle · {station}"
+    },
+    "analytics": {
+      "title": "Statistik des Startplatzes",
+      "subtitleCounted": "Ausgewertet aus {count, plural, one {# geloggten Flug} other {# geloggten Flügen}}. Die Zahlen sind Mediane der Community.",
+      "subtitleEmpty": "Ausgewertet aus den an diesem Startplatz geloggten Flügen.",
+      "emptyMonth": "Im {month} wurden an diesem Startplatz keine Flüge erfasst.",
+      "empty": "An diesem Startplatz wurden noch keine Flüge erfasst.",
+      "totalFlights": "Flüge gesamt",
+      "peakSub": "Spitze im {month} · {count, plural, one {# Flug} other {# Flüge}}",
+      "medianDuration": "Median Flugdauer",
+      "medianXc": "Median XC",
+      "best": "Bestwert {value}",
+      "maxAltitude": "Max. Höhe",
+      "median": "Median {value}",
+      "flightsByMonth": "Flüge nach Monat",
+      "peakLine": "Spitze · {month} ({count, plural, one {# Flug} other {# Flüge}})",
+      "flightsPerMonth": "Flüge pro Monat",
+      "barTitle": "{month}: {count, plural, one {# Flug} other {# Flüge}}",
+      "typeBreakdown": "Flüge nach Wertungsart",
+      "noScored": "Noch keine gewerteten Flüge.",
+      "peakLaunchHour": "Häufigste Startzeit",
+      "hourWithCount": "{hour} · {count, plural, one {# Flug} other {# Flüge}}",
+      "topXcTitle": "Top-Streckenflüge",
+      "topXcSubtitle": "Die weitesten Streckenflüge, die je von diesem Startplatz geloggt wurden.",
+      "unknownPilot": "Unbekannter Pilot"
+    },
+    "recent": {
+      "title": "Letzte Flüge",
+      "subtitle": "{shown} von {total}, {sort}.",
+      "subtitleEmpty": "Hier wurden noch keine Flüge geloggt.",
+      "sortSummary": {
+        "date": {
+          "descending": "neueste zuerst",
+          "ascending": "älteste zuerst"
+        },
+        "distance": {
+          "descending": "weiteste zuerst",
+          "ascending": "kürzeste zuerst"
+        },
+        "pilot": {
+          "ascending": "nach Pilot aufsteigend sortiert",
+          "descending": "nach Pilot absteigend sortiert"
+        },
+        "glider": {
+          "ascending": "nach Schirm aufsteigend sortiert",
+          "descending": "nach Schirm absteigend sortiert"
+        },
+        "type": {
+          "ascending": "nach Art aufsteigend sortiert",
+          "descending": "nach Art absteigend sortiert"
+        }
+      },
+      "searchPlaceholder": "Pilot, Schirm, Art…",
+      "searchLabel": "Flüge suchen",
+      "clearSearch": "Suche löschen",
+      "columns": {
+        "date": "Datum",
+        "pilot": "Pilot",
+        "glider": "Schirm",
+        "distance": "Strecke",
+        "type": "Art"
+      },
+      "loading": "Flüge werden geladen…",
+      "error": "Flüge konnten nicht geladen werden, versuch es später noch einmal.",
+      "noMatch": "Kein Flug passt zu deiner Suche.",
+      "none": "An diesem Startplatz gibt es noch keine Flüge.",
+      "unknownPilot": "Unbekannter Pilot",
+      "footerCount": "{shown} / {total} Flüge",
+      "loadingMore": "Wird geladen…",
+      "loadMore": "Mehr laden",
+      "sortBy": "Nach {label} sortieren",
+      "sortByActive": "Nach {label} sortieren, {dir}",
+      "dir": {
+        "ascending": "aufsteigend",
+        "descending": "absteigend"
+      }
+    }
+  },
+  "meta": {
+    "title": "Startplätze",
+    "description": "Entdecke Startplätze zum Gleitschirmfliegen. Such nach Entfernung oder Name, oder stöbere in allen Startplätzen weltweit.",
+    "ogTitle": "Startplätze - We-Fly"
+  },
+  "og": {
+    "eyebrow": "Community-Datenbank",
+    "titleLine1": "Gleitschirm-",
+    "titleLine2": "Startplätze.",
+    "subtitle": "Entdecke über 18.000 Startplätze weltweit. Such nach Ort, Wind und Höhe.",
+    "fallbackName": "Gleitschirm-Startplatz",
+    "chip": "Startplatz",
+    "elevation": "{value} m"
+  },
+  "detailMeta": {
+    "notFoundTitle": "Startplatz nicht gefunden",
+    "notFoundDescription": "Diesen Startplatz gibt es nicht.",
+    "unknownName": "Unbekannter Startplatz",
+    "title": "{name} | Gleitschirm-Startplatz",
+    "titleWithCountry": "{name} | Gleitschirm-Startplatz in {country}",
+    "intro": "Gleitschirm-Startplatz",
+    "introWithCountry": "Gleitschirm-Startplatz in {country}",
+    "atElevation": "auf {elevation} Höhe",
+    "facing": "ausgerichtet nach {bearing}",
+    "callToAction": "Bedingungen, Statistik und Flughistorie auf We-Fly ansehen",
+    "fallbackSchemaName": "Gleitschirm-Startplatz"
+  }
+}

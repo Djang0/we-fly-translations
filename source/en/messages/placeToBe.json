@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Place to be",
+    "description": "Browse the community's best paragliding sites season by season, ranked by quality, activity, community and consistency.",
+    "ogTitle": "Place to be - We-Fly",
+    "ogDescription": "Browse the community's best paragliding sites season by season."
+  },
+  "header": {
+    "eyebrow": "Community",
+    "title": "Place to be",
+    "subtitle": "The community's best sites, season by season."
+  },
+  "signals": {
+    "quality": "Quality",
+    "consistency": "Consistency",
+    "activity": "Activity",
+    "community": "Community",
+    "qualityShort": "Quality",
+    "consistencyShort": "Cons.",
+    "activityShort": "Activity",
+    "communityShort": "Comm."
+  },
+  "seasons": {
+    "winter": "Winter",
+    "spring": "Spring",
+    "summer": "Summer",
+    "autumn": "Autumn"
+  },
+  "time": {
+    "seasonLabel": "Season",
+    "monthsLabel": "Months",
+    "summary": "{label} · all years",
+    "weightsRail": "Score weights",
+    "weightsTooltip": "Score = weighted sum, normalised inside the window",
+    "weightSegment": "{label} · {weight, number, percent}",
+    "percent": "{value, number, percent}"
+  },
+  "board": {
+    "mapLoading": "Loading map…",
+    "legendRegion": "H3 r5 region · ~250 km²",
+    "legendSelected": "Selected",
+    "regionsRanked": "Regions ranked",
+    "explainerToggle": "How the score is built",
+    "rankedCount": "{count, plural, one {# region ranked} other {# regions ranked}}",
+    "noFlights": "No flights uploaded for this window yet."
+  },
+  "explainer": {
+    "intro": "Four signals, weighted and added. Each is normalised inside the window you picked, so the ranking always tells you the place to be <em>during that window</em>. Takeoffs are grouped into <mono>~250 km²</mono> H3 regions so mountains with many launches aren't penalised.",
+    "qualityDesc": "Median XContest score per flight.",
+    "consistencyDesc": "% of flyable days the region produced a flight.",
+    "activityDesc": "Number of flights in the region.",
+    "communityDesc": "Unique pilots, guarding against one-pilot anomalies.",
+    "minimumSample": "Minimum sample: <mono>{flights, plural, one {# flight} other {# flights}} · {pilots, plural, one {# pilot} other {# pilots}}</mono>. Below that, a region lives in the <em>quiet drawer</em>."
+  },
+  "rank": {
+    "empty": "No region scored above the gate for this window. Try widening the season, or peek at the quiet regions below.",
+    "aggregates": "Aggregates {count, plural, one {# takeoff} other {# takeoffs}} in the region",
+    "flights": "<v>{count}</v> {count, plural, one {flight} other {flights}}",
+    "pilots": "<v>{count}</v> {count, plural, one {pilot} other {pilots}}",
+    "median": "median <v>{value}</v>",
+    "score": "score"
+  },
+  "quiet": {
+    "title": "Too quiet to rank",
+    "count": "{count, plural, one {# region} other {# regions}}",
+    "explain": "These regions exist but logged fewer than <mono>{flights, plural, one {# flight} other {# flights}}</mono> or <mono>{pilots, plural, one {# pilot} other {# pilots}}</mono> in the window. Held back so one great flight can't dominate.",
+    "rowTitle": "{name} · {flights, plural, one {# flight} other {# flights}} · {pilots, plural, one {# pilot} other {# pilots}}",
+    "flightsShort": "{count}f"
+  },
+  "detail": {
+    "close": "Close detail",
+    "more": "+{count} more",
+    "regionKind": "region · H3 r5",
+    "breakdown": "Score breakdown",
+    "takeoffsTitle": "Takeoffs in this region",
+    "anchor": "Anchor",
+    "anchorTooltip": "Anchor takeoff, most flights in the region",
+    "topFlight": "Top flight in this window",
+    "noTopFlight": "No standout flight recorded.",
+    "wind": "Wind",
+    "ceiling": "Ceiling",
+    "launch": "Launch",
+    "asl": "{unit} ASL",
+    "typical": "typical",
+    "openTakeoff": "Open takeoff page"
+  },
+  "teaser": {
+    "title": "Place to be",
+    "subtitle": "{season}: top regions, all years",
+    "browse": "Browse",
+    "empty": "Not enough activity to rank the season yet.",
+    "stats": "{flights, plural, one {# flight} other {# flights}} · {pilots, plural, one {# pilot} other {# pilots}} · Q{quality} · A{activity}"
+  }
+}

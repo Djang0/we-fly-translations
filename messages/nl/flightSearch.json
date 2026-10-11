@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Vluchten zoeken",
+    "description": "Kies een startplaats op de kaart en bekijk elke communityvlucht die daar vertrokken is."
+  },
+  "loadingMap": "Kaart laden…",
+  "duration": {
+    "hoursMinutes": "{hours}u{minutes}",
+    "minutes": "{minutes} min"
+  },
+  "board": {
+    "eyebrow": "Community",
+    "title": "Zoeken op de kaart",
+    "subtitle": "Kies een startplaats op de kaart om elke communityvlucht te zien die daar vertrokken is.",
+    "loadingTakeoffs": "Startplaatsen laden…",
+    "takeoffsInView": "{count, plural, one {# startplaats} other {# startplaatsen}} in beeld",
+    "introTouch": "Kies een startplaats op de kaart om elke communityvlucht te zien die daar vertrokken is. Tik op de tracks om te zien wie ze vloog en open dan de vlucht die je wilt.",
+    "introHover": "Kies een startplaats op de kaart om elke communityvlucht te zien die daar vertrokken is. Beweeg over een track om te zien wie hem vloog, klik erop om de vlucht hier te bekijken zonder de kaart te verlaten.",
+    "communityFlightsHint": "{count, plural, one {<num>#</num> communityvlucht} other {<num>#</num> communityvluchten}}. Verschuif de kaart om verder te verkennen.",
+    "takeoffLabel": "Startplaats",
+    "loadingTakeoff": "Laden…",
+    "communityFlights": "{total, plural, one {# communityvlucht} other {# communityvluchten}}",
+    "communityFlightsLimited": "{total, plural, one {# communityvlucht} other {# communityvluchten}}, de {shown} langste worden getoond",
+    "closeTakeoff": "Startplaats sluiten",
+    "filterPlaceholder": "Filteren op piloot of scherm…",
+    "loadingFlights": "Vluchten laden…",
+    "loadError": "De vluchten van deze startplaats konden niet geladen worden.",
+    "noMatch": "Geen vluchten gevonden.",
+    "view": "Bekijken",
+    "openFlightAria": "Volledige vlucht van {pilot} openen",
+    "openFlightTitle": "Volledige vlucht openen"
+  },
+  "picker": {
+    "one": "1 vlucht hier",
+    "many": "{count} vluchten hier, tik om te vergelijken",
+    "close": "Sluiten",
+    "view": "Bekijken"
+  },
+  "map": {
+    "clusterTooltip": "{takeoffs, plural, one {# startplaats} other {# startplaatsen}} · {flights, plural, one {# vlucht} other {# vluchten}}",
+    "siteTooltip": "{flights, plural, one {# vlucht} other {# vluchten}}",
+    "viewFlight": "Vlucht bekijken"
+  },
+  "summary": {
+    "allFlights": "Alle vluchten",
+    "previous": "Vorige vlucht",
+    "next": "Volgende vlucht",
+    "loading": "Vlucht laden…",
+    "unavailable": "Deze vlucht wordt niet meer gedeeld met de community.",
+    "timeRange": "{start} tot {end}",
+    "from": "<muted>Vanaf</muted> {site}{hasAltitude, select, true { ({altitude})} other {}}",
+    "unknownTakeoff": "een onbekende startplaats",
+    "freeFlight": "Vrije vlucht",
+    "tandem": "tandem",
+    "stats": {
+      "scoredDistance": "Gescoorde afstand",
+      "score": "Score",
+      "scoreValue": "{value} ptn",
+      "duration": "Duur",
+      "trackLength": "Lengte van de track",
+      "maxAltitude": "Max. hoogte",
+      "bestGain": "Grootste hoogtewinst",
+      "bestClimb": "Beste stijging",
+      "maxSpeed": "Max. snelheid"
+    },
+    "thermals": "{count, plural, one {# thermiek} other {# thermieken}}, gemiddeld {climb}",
+    "ceiling": "Gebruikelijk plafond {altitude}",
+    "wind": "Wind {speed} uit {direction}",
+    "openFull": "Volledige vlucht openen"
+  }
+}

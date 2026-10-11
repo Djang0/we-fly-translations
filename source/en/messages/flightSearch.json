@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Search flights",
+    "description": "Pick a takeoff on the map and browse every community flight launched from it."
+  },
+  "loadingMap": "Loading map…",
+  "duration": {
+    "hoursMinutes": "{hours}h{minutes}",
+    "minutes": "{minutes} min"
+  },
+  "board": {
+    "eyebrow": "Community",
+    "title": "Map search",
+    "subtitle": "Pick a takeoff on the map to see every community flight launched from it.",
+    "loadingTakeoffs": "Loading takeoffs…",
+    "takeoffsInView": "{count, plural, one {# takeoff} other {# takeoffs}} in view",
+    "introTouch": "Pick a takeoff on the map to see every community flight launched from it. Tap its traces to find out who flew them, then open the one you want.",
+    "introHover": "Pick a takeoff on the map to see every community flight launched from it. Hover a trace to find out who flew it, click it to see the flight here without leaving the map.",
+    "communityFlightsHint": "{count, plural, one {<num>#</num> community flight} other {<num>#</num> community flights}}. Move the map to explore.",
+    "takeoffLabel": "Takeoff",
+    "loadingTakeoff": "Loading…",
+    "communityFlights": "{total, plural, one {# community flight} other {# community flights}}",
+    "communityFlightsLimited": "{total, plural, one {# community flight} other {# community flights}}, showing the {shown} longest",
+    "closeTakeoff": "Close takeoff",
+    "filterPlaceholder": "Filter by pilot or wing…",
+    "loadingFlights": "Loading flights…",
+    "loadError": "Could not load the flights from this takeoff.",
+    "noMatch": "No flights match.",
+    "view": "View",
+    "openFlightAria": "Open {pilot}'s full flight",
+    "openFlightTitle": "Open the full flight"
+  },
+  "picker": {
+    "one": "1 flight here",
+    "many": "{count} flights here, tap to compare",
+    "close": "Close",
+    "view": "View"
+  },
+  "map": {
+    "clusterTooltip": "{takeoffs, plural, one {# takeoff} other {# takeoffs}} · {flights, plural, one {# flight} other {# flights}}",
+    "siteTooltip": "{flights, plural, one {# flight} other {# flights}}",
+    "viewFlight": "View flight"
+  },
+  "summary": {
+    "allFlights": "All flights",
+    "previous": "Previous flight",
+    "next": "Next flight",
+    "loading": "Loading flight…",
+    "unavailable": "This flight is no longer shared with the community.",
+    "timeRange": "{start} to {end}",
+    "from": "<muted>From</muted> {site}{hasAltitude, select, true { ({altitude})} other {}}",
+    "unknownTakeoff": "an unknown takeoff",
+    "freeFlight": "Free flight",
+    "tandem": "tandem",
+    "stats": {
+      "scoredDistance": "Scored distance",
+      "score": "Score",
+      "scoreValue": "{value} pts",
+      "duration": "Duration",
+      "trackLength": "Track length",
+      "maxAltitude": "Max altitude",
+      "bestGain": "Best altitude gain",
+      "bestClimb": "Best climb",
+      "maxSpeed": "Max speed"
+    },
+    "thermals": "{count, plural, one {# thermal} other {# thermals}}, averaging {climb}",
+    "ceiling": "Typical ceiling {altitude}",
+    "wind": "Wind {speed} from {direction}",
+    "openFull": "Open the full flight"
+  }
+}

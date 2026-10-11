@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "hub": {
+      "title": "Communauté",
+      "description": "Ce qui se passe dans la communauté We-Fly : derniers vols, records de la semaine et décollages les plus volés.",
+      "ogTitle": "Communauté - We-Fly"
+    },
+    "flights": {
+      "title": "Vols publics",
+      "description": "Parcours les vols de parapente partagés par la communauté. Traces détaillées, statistiques et profils de pilotes du monde entier.",
+      "ogTitle": "Vols publics - We-Fly"
+    },
+    "following": {
+      "title": "Abonnements",
+      "description": "Les derniers vols des pilotes que tu suis."
+    },
+    "pilots": {
+      "title": "Annuaire des pilotes",
+      "description": "Découvre les pilotes qui ont rendu leur profil public. Cherche par nom, région ou statistiques de vol et rejoins la communauté du parapente.",
+      "ogTitle": "Annuaire des pilotes - We-Fly"
+    },
+    "leaderboard": {
+      "title": "Classement de la communauté",
+      "description": "Classements, records, activité et performances des voiles de la communauté, calculés à partir des vols de parapente publics.",
+      "ogTitle": "Classement de la communauté - We-Fly"
+    },
+    "instruments": {
+      "title": "Instruments utilisés",
+      "description": "Avec quels instruments de vol vole la communauté : applis ou appareils, marques, firmwares et tendances d’adoption, d’après les vols de parapente publics.",
+      "ogTitle": "Instruments utilisés - We-Fly",
+      "ogDescription": "Avec quels instruments de vol vole la communauté : applis ou appareils, marques et tendances d’adoption."
+    },
+    "challenges": {
+      "title": "Défis - We-Fly",
+      "description": "Participe aux défis de vol mensuels, mesure-toi à la communauté et gagne des badges."
+    },
+    "challengeDetail": {
+      "title": "Défi - We-Fly",
+      "description": "Détails du défi de vol et classement."
+    },
+    "flightDetail": {
+      "title": "Vol de {pilot} depuis {takeoff}",
+      "description": "Vol de la communauté du {date} • {distance} km • {duration} de vol",
+      "ogTitle": "{title} - We-Fly",
+      "durationHm": "{hours} h {minutes} min",
+      "durationM": "{minutes} min",
+      "unknownPilot": "Pilote inconnu",
+      "unknownLocation": "Lieu inconnu",
+      "notFoundTitle": "Vol introuvable",
+      "notFoundDescription": "Ce vol n’existe pas.",
+      "fallbackTitle": "Détails du vol",
+      "fallbackDescription": "Consulte les détails d’un vol de la communauté"
+    },
+    "pilotProfile": {
+      "title": "Profil de {pilot}",
+      "description": "Les vols de parapente, statistiques et activité de {pilot} dans la communauté We-Fly.",
+      "ogTitle": "{title} - We-Fly",
+      "unknownPilot": "Pilote inconnu",
+      "notFoundTitle": "Pilote introuvable",
+      "notFoundDescription": "Ce profil de pilote n’existe pas.",
+      "notPublicDescription": "Ce profil de pilote n’est pas disponible ou n’est pas partagé publiquement.",
+      "fallbackTitle": "Profil du pilote",
+      "fallbackDescription": "Consulte le profil et les statistiques de vol d’un pilote"
+    }
+  },
+  "hub": {
+    "weekRecords": {
+      "title": "Records de la semaine",
+      "caption": "Meilleures perfs des 7 derniers jours",
+      "empty": "Pas encore de record cette semaine.",
+      "airTime": "{hours} h {minutes}",
+      "rows": {
+        "longestXc": "Plus long cross",
+        "longestAirTime": "Plus long temps de vol",
+        "highestAltitude": "Plus haute altitude"
+      }
+    },
+    "quickAccess": {
+      "title": "Explorer",
+      "tiles": {
+        "takeoffs": {
+          "label": "Base des décollages",
+          "description": "Découvre les sites de décollage du monde entier. Filtre par distance, conditions et historique."
+        },
+        "flights": {
+          "label": "Tous les vols publics",
+          "description": "Cherche et filtre tous les vols partagés par la communauté."
+        },
+        "searchFlights": {
+          "label": "Chercher des vols sur la carte",
+          "description": "Choisis un décollage et vois tous les vols de la communauté partis de là."
+        },
+        "pilots": {
+          "label": "Annuaire des pilotes",
+          "description": "Trouve des pilotes par nom, région ou stats de vol."
+        },
+        "clubs": {
+          "label": "Clubs",
+          "description": "Parcours les clubs de vol libre et leurs membres."
+        },
+        "leaderboard": {
+          "label": "Classement et stats",
+          "description": "Classement des pilotes, records et analyses détaillées."
+        },
+        "instruments": {
+          "label": "Instruments utilisés",
+          "description": "Avec quels varios et applis vole la communauté : applis ou appareils, marques et tendances."
+        },
+        "recap": {
+          "label": "Bilan des saisons",
+          "description": "L’évolution de toute la communauté, année après année : promos, sites, records."
+        }
+      }
+    },
+    "privacyBanner": {
+      "title": "Ton profil est privé",
+      "body": "Rends ton profil public pour apparaître dans l’annuaire, partager tes vols et entrer dans les classements.",
+      "goPublic": "Passer en public"
+    },
+    "pulse": {
+      "flightsWeek": "Vols cette semaine",
+      "hoursFlown": "Heures de vol",
+      "distanceCovered": "Distance parcourue",
+      "activePilots": "Pilotes actifs",
+      "thisMonth": "{value} ce mois-ci",
+      "publicProfiles": "{count, plural, one {# profil public} other {# profils publics}}"
+    },
+    "hotTakeoffs": {
+      "title": "Décos du moment",
+      "caption": "Sites les plus volés cette semaine",
+      "browse": "Parcourir →",
+      "empty": "Aucune activité sur les décollages cette semaine.",
+      "pilots": "{count, plural, one {# pilote} other {# pilotes}}"
+    },
+    "recentFlights": {
+      "title": "Derniers vols",
+      "caption": "Les traces toutes fraîches de la communauté",
+      "seeAll": "Tout voir →",
+      "empty": "Aucun vol public pour l’instant. Sois le premier à en partager un.",
+      "following": "Suivi",
+      "tandem": "Biplace",
+      "date": {
+        "today": "Aujourd’hui",
+        "yesterday": "Hier",
+        "daysAgo": "il y a {days} j"
+      }
+    },
+    "since": {
+      "none": "Aucun vol",
+      "today": "Aujourd’hui",
+      "daysAgo": "il y a {days} j",
+      "weeksAgo": "il y a {weeks} sem.",
+      "monthsAgo": "il y a {months} mois"
+    },
+    "followedTile": {
+      "latestFlight": "{name} : dernier vol",
+      "profile": "{name} : profil"
+    },
+    "suggestion": {
+      "fliesSite": "Vole à {site}",
+      "fliesYourSites": "Vole sur tes sites",
+      "flightsThisMonth": "{count, plural, one {# vol} other {# vols}} ce mois-ci"
+    },
+    "strip": {
+      "suggestionsTitle": "Pilotes à suivre",
+      "suggestionsHint": "Suis des pilotes pour avoir leurs vols à portée de main",
+      "followingTitle": "Pilotes que tu suis",
+      "followingHint": "Les pilotes entourés ont volé cette semaine",
+      "theirFlights": "Leurs vols",
+      "more": "Plus"
+    }
+  },
+  "leaderboard": {
+    "panelTitle": "{metric} · depuis toujours",
+    "updated": "Mis à jour {when}",
+    "liveBadge": "direct",
+    "metricLabel": "Critère du classement",
+    "metrics": {
+      "score": "Score cross",
+      "distance": "Distance cross",
+      "hours": "Temps de vol"
+    },
+    "points": "{value} pts",
+    "empty": "Aucun vol éligible pour l’instant. Sois le premier à prendre une place.",
+    "loadError": "Impossible de charger le classement pour le moment.",
+    "retry": "Réessayer",
+    "columns": {
+      "pilot": "Pilote",
+      "result": "Résultat",
+      "flights": "Vols",
+      "hours": "Heures",
+      "xc": "XC {unit}"
+    },
+    "relative": {
+      "live": "en direct",
+      "justNow": "à l’instant",
+      "minutesAgo": "il y a {count} min",
+      "hoursAgo": "il y a {count} h",
+      "daysAgo": "il y a {count} j"
+    }
+  },
+  "following": {
+    "day": {
+      "today": "Aujourd’hui",
+      "yesterday": "Hier"
+    },
+    "loadError": "Impossible de charger les vols pour le moment. Réessaie dans un instant.",
+    "emptyPilot": "{name} n’a encore enregistré aucun vol sur We-Fly.",
+    "emptyAll": "Les pilotes que tu suis n’ont encore enregistré aucun vol.",
+    "sharedTakeoff": "{count, plural, =2 {{names} ont tous les deux volé à <strong>{takeoff}</strong>} other {{names} ont volé à <strong>{takeoff}</strong>}}",
+    "pilotsYouFollow": "Pilotes que tu suis",
+    "allShort": "Tous",
+    "allPilots": "Tous les pilotes",
+    "suggested": "Suggestions",
+    "findMorePilots": "Trouver d’autres pilotes",
+    "everyone": "Tout le monde",
+    "find": "Trouver",
+    "showAllPilots": "Voir tous les pilotes",
+    "latestFlights": "Derniers vols",
+    "profile": "Profil",
+    "emptyTitle": "Suis des pilotes pour voir leurs vols ici",
+    "emptyBody": "Potes, membres du club, les locaux de ton déco : suis-les et chaque vol qu’ils enregistrent arrive sur cette page, regroupé par jour, avec leurs traces.",
+    "browseAllPilots": "Parcourir tous les pilotes"
+  },
+  "social": {
+    "follow": "Suivre",
+    "following": "Abonné",
+    "unfollow": "Ne plus suivre",
+    "connections": "Relations",
+    "followersTab": "Abonnés · {count}",
+    "followingTab": "Abonnements · {count}",
+    "noFollowers": "Pas encore d’abonnés.",
+    "noFollowing": "Ne suit encore personne.",
+    "privateProfile": "Profil privé",
+    "loading": "Chargement…",
+    "loadMore": "Voir plus",
+    "fallbackPilot": "Pilote"
+  },
+  "pages": {
+    "hub": {
+      "eyebrow": "Communauté",
+      "title": "Communauté",
+      "subtitle": "Le pouls des pilotes, des vols et des sites sur We-Fly, en direct."
+    },
+    "following": {
+      "eyebrow": "Communauté",
+      "title": "Abonnements",
+      "subtitle": "Tous les vols des pilotes que tu suis, du plus récent au plus ancien."
+    },
+    "leaderboard": {
+      "eyebrow": "Communauté",
+      "title": "Le classement qui fait débattre ton club.",
+      "subtitle": "Calculé uniquement à partir de fichiers IGC validés : aucune distance déclarée à la main."
+    },
+    "instruments": {
+      "eyebrow": "Communauté",
+      "title": "Avec quoi vole la communauté.",
+      "subtitle": "Chaque fichier IGC indique l’instrument qui l’a enregistré."
+    },
+    "pilotProfile": {
+      "privateTitle": "Profil privé",
+      "privateBody": "Ce profil de pilote est privé. Le pilote n’a pas choisi de partager son profil publiquement.",
+      "backToFlights": "Retour aux vols de la communauté"
+    }
+  },
+  "stats": {
+    "nav": {
+      "sectionsLabel": "Sections des statistiques",
+      "pulse": "Activité",
+      "records": "Records",
+      "efficiency": "Efficacité",
+      "clubs": "Clubs",
+      "wings": "Voiles",
+      "insights": "Analyses",
+      "errorTitle": "Impossible de charger les statistiques",
+      "errorHint": "Vérifie ta connexion et réessaie.",
+      "retry": "Réessayer"
+    },
+    "pulse": {
+      "metrics": {
+        "flights": "Vols",
+        "flightsUnit": "au total",
+        "airTime": "Temps de vol",
+        "airTimeUnit": "heures",
+        "xcDistance": "Distance cross",
+        "pilots": "Pilotes",
+        "pilotsUnit": "actifs",
+        "takeoffs": "Décollages",
+        "takeoffsUnit": "sites",
+        "countries": "Pays",
+        "countriesUnit": "nations"
+      },
+      "snapshot": {
+        "title": "La communauté en bref",
+        "caption": "Moyennes sur les vols publics",
+        "avgThermal": "Force moy. des thermiques",
+        "direction": "Sens d’enroulement",
+        "directionValue": "{left} % G / {right} % D",
+        "soloRatio": "Part de vols solo",
+        "soloValue": "{percent} % en solo",
+        "commonType": "Type le plus courant",
+        "avgWind": "Vent moyen"
+      },
+      "launch": {
+        "title": "Types de décollage",
+        "caption": "Comment les pilotes prennent l’air",
+        "self": "À pied",
+        "towed": "Tracté",
+        "powered": "Motorisé",
+        "driving": "Route",
+        "barAria": "{label} : {percent} %"
+      }
+    },
+    "records": {
+      "noData": "Pas encore de données",
+      "scoreUnit": "pts",
+      "cardAria": "{label} : {value} par {pilot}",
+      "cards": {
+        "longestFlight": "Plus long vol",
+        "highestAltitude": "Plus haute altitude",
+        "greatestAltitudeGain": "Plus grand gain d’altitude",
+        "longestXcDistance": "Plus longue distance cross",
+        "bestXcScore": "Meilleur score cross",
+        "strongestThermal": "Plus fort thermique",
+        "maxSpeed": "Vitesse max"
+      }
+    },
+    "leaderboard": {
+      "title": "Top 10 des pilotes",
+      "captionActivity": "Classés par score cross total sur les vols publics",
+      "captionEfficiency": "Classés par efficacité en vol (z-score normalisé)",
+      "typeLabel": "Type de classement",
+      "activity": "Activité",
+      "efficiency": "Efficacité",
+      "emptyTitle": "Pas encore de données de classement",
+      "emptyHint": "Il faut des vols publics pour alimenter le classement.",
+      "noActivity": "Pas encore de données d’activité.",
+      "notEnoughPilots": "Pas assez de pilotes éligibles. Il faut au moins 5 vols de cross pour apparaître.",
+      "efficiencyInfo": "Z-score composite basé sur la distance par heure, la distance par vol et le nombre de vols éligibles. Survole une ligne pour le détail.",
+      "distancePerHour": "Distance/h ({unit})",
+      "distancePerFlight": "Distance/vol ({unit})",
+      "qualifyingFlights": "Vols éligibles",
+      "zScore": "(z : {value})",
+      "colPilot": "Pilote",
+      "colFlights": "Vols",
+      "colHours": "Heures",
+      "colXcDistance": "XC {unit}",
+      "colXcScore": "Score cross",
+      "colDistPerHour": "Dist./h ({unit})",
+      "colDistPerFlight": "Dist./vol ({unit})"
+    },
+    "clubs": {
+      "empty": "Pas encore de clubs. Les pilotes peuvent indiquer leur club dans leur profil.",
+      "title": "Clubs",
+      "caption": "Classés par distance totale parcourue",
+      "colClub": "Club",
+      "colPilots": "Pilotes",
+      "colFlights": "Vols",
+      "colDistance": "Distance ({unit})",
+      "colAirtime": "Temps de vol (h)"
+    },
+    "pilotFlights": {
+      "triggerAria": "Voir les vols éligibles de {name}",
+      "title": "Vols éligibles de {name}",
+      "description": "Vols publics d’au moins 10 km de distance cross (hors motorisé et route), triés par date.",
+      "loadError": "Impossible de charger les vols. Réessaie.",
+      "none": "Aucun vol éligible.",
+      "colDate": "Date",
+      "colTakeoff": "Décollage",
+      "colXcDistance": "XC {unit}",
+      "colXcScore": "Score cross",
+      "colDuration": "Durée",
+      "openFlight": "Ouvrir le vol"
+    },
+    "insights": {
+      "hoursSeries": "Heures",
+      "empty": "Aucune donnée disponible",
+      "cards": {
+        "flightsByMonth": {
+          "title": "Heures par mois",
+          "description": "Les 10 mois avec le plus d’heures de vol"
+        },
+        "flightsByDayOfWeek": {
+          "title": "Jours préférés",
+          "description": "Les jours où les pilotes volent le plus d’heures"
+        },
+        "topWings": {
+          "title": "Voiles les plus volées",
+          "description": "Modèles de voile les plus volés, en heures"
+        },
+        "topTakeoffs": {
+          "title": "Décollages les plus volés",
+          "description": "Sites de décollage les plus fréquentés, en heures"
+        },
+        "topCountries": {
+          "title": "Pays les plus volés",
+          "description": "Pays qui cumulent le plus d’heures de vol"
+        },
+        "flightTypeDistribution": {
+          "title": "Types de vol",
+          "description": "Répartition des types de vol de cross, en heures"
+        }
+      }
+    },
+    "challenges": {
+      "active": "Défis en cours",
+      "noActive": "Aucun défi en cours pour le moment. Repasse bientôt !",
+      "recent": "Défis récents",
+      "viewAll": "Voir tous les défis"
+    }
+  },
+  "instruments": {
+    "kindApp": "Appli",
+    "kindDevice": "Appareil",
+    "noInstruments": "Pas encore d’instruments",
+    "pilotsUnit": "pilotes",
+    "flightsCount": "{count} vols",
+    "flightsUnit": "Vols",
+    "loadError": "Impossible de charger les statistiques des instruments.",
+    "retry": "Réessayer",
+    "emptyTitle": "Pas encore de données sur les instruments",
+    "emptyHint": "Les infos d’instrument sont lues dans les vols publics au fil de leur traitement. Repasse quand davantage de vols auront été classés.",
+    "footnote": "Basé uniquement sur les vols publics. Les noms d’instruments viennent directement de chaque fichier IGC et sont regroupés automatiquement.",
+    "kind": {
+      "software": "Appli (téléphone / tablette)",
+      "device": "Appareil dédié",
+      "unknown": "Non identifié"
+    },
+    "kpi": {
+      "flights": "Vols",
+      "flightsSub": "classés",
+      "pilots": "Pilotes",
+      "pilotsSub": "représentés",
+      "instruments": "Instruments",
+      "instrumentsSub": "modèles et applis",
+      "brands": "Marques",
+      "brandsSub": "fabricants",
+      "software": "Applis",
+      "devices": "Appareils",
+      "ofFlights": "des vols"
+    },
+    "kindSplit": {
+      "title": "Applis ou appareils",
+      "description": "Part des vols classés par type d’instrument",
+      "center": "{percent} des vols sont enregistrés avec une appli sur téléphone ou tablette",
+      "empty": "Pas encore de vols classés"
+    },
+    "platform": {
+      "title": "Sur quoi tournent les applis",
+      "description": "Système d’exploitation des instruments logiciels, par pilotes",
+      "empty": "Aucune plateforme d’appli enregistrée pour l’instant"
+    },
+    "top": {
+      "title": "Instruments les plus utilisés",
+      "description": "Classés par nombre de pilotes distincts"
+    },
+    "brands": {
+      "title": "Marques en tête",
+      "description": "Pilotes distincts par fabricant",
+      "unit": "Pilotes",
+      "empty": "Pas encore de marques"
+    },
+    "trend": {
+      "title": "Adoption dans le temps",
+      "description": "Vols par marque d’instrument, par année",
+      "empty": "Pas encore assez d’historique"
+    },
+    "manufacturers": {
+      "title": "Codes fabricant",
+      "description": "Tirés de l’enregistrement A du fichier IGC, par vols",
+      "empty": "Aucun code enregistré"
+    },
+    "sensors": {
+      "title": "Capteurs de pression",
+      "description": "Capteurs barométriques utilisés, par vols",
+      "empty": "Aucun capteur enregistré"
+    },
+    "firmware": {
+      "title": "Firmwares en circulation",
+      "description": "Versions de firmware les plus courantes, par vols",
+      "empty": "Aucun firmware enregistré"
+    }
+  },
+  "challenges": {
+    "card": {
+      "progress": "Progression",
+      "topWin": "Les {count} premiers gagnent",
+      "yourBest": "Ton meilleur : {value}",
+      "participants": "{count, plural, one {# pilote} other {# pilotes}}",
+      "endsToday": "Se termine aujourd’hui",
+      "daysLeft": "{count, plural, one {# jour restant} other {# jours restants}}",
+      "ended": "Terminé",
+      "done": "Réussi",
+      "active": "En cours",
+      "upcoming": "À venir"
+    },
+    "leaderboard": {
+      "empty": "Pas encore de participants. Sois le premier !",
+      "you": "(toi)",
+      "done": "Réussi",
+      "units": {
+        "sites": "sites",
+        "hours": "h",
+        "flights": "vols",
+        "countries": "pays",
+        "days": "jours"
+      }
+    },
+    "detail": {
+      "notFound": "Défi introuvable.",
+      "eyebrow": "Communauté · Défis",
+      "completed": "Réussi",
+      "allChallenges": "Tous les défis",
+      "dateRange": "Du {start} au {end}",
+      "daysLeft": "{count, plural, one {# jour restant} other {# jours restants}}",
+      "participants": "{count, plural, one {# pilote} other {# pilotes}}",
+      "topWin": "Les {count} premiers gagnent",
+      "yourProgress": "Ta progression",
+      "yourBestScore": "Ton meilleur score",
+      "leaderboard": "Classement"
+    },
+    "view": {
+      "eyebrow": "Communauté",
+      "title": "Défis de vol",
+      "subtitle": "Relève des défis, grimpe au classement, gagne des badges.",
+      "emptyTitle": "Pas encore de défis",
+      "emptyHint": "Repasse bientôt, de nouveaux défis arrivent !",
+      "active": "Défis en cours",
+      "upcoming": "Bientôt",
+      "past": "Défis passés"
+    }
+  },
+  "pilots": {
+    "eyebrow": "Communauté",
+    "title": "Pilotes",
+    "subtitle": "{profiles} profils publics · {matches} correspondent à tes filtres.",
+    "pulse": {
+      "activeFortnight": "Actifs ces 15 jours",
+      "flights": "Vols de la communauté",
+      "airtime": "Temps de vol de la communauté"
+    },
+    "hoursUnit": "h",
+    "hoursShort": "{value} h",
+    "searchPlaceholder": "Chercher par nom",
+    "searchAria": "Chercher des pilotes par nom",
+    "minFlights": "Vols min.",
+    "minFlightsAria": "Nombre minimum de vols",
+    "sortBy": "Trier par",
+    "sort": {
+      "recent": "Actifs récemment",
+      "flights": "Plus de vols",
+      "airtime": "Plus de temps de vol",
+      "longest": "Plus long cross",
+      "name": "Nom (A à Z)"
+    },
+    "filter": {
+      "all": "Tous les pilotes",
+      "active": "Actifs",
+      "tandem": "Pilotes biplace",
+      "new": "Nouveaux cette saison"
+    },
+    "clear": "Effacer",
+    "neverFlown": "jamais volé",
+    "lastFlight": {
+      "today": "aujourd’hui",
+      "yesterday": "hier",
+      "daysAgo": "il y a {count} j",
+      "monthsAgo": "il y a {count} mois"
+    },
+    "tandemTag": "biplace",
+    "wingUnknown": "Voile inconnue",
+    "since": "depuis {year}",
+    "last12Months": "12 derniers mois",
+    "stats": {
+      "flights": "Vols",
+      "airtime": "Temps de vol",
+      "bestXc": "Meilleur cross"
+    },
+    "pageOf": "Page {page} sur {total}",
+    "previousPage": "Page précédente",
+    "nextPage": "Page suivante",
+    "empty": {
+      "title": "Aucun pilote ne correspond à ces filtres.",
+      "hint": "Baisse le nombre minimum de vols ou retire les filtres ci-dessus.",
+      "clear": "Effacer les filtres"
+    },
+    "error": {
+      "title": "Impossible de charger les pilotes",
+      "hint": "Actualise la page ou réessaie plus tard"
+    }
+  },
+  "flightsFilter": {
+    "searchPlaceholder": "Rechercher…",
+    "noMatches": "Aucun résultat",
+    "searchAll": "Chercher pilotes, sites, voiles…",
+    "clearSearch": "Effacer la recherche",
+    "all": "Tous",
+    "selected": "{count} sélectionnés",
+    "date": "Date",
+    "pilot": "Pilote",
+    "site": "Site",
+    "glider": "Voile",
+    "launch": "Décollage",
+    "presets": {
+      "all": "Depuis toujours",
+      "today": "Aujourd’hui",
+      "d7": "7 derniers jours",
+      "d30": "30 derniers jours",
+      "d90": "90 derniers jours",
+      "year": "Dernière année",
+      "custom": "Personnalisé"
+    },
+    "range": "Du {from} au {to}",
+    "rangeFrom": "Depuis le {date}",
+    "rangeUntil": "Jusqu’au {date}",
+    "customRange": "Période personnalisée…",
+    "presetsBack": "Préréglages",
+    "pickDates": "Choisis une date de début et de fin",
+    "clear": "Effacer",
+    "allPilots": "Tous les pilotes",
+    "allSites": "Tous les sites",
+    "allGliders": "Toutes les voiles",
+    "allLaunchTypes": "Tous les types de décollage",
+    "density": {
+      "compact": "Compact",
+      "comfortable": "Confort",
+      "spacious": "Aéré"
+    },
+    "removeFilter": "Retirer le filtre",
+    "launchChip": "Décollage : {type}",
+    "searchChip": "« {query} »",
+    "showing": "<n>{shown}</n> sur <n>{total}</n> {count, plural, one {vol affiché} other {vols affichés}}",
+    "clearAll": "Tout effacer"
+  },
+  "flightsTable": {
+    "columns": {
+      "date": "Date",
+      "pilot": "Pilote",
+      "takeoff": "Décollage",
+      "glider": "Voile",
+      "distance": "Distance",
+      "duration": "Durée",
+      "launch": "Décollage",
+      "quality": "Qualité",
+      "routeEfficiency": "Effic. route"
+    },
+    "gpsCorruption": "GPS corrompu détecté",
+    "preview": "Aperçu",
+    "hoverPreview": "Survole pour voir la trace du vol",
+    "empty": "Aucun vol de la communauté ne correspond à ces filtres.",
+    "loadingMore": "Chargement d’autres vols…",
+    "allLoaded": "{count, plural, one {Le vol est chargé.} other {Les # vols sont chargés.}}",
+    "shownOf": "{shown} sur {total}",
+    "sort": "Trier"
+  },
+  "flightsView": {
+    "eyebrow": "Communauté",
+    "title": "Vols de la communauté",
+    "subtitleCount": "Ce que vole la communauté. {count, plural, one {# vol public} other {# vols publics}} de pilotes qui ont choisi de partager.",
+    "subtitleEmpty": "Ce que vole la communauté. Parcours les vols des pilotes qui ont choisi le partage public.",
+    "loading": "Chargement des vols de la communauté…"
+  },
+  "pulseStrip": {
+    "freeFlights": "Vols libres",
+    "freeFlightsSub": "hors paramoteur et route",
+    "activePilots": "Pilotes actifs",
+    "activePilotsSub": "avec un profil partagé",
+    "topSite": "Site n° 1",
+    "hoursFlown": "{hours} h de vol",
+    "longestXc": "Plus long cross"
+  },
+  "publicFlights": {
+    "columns": {
+      "date": "Date",
+      "takeoff": "Décollage",
+      "pilot": "Pilote",
+      "glider": "Voile",
+      "distance": "Distance",
+      "launchType": "Type de décollage",
+      "type": "Type",
+      "duration": "Durée",
+      "quality": "Qualité",
+      "qualityDeviation": "Régularité",
+      "thermalVzDeviation": "Turbulence",
+      "avgGlideRatio": "Finesse moy.",
+      "avgGlideSpeed": "Vit. moy. transition",
+      "trackSpeed": "Vitesse sur trace",
+      "scoringSpeed": "Vitesse au score",
+      "routeEfficiency": "Efficacité parcours"
+    },
+    "hints": {
+      "qualityDeviation": "Écart type des notes de qualité des thermiques de ce vol. Plus c’est bas, plus les montées sont régulières.",
+      "routeEfficiency": "Rapport entre la distance au score et la longueur totale de la trace. Plus parlant pour les vols de cross."
+    },
+    "gpsCorruption": "GPS corrompu détecté",
+    "gpsCorruptionHint": "Le fichier IGC contient des points GPS corrompus. La distance au score et la longueur de la trace peuvent être faussées.",
+    "viewFlight": "Voir le vol",
+    "pageTitle": "Communauté",
+    "loadError": "Erreur de chargement des vols de la communauté",
+    "filters": "Filtres",
+    "shownOfTotal": "{shown} / {total}",
+    "resetFilters": "Réinitialiser les filtres",
+    "columnsMenu": "Colonnes",
+    "noMatchTitle": "Aucun vol ne correspond à tes filtres",
+    "noMatchHint": "Ajuste ou retire les filtres actifs",
+    "clearFilters": "Effacer les filtres",
+    "empty": "Aucun vol de la communauté trouvé.",
+    "loadingMore": "Chargement d’autres vols…",
+    "allLoaded": "Tous les vols sont chargés",
+    "filterDialog": {
+      "title": "Filtrer les vols de la communauté",
+      "description": "Applique des filtres pour affiner la liste des vols de la communauté",
+      "dateRange": "Période",
+      "pilot": "Pilote",
+      "pilotsSelected": "{count, plural, one {# pilote sélectionné} other {# pilotes sélectionnés}}",
+      "selectPilots": "Choisir un ou plusieurs pilotes",
+      "searchPilot": "Chercher un pilote…",
+      "noPilot": "Aucun pilote trouvé.",
+      "glider": "Voile",
+      "glidersSelected": "{count, plural, one {# voile sélectionnée} other {# voiles sélectionnées}}",
+      "selectGliders": "Choisir une ou plusieurs voiles",
+      "searchGlider": "Chercher une voile…",
+      "noGlider": "Aucune voile trouvée.",
+      "takeoffSite": "Site de décollage",
+      "sitesSelected": "{count, plural, one {# site sélectionné} other {# sites sélectionnés}}",
+      "selectSites": "Choisir un ou plusieurs décollages",
+      "searchSite": "Chercher un décollage…",
+      "noSite": "Aucun décollage trouvé.",
+      "flightTypes": "Types de vol",
+      "selectFlightType": "Choisir un type de vol",
+      "allFlightTypes": "Tous les types de vol",
+      "distanceRange": "Distance : {min} - {max} {unit}",
+      "flightMode": "Mode de vol",
+      "all": "Tous",
+      "solo": "Solo",
+      "tandem": "Biplace",
+      "launchType": "Type de décollage",
+      "reset": "Réinitialiser",
+      "apply": "Appliquer les filtres"
+    }
+  }
+}

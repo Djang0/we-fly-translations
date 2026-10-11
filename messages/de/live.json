@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Live-Tracking"
+  },
+  "page": {
+    "defaultPilot": "Ein Pilot",
+    "title": "{pilot}, live",
+    "expires": "Link läuft ab am {date}"
+  },
+  "empty": "Noch keine Position gemeldet. Die Seite aktualisiert sich selbst, lass sie einfach offen.",
+  "modes": {
+    "map": "Karte",
+    "threeD": "3D"
+  },
+  "pilot": "Pilot",
+  "ago": {
+    "seconds": "vor {count} s",
+    "minutes": "vor {count} min",
+    "hours": "vor {count} h"
+  },
+  "map": {
+    "lastSeen": "zuletzt gesehen {time}",
+    "reconnecting": "Verbindung wird wiederhergestellt …"
+  },
+  "threeD": {
+    "pilotAgo": "{pilot} · {time}",
+    "reconnecting": "Verbindung wird wiederhergestellt …",
+    "altitude": "Höhe",
+    "vario": "Vario",
+    "speed": "Geschw.",
+    "followPilot": "Pilot verfolgen",
+    "loadingTerrain": "Gelände wird geladen …"
+  }
+}

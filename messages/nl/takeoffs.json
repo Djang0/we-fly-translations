@@ -1,0 +1,327 @@
+{
+  "viewToggle": {
+    "label": "Weergave startplaatsen",
+    "map": "Kaart",
+    "list": "Lijst",
+    "favorites": "Favorieten"
+  },
+  "weather": {
+    "wind": "Wind",
+    "gusts": "Vlagen {value}",
+    "speedFrom": "{speed} uit {dir}",
+    "speedFromGusts": "{speed} uit {dir}, vlagen {gusts}",
+    "ariaLabel": "Windomstandigheden: {status}. {reason}. {speed} uit {dir}.",
+    "justNow": "zojuist",
+    "minutesAgo": "{count} min geleden",
+    "hoursAgo": "{count} u geleden",
+    "status": {
+      "flyable": "Vliegbaar",
+      "marginal": "Twijfelachtig",
+      "unflyable": "Niet vliegbaar",
+      "calm": "Windstil"
+    }
+  },
+  "card": {
+    "unknownLocation": "Onbekende locatie",
+    "viewAria": "{name}, {country} bekijken",
+    "windTitle": "{reason}: {speed} {dir}",
+    "checkWind": "Windomstandigheden controleren",
+    "removeFavorite": "Uit favorieten verwijderen",
+    "addFavorite": "Aan favorieten toevoegen"
+  },
+  "favorites": {
+    "checking": "Omstandigheden controleren…",
+    "noneFlyable": "Geen enkele van je favorieten is nu vliegbaar.",
+    "emptyTitle": "Nog geen favoriete startplaatsen",
+    "emptyBody": "Startplaatsen waar je vanaf gevlogen bent, worden automatisch favoriet. Je kunt ook elke startplaats toevoegen via de detailpagina.",
+    "listLabel": "Favoriete startplaatsen"
+  },
+  "filters": {
+    "searchPlaceholder": "Startplaatsen zoeken: naam, regio, land…",
+    "searchAria": "Startplaatsen zoeken op naam, land of beschrijving",
+    "clearSearch": "Zoekopdracht wissen",
+    "disableLocation": "Locatiefilter uitschakelen",
+    "enableLocation": "Locatiefilter inschakelen",
+    "nearby": "In de buurt",
+    "sortingByDistance": "Gesorteerd op afstand tot je locatie",
+    "sortByDistance": "Sorteren op afstand tot je locatie",
+    "within": "binnen",
+    "distanceAria": "Afstand in kilometer",
+    "flyableNow": "Nu vliegbaar",
+    "sortAria": "Startplaatsen sorteren",
+    "clearAll": "Alle filters wissen",
+    "clear": "Wissen",
+    "sort": {
+      "nameAsc": "Naam A→Z",
+      "nameDesc": "Naam Z→A",
+      "bearingAsc": "Oriëntatie oplopend",
+      "bearingDesc": "Oriëntatie aflopend",
+      "countryAsc": "Land A→Z",
+      "countryDesc": "Land Z→A",
+      "elevationAsc": "Hoogte laag→hoog",
+      "elevationDesc": "Hoogte hoog→laag"
+    }
+  },
+  "results": {
+    "loadFailed": "Startplaatsen laden mislukt",
+    "tryAgain": "Probeer het opnieuw",
+    "retry": "Opnieuw proberen",
+    "flyableNowCount": "{count, number} nu vliegbaar",
+    "checkingCount": "{count, number} worden gecontroleerd",
+    "siteCount": "{count, plural, one {# startplaats} other {# startplaatsen}}",
+    "updating": "Bijwerken",
+    "emptyTitle": "Geen startplaatsen gevonden",
+    "noResults": "Geen resultaten voor „{search}“",
+    "adjustFilters": "Probeer je filters aan te passen",
+    "clearFilters": "Filters wissen",
+    "listLabel": "Startplaatsen",
+    "colElevation": "Hoogte",
+    "colSite": "Startplaats",
+    "colWind": "Wind",
+    "colWindow": "Windvenster",
+    "allChecked": "Alle {count, number} startplaatsen gecontroleerd",
+    "allLoaded": "Alle {count, number} startplaatsen geladen",
+    "loadMore": "Meer laden"
+  },
+  "page": {
+    "loadingMap": "Kaart laden…",
+    "locationDenied": "Toegang tot locatie geweigerd",
+    "geolocationUnsupported": "Geolocatie wordt niet ondersteund",
+    "subtitleFavorites": "{count, plural, one {# favoriete startplaats} other {# favoriete startplaatsen}}",
+    "subtitleCommunity": "{count, number} startplaatsen uit de community",
+    "subtitleDefault": "Startplaatsen uit de community",
+    "loading": "Laden…",
+    "eyebrow": "Startplaatsen uit de community",
+    "title": "Startplaatsen"
+  },
+  "mapView": {
+    "loadingMap": "Kaart laden…",
+    "count": "{count, plural, one {<b>#</b> startplaats} other {<b>#</b> startplaatsen}}",
+    "countFlyable": "{count, plural, one {<b>#</b> startplaats} other {<b>#</b> startplaatsen}} nu vliegbaar",
+    "countInView": "{count, plural, one {<b>#</b> startplaats} other {<b>#</b> startplaatsen}} in beeld",
+    "checking": "{count, number} worden gecontroleerd",
+    "clickToFocus": "Klik om in te zoomen",
+    "noMatch": "Geen startplaatsen gevonden. Probeer je filters te verruimen.",
+    "removeFavorite": "Uit favorieten verwijderen",
+    "addFavorite": "Aan favorieten toevoegen",
+    "open": "Openen"
+  },
+  "map": {
+    "loading": "Startplaatsen laden...",
+    "youAreHere": "Je bent hier",
+    "elevationAsl": "{altitude} boven zeeniveau",
+    "facing": "Oriëntatie: {bearing}",
+    "zoomForFlyable": "Zoom in om alleen vliegbare startplaatsen te zien"
+  },
+  "detail": {
+    "back": "Terug",
+    "siteType": {
+      "takeoff": "Startplaats",
+      "landing": "Landingsplaats",
+      "parking": "Parkeerplaats"
+    },
+    "favorites": {
+      "add": "Aan favorieten toevoegen",
+      "remove": "Uit favorieten verwijderen"
+    },
+    "copyCoordinates": "Coördinaten kopiëren",
+    "share": "Delen",
+    "rename": "Hernoemen",
+    "toast": {
+      "elevationUpdated": "Hoogte bijgewerkt: {value}",
+      "elevationFailed": "Hoogte ophalen mislukt",
+      "elevationRetry": "Hoogte ophalen mislukt. Probeer het opnieuw.",
+      "locationUpdated": "Locatiegegevens bijgewerkt",
+      "geocodingFailed": "Geocodering ophalen mislukt",
+      "geocodingRetry": "Geocodering ophalen mislukt. Probeer het opnieuw.",
+      "coordinatesCopied": "Coördinaten gekopieerd",
+      "linkCopied": "Link gekopieerd"
+    },
+    "stats": {
+      "elevation": "Hoogte boven zeeniveau",
+      "orientation": "Oriëntatie",
+      "windFrom": "Wind uit deze richting",
+      "loggedFlights": "Gelogde vluchten",
+      "atThisSite": "{kind, select, landing {op deze landingsplaats} parking {op deze parkeerplaats} other {vanaf deze startplaats}}",
+      "coordinates": "Coördinaten",
+      "latLon": "lat · lon",
+      "timezone": "Tijdzone",
+      "coordinatesPair": "{lat}; {lon}"
+    },
+    "siteTypeHeading": "Type plaats",
+    "landingDescription": "Waar piloten meestal landen. Controleer obstakels, windrichting en toestemming van de boer voordat je hier landt.",
+    "parkingDescription": "Een bekende parkeerplek of verzamelplaats in de buurt van een vlieggebied.",
+    "map": {
+      "title": "Locatiekaart",
+      "collapseMap": "Kaart inklappen",
+      "expandMap": "Kaart uitklappen",
+      "collapse": "Inklappen",
+      "expand": "Uitklappen",
+      "openFullscreen": "Kaart op volledig scherm openen"
+    },
+    "community": {
+      "label": "Community",
+      "summary": "<b>{count, plural, one {# vlucht} other {# vluchten}}</b> hier gelogd. Bekijk hieronder de recente activiteit.",
+      "view": "Naar de community →"
+    },
+    "footer": {
+      "base": "Gegevens over startplaatsen van <psLink>paraglidingspots.com</psLink>. Controleer altijd de lokale regels, de specifieke voorschriften van het vlieggebied en de luchtruimregels voordat je vliegt.",
+      "withOsm": "Gegevens over startplaatsen van <psLink>paraglidingspots.com</psLink> · locatiegegevens © <osmLink>OpenStreetMap-bijdragers</osmLink>. Controleer altijd de lokale regels, de specifieke voorschriften van het vlieggebied en de luchtruimregels voordat je vliegt."
+    },
+    "siteInfo": {
+      "title": "Info over het vlieggebied",
+      "subtitle": "Informatie uit de community van paraglidingspots.com"
+    },
+    "sections": {
+      "map": "Kaart",
+      "rules": "Regels",
+      "analytics": "Statistieken",
+      "recentFlights": "Recente vluchten",
+      "navLabel": "Secties van de pagina",
+      "onThisPage": "Op deze pagina"
+    },
+    "fullscreen": {
+      "title": "Kaart op volledig scherm",
+      "close": "Sluiten"
+    },
+    "scoringTypes": {
+      "free_flight": "Vrije vlucht",
+      "flat_triangle": "Gesloten FAI Δ",
+      "fai_triangle": "FAI Δ",
+      "free_triangle": "Gesloten vrije Δ"
+    },
+    "conditions": {
+      "title": "Actuele omstandigheden",
+      "justNow": "zojuist",
+      "minutesAgo": "{count} min geleden",
+      "hoursAgo": "{count} u geleden",
+      "unavailable": "Actuele wind niet beschikbaar",
+      "statusWithReason": "{status}: {reason}",
+      "status": {
+        "flyable": "Vliegbaar",
+        "marginal": "Twijfelachtig",
+        "unflyable": "Niet vliegbaar",
+        "calm": "Weinig wind"
+      },
+      "reason": {
+        "gustsTooStrong": "Vlagen {speed}, te sterk",
+        "windTooStrong": "Wind {speed}, te sterk",
+        "lightWind": "Weinig wind, thermiekvliegen mogelijk",
+        "bearingUnknown": "Oriëntatie van de startplaats onbekend",
+        "strongWindBearingUnknown": "Sterke wind, oriëntatie van de startplaats onbekend",
+        "favorable": "Gunstige windrichting",
+        "crosswind": "Zijwind, wees voorzichtig",
+        "tailwind": "Rugwind of sterke zijwind"
+      },
+      "gusts": "vlagen <b>{value}</b>",
+      "siteFaces": "Startplaats gericht naar <b>{bearing}</b>",
+      "wind": "Wind",
+      "gustsLabel": "Vlagen",
+      "temp": "Temp.",
+      "source": "bron · {station}"
+    },
+    "analytics": {
+      "title": "Statistieken van het vlieggebied",
+      "subtitleCounted": "Berekend uit {count, plural, one {# gelogde vlucht} other {# gelogde vluchten}}. De cijfers zijn medianen van de community.",
+      "subtitleEmpty": "Berekend uit de gelogde vluchten op deze plaats.",
+      "emptyMonth": "Geen vluchten geregistreerd in {month} op deze plaats.",
+      "empty": "Nog geen vluchten geregistreerd op deze plaats.",
+      "totalFlights": "Vluchten in totaal",
+      "peakSub": "Piek {month} · {count, plural, one {# vlucht} other {# vluchten}}",
+      "medianDuration": "Mediane duur",
+      "medianXc": "Mediane XC",
+      "best": "Beste {value}",
+      "maxAltitude": "Max. hoogte",
+      "median": "Mediaan {value}",
+      "flightsByMonth": "Vluchten per maand",
+      "peakLine": "Piek · {month} ({count, plural, one {# vlucht} other {# vluchten}})",
+      "flightsPerMonth": "Vluchten per maand",
+      "barTitle": "{month}: {count, plural, one {# vlucht} other {# vluchten}}",
+      "typeBreakdown": "Verdeling per vluchttype",
+      "noScored": "Nog geen gescoorde vluchten.",
+      "peakLaunchHour": "Drukste startuur",
+      "hourWithCount": "{hour} · {count, plural, one {# vlucht} other {# vluchten}}",
+      "topXcTitle": "Beste XC-vluchten",
+      "topXcSubtitle": "De langste overlandvluchten die ooit vanaf deze startplaats gelogd zijn.",
+      "unknownPilot": "Onbekende piloot"
+    },
+    "recent": {
+      "title": "Recente vluchten",
+      "subtitle": "{shown} van {total}, {sort}.",
+      "subtitleEmpty": "Hier zijn nog geen vluchten gelogd.",
+      "sortSummary": {
+        "date": {
+          "descending": "nieuwste eerst",
+          "ascending": "oudste eerst"
+        },
+        "distance": {
+          "descending": "langste eerst",
+          "ascending": "kortste eerst"
+        },
+        "pilot": {
+          "ascending": "gesorteerd op piloot, oplopend",
+          "descending": "gesorteerd op piloot, aflopend"
+        },
+        "glider": {
+          "ascending": "gesorteerd op scherm, oplopend",
+          "descending": "gesorteerd op scherm, aflopend"
+        },
+        "type": {
+          "ascending": "gesorteerd op type, oplopend",
+          "descending": "gesorteerd op type, aflopend"
+        }
+      },
+      "searchPlaceholder": "Piloot, scherm, type…",
+      "searchLabel": "Vluchten zoeken",
+      "clearSearch": "Zoekopdracht wissen",
+      "columns": {
+        "date": "Datum",
+        "pilot": "Piloot",
+        "glider": "Scherm",
+        "distance": "Afstand",
+        "type": "Type"
+      },
+      "loading": "Vluchten laden…",
+      "error": "Vluchten konden niet geladen worden, probeer het later opnieuw.",
+      "noMatch": "Geen vluchten gevonden voor je zoekopdracht.",
+      "none": "Nog geen vluchten op deze plaats.",
+      "unknownPilot": "Onbekende piloot",
+      "footerCount": "{shown} / {total} vluchten",
+      "loadingMore": "Laden…",
+      "loadMore": "Meer laden",
+      "sortBy": "Sorteren op {label}",
+      "sortByActive": "Sorteren op {label}, {dir}",
+      "dir": {
+        "ascending": "oplopend",
+        "descending": "aflopend"
+      }
+    }
+  },
+  "meta": {
+    "title": "Startplaatsen",
+    "description": "Ontdek startplaatsen voor paragliding over de hele wereld. Zoek op afstand of naam, of blader door alle beschikbare startplaatsen.",
+    "ogTitle": "Startplaatsen - We-Fly"
+  },
+  "og": {
+    "eyebrow": "Database van de community",
+    "titleLine1": "Startplaatsen",
+    "titleLine2": "voor paragliding.",
+    "subtitle": "Ontdek meer dan 18.000 startplaatsen wereldwijd. Zoek op locatie, wind en hoogte.",
+    "fallbackName": "Startplaats paragliding",
+    "chip": "Startplaats",
+    "elevation": "{value} m"
+  },
+  "detailMeta": {
+    "notFoundTitle": "Startplaats niet gevonden",
+    "notFoundDescription": "Deze startplaats bestaat niet.",
+    "unknownName": "Onbekende startplaats",
+    "title": "{name} | Startplaats paragliding",
+    "titleWithCountry": "{name} | Startplaats paragliding in {country}",
+    "intro": "Startplaats voor paragliding",
+    "introWithCountry": "Startplaats voor paragliding in {country}",
+    "atElevation": "op {elevation} hoogte",
+    "facing": "gericht naar {bearing}",
+    "callToAction": "Bekijk omstandigheden, statistieken en vluchtgeschiedenis op We-Fly",
+    "fallbackSchemaName": "Startplaats paragliding"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Cerca voli",
+    "description": "Scegli un decollo sulla mappa e sfoglia tutti i voli della community partiti da lì."
+  },
+  "loadingMap": "Caricamento della mappa…",
+  "duration": {
+    "hoursMinutes": "{hours}h{minutes}",
+    "minutes": "{minutes} min"
+  },
+  "board": {
+    "eyebrow": "Community",
+    "title": "Ricerca su mappa",
+    "subtitle": "Scegli un decollo sulla mappa per vedere tutti i voli della community partiti da lì.",
+    "loadingTakeoffs": "Caricamento dei decolli…",
+    "takeoffsInView": "{count, plural, one {# decollo} other {# decolli}} in vista",
+    "introTouch": "Scegli un decollo sulla mappa per vedere tutti i voli della community partiti da lì. Tocca le tracce per scoprire chi le ha volate, poi apri quella che ti interessa.",
+    "introHover": "Scegli un decollo sulla mappa per vedere tutti i voli della community partiti da lì. Passa il mouse su una traccia per scoprire chi l’ha volata, cliccala per vedere il volo qui senza lasciare la mappa.",
+    "communityFlightsHint": "{count, plural, one {<num>#</num> volo della community} other {<num>#</num> voli della community}}. Sposta la mappa per esplorare.",
+    "takeoffLabel": "Decollo",
+    "loadingTakeoff": "Caricamento…",
+    "communityFlights": "{total, plural, one {# volo della community} other {# voli della community}}",
+    "communityFlightsLimited": "{total, plural, one {# volo della community} other {# voli della community}}, mostrati i {shown} più lunghi",
+    "closeTakeoff": "Chiudi il decollo",
+    "filterPlaceholder": "Filtra per pilota o vela…",
+    "loadingFlights": "Caricamento dei voli…",
+    "loadError": "Impossibile caricare i voli da questo decollo.",
+    "noMatch": "Nessun volo corrisponde.",
+    "view": "Apri",
+    "openFlightAria": "Apri il volo completo di {pilot}",
+    "openFlightTitle": "Apri il volo completo"
+  },
+  "picker": {
+    "one": "1 volo qui",
+    "many": "{count} voli qui, tocca per confrontarli",
+    "close": "Chiudi",
+    "view": "Apri"
+  },
+  "map": {
+    "clusterTooltip": "{takeoffs, plural, one {# decollo} other {# decolli}} · {flights, plural, one {# volo} other {# voli}}",
+    "siteTooltip": "{flights, plural, one {# volo} other {# voli}}",
+    "viewFlight": "Apri il volo"
+  },
+  "summary": {
+    "allFlights": "Tutti i voli",
+    "previous": "Volo precedente",
+    "next": "Volo successivo",
+    "loading": "Caricamento del volo…",
+    "unavailable": "Questo volo non è più condiviso con la community.",
+    "timeRange": "{start} - {end}",
+    "from": "<muted>Da</muted> {site}{hasAltitude, select, true { ({altitude})} other {}}",
+    "unknownTakeoff": "un decollo sconosciuto",
+    "freeFlight": "Volo libero",
+    "tandem": "biposto",
+    "stats": {
+      "scoredDistance": "Distanza valida",
+      "score": "Punteggio",
+      "scoreValue": "{value} pt",
+      "duration": "Durata",
+      "trackLength": "Lunghezza traccia",
+      "maxAltitude": "Quota massima",
+      "bestGain": "Miglior guadagno di quota",
+      "bestClimb": "Salita migliore",
+      "maxSpeed": "Velocità massima"
+    },
+    "thermals": "{count, plural, one {# termica} other {# termiche}}, salita media {climb}",
+    "ceiling": "Plafond tipico {altitude}",
+    "wind": "Vento {speed} da {direction}",
+    "openFull": "Apri il volo completo"
+  }
+}

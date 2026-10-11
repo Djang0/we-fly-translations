@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Dove volare",
+    "description": "Scopri i migliori siti di parapendio della community stagione per stagione, classificati per qualità, attività, community e costanza.",
+    "ogTitle": "Dove volare - We-Fly",
+    "ogDescription": "Scopri i migliori siti di parapendio della community stagione per stagione."
+  },
+  "header": {
+    "eyebrow": "Community",
+    "title": "Dove volare",
+    "subtitle": "I migliori siti della community, stagione per stagione."
+  },
+  "signals": {
+    "quality": "Qualità",
+    "consistency": "Costanza",
+    "activity": "Attività",
+    "community": "Community",
+    "qualityShort": "Qualità",
+    "consistencyShort": "Cost.",
+    "activityShort": "Attività",
+    "communityShort": "Comm."
+  },
+  "seasons": {
+    "winter": "Inverno",
+    "spring": "Primavera",
+    "summer": "Estate",
+    "autumn": "Autunno"
+  },
+  "time": {
+    "seasonLabel": "Stagione",
+    "monthsLabel": "Mesi",
+    "summary": "{label} · tutti gli anni",
+    "weightsRail": "Pesi del punteggio",
+    "weightsTooltip": "Punteggio = somma pesata, normalizzata all’interno del periodo",
+    "weightSegment": "{label} · {weight, number, percent}",
+    "percent": "{value, number, percent}"
+  },
+  "board": {
+    "mapLoading": "Caricamento della mappa…",
+    "legendRegion": "Regione H3 r5 · ~250 km²",
+    "legendSelected": "Selezionata",
+    "regionsRanked": "Regioni in classifica",
+    "explainerToggle": "Come si calcola il punteggio",
+    "rankedCount": "{count, plural, one {# regione in classifica} other {# regioni in classifica}}",
+    "noFlights": "Ancora nessun volo caricato per questo periodo."
+  },
+  "explainer": {
+    "intro": "Quattro segnali, pesati e sommati. Ognuno è normalizzato all’interno del periodo che hai scelto, così la classifica ti dice sempre dove volare <em>in quel periodo</em>. I decolli sono raggruppati in regioni H3 di <mono>~250 km²</mono>, così le montagne con tanti decolli non vengono penalizzate.",
+    "qualityDesc": "Punteggio XContest mediano per volo.",
+    "consistencyDesc": "% dei giorni volabili in cui la regione ha prodotto almeno un volo.",
+    "activityDesc": "Numero di voli nella regione.",
+    "communityDesc": "Piloti distinti, per evitare anomalie dovute a un solo pilota.",
+    "minimumSample": "Campione minimo: <mono>{flights, plural, one {# volo} other {# voli}} · {pilots, plural, one {# pilota} other {# piloti}}</mono>. Sotto questa soglia, la regione finisce tra le <em>regioni tranquille</em>."
+  },
+  "rank": {
+    "empty": "Nessuna regione supera la soglia in questo periodo. Prova ad allargare la stagione, oppure dai un’occhiata alle regioni tranquille qui sotto.",
+    "aggregates": "Raggruppa {count, plural, one {# decollo} other {# decolli}} della regione",
+    "flights": "<v>{count}</v> {count, plural, one {volo} other {voli}}",
+    "pilots": "<v>{count}</v> {count, plural, one {pilota} other {piloti}}",
+    "median": "mediana <v>{value}</v>",
+    "score": "punteggio"
+  },
+  "quiet": {
+    "title": "Troppo tranquille per la classifica",
+    "count": "{count, plural, one {# regione} other {# regioni}}",
+    "explain": "Queste regioni esistono, ma nel periodo hanno registrato meno di <mono>{flights, plural, one {# volo} other {# voli}}</mono> o <mono>{pilots, plural, one {# pilota} other {# piloti}}</mono>. Le teniamo da parte perché un solo grande volo non domini la classifica.",
+    "rowTitle": "{name} · {flights, plural, one {# volo} other {# voli}} · {pilots, plural, one {# pilota} other {# piloti}}",
+    "flightsShort": "{count} v"
+  },
+  "detail": {
+    "close": "Chiudi il dettaglio",
+    "more": "+{count} altri",
+    "regionKind": "regione · H3 r5",
+    "breakdown": "Dettaglio del punteggio",
+    "takeoffsTitle": "Decolli della regione",
+    "anchor": "Riferimento",
+    "anchorTooltip": "Decollo di riferimento, quello con più voli nella regione",
+    "topFlight": "Miglior volo del periodo",
+    "noTopFlight": "Nessun volo di spicco registrato.",
+    "wind": "Vento",
+    "ceiling": "Plafond",
+    "launch": "Decollo",
+    "asl": "{unit} s.l.m.",
+    "typical": "tipico",
+    "openTakeoff": "Apri la pagina del decollo"
+  },
+  "teaser": {
+    "title": "Dove volare",
+    "subtitle": "{season}: migliori regioni, tutti gli anni",
+    "browse": "Esplora",
+    "empty": "Non c’è ancora abbastanza attività per classificare la stagione.",
+    "stats": "{flights, plural, one {# volo} other {# voli}} · {pilots, plural, one {# pilota} other {# piloti}} · Q{quality} · A{activity}"
+  }
+}

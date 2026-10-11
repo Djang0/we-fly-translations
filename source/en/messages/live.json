@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Live tracking"
+  },
+  "page": {
+    "defaultPilot": "A pilot",
+    "title": "{pilot}, live",
+    "expires": "Link expires {date}"
+  },
+  "empty": "No position reported yet. This page updates on its own, so leave it open.",
+  "modes": {
+    "map": "Map",
+    "threeD": "3D"
+  },
+  "pilot": "Pilot",
+  "ago": {
+    "seconds": "{count}s ago",
+    "minutes": "{count} min ago",
+    "hours": "{count} h ago"
+  },
+  "map": {
+    "lastSeen": "last seen {time}",
+    "reconnecting": "reconnecting…"
+  },
+  "threeD": {
+    "pilotAgo": "{pilot} · {time}",
+    "reconnecting": "reconnecting…",
+    "altitude": "Alt",
+    "vario": "Vario",
+    "speed": "Speed",
+    "followPilot": "Follow pilot",
+    "loadingTerrain": "Loading terrain…"
+  }
+}

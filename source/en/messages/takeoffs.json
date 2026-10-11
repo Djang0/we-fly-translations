@@ -1,0 +1,327 @@
+{
+  "viewToggle": {
+    "label": "Takeoffs view",
+    "map": "Map",
+    "list": "List",
+    "favorites": "Favorites"
+  },
+  "weather": {
+    "wind": "Wind",
+    "gusts": "Gusts {value}",
+    "speedFrom": "{speed} from {dir}",
+    "speedFromGusts": "{speed} from {dir}, gusts {gusts}",
+    "ariaLabel": "Wind conditions: {status}. {reason}. {speed} from {dir}.",
+    "justNow": "just now",
+    "minutesAgo": "{count} min ago",
+    "hoursAgo": "{count}h ago",
+    "status": {
+      "flyable": "Flyable",
+      "marginal": "Marginal",
+      "unflyable": "Unflyable",
+      "calm": "Calm"
+    }
+  },
+  "card": {
+    "unknownLocation": "Unknown location",
+    "viewAria": "View {name}, {country}",
+    "windTitle": "{reason}: {speed} {dir}",
+    "checkWind": "Check wind conditions",
+    "removeFavorite": "Remove from favorites",
+    "addFavorite": "Add to favorites"
+  },
+  "favorites": {
+    "checking": "Checking conditions…",
+    "noneFlyable": "None of your favorites are flyable right now.",
+    "emptyTitle": "No favorite takeoffs yet",
+    "emptyBody": "Sites you've flown from are auto-favorited, or add any site from its detail page.",
+    "listLabel": "Favorite takeoff sites"
+  },
+  "filters": {
+    "searchPlaceholder": "Search takeoff sites: name, region, country…",
+    "searchAria": "Search takeoffs by name, country, or description",
+    "clearSearch": "Clear search",
+    "disableLocation": "Disable location filter",
+    "enableLocation": "Enable location filter",
+    "nearby": "Nearby",
+    "sortingByDistance": "Sorting by distance from your location",
+    "sortByDistance": "Sort by distance from your location",
+    "within": "within",
+    "distanceAria": "Distance in kilometers",
+    "flyableNow": "Flyable now",
+    "sortAria": "Sort takeoffs",
+    "clearAll": "Clear all filters",
+    "clear": "Clear",
+    "sort": {
+      "nameAsc": "Name A→Z",
+      "nameDesc": "Name Z→A",
+      "bearingAsc": "Bearing asc",
+      "bearingDesc": "Bearing desc",
+      "countryAsc": "Country A→Z",
+      "countryDesc": "Country Z→A",
+      "elevationAsc": "Elevation low→high",
+      "elevationDesc": "Elevation high→low"
+    }
+  },
+  "results": {
+    "loadFailed": "Failed to load takeoffs",
+    "tryAgain": "Please try again",
+    "retry": "Retry",
+    "flyableNowCount": "{count, number} flyable now",
+    "checkingCount": "checking {count, number}",
+    "siteCount": "{count, plural, one {# site} other {# sites}}",
+    "updating": "Updating",
+    "emptyTitle": "No takeoffs found",
+    "noResults": "No results for \"{search}\"",
+    "adjustFilters": "Try adjusting your filters",
+    "clearFilters": "Clear filters",
+    "listLabel": "Takeoff sites",
+    "colElevation": "Elev.",
+    "colSite": "Site",
+    "colWind": "Wind",
+    "colWindow": "Window",
+    "allChecked": "All {count, number} sites checked",
+    "allLoaded": "All {count, number} sites loaded",
+    "loadMore": "Load more"
+  },
+  "page": {
+    "loadingMap": "Loading map…",
+    "locationDenied": "Location permission denied",
+    "geolocationUnsupported": "Geolocation not supported",
+    "subtitleFavorites": "{count, plural, one {# favorite site} other {# favorite sites}}",
+    "subtitleCommunity": "{count, number} community sites",
+    "subtitleDefault": "Community takeoff sites",
+    "loading": "Loading…",
+    "eyebrow": "Community takeoff sites",
+    "title": "Takeoffs"
+  },
+  "mapView": {
+    "loadingMap": "Loading map…",
+    "count": "{count, plural, one {<b>#</b> site} other {<b>#</b> sites}}",
+    "countFlyable": "{count, plural, one {<b>#</b> site} other {<b>#</b> sites}} flyable now",
+    "countInView": "{count, plural, one {<b>#</b> site} other {<b>#</b> sites}} in view",
+    "checking": "checking {count, number}",
+    "clickToFocus": "Click to focus",
+    "noMatch": "No sites match. Try widening your filters.",
+    "removeFavorite": "Remove from favorites",
+    "addFavorite": "Add to favorites",
+    "open": "Open"
+  },
+  "map": {
+    "loading": "Loading takeoff sites...",
+    "youAreHere": "You are here",
+    "elevationAsl": "{altitude} ASL",
+    "facing": "Facing: {bearing}",
+    "zoomForFlyable": "Zoom in to show only flyable takeoffs"
+  },
+  "detail": {
+    "back": "Back",
+    "siteType": {
+      "takeoff": "Takeoff",
+      "landing": "Landing Zone",
+      "parking": "Parking"
+    },
+    "favorites": {
+      "add": "Add to favorites",
+      "remove": "Remove from favorites"
+    },
+    "copyCoordinates": "Copy coordinates",
+    "share": "Share",
+    "rename": "Rename",
+    "toast": {
+      "elevationUpdated": "Elevation updated: {value}",
+      "elevationFailed": "Failed to fetch elevation",
+      "elevationRetry": "Failed to fetch elevation. Please try again.",
+      "locationUpdated": "Location data updated successfully",
+      "geocodingFailed": "Failed to fetch geocoding data",
+      "geocodingRetry": "Failed to fetch geocoding data. Please try again.",
+      "coordinatesCopied": "Coordinates copied",
+      "linkCopied": "Link copied"
+    },
+    "stats": {
+      "elevation": "Elevation AMSL",
+      "orientation": "Orientation",
+      "windFrom": "Wind from this direction",
+      "loggedFlights": "Logged flights",
+      "atThisSite": "{kind, select, landing {at this landing zone} parking {at this parking} other {at this takeoff}}",
+      "coordinates": "Coordinates",
+      "latLon": "lat · lon",
+      "timezone": "Timezone",
+      "coordinatesPair": "{lat}, {lon}"
+    },
+    "siteTypeHeading": "Site type",
+    "landingDescription": "Where pilots typically touch down. Verify obstacles, wind direction, and farmer permissions before using.",
+    "parkingDescription": "A community-known parking spot or staging area near a flying site.",
+    "map": {
+      "title": "Location map",
+      "collapseMap": "Collapse map",
+      "expandMap": "Expand map",
+      "collapse": "Collapse",
+      "expand": "Expand",
+      "openFullscreen": "Open fullscreen map"
+    },
+    "community": {
+      "label": "Community",
+      "summary": "<b>{count, plural, one {# flight} other {# flights}}</b> logged here. Browse the recent activity below.",
+      "view": "View community →"
+    },
+    "footer": {
+      "base": "Takeoff data provided by <psLink>paraglidingspots.com</psLink>. Always verify local rules, site-specific requirements, and airspace regulations before flying.",
+      "withOsm": "Takeoff data provided by <psLink>paraglidingspots.com</psLink> · location data © <osmLink>OpenStreetMap contributors</osmLink>. Always verify local rules, site-specific requirements, and airspace regulations before flying."
+    },
+    "siteInfo": {
+      "title": "Site information",
+      "subtitle": "Community information from paraglidingspots.com"
+    },
+    "sections": {
+      "map": "Map",
+      "rules": "Rules",
+      "analytics": "Analytics",
+      "recentFlights": "Recent flights",
+      "navLabel": "Page sections",
+      "onThisPage": "On this page"
+    },
+    "fullscreen": {
+      "title": "Fullscreen Map View",
+      "close": "Close"
+    },
+    "scoringTypes": {
+      "free_flight": "Free flight",
+      "flat_triangle": "Closed FAI Δ",
+      "fai_triangle": "FAI Δ",
+      "free_triangle": "Closed free Δ"
+    },
+    "conditions": {
+      "title": "Live conditions",
+      "justNow": "just now",
+      "minutesAgo": "{count}m ago",
+      "hoursAgo": "{count}h ago",
+      "unavailable": "Live wind not available",
+      "statusWithReason": "{status}: {reason}",
+      "status": {
+        "flyable": "Flyable",
+        "marginal": "Marginal",
+        "unflyable": "Unflyable",
+        "calm": "Light wind"
+      },
+      "reason": {
+        "gustsTooStrong": "Gusts {speed}, too strong",
+        "windTooStrong": "Wind {speed}, too strong",
+        "lightWind": "Light wind, thermal flying possible",
+        "bearingUnknown": "Site bearing unknown",
+        "strongWindBearingUnknown": "Strong wind, site bearing unknown",
+        "favorable": "Wind direction favorable",
+        "crosswind": "Crosswind, use caution",
+        "tailwind": "Tailwind or strong crosswind"
+      },
+      "gusts": "gusts <b>{value}</b>",
+      "siteFaces": "Site faces <b>{bearing}</b>",
+      "wind": "Wind",
+      "gustsLabel": "Gusts",
+      "temp": "Temp",
+      "source": "source · {station}"
+    },
+    "analytics": {
+      "title": "Site analytics",
+      "subtitleCounted": "Aggregated from {count, plural, one {# logged flight} other {# logged flights}}. Numbers are community medians.",
+      "subtitleEmpty": "Aggregated from logged flights at this site.",
+      "emptyMonth": "No flights recorded in {month} at this site.",
+      "empty": "No flights recorded at this site yet.",
+      "totalFlights": "Total flights",
+      "peakSub": "Peak {month} · {count, plural, one {# flight} other {# flights}}",
+      "medianDuration": "Median duration",
+      "medianXc": "Median XC",
+      "best": "Best {value}",
+      "maxAltitude": "Max altitude",
+      "median": "Median {value}",
+      "flightsByMonth": "Flights by month",
+      "peakLine": "Peak · {month} ({count, plural, one {# flight} other {# flights}})",
+      "flightsPerMonth": "Flights per month",
+      "barTitle": "{month}: {count, plural, one {# flight} other {# flights}}",
+      "typeBreakdown": "Flight type breakdown",
+      "noScored": "No scored flights yet.",
+      "peakLaunchHour": "Peak launch hour",
+      "hourWithCount": "{hour} · {count, plural, one {# flight} other {# flights}}",
+      "topXcTitle": "Top XC flights",
+      "topXcSubtitle": "The longest crosses ever logged from this site.",
+      "unknownPilot": "Unknown pilot"
+    },
+    "recent": {
+      "title": "Recent flights",
+      "subtitle": "{shown} of {total}, {sort}.",
+      "subtitleEmpty": "No flights logged here yet.",
+      "sortSummary": {
+        "date": {
+          "descending": "newest first",
+          "ascending": "oldest first"
+        },
+        "distance": {
+          "descending": "longest first",
+          "ascending": "shortest first"
+        },
+        "pilot": {
+          "ascending": "sorted by pilot ascending",
+          "descending": "sorted by pilot descending"
+        },
+        "glider": {
+          "ascending": "sorted by glider ascending",
+          "descending": "sorted by glider descending"
+        },
+        "type": {
+          "ascending": "sorted by type ascending",
+          "descending": "sorted by type descending"
+        }
+      },
+      "searchPlaceholder": "Pilot, glider, type…",
+      "searchLabel": "Search flights",
+      "clearSearch": "Clear search",
+      "columns": {
+        "date": "Date",
+        "pilot": "Pilot",
+        "glider": "Glider",
+        "distance": "Distance",
+        "type": "Type"
+      },
+      "loading": "Loading flights…",
+      "error": "Couldn’t load flights, try again later.",
+      "noMatch": "No flights match your search.",
+      "none": "No flights yet at this site.",
+      "unknownPilot": "Unknown pilot",
+      "footerCount": "{shown} / {total} flights",
+      "loadingMore": "Loading…",
+      "loadMore": "Load more",
+      "sortBy": "Sort by {label}",
+      "sortByActive": "Sort by {label}, {dir}",
+      "dir": {
+        "ascending": "ascending",
+        "descending": "descending"
+      }
+    }
+  },
+  "meta": {
+    "title": "Takeoff Sites",
+    "description": "Explore paragliding takeoff sites and launch locations. Search by distance, name, or browse all available sites around the world.",
+    "ogTitle": "Takeoff Sites - We-Fly"
+  },
+  "og": {
+    "eyebrow": "Community database",
+    "titleLine1": "Paragliding",
+    "titleLine2": "takeoff sites.",
+    "subtitle": "Explore 18,000+ launch sites worldwide. Search by location, wind, and altitude.",
+    "fallbackName": "Paragliding takeoff",
+    "chip": "Takeoff site",
+    "elevation": "{value} m"
+  },
+  "detailMeta": {
+    "notFoundTitle": "Takeoff Not Found",
+    "notFoundDescription": "This takeoff site does not exist.",
+    "unknownName": "Unknown Takeoff",
+    "title": "{name} | Paragliding Takeoff",
+    "titleWithCountry": "{name} | Paragliding Takeoff in {country}",
+    "intro": "Paragliding takeoff site",
+    "introWithCountry": "Paragliding takeoff site in {country}",
+    "atElevation": "at {elevation} elevation",
+    "facing": "facing {bearing}",
+    "callToAction": "View conditions, statistics and flight history on We-Fly",
+    "fallbackSchemaName": "Paragliding Takeoff"
+  }
+}

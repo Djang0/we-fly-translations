@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Paraglidingclubs | We-Fly",
+    "description": "Ontdek paraglidingclubs op We-Fly. Bekijk clubstatistieken, ranglijsten en de activiteit van de leden.",
+    "detailNotFound": "Club niet gevonden | We-Fly",
+    "detailTitle": "{club} | Paraglidingclub op We-Fly",
+    "detailDescription": "Statistieken, ranglijst en recente vluchten van {club} op We-Fly.",
+    "detailOgTitle": "{club} | We-Fly",
+    "detailOgDescription": "Clubstatistieken en ranglijst van {club}."
+  },
+  "sharedMeta": {
+    "notFoundTitle": "Club niet gevonden",
+    "notFoundDescription": "Deze gedeelde clublink is ongeldig of werd verwijderd.",
+    "title": "{club} | We-Fly-club",
+    "description": "Ontdek de vliegstatistieken van {club} op We-Fly.",
+    "fallbackTitle": "Gedeelde club",
+    "fallbackDescription": "Bekijk de vliegstatistieken van een club op We-Fly"
+  },
+  "list": {
+    "eyebrow": "Community",
+    "title": "Clubs",
+    "subtitle": "Paraglidingclubs op We-Fly.",
+    "searchPlaceholder": "Clubs zoeken...",
+    "noMatch": "Geen clubs gevonden voor je zoekopdracht.",
+    "none": "Nog geen clubs.",
+    "pilots": "Piloten",
+    "flights": "Vluchten",
+    "xc": "XC",
+    "airtime": "Vliegtijd",
+    "hoursUnit": "u"
+  },
+  "detail": {
+    "notFound": "Club niet gevonden.",
+    "eyebrow": "Community · Clubs",
+    "memberCount": "{count, plural, one {# lid} other {# leden}}",
+    "members": "Leden",
+    "flights": "Vluchten",
+    "xc": "XC",
+    "airtime": "Vliegtijd",
+    "hoursUnit": "u",
+    "leaderboard": "Clubranglijst",
+    "leaderboardSeason": "Seizoen van de ranglijst",
+    "allTime": "Aller tijden",
+    "noFlightsForYear": "Geen vluchten in {year}.",
+    "flightCount": "{count, plural, one {# vlucht} other {# vluchten}}",
+    "recentFlights": "Recente vluchten",
+    "loading": "Laden…",
+    "loadMore": "Meer laden"
+  },
+  "share": {
+    "button": "Delen",
+    "title": "{club} delen",
+    "generating": "Link aanmaken…",
+    "error": "Link aanmaken mislukt",
+    "notice": "Iedereen met deze link ziet de totaalstatistieken van de club. Er worden geen persoonlijke pilootgegevens gedeeld.",
+    "copy": "Link kopiëren",
+    "preview": "Voorbeeld",
+    "nativeTitle": "{club} op We-Fly"
+  },
+  "shared": {
+    "invalid": "Deze gedeelde link is ongeldig of werd verwijderd.",
+    "memberCount": "{count, plural, one {# lid} other {# leden}}",
+    "members": "Leden",
+    "flights": "Vluchten",
+    "xcUnit": "XC {unit}",
+    "airtime": "Vliegtijd (u)",
+    "flyingIn": "{count, plural, one {Vliegt in <strong>#</strong> land} other {Vliegt in <strong>#</strong> landen}}",
+    "join": "Word lid van We-Fly"
+  }
+}

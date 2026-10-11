@@ -95,13 +95,13 @@
     "title": "Activité de vol",
     "yearInReview": "Bilan de l’année",
     "yearInReviewTitle": "Bilan {year}",
-    "yearInReviewDescription": "Le résumé de ta saison {year} : totaux, records, sites préférés et classement dans la communauté.",
+    "yearInReviewDescription": "Le résumé de ta saison {year} : totaux, records, sites préférés et classement dans la communauté.",
     "previousYear": "Année précédente",
     "nextYear": "Année suivante",
-    "tooltip": "{date} : {count, plural, =0 {aucun vol} one {# vol} other {# vols}}",
+    "tooltip": "{date} : {count, plural, =0 {aucun vol} one {# vol} other {# vols}}",
     "summary": "<b>{flights}</b> {flights, plural, one {vol} other {vols}} sur <b>{days}</b> {days, plural, one {jour} other {jours}}",
-    "longestStreak": "Plus longue série : <b>{count}</b> {count, plural, one {jour} other {jours}}",
-    "currentStreak": "Série en cours : <b>{count}</b> {count, plural, one {jour} other {jours}}",
+    "longestStreak": "Plus longue série : <b>{count}</b> {count, plural, one {jour} other {jours}}",
+    "currentStreak": "Série en cours : <b>{count}</b> {count, plural, one {jour} other {jours}}",
     "less": "Moins",
     "more": "Plus"
   },
@@ -178,7 +178,7 @@
       "type": "Type",
       "rowAria": "Vol partagé du {date} depuis {takeoff}",
       "revokeAria": "Révoquer le lien de partage",
-      "dialogTitle": "Révoquer le lien de partage ?",
+      "dialogTitle": "Révoquer le lien de partage ?",
       "dialogDescription": "Les personnes qui ont le lien ne pourront plus voir ce vol. Tu peux créer un nouveau lien à tout moment.",
       "revoked": "Lien de partage révoqué"
     },
@@ -190,7 +190,7 @@
       "sameDayReplay": "Replay du jour · {count, plural, one {# pilote} other {# pilotes}}",
       "rowAria": "{label} du {date} depuis {takeoff}",
       "revokeAria": "Révoquer le lien du replay",
-      "dialogTitle": "Révoquer le lien du replay ?",
+      "dialogTitle": "Révoquer le lien du replay ?",
       "dialogDescription": "Les personnes qui ont le lien ne pourront plus regarder ce replay. Tu peux créer un nouveau lien à tout moment.",
       "revoked": "Lien du replay révoqué"
     }
@@ -208,7 +208,7 @@
   "civl": {
     "rankings": "Classements CIVL",
     "viewOn": "Voir sur civlcomps.org",
-    "profile": "Profil CIVL : <link>{name}</link>",
+    "profile": "Profil CIVL : <link>{name}</link>",
     "world": "Monde",
     "europe": "EU",
     "national": "Nat",

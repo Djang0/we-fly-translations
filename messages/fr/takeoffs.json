@@ -1,0 +1,327 @@
+{
+  "viewToggle": {
+    "label": "Affichage des décollages",
+    "map": "Carte",
+    "list": "Liste",
+    "favorites": "Favoris"
+  },
+  "weather": {
+    "wind": "Vent",
+    "gusts": "Rafales {value}",
+    "speedFrom": "{speed} du {dir}",
+    "speedFromGusts": "{speed} du {dir}, rafales {gusts}",
+    "ariaLabel": "Conditions de vent : {status}. {reason}. {speed} du {dir}.",
+    "justNow": "à l’instant",
+    "minutesAgo": "il y a {count} min",
+    "hoursAgo": "il y a {count} h",
+    "status": {
+      "flyable": "Volable",
+      "marginal": "Limite",
+      "unflyable": "Pas volable",
+      "calm": "Calme"
+    }
+  },
+  "card": {
+    "unknownLocation": "Lieu inconnu",
+    "viewAria": "Voir {name}, {country}",
+    "windTitle": "{reason} : {speed} {dir}",
+    "checkWind": "Vérifier le vent",
+    "removeFavorite": "Retirer des favoris",
+    "addFavorite": "Ajouter aux favoris"
+  },
+  "favorites": {
+    "checking": "Vérification des conditions…",
+    "noneFlyable": "Aucun de tes favoris n’est volable en ce moment.",
+    "emptyTitle": "Pas encore de décollage favori",
+    "emptyBody": "Les sites d’où tu as décollé sont ajoutés automatiquement à tes favoris. Tu peux aussi ajouter n’importe quel site depuis sa page.",
+    "listLabel": "Décollages favoris"
+  },
+  "filters": {
+    "searchPlaceholder": "Chercher un décollage : nom, région, pays…",
+    "searchAria": "Chercher un décollage par nom, pays ou description",
+    "clearSearch": "Effacer la recherche",
+    "disableLocation": "Désactiver le filtre de position",
+    "enableLocation": "Activer le filtre de position",
+    "nearby": "À proximité",
+    "sortingByDistance": "Tri par distance depuis ta position",
+    "sortByDistance": "Trier par distance depuis ta position",
+    "within": "dans un rayon de",
+    "distanceAria": "Distance en kilomètres",
+    "flyableNow": "Volable maintenant",
+    "sortAria": "Trier les décollages",
+    "clearAll": "Effacer tous les filtres",
+    "clear": "Effacer",
+    "sort": {
+      "nameAsc": "Nom A→Z",
+      "nameDesc": "Nom Z→A",
+      "bearingAsc": "Orientation croissante",
+      "bearingDesc": "Orientation décroissante",
+      "countryAsc": "Pays A→Z",
+      "countryDesc": "Pays Z→A",
+      "elevationAsc": "Altitude basse→haute",
+      "elevationDesc": "Altitude haute→basse"
+    }
+  },
+  "results": {
+    "loadFailed": "Impossible de charger les décollages",
+    "tryAgain": "Réessaie",
+    "retry": "Réessayer",
+    "flyableNowCount": "{count, plural, one {# volable} other {# volables}} maintenant",
+    "checkingCount": "vérification de {count, number}",
+    "siteCount": "{count, plural, one {# site} other {# sites}}",
+    "updating": "Mise à jour",
+    "emptyTitle": "Aucun décollage trouvé",
+    "noResults": "Aucun résultat pour « {search} »",
+    "adjustFilters": "Essaie d’ajuster tes filtres",
+    "clearFilters": "Effacer les filtres",
+    "listLabel": "Décollages",
+    "colElevation": "Alt.",
+    "colSite": "Site",
+    "colWind": "Vent",
+    "colWindow": "Orientation",
+    "allChecked": "{count, plural, one {# site vérifié} other {Les # sites vérifiés}}",
+    "allLoaded": "{count, plural, one {# site chargé} other {Les # sites chargés}}",
+    "loadMore": "Charger plus"
+  },
+  "page": {
+    "loadingMap": "Chargement de la carte…",
+    "locationDenied": "Accès à la position refusé",
+    "geolocationUnsupported": "Géolocalisation non prise en charge",
+    "subtitleFavorites": "{count, plural, one {# site favori} other {# sites favoris}}",
+    "subtitleCommunity": "{count, plural, one {# site de la communauté} other {# sites de la communauté}}",
+    "subtitleDefault": "Décollages de la communauté",
+    "loading": "Chargement…",
+    "eyebrow": "Décollages de la communauté",
+    "title": "Décollages"
+  },
+  "mapView": {
+    "loadingMap": "Chargement de la carte…",
+    "count": "{count, plural, one {<b>#</b> site} other {<b>#</b> sites}}",
+    "countFlyable": "{count, plural, one {<b>#</b> site volable} other {<b>#</b> sites volables}} maintenant",
+    "countInView": "{count, plural, one {<b>#</b> site} other {<b>#</b> sites}} à l’écran",
+    "checking": "vérification de {count, number}",
+    "clickToFocus": "Clique pour centrer",
+    "noMatch": "Aucun site ne correspond. Élargis tes filtres.",
+    "removeFavorite": "Retirer des favoris",
+    "addFavorite": "Ajouter aux favoris",
+    "open": "Ouvrir"
+  },
+  "map": {
+    "loading": "Chargement des décollages…",
+    "youAreHere": "Tu es ici",
+    "elevationAsl": "{altitude} AMSL",
+    "facing": "Orientation : {bearing}",
+    "zoomForFlyable": "Zoome pour n’afficher que les décollages volables"
+  },
+  "detail": {
+    "back": "Retour",
+    "siteType": {
+      "takeoff": "Décollage",
+      "landing": "Atterrissage",
+      "parking": "Parking"
+    },
+    "favorites": {
+      "add": "Ajouter aux favoris",
+      "remove": "Retirer des favoris"
+    },
+    "copyCoordinates": "Copier les coordonnées",
+    "share": "Partager",
+    "rename": "Renommer",
+    "toast": {
+      "elevationUpdated": "Altitude mise à jour : {value}",
+      "elevationFailed": "Impossible de récupérer l’altitude",
+      "elevationRetry": "Impossible de récupérer l’altitude. Réessaie.",
+      "locationUpdated": "Données de localisation mises à jour",
+      "geocodingFailed": "Impossible de récupérer les données de géocodage",
+      "geocodingRetry": "Impossible de récupérer les données de géocodage. Réessaie.",
+      "coordinatesCopied": "Coordonnées copiées",
+      "linkCopied": "Lien copié"
+    },
+    "stats": {
+      "elevation": "Altitude AMSL",
+      "orientation": "Orientation",
+      "windFrom": "Vent venant de cette direction",
+      "loggedFlights": "Vols enregistrés",
+      "atThisSite": "{kind, select, landing {à cet atterrissage} parking {à ce parking} other {depuis ce décollage}}",
+      "coordinates": "Coordonnées",
+      "latLon": "lat · lon",
+      "timezone": "Fuseau horaire",
+      "coordinatesPair": "{lat} ; {lon}"
+    },
+    "siteTypeHeading": "Type de site",
+    "landingDescription": "L’endroit où les pilotes se posent habituellement. Vérifie les obstacles, la direction du vent et l’accord de l’agriculteur avant de t’y poser.",
+    "parkingDescription": "Un parking ou point de rassemblement connu de la communauté, près d’un site de vol.",
+    "map": {
+      "title": "Carte de situation",
+      "collapseMap": "Replier la carte",
+      "expandMap": "Déplier la carte",
+      "collapse": "Replier",
+      "expand": "Déplier",
+      "openFullscreen": "Ouvrir la carte en plein écran"
+    },
+    "community": {
+      "label": "Communauté",
+      "summary": "{count, plural, one {<b># vol</b> enregistré ici} other {<b># vols</b> enregistrés ici}}. Parcours l’activité récente ci-dessous.",
+      "view": "Voir la communauté →"
+    },
+    "footer": {
+      "base": "Données des décollages fournies par <psLink>paraglidingspots.com</psLink>. Vérifie toujours les règles locales, les consignes propres au site et la réglementation des espaces aériens avant de voler.",
+      "withOsm": "Données des décollages fournies par <psLink>paraglidingspots.com</psLink> · données de localisation © <osmLink>contributeurs d’OpenStreetMap</osmLink>. Vérifie toujours les règles locales, les consignes propres au site et la réglementation des espaces aériens avant de voler."
+    },
+    "siteInfo": {
+      "title": "Infos sur le site",
+      "subtitle": "Infos de la communauté issues de paraglidingspots.com"
+    },
+    "sections": {
+      "map": "Carte",
+      "rules": "Règles",
+      "analytics": "Statistiques",
+      "recentFlights": "Vols récents",
+      "navLabel": "Sections de la page",
+      "onThisPage": "Sur cette page"
+    },
+    "fullscreen": {
+      "title": "Carte en plein écran",
+      "close": "Fermer"
+    },
+    "scoringTypes": {
+      "free_flight": "Distance libre",
+      "flat_triangle": "Δ FAI fermé",
+      "fai_triangle": "Δ FAI",
+      "free_triangle": "Δ libre fermé"
+    },
+    "conditions": {
+      "title": "Conditions en direct",
+      "justNow": "à l’instant",
+      "minutesAgo": "il y a {count} min",
+      "hoursAgo": "il y a {count} h",
+      "unavailable": "Vent en direct indisponible",
+      "statusWithReason": "{status} : {reason}",
+      "status": {
+        "flyable": "Volable",
+        "marginal": "Limite",
+        "unflyable": "Pas volable",
+        "calm": "Vent faible"
+      },
+      "reason": {
+        "gustsTooStrong": "Rafales {speed}, trop fort",
+        "windTooStrong": "Vent {speed}, trop fort",
+        "lightWind": "Vent faible, vol thermique possible",
+        "bearingUnknown": "Orientation du site inconnue",
+        "strongWindBearingUnknown": "Vent fort, orientation du site inconnue",
+        "favorable": "Direction du vent favorable",
+        "crosswind": "Vent de travers, prudence",
+        "tailwind": "Vent arrière ou fort vent de travers"
+      },
+      "gusts": "rafales <b>{value}</b>",
+      "siteFaces": "Site orienté <b>{bearing}</b>",
+      "wind": "Vent",
+      "gustsLabel": "Rafales",
+      "temp": "Temp.",
+      "source": "source · {station}"
+    },
+    "analytics": {
+      "title": "Statistiques du site",
+      "subtitleCounted": "Calculé sur {count, plural, one {# vol enregistré} other {# vols enregistrés}}. Les chiffres sont des médianes de la communauté.",
+      "subtitleEmpty": "Calculé sur les vols enregistrés sur ce site.",
+      "emptyMonth": "Aucun vol enregistré en {month} sur ce site.",
+      "empty": "Aucun vol enregistré sur ce site pour l’instant.",
+      "totalFlights": "Vols au total",
+      "peakSub": "Pic en {month} · {count, plural, one {# vol} other {# vols}}",
+      "medianDuration": "Durée médiane",
+      "medianXc": "Cross médian",
+      "best": "Record {value}",
+      "maxAltitude": "Altitude max",
+      "median": "Médiane {value}",
+      "flightsByMonth": "Vols par mois",
+      "peakLine": "Pic · {month} ({count, plural, one {# vol} other {# vols}})",
+      "flightsPerMonth": "Vols par mois",
+      "barTitle": "{month} : {count, plural, one {# vol} other {# vols}}",
+      "typeBreakdown": "Répartition par type de vol",
+      "noScored": "Pas encore de vol scoré.",
+      "peakLaunchHour": "Heure de pointe au décollage",
+      "hourWithCount": "{hour} · {count, plural, one {# vol} other {# vols}}",
+      "topXcTitle": "Meilleurs cross",
+      "topXcSubtitle": "Les plus longs cross jamais enregistrés depuis ce site.",
+      "unknownPilot": "Pilote inconnu"
+    },
+    "recent": {
+      "title": "Vols récents",
+      "subtitle": "{shown} sur {total}, {sort}.",
+      "subtitleEmpty": "Aucun vol enregistré ici pour l’instant.",
+      "sortSummary": {
+        "date": {
+          "descending": "les plus récents d’abord",
+          "ascending": "les plus anciens d’abord"
+        },
+        "distance": {
+          "descending": "les plus longs d’abord",
+          "ascending": "les plus courts d’abord"
+        },
+        "pilot": {
+          "ascending": "triés par pilote, ordre croissant",
+          "descending": "triés par pilote, ordre décroissant"
+        },
+        "glider": {
+          "ascending": "triés par voile, ordre croissant",
+          "descending": "triés par voile, ordre décroissant"
+        },
+        "type": {
+          "ascending": "triés par type, ordre croissant",
+          "descending": "triés par type, ordre décroissant"
+        }
+      },
+      "searchPlaceholder": "Pilote, voile, type…",
+      "searchLabel": "Chercher des vols",
+      "clearSearch": "Effacer la recherche",
+      "columns": {
+        "date": "Date",
+        "pilot": "Pilote",
+        "glider": "Voile",
+        "distance": "Distance",
+        "type": "Type"
+      },
+      "loading": "Chargement des vols…",
+      "error": "Impossible de charger les vols, réessaie plus tard.",
+      "noMatch": "Aucun vol ne correspond à ta recherche.",
+      "none": "Pas encore de vol sur ce site.",
+      "unknownPilot": "Pilote inconnu",
+      "footerCount": "{shown} / {total} vols",
+      "loadingMore": "Chargement…",
+      "loadMore": "Charger plus",
+      "sortBy": "Trier par {label}",
+      "sortByActive": "Trier par {label}, {dir}",
+      "dir": {
+        "ascending": "ordre croissant",
+        "descending": "ordre décroissant"
+      }
+    }
+  },
+  "meta": {
+    "title": "Décollages",
+    "description": "Explore les décollages de parapente du monde entier. Cherche par distance ou par nom, ou parcours tous les sites disponibles.",
+    "ogTitle": "Décollages - We-Fly"
+  },
+  "og": {
+    "eyebrow": "Base de la communauté",
+    "titleLine1": "Décollages",
+    "titleLine2": "de parapente.",
+    "subtitle": "Plus de 18 000 décollages dans le monde. Cherche par lieu, vent et altitude.",
+    "fallbackName": "Décollage de parapente",
+    "chip": "Décollage",
+    "elevation": "{value} m"
+  },
+  "detailMeta": {
+    "notFoundTitle": "Décollage introuvable",
+    "notFoundDescription": "Ce décollage n’existe pas.",
+    "unknownName": "Décollage inconnu",
+    "title": "{name} | Décollage parapente",
+    "titleWithCountry": "{name} | Décollage parapente, {country}",
+    "intro": "Décollage de parapente",
+    "introWithCountry": "Décollage de parapente, {country}",
+    "atElevation": "à {elevation} d’altitude",
+    "facing": "orienté {bearing}",
+    "callToAction": "Conditions, statistiques et historique des vols sur We-Fly",
+    "fallbackSchemaName": "Décollage de parapente"
+  }
+}

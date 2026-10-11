@@ -83,7 +83,7 @@
     "gpsCorruption": "GPS corrompu détecté",
     "gpsCorruptionHint": "Le fichier IGC contient des points GPS corrompus. La distance au score et la longueur de la trace peuvent être faussées.",
     "previewHint": "Survole pour prévisualiser la trace du vol",
-    "lifetimeMedian": "Médiane sur tous tes vols : {value}"
+    "lifetimeMedian": "Médiane sur tous tes vols : {value}"
   },
   "launchType": {
     "Self": "À pied",
@@ -128,8 +128,8 @@
     "updating": "Mise à jour…",
     "submit": "{count, plural, one {Mettre à jour # vol} other {Mettre à jour # vols}}",
     "thisSite": "ce site",
-    "bulkTitle": "Mettre à jour tous les vols de {takeoff} ?",
-    "bulkDescription": "Tu as {count, plural, one {# autre vol} other {# autres vols}} depuis <strong>{takeoff}</strong>. Tu veux tous les passer en <strong>{type}</strong> ?",
+    "bulkTitle": "Mettre à jour tous les vols de {takeoff} ?",
+    "bulkDescription": "Tu as {count, plural, one {# autre vol} other {# autres vols}} depuis <strong>{takeoff}</strong>. Tu veux tous les passer en <strong>{type}</strong> ?",
     "bulkConfirm": "{count, plural, one {Mettre à jour # vol} other {Mettre à jour # vols}}",
     "bulkSuccess": "{count, plural, one {# autre vol mis à jour} other {# autres vols mis à jour}} depuis {takeoff}",
     "bulkFailed": "Impossible de mettre à jour les vols",
@@ -154,7 +154,7 @@
     "countOfTotal": "{count} sur {total, plural, one {# vol} other {# vols}}",
     "loadError": "Erreur de chargement des vols",
     "selection": {
-      "fromTrends": "Depuis tes tendances :",
+      "fromTrends": "Depuis tes tendances :",
       "range": "{from} à {to}",
       "glidersCount": "{count, plural, one {# voile} other {# voiles}}",
       "showAll": "Afficher tous les vols"
@@ -166,7 +166,7 @@
       "features": {
         "maps": {
           "title": "Cartes de vol interactives",
-          "desc": "Profil d’altitude, thermiques, facteur de charge : chaque détail de ton vol."
+          "desc": "Profil d’altitude, thermiques, facteur de charge : chaque détail de ton vol."
         },
         "progress": {
           "title": "Ta progression dans le temps",
@@ -174,7 +174,7 @@
         },
         "badges": {
           "title": "Badges et défis",
-          "desc": "Gagne des badges à chaque étape : premier cross, premiers 50 km, 100 vols."
+          "desc": "Gagne des badges à chaque étape : premier cross, premiers 50 km, 100 vols."
         },
         "community": {
           "title": "Communauté",
@@ -255,14 +255,14 @@
   "sharedLink": {
     "title": "Lien de partage du vol",
     "description": "Toute personne qui a ce lien peut voir ce vol sans se connecter.",
-    "copiedToast": "Lien copié dans le presse-papiers !",
+    "copiedToast": "Lien copié dans le presse-papiers !",
     "copyFailed": "Impossible de copier le lien",
     "copied": "Copié",
     "copy": "Copier dans le presse-papiers",
     "openPage": "Ouvrir la page partagée"
   },
   "sharedLinkConfirm": {
-    "title": "Créer un lien de partage ?",
+    "title": "Créer un lien de partage ?",
     "intro": "Tu vas créer un lien secret qui permet à toute personne ayant l’URL de voir ce vol sans se connecter.",
     "noticeTitle": "Avertissement de sécurité",
     "noticeBody": "L’URL contient un identifiant difficile à deviner, mais pas impossible à trouver. Toute personne qui obtient le lien peut voir ce vol. Ne le partage qu’avec des gens de confiance.",
@@ -276,12 +276,12 @@
     "unexpectedError": "Une erreur inattendue s’est produite pendant la suppression des vols",
     "triggerAria": "{count, plural, one {Supprimer # vol} other {Supprimer # vols}}",
     "action": "{count, plural, one {Supprimer le vol} other {Supprimer # vols}}",
-    "title": "{count, plural, one {Supprimer le vol ?} other {Supprimer les vols ?}}",
+    "title": "{count, plural, one {Supprimer le vol ?} other {Supprimer les vols ?}}",
     "description": "Tu vas supprimer définitivement <strong>{count, plural, one {# vol} other {# vols}}</strong>. Cette action est irréversible.",
     "warning": "L’<strong>enregistrement en base</strong> et {count, plural, one {le <strong>fichier IGC</strong> seront définitivement supprimés} other {les <strong>fichiers IGC</strong> seront définitivement supprimés}} du serveur.",
     "cancel": "Annuler",
     "deleting": "Suppression…",
-    "bulkAria": "Supprimer les vols sélectionnés : supprime définitivement les vols et leurs fichiers IGC",
+    "bulkAria": "Supprimer les vols sélectionnés : supprime définitivement les vols et leurs fichiers IGC",
     "bulkLabel": "Supprimer la sélection",
     "bulkHint": "Supprime définitivement les vols et les fichiers"
   },
@@ -314,20 +314,20 @@
     "newWingName": "Nouveau nom de voile",
     "wingPlaceholder": "Nom de la voile (ex. Nova Mentor 7)",
     "dates": {
-      "triggerAria": "Corriger les dates des vols : tente de réparer un mauvais encodage de date de ton instrument",
+      "triggerAria": "Corriger les dates des vols : tente de réparer un mauvais encodage de date de ton instrument",
       "trigger": "Corriger l’encodage des dates",
       "triggerHint": "Répare les inversions JJMMAA/AAMMJJ",
       "title": "Corriger l’encodage des dates",
       "description": "Le jour et l’année vont être inversés pour <strong>{count, plural, one {# vol} other {# vols}}</strong>",
-      "criticalTitle": "Important : lis bien avant de continuer",
+      "criticalTitle": "Important : lis bien avant de continuer",
       "explanation": "La norme IGC impose des dates au format <strong>JJMMAA</strong>. Certains instruments écrivent à tort au format <strong>AAMMJJ</strong>. Cette opération inverse le jour et l’année.",
-      "current": "Actuel :",
-      "fixed": "Corrigé :",
-      "warning": "<strong>Attention :</strong> utilise cette option uniquement si ton instrument écrit des dates au mauvais format. Mal utilisée, elle mettra le désordre dans ta chronologie. <learn>En savoir plus</learn>",
+      "current": "Actuel :",
+      "fixed": "Corrigé :",
+      "warning": "<strong>Attention :</strong> utilise cette option uniquement si ton instrument écrit des dates au mauvais format. Mal utilisée, elle mettra le désordre dans ta chronologie. <learn>En savoir plus</learn>",
       "apply": "Appliquer la correction"
     },
     "wings": {
-      "triggerAria": "Changer le nom de la voile : met à jour la voile de tous les vols sélectionnés",
+      "triggerAria": "Changer le nom de la voile : met à jour la voile de tous les vols sélectionnés",
       "trigger": "Renommer la voile",
       "triggerHint": "Change la voile des vols sélectionnés",
       "title": "Renommer la voile",
@@ -376,7 +376,7 @@
     "searchPlaceholder": "Tape au moins 3 caractères…",
     "searching": "Recherche…",
     "results": "Résultats",
-    "noResults": "Aucun décollage ne correspond à « {query} »",
+    "noResults": "Aucun décollage ne correspond à « {query} »",
     "showNearby": "Afficher les décollages proches",
     "cancel": "Annuler",
     "updating": "Mise à jour…",
@@ -394,7 +394,7 @@
     "sent": "Envoyé vers {league}",
     "sentNeedsCompletion": "Envoyé vers {league}. Ouvre le lien pour finaliser ta déclaration.",
     "alreadyThere": "{league} a déjà ce vol",
-    "outcomeError": "{league} : {outcome}",
+    "outcomeError": "{league} : {outcome}",
     "outcome": {
       "sent": "Envoyé",
       "duplicate": "Déjà présent",
@@ -451,7 +451,7 @@
         "caption": "Un pilote ne peut pas être en l’air sur deux vols qui se chevauchent dans le temps.",
         "resolving": "Résolution…",
         "resolveAll": "Tout résoudre",
-        "confirmTitle": "Résoudre tous les vols simultanés ?",
+        "confirmTitle": "Résoudre tous les vols simultanés ?",
         "confirmBody": "Le vol le plus court de {count, plural, one {la paire de vols simultanés sera définitivement supprimé} other {chacune des # paires de vols simultanés sera définitivement supprimé}}. Cette action est irréversible.",
         "confirmAction": "Supprimer les vols les plus courts",
         "overlap": "Chevauchement",
@@ -483,7 +483,7 @@
       "deleteShortestAria": "Supprimer le plus court des vols simultanés",
       "deleting": "Suppression…",
       "deleteShortest": "Supprimer le plus court",
-      "confirmTitle": "Supprimer le vol le plus court ?",
+      "confirmTitle": "Supprimer le vol le plus court ?",
       "confirmBody": "Le vol du <strong>{date}</strong> ({takeoff} à {landing}, {duration}) sera définitivement supprimé. Cette action est irréversible et supprime aussi le fichier IGC associé.",
       "cancel": "Annuler",
       "confirmAction": "Supprimer le vol"
@@ -502,15 +502,15 @@
       "nameRequired": "Nom de voile requis",
       "nameRequiredHint": "Saisis un nom de voile",
       "updated": "Voile mise à jour",
-      "updatedDescription": "Voile du vol : « {name} »",
+      "updatedDescription": "Voile du vol : « {name} »",
       "updateFailed": "Échec de la mise à jour",
       "updateFailedHint": "Impossible de mettre à jour la voile",
       "unexpectedError": "Une erreur inattendue s’est produite",
       "trigger": "Renommer",
       "title": "Définir la voile",
       "description": "Ajoute la voile utilisée pour ce vol",
-      "date": "Date :",
-      "site": "Site :",
+      "date": "Date :",
+      "site": "Site :",
       "gliderName": "Nom de la voile",
       "placeholder": "ex. Ozone Rush 5",
       "nameHint": "Saisis le modèle de ta voile",
@@ -526,7 +526,7 @@
     "flightNotOwned": "Vol introuvable ou qui ne t’appartient pas",
     "updateTakeoffFailed": "Impossible de mettre à jour le décollage",
     "noFlightsSpecified": "Aucun vol indiqué",
-    "invalidFlightId": "Identifiant de vol invalide : {id}",
+    "invalidFlightId": "Identifiant de vol invalide : {id}",
     "someFlightsNotOwned": "Certains vols sont introuvables ou ne t’appartiennent pas",
     "deleteFailed": "Impossible de supprimer les vols",
     "anomalyNotFoundResolved": "Anomalie introuvable ou déjà résolue",

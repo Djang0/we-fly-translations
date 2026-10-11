@@ -45,7 +45,7 @@
     "launchTypes": {
       "Powered": "Gemotoriseerd",
       "Driving": "Autorit",
-      "Towed": "Lierstart"
+      "Towed": "Gesleept"
     },
     "variant": {
       "personal": "Eigen vlucht",
@@ -143,7 +143,7 @@
     "fixTakeoff": "Verkeerde startplaats corrigeren",
     "tandem": "Tandem",
     "launchTypes": {
-      "Towed": "Lierstart",
+      "Towed": "Gesleept",
       "Powered": "Gemotoriseerd",
       "Driving": "Autorit"
     },
@@ -178,7 +178,7 @@
     "fixTakeoff": "Verkeerde startplaats corrigeren",
     "tandem": "Tandem",
     "launchTypes": {
-      "Towed": "Lierstart",
+      "Towed": "Gesleept",
       "Powered": "Gemotoriseerd",
       "Driving": "Autorit"
     },

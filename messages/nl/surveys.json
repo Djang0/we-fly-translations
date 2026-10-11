@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Communityenquête",
+    "description": "Bepaal mee de toekomst van We-Fly."
+  },
+  "noSurvey": {
+    "title": "Er loopt nu geen enquête",
+    "description": "Er loopt op dit moment geen communityenquête. Bedankt dat je je mening wilt delen. Kom binnenkort nog eens kijken!",
+    "back": "Terug naar je logboek"
+  },
+  "thanks": {
+    "title": "Bedankt!",
+    "submitted": "Je antwoorden zijn binnen. Ze bepalen rechtstreeks wat we hierna bouwen. Bedankt dat je er tijd voor nam.",
+    "already": "Je hebt deze enquête al ingevuld. Je input is in goede handen.",
+    "back": "Terug naar je logboek"
+  },
+  "intro": {
+    "meta": "~{minutes} minuten · {sections, plural, one {# kort onderdeel} other {# korte onderdelen}}",
+    "anonymity": "Op het einde kies je of je antwoorden anoniem blijven of aan je account gekoppeld mogen worden.",
+    "start": "Starten"
+  },
+  "progress": {
+    "last": "Laatste stap",
+    "section": "Onderdeel {current} van {total}"
+  },
+  "privacy": {
+    "title": "Jouw privacy, jouw keuze",
+    "description": "Standaard worden je antwoorden anoniem opgeslagen, niets koppelt ze aan jou. Als je het toestaat, koppelen we ze aan je account zodat we je feedback in context kunnen lezen (gelogde vluchten, hoelang je er al bij bent) en misschien op een sterk idee kunnen terugkomen.",
+    "linkLabel": "Je mag mijn antwoorden aan mijn We-Fly-account koppelen.",
+    "linkHint": "Optioneel. Laat leeg om volledig anoniem te blijven."
+  },
+  "nav": {
+    "back": "Terug",
+    "next": "Volgende",
+    "sending": "Versturen…",
+    "send": "Mijn antwoorden versturen"
+  },
+  "optional": "(optioneel)",
+  "selectedCount": "{count}/{max} gekozen",
+  "prompt": {
+    "ariaLabel": "Uitnodiging voor de communityenquête",
+    "title": "Bepaal mee de toekomst van We-Fly",
+    "body": "Onze communityenquête duurt ~{minutes} minuten en stuurt rechtstreeks wat we hierna bouwen. We vragen het maar één keer.",
+    "dismissLabel": "Uitnodiging voor de enquête sluiten",
+    "noThanks": "Nee, bedankt",
+    "take": "Enquête invullen"
+  },
+  "errors": {
+    "generic": "Er ging iets mis. Probeer het opnieuw.",
+    "notAuthenticated": "Niet ingelogd",
+    "dismissFailed": "Melding sluiten mislukt",
+    "tooManyAttempts": "Te veel pogingen, probeer het later opnieuw.",
+    "closed": "Deze enquête is niet meer open.",
+    "alreadyAnswered": "Je hebt deze enquête al ingevuld. Bedankt!",
+    "saveFailed": "Je antwoorden opslaan is mislukt. Probeer het opnieuw."
+  },
+  "definitions": {
+    "community-survey-2026": {
+      "title": "We-Fly-communityenquête 2026",
+      "intro": "We-Fly is gemaakt voor piloten, en jullie weten het best waar het naartoe moet. Deze korte enquête helpt ons te begrijpen wat werkt, wat niet, en wat we hierna moeten bouwen. Het duurt ongeveer vier minuten.",
+      "steps": {
+        "about-you": {
+          "title": "Jij en je vliegen",
+          "description": "Een beetje context, zodat we de antwoorden goed kunnen lezen."
+        },
+        "satisfaction": {
+          "title": "Hoe doen we het?"
+        },
+        "features": {
+          "title": "Wat je gebruikt"
+        },
+        "future": {
+          "title": "De toekomst van We-Fly",
+          "description": "Dit is het deel dat de roadmap rechtstreeks bepaalt."
+        },
+        "last-word": {
+          "title": "Nog één ding"
+        }
+      }
+    }
+  },
+  "questions": {
+    "experience": {
+      "title": "Hoelang vlieg je al met een paraglider?"
+    },
+    "usage-frequency": {
+      "title": "Hoe vaak gebruik je We-Fly?"
+    },
+    "nps": {
+      "title": "Hoe waarschijnlijk is het dat je We-Fly aanraadt aan een andere piloot?",
+      "minLabel": "Helemaal niet waarschijnlijk",
+      "maxLabel": "Zeer waarschijnlijk"
+    },
+    "nps-why": {
+      "title": "Wat is de belangrijkste reden voor je score?",
+      "placeholder": "Graag de eerlijke versie. Lof en klachten zijn even welkom."
+    },
+    "features-used": {
+      "title": "Welke functies gebruik je regelmatig?"
+    },
+    "favorite-feature": {
+      "title": "Als je maar één functie mocht houden, welke zou het zijn?"
+    },
+    "future-features": {
+      "title": "Wat zou je het liefst als volgende zien?",
+      "description": "Kies er maximaal drie."
+    },
+    "future-free": {
+      "title": "Nog iets wat je graag zou zien in We-Fly?",
+      "description": "Hoe gekker het idee, hoe liever. Dit vak lezen we twee keer.",
+      "placeholder": "Droom groot…"
+    },
+    "away-reason": {
+      "title": "Als je een tijdje weg was van We-Fly: wat hield je weg, en wat zou je terugbrengen?",
+      "placeholder": "Sla dit over als je een vaste gebruiker bent."
+    },
+    "anything-else": {
+      "title": "Wil je ons nog iets anders vertellen?"
+    }
+  },
+  "options": {
+    "experience": {
+      "lt1": "Minder dan een jaar",
+      "1-3": "1 tot 3 jaar",
+      "4-10": "4 tot 10 jaar",
+      "gt10": "Meer dan 10 jaar"
+    },
+    "usage-frequency": {
+      "every-flight": "Na bijna elke vlucht",
+      "monthly": "Een paar keer per maand",
+      "seasonal": "Een paar keer per seizoen",
+      "rarely": "Zelden, ik ben het pas aan het (her)ontdekken"
+    },
+    "features": {
+      "logbook": "Logboek en vluchtkaarten",
+      "cockpit": "Vluchtanalyse in Cockpit (thermiek, wind, fases)",
+      "badges": "Badges en challenges",
+      "community": "Communitystatistieken en ranglijsten",
+      "clubs": "Clubs",
+      "takeoffs": "Startplaatszoeker en startplaatspagina's",
+      "xc-planner": "XC-planner (routes, taken, luchtruim)",
+      "recap": "Seizoensoverzicht",
+      "sharing": "Vluchten en pilootprofielen delen",
+      "connectivity": "Synchronisatie met instrument en cloud (WebDAV, Dropbox…)"
+    },
+    "future-features": {
+      "mobile-app": "Native mobiele app",
+      "live-tracking": "Live tracking",
+      "weather": "Weer- en vliegbaarheidsvoorspellingen",
+      "competition": "Tools voor wedstrijden en taken",
+      "social": "Meer sociale functies (reacties, volgen)",
+      "progression": "Inzicht in training en vooruitgang",
+      "airspace": "Uitgebreidere luchtruimtools",
+      "integrations": "Meer koppelingen (XContest, WeGlide…)",
+      "offline": "Offline gebruik",
+      "i18n": "Meer talen"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Flüge suchen",
+    "description": "Wähl einen Startplatz auf der Karte und sieh dir alle Community-Flüge an, die dort gestartet sind."
+  },
+  "loadingMap": "Karte wird geladen…",
+  "duration": {
+    "hoursMinutes": "{hours}h{minutes}",
+    "minutes": "{minutes} min"
+  },
+  "board": {
+    "eyebrow": "Community",
+    "title": "Kartensuche",
+    "subtitle": "Wähl einen Startplatz auf der Karte, um alle Community-Flüge zu sehen, die dort gestartet sind.",
+    "loadingTakeoffs": "Startplätze werden geladen…",
+    "takeoffsInView": "{count, plural, one {# Startplatz} other {# Startplätze}} im Ausschnitt",
+    "introTouch": "Wähl einen Startplatz auf der Karte, um alle Community-Flüge zu sehen, die dort gestartet sind. Tipp auf die Tracks, um zu sehen, wer sie geflogen ist, und öffne den gewünschten Flug.",
+    "introHover": "Wähl einen Startplatz auf der Karte, um alle Community-Flüge zu sehen, die dort gestartet sind. Fahr mit der Maus über einen Track, um zu sehen, wer ihn geflogen ist. Ein Klick zeigt den Flug hier an, ohne die Karte zu verlassen.",
+    "communityFlightsHint": "{count, plural, one {<num>#</num> Community-Flug} other {<num>#</num> Community-Flüge}}. Verschieb die Karte zum Erkunden.",
+    "takeoffLabel": "Startplatz",
+    "loadingTakeoff": "Wird geladen…",
+    "communityFlights": "{total, plural, one {# Community-Flug} other {# Community-Flüge}}",
+    "communityFlightsLimited": "{total, plural, one {# Community-Flug} other {# Community-Flüge}}, die {shown} weitesten werden angezeigt",
+    "closeTakeoff": "Startplatz schließen",
+    "filterPlaceholder": "Nach Pilot oder Schirm filtern…",
+    "loadingFlights": "Flüge werden geladen…",
+    "loadError": "Die Flüge von diesem Startplatz konnten nicht geladen werden.",
+    "noMatch": "Kein Flug passt.",
+    "view": "Ansehen",
+    "openFlightAria": "Vollständigen Flug von {pilot} öffnen",
+    "openFlightTitle": "Vollständigen Flug öffnen"
+  },
+  "picker": {
+    "one": "1 Flug hier",
+    "many": "{count} Flüge hier, tippen zum Vergleichen",
+    "close": "Schließen",
+    "view": "Ansehen"
+  },
+  "map": {
+    "clusterTooltip": "{takeoffs, plural, one {# Startplatz} other {# Startplätze}} · {flights, plural, one {# Flug} other {# Flüge}}",
+    "siteTooltip": "{flights, plural, one {# Flug} other {# Flüge}}",
+    "viewFlight": "Flug ansehen"
+  },
+  "summary": {
+    "allFlights": "Alle Flüge",
+    "previous": "Vorheriger Flug",
+    "next": "Nächster Flug",
+    "loading": "Flug wird geladen…",
+    "unavailable": "Dieser Flug wird nicht mehr mit der Community geteilt.",
+    "timeRange": "{start} bis {end}",
+    "from": "<muted>Von</muted> {site}{hasAltitude, select, true { ({altitude})} other {}}",
+    "unknownTakeoff": "einem unbekannten Startplatz",
+    "freeFlight": "Freie Strecke",
+    "tandem": "Tandem",
+    "stats": {
+      "scoredDistance": "Wertungsdistanz",
+      "score": "Punkte",
+      "scoreValue": "{value} Pkt.",
+      "duration": "Flugdauer",
+      "trackLength": "Tracklänge",
+      "maxAltitude": "Max. Höhe",
+      "bestGain": "Max. Höhengewinn",
+      "bestClimb": "Bestes Steigen",
+      "maxSpeed": "Max. Geschwindigkeit"
+    },
+    "thermals": "{count, plural, one {# Bart} other {# Bärte}}, im Schnitt {climb}",
+    "ceiling": "Typische Basis {altitude}",
+    "wind": "Wind {speed} aus {direction}",
+    "openFull": "Vollständigen Flug öffnen"
+  }
+}

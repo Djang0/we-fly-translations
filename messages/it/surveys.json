@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Sondaggio della community",
+    "description": "Aiutaci a costruire il futuro di We-Fly."
+  },
+  "noSurvey": {
+    "title": "Nessun sondaggio aperto al momento",
+    "description": "Al momento non c'è nessun sondaggio della community in corso. Grazie per voler dire la tua. Ripassa presto!",
+    "back": "Torna al tuo libretto di volo"
+  },
+  "thanks": {
+    "title": "Grazie!",
+    "submitted": "Le tue risposte sono arrivate. Orientano direttamente quello che svilupperemo. Grazie per il tempo che ci hai dedicato.",
+    "already": "Hai già risposto a questo sondaggio. Il tuo contributo è in buone mani.",
+    "back": "Torna al tuo libretto di volo"
+  },
+  "intro": {
+    "meta": "~{minutes} minuti · {sections, plural, one {# breve sezione} other {# brevi sezioni}}",
+    "anonymity": "Alla fine scegli tu se le tue risposte restano anonime o se possono essere collegate al tuo account.",
+    "start": "Inizia"
+  },
+  "progress": {
+    "last": "Ultimo passo",
+    "section": "Sezione {current} di {total}"
+  },
+  "privacy": {
+    "title": "La tua privacy, la tua scelta",
+    "description": "Per impostazione predefinita le tue risposte sono salvate in forma anonima: niente le collega a te. Se lo permetti, le colleghiamo al tuo account per leggere il tuo feedback nel suo contesto (voli registrati, da quanto tempo usi We-Fly) ed eventualmente ricontattarti per una bella idea.",
+    "linkLabel": "Potete collegare le mie risposte al mio account We-Fly.",
+    "linkHint": "Facoltativo. Lascia la casella vuota per restare del tutto anonimo."
+  },
+  "nav": {
+    "back": "Indietro",
+    "next": "Avanti",
+    "sending": "Invio…",
+    "send": "Invia le mie risposte"
+  },
+  "optional": "(facoltativo)",
+  "selectedCount": "{count}/{max} selezionati",
+  "prompt": {
+    "ariaLabel": "Invito al sondaggio della community",
+    "title": "Aiutaci a costruire il futuro di We-Fly",
+    "body": "Il sondaggio della community richiede ~{minutes} minuti e orienta direttamente quello che svilupperemo. Te lo chiediamo una volta sola.",
+    "dismissLabel": "Chiudi l'invito al sondaggio",
+    "noThanks": "No, grazie",
+    "take": "Partecipa al sondaggio"
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "notAuthenticated": "Non autenticato",
+    "dismissFailed": "Impossibile chiudere l'invito",
+    "tooManyAttempts": "Troppi tentativi, riprova più tardi.",
+    "closed": "Questo sondaggio non è più aperto.",
+    "alreadyAnswered": "Hai già risposto a questo sondaggio. Grazie!",
+    "saveFailed": "Impossibile salvare le tue risposte. Riprova."
+  },
+  "definitions": {
+    "community-survey-2026": {
+      "title": "Sondaggio della community We-Fly 2026",
+      "intro": "We-Fly è fatto per i piloti, e siete voi a sapere dove deve andare. Questo breve sondaggio ci aiuta a capire cosa funziona, cosa no e cosa sviluppare dopo. Ci vogliono circa quattro minuti.",
+      "steps": {
+        "about-you": {
+          "title": "Tu e il tuo volo",
+          "description": "Un po' di contesto per leggere bene le risposte."
+        },
+        "satisfaction": {
+          "title": "Come stiamo andando?"
+        },
+        "features": {
+          "title": "Cosa usi"
+        },
+        "future": {
+          "title": "Il futuro di We-Fly",
+          "description": "Questa è la parte che definisce direttamente la roadmap."
+        },
+        "last-word": {
+          "title": "Un'ultima cosa"
+        }
+      }
+    }
+  },
+  "questions": {
+    "experience": {
+      "title": "Da quanto tempo voli in parapendio?"
+    },
+    "usage-frequency": {
+      "title": "Quanto spesso usi We-Fly?"
+    },
+    "nps": {
+      "title": "Quanto è probabile che consigli We-Fly a un altro pilota?",
+      "minLabel": "Per niente probabile",
+      "maxLabel": "Estremamente probabile"
+    },
+    "nps-why": {
+      "title": "Qual è il motivo principale del tuo voto?",
+      "placeholder": "La versione sincera, per favore. Complimenti e lamentele sono ugualmente benvenuti."
+    },
+    "features-used": {
+      "title": "Quali funzioni usi regolarmente?"
+    },
+    "favorite-feature": {
+      "title": "Se potessi tenere una sola funzione, quale sarebbe?"
+    },
+    "future-features": {
+      "title": "Cosa ti piacerebbe vedere per prima cosa?",
+      "description": "Scegline al massimo tre."
+    },
+    "future-free": {
+      "title": "C'è altro che ti piacerebbe che We-Fly facesse?",
+      "description": "Le idee più folli sono benvenute. Questa è la casella che leggiamo due volte.",
+      "placeholder": "Sogna in grande…"
+    },
+    "away-reason": {
+      "title": "Se non usi We-Fly da un po', cosa ti ha tenuto lontano e cosa ti farebbe tornare?",
+      "placeholder": "Salta questa domanda se sei un habitué."
+    },
+    "anything-else": {
+      "title": "C'è altro che vorresti dirci?"
+    }
+  },
+  "options": {
+    "experience": {
+      "lt1": "Meno di un anno",
+      "1-3": "Da 1 a 3 anni",
+      "4-10": "Da 4 a 10 anni",
+      "gt10": "Più di 10 anni"
+    },
+    "usage-frequency": {
+      "every-flight": "Dopo quasi ogni volo",
+      "monthly": "Qualche volta al mese",
+      "seasonal": "Qualche volta a stagione",
+      "rarely": "Raramente, lo sto (ri)scoprendo"
+    },
+    "features": {
+      "logbook": "Libretto di volo e mappe dei voli",
+      "cockpit": "Analisi dei voli nel Cockpit (termiche, vento, fasi)",
+      "badges": "Badge e sfide",
+      "community": "Statistiche e classifiche della community",
+      "clubs": "Club",
+      "takeoffs": "Ricerca decolli e pagine dei siti",
+      "xc-planner": "Pianificatore XC (rotte, task, spazio aereo)",
+      "recap": "Riepilogo della stagione",
+      "sharing": "Condivisione di voli e profili pilota",
+      "connectivity": "Sincronizzazione con strumenti e cloud (WebDAV, Dropbox…)"
+    },
+    "future-features": {
+      "mobile-app": "App mobile nativa",
+      "live-tracking": "Live tracking",
+      "weather": "Meteo e previsioni di volabilità",
+      "competition": "Strumenti per gare e task",
+      "social": "Più funzioni social (commenti, follow)",
+      "progression": "Analisi della formazione e dei progressi",
+      "airspace": "Strumenti più completi per lo spazio aereo",
+      "integrations": "Più integrazioni (XContest, WeGlide…)",
+      "offline": "Uso offline",
+      "i18n": "Più lingue"
+    }
+  }
+}

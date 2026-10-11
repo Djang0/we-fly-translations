@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Paragliding Clubs | We-Fly",
+    "description": "Browse paragliding clubs on We-Fly. See club stats, leaderboards, and member activity.",
+    "detailNotFound": "Club Not Found | We-Fly",
+    "detailTitle": "{club} | Paragliding Club on We-Fly",
+    "detailDescription": "{club} club stats, leaderboard, and recent flights on We-Fly.",
+    "detailOgTitle": "{club} | We-Fly",
+    "detailOgDescription": "Paragliding club stats and leaderboard for {club}."
+  },
+  "sharedMeta": {
+    "notFoundTitle": "Club Not Found",
+    "notFoundDescription": "This shared club link is invalid or has been removed.",
+    "title": "{club} | We-Fly Club",
+    "description": "Discover {club}'s flying stats on We-Fly.",
+    "fallbackTitle": "Shared Club",
+    "fallbackDescription": "View a club's flying stats on We-Fly"
+  },
+  "list": {
+    "eyebrow": "Community",
+    "title": "Clubs",
+    "subtitle": "Paragliding clubs on We-Fly.",
+    "searchPlaceholder": "Search clubs...",
+    "noMatch": "No clubs match your search.",
+    "none": "No clubs yet.",
+    "pilots": "Pilots",
+    "flights": "Flights",
+    "xc": "XC",
+    "airtime": "Airtime",
+    "hoursUnit": "h"
+  },
+  "detail": {
+    "notFound": "Club not found.",
+    "eyebrow": "Community · Clubs",
+    "memberCount": "{count, plural, one {# member} other {# members}}",
+    "members": "Members",
+    "flights": "Flights",
+    "xc": "XC",
+    "airtime": "Airtime",
+    "hoursUnit": "h",
+    "leaderboard": "Club leaderboard",
+    "leaderboardSeason": "Leaderboard season",
+    "allTime": "All-time",
+    "noFlightsForYear": "No flights for {year}.",
+    "flightCount": "{count, plural, one {# flight} other {# flights}}",
+    "recentFlights": "Recent flights",
+    "loading": "Loading…",
+    "loadMore": "Load more"
+  },
+  "share": {
+    "button": "Share",
+    "title": "Share {club}",
+    "generating": "Generating link…",
+    "error": "Failed to generate link",
+    "notice": "Anyone with this link can view the club's aggregate stats. No personal pilot data is shared.",
+    "copy": "Copy link",
+    "preview": "Preview",
+    "nativeTitle": "{club} on We-Fly"
+  },
+  "shared": {
+    "invalid": "This shared link is invalid or has been removed.",
+    "memberCount": "{count, plural, one {# member} other {# members}}",
+    "members": "Members",
+    "flights": "Flights",
+    "xcUnit": "XC {unit}",
+    "airtime": "Airtime (h)",
+    "flyingIn": "{count, plural, one {Flying in <strong>#</strong> country} other {Flying in <strong>#</strong> countries}}",
+    "join": "Join We-Fly"
+  }
+}

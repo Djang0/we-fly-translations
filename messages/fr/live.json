@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Suivi en direct"
+  },
+  "page": {
+    "defaultPilot": "Un pilote",
+    "title": "{pilot}, en direct",
+    "expires": "Le lien expire le {date}"
+  },
+  "empty": "Aucune position reçue pour l’instant. La page se met à jour toute seule, laisse-la ouverte.",
+  "modes": {
+    "map": "Carte",
+    "threeD": "3D"
+  },
+  "pilot": "Pilote",
+  "ago": {
+    "seconds": "il y a {count} s",
+    "minutes": "il y a {count} min",
+    "hours": "il y a {count} h"
+  },
+  "map": {
+    "lastSeen": "vu {time}",
+    "reconnecting": "reconnexion…"
+  },
+  "threeD": {
+    "pilotAgo": "{pilot} · {time}",
+    "reconnecting": "reconnexion…",
+    "altitude": "Alt",
+    "vario": "Vario",
+    "speed": "Vitesse",
+    "followPilot": "Suivre le pilote",
+    "loadingTerrain": "Chargement du relief…"
+  }
+}

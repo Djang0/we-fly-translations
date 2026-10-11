@@ -98,7 +98,7 @@
     "showTrace": "Afficher la trace de {name}",
     "toggleTrace": "Afficher ou masquer la trace",
     "moments": "Moments clés · clique pour y aller",
-    "circlingTogether": "Enroulent ensemble : {names}",
+    "circlingTogether": "Enroulent ensemble : {names}",
     "rank": "Rang",
     "liveRank": "Classement en direct",
     "liveRankBasis": "Classement en direct · {basis, select, altitude {altitude} race {course} other {{basis}}}",
@@ -172,7 +172,7 @@
   "share": {
     "tracksExcluded": "{count, plural, one {# trace n’est pas incluse} other {# traces ne sont pas incluses}}. Les IGC importés et les pilotes en privé restent hors des liens de partage.",
     "linkCopied": "Lien du replay copié",
-    "linkCopiedPost": "Lien du replay copié ! Clique sur partager pour le publier.",
+    "linkCopiedPost": "Lien du replay copié ! Clique sur partager pour le publier.",
     "failed": "Impossible de partager le replay",
     "shareReplay": "Partager le replay"
   },
@@ -248,7 +248,7 @@
     "briefing": {
       "filmed": {
         "title": "Ce que tu vois est ce qui est filmé",
-        "body": "Le globe est capturé en direct, en une seule prise. Pas de rendu après coup : le plan que tu pilotes est le plan que tu gardes."
+        "body": "Le globe est capturé en direct, en une seule prise. Pas de rendu après coup : le plan que tu pilotes est le plan que tu gardes."
       },
       "direct": {
         "title": "Tu diriges la caméra pendant la lecture",
@@ -265,7 +265,7 @@
     "resolution": "Résolution",
     "fileFormat": "Format de fichier",
     "formatHints": {
-      "mp4": "Lisible partout : téléphones, réseaux sociaux, logiciels de montage.",
+      "mp4": "Lisible partout : téléphones, réseaux sociaux, logiciels de montage.",
       "webm": "Fichier plus léger à qualité égale. Idéal pour le web."
     },
     "quality": "Qualité",
@@ -274,7 +274,7 @@
     "burnIn": "Incruster la télémétrie",
     "burnInHint": "Altitude, vario, vitesse, heure et barre de progression.",
     "summary": "<strong>{length}</strong> d’enregistrement à {speed}× · environ {size} · {format}",
-    "tips": "Pour une image bien nette, il faut un grand globe : passe en plein écran avant d’ouvrir ce panneau. Garde aussi l’onglet au premier plan : un onglet en arrière-plan ralentit le globe, et la vidéo avec.",
+    "tips": "Pour une image bien nette, il faut un grand globe : passe en plein écran avant d’ouvrir ce panneau. Garde aussi l’onglet au premier plan : un onglet en arrière-plan ralentit le globe, et la vidéo avec.",
     "cancel": "Annuler",
     "start": "Lancer l’enregistrement"
   },
@@ -295,7 +295,7 @@
     "unknownTakeoff": "Décollage inconnu",
     "dateRange": "{from} à {to}",
     "shareTitle": "Bilan de la saison {season} de {name} · We-Fly",
-    "shareText": "{flights, plural, one {# vol} other {# vols}}, {distance} de cross cette saison !",
+    "shareText": "{flights, plural, one {# vol} other {# vols}}, {distance} de cross cette saison !",
     "stats": {
       "flights": "Vols",
       "airtime": "Temps de vol",
@@ -308,7 +308,7 @@
       "longestFlight": "Vol le plus long",
       "highestAltitude": "Altitude la plus haute",
       "strongestThermal": "Thermique le plus fort",
-      "openFlight": "Ouvrir le vol : {label}"
+      "openFlight": "Ouvrir le vol : {label}"
     },
     "whereYouFlew": "Où tu as volé",
     "flightCount": "{count, plural, one {# vol} other {# vols}}",

@@ -1,0 +1,154 @@
+{
+  "baseLayers": {
+    "wefly": { "name": "Thème We-Fly" },
+    "opentopomap": { "name": "OpenTopoMap" },
+    "terrain": { "name": "Relief (OpenFreeMap)" },
+    "satellite": { "name": "Satellite" },
+    "geoportail": { "name": "Geoportail.fr (lent)" }
+  },
+  "measure": {
+    "toggle": "Mesurer une distance",
+    "clear": "Effacer la mesure"
+  },
+  "legend": {
+    "title": "Taux de montée / chute"
+  },
+  "flight": {
+    "takeoff": "Décollage",
+    "landing": "Atterrissage",
+    "legPopup": "{name} : {distance}"
+  },
+  "siteType": {
+    "takeoff": "Décollage",
+    "landingZone": "Atterrissage",
+    "parking": "Parking"
+  },
+  "menu": {
+    "title": "Couches de la carte",
+    "collapse": "Replier le panneau des couches",
+    "open": "Ouvrir le panneau des couches",
+    "button": "Couches",
+    "active": "Calques actifs"
+  },
+  "layerOrder": {
+    "listLabel": "Ordre des couches",
+    "flightTrace": "Trace du vol",
+    "pois": "Points d’intérêt",
+    "airspaces": "Espaces aériens",
+    "skyways": "Skyways"
+  },
+  "overlays": {
+    "layerOrderTitle": "Ordre des couches",
+    "layerOrderHint": "Fais glisser pour réordonner. La couche du haut s’affiche devant. Un espace aérien mis en évidence reste toujours au-dessus.",
+    "skyways": "Skyways",
+    "airspaces": "Espaces aériens",
+    "layer": "Couche",
+    "season": "Saison",
+    "time": "Heure",
+    "floor": "Plancher",
+    "opacity": "Opacité · {value, number, percent}",
+    "skywaysType": {
+      "skyways": "Skyways",
+      "thermals": "Thermiques"
+    },
+    "skywaysMonth": {
+      "all": "Toute l’année",
+      "jan": "Hiver",
+      "apr": "Printemps",
+      "jul": "Été",
+      "oct": "Automne"
+    },
+    "skywaysTime": {
+      "all": "Toute la journée",
+      "04": "Matin",
+      "07": "Midi",
+      "10": "Soir"
+    },
+    "floorAny": "Tous",
+    "floorBelow": "Sous {value} m",
+    "legendToggle": "{hidden, select, yes {Afficher les espaces aériens {label}} other {Masquer les espaces aériens {label}}}",
+    "classGroup": "Classes A-G",
+    "classGroupToggle": "{hidden, select, yes {Afficher les espaces aériens de classe A-G} other {Masquer les espaces aériens de classe A-G}}",
+    "classLetter": "Classe {letter}",
+    "legend": {
+      "prohibited": "Interdite",
+      "restricted": "Réglementée",
+      "danger": "Dangereuse",
+      "tsa": "TSA",
+      "tra": "TRA",
+      "military": "Militaire",
+      "ctr": "CTR",
+      "atz": "ATZ",
+      "tma": "TMA / CTA",
+      "tmz": "TMZ",
+      "rmz": "RMZ",
+      "alert": "Alerte / ADIZ",
+      "sport": "Vol à voile / sport",
+      "dynamicOpen": "Ouverture dynamique",
+      "protected": "Protégée",
+      "info": "FIR / info",
+      "other": "Autre"
+    },
+    "airspaceHint": "Survole un espace aérien pour voir ses limites verticales. Clique sur une couleur de la légende pour masquer ou afficher ses espaces aériens.",
+    "pointsOfInterest": "Points d’intérêt",
+    "airports": "Aéroports",
+    "peaks": "Sommets",
+    "passes": "Cols",
+    "takeoffs": "Décollages",
+    "landings": "Atterrissages",
+    "zoomHint": "Zoome pour charger les points à proximité.",
+    "attribution": "Skyways © thermal.kk7.ch · Espaces aériens © openAIP · POI © OpenStreetMap{sites, select, yes { · Sites © We-Fly} other {}}"
+  },
+  "openAirFile": {
+    "tooLarge": "Le fichier d’espaces aériens dépasse la limite de 8 Mo",
+    "loaded": "{count, plural, one {# espace aérien chargé} other {# espaces aériens chargés}} depuis {name}",
+    "readFailed": "Impossible de lire ce fichier.",
+    "yourFile": "{count, plural, one {# espace aérien} other {# espaces aériens}} · ton fichier",
+    "useDefault": "Utiliser les données par défaut",
+    "load": "Charger un fichier OpenAir",
+    "hint": "Utilise ton propre fichier d’espaces aériens OpenAir <mono>.txt</mono>, lu dans ton navigateur, jamais envoyé.",
+    "loadingAttached": "Chargement du fichier d’espaces aériens du vol…",
+    "attachedFailed": "Le fichier d’espaces aériens de ce vol n’a pas pu être chargé, aucun espace aérien n’est donc affiché.",
+    "attachedToFlight": "{count, plural, one {# espace aérien} other {# espaces aériens}} · joint à ce vol"
+  },
+  "airspaceCheck": {
+    "title": "Vérification des espaces aériens",
+    "run": "Lancer la vérification",
+    "rerun": "Relancer",
+    "checkedSaved": "Vérifié le {date}, enregistré : inutile de relancer tant que le vol ou les données d’espaces aériens ne changent pas.",
+    "idleUser": "Compare la trace volée à ton fichier OpenAir ({name}), calcul fait dans ton navigateur.",
+    "idleDefault": "Compare la trace volée aux espaces aériens contrôlés et réglementés d’openAIP, calcul fait dans ton navigateur.",
+    "failed": "La vérification a échoué : les tuiles d’espaces aériens n’ont pas pu être chargées. Réessaie.",
+    "noIncursions": "Aucune intrusion dans un espace aérien détectée sur ce vol.",
+    "selectDetails": "Sélectionne une intrusion pour ouvrir le détail complet de l’espace aérien.",
+    "selectHighlight": "Sélectionne une intrusion pour mettre en évidence ce passage du vol sur la carte.",
+    "rowShowDetails": "Afficher le détail complet de l’espace aérien",
+    "rowClearHighlight": "Retirer la mise en évidence",
+    "rowHighlight": "Mettre en évidence ce passage du vol sur la carte",
+    "ground": "SFC",
+    "band": "{floor} → {top}",
+    "durationSeconds": "{count} s",
+    "durationMinutes": "{count} min",
+    "segment": "{start} à {end} ({duration}) · max {altitude}",
+    "openAipTitle": "Description officielle de l’espace aérien sur openAIP (nouvel onglet)",
+    "openAipAria": "Description officielle de {name} sur openAIP (s’ouvre dans un nouvel onglet)",
+    "inactive": "Traversés mais inactifs à l’heure du vol (créneaux d’activation), donc non signalés : {names}.",
+    "tilesFailed": "Certaines tuiles d’espaces aériens n’ont pas pu être chargées, la couverture est donc incomplète.",
+    "terrainMissing": "Les données de relief manquent sur une partie de cette trace, donc les limites d’espaces aériens référencées au sol peuvent être sous-estimées.",
+    "disclaimer": "Les espaces de classe E et non contrôlés ne sont pas signalés. {source, select, user {Ton fichier OpenAir} other {Données openAIP}}, à titre indicatif seulement, jamais en remplacement de l’information aéronautique officielle."
+  },
+  "airspaceInspector": {
+    "showDetails": "Afficher le détail de l’espace aérien",
+    "clearHighlight": "Retirer la mise en évidence de l’espace aérien"
+  },
+  "airspaceList": {
+    "title": "Espaces aériens ici",
+    "description": "{count, plural, one {# espace aérien} other {# espaces aériens}} à cet endroit, du plus haut au plus bas. {mode, select, selectDetails {Sélectionner l’ajoute à ta liste d’espaces aériens ; Afficher le met en évidence sur la carte ; le bouton info ouvre sa fiche complète.} select {Sélectionner l’ajoute à ta liste d’espaces aériens ; Afficher le met en évidence sur la carte.} other {Sélectionnes-en un pour le mettre en évidence sur la carte.}}",
+    "selected": "Sélectionné",
+    "select": "Sélectionner",
+    "show": "Afficher",
+    "viewDetailsAria": "Voir le détail de {name}",
+    "viewDetails": "Voir le détail de l’espace aérien",
+    "fetching": "Récupération du contour complet de l’espace aérien…"
+  }
+}

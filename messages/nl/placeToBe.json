@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Place to be",
+    "description": "Bekijk per seizoen de beste paraglidinggebieden van de community, gerangschikt op kwaliteit, activiteit, community en regelmaat.",
+    "ogTitle": "Place to be - We-Fly",
+    "ogDescription": "Bekijk per seizoen de beste paraglidinggebieden van de community."
+  },
+  "header": {
+    "eyebrow": "Community",
+    "title": "Place to be",
+    "subtitle": "De beste vlieggebieden van de community, seizoen per seizoen."
+  },
+  "signals": {
+    "quality": "Kwaliteit",
+    "consistency": "Regelmaat",
+    "activity": "Activiteit",
+    "community": "Community",
+    "qualityShort": "Kwaliteit",
+    "consistencyShort": "Regelm.",
+    "activityShort": "Activiteit",
+    "communityShort": "Comm."
+  },
+  "seasons": {
+    "winter": "Winter",
+    "spring": "Lente",
+    "summer": "Zomer",
+    "autumn": "Herfst"
+  },
+  "time": {
+    "seasonLabel": "Seizoen",
+    "monthsLabel": "Maanden",
+    "summary": "{label} · alle jaren",
+    "weightsRail": "Gewichten van de score",
+    "weightsTooltip": "Score = gewogen som, genormaliseerd binnen de periode",
+    "weightSegment": "{label} · {weight, number, percent}",
+    "percent": "{value, number, percent}"
+  },
+  "board": {
+    "mapLoading": "Kaart laden…",
+    "legendRegion": "H3 r5-regio · ~250 km²",
+    "legendSelected": "Geselecteerd",
+    "regionsRanked": "Gerangschikte regio's",
+    "explainerToggle": "Hoe de score berekend wordt",
+    "rankedCount": "{count, plural, one {# regio gerangschikt} other {# regio's gerangschikt}}",
+    "noFlights": "Nog geen vluchten geüpload voor deze periode."
+  },
+  "explainer": {
+    "intro": "Vier signalen, gewogen en opgeteld. Elk signaal wordt genormaliseerd binnen de periode die je kiest, zodat de ranglijst altijd de place to be <em>in die periode</em> toont. Startplaatsen worden gegroepeerd in H3-regio's van <mono>~250 km²</mono>, zodat bergen met veel startplaatsen niet benadeeld worden.",
+    "qualityDesc": "Mediane XContest-score per vlucht.",
+    "consistencyDesc": "% van de vliegbare dagen waarop de regio een vlucht opleverde.",
+    "activityDesc": "Aantal vluchten in de regio.",
+    "communityDesc": "Unieke piloten, zodat één enkele piloot het beeld niet vertekent.",
+    "minimumSample": "Minimale steekproef: <mono>{flights, plural, one {# vlucht} other {# vluchten}} · {pilots, plural, one {# piloot} other {# piloten}}</mono>. Daaronder komt een regio in de <em>rustige lade</em>."
+  },
+  "rank": {
+    "empty": "Geen enkele regio haalde de drempel in deze periode. Verruim het seizoen of kijk even naar de rustige regio's hieronder.",
+    "aggregates": "Bundelt {count, plural, one {# startplaats} other {# startplaatsen}} in de regio",
+    "flights": "<v>{count}</v> {count, plural, one {vlucht} other {vluchten}}",
+    "pilots": "<v>{count}</v> {count, plural, one {piloot} other {piloten}}",
+    "median": "mediaan <v>{value}</v>",
+    "score": "score"
+  },
+  "quiet": {
+    "title": "Te rustig om te rangschikken",
+    "count": "{count, plural, one {# regio} other {# regio's}}",
+    "explain": "Deze regio's bestaan, maar logden in deze periode minder dan <mono>{flights, plural, one {# vlucht} other {# vluchten}}</mono> of <mono>{pilots, plural, one {# piloot} other {# piloten}}</mono>. Ze blijven buiten de ranglijst zodat één topvlucht niet alles bepaalt.",
+    "rowTitle": "{name} · {flights, plural, one {# vlucht} other {# vluchten}} · {pilots, plural, one {# piloot} other {# piloten}}",
+    "flightsShort": "{count} vl."
+  },
+  "detail": {
+    "close": "Details sluiten",
+    "more": "+{count} meer",
+    "regionKind": "regio · H3 r5",
+    "breakdown": "Opbouw van de score",
+    "takeoffsTitle": "Startplaatsen in deze regio",
+    "anchor": "Anker",
+    "anchorTooltip": "Ankerstartplaats, de meeste vluchten in de regio",
+    "topFlight": "Topvlucht in deze periode",
+    "noTopFlight": "Geen uitschieter geregistreerd.",
+    "wind": "Wind",
+    "ceiling": "Plafond",
+    "launch": "Start",
+    "asl": "{unit} boven zeeniveau",
+    "typical": "typisch",
+    "openTakeoff": "Pagina van de startplaats openen"
+  },
+  "teaser": {
+    "title": "Place to be",
+    "subtitle": "{season}: topregio's, alle jaren",
+    "browse": "Bekijken",
+    "empty": "Nog niet genoeg activiteit om het seizoen te rangschikken.",
+    "stats": "{flights, plural, one {# vlucht} other {# vluchten}} · {pilots, plural, one {# piloot} other {# piloten}} · Q{quality} · A{activity}"
+  }
+}

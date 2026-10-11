@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "hub": {
+      "title": "Community",
+      "description": "Zie wat er leeft in de We-Fly-community: de nieuwste vluchten, de records van deze week en de drukst bevlogen startplaatsen.",
+      "ogTitle": "Community - We-Fly"
+    },
+    "flights": {
+      "title": "Publieke vluchten",
+      "description": "Blader door paraglidingvluchten die de community deelt. Bekijk gedetailleerde tracks, statistieken en pilootprofielen van piloten over de hele wereld.",
+      "ogTitle": "Publieke vluchten - We-Fly"
+    },
+    "following": {
+      "title": "Gevolgd",
+      "description": "Recente vluchten van piloten die je volgt."
+    },
+    "pilots": {
+      "title": "Pilotengids",
+      "description": "Ontdek piloten met een publiek profiel. Zoek op naam, regio of vluchtstatistieken en maak contact met de paraglidingcommunity.",
+      "ogTitle": "Pilotengids - We-Fly"
+    },
+    "leaderboard": {
+      "title": "Communityranglijst",
+      "description": "Ranglijsten, records, activiteit en schermprestaties van de community, op basis van publieke paraglidingvluchten.",
+      "ogTitle": "Communityranglijst - We-Fly"
+    },
+    "instruments": {
+      "title": "Gebruik van instrumenten",
+      "description": "Met welke vlieginstrumenten de community vliegt: software of apparaten, merken, firmware en trends op basis van publieke paraglidingvluchten.",
+      "ogTitle": "Gebruik van instrumenten - We-Fly",
+      "ogDescription": "Met welke vlieginstrumenten de community vliegt: software of apparaten, merken en trends."
+    },
+    "challenges": {
+      "title": "Challenges - We-Fly",
+      "description": "Doe mee aan maandelijkse vliegchallenges, neem het op tegen de community en verdien badges."
+    },
+    "challengeDetail": {
+      "title": "Challenge - We-Fly",
+      "description": "Details en ranglijst van de challenge."
+    },
+    "flightDetail": {
+      "title": "Vlucht van {pilot} vanaf {takeoff}",
+      "description": "Communityvlucht op {date} • {distance} km • duur {duration}",
+      "ogTitle": "{title} - We-Fly",
+      "durationHm": "{hours}u {minutes}m",
+      "durationM": "{minutes}m",
+      "unknownPilot": "Onbekende piloot",
+      "unknownLocation": "Onbekende locatie",
+      "notFoundTitle": "Vlucht niet gevonden",
+      "notFoundDescription": "Deze vlucht bestaat niet.",
+      "fallbackTitle": "Vluchtdetails",
+      "fallbackDescription": "Bekijk de details van een communityvlucht"
+    },
+    "pilotProfile": {
+      "title": "Profiel van {pilot}",
+      "description": "Bekijk de paraglidingvluchten, statistieken en activiteit van {pilot} in de We-Fly-community.",
+      "ogTitle": "{title} - We-Fly",
+      "unknownPilot": "Onbekende piloot",
+      "notFoundTitle": "Piloot niet gevonden",
+      "notFoundDescription": "Dit pilootprofiel bestaat niet.",
+      "notPublicDescription": "Dit pilootprofiel is niet beschikbaar of de piloot heeft niet gekozen voor publiek delen.",
+      "fallbackTitle": "Pilootprofiel",
+      "fallbackDescription": "Bekijk het pilootprofiel en de vluchtstatistieken"
+    }
+  },
+  "hub": {
+    "weekRecords": {
+      "title": "Records van deze week",
+      "caption": "Topprestaties van de afgelopen 7 dagen",
+      "empty": "Nog geen records deze week.",
+      "airTime": "{hours}u {minutes}",
+      "rows": {
+        "longestXc": "Langste XC",
+        "longestAirTime": "Langste vliegtijd",
+        "highestAltitude": "Grootste hoogte"
+      }
+    },
+    "quickAccess": {
+      "title": "Ontdekken",
+      "tiles": {
+        "takeoffs": {
+          "label": "Startplaatsendatabase",
+          "description": "Ontdek startplaatsen wereldwijd. Filter op afstand, omstandigheden en geschiedenis."
+        },
+        "flights": {
+          "label": "Alle publieke vluchten",
+          "description": "Zoek en filter elke gedeelde vlucht in de community."
+        },
+        "searchFlights": {
+          "label": "Vluchten zoeken op de kaart",
+          "description": "Kies een startplaats en zie elke communityvlucht die daar startte."
+        },
+        "pilots": {
+          "label": "Pilotengids",
+          "description": "Vind piloten op naam, regio of vluchtstatistieken."
+        },
+        "clubs": {
+          "label": "Clubs",
+          "description": "Bekijk vliegclubs en hun leden."
+        },
+        "leaderboard": {
+          "label": "Ranglijst en statistieken",
+          "description": "Pilotenrangschikking, records en diepgaande analyses."
+        },
+        "instruments": {
+          "label": "Gebruik van instrumenten",
+          "description": "Met welke vario's en apps de community vliegt: software of apparaten, merken en trends."
+        },
+        "recap": {
+          "label": "Seizoensoverzicht",
+          "description": "Hoe de hele community jaar na jaar evolueerde: lichtingen, vlieggebieden, records."
+        }
+      }
+    },
+    "privacyBanner": {
+      "title": "Je profiel is privé",
+      "body": "Maak je profiel publiek om in de gids te verschijnen, je vluchten te delen en mee te doen aan ranglijsten.",
+      "goPublic": "Publiek maken"
+    },
+    "pulse": {
+      "flightsWeek": "Vluchten deze week",
+      "hoursFlown": "Gevlogen uren",
+      "distanceCovered": "Afgelegde afstand",
+      "activePilots": "Actieve piloten",
+      "thisMonth": "{value} deze maand",
+      "publicProfiles": "{count, plural, one {# publiek profiel} other {# publieke profielen}}"
+    },
+    "hotTakeoffs": {
+      "title": "Populaire startplaatsen",
+      "caption": "Drukst bevlogen startplaatsen deze week",
+      "browse": "Bekijken →",
+      "empty": "Geen activiteit op startplaatsen deze week.",
+      "pilots": "{count, plural, one {# piloot} other {# piloten}}"
+    },
+    "recentFlights": {
+      "title": "Nieuwste vluchten",
+      "caption": "Verse tracks uit de community",
+      "seeAll": "Alles bekijken →",
+      "empty": "Nog geen publieke vluchten gelogd. Deel jij als eerste een vlucht?",
+      "following": "Gevolgd",
+      "tandem": "Tandem",
+      "date": {
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "daysAgo": "{days} d geleden"
+      }
+    },
+    "since": {
+      "none": "Geen vluchten",
+      "today": "Vandaag",
+      "daysAgo": "{days} d geleden",
+      "weeksAgo": "{weeks} w geleden",
+      "monthsAgo": "{months} mnd geleden"
+    },
+    "followedTile": {
+      "latestFlight": "{name}: laatste vlucht",
+      "profile": "{name}: profiel"
+    },
+    "suggestion": {
+      "fliesSite": "Vliegt op {site}",
+      "fliesYourSites": "Vliegt op jouw startplaatsen",
+      "flightsThisMonth": "{count, plural, one {# vlucht} other {# vluchten}} deze maand"
+    },
+    "strip": {
+      "suggestionsTitle": "Piloten om te volgen",
+      "suggestionsHint": "Volg piloten om hun vluchten altijd binnen handbereik te hebben",
+      "followingTitle": "Piloten die je volgt",
+      "followingHint": "Piloten met een ring vlogen deze week",
+      "theirFlights": "Hun vluchten",
+      "more": "Meer"
+    }
+  },
+  "leaderboard": {
+    "panelTitle": "{metric} · aller tijden",
+    "updated": "Bijgewerkt {when}",
+    "liveBadge": "live",
+    "metricLabel": "Criterium van de ranglijst",
+    "metrics": {
+      "score": "XC-score",
+      "distance": "XC-afstand",
+      "hours": "Vliegtijd"
+    },
+    "points": "{value} ptn",
+    "empty": "Nog geen geldige vluchten. Pak jij de eerste plek?",
+    "loadError": "De ranglijst kon nu niet geladen worden.",
+    "retry": "Opnieuw proberen",
+    "columns": {
+      "pilot": "Piloot",
+      "result": "Resultaat",
+      "flights": "Vluchten",
+      "hours": "Uren",
+      "xc": "XC {unit}"
+    },
+    "relative": {
+      "live": "live",
+      "justNow": "zonet",
+      "minutesAgo": "{count} min geleden",
+      "hoursAgo": "{count} u geleden",
+      "daysAgo": "{count} d geleden"
+    }
+  },
+  "following": {
+    "day": {
+      "today": "Vandaag",
+      "yesterday": "Gisteren"
+    },
+    "loadError": "Vluchten konden nu niet geladen worden. Probeer het zo meteen opnieuw.",
+    "emptyPilot": "{name} heeft nog geen vlucht gelogd op We-Fly.",
+    "emptyAll": "De piloten die je volgt hebben nog geen vlucht gelogd.",
+    "sharedTakeoff": "{count, plural, =2 {{names} vlogen allebei vanaf <strong>{takeoff}</strong>} one {{names} vloog vanaf <strong>{takeoff}</strong>} other {{names} vlogen vanaf <strong>{takeoff}</strong>}}",
+    "pilotsYouFollow": "Piloten die je volgt",
+    "allShort": "Alle",
+    "allPilots": "Alle piloten",
+    "suggested": "Voorgesteld",
+    "findMorePilots": "Meer piloten vinden",
+    "everyone": "Iedereen",
+    "find": "Zoeken",
+    "showAllPilots": "Alle piloten tonen",
+    "latestFlights": "Nieuwste vluchten",
+    "profile": "Profiel",
+    "emptyTitle": "Volg piloten om hun vluchten hier te zien",
+    "emptyBody": "Vrienden, clubgenoten, de locals op jouw startplaats: volg ze en elke vlucht die ze loggen verschijnt op deze pagina, per dag gegroepeerd, met hun tracks.",
+    "browseAllPilots": "Alle piloten bekijken"
+  },
+  "social": {
+    "follow": "Volgen",
+    "following": "Gevolgd",
+    "unfollow": "Ontvolgen",
+    "connections": "Connecties",
+    "followersTab": "Volgers · {count}",
+    "followingTab": "Volgend · {count}",
+    "noFollowers": "Nog geen volgers.",
+    "noFollowing": "Volgt nog niemand.",
+    "privateProfile": "Privéprofiel",
+    "loading": "Laden…",
+    "loadMore": "Meer laden",
+    "fallbackPilot": "Piloot"
+  },
+  "pages": {
+    "hub": {
+      "eyebrow": "Community",
+      "title": "Community",
+      "subtitle": "De hartslag van piloten, vluchten en vlieggebieden op We-Fly."
+    },
+    "following": {
+      "eyebrow": "Community",
+      "title": "Gevolgd",
+      "subtitle": "Elke vlucht van de piloten die je volgt, nieuwste eerst."
+    },
+    "leaderboard": {
+      "eyebrow": "Community",
+      "title": "De ranglijst waar je club over discussieert.",
+      "subtitle": "Enkel berekend op gevalideerde IGC-bestanden: geen zelf opgegeven afstanden."
+    },
+    "instruments": {
+      "eyebrow": "Community",
+      "title": "Waarmee de community vliegt.",
+      "subtitle": "Elk IGC-bestand vermeldt het instrument dat het heeft opgenomen."
+    },
+    "pilotProfile": {
+      "privateTitle": "Privéprofiel",
+      "privateBody": "Dit pilootprofiel is privé. De piloot heeft er niet voor gekozen het profiel publiek te delen.",
+      "backToFlights": "Terug naar communityvluchten"
+    }
+  },
+  "stats": {
+    "nav": {
+      "sectionsLabel": "Onderdelen van de statistieken",
+      "pulse": "Hartslag",
+      "records": "Records",
+      "efficiency": "Efficiëntie",
+      "clubs": "Clubs",
+      "wings": "Schermen",
+      "insights": "Analyses",
+      "errorTitle": "Statistieken laden mislukt",
+      "errorHint": "Controleer je verbinding en probeer het opnieuw.",
+      "retry": "Opnieuw proberen"
+    },
+    "pulse": {
+      "metrics": {
+        "flights": "Vluchten",
+        "flightsUnit": "totaal",
+        "airTime": "Vliegtijd",
+        "airTimeUnit": "uren",
+        "xcDistance": "XC-afstand",
+        "pilots": "Piloten",
+        "pilotsUnit": "actief",
+        "takeoffs": "Startplaatsen",
+        "takeoffsUnit": "plekken",
+        "countries": "Landen",
+        "countriesUnit": "landen"
+      },
+      "snapshot": {
+        "title": "Momentopname van de community",
+        "caption": "Gemiddelden over publieke vluchten",
+        "avgThermal": "Gem. thermieksterkte",
+        "direction": "Draairichting in thermiek",
+        "directionValue": "{left}% L / {right}% R",
+        "soloRatio": "Aandeel solo",
+        "soloValue": "{percent}% solo",
+        "commonType": "Meest voorkomend type",
+        "avgWind": "Gem. windsnelheid"
+      },
+      "launch": {
+        "title": "Starttypes",
+        "caption": "Hoe piloten de lucht in gaan",
+        "self": "Voetstart",
+        "towed": "Gesleept",
+        "powered": "Gemotoriseerd",
+        "driving": "Autorit",
+        "barAria": "{label}: {percent}%"
+      }
+    },
+    "records": {
+      "noData": "Nog geen gegevens",
+      "scoreUnit": "ptn",
+      "cardAria": "{label}: {value} door {pilot}",
+      "cards": {
+        "longestFlight": "Langste vlucht",
+        "highestAltitude": "Grootste hoogte",
+        "greatestAltitudeGain": "Grootste hoogtewinst",
+        "longestXcDistance": "Langste XC-afstand",
+        "bestXcScore": "Beste XC-score",
+        "strongestThermal": "Sterkste thermiek",
+        "maxSpeed": "Topsnelheid"
+      }
+    },
+    "leaderboard": {
+      "title": "Top 10 piloten",
+      "captionActivity": "Gerangschikt op totale XC-score van publieke vluchten",
+      "captionEfficiency": "Gerangschikt op vliegefficiëntie (genormaliseerde z-score)",
+      "typeLabel": "Soort ranglijst",
+      "activity": "Activiteit",
+      "efficiency": "Efficiëntie",
+      "emptyTitle": "Nog geen ranglijstgegevens",
+      "emptyHint": "Er zijn publieke vluchten nodig om de ranglijst te vullen.",
+      "noActivity": "Nog geen activiteitsgegevens beschikbaar.",
+      "notEnoughPilots": "Niet genoeg piloten die in aanmerking komen. Piloten hebben minstens 5 XC-vluchten nodig om te verschijnen.",
+      "efficiencyInfo": "Samengestelde z-score uit afstand per uur, afstand per vlucht en het aantal geldige vluchten. Beweeg over een rij voor details.",
+      "distancePerHour": "Afstand/u ({unit})",
+      "distancePerFlight": "Afstand/vlucht ({unit})",
+      "qualifyingFlights": "Geldige vluchten",
+      "zScore": "(z: {value})",
+      "colPilot": "Piloot",
+      "colFlights": "Vluchten",
+      "colHours": "Uren",
+      "colXcDistance": "XC {unit}",
+      "colXcScore": "XC-score",
+      "colDistPerHour": "Afst./u ({unit})",
+      "colDistPerFlight": "Afst./vlucht ({unit})"
+    },
+    "clubs": {
+      "empty": "Nog geen clubs. Piloten kunnen hun club opgeven in hun profiel.",
+      "title": "Clubs",
+      "caption": "Gerangschikt op totaal gevlogen afstand",
+      "colClub": "Club",
+      "colPilots": "Piloten",
+      "colFlights": "Vluchten",
+      "colDistance": "Afstand ({unit})",
+      "colAirtime": "Vliegtijd (u)"
+    },
+    "pilotFlights": {
+      "triggerAria": "Geldige vluchten van {name} bekijken",
+      "title": "Geldige vluchten van {name}",
+      "description": "Publieke vluchten met een XC-afstand van minstens 10 km (zonder gemotoriseerde vluchten en autoritten), gesorteerd op datum.",
+      "loadError": "Vluchten laden mislukt. Probeer het opnieuw.",
+      "none": "Geen geldige vluchten gevonden.",
+      "colDate": "Datum",
+      "colTakeoff": "Startplaats",
+      "colXcDistance": "XC {unit}",
+      "colXcScore": "XC-score",
+      "colDuration": "Duur",
+      "openFlight": "Vlucht openen"
+    },
+    "insights": {
+      "hoursSeries": "Uren",
+      "empty": "Geen gegevens beschikbaar",
+      "cards": {
+        "flightsByMonth": {
+          "title": "Uren per maand",
+          "description": "Top 10 maanden naar vlieguren"
+        },
+        "flightsByDayOfWeek": {
+          "title": "Populaire dagen",
+          "description": "Op welke dagen piloten de meeste uren vliegen"
+        },
+        "topWings": {
+          "title": "Topschermen",
+          "description": "Meest gevlogen schermmodellen naar uren"
+        },
+        "topTakeoffs": {
+          "title": "Topstartplaatsen",
+          "description": "Populairste startplaatsen naar uren"
+        },
+        "topCountries": {
+          "title": "Toplanden",
+          "description": "Landen met de meeste vlieguren"
+        },
+        "flightTypeDistribution": {
+          "title": "Vluchttypes",
+          "description": "Verdeling van XC-vluchttypes naar uren"
+        }
+      }
+    },
+    "challenges": {
+      "active": "Actieve challenges",
+      "noActive": "Momenteel geen actieve challenges. Kom binnenkort terug!",
+      "recent": "Recente challenges",
+      "viewAll": "Alle challenges bekijken"
+    }
+  },
+  "instruments": {
+    "kindApp": "App",
+    "kindDevice": "Apparaat",
+    "noInstruments": "Nog geen instrumenten",
+    "pilotsUnit": "piloten",
+    "flightsCount": "{count} vluchten",
+    "flightsUnit": "Vluchten",
+    "loadError": "Instrumentstatistieken konden niet geladen worden.",
+    "retry": "Opnieuw proberen",
+    "emptyTitle": "Nog geen instrumentgegevens",
+    "emptyHint": "Instrumentgegevens worden uit publieke vluchten gelezen zodra die verwerkt zijn. Kom terug als er meer vluchten zijn ingedeeld.",
+    "footnote": "Enkel op basis van publieke vluchten. De instrumentnamen komen rechtstreeks uit elk IGC-bestand en worden automatisch gegroepeerd.",
+    "kind": {
+      "software": "Software (telefoon / tablet)",
+      "device": "Zelfstandig apparaat",
+      "unknown": "Niet herkend"
+    },
+    "kpi": {
+      "flights": "Vluchten",
+      "flightsSub": "ingedeeld",
+      "pilots": "Piloten",
+      "pilotsSub": "vertegenwoordigd",
+      "instruments": "Instrumenten",
+      "instrumentsSub": "modellen en apps",
+      "brands": "Merken",
+      "brandsSub": "fabrikanten",
+      "software": "Software",
+      "devices": "Apparaten",
+      "ofFlights": "van de vluchten"
+    },
+    "kindSplit": {
+      "title": "Software of apparaten",
+      "description": "Aandeel van de ingedeelde vluchten per soort instrument",
+      "center": "{percent} van de vluchten wordt opgenomen met een app op telefoon of tablet",
+      "empty": "Nog geen ingedeelde vluchten"
+    },
+    "platform": {
+      "title": "Waar de apps op draaien",
+      "description": "Besturingssysteem bij software-instrumenten, per piloot",
+      "empty": "Nog geen app-platform geregistreerd"
+    },
+    "top": {
+      "title": "Meest gebruikte instrumenten",
+      "description": "Gerangschikt op het aantal verschillende piloten"
+    },
+    "brands": {
+      "title": "Topmerken",
+      "description": "Verschillende piloten per fabrikant",
+      "unit": "Piloten",
+      "empty": "Nog geen merken"
+    },
+    "trend": {
+      "title": "Gebruik door de jaren heen",
+      "description": "Vluchten per instrumentmerk, per jaar",
+      "empty": "Nog niet genoeg geschiedenis"
+    },
+    "manufacturers": {
+      "title": "Fabrikantcodes",
+      "description": "Uit het IGC A-record, per vlucht",
+      "empty": "Geen codes geregistreerd"
+    },
+    "sensors": {
+      "title": "Druksensoren",
+      "description": "Gebruikte barometrische sensoren, per vlucht",
+      "empty": "Geen sensoren geregistreerd"
+    },
+    "firmware": {
+      "title": "Firmware in omloop",
+      "description": "Meest voorkomende firmwareversies, per vlucht",
+      "empty": "Geen firmware geregistreerd"
+    }
+  },
+  "challenges": {
+    "card": {
+      "progress": "Voortgang",
+      "topWin": "Top {count} wint",
+      "yourBest": "Jouw beste: {value}",
+      "participants": "{count, plural, one {# piloot} other {# piloten}}",
+      "endsToday": "Eindigt vandaag",
+      "daysLeft": "{count, plural, one {nog # dag} other {nog # dagen}}",
+      "ended": "Afgelopen",
+      "done": "Voltooid",
+      "active": "Actief",
+      "upcoming": "Binnenkort"
+    },
+    "leaderboard": {
+      "empty": "Nog geen deelnemers. Wees de eerste!",
+      "you": "(jij)",
+      "done": "Voltooid",
+      "units": {
+        "sites": "plekken",
+        "hours": "u",
+        "flights": "vluchten",
+        "countries": "landen",
+        "days": "dagen"
+      }
+    },
+    "detail": {
+      "notFound": "Challenge niet gevonden.",
+      "eyebrow": "Community · Challenges",
+      "completed": "Voltooid",
+      "allChallenges": "Alle challenges",
+      "dateRange": "{start} tot {end}",
+      "daysLeft": "{count, plural, one {nog # dag} other {nog # dagen}}",
+      "participants": "{count, plural, one {# piloot} other {# piloten}}",
+      "topWin": "Top {count} wint",
+      "yourProgress": "Jouw voortgang",
+      "yourBestScore": "Jouw beste score",
+      "leaderboard": "Ranglijst"
+    },
+    "view": {
+      "eyebrow": "Community",
+      "title": "Vliegchallenges",
+      "subtitle": "Voltooi challenges, klim in de ranglijst, verdien badges.",
+      "emptyTitle": "Nog geen challenges",
+      "emptyHint": "Kom binnenkort terug, er komen nieuwe challenges aan!",
+      "active": "Actieve challenges",
+      "upcoming": "Binnenkort",
+      "past": "Afgelopen challenges"
+    }
+  },
+  "pilots": {
+    "eyebrow": "Community",
+    "title": "Piloten",
+    "subtitle": "{profiles} publieke profielen · {matches} passen bij je filters.",
+    "pulse": {
+      "activeFortnight": "Actief de laatste twee weken",
+      "flights": "Communityvluchten",
+      "airtime": "Vliegtijd van de community"
+    },
+    "hoursUnit": "u",
+    "hoursShort": "{value} u",
+    "searchPlaceholder": "Zoeken op naam",
+    "searchAria": "Piloten zoeken op naam",
+    "minFlights": "Min. vluchten",
+    "minFlightsAria": "Minimum aantal vluchten",
+    "sortBy": "Sorteren op",
+    "sort": {
+      "recent": "Recent actief",
+      "flights": "Meeste vluchten",
+      "airtime": "Meeste vliegtijd",
+      "longest": "Langste XC",
+      "name": "Naam (A tot Z)"
+    },
+    "filter": {
+      "all": "Alle piloten",
+      "active": "Actief",
+      "tandem": "Tandempiloten",
+      "new": "Nieuw dit seizoen"
+    },
+    "clear": "Wissen",
+    "neverFlown": "nooit gevlogen",
+    "lastFlight": {
+      "today": "vandaag",
+      "yesterday": "gisteren",
+      "daysAgo": "{count} d geleden",
+      "monthsAgo": "{count} mnd geleden"
+    },
+    "tandemTag": "tandem",
+    "wingUnknown": "Scherm onbekend",
+    "since": "sinds {year}",
+    "last12Months": "laatste 12 maanden",
+    "stats": {
+      "flights": "Vluchten",
+      "airtime": "Vliegtijd",
+      "bestXc": "Beste XC"
+    },
+    "pageOf": "Pagina {page} van {total}",
+    "previousPage": "Vorige pagina",
+    "nextPage": "Volgende pagina",
+    "empty": {
+      "title": "Geen piloten gevonden met deze filters.",
+      "hint": "Verlaag het minimum aantal vluchten of wis de filterchips hierboven.",
+      "clear": "Filters wissen"
+    },
+    "error": {
+      "title": "Piloten laden mislukt",
+      "hint": "Vernieuw de pagina of probeer het later opnieuw"
+    }
+  },
+  "flightsFilter": {
+    "searchPlaceholder": "Zoeken…",
+    "noMatches": "Geen resultaten",
+    "searchAll": "Zoek piloten, vlieggebieden, schermen…",
+    "clearSearch": "Zoekopdracht wissen",
+    "all": "Alle",
+    "selected": "{count} gekozen",
+    "date": "Datum",
+    "pilot": "Piloot",
+    "site": "Vlieggebied",
+    "glider": "Scherm",
+    "launch": "Start",
+    "presets": {
+      "all": "Altijd",
+      "today": "Vandaag",
+      "d7": "Afgelopen 7 dagen",
+      "d30": "Afgelopen 30 dagen",
+      "d90": "Afgelopen 90 dagen",
+      "year": "Afgelopen jaar",
+      "custom": "Aangepast"
+    },
+    "range": "{from} tot {to}",
+    "rangeFrom": "Vanaf {date}",
+    "rangeUntil": "Tot {date}",
+    "customRange": "Aangepaste periode…",
+    "presetsBack": "Voorinstellingen",
+    "pickDates": "Kies een begin- en einddatum",
+    "clear": "Wissen",
+    "allPilots": "Alle piloten",
+    "allSites": "Alle vlieggebieden",
+    "allGliders": "Alle schermen",
+    "allLaunchTypes": "Alle starttypes",
+    "density": {
+      "compact": "Compact",
+      "comfortable": "Comfortabel",
+      "spacious": "Ruim"
+    },
+    "removeFilter": "Filter verwijderen",
+    "launchChip": "Start: {type}",
+    "searchChip": "\"{query}\"",
+    "showing": "<n>{shown}</n> van <n>{total}</n> {count, plural, one {vlucht} other {vluchten}} getoond",
+    "clearAll": "Alles wissen"
+  },
+  "flightsTable": {
+    "columns": {
+      "date": "Datum",
+      "pilot": "Piloot",
+      "takeoff": "Startplaats",
+      "glider": "Scherm",
+      "distance": "Afstand",
+      "duration": "Duur",
+      "launch": "Start",
+      "quality": "Kwaliteit",
+      "routeEfficiency": "Route-eff."
+    },
+    "gpsCorruption": "GPS-fouten gedetecteerd",
+    "preview": "Voorbeeld",
+    "hoverPreview": "Beweeg erover om de track te bekijken",
+    "empty": "Geen communityvluchten gevonden met deze filters.",
+    "loadingMore": "Meer vluchten laden…",
+    "allLoaded": "Alle {count, plural, one {# vlucht} other {# vluchten}} geladen.",
+    "shownOf": "{shown} van {total}",
+    "sort": "Sorteren"
+  },
+  "flightsView": {
+    "eyebrow": "Community",
+    "title": "Communityvluchten",
+    "subtitleCount": "Wat de rest vliegt. {count, plural, one {# publieke vlucht} other {# publieke vluchten}} van piloten die kozen voor delen.",
+    "subtitleEmpty": "Wat de rest vliegt. Bekijk vluchten van piloten die kozen voor publiek delen.",
+    "loading": "Communityvluchten laden…"
+  },
+  "pulseStrip": {
+    "freeFlights": "Vrije vluchten",
+    "freeFlightsSub": "zonder paramotor en autoritten",
+    "activePilots": "Actieve piloten",
+    "activePilotsSub": "met gedeeld profiel",
+    "topSite": "Topvlieggebied",
+    "hoursFlown": "{hours} u gevlogen",
+    "longestXc": "Langste XC"
+  },
+  "publicFlights": {
+    "columns": {
+      "date": "Datum",
+      "takeoff": "Startplaats",
+      "pilot": "Piloot",
+      "glider": "Scherm",
+      "distance": "Afstand",
+      "launchType": "Starttype",
+      "type": "Type",
+      "duration": "Duur",
+      "quality": "Kwaliteit",
+      "qualityDeviation": "Consistentie",
+      "thermalVzDeviation": "Turbulentie",
+      "avgGlideRatio": "Gem. glijgetal",
+      "avgGlideSpeed": "Gem. glijsnelheid",
+      "trackSpeed": "Tracksnelheid",
+      "scoringSpeed": "Scoresnelheid",
+      "routeEfficiency": "Route-efficiëntie"
+    },
+    "hints": {
+      "qualityDeviation": "Standaardafwijking van de kwaliteitsscores van de thermieken in deze vlucht. Lager = gelijkmatiger stijgen.",
+      "routeEfficiency": "Verhouding tussen gescoorde afstand en totale tracklengte. Zinvoller bij overlandvluchten."
+    },
+    "gpsCorruption": "GPS-fouten gedetecteerd",
+    "gpsCorruptionHint": "Het IGC-bestand bevat GPS-fouten: gescoorde afstand en tracklengte zijn mogelijk onbetrouwbaar.",
+    "viewFlight": "Vlucht bekijken",
+    "pageTitle": "Community",
+    "loadError": "Fout bij het laden van communityvluchten",
+    "filters": "Filters",
+    "shownOfTotal": "{shown} / {total}",
+    "resetFilters": "Filters resetten",
+    "columnsMenu": "Kolommen",
+    "noMatchTitle": "Geen vluchten gevonden met je filters",
+    "noMatchHint": "Pas de actieve filters aan of wis ze",
+    "clearFilters": "Filters wissen",
+    "empty": "Geen communityvluchten gevonden.",
+    "loadingMore": "Meer vluchten laden...",
+    "allLoaded": "Alle vluchten geladen",
+    "filterDialog": {
+      "title": "Communityvluchten filteren",
+      "description": "Pas filters toe om de lijst met communityvluchten te verfijnen",
+      "dateRange": "Periode",
+      "pilot": "Piloot",
+      "pilotsSelected": "{count, plural, one {# piloot gekozen} other {# piloten gekozen}}",
+      "selectPilots": "Kies piloot/piloten",
+      "searchPilot": "Piloot zoeken...",
+      "noPilot": "Geen piloot gevonden.",
+      "glider": "Scherm",
+      "glidersSelected": "{count, plural, one {# scherm gekozen} other {# schermen gekozen}}",
+      "selectGliders": "Kies scherm(en)",
+      "searchGlider": "Scherm zoeken...",
+      "noGlider": "Geen scherm gevonden.",
+      "takeoffSite": "Startplaats",
+      "sitesSelected": "{count, plural, one {# startplaats gekozen} other {# startplaatsen gekozen}}",
+      "selectSites": "Kies startplaats(en)",
+      "searchSite": "Startplaats zoeken...",
+      "noSite": "Geen startplaats gevonden.",
+      "flightTypes": "Vluchttypes",
+      "selectFlightType": "Kies een vluchttype",
+      "allFlightTypes": "Alle vluchttypes",
+      "distanceRange": "Afstandsbereik: {min} - {max} {unit}",
+      "flightMode": "Vliegmodus",
+      "all": "Alle",
+      "solo": "Solo",
+      "tandem": "Tandem",
+      "launchType": "Starttype",
+      "reset": "Resetten",
+      "apply": "Filters toepassen"
+    }
+  }
+}

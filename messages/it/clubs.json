@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Club di parapendio | We-Fly",
+    "description": "Sfoglia i club di parapendio su We-Fly. Guarda le statistiche dei club, le classifiche e l'attività dei membri.",
+    "detailNotFound": "Club non trovato | We-Fly",
+    "detailTitle": "{club} | Club di parapendio su We-Fly",
+    "detailDescription": "Statistiche, classifica e voli recenti del club {club} su We-Fly.",
+    "detailOgTitle": "{club} | We-Fly",
+    "detailOgDescription": "Statistiche e classifica del club di parapendio {club}."
+  },
+  "sharedMeta": {
+    "notFoundTitle": "Club non trovato",
+    "notFoundDescription": "Questo link di condivisione del club non è valido o è stato rimosso.",
+    "title": "{club} | Club su We-Fly",
+    "description": "Scopri le statistiche di volo di {club} su We-Fly.",
+    "fallbackTitle": "Club condiviso",
+    "fallbackDescription": "Guarda le statistiche di volo di un club su We-Fly"
+  },
+  "list": {
+    "eyebrow": "Community",
+    "title": "Club",
+    "subtitle": "I club di parapendio su We-Fly.",
+    "searchPlaceholder": "Cerca club...",
+    "noMatch": "Nessun club corrisponde alla ricerca.",
+    "none": "Ancora nessun club.",
+    "pilots": "Piloti",
+    "flights": "Voli",
+    "xc": "XC",
+    "airtime": "Tempo di volo",
+    "hoursUnit": "h"
+  },
+  "detail": {
+    "notFound": "Club non trovato.",
+    "eyebrow": "Community · Club",
+    "memberCount": "{count, plural, one {# membro} other {# membri}}",
+    "members": "Membri",
+    "flights": "Voli",
+    "xc": "XC",
+    "airtime": "Tempo di volo",
+    "hoursUnit": "h",
+    "leaderboard": "Classifica del club",
+    "leaderboardSeason": "Stagione della classifica",
+    "allTime": "Di sempre",
+    "noFlightsForYear": "Nessun volo nel {year}.",
+    "flightCount": "{count, plural, one {# volo} other {# voli}}",
+    "recentFlights": "Voli recenti",
+    "loading": "Caricamento…",
+    "loadMore": "Carica altri"
+  },
+  "share": {
+    "button": "Condividi",
+    "title": "Condividi {club}",
+    "generating": "Generazione del link…",
+    "error": "Impossibile generare il link",
+    "notice": "Chiunque abbia questo link può vedere le statistiche aggregate del club. Nessun dato personale dei piloti viene condiviso.",
+    "copy": "Copia link",
+    "preview": "Anteprima",
+    "nativeTitle": "{club} su We-Fly"
+  },
+  "shared": {
+    "invalid": "Questo link di condivisione non è valido o è stato rimosso.",
+    "memberCount": "{count, plural, one {# membro} other {# membri}}",
+    "members": "Membri",
+    "flights": "Voli",
+    "xcUnit": "XC {unit}",
+    "airtime": "Tempo di volo (h)",
+    "flyingIn": "{count, plural, one {Vola in <strong>#</strong> paese} other {Vola in <strong>#</strong> paesi}}",
+    "join": "Unisciti a We-Fly"
+  }
+}

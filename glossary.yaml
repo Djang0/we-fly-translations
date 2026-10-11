@@ -662,3 +662,75 @@ terms:
     nl: nabespreking
     it: debriefing
     es: revisión
+
+  # --- added after the community + takeoffs pass (2026-10-11) -------------
+  "challenge (community flight challenge)":
+    fr: défi
+    de: Herausforderung
+    nl: uitdaging
+    it: sfida
+    es: reto
+  "follow / following (social)":
+    fr: "suivre / abonnements (tab), abonné (button)"
+    de: "folgen / Ich folge (tab), Folge ich (button)"
+    nl: "volgen / gevolgd"
+    it: "segui / seguiti (tab), segui già (button)"
+    es: "seguir / siguiendo"
+  "season recap (community)":
+    fr: bilan de saison
+    de: Saisonrückblick
+    nl: seizoensoverzicht
+    it: riepilogo della stagione
+    es: resumen de temporada
+  "cohort / vintage (pilots who joined in a given year)":
+    fr: promo
+    de: Jahrgang
+    nl: lichting
+    it: annata
+    es: generación
+  "flyability status (flyable / marginal / unflyable)":
+    fr: "volable / limite / pas volable"
+    de: "fliegbar / grenzwertig / nicht fliegbar"
+    nl: "vliegbaar / twijfelachtig / niet vliegbaar"
+    it: "volabile / al limite / non volabile"
+    es: "volable / justo / no volable"
+  "wind window (takeoff orientation range)":
+    fr: orientation
+    de: Ausrichtung
+    nl: windvenster
+    it: esposizione
+    es: orientación
+  "accelerated / on bar (speed band)":
+    fr: accéléré
+    de: beschleunigt
+    nl: versneld
+    it: accelerato
+    es: "acelerado / con acelerador"
+  "trim (speed band label)":
+    fr: bras hauts
+    de: Trimm
+    nl: trim
+    it: trim
+    es: trim
+  "airspace incursion":
+    fr: intrusion
+    de: Luftraumverletzung
+    nl: luchtruimschending
+    it: sconfinamento
+    es: incursión
+  "spelling (one way a glider name is typed)":
+    fr: graphie
+    de: Schreibweise
+    nl: schrijfwijze
+    it: grafia
+    es: grafía
+  "live tracking":
+    fr: suivi en direct
+    de: Live-Tracking
+    nl: live volgen
+    it: tracciamento live
+    es: seguimiento en vivo
+  "coordinate pair separator":
+    note: "Locales with a decimal comma separate lat and lon with ';' (fr '{lat} ; {lon}', others '{lat}; {lon}')."
+  "date range (Italian)":
+    note: "it: never 'Dal {start} al {end}' (breaks on 'all’8'); use '{start} - {end}'."

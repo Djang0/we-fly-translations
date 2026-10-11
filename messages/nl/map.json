@@ -1,0 +1,154 @@
+{
+  "baseLayers": {
+    "wefly": { "name": "We-Fly-thema" },
+    "opentopomap": { "name": "OpenTopoMap" },
+    "terrain": { "name": "Terrein (OpenFreeMap)" },
+    "satellite": { "name": "Satelliet" },
+    "geoportail": { "name": "Geoportail.fr (traag)" }
+  },
+  "measure": {
+    "toggle": "Afstand meten",
+    "clear": "Meting wissen"
+  },
+  "legend": {
+    "title": "Stijg- / daalsnelheid"
+  },
+  "flight": {
+    "takeoff": "Start",
+    "landing": "Landing",
+    "legPopup": "{name}: {distance}"
+  },
+  "siteType": {
+    "takeoff": "Startplaats",
+    "landingZone": "Landingsplaats",
+    "parking": "Parkeerplaats"
+  },
+  "menu": {
+    "title": "Kaartlagen",
+    "collapse": "Paneel met kaartlagen inklappen",
+    "open": "Paneel met kaartlagen openen",
+    "button": "Lagen",
+    "active": "Overlays actief"
+  },
+  "layerOrder": {
+    "listLabel": "Volgorde van de lagen",
+    "flightTrace": "Track van de vlucht",
+    "pois": "Nuttige punten",
+    "airspaces": "Luchtruimen",
+    "skyways": "Skyways"
+  },
+  "overlays": {
+    "layerOrderTitle": "Volgorde van de lagen",
+    "layerOrderHint": "Sleep om de volgorde te wijzigen. De bovenste laag ligt vooraan. Een gemarkeerd luchtruim blijft altijd bovenaan.",
+    "skyways": "Skyways",
+    "airspaces": "Luchtruimen",
+    "layer": "Laag",
+    "season": "Seizoen",
+    "time": "Tijdstip",
+    "floor": "Ondergrens",
+    "opacity": "Dekking · {value, number, percent}",
+    "skywaysType": {
+      "skyways": "Skyways",
+      "thermals": "Thermiek"
+    },
+    "skywaysMonth": {
+      "all": "Heel het jaar",
+      "jan": "Winter",
+      "apr": "Lente",
+      "jul": "Zomer",
+      "oct": "Herfst"
+    },
+    "skywaysTime": {
+      "all": "Hele dag",
+      "04": "Ochtend",
+      "07": "Middag",
+      "10": "Avond"
+    },
+    "floorAny": "Alle",
+    "floorBelow": "Onder {value} m",
+    "legendToggle": "{hidden, select, yes {Luchtruimen {label} tonen} other {Luchtruimen {label} verbergen}}",
+    "classGroup": "Klasse A-G",
+    "classGroupToggle": "{hidden, select, yes {Luchtruimen klasse A-G tonen} other {Luchtruimen klasse A-G verbergen}}",
+    "classLetter": "Klasse {letter}",
+    "legend": {
+      "prohibited": "Verboden",
+      "restricted": "Beperkt",
+      "danger": "Gevaar",
+      "tsa": "TSA",
+      "tra": "TRA",
+      "military": "Militair",
+      "ctr": "CTR",
+      "atz": "ATZ",
+      "tma": "TMA / CTA",
+      "tmz": "TMZ",
+      "rmz": "RMZ",
+      "alert": "Alert / ADIZ",
+      "sport": "Zweefvliegen / sport",
+      "dynamicOpen": "Dynamisch open",
+      "protected": "Beschermd",
+      "info": "FIR / info",
+      "other": "Overig"
+    },
+    "airspaceHint": "Beweeg over een luchtruim om zijn verticale grenzen te zien. Klik op een kleur in de legende om de bijbehorende luchtruimen te verbergen of te tonen.",
+    "pointsOfInterest": "Nuttige punten",
+    "airports": "Luchthavens",
+    "peaks": "Bergtoppen",
+    "passes": "Bergpassen",
+    "takeoffs": "Startplaatsen",
+    "landings": "Landingsplaatsen",
+    "zoomHint": "Zoom in om punten in de buurt te laden.",
+    "attribution": "Skyways © thermal.kk7.ch · Luchtruimen © openAIP · POI © OpenStreetMap{sites, select, yes { · Startplaatsen © We-Fly} other {}}"
+  },
+  "openAirFile": {
+    "tooLarge": "Het luchtruimbestand is groter dan de limiet van 8 MB",
+    "loaded": "{count, plural, one {# luchtruim} other {# luchtruimen}} geladen uit {name}",
+    "readFailed": "Dit bestand kon niet gelezen worden.",
+    "yourFile": "{count, plural, one {# luchtruim} other {# luchtruimen}} · je eigen bestand",
+    "useDefault": "Standaard gebruiken",
+    "load": "OpenAir-bestand laden",
+    "hint": "Gebruik je eigen OpenAir-luchtruimbestand (<mono>.txt</mono>), verwerkt in je browser en nooit geüpload.",
+    "loadingAttached": "Luchtruimbestand van de vlucht laden…",
+    "attachedFailed": "Het luchtruimbestand van deze vlucht kon niet geladen worden, dus er wordt geen luchtruim getoond.",
+    "attachedToFlight": "{count, plural, one {# luchtruim} other {# luchtruimen}} · gekoppeld aan deze vlucht"
+  },
+  "airspaceCheck": {
+    "title": "Luchtruimcontrole",
+    "run": "Controle starten",
+    "rerun": "Opnieuw",
+    "checkedSaved": "Gecontroleerd op {date} en opgeslagen. Opnieuw controleren is pas nodig als de vlucht of de luchtruimgegevens veranderen.",
+    "idleUser": "Controleer de gevlogen track tegen je OpenAir-bestand ({name}), berekend in je browser.",
+    "idleDefault": "Controleer de gevlogen track tegen de gecontroleerde en beperkte luchtruimen van openAIP, berekend in je browser.",
+    "failed": "De controle is mislukt: de luchtruimtegels konden niet geladen worden. Probeer het opnieuw.",
+    "noIncursions": "Geen luchtruimschendingen gevonden op deze vlucht.",
+    "selectDetails": "Selecteer een schending om de volledige gegevens van het luchtruim te openen.",
+    "selectHighlight": "Selecteer een schending om dat deel van de vlucht op de kaart te markeren.",
+    "rowShowDetails": "Volledige gegevens van het luchtruim tonen",
+    "rowClearHighlight": "Markering wissen",
+    "rowHighlight": "Dit deel van de vlucht op de kaart markeren",
+    "ground": "GND",
+    "band": "{floor} → {top}",
+    "durationSeconds": "{count} s",
+    "durationMinutes": "{count} min",
+    "segment": "{start} tot {end} ({duration}) · max. {altitude}",
+    "openAipTitle": "Officiële beschrijving van het luchtruim op openAIP (nieuw tabblad)",
+    "openAipAria": "Officiële beschrijving van {name} op openAIP (opent in een nieuw tabblad)",
+    "inactive": "Doorkruist maar niet actief op het moment van de vlucht (activatieperiodes), dus niet gemarkeerd: {names}.",
+    "tilesFailed": "Sommige luchtruimtegels konden niet geladen worden, dus de dekking is onvolledig.",
+    "terrainMissing": "Voor delen van deze track ontbreken terreingegevens, dus luchtruimgrenzen ten opzichte van de grond kunnen onderschat zijn.",
+    "disclaimer": "Klasse E en ongecontroleerd luchtruim worden niet gemarkeerd. {source, select, user {Je OpenAir-bestand} other {Gegevens van openAIP}}, alleen ter informatie, nooit een vervanging voor officiële luchtvaartinformatie."
+  },
+  "airspaceInspector": {
+    "showDetails": "Gegevens van het luchtruim tonen",
+    "clearHighlight": "Markering van het luchtruim wissen"
+  },
+  "airspaceList": {
+    "title": "Luchtruimen hier",
+    "description": "{count, plural, one {# luchtruim} other {# luchtruimen}} op dit punt, hoogste eerst. {mode, select, selectDetails {Selecteren voegt er een toe aan je luchtruimlijst; Tonen markeert het op de kaart; de infoknop opent de volledige gegevens.} select {Selecteren voegt er een toe aan je luchtruimlijst; Tonen markeert het op de kaart.} other {Selecteer er een om het op de kaart te markeren.}}",
+    "selected": "Geselecteerd",
+    "select": "Selecteren",
+    "show": "Tonen",
+    "viewDetailsAria": "Gegevens van {name} bekijken",
+    "viewDetails": "Gegevens van het luchtruim bekijken",
+    "fetching": "Volledige omtrek van het luchtruim ophalen…"
+  }
+}

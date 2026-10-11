@@ -1,0 +1,154 @@
+{
+  "baseLayers": {
+    "wefly": { "name": "We-Fly-Design" },
+    "opentopomap": { "name": "OpenTopoMap" },
+    "terrain": { "name": "Gelände (OpenFreeMap)" },
+    "satellite": { "name": "Satellit" },
+    "geoportail": { "name": "Geoportail.fr (langsam)" }
+  },
+  "measure": {
+    "toggle": "Distanz messen",
+    "clear": "Messung löschen"
+  },
+  "legend": {
+    "title": "Steigen / Sinken"
+  },
+  "flight": {
+    "takeoff": "Start",
+    "landing": "Landung",
+    "legPopup": "{name}: {distance}"
+  },
+  "siteType": {
+    "takeoff": "Startplatz",
+    "landingZone": "Landeplatz",
+    "parking": "Parkplatz"
+  },
+  "menu": {
+    "title": "Kartenebenen",
+    "collapse": "Ebenen-Panel einklappen",
+    "open": "Ebenen-Panel öffnen",
+    "button": "Ebenen",
+    "active": "Overlays aktiv"
+  },
+  "layerOrder": {
+    "listLabel": "Reihenfolge der Ebenen",
+    "flightTrace": "Flugtrack",
+    "pois": "Points of Interest",
+    "airspaces": "Lufträume",
+    "skyways": "Skyways"
+  },
+  "overlays": {
+    "layerOrderTitle": "Reihenfolge der Ebenen",
+    "layerOrderHint": "Zum Umsortieren ziehen. Die oberste Ebene liegt vorne. Ein hervorgehobener Luftraum bleibt immer oben.",
+    "skyways": "Skyways",
+    "airspaces": "Lufträume",
+    "layer": "Ebene",
+    "season": "Saison",
+    "time": "Tageszeit",
+    "floor": "Untergrenze",
+    "opacity": "Deckkraft · {value, number, percent}",
+    "skywaysType": {
+      "skyways": "Skyways",
+      "thermals": "Thermik"
+    },
+    "skywaysMonth": {
+      "all": "Ganzes Jahr",
+      "jan": "Winter",
+      "apr": "Frühling",
+      "jul": "Sommer",
+      "oct": "Herbst"
+    },
+    "skywaysTime": {
+      "all": "Ganzer Tag",
+      "04": "Vormittag",
+      "07": "Mittag",
+      "10": "Abend"
+    },
+    "floorAny": "Alle",
+    "floorBelow": "Unter {value} m",
+    "legendToggle": "{hidden, select, yes {Lufträume „{label}“ einblenden} other {Lufträume „{label}“ ausblenden}}",
+    "classGroup": "Klasse A-G",
+    "classGroupToggle": "{hidden, select, yes {Lufträume der Klassen A-G einblenden} other {Lufträume der Klassen A-G ausblenden}}",
+    "classLetter": "Klasse {letter}",
+    "legend": {
+      "prohibited": "Sperrgebiet",
+      "restricted": "Beschränkungsgebiet",
+      "danger": "Gefahrengebiet",
+      "tsa": "TSA",
+      "tra": "TRA",
+      "military": "Militär",
+      "ctr": "CTR",
+      "atz": "ATZ",
+      "tma": "TMA / CTA",
+      "tmz": "TMZ",
+      "rmz": "RMZ",
+      "alert": "Warngebiet / ADIZ",
+      "sport": "Segelflug / Sport",
+      "dynamicOpen": "Dynamisch geöffnet",
+      "protected": "Schutzgebiet",
+      "info": "FIR / Info",
+      "other": "Sonstige"
+    },
+    "airspaceHint": "Fahr mit der Maus über einen Luftraum, um seine vertikalen Grenzen zu sehen. Klick auf eine Legendenfarbe, um die zugehörigen Lufträume aus- oder einzublenden.",
+    "pointsOfInterest": "Points of Interest",
+    "airports": "Flugplätze",
+    "peaks": "Gipfel",
+    "passes": "Pässe",
+    "takeoffs": "Startplätze",
+    "landings": "Landeplätze",
+    "zoomHint": "Hineinzoomen, um Punkte in der Nähe zu laden.",
+    "attribution": "Skyways © thermal.kk7.ch · Lufträume © openAIP · POI © OpenStreetMap{sites, select, yes { · Startplätze © We-Fly} other {}}"
+  },
+  "openAirFile": {
+    "tooLarge": "Die Luftraumdatei überschreitet die Grenze von 8 MB",
+    "loaded": "{count, plural, one {# Luftraum} other {# Lufträume}} aus {name} geladen",
+    "readFailed": "Diese Datei konnte nicht gelesen werden.",
+    "yourFile": "{count, plural, one {# Luftraum} other {# Lufträume}} · deine Datei",
+    "useDefault": "Standard verwenden",
+    "load": "OpenAir-Datei laden",
+    "hint": "Nutze deine eigene OpenAir-Luftraumdatei (<mono>.txt</mono>). Sie wird in deinem Browser ausgewertet und nie hochgeladen.",
+    "loadingAttached": "Luftraumdatei des Flugs wird geladen…",
+    "attachedFailed": "Die Luftraumdatei dieses Flugs konnte nicht geladen werden, daher wird kein Luftraum angezeigt.",
+    "attachedToFlight": "{count, plural, one {# Luftraum} other {# Lufträume}} · an diesen Flug angehängt"
+  },
+  "airspaceCheck": {
+    "title": "Luftraumprüfung",
+    "run": "Prüfung starten",
+    "rerun": "Erneut prüfen",
+    "checkedSaved": "Geprüft am {date} und gespeichert. Eine neue Prüfung ist nur nötig, wenn sich der Flug oder die Luftraumdaten ändern.",
+    "idleUser": "Prüft den geflogenen Track gegen deine OpenAir-Datei ({name}), berechnet in deinem Browser.",
+    "idleDefault": "Prüft den geflogenen Track gegen kontrollierte und beschränkte Lufträume von openAIP, berechnet in deinem Browser.",
+    "failed": "Die Prüfung ist fehlgeschlagen: Die Luftraumkacheln konnten nicht geladen werden. Versuch es noch einmal.",
+    "noIncursions": "Auf diesem Flug wurden keine Luftraumverletzungen erkannt.",
+    "selectDetails": "Wähl eine Luftraumverletzung aus, um alle Details zum Luftraum zu öffnen.",
+    "selectHighlight": "Wähl eine Luftraumverletzung aus, um diesen Abschnitt des Flugs auf der Karte hervorzuheben.",
+    "rowShowDetails": "Alle Details zum Luftraum anzeigen",
+    "rowClearHighlight": "Hervorhebung entfernen",
+    "rowHighlight": "Diesen Abschnitt des Flugs auf der Karte hervorheben",
+    "ground": "GND",
+    "band": "{floor} → {top}",
+    "durationSeconds": "{count} s",
+    "durationMinutes": "{count} min",
+    "segment": "{start} bis {end} ({duration}) · max. {altitude}",
+    "openAipTitle": "Offizielle Luftraumbeschreibung auf openAIP (neuer Tab)",
+    "openAipAria": "Offizielle Beschreibung von {name} auf openAIP (öffnet in neuem Tab)",
+    "inactive": "Durchflogen, aber zur Flugzeit nicht aktiv (Aktivierungszeiten), daher nicht markiert: {names}.",
+    "tilesFailed": "Einige Luftraumkacheln konnten nicht geladen werden, die Abdeckung ist daher unvollständig.",
+    "terrainMissing": "Für Teile dieses Tracks fehlen Geländedaten, daher werden Luftraumgrenzen mit Bezug zum Grund eventuell nicht vollständig erkannt.",
+    "disclaimer": "Luftraum E und unkontrollierter Luftraum werden nicht markiert. {source, select, user {Deine OpenAir-Datei} other {openAIP-Daten}}, nur zur Information und nie ein Ersatz für amtliche Luftfahrtinformationen."
+  },
+  "airspaceInspector": {
+    "showDetails": "Luftraumdetails anzeigen",
+    "clearHighlight": "Luftraum-Hervorhebung entfernen"
+  },
+  "airspaceList": {
+    "title": "Lufträume an diesem Punkt",
+    "description": "{count, plural, one {# Luftraum} other {# Lufträume}} an diesem Punkt, der höchste zuerst. {mode, select, selectDetails {„Auswählen“ fügt einen Luftraum deiner Liste hinzu, „Zeigen“ hebt ihn auf der Karte hervor, der Info-Button öffnet alle Details.} select {„Auswählen“ fügt einen Luftraum deiner Liste hinzu, „Zeigen“ hebt ihn auf der Karte hervor.} other {Wähl einen aus, um ihn auf der Karte hervorzuheben.}}",
+    "selected": "Ausgewählt",
+    "select": "Auswählen",
+    "show": "Zeigen",
+    "viewDetailsAria": "Details zu {name} ansehen",
+    "viewDetails": "Luftraumdetails ansehen",
+    "fetching": "Vollständiger Umriss des Luftraums wird geladen…"
+  }
+}

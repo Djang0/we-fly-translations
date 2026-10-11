@@ -1,0 +1,327 @@
+{
+  "viewToggle": {
+    "label": "Vista decolli",
+    "map": "Mappa",
+    "list": "Elenco",
+    "favorites": "Preferiti"
+  },
+  "weather": {
+    "wind": "Vento",
+    "gusts": "Raffiche {value}",
+    "speedFrom": "{speed} da {dir}",
+    "speedFromGusts": "{speed} da {dir}, raffiche {gusts}",
+    "ariaLabel": "Condizioni del vento: {status}. {reason}. {speed} da {dir}.",
+    "justNow": "proprio ora",
+    "minutesAgo": "{count} min fa",
+    "hoursAgo": "{count} h fa",
+    "status": {
+      "flyable": "Volabile",
+      "marginal": "Al limite",
+      "unflyable": "Non volabile",
+      "calm": "Calma"
+    }
+  },
+  "card": {
+    "unknownLocation": "Posizione sconosciuta",
+    "viewAria": "Apri {name}, {country}",
+    "windTitle": "{reason}: {speed} {dir}",
+    "checkWind": "Controlla il vento",
+    "removeFavorite": "Rimuovi dai preferiti",
+    "addFavorite": "Aggiungi ai preferiti"
+  },
+  "favorites": {
+    "checking": "Controllo delle condizioni…",
+    "noneFlyable": "Nessuno dei tuoi preferiti è volabile in questo momento.",
+    "emptyTitle": "Ancora nessun decollo preferito",
+    "emptyBody": "I decolli da cui hai già volato finiscono nei preferiti in automatico, oppure aggiungi qualsiasi sito dalla sua pagina.",
+    "listLabel": "Decolli preferiti"
+  },
+  "filters": {
+    "searchPlaceholder": "Cerca decolli: nome, regione, paese…",
+    "searchAria": "Cerca decolli per nome, paese o descrizione",
+    "clearSearch": "Cancella la ricerca",
+    "disableLocation": "Disattiva il filtro per posizione",
+    "enableLocation": "Attiva il filtro per posizione",
+    "nearby": "Vicino a me",
+    "sortingByDistance": "Ordinati per distanza dalla tua posizione",
+    "sortByDistance": "Ordina per distanza dalla tua posizione",
+    "within": "entro",
+    "distanceAria": "Distanza in chilometri",
+    "flyableNow": "Volabili ora",
+    "sortAria": "Ordina i decolli",
+    "clearAll": "Cancella tutti i filtri",
+    "clear": "Cancella",
+    "sort": {
+      "nameAsc": "Nome A→Z",
+      "nameDesc": "Nome Z→A",
+      "bearingAsc": "Orientamento cresc.",
+      "bearingDesc": "Orientamento decr.",
+      "countryAsc": "Paese A→Z",
+      "countryDesc": "Paese Z→A",
+      "elevationAsc": "Quota bassa→alta",
+      "elevationDesc": "Quota alta→bassa"
+    }
+  },
+  "results": {
+    "loadFailed": "Impossibile caricare i decolli",
+    "tryAgain": "Riprova",
+    "retry": "Riprova",
+    "flyableNowCount": "{count, number} volabili ora",
+    "checkingCount": "controllo di {count, number}",
+    "siteCount": "{count, plural, one {# sito} other {# siti}}",
+    "updating": "Aggiornamento",
+    "emptyTitle": "Nessun decollo trovato",
+    "noResults": "Nessun risultato per «{search}»",
+    "adjustFilters": "Prova a modificare i filtri",
+    "clearFilters": "Cancella i filtri",
+    "listLabel": "Decolli",
+    "colElevation": "Quota",
+    "colSite": "Sito",
+    "colWind": "Vento",
+    "colWindow": "Esposizione",
+    "allChecked": "Tutti i {count, number} siti controllati",
+    "allLoaded": "Tutti i {count, number} siti caricati",
+    "loadMore": "Carica altri"
+  },
+  "page": {
+    "loadingMap": "Caricamento della mappa…",
+    "locationDenied": "Accesso alla posizione negato",
+    "geolocationUnsupported": "Geolocalizzazione non supportata",
+    "subtitleFavorites": "{count, plural, one {# sito preferito} other {# siti preferiti}}",
+    "subtitleCommunity": "{count, number} siti della community",
+    "subtitleDefault": "Decolli della community",
+    "loading": "Caricamento…",
+    "eyebrow": "Decolli della community",
+    "title": "Decolli"
+  },
+  "mapView": {
+    "loadingMap": "Caricamento della mappa…",
+    "count": "{count, plural, one {<b>#</b> sito} other {<b>#</b> siti}}",
+    "countFlyable": "{count, plural, one {<b>#</b> sito volabile} other {<b>#</b> siti volabili}} ora",
+    "countInView": "{count, plural, one {<b>#</b> sito} other {<b>#</b> siti}} in vista",
+    "checking": "controllo di {count, number}",
+    "clickToFocus": "Clicca per centrare",
+    "noMatch": "Nessun sito corrisponde. Prova ad allargare i filtri.",
+    "removeFavorite": "Rimuovi dai preferiti",
+    "addFavorite": "Aggiungi ai preferiti",
+    "open": "Apri"
+  },
+  "map": {
+    "loading": "Caricamento dei decolli...",
+    "youAreHere": "Sei qui",
+    "elevationAsl": "{altitude} s.l.m.",
+    "facing": "Esposizione: {bearing}",
+    "zoomForFlyable": "Ingrandisci per vedere solo i decolli volabili"
+  },
+  "detail": {
+    "back": "Indietro",
+    "siteType": {
+      "takeoff": "Decollo",
+      "landing": "Atterraggio",
+      "parking": "Parcheggio"
+    },
+    "favorites": {
+      "add": "Aggiungi ai preferiti",
+      "remove": "Rimuovi dai preferiti"
+    },
+    "copyCoordinates": "Copia le coordinate",
+    "share": "Condividi",
+    "rename": "Rinomina",
+    "toast": {
+      "elevationUpdated": "Quota aggiornata: {value}",
+      "elevationFailed": "Impossibile recuperare la quota",
+      "elevationRetry": "Impossibile recuperare la quota. Riprova.",
+      "locationUpdated": "Dati di posizione aggiornati",
+      "geocodingFailed": "Impossibile recuperare i dati di geocodifica",
+      "geocodingRetry": "Impossibile recuperare i dati di geocodifica. Riprova.",
+      "coordinatesCopied": "Coordinate copiate",
+      "linkCopied": "Link copiato"
+    },
+    "stats": {
+      "elevation": "Quota s.l.m.",
+      "orientation": "Orientamento",
+      "windFrom": "Vento da questa direzione",
+      "loggedFlights": "Voli registrati",
+      "atThisSite": "{kind, select, landing {in questo atterraggio} parking {in questo parcheggio} other {da questo decollo}}",
+      "coordinates": "Coordinate",
+      "latLon": "lat · lon",
+      "timezone": "Fuso orario",
+      "coordinatesPair": "{lat}; {lon}"
+    },
+    "siteTypeHeading": "Tipo di sito",
+    "landingDescription": "Dove i piloti atterrano di solito. Prima di usarlo controlla ostacoli, direzione del vento e permessi del proprietario del campo.",
+    "parkingDescription": "Un parcheggio o punto di ritrovo noto alla community vicino a un sito di volo.",
+    "map": {
+      "title": "Mappa della posizione",
+      "collapseMap": "Riduci la mappa",
+      "expandMap": "Espandi la mappa",
+      "collapse": "Riduci",
+      "expand": "Espandi",
+      "openFullscreen": "Apri la mappa a schermo intero"
+    },
+    "community": {
+      "label": "Community",
+      "summary": "<b>{count, plural, one {# volo registrato} other {# voli registrati}}</b> qui. Scopri l’attività recente qui sotto.",
+      "view": "Vai alla community →"
+    },
+    "footer": {
+      "base": "Dati dei decolli forniti da <psLink>paraglidingspots.com</psLink>. Prima di volare verifica sempre le regole locali, i requisiti del sito e le norme sullo spazio aereo.",
+      "withOsm": "Dati dei decolli forniti da <psLink>paraglidingspots.com</psLink> · dati di posizione © <osmLink>contributori di OpenStreetMap</osmLink>. Prima di volare verifica sempre le regole locali, i requisiti del sito e le norme sullo spazio aereo."
+    },
+    "siteInfo": {
+      "title": "Informazioni sul sito",
+      "subtitle": "Informazioni della community da paraglidingspots.com"
+    },
+    "sections": {
+      "map": "Mappa",
+      "rules": "Regole",
+      "analytics": "Statistiche",
+      "recentFlights": "Voli recenti",
+      "navLabel": "Sezioni della pagina",
+      "onThisPage": "In questa pagina"
+    },
+    "fullscreen": {
+      "title": "Mappa a schermo intero",
+      "close": "Chiudi"
+    },
+    "scoringTypes": {
+      "free_flight": "Volo libero",
+      "flat_triangle": "Δ FAI chiuso",
+      "fai_triangle": "Δ FAI",
+      "free_triangle": "Δ libero chiuso"
+    },
+    "conditions": {
+      "title": "Condizioni in tempo reale",
+      "justNow": "proprio ora",
+      "minutesAgo": "{count} min fa",
+      "hoursAgo": "{count} h fa",
+      "unavailable": "Vento in tempo reale non disponibile",
+      "statusWithReason": "{status}: {reason}",
+      "status": {
+        "flyable": "Volabile",
+        "marginal": "Al limite",
+        "unflyable": "Non volabile",
+        "calm": "Vento debole"
+      },
+      "reason": {
+        "gustsTooStrong": "Raffiche {speed}, troppo forti",
+        "windTooStrong": "Vento {speed}, troppo forte",
+        "lightWind": "Vento debole, possibile volo in termica",
+        "bearingUnknown": "Orientamento del sito sconosciuto",
+        "strongWindBearingUnknown": "Vento forte, orientamento del sito sconosciuto",
+        "favorable": "Direzione del vento favorevole",
+        "crosswind": "Vento al traverso, attenzione",
+        "tailwind": "Vento in coda o forte vento al traverso"
+      },
+      "gusts": "raffiche <b>{value}</b>",
+      "siteFaces": "Sito esposto a <b>{bearing}</b>",
+      "wind": "Vento",
+      "gustsLabel": "Raffiche",
+      "temp": "Temp.",
+      "source": "fonte · {station}"
+    },
+    "analytics": {
+      "title": "Statistiche del sito",
+      "subtitleCounted": "Calcolate su {count, plural, one {# volo registrato} other {# voli registrati}}. I valori sono mediane della community.",
+      "subtitleEmpty": "Calcolate sui voli registrati in questo sito.",
+      "emptyMonth": "Nessun volo registrato a {month} in questo sito.",
+      "empty": "Ancora nessun volo registrato in questo sito.",
+      "totalFlights": "Voli totali",
+      "peakSub": "Picco a {month} · {count, plural, one {# volo} other {# voli}}",
+      "medianDuration": "Durata mediana",
+      "medianXc": "Distanza mediana",
+      "best": "Migliore {value}",
+      "maxAltitude": "Quota massima",
+      "median": "Mediana {value}",
+      "flightsByMonth": "Voli per mese",
+      "peakLine": "Picco · {month} ({count, plural, one {# volo} other {# voli}})",
+      "flightsPerMonth": "Voli al mese",
+      "barTitle": "{month}: {count, plural, one {# volo} other {# voli}}",
+      "typeBreakdown": "Voli per tipo",
+      "noScored": "Ancora nessun volo con punteggio.",
+      "peakLaunchHour": "Ora di decollo più frequente",
+      "hourWithCount": "{hour} · {count, plural, one {# volo} other {# voli}}",
+      "topXcTitle": "Migliori voli di distanza",
+      "topXcSubtitle": "I cross più lunghi mai registrati da questo sito.",
+      "unknownPilot": "Pilota sconosciuto"
+    },
+    "recent": {
+      "title": "Voli recenti",
+      "subtitle": "{shown} di {total}, {sort}.",
+      "subtitleEmpty": "Ancora nessun volo registrato qui.",
+      "sortSummary": {
+        "date": {
+          "descending": "dal più recente",
+          "ascending": "dal meno recente"
+        },
+        "distance": {
+          "descending": "dal più lungo",
+          "ascending": "dal più corto"
+        },
+        "pilot": {
+          "ascending": "per pilota, crescente",
+          "descending": "per pilota, decrescente"
+        },
+        "glider": {
+          "ascending": "per vela, crescente",
+          "descending": "per vela, decrescente"
+        },
+        "type": {
+          "ascending": "per tipo, crescente",
+          "descending": "per tipo, decrescente"
+        }
+      },
+      "searchPlaceholder": "Pilota, vela, tipo…",
+      "searchLabel": "Cerca voli",
+      "clearSearch": "Cancella la ricerca",
+      "columns": {
+        "date": "Data",
+        "pilot": "Pilota",
+        "glider": "Vela",
+        "distance": "Distanza",
+        "type": "Tipo"
+      },
+      "loading": "Caricamento dei voli…",
+      "error": "Impossibile caricare i voli, riprova più tardi.",
+      "noMatch": "Nessun volo corrisponde alla ricerca.",
+      "none": "Ancora nessun volo in questo sito.",
+      "unknownPilot": "Pilota sconosciuto",
+      "footerCount": "{shown} / {total} voli",
+      "loadingMore": "Caricamento…",
+      "loadMore": "Carica altri",
+      "sortBy": "Ordina per {label}",
+      "sortByActive": "Ordina per {label}, {dir}",
+      "dir": {
+        "ascending": "crescente",
+        "descending": "decrescente"
+      }
+    }
+  },
+  "meta": {
+    "title": "Decolli",
+    "description": "Esplora i decolli di parapendio di tutto il mondo. Cerca per distanza o per nome, oppure sfoglia tutti i siti disponibili.",
+    "ogTitle": "Decolli - We-Fly"
+  },
+  "og": {
+    "eyebrow": "Database della community",
+    "titleLine1": "Decolli",
+    "titleLine2": "di parapendio.",
+    "subtitle": "Esplora oltre 18.000 decolli nel mondo. Cerca per posizione, vento e quota.",
+    "fallbackName": "Decollo di parapendio",
+    "chip": "Decollo",
+    "elevation": "{value} m"
+  },
+  "detailMeta": {
+    "notFoundTitle": "Decollo non trovato",
+    "notFoundDescription": "Questo decollo non esiste.",
+    "unknownName": "Decollo sconosciuto",
+    "title": "{name} | Decollo di parapendio",
+    "titleWithCountry": "{name} | Decollo di parapendio in {country}",
+    "intro": "Decollo di parapendio",
+    "introWithCountry": "Decollo di parapendio in {country}",
+    "atElevation": "a {elevation} di quota",
+    "facing": "esposto a {bearing}",
+    "callToAction": "Scopri condizioni, statistiche e storico dei voli su We-Fly",
+    "fallbackSchemaName": "Decollo di parapendio"
+  }
+}

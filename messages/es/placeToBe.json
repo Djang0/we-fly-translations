@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Dónde volar",
+    "description": "Explora las mejores zonas de vuelo en parapente de la comunidad, temporada a temporada, clasificadas por calidad, actividad, comunidad y regularidad.",
+    "ogTitle": "Dónde volar - We-Fly",
+    "ogDescription": "Explora las mejores zonas de vuelo en parapente de la comunidad, temporada a temporada."
+  },
+  "header": {
+    "eyebrow": "Comunidad",
+    "title": "Dónde volar",
+    "subtitle": "Las mejores zonas de vuelo de la comunidad, temporada a temporada."
+  },
+  "signals": {
+    "quality": "Calidad",
+    "consistency": "Regularidad",
+    "activity": "Actividad",
+    "community": "Comunidad",
+    "qualityShort": "Calidad",
+    "consistencyShort": "Reg.",
+    "activityShort": "Actividad",
+    "communityShort": "Com."
+  },
+  "seasons": {
+    "winter": "Invierno",
+    "spring": "Primavera",
+    "summer": "Verano",
+    "autumn": "Otoño"
+  },
+  "time": {
+    "seasonLabel": "Temporada",
+    "monthsLabel": "Meses",
+    "summary": "{label} · todos los años",
+    "weightsRail": "Pesos de la puntuación",
+    "weightsTooltip": "Puntuación = suma ponderada, normalizada dentro del periodo",
+    "weightSegment": "{label} · {weight, number, percent}",
+    "percent": "{value, number, percent}"
+  },
+  "board": {
+    "mapLoading": "Cargando mapa…",
+    "legendRegion": "Región H3 r5 · ~250 km²",
+    "legendSelected": "Seleccionada",
+    "regionsRanked": "Regiones clasificadas",
+    "explainerToggle": "Cómo se calcula la puntuación",
+    "rankedCount": "{count, plural, one {# región clasificada} other {# regiones clasificadas}}",
+    "noFlights": "Todavía no hay vuelos subidos en este periodo."
+  },
+  "explainer": {
+    "intro": "Cuatro señales, ponderadas y sumadas. Cada una se normaliza dentro del periodo que eliges, así que la clasificación siempre te dice dónde volar <em>en ese periodo</em>. Los despegues se agrupan en regiones H3 de <mono>~250 km²</mono> para no penalizar las montañas con muchos despegues.",
+    "qualityDesc": "Mediana de la puntuación XContest por vuelo.",
+    "consistencyDesc": "% de días volables en los que la región dio al menos un vuelo.",
+    "activityDesc": "Número de vuelos en la región.",
+    "communityDesc": "Pilotos distintos, para evitar las anomalías de un solo piloto.",
+    "minimumSample": "Muestra mínima: <mono>{flights, plural, one {# vuelo} other {# vuelos}} · {pilots, plural, one {# piloto} other {# pilotos}}</mono>. Por debajo, la región queda en el <em>cajón de las tranquilas</em>."
+  },
+  "rank": {
+    "empty": "Ninguna región supera el umbral en este periodo. Prueba a ampliar la temporada o echa un vistazo a las regiones tranquilas de abajo.",
+    "aggregates": "Agrupa {count, plural, one {# despegue} other {# despegues}} de la región",
+    "flights": "<v>{count}</v> {count, plural, one {vuelo} other {vuelos}}",
+    "pilots": "<v>{count}</v> {count, plural, one {piloto} other {pilotos}}",
+    "median": "mediana <v>{value}</v>",
+    "score": "puntuación"
+  },
+  "quiet": {
+    "title": "Demasiado tranquilas para clasificar",
+    "count": "{count, plural, one {# región} other {# regiones}}",
+    "explain": "Estas regiones existen, pero registraron menos de <mono>{flights, plural, one {# vuelo} other {# vuelos}}</mono> o <mono>{pilots, plural, one {# piloto} other {# pilotos}}</mono> en el periodo. Se quedan fuera para que un solo vuelo bueno no lo domine todo.",
+    "rowTitle": "{name} · {flights, plural, one {# vuelo} other {# vuelos}} · {pilots, plural, one {# piloto} other {# pilotos}}",
+    "flightsShort": "{count} v"
+  },
+  "detail": {
+    "close": "Cerrar detalle",
+    "more": "+{count} más",
+    "regionKind": "región · H3 r5",
+    "breakdown": "Desglose de la puntuación",
+    "takeoffsTitle": "Despegues de esta región",
+    "anchor": "Principal",
+    "anchorTooltip": "Despegue principal, el que más vuelos tiene en la región",
+    "topFlight": "Mejor vuelo del periodo",
+    "noTopFlight": "No hay ningún vuelo destacado.",
+    "wind": "Viento",
+    "ceiling": "Techo",
+    "launch": "Despegue",
+    "asl": "{unit} s. n. m.",
+    "typical": "típico",
+    "openTakeoff": "Abrir la página del despegue"
+  },
+  "teaser": {
+    "title": "Dónde volar",
+    "subtitle": "{season}: mejores regiones, todos los años",
+    "browse": "Explorar",
+    "empty": "Todavía no hay actividad suficiente para clasificar la temporada.",
+    "stats": "{flights, plural, one {# vuelo} other {# vuelos}} · {pilots, plural, one {# piloto} other {# pilotos}} · C{quality} · A{activity}"
+  }
+}

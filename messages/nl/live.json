@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Live tracking"
+  },
+  "page": {
+    "defaultPilot": "Een piloot",
+    "title": "{pilot}, live",
+    "expires": "Link verloopt {date}"
+  },
+  "empty": "Nog geen positie doorgekregen. Deze pagina werkt zichzelf bij, laat ze dus gewoon openstaan.",
+  "modes": {
+    "map": "Kaart",
+    "threeD": "3D"
+  },
+  "pilot": "Piloot",
+  "ago": {
+    "seconds": "{count} s geleden",
+    "minutes": "{count} min geleden",
+    "hours": "{count} u geleden"
+  },
+  "map": {
+    "lastSeen": "laatst gezien {time}",
+    "reconnecting": "opnieuw verbinden…"
+  },
+  "threeD": {
+    "pilotAgo": "{pilot} · {time}",
+    "reconnecting": "opnieuw verbinden…",
+    "altitude": "Hoogte",
+    "vario": "Vario",
+    "speed": "Snelheid",
+    "followPilot": "Piloot volgen",
+    "loadingTerrain": "Terrein laden…"
+  }
+}
