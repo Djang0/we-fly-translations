@@ -1,0 +1,254 @@
+{
+  "sidebar": {
+    "alongHeading": "Along your flight ({count})",
+    "alongIntro": "Controlled and restricted airspace within ~10 km of your planned line. Select the ones to carry into your briefing, or click any zone on the map, whatever its class. The info button shows everything known about a zone before you pick it.",
+    "scanning": "Scanning the airspace along your flight…",
+    "loadFailed": "The airspace data could not be loaded. Try again in a moment.",
+    "noneFound": "No controlled or restricted airspace found along your flight. You can still draw your own zones below.",
+    "selectionHeading": "Your selection ({count})",
+    "clearAll": "Clear all",
+    "selectionEmpty": "Nothing selected yet. Your briefing's OpenAir file will contain whatever you pick here (plus the NOTAMs from the next step).",
+    "advanced": "Advanced: draw & sources",
+    "drawnCount": "{count} drawn",
+    "toolsHeading": "Tools",
+    "tools": {
+      "select": "Select",
+      "polygon": "Polygon",
+      "rectangle": "Rectangle",
+      "cylinder": "Cylinder"
+    },
+    "hints": {
+      "select": "Click the map to list the airspaces at that point. Only airspaces along your flight can be selected.",
+      "polygonFirst": "Click the map to place the first point.",
+      "polygonMore": "{count, plural, one {# point} other {# points}}: double-click (or use Finish) to close the polygon.",
+      "rectangleFirst": "Click the map to place the first corner.",
+      "rectangleNext": "Click the opposite corner.",
+      "cylinderFirst": "Click the map to place the centre.",
+      "cylinderNext": "Click again to set the radius."
+    },
+    "finishPolygon": "Finish polygon",
+    "undoLastPoint": "Undo last point",
+    "cancelDrawing": "Cancel drawing",
+    "sourceHeading": "Airspace source",
+    "showAirspaces": "Show airspaces on the map",
+    "sourceHint": "Selection uses whatever the map shows: openAIP airspaces by default, or your OpenAir file when one is loaded.",
+    "row": {
+      "selected": "Selected",
+      "select": "Select",
+      "viewDetailsAria": "View details for {name}",
+      "viewDetailsTitle": "View airspace details",
+      "editAria": "Edit {name}",
+      "removeAria": "Remove {name}",
+      "deselectAria": "Deselect {name}"
+    }
+  },
+  "designDialog": {
+    "titleNew": "New airspace",
+    "titleEdit": "Edit airspace",
+    "shapeCylinder": "Cylinder · radius {radius}",
+    "shapeRectangle": "Rectangle",
+    "shapePolygon": "Polygon · {count, plural, one {# point} other {# points}}",
+    "name": "Name",
+    "namePlaceholder": "e.g. LSZH CTR extension",
+    "class": "Class",
+    "floor": "Floor",
+    "ceiling": "Ceiling",
+    "valueAria": "{label} value",
+    "unitAria": "{label} unit",
+    "schedule": "Activation schedule",
+    "scheduleOn": "Active only during these windows, like a NOTAM-activated zone. Leave the end empty for “until further notice”.",
+    "scheduleOff": "Always active. Turn on to restrict this zone to activation windows, like official airspaces activated by NOTAM.",
+    "cancel": "Cancel",
+    "saveChanges": "Save changes",
+    "add": "Add airspace",
+    "errors": {
+      "nameRequired": "Give this airspace a name.",
+      "floorInvalid": "Enter a valid floor altitude.",
+      "ceilingInvalid": "Enter a valid ceiling altitude.",
+      "ceilingAboveFloor": "The ceiling must be above the floor."
+    },
+    "classes": {
+      "R": "R (Restricted)",
+      "Q": "Q (Danger)",
+      "P": "P (Prohibited)",
+      "CTR": "CTR (Control zone)",
+      "TMZ": "TMZ (Transponder mandatory)",
+      "RMZ": "RMZ (Radio mandatory)",
+      "A": "Class A",
+      "B": "Class B",
+      "C": "Class C",
+      "D": "Class D",
+      "E": "Class E",
+      "F": "Class F",
+      "G": "Class G",
+      "W": "W (Wave window)",
+      "GP": "GP (Glider prohibited)"
+    }
+  },
+  "activation": {
+    "from": "From",
+    "until": "Until",
+    "removeAria": "Remove activation window {number}",
+    "addWindow": "Add window",
+    "range": "{from} → {to}",
+    "untilFurtherNotice": "{from} → until further notice",
+    "errors": {
+      "startRequired": "Each activation window needs a start date and time.",
+      "endInvalid": "Enter a valid end date and time (or leave it empty).",
+      "endBeforeStart": "An activation window must end after it starts.",
+      "noWindow": "Add at least one activation window."
+    }
+  },
+  "openArea": {
+    "title": "Dynamic open area",
+    "intro": "While a window below is open, this volume becomes <strong>open airspace</strong> (a glider sector / flex zone) and is cut out of every overlapping airspace in your briefing's OpenAir file. Outside the windows, all airspaces keep their full shape.",
+    "classWhenActive": "Class when active",
+    "typeTag": "Type tag (AY)",
+    "hoursLabel": "Activation hours (required)",
+    "hoursPreset": "Pre-filled from this zone's own activation hours. Review or adjust them before saving.",
+    "hoursExisting": "The hours this designation was saved with. Adjust as needed.",
+    "hoursEmpty": "This zone carries no activation hours. Define when the area opens. Leave the end empty for “until further notice”.",
+    "remove": "Remove designation",
+    "cancel": "Cancel",
+    "saveChanges": "Save changes",
+    "set": "Set as open area",
+    "classes": {
+      "G": "Class G (uncontrolled)",
+      "E": "Class E",
+      "W": "W (Wave window)"
+    }
+  },
+  "designer": {
+    "polygonTooFew": "A polygon needs at least 3 points.",
+    "outlinePartial": "Could not fetch this airspace's full outline, using the visible part.",
+    "outlineFailed": "Could not read this airspace's outline."
+  },
+  "designLayer": {
+    "edit": "Edit",
+    "remove": "Remove",
+    "rotate": "Rotate",
+    "overlayOff": "Turn on the Airspaces overlay to pick airspaces."
+  },
+  "overlay": {
+    "unnamed": "Airspace"
+  },
+  "detail": {
+    "panelAria": "Airspace details: {name}",
+    "close": "Close airspace details",
+    "rows": {
+      "activation": "Activation",
+      "type": "Type",
+      "icaoClass": "ICAO class",
+      "frequencies": "Frequencies",
+      "squawk": "Squawk",
+      "notes": "Notes",
+      "identifier": "Identifier",
+      "ceiling": "Ceiling",
+      "floor": "Floor",
+      "activity": "Activity",
+      "hours": "Hours",
+      "remarks": "Remarks"
+    },
+    "fromFile": "From your OpenAir file",
+    "openAipRecord": "openAIP record",
+    "permanentlyActive": "Permanently active: the file declares no schedule",
+    "activeNow": "Active now",
+    "notActiveNow": "Not active now",
+    "chips": {
+      "byNotam": "By NOTAM",
+      "onDemand": "On demand",
+      "onRequest": "On request",
+      "specialAgreement": "Special agreement"
+    },
+    "classValue": "Class {value}",
+    "mhz": "{value} MHz",
+    "noName": "This airspace has no name in the map data, so it can’t be looked up on openAIP. {source, select, file {What your OpenAir file declares is shown above.} other {Only what the map already knows is shown above.}}",
+    "loading": "Loading full details from openAIP…",
+    "notConfigured": "Live openAIP details aren’t configured on this server. {source, select, file {What your OpenAir file declares is shown above.} other {Only what the map already knows is shown above.}}",
+    "loadFailed": "Couldn’t load the full details from openAIP right now. {source, select, file {What your OpenAir file declares is shown above.} other {Only what the map already knows is shown above.}}",
+    "notFoundFile": "No matching airspace in the openAIP database. This zone comes from your own file, so what it declares is all there is.",
+    "notFound": "No matching airspace was found in the openAIP database.",
+    "viewOnOpenAip": "View on openAIP",
+    "updated": "openAIP · updated {date}",
+    "interval": {
+      "announcedSeparately": "Announced separately (NOTAM)",
+      "until": "Until {to}",
+      "range": "{from} → {to}",
+      "untilFurtherNotice": "{from} → until further notice"
+    }
+  },
+  "cut": {
+    "title": "Vertical airspace cut",
+    "pathOptimal": "Optimal task route",
+    "pathPlanned": "Planned route",
+    "close": "Close vertical cut",
+    "nothing": "Nothing to cut yet. Open a flight or add at least two points.",
+    "errorArea": "This path covers too large an area for the vertical cut. Zoom the route into a smaller region.",
+    "errorTiles": "The airspace tiles could not be loaded. Close and reopen to retry.",
+    "tilesFailed": "Some airspace tiles failed to load, so the cut is incomplete.",
+    "noTerrain": "No terrain data along this path: ground-referenced airspace limits are not shown.",
+    "footer": "Controlled & restricted airspace only · {clickable, select, yes {click a band for full details · } other {}}{source, select, user {your OpenAir file} other {openAIP data}}. Informative only, never a substitute for official aeronautical information.",
+    "chartAria": "Vertical airspace cross-section",
+    "bandAria": "Show details for {name}",
+    "bandTitle": "{name}: click for details",
+    "ground": "gnd {value}",
+    "noFlagged": "No flagged airspace here"
+  },
+  "notamStep": {
+    "connectHeading": "Connect autorouter",
+    "connectIntro": "European NOTAMs come from Eurocontrol EAD via <strong>autorouter</strong>, whose licence lets each pilot access the feed with their <strong>own account</strong>, not through a shared one.",
+    "comingSoon": "Coming soon.",
+    "reconnectNeeded": "Your autorouter session needs reconnecting.",
+    "reconnect": "Reconnect autorouter",
+    "linkIntro": "Link your free autorouter account to switch NOTAMs on. It only ever shows <strong>your</strong> briefing.",
+    "connect": "Connect autorouter",
+    "skip": "You can skip this step: your briefing will simply carry no NOTAMs.",
+    "disclaimerHeading": "Disclaimer",
+    "disclaimer": "Advisory only: this is NOT an official briefing. Always check the official pre-flight information sources (AIS/NOTAM briefing) before flying.",
+    "alongHeading": "Along your flight ({count})",
+    "alongIntroDated": "NOTAMs within ~10 km of your planned line, active on {date}. Select the ones to carry into your briefing.",
+    "alongIntroUndated": "NOTAMs within ~10 km of your planned line, active on your flight date. Select the ones to carry into your briefing.",
+    "beyondHorizon": "Your flight date is more than 7 days out. Most NOTAMs are only published closer to the day. Re-check this step nearer your flight.",
+    "loading": "Loading NOTAMs…",
+    "loadFailed": "NOTAMs could not be loaded. Try again in a moment.",
+    "none": "No active NOTAM along your flight for that date: a clean sky. Click the map to probe a specific spot.",
+    "selectedCount": "{count, plural, one {# NOTAM} other {# NOTAMs}} selected for the briefing.",
+    "probeHeading": "At {lat}, {lng}",
+    "clearProbeAria": "Clear probed point",
+    "probeNone": "No active NOTAM over this point for the selected filters.",
+    "filters": "Filters",
+    "lowerLimit": "Lower limit",
+    "lowerLimitHint": "Hides NOTAMs whose airspace starts above this altitude.",
+    "altitudeBelow": "Below {value}",
+    "altitudeBelowFl": "Below {value} (≈ FL115)",
+    "altitudeAny": "Any altitude",
+    "restrictions": "Restrictions",
+    "warnings": "Warnings",
+    "keepLayer": "Keep layer in other steps",
+    "dataNote": "Data: your autorouter account (Eurocontrol EAD, the authoritative source for European NOTAMs), fetched live for your flight corridor. Some NOTAMs, notably ones without parseable geometry, may not appear on the map.",
+    "row": {
+      "selected": "Selected",
+      "select": "Select"
+    }
+  },
+  "notamList": {
+    "title": "NOTAMs here",
+    "description": "{count, plural, one {# NOTAM} other {# NOTAMs}} at this point, restrictions first. Select one to highlight it on the map.",
+    "outline": "outline"
+  },
+  "notamPopup": {
+    "outlineFromOpenAip": "Outline from openAIP (matched to the named area).",
+    "disclaimer": "Advisory only: this is NOT an official briefing. Always check the official pre-flight information sources (AIS/NOTAM briefing) before flying."
+  },
+  "notamValidity": {
+    "range": "{from} → {to}",
+    "rangeEstimated": "{from} → {to} (est.)",
+    "permanent": "{from} → permanent"
+  },
+  "classLabels": {
+    "restricted": "Restricted",
+    "danger": "Danger",
+    "prohibited": "Prohibited",
+    "icaoClass": "Class {value}"
+  }
+}

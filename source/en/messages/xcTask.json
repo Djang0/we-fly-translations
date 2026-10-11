@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "roles": {
+      "essLong": "End of speed (ESS)",
+      "sssShort": "SSS"
+    },
+    "formats": {
+      "clockStart": "Clock start"
+    },
+    "directions": {
+      "fixed": "Fixed",
+      "symmetric": "Symmetric",
+      "next": "Next",
+      "previous": "Previous",
+      "start": "Start"
+    },
+    "setup": {
+      "title": "Task setup",
+      "ruleset": "Ruleset",
+      "format": "Format",
+      "fit": "Fit",
+      "clear": "Clear",
+      "newTask": "New task",
+      "newTaskTitle": "Start a fresh task",
+      "empty": "No turnpoints yet. Click the map to drop the start.",
+      "help": "Click the map to add turnpoints, drag markers to move, use the + handles to insert. Reorder by dragging the grip, and the optimal route follows."
+    },
+    "turnpoint": {
+      "dragAria": "Drag to reorder turnpoint {number}",
+      "duplicate": "Duplicate turnpoint (same centre)",
+      "remove": "Remove turnpoint",
+      "roleAria": "Turnpoint {number} role",
+      "radiusAria": "Turnpoint {number} radius (metres)",
+      "halfLine": "Half the line length",
+      "bearingAria": "Turnpoint {number} zone bearing (degrees)"
+    },
+    "goal": {
+      "title": "Start & goal",
+      "startDirection": "Start direction",
+      "enter": "Enter",
+      "exit": "Exit",
+      "firstGate": "First gate",
+      "startGate": "Start gate",
+      "timeNote": "Times are shown in the flight's local time and stored in UTC, so they read back correctly in your logbook.",
+      "timeNoteWithZone": "Times are shown in the flight's local time ({zone}) and stored in UTC, so they read back correctly in your logbook.",
+      "interval": "Interval (min)",
+      "gates": "Gates",
+      "goalZone": "Goal zone",
+      "deadline": "Deadline",
+      "arrivalHeight": "Arrival height",
+      "arrivalPlaceholder": "ground",
+      "arrivalAria": "Goal arrival height (metres AGL)",
+      "arrivalUnit": "m AGL",
+      "help": "The goal zone follows the last turnpoint's observation zone: set it (cylinder, line or FAI sector) in the turnpoint list above. Set an <strong>arrival height</strong> for an elevated goal (taken in the air): the minimum height above the goal terrain to be in goal. Leave it empty for a ground goal."
+    },
+    "save": {
+      "title": "Save & share",
+      "savedCount": "{count} saved",
+      "taskName": "Task name",
+      "publicTask": "Public task",
+      "update": "Update",
+      "save": "Save",
+      "share": "Share",
+      "signInHint": "Sign in to save tasks. You can still design, import, download and export QR codes without an account.",
+      "myTasks": "My tasks",
+      "loading": "Loading…",
+      "empty": "No saved tasks yet.",
+      "deleteAria": "Delete task",
+      "listMeta": "{distance} · {ruleset}",
+      "listMetaPublic": "{distance} · {ruleset} · public",
+      "toasts": {
+        "signIn": "Sign in to save tasks to your account.",
+        "needTask": "Add at least a start and a goal first.",
+        "saveFailed": "Failed to save task.",
+        "updated": "Task updated.",
+        "saved": "Task saved.",
+        "deleteFailed": "Failed to delete task.",
+        "deleted": "Task deleted.",
+        "visibilityFailed": "Failed to update visibility.",
+        "needPublic": "Save the task and make it public to share a link.",
+        "linkCopied": "Share link copied to clipboard.",
+        "linkCopyFailed": "Could not copy the link."
+      }
+    },
+    "more": {
+      "title": "More tools",
+      "meta": "Discover · import · QR"
+    },
+    "checks": {
+      "pass": "{ruleset} checks pass. Task looks good.",
+      "start": "Start drawing your task: click the map to drop the start."
+    }
+  },
+  "moreTools": {
+    "discover": "Discover",
+    "publicInArea": "Public tasks in this area",
+    "filterPlaceholder": "Filter by name…",
+    "searching": "Searching…",
+    "noPublic": "No public tasks in view. Pan or zoom out.",
+    "listMeta": "{distance} · {ruleset}",
+    "listMetaOwner": "{distance} · {ruleset} · {owner}",
+    "importExport": "Import & export",
+    "importFile": "Import .xctsk / .tsk / .cup / .fsdb",
+    "pastePlaceholder": "…or paste an XCTSK: task code",
+    "load": "Load",
+    "codeFormat": "Code / QR format",
+    "v2Aria": "Version 2 (compact)",
+    "v1Aria": "Version 1 (verbose)",
+    "v2Hint": "v2: compact code, smallest QR. Elevated goals ride as “fa”.",
+    "v1Hint": "v1: verbose file body, larger QR but widest tool support. Elevated goals ride as “finishAltitude”.",
+    "downloadXctsk": ".xctsk",
+    "copyVersion": "Copy v{version}",
+    "showQr": "Show QR code",
+    "hideQr": "Hide QR code",
+    "qrCaption": "Scan into XCTrack or SeeYou Navigator · v{version}",
+    "cloud": "XContest cloud",
+    "cloudIntro": "Load a task another pilot shared by its XContest code, or publish yours to get a code XCTrack loads straight from the cloud.",
+    "cloudPlaceholder": "Paste an XContest task code",
+    "cloudAria": "XContest task code to import",
+    "cloudImport": "Import",
+    "toasts": {
+      "importedFirst": "Imported the first of {count} tasks.",
+      "imported": "Task imported.",
+      "cloudImported": "Imported cloud task {code}.",
+      "cloudImportedNoCode": "Cloud task imported.",
+      "designFirst": "Design a task first.",
+      "codeCopied": "Task code copied (v{version}).",
+      "codeCopyFailed": "Could not copy the code."
+    }
+  },
+  "cloudCode": {
+    "publish": "Publish to XContest cloud",
+    "requestNew": "Request a new code",
+    "republish": "{kind, select, route {Republish (route edited)} other {Republish (task edited)}}",
+    "refresh": "Refresh code",
+    "copyAria": "Copy cloud code",
+    "expired": "Expired on {date}. XCTrack can no longer load this code. Request a new one below.",
+    "stale": "{kind, select, route {Route} other {Task}} edited since publishing, so this code still loads the older version. Republish to update the cloud copy.",
+    "validUntil": "Valid until {date}",
+    "validUntilDays": "Valid until {date} · {days, plural, one {# day} other {# days}} left",
+    "inXctrack": "In XCTrack: <strong>Task → Edit → Load from XContest</strong>, then enter this code. Permanent id <id>{hash}</id>.",
+    "signInRoute": "Sign in to publish a cloud code. You can still download the route file and show its QR without an account.",
+    "signInTask": "Sign in to publish a cloud code. You can still import one, download the .xctsk, and export a QR without an account.",
+    "routeNote": "Route codes are not saved with the route: note it down or copy it before leaving the planner.",
+    "taskNote": "Save the task to keep this code with it, otherwise it lives only in this session.",
+    "toasts": {
+      "signIn": "{kind, select, route {Sign in to publish a route to the XContest cloud.} other {Sign in to publish a task to the XContest cloud.}}",
+      "needWaypoints": "Add at least two waypoints before publishing.",
+      "needTask": "Finish the task (start + goal, no errors) before publishing.",
+      "ready": "Cloud code {code} is ready.",
+      "copied": "Cloud code copied.",
+      "copyFailed": "Could not copy the code."
+    }
+  },
+  "qr": {
+    "save": "Save QR PNG"
+  },
+  "layer": {
+    "duplicate": "Duplicate turnpoint here",
+    "remove": "Remove turnpoint",
+    "roleRadius": "{role} · {radius}",
+    "publicTooltip": "{name} · {distance}",
+    "publicTooltipOwner": "{name} · {distance} · {owner}"
+  },
+  "rulesets": {
+    "FAI": {
+      "blurb": "FAI/CIVL Sporting Code Section 7A geometry."
+    },
+    "PWCA": {
+      "blurb": "Paragliding World Cup rules: goal line, 1 km ESS."
+    }
+  },
+  "validation": {
+    "needStartAndGoal": "A task needs at least a start and a goal.",
+    "firstTurnpoint": "The first turnpoint is usually the take-off or the start (SSS).",
+    "noSss": "No start of speed section (SSS) is set.",
+    "noGoal": "No goal turnpoint is set.",
+    "goalNotLast": "The goal should be the last turnpoint.",
+    "noTimeGate": "The start has no time gate yet. Set one before flying.",
+    "gatesNotSorted": "Start gates are not in chronological order.",
+    "essBeforeGoalPwca": "PWCA tasks usually set an ESS ~1 km before goal so pilots finish safely.",
+    "essBeforeGoalFai": "Section 7A recommends setting the ESS before goal to avoid racing low.",
+    "elevatedGoalNeedsEss": "An elevated goal usually needs an ESS before goal so pilots are timed before the climb to the gate.",
+    "goalHeightHigh": "Goal arrival height is {height} AGL, which is unusually high (it is height above the goal terrain, not AMSL).",
+    "pwcaGoalLine": "PWCA tasks default to a goal line, not a cylinder.",
+    "pwcaGoalLineShort": "Goal line is under the PWCA {min} minimum."
+  },
+  "roleUnavailable": {
+    "unknownTurnpoint": "Unknown turnpoint.",
+    "needSecondTurnpoint": "Add a second turnpoint first: a task needs a start and a goal.",
+    "lastIsGoal": "The last turnpoint is always the goal. Drag another point to the end to move the goal.",
+    "goalMustBeLast": "The goal must be the last turnpoint. Drag this point to the end of the list.",
+    "startNeedsSuccessor": "Add a turnpoint after this one first, otherwise the start (SSS) would have nowhere to go.",
+    "takeoffBeforeStart": "The take-off has to come before the start (SSS).",
+    "setStartFirst": "Set a start (SSS) first.",
+    "essAfterStart": "The ESS has to come after the start (SSS)."
+  }
+}

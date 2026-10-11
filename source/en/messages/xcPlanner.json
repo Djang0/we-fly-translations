@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "XC Planner: route & competition task designer",
+    "description": "Plan paragliding cross-country routes or design FAI/PWCA competition tasks on an interactive map with thermal skyways and airspace overlays. Free.",
+    "ogTitle": "XC Planner: route & competition task designer | We-Fly",
+    "ogDescription": "Plan cross-country routes or design FAI/PWCA competition tasks with thermal skyways and airspace overlays."
+  },
+  "share": {
+    "title": "{name}: {kind, select, route {XC route} other {competition task}} by {author}",
+    "anonymousAuthor": "a We-Fly pilot",
+    "summary": "{distance} · {detail}.",
+    "openInPlanner": "Open it in the We-Fly XC planner.",
+    "points": "{points, plural, one {# pt} other {# pts}}",
+    "turnpoints": "{count, plural, one {# turnpoint} other {# turnpoints}}",
+    "rulesetTask": "{ruleset} task"
+  },
+  "page": {
+    "loadingPlanner": "Loading planner…"
+  },
+  "shell": {
+    "loadingMap": "Loading map…",
+    "flightFallbackName": "Flight",
+    "linkedTaskFailed": "The flight's linked task could not be loaded.",
+    "flightLoadFailed": "Could not load the flight. You must be signed in as its owner.",
+    "controlsTitle": "XC planner controls",
+    "clickToAddWaypoints": "Click the map to add waypoints."
+  },
+  "topbar": {
+    "documentation": "Documentation",
+    "goToLogbook": "Go to logbook",
+    "startLogging": "Start logging"
+  },
+  "stepper": {
+    "ariaLabel": "Planning steps",
+    "locked": "Design your flight and pick a date first"
+  },
+  "steps": {
+    "1": {
+      "label": "Design",
+      "title": "Design your flight and pick a date"
+    },
+    "2": {
+      "label": "Airspaces",
+      "title": "Pick the airspaces along your flight"
+    },
+    "3": {
+      "label": "NOTAMs",
+      "title": "Pick the NOTAMs along your flight"
+    },
+    "4": {
+      "label": "Briefing",
+      "title": "Downloads, QR code and weather"
+    }
+  },
+  "stepNav": {
+    "toAirspaces": "Continue to airspaces",
+    "toNotams": "Continue to NOTAMs",
+    "toBriefing": "Continue to briefing",
+    "openPanel": "Open planner panel",
+    "controls": "Controls",
+    "backAria": "Back to the previous step",
+    "back": "Back",
+    "notReady": "Add at least two points and pick a flight date first"
+  },
+  "stepPanel": {
+    "route": "Route",
+    "task": "Task",
+    "waypoints": "Waypoints",
+    "designTool": "Design tool",
+    "pickDate": "Pick your flight date",
+    "startTime": "Planned start time",
+    "unlockNeedsPoints": "Add at least two points and pick a date to unlock airspaces, NOTAMs and the briefing.",
+    "unlockNeedsDate": "Pick a date to unlock airspaces, NOTAMs and the briefing.",
+    "noDate": "No date",
+    "kmPlanned": "{distance} planned",
+    "noPath": "no path"
+  },
+  "sections": {
+    "overlays": "Overlays",
+    "task": "Task",
+    "route": "Route",
+    "durationHm": "{hours} h {minutes} min",
+    "durationM": "{minutes} min",
+    "flight": "Flight",
+    "flownTrack": "{duration} · flown track",
+    "removeFlightTrace": "Remove flight trace",
+    "verticalCut": "Vertical cut",
+    "airspaceCrossSection": "Airspace cross-section",
+    "verticalCutHint": "Controlled and restricted airspace along {path, select, flown {the flown track} task {the task's optimal route} other {the planned route}}, by distance and altitude.",
+    "verticalCutEmpty": "Add at least two points (or open a flight) to cut the airspace along a path.",
+    "collectionLoadFailed": "Could not load this collection.",
+    "waypointCount": "{count, plural, one {# waypoint} other {# waypoints}}",
+    "on": "On",
+    "show": "Show",
+    "collections": "Collections",
+    "collectionsIntro": "Show your waypoint collections, then click a waypoint on the map to add it as a {mode, select, task {turnpoint} other {route waypoint}}.",
+    "loading": "Loading…",
+    "myCollections": "My collections",
+    "noCollections": "No collections yet. Build one in Collection mode.",
+    "signInForCollections": "Sign in to use your own collections.",
+    "publicInArea": "Public collections in this area",
+    "searching": "Searching…",
+    "publicCollections": "Public collections",
+    "noPublicInView": "No public collections in view. Pan or zoom out.",
+    "showingCollections": "{count, plural, one {Showing # collection on the map.} other {Showing # collections on the map.}}",
+    "activeCount": "{count} on"
+  },
+  "sidebar": {
+    "signInToSave": "Sign in to save routes to your account.",
+    "drawRouteFirst": "Draw a route with at least two waypoints first.",
+    "saveFailed": "Failed to save route.",
+    "routeUpdated": "Route updated.",
+    "routeSaved": "Route saved.",
+    "deleteFailed": "Failed to delete route.",
+    "routeDeleted": "Route deleted.",
+    "visibilityFailed": "Failed to update visibility.",
+    "noUsableRoute": "That file does not contain a usable route.",
+    "imported": "{count, plural, one {Imported # waypoint.} other {Imported # waypoints.}}",
+    "readFailed": "Could not read that file. Use .wpt, .gpx or .geojson.",
+    "drawRouteShort": "Draw a route first.",
+    "copyFailed": "Could not copy the link.",
+    "linkCopiedToast": "Share link copied to clipboard.",
+    "linkCopied": "Link copied",
+    "copyShareLinkFor": "Copy share link for {name}",
+    "copyShareLink": "Copy share link",
+    "route": "Route",
+    "league": "League",
+    "leagueDistance": "Distance",
+    "speed": "Speed · {speed}",
+    "closeCircuit": "Close circuit",
+    "fit": "Fit",
+    "clear": "Clear",
+    "new": "New",
+    "faiSectors": "FAI sectors",
+    "routeHelp": "Click the map to add waypoints, drag to move, use the + handles to insert. FAI sectors shade where a turnpoint keeps every triangle leg at ≥ 28% of the perimeter.",
+    "saveAndShare": "Save & share",
+    "routeName": "Route name",
+    "publicRoute": "Public route",
+    "update": "Update",
+    "save": "Save",
+    "copied": "Copied",
+    "share": "Share",
+    "signInHint": "Sign in to save routes. You can still plan, import and download without an account.",
+    "privateHintSaved": "This route is private. Turn on Public route to share it.",
+    "privateHintUnsaved": "Turn on Public route and save to get a share link.",
+    "shareDirtyHint": "The share link opens the last saved version. Update to share your changes.",
+    "myRoutes": "My routes",
+    "loading": "Loading…",
+    "publicBadge": "public",
+    "deleteRoute": "Delete route",
+    "noSavedRoutes": "No saved routes yet.",
+    "moreTools": "More tools",
+    "moreToolsMeta": "Discover · import · export",
+    "discover": "Discover",
+    "publicRoutesInArea": "Public routes in this area",
+    "filterByName": "Filter by name…",
+    "searching": "Searching…",
+    "noPublicRoutes": "No public routes in view. Pan or zoom out.",
+    "importExport": "Import & export",
+    "importFile": "Import .wpt / .gpx / .geojson"
+  },
+  "dynamicOpen": {
+    "badge": "Dynamic open area · {cls} · {type}",
+    "editFor": "Edit dynamic open area for {name}",
+    "setFor": "Set {name} as dynamic open area",
+    "edit": "Edit dynamic open area",
+    "set": "Set as dynamic open area"
+  },
+  "fadeScroll": {
+    "scrollUp": "Scroll up",
+    "scrollDown": "Scroll down"
+  },
+  "siteOverlay": {
+    "title": "{kind, select, landing {Landing} other {Takeoff}} · {name}",
+    "unnamed": "Unnamed",
+    "facing": "facing {bearing}"
+  },
+  "waypointSearch": {
+    "placeholder": "Add by waypoint name or code…",
+    "ariaLabel": "Search waypoints to add as turnpoints",
+    "searching": "Searching…",
+    "noMatch": "No waypoint matches “{query}”.",
+    "noCollections": "No collections to search. Import or build one in Collection mode.",
+    "signIn": "Sign in or show a collection on the map to search its waypoints."
+  },
+  "mapOverlay": {
+    "layers": "Layers",
+    "overlaysActive": "Overlays active",
+    "mapLayers": "Map layers",
+    "collapse": "Collapse layers panel"
+  },
+  "contextMenu": {
+    "centerHere": "Center map here",
+    "copyCoords": "Copy coordinates",
+    "measure": "Measure distance from here",
+    "addTurnpoint": "Add turnpoint here",
+    "fitTask": "Fit task",
+    "clearTask": "Clear task",
+    "finishPolygon": "Finish polygon",
+    "cancelDrawing": "Cancel drawing",
+    "fitAirspaces": "Fit airspaces",
+    "clearAirspaces": "Clear all airspaces",
+    "fitCollection": "Fit collection",
+    "clearCollection": "Clear collection",
+    "fitRoute": "Fit route",
+    "clearRoute": "Clear route",
+    "closeCircuit": "Close circuit",
+    "addWaypoint": "Add waypoint here",
+    "insertAsStart": "Insert as start",
+    "coordinatesCopied": "Coordinates copied.",
+    "coordinatesCopyFailed": "Could not copy the coordinates.",
+    "seeAirspaces": "See airspaces ({count})",
+    "seeNotams": "See NOTAMs ({count})",
+    "remove": "Remove {name}",
+    "waypointN": "waypoint {n}"
+  },
+  "map": {
+    "waypointN": "Waypoint {n}",
+    "removeWaypoint": "Remove waypoint",
+    "airspaceNotAlongFlight": "This airspace is not along your flight. Only airspaces near your planned line can be selected."
+  },
+  "scoreKinds": {
+    "free": "Free distance",
+    "outAndReturn": "Out & return",
+    "flatTriangle": "Flat triangle",
+    "faiTriangle": "FAI triangle"
+  }
+}
