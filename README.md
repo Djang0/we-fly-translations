@@ -29,3 +29,11 @@ We want the app to sound like a pilot talking to a pilot, not like a manual.
 
 The app pins a commit of this repository at every release. Your change goes live with the
 next We-Fly release after it is merged. Strings first drafted by AI are reviewed here by pilots.
+
+## Licence
+
+The translations, glossary and style guides are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/):
+you may reuse and adapt them, including commercially, as long as you credit
+"We-Fly translators" and link to this repository. See [LICENSE](LICENSE).
+By contributing, you agree that your contribution is published under the same licence.

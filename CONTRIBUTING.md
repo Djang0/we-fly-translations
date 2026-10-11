@@ -15,3 +15,5 @@
    the app localises them.
 
 A CI check validates JSON syntax, placeholder parity and ICU syntax on every pull request.
+
+Contributions are published under [CC BY 4.0](LICENSE).
