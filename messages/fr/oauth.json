@@ -1,0 +1,36 @@
+{
+  "authorize": {
+    "invalidTitle": "Demande d’autorisation invalide",
+    "invalidDescription": "On ne peut pas te renvoyer en toute sécurité vers l’application qui fait la demande, alors l’erreur s’affiche ici.",
+    "invalidReport": "Si tu es arrivé ici depuis une appli tierce, signale cette erreur à son développeur.",
+    "backToFlights": "Retour à tes vols",
+    "kicker": "Autoriser l’application",
+    "wantsAccess": "<app>{name}</app> <muted>veut accéder à ton compte</muted>",
+    "scopesHeading": "Cette appli pourra :",
+    "homepage": "Site de l’appli : <link>{url}</link>",
+    "revokeHint": "Tu peux retirer cet accès à tout moment depuis <link>ton tableau de bord développeur</link>."
+  },
+  "device": {
+    "kicker": "Autorisation d’appareil",
+    "title": "Connecter un appareil",
+    "description": "Saisis le code affiché sur ton appareil. Il ressemble à <code>{example}</code>.",
+    "invalidTitle": "Ce code n’a pas marché"
+  },
+  "consent": {
+    "pendingReview": "Cette application est encore en attente de validation. Tu peux l’autoriser parce que tu en es le propriétaire, mais les autres pilotes ne pourront pas donner leur accord tant qu’un admin ne l’aura pas validée.",
+    "signedInAs": "Connecté en tant que <b>{email}</b>.",
+    "connectedTitle": "C’est connecté",
+    "connectedDescription": "Retourne sur ton appareil : il devrait récupérer le nouveau jeton d’ici quelques secondes. Tu peux fermer cet onglet.",
+    "cancelledTitle": "Autorisation annulée",
+    "cancelledDescription": "Ton appareil verra l’annulation et arrêtera d’attendre. Tu peux fermer cet onglet.",
+    "deviceKicker": "Connecter un appareil",
+    "code": "Code <mono>{code}</mono>",
+    "deviceScopesHeading": "Cet appareil pourra :"
+  },
+  "form": {
+    "authorize": "Autoriser",
+    "working": "En cours…",
+    "cancel": "Annuler",
+    "continue": "Continuer"
+  }
+}

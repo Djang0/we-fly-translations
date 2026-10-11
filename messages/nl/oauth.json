@@ -1,0 +1,36 @@
+{
+  "authorize": {
+    "invalidTitle": "Autorisatieverzoek ongeldig",
+    "invalidDescription": "We kunnen je niet veilig terugsturen naar de app die het verzoek deed, dus tonen we de fout hier.",
+    "invalidReport": "Kwam je hier via een app van derden? Meld deze fout dan aan de ontwikkelaar ervan.",
+    "backToFlights": "Terug naar je vluchten",
+    "kicker": "App autoriseren",
+    "wantsAccess": "<app>{name}</app> <muted>wil toegang tot je account</muted>",
+    "scopesHeading": "Deze app kan:",
+    "homepage": "Website van de app: <link>{url}</link>",
+    "revokeHint": "Je kunt deze toegang op elk moment intrekken in <link>je ontwikkelaarsdashboard</link>."
+  },
+  "device": {
+    "kicker": "Apparaat autoriseren",
+    "title": "Een apparaat koppelen",
+    "description": "Typ de code die je apparaat toont. Die ziet eruit als <code>{example}</code>.",
+    "invalidTitle": "Die code werkte niet"
+  },
+  "consent": {
+    "pendingReview": "Deze app wacht nog op beoordeling. Je autoriseert hem omdat jij de eigenaar bent; andere gebruikers kunnen pas toestemming geven als een beheerder hem goedkeurt.",
+    "signedInAs": "Aangemeld als <b>{email}</b>.",
+    "connectedTitle": "Je bent verbonden",
+    "connectedDescription": "Ga terug naar je apparaat: dat pikt het nieuwe token binnen enkele seconden op. Je kunt dit tabblad sluiten.",
+    "cancelledTitle": "Autorisatie geannuleerd",
+    "cancelledDescription": "Je apparaat ziet de annulering en stopt met wachten. Je kunt dit tabblad sluiten.",
+    "deviceKicker": "Een apparaat koppelen",
+    "code": "Code <mono>{code}</mono>",
+    "deviceScopesHeading": "Dit apparaat kan:"
+  },
+  "form": {
+    "authorize": "Autoriseren",
+    "working": "Bezig…",
+    "cancel": "Annuleren",
+    "continue": "Doorgaan"
+  }
+}

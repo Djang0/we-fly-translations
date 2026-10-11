@@ -317,5 +317,67 @@
     "facing": "orientado al {bearing}",
     "callToAction": "Consulta las condiciones, las estadísticas y el historial de vuelos en We-Fly",
     "fallbackSchemaName": "Despegue de parapente"
+  },
+  "actions": {
+    "tooltip": "Acciones",
+    "edit": "Editar",
+    "getElevation": "Obtener altitud",
+    "geocode": "Geocodificar",
+    "loading": "Cargando...",
+    "delete": "Eliminar"
+  },
+  "siteForm": {
+    "charCount": "{count}/{max} caracteres",
+    "country": "País",
+    "countryPlaceholder": "Escribe el nombre del país",
+    "cancel": "Cancelar",
+    "unexpectedError": "Se ha producido un error inesperado"
+  },
+  "editSite": {
+    "title": "Editar la información del despegue",
+    "description": "Actualiza los metadatos del despegue para mejorar la calidad de los datos",
+    "name": "Nombre del despegue",
+    "namePlaceholder": "Escribe el nombre del despegue",
+    "bearing": "Orientación",
+    "bearingPlaceholder": "p. ej.: N, NW, SE, S-SW",
+    "displayName": "Nombre completo",
+    "displayNamePlaceholder": "Descripción completa de la ubicación",
+    "countryCode": "Código de país",
+    "countryCodePlaceholder": "p. ej.: FR, CH, AT",
+    "invalid": "Comprueba que todos los campos cumplen los requisitos",
+    "updated": "Información del despegue actualizada",
+    "updateFailed": "No se ha podido actualizar el despegue",
+    "updateFailedRetry": "No se ha podido actualizar el despegue. Inténtalo de nuevo.",
+    "saving": "Guardando...",
+    "save": "Guardar cambios"
+  },
+  "deleteSite": {
+    "title": "Eliminar el despegue",
+    "description": "¿Seguro que quieres eliminar {name}? Esta acción no se puede deshacer.",
+    "confirm": "¿Seguro que quieres eliminar <strong>{name}</strong>?",
+    "permanent": "Esta acción no se puede deshacer. El despegue se eliminará de forma permanente de la base de datos.",
+    "flightsNote": "Nota: no se pueden eliminar los despegues que tienen vuelos asociados. Primero tienes que reasignar o eliminar esos vuelos.",
+    "deleted": "Despegue eliminado",
+    "deleteFailed": "No se ha podido eliminar el despegue",
+    "deleteFailedRetry": "No se ha podido eliminar el despegue. Inténtalo de nuevo.",
+    "deleting": "Eliminando...",
+    "submit": "Eliminar despegue"
+  },
+  "renameSavage": {
+    "title": "Renombrar el despegue «Savage takeoff»",
+    "description": "Renombra este despegue provisional y agrupa los duplicados cercanos en un radio de 100 m",
+    "currentName": "Nombre actual",
+    "newName": "Nuevo nombre del despegue",
+    "newNamePlaceholder": "Escribe el nombre real del despegue",
+    "missingFields": "Rellena todos los campos obligatorios",
+    "renamed": "Despegue renombrado. Se han actualizado {flights, plural, one {# vuelo} other {# vuelos}} y {sites, plural, one {# despegue duplicado} other {# despegues duplicados}}.",
+    "renameFailed": "No se ha podido renombrar el despegue",
+    "renameFailedRetry": "No se ha podido renombrar el despegue. Inténtalo de nuevo.",
+    "willTitle": "Esta operación va a:",
+    "willRename": "Cambiar el nombre de este despegue por el nuevo",
+    "willUpdateFlights": "Actualizar todos los vuelos con este despegue en un radio de 100 m",
+    "willDeleteDuplicates": "Eliminar los demás despegues «Savage takeoff» en un radio de 100 m",
+    "renaming": "Renombrando...",
+    "submit": "Renombrar despegue"
   }
 }

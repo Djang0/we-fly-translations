@@ -37,5 +37,44 @@
     "faiTriangle": "FAI-driehoek",
     "closedFreeTriangle": "Gesloten platte driehoek",
     "closedFaiTriangle": "Gesloten FAI-driehoek"
+  },
+  "error": {
+    "status": "Status · turbulentie gedetecteerd",
+    "title": "Er ging iets scheef.",
+    "body": "De pagina kwam onderweg in onverwachte lucht terecht. De crash is geregistreerd. Probeer het opnieuw, of ga terug naar de startpagina.",
+    "retry": "Opnieuw proberen",
+    "home": "Terug naar de startpagina",
+    "ref": "ref · {digest}"
+  },
+  "moreCount": "+{count} meer",
+  "pioneer": {
+    "name": "Pionier",
+    "hint": "Een van de eerste 200 piloten op We-Fly",
+    "notEarned": "Nog niet behaald"
+  },
+  "back": "Terug",
+  "subtitleFromSite": "{subtitle} vanaf <link>{site}</link>",
+  "close": "Sluiten",
+  "loadingData": "Gegevens laden, even geduld...",
+  "pickDate": "Kies een datum",
+  "pickDateRange": "Kies een periode",
+  "scrollToTop": "Naar boven scrollen",
+  "rateLimit": {
+    "defaultMessage": "Limiet bereikt. Wacht even voor je nieuwe verzoeken doet.",
+    "title": "Limiet bereikt",
+    "retryIn": "Opnieuw over {time}",
+    "retryNow": "Nu opnieuw proberen",
+    "pleaseWait": "Wacht {time}",
+    "retryAfterTimer": "Je kunt het opnieuw proberen zodra de timer afloopt",
+    "ready": "Klaar om verder te gaan",
+    "canRequestAgain": "Je kunt weer verzoeken doen",
+    "seconds": "{seconds}s",
+    "minutesSeconds": "{minutes}m {seconds}s"
+  },
+  "share": {
+    "label": "Delen",
+    "copied": "Gekopieerd!",
+    "copyLink": "Link kopiëren",
+    "email": "E-mail"
   }
 }

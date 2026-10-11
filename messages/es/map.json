@@ -1,10 +1,20 @@
 {
   "baseLayers": {
-    "wefly": { "name": "Tema We-Fly" },
-    "opentopomap": { "name": "OpenTopoMap" },
-    "terrain": { "name": "Relieve (OpenFreeMap)" },
-    "satellite": { "name": "Satélite" },
-    "geoportail": { "name": "Geoportail.fr (lento)" }
+    "wefly": {
+      "name": "Tema We-Fly"
+    },
+    "opentopomap": {
+      "name": "OpenTopoMap"
+    },
+    "terrain": {
+      "name": "Relieve (OpenFreeMap)"
+    },
+    "satellite": {
+      "name": "Satélite"
+    },
+    "geoportail": {
+      "name": "Geoportail.fr (lento)"
+    }
   },
   "measure": {
     "toggle": "Medir distancia",
@@ -16,7 +26,8 @@
   "flight": {
     "takeoff": "Despegue",
     "landing": "Aterrizaje",
-    "legPopup": "{name}: {distance}"
+    "legPopup": "{name}: {distance}",
+    "noTrack": "No hay datos de track disponibles"
   },
   "siteType": {
     "takeoff": "Despegue",

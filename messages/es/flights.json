@@ -380,7 +380,9 @@
     "showNearby": "Ver despegues cercanos",
     "cancel": "Cancelar",
     "updating": "Actualizando...",
-    "submit": "Actualizar despegue"
+    "submit": "Actualizar despegue",
+    "adminTools": "Herramientas de administrador",
+    "renameSavage": "Renombrar este despegue «Savage takeoff»"
   },
   "leagues": {
     "title": "Enviar a una liga",

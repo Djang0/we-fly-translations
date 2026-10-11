@@ -37,5 +37,44 @@
     "faiTriangle": "Triangle FAI",
     "closedFreeTriangle": "Triangle plat fermé",
     "closedFaiTriangle": "Triangle FAI fermé"
+  },
+  "error": {
+    "status": "Statut · turbulences détectées",
+    "title": "Quelque chose est parti de travers.",
+    "body": "La page a pris une rafale inattendue en chemin. Le crash a été enregistré. Réessaie, ou reviens à l’accueil.",
+    "retry": "Réessayer",
+    "home": "Retour à l’accueil",
+    "ref": "réf · {digest}"
+  },
+  "moreCount": "+{count} de plus",
+  "pioneer": {
+    "name": "Pionnier",
+    "hint": "Parmi les 200 premiers pilotes de We-Fly",
+    "notEarned": "Pas encore obtenu"
+  },
+  "back": "Retour",
+  "subtitleFromSite": "{subtitle} depuis <link>{site}</link>",
+  "close": "Fermer",
+  "loadingData": "Chargement des données, patiente un instant…",
+  "pickDate": "Choisis une date",
+  "pickDateRange": "Choisis une période",
+  "scrollToTop": "Remonter en haut",
+  "rateLimit": {
+    "defaultMessage": "Limite de requêtes atteinte. Attends un peu avant d’en refaire.",
+    "title": "Limite de requêtes atteinte",
+    "retryIn": "Nouvel essai dans {time}",
+    "retryNow": "Réessayer maintenant",
+    "pleaseWait": "Patiente {time}",
+    "retryAfterTimer": "Tu pourras réessayer à la fin du compte à rebours",
+    "ready": "Prêt à repartir",
+    "canRequestAgain": "Tu peux de nouveau faire des requêtes",
+    "seconds": "{seconds} s",
+    "minutesSeconds": "{minutes} min {seconds} s"
+  },
+  "share": {
+    "label": "Partager",
+    "copied": "Copié !",
+    "copyLink": "Copier le lien",
+    "email": "E-mail"
   }
 }

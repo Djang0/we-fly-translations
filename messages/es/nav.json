@@ -7,8 +7,17 @@
     "acct": "Cuenta"
   },
   "section": {
-    "fly": { "logbook": "Libro de vuelo", "cockpit": "Cockpit", "success": "Logros" },
-    "com": { "overview": "Resumen", "feed": "Actividad", "people": "Pilotos", "stats": "Estadísticas" },
+    "fly": {
+      "logbook": "Libro de vuelo",
+      "cockpit": "Cockpit",
+      "success": "Logros"
+    },
+    "com": {
+      "overview": "Resumen",
+      "feed": "Actividad",
+      "people": "Pilotos",
+      "stats": "Estadísticas"
+    },
     "acct": {
       "profile": "Perfil",
       "anomalies": "Anomalías",
@@ -50,7 +59,10 @@
     "privacyPolicy": "Política de privacidad",
     "about": "Acerca de"
   },
-  "session": { "logOut": "Cerrar sesión", "accountMenu": "Menú de la cuenta" },
+  "session": {
+    "logOut": "Cerrar sesión",
+    "accountMenu": "Menú de la cuenta"
+  },
   "topBar": {
     "home": "Inicio de We-Fly",
     "main": "Principal",
@@ -96,12 +108,30 @@
       "help": "Ayuda"
     },
     "jump": {
-      "logbook": { "title": "Libro de vuelo", "subtitle": "Vuelos · Velas" },
-      "overview": { "title": "Cockpit · Resumen", "subtitle": "Tus estadísticas" },
-      "thermaling": { "title": "Cockpit · Térmicas", "subtitle": "Tasa de ascenso, térmicas" },
-      "takeoffStats": { "title": "Cockpit · Despegue", "subtitle": "Horas por despegue" },
-      "success": { "title": "Logros", "subtitle": "Insignias" },
-      "takeoffs": { "title": "Despegues", "subtitle": "Base de datos de despegues" }
+      "logbook": {
+        "title": "Libro de vuelo",
+        "subtitle": "Vuelos · Velas"
+      },
+      "overview": {
+        "title": "Cockpit · Resumen",
+        "subtitle": "Tus estadísticas"
+      },
+      "thermaling": {
+        "title": "Cockpit · Térmicas",
+        "subtitle": "Tasa de ascenso, térmicas"
+      },
+      "takeoffStats": {
+        "title": "Cockpit · Despegue",
+        "subtitle": "Horas por despegue"
+      },
+      "success": {
+        "title": "Logros",
+        "subtitle": "Insignias"
+      },
+      "takeoffs": {
+        "title": "Despegues",
+        "subtitle": "Base de datos de despegues"
+      }
     },
     "actions": {
       "uploadFlights": "Subir vuelos",
@@ -113,8 +143,15 @@
       "switchToDark": "Cambiar a tema oscuro",
       "about": "Acerca de We-Fly"
     },
-    "articleKind": { "docs": "Docs", "whatsNew": "Novedades" },
-    "hints": { "move": "↑↓ mover", "open": "↵ abrir", "close": "esc cerrar" }
+    "articleKind": {
+      "docs": "Docs",
+      "whatsNew": "Novedades"
+    },
+    "hints": {
+      "move": "↑↓ mover",
+      "open": "↵ abrir",
+      "close": "esc cerrar"
+    }
   },
   "tabBar": {
     "upload": "Subir",
@@ -133,5 +170,23 @@
     "signIn": "Iniciar sesión",
     "startLogging": "Empieza a registrar",
     "menu": "Menú"
+  },
+  "notifications": {
+    "bellAria": "{count, plural, =0 {No hay notificaciones nuevas} one {# notificación sin leer} other {# notificaciones sin leer}}",
+    "title": "Notificaciones",
+    "newCount": "Nuevas: {count}",
+    "empty": "No hay notificaciones",
+    "anomalies": "{count, plural, one {# anomalía de datos por revisar} other {# anomalías de datos por revisar}}",
+    "reviewRequested": "{name} ha solicitado una revisión",
+    "annotated": "{name} ha anotado tu vuelo",
+    "followed": "ha empezado a seguirte",
+    "unread": "Sin leer"
+  },
+  "themeToggle": {
+    "loading": "Cargando el selector de tema",
+    "switchToDark": "Cambiar a modo oscuro",
+    "switchToLight": "Cambiar a modo claro",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro"
   }
 }

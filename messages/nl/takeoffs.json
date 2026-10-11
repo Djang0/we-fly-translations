@@ -317,5 +317,67 @@
     "facing": "gericht naar {bearing}",
     "callToAction": "Bekijk omstandigheden, statistieken en vluchtgeschiedenis op We-Fly",
     "fallbackSchemaName": "Startplaats paragliding"
+  },
+  "actions": {
+    "tooltip": "Acties",
+    "edit": "Bewerken",
+    "getElevation": "Hoogte ophalen",
+    "geocode": "Geocoderen",
+    "loading": "Laden...",
+    "delete": "Verwijderen"
+  },
+  "siteForm": {
+    "charCount": "{count}/{max} tekens",
+    "country": "Land",
+    "countryPlaceholder": "Naam van het land",
+    "cancel": "Annuleren",
+    "unexpectedError": "Er is een onverwachte fout opgetreden"
+  },
+  "editSite": {
+    "title": "Startplaatsgegevens bewerken",
+    "description": "Werk de gegevens van de startplaats bij voor betere datakwaliteit",
+    "name": "Naam startplaats",
+    "namePlaceholder": "Naam van de startplaats",
+    "bearing": "Oriëntatie",
+    "bearingPlaceholder": "bv. N, NW, ZO, Z-ZW",
+    "displayName": "Weergavenaam",
+    "displayNamePlaceholder": "Volledige locatiebeschrijving",
+    "countryCode": "Landcode",
+    "countryCodePlaceholder": "bv. FR, CH, AT",
+    "invalid": "Controleer of alle velden aan de vereisten voldoen",
+    "updated": "Startplaatsgegevens bijgewerkt",
+    "updateFailed": "Startplaats bijwerken mislukt",
+    "updateFailedRetry": "Startplaats bijwerken mislukt. Probeer het opnieuw.",
+    "saving": "Opslaan...",
+    "save": "Wijzigingen opslaan"
+  },
+  "deleteSite": {
+    "title": "Startplaats verwijderen",
+    "description": "Weet je zeker dat je {name} wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
+    "confirm": "Weet je zeker dat je <strong>{name}</strong> wilt verwijderen?",
+    "permanent": "Dit kan niet ongedaan worden gemaakt. De startplaats wordt definitief uit de database verwijderd.",
+    "flightsNote": "Let op: startplaatsen met gekoppelde vluchten kun je niet verwijderen. Koppel of verwijder die vluchten eerst.",
+    "deleted": "Startplaats verwijderd",
+    "deleteFailed": "Startplaats verwijderen mislukt",
+    "deleteFailedRetry": "Startplaats verwijderen mislukt. Probeer het opnieuw.",
+    "deleting": "Verwijderen...",
+    "submit": "Startplaats verwijderen"
+  },
+  "renameSavage": {
+    "title": "Savage-startplaats hernoemen",
+    "description": "Geef deze tijdelijke startplaats zijn echte naam en voeg dubbele startplaatsen binnen 100 m samen",
+    "currentName": "Huidige naam",
+    "newName": "Nieuwe naam startplaats",
+    "newNamePlaceholder": "De echte naam van de startplaats",
+    "missingFields": "Vul alle verplichte velden in",
+    "renamed": "Startplaats hernoemd. {flights, plural, one {# vlucht} other {# vluchten}} en {sites, plural, one {# dubbele startplaats} other {# dubbele startplaatsen}} bijgewerkt.",
+    "renameFailed": "Startplaats hernoemen mislukt",
+    "renameFailedRetry": "Startplaats hernoemen mislukt. Probeer het opnieuw.",
+    "willTitle": "Deze bewerking zal:",
+    "willRename": "Deze startplaats de nieuwe naam geven",
+    "willUpdateFlights": "Alle vluchten met deze startplaats binnen 100 m bijwerken",
+    "willDeleteDuplicates": "Andere \"Savage takeoff\"-startplaatsen binnen 100 m verwijderen",
+    "renaming": "Hernoemen...",
+    "submit": "Startplaats hernoemen"
   }
 }

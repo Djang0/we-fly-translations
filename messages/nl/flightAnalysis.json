@@ -72,7 +72,8 @@
       "aggressive": "<strong>2,0 tot 5,0 G:</strong> stevige manoeuvres en spiralen",
       "extreme": "<strong>Meer dan 5,0 G:</strong> extreme manoeuvres (dicht bij de structurele limieten)",
       "method": "Deze analyse combineert verticale versnelling (uit hoogteveranderingen) en laterale versnelling (uit het draaien).<br></br><b>Respecteer altijd de gecertificeerde G-limieten van je scherm</b> (8G gedurende 3 seconden volgens <standard>EN 926-1</standard>)."
-    }
+    },
+    "statsHelp": "Mediaan, gemiddelde, variantie en afwijking door elkaar? <link>Lees dit even!</link>"
   },
   "quality": {
     "outstanding": "Uitzonderlijk",

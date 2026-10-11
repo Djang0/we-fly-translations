@@ -1,0 +1,36 @@
+{
+  "authorize": {
+    "invalidTitle": "Richiesta di autorizzazione non valida",
+    "invalidDescription": "Non possiamo rimandarti in sicurezza all’applicazione che ha fatto la richiesta, quindi l’errore viene mostrato qui.",
+    "invalidReport": "Se sei arrivato qui da un’app di terze parti, segnala questo errore al suo sviluppatore.",
+    "backToFlights": "Torna ai tuoi voli",
+    "kicker": "Autorizza l’applicazione",
+    "wantsAccess": "<app>{name}</app> <muted>vuole accedere al tuo account</muted>",
+    "scopesHeading": "Questa app potrà:",
+    "homepage": "Sito dell’app: <link>{url}</link>",
+    "revokeHint": "Puoi revocare questo accesso in qualsiasi momento dalla <link>tua dashboard sviluppatore</link>."
+  },
+  "device": {
+    "kicker": "Autorizzazione del dispositivo",
+    "title": "Collega un dispositivo",
+    "description": "Digita il codice che compare sul tuo dispositivo. È fatto così: <code>{example}</code>.",
+    "invalidTitle": "Quel codice non funziona"
+  },
+  "consent": {
+    "pendingReview": "Questa applicazione è ancora in attesa di revisione. La stai autorizzando perché ne sei il proprietario; gli altri utenti non potranno dare il consenso finché un amministratore non la approva.",
+    "signedInAs": "Accesso effettuato come <b>{email}</b>.",
+    "connectedTitle": "Sei collegato",
+    "connectedDescription": "Torna al tuo dispositivo: dovrebbe ricevere il nuovo token entro pochi secondi. Puoi chiudere questa scheda.",
+    "cancelledTitle": "Autorizzazione annullata",
+    "cancelledDescription": "Il tuo dispositivo vedrà l’annullamento e smetterà di interrogare il server. Puoi chiudere questa scheda.",
+    "deviceKicker": "Collega un dispositivo",
+    "code": "Codice <mono>{code}</mono>",
+    "deviceScopesHeading": "Questo dispositivo potrà:"
+  },
+  "form": {
+    "authorize": "Autorizza",
+    "working": "Un attimo…",
+    "cancel": "Annulla",
+    "continue": "Continua"
+  }
+}

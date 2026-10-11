@@ -37,5 +37,44 @@
     "faiTriangle": "Triángulo FAI",
     "closedFreeTriangle": "Triángulo plano cerrado",
     "closedFaiTriangle": "Triángulo FAI cerrado"
+  },
+  "error": {
+    "status": "Estado · turbulencia detectada",
+    "title": "Algo se ha torcido.",
+    "body": "La página se ha topado con aire inesperado por el camino. El fallo ha quedado registrado. Vuelve a intentarlo o regresa a la página de inicio.",
+    "retry": "Reintentar",
+    "home": "Volver a la página de inicio",
+    "ref": "ref · {digest}"
+  },
+  "moreCount": "+{count} más",
+  "pioneer": {
+    "name": "Pionero",
+    "hint": "Uno de los primeros 200 pilotos de We-Fly",
+    "notEarned": "Aún no conseguida"
+  },
+  "back": "Volver",
+  "subtitleFromSite": "{subtitle} desde <link>{site}</link>",
+  "close": "Cerrar",
+  "loadingData": "Cargando datos, espera un momento...",
+  "pickDate": "Elige una fecha",
+  "pickDateRange": "Elige un intervalo de fechas",
+  "scrollToTop": "Volver arriba",
+  "rateLimit": {
+    "defaultMessage": "Has alcanzado el límite de solicitudes. Espera un poco antes de hacer más.",
+    "title": "Límite de solicitudes alcanzado",
+    "retryIn": "Reintentar en {time}",
+    "retryNow": "Reintentar ahora",
+    "pleaseWait": "Espera {time}",
+    "retryAfterTimer": "Podrás reintentar cuando termine la cuenta atrás",
+    "ready": "Listo para continuar",
+    "canRequestAgain": "Ya puedes volver a hacer solicitudes",
+    "seconds": "{seconds} s",
+    "minutesSeconds": "{minutes} min {seconds} s"
+  },
+  "share": {
+    "label": "Compartir",
+    "copied": "¡Copiado!",
+    "copyLink": "Copiar enlace",
+    "email": "Email"
   }
 }

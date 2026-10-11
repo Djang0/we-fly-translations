@@ -34,7 +34,9 @@
     "varioLegend": "Vario · {unit}",
     "gaggle": "Gaggle · <n>{count}</n> {count, plural, one {pilota} other {piloti}} da questo decollo",
     "openComparison": "Apri questi piloti nel confronto completo",
-    "loadingTerrain": "Caricamento del terreno…"
+    "loadingTerrain": "Caricamento del terreno…",
+    "legend": "Legenda",
+    "controlsHint": "Trascina per ruotare · trascina col tasto destro per spostare · scorri per lo zoom"
   },
   "telemetry": {
     "alt": "Quota",
@@ -282,7 +284,8 @@
     "alertMax": "max {altitude}",
     "attachedFile": "il file allegato",
     "shareTitle": "Replay 3D di {pilot, select, other {{pilot}}} da {place} · We-Fly",
-    "shareFallbackPlace": "un volo in parapendio"
+    "shareFallbackPlace": "un volo in parapendio",
+    "notEnoughTrack": "Dati di traccia insufficienti per costruire un replay 3D."
   },
   "recap": {
     "unavailable": "Nessun riepilogo disponibile per questa stagione.",

@@ -380,7 +380,9 @@
     "showNearby": "Afficher les décollages proches",
     "cancel": "Annuler",
     "updating": "Mise à jour…",
-    "submit": "Mettre à jour le décollage"
+    "submit": "Mettre à jour le décollage",
+    "adminTools": "Outils d’administration",
+    "renameSavage": "Renommer ce décollage sauvage"
   },
   "leagues": {
     "title": "Envoyer en compétition en ligne",

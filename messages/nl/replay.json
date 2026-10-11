@@ -34,7 +34,9 @@
     "varioLegend": "Vario · {unit}",
     "gaggle": "Gaggle · <n>{count}</n> {count, plural, one {piloot} other {piloten}} van deze start",
     "openComparison": "Open deze piloten in de volledige vergelijking",
-    "loadingTerrain": "Terrein laden…"
+    "loadingTerrain": "Terrein laden…",
+    "legend": "Legende",
+    "controlsHint": "Sleep om te draaien · rechts slepen om te verschuiven · scroll om te zoomen"
   },
   "telemetry": {
     "alt": "Hoogte",
@@ -282,7 +284,8 @@
     "alertMax": "max {altitude}",
     "attachedFile": "het gekoppelde bestand",
     "shareTitle": "3D-replay van {pilot, select, other {{pilot}}} vanaf {place} · We-Fly",
-    "shareFallbackPlace": "een paraglidingvlucht"
+    "shareFallbackPlace": "een paraglidingvlucht",
+    "notEnoughTrack": "Te weinig trackgegevens voor een 3D-replay."
   },
   "recap": {
     "unavailable": "Geen overzicht beschikbaar voor dit seizoen.",

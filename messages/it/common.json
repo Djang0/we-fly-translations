@@ -37,5 +37,44 @@
     "faiTriangle": "Triangolo FAI",
     "closedFreeTriangle": "Triangolo piatto chiuso",
     "closedFaiTriangle": "Triangolo FAI chiuso"
+  },
+  "error": {
+    "status": "Stato · turbolenza rilevata",
+    "title": "Qualcosa è andato di traverso.",
+    "body": "La pagina ha incontrato aria inattesa in arrivo. L’errore è stato registrato. Riprova, oppure torna alla pagina iniziale.",
+    "retry": "Riprova",
+    "home": "Torna alla pagina iniziale",
+    "ref": "rif · {digest}"
+  },
+  "moreCount": "+{count} altri",
+  "pioneer": {
+    "name": "Pioniere",
+    "hint": "Uno dei primi 200 piloti di We-Fly",
+    "notEarned": "Non ancora ottenuto"
+  },
+  "back": "Indietro",
+  "subtitleFromSite": "{subtitle} da <link>{site}</link>",
+  "close": "Chiudi",
+  "loadingData": "Caricamento dei dati, attendi...",
+  "pickDate": "Scegli una data",
+  "pickDateRange": "Scegli un intervallo di date",
+  "scrollToTop": "Torna in cima",
+  "rateLimit": {
+    "defaultMessage": "Limite di richieste raggiunto. Attendi un po’ prima di fare altre richieste.",
+    "title": "Limite di richieste raggiunto",
+    "retryIn": "Riprova tra {time}",
+    "retryNow": "Riprova ora",
+    "pleaseWait": "Attendi {time}",
+    "retryAfterTimer": "Potrai riprovare allo scadere del timer",
+    "ready": "Pronto per ripartire",
+    "canRequestAgain": "Ora puoi di nuovo fare richieste",
+    "seconds": "{seconds}s",
+    "minutesSeconds": "{minutes}m {seconds}s"
+  },
+  "share": {
+    "label": "Condividi",
+    "copied": "Copiato!",
+    "copyLink": "Copia il link",
+    "email": "Email"
   }
 }

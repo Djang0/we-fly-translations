@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Je vluchten overzetten",
+    "ogTitle": "Je vluchten overzetten - We-Fly",
+    "description": "Zo exporteer je je IGC-vluchtbestanden uit Syride, XContest, Flymaster, SeeYou Cloud en Logfly om ze in We-Fly te importeren."
+  },
+  "hero": {
+    "ariaLabel": "Zet je vluchtarchief over naar We-Fly",
+    "eyebrow": "Overstappen · breng je archief naar huis",
+    "title": "Neem je <em>vlieggeschiedenis</em> mee,<br></br>zonder iets achter te laten.",
+    "lede": "Vijf exports, één standaard. Elk platform geeft je hetzelfde <em>.igc</em>-bestand dat je instrument schreef: open, overdraagbaar en het enige formaat dat We-Fly nodig heeft om je logboek opnieuw op te bouwen."
+  },
+  "panel": {
+    "ariaLabel": "Overzicht van het overstappen",
+    "platforms": "Platforms",
+    "platformsValue": "{count} ondersteund",
+    "format": "Formaat",
+    "formatValue": "IGC",
+    "formatSub": "FAI-standaard",
+    "bulk": "In bulk",
+    "bulkValue": "Map uploaden",
+    "bulkSub": "submappen inbegrepen",
+    "fallback": "Plan B",
+    "fallbackValue": "AVG art. 15",
+    "fallbackSub": "antwoord binnen 30 dagen"
+  },
+  "station": {
+    "contactRequired": "Contact nodig",
+    "selfService": "Zelf exporteren",
+    "visit": "Naar {name}",
+    "note": "Let op"
+  },
+  "stations": {
+    "syride": {
+      "blurb": "IGC per vlucht downloaden vanuit het pilotendashboard. Een bulkexport zit niet in de interface, dus val terug op artikel 15 van de AVG als je het hele archief in één keer wilt.",
+      "steps": {
+        "1": "Meld je aan op syride.com.",
+        "2": "Open je pilotenpagina (syride.com/pilotes/jouw-naam).",
+        "3": "Open een vlucht uit de lijst.",
+        "4": "Klik op het IGC-downloadicoon op de vluchtpagina.",
+        "5": "Sleep het .igc-bestand naar de uploadzone van We-Fly."
+      },
+      "note": "Artikel 15 van de AVG geeft je recht op een kopie van al je persoonsgegevens, ook de niet-geaggregeerde tracks. Het platform heeft 30 dagen om te antwoorden."
+    },
+    "xcontest": {
+      "blurb": "XContest bewaart de volledige gevalideerde IGC van elke ingediende vlucht. De downloadlink staat op elke vluchtpagina, je hebt geen extra tool nodig.",
+      "steps": {
+        "1": "Meld je aan op xcontest.org.",
+        "2": "Open “My flights” in je profielmenu.",
+        "3": "Open de vlucht die je wilt.",
+        "4": "Gebruik de link “Download IGC” op de detailpagina.",
+        "5": "Sleep het .igc-bestand naar de uploadzone van We-Fly."
+      },
+      "note": "Hetzelfde AVG-recht geldt als je het hele archief in één keer wilt: vraag al je persoonsgegevens op en ze moeten die binnen 30 dagen leveren."
+    },
+    "flymaster": {
+      "blurb": "Tracks van een Flymaster-instrument synchroniseren met de webdienst Flights. Van daaruit exporteer je elke vlucht als IGC of KML.",
+      "steps": {
+        "1": "Meld je aan bij de webdienst Flymaster Cloud Flights.",
+        "2": "Open de vluchtenlijst en kies een vlucht.",
+        "3": "Gebruik de optie “Download IGC” (KML kan ook).",
+        "4": "Sleep het .igc-bestand naar de uploadzone van We-Fly."
+      },
+      "note": "Toont een vlucht alleen KML? Neem contact op met de support: de originele IGC blijft op de server bewaard en kan op verzoek opnieuw worden gepubliceerd."
+    },
+    "seeyou": {
+      "blurb": "De clouddienst van Naviter bewaart de originele IGC van elke Oudie of compatibel toestel. Downloaden is één klik vanuit de vluchtenlijst.",
+      "steps": {
+        "1": "Meld je aan op seeyou.cloud.",
+        "2": "Open de lijst Flights.",
+        "3": "Open het menu “…” bij een vlucht.",
+        "4": "Kies “Download” om de IGC binnen te halen.",
+        "5": "Sleep het .igc-bestand naar de uploadzone van We-Fly."
+      },
+      "note": "SeeYou bewaart zowel de IGC van het toestel als een eventuele ondertekende XCTrack-versie. Beide zijn goed, We-Fly leest ze allebei."
+    },
+    "logfly": {
+      "blurb": "Logfly is open source en draait lokaal. Je IGC-bestanden staan al op je computer; de app is een viewer en organizer, geen cloudsilo.",
+      "steps": {
+        "1": "Open Logfly op je computer.",
+        "2": "Selecteer de vlucht(en) die je wilt.",
+        "3": "Klik met de rechtermuisknop en kies Export.",
+        "4": "Kies het IGC-formaat en sla op.",
+        "5": "Sleep de geëxporteerde .igc-bestanden naar We-Fly."
+      },
+      "note": "De datamap van Logfly staat meestal onder Documents/Logfly. Je kunt We-Fly ook rechtstreeks naar die map laten kijken met de upload “Map kiezen”."
+    }
+  },
+  "landing": {
+    "title": "Tracks binnen? <em>Land ze in je logboek.</em>",
+    "body": "Sleep je .igc-bestanden erin: bij het uploaden van een map komen ook de submappen mee, dus één keer slepen volstaat voor het hele archief. Schermnamen, startplaatsen, XC-score en thermiekanalyse worden bij het importeren berekend.",
+    "register": "Maak je logboek aan",
+    "contact": "Vast bij een ander platform?"
+  },
+  "endrule": {
+    "left": "we-fly.cloud · overstappen",
+    "right": "vijf exports, één standaard"
+  }
+}

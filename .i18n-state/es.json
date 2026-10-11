@@ -1675,6 +1675,16 @@
       "tr": "b942d45e38c348d0",
       "by": "ai"
     },
+    "auth.placeholders.email": {
+      "src": "ba37314bcbb17bca",
+      "tr": "53952c61034f11d8",
+      "by": "ai"
+    },
+    "auth.placeholders.pilotName": {
+      "src": "4829a3b4a62428e2",
+      "tr": "bf1f1721b8e4ff13",
+      "by": "ai"
+    },
     "auth.providerButton.continueWith": {
       "src": "9fa94be7fa6aace0",
       "tr": "54f2885970bd2e51",
@@ -4255,6 +4265,16 @@
       "tr": "f27b36cd71972bef",
       "by": "ai"
     },
+    "common.back": {
+      "src": "76900f1bfd16c8d4",
+      "tr": "ab26ae7bca362195",
+      "by": "ai"
+    },
+    "common.close": {
+      "src": "7d9eb7acb13e2462",
+      "tr": "aeccae342e4bd0a7",
+      "by": "ai"
+    },
     "common.compass.E": {
       "src": "a9f51566bd6705f7",
       "tr": "a9f51566bd6705f7",
@@ -4340,6 +4360,36 @@
       "tr": "14e634b2bbc3b60d",
       "by": "ai"
     },
+    "common.error.body": {
+      "src": "7e6b9dcfbacaa410",
+      "tr": "9c2cda41b312d267",
+      "by": "ai"
+    },
+    "common.error.home": {
+      "src": "cb35f733213784fa",
+      "tr": "80e95ff0665c1e23",
+      "by": "ai"
+    },
+    "common.error.ref": {
+      "src": "1078e8e6bc2680e8",
+      "tr": "1078e8e6bc2680e8",
+      "by": "ai"
+    },
+    "common.error.retry": {
+      "src": "d8b8392e2c542950",
+      "tr": "a9254c5f812829af",
+      "by": "ai"
+    },
+    "common.error.status": {
+      "src": "c673a6ab058ff0a4",
+      "tr": "1d686b532592827c",
+      "by": "ai"
+    },
+    "common.error.title": {
+      "src": "6d64bc8746d1c74a",
+      "tr": "51c7e77ec14390dc",
+      "by": "ai"
+    },
     "common.flightTypes.closedFaiTriangle": {
       "src": "176bc10418e925cb",
       "tr": "13a342eda208a275",
@@ -4380,6 +4430,16 @@
       "tr": "7ae9d418353b399f",
       "by": "ai"
     },
+    "common.loadingData": {
+      "src": "6e2983ca49870e4c",
+      "tr": "2a489cafa9bed381",
+      "by": "ai"
+    },
+    "common.moreCount": {
+      "src": "ecccea94c62457a7",
+      "tr": "7dd6ba8fca9d9949",
+      "by": "ai"
+    },
     "common.notFound.body": {
       "src": "c711d7a1eb958ae1",
       "tr": "826ea83636fa6aaf",
@@ -4400,9 +4460,114 @@
       "tr": "0ff0bedb0601395d",
       "by": "ai"
     },
+    "common.pickDate": {
+      "src": "29241ab2d244f21e",
+      "tr": "66df30edefc69e9a",
+      "by": "ai"
+    },
+    "common.pickDateRange": {
+      "src": "fceaa2d70591e41e",
+      "tr": "09bd55d114eebc61",
+      "by": "ai"
+    },
+    "common.pioneer.hint": {
+      "src": "565f71061b91eb0a",
+      "tr": "500a3bd1ca4ce9b6",
+      "by": "ai"
+    },
+    "common.pioneer.name": {
+      "src": "743d781adc55be21",
+      "tr": "a44840ef1c8e982c",
+      "by": "ai"
+    },
+    "common.pioneer.notEarned": {
+      "src": "c195c0e33765b05f",
+      "tr": "298322289c1de8c8",
+      "by": "ai"
+    },
+    "common.rateLimit.canRequestAgain": {
+      "src": "b42b0f3b145527e1",
+      "tr": "daafb103d0625465",
+      "by": "ai"
+    },
+    "common.rateLimit.defaultMessage": {
+      "src": "1ab61d0540f5c586",
+      "tr": "f004e72d0ffc1e4c",
+      "by": "ai"
+    },
+    "common.rateLimit.minutesSeconds": {
+      "src": "c4521614d0a2513f",
+      "tr": "fc4732e098f8eaec",
+      "by": "ai"
+    },
+    "common.rateLimit.pleaseWait": {
+      "src": "82e1a68b952403e3",
+      "tr": "e3cfbd04f59b423c",
+      "by": "ai"
+    },
+    "common.rateLimit.ready": {
+      "src": "39148b011854bde5",
+      "tr": "3edd48a79a3800f1",
+      "by": "ai"
+    },
+    "common.rateLimit.retryAfterTimer": {
+      "src": "d166fa241e495007",
+      "tr": "0d04a74fb9c1f09b",
+      "by": "ai"
+    },
+    "common.rateLimit.retryIn": {
+      "src": "f4d66767f204342c",
+      "tr": "4704b4b108dfcc3e",
+      "by": "ai"
+    },
+    "common.rateLimit.retryNow": {
+      "src": "5148c3e20576923b",
+      "tr": "1c79f4b1569c3521",
+      "by": "ai"
+    },
+    "common.rateLimit.seconds": {
+      "src": "5307d20dc7c46cc7",
+      "tr": "fde82d3dd95e8edb",
+      "by": "ai"
+    },
+    "common.rateLimit.title": {
+      "src": "06946279b9c4689f",
+      "tr": "191f733b4e3bd522",
+      "by": "ai"
+    },
+    "common.scrollToTop": {
+      "src": "0d26ae7f847f3b0b",
+      "tr": "e06e2e6400797b86",
+      "by": "ai"
+    },
+    "common.share.copied": {
+      "src": "ea61bc15688d1e48",
+      "tr": "f1a619264a2d0c14",
+      "by": "ai"
+    },
+    "common.share.copyLink": {
+      "src": "dbf362d4f210c780",
+      "tr": "db164690a5469f43",
+      "by": "ai"
+    },
+    "common.share.email": {
+      "src": "969ccbd3cf6300ec",
+      "tr": "969ccbd3cf6300ec",
+      "by": "ai"
+    },
+    "common.share.label": {
+      "src": "29887a5ff9846ccc",
+      "tr": "d5e9eac00ad801cf",
+      "by": "ai"
+    },
     "common.skipToContent": {
       "src": "c887f134c26ea831",
       "tr": "9d03dce9e56335a9",
+      "by": "ai"
+    },
+    "common.subtitleFromSite": {
+      "src": "6685350883a3c4bf",
+      "tr": "4507f93219492459",
       "by": "ai"
     },
     "community.challenges.card.active": {
@@ -11305,6 +11470,11 @@
       "tr": "83f068d2d964dc03",
       "by": "ai"
     },
+    "filters.facets.onCount": {
+      "src": "b93544a232653bac",
+      "tr": "d2324d063e989b60",
+      "by": "ai"
+    },
     "filters.facets.searchTakeoffs": {
       "src": "e1e4b39910d8c42a",
       "tr": "00fed39051986cde",
@@ -14355,6 +14525,11 @@
       "tr": "2c19799e9ebbd5ed",
       "by": "ai"
     },
+    "flightAnalysis.gFactorTab.statsHelp": {
+      "src": "b64ef98cf3688766",
+      "tr": "47f140df38b8e567",
+      "by": "ai"
+    },
     "flightAnalysis.gFactorTab.title": {
       "src": "f77691ed2255cb78",
       "tr": "8b389903d9c1c0c5",
@@ -16705,6 +16880,11 @@
       "tr": "6129414693a74ff2",
       "by": "ai"
     },
+    "flights.fixTakeoff.adminTools": {
+      "src": "ee6a8060591ebb1d",
+      "tr": "5adbd4113cb2a3ca",
+      "by": "ai"
+    },
     "flights.fixTakeoff.cancel": {
       "src": "19766ed6ccb2f4a3",
       "tr": "bb9dbb406dcbd524",
@@ -16738,6 +16918,11 @@
     "flights.fixTakeoff.noResults": {
       "src": "08079b1612456740",
       "tr": "8e8d8d7d56a014cc",
+      "by": "ai"
+    },
+    "flights.fixTakeoff.renameSavage": {
+      "src": "c1ae72d65b94cae9",
+      "tr": "9b7e83214a58c6c7",
       "by": "ai"
     },
     "flights.fixTakeoff.results": {
@@ -19200,6 +19385,11 @@
       "tr": "9e04112e550c4d51",
       "by": "ai"
     },
+    "map.flight.noTrack": {
+      "src": "b3bdf385ff52530c",
+      "tr": "69894480b49aad04",
+      "by": "ai"
+    },
     "map.flight.takeoff": {
       "src": "9b27eafba7eecc57",
       "tr": "3f3b5247f46065e3",
@@ -19615,6 +19805,321 @@
       "tr": "b940811ca188642f",
       "by": "ai"
     },
+    "migrate.endrule.left": {
+      "src": "61733c4c5d31e009",
+      "tr": "7ffb84732f1bd44a",
+      "by": "ai"
+    },
+    "migrate.endrule.right": {
+      "src": "7b366d5acac2c9fe",
+      "tr": "79727e544533be1e",
+      "by": "ai"
+    },
+    "migrate.hero.ariaLabel": {
+      "src": "97d57c83b54fd7de",
+      "tr": "1aed122b3addb973",
+      "by": "ai"
+    },
+    "migrate.hero.eyebrow": {
+      "src": "e78dad1f217e50cb",
+      "tr": "f4680799cdbb7748",
+      "by": "ai"
+    },
+    "migrate.hero.lede": {
+      "src": "fa68073c9dbed2cd",
+      "tr": "d3c540b87fbdca34",
+      "by": "ai"
+    },
+    "migrate.hero.title": {
+      "src": "cbcf984c1fc0330d",
+      "tr": "398527f653c25579",
+      "by": "ai"
+    },
+    "migrate.landing.body": {
+      "src": "53f6e855a843ce52",
+      "tr": "5e9b97fd0d3485b2",
+      "by": "ai"
+    },
+    "migrate.landing.contact": {
+      "src": "1115023a0ea06b5e",
+      "tr": "2e428e7f174568a2",
+      "by": "ai"
+    },
+    "migrate.landing.register": {
+      "src": "797bca730dbcd785",
+      "tr": "b71fbd0617c975c3",
+      "by": "ai"
+    },
+    "migrate.landing.title": {
+      "src": "cc5ccbc6422800ae",
+      "tr": "234489cd5ba33656",
+      "by": "ai"
+    },
+    "migrate.meta.description": {
+      "src": "a94c4dbdca9dbb05",
+      "tr": "6d731fc715219af6",
+      "by": "ai"
+    },
+    "migrate.meta.ogTitle": {
+      "src": "f17e8a3919b333b2",
+      "tr": "1e5ae0419b0c93f8",
+      "by": "ai"
+    },
+    "migrate.meta.title": {
+      "src": "1918dd0ea87e11ed",
+      "tr": "568f39c585a10924",
+      "by": "ai"
+    },
+    "migrate.panel.ariaLabel": {
+      "src": "95d468b78a4415c0",
+      "tr": "50475855521980ce",
+      "by": "ai"
+    },
+    "migrate.panel.bulk": {
+      "src": "3140100df131cf30",
+      "tr": "4e2fcb2b23e91a2d",
+      "by": "ai"
+    },
+    "migrate.panel.bulkSub": {
+      "src": "b76c8dd1856d3648",
+      "tr": "805112c5c2f5da19",
+      "by": "ai"
+    },
+    "migrate.panel.bulkValue": {
+      "src": "813a1ec46666ab3b",
+      "tr": "8b4b746e4bd82427",
+      "by": "ai"
+    },
+    "migrate.panel.fallback": {
+      "src": "325e84939c6410fa",
+      "tr": "915c4962dcba1db2",
+      "by": "ai"
+    },
+    "migrate.panel.fallbackSub": {
+      "src": "4614469feca048ce",
+      "tr": "2b816b36f83084cc",
+      "by": "ai"
+    },
+    "migrate.panel.fallbackValue": {
+      "src": "8b1443ec22e5cb73",
+      "tr": "6468160e3b966658",
+      "by": "ai"
+    },
+    "migrate.panel.format": {
+      "src": "2f343666aaa88c44",
+      "tr": "73e1804eb968f73e",
+      "by": "ai"
+    },
+    "migrate.panel.formatSub": {
+      "src": "9500e7eb1c1c6bda",
+      "tr": "8bc8ad651f3c013e",
+      "by": "ai"
+    },
+    "migrate.panel.formatValue": {
+      "src": "defa01ad701559b5",
+      "tr": "defa01ad701559b5",
+      "by": "ai"
+    },
+    "migrate.panel.platforms": {
+      "src": "ab9bd7584a6270cd",
+      "tr": "018d4daa3740331f",
+      "by": "ai"
+    },
+    "migrate.panel.platformsValue": {
+      "src": "6ffc7b233d381cd0",
+      "tr": "63166d3bc5a110d8",
+      "by": "ai"
+    },
+    "migrate.station.contactRequired": {
+      "src": "0654e8554784664f",
+      "tr": "25731812e7430c2e",
+      "by": "ai"
+    },
+    "migrate.station.note": {
+      "src": "d8da2c49df39d91d",
+      "tr": "ecef8a87fff05ec5",
+      "by": "ai"
+    },
+    "migrate.station.selfService": {
+      "src": "f547c05aaddeffc4",
+      "tr": "c72ca8cb33916071",
+      "by": "ai"
+    },
+    "migrate.station.visit": {
+      "src": "ad886a67aaffb592",
+      "tr": "7be93f7b14f6033a",
+      "by": "ai"
+    },
+    "migrate.stations.flymaster.blurb": {
+      "src": "43961bf2763f7758",
+      "tr": "371eaed31bdcf525",
+      "by": "ai"
+    },
+    "migrate.stations.flymaster.note": {
+      "src": "68b7116bb4679eb5",
+      "tr": "da794d95892e2b61",
+      "by": "ai"
+    },
+    "migrate.stations.flymaster.steps.1": {
+      "src": "5c6d75e9266f134d",
+      "tr": "7ca238bd87912d0e",
+      "by": "ai"
+    },
+    "migrate.stations.flymaster.steps.2": {
+      "src": "acc9bba90c5c71b8",
+      "tr": "ac344d5de30e9d23",
+      "by": "ai"
+    },
+    "migrate.stations.flymaster.steps.3": {
+      "src": "8c3f92459d23e3c1",
+      "tr": "5112906d0436d531",
+      "by": "ai"
+    },
+    "migrate.stations.flymaster.steps.4": {
+      "src": "b45d0726ca2b286a",
+      "tr": "0029239cc5f702a4",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.blurb": {
+      "src": "acaf90021bcc7536",
+      "tr": "c23aae5336bbfd37",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.note": {
+      "src": "bb595eee31601cdc",
+      "tr": "4c761ad18c460f81",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.steps.1": {
+      "src": "d3a985de48f26045",
+      "tr": "25b1c3bad5a863e3",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.steps.2": {
+      "src": "cc96957f34402126",
+      "tr": "d58857117d88035b",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.steps.3": {
+      "src": "7b7904a79f6796b2",
+      "tr": "ddfcd235bc474ef2",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.steps.4": {
+      "src": "34576c8e3c0f7bbd",
+      "tr": "a120c106d26c45dc",
+      "by": "ai"
+    },
+    "migrate.stations.logfly.steps.5": {
+      "src": "fc4dde12f5286a15",
+      "tr": "648cb32b7b832e3a",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.blurb": {
+      "src": "d734f8d651570421",
+      "tr": "f266e80cdc8c5abf",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.note": {
+      "src": "da9383e7f8abd2bd",
+      "tr": "b9888ac167864f68",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.steps.1": {
+      "src": "85d7ac91d87fad2a",
+      "tr": "5f22b56a7f901281",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.steps.2": {
+      "src": "6d33976f62ad18b6",
+      "tr": "cc8ec0b074f3b7b3",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.steps.3": {
+      "src": "6b593f53158ab5ca",
+      "tr": "6e93fc666df42f57",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.steps.4": {
+      "src": "b9fc88900b05d03a",
+      "tr": "dda0340034f7ebf0",
+      "by": "ai"
+    },
+    "migrate.stations.seeyou.steps.5": {
+      "src": "b45d0726ca2b286a",
+      "tr": "0029239cc5f702a4",
+      "by": "ai"
+    },
+    "migrate.stations.syride.blurb": {
+      "src": "3c859d5ac9c821b3",
+      "tr": "8b1db9b6830ad2f4",
+      "by": "ai"
+    },
+    "migrate.stations.syride.note": {
+      "src": "54e324b636469488",
+      "tr": "ed9089d504402ebf",
+      "by": "ai"
+    },
+    "migrate.stations.syride.steps.1": {
+      "src": "331dd67a0e95037b",
+      "tr": "d2433ed56bf9a1e7",
+      "by": "ai"
+    },
+    "migrate.stations.syride.steps.2": {
+      "src": "7d5a168f15c9ee74",
+      "tr": "2c1a3cb4484b078a",
+      "by": "ai"
+    },
+    "migrate.stations.syride.steps.3": {
+      "src": "df3e896a9262780b",
+      "tr": "b59e0db99d7b0470",
+      "by": "ai"
+    },
+    "migrate.stations.syride.steps.4": {
+      "src": "83c5ecf465b29857",
+      "tr": "1f394693e2b2c8c7",
+      "by": "ai"
+    },
+    "migrate.stations.syride.steps.5": {
+      "src": "b45d0726ca2b286a",
+      "tr": "0029239cc5f702a4",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.blurb": {
+      "src": "86032d93ef6cebc8",
+      "tr": "1c255b905e85eb78",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.note": {
+      "src": "b5ed77ee3b66bc70",
+      "tr": "6b99146f78983dc0",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.steps.1": {
+      "src": "20e80ecae36f8be5",
+      "tr": "2d2c916b335b1d41",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.steps.2": {
+      "src": "27780d2763bea7dc",
+      "tr": "c3576482a3c3648f",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.steps.3": {
+      "src": "44e4ddc9b9a54cb7",
+      "tr": "fe16c982449c696e",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.steps.4": {
+      "src": "f9b0a78c30e3377a",
+      "tr": "8717844cc4be965d",
+      "by": "ai"
+    },
+    "migrate.stations.xcontest.steps.5": {
+      "src": "b45d0726ca2b286a",
+      "tr": "0029239cc5f702a4",
+      "by": "ai"
+    },
     "nav.area.acct": {
       "src": "7e1b0d5641f2640c",
       "tr": "e436ddcd06e85cd0",
@@ -19778,6 +20283,51 @@
     "nav.item.com.seasonsRecap": {
       "src": "6ecac1d38ed4945a",
       "tr": "ed371b93d77b78b1",
+      "by": "ai"
+    },
+    "nav.notifications.annotated": {
+      "src": "e44cf8846795a90a",
+      "tr": "af138d967afcccd2",
+      "by": "ai"
+    },
+    "nav.notifications.anomalies": {
+      "src": "b3de0adfffb868ef",
+      "tr": "f58c8098a470034d",
+      "by": "ai"
+    },
+    "nav.notifications.bellAria": {
+      "src": "ccc0bf07e8a643df",
+      "tr": "1041ca297d1f4276",
+      "by": "ai"
+    },
+    "nav.notifications.empty": {
+      "src": "cbce2040cca5abea",
+      "tr": "3ea6c0fa547741e8",
+      "by": "ai"
+    },
+    "nav.notifications.followed": {
+      "src": "f78802719628fc23",
+      "tr": "0aed1e24bc1bc0aa",
+      "by": "ai"
+    },
+    "nav.notifications.newCount": {
+      "src": "93578072b1e8b4aa",
+      "tr": "340b7b5b815fe49f",
+      "by": "ai"
+    },
+    "nav.notifications.reviewRequested": {
+      "src": "ca1905a90b878901",
+      "tr": "5d5e3332cef164bc",
+      "by": "ai"
+    },
+    "nav.notifications.title": {
+      "src": "788011833a5a0f22",
+      "tr": "80dade6fab6f9387",
+      "by": "ai"
+    },
+    "nav.notifications.unread": {
+      "src": "1b9f384c1436f607",
+      "tr": "739b468f01d75d3f",
       "by": "ai"
     },
     "nav.palette.actions.about": {
@@ -20175,6 +20725,31 @@
       "tr": "b3aad4488f3aae00",
       "by": "ai"
     },
+    "nav.themeToggle.darkMode": {
+      "src": "9b7878aef90b527c",
+      "tr": "808d4a199c740939",
+      "by": "ai"
+    },
+    "nav.themeToggle.lightMode": {
+      "src": "b4fcfbee4fb937d7",
+      "tr": "3a28469f0c7f07a2",
+      "by": "ai"
+    },
+    "nav.themeToggle.loading": {
+      "src": "b4145fca4f1c3f9f",
+      "tr": "ab2016d53b63ff77",
+      "by": "ai"
+    },
+    "nav.themeToggle.switchToDark": {
+      "src": "fc43ea9804c7f5da",
+      "tr": "a0a578d56b11fd38",
+      "by": "ai"
+    },
+    "nav.themeToggle.switchToLight": {
+      "src": "bfa0cab91d75f7a4",
+      "tr": "6e2f9ac050ceff93",
+      "by": "ai"
+    },
     "nav.topBar.docs": {
       "src": "7af023c43013b9a5",
       "tr": "7af023c43013b9a5",
@@ -20193,6 +20768,136 @@
     "nav.topBar.upload": {
       "src": "ecf0db7600e6f0c1",
       "tr": "449343645c3394ff",
+      "by": "ai"
+    },
+    "oauth.authorize.backToFlights": {
+      "src": "81fcee74e12e1015",
+      "tr": "405e1d4706566d0d",
+      "by": "ai"
+    },
+    "oauth.authorize.homepage": {
+      "src": "4aa5d14920b6b429",
+      "tr": "0c0830c216509314",
+      "by": "ai"
+    },
+    "oauth.authorize.invalidDescription": {
+      "src": "3d71c9b01e31619a",
+      "tr": "f1ba7a5b3626b9ed",
+      "by": "ai"
+    },
+    "oauth.authorize.invalidReport": {
+      "src": "9e727ffcf2f5bc27",
+      "tr": "a27dfb2ceab2b7e1",
+      "by": "ai"
+    },
+    "oauth.authorize.invalidTitle": {
+      "src": "151c9eef9441bc04",
+      "tr": "b90f36d6e4f4d297",
+      "by": "ai"
+    },
+    "oauth.authorize.kicker": {
+      "src": "4e807e8f95dda211",
+      "tr": "de8d1bd3ca7d7063",
+      "by": "ai"
+    },
+    "oauth.authorize.revokeHint": {
+      "src": "c3f87f1c81dbd6f5",
+      "tr": "a6a0bf9fc7debdd6",
+      "by": "ai"
+    },
+    "oauth.authorize.scopesHeading": {
+      "src": "c5fad36795af6c22",
+      "tr": "e0355e5923ffc255",
+      "by": "ai"
+    },
+    "oauth.authorize.wantsAccess": {
+      "src": "cd27a35c7d5780cd",
+      "tr": "a12e2e40d98b6c05",
+      "by": "ai"
+    },
+    "oauth.consent.cancelledDescription": {
+      "src": "ff4fe3d862ffce04",
+      "tr": "7868ece9245a2e2f",
+      "by": "ai"
+    },
+    "oauth.consent.cancelledTitle": {
+      "src": "17024e593de7ae80",
+      "tr": "c796647f5d970453",
+      "by": "ai"
+    },
+    "oauth.consent.code": {
+      "src": "a68a2ad67caff333",
+      "tr": "fa2a90a8e65119c8",
+      "by": "ai"
+    },
+    "oauth.consent.connectedDescription": {
+      "src": "b88b077175e06d0e",
+      "tr": "4cbe904e5ad1a54d",
+      "by": "ai"
+    },
+    "oauth.consent.connectedTitle": {
+      "src": "287dd749bfed0b86",
+      "tr": "27412ef94bdeafce",
+      "by": "ai"
+    },
+    "oauth.consent.deviceKicker": {
+      "src": "0b4a51f394259aac",
+      "tr": "aaf04fdb77b93794",
+      "by": "ai"
+    },
+    "oauth.consent.deviceScopesHeading": {
+      "src": "737a4b6ae6639077",
+      "tr": "ab70ed2aa92e319d",
+      "by": "ai"
+    },
+    "oauth.consent.pendingReview": {
+      "src": "028d34e52ac5da75",
+      "tr": "ecc88149b8327723",
+      "by": "ai"
+    },
+    "oauth.consent.signedInAs": {
+      "src": "39de31ac7773b76e",
+      "tr": "dbc1a1e736806b72",
+      "by": "ai"
+    },
+    "oauth.device.description": {
+      "src": "d0c21d39692ab663",
+      "tr": "c455aa60965ac5c3",
+      "by": "ai"
+    },
+    "oauth.device.invalidTitle": {
+      "src": "d0168cb9bdb1b4d7",
+      "tr": "243024816db2ed2f",
+      "by": "ai"
+    },
+    "oauth.device.kicker": {
+      "src": "4e87e8c0ac6bb698",
+      "tr": "c97465ac9ceea2bf",
+      "by": "ai"
+    },
+    "oauth.device.title": {
+      "src": "0b4a51f394259aac",
+      "tr": "aaf04fdb77b93794",
+      "by": "ai"
+    },
+    "oauth.form.authorize": {
+      "src": "b6741b4ccf6d675a",
+      "tr": "c567649457f48b2c",
+      "by": "ai"
+    },
+    "oauth.form.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "bb9dbb406dcbd524",
+      "by": "ai"
+    },
+    "oauth.form.continue": {
+      "src": "31fbef162594de01",
+      "tr": "63e2bbaf1c924391",
+      "by": "ai"
+    },
+    "oauth.form.working": {
+      "src": "5474eef8d0f179c7",
+      "tr": "117814a3584e4079",
       "by": "ai"
     },
     "openair.attach.attachedFile": {
@@ -22025,6 +22730,11 @@
       "tr": "6e0d1319a93356a2",
       "by": "ai"
     },
+    "replay.flight.notEnoughTrack": {
+      "src": "e4ac77c89f45ca83",
+      "tr": "9aa0a7476578aaf0",
+      "by": "ai"
+    },
     "replay.flight.shareFallbackPlace": {
       "src": "cc341456eed6d822",
       "tr": "6bbdc2ac0e48c744",
@@ -22920,6 +23630,11 @@
       "tr": "12320c801ce80cd3",
       "by": "ai"
     },
+    "replay.scene.controlsHint": {
+      "src": "ea135d4e8892b21c",
+      "tr": "4d42bc42fadc80b7",
+      "by": "ai"
+    },
     "replay.scene.dragToTakeControl": {
       "src": "7cfa5aba941b358e",
       "tr": "b03a0c8407a077e0",
@@ -22928,6 +23643,11 @@
     "replay.scene.gaggle": {
       "src": "04de1601a8b57d0a",
       "tr": "bdbfc32dece2adff",
+      "by": "ai"
+    },
+    "replay.scene.legend": {
+      "src": "7482e374b5bddc0a",
+      "tr": "7c5bd9c9a6f11c32",
       "by": "ai"
     },
     "replay.scene.loadingTerrain": {
@@ -26330,6 +27050,36 @@
       "tr": "da364c98b433a5aa",
       "by": "ai"
     },
+    "takeoffs.actions.delete": {
+      "src": "e2d0a54968ead24e",
+      "tr": "c9894cf002f90bd0",
+      "by": "ai"
+    },
+    "takeoffs.actions.edit": {
+      "src": "464c4ffd019e1e96",
+      "tr": "2eba946b2e1ee4b6",
+      "by": "ai"
+    },
+    "takeoffs.actions.geocode": {
+      "src": "1606207c55304e06",
+      "tr": "b1d409c42b333f58",
+      "by": "ai"
+    },
+    "takeoffs.actions.getElevation": {
+      "src": "dc4031b2a549074a",
+      "tr": "271ab7e213d430c3",
+      "by": "ai"
+    },
+    "takeoffs.actions.loading": {
+      "src": "47d2a515ef2f05b8",
+      "tr": "78164e6c88f6cf6b",
+      "by": "ai"
+    },
+    "takeoffs.actions.tooltip": {
+      "src": "ff8059dc6752afdd",
+      "tr": "fb89a30ba7f64d18",
+      "by": "ai"
+    },
     "takeoffs.card.addFavorite": {
       "src": "7f3c0782afd7e955",
       "tr": "cd2319d6f377b649",
@@ -26358,6 +27108,56 @@
     "takeoffs.card.windTitle": {
       "src": "39b3299b788b87e4",
       "tr": "39b3299b788b87e4",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.confirm": {
+      "src": "2fea512e7ab7350b",
+      "tr": "f010840552a57f12",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.deleted": {
+      "src": "16729c600e665021",
+      "tr": "955c81da37c49f32",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.deleteFailed": {
+      "src": "68d15fa1aa33c186",
+      "tr": "dfd1049d43a9bb13",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.deleteFailedRetry": {
+      "src": "8b62aae58c16f488",
+      "tr": "989ae8cae68856f5",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.deleting": {
+      "src": "685ecb984ac29ce8",
+      "tr": "46955f333d9b8fc1",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.description": {
+      "src": "db7e1f9dabc0cbc7",
+      "tr": "e38509b3b264ed67",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.flightsNote": {
+      "src": "248ba74d5813f112",
+      "tr": "94640c2e7722f1d7",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.permanent": {
+      "src": "7f03b8dd9c745b2b",
+      "tr": "0afe7d9194ac52dd",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.submit": {
+      "src": "d6f710b2e9179ca7",
+      "tr": "8e1bc3aa2532c72a",
+      "by": "ai"
+    },
+    "takeoffs.deleteSite.title": {
+      "src": "4f6bbe750a47f5d0",
+      "tr": "4d43390bb9c65392",
       "by": "ai"
     },
     "takeoffs.detail.analytics.barTitle": {
@@ -27110,6 +27910,86 @@
       "tr": "24a2d0f7c8f3b0b5",
       "by": "ai"
     },
+    "takeoffs.editSite.bearing": {
+      "src": "923f93162c566c1d",
+      "tr": "05f475e7d176496f",
+      "by": "ai"
+    },
+    "takeoffs.editSite.bearingPlaceholder": {
+      "src": "8e89dd41431a5af1",
+      "tr": "50f268f9e6147845",
+      "by": "ai"
+    },
+    "takeoffs.editSite.countryCode": {
+      "src": "8cd353ff93915f72",
+      "tr": "3dd4e6cebb7cc558",
+      "by": "ai"
+    },
+    "takeoffs.editSite.countryCodePlaceholder": {
+      "src": "8823db0c056640e8",
+      "tr": "51a82b303c2a0924",
+      "by": "ai"
+    },
+    "takeoffs.editSite.description": {
+      "src": "0f2b1ddd5fb5fba0",
+      "tr": "414ac58ef648e4f7",
+      "by": "ai"
+    },
+    "takeoffs.editSite.displayName": {
+      "src": "18d67c992b71ce69",
+      "tr": "acc2e245d5b9518a",
+      "by": "ai"
+    },
+    "takeoffs.editSite.displayNamePlaceholder": {
+      "src": "2b1fb50ab2a792c3",
+      "tr": "2f086d9b4ffd6187",
+      "by": "ai"
+    },
+    "takeoffs.editSite.invalid": {
+      "src": "9723625a0812f372",
+      "tr": "16630fff62f0c83e",
+      "by": "ai"
+    },
+    "takeoffs.editSite.name": {
+      "src": "0f79f182d41ec98d",
+      "tr": "c71a5b88158b8bbe",
+      "by": "ai"
+    },
+    "takeoffs.editSite.namePlaceholder": {
+      "src": "17de05abe47c7815",
+      "tr": "f6a31365247c6a79",
+      "by": "ai"
+    },
+    "takeoffs.editSite.save": {
+      "src": "35322b5bb5a218a1",
+      "tr": "14bdfaf2face3a07",
+      "by": "ai"
+    },
+    "takeoffs.editSite.saving": {
+      "src": "dc85af8f2b1d0d67",
+      "tr": "367b3cef3580052d",
+      "by": "ai"
+    },
+    "takeoffs.editSite.title": {
+      "src": "582566edb5cc3af3",
+      "tr": "5e835d7bc7e72b7e",
+      "by": "ai"
+    },
+    "takeoffs.editSite.updated": {
+      "src": "4c17093c4854a478",
+      "tr": "085a580e24bcc5bc",
+      "by": "ai"
+    },
+    "takeoffs.editSite.updateFailed": {
+      "src": "327d6db02eebd724",
+      "tr": "ee7f1c9e58c49a6b",
+      "by": "ai"
+    },
+    "takeoffs.editSite.updateFailedRetry": {
+      "src": "4cf741dc5c62eb01",
+      "tr": "2c2f6bbe4dbcbc5c",
+      "by": "ai"
+    },
     "takeoffs.favorites.checking": {
       "src": "b5f1de3b2b751389",
       "tr": "13deb89ba8fd5348",
@@ -27415,6 +28295,81 @@
       "tr": "1174aeb568e35047",
       "by": "ai"
     },
+    "takeoffs.renameSavage.currentName": {
+      "src": "202d3c7166834a85",
+      "tr": "28344d0bc7089883",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.description": {
+      "src": "262c8c64105dcf28",
+      "tr": "b5c4d69ab2d19922",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.missingFields": {
+      "src": "f399cf280654e29c",
+      "tr": "526308367cb468a4",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.newName": {
+      "src": "789a3d22ce354c7d",
+      "tr": "b8218521955c3f57",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.newNamePlaceholder": {
+      "src": "40bcb2917ef64a75",
+      "tr": "62e668ec15d82fe4",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.renamed": {
+      "src": "75c5392d51e73fa1",
+      "tr": "1b936a365c812483",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.renameFailed": {
+      "src": "4e67c3e64a708e24",
+      "tr": "8f16733fb067a770",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.renameFailedRetry": {
+      "src": "7250c514b6bce7c8",
+      "tr": "90fc59827527290c",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.renaming": {
+      "src": "75595af6803156eb",
+      "tr": "06e27f37414204d8",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.submit": {
+      "src": "fce39ec562ab6d9b",
+      "tr": "4f478f17a550ff82",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.title": {
+      "src": "b47f1941132b0aa0",
+      "tr": "30d695063f958efd",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.willDeleteDuplicates": {
+      "src": "cf94d71d34e9472b",
+      "tr": "32bd38d9c639158f",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.willRename": {
+      "src": "767d5889fe8c89a1",
+      "tr": "db2375b0bdc29fdf",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.willTitle": {
+      "src": "d583751473d8e002",
+      "tr": "db8db9bc0bd679c1",
+      "by": "ai"
+    },
+    "takeoffs.renameSavage.willUpdateFlights": {
+      "src": "b0e9a3eea9b7c17b",
+      "tr": "8d9a66fb35523143",
+      "by": "ai"
+    },
     "takeoffs.results.adjustFilters": {
       "src": "4d765c1adda1286e",
       "tr": "8bf01bf69bd90f1b",
@@ -27508,6 +28463,31 @@
     "takeoffs.results.updating": {
       "src": "0b5260e1b4054f46",
       "tr": "937c8ddb1b2a977b",
+      "by": "ai"
+    },
+    "takeoffs.siteForm.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "bb9dbb406dcbd524",
+      "by": "ai"
+    },
+    "takeoffs.siteForm.charCount": {
+      "src": "c4214060a8b7b6d3",
+      "tr": "f567686aa0f2858c",
+      "by": "ai"
+    },
+    "takeoffs.siteForm.country": {
+      "src": "701d021d08c54579",
+      "tr": "bb8921362413d47b",
+      "by": "ai"
+    },
+    "takeoffs.siteForm.countryPlaceholder": {
+      "src": "26230f9820cc3006",
+      "tr": "dc793ca13f42d68d",
+      "by": "ai"
+    },
+    "takeoffs.siteForm.unexpectedError": {
+      "src": "6615bf1c8fddf2fb",
+      "tr": "ca91a52c01b87418",
       "by": "ai"
     },
     "takeoffs.viewToggle.favorites": {
@@ -29083,6 +30063,11 @@
     "vectorVario.skewT.empty": {
       "src": "c368e043018e7ae1",
       "tr": "c1e55eaf8e150e34",
+      "by": "ai"
+    },
+    "vectorVario.skewT.lapseRate": {
+      "src": "ba40005122fe8953",
+      "tr": "ba40005122fe8953",
       "by": "ai"
     },
     "vectorVario.skewT.legendDewPoint": {
@@ -34488,6 +35473,11 @@
     "5666394f2444": {
       "src": "5666394f244448ae",
       "tr": "b6e5212de665e7d5",
+      "by": "ai"
+    },
+    "5a8d4e060cc9": {
+      "src": "5a8d4e060cc932ce",
+      "tr": "8e93599196b4fb5a",
       "by": "ai"
     },
     "5fbc1726c5bd": {

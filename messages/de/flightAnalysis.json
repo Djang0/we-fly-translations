@@ -72,7 +72,8 @@
       "aggressive": "<strong>2,0 bis 5,0 G:</strong> dynamische Manöver und Steilspiralen",
       "extreme": "<strong>Über 5,0 G:</strong> extreme Manöver (nahe an den strukturellen Grenzen)",
       "method": "Diese Analyse kombiniert die vertikale Beschleunigung (aus den Höhenänderungen) und die seitliche Beschleunigung (aus den Kurven).<br></br><b>Halte immer die zugelassenen G-Grenzen deines Schirms ein</b> (8 G während 3 Sekunden nach <standard>EN 926-1</standard>)."
-    }
+    },
+    "statsHelp": "Median, Mittelwert, Varianz und Standardabweichung verwirren dich? <link>Schau mal hier!</link>"
   },
   "quality": {
     "outstanding": "Herausragend",

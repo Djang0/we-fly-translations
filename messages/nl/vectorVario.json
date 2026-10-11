@@ -159,6 +159,7 @@
       "neutral": "Voorwaardelijk onstabiel",
       "stable": "Stabiele luchtmassa",
       "unknown": "Stabiliteit"
-    }
+    },
+    "lapseRate": "({value} °C/km)"
   }
 }

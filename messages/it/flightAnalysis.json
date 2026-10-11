@@ -72,7 +72,8 @@
       "aggressive": "<strong>2,0-5,0 G:</strong> manovre aggressive e spirali",
       "extreme": "<strong>Oltre 5,0 G:</strong> manovre estreme (vicine ai limiti strutturali)",
       "method": "Questa analisi combina l'accelerazione verticale (dalle variazioni di quota) e quella laterale (dalle virate).<br></br><b>Rispetta sempre i limiti G certificati della tua vela</b> (8G per 3 secondi secondo la <standard>EN 926-1</standard>)."
-    }
+    },
+    "statsHelp": "Mediana, media, varianza e deviazione ti confondono? <link>Dai un’occhiata qui!</link>"
   },
   "quality": {
     "outstanding": "Eccezionale",

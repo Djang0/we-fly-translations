@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Porta i tuoi voli su We-Fly",
+    "ogTitle": "Porta i tuoi voli su We-Fly - We-Fly",
+    "description": "Scopri come esportare i file IGC dei tuoi voli da Syride, XContest, Flymaster, SeeYou Cloud e Logfly per importarli in We-Fly."
+  },
+  "hero": {
+    "ariaLabel": "Porta il tuo archivio di voli su We-Fly",
+    "eyebrow": "Migrazione · riporta a casa il tuo archivio",
+    "title": "Porta con te la tua <em>storia di volo</em>,<br></br>senza lasciare nulla indietro.",
+    "lede": "Cinque esportazioni, un solo standard. Ogni piattaforma ti consegna lo stesso file <em>.igc</em> scritto dal tuo strumento: aperto, portabile, e l’unico formato che serve a We-Fly per ricostruire il tuo libretto di volo."
+  },
+  "panel": {
+    "ariaLabel": "Panoramica della migrazione",
+    "platforms": "Piattaforme",
+    "platformsValue": "{count} coperte",
+    "format": "Formato",
+    "formatValue": "IGC",
+    "formatSub": "standard FAI",
+    "bulk": "In blocco",
+    "bulkValue": "Caricamento di cartelle",
+    "bulkSub": "con le sottocartelle",
+    "fallback": "Piano B",
+    "fallbackValue": "GDPR art. 15",
+    "fallbackSub": "risposta entro 30 giorni"
+  },
+  "station": {
+    "contactRequired": "Contatto necessario",
+    "selfService": "Esportazione in autonomia",
+    "visit": "Vai su {name}",
+    "note": "Nota"
+  },
+  "stations": {
+    "syride": {
+      "blurb": "Download IGC volo per volo dalla dashboard del pilota. L’interfaccia non offre un’esportazione in blocco, quindi se ti serve tutto l’archivio in un colpo solo ricorri all’articolo 15 del GDPR.",
+      "steps": {
+        "1": "Accedi su syride.com.",
+        "2": "Apri la tua pagina pilota (syride.com/pilotes/tuo-nome).",
+        "3": "Apri un volo qualsiasi dall’elenco.",
+        "4": "Clicca l’icona di download IGC nella pagina del volo.",
+        "5": "Trascina il file .igc nell’area di caricamento di We-Fly."
+      },
+      "note": "L’articolo 15 del GDPR ti dà diritto a una copia di tutti i tuoi dati personali, tracce non aggregate comprese. La piattaforma ha 30 giorni per rispondere."
+    },
+    "xcontest": {
+      "blurb": "XContest conserva l’IGC completo e validato di ogni volo inviato. Il link per il download è nella pagina di ogni volo, senza strumenti aggiuntivi.",
+      "steps": {
+        "1": "Accedi su xcontest.org.",
+        "2": "Apri “My flights” dal menu del tuo profilo.",
+        "3": "Apri il volo che ti interessa.",
+        "4": "Usa il link “Download IGC” nella pagina di dettaglio.",
+        "5": "Trascina il file .igc nell’area di caricamento di We-Fly."
+      },
+      "note": "Vale lo stesso diritto GDPR se vuoi tutto l’archivio in una volta: chiedi tutti i tuoi dati personali e devono consegnarli entro 30 giorni."
+    },
+    "flymaster": {
+      "blurb": "Le tracce registrate con uno strumento Flymaster si sincronizzano sul servizio web Flights. Da lì ognuna si esporta in IGC o KML.",
+      "steps": {
+        "1": "Accedi al servizio web Flymaster Cloud Flights.",
+        "2": "Apri l’elenco dei voli e seleziona un volo.",
+        "3": "Usa l’opzione “Download IGC” (è disponibile anche il KML).",
+        "4": "Trascina il file .igc nell’area di caricamento di We-Fly."
+      },
+      "note": "Se un volo mostra solo il KML, contatta l’assistenza: l’IGC originale è conservato sul server e può essere ripubblicato su richiesta."
+    },
+    "seeyou": {
+      "blurb": "Il servizio cloud di Naviter ospita l’IGC originale di qualsiasi Oudie o dispositivo compatibile. Il download è a un clic dall’elenco dei voli.",
+      "steps": {
+        "1": "Accedi su seeyou.cloud.",
+        "2": "Apri l’elenco Flights.",
+        "3": "Apri il menu “…” di un volo qualsiasi.",
+        "4": "Scegli “Download” per scaricare l’IGC.",
+        "5": "Trascina il file .igc nell’area di caricamento di We-Fly."
+      },
+      "note": "SeeYou conserva sia l’IGC registrato dal dispositivo sia l’eventuale variante firmata da XCTrack. Vanno bene entrambi, We-Fly li legge tutti e due."
+    },
+    "logfly": {
+      "blurb": "Logfly è open source e gira in locale. I tuoi file IGC sono già sul tuo computer; l’app serve a visualizzarli e organizzarli, non è un archivio chiuso nel cloud.",
+      "steps": {
+        "1": "Apri Logfly sul tuo computer.",
+        "2": "Seleziona il volo o i voli che ti interessano.",
+        "3": "Fai clic destro e scegli Export.",
+        "4": "Scegli il formato IGC e salva sul disco.",
+        "5": "Trascina i file .igc esportati su We-Fly."
+      },
+      "note": "La cartella dei dati di Logfly di solito si trova in Documents/Logfly. Puoi anche puntare We-Fly direttamente su quella cartella con il caricamento “Sfoglia cartella”."
+    }
+  },
+  "landing": {
+    "title": "Tracce in mano? <em>Atterrale nel libretto di volo.</em>",
+    "body": "Trascina i tuoi file .igc: il caricamento di cartelle include le sottocartelle, quindi basta un solo trascinamento per tutto l’archivio. Nomi delle vele, decolli, punteggio XC e analisi delle termiche vengono calcolati all’importazione.",
+    "register": "Crea il tuo libretto di volo",
+    "contact": "Bloccato su un’altra piattaforma?"
+  },
+  "endrule": {
+    "left": "we-fly.cloud · migrazione",
+    "right": "cinque esportazioni, un solo standard"
+  }
+}

@@ -7,8 +7,17 @@
     "acct": "Account"
   },
   "section": {
-    "fly": { "logbook": "Logboek", "cockpit": "Cockpit", "success": "Successen" },
-    "com": { "overview": "Overzicht", "feed": "Feed", "people": "Mensen", "stats": "Statistieken" },
+    "fly": {
+      "logbook": "Logboek",
+      "cockpit": "Cockpit",
+      "success": "Successen"
+    },
+    "com": {
+      "overview": "Overzicht",
+      "feed": "Feed",
+      "people": "Mensen",
+      "stats": "Statistieken"
+    },
     "acct": {
       "profile": "Profiel",
       "anomalies": "Afwijkingen",
@@ -50,7 +59,10 @@
     "privacyPolicy": "Privacybeleid",
     "about": "Over"
   },
-  "session": { "logOut": "Uitloggen", "accountMenu": "Accountmenu" },
+  "session": {
+    "logOut": "Uitloggen",
+    "accountMenu": "Accountmenu"
+  },
   "topBar": {
     "home": "We-Fly-startpagina",
     "main": "Hoofdmenu",
@@ -96,12 +108,30 @@
       "help": "Hulp"
     },
     "jump": {
-      "logbook": { "title": "Logboek", "subtitle": "Vluchten · Schermen" },
-      "overview": { "title": "Cockpit · Overzicht", "subtitle": "Je statistieken" },
-      "thermaling": { "title": "Cockpit · Thermieken", "subtitle": "Stijgsnelheid, thermiek" },
-      "takeoffStats": { "title": "Cockpit · Startplaats", "subtitle": "Uren per startplaats" },
-      "success": { "title": "Successen", "subtitle": "Badges" },
-      "takeoffs": { "title": "Startplaatsen", "subtitle": "Database met startplaatsen" }
+      "logbook": {
+        "title": "Logboek",
+        "subtitle": "Vluchten · Schermen"
+      },
+      "overview": {
+        "title": "Cockpit · Overzicht",
+        "subtitle": "Je statistieken"
+      },
+      "thermaling": {
+        "title": "Cockpit · Thermieken",
+        "subtitle": "Stijgsnelheid, thermiek"
+      },
+      "takeoffStats": {
+        "title": "Cockpit · Startplaats",
+        "subtitle": "Uren per startplaats"
+      },
+      "success": {
+        "title": "Successen",
+        "subtitle": "Badges"
+      },
+      "takeoffs": {
+        "title": "Startplaatsen",
+        "subtitle": "Database met startplaatsen"
+      }
     },
     "actions": {
       "uploadFlights": "Vluchten uploaden",
@@ -113,8 +143,15 @@
       "switchToDark": "Naar donker thema",
       "about": "Over We-Fly"
     },
-    "articleKind": { "docs": "Docs", "whatsNew": "Wat is er nieuw" },
-    "hints": { "move": "↑↓ navigeren", "open": "↵ openen", "close": "esc sluiten" }
+    "articleKind": {
+      "docs": "Docs",
+      "whatsNew": "Wat is er nieuw"
+    },
+    "hints": {
+      "move": "↑↓ navigeren",
+      "open": "↵ openen",
+      "close": "esc sluiten"
+    }
   },
   "tabBar": {
     "upload": "Uploaden",
@@ -133,5 +170,23 @@
     "signIn": "Inloggen",
     "startLogging": "Begin met loggen",
     "menu": "Menu"
+  },
+  "notifications": {
+    "bellAria": "{count, plural, =0 {Geen nieuwe meldingen} one {# ongelezen melding} other {# ongelezen meldingen}}",
+    "title": "Meldingen",
+    "newCount": "{count} nieuw",
+    "empty": "Geen meldingen",
+    "anomalies": "{count, plural, one {# gegevensafwijking om na te kijken} other {# gegevensafwijkingen om na te kijken}}",
+    "reviewRequested": "{name} vraagt om een review",
+    "annotated": "{name} heeft een notitie bij je vlucht gezet",
+    "followed": "volgt je nu",
+    "unread": "Ongelezen"
+  },
+  "themeToggle": {
+    "loading": "Themaschakelaar laden",
+    "switchToDark": "Naar donker thema",
+    "switchToLight": "Naar licht thema",
+    "darkMode": "Donker thema",
+    "lightMode": "Licht thema"
   }
 }

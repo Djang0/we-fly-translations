@@ -317,5 +317,67 @@
     "facing": "orienté {bearing}",
     "callToAction": "Conditions, statistiques et historique des vols sur We-Fly",
     "fallbackSchemaName": "Décollage de parapente"
+  },
+  "actions": {
+    "tooltip": "Actions",
+    "edit": "Modifier",
+    "getElevation": "Récupérer l’altitude",
+    "geocode": "Géocoder",
+    "loading": "Chargement…",
+    "delete": "Supprimer"
+  },
+  "siteForm": {
+    "charCount": "{count}/{max} caractères",
+    "country": "Pays",
+    "countryPlaceholder": "Saisis le nom du pays",
+    "cancel": "Annuler",
+    "unexpectedError": "Une erreur inattendue est survenue"
+  },
+  "editSite": {
+    "title": "Modifier les infos du site",
+    "description": "Mets à jour les métadonnées du décollage pour améliorer la qualité des données",
+    "name": "Nom du site",
+    "namePlaceholder": "Saisis le nom du site",
+    "bearing": "Orientation",
+    "bearingPlaceholder": "ex. N, NO, SE, S-SO",
+    "displayName": "Nom affiché",
+    "displayNamePlaceholder": "Description complète du lieu",
+    "countryCode": "Code pays",
+    "countryCodePlaceholder": "ex. FR, CH, AT",
+    "invalid": "Vérifie que tous les champs respectent les conditions",
+    "updated": "Infos du site mises à jour",
+    "updateFailed": "Impossible de mettre à jour le site",
+    "updateFailedRetry": "Impossible de mettre à jour le site. Réessaie.",
+    "saving": "Enregistrement…",
+    "save": "Enregistrer les modifications"
+  },
+  "deleteSite": {
+    "title": "Supprimer le décollage",
+    "description": "Tu veux vraiment supprimer {name} ? Cette action est irréversible.",
+    "confirm": "Tu veux vraiment supprimer <strong>{name}</strong> ?",
+    "permanent": "Cette action est irréversible. Le site sera définitivement retiré de la base de données.",
+    "flightsNote": "Remarque : un site auquel des vols sont rattachés ne peut pas être supprimé. Réattribue ou supprime d’abord ces vols.",
+    "deleted": "Décollage supprimé",
+    "deleteFailed": "Impossible de supprimer le décollage",
+    "deleteFailedRetry": "Impossible de supprimer le décollage. Réessaie.",
+    "deleting": "Suppression…",
+    "submit": "Supprimer le site"
+  },
+  "renameSavage": {
+    "title": "Renommer le décollage sauvage",
+    "description": "Renomme ce décollage provisoire et regroupe les doublons proches à moins de 100 m",
+    "currentName": "Nom actuel",
+    "newName": "Nouveau nom du décollage",
+    "newNamePlaceholder": "Saisis le vrai nom du décollage",
+    "missingFields": "Remplis tous les champs obligatoires",
+    "renamed": "Décollage renommé. {flights, plural, one {# vol} other {# vols}} et {sites, plural, one {# site en doublon} other {# sites en doublon}} mis à jour.",
+    "renameFailed": "Impossible de renommer le décollage",
+    "renameFailedRetry": "Impossible de renommer le décollage. Réessaie.",
+    "willTitle": "Cette opération va :",
+    "willRename": "Renommer ce site avec le nouveau nom",
+    "willUpdateFlights": "Mettre à jour tous les vols partis de ce décollage à moins de 100 m",
+    "willDeleteDuplicates": "Supprimer les autres sites « Savage takeoff » à moins de 100 m",
+    "renaming": "Renommage…",
+    "submit": "Renommer le décollage"
   }
 }

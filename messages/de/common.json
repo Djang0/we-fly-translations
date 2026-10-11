@@ -37,5 +37,44 @@
     "faiTriangle": "FAI-Dreieck",
     "closedFreeTriangle": "Geschlossenes flaches Dreieck",
     "closedFaiTriangle": "Geschlossenes FAI-Dreieck"
+  },
+  "error": {
+    "status": "Status · Turbulenzen erkannt",
+    "title": "Da ist was schiefgelaufen.",
+    "body": "Die Seite ist beim Anflug in unerwartete Luft geraten. Der Absturz wurde aufgezeichnet. Versuch es noch einmal oder geh zurück zur Startseite.",
+    "retry": "Noch einmal versuchen",
+    "home": "Zurück zur Startseite",
+    "ref": "Ref. · {digest}"
+  },
+  "moreCount": "+{count} weitere",
+  "pioneer": {
+    "name": "Pionier",
+    "hint": "Einer der ersten 200 Piloten auf We-Fly",
+    "notEarned": "Noch nicht erflogen"
+  },
+  "back": "Zurück",
+  "subtitleFromSite": "{subtitle} von <link>{site}</link>",
+  "close": "Schließen",
+  "loadingData": "Daten werden geladen, bitte warten…",
+  "pickDate": "Datum wählen",
+  "pickDateRange": "Zeitraum wählen",
+  "scrollToTop": "Nach oben scrollen",
+  "rateLimit": {
+    "defaultMessage": "Limit erreicht. Bitte warte, bevor du weitere Anfragen stellst.",
+    "title": "Limit erreicht",
+    "retryIn": "Neuer Versuch in {time}",
+    "retryNow": "Jetzt erneut versuchen",
+    "pleaseWait": "Bitte warte {time}",
+    "retryAfterTimer": "Du kannst es erneut versuchen, sobald der Timer abgelaufen ist",
+    "ready": "Bereit zum Weitermachen",
+    "canRequestAgain": "Du kannst jetzt wieder Anfragen stellen",
+    "seconds": "{seconds} s",
+    "minutesSeconds": "{minutes} min {seconds} s"
+  },
+  "share": {
+    "label": "Teilen",
+    "copied": "Kopiert!",
+    "copyLink": "Link kopieren",
+    "email": "E-Mail"
   }
 }

@@ -72,7 +72,8 @@
       "aggressive": "<strong>2,0 à 5,0 G :</strong> manœuvres engagées et spirales",
       "extreme": "<strong>Plus de 5,0 G :</strong> manœuvres extrêmes (on approche des limites structurelles)",
       "method": "Cette analyse combine l’accélération verticale (issue des variations d’altitude) et l’accélération latérale (issue des virages).<br></br><b>Respecte toujours les limites de charge certifiées de ta voile</b> (8 G pendant 3 secondes pour la norme <standard>EN 926-1</standard>)."
-    }
+    },
+    "statsHelp": "Médiane, moyenne, variance et écart-type, tu t’y perds ? <link>Jette un œil ici !</link>"
   },
   "quality": {
     "outstanding": "Exceptionnel",

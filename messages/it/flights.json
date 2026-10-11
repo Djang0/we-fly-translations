@@ -380,7 +380,9 @@
     "showNearby": "Mostra i decolli vicini",
     "cancel": "Annulla",
     "updating": "Aggiornamento...",
-    "submit": "Aggiorna il decollo"
+    "submit": "Aggiorna il decollo",
+    "adminTools": "Strumenti di amministrazione",
+    "renameSavage": "Rinomina questo decollo Savage"
   },
   "leagues": {
     "title": "Invia a un campionato",

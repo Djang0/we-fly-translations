@@ -7,8 +7,17 @@
     "acct": "Account"
   },
   "section": {
-    "fly": { "logbook": "Libretto", "cockpit": "Cockpit", "success": "Traguardi" },
-    "com": { "overview": "Panoramica", "feed": "Bacheca", "people": "Persone", "stats": "Statistiche" },
+    "fly": {
+      "logbook": "Libretto",
+      "cockpit": "Cockpit",
+      "success": "Traguardi"
+    },
+    "com": {
+      "overview": "Panoramica",
+      "feed": "Bacheca",
+      "people": "Persone",
+      "stats": "Statistiche"
+    },
     "acct": {
       "profile": "Profilo",
       "anomalies": "Anomalie",
@@ -50,7 +59,10 @@
     "privacyPolicy": "Informativa privacy",
     "about": "Chi siamo"
   },
-  "session": { "logOut": "Esci", "accountMenu": "Menu account" },
+  "session": {
+    "logOut": "Esci",
+    "accountMenu": "Menu account"
+  },
   "topBar": {
     "home": "Home di We-Fly",
     "main": "Principale",
@@ -96,12 +108,30 @@
       "help": "Aiuto"
     },
     "jump": {
-      "logbook": { "title": "Libretto", "subtitle": "Voli · Vele" },
-      "overview": { "title": "Cockpit · Panoramica", "subtitle": "Le tue statistiche" },
-      "thermaling": { "title": "Cockpit · Termiche", "subtitle": "Rateo di salita, termiche" },
-      "takeoffStats": { "title": "Cockpit · Decollo", "subtitle": "Ore per sito" },
-      "success": { "title": "Traguardi", "subtitle": "Badge" },
-      "takeoffs": { "title": "Decolli", "subtitle": "Database dei siti" }
+      "logbook": {
+        "title": "Libretto",
+        "subtitle": "Voli · Vele"
+      },
+      "overview": {
+        "title": "Cockpit · Panoramica",
+        "subtitle": "Le tue statistiche"
+      },
+      "thermaling": {
+        "title": "Cockpit · Termiche",
+        "subtitle": "Rateo di salita, termiche"
+      },
+      "takeoffStats": {
+        "title": "Cockpit · Decollo",
+        "subtitle": "Ore per sito"
+      },
+      "success": {
+        "title": "Traguardi",
+        "subtitle": "Badge"
+      },
+      "takeoffs": {
+        "title": "Decolli",
+        "subtitle": "Database dei siti"
+      }
     },
     "actions": {
       "uploadFlights": "Carica voli",
@@ -113,8 +143,15 @@
       "switchToDark": "Passa al tema scuro",
       "about": "Info su We-Fly"
     },
-    "articleKind": { "docs": "Doc", "whatsNew": "Novità" },
-    "hints": { "move": "↑↓ sposta", "open": "↵ apri", "close": "esc chiudi" }
+    "articleKind": {
+      "docs": "Doc",
+      "whatsNew": "Novità"
+    },
+    "hints": {
+      "move": "↑↓ sposta",
+      "open": "↵ apri",
+      "close": "esc chiudi"
+    }
   },
   "tabBar": {
     "upload": "Carica",
@@ -133,5 +170,23 @@
     "signIn": "Accedi",
     "startLogging": "Inizia a registrare",
     "menu": "Menu"
+  },
+  "notifications": {
+    "bellAria": "{count, plural, =0 {Nessuna nuova notifica} one {# notifica non letta} other {# notifiche non lette}}",
+    "title": "Notifiche",
+    "newCount": "{count} nuove",
+    "empty": "Nessuna notifica",
+    "anomalies": "{count, plural, one {# anomalia nei dati da controllare} other {# anomalie nei dati da controllare}}",
+    "reviewRequested": "{name} ha chiesto una revisione",
+    "annotated": "{name} ha annotato il tuo volo",
+    "followed": "ha iniziato a seguirti",
+    "unread": "Non lette"
+  },
+  "themeToggle": {
+    "loading": "Caricamento del selettore del tema",
+    "switchToDark": "Passa al tema scuro",
+    "switchToLight": "Passa al tema chiaro",
+    "darkMode": "Tema scuro",
+    "lightMode": "Tema chiaro"
   }
 }

@@ -1,10 +1,20 @@
 {
   "baseLayers": {
-    "wefly": { "name": "Thème We-Fly" },
-    "opentopomap": { "name": "OpenTopoMap" },
-    "terrain": { "name": "Relief (OpenFreeMap)" },
-    "satellite": { "name": "Satellite" },
-    "geoportail": { "name": "Geoportail.fr (lent)" }
+    "wefly": {
+      "name": "Thème We-Fly"
+    },
+    "opentopomap": {
+      "name": "OpenTopoMap"
+    },
+    "terrain": {
+      "name": "Relief (OpenFreeMap)"
+    },
+    "satellite": {
+      "name": "Satellite"
+    },
+    "geoportail": {
+      "name": "Geoportail.fr (lent)"
+    }
   },
   "measure": {
     "toggle": "Mesurer une distance",
@@ -16,7 +26,8 @@
   "flight": {
     "takeoff": "Décollage",
     "landing": "Atterrissage",
-    "legPopup": "{name} : {distance}"
+    "legPopup": "{name} : {distance}",
+    "noTrack": "Aucune donnée de trace disponible"
   },
   "siteType": {
     "takeoff": "Décollage",
@@ -59,10 +70,10 @@
       "oct": "Automne"
     },
     "skywaysTime": {
+      "10": "Soir",
       "all": "Toute la journée",
       "04": "Matin",
-      "07": "Midi",
-      "10": "Soir"
+      "07": "Midi"
     },
     "floorAny": "Tous",
     "floorBelow": "Sous {value} m",

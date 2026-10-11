@@ -16,7 +16,8 @@
   "flight": {
     "takeoff": "Start",
     "landing": "Landung",
-    "legPopup": "{name}: {distance}"
+    "legPopup": "{name}: {distance}",
+    "noTrack": "Keine Trackdaten verfügbar"
   },
   "siteType": {
     "takeoff": "Startplatz",

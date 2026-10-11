@@ -380,7 +380,9 @@
     "showNearby": "Startplätze in der Nähe anzeigen",
     "cancel": "Abbrechen",
     "updating": "Wird aktualisiert…",
-    "submit": "Startplatz aktualisieren"
+    "submit": "Startplatz aktualisieren",
+    "adminTools": "Admin-Werkzeuge",
+    "renameSavage": "Diesen Savage-Startplatz umbenennen"
   },
   "leagues": {
     "title": "An einen Wettbewerb senden",

@@ -159,6 +159,7 @@
       "neutral": "Condicionalmente inestable",
       "stable": "Masa de aire estable",
       "unknown": "Estabilidad"
-    }
+    },
+    "lapseRate": "({value} °C/km)"
   }
 }

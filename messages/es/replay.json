@@ -34,7 +34,9 @@
     "varioLegend": "Vario · {unit}",
     "gaggle": "Grupo · <n>{count}</n> {count, plural, one {piloto} other {pilotos}} de este despegue",
     "openComparison": "Abrir estos pilotos en la comparación completa",
-    "loadingTerrain": "Cargando el terreno…"
+    "loadingTerrain": "Cargando el terreno…",
+    "legend": "Leyenda",
+    "controlsHint": "Arrastra para girar · arrastra con el botón derecho para desplazar · usa la rueda para hacer zoom"
   },
   "telemetry": {
     "alt": "Alt.",
@@ -282,7 +284,8 @@
     "alertMax": "máx. {altitude}",
     "attachedFile": "el archivo adjunto",
     "shareTitle": "Repetición 3D de {pilot, select, other {{pilot}}} desde {place} · We-Fly",
-    "shareFallbackPlace": "un vuelo en parapente"
+    "shareFallbackPlace": "un vuelo en parapente",
+    "notEnoughTrack": "No hay suficientes datos de track para crear una repetición 3D."
   },
   "recap": {
     "unavailable": "No hay resumen disponible para esta temporada.",

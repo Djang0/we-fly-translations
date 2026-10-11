@@ -170,5 +170,23 @@
     "signIn": "Se connecter",
     "startLogging": "Ouvrir mon carnet",
     "menu": "Menu"
+  },
+  "notifications": {
+    "bellAria": "{count, plural, =0 {Aucune nouvelle notification} one {# notification non lue} other {# notifications non lues}}",
+    "title": "Notifications",
+    "newCount": "{count} nouvelles",
+    "empty": "Aucune notification",
+    "anomalies": "{count, plural, one {# anomalie de données à vérifier} other {# anomalies de données à vérifier}}",
+    "reviewRequested": "{name} a demandé un débrief",
+    "annotated": "{name} a annoté ton vol",
+    "followed": "a commencé à te suivre",
+    "unread": "Non lue"
+  },
+  "themeToggle": {
+    "loading": "Chargement du sélecteur de thème",
+    "switchToDark": "Passer en mode sombre",
+    "switchToLight": "Passer en mode clair",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair"
   }
 }

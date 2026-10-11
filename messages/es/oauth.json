@@ -1,0 +1,36 @@
+{
+  "authorize": {
+    "invalidTitle": "Solicitud de autorización no válida",
+    "invalidDescription": "No podemos redirigirte con seguridad a la aplicación que hace la solicitud, así que mostramos el error aquí.",
+    "invalidReport": "Si has llegado a esta página desde una app de terceros, comunica este error a su desarrollador.",
+    "backToFlights": "Volver a tus vuelos",
+    "kicker": "Autorizar aplicación",
+    "wantsAccess": "<app>{name}</app> <muted>quiere acceder a tu cuenta</muted>",
+    "scopesHeading": "Esta app podrá:",
+    "homepage": "Web de la app: <link>{url}</link>",
+    "revokeHint": "Puedes retirar este acceso cuando quieras desde <link>tu panel de desarrollador</link>."
+  },
+  "device": {
+    "kicker": "Autorización de dispositivo",
+    "title": "Conecta un dispositivo",
+    "description": "Escribe el código que aparece en tu dispositivo. Tiene este aspecto: <code>{example}</code>.",
+    "invalidTitle": "Ese código no ha funcionado"
+  },
+  "consent": {
+    "pendingReview": "Esta aplicación aún está pendiente de revisión. La autorizas porque eres su propietario; los demás usuarios no podrán dar su consentimiento hasta que un administrador la apruebe.",
+    "signedInAs": "Has iniciado sesión como <b>{email}</b>.",
+    "connectedTitle": "Ya estás conectado",
+    "connectedDescription": "Vuelve a tu dispositivo: debería recibir el nuevo token en unos segundos. Ya puedes cerrar esta pestaña.",
+    "cancelledTitle": "Autorización cancelada",
+    "cancelledDescription": "Tu dispositivo verá la cancelación y dejará de consultar. Ya puedes cerrar esta pestaña.",
+    "deviceKicker": "Conecta un dispositivo",
+    "code": "Código <mono>{code}</mono>",
+    "deviceScopesHeading": "Este dispositivo podrá:"
+  },
+  "form": {
+    "authorize": "Autorizar",
+    "working": "Un momento…",
+    "cancel": "Cancelar",
+    "continue": "Continuar"
+  }
+}

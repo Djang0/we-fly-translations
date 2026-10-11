@@ -380,7 +380,9 @@
     "showNearby": "Startplaatsen in de buurt tonen",
     "cancel": "Annuleren",
     "updating": "Bijwerken...",
-    "submit": "Startplaats bijwerken"
+    "submit": "Startplaats bijwerken",
+    "adminTools": "Beheerderstools",
+    "renameSavage": "Deze Savage-startplaats hernoemen"
   },
   "leagues": {
     "title": "Naar een online competitie sturen",

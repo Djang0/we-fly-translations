@@ -159,6 +159,7 @@
       "neutral": "Bedingt labil",
       "stable": "Stabile Luftmasse",
       "unknown": "Schichtung"
-    }
+    },
+    "lapseRate": "({value} °C/km)"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "authorize": {
+    "invalidTitle": "Ungültige Autorisierungsanfrage",
+    "invalidDescription": "Wir können dich nicht sicher zur anfragenden Anwendung zurückleiten, deshalb zeigen wir den Fehler hier an.",
+    "invalidReport": "Wenn du von einer Drittanbieter-App auf diese Seite gekommen bist, melde den Fehler bitte deren Entwickler.",
+    "backToFlights": "Zurück zu deinen Flügen",
+    "kicker": "Anwendung autorisieren",
+    "wantsAccess": "<app>{name}</app> <muted>möchte auf dein Konto zugreifen</muted>",
+    "scopesHeading": "Diese App darf dann:",
+    "homepage": "Website der App: <link>{url}</link>",
+    "revokeHint": "Du kannst diesen Zugriff jederzeit in <link>deinem Entwickler-Dashboard</link> widerrufen."
+  },
+  "device": {
+    "kicker": "Geräte-Autorisierung",
+    "title": "Gerät verbinden",
+    "description": "Gib den Code ein, der auf deinem Gerät angezeigt wird. Er sieht so aus: <code>{example}</code>.",
+    "invalidTitle": "Dieser Code hat nicht funktioniert"
+  },
+  "consent": {
+    "pendingReview": "Diese Anwendung wird noch geprüft. Du autorisierst sie, weil sie dir gehört; andere Nutzer können erst zustimmen, wenn ein Admin sie freigibt.",
+    "signedInAs": "Angemeldet als <b>{email}</b>.",
+    "connectedTitle": "Du bist verbunden",
+    "connectedDescription": "Geh zurück zu deinem Gerät: Es sollte den neuen Token in wenigen Sekunden übernehmen. Du kannst diesen Tab schließen.",
+    "cancelledTitle": "Autorisierung abgebrochen",
+    "cancelledDescription": "Dein Gerät bemerkt den Abbruch und hört auf abzufragen. Du kannst diesen Tab schließen.",
+    "deviceKicker": "Gerät verbinden",
+    "code": "Code <mono>{code}</mono>",
+    "deviceScopesHeading": "Dieses Gerät darf dann:"
+  },
+  "form": {
+    "authorize": "Autorisieren",
+    "working": "Wird bearbeitet…",
+    "cancel": "Abbrechen",
+    "continue": "Weiter"
+  }
+}

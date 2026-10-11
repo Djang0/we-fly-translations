@@ -317,5 +317,67 @@
     "facing": "ausgerichtet nach {bearing}",
     "callToAction": "Bedingungen, Statistik und Flughistorie auf We-Fly ansehen",
     "fallbackSchemaName": "Gleitschirm-Startplatz"
+  },
+  "actions": {
+    "tooltip": "Aktionen",
+    "edit": "Bearbeiten",
+    "getElevation": "Höhe abrufen",
+    "geocode": "Geocodieren",
+    "loading": "Wird geladen…",
+    "delete": "Löschen"
+  },
+  "siteForm": {
+    "charCount": "{count}/{max} Zeichen",
+    "country": "Land",
+    "countryPlaceholder": "Name des Landes eingeben",
+    "cancel": "Abbrechen",
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten"
+  },
+  "editSite": {
+    "title": "Startplatz bearbeiten",
+    "description": "Aktualisiere die Startplatzdaten für eine bessere Datenqualität",
+    "name": "Name des Startplatzes",
+    "namePlaceholder": "Name des Startplatzes eingeben",
+    "bearing": "Startrichtung",
+    "bearingPlaceholder": "z. B. N, NW, SO, S-SW",
+    "displayName": "Anzeigename",
+    "displayNamePlaceholder": "Vollständige Ortsbeschreibung",
+    "countryCode": "Ländercode",
+    "countryCodePlaceholder": "z. B. FR, CH, AT",
+    "invalid": "Bitte prüfe, ob alle Felder die Anforderungen erfüllen",
+    "updated": "Startplatzdaten aktualisiert",
+    "updateFailed": "Startplatz konnte nicht aktualisiert werden",
+    "updateFailedRetry": "Startplatz konnte nicht aktualisiert werden. Bitte versuch es noch einmal.",
+    "saving": "Wird gespeichert…",
+    "save": "Änderungen speichern"
+  },
+  "deleteSite": {
+    "title": "Startplatz löschen",
+    "description": "Willst du {name} wirklich löschen? Das lässt sich nicht rückgängig machen.",
+    "confirm": "Willst du <strong>{name}</strong> wirklich löschen?",
+    "permanent": "Das lässt sich nicht rückgängig machen. Der Startplatz wird endgültig aus der Datenbank entfernt.",
+    "flightsNote": "Hinweis: Startplätze mit zugeordneten Flügen können nicht gelöscht werden. Ordne diese Flüge zuerst neu zu oder lösche sie.",
+    "deleted": "Startplatz gelöscht",
+    "deleteFailed": "Startplatz konnte nicht gelöscht werden",
+    "deleteFailedRetry": "Startplatz konnte nicht gelöscht werden. Bitte versuch es noch einmal.",
+    "deleting": "Wird gelöscht…",
+    "submit": "Startplatz löschen"
+  },
+  "renameSavage": {
+    "title": "Savage-Startplatz umbenennen",
+    "description": "Benenne diesen Platzhalter-Startplatz um und führe Duplikate im Umkreis von 100 m zusammen",
+    "currentName": "Aktueller Name",
+    "newName": "Neuer Name des Startplatzes",
+    "newNamePlaceholder": "Echten Namen des Startplatzes eingeben",
+    "missingFields": "Bitte fülle alle Pflichtfelder aus",
+    "renamed": "Startplatz umbenannt. {flights, plural, one {# Flug} other {# Flüge}} und {sites, plural, one {# doppelter Startplatz} other {# doppelte Startplätze}} aktualisiert.",
+    "renameFailed": "Startplatz konnte nicht umbenannt werden",
+    "renameFailedRetry": "Startplatz konnte nicht umbenannt werden. Bitte versuch es noch einmal.",
+    "willTitle": "Dieser Vorgang wird:",
+    "willRename": "diesen Startplatz auf den neuen Namen umbenennen",
+    "willUpdateFlights": "alle Flüge mit diesem Startplatz im Umkreis von 100 m aktualisieren",
+    "willDeleteDuplicates": "andere „Savage takeoff“-Startplätze im Umkreis von 100 m löschen",
+    "renaming": "Wird umbenannt…",
+    "submit": "Startplatz umbenennen"
   }
 }

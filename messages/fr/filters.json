@@ -49,7 +49,8 @@
     "minDistance": "Distance min",
     "thermalsPerFlight": "Thermiques par vol",
     "noThermalData": "Pas encore de données de thermiques dans tes vols.",
-    "thermalCount": "Nombre de thermiques"
+    "thermalCount": "Nombre de thermiques",
+    "onCount": "{count} actifs"
   },
   "date": {
     "anyDate": "Toutes les dates",

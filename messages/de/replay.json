@@ -34,7 +34,9 @@
     "varioLegend": "Vario · {unit}",
     "gaggle": "Pulk · <n>{count}</n> {count, plural, one {Pilot} other {Piloten}} von diesem Startplatz",
     "openComparison": "Diese Piloten im vollständigen Vergleich öffnen",
-    "loadingTerrain": "Gelände wird geladen…"
+    "loadingTerrain": "Gelände wird geladen…",
+    "legend": "Legende",
+    "controlsHint": "Ziehen zum Drehen · Rechtsziehen zum Verschieben · Scrollen zum Zoomen"
   },
   "telemetry": {
     "alt": "Höhe",
@@ -282,7 +284,8 @@
     "alertMax": "max. {altitude}",
     "attachedFile": "der angehängten Datei",
     "shareTitle": "{pilot, select, other {3D-Replay von {pilot}}} · {place} · We-Fly",
-    "shareFallbackPlace": "Gleitschirmflug"
+    "shareFallbackPlace": "Gleitschirmflug",
+    "notEnoughTrack": "Nicht genug Trackdaten für ein 3D-Replay."
   },
   "recap": {
     "unavailable": "Für diese Saison gibt es keinen Rückblick.",

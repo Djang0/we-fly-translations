@@ -72,7 +72,8 @@
       "aggressive": "<strong>2,0-5,0 G:</strong> maniobras agresivas y barrenas",
       "extreme": "<strong>Más de 5,0 G:</strong> maniobras extremas (cerca de los límites estructurales)",
       "method": "Este análisis combina la aceleración vertical (por los cambios de altitud) y la aceleración lateral (por los virajes).<br></br><b>Respeta siempre los límites G homologados de tu vela</b> (8G durante 3 segundos según <standard>EN 926-1</standard>)."
-    }
+    },
+    "statsHelp": "¿Te lías con la mediana, la media, la varianza y la desviación? <link>¡Échale un vistazo!</link>"
   },
   "quality": {
     "outstanding": "Sobresaliente",
