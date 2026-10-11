@@ -1,0 +1,83 @@
+{
+  "header": {
+    "eyebrow": "Vol. II · Lo scaffale della letteratura",
+    "title": "Riferimenti scientifici",
+    "subtitle": "La letteratura accademica dietro i modelli di We-Fly per il rilevamento delle termiche, la stima del vento e l'analisi del volo. <em>Ogni coefficiente ha una fonte.</em>"
+  },
+  "stats": {
+    "inCorpus": "Nel corpus",
+    "inCorpusSub": "selezionati · maggio 2026",
+    "openAccess": "Open access",
+    "openAccessSub": "link diretto",
+    "topicsTracked": "Temi seguiti",
+    "topicsTrackedSub": "vedi barra laterale",
+    "oldestEntry": "Voce più antica",
+    "oldestEntrySub": "Hurt, aerodinamica"
+  },
+  "filters": {
+    "show": "Filtri",
+    "hide": "Nascondi filtri",
+    "type": "Tipo",
+    "topic": "Tema",
+    "era": "Epoca",
+    "access": "Accesso",
+    "allReferences": "Tutti i riferimenti",
+    "researchArticles": "Articoli di ricerca",
+    "books": "Libri",
+    "educational": "Didattica",
+    "openAccessOnly": "Solo open access"
+  },
+  "types": {
+    "research": "Ricerca",
+    "book": "Libri",
+    "edu": "Didattica"
+  },
+  "topics": {
+    "thermalModelling": "Modellazione delle termiche",
+    "crowdsourcedSensing": "Rilevamento collettivo",
+    "meteorology": "Meteorologia",
+    "xcTechnique": "Tecnica di volo di distanza",
+    "pilotTechnique": "Tecnica di pilotaggio",
+    "wingPerformance": "Prestazioni della vela",
+    "openData": "Open data"
+  },
+  "eras": {
+    "2020s": "Anni 2020",
+    "2010s": "Anni 2010",
+    "2000s": "Anni 2000",
+    "pre2000": "Prima del 2000"
+  },
+  "search": {
+    "placeholder": "Cerca titoli, autori, riviste, temi…",
+    "aria": "Cerca nei riferimenti"
+  },
+  "entries": "{count, plural, one {{total} voce} other {{total} voci}}",
+  "entriesFiltered": "{count, plural, one {{shown} / {total} voce} other {{shown} / {total} voci}}",
+  "sort": {
+    "label": "Ordina",
+    "aria": "Ordina i riferimenti",
+    "curated": "Selezione",
+    "newest": "Più recenti",
+    "oldest": "Meno recenti",
+    "alpha": "Titolo A → Z"
+  },
+  "empty": "Nessun riferimento corrisponde ai filtri attuali.",
+  "endOfCorpus": "Fine del corpus · {shown} di {total} mostrati",
+  "row": {
+    "openAccess": "Open access",
+    "collapse": "Comprimi",
+    "expand": "Leggi abstract e accesso",
+    "abstract": "Abstract",
+    "whyItMatters": "Perché conta qui",
+    "access": "Apri la risorsa",
+    "noLink": "Nessun link diretto",
+    "copyAria": "Copia la citazione negli appunti",
+    "copy": "Copia citazione",
+    "copied": "Citazione copiata"
+  },
+  "meta": {
+    "title": "Riferimenti scientifici",
+    "description": "Ricerche accademiche, libri e articoli tecnici alla base degli algoritmi di We-Fly per il rilevamento delle termiche e l'analisi del volo.",
+    "ogTitle": "Riferimenti scientifici | We-Fly"
+  }
+}

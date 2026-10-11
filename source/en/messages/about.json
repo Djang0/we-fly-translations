@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "ariaLabel": "About we-fly",
+    "eyebrow": "About the project · 2025 to present",
+    "titleLine1": "A logbook",
+    "titleLine2": "for <em>precision</em>",
+    "titleLine3": "pilots.",
+    "lede": "We-fly is a community-built record of every flight: the wind that day, the wing you flew, the line you took. <em>Built by pilots, for pilots, in alpha.</em>",
+    "panelAria": "Build info",
+    "status": "Status",
+    "operational": "Operational",
+    "version": "Version",
+    "released": "released {date}",
+    "channel": "Channel",
+    "channels": {
+      "alpha": "alpha",
+      "beta": "beta",
+      "stable": "stable"
+    },
+    "roughEdges": "expect rough edges",
+    "license": "License",
+    "proprietary": "Proprietary",
+    "freeToUse": "free to use",
+    "privacy": "Privacy",
+    "gdpr": "GDPR",
+    "gdprSub": "consent first, export or delete anytime",
+    "origin": "Origin",
+    "originSub": "Plaine-Joux · first commit",
+    "pilotRole": "Developer · Pilot · Coffee debugger",
+    "homeSite": "<site>La Roche en Ardenne, Corimont</site> home site",
+    "builtWeFly": "Built we-fly · 2025",
+    "source": "Source",
+    "studio": "Studio",
+    "opensInNewTab": "(opens in a new tab)",
+    "ctaKicker": "Ready to log",
+    "ctaHeadline": "Start tracking every <em>thermal, ridge,</em> and glide.",
+    "ctaOpen": "Open the logbook",
+    "ctaStart": "Start the logbook"
+  },
+  "changelog": {
+    "title": "Release <em>history</em>",
+    "blurb": "An honest record of what shipped, what broke, and what we fixed. Newest at the top.",
+    "releaseCount": "{count, plural, one {# release} other {# releases}}",
+    "releaseCountOldest": "{count, plural, one {# release} other {# releases}} · oldest {date}",
+    "filterAria": "Filter releases",
+    "filters": {
+      "all": "All",
+      "alpha": "Alpha",
+      "feat": "Features",
+      "fix": "Fixes"
+    },
+    "kinds": {
+      "added": "Added",
+      "changed": "Changed",
+      "fixed": "Fixed",
+      "removed": "Removed"
+    },
+    "unreleasedLabel": "unreleased",
+    "inFlight": "in flight",
+    "latest": "Latest",
+    "shiny": "✦ Shiny",
+    "unreleasedTag": "Unreleased",
+    "changeCount": "{count, plural, one {# change} other {# changes}}"
+  },
+  "meta": {
+    "title": "About",
+    "description": "Learn about We-Fly, the professional paragliding logbook platform built for precision pilots.",
+    "ogTitle": "About We-Fly"
+  }
+}

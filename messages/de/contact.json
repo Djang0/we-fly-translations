@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "ariaLabel": "Kontakt zu we-fly",
+    "eyebrow": "Offene Frequenz · wir hören immer mit",
+    "title": "Funk an den Tower.",
+    "subtitle": "Ein Bug, eine Idee, ein Bart, den du dir nicht erklären kannst. Schreib's auf. Wir lesen alles, und die Antwort kommt von einem echten Piloten, meist innerhalb von achtundvierzig Stunden.",
+    "channel": {
+      "title": "Kanal",
+      "caption": "Offene Frequenz",
+      "status": "Status",
+      "statusValue": "Empfangsbereit",
+      "response": "Antwort",
+      "responseValue": "24 bis 48 h",
+      "responseSub": "Werktage",
+      "readingWindow": "Lesezeiten",
+      "readingWindowValue": "GMT+1",
+      "readingWindowSub": "Belgien",
+      "privacy": "Datenschutz",
+      "privacyValue": "SSL · Ende-zu-Ende",
+      "privacySub": "wird nie veröffentlicht"
+    },
+    "noEmail": {
+      "title": "Warum keine E-Mail-Adresse",
+      "body": "Wir veröffentlichen keine Mailadresse auf der Seite. Das Formular blockt Bots und bremst Missbrauch aus. <em>Gleiches Postfach</em>, weniger Rauschen."
+    },
+    "ideas": {
+      "title": "Ideen & Wünsche",
+      "body": "Änderungswünsche, Bugmeldungen, halbgare Feature-Ideen: Wirf alles ins Formular. Jede Nachricht wird gelesen, und Antworten kommen meist innerhalb von <em>24 bis 48 Stunden</em>."
+    },
+    "footerLeft": "we-fly.cloud · Kontakt",
+    "footerRight": "von Piloten für Piloten"
+  },
+  "form": {
+    "title": "Nachricht senden",
+    "caption": "Jede Nachricht wird gelesen.",
+    "from": "Von",
+    "replyTo": "Antwort an",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "namePlaceholder": "Dein Name",
+    "emailPlaceholder": "du@irgendwo.tld",
+    "subjectPlaceholder": "Ein Bug, ein Bart, eine Idee…",
+    "messagePlaceholder": "Erzähl uns, was dich beschäftigt. Kontext hilft: was du gerade gemacht hast, was du gesehen hast, was dich überrascht hat.",
+    "footnote": "Antworten kommen von einem echten Piloten. Deine Nachricht bleibt <em>unter uns</em>: nie veröffentlicht, nie weiterverkauft.",
+    "send": "Nachricht funken",
+    "sending": "Wird gesendet",
+    "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuch es später noch einmal.",
+    "errors": {
+      "nameRequired": "Name ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Sieht nicht nach einer E-Mail aus",
+      "subjectRequired": "Betreff ist erforderlich",
+      "messageRequired": "Nachricht ist erforderlich",
+      "minChars": "Mindestens {min} Zeichen",
+      "maxChars": "Höchstens {max} Zeichen"
+    }
+  },
+  "meta": {
+    "title": "Kontakt",
+    "description": "Nimm Kontakt mit dem We-Fly Team auf. Schick uns deine Fragen, Vorschläge oder dein Feedback über unser sicheres Kontaktformular.",
+    "ogTitle": "Kontakt | We-Fly"
+  },
+  "result": {
+    "thanks": "Danke für deine Nachricht. Wir melden uns bald!",
+    "tooFast": "Nimm dir kurz Zeit, deine Nachricht vor dem Absenden noch einmal durchzulesen.",
+    "expired": "Deine Sitzung ist abgelaufen. Bitte lade die Seite neu und versuch es noch einmal.",
+    "nameRequired": "Bitte gib deinen Namen an (mindestens 2 Zeichen).",
+    "emailInvalid": "Bitte gib eine gültige E-Mail-Adresse an.",
+    "subjectRequired": "Bitte gib einen Betreff an (mindestens 3 Zeichen).",
+    "messageRequired": "Bitte schreib eine Nachricht (mindestens 10 Zeichen).",
+    "nameTooLong": "Der Name darf höchstens 100 Zeichen lang sein.",
+    "subjectTooLong": "Der Betreff darf höchstens 200 Zeichen lang sein.",
+    "messageTooLong": "Die Nachricht darf höchstens 5000 Zeichen lang sein.",
+    "sendFailed": "Nachricht konnte nicht gesendet werden. Bitte versuch es später noch einmal.",
+    "sent": "Danke für deine Nachricht! Wir haben dir eine Bestätigung per E-Mail geschickt und melden uns bald.",
+    "unexpected": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuch es später noch einmal."
+  }
+}

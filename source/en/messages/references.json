@@ -1,0 +1,83 @@
+{
+  "header": {
+    "eyebrow": "Vol. II · The literature shelf",
+    "title": "Research references",
+    "subtitle": "The academic record behind We-Fly's thermal detection, wind estimation, and flight-analysis models. <em>Every coefficient has a source.</em>"
+  },
+  "stats": {
+    "inCorpus": "In corpus",
+    "inCorpusSub": "curated · May 2026",
+    "openAccess": "Open access",
+    "openAccessSub": "directly linkable",
+    "topicsTracked": "Topics tracked",
+    "topicsTrackedSub": "see sidebar",
+    "oldestEntry": "Oldest entry",
+    "oldestEntrySub": "Hurt, aerodynamics"
+  },
+  "filters": {
+    "show": "Filters",
+    "hide": "Hide filters",
+    "type": "Type",
+    "topic": "Topic",
+    "era": "Era",
+    "access": "Access",
+    "allReferences": "All references",
+    "researchArticles": "Research articles",
+    "books": "Books",
+    "educational": "Educational",
+    "openAccessOnly": "Open access only"
+  },
+  "types": {
+    "research": "Research",
+    "book": "Books",
+    "edu": "Educational"
+  },
+  "topics": {
+    "thermalModelling": "Thermal modelling",
+    "crowdsourcedSensing": "Crowdsourced sensing",
+    "meteorology": "Meteorology",
+    "xcTechnique": "XC technique",
+    "pilotTechnique": "Pilot technique",
+    "wingPerformance": "Wing performance",
+    "openData": "Open data"
+  },
+  "eras": {
+    "2020s": "2020s",
+    "2010s": "2010s",
+    "2000s": "2000s",
+    "pre2000": "Before 2000"
+  },
+  "search": {
+    "placeholder": "Search titles, authors, venues, topics…",
+    "aria": "Search references"
+  },
+  "entries": "{count, plural, one {{total} entry} other {{total} entries}}",
+  "entriesFiltered": "{count, plural, one {{shown} / {total} entry} other {{shown} / {total} entries}}",
+  "sort": {
+    "label": "Sort",
+    "aria": "Sort references",
+    "curated": "Curated",
+    "newest": "Newest first",
+    "oldest": "Oldest first",
+    "alpha": "A → Z by title"
+  },
+  "empty": "No references match the current filters.",
+  "endOfCorpus": "End of corpus · {shown} of {total} shown",
+  "row": {
+    "openAccess": "Open access",
+    "collapse": "Collapse",
+    "expand": "Read abstract & access",
+    "abstract": "Abstract",
+    "whyItMatters": "Why it matters here",
+    "access": "Access resource",
+    "noLink": "No direct link",
+    "copyAria": "Copy citation to clipboard",
+    "copy": "Copy citation",
+    "copied": "Citation copied"
+  },
+  "meta": {
+    "title": "Scientific references",
+    "description": "Academic research, books and technical articles behind We-Fly's thermal detection and flight analysis algorithms.",
+    "ogTitle": "Scientific references | We-Fly"
+  }
+}

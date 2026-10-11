@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "ariaLabel": "À propos de we-fly",
+    "eyebrow": "À propos du projet · depuis 2025",
+    "titleLine1": "Un carnet",
+    "titleLine2": "de vol de <em>précision</em>",
+    "titleLine3": "pour pilotes.",
+    "lede": "We-fly, c’est le registre communautaire de chaque vol : le vent ce jour-là, la voile que tu avais, la ligne que tu as prise. <em>Fait par des pilotes, pour des pilotes, en alpha.</em>",
+    "panelAria": "Infos de version",
+    "status": "Statut",
+    "operational": "Opérationnel",
+    "version": "Version",
+    "released": "sortie le {date}",
+    "channel": "Canal",
+    "channels": {
+      "alpha": "alpha",
+      "beta": "bêta",
+      "stable": "stable"
+    },
+    "roughEdges": "ça peut encore secouer",
+    "license": "Licence",
+    "proprietary": "Propriétaire",
+    "freeToUse": "gratuit",
+    "privacy": "Confidentialité",
+    "gdpr": "RGPD",
+    "gdprSub": "consentement d’abord, export ou suppression à tout moment",
+    "origin": "Origine",
+    "originSub": "Plaine-Joux · premier commit",
+    "pilotRole": "Développeur · Pilote · Débogueur au café",
+    "homeSite": "Site d’attache : <site>La Roche en Ardenne, Corimont</site>",
+    "builtWeFly": "A créé we-fly · 2025",
+    "source": "Code source",
+    "studio": "Studio",
+    "opensInNewTab": "(s’ouvre dans un nouvel onglet)",
+    "ctaKicker": "Prêt à décoller",
+    "ctaHeadline": "Enregistre chaque <em>thermique, chaque vol de pente</em> et chaque transition.",
+    "ctaOpen": "Ouvrir le carnet de vol",
+    "ctaStart": "Démarrer ton carnet de vol"
+  },
+  "changelog": {
+    "title": "Historique des <em>versions</em>",
+    "blurb": "Le journal honnête de ce qui est sorti, de ce qui a cassé et de ce qu’on a réparé. Le plus récent en haut.",
+    "releaseCount": "{count, plural, one {# version} other {# versions}}",
+    "releaseCountOldest": "{count, plural, one {# version} other {# versions}} · la plus ancienne le {date}",
+    "filterAria": "Filtrer les versions",
+    "filters": {
+      "all": "Toutes",
+      "alpha": "Alpha",
+      "feat": "Nouveautés",
+      "fix": "Correctifs"
+    },
+    "kinds": {
+      "added": "Ajouté",
+      "changed": "Modifié",
+      "fixed": "Corrigé",
+      "removed": "Supprimé"
+    },
+    "unreleasedLabel": "non publiée",
+    "inFlight": "en vol",
+    "latest": "Dernière",
+    "shiny": "✦ Shiny",
+    "unreleasedTag": "Non publiée",
+    "changeCount": "{count, plural, one {# changement} other {# changements}}"
+  },
+  "meta": {
+    "title": "À propos",
+    "description": "Découvre We-Fly, le carnet de vol parapente professionnel pensé pour les pilotes exigeants.",
+    "ogTitle": "À propos de We-Fly"
+  }
+}

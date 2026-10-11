@@ -1,5 +1,285 @@
 {
   "messages": {
+    "about.changelog.blurb": {
+      "src": "29f3d4aff3ebfe5f",
+      "tr": "492e68cdffb56297",
+      "by": "ai"
+    },
+    "about.changelog.changeCount": {
+      "src": "40e30fe145746b24",
+      "tr": "09a58c7f7c11e228",
+      "by": "ai"
+    },
+    "about.changelog.filterAria": {
+      "src": "4eb97bff4bfdb376",
+      "tr": "6be88fd2ba2c2368",
+      "by": "ai"
+    },
+    "about.changelog.filters.all": {
+      "src": "a52ace420f2175d0",
+      "tr": "3801a35c51822839",
+      "by": "ai"
+    },
+    "about.changelog.filters.alpha": {
+      "src": "b1a96dd646bccaa2",
+      "tr": "b1a96dd646bccaa2",
+      "by": "ai"
+    },
+    "about.changelog.filters.feat": {
+      "src": "5697d03daef4de9c",
+      "tr": "d23a4f609c9ee624",
+      "by": "ai"
+    },
+    "about.changelog.filters.fix": {
+      "src": "59e5965495d92fee",
+      "tr": "59e5965495d92fee",
+      "by": "ai"
+    },
+    "about.changelog.inFlight": {
+      "src": "eaeb8b1be5ae0d59",
+      "tr": "7e62eb946db583c8",
+      "by": "ai"
+    },
+    "about.changelog.kinds.added": {
+      "src": "6b02e0d363a4af1c",
+      "tr": "d9b1e13f3b97c8b0",
+      "by": "ai"
+    },
+    "about.changelog.kinds.changed": {
+      "src": "2a6141e43be0c212",
+      "tr": "d63c93a908a9fc43",
+      "by": "ai"
+    },
+    "about.changelog.kinds.fixed": {
+      "src": "1246fc93bca00b90",
+      "tr": "d37fb0e2a05b69b4",
+      "by": "ai"
+    },
+    "about.changelog.kinds.removed": {
+      "src": "4118fb4fed0ecec9",
+      "tr": "d0124fb1d921d773",
+      "by": "ai"
+    },
+    "about.changelog.latest": {
+      "src": "8730d3c2022abf1f",
+      "tr": "f4d865ae1b772208",
+      "by": "ai"
+    },
+    "about.changelog.releaseCount": {
+      "src": "0c6d12958c510b37",
+      "tr": "1fe85f9ea04b00b3",
+      "by": "ai"
+    },
+    "about.changelog.releaseCountOldest": {
+      "src": "3b29d941adb9a999",
+      "tr": "a730f39b960addf4",
+      "by": "ai"
+    },
+    "about.changelog.shiny": {
+      "src": "1494a615e6f1a207",
+      "tr": "1494a615e6f1a207",
+      "by": "ai"
+    },
+    "about.changelog.title": {
+      "src": "0a8b7b110f0f1de4",
+      "tr": "e7579367cd4de327",
+      "by": "ai"
+    },
+    "about.changelog.unreleasedLabel": {
+      "src": "0c1f3ed52a5a934f",
+      "tr": "9b6fa2d98557c2a1",
+      "by": "ai"
+    },
+    "about.changelog.unreleasedTag": {
+      "src": "2fb1c672be5f4eda",
+      "tr": "68ab91b2ad26be51",
+      "by": "ai"
+    },
+    "about.hero.ariaLabel": {
+      "src": "6e9586b1f8268213",
+      "tr": "103564868f6be191",
+      "by": "ai"
+    },
+    "about.hero.builtWeFly": {
+      "src": "54420dccef5d0ca4",
+      "tr": "fbb2fa19cbab7115",
+      "by": "ai"
+    },
+    "about.hero.channel": {
+      "src": "ce4683e7013a18cd",
+      "tr": "fe59abe12ce9fb30",
+      "by": "ai"
+    },
+    "about.hero.channels.alpha": {
+      "src": "8ed3f6ad685b959e",
+      "tr": "b1a96dd646bccaa2",
+      "by": "ai"
+    },
+    "about.hero.channels.beta": {
+      "src": "f44e64e75f3948e9",
+      "tr": "703390318bd55aef",
+      "by": "ai"
+    },
+    "about.hero.channels.stable": {
+      "src": "f379ccb92b911644",
+      "tr": "b49f1c4fc6fc103e",
+      "by": "ai"
+    },
+    "about.hero.ctaHeadline": {
+      "src": "b857cb76041b5acd",
+      "tr": "0cdea589211be5ee",
+      "by": "ai"
+    },
+    "about.hero.ctaKicker": {
+      "src": "266271e2690e9eda",
+      "tr": "958f29a34d03ad57",
+      "by": "ai"
+    },
+    "about.hero.ctaOpen": {
+      "src": "54734cfa60ec032e",
+      "tr": "437abbb36c71aa7c",
+      "by": "ai"
+    },
+    "about.hero.ctaStart": {
+      "src": "b6080fd2a2067d41",
+      "tr": "a17c09c6497b3dd8",
+      "by": "ai"
+    },
+    "about.hero.eyebrow": {
+      "src": "b0437f75b4080dfa",
+      "tr": "08de5a604dbef173",
+      "by": "ai"
+    },
+    "about.hero.freeToUse": {
+      "src": "e593d73016a0069b",
+      "tr": "3963d860a632e93f",
+      "by": "ai"
+    },
+    "about.hero.gdpr": {
+      "src": "803ac20b0345e3d5",
+      "tr": "e4eee33cc466fc5a",
+      "by": "ai"
+    },
+    "about.hero.gdprSub": {
+      "src": "fea1f5ae738160f3",
+      "tr": "6485f81abcaff271",
+      "by": "ai"
+    },
+    "about.hero.homeSite": {
+      "src": "4da1bf52ecb9008c",
+      "tr": "c8d2add936a26cd0",
+      "by": "ai"
+    },
+    "about.hero.lede": {
+      "src": "52d3f97a139e180f",
+      "tr": "9e45582d8da3de1c",
+      "by": "ai"
+    },
+    "about.hero.license": {
+      "src": "c011d6097bfbc8e9",
+      "tr": "0e7af3b919514c1c",
+      "by": "ai"
+    },
+    "about.hero.opensInNewTab": {
+      "src": "1d1833565142090c",
+      "tr": "d4ae9e91ce3b9c79",
+      "by": "ai"
+    },
+    "about.hero.operational": {
+      "src": "996bf57d15be4ec3",
+      "tr": "75f7a5e53e463bc3",
+      "by": "ai"
+    },
+    "about.hero.origin": {
+      "src": "d3e1c5f8a6e240fc",
+      "tr": "da45a7c12edf805d",
+      "by": "ai"
+    },
+    "about.hero.originSub": {
+      "src": "988cc4e7e4bc34e9",
+      "tr": "6a49677fa7e25096",
+      "by": "ai"
+    },
+    "about.hero.panelAria": {
+      "src": "93ea844f49507bb1",
+      "tr": "69423842d1a40d82",
+      "by": "ai"
+    },
+    "about.hero.pilotRole": {
+      "src": "b1be26e26f0008f3",
+      "tr": "4f952e1f8afec76e",
+      "by": "ai"
+    },
+    "about.hero.privacy": {
+      "src": "54a57c3147c49f33",
+      "tr": "f624fcf0dcbb39c0",
+      "by": "ai"
+    },
+    "about.hero.proprietary": {
+      "src": "b904752a04b46e28",
+      "tr": "4f2d338f5c3db084",
+      "by": "ai"
+    },
+    "about.hero.released": {
+      "src": "a4ccbf2543dad685",
+      "tr": "fc412d6071512a73",
+      "by": "ai"
+    },
+    "about.hero.roughEdges": {
+      "src": "b24a21be273581d9",
+      "tr": "aa23c0ad03bffd43",
+      "by": "ai"
+    },
+    "about.hero.source": {
+      "src": "0e570ca6fabe24f9",
+      "tr": "2bd9b1e515aebaae",
+      "by": "ai"
+    },
+    "about.hero.status": {
+      "src": "920e413c7d411b61",
+      "tr": "920e413c7d411b61",
+      "by": "ai"
+    },
+    "about.hero.studio": {
+      "src": "0aa91af2ec4c1fd7",
+      "tr": "0aa91af2ec4c1fd7",
+      "by": "ai"
+    },
+    "about.hero.titleLine1": {
+      "src": "dce647b1d21e76d3",
+      "tr": "36a39e4585b72dad",
+      "by": "ai"
+    },
+    "about.hero.titleLine2": {
+      "src": "1285d4d273a1715f",
+      "tr": "0433adb8d0594899",
+      "by": "ai"
+    },
+    "about.hero.titleLine3": {
+      "src": "070c2b69fd42ac25",
+      "tr": "7616c5fe5e20fd8b",
+      "by": "ai"
+    },
+    "about.hero.version": {
+      "src": "dd167905de0defca",
+      "tr": "dd167905de0defca",
+      "by": "ai"
+    },
+    "about.meta.description": {
+      "src": "138cae3fa98360e1",
+      "tr": "86f071a5b98133ca",
+      "by": "ai"
+    },
+    "about.meta.ogTitle": {
+      "src": "02ebfcf4c35eb168",
+      "tr": "1ef9a14930e302b3",
+      "by": "ai"
+    },
+    "about.meta.title": {
+      "src": "4efca0d10c5feb8e",
+      "tr": "b7defbf9cff089f6",
+      "by": "ai"
+    },
     "common.allSystemsNominal": {
       "src": "17473aee2b01184a",
       "tr": "a3bb231633fd1826",
@@ -35,9 +315,909 @@
       "tr": "c8cae85085966a80",
       "by": "ai"
     },
+    "common.opensInNewTab": {
+      "src": "1d1833565142090c",
+      "tr": "d4ae9e91ce3b9c79",
+      "by": "ai"
+    },
     "common.skipToContent": {
       "src": "c887f134c26ea831",
       "tr": "0d7e9faa04346f84",
+      "by": "ai"
+    },
+    "contact.form.caption": {
+      "src": "5f10ef6d3395cded",
+      "tr": "5dc9a52a40846da4",
+      "by": "ai"
+    },
+    "contact.form.emailPlaceholder": {
+      "src": "7752ad25caf7095b",
+      "tr": "c3c8bb48c76188e6",
+      "by": "ai"
+    },
+    "contact.form.errors.emailInvalid": {
+      "src": "db1d74c1b0fc8294",
+      "tr": "6b5535d97ca0e5a8",
+      "by": "ai"
+    },
+    "contact.form.errors.emailRequired": {
+      "src": "aae9291101244de9",
+      "tr": "a33f654cb0092e00",
+      "by": "ai"
+    },
+    "contact.form.errors.maxChars": {
+      "src": "548399feeec32c5f",
+      "tr": "e2ed71c60d56e8f8",
+      "by": "ai"
+    },
+    "contact.form.errors.messageRequired": {
+      "src": "16fc5ee871a85f9e",
+      "tr": "6c83df28c282e242",
+      "by": "ai"
+    },
+    "contact.form.errors.minChars": {
+      "src": "48ff8fe4eeda11b5",
+      "tr": "8eba7c35a946249b",
+      "by": "ai"
+    },
+    "contact.form.errors.nameRequired": {
+      "src": "604fd1b2e29c688a",
+      "tr": "1b64c4b2922a28be",
+      "by": "ai"
+    },
+    "contact.form.errors.subjectRequired": {
+      "src": "0d8878e0f8c014b7",
+      "tr": "6a278a8d052c4da5",
+      "by": "ai"
+    },
+    "contact.form.footnote": {
+      "src": "da9063920d9f991f",
+      "tr": "834dd226d1cb0760",
+      "by": "ai"
+    },
+    "contact.form.from": {
+      "src": "218197693424e015",
+      "tr": "640e86cbc2447fed",
+      "by": "ai"
+    },
+    "contact.form.message": {
+      "src": "2f77668a9dfbf8d5",
+      "tr": "53367bc65275d3bd",
+      "by": "ai"
+    },
+    "contact.form.messagePlaceholder": {
+      "src": "0a636c74878fcd35",
+      "tr": "3423491e17c08480",
+      "by": "ai"
+    },
+    "contact.form.namePlaceholder": {
+      "src": "2c6b2e253c01fb2e",
+      "tr": "090b1756fc35900b",
+      "by": "ai"
+    },
+    "contact.form.replyTo": {
+      "src": "6b9c49b7292f9579",
+      "tr": "247cbda4110c3343",
+      "by": "ai"
+    },
+    "contact.form.send": {
+      "src": "6c4a94d9bc00a76f",
+      "tr": "2662b97d1641bcf4",
+      "by": "ai"
+    },
+    "contact.form.sending": {
+      "src": "e595f17fac1d8384",
+      "tr": "9261c3328573b34b",
+      "by": "ai"
+    },
+    "contact.form.subject": {
+      "src": "68971283841aecdf",
+      "tr": "ec93bf68500700ac",
+      "by": "ai"
+    },
+    "contact.form.subjectPlaceholder": {
+      "src": "c6f8dad244379314",
+      "tr": "701b8f50ac73d06a",
+      "by": "ai"
+    },
+    "contact.form.title": {
+      "src": "56e541ad86e099c0",
+      "tr": "8b83eeb8287ba472",
+      "by": "ai"
+    },
+    "contact.form.unexpectedError": {
+      "src": "703b954ef793d16c",
+      "tr": "e01a9722e96e02ac",
+      "by": "ai"
+    },
+    "contact.hero.ariaLabel": {
+      "src": "c8bdbae42eabc679",
+      "tr": "3bdc37a1c12b2d86",
+      "by": "ai"
+    },
+    "contact.hero.channel.caption": {
+      "src": "ceb3e186758cfa28",
+      "tr": "396dbd3966a71945",
+      "by": "ai"
+    },
+    "contact.hero.channel.privacy": {
+      "src": "54a57c3147c49f33",
+      "tr": "f624fcf0dcbb39c0",
+      "by": "ai"
+    },
+    "contact.hero.channel.privacySub": {
+      "src": "b7dda4e2675a1290",
+      "tr": "7ec5fc8e6c69e6c1",
+      "by": "ai"
+    },
+    "contact.hero.channel.privacyValue": {
+      "src": "9ca56ae0eb3b7d0c",
+      "tr": "0ad976b5c2b243c3",
+      "by": "ai"
+    },
+    "contact.hero.channel.readingWindow": {
+      "src": "d4419bb2c791e9aa",
+      "tr": "68854e9366766761",
+      "by": "ai"
+    },
+    "contact.hero.channel.readingWindowSub": {
+      "src": "348841ef53dbd5a6",
+      "tr": "ab3d40daaf47a20c",
+      "by": "ai"
+    },
+    "contact.hero.channel.readingWindowValue": {
+      "src": "824ab17fdaba1d03",
+      "tr": "824ab17fdaba1d03",
+      "by": "ai"
+    },
+    "contact.hero.channel.response": {
+      "src": "9061383b8e228ef3",
+      "tr": "14f8a52d95b2c10a",
+      "by": "ai"
+    },
+    "contact.hero.channel.responseSub": {
+      "src": "17632e90c13a94a7",
+      "tr": "166900fa1a2914f5",
+      "by": "ai"
+    },
+    "contact.hero.channel.responseValue": {
+      "src": "47072491bc8ad26b",
+      "tr": "3041fc5ec4dbacc7",
+      "by": "ai"
+    },
+    "contact.hero.channel.status": {
+      "src": "920e413c7d411b61",
+      "tr": "920e413c7d411b61",
+      "by": "ai"
+    },
+    "contact.hero.channel.statusValue": {
+      "src": "fa8162869da5b5da",
+      "tr": "8e2c95d88847db9e",
+      "by": "ai"
+    },
+    "contact.hero.channel.title": {
+      "src": "ce4683e7013a18cd",
+      "tr": "fe59abe12ce9fb30",
+      "by": "ai"
+    },
+    "contact.hero.eyebrow": {
+      "src": "9f62f6c0aa28fb16",
+      "tr": "239067e13f2be21c",
+      "by": "ai"
+    },
+    "contact.hero.footerLeft": {
+      "src": "fd0c92156f0ed8ae",
+      "tr": "ef20a0922bc87cc6",
+      "by": "ai"
+    },
+    "contact.hero.footerRight": {
+      "src": "ddd4f196a6944a54",
+      "tr": "50bdbd34def6f04a",
+      "by": "ai"
+    },
+    "contact.hero.ideas.body": {
+      "src": "bc3f82506bff6d32",
+      "tr": "edabe16413b2987c",
+      "by": "ai"
+    },
+    "contact.hero.ideas.title": {
+      "src": "3653225bdd51e0da",
+      "tr": "1f3e1f582630ec0c",
+      "by": "ai"
+    },
+    "contact.hero.noEmail.body": {
+      "src": "9d1d5fea0e294272",
+      "tr": "02f98b33c353500d",
+      "by": "ai"
+    },
+    "contact.hero.noEmail.title": {
+      "src": "948f580fcb2e4378",
+      "tr": "fb9d902eeaf83fa9",
+      "by": "ai"
+    },
+    "contact.hero.subtitle": {
+      "src": "6b6cc7141cb9bce6",
+      "tr": "b9bfd9e99481abd8",
+      "by": "ai"
+    },
+    "contact.hero.title": {
+      "src": "0d0ea94c5d1e97c1",
+      "tr": "ce032b121621627a",
+      "by": "ai"
+    },
+    "contact.meta.description": {
+      "src": "6d1bd68b3fca1a69",
+      "tr": "8e7aa7ee9d8a81bb",
+      "by": "ai"
+    },
+    "contact.meta.ogTitle": {
+      "src": "77ddc34a2c2e7e5b",
+      "tr": "0f8aa3bdc6e14f33",
+      "by": "ai"
+    },
+    "contact.meta.title": {
+      "src": "47aaf31b83d6bfd7",
+      "tr": "325eecf9d30156c2",
+      "by": "ai"
+    },
+    "contact.result.emailInvalid": {
+      "src": "5f438b8f35c68764",
+      "tr": "5396bd10fece8752",
+      "by": "ai"
+    },
+    "contact.result.expired": {
+      "src": "18c99202c7452587",
+      "tr": "31ecd6279b3496ac",
+      "by": "ai"
+    },
+    "contact.result.messageRequired": {
+      "src": "321fa2bca94b60a7",
+      "tr": "bf6a27ca90d948eb",
+      "by": "ai"
+    },
+    "contact.result.messageTooLong": {
+      "src": "1a1ec87b286f1d81",
+      "tr": "7c6e7a1f6aba9cbe",
+      "by": "ai"
+    },
+    "contact.result.nameRequired": {
+      "src": "39378c3a8373c955",
+      "tr": "8441f71014fd1f5e",
+      "by": "ai"
+    },
+    "contact.result.nameTooLong": {
+      "src": "cd9e0c3865ada7b7",
+      "tr": "72e358688ecd089c",
+      "by": "ai"
+    },
+    "contact.result.sendFailed": {
+      "src": "e7acd943073045da",
+      "tr": "371b4a5d08c904b6",
+      "by": "ai"
+    },
+    "contact.result.sent": {
+      "src": "482a6786d2eb119c",
+      "tr": "e76229e1bd3370ee",
+      "by": "ai"
+    },
+    "contact.result.subjectRequired": {
+      "src": "8e4785a5ade49e21",
+      "tr": "89ef27d17e43c663",
+      "by": "ai"
+    },
+    "contact.result.subjectTooLong": {
+      "src": "8bd9e5f09957d61d",
+      "tr": "cead47e89f6f198c",
+      "by": "ai"
+    },
+    "contact.result.thanks": {
+      "src": "d4311be07c7fd17d",
+      "tr": "741f25f94c7232a6",
+      "by": "ai"
+    },
+    "contact.result.tooFast": {
+      "src": "7ba773338c08fa4e",
+      "tr": "a62e9cdd4cfb53c1",
+      "by": "ai"
+    },
+    "contact.result.unexpected": {
+      "src": "703b954ef793d16c",
+      "tr": "e01a9722e96e02ac",
+      "by": "ai"
+    },
+    "doc.article.helpful": {
+      "src": "d83eb2d4956c4871",
+      "tr": "8c0552179fff9954",
+      "by": "ai"
+    },
+    "doc.article.next": {
+      "src": "bcf0489a7b45328d",
+      "tr": "b3e3f54b2131b6dd",
+      "by": "ai"
+    },
+    "doc.article.noMissing": {
+      "src": "92f894eb77240ff2",
+      "tr": "2257a865be019d4c",
+      "by": "ai"
+    },
+    "doc.article.previous": {
+      "src": "435567b142898cc2",
+      "tr": "10eefef364eaeadd",
+      "by": "ai"
+    },
+    "doc.article.updated": {
+      "src": "328a4d4c6ba2b1ac",
+      "tr": "92dd84644249598d",
+      "by": "ai"
+    },
+    "doc.article.yes": {
+      "src": "85a39ab345d672ff",
+      "tr": "cde9e58a9a4e1f36",
+      "by": "ai"
+    },
+    "doc.blog.close": {
+      "src": "7d9eb7acb13e2462",
+      "tr": "b808f6e97075772f",
+      "by": "ai"
+    },
+    "doc.blog.notFoundBody": {
+      "src": "c2237db4b04f0abc",
+      "tr": "ab9ae7b417602dfa",
+      "by": "ai"
+    },
+    "doc.blog.notFoundTitle": {
+      "src": "dba8fb4c58ba2fa2",
+      "tr": "4141a76195868d4b",
+      "by": "ai"
+    },
+    "doc.blog.printTagline": {
+      "src": "527b9685eae77a2a",
+      "tr": "735a0c241bb72ef3",
+      "by": "ai"
+    },
+    "doc.blog.readTheDocs": {
+      "src": "559b1cc46027e5bc",
+      "tr": "22e19a090bc0dfe6",
+      "by": "ai"
+    },
+    "doc.blog.saveAsPdf": {
+      "src": "4cab70e9226b0b70",
+      "tr": "bab4f07bdfbc5eb2",
+      "by": "ai"
+    },
+    "doc.blogTags.api": {
+      "src": "14c2529eb4498c5d",
+      "tr": "c8e5998f6a3955c2",
+      "by": "ai"
+    },
+    "doc.blogTags.docs": {
+      "src": "46b42b4229cd7a39",
+      "tr": "2a9d508bdc770606",
+      "by": "ai"
+    },
+    "doc.blogTags.feature": {
+      "src": "2ad5623197671570",
+      "tr": "c2b8f4dd31006698",
+      "by": "ai"
+    },
+    "doc.blogTags.fix": {
+      "src": "1c6e6c4c02e55178",
+      "tr": "21f1595b614ffc31",
+      "by": "ai"
+    },
+    "doc.categories.account-data.blurb": {
+      "src": "7082233e233d3017",
+      "tr": "1d5237ec84a60f64",
+      "by": "ai"
+    },
+    "doc.categories.account-data.name": {
+      "src": "59ae004c726c4e42",
+      "tr": "93da516a703072bc",
+      "by": "ai"
+    },
+    "doc.categories.cockpit.blurb": {
+      "src": "d7817342cb75b665",
+      "tr": "628186e9d630af57",
+      "by": "ai"
+    },
+    "doc.categories.cockpit.name": {
+      "src": "1b67e81f90c79eca",
+      "tr": "1b67e81f90c79eca",
+      "by": "ai"
+    },
+    "doc.categories.community.blurb": {
+      "src": "4c7238306c04367e",
+      "tr": "01df99185c77f074",
+      "by": "ai"
+    },
+    "doc.categories.community.name": {
+      "src": "bb501d7877eb7ddb",
+      "tr": "bb501d7877eb7ddb",
+      "by": "ai"
+    },
+    "doc.categories.developers.blurb": {
+      "src": "cee71b6d38ad07bd",
+      "tr": "b4b0d7cf7318789a",
+      "by": "ai"
+    },
+    "doc.categories.developers.name": {
+      "src": "fc799da2088d4e67",
+      "tr": "bc16e42843110a44",
+      "by": "ai"
+    },
+    "doc.categories.getting-started.blurb": {
+      "src": "2ecd10a213929914",
+      "tr": "d703cac48e537f01",
+      "by": "ai"
+    },
+    "doc.categories.getting-started.name": {
+      "src": "d00eca1bae674280",
+      "tr": "232c9caabcc362e9",
+      "by": "ai"
+    },
+    "doc.categories.thermal-analysis.blurb": {
+      "src": "fa74918d52a60e4c",
+      "tr": "6828212673767ab6",
+      "by": "ai"
+    },
+    "doc.categories.thermal-analysis.name": {
+      "src": "ee3bcf3a185ccf75",
+      "tr": "f51113dbe9373b97",
+      "by": "ai"
+    },
+    "doc.categories.video-walkthroughs.blurb": {
+      "src": "340108e4b4dc68ed",
+      "tr": "4d8251089ac7848f",
+      "by": "ai"
+    },
+    "doc.categories.video-walkthroughs.name": {
+      "src": "824535068e4fcb37",
+      "tr": "c80b07c4ebcac18e",
+      "by": "ai"
+    },
+    "doc.categories.your-flights.blurb": {
+      "src": "74fe374fbdecc606",
+      "tr": "d658769b55828f8e",
+      "by": "ai"
+    },
+    "doc.categories.your-flights.name": {
+      "src": "760902457518570a",
+      "tr": "1611c79fdc227586",
+      "by": "ai"
+    },
+    "doc.category.eyebrow": {
+      "src": "96a1fad960527a6e",
+      "tr": "eb307c77b793fb0f",
+      "by": "ai"
+    },
+    "doc.codeBlock.copied": {
+      "src": "ea61bc15688d1e48",
+      "tr": "7cdc64f2ce152d01",
+      "by": "ai"
+    },
+    "doc.codeBlock.copiedAria": {
+      "src": "d37078fe6a1faa15",
+      "tr": "4bfc61401e3371ba",
+      "by": "ai"
+    },
+    "doc.codeBlock.copy": {
+      "src": "49a0053f3b0d5045",
+      "tr": "2ed99c26c545d4d1",
+      "by": "ai"
+    },
+    "doc.codeBlock.copyAria": {
+      "src": "f0437b8953e1d58a",
+      "tr": "84adec88b5296438",
+      "by": "ai"
+    },
+    "doc.common.articleCount": {
+      "src": "28dfe2586a42c838",
+      "tr": "fdefcc9cc03ed516",
+      "by": "ai"
+    },
+    "doc.common.minutesRead": {
+      "src": "6400ffa40520b2b6",
+      "tr": "a8e842de665fcfdb",
+      "by": "ai"
+    },
+    "doc.common.minutesShort": {
+      "src": "e1bded87ee24b702",
+      "tr": "1b6c21cff2740e86",
+      "by": "ai"
+    },
+    "doc.common.resultCount": {
+      "src": "9a719be343e87eea",
+      "tr": "f96e4038270a982d",
+      "by": "ai"
+    },
+    "doc.drawer.description": {
+      "src": "c908aeb0235e9b82",
+      "tr": "0002d96712947c76",
+      "by": "ai"
+    },
+    "doc.drawer.failed": {
+      "src": "9b26428ee23b2fbb",
+      "tr": "a222ca3509d394d2",
+      "by": "ai"
+    },
+    "doc.drawer.footer": {
+      "src": "1dd292d9617f0d46",
+      "tr": "26323ac52c018065",
+      "by": "ai"
+    },
+    "doc.drawer.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "9767238939207ab7",
+      "by": "ai"
+    },
+    "doc.drawer.title": {
+      "src": "c205924de0fe636c",
+      "tr": "c2ec0b49f5bf46cb",
+      "by": "ai"
+    },
+    "doc.groups.concept": {
+      "src": "0d0a8c6df3ace225",
+      "tr": "dc8f6f5eea590519",
+      "by": "ai"
+    },
+    "doc.groups.reference": {
+      "src": "71bf90935fc231d2",
+      "tr": "e1311398729e0b4f",
+      "by": "ai"
+    },
+    "doc.groups.tutorial": {
+      "src": "83c008a92e4280e6",
+      "tr": "4d33c44a740727c3",
+      "by": "ai"
+    },
+    "doc.groups.video": {
+      "src": "c9a9639463c21952",
+      "tr": "c9a9639463c21952",
+      "by": "ai"
+    },
+    "doc.hub.browse": {
+      "src": "4c00e7636f3f1bb3",
+      "tr": "b243ee7e247d2fc5",
+      "by": "ai"
+    },
+    "doc.hub.eyebrow": {
+      "src": "c205924de0fe636c",
+      "tr": "c2ec0b49f5bf46cb",
+      "by": "ai"
+    },
+    "doc.hub.more": {
+      "src": "60849ef36f59cba5",
+      "tr": "9d1509e9b345ccbe",
+      "by": "ai"
+    },
+    "doc.hub.mostRead.caption": {
+      "src": "89fea65a3a73bfc6",
+      "tr": "0790229b4ef0d79a",
+      "by": "ai"
+    },
+    "doc.hub.mostRead.title": {
+      "src": "98988b9f36324640",
+      "tr": "428ddd57c104118c",
+      "by": "ai"
+    },
+    "doc.hub.recent.caption": {
+      "src": "ea6fd50f03e95388",
+      "tr": "d37ce8d7a712fc61",
+      "by": "ai"
+    },
+    "doc.hub.recent.title": {
+      "src": "474b2a869ac1477d",
+      "tr": "5d82dcbd38d08159",
+      "by": "ai"
+    },
+    "doc.hub.searchButton": {
+      "src": "3a07797efde511dc",
+      "tr": "1706d4e949416fd9",
+      "by": "ai"
+    },
+    "doc.hub.startHere.caption": {
+      "src": "ff509cbbc040d82e",
+      "tr": "28dc966bb2003460",
+      "by": "ai"
+    },
+    "doc.hub.startHere.items.cockpit.description": {
+      "src": "dd70271347969a45",
+      "tr": "45f942ac8709106a",
+      "by": "ai"
+    },
+    "doc.hub.startHere.items.cockpit.title": {
+      "src": "2d1f64e7ceade0cc",
+      "tr": "aaee22b0a0a7c949",
+      "by": "ai"
+    },
+    "doc.hub.startHere.items.index.description": {
+      "src": "7600550478ccfdb4",
+      "tr": "71e443552104c17c",
+      "by": "ai"
+    },
+    "doc.hub.startHere.items.index.title": {
+      "src": "dcc20bc6314a91e4",
+      "tr": "6d05f27f924a8b00",
+      "by": "ai"
+    },
+    "doc.hub.startHere.items.z-score-pilot-guide.description": {
+      "src": "1c3e61a947ba7c86",
+      "tr": "fac04c16a2a36f64",
+      "by": "ai"
+    },
+    "doc.hub.startHere.items.z-score-pilot-guide.title": {
+      "src": "5918d0033c7a900e",
+      "tr": "49ab478e02042276",
+      "by": "ai"
+    },
+    "doc.hub.startHere.title": {
+      "src": "2adc964c084749b1",
+      "tr": "76dcefa00b972b14",
+      "by": "ai"
+    },
+    "doc.hub.subtitle": {
+      "src": "1a43aeb3d7ef6b83",
+      "tr": "0bcffda09b1933bf",
+      "by": "ai"
+    },
+    "doc.hub.title": {
+      "src": "0754df4991ecabcd",
+      "tr": "4ab982b1fe815bec",
+      "by": "ai"
+    },
+    "doc.hub.watch.all": {
+      "src": "7d0421a821215860",
+      "tr": "1f152c120c099e10",
+      "by": "ai"
+    },
+    "doc.hub.watch.caption": {
+      "src": "98c84ef911a00146",
+      "tr": "151c4b06c78de66c",
+      "by": "ai"
+    },
+    "doc.hub.watch.title": {
+      "src": "011ab68d3c374806",
+      "tr": "85f9662dc5169347",
+      "by": "ai"
+    },
+    "doc.meta.category.notFound": {
+      "src": "e0859a6026e567f0",
+      "tr": "773715a1040d6599",
+      "by": "ai"
+    },
+    "doc.meta.fallbackDescription": {
+      "src": "992f3bbeec9c8f78",
+      "tr": "59dd0718ca23fe82",
+      "by": "ai"
+    },
+    "doc.meta.hub.description": {
+      "src": "ec987019abe88567",
+      "tr": "bca11e9b02dc0e16",
+      "by": "ai"
+    },
+    "doc.meta.hub.ogTitle": {
+      "src": "b6476618c7fe2575",
+      "tr": "c60b40ee1ab40e25",
+      "by": "ai"
+    },
+    "doc.meta.hub.title": {
+      "src": "c205924de0fe636c",
+      "tr": "c2ec0b49f5bf46cb",
+      "by": "ai"
+    },
+    "doc.meta.notFound": {
+      "src": "165e6fd9feb874d3",
+      "tr": "2f6874d629d4809d",
+      "by": "ai"
+    },
+    "doc.meta.ogTitle": {
+      "src": "63e002cd8ee55ace",
+      "tr": "705b833186e71e5b",
+      "by": "ai"
+    },
+    "doc.meta.whatsNew.description": {
+      "src": "6dd5d1e431347d75",
+      "tr": "7684d80d2b08d3cf",
+      "by": "ai"
+    },
+    "doc.meta.whatsNew.ogTitle": {
+      "src": "e3e81f1abfe8eae7",
+      "tr": "8c7b03ec11d882c2",
+      "by": "ai"
+    },
+    "doc.meta.whatsNew.title": {
+      "src": "37e6112e84a88385",
+      "tr": "432880c8a0d3c8f6",
+      "by": "ai"
+    },
+    "doc.notice.aiDraft": {
+      "src": "b9d5ea2b4b74c5e4",
+      "tr": "e6f3ed2455a3b7d5",
+      "by": "ai"
+    },
+    "doc.notice.legal": {
+      "src": "65d8af8af84f0c2d",
+      "tr": "fdf817ed79f34032",
+      "by": "ai"
+    },
+    "doc.notice.untranslated": {
+      "src": "3d8f3632113ae78a",
+      "tr": "086cf96a0caa7373",
+      "by": "ai"
+    },
+    "doc.search.footer.close": {
+      "src": "310ff200149b44a3",
+      "tr": "e0b9f083fdafd839",
+      "by": "ai"
+    },
+    "doc.search.footer.navigate": {
+      "src": "d0cda6559bb347db",
+      "tr": "fd955ccd822dfe60",
+      "by": "ai"
+    },
+    "doc.search.footer.open": {
+      "src": "2348f99874421257",
+      "tr": "b804de742720522e",
+      "by": "ai"
+    },
+    "doc.search.hint": {
+      "src": "88d8dc13b6c052a3",
+      "tr": "ef4d66567e8a25aa",
+      "by": "ai"
+    },
+    "doc.search.loadingIndex": {
+      "src": "8db1678ccf0e7072",
+      "tr": "dd04a4e9e39d3e70",
+      "by": "ai"
+    },
+    "doc.search.noMatches": {
+      "src": "3dbf7046c776387c",
+      "tr": "8198a55b81fe997d",
+      "by": "ai"
+    },
+    "doc.search.placeholder": {
+      "src": "d71840db895efd9a",
+      "tr": "774a2a1dc7bf484c",
+      "by": "ai"
+    },
+    "doc.search.sections.articles": {
+      "src": "b14ac78a46e90b71",
+      "tr": "4435fcc2e763d6b8",
+      "by": "ai"
+    },
+    "doc.search.sections.categories": {
+      "src": "b8b1d894c6837252",
+      "tr": "055b8f9b9e5064b3",
+      "by": "ai"
+    },
+    "doc.search.sections.concepts": {
+      "src": "0d0a8c6df3ace225",
+      "tr": "dc8f6f5eea590519",
+      "by": "ai"
+    },
+    "doc.search.sections.featured": {
+      "src": "c533cafab69e4033",
+      "tr": "29974a4ab3f9a623",
+      "by": "ai"
+    },
+    "doc.search.sections.tutorials": {
+      "src": "8d9f66992dd4373c",
+      "tr": "e6cdb210e65b2c64",
+      "by": "ai"
+    },
+    "doc.shell.backTo": {
+      "src": "e47ed0abc2c77d0c",
+      "tr": "6971b07783a7c24e",
+      "by": "ai"
+    },
+    "doc.shell.navigationAria": {
+      "src": "c205924de0fe636c",
+      "tr": "c2ec0b49f5bf46cb",
+      "by": "ai"
+    },
+    "doc.shell.search": {
+      "src": "49c266baaaa70981",
+      "tr": "a4f2922e2d958e6a",
+      "by": "ai"
+    },
+    "doc.shell.searchAria": {
+      "src": "ea582e69cce77d67",
+      "tr": "688c41857a87ea6c",
+      "by": "ai"
+    },
+    "doc.shell.tabs.docs": {
+      "src": "7af023c43013b9a5",
+      "tr": "2a9d508bdc770606",
+      "by": "ai"
+    },
+    "doc.shell.tabs.whatsNew": {
+      "src": "37e6112e84a88385",
+      "tr": "432880c8a0d3c8f6",
+      "by": "ai"
+    },
+    "doc.shell.toggleNavigation": {
+      "src": "bdbc466ec8535ca0",
+      "tr": "379f679e8844b359",
+      "by": "ai"
+    },
+    "doc.sidebar.closeNavigation": {
+      "src": "99904db30de4a2a3",
+      "tr": "bd8fcc80778571a3",
+      "by": "ai"
+    },
+    "doc.sidebar.collapse": {
+      "src": "19f25826b84b030c",
+      "tr": "63a9aacf856ab945",
+      "by": "ai"
+    },
+    "doc.sidebar.expand": {
+      "src": "d386e9414ed2f5ee",
+      "tr": "619b2343224d8d93",
+      "by": "ai"
+    },
+    "doc.sidebar.navigationAria": {
+      "src": "a6a2338728587e2c",
+      "tr": "af7cb069f8a2a55b",
+      "by": "ai"
+    },
+    "doc.sidebar.whatsNew": {
+      "src": "37e6112e84a88385",
+      "tr": "432880c8a0d3c8f6",
+      "by": "ai"
+    },
+    "doc.toc.label": {
+      "src": "b5658fc8edda24f9",
+      "tr": "c6ea3ff4811369bb",
+      "by": "ai"
+    },
+    "doc.typeLabels.concept": {
+      "src": "da5e11efa36720a4",
+      "tr": "93f48f6df73c5f98",
+      "by": "ai"
+    },
+    "doc.typeLabels.reference": {
+      "src": "52367a6622b19f08",
+      "tr": "e1311398729e0b4f",
+      "by": "ai"
+    },
+    "doc.typeLabels.tutorial": {
+      "src": "fe30030e102ecf8f",
+      "tr": "efbd1c4defe41e98",
+      "by": "ai"
+    },
+    "doc.typeLabels.video": {
+      "src": "0cab1c9617404faf",
+      "tr": "d534be829e32196b",
+      "by": "ai"
+    },
+    "doc.whatsNew.empty": {
+      "src": "7f36e4b33e574998",
+      "tr": "fa9ae66322e0602c",
+      "by": "ai"
+    },
+    "doc.whatsNew.eyebrow": {
+      "src": "fe85faf3a062b747",
+      "tr": "732e298097844889",
+      "by": "ai"
+    },
+    "doc.whatsNew.readDocs": {
+      "src": "412b59669150e05a",
+      "tr": "a5008b1c1477ef70",
+      "by": "ai"
+    },
+    "doc.whatsNew.readPost": {
+      "src": "0ea38e24d08fe29b",
+      "tr": "5d650f207ae8f6f1",
+      "by": "ai"
+    },
+    "doc.whatsNew.subtitle": {
+      "src": "f239b8ecead48f2f",
+      "tr": "32901bd695dae118",
+      "by": "ai"
+    },
+    "doc.whatsNew.title": {
+      "src": "37e6112e84a88385",
+      "tr": "432880c8a0d3c8f6",
       "by": "ai"
     },
     "home.cta.body": {
@@ -1418,6 +2598,311 @@
     "nav.topBar.upload": {
       "src": "ecf0db7600e6f0c1",
       "tr": "18947a4da41d237c",
+      "by": "ai"
+    },
+    "references.empty": {
+      "src": "231401abf462fe10",
+      "tr": "9b1d6f1c19ef6d40",
+      "by": "ai"
+    },
+    "references.endOfCorpus": {
+      "src": "99bde2f3eb9095ec",
+      "tr": "12dc4f8ff0d0e3eb",
+      "by": "ai"
+    },
+    "references.entries": {
+      "src": "412bdbdfc89023b2",
+      "tr": "ab92351b768706e8",
+      "by": "ai"
+    },
+    "references.entriesFiltered": {
+      "src": "31f2036f2ba5081f",
+      "tr": "329292d8aeb9d7a1",
+      "by": "ai"
+    },
+    "references.eras.2000s": {
+      "src": "bf4af42b00ff0dcf",
+      "tr": "52c8cb1ab0d9dfbd",
+      "by": "ai"
+    },
+    "references.eras.2010s": {
+      "src": "5d715117c5bda436",
+      "tr": "e40d320aad5e17a8",
+      "by": "ai"
+    },
+    "references.eras.2020s": {
+      "src": "c313275b75c5a4d7",
+      "tr": "1215712fc9ebcbb1",
+      "by": "ai"
+    },
+    "references.eras.pre2000": {
+      "src": "2520c7d6283ca79b",
+      "tr": "525835492f57c550",
+      "by": "ai"
+    },
+    "references.filters.access": {
+      "src": "ec5ba0abb717da87",
+      "tr": "5184cdf332a907e0",
+      "by": "ai"
+    },
+    "references.filters.allReferences": {
+      "src": "7a7d52865986e995",
+      "tr": "755f2a2054a7e80a",
+      "by": "ai"
+    },
+    "references.filters.books": {
+      "src": "9da7f76bc81d2f4e",
+      "tr": "a74462dfa46630c6",
+      "by": "ai"
+    },
+    "references.filters.educational": {
+      "src": "f8c0843d47c87fa7",
+      "tr": "03bb2f142b92eb63",
+      "by": "ai"
+    },
+    "references.filters.era": {
+      "src": "60c87e4af6d35736",
+      "tr": "ab0f2fd5b2501811",
+      "by": "ai"
+    },
+    "references.filters.hide": {
+      "src": "9e6ea475a2391a64",
+      "tr": "377956512d0ad930",
+      "by": "ai"
+    },
+    "references.filters.openAccessOnly": {
+      "src": "2ea2c8192c9e303e",
+      "tr": "8ea6055c09903765",
+      "by": "ai"
+    },
+    "references.filters.researchArticles": {
+      "src": "5295bf41b03a3cc5",
+      "tr": "064efb52ab07e762",
+      "by": "ai"
+    },
+    "references.filters.show": {
+      "src": "546ebb8eb993ea56",
+      "tr": "638e249f4a15ebb8",
+      "by": "ai"
+    },
+    "references.filters.topic": {
+      "src": "7e61847d61d65d9e",
+      "tr": "91e1f3ff65df78f1",
+      "by": "ai"
+    },
+    "references.filters.type": {
+      "src": "baaddf70fb5d432b",
+      "tr": "75df3579c73089e3",
+      "by": "ai"
+    },
+    "references.header.eyebrow": {
+      "src": "447d1914e48b7aee",
+      "tr": "b6e7b8d105bd01b1",
+      "by": "ai"
+    },
+    "references.header.subtitle": {
+      "src": "01b92a59a8c6462e",
+      "tr": "79328df234d16328",
+      "by": "ai"
+    },
+    "references.header.title": {
+      "src": "75dcf262c422d7d6",
+      "tr": "3b202718ae4a1090",
+      "by": "ai"
+    },
+    "references.meta.description": {
+      "src": "bd2a41ff3f349792",
+      "tr": "5af217ed5cb4e5ce",
+      "by": "ai"
+    },
+    "references.meta.ogTitle": {
+      "src": "b6876d97d9d5e73c",
+      "tr": "a6a4ecc84e8feca2",
+      "by": "ai"
+    },
+    "references.meta.title": {
+      "src": "194928a890b057a3",
+      "tr": "3b202718ae4a1090",
+      "by": "ai"
+    },
+    "references.row.abstract": {
+      "src": "d21b4a64a2d8656a",
+      "tr": "d21b4a64a2d8656a",
+      "by": "ai"
+    },
+    "references.row.access": {
+      "src": "44f6dc65ab18dad6",
+      "tr": "c009017c3756a5e6",
+      "by": "ai"
+    },
+    "references.row.collapse": {
+      "src": "be6eb1fc3b05bf9d",
+      "tr": "5503d6ae1ee42a7f",
+      "by": "ai"
+    },
+    "references.row.copied": {
+      "src": "ec8da9d065304d26",
+      "tr": "c2ec085150f8024f",
+      "by": "ai"
+    },
+    "references.row.copy": {
+      "src": "73906340452a7e1c",
+      "tr": "02fb2a4f69851bba",
+      "by": "ai"
+    },
+    "references.row.copyAria": {
+      "src": "e38dfb4218e6ee7c",
+      "tr": "5910358adab57369",
+      "by": "ai"
+    },
+    "references.row.expand": {
+      "src": "47cea29d0e95fa61",
+      "tr": "921f8ad11bb7259e",
+      "by": "ai"
+    },
+    "references.row.noLink": {
+      "src": "c2e7aec222f8ebe3",
+      "tr": "8b3a927101a3cc35",
+      "by": "ai"
+    },
+    "references.row.openAccess": {
+      "src": "4099a2c228b17acc",
+      "tr": "43590cba26a97018",
+      "by": "ai"
+    },
+    "references.row.whyItMatters": {
+      "src": "fccb8e4bfff6f1c8",
+      "tr": "cdcf6bb4d6e090f1",
+      "by": "ai"
+    },
+    "references.search.aria": {
+      "src": "ea8ea9b12d3bc5de",
+      "tr": "974d6cfb2c583d36",
+      "by": "ai"
+    },
+    "references.search.placeholder": {
+      "src": "892e68b3d63524bb",
+      "tr": "cf08e0ae77587275",
+      "by": "ai"
+    },
+    "references.sort.alpha": {
+      "src": "4a7873e555b11206",
+      "tr": "3da28499241c4be7",
+      "by": "ai"
+    },
+    "references.sort.aria": {
+      "src": "0aecbc30472d61af",
+      "tr": "8b8d17dbecfedc24",
+      "by": "ai"
+    },
+    "references.sort.curated": {
+      "src": "fef11add7f6aa868",
+      "tr": "3621ea6d4b74e96b",
+      "by": "ai"
+    },
+    "references.sort.label": {
+      "src": "bec69036aa27e7fa",
+      "tr": "59ff9eb120be9124",
+      "by": "ai"
+    },
+    "references.sort.newest": {
+      "src": "ffb6f5764bddb68c",
+      "tr": "0dd3229282f50a90",
+      "by": "ai"
+    },
+    "references.sort.oldest": {
+      "src": "6e2ebdab3c02a3e6",
+      "tr": "2b6a73949d1375d7",
+      "by": "ai"
+    },
+    "references.stats.inCorpus": {
+      "src": "e6b2347d4113789d",
+      "tr": "0b84251b7659830c",
+      "by": "ai"
+    },
+    "references.stats.inCorpusSub": {
+      "src": "09045494e073b1ab",
+      "tr": "5ad3c9f1e436c933",
+      "by": "ai"
+    },
+    "references.stats.oldestEntry": {
+      "src": "7b801742bfd085bd",
+      "tr": "f7350f39d822be5a",
+      "by": "ai"
+    },
+    "references.stats.oldestEntrySub": {
+      "src": "c028854061bf1eb7",
+      "tr": "48ed1c5f14c5c3bf",
+      "by": "ai"
+    },
+    "references.stats.openAccess": {
+      "src": "4099a2c228b17acc",
+      "tr": "43590cba26a97018",
+      "by": "ai"
+    },
+    "references.stats.openAccessSub": {
+      "src": "b1f873e24904cc19",
+      "tr": "ddc02a4bbab033d7",
+      "by": "ai"
+    },
+    "references.stats.topicsTracked": {
+      "src": "9ad403e681926df0",
+      "tr": "6de8f48e6da390dc",
+      "by": "ai"
+    },
+    "references.stats.topicsTrackedSub": {
+      "src": "a0886839d4ed4c6d",
+      "tr": "eecff7b4195ef5f8",
+      "by": "ai"
+    },
+    "references.topics.crowdsourcedSensing": {
+      "src": "412e1b62e42b0df6",
+      "tr": "bf0ed9d59d7610f1",
+      "by": "ai"
+    },
+    "references.topics.meteorology": {
+      "src": "547801ae4e93ff14",
+      "tr": "9c3c5f4f474dc70d",
+      "by": "ai"
+    },
+    "references.topics.openData": {
+      "src": "b12598978cf854eb",
+      "tr": "ab6b91dd83575a01",
+      "by": "ai"
+    },
+    "references.topics.pilotTechnique": {
+      "src": "2114ee728b3e999b",
+      "tr": "bbc7118b32af0d6f",
+      "by": "ai"
+    },
+    "references.topics.thermalModelling": {
+      "src": "0db0b8133ed5e257",
+      "tr": "86d1331ab8f5394e",
+      "by": "ai"
+    },
+    "references.topics.wingPerformance": {
+      "src": "0ef18ea8c3eacfd5",
+      "tr": "fc45388b365042aa",
+      "by": "ai"
+    },
+    "references.topics.xcTechnique": {
+      "src": "763cc0eb003d4ac8",
+      "tr": "996a8600f917abc5",
+      "by": "ai"
+    },
+    "references.types.book": {
+      "src": "9da7f76bc81d2f4e",
+      "tr": "a74462dfa46630c6",
+      "by": "ai"
+    },
+    "references.types.edu": {
+      "src": "f8c0843d47c87fa7",
+      "tr": "03bb2f142b92eb63",
+      "by": "ai"
+    },
+    "references.types.research": {
+      "src": "979d6300fd9884ff",
+      "tr": "7a3a4a2bf2d2dffe",
       "by": "ai"
     }
   },

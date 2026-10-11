@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "ariaLabel": "Contacter we-fly",
+    "eyebrow": "Fréquence ouverte · toujours à l’écoute",
+    "title": "Appelle la tour.",
+    "subtitle": "Un bug, une idée, un thermique que tu n’arrives pas à expliquer ? Écris-le. On lit tout, et c’est un vrai pilote qui te répond, en général sous quarante-huit heures.",
+    "channel": {
+      "title": "Canal",
+      "caption": "Fréquence ouverte",
+      "status": "Statut",
+      "statusValue": "En réception",
+      "response": "Réponse",
+      "responseValue": "24 à 48 h",
+      "responseSub": "jours ouvrés",
+      "readingWindow": "Plage de lecture",
+      "readingWindowValue": "GMT+1",
+      "readingWindowSub": "Belgique",
+      "privacy": "Confidentialité",
+      "privacyValue": "SSL · de bout en bout",
+      "privacySub": "jamais publié"
+    },
+    "noEmail": {
+      "title": "Pourquoi pas d’adresse e-mail",
+      "body": "On ne publie pas d’adresse e-mail sur la page. Le formulaire bloque les robots et limite les abus. <em>Même boîte de réception</em>, moins de parasites."
+    },
+    "ideas": {
+      "title": "Idées et demandes",
+      "body": "Demandes d’évolution, rapports de bug, idées de fonctionnalités à moitié mûres : balance tout dans le formulaire. Chaque message est lu, et les réponses arrivent en général sous <em>24 à 48 heures</em>."
+    },
+    "footerLeft": "we-fly.cloud · contact",
+    "footerRight": "fait par des pilotes, pour des pilotes"
+  },
+  "form": {
+    "title": "Envoyer un message",
+    "caption": "Chaque message est lu.",
+    "from": "De",
+    "replyTo": "Répondre à",
+    "subject": "Objet",
+    "message": "Message",
+    "namePlaceholder": "Ton nom",
+    "emailPlaceholder": "toi@quelquepart.tld",
+    "subjectPlaceholder": "Un bug, un thermique, une idée…",
+    "messagePlaceholder": "Dis-nous ce que tu as en tête. Le contexte aide : ce que tu faisais, ce que tu as vu, ce qui t’a surpris.",
+    "footnote": "C’est un vrai pilote qui répond. Ton message reste <em>entre nous</em> : jamais publié, jamais revendu.",
+    "send": "Envoyer le message",
+    "sending": "Envoi",
+    "unexpectedError": "Une erreur inattendue s’est produite. Réessaie plus tard.",
+    "errors": {
+      "nameRequired": "Le nom est obligatoire",
+      "emailRequired": "L’e-mail est obligatoire",
+      "emailInvalid": "Ça ne ressemble pas à un e-mail",
+      "subjectRequired": "L’objet est obligatoire",
+      "messageRequired": "Le message est obligatoire",
+      "minChars": "Au moins {min} caractères",
+      "maxChars": "{max} caractères maximum"
+    }
+  },
+  "meta": {
+    "title": "Nous contacter",
+    "description": "Contacte l’équipe We-Fly. Envoie-nous tes questions, suggestions ou retours via notre formulaire de contact sécurisé.",
+    "ogTitle": "Nous contacter | We-Fly"
+  },
+  "result": {
+    "thanks": "Merci pour ton message. On te répond vite !",
+    "tooFast": "Prends un moment pour relire ton message avant de l’envoyer.",
+    "expired": "Ta session a expiré. Recharge la page et réessaie.",
+    "nameRequired": "Indique ton nom (au moins 2 caractères).",
+    "emailInvalid": "Indique une adresse e-mail valide.",
+    "subjectRequired": "Indique un objet (au moins 3 caractères).",
+    "messageRequired": "Écris un message (au moins 10 caractères).",
+    "nameTooLong": "Le nom doit faire moins de 100 caractères.",
+    "subjectTooLong": "L’objet doit faire moins de 200 caractères.",
+    "messageTooLong": "Le message doit faire moins de 5 000 caractères.",
+    "sendFailed": "Impossible d’envoyer le message. Réessaie plus tard.",
+    "sent": "Merci pour ton message ! On t’a envoyé une confirmation par e-mail et on te répond vite.",
+    "unexpected": "Une erreur inattendue s’est produite. Réessaie plus tard."
+  }
+}

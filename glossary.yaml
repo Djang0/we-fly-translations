@@ -514,3 +514,33 @@ terms:
     it: stazione meteo
     es: estación meteorológica
     note: "fr pilots say 'balise', but in UI text 'balise' is reserved for turnpoint."
+
+  # --- added after the docs UI pass (2026-10-11) --------------------------
+  documentation:
+    fr: documentation
+    de: Dokumentation
+    nl: documentatie
+    it: documentazione
+    es: documentación
+    note: "Short labels (tabs, nav): fr/nl/es 'Docs', de 'Doku', it 'Doc'."
+  What's new (release notes):
+    fr: Nouveautés
+    de: Neuigkeiten
+    nl: Wat is er nieuw
+    it: Novità
+    es: Novedades
+  release (app version):
+    fr: version
+    de: Version
+    nl: versie
+    it: versione
+    es: versión
+  GDPR:
+    fr: RGPD
+    de: DSGVO
+    nl: AVG
+    it: GDPR
+    es: RGPD
+  Shiny (special release badge):
+    keep: true
+    note: "Product label, keep '✦ Shiny' in every language."

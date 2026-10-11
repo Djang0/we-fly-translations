@@ -1,0 +1,83 @@
+{
+  "header": {
+    "eyebrow": "Deel II · De boekenplank",
+    "title": "Wetenschappelijke bronnen",
+    "subtitle": "Het wetenschappelijke werk achter de thermiekdetectie, windschatting en vluchtanalysemodellen van We-Fly. <em>Elke coëfficiënt heeft een bron.</em>"
+  },
+  "stats": {
+    "inCorpus": "In het corpus",
+    "inCorpusSub": "geselecteerd · mei 2026",
+    "openAccess": "Open access",
+    "openAccessSub": "rechtstreeks te linken",
+    "topicsTracked": "Onderwerpen",
+    "topicsTrackedSub": "zie zijbalk",
+    "oldestEntry": "Oudste bron",
+    "oldestEntrySub": "Hurt, aerodynamica"
+  },
+  "filters": {
+    "show": "Filters",
+    "hide": "Filters verbergen",
+    "type": "Type",
+    "topic": "Onderwerp",
+    "era": "Periode",
+    "access": "Toegang",
+    "allReferences": "Alle bronnen",
+    "researchArticles": "Onderzoeksartikelen",
+    "books": "Boeken",
+    "educational": "Educatief",
+    "openAccessOnly": "Alleen open access"
+  },
+  "types": {
+    "research": "Onderzoek",
+    "book": "Boeken",
+    "edu": "Educatief"
+  },
+  "topics": {
+    "thermalModelling": "Thermiekmodellen",
+    "crowdsourcedSensing": "Crowdsourced metingen",
+    "meteorology": "Meteorologie",
+    "xcTechnique": "XC-techniek",
+    "pilotTechnique": "Vliegtechniek",
+    "wingPerformance": "Prestaties van schermen",
+    "openData": "Open data"
+  },
+  "eras": {
+    "2020s": "Jaren 2020",
+    "2010s": "Jaren 2010",
+    "2000s": "Jaren 2000",
+    "pre2000": "Voor 2000"
+  },
+  "search": {
+    "placeholder": "Zoek op titel, auteur, publicatie, onderwerp…",
+    "aria": "Bronnen doorzoeken"
+  },
+  "entries": "{count, plural, one {{total} bron} other {{total} bronnen}}",
+  "entriesFiltered": "{count, plural, one {{shown} / {total} bron} other {{shown} / {total} bronnen}}",
+  "sort": {
+    "label": "Sorteren",
+    "aria": "Bronnen sorteren",
+    "curated": "Onze selectie",
+    "newest": "Nieuwste eerst",
+    "oldest": "Oudste eerst",
+    "alpha": "A → Z op titel"
+  },
+  "empty": "Geen bronnen die aan de huidige filters voldoen.",
+  "endOfCorpus": "Einde van het corpus · {shown} van {total} getoond",
+  "row": {
+    "openAccess": "Open access",
+    "collapse": "Inklappen",
+    "expand": "Samenvatting en toegang lezen",
+    "abstract": "Samenvatting",
+    "whyItMatters": "Waarom dit hier telt",
+    "access": "Bron openen",
+    "noLink": "Geen rechtstreekse link",
+    "copyAria": "Bronvermelding naar klembord kopiëren",
+    "copy": "Bronvermelding kopiëren",
+    "copied": "Bronvermelding gekopieerd"
+  },
+  "meta": {
+    "title": "Wetenschappelijke bronnen",
+    "description": "Wetenschappelijk onderzoek, boeken en technische artikelen achter de thermiekdetectie en vluchtanalyse-algoritmen van We-Fly.",
+    "ogTitle": "Wetenschappelijke bronnen | We-Fly"
+  }
+}

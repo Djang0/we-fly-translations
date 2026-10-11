@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "ariaLabel": "Chi è we-fly",
+    "eyebrow": "Il progetto · dal 2025 a oggi",
+    "titleLine1": "Un libretto di volo",
+    "titleLine2": "<em>di precisione</em>",
+    "titleLine3": "per piloti.",
+    "lede": "We-fly è un registro di ogni volo costruito dalla community: il vento di quel giorno, la vela con cui hai volato, la linea che hai preso. <em>Fatto da piloti, per piloti, in alpha.</em>",
+    "panelAria": "Informazioni sulla build",
+    "status": "Stato",
+    "operational": "Operativo",
+    "version": "Versione",
+    "released": "rilasciata il {date}",
+    "channel": "Canale",
+    "channels": {
+      "alpha": "alpha",
+      "beta": "beta",
+      "stable": "stabile"
+    },
+    "roughEdges": "qualche spigolo da limare",
+    "license": "Licenza",
+    "proprietary": "Proprietaria",
+    "freeToUse": "gratuito",
+    "privacy": "Privacy",
+    "gdpr": "GDPR",
+    "gdprSub": "prima il consenso, esporta o cancella quando vuoi",
+    "origin": "Origine",
+    "originSub": "Plaine-Joux · primo commit",
+    "pilotRole": "Sviluppatore · Pilota · Debugger a caffè",
+    "homeSite": "Sito di casa: <site>La Roche en Ardenne, Corimont</site>",
+    "builtWeFly": "Ha creato we-fly · 2025",
+    "source": "Codice",
+    "studio": "Studio",
+    "opensInNewTab": "(si apre in una nuova scheda)",
+    "ctaKicker": "Pronto a registrare",
+    "ctaHeadline": "Inizia a registrare ogni <em>termica, dinamica</em> e planata.",
+    "ctaOpen": "Apri il libretto",
+    "ctaStart": "Inizia il libretto"
+  },
+  "changelog": {
+    "title": "Storico dei <em>rilasci</em>",
+    "blurb": "Un resoconto onesto di cosa è uscito, cosa si è rotto e cosa abbiamo sistemato. I più recenti in alto.",
+    "releaseCount": "{count, plural, one {# rilascio} other {# rilasci}}",
+    "releaseCountOldest": "{count, plural, one {# rilascio} other {# rilasci}} · il primo {date}",
+    "filterAria": "Filtra i rilasci",
+    "filters": {
+      "all": "Tutti",
+      "alpha": "Alpha",
+      "feat": "Funzioni",
+      "fix": "Correzioni"
+    },
+    "kinds": {
+      "added": "Aggiunto",
+      "changed": "Modificato",
+      "fixed": "Corretto",
+      "removed": "Rimosso"
+    },
+    "unreleasedLabel": "non rilasciato",
+    "inFlight": "in volo",
+    "latest": "Ultimo",
+    "shiny": "✦ Shiny",
+    "unreleasedTag": "Non rilasciato",
+    "changeCount": "{count, plural, one {# modifica} other {# modifiche}}"
+  },
+  "meta": {
+    "title": "Chi siamo",
+    "description": "Scopri We-Fly, la piattaforma professionale di libretto di volo per il parapendio pensata per piloti di precisione.",
+    "ogTitle": "Chi è We-Fly"
+  }
+}

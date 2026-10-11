@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "ariaLabel": "Contact we-fly",
+    "eyebrow": "Open frequency · always listening",
+    "title": "Talk to the tower.",
+    "subtitle": "A bug, an idea, a thermal you can't explain. Write it down. We read everything, and replies come from an actual pilot, usually within forty-eight hours.",
+    "channel": {
+      "title": "Channel",
+      "caption": "Open frequency",
+      "status": "Status",
+      "statusValue": "Receiving",
+      "response": "Response",
+      "responseValue": "24 to 48 h",
+      "responseSub": "working days",
+      "readingWindow": "Reading window",
+      "readingWindowValue": "GMT+1",
+      "readingWindowSub": "Belgium",
+      "privacy": "Privacy",
+      "privacyValue": "SSL · end-to-end",
+      "privacySub": "never published"
+    },
+    "noEmail": {
+      "title": "Why no email address",
+      "body": "We don't publish a mail address on the page. The form blocks bots and rate-limits abuse. <em>Same inbox</em>, quieter signal."
+    },
+    "ideas": {
+      "title": "Ideas & requests",
+      "body": "Change requests, bug reports, half-baked feature ideas: drop them all in the form. Every transmission gets read, and replies typically land within <em>24 to 48 hours</em>."
+    },
+    "footerLeft": "we-fly.cloud · contact",
+    "footerRight": "built by pilots, for pilots"
+  },
+  "form": {
+    "title": "Send a message",
+    "caption": "Every transmission gets read.",
+    "from": "From",
+    "replyTo": "Reply-to",
+    "subject": "Subject",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@somewhere.tld",
+    "subjectPlaceholder": "A bug, a thermal, an idea…",
+    "messagePlaceholder": "Tell us what's on your mind. Context helps: what you were doing, what you saw, what surprised you.",
+    "footnote": "Replies are handled by an actual pilot. Your message stays <em>between us</em>: never published, never resold.",
+    "send": "Send transmission",
+    "sending": "Sending",
+    "unexpectedError": "An unexpected error occurred. Please try again later.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Doesn't look like an email",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "minChars": "At least {min} characters",
+      "maxChars": "Max {max} characters"
+    }
+  },
+  "meta": {
+    "title": "Contact us",
+    "description": "Get in touch with the We-Fly team. Send us your questions, suggestions or feedback through our secure contact form.",
+    "ogTitle": "Contact us | We-Fly"
+  },
+  "result": {
+    "thanks": "Thank you for your message. We'll get back to you soon!",
+    "tooFast": "Please take a moment to review your message before sending.",
+    "expired": "Your session has expired. Please refresh and try again.",
+    "nameRequired": "Please provide your name (at least 2 characters).",
+    "emailInvalid": "Please provide a valid email address.",
+    "subjectRequired": "Please provide a subject (at least 3 characters).",
+    "messageRequired": "Please provide a message (at least 10 characters).",
+    "nameTooLong": "Name must be less than 100 characters.",
+    "subjectTooLong": "Subject must be less than 200 characters.",
+    "messageTooLong": "Message must be less than 5000 characters.",
+    "sendFailed": "Failed to send message. Please try again later.",
+    "sent": "Thank you for your message! We've sent a confirmation to your email and will get back to you soon.",
+    "unexpected": "An unexpected error occurred. Please try again later."
+  }
+}

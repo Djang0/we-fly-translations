@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "ariaLabel": "Contact met we-fly",
+    "eyebrow": "Open frequentie · we luisteren altijd mee",
+    "title": "Roep de toren op.",
+    "subtitle": "Een bug, een idee, thermiek die je niet kunt verklaren. Schrijf het op. We lezen alles, en het antwoord komt van een echte piloot, meestal binnen achtenveertig uur.",
+    "channel": {
+      "title": "Kanaal",
+      "caption": "Open frequentie",
+      "status": "Status",
+      "statusValue": "Ontvangst",
+      "response": "Antwoord",
+      "responseValue": "24 tot 48 u",
+      "responseSub": "werkdagen",
+      "readingWindow": "Leesvenster",
+      "readingWindowValue": "GMT+1",
+      "readingWindowSub": "België",
+      "privacy": "Privacy",
+      "privacyValue": "SSL · end-to-end",
+      "privacySub": "nooit gepubliceerd"
+    },
+    "noEmail": {
+      "title": "Waarom geen e-mailadres",
+      "body": "We zetten geen e-mailadres op de pagina. Het formulier houdt bots tegen en beperkt misbruik. <em>Dezelfde inbox</em>, minder ruis."
+    },
+    "ideas": {
+      "title": "Ideeën en verzoeken",
+      "body": "Wijzigingsverzoeken, bugmeldingen, half uitgewerkte ideeën voor functies: gooi ze allemaal in het formulier. Elk bericht wordt gelezen, en een antwoord komt meestal binnen <em>24 tot 48 uur</em>."
+    },
+    "footerLeft": "we-fly.cloud · contact",
+    "footerRight": "gebouwd door piloten, voor piloten"
+  },
+  "form": {
+    "title": "Stuur een bericht",
+    "caption": "Elk bericht wordt gelezen.",
+    "from": "Van",
+    "replyTo": "Antwoord naar",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "namePlaceholder": "Je naam",
+    "emailPlaceholder": "jij@ergens.tld",
+    "subjectPlaceholder": "Een bug, een thermiek, een idee…",
+    "messagePlaceholder": "Vertel ons wat je bezighoudt. Context helpt: wat je aan het doen was, wat je zag, wat je verraste.",
+    "footnote": "Antwoorden komen van een echte piloot. Je bericht blijft <em>onder ons</em>: nooit gepubliceerd, nooit doorverkocht.",
+    "send": "Bericht versturen",
+    "sending": "Versturen",
+    "unexpectedError": "Er ging iets onverwachts mis. Probeer het later opnieuw.",
+    "errors": {
+      "nameRequired": "Naam is verplicht",
+      "emailRequired": "E-mail is verplicht",
+      "emailInvalid": "Dit lijkt geen e-mailadres",
+      "subjectRequired": "Onderwerp is verplicht",
+      "messageRequired": "Bericht is verplicht",
+      "minChars": "Minstens {min} tekens",
+      "maxChars": "Maximaal {max} tekens"
+    }
+  },
+  "meta": {
+    "title": "Contact",
+    "description": "Neem contact op met het We-Fly-team. Stuur je vragen, suggesties of feedback via ons beveiligde contactformulier.",
+    "ogTitle": "Contact | We-Fly"
+  },
+  "result": {
+    "thanks": "Bedankt voor je bericht. We nemen snel contact met je op!",
+    "tooFast": "Neem even de tijd om je bericht na te lezen voor je het verstuurt.",
+    "expired": "Je sessie is verlopen. Vernieuw de pagina en probeer het opnieuw.",
+    "nameRequired": "Vul je naam in (minstens 2 tekens).",
+    "emailInvalid": "Vul een geldig e-mailadres in.",
+    "subjectRequired": "Vul een onderwerp in (minstens 3 tekens).",
+    "messageRequired": "Schrijf een bericht (minstens 10 tekens).",
+    "nameTooLong": "Je naam moet korter zijn dan 100 tekens.",
+    "subjectTooLong": "Het onderwerp moet korter zijn dan 200 tekens.",
+    "messageTooLong": "Je bericht moet korter zijn dan 5000 tekens.",
+    "sendFailed": "Het bericht kon niet verstuurd worden. Probeer het later opnieuw.",
+    "sent": "Bedankt voor je bericht! We hebben je een bevestiging gemaild en nemen snel contact met je op.",
+    "unexpected": "Er ging iets onverwachts mis. Probeer het later opnieuw."
+  }
+}

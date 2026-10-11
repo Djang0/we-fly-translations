@@ -1,0 +1,201 @@
+{
+  "categories": {
+    "getting-started": {
+      "name": "Erste Schritte",
+      "blurb": "Konto einrichten, erste IGC hochladen, erste Zahlen lesen."
+    },
+    "your-flights": {
+      "name": "Deine Flüge",
+      "blurb": "Das Flugbuch: Flüge filtern, validieren, exportieren und pflegen."
+    },
+    "cockpit": {
+      "name": "Cockpit",
+      "blurb": "Deine Auswertungen: Trends, Leistung, die Zahlen, auf die es ankommt."
+    },
+    "thermal-analysis": {
+      "name": "Thermikanalyse",
+      "blurb": "Jedes Steigen entschlüsselt: Kurbelqualität, Kern-Effizienz, was das Vario wirklich sagt."
+    },
+    "community": {
+      "name": "Community",
+      "blurb": "Pilotendaten gebündelt zu Statistiken, die kein einzelnes Flugbuch liefern könnte."
+    },
+    "video-walkthroughs": {
+      "name": "Video-Anleitungen",
+      "blurb": "Kurze Screencasts. Anschauen statt lesen."
+    },
+    "account-data": {
+      "name": "Konto & Daten",
+      "blurb": "Wie mit deinen Daten umgegangen wird. Klartext."
+    },
+    "developers": {
+      "name": "Entwickler",
+      "blurb": "OAuth 2.0 API, Scopes und Integrationsbeispiele für Partner."
+    }
+  },
+  "groups": {
+    "tutorial": "Schritt für Schritt",
+    "reference": "Referenz",
+    "concept": "Konzepte",
+    "video": "Videos"
+  },
+  "typeLabels": {
+    "tutorial": "Anleitung",
+    "reference": "Referenz",
+    "concept": "Konzept",
+    "video": "Video"
+  },
+  "blogTags": {
+    "feature": "Funktion",
+    "fix": "Fix",
+    "api": "API",
+    "docs": "Doku"
+  },
+  "common": {
+    "minutesShort": "{minutes} Min.",
+    "minutesRead": "{minutes, plural, one {# Min. Lesezeit} other {# Min. Lesezeit}}",
+    "articleCount": "{count, plural, one {# Artikel} other {# Artikel}}",
+    "resultCount": "{count, plural, one {# Treffer} other {# Treffer}}"
+  },
+  "shell": {
+    "tabs": {
+      "docs": "Doku",
+      "whatsNew": "Neuigkeiten"
+    },
+    "toggleNavigation": "Doku-Navigation ein- oder ausblenden",
+    "backTo": "Zurück zu {label}",
+    "search": "Suche",
+    "searchAria": "Dokumentation durchsuchen",
+    "navigationAria": "Dokumentation"
+  },
+  "sidebar": {
+    "navigationAria": "Doku-Navigation",
+    "whatsNew": "Neuigkeiten",
+    "closeNavigation": "Navigation schließen",
+    "collapse": "{name} einklappen",
+    "expand": "{name} ausklappen"
+  },
+  "toc": {
+    "label": "Auf dieser Seite"
+  },
+  "hub": {
+    "eyebrow": "Dokumentation",
+    "title": "Alles, was wir wissen, zu jedem Flug, den du einträgst.",
+    "subtitle": "Referenz, Anleitungen, Hintergründe und ab und zu ein Video, für Piloten, die wissen wollen, was jede Zahl in ihrem Flugbuch bedeutet.",
+    "searchButton": "{count, plural, one {# Artikel} other {# Artikel}}, Anleitungen und Konzepte durchsuchen…",
+    "browse": "Nach Bereich stöbern · {categoryCount, plural, one {# Kategorie} other {# Kategorien}} · {articleCount, plural, one {# Artikel} other {# Artikel}}",
+    "more": "+ {count} weitere",
+    "startHere": {
+      "title": "Hier starten",
+      "caption": "Drei Artikel für den Anfang.",
+      "items": {
+        "index": {
+          "title": "Willkommen bei We-Fly",
+          "description": "Wofür die Plattform da ist, was dir jeder Bereich bietet und wo du am besten einsteigst."
+        },
+        "cockpit": {
+          "title": "Dein Cockpit lesen",
+          "description": "Was jede Zahl im Cockpit bedeutet und wie We-Fly sie berechnet."
+        },
+        "z-score-pilot-guide": {
+          "title": "Der Z-Score, einfach erklärt",
+          "description": "Wie aus „überdurchschnittlich“ eine Zahl wird, die du am Landeplatz verteidigen kannst."
+        }
+      }
+    },
+    "mostRead": {
+      "title": "Meistgelesen",
+      "caption": "Was Piloten am häufigsten öffnen."
+    },
+    "watch": {
+      "title": "Lieber anschauen",
+      "caption": "Kurze Screencasts.",
+      "all": "Alle Videos →"
+    },
+    "recent": {
+      "title": "Zuletzt aktualisiert",
+      "caption": "Die neuesten Änderungen an der Doku."
+    }
+  },
+  "category": {
+    "eyebrow": "Dokumentation · {count, plural, one {# Artikel} other {# Artikel}}"
+  },
+  "article": {
+    "updated": "Aktualisiert am {date}",
+    "helpful": "War das hilfreich?",
+    "yes": "Ja",
+    "noMissing": "Nein, da fehlt etwas",
+    "previous": "← Zurück",
+    "next": "Weiter →"
+  },
+  "whatsNew": {
+    "eyebrow": "Dokumentation · Versionshinweise",
+    "title": "Neuigkeiten",
+    "subtitle": "Funktionen, Fixes und Doku, die neuesten zuerst.",
+    "empty": "Noch keine Neuigkeiten.",
+    "readPost": "Beitrag lesen →",
+    "readDocs": "Zur Doku →"
+  },
+  "blog": {
+    "saveAsPdf": "Als PDF speichern",
+    "close": "Schließen",
+    "readTheDocs": "Zur Doku",
+    "notFoundTitle": "Beitrag nicht gefunden",
+    "notFoundBody": "Dieses Update wurde vielleicht entfernt oder umbenannt.",
+    "printTagline": "Flugbuch & Flugauswertung fürs Gleitschirmfliegen"
+  },
+  "drawer": {
+    "title": "Dokumentation",
+    "description": "Doku-Artikel. Schließe ihn, um dahin zurückzukehren, wo du warst.",
+    "loading": "Wird geladen…",
+    "failed": "Dieser Artikel konnte nicht geladen werden.",
+    "footer": "Deine Arbeit auf dieser Seite bleibt erhalten. <link>Ganze Seite öffnen</link>"
+  },
+  "search": {
+    "placeholder": "Doku, Artikel, Konzepte durchsuchen…",
+    "noMatches": "Keine Treffer für <term>„{query}“</term>",
+    "hint": "Probier ein Schirmmodell, einen Statistikbegriff oder „Z-Score“.",
+    "loadingIndex": "Index wird geladen…",
+    "sections": {
+      "featured": "Empfohlen",
+      "tutorials": "Anleitungen",
+      "concepts": "Konzepte",
+      "articles": "Artikel",
+      "categories": "Kategorien"
+    },
+    "footer": {
+      "navigate": "navigieren",
+      "open": "öffnen",
+      "close": "schließen"
+    }
+  },
+  "codeBlock": {
+    "copy": "Code kopieren",
+    "copied": "Kopiert!",
+    "copyAria": "Code in die Zwischenablage kopieren",
+    "copiedAria": "In die Zwischenablage kopiert"
+  },
+  "notice": {
+    "untranslated": "Diese Seite ist noch nicht in deine Sprache übersetzt und wird deshalb auf Englisch angezeigt.",
+    "legal": "Diese Übersetzung dient nur der Orientierung. Rechtlich maßgeblich ist die englische Fassung.",
+    "aiDraft": "Mit KI übersetzt und nach und nach von Piloten überarbeitet. Ist dir etwas komisch vorgekommen? <link>Schlag eine bessere Formulierung vor</link>."
+  },
+  "meta": {
+    "notFound": "Dokumentation nicht gefunden",
+    "fallbackDescription": "Alles über {title} in der We-Fly Dokumentation.",
+    "ogTitle": "{title} | We-Fly Dokumentation",
+    "hub": {
+      "title": "Dokumentation",
+      "description": "Der komplette Leitfaden zu We-Fly: Flugbuch, Thermikanalyse, Cockpit-Auswertungen und Community-Funktionen für Gleitschirmpiloten.",
+      "ogTitle": "We-Fly Dokumentation"
+    },
+    "category": {
+      "notFound": "Doku-Kategorie nicht gefunden"
+    },
+    "whatsNew": {
+      "title": "Neuigkeiten",
+      "description": "Neue Funktionen, Fixes und Doku-Updates vom We-Fly Team, die neuesten zuerst.",
+      "ogTitle": "Neuigkeiten | We-Fly Dokumentation"
+    }
+  }
+}

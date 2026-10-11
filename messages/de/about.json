@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "ariaLabel": "Über we-fly",
+    "eyebrow": "Über das Projekt · seit 2025",
+    "titleLine1": "Ein Flugbuch",
+    "titleLine2": "für <em>präzise</em>",
+    "titleLine3": "Piloten.",
+    "lede": "We-fly ist ein von der Community gebautes Archiv jedes Flugs: der Wind an dem Tag, der Schirm, den du geflogen bist, die Linie, die du gewählt hast. <em>Von Piloten für Piloten, im Alpha-Stadium.</em>",
+    "panelAria": "Build-Infos",
+    "status": "Status",
+    "operational": "In Betrieb",
+    "version": "Version",
+    "released": "veröffentlicht am {date}",
+    "channel": "Kanal",
+    "channels": {
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "stable": "stabil"
+    },
+    "roughEdges": "noch mit Ecken und Kanten",
+    "license": "Lizenz",
+    "proprietary": "Proprietär",
+    "freeToUse": "kostenlos nutzbar",
+    "privacy": "Datenschutz",
+    "gdpr": "DSGVO",
+    "gdprSub": "erst Einwilligung, Export oder Löschung jederzeit",
+    "origin": "Ursprung",
+    "originSub": "Plaine-Joux · erster Commit",
+    "pilotRole": "Entwickler · Pilot · Kaffee-Debugger",
+    "homeSite": "<site>La Roche en Ardenne, Corimont</site> Hausberg",
+    "builtWeFly": "Hat we-fly gebaut · 2025",
+    "source": "Quellcode",
+    "studio": "Studio",
+    "opensInNewTab": "(öffnet in neuem Tab)",
+    "ctaKicker": "Bereit zum Eintragen",
+    "ctaHeadline": "Halte jeden <em>Bart, jedes Soaren</em> und jeden Gleitflug fest.",
+    "ctaOpen": "Flugbuch öffnen",
+    "ctaStart": "Flugbuch anlegen"
+  },
+  "changelog": {
+    "title": "Versions<em>verlauf</em>",
+    "blurb": "Eine ehrliche Chronik: was rausging, was kaputtging und was wir repariert haben. Das Neueste oben.",
+    "releaseCount": "{count, plural, one {# Version} other {# Versionen}}",
+    "releaseCountOldest": "{count, plural, one {# Version} other {# Versionen}} · älteste {date}",
+    "filterAria": "Versionen filtern",
+    "filters": {
+      "all": "Alle",
+      "alpha": "Alpha",
+      "feat": "Funktionen",
+      "fix": "Fixes"
+    },
+    "kinds": {
+      "added": "Neu",
+      "changed": "Geändert",
+      "fixed": "Behoben",
+      "removed": "Entfernt"
+    },
+    "unreleasedLabel": "unveröffentlicht",
+    "inFlight": "in Arbeit",
+    "latest": "Aktuell",
+    "shiny": "✦ Shiny",
+    "unreleasedTag": "Unveröffentlicht",
+    "changeCount": "{count, plural, one {# Änderung} other {# Änderungen}}"
+  },
+  "meta": {
+    "title": "Über uns",
+    "description": "Erfahre mehr über We-Fly, die professionelle Flugbuch-Plattform für Gleitschirmpiloten, die es genau wissen wollen.",
+    "ogTitle": "Über We-Fly"
+  }
+}

@@ -160,7 +160,7 @@
     }
   },
   "leaderboard": {
-    "eyebrow": "› Comunità · ultimi 7 giorni",
+    "eyebrow": "› Community · ultimi 7 giorni",
     "title": "<line>La classifica</line>su cui il tuo club <it>litiga</it>.",
     "lede": "Calcolata solo da IGC validati: niente distanze autodichiarate. I piloti appaiono con il nome che hanno scelto.",
     "tabs": { "xc": "Distanza XC", "climb": "Salita migliore", "triangle": "Triangolo FAI" },
@@ -200,7 +200,7 @@
       "siteConditions": "Condizioni dei siti"
     },
     "community": {
-      "title": "Comunità",
+      "title": "Community",
       "clubs": "Club",
       "recentFlights": "Voli recenti",
       "references": "Referenze"

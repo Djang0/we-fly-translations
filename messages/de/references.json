@@ -1,0 +1,83 @@
+{
+  "header": {
+    "eyebrow": "Bd. II · Das Literaturregal",
+    "title": "Wissenschaftliche Quellen",
+    "subtitle": "Die Fachliteratur hinter We-Flys Thermikerkennung, Windschätzung und Flugauswertung. <em>Jeder Koeffizient hat eine Quelle.</em>"
+  },
+  "stats": {
+    "inCorpus": "Im Bestand",
+    "inCorpusSub": "kuratiert · Mai 2026",
+    "openAccess": "Open Access",
+    "openAccessSub": "direkt verlinkbar",
+    "topicsTracked": "Themen",
+    "topicsTrackedSub": "siehe Seitenleiste",
+    "oldestEntry": "Ältester Eintrag",
+    "oldestEntrySub": "Hurt, Aerodynamik"
+  },
+  "filters": {
+    "show": "Filter",
+    "hide": "Filter ausblenden",
+    "type": "Art",
+    "topic": "Thema",
+    "era": "Zeitraum",
+    "access": "Zugang",
+    "allReferences": "Alle Quellen",
+    "researchArticles": "Fachartikel",
+    "books": "Bücher",
+    "educational": "Lehrmaterial",
+    "openAccessOnly": "Nur Open Access"
+  },
+  "types": {
+    "research": "Forschung",
+    "book": "Bücher",
+    "edu": "Lehrmaterial"
+  },
+  "topics": {
+    "thermalModelling": "Thermikmodelle",
+    "crowdsourcedSensing": "Crowdsourcing-Messdaten",
+    "meteorology": "Meteorologie",
+    "xcTechnique": "Streckenflugtechnik",
+    "pilotTechnique": "Flugtechnik",
+    "wingPerformance": "Schirmleistung",
+    "openData": "Offene Daten"
+  },
+  "eras": {
+    "2020s": "2020er",
+    "2010s": "2010er",
+    "2000s": "2000er",
+    "pre2000": "Vor 2000"
+  },
+  "search": {
+    "placeholder": "Titel, Autoren, Verlage, Themen durchsuchen…",
+    "aria": "Quellen durchsuchen"
+  },
+  "entries": "{count, plural, one {{total} Eintrag} other {{total} Einträge}}",
+  "entriesFiltered": "{count, plural, one {{shown} / {total} Eintrag} other {{shown} / {total} Einträge}}",
+  "sort": {
+    "label": "Sortierung",
+    "aria": "Quellen sortieren",
+    "curated": "Kuratiert",
+    "newest": "Neueste zuerst",
+    "oldest": "Älteste zuerst",
+    "alpha": "A → Z nach Titel"
+  },
+  "empty": "Keine Quellen passen zu den aktuellen Filtern.",
+  "endOfCorpus": "Ende des Bestands · {shown} von {total} angezeigt",
+  "row": {
+    "openAccess": "Open Access",
+    "collapse": "Einklappen",
+    "expand": "Abstract & Zugang anzeigen",
+    "abstract": "Abstract",
+    "whyItMatters": "Warum das hier wichtig ist",
+    "access": "Zur Quelle",
+    "noLink": "Kein direkter Link",
+    "copyAria": "Zitat in die Zwischenablage kopieren",
+    "copy": "Zitat kopieren",
+    "copied": "Zitat kopiert"
+  },
+  "meta": {
+    "title": "Wissenschaftliche Quellen",
+    "description": "Fachartikel, Bücher und technische Beiträge hinter We-Flys Algorithmen für Thermikerkennung und Flugauswertung.",
+    "ogTitle": "Wissenschaftliche Quellen | We-Fly"
+  }
+}

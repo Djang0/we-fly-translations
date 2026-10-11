@@ -1,0 +1,201 @@
+{
+  "categories": {
+    "getting-started": {
+      "name": "Getting Started",
+      "blurb": "Set up your account, upload your first IGC, read your first numbers."
+    },
+    "your-flights": {
+      "name": "Your Flights",
+      "blurb": "The logbook: filtering, validating, exporting and curating your flight history."
+    },
+    "cockpit": {
+      "name": "Cockpit",
+      "blurb": "Your analytics surface: trends, performance, the numbers that matter."
+    },
+    "thermal-analysis": {
+      "name": "Thermal Analysis",
+      "blurb": "Every climb decoded: turn quality, core efficiency, vario truth."
+    },
+    "community": {
+      "name": "Community",
+      "blurb": "Pooling pilot data into statistics no single logbook could yield."
+    },
+    "video-walkthroughs": {
+      "name": "Video Walkthroughs",
+      "blurb": "Short screencasts. Watch instead of read."
+    },
+    "account-data": {
+      "name": "Account & Data",
+      "blurb": "How your data is handled. Plainly."
+    },
+    "developers": {
+      "name": "Developers",
+      "blurb": "OAuth 2.0 API, scopes, and integration examples for partners."
+    }
+  },
+  "groups": {
+    "tutorial": "Step-by-step",
+    "reference": "Reference",
+    "concept": "Concepts",
+    "video": "Videos"
+  },
+  "typeLabels": {
+    "tutorial": "tutorial",
+    "reference": "reference",
+    "concept": "concept",
+    "video": "video"
+  },
+  "blogTags": {
+    "feature": "feature",
+    "fix": "fix",
+    "api": "api",
+    "docs": "docs"
+  },
+  "common": {
+    "minutesShort": "{minutes} min",
+    "minutesRead": "{minutes, plural, one {# min read} other {# min read}}",
+    "articleCount": "{count, plural, one {# article} other {# articles}}",
+    "resultCount": "{count, plural, one {# result} other {# results}}"
+  },
+  "shell": {
+    "tabs": {
+      "docs": "Docs",
+      "whatsNew": "What’s new"
+    },
+    "toggleNavigation": "Toggle documentation navigation",
+    "backTo": "Back to {label}",
+    "search": "Search",
+    "searchAria": "Search documentation",
+    "navigationAria": "Documentation"
+  },
+  "sidebar": {
+    "navigationAria": "Documentation navigation",
+    "whatsNew": "What’s new",
+    "closeNavigation": "Close navigation",
+    "collapse": "Collapse {name}",
+    "expand": "Expand {name}"
+  },
+  "toc": {
+    "label": "On this page"
+  },
+  "hub": {
+    "eyebrow": "Documentation",
+    "title": "Everything we know, about every flight you log.",
+    "subtitle": "Reference, tutorials, conceptual explainers and the occasional video, for pilots who want to know what every number in their logbook means.",
+    "searchButton": "Search {count, plural, one {# article} other {# articles}}, walkthroughs and concepts…",
+    "browse": "Browse by area · {categoryCount, plural, one {# category} other {# categories}} · {articleCount, plural, one {# article} other {# articles}}",
+    "more": "+ {count} more",
+    "startHere": {
+      "title": "Start here",
+      "caption": "Three articles to read first.",
+      "items": {
+        "index": {
+          "title": "Welcome to We-Fly",
+          "description": "What the platform is for, what each surface gives you, and where to land first."
+        },
+        "cockpit": {
+          "title": "Read your cockpit",
+          "description": "What every number on the cockpit means and how We-Fly computes it."
+        },
+        "z-score-pilot-guide": {
+          "title": "Z-score, plainly",
+          "description": "How 'above average' becomes a number you can defend at the LZ."
+        }
+      }
+    },
+    "mostRead": {
+      "title": "Most read",
+      "caption": "What pilots open the most."
+    },
+    "watch": {
+      "title": "Watch instead",
+      "caption": "Short screencasts.",
+      "all": "All videos →"
+    },
+    "recent": {
+      "title": "Recently updated",
+      "caption": "Latest edits to the docs."
+    }
+  },
+  "category": {
+    "eyebrow": "Documentation · {count, plural, one {# article} other {# articles}}"
+  },
+  "article": {
+    "updated": "Updated {date}",
+    "helpful": "Was this helpful?",
+    "yes": "Yes",
+    "noMissing": "No, something is missing",
+    "previous": "← Previous",
+    "next": "Next →"
+  },
+  "whatsNew": {
+    "eyebrow": "Documentation · Release notes",
+    "title": "What’s new",
+    "subtitle": "Features, fixes and documentation, ordered by recency.",
+    "empty": "No updates yet.",
+    "readPost": "Read the post →",
+    "readDocs": "Read the docs →"
+  },
+  "blog": {
+    "saveAsPdf": "Save as PDF",
+    "close": "Close",
+    "readTheDocs": "Read the docs",
+    "notFoundTitle": "Post not found",
+    "notFoundBody": "This update may have been removed or renamed.",
+    "printTagline": "Paragliding logbook & flight analytics"
+  },
+  "drawer": {
+    "title": "Documentation",
+    "description": "Documentation article. Close it to return to where you were.",
+    "loading": "Loading…",
+    "failed": "This article could not be loaded.",
+    "footer": "Your work on this page is kept. <link>Open the full page</link>"
+  },
+  "search": {
+    "placeholder": "Search docs, articles, concepts…",
+    "noMatches": "No matches for <term>“{query}”</term>",
+    "hint": "Try a wing model, a stat name, or “z-score”.",
+    "loadingIndex": "Loading index…",
+    "sections": {
+      "featured": "Featured",
+      "tutorials": "Tutorials",
+      "concepts": "Concepts",
+      "articles": "Articles",
+      "categories": "Categories"
+    },
+    "footer": {
+      "navigate": "navigate",
+      "open": "open",
+      "close": "close"
+    }
+  },
+  "codeBlock": {
+    "copy": "Copy code",
+    "copied": "Copied!",
+    "copyAria": "Copy code to clipboard",
+    "copiedAria": "Copied to clipboard"
+  },
+  "notice": {
+    "untranslated": "This page is not translated into your language yet, so it is shown in English.",
+    "legal": "This translation is provided for convenience. The English version is the one that applies.",
+    "aiDraft": "Translated with AI and reviewed by pilots over time. Spotted something odd? <link>Suggest a better wording</link>."
+  },
+  "meta": {
+    "notFound": "Documentation not found",
+    "fallbackDescription": "Learn about {title} in the We-Fly documentation.",
+    "ogTitle": "{title} | We-Fly Documentation",
+    "hub": {
+      "title": "Documentation",
+      "description": "Complete guide to We-Fly: flight tracking, thermal analysis, cockpit analytics and community features for paragliding pilots.",
+      "ogTitle": "We-Fly Documentation"
+    },
+    "category": {
+      "notFound": "Documentation category not found"
+    },
+    "whatsNew": {
+      "title": "What’s new",
+      "description": "Features, fixes and documentation updates from the We-Fly team, newest first.",
+      "ogTitle": "What’s new | We-Fly Documentation"
+    }
+  }
+}

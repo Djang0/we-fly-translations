@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "ariaLabel": "Over we-fly",
+    "eyebrow": "Over het project · 2025 tot nu",
+    "titleLine1": "Een logboek",
+    "titleLine2": "voor <em>precieze</em>",
+    "titleLine3": "piloten.",
+    "lede": "We-fly is een logboek dat de community samen bouwt, met elke vlucht erin: de wind die dag, het scherm waarmee je vloog, de lijn die je koos. <em>Gebouwd door piloten, voor piloten, in alfa.</em>",
+    "panelAria": "Build-info",
+    "status": "Status",
+    "operational": "Operationeel",
+    "version": "Versie",
+    "released": "uitgebracht op {date}",
+    "channel": "Kanaal",
+    "channels": {
+      "alpha": "alfa",
+      "beta": "bèta",
+      "stable": "stabiel"
+    },
+    "roughEdges": "nog niet overal glad afgewerkt",
+    "license": "Licentie",
+    "proprietary": "Propriëtair",
+    "freeToUse": "gratis te gebruiken",
+    "privacy": "Privacy",
+    "gdpr": "AVG",
+    "gdprSub": "eerst toestemming, exporteren of wissen wanneer je wilt",
+    "origin": "Oorsprong",
+    "originSub": "Plaine-Joux · eerste commit",
+    "pilotRole": "Ontwikkelaar · Piloot · Koffiedebugger",
+    "homeSite": "<site>La Roche en Ardenne, Corimont</site> thuisvlieggebied",
+    "builtWeFly": "Bouwde we-fly · 2025",
+    "source": "Broncode",
+    "studio": "Studio",
+    "opensInNewTab": "(opent in een nieuw tabblad)",
+    "ctaKicker": "Klaar om te loggen",
+    "ctaHeadline": "Leg elke <em>thermiek, elke helling</em> en elke glijvlucht vast.",
+    "ctaOpen": "Open het logboek",
+    "ctaStart": "Begin je logboek"
+  },
+  "changelog": {
+    "title": "Release-<em>geschiedenis</em>",
+    "blurb": "Een eerlijk verslag van wat er uitkwam, wat er stukging en wat we hersteld hebben. De nieuwste bovenaan.",
+    "releaseCount": "{count, plural, one {# release} other {# releases}}",
+    "releaseCountOldest": "{count, plural, one {# release} other {# releases}} · oudste {date}",
+    "filterAria": "Releases filteren",
+    "filters": {
+      "all": "Alles",
+      "alpha": "Alfa",
+      "feat": "Functies",
+      "fix": "Fixes"
+    },
+    "kinds": {
+      "added": "Toegevoegd",
+      "changed": "Gewijzigd",
+      "fixed": "Hersteld",
+      "removed": "Verwijderd"
+    },
+    "unreleasedLabel": "nog niet uitgebracht",
+    "inFlight": "in de lucht",
+    "latest": "Nieuwste",
+    "shiny": "✦ Shiny",
+    "unreleasedTag": "Niet uitgebracht",
+    "changeCount": "{count, plural, one {# wijziging} other {# wijzigingen}}"
+  },
+  "meta": {
+    "title": "Over",
+    "description": "Ontdek We-Fly, het professionele paragliding-logboek voor piloten die precisie zoeken.",
+    "ogTitle": "Over We-Fly"
+  }
+}

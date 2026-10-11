@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "ariaLabel": "Acerca de we-fly",
+    "eyebrow": "Sobre el proyecto · desde 2025",
+    "titleLine1": "Un libro",
+    "titleLine2": "de vuelo de <em>precisión</em>",
+    "titleLine3": "para pilotos.",
+    "lede": "We-fly es un registro de cada vuelo construido por la comunidad: el viento de ese día, la vela que volaste, la línea que seguiste. <em>Hecho por pilotos, para pilotos, en fase alfa.</em>",
+    "panelAria": "Información de la versión",
+    "status": "Estado",
+    "operational": "Operativo",
+    "version": "Versión",
+    "released": "publicada el {date}",
+    "channel": "Canal",
+    "channels": {
+      "alpha": "alfa",
+      "beta": "beta",
+      "stable": "estable"
+    },
+    "roughEdges": "puede haber detalles por pulir",
+    "license": "Licencia",
+    "proprietary": "Propietaria",
+    "freeToUse": "uso gratuito",
+    "privacy": "Privacidad",
+    "gdpr": "RGPD",
+    "gdprSub": "primero tu consentimiento, exporta o borra cuando quieras",
+    "origin": "Origen",
+    "originSub": "Plaine-Joux · primer commit",
+    "pilotRole": "Desarrollador · Piloto · Depurador a base de café",
+    "homeSite": "Zona de vuelo habitual: <site>La Roche en Ardenne, Corimont</site>",
+    "builtWeFly": "Creó we-fly · 2025",
+    "source": "Código",
+    "studio": "Estudio",
+    "opensInNewTab": "(se abre en una pestaña nueva)",
+    "ctaKicker": "Listo para registrar",
+    "ctaHeadline": "Empieza a registrar cada <em>térmica, cada ladera</em> y cada planeo.",
+    "ctaOpen": "Abrir el libro de vuelo",
+    "ctaStart": "Empezar el libro de vuelo"
+  },
+  "changelog": {
+    "title": "Historial de <em>versiones</em>",
+    "blurb": "Un registro honesto de lo que salió, lo que se rompió y lo que arreglamos. Lo más reciente arriba.",
+    "releaseCount": "{count, plural, one {# versión} other {# versiones}}",
+    "releaseCountOldest": "{count, plural, one {# versión} other {# versiones}} · la más antigua del {date}",
+    "filterAria": "Filtrar versiones",
+    "filters": {
+      "all": "Todas",
+      "alpha": "Alfa",
+      "feat": "Funciones",
+      "fix": "Correcciones"
+    },
+    "kinds": {
+      "added": "Añadido",
+      "changed": "Cambiado",
+      "fixed": "Corregido",
+      "removed": "Eliminado"
+    },
+    "unreleasedLabel": "sin publicar",
+    "inFlight": "en vuelo",
+    "latest": "Última",
+    "shiny": "✦ Shiny",
+    "unreleasedTag": "Sin publicar",
+    "changeCount": "{count, plural, one {# cambio} other {# cambios}}"
+  },
+  "meta": {
+    "title": "Acerca de",
+    "description": "Conoce We-Fly, la plataforma profesional de libro de vuelo de parapente creada para pilotos exigentes.",
+    "ogTitle": "Acerca de We-Fly"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "header": {
+    "eyebrow": "Vol. II · La estantería bibliográfica",
+    "title": "Referencias científicas",
+    "subtitle": "La base académica detrás de los modelos de We-Fly para detectar térmicas, estimar el viento y analizar vuelos. <em>Cada coeficiente tiene su fuente.</em>"
+  },
+  "stats": {
+    "inCorpus": "En el corpus",
+    "inCorpusSub": "seleccionadas · mayo de 2026",
+    "openAccess": "Acceso abierto",
+    "openAccessSub": "con enlace directo",
+    "topicsTracked": "Temas cubiertos",
+    "topicsTrackedSub": "ver barra lateral",
+    "oldestEntry": "Entrada más antigua",
+    "oldestEntrySub": "Hurt, aerodinámica"
+  },
+  "filters": {
+    "show": "Filtros",
+    "hide": "Ocultar filtros",
+    "type": "Tipo",
+    "topic": "Tema",
+    "era": "Época",
+    "access": "Acceso",
+    "allReferences": "Todas las referencias",
+    "researchArticles": "Artículos de investigación",
+    "books": "Libros",
+    "educational": "Divulgación",
+    "openAccessOnly": "Solo acceso abierto"
+  },
+  "types": {
+    "research": "Investigación",
+    "book": "Libros",
+    "edu": "Divulgación"
+  },
+  "topics": {
+    "thermalModelling": "Modelado de térmicas",
+    "crowdsourcedSensing": "Datos colaborativos",
+    "meteorology": "Meteorología",
+    "xcTechnique": "Técnica de cross",
+    "pilotTechnique": "Técnica de pilotaje",
+    "wingPerformance": "Rendimiento de la vela",
+    "openData": "Datos abiertos"
+  },
+  "eras": {
+    "2020s": "Años 2020",
+    "2010s": "Años 2010",
+    "2000s": "Años 2000",
+    "pre2000": "Antes de 2000"
+  },
+  "search": {
+    "placeholder": "Busca títulos, autores, publicaciones, temas…",
+    "aria": "Buscar referencias"
+  },
+  "entries": "{count, plural, one {{total} entrada} other {{total} entradas}}",
+  "entriesFiltered": "{count, plural, one {{shown} / {total} entrada} other {{shown} / {total} entradas}}",
+  "sort": {
+    "label": "Ordenar",
+    "aria": "Ordenar referencias",
+    "curated": "Selección",
+    "newest": "Más recientes primero",
+    "oldest": "Más antiguas primero",
+    "alpha": "Título de la A a la Z"
+  },
+  "empty": "Ninguna referencia coincide con los filtros actuales.",
+  "endOfCorpus": "Fin del corpus · {shown} de {total} mostradas",
+  "row": {
+    "openAccess": "Acceso abierto",
+    "collapse": "Contraer",
+    "expand": "Leer resumen y acceso",
+    "abstract": "Resumen",
+    "whyItMatters": "Por qué importa aquí",
+    "access": "Acceder al recurso",
+    "noLink": "Sin enlace directo",
+    "copyAria": "Copiar la cita al portapapeles",
+    "copy": "Copiar cita",
+    "copied": "Cita copiada"
+  },
+  "meta": {
+    "title": "Referencias científicas",
+    "description": "Investigaciones académicas, libros y artículos técnicos en los que se basan los algoritmos de detección de térmicas y análisis de vuelos de We-Fly.",
+    "ogTitle": "Referencias científicas | We-Fly"
+  }
+}

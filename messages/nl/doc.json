@@ -1,0 +1,201 @@
+{
+  "categories": {
+    "getting-started": {
+      "name": "Aan de slag",
+      "blurb": "Maak je account aan, upload je eerste IGC en lees je eerste cijfers."
+    },
+    "your-flights": {
+      "name": "Je vluchten",
+      "blurb": "Het logboek: je vluchtgeschiedenis filteren, valideren, exporteren en bijhouden."
+    },
+    "cockpit": {
+      "name": "Cockpit",
+      "blurb": "Je analyseplek: trends, prestaties, de cijfers die ertoe doen."
+    },
+    "thermal-analysis": {
+      "name": "Thermiekanalyse",
+      "blurb": "Elke stijging ontleed: kwaliteit van je bochten, efficiëntie in de kern, wat je vario echt zegt."
+    },
+    "community": {
+      "name": "Community",
+      "blurb": "Vluchtdata van piloten samengebracht tot statistieken die geen enkel logboek alleen kan opleveren."
+    },
+    "video-walkthroughs": {
+      "name": "Video-uitleg",
+      "blurb": "Korte schermopnames. Kijken in plaats van lezen."
+    },
+    "account-data": {
+      "name": "Account en data",
+      "blurb": "Hoe we met je data omgaan. Zonder omwegen."
+    },
+    "developers": {
+      "name": "Ontwikkelaars",
+      "blurb": "OAuth 2.0-API, scopes en integratievoorbeelden voor partners."
+    }
+  },
+  "groups": {
+    "tutorial": "Stap voor stap",
+    "reference": "Naslag",
+    "concept": "Concepten",
+    "video": "Video's"
+  },
+  "typeLabels": {
+    "tutorial": "tutorial",
+    "reference": "naslag",
+    "concept": "concept",
+    "video": "video"
+  },
+  "blogTags": {
+    "feature": "functie",
+    "fix": "fix",
+    "api": "api",
+    "docs": "docs"
+  },
+  "common": {
+    "minutesShort": "{minutes} min",
+    "minutesRead": "{minutes, plural, one {# min lezen} other {# min lezen}}",
+    "articleCount": "{count, plural, one {# artikel} other {# artikelen}}",
+    "resultCount": "{count, plural, one {# resultaat} other {# resultaten}}"
+  },
+  "shell": {
+    "tabs": {
+      "docs": "Docs",
+      "whatsNew": "Wat is er nieuw"
+    },
+    "toggleNavigation": "Documentatienavigatie tonen of verbergen",
+    "backTo": "Terug naar {label}",
+    "search": "Zoeken",
+    "searchAria": "Documentatie doorzoeken",
+    "navigationAria": "Documentatie"
+  },
+  "sidebar": {
+    "navigationAria": "Documentatienavigatie",
+    "whatsNew": "Wat is er nieuw",
+    "closeNavigation": "Navigatie sluiten",
+    "collapse": "{name} inklappen",
+    "expand": "{name} uitklappen"
+  },
+  "toc": {
+    "label": "Op deze pagina"
+  },
+  "hub": {
+    "eyebrow": "Documentatie",
+    "title": "Alles wat we weten, over elke vlucht die je logt.",
+    "subtitle": "Naslag, tutorials, uitleg over de concepten en af en toe een video, voor piloten die willen weten wat elk cijfer in hun logboek betekent.",
+    "searchButton": "Doorzoek {count, plural, one {# artikel} other {# artikelen}}, uitleg en concepten…",
+    "browse": "Bladeren per onderwerp · {categoryCount, plural, one {# categorie} other {# categorieën}} · {articleCount, plural, one {# artikel} other {# artikelen}}",
+    "more": "+ {count} meer",
+    "startHere": {
+      "title": "Begin hier",
+      "caption": "Drie artikelen om eerst te lezen.",
+      "items": {
+        "index": {
+          "title": "Welkom bij We-Fly",
+          "description": "Waar het platform voor dient, wat elk onderdeel je geeft en waar je best eerst landt."
+        },
+        "cockpit": {
+          "title": "Je cockpit lezen",
+          "description": "Wat elk cijfer in de cockpit betekent en hoe We-Fly het berekent."
+        },
+        "z-score-pilot-guide": {
+          "title": "De z-score, eenvoudig uitgelegd",
+          "description": "Hoe 'boven het gemiddelde' een cijfer wordt dat je op de landingsplaats kunt verdedigen."
+        }
+      }
+    },
+    "mostRead": {
+      "title": "Meest gelezen",
+      "caption": "Wat piloten het vaakst openen."
+    },
+    "watch": {
+      "title": "Liever kijken",
+      "caption": "Korte schermopnames.",
+      "all": "Alle video's →"
+    },
+    "recent": {
+      "title": "Recent bijgewerkt",
+      "caption": "De laatste wijzigingen in de docs."
+    }
+  },
+  "category": {
+    "eyebrow": "Documentatie · {count, plural, one {# artikel} other {# artikelen}}"
+  },
+  "article": {
+    "updated": "Bijgewerkt op {date}",
+    "helpful": "Had je hier iets aan?",
+    "yes": "Ja",
+    "noMissing": "Nee, er ontbreekt iets",
+    "previous": "← Vorige",
+    "next": "Volgende →"
+  },
+  "whatsNew": {
+    "eyebrow": "Documentatie · Release notes",
+    "title": "Wat is er nieuw",
+    "subtitle": "Nieuwe functies, fixes en documentatie, de nieuwste eerst.",
+    "empty": "Nog geen updates.",
+    "readPost": "Lees het bericht →",
+    "readDocs": "Lees de docs →"
+  },
+  "blog": {
+    "saveAsPdf": "Opslaan als PDF",
+    "close": "Sluiten",
+    "readTheDocs": "Lees de docs",
+    "notFoundTitle": "Bericht niet gevonden",
+    "notFoundBody": "Deze update is misschien verwijderd of hernoemd.",
+    "printTagline": "Paragliding-logboek en vluchtanalyse"
+  },
+  "drawer": {
+    "title": "Documentatie",
+    "description": "Documentatieartikel. Sluit het om terug te keren naar waar je was.",
+    "loading": "Laden…",
+    "failed": "Dit artikel kon niet geladen worden.",
+    "footer": "Je werk op deze pagina blijft bewaard. <link>Open de volledige pagina</link>"
+  },
+  "search": {
+    "placeholder": "Zoek in docs, artikelen, concepten…",
+    "noMatches": "Geen resultaten voor <term>„{query}“</term>",
+    "hint": "Probeer een schermmodel, de naam van een statistiek of „z-score“.",
+    "loadingIndex": "Index laden…",
+    "sections": {
+      "featured": "Uitgelicht",
+      "tutorials": "Tutorials",
+      "concepts": "Concepten",
+      "articles": "Artikelen",
+      "categories": "Categorieën"
+    },
+    "footer": {
+      "navigate": "navigeren",
+      "open": "openen",
+      "close": "sluiten"
+    }
+  },
+  "codeBlock": {
+    "copy": "Code kopiëren",
+    "copied": "Gekopieerd!",
+    "copyAria": "Code naar klembord kopiëren",
+    "copiedAria": "Naar klembord gekopieerd"
+  },
+  "notice": {
+    "untranslated": "Deze pagina is nog niet in jouw taal vertaald, daarom zie je de Engelse versie.",
+    "legal": "Deze vertaling is er voor het gemak. De Engelse versie is de versie die geldt.",
+    "aiDraft": "Vertaald met AI en gaandeweg nagelezen door piloten. Zie je iets vreemds? <link>Stel een betere formulering voor</link>."
+  },
+  "meta": {
+    "notFound": "Documentatie niet gevonden",
+    "fallbackDescription": "Lees meer over {title} in de documentatie van We-Fly.",
+    "ogTitle": "{title} | We-Fly-documentatie",
+    "hub": {
+      "title": "Documentatie",
+      "description": "Volledige gids voor We-Fly: vluchten bijhouden, thermiekanalyse, statistieken in de cockpit en communityfuncties voor paragliderpiloten.",
+      "ogTitle": "We-Fly-documentatie"
+    },
+    "category": {
+      "notFound": "Documentatiecategorie niet gevonden"
+    },
+    "whatsNew": {
+      "title": "Wat is er nieuw",
+      "description": "Nieuwe functies, fixes en documentatie-updates van het We-Fly-team, de nieuwste eerst.",
+      "ogTitle": "Wat is er nieuw | We-Fly-documentatie"
+    }
+  }
+}
