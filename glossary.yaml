@@ -1,0 +1,438 @@
+# We-Fly glossary: how pilots actually say it.
+#
+# Every translation (human or AI) follows this file. When a term has several
+# valid forms, the first one is the default; `alt` lists accepted variants and
+# `note` says when to use them. Suggest changes by PR or on Weblate; pilots
+# from each community have the last word on their language.
+#
+# `keep: true` means: never translate, keep the exact spelling.
+
+do_not_translate:
+  - We-Fly
+  - Cockpit        # We-Fly's statistics dashboard (product name)
+  - IGC
+  - XContest
+  - WeGlide
+  - XCTrack
+  - Flyskyhy
+  - SeeYou
+  - OpenAIP
+  - autorouter
+  - NOTAM
+  - FAI
+  - CIVL
+  - WebDAV
+  - OAuth
+  - GPS
+  - AGL            # explain once if needed, keep the acronym
+  - XC             # keep in compounds like "XC planner"; the long form is translated
+
+terms:
+  # --- the sport and the aircraft ---------------------------------------
+  paragliding:
+    fr: parapente
+    de: Gleitschirmfliegen
+    nl: paragliding
+    it: parapendio
+    es: parapente
+    note: "nl: 'schermvliegen' also accepted in running text"
+  paraglider (the aircraft):
+    fr: parapente
+    de: Gleitschirm
+    nl: paraglider
+    it: parapendio
+    es: parapente
+  wing:
+    fr: voile
+    de: Schirm
+    nl: scherm
+    it: vela
+    es: vela
+    note: "The pilot's glider as equipment ('my wing', 'wing management'). fr: never 'aile' in UI."
+  glider (generic, as in 'glider model'):
+    fr: voile
+    de: Schirm
+    nl: scherm
+    it: vela
+    es: vela
+  harness:
+    fr: sellette
+    de: Gurtzeug
+    nl: harnas
+    it: selletta
+    es: silla
+  reserve parachute:
+    fr: secours
+    de: Rettungsschirm
+    nl: reserve
+    it: emergenza
+    es: paracaídas de emergencia
+    alt: { de: Retter, es: reserva }
+  speed bar:
+    fr: accélérateur
+    de: Beschleuniger
+    nl: speedbar
+    it: acceleratore
+    es: acelerador
+    alt: { fr: barreau }
+  variometer:
+    fr: vario
+    de: Vario
+    nl: vario
+    it: variometro
+    es: variómetro
+    alt: { it: vario, es: vario }
+  flight instrument:
+    fr: instrument de vol
+    de: Fluginstrument
+    nl: vlieginstrument
+    it: strumento di volo
+    es: instrumento de vuelo
+
+  # --- people and records -----------------------------------------------
+  pilot:
+    fr: pilote
+    de: Pilot
+    nl: piloot
+    it: pilota
+    es: piloto
+    note: "de: use 'Pilot' as a role noun; avoid gendered pairs in UI labels."
+  flight:
+    fr: vol
+    de: Flug
+    nl: vlucht
+    it: volo
+    es: vuelo
+  logbook:
+    fr: carnet de vol
+    de: Flugbuch
+    nl: logboek
+    it: libretto di volo
+    es: libro de vuelo
+    alt: { it: logbook }
+  flight time / airtime:
+    fr: temps de vol
+    de: Flugzeit
+    nl: vliegtijd
+    it: tempo di volo
+    es: tiempo de vuelo
+  track (GPS track of a flight):
+    fr: trace
+    de: Track
+    nl: track
+    it: traccia
+    es: track
+    alt: { es: traza, de: Flugspur }
+  upload (a flight):
+    fr: importer
+    de: hochladen
+    nl: uploaden
+    it: caricare
+    es: subir
+  badge:
+    fr: badge
+    de: Abzeichen
+    nl: badge
+    it: badge
+    es: insignia
+  leaderboard:
+    fr: classement
+    de: Rangliste
+    nl: ranglijst
+    it: classifica
+    es: clasificación
+  club:
+    fr: club
+    de: Verein
+    nl: club
+    it: club
+    es: club
+    alt: { de: Club }
+
+  # --- sites ------------------------------------------------------------
+  takeoff (site):
+    fr: décollage
+    de: Startplatz
+    nl: startplaats
+    it: decollo
+    es: despegue
+    note: "fr: 'déco' is fine in casual copy, not in labels."
+  takeoff (the action):
+    fr: décollage
+    de: Start
+    nl: start
+    it: decollo
+    es: despegue
+  landing (site):
+    fr: atterrissage
+    de: Landeplatz
+    nl: landingsplaats
+    it: atterraggio
+    es: aterrizaje
+    note: "fr: 'atterro' is fine in casual copy, not in labels."
+  top landing:
+    fr: posé déco
+    de: Toplanden
+    nl: toplanden
+    it: atterraggio in decollo
+    es: aterrizaje en despegue
+    alt: { fr: top-landing, es: toplanding }
+  foot launch:
+    fr: décollage à pied
+    de: Fußstart
+    nl: voetstart
+    it: decollo a piedi
+    es: despegue a pie
+  winch launch / tow:
+    fr: treuil
+    de: Windenschlepp
+    nl: lierstart
+    it: traino al verricello
+    es: remolque con torno
+
+  # --- the air ----------------------------------------------------------
+  thermal:
+    fr: thermique
+    de: Thermik
+    nl: thermiek
+    it: termica
+    es: térmica
+    note: "fr: masculine ('un thermique'). de: one thermal = 'Thermikschlauch' or 'Bart' in casual copy; 'Thermik' for the phenomenon."
+  thermalling (circling in lift):
+    fr: enroulement
+    de: Kurbeln
+    nl: thermieken
+    it: girare in termica
+    es: centrar la térmica
+    note: "fr verb: 'enrouler'. de verb: 'kurbeln'. es: 'girar' also fine."
+  thermal core:
+    fr: cœur du thermique
+    de: Kern
+    nl: kern
+    it: nucleo
+    es: núcleo
+  climb rate:
+    fr: taux de montée
+    de: Steigwert
+    nl: stijgsnelheid
+    it: rateo di salita
+    es: tasa de ascenso
+    alt: { de: Steigen, it: salita media }
+  sink (sinking air):
+    fr: dégueulante
+    de: Saufen
+    nl: dalende lucht
+    it: discendenza
+    es: descendencia
+    note: "fr/de are pilot slang; in neutral labels use fr 'descendance', de 'Sinken'."
+  sink rate (of the wing):
+    fr: taux de chute
+    de: Sinkgeschwindigkeit
+    nl: daalsnelheid
+    it: tasso di caduta
+    es: tasa de caída
+  glide (between thermals):
+    fr: transition
+    de: Gleitflug
+    nl: glijvlucht
+    it: planata
+    es: planeo
+    alt: { it: transizione, es: transición }
+  glide ratio (L/D):
+    fr: finesse
+    de: Gleitzahl
+    nl: glijgetal
+    it: efficienza
+    es: fineza
+    alt: { nl: finesse, es: planeo }
+  glide polar:
+    fr: polaire
+    de: Polare
+    nl: polaire
+    it: polare
+    es: polar
+  trim speed:
+    fr: vitesse bras hauts
+    de: Trimmgeschwindigkeit
+    nl: trimsnelheid
+    it: velocità di trim
+    es: velocidad trim
+  cloudbase / ceiling:
+    fr: plafond
+    de: Basis
+    nl: wolkenbasis
+    it: base delle nubi
+    es: techo
+    alt: { de: Wolkenbasis, it: plafond }
+  ridge soaring:
+    fr: vol de pente
+    de: Soaren
+    nl: hellingvliegen
+    it: volo in dinamica
+    es: vuelo de ladera
+    alt: { fr: soaring, nl: soaren, es: dinámica }
+  low save:
+    fr: remontée de bas
+    de: Low Save
+    nl: low save
+    it: ripartenza da bassi
+    es: remontada desde abajo
+    note: "The moment a pilot climbs out from close to the ground."
+  headwind:
+    fr: vent de face
+    de: Gegenwind
+    nl: tegenwind
+    it: vento contrario
+    es: viento en contra
+  tailwind:
+    fr: vent arrière
+    de: Rückenwind
+    nl: meewind
+    it: vento in coda
+    es: viento de cola
+  drift:
+    fr: dérive
+    de: Versatz
+    nl: drift
+    it: deriva
+    es: deriva
+  altitude (above sea level):
+    fr: altitude
+    de: Höhe
+    nl: hoogte
+    it: quota
+    es: altitud
+  height above ground (AGL):
+    fr: hauteur sol
+    de: Höhe über Grund
+    nl: hoogte boven de grond
+    it: quota dal suolo
+    es: altura sobre el suelo
+  airspace:
+    fr: espace aérien
+    de: Luftraum
+    nl: luchtruim
+    it: spazio aereo
+    es: espacio aéreo
+
+  # --- incidents --------------------------------------------------------
+  collapse:
+    fr: fermeture
+    de: Klapper
+    nl: klapper
+    it: chiusura
+    es: plegada
+  spiral dive:
+    fr: spirale engagée
+    de: Steilspirale
+    nl: spiraalduik
+    it: spirale
+    es: barrena
+  stall:
+    fr: décrochage
+    de: Strömungsabriss
+    nl: overtrek
+    it: stallo
+    es: pérdida
+
+  # --- cross-country and competition ------------------------------------
+  cross-country (XC):
+    fr: cross
+    de: Streckenflug
+    nl: overlandvliegen
+    it: volo di distanza
+    es: vuelo de distancia
+    alt: { it: cross, es: cross }
+  XC planner:
+    fr: planificateur XC
+    de: XC-Planer
+    nl: XC-planner
+    it: pianificatore XC
+    es: planificador XC
+  free distance:
+    fr: distance libre
+    de: freie Strecke
+    nl: vrije afstand
+    it: distanza libera
+    es: distancia libre
+  out and return:
+    fr: aller-retour
+    de: Zielrückkehr
+    nl: heen-en-terug
+    it: andata e ritorno
+    es: ida y vuelta
+  FAI triangle:
+    fr: triangle FAI
+    de: FAI-Dreieck
+    nl: FAI-driehoek
+    it: triangolo FAI
+    es: triángulo FAI
+  flat triangle:
+    fr: triangle plat
+    de: flaches Dreieck
+    nl: platte driehoek
+    it: triangolo piatto
+    es: triángulo plano
+  turnpoint:
+    fr: balise
+    de: Wendepunkt
+    nl: keerpunt
+    it: boa
+    es: baliza
+  task (competition):
+    fr: manche
+    de: Task
+    nl: taak
+    it: task
+    es: manga
+    alt: { de: Aufgabe }
+  start gate / SSS:
+    fr: départ
+    de: Startzylinder
+    nl: start
+    it: partenza
+    es: salida
+  goal:
+    fr: goal
+    de: Ziel
+    nl: goal
+    it: goal
+    es: gol
+  scored distance:
+    fr: distance au score
+    de: Wertungsdistanz
+    nl: gescoorde afstand
+    it: distanza valida
+    es: distancia puntuada
+
+  # --- app vocabulary ---------------------------------------------------
+  overview:
+    fr: vue d'ensemble
+    de: Übersicht
+    nl: overzicht
+    it: panoramica
+    es: resumen
+  settings:
+    fr: réglages
+    de: Einstellungen
+    nl: instellingen
+    it: impostazioni
+    es: ajustes
+  sign in / log in:
+    fr: se connecter
+    de: anmelden
+    nl: inloggen
+    it: accedi
+    es: iniciar sesión
+  log out:
+    fr: se déconnecter
+    de: abmelden
+    nl: uitloggen
+    it: esci
+    es: cerrar sesión
+  share link:
+    fr: lien de partage
+    de: Freigabelink
+    nl: deellink
+    it: link di condivisione
+    es: enlace para compartir

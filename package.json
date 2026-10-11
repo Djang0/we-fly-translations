@@ -1,0 +1,11 @@
+{
+  "name": "we-fly-translations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs"
+  },
+  "devDependencies": {
+    "@formatjs/icu-messageformat-parser": "3.5.21"
+  }
+}
