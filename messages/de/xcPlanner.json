@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "XC-Planer: Routen und Wettbewerbs-Tasks entwerfen",
+    "description": "Plane Streckenflug-Routen mit dem Gleitschirm oder entwirf FAI/PWCA-Wettbewerbs-Tasks auf einer interaktiven Karte mit Thermik-Skyways und Lufträumen. Kostenlos.",
+    "ogTitle": "XC-Planer: Routen und Wettbewerbs-Tasks entwerfen | We-Fly",
+    "ogDescription": "Plane Streckenflug-Routen oder entwirf FAI/PWCA-Wettbewerbs-Tasks mit Thermik-Skyways und Lufträumen."
+  },
+  "share": {
+    "title": "{name}: {kind, select, route {XC-Route} other {Wettbewerbs-Task}} von {author}",
+    "anonymousAuthor": "einem We-Fly-Piloten",
+    "summary": "{distance} · {detail}.",
+    "openInPlanner": "Öffne sie im XC-Planer von We-Fly.",
+    "points": "{points, plural, one {# Pkt.} other {# Pkt.}}",
+    "turnpoints": "{count, plural, one {# Wendepunkt} other {# Wendepunkte}}",
+    "rulesetTask": "{ruleset}-Task"
+  },
+  "page": {
+    "loadingPlanner": "Planer wird geladen…"
+  },
+  "shell": {
+    "loadingMap": "Karte wird geladen…",
+    "flightFallbackName": "Flug",
+    "linkedTaskFailed": "Der mit dem Flug verknüpfte Task konnte nicht geladen werden.",
+    "flightLoadFailed": "Der Flug konnte nicht geladen werden. Du musst als sein Besitzer angemeldet sein.",
+    "controlsTitle": "Steuerung des XC-Planers",
+    "clickToAddWaypoints": "Klick in die Karte, um Wegpunkte hinzuzufügen."
+  },
+  "topbar": {
+    "documentation": "Dokumentation",
+    "goToLogbook": "Zum Flugbuch",
+    "startLogging": "Flugbuch anlegen"
+  },
+  "stepper": {
+    "ariaLabel": "Planungsschritte",
+    "locked": "Entwirf zuerst deinen Flug und wähl ein Datum"
+  },
+  "steps": {
+    "1": {
+      "label": "Entwurf",
+      "title": "Entwirf deinen Flug und wähl ein Datum"
+    },
+    "2": {
+      "label": "Lufträume",
+      "title": "Wähl die Lufträume entlang deines Flugs"
+    },
+    "3": {
+      "label": "NOTAMs",
+      "title": "Wähl die NOTAMs entlang deines Flugs"
+    },
+    "4": {
+      "label": "Briefing",
+      "title": "Downloads, QR-Code und Wetter"
+    }
+  },
+  "stepNav": {
+    "toAirspaces": "Weiter zu den Lufträumen",
+    "toNotams": "Weiter zu den NOTAMs",
+    "toBriefing": "Weiter zum Briefing",
+    "openPanel": "Planer-Bereich öffnen",
+    "controls": "Steuerung",
+    "backAria": "Zurück zum vorherigen Schritt",
+    "back": "Zurück",
+    "notReady": "Setz zuerst mindestens zwei Punkte und wähl ein Flugdatum"
+  },
+  "stepPanel": {
+    "route": "Route",
+    "task": "Task",
+    "waypoints": "Wegpunkte",
+    "designTool": "Entwurfswerkzeug",
+    "pickDate": "Wähl dein Flugdatum",
+    "startTime": "Geplante Startzeit",
+    "unlockNeedsPoints": "Setz mindestens zwei Punkte und wähl ein Datum, um Lufträume, NOTAMs und das Briefing freizuschalten.",
+    "unlockNeedsDate": "Wähl ein Datum, um Lufträume, NOTAMs und das Briefing freizuschalten.",
+    "noDate": "Kein Datum",
+    "kmPlanned": "{distance} geplant",
+    "noPath": "keine Strecke"
+  },
+  "sections": {
+    "overlays": "Overlays",
+    "task": "Task",
+    "route": "Route",
+    "durationHm": "{hours} h {minutes} min",
+    "durationM": "{minutes} min",
+    "flight": "Flug",
+    "flownTrack": "{duration} · geflogener Track",
+    "removeFlightTrace": "Flugspur entfernen",
+    "verticalCut": "Vertikalschnitt",
+    "airspaceCrossSection": "Luftraum-Querschnitt",
+    "verticalCutHint": "Kontrollierter und beschränkter Luftraum entlang {path, select, flown {des geflogenen Tracks} task {der optimierten Task-Route} other {der geplanten Route}}, nach Distanz und Höhe.",
+    "verticalCutEmpty": "Setz mindestens zwei Punkte (oder öffne einen Flug), um den Luftraum entlang einer Strecke zu schneiden.",
+    "collectionLoadFailed": "Diese Sammlung konnte nicht geladen werden.",
+    "waypointCount": "{count, plural, one {# Wegpunkt} other {# Wegpunkte}}",
+    "on": "An",
+    "show": "Zeigen",
+    "collections": "Sammlungen",
+    "collectionsIntro": "Blende deine Wegpunkt-Sammlungen ein und klick dann auf der Karte auf einen Wegpunkt, um ihn als {mode, select, task {Wendepunkt} other {Routen-Wegpunkt}} hinzuzufügen.",
+    "loading": "Wird geladen…",
+    "myCollections": "Meine Sammlungen",
+    "noCollections": "Noch keine Sammlungen. Leg eine im Sammlungsmodus an.",
+    "signInForCollections": "Melde dich an, um deine eigenen Sammlungen zu nutzen.",
+    "publicInArea": "Öffentliche Sammlungen in diesem Gebiet",
+    "searching": "Suche läuft…",
+    "publicCollections": "Öffentliche Sammlungen",
+    "noPublicInView": "Keine öffentlichen Sammlungen im Bildausschnitt. Verschieb die Karte oder zoom heraus.",
+    "showingCollections": "{count, plural, one {# Sammlung wird auf der Karte angezeigt.} other {# Sammlungen werden auf der Karte angezeigt.}}",
+    "activeCount": "{count} an"
+  },
+  "sidebar": {
+    "signInToSave": "Melde dich an, um Routen in deinem Konto zu speichern.",
+    "drawRouteFirst": "Zeichne zuerst eine Route mit mindestens zwei Wegpunkten.",
+    "saveFailed": "Route konnte nicht gespeichert werden.",
+    "routeUpdated": "Route aktualisiert.",
+    "routeSaved": "Route gespeichert.",
+    "deleteFailed": "Route konnte nicht gelöscht werden.",
+    "routeDeleted": "Route gelöscht.",
+    "visibilityFailed": "Sichtbarkeit konnte nicht geändert werden.",
+    "noUsableRoute": "Diese Datei enthält keine brauchbare Route.",
+    "imported": "{count, plural, one {# Wegpunkt importiert.} other {# Wegpunkte importiert.}}",
+    "readFailed": "Diese Datei konnte nicht gelesen werden. Nutze .wpt, .gpx oder .geojson.",
+    "drawRouteShort": "Zeichne zuerst eine Route.",
+    "copyFailed": "Der Link konnte nicht kopiert werden.",
+    "linkCopiedToast": "Freigabelink in die Zwischenablage kopiert.",
+    "linkCopied": "Link kopiert",
+    "copyShareLinkFor": "Freigabelink für {name} kopieren",
+    "copyShareLink": "Freigabelink kopieren",
+    "route": "Route",
+    "league": "Wertung",
+    "leagueDistance": "Strecke",
+    "speed": "Tempo · {speed}",
+    "closeCircuit": "Rundkurs schließen",
+    "fit": "Einpassen",
+    "clear": "Leeren",
+    "new": "Neu",
+    "faiSectors": "FAI-Sektoren",
+    "routeHelp": "Klick in die Karte, um Wegpunkte zu setzen, zieh sie zum Verschieben und nutze die +-Griffe zum Einfügen. Die FAI-Sektoren zeigen, wo ein Wendepunkt jeden Dreiecksschenkel bei ≥ 28 % des Umfangs hält.",
+    "saveAndShare": "Speichern und teilen",
+    "routeName": "Name der Route",
+    "publicRoute": "Öffentliche Route",
+    "update": "Aktualisieren",
+    "save": "Speichern",
+    "copied": "Kopiert",
+    "share": "Teilen",
+    "signInHint": "Melde dich an, um Routen zu speichern. Planen, importieren und herunterladen geht auch ohne Konto.",
+    "privateHintSaved": "Diese Route ist privat. Schalte „Öffentliche Route“ ein, um sie zu teilen.",
+    "privateHintUnsaved": "Schalte „Öffentliche Route“ ein und speichere, um einen Freigabelink zu bekommen.",
+    "shareDirtyHint": "Der Freigabelink öffnet die zuletzt gespeicherte Version. Aktualisiere, um deine Änderungen zu teilen.",
+    "myRoutes": "Meine Routen",
+    "loading": "Wird geladen…",
+    "publicBadge": "öffentlich",
+    "deleteRoute": "Route löschen",
+    "noSavedRoutes": "Noch keine gespeicherten Routen.",
+    "moreTools": "Weitere Werkzeuge",
+    "moreToolsMeta": "Entdecken · Import · Export",
+    "discover": "Entdecken",
+    "publicRoutesInArea": "Öffentliche Routen in diesem Gebiet",
+    "filterByName": "Nach Name filtern…",
+    "searching": "Suche läuft…",
+    "noPublicRoutes": "Keine öffentlichen Routen im Bildausschnitt. Verschieb die Karte oder zoom heraus.",
+    "importExport": "Import und Export",
+    "importFile": ".wpt / .gpx / .geojson importieren"
+  },
+  "dynamicOpen": {
+    "badge": "Dynamisch geöffnetes Gebiet · {cls} · {type}",
+    "editFor": "Dynamisch geöffnetes Gebiet für {name} bearbeiten",
+    "setFor": "{name} als dynamisch geöffnetes Gebiet festlegen",
+    "edit": "Dynamisch geöffnetes Gebiet bearbeiten",
+    "set": "Als dynamisch geöffnetes Gebiet festlegen"
+  },
+  "fadeScroll": {
+    "scrollUp": "Nach oben scrollen",
+    "scrollDown": "Nach unten scrollen"
+  },
+  "siteOverlay": {
+    "title": "{kind, select, landing {Landeplatz} other {Startplatz}} · {name}",
+    "unnamed": "Ohne Namen",
+    "facing": "Ausrichtung {bearing}"
+  },
+  "waypointSearch": {
+    "placeholder": "Per Wegpunktname oder Kürzel hinzufügen…",
+    "ariaLabel": "Wegpunkte suchen, um sie als Wendepunkte hinzuzufügen",
+    "searching": "Suche läuft…",
+    "noMatch": "Kein Wegpunkt passt zu „{query}“.",
+    "noCollections": "Keine Sammlungen zum Durchsuchen. Importier eine oder leg eine im Sammlungsmodus an.",
+    "signIn": "Melde dich an oder blende eine Sammlung auf der Karte ein, um ihre Wegpunkte zu durchsuchen."
+  },
+  "mapOverlay": {
+    "layers": "Ebenen",
+    "overlaysActive": "Aktive Overlays",
+    "mapLayers": "Kartenebenen",
+    "collapse": "Ebenen-Bereich einklappen"
+  },
+  "contextMenu": {
+    "centerHere": "Karte hier zentrieren",
+    "copyCoords": "Koordinaten kopieren",
+    "measure": "Distanz ab hier messen",
+    "addTurnpoint": "Wendepunkt hier setzen",
+    "fitTask": "Task einpassen",
+    "clearTask": "Task leeren",
+    "finishPolygon": "Polygon abschließen",
+    "cancelDrawing": "Zeichnen abbrechen",
+    "fitAirspaces": "Lufträume einpassen",
+    "clearAirspaces": "Alle Lufträume entfernen",
+    "fitCollection": "Sammlung einpassen",
+    "clearCollection": "Sammlung leeren",
+    "fitRoute": "Route einpassen",
+    "clearRoute": "Route leeren",
+    "closeCircuit": "Rundkurs schließen",
+    "addWaypoint": "Wegpunkt hier setzen",
+    "insertAsStart": "Als Start einfügen",
+    "coordinatesCopied": "Koordinaten kopiert.",
+    "coordinatesCopyFailed": "Die Koordinaten konnten nicht kopiert werden.",
+    "seeAirspaces": "Lufträume ansehen ({count})",
+    "seeNotams": "NOTAMs ansehen ({count})",
+    "remove": "{name} entfernen",
+    "waypointN": "Wegpunkt {n}"
+  },
+  "map": {
+    "waypointN": "Wegpunkt {n}",
+    "removeWaypoint": "Wegpunkt entfernen",
+    "airspaceNotAlongFlight": "Dieser Luftraum liegt nicht entlang deines Flugs. Nur Lufträume nahe deiner geplanten Linie können ausgewählt werden."
+  },
+  "scoreKinds": {
+    "free": "Freie Strecke",
+    "outAndReturn": "Zielrückkehr",
+    "flatTriangle": "Flaches Dreieck",
+    "faiTriangle": "FAI-Dreieck"
+  }
+}

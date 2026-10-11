@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "roles": {
+      "essLong": "Fin de velocidad (ESS)",
+      "sssShort": "SSS"
+    },
+    "formats": {
+      "clockStart": "Salida por reloj"
+    },
+    "directions": {
+      "fixed": "Fija",
+      "symmetric": "Simétrica",
+      "next": "Siguiente",
+      "previous": "Anterior",
+      "start": "Salida"
+    },
+    "setup": {
+      "title": "Configurar la manga",
+      "ruleset": "Reglamento",
+      "format": "Formato",
+      "fit": "Encuadrar",
+      "clear": "Borrar",
+      "newTask": "Nueva manga",
+      "newTaskTitle": "Empezar una manga desde cero",
+      "empty": "Aún no hay balizas. Haz clic en el mapa para colocar la salida.",
+      "help": "Haz clic en el mapa para añadir balizas, arrastra los marcadores para moverlas y usa los tiradores + para insertar. Reordénalas arrastrando el asa y la ruta optimizada se recalcula sola."
+    },
+    "turnpoint": {
+      "dragAria": "Arrastra para reordenar la baliza {number}",
+      "duplicate": "Duplicar la baliza (mismo centro)",
+      "remove": "Quitar la baliza",
+      "roleAria": "Función de la baliza {number}",
+      "radiusAria": "Radio de la baliza {number} (metros)",
+      "halfLine": "La mitad de la longitud de la línea",
+      "bearingAria": "Rumbo de la zona de la baliza {number} (grados)"
+    },
+    "goal": {
+      "title": "Salida y gol",
+      "startDirection": "Sentido de la salida",
+      "enter": "Entrar",
+      "exit": "Salir",
+      "firstGate": "Primera puerta",
+      "startGate": "Hora de salida",
+      "timeNote": "Las horas se muestran en la hora local del vuelo y se guardan en UTC, así se leen bien en tu libro de vuelo.",
+      "timeNoteWithZone": "Las horas se muestran en la hora local del vuelo ({zone}) y se guardan en UTC, así se leen bien en tu libro de vuelo.",
+      "interval": "Intervalo (min)",
+      "gates": "Puertas",
+      "goalZone": "Zona de gol",
+      "deadline": "Hora límite",
+      "arrivalHeight": "Altura de llegada",
+      "arrivalPlaceholder": "suelo",
+      "arrivalAria": "Altura de llegada al gol (metros AGL)",
+      "arrivalUnit": "m AGL",
+      "help": "La zona de gol sigue la zona de observación de la última baliza: defínela (cilindro, línea o sector FAI) en la lista de balizas de arriba. Pon una <strong>altura de llegada</strong> para un gol elevado (validado en el aire): la altura mínima sobre el terreno del gol para estar en gol. Déjala vacía para un gol en el suelo."
+    },
+    "save": {
+      "title": "Guardar y compartir",
+      "savedCount": "{count} guardadas",
+      "taskName": "Nombre de la manga",
+      "publicTask": "Manga pública",
+      "update": "Actualizar",
+      "save": "Guardar",
+      "share": "Compartir",
+      "signInHint": "Inicia sesión para guardar mangas. Sin cuenta puedes igualmente diseñar, importar, descargar y exportar códigos QR.",
+      "myTasks": "Mis mangas",
+      "loading": "Cargando…",
+      "empty": "Aún no tienes mangas guardadas.",
+      "deleteAria": "Eliminar la manga",
+      "listMeta": "{distance} · {ruleset}",
+      "listMetaPublic": "{distance} · {ruleset} · pública",
+      "toasts": {
+        "signIn": "Inicia sesión para guardar mangas en tu cuenta.",
+        "needTask": "Primero añade al menos una salida y un gol.",
+        "saveFailed": "No se pudo guardar la manga.",
+        "updated": "Manga actualizada.",
+        "saved": "Manga guardada.",
+        "deleteFailed": "No se pudo eliminar la manga.",
+        "deleted": "Manga eliminada.",
+        "visibilityFailed": "No se pudo cambiar la visibilidad.",
+        "needPublic": "Guarda la manga y hazla pública para compartir un enlace.",
+        "linkCopied": "Enlace para compartir copiado al portapapeles.",
+        "linkCopyFailed": "No se pudo copiar el enlace."
+      }
+    },
+    "more": {
+      "title": "Más herramientas",
+      "meta": "Descubrir · importar · QR"
+    },
+    "checks": {
+      "pass": "Comprobaciones {ruleset} superadas. La manga está bien.",
+      "start": "Empieza a dibujar tu manga: haz clic en el mapa para colocar la salida."
+    }
+  },
+  "moreTools": {
+    "discover": "Descubrir",
+    "publicInArea": "Mangas públicas en esta zona",
+    "filterPlaceholder": "Filtrar por nombre…",
+    "searching": "Buscando…",
+    "noPublic": "No hay mangas públicas a la vista. Desplaza el mapa o aleja el zoom.",
+    "listMeta": "{distance} · {ruleset}",
+    "listMetaOwner": "{distance} · {ruleset} · {owner}",
+    "importExport": "Importar y exportar",
+    "importFile": "Importar .xctsk / .tsk / .cup / .fsdb",
+    "pastePlaceholder": "…o pega un código de manga XCTSK:",
+    "load": "Cargar",
+    "codeFormat": "Formato del código / QR",
+    "v2Aria": "Versión 2 (compacta)",
+    "v1Aria": "Versión 1 (detallada)",
+    "v2Hint": "v2: código compacto, el QR más pequeño. Los goles elevados van como «fa».",
+    "v1Hint": "v1: archivo detallado, QR más grande pero compatible con más herramientas. Los goles elevados van como «finishAltitude».",
+    "downloadXctsk": ".xctsk",
+    "copyVersion": "Copiar v{version}",
+    "showQr": "Mostrar el código QR",
+    "hideQr": "Ocultar el código QR",
+    "qrCaption": "Escanéalo con XCTrack o SeeYou Navigator · v{version}",
+    "cloud": "Nube de XContest",
+    "cloudIntro": "Carga una manga que otro piloto compartió con su código de XContest, o publica la tuya para obtener un código que XCTrack carga directamente desde la nube.",
+    "cloudPlaceholder": "Pega un código de manga de XContest",
+    "cloudAria": "Código de manga de XContest para importar",
+    "cloudImport": "Importar",
+    "toasts": {
+      "importedFirst": "Se importó la primera de {count} mangas.",
+      "imported": "Manga importada.",
+      "cloudImported": "Manga de la nube {code} importada.",
+      "cloudImportedNoCode": "Manga de la nube importada.",
+      "designFirst": "Primero diseña una manga.",
+      "codeCopied": "Código de la manga copiado (v{version}).",
+      "codeCopyFailed": "No se pudo copiar el código."
+    }
+  },
+  "cloudCode": {
+    "publish": "Publicar en la nube de XContest",
+    "requestNew": "Pedir un código nuevo",
+    "republish": "{kind, select, route {Volver a publicar (ruta editada)} other {Volver a publicar (manga editada)}}",
+    "refresh": "Renovar el código",
+    "copyAria": "Copiar el código de la nube",
+    "expired": "Caducó el {date}. XCTrack ya no puede cargar este código. Pide uno nuevo abajo.",
+    "stale": "{kind, select, route {Has editado la ruta} other {Has editado la manga}} desde que la publicaste, así que este código aún carga la versión anterior. Vuelve a publicar para actualizar la copia en la nube.",
+    "validUntil": "Válido hasta el {date}",
+    "validUntilDays": "Válido hasta el {date} · {days, plural, one {queda # día} other {quedan # días}}",
+    "inXctrack": "En XCTrack: <strong>Task → Edit → Load from XContest</strong> e introduce este código. ID permanente <id>{hash}</id>.",
+    "signInRoute": "Inicia sesión para publicar un código en la nube. Sin cuenta puedes igualmente descargar el archivo de la ruta y mostrar su QR.",
+    "signInTask": "Inicia sesión para publicar un código en la nube. Sin cuenta puedes igualmente importar uno, descargar el .xctsk y exportar un QR.",
+    "routeNote": "Los códigos de ruta no se guardan con la ruta: apúntalo o cópialo antes de salir del planificador.",
+    "taskNote": "Guarda la manga para conservar este código con ella; si no, solo vive en esta sesión.",
+    "toasts": {
+      "signIn": "{kind, select, route {Inicia sesión para publicar una ruta en la nube de XContest.} other {Inicia sesión para publicar una manga en la nube de XContest.}}",
+      "needWaypoints": "Añade al menos dos waypoints antes de publicar.",
+      "needTask": "Termina la manga (salida + gol, sin errores) antes de publicar.",
+      "ready": "El código de la nube {code} está listo.",
+      "copied": "Código de la nube copiado.",
+      "copyFailed": "No se pudo copiar el código."
+    }
+  },
+  "qr": {
+    "save": "Guardar el QR en PNG"
+  },
+  "layer": {
+    "duplicate": "Duplicar la baliza aquí",
+    "remove": "Quitar la baliza",
+    "roleRadius": "{role} · {radius}",
+    "publicTooltip": "{name} · {distance}",
+    "publicTooltipOwner": "{name} · {distance} · {owner}"
+  },
+  "rulesets": {
+    "FAI": {
+      "blurb": "Geometría de la Sección 7A del Código Deportivo FAI/CIVL."
+    },
+    "PWCA": {
+      "blurb": "Reglas de la Paragliding World Cup: línea de gol, ESS a 1 km."
+    }
+  },
+  "validation": {
+    "needStartAndGoal": "Una manga necesita al menos una salida y un gol.",
+    "firstTurnpoint": "La primera baliza suele ser el despegue o la salida (SSS).",
+    "noSss": "No hay ningún inicio de la sección de velocidad (SSS).",
+    "noGoal": "No hay ninguna baliza de gol.",
+    "goalNotLast": "El gol debería ser la última baliza.",
+    "noTimeGate": "La salida aún no tiene puerta horaria. Ponle una antes de volar.",
+    "gatesNotSorted": "Las puertas de salida no están en orden cronológico.",
+    "essBeforeGoalPwca": "Las mangas PWCA suelen poner el ESS ~1 km antes del gol para que los pilotos lleguen con seguridad.",
+    "essBeforeGoalFai": "La Sección 7A recomienda poner el ESS antes del gol para evitar que los pilotos lleguen en carrera demasiado bajos.",
+    "elevatedGoalNeedsEss": "Un gol elevado suele necesitar un ESS antes del gol, para que el cronometraje de los pilotos termine antes de la subida hasta la puerta.",
+    "goalHeightHigh": "La altura de llegada al gol es {height} AGL, algo inusualmente alto (es la altura sobre el terreno del gol, no sobre el nivel del mar).",
+    "pwcaGoalLine": "Las mangas PWCA usan por defecto una línea de gol, no un cilindro.",
+    "pwcaGoalLineShort": "La línea de gol está por debajo del mínimo PWCA de {min}."
+  },
+  "roleUnavailable": {
+    "unknownTurnpoint": "Baliza desconocida.",
+    "needSecondTurnpoint": "Primero añade una segunda baliza: una manga necesita una salida y un gol.",
+    "lastIsGoal": "La última baliza siempre es el gol. Arrastra otro punto al final para mover el gol.",
+    "goalMustBeLast": "El gol tiene que ser la última baliza. Arrastra este punto al final de la lista.",
+    "startNeedsSuccessor": "Primero añade una baliza después de esta; si no, la salida (SSS) no tendría adónde ir.",
+    "takeoffBeforeStart": "El despegue tiene que ir antes de la salida (SSS).",
+    "setStartFirst": "Primero define una salida (SSS).",
+    "essAfterStart": "El ESS tiene que ir después de la salida (SSS)."
+  }
+}

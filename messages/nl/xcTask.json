@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "roles": {
+      "essLong": "Einde snelheidssectie (ESS)",
+      "sssShort": "SSS"
+    },
+    "formats": {
+      "clockStart": "Klokstart"
+    },
+    "directions": {
+      "fixed": "Vast",
+      "symmetric": "Symmetrisch",
+      "next": "Volgende",
+      "previous": "Vorige",
+      "start": "Start"
+    },
+    "setup": {
+      "title": "Taak instellen",
+      "ruleset": "Reglement",
+      "format": "Formaat",
+      "fit": "In beeld",
+      "clear": "Wissen",
+      "newTask": "Nieuwe taak",
+      "newTaskTitle": "Begin een nieuwe taak",
+      "empty": "Nog geen keerpunten. Klik op de kaart om de start te plaatsen.",
+      "help": "Klik op de kaart om keerpunten toe te voegen, sleep de markers om ze te verplaatsen, gebruik de +-grepen om er een tussen te voegen. Wijzig de volgorde door aan de greep te slepen; de optimale route volgt vanzelf."
+    },
+    "turnpoint": {
+      "dragAria": "Sleep om keerpunt {number} te verplaatsen in de lijst",
+      "duplicate": "Keerpunt dupliceren (zelfde middelpunt)",
+      "remove": "Keerpunt verwijderen",
+      "roleAria": "Rol van keerpunt {number}",
+      "radiusAria": "Straal van keerpunt {number} (meter)",
+      "halfLine": "Halve lijnlengte",
+      "bearingAria": "Richting van de zone van keerpunt {number} (graden)"
+    },
+    "goal": {
+      "title": "Start en goal",
+      "startDirection": "Startrichting",
+      "enter": "Naar binnen",
+      "exit": "Naar buiten",
+      "firstGate": "Eerste gate",
+      "startGate": "Startgate",
+      "timeNote": "Tijden worden getoond in de lokale tijd van de vlucht en opgeslagen in UTC, zodat ze correct terugkomen in je logboek.",
+      "timeNoteWithZone": "Tijden worden getoond in de lokale tijd van de vlucht ({zone}) en opgeslagen in UTC, zodat ze correct terugkomen in je logboek.",
+      "interval": "Interval (min)",
+      "gates": "Gates",
+      "goalZone": "Goalzone",
+      "deadline": "Deadline",
+      "arrivalHeight": "Aankomsthoogte",
+      "arrivalPlaceholder": "grond",
+      "arrivalAria": "Aankomsthoogte in goal (meter AGL)",
+      "arrivalUnit": "m AGL",
+      "help": "De goalzone volgt de observatiezone van het laatste keerpunt: stel die in (cilinder, lijn of FAI-sector) in de lijst met keerpunten hierboven. Geef een <strong>aankomsthoogte</strong> op voor een goal in de lucht: de minimale hoogte boven het terrein van de goal om in goal te zijn. Laat leeg voor een goal op de grond."
+    },
+    "save": {
+      "title": "Opslaan en delen",
+      "savedCount": "{count} opgeslagen",
+      "taskName": "Naam van de taak",
+      "publicTask": "Openbare taak",
+      "update": "Bijwerken",
+      "save": "Opslaan",
+      "share": "Delen",
+      "signInHint": "Log in om taken op te slaan. Ontwerpen, importeren, downloaden en QR-codes exporteren kan ook zonder account.",
+      "myTasks": "Mijn taken",
+      "loading": "Laden…",
+      "empty": "Nog geen opgeslagen taken.",
+      "deleteAria": "Taak verwijderen",
+      "listMeta": "{distance} · {ruleset}",
+      "listMetaPublic": "{distance} · {ruleset} · openbaar",
+      "toasts": {
+        "signIn": "Log in om taken in je account op te slaan.",
+        "needTask": "Voeg eerst minstens een start en een goal toe.",
+        "saveFailed": "Taak opslaan mislukt.",
+        "updated": "Taak bijgewerkt.",
+        "saved": "Taak opgeslagen.",
+        "deleteFailed": "Taak verwijderen mislukt.",
+        "deleted": "Taak verwijderd.",
+        "visibilityFailed": "Zichtbaarheid bijwerken mislukt.",
+        "needPublic": "Sla de taak op en maak ze openbaar om een link te delen.",
+        "linkCopied": "Deellink gekopieerd naar het klembord.",
+        "linkCopyFailed": "Kon de link niet kopiëren."
+      }
+    },
+    "more": {
+      "title": "Meer tools",
+      "meta": "Ontdekken · importeren · QR"
+    },
+    "checks": {
+      "pass": "Alle {ruleset}-controles geslaagd. De taak ziet er goed uit.",
+      "start": "Begin je taak te tekenen: klik op de kaart om de start te plaatsen."
+    }
+  },
+  "moreTools": {
+    "discover": "Ontdekken",
+    "publicInArea": "Openbare taken in deze regio",
+    "filterPlaceholder": "Filteren op naam…",
+    "searching": "Zoeken…",
+    "noPublic": "Geen openbare taken in beeld. Verschuif de kaart of zoom uit.",
+    "listMeta": "{distance} · {ruleset}",
+    "listMetaOwner": "{distance} · {ruleset} · {owner}",
+    "importExport": "Importeren en exporteren",
+    "importFile": ".xctsk / .tsk / .cup / .fsdb importeren",
+    "pastePlaceholder": "…of plak een XCTSK:-taakcode",
+    "load": "Laden",
+    "codeFormat": "Formaat van code / QR",
+    "v2Aria": "Versie 2 (compact)",
+    "v1Aria": "Versie 1 (uitgebreid)",
+    "v2Hint": "v2: compacte code, kleinste QR. Een goal in de lucht gaat mee als „fa”.",
+    "v1Hint": "v1: uitgebreide bestandsinhoud, grotere QR maar de breedste ondersteuning in tools. Een goal in de lucht gaat mee als „finishAltitude”.",
+    "downloadXctsk": ".xctsk",
+    "copyVersion": "v{version} kopiëren",
+    "showQr": "QR-code tonen",
+    "hideQr": "QR-code verbergen",
+    "qrCaption": "Scan in XCTrack of SeeYou Navigator · v{version}",
+    "cloud": "XContest-cloud",
+    "cloudIntro": "Laad een taak die een andere piloot deelde met zijn XContest-code, of publiceer de jouwe om een code te krijgen die XCTrack rechtstreeks uit de cloud laadt.",
+    "cloudPlaceholder": "Plak een XContest-taakcode",
+    "cloudAria": "XContest-taakcode om te importeren",
+    "cloudImport": "Importeren",
+    "toasts": {
+      "importedFirst": "De eerste van {count} taken geïmporteerd.",
+      "imported": "Taak geïmporteerd.",
+      "cloudImported": "Cloudtaak {code} geïmporteerd.",
+      "cloudImportedNoCode": "Cloudtaak geïmporteerd.",
+      "designFirst": "Ontwerp eerst een taak.",
+      "codeCopied": "Taakcode gekopieerd (v{version}).",
+      "codeCopyFailed": "Kon de code niet kopiëren."
+    }
+  },
+  "cloudCode": {
+    "publish": "Publiceren in de XContest-cloud",
+    "requestNew": "Nieuwe code aanvragen",
+    "republish": "{kind, select, route {Opnieuw publiceren (route aangepast)} other {Opnieuw publiceren (taak aangepast)}}",
+    "refresh": "Code vernieuwen",
+    "copyAria": "Cloudcode kopiëren",
+    "expired": "Verlopen op {date}. XCTrack kan deze code niet meer laden. Vraag hieronder een nieuwe aan.",
+    "stale": "{kind, select, route {Route} other {Taak}} aangepast sinds de publicatie, dus deze code laadt nog de oudere versie. Publiceer opnieuw om de kopie in de cloud bij te werken.",
+    "validUntil": "Geldig tot {date}",
+    "validUntilDays": "Geldig tot {date} · nog {days, plural, one {# dag} other {# dagen}}",
+    "inXctrack": "In XCTrack: <strong>Task → Edit → Load from XContest</strong> en voer dan deze code in. Permanente id <id>{hash}</id>.",
+    "signInRoute": "Log in om een cloudcode te publiceren. Het routebestand downloaden en de QR tonen kan ook zonder account.",
+    "signInTask": "Log in om een cloudcode te publiceren. Een code importeren, de .xctsk downloaden en een QR exporteren kan ook zonder account.",
+    "routeNote": "Routecodes worden niet met de route opgeslagen: noteer of kopieer de code voor je de planner verlaat.",
+    "taskNote": "Sla de taak op om deze code erbij te bewaren, anders bestaat ze alleen in deze sessie.",
+    "toasts": {
+      "signIn": "{kind, select, route {Log in om een route in de XContest-cloud te publiceren.} other {Log in om een taak in de XContest-cloud te publiceren.}}",
+      "needWaypoints": "Voeg minstens twee waypoints toe voor je publiceert.",
+      "needTask": "Werk de taak af (start + goal, geen fouten) voor je publiceert.",
+      "ready": "Cloudcode {code} is klaar.",
+      "copied": "Cloudcode gekopieerd.",
+      "copyFailed": "Kon de code niet kopiëren."
+    }
+  },
+  "qr": {
+    "save": "QR als PNG opslaan"
+  },
+  "layer": {
+    "duplicate": "Keerpunt hier dupliceren",
+    "remove": "Keerpunt verwijderen",
+    "roleRadius": "{role} · {radius}",
+    "publicTooltip": "{name} · {distance}",
+    "publicTooltipOwner": "{name} · {distance} · {owner}"
+  },
+  "rulesets": {
+    "FAI": {
+      "blurb": "Geometrie volgens FAI/CIVL Sporting Code Section 7A."
+    },
+    "PWCA": {
+      "blurb": "Regels van de Paragliding World Cup: goallijn, ESS op 1 km."
+    }
+  },
+  "validation": {
+    "needStartAndGoal": "Een taak heeft minstens een start en een goal nodig.",
+    "firstTurnpoint": "Het eerste keerpunt is meestal de startplaats of de start (SSS).",
+    "noSss": "Er is geen begin van de snelheidssectie (SSS) ingesteld.",
+    "noGoal": "Er is geen goal ingesteld.",
+    "goalNotLast": "De goal hoort het laatste keerpunt te zijn.",
+    "noTimeGate": "De start heeft nog geen startgate. Stel er een in voor je vliegt.",
+    "gatesNotSorted": "De startgates staan niet in chronologische volgorde.",
+    "essBeforeGoalPwca": "PWCA-taken leggen de ESS meestal ~1 km voor de goal, zodat piloten veilig binnenkomen.",
+    "essBeforeGoalFai": "Section 7A raadt aan de ESS voor de goal te leggen, zodat er niet laag geracet wordt.",
+    "elevatedGoalNeedsEss": "Een goal in de lucht heeft meestal een ESS voor de goal nodig, zodat piloten getimed worden voor de klim naar de gate.",
+    "goalHeightHigh": "De aankomsthoogte in goal is {height} AGL, wat ongewoon hoog is (het is de hoogte boven het terrein van de goal, niet boven zeeniveau).",
+    "pwcaGoalLine": "PWCA-taken gebruiken standaard een goallijn, geen cilinder.",
+    "pwcaGoalLineShort": "De goallijn is korter dan het PWCA-minimum van {min}."
+  },
+  "roleUnavailable": {
+    "unknownTurnpoint": "Onbekend keerpunt.",
+    "needSecondTurnpoint": "Voeg eerst een tweede keerpunt toe: een taak heeft een start en een goal nodig.",
+    "lastIsGoal": "Het laatste keerpunt is altijd de goal. Sleep een ander punt naar het einde om de goal te verplaatsen.",
+    "goalMustBeLast": "De goal moet het laatste keerpunt zijn. Sleep dit punt naar het einde van de lijst.",
+    "startNeedsSuccessor": "Voeg eerst een keerpunt na dit punt toe, anders kan de start (SSS) nergens heen.",
+    "takeoffBeforeStart": "De startplaats moet voor de start (SSS) komen.",
+    "setStartFirst": "Stel eerst een start (SSS) in.",
+    "essAfterStart": "De ESS moet na de start (SSS) komen."
+  }
+}

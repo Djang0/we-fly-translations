@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "roles": {
+      "essLong": "Fin de speed section (ESS)",
+      "sssShort": "Départ"
+    },
+    "formats": {
+      "clockStart": "Départs multiples"
+    },
+    "directions": {
+      "fixed": "Fixe",
+      "symmetric": "Symétrique",
+      "next": "Suivante",
+      "previous": "Précédente",
+      "start": "Départ"
+    },
+    "setup": {
+      "title": "Réglages de la manche",
+      "ruleset": "Règlement",
+      "format": "Format",
+      "fit": "Cadrer",
+      "clear": "Effacer",
+      "newTask": "Nouvelle manche",
+      "newTaskTitle": "Repartir d’une manche vierge",
+      "empty": "Pas encore de balise. Clique sur la carte pour poser le départ.",
+      "help": "Clique sur la carte pour ajouter des balises, fais glisser les marqueurs pour les déplacer, utilise les poignées + pour en insérer. Réordonne-les en tirant la poignée, la route optimisée suit."
+    },
+    "turnpoint": {
+      "dragAria": "Faire glisser pour déplacer la balise {number}",
+      "duplicate": "Dupliquer la balise (même centre)",
+      "remove": "Retirer la balise",
+      "roleAria": "Rôle de la balise {number}",
+      "radiusAria": "Rayon de la balise {number} (mètres)",
+      "halfLine": "Demi-longueur de la ligne",
+      "bearingAria": "Orientation de la zone de la balise {number} (degrés)"
+    },
+    "goal": {
+      "title": "Départ et goal",
+      "startDirection": "Sens du départ",
+      "enter": "Entrée",
+      "exit": "Sortie",
+      "firstGate": "Premier départ",
+      "startGate": "Heure de départ",
+      "timeNote": "Les heures sont affichées à l’heure locale du vol et enregistrées en UTC, pour être relues correctement dans ton carnet de vol.",
+      "timeNoteWithZone": "Les heures sont affichées à l’heure locale du vol ({zone}) et enregistrées en UTC, pour être relues correctement dans ton carnet de vol.",
+      "interval": "Intervalle (min)",
+      "gates": "Départs",
+      "goalZone": "Zone de goal",
+      "deadline": "Heure limite",
+      "arrivalHeight": "Hauteur d’arrivée",
+      "arrivalPlaceholder": "sol",
+      "arrivalAria": "Hauteur d’arrivée au goal (mètres AGL)",
+      "arrivalUnit": "m AGL",
+      "help": "La zone de goal reprend la zone de la dernière balise : règle-la (cylindre, ligne ou secteur FAI) dans la liste des balises au-dessus. Indique une <strong>hauteur d’arrivée</strong> pour un goal en altitude (validé en vol) : la hauteur minimale au-dessus du terrain du goal pour être au goal. Laisse vide pour un goal au sol."
+    },
+    "save": {
+      "title": "Enregistrer et partager",
+      "savedCount": "Enregistrées : {count}",
+      "taskName": "Nom de la manche",
+      "publicTask": "Manche publique",
+      "update": "Mettre à jour",
+      "save": "Enregistrer",
+      "share": "Partager",
+      "signInHint": "Connecte-toi pour enregistrer tes manches. Sans compte, tu peux quand même concevoir, importer, télécharger et exporter des QR codes.",
+      "myTasks": "Mes manches",
+      "loading": "Chargement…",
+      "empty": "Pas encore de manche enregistrée.",
+      "deleteAria": "Supprimer la manche",
+      "listMeta": "{distance} · {ruleset}",
+      "listMetaPublic": "{distance} · {ruleset} · publique",
+      "toasts": {
+        "signIn": "Connecte-toi pour enregistrer des manches dans ton compte.",
+        "needTask": "Ajoute d’abord au moins un départ et un goal.",
+        "saveFailed": "Échec de l’enregistrement de la manche.",
+        "updated": "Manche mise à jour.",
+        "saved": "Manche enregistrée.",
+        "deleteFailed": "Échec de la suppression de la manche.",
+        "deleted": "Manche supprimée.",
+        "visibilityFailed": "Impossible de modifier la visibilité.",
+        "needPublic": "Enregistre la manche et rends-la publique pour partager un lien.",
+        "linkCopied": "Lien de partage copié dans le presse-papiers.",
+        "linkCopyFailed": "Impossible de copier le lien."
+      }
+    },
+    "more": {
+      "title": "Plus d’outils",
+      "meta": "Découvrir · importer · QR"
+    },
+    "checks": {
+      "pass": "Vérifications {ruleset} OK. La manche tient la route.",
+      "start": "Commence à tracer ta manche : clique sur la carte pour poser le départ."
+    }
+  },
+  "moreTools": {
+    "discover": "Découvrir",
+    "publicInArea": "Manches publiques dans cette zone",
+    "filterPlaceholder": "Filtrer par nom…",
+    "searching": "Recherche…",
+    "noPublic": "Aucune manche publique dans la vue. Déplace la carte ou dézoome.",
+    "listMeta": "{distance} · {ruleset}",
+    "listMetaOwner": "{distance} · {ruleset} · {owner}",
+    "importExport": "Import et export",
+    "importFile": "Importer .xctsk / .tsk / .cup / .fsdb",
+    "pastePlaceholder": "…ou colle un code de manche XCTSK:",
+    "load": "Charger",
+    "codeFormat": "Format du code / QR",
+    "v2Aria": "Version 2 (compacte)",
+    "v1Aria": "Version 1 (détaillée)",
+    "v2Hint": "v2 : code compact, QR le plus petit. Les goals en altitude passent en « fa ».",
+    "v1Hint": "v1 : fichier détaillé, QR plus gros mais compatible avec le plus d’outils. Les goals en altitude passent en « finishAltitude ».",
+    "downloadXctsk": ".xctsk",
+    "copyVersion": "Copier v{version}",
+    "showQr": "Afficher le QR code",
+    "hideQr": "Masquer le QR code",
+    "qrCaption": "À scanner dans XCTrack ou SeeYou Navigator · v{version}",
+    "cloud": "Cloud XContest",
+    "cloudIntro": "Charge une manche partagée par un autre pilote avec son code XContest, ou publie la tienne pour obtenir un code que XCTrack charge directement depuis le cloud.",
+    "cloudPlaceholder": "Colle un code de manche XContest",
+    "cloudAria": "Code de manche XContest à importer",
+    "cloudImport": "Importer",
+    "toasts": {
+      "importedFirst": "Première des {count} manches importée.",
+      "imported": "Manche importée.",
+      "cloudImported": "Manche cloud {code} importée.",
+      "cloudImportedNoCode": "Manche cloud importée.",
+      "designFirst": "Conçois d’abord une manche.",
+      "codeCopied": "Code de manche copié (v{version}).",
+      "codeCopyFailed": "Impossible de copier le code."
+    }
+  },
+  "cloudCode": {
+    "publish": "Publier sur le cloud XContest",
+    "requestNew": "Demander un nouveau code",
+    "republish": "{kind, select, route {Republier (route modifiée)} other {Republier (manche modifiée)}}",
+    "refresh": "Actualiser le code",
+    "copyAria": "Copier le code cloud",
+    "expired": "Expiré le {date}. XCTrack ne peut plus charger ce code. Demandes-en un nouveau ci-dessous.",
+    "stale": "{kind, select, route {Route modifiée} other {Manche modifiée}} depuis la publication : ce code charge encore l’ancienne version. Republie pour mettre à jour la copie dans le cloud.",
+    "validUntil": "Valable jusqu’au {date}",
+    "validUntilDays": "Valable jusqu’au {date} · {days, plural, one {# jour restant} other {# jours restants}}",
+    "inXctrack": "Dans XCTrack : <strong>Task → Edit → Load from XContest</strong>, puis saisis ce code. Identifiant permanent <id>{hash}</id>.",
+    "signInRoute": "Connecte-toi pour publier un code cloud. Sans compte, tu peux quand même télécharger le fichier de la route et afficher son QR code.",
+    "signInTask": "Connecte-toi pour publier un code cloud. Sans compte, tu peux quand même en importer un, télécharger le .xctsk et exporter un QR code.",
+    "routeNote": "Les codes de route ne sont pas enregistrés avec la route : note-le ou copie-le avant de quitter le planificateur.",
+    "taskNote": "Enregistre la manche pour garder ce code avec elle, sinon il ne vit que dans cette session.",
+    "toasts": {
+      "signIn": "{kind, select, route {Connecte-toi pour publier une route sur le cloud XContest.} other {Connecte-toi pour publier une manche sur le cloud XContest.}}",
+      "needWaypoints": "Ajoute au moins deux waypoints avant de publier.",
+      "needTask": "Termine la manche (départ + goal, sans erreur) avant de publier.",
+      "ready": "Le code cloud {code} est prêt.",
+      "copied": "Code cloud copié.",
+      "copyFailed": "Impossible de copier le code."
+    }
+  },
+  "qr": {
+    "save": "Enregistrer le QR en PNG"
+  },
+  "layer": {
+    "duplicate": "Dupliquer la balise ici",
+    "remove": "Retirer la balise",
+    "roleRadius": "{role} · {radius}",
+    "publicTooltip": "{name} · {distance}",
+    "publicTooltipOwner": "{name} · {distance} · {owner}"
+  },
+  "rulesets": {
+    "FAI": {
+      "blurb": "Géométrie du Code sportif FAI/CIVL, section 7A."
+    },
+    "PWCA": {
+      "blurb": "Règles de la Paragliding World Cup : ligne de goal, ESS à 1 km."
+    }
+  },
+  "validation": {
+    "needStartAndGoal": "Une manche doit avoir au moins un départ et un goal.",
+    "firstTurnpoint": "La première balise est en général le décollage ou le départ (SSS).",
+    "noSss": "Aucun départ de speed section (SSS) n’est défini.",
+    "noGoal": "Aucune balise de goal n’est définie.",
+    "goalNotLast": "Le goal doit être la dernière balise.",
+    "noTimeGate": "Le départ n’a pas encore d’heure d’ouverture. Règle-la avant de voler.",
+    "gatesNotSorted": "Les heures de départ ne sont pas dans l’ordre chronologique.",
+    "essBeforeGoalPwca": "En PWCA, on place en général l’ESS environ 1 km avant le goal pour que les pilotes finissent en sécurité.",
+    "essBeforeGoalFai": "La section 7A recommande de placer l’ESS avant le goal pour éviter les arrivées en course au ras du sol.",
+    "elevatedGoalNeedsEss": "Un goal en altitude demande en général un ESS avant le goal, pour que les pilotes soient chronométrés avant de remonter vers la porte.",
+    "goalHeightHigh": "La hauteur d’arrivée au goal est de {height} AGL, ce qui est inhabituellement haut (c’est une hauteur au-dessus du terrain du goal, pas une altitude).",
+    "pwcaGoalLine": "En PWCA, le goal est par défaut une ligne, pas un cylindre.",
+    "pwcaGoalLineShort": "La ligne de goal est sous le minimum PWCA de {min}."
+  },
+  "roleUnavailable": {
+    "unknownTurnpoint": "Balise inconnue.",
+    "needSecondTurnpoint": "Ajoute d’abord une deuxième balise : une manche a besoin d’un départ et d’un goal.",
+    "lastIsGoal": "La dernière balise est toujours le goal. Fais glisser un autre point en fin de liste pour déplacer le goal.",
+    "goalMustBeLast": "Le goal doit être la dernière balise. Fais glisser ce point en fin de liste.",
+    "startNeedsSuccessor": "Ajoute d’abord une balise après celle-ci, sinon le départ (SSS) ne mènerait nulle part.",
+    "takeoffBeforeStart": "Le décollage doit venir avant le départ (SSS).",
+    "setStartFirst": "Définis d’abord un départ (SSS).",
+    "essAfterStart": "L’ESS doit venir après le départ (SSS)."
+  }
+}

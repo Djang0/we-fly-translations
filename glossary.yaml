@@ -734,3 +734,48 @@ terms:
     note: "Locales with a decimal comma separate lat and lon with ';' (fr '{lat} ; {lon}', others '{lat}; {lon}')."
   "date range (Italian)":
     note: "it: never 'Dal {start} al {end}' (breaks on 'all’8'); use '{start} - {end}'."
+  "waypoint (route or collection point, not a task turnpoint)":
+    fr: waypoint
+    de: Wegpunkt
+    nl: waypoint
+    it: waypoint
+    es: waypoint
+    note: "The task turnpoint keeps its own word (balise, Wendepunkt, keerpunt, boa, baliza)."
+  "vertical cut (airspace cross-section)":
+    fr: coupe verticale
+    de: Vertikalschnitt
+    nl: verticale doorsnede
+    it: sezione verticale
+    es: corte vertical
+  "dynamic open area (airspace opened by activation windows)":
+    fr: zone ouverte dynamique
+    de: dynamisch geöffnetes Gebiet
+    nl: dynamisch open zone
+    it: area aperta dinamica
+    es: zona abierta dinámica
+  "activation window (airspace)":
+    fr: créneau d’activation
+    de: Aktivierungsfenster
+    nl: activatieperiode
+    it: finestra di attivazione
+    es: ventana de activación
+  "elevated goal (goal taken in the air)":
+    fr: goal en altitude
+    de: Ziel in der Luft
+    nl: goal in de lucht
+    it: goal in quota
+    es: gol elevado
+  "clock start (race with several start gates)":
+    fr: départs multiples
+    de: Clock Start
+    nl: klokstart
+    it: Clock start
+    es: salida por reloj
+  "fit (zoom the map to the content)":
+    fr: cadrer
+    de: einpassen
+    nl: in beeld brengen
+    it: inquadrare
+    es: encuadrar
+  "XCTrack menu paths":
+    note: "Keep XCTrack's own menu labels in English (e.g. 'Task → Edit → Load from XContest') until its localised labels are confirmed."

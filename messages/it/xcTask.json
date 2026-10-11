@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "roles": {
+      "essLong": "Fine della sezione di velocità (ESS)",
+      "sssShort": "SSS"
+    },
+    "formats": {
+      "clockStart": "Clock start"
+    },
+    "directions": {
+      "fixed": "Fissa",
+      "symmetric": "Simmetrica",
+      "next": "Boa successiva",
+      "previous": "Boa precedente",
+      "start": "Partenza"
+    },
+    "setup": {
+      "title": "Impostazione del task",
+      "ruleset": "Regolamento",
+      "format": "Formato",
+      "fit": "Inquadra",
+      "clear": "Cancella",
+      "newTask": "Nuovo task",
+      "newTaskTitle": "Inizia un nuovo task",
+      "empty": "Ancora nessuna boa. Clicca sulla mappa per piazzare la partenza.",
+      "help": "Clicca sulla mappa per aggiungere boe, trascina i marker per spostarle, usa le maniglie + per inserirne altre. Riordina trascinando la maniglia laterale: la rotta ottimizzata si aggiorna da sola."
+    },
+    "turnpoint": {
+      "dragAria": "Trascina per riordinare la boa {number}",
+      "duplicate": "Duplica la boa (stesso centro)",
+      "remove": "Rimuovi la boa",
+      "roleAria": "Ruolo della boa {number}",
+      "radiusAria": "Raggio della boa {number} (metri)",
+      "halfLine": "Metà della lunghezza della linea",
+      "bearingAria": "Orientamento della zona della boa {number} (gradi)"
+    },
+    "goal": {
+      "title": "Partenza e goal",
+      "startDirection": "Direzione di partenza",
+      "enter": "Entrata",
+      "exit": "Uscita",
+      "firstGate": "Prima apertura",
+      "startGate": "Apertura della partenza",
+      "timeNote": "Gli orari sono mostrati nell’ora locale del volo e salvati in UTC, così risultano corretti nel tuo libretto di volo.",
+      "timeNoteWithZone": "Gli orari sono mostrati nell’ora locale del volo ({zone}) e salvati in UTC, così risultano corretti nel tuo libretto di volo.",
+      "interval": "Intervallo (min)",
+      "gates": "Aperture",
+      "goalZone": "Zona di goal",
+      "deadline": "Chiusura",
+      "arrivalHeight": "Quota di arrivo",
+      "arrivalPlaceholder": "suolo",
+      "arrivalAria": "Quota di arrivo al goal (metri dal suolo)",
+      "arrivalUnit": "m AGL",
+      "help": "La zona di goal segue la zona di osservazione dell’ultima boa: impostala (cilindro, linea o settore FAI) nell’elenco delle boe qui sopra. Imposta una <strong>quota di arrivo</strong> per un goal in quota (da prendere in volo): la quota minima sopra il terreno del goal per essere in goal. Lasciala vuota per un goal a terra."
+    },
+    "save": {
+      "title": "Salva e condividi",
+      "savedCount": "{count} salvati",
+      "taskName": "Nome del task",
+      "publicTask": "Task pubblico",
+      "update": "Aggiorna",
+      "save": "Salva",
+      "share": "Condividi",
+      "signInHint": "Accedi per salvare i task. Anche senza account puoi progettare, importare, scaricare ed esportare codici QR.",
+      "myTasks": "I miei task",
+      "loading": "Caricamento…",
+      "empty": "Ancora nessun task salvato.",
+      "deleteAria": "Elimina il task",
+      "listMeta": "{distance} · {ruleset}",
+      "listMetaPublic": "{distance} · {ruleset} · pubblico",
+      "toasts": {
+        "signIn": "Accedi per salvare i task nel tuo account.",
+        "needTask": "Aggiungi prima almeno una partenza e un goal.",
+        "saveFailed": "Impossibile salvare il task.",
+        "updated": "Task aggiornato.",
+        "saved": "Task salvato.",
+        "deleteFailed": "Impossibile eliminare il task.",
+        "deleted": "Task eliminato.",
+        "visibilityFailed": "Impossibile aggiornare la visibilità.",
+        "needPublic": "Salva il task e rendilo pubblico per condividere un link.",
+        "linkCopied": "Link di condivisione copiato negli appunti.",
+        "linkCopyFailed": "Impossibile copiare il link."
+      }
+    },
+    "more": {
+      "title": "Altri strumenti",
+      "meta": "Scopri · importa · QR"
+    },
+    "checks": {
+      "pass": "Controlli {ruleset} superati. Il task è a posto.",
+      "start": "Inizia a disegnare il task: clicca sulla mappa per piazzare la partenza."
+    }
+  },
+  "moreTools": {
+    "discover": "Scopri",
+    "publicInArea": "Task pubblici in questa zona",
+    "filterPlaceholder": "Filtra per nome…",
+    "searching": "Ricerca…",
+    "noPublic": "Nessun task pubblico in vista. Sposta la mappa o allarga lo zoom.",
+    "listMeta": "{distance} · {ruleset}",
+    "listMetaOwner": "{distance} · {ruleset} · {owner}",
+    "importExport": "Importa ed esporta",
+    "importFile": "Importa .xctsk / .tsk / .cup / .fsdb",
+    "pastePlaceholder": "…oppure incolla un codice task XCTSK:",
+    "load": "Carica",
+    "codeFormat": "Formato del codice / QR",
+    "v2Aria": "Versione 2 (compatta)",
+    "v1Aria": "Versione 1 (estesa)",
+    "v2Hint": "v2: codice compatto, QR più piccolo. I goal in quota viaggiano come “fa”.",
+    "v1Hint": "v1: corpo del file esteso, QR più grande ma letto da più strumenti. I goal in quota viaggiano come “finishAltitude”.",
+    "downloadXctsk": ".xctsk",
+    "copyVersion": "Copia v{version}",
+    "showQr": "Mostra il codice QR",
+    "hideQr": "Nascondi il codice QR",
+    "qrCaption": "Scansiona con XCTrack o SeeYou Navigator · v{version}",
+    "cloud": "Cloud XContest",
+    "cloudIntro": "Carica un task condiviso da un altro pilota con il suo codice XContest, oppure pubblica il tuo per ottenere un codice che XCTrack carica direttamente dal cloud.",
+    "cloudPlaceholder": "Incolla un codice task XContest",
+    "cloudAria": "Codice task XContest da importare",
+    "cloudImport": "Importa",
+    "toasts": {
+      "importedFirst": "Importato il primo di {count} task.",
+      "imported": "Task importato.",
+      "cloudImported": "Task cloud {code} importato.",
+      "cloudImportedNoCode": "Task cloud importato.",
+      "designFirst": "Progetta prima un task.",
+      "codeCopied": "Codice del task copiato (v{version}).",
+      "codeCopyFailed": "Impossibile copiare il codice."
+    }
+  },
+  "cloudCode": {
+    "publish": "Pubblica sul cloud XContest",
+    "requestNew": "Richiedi un nuovo codice",
+    "republish": "{kind, select, route {Ripubblica (percorso modificato)} other {Ripubblica (task modificato)}}",
+    "refresh": "Aggiorna il codice",
+    "copyAria": "Copia il codice cloud",
+    "expired": "Scaduto: {date}. XCTrack non può più caricare questo codice. Richiedine uno nuovo qui sotto.",
+    "stale": "{kind, select, route {Percorso modificato} other {Task modificato}} dopo la pubblicazione: questo codice carica ancora la versione precedente. Ripubblica per aggiornare la copia nel cloud.",
+    "validUntil": "Scadenza: {date}",
+    "validUntilDays": "Scadenza: {date} · {days, plural, one {manca # giorno} other {mancano # giorni}}",
+    "inXctrack": "In XCTrack: <strong>Task → Edit → Load from XContest</strong>, poi inserisci questo codice. ID permanente <id>{hash}</id>.",
+    "signInRoute": "Accedi per pubblicare un codice cloud. Anche senza account puoi scaricare il file del percorso e mostrarne il QR.",
+    "signInTask": "Accedi per pubblicare un codice cloud. Anche senza account puoi importarne uno, scaricare il .xctsk ed esportare un QR.",
+    "routeNote": "I codici dei percorsi non vengono salvati con il percorso: annotalo o copialo prima di lasciare il pianificatore.",
+    "taskNote": "Salva il task per conservare questo codice, altrimenti resta solo in questa sessione.",
+    "toasts": {
+      "signIn": "{kind, select, route {Accedi per pubblicare un percorso sul cloud XContest.} other {Accedi per pubblicare un task sul cloud XContest.}}",
+      "needWaypoints": "Aggiungi almeno due waypoint prima di pubblicare.",
+      "needTask": "Completa il task (partenza + goal, nessun errore) prima di pubblicare.",
+      "ready": "Il codice cloud {code} è pronto.",
+      "copied": "Codice cloud copiato.",
+      "copyFailed": "Impossibile copiare il codice."
+    }
+  },
+  "qr": {
+    "save": "Salva il QR in PNG"
+  },
+  "layer": {
+    "duplicate": "Duplica la boa qui",
+    "remove": "Rimuovi la boa",
+    "roleRadius": "{role} · {radius}",
+    "publicTooltip": "{name} · {distance}",
+    "publicTooltipOwner": "{name} · {distance} · {owner}"
+  },
+  "rulesets": {
+    "FAI": {
+      "blurb": "Geometria della Sezione 7A del Codice Sportivo FAI/CIVL."
+    },
+    "PWCA": {
+      "blurb": "Regole della Paragliding World Cup: linea di goal, ESS a 1 km."
+    }
+  },
+  "validation": {
+    "needStartAndGoal": "Un task richiede almeno una partenza e un goal.",
+    "firstTurnpoint": "Di solito la prima boa è il decollo o la partenza (SSS).",
+    "noSss": "Manca l’inizio della sezione di velocità (SSS).",
+    "noGoal": "Manca la boa di goal.",
+    "goalNotLast": "Il goal dovrebbe essere l’ultima boa.",
+    "noTimeGate": "La partenza non ha ancora un orario di apertura. Impostalo prima di volare.",
+    "gatesNotSorted": "Le aperture della partenza non sono in ordine cronologico.",
+    "essBeforeGoalPwca": "I task PWCA di solito mettono l’ESS circa 1 km prima del goal, così i piloti arrivano in sicurezza.",
+    "essBeforeGoalFai": "La Sezione 7A raccomanda di mettere l’ESS prima del goal per evitare di arrivare in gara troppo bassi.",
+    "elevatedGoalNeedsEss": "Un goal in quota di solito richiede un ESS prima del goal, così i piloti vengono cronometrati prima di salire alla quota richiesta.",
+    "goalHeightHigh": "La quota di arrivo al goal è {height} AGL, insolitamente alta (è la quota sopra il terreno del goal, non sul livello del mare).",
+    "pwcaGoalLine": "I task PWCA usano di default una linea di goal, non un cilindro.",
+    "pwcaGoalLineShort": "La linea di goal è sotto il minimo PWCA di {min}."
+  },
+  "roleUnavailable": {
+    "unknownTurnpoint": "Boa sconosciuta.",
+    "needSecondTurnpoint": "Aggiungi prima una seconda boa: un task richiede una partenza e un goal.",
+    "lastIsGoal": "L’ultima boa è sempre il goal. Trascina un altro punto in fondo per spostare il goal.",
+    "goalMustBeLast": "Il goal deve essere l’ultima boa. Trascina questo punto in fondo all’elenco.",
+    "startNeedsSuccessor": "Aggiungi prima una boa dopo questa, altrimenti la partenza (SSS) non porterebbe da nessuna parte.",
+    "takeoffBeforeStart": "Il decollo deve venire prima della partenza (SSS).",
+    "setStartFirst": "Imposta prima una partenza (SSS).",
+    "essAfterStart": "L’ESS deve venire dopo la partenza (SSS)."
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "sidebar": {
+    "alongHeading": "Langs je vlucht ({count})",
+    "alongIntro": "Gecontroleerd en beperkt luchtruim binnen ~10 km van je geplande lijn. Selecteer de zones die mee moeten in je briefing, of klik op een zone op de kaart, welke klasse ze ook heeft. De infoknop toont alles wat over een zone bekend is voor je ze kiest.",
+    "scanning": "Luchtruim langs je vlucht scannen…",
+    "loadFailed": "De luchtruimgegevens konden niet geladen worden. Probeer het zo meteen opnieuw.",
+    "noneFound": "Geen gecontroleerd of beperkt luchtruim gevonden langs je vlucht. Je kunt hieronder nog altijd je eigen zones tekenen.",
+    "selectionHeading": "Je selectie ({count})",
+    "clearAll": "Alles wissen",
+    "selectionEmpty": "Nog niets geselecteerd. Het OpenAir-bestand van je briefing bevat alles wat je hier kiest (plus de NOTAMs uit de volgende stap).",
+    "advanced": "Geavanceerd: tekenen en bronnen",
+    "drawnCount": "{count} getekend",
+    "toolsHeading": "Tools",
+    "tools": {
+      "select": "Selecteren",
+      "polygon": "Polygoon",
+      "rectangle": "Rechthoek",
+      "cylinder": "Cilinder"
+    },
+    "hints": {
+      "select": "Klik op de kaart om de luchtruimen op dat punt te zien. Je kunt alleen luchtruimen langs je vlucht selecteren.",
+      "polygonFirst": "Klik op de kaart om het eerste punt te plaatsen.",
+      "polygonMore": "{count, plural, one {# punt} other {# punten}}: dubbelklik (of gebruik Afsluiten) om de polygoon te sluiten.",
+      "rectangleFirst": "Klik op de kaart om de eerste hoek te plaatsen.",
+      "rectangleNext": "Klik op de tegenoverliggende hoek.",
+      "cylinderFirst": "Klik op de kaart om het middelpunt te plaatsen.",
+      "cylinderNext": "Klik opnieuw om de straal in te stellen."
+    },
+    "finishPolygon": "Polygoon afsluiten",
+    "undoLastPoint": "Laatste punt ongedaan maken",
+    "cancelDrawing": "Tekenen annuleren",
+    "sourceHeading": "Luchtruimbron",
+    "showAirspaces": "Luchtruimen op de kaart tonen",
+    "sourceHint": "De selectie gebruikt wat de kaart toont: standaard de luchtruimen van openAIP, of je OpenAir-bestand als je er een geladen hebt.",
+    "row": {
+      "selected": "Geselecteerd",
+      "select": "Selecteren",
+      "viewDetailsAria": "Details van {name} bekijken",
+      "viewDetailsTitle": "Details van het luchtruim bekijken",
+      "editAria": "{name} bewerken",
+      "removeAria": "{name} verwijderen",
+      "deselectAria": "{name} deselecteren"
+    }
+  },
+  "designDialog": {
+    "titleNew": "Nieuw luchtruim",
+    "titleEdit": "Luchtruim bewerken",
+    "shapeCylinder": "Cilinder · straal {radius}",
+    "shapeRectangle": "Rechthoek",
+    "shapePolygon": "Polygoon · {count, plural, one {# punt} other {# punten}}",
+    "name": "Naam",
+    "namePlaceholder": "bv. uitbreiding CTR Beauvechain",
+    "class": "Klasse",
+    "floor": "Ondergrens",
+    "ceiling": "Bovengrens",
+    "valueAria": "Waarde van {label}",
+    "unitAria": "Eenheid van {label}",
+    "schedule": "Activatieschema",
+    "scheduleOn": "Alleen actief tijdens deze periodes, zoals een zone die per NOTAM geactiveerd wordt. Laat het einde leeg voor „tot nader bericht”.",
+    "scheduleOff": "Altijd actief. Zet aan om deze zone te beperken tot activatieperiodes, zoals officiële luchtruimen die per NOTAM geactiveerd worden.",
+    "cancel": "Annuleren",
+    "saveChanges": "Wijzigingen opslaan",
+    "add": "Luchtruim toevoegen",
+    "errors": {
+      "nameRequired": "Geef dit luchtruim een naam.",
+      "floorInvalid": "Voer een geldige hoogte in voor de ondergrens.",
+      "ceilingInvalid": "Voer een geldige hoogte in voor de bovengrens.",
+      "ceilingAboveFloor": "De bovengrens moet boven de ondergrens liggen."
+    },
+    "classes": {
+      "R": "R (beperkt)",
+      "Q": "Q (gevaar)",
+      "P": "P (verboden)",
+      "CTR": "CTR (controlezone)",
+      "TMZ": "TMZ (transponder verplicht)",
+      "RMZ": "RMZ (radio verplicht)",
+      "A": "Klasse A",
+      "B": "Klasse B",
+      "C": "Klasse C",
+      "D": "Klasse D",
+      "E": "Klasse E",
+      "F": "Klasse F",
+      "G": "Klasse G",
+      "W": "W (golfvenster)",
+      "GP": "GP (verboden voor zweeftoestellen)"
+    }
+  },
+  "activation": {
+    "from": "Van",
+    "until": "Tot",
+    "removeAria": "Activatieperiode {number} verwijderen",
+    "addWindow": "Periode toevoegen",
+    "range": "{from} → {to}",
+    "untilFurtherNotice": "{from} → tot nader bericht",
+    "errors": {
+      "startRequired": "Elke activatieperiode heeft een begindatum en -tijd nodig.",
+      "endInvalid": "Voer een geldige einddatum en -tijd in (of laat leeg).",
+      "endBeforeStart": "Een activatieperiode moet eindigen na het begin.",
+      "noWindow": "Voeg minstens één activatieperiode toe."
+    }
+  },
+  "openArea": {
+    "title": "Dynamisch open zone",
+    "intro": "Zolang een periode hieronder open is, wordt dit volume <strong>open luchtruim</strong> (een zweefvliegsector of flexzone) en wordt het uit elk overlappend luchtruim in het OpenAir-bestand van je briefing gesneden. Buiten de periodes houden alle luchtruimen hun volledige vorm.",
+    "classWhenActive": "Klasse wanneer actief",
+    "typeTag": "Typelabel (AY)",
+    "hoursLabel": "Activatie-uren (verplicht)",
+    "hoursPreset": "Vooraf ingevuld met de eigen activatie-uren van deze zone. Controleer of pas ze aan voor je opslaat.",
+    "hoursExisting": "De uren waarmee deze aanduiding is opgeslagen. Pas ze aan waar nodig.",
+    "hoursEmpty": "Deze zone heeft geen activatie-uren. Bepaal wanneer de zone opengaat. Laat het einde leeg voor „tot nader bericht”.",
+    "remove": "Aanduiding verwijderen",
+    "cancel": "Annuleren",
+    "saveChanges": "Wijzigingen opslaan",
+    "set": "Instellen als open zone",
+    "classes": {
+      "G": "Klasse G (ongecontroleerd)",
+      "E": "Klasse E",
+      "W": "W (golfvenster)"
+    }
+  },
+  "designer": {
+    "polygonTooFew": "Een polygoon heeft minstens 3 punten nodig.",
+    "outlinePartial": "Kon de volledige omtrek van dit luchtruim niet ophalen, het zichtbare deel wordt gebruikt.",
+    "outlineFailed": "Kon de omtrek van dit luchtruim niet lezen."
+  },
+  "designLayer": {
+    "edit": "Bewerken",
+    "remove": "Verwijderen",
+    "rotate": "Draaien",
+    "overlayOff": "Zet de overlay Luchtruimen aan om luchtruimen te kiezen."
+  },
+  "overlay": {
+    "unnamed": "Luchtruim"
+  },
+  "detail": {
+    "panelAria": "Details van het luchtruim: {name}",
+    "close": "Details van het luchtruim sluiten",
+    "rows": {
+      "activation": "Activatie",
+      "type": "Type",
+      "icaoClass": "ICAO-klasse",
+      "frequencies": "Frequenties",
+      "squawk": "Squawk",
+      "notes": "Opmerkingen",
+      "identifier": "Identificatie",
+      "ceiling": "Bovengrens",
+      "floor": "Ondergrens",
+      "activity": "Activiteit",
+      "hours": "Uren",
+      "remarks": "Bemerkingen"
+    },
+    "fromFile": "Uit je OpenAir-bestand",
+    "openAipRecord": "openAIP-gegevens",
+    "permanentlyActive": "Permanent actief: het bestand vermeldt geen schema",
+    "activeNow": "Nu actief",
+    "notActiveNow": "Nu niet actief",
+    "chips": {
+      "byNotam": "Per NOTAM",
+      "onDemand": "Op aanvraag",
+      "onRequest": "Op verzoek",
+      "specialAgreement": "Speciale overeenkomst"
+    },
+    "classValue": "Klasse {value}",
+    "mhz": "{value} MHz",
+    "noName": "Dit luchtruim heeft geen naam in de kaartgegevens, dus het kan niet opgezocht worden op openAIP. {source, select, file {Hierboven zie je wat je OpenAir-bestand vermeldt.} other {Hierboven zie je alleen wat de kaart al weet.}}",
+    "loading": "Volledige details laden van openAIP…",
+    "notConfigured": "Live details van openAIP zijn niet ingesteld op deze server. {source, select, file {Hierboven zie je wat je OpenAir-bestand vermeldt.} other {Hierboven zie je alleen wat de kaart al weet.}}",
+    "loadFailed": "Kon de volledige details nu niet laden van openAIP. {source, select, file {Hierboven zie je wat je OpenAir-bestand vermeldt.} other {Hierboven zie je alleen wat de kaart al weet.}}",
+    "notFoundFile": "Geen overeenkomend luchtruim in de database van openAIP. Deze zone komt uit je eigen bestand, dus wat daarin staat is alles wat er is.",
+    "notFound": "Geen overeenkomend luchtruim gevonden in de database van openAIP.",
+    "viewOnOpenAip": "Bekijken op openAIP",
+    "updated": "openAIP · bijgewerkt op {date}",
+    "interval": {
+      "announcedSeparately": "Apart aangekondigd (NOTAM)",
+      "until": "Tot {to}",
+      "range": "{from} → {to}",
+      "untilFurtherNotice": "{from} → tot nader bericht"
+    }
+  },
+  "cut": {
+    "title": "Verticale doorsnede van het luchtruim",
+    "pathOptimal": "Optimale route van de taak",
+    "pathPlanned": "Geplande route",
+    "close": "Verticale doorsnede sluiten",
+    "nothing": "Nog niets om door te snijden. Open een vlucht of voeg minstens twee punten toe.",
+    "errorArea": "Dit traject beslaat een te groot gebied voor de verticale doorsnede. Beperk de route tot een kleinere regio.",
+    "errorTiles": "De luchtruimtegels konden niet geladen worden. Sluit en open opnieuw om het nog eens te proberen.",
+    "tilesFailed": "Sommige luchtruimtegels konden niet geladen worden, dus de doorsnede is onvolledig.",
+    "noTerrain": "Geen terreingegevens langs dit traject: luchtruimgrenzen ten opzichte van de grond worden niet getoond.",
+    "footer": "Alleen gecontroleerd en beperkt luchtruim · {clickable, select, yes {klik op een band voor alle details · } other {}}{source, select, user {je OpenAir-bestand} other {gegevens van openAIP}}. Alleen ter informatie, nooit een vervanging voor officiële luchtvaartinformatie.",
+    "chartAria": "Verticale doorsnede van het luchtruim",
+    "bandAria": "Details van {name} tonen",
+    "bandTitle": "{name}: klik voor details",
+    "ground": "grond {value}",
+    "noFlagged": "Hier geen gemarkeerd luchtruim"
+  },
+  "notamStep": {
+    "connectHeading": "autorouter koppelen",
+    "connectIntro": "Europese NOTAMs komen van Eurocontrol EAD via <strong>autorouter</strong>, waarvan de licentie elke piloot toegang geeft tot de feed met zijn <strong>eigen account</strong>, niet via een gedeeld account.",
+    "comingSoon": "Binnenkort beschikbaar.",
+    "reconnectNeeded": "Je autorouter-sessie moet opnieuw gekoppeld worden.",
+    "reconnect": "autorouter opnieuw koppelen",
+    "linkIntro": "Koppel je gratis autorouter-account om NOTAMs aan te zetten. Je ziet altijd alleen <strong>jouw</strong> briefing.",
+    "connect": "autorouter koppelen",
+    "skip": "Je kunt deze stap overslaan: je briefing bevat dan gewoon geen NOTAMs.",
+    "disclaimerHeading": "Disclaimer",
+    "disclaimer": "Alleen ter informatie: dit is GEEN officiële briefing. Raadpleeg altijd de officiële bronnen voor vluchtvoorbereiding (AIS/NOTAM-briefing) voor je vliegt.",
+    "alongHeading": "Langs je vlucht ({count})",
+    "alongIntroDated": "NOTAMs binnen ~10 km van je geplande lijn, actief op {date}. Selecteer de NOTAMs die mee moeten in je briefing.",
+    "alongIntroUndated": "NOTAMs binnen ~10 km van je geplande lijn, actief op je vluchtdatum. Selecteer de NOTAMs die mee moeten in je briefing.",
+    "beyondHorizon": "Je vluchtdatum ligt meer dan 7 dagen vooruit. De meeste NOTAMs worden pas dichter bij de dag gepubliceerd. Kijk deze stap opnieuw na vlak voor je vlucht.",
+    "loading": "NOTAMs laden…",
+    "loadFailed": "NOTAMs konden niet geladen worden. Probeer het zo meteen opnieuw.",
+    "none": "Geen actieve NOTAM langs je vlucht op die datum: de lucht is vrij. Klik op de kaart om een specifieke plek te peilen.",
+    "selectedCount": "{count, plural, one {# NOTAM} other {# NOTAMs}} geselecteerd voor de briefing.",
+    "probeHeading": "Op {lat}; {lng}",
+    "clearProbeAria": "Gepeild punt wissen",
+    "probeNone": "Geen actieve NOTAM boven dit punt voor de gekozen filters.",
+    "filters": "Filters",
+    "lowerLimit": "Ondergrens",
+    "lowerLimitHint": "Verbergt NOTAMs waarvan het luchtruim boven deze hoogte begint.",
+    "altitudeBelow": "Onder {value}",
+    "altitudeBelowFl": "Onder {value} (≈ FL115)",
+    "altitudeAny": "Elke hoogte",
+    "restrictions": "Beperkingen",
+    "warnings": "Waarschuwingen",
+    "keepLayer": "Laag behouden in andere stappen",
+    "dataNote": "Gegevens: je autorouter-account (Eurocontrol EAD, de gezaghebbende bron voor Europese NOTAMs), live opgehaald voor je vluchtcorridor. Sommige NOTAMs, vooral die zonder leesbare geometrie, verschijnen mogelijk niet op de kaart.",
+    "row": {
+      "selected": "Geselecteerd",
+      "select": "Selecteren"
+    }
+  },
+  "notamList": {
+    "title": "NOTAMs hier",
+    "description": "{count, plural, one {# NOTAM} other {# NOTAMs}} op dit punt, beperkingen eerst. Selecteer er een om ze op de kaart te markeren.",
+    "outline": "omtrek"
+  },
+  "notamPopup": {
+    "outlineFromOpenAip": "Omtrek van openAIP (gekoppeld aan het genoemde gebied).",
+    "disclaimer": "Alleen ter informatie: dit is GEEN officiële briefing. Raadpleeg altijd de officiële bronnen voor vluchtvoorbereiding (AIS/NOTAM-briefing) voor je vliegt."
+  },
+  "notamValidity": {
+    "range": "{from} → {to}",
+    "rangeEstimated": "{from} → {to} (geschat)",
+    "permanent": "{from} → permanent"
+  },
+  "classLabels": {
+    "restricted": "Beperkt",
+    "danger": "Gevaar",
+    "prohibited": "Verboden",
+    "icaoClass": "Klasse {value}"
+  }
+}

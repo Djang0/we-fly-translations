@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Planificateur XC : routes de cross et manches de compétition",
+    "description": "Prépare tes routes de cross en parapente ou conçois des manches de compétition FAI/PWCA sur une carte interactive, avec les skyways thermiques et les espaces aériens. Gratuit.",
+    "ogTitle": "Planificateur XC : routes de cross et manches de compétition | We-Fly",
+    "ogDescription": "Prépare tes routes de cross ou conçois des manches de compétition FAI/PWCA avec les skyways thermiques et les espaces aériens."
+  },
+  "share": {
+    "title": "{name} : {kind, select, route {route XC} other {manche de compétition}} par {author}",
+    "anonymousAuthor": "un pilote We-Fly",
+    "summary": "{distance} · {detail}.",
+    "openInPlanner": "Ouvre-la dans le planificateur XC de We-Fly.",
+    "points": "{points, plural, one {# pt} other {# pts}}",
+    "turnpoints": "{count, plural, one {# balise} other {# balises}}",
+    "rulesetTask": "Manche {ruleset}"
+  },
+  "page": {
+    "loadingPlanner": "Chargement du planificateur…"
+  },
+  "shell": {
+    "loadingMap": "Chargement de la carte…",
+    "flightFallbackName": "Vol",
+    "linkedTaskFailed": "Impossible de charger la manche liée à ce vol.",
+    "flightLoadFailed": "Impossible de charger le vol. Tu dois être connecté avec le compte de son pilote.",
+    "controlsTitle": "Commandes du planificateur XC",
+    "clickToAddWaypoints": "Clique sur la carte pour ajouter des waypoints."
+  },
+  "topbar": {
+    "documentation": "Documentation",
+    "goToLogbook": "Aller au carnet de vol",
+    "startLogging": "Crée ton carnet"
+  },
+  "stepper": {
+    "ariaLabel": "Étapes de préparation",
+    "locked": "Trace d’abord ton vol et choisis une date"
+  },
+  "steps": {
+    "1": {
+      "label": "Tracé",
+      "title": "Trace ton vol et choisis une date"
+    },
+    "2": {
+      "label": "Espaces aériens",
+      "title": "Choisis les espaces aériens sur ton parcours"
+    },
+    "3": {
+      "label": "NOTAM",
+      "title": "Choisis les NOTAM sur ton parcours"
+    },
+    "4": {
+      "label": "Briefing",
+      "title": "Téléchargements, QR code et météo"
+    }
+  },
+  "stepNav": {
+    "toAirspaces": "Passer aux espaces aériens",
+    "toNotams": "Passer aux NOTAM",
+    "toBriefing": "Passer au briefing",
+    "openPanel": "Ouvrir le panneau du planificateur",
+    "controls": "Commandes",
+    "backAria": "Revenir à l’étape précédente",
+    "back": "Retour",
+    "notReady": "Ajoute d’abord au moins deux points et choisis une date de vol"
+  },
+  "stepPanel": {
+    "route": "Route",
+    "task": "Manche",
+    "waypoints": "Waypoints",
+    "designTool": "Outil de tracé",
+    "pickDate": "Choisis ta date de vol",
+    "startTime": "Heure de départ prévue",
+    "unlockNeedsPoints": "Ajoute au moins deux points et choisis une date pour débloquer les espaces aériens, les NOTAM et le briefing.",
+    "unlockNeedsDate": "Choisis une date pour débloquer les espaces aériens, les NOTAM et le briefing.",
+    "noDate": "Pas de date",
+    "kmPlanned": "{distance} prévus",
+    "noPath": "pas de tracé"
+  },
+  "sections": {
+    "overlays": "Calques",
+    "task": "Manche",
+    "route": "Route",
+    "durationHm": "{hours} h {minutes} min",
+    "durationM": "{minutes} min",
+    "flight": "Vol",
+    "flownTrack": "{duration} · trace volée",
+    "removeFlightTrace": "Retirer la trace du vol",
+    "verticalCut": "Coupe verticale",
+    "airspaceCrossSection": "Coupe des espaces aériens",
+    "verticalCutHint": "Espaces aériens contrôlés et réglementés le long {path, select, flown {de la trace volée} task {de la route optimisée de la manche} other {de la route prévue}}, en distance et en altitude.",
+    "verticalCutEmpty": "Ajoute au moins deux points (ou ouvre un vol) pour couper les espaces aériens le long d’un parcours.",
+    "collectionLoadFailed": "Impossible de charger cette collection.",
+    "waypointCount": "{count, plural, one {# waypoint} other {# waypoints}}",
+    "on": "Affichée",
+    "show": "Afficher",
+    "collections": "Collections",
+    "collectionsIntro": "Affiche tes collections de waypoints, puis clique sur un waypoint de la carte pour l’ajouter comme {mode, select, task {balise} other {point de la route}}.",
+    "loading": "Chargement…",
+    "myCollections": "Mes collections",
+    "noCollections": "Pas encore de collection. Crées-en une en mode Collection.",
+    "signInForCollections": "Connecte-toi pour utiliser tes propres collections.",
+    "publicInArea": "Collections publiques dans cette zone",
+    "searching": "Recherche…",
+    "publicCollections": "Collections publiques",
+    "noPublicInView": "Aucune collection publique dans la vue. Déplace la carte ou dézoome.",
+    "showingCollections": "{count, plural, one {# collection affichée sur la carte.} other {# collections affichées sur la carte.}}",
+    "activeCount": "Affichées : {count}"
+  },
+  "sidebar": {
+    "signInToSave": "Connecte-toi pour enregistrer des routes dans ton compte.",
+    "drawRouteFirst": "Trace d’abord une route d’au moins deux waypoints.",
+    "saveFailed": "Échec de l’enregistrement de la route.",
+    "routeUpdated": "Route mise à jour.",
+    "routeSaved": "Route enregistrée.",
+    "deleteFailed": "Échec de la suppression de la route.",
+    "routeDeleted": "Route supprimée.",
+    "visibilityFailed": "Impossible de modifier la visibilité.",
+    "noUsableRoute": "Ce fichier ne contient pas de route exploitable.",
+    "imported": "{count, plural, one {# waypoint importé.} other {# waypoints importés.}}",
+    "readFailed": "Impossible de lire ce fichier. Utilise du .wpt, .gpx ou .geojson.",
+    "drawRouteShort": "Trace d’abord une route.",
+    "copyFailed": "Impossible de copier le lien.",
+    "linkCopiedToast": "Lien de partage copié dans le presse-papiers.",
+    "linkCopied": "Lien copié",
+    "copyShareLinkFor": "Copier le lien de partage de {name}",
+    "copyShareLink": "Copier le lien de partage",
+    "route": "Route",
+    "league": "Compétition",
+    "leagueDistance": "Distance",
+    "speed": "Vitesse · {speed}",
+    "closeCircuit": "Fermer le circuit",
+    "fit": "Cadrer",
+    "clear": "Effacer",
+    "new": "Nouvelle",
+    "faiSectors": "Secteurs FAI",
+    "routeHelp": "Clique sur la carte pour ajouter des waypoints, fais-les glisser pour les déplacer, utilise les poignées + pour en insérer. Les secteurs FAI colorent les zones où une balise garde chaque branche du triangle à au moins 28 % du périmètre.",
+    "saveAndShare": "Enregistrer et partager",
+    "routeName": "Nom de la route",
+    "publicRoute": "Route publique",
+    "update": "Mettre à jour",
+    "save": "Enregistrer",
+    "copied": "Copié",
+    "share": "Partager",
+    "signInHint": "Connecte-toi pour enregistrer tes routes. Sans compte, tu peux quand même préparer, importer et télécharger.",
+    "privateHintSaved": "Cette route est privée. Active Route publique pour la partager.",
+    "privateHintUnsaved": "Active Route publique et enregistre pour obtenir un lien de partage.",
+    "shareDirtyHint": "Le lien de partage ouvre la dernière version enregistrée. Mets à jour pour partager tes modifications.",
+    "myRoutes": "Mes routes",
+    "loading": "Chargement…",
+    "publicBadge": "publique",
+    "deleteRoute": "Supprimer la route",
+    "noSavedRoutes": "Pas encore de route enregistrée.",
+    "moreTools": "Plus d’outils",
+    "moreToolsMeta": "Découvrir · importer · exporter",
+    "discover": "Découvrir",
+    "publicRoutesInArea": "Routes publiques dans cette zone",
+    "filterByName": "Filtrer par nom…",
+    "searching": "Recherche…",
+    "noPublicRoutes": "Aucune route publique dans la vue. Déplace la carte ou dézoome.",
+    "importExport": "Import et export",
+    "importFile": "Importer .wpt / .gpx / .geojson"
+  },
+  "dynamicOpen": {
+    "badge": "Zone ouverte dynamique · {cls} · {type}",
+    "editFor": "Modifier la zone ouverte dynamique pour {name}",
+    "setFor": "Définir {name} comme zone ouverte dynamique",
+    "edit": "Modifier la zone ouverte dynamique",
+    "set": "Définir comme zone ouverte dynamique"
+  },
+  "fadeScroll": {
+    "scrollUp": "Remonter",
+    "scrollDown": "Descendre"
+  },
+  "siteOverlay": {
+    "title": "{kind, select, landing {Atterrissage} other {Décollage}} · {name}",
+    "unnamed": "Sans nom",
+    "facing": "orienté {bearing}"
+  },
+  "waypointSearch": {
+    "placeholder": "Ajouter par nom ou code de waypoint…",
+    "ariaLabel": "Chercher des waypoints à ajouter comme balises",
+    "searching": "Recherche…",
+    "noMatch": "Aucun waypoint ne correspond à « {query} ».",
+    "noCollections": "Aucune collection où chercher. Importes-en une ou crées-en une en mode Collection.",
+    "signIn": "Connecte-toi ou affiche une collection sur la carte pour chercher dans ses waypoints."
+  },
+  "mapOverlay": {
+    "layers": "Couches",
+    "overlaysActive": "Calques actifs",
+    "mapLayers": "Couches de la carte",
+    "collapse": "Replier le panneau des couches"
+  },
+  "contextMenu": {
+    "centerHere": "Centrer la carte ici",
+    "copyCoords": "Copier les coordonnées",
+    "measure": "Mesurer la distance depuis ici",
+    "addTurnpoint": "Ajouter une balise ici",
+    "fitTask": "Cadrer la manche",
+    "clearTask": "Effacer la manche",
+    "finishPolygon": "Terminer le polygone",
+    "cancelDrawing": "Annuler le tracé",
+    "fitAirspaces": "Cadrer les espaces aériens",
+    "clearAirspaces": "Effacer tous les espaces aériens",
+    "fitCollection": "Cadrer la collection",
+    "clearCollection": "Effacer la collection",
+    "fitRoute": "Cadrer la route",
+    "clearRoute": "Effacer la route",
+    "closeCircuit": "Fermer le circuit",
+    "addWaypoint": "Ajouter un waypoint ici",
+    "insertAsStart": "Insérer comme départ",
+    "coordinatesCopied": "Coordonnées copiées.",
+    "coordinatesCopyFailed": "Impossible de copier les coordonnées.",
+    "seeAirspaces": "Voir les espaces aériens ({count})",
+    "seeNotams": "Voir les NOTAM ({count})",
+    "remove": "Retirer {name}",
+    "waypointN": "le waypoint {n}"
+  },
+  "map": {
+    "waypointN": "Waypoint {n}",
+    "removeWaypoint": "Retirer le waypoint",
+    "airspaceNotAlongFlight": "Cet espace aérien n’est pas sur ton parcours. Seuls les espaces aériens proches de ta ligne prévue peuvent être sélectionnés."
+  },
+  "scoreKinds": {
+    "free": "Distance libre",
+    "outAndReturn": "Aller-retour",
+    "flatTriangle": "Triangle plat",
+    "faiTriangle": "Triangle FAI"
+  }
+}

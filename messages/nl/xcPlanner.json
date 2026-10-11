@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "XC-planner: routes en wedstrijdtaken ontwerpen",
+    "description": "Plan overlandroutes met je paraglider of ontwerp FAI/PWCA-wedstrijdtaken op een interactieve kaart met thermiek-skyways en luchtruimen. Gratis.",
+    "ogTitle": "XC-planner: routes en wedstrijdtaken ontwerpen | We-Fly",
+    "ogDescription": "Plan overlandroutes of ontwerp FAI/PWCA-wedstrijdtaken met thermiek-skyways en luchtruimen."
+  },
+  "share": {
+    "title": "{name}: {kind, select, route {XC-route} other {wedstrijdtaak}} door {author}",
+    "anonymousAuthor": "een We-Fly-piloot",
+    "summary": "{distance} · {detail}.",
+    "openInPlanner": "Open ze in de XC-planner van We-Fly.",
+    "points": "{points, plural, one {# pt} other {# ptn}}",
+    "turnpoints": "{count, plural, one {# keerpunt} other {# keerpunten}}",
+    "rulesetTask": "{ruleset}-taak"
+  },
+  "page": {
+    "loadingPlanner": "Planner laden…"
+  },
+  "shell": {
+    "loadingMap": "Kaart laden…",
+    "flightFallbackName": "Vlucht",
+    "linkedTaskFailed": "De gekoppelde taak van de vlucht kon niet geladen worden.",
+    "flightLoadFailed": "Kon de vlucht niet laden. Je moet ingelogd zijn als eigenaar van de vlucht.",
+    "controlsTitle": "Bediening van de XC-planner",
+    "clickToAddWaypoints": "Klik op de kaart om waypoints toe te voegen."
+  },
+  "topbar": {
+    "documentation": "Documentatie",
+    "goToLogbook": "Naar het logboek",
+    "startLogging": "Begin je logboek"
+  },
+  "stepper": {
+    "ariaLabel": "Planningsstappen",
+    "locked": "Ontwerp eerst je vlucht en kies een datum"
+  },
+  "steps": {
+    "1": {
+      "label": "Ontwerp",
+      "title": "Ontwerp je vlucht en kies een datum"
+    },
+    "2": {
+      "label": "Luchtruimen",
+      "title": "Kies de luchtruimen langs je vlucht"
+    },
+    "3": {
+      "label": "NOTAMs",
+      "title": "Kies de NOTAMs langs je vlucht"
+    },
+    "4": {
+      "label": "Briefing",
+      "title": "Downloads, QR-code en weer"
+    }
+  },
+  "stepNav": {
+    "toAirspaces": "Verder naar luchtruimen",
+    "toNotams": "Verder naar NOTAMs",
+    "toBriefing": "Verder naar briefing",
+    "openPanel": "Plannerpaneel openen",
+    "controls": "Bediening",
+    "backAria": "Terug naar de vorige stap",
+    "back": "Terug",
+    "notReady": "Voeg eerst minstens twee punten toe en kies een vluchtdatum"
+  },
+  "stepPanel": {
+    "route": "Route",
+    "task": "Taak",
+    "waypoints": "Waypoints",
+    "designTool": "Ontwerptool",
+    "pickDate": "Kies je vluchtdatum",
+    "startTime": "Geplande starttijd",
+    "unlockNeedsPoints": "Voeg minstens twee punten toe en kies een datum om luchtruimen, NOTAMs en de briefing te ontgrendelen.",
+    "unlockNeedsDate": "Kies een datum om luchtruimen, NOTAMs en de briefing te ontgrendelen.",
+    "noDate": "Geen datum",
+    "kmPlanned": "{distance} gepland",
+    "noPath": "geen traject"
+  },
+  "sections": {
+    "overlays": "Overlays",
+    "task": "Taak",
+    "route": "Route",
+    "durationHm": "{hours} u {minutes} min",
+    "durationM": "{minutes} min",
+    "flight": "Vlucht",
+    "flownTrack": "{duration} · gevlogen track",
+    "removeFlightTrace": "Track van de vlucht verwijderen",
+    "verticalCut": "Verticale doorsnede",
+    "airspaceCrossSection": "Doorsnede van het luchtruim",
+    "verticalCutHint": "Gecontroleerd en beperkt luchtruim langs {path, select, flown {de gevlogen track} task {de optimale route van de taak} other {de geplande route}}, volgens afstand en hoogte.",
+    "verticalCutEmpty": "Voeg minstens twee punten toe (of open een vlucht) om het luchtruim langs een traject door te snijden.",
+    "collectionLoadFailed": "Kon deze collectie niet laden.",
+    "waypointCount": "{count, plural, one {# waypoint} other {# waypoints}}",
+    "on": "Aan",
+    "show": "Tonen",
+    "collections": "Collecties",
+    "collectionsIntro": "Toon je waypointcollecties en klik dan op een waypoint op de kaart om het toe te voegen als {mode, select, task {keerpunt} other {routepunt}}.",
+    "loading": "Laden…",
+    "myCollections": "Mijn collecties",
+    "noCollections": "Nog geen collecties. Maak er een in de modus Collectie.",
+    "signInForCollections": "Log in om je eigen collecties te gebruiken.",
+    "publicInArea": "Openbare collecties in deze regio",
+    "searching": "Zoeken…",
+    "publicCollections": "Openbare collecties",
+    "noPublicInView": "Geen openbare collecties in beeld. Verschuif de kaart of zoom uit.",
+    "showingCollections": "{count, plural, one {# collectie op de kaart getoond.} other {# collecties op de kaart getoond.}}",
+    "activeCount": "{count} aan"
+  },
+  "sidebar": {
+    "signInToSave": "Log in om routes in je account op te slaan.",
+    "drawRouteFirst": "Teken eerst een route met minstens twee waypoints.",
+    "saveFailed": "Route opslaan mislukt.",
+    "routeUpdated": "Route bijgewerkt.",
+    "routeSaved": "Route opgeslagen.",
+    "deleteFailed": "Route verwijderen mislukt.",
+    "routeDeleted": "Route verwijderd.",
+    "visibilityFailed": "Zichtbaarheid bijwerken mislukt.",
+    "noUsableRoute": "Dit bestand bevat geen bruikbare route.",
+    "imported": "{count, plural, one {# waypoint geïmporteerd.} other {# waypoints geïmporteerd.}}",
+    "readFailed": "Kon dit bestand niet lezen. Gebruik .wpt, .gpx of .geojson.",
+    "drawRouteShort": "Teken eerst een route.",
+    "copyFailed": "Kon de link niet kopiëren.",
+    "linkCopiedToast": "Deellink gekopieerd naar het klembord.",
+    "linkCopied": "Link gekopieerd",
+    "copyShareLinkFor": "Deellink voor {name} kopiëren",
+    "copyShareLink": "Deellink kopiëren",
+    "route": "Route",
+    "league": "Competitie",
+    "leagueDistance": "Afstand",
+    "speed": "Snelheid · {speed}",
+    "closeCircuit": "Circuit sluiten",
+    "fit": "In beeld",
+    "clear": "Wissen",
+    "new": "Nieuw",
+    "faiSectors": "FAI-sectoren",
+    "routeHelp": "Klik op de kaart om waypoints toe te voegen, sleep om te verplaatsen, gebruik de +-grepen om er een tussen te voegen. De FAI-sectoren kleuren waar een keerpunt elk been van de driehoek op ≥ 28% van de omtrek houdt.",
+    "saveAndShare": "Opslaan en delen",
+    "routeName": "Naam van de route",
+    "publicRoute": "Openbare route",
+    "update": "Bijwerken",
+    "save": "Opslaan",
+    "copied": "Gekopieerd",
+    "share": "Delen",
+    "signInHint": "Log in om routes op te slaan. Plannen, importeren en downloaden kan ook zonder account.",
+    "privateHintSaved": "Deze route is privé. Zet Openbare route aan om ze te delen.",
+    "privateHintUnsaved": "Zet Openbare route aan en sla op om een deellink te krijgen.",
+    "shareDirtyHint": "De deellink opent de laatst opgeslagen versie. Werk bij om je wijzigingen te delen.",
+    "myRoutes": "Mijn routes",
+    "loading": "Laden…",
+    "publicBadge": "openbaar",
+    "deleteRoute": "Route verwijderen",
+    "noSavedRoutes": "Nog geen opgeslagen routes.",
+    "moreTools": "Meer tools",
+    "moreToolsMeta": "Ontdekken · importeren · exporteren",
+    "discover": "Ontdekken",
+    "publicRoutesInArea": "Openbare routes in deze regio",
+    "filterByName": "Filteren op naam…",
+    "searching": "Zoeken…",
+    "noPublicRoutes": "Geen openbare routes in beeld. Verschuif de kaart of zoom uit.",
+    "importExport": "Importeren en exporteren",
+    "importFile": ".wpt / .gpx / .geojson importeren"
+  },
+  "dynamicOpen": {
+    "badge": "Dynamisch open zone · {cls} · {type}",
+    "editFor": "Dynamisch open zone voor {name} bewerken",
+    "setFor": "{name} instellen als dynamisch open zone",
+    "edit": "Dynamisch open zone bewerken",
+    "set": "Instellen als dynamisch open zone"
+  },
+  "fadeScroll": {
+    "scrollUp": "Omhoog scrollen",
+    "scrollDown": "Omlaag scrollen"
+  },
+  "siteOverlay": {
+    "title": "{kind, select, landing {Landingsplaats} other {Startplaats}} · {name}",
+    "unnamed": "Naamloos",
+    "facing": "gericht naar {bearing}"
+  },
+  "waypointSearch": {
+    "placeholder": "Toevoegen op naam of code van een waypoint…",
+    "ariaLabel": "Waypoints zoeken om als keerpunt toe te voegen",
+    "searching": "Zoeken…",
+    "noMatch": "Geen waypoint gevonden voor „{query}”.",
+    "noCollections": "Geen collecties om te doorzoeken. Importeer of maak er een in de modus Collectie.",
+    "signIn": "Log in of toon een collectie op de kaart om de waypoints ervan te doorzoeken."
+  },
+  "mapOverlay": {
+    "layers": "Lagen",
+    "overlaysActive": "Overlays actief",
+    "mapLayers": "Kaartlagen",
+    "collapse": "Paneel met kaartlagen inklappen"
+  },
+  "contextMenu": {
+    "centerHere": "Kaart hier centreren",
+    "copyCoords": "Coördinaten kopiëren",
+    "measure": "Afstand meten vanaf hier",
+    "addTurnpoint": "Keerpunt hier toevoegen",
+    "fitTask": "Taak in beeld brengen",
+    "clearTask": "Taak wissen",
+    "finishPolygon": "Polygoon afsluiten",
+    "cancelDrawing": "Tekenen annuleren",
+    "fitAirspaces": "Luchtruimen in beeld brengen",
+    "clearAirspaces": "Alle luchtruimen wissen",
+    "fitCollection": "Collectie in beeld brengen",
+    "clearCollection": "Collectie wissen",
+    "fitRoute": "Route in beeld brengen",
+    "clearRoute": "Route wissen",
+    "closeCircuit": "Circuit sluiten",
+    "addWaypoint": "Waypoint hier toevoegen",
+    "insertAsStart": "Invoegen als start",
+    "coordinatesCopied": "Coördinaten gekopieerd.",
+    "coordinatesCopyFailed": "Kon de coördinaten niet kopiëren.",
+    "seeAirspaces": "Luchtruimen bekijken ({count})",
+    "seeNotams": "NOTAMs bekijken ({count})",
+    "remove": "{name} verwijderen",
+    "waypointN": "waypoint {n}"
+  },
+  "map": {
+    "waypointN": "Waypoint {n}",
+    "removeWaypoint": "Waypoint verwijderen",
+    "airspaceNotAlongFlight": "Dit luchtruim ligt niet langs je vlucht. Je kunt alleen luchtruimen dicht bij je geplande lijn selecteren."
+  },
+  "scoreKinds": {
+    "free": "Vrije afstand",
+    "outAndReturn": "Heen-en-terug",
+    "flatTriangle": "Platte driehoek",
+    "faiTriangle": "FAI-driehoek"
+  }
+}

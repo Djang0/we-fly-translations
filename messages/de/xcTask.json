@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "roles": {
+      "essLong": "Ende der Speed Section (ESS)",
+      "sssShort": "SSS"
+    },
+    "formats": {
+      "clockStart": "Clock Start"
+    },
+    "directions": {
+      "fixed": "Fest",
+      "symmetric": "Symmetrisch",
+      "next": "Nächster",
+      "previous": "Vorheriger",
+      "start": "Start"
+    },
+    "setup": {
+      "title": "Task-Einstellungen",
+      "ruleset": "Regelwerk",
+      "format": "Format",
+      "fit": "Einpassen",
+      "clear": "Leeren",
+      "newTask": "Neuer Task",
+      "newTaskTitle": "Einen neuen Task beginnen",
+      "empty": "Noch keine Wendepunkte. Klick in die Karte, um den Start zu setzen.",
+      "help": "Klick in die Karte, um Wendepunkte zu setzen, zieh die Marker zum Verschieben und nutze die +-Griffe zum Einfügen. Ändere die Reihenfolge am Griff, die optimierte Route passt sich an."
+    },
+    "turnpoint": {
+      "dragAria": "Ziehen, um Wendepunkt {number} zu verschieben",
+      "duplicate": "Wendepunkt duplizieren (gleiches Zentrum)",
+      "remove": "Wendepunkt entfernen",
+      "roleAria": "Rolle von Wendepunkt {number}",
+      "radiusAria": "Radius von Wendepunkt {number} (Meter)",
+      "halfLine": "Halbe Linienlänge",
+      "bearingAria": "Ausrichtung der Zone von Wendepunkt {number} (Grad)"
+    },
+    "goal": {
+      "title": "Start und Ziel",
+      "startDirection": "Startrichtung",
+      "enter": "Eintritt",
+      "exit": "Austritt",
+      "firstGate": "Erstes Startgate",
+      "startGate": "Startgate",
+      "timeNote": "Die Zeiten werden in der Ortszeit des Flugs angezeigt und in UTC gespeichert, damit sie in deinem Flugbuch richtig wieder erscheinen.",
+      "timeNoteWithZone": "Die Zeiten werden in der Ortszeit des Flugs ({zone}) angezeigt und in UTC gespeichert, damit sie in deinem Flugbuch richtig wieder erscheinen.",
+      "interval": "Intervall (min)",
+      "gates": "Startgates",
+      "goalZone": "Zielzone",
+      "deadline": "Zielschluss",
+      "arrivalHeight": "Ankunftshöhe",
+      "arrivalPlaceholder": "Boden",
+      "arrivalAria": "Ankunftshöhe im Ziel (Meter AGL)",
+      "arrivalUnit": "m AGL",
+      "help": "Die Zielzone folgt der Beobachtungszone des letzten Wendepunkts: Leg sie (Zylinder, Linie oder FAI-Sektor) oben in der Wendepunktliste fest. Setz eine <strong>Ankunftshöhe</strong> für ein Ziel in der Luft: die Mindesthöhe über dem Gelände am Ziel, um im Ziel zu sein. Lass sie leer für ein Ziel am Boden."
+    },
+    "save": {
+      "title": "Speichern und teilen",
+      "savedCount": "{count} gespeichert",
+      "taskName": "Name des Tasks",
+      "publicTask": "Öffentlicher Task",
+      "update": "Aktualisieren",
+      "save": "Speichern",
+      "share": "Teilen",
+      "signInHint": "Melde dich an, um Tasks zu speichern. Entwerfen, importieren, herunterladen und QR-Codes exportieren geht auch ohne Konto.",
+      "myTasks": "Meine Tasks",
+      "loading": "Wird geladen…",
+      "empty": "Noch keine gespeicherten Tasks.",
+      "deleteAria": "Task löschen",
+      "listMeta": "{distance} · {ruleset}",
+      "listMetaPublic": "{distance} · {ruleset} · öffentlich",
+      "toasts": {
+        "signIn": "Melde dich an, um Tasks in deinem Konto zu speichern.",
+        "needTask": "Setz zuerst mindestens einen Start und ein Ziel.",
+        "saveFailed": "Task konnte nicht gespeichert werden.",
+        "updated": "Task aktualisiert.",
+        "saved": "Task gespeichert.",
+        "deleteFailed": "Task konnte nicht gelöscht werden.",
+        "deleted": "Task gelöscht.",
+        "visibilityFailed": "Sichtbarkeit konnte nicht geändert werden.",
+        "needPublic": "Speichere den Task und mach ihn öffentlich, um einen Link zu teilen.",
+        "linkCopied": "Freigabelink in die Zwischenablage kopiert.",
+        "linkCopyFailed": "Der Link konnte nicht kopiert werden."
+      }
+    },
+    "more": {
+      "title": "Weitere Werkzeuge",
+      "meta": "Entdecken · Import · QR"
+    },
+    "checks": {
+      "pass": "{ruleset}-Prüfungen bestanden. Der Task sieht gut aus.",
+      "start": "Fang an, deinen Task zu zeichnen: Klick in die Karte, um den Start zu setzen."
+    }
+  },
+  "moreTools": {
+    "discover": "Entdecken",
+    "publicInArea": "Öffentliche Tasks in diesem Gebiet",
+    "filterPlaceholder": "Nach Name filtern…",
+    "searching": "Suche läuft…",
+    "noPublic": "Keine öffentlichen Tasks im Bildausschnitt. Verschieb die Karte oder zoom heraus.",
+    "listMeta": "{distance} · {ruleset}",
+    "listMetaOwner": "{distance} · {ruleset} · {owner}",
+    "importExport": "Import und Export",
+    "importFile": ".xctsk / .tsk / .cup / .fsdb importieren",
+    "pastePlaceholder": "…oder einen XCTSK:-Task-Code einfügen",
+    "load": "Laden",
+    "codeFormat": "Code- / QR-Format",
+    "v2Aria": "Version 2 (kompakt)",
+    "v1Aria": "Version 1 (ausführlich)",
+    "v2Hint": "v2: kompakter Code, kleinster QR. Ziele in der Luft werden als „fa“ übertragen.",
+    "v1Hint": "v1: ausführlicher Dateiinhalt, größerer QR, aber die breiteste Unterstützung durch Tools. Ziele in der Luft werden als „finishAltitude“ übertragen.",
+    "downloadXctsk": ".xctsk",
+    "copyVersion": "v{version} kopieren",
+    "showQr": "QR-Code zeigen",
+    "hideQr": "QR-Code ausblenden",
+    "qrCaption": "In XCTrack oder SeeYou Navigator scannen · v{version}",
+    "cloud": "XContest-Cloud",
+    "cloudIntro": "Lade einen Task, den ein anderer Pilot geteilt hat, über seinen XContest-Code, oder veröffentliche deinen und bekomm einen Code, den XCTrack direkt aus der Cloud lädt.",
+    "cloudPlaceholder": "XContest-Task-Code einfügen",
+    "cloudAria": "XContest-Task-Code zum Importieren",
+    "cloudImport": "Importieren",
+    "toasts": {
+      "importedFirst": "Der erste von {count} Tasks wurde importiert.",
+      "imported": "Task importiert.",
+      "cloudImported": "Cloud-Task {code} importiert.",
+      "cloudImportedNoCode": "Cloud-Task importiert.",
+      "designFirst": "Entwirf zuerst einen Task.",
+      "codeCopied": "Task-Code kopiert (v{version}).",
+      "codeCopyFailed": "Der Code konnte nicht kopiert werden."
+    }
+  },
+  "cloudCode": {
+    "publish": "In der XContest-Cloud veröffentlichen",
+    "requestNew": "Neuen Code anfordern",
+    "republish": "{kind, select, route {Neu veröffentlichen (Route geändert)} other {Neu veröffentlichen (Task geändert)}}",
+    "refresh": "Code erneuern",
+    "copyAria": "Cloud-Code kopieren",
+    "expired": "Abgelaufen am {date}. XCTrack kann diesen Code nicht mehr laden. Fordere unten einen neuen an.",
+    "stale": "{kind, select, route {Die Route wurde} other {Der Task wurde}} seit der Veröffentlichung geändert, dieser Code lädt also noch die alte Version. Veröffentliche neu, um die Cloud-Kopie zu aktualisieren.",
+    "validUntil": "Gültig bis {date}",
+    "validUntilDays": "Gültig bis {date} · noch {days, plural, one {# Tag} other {# Tage}}",
+    "inXctrack": "In XCTrack: <strong>Task → Edit → Load from XContest</strong>, dann diesen Code eingeben. Dauerhafte ID <id>{hash}</id>.",
+    "signInRoute": "Melde dich an, um einen Cloud-Code zu veröffentlichen. Die Routendatei herunterladen und ihren QR zeigen geht auch ohne Konto.",
+    "signInTask": "Melde dich an, um einen Cloud-Code zu veröffentlichen. Einen Code importieren, die .xctsk herunterladen und einen QR exportieren geht auch ohne Konto.",
+    "routeNote": "Routen-Codes werden nicht mit der Route gespeichert: Schreib ihn dir auf oder kopier ihn, bevor du den Planer verlässt.",
+    "taskNote": "Speichere den Task, um diesen Code bei ihm zu behalten, sonst gibt es ihn nur in dieser Sitzung.",
+    "toasts": {
+      "signIn": "{kind, select, route {Melde dich an, um eine Route in der XContest-Cloud zu veröffentlichen.} other {Melde dich an, um einen Task in der XContest-Cloud zu veröffentlichen.}}",
+      "needWaypoints": "Setz vor dem Veröffentlichen mindestens zwei Wegpunkte.",
+      "needTask": "Stell den Task fertig (Start + Ziel, keine Fehler), bevor du ihn veröffentlichst.",
+      "ready": "Cloud-Code {code} ist bereit.",
+      "copied": "Cloud-Code kopiert.",
+      "copyFailed": "Der Code konnte nicht kopiert werden."
+    }
+  },
+  "qr": {
+    "save": "QR als PNG speichern"
+  },
+  "layer": {
+    "duplicate": "Wendepunkt hier duplizieren",
+    "remove": "Wendepunkt entfernen",
+    "roleRadius": "{role} · {radius}",
+    "publicTooltip": "{name} · {distance}",
+    "publicTooltipOwner": "{name} · {distance} · {owner}"
+  },
+  "rulesets": {
+    "FAI": {
+      "blurb": "Geometrie nach FAI/CIVL Sporting Code Section 7A."
+    },
+    "PWCA": {
+      "blurb": "Regeln des Paragliding World Cup: Ziellinie, ESS 1 km davor."
+    }
+  },
+  "validation": {
+    "needStartAndGoal": "Ein Task braucht mindestens einen Start und ein Ziel.",
+    "firstTurnpoint": "Der erste Wendepunkt ist meist der Startplatz oder der Startzylinder (SSS).",
+    "noSss": "Es ist kein Beginn der Speed Section (SSS) gesetzt.",
+    "noGoal": "Es ist kein Ziel gesetzt.",
+    "goalNotLast": "Das Ziel sollte der letzte Wendepunkt sein.",
+    "noTimeGate": "Der Start hat noch kein Startgate. Leg eines vor dem Flug fest.",
+    "gatesNotSorted": "Die Startgates sind nicht chronologisch sortiert.",
+    "essBeforeGoalPwca": "PWCA-Tasks setzen das ESS meist ~1 km vor dem Ziel, damit die Piloten sicher ankommen.",
+    "essBeforeGoalFai": "Section 7A empfiehlt, das ESS vor das Ziel zu legen, damit niemand tief ins Ziel rast.",
+    "elevatedGoalNeedsEss": "Ein Ziel in der Luft braucht meist ein ESS davor, damit die Zeit vor dem Steigen zum Gate gestoppt wird.",
+    "goalHeightHigh": "Die Ankunftshöhe im Ziel ist {height} AGL, das ist ungewöhnlich hoch (es ist die Höhe über dem Gelände am Ziel, nicht über NN).",
+    "pwcaGoalLine": "PWCA-Tasks nutzen standardmäßig eine Ziellinie, keinen Zylinder.",
+    "pwcaGoalLineShort": "Die Ziellinie liegt unter dem PWCA-Minimum von {min}."
+  },
+  "roleUnavailable": {
+    "unknownTurnpoint": "Unbekannter Wendepunkt.",
+    "needSecondTurnpoint": "Setz zuerst einen zweiten Wendepunkt: Ein Task braucht einen Start und ein Ziel.",
+    "lastIsGoal": "Der letzte Wendepunkt ist immer das Ziel. Zieh einen anderen Punkt ans Ende, um das Ziel zu verschieben.",
+    "goalMustBeLast": "Das Ziel muss der letzte Wendepunkt sein. Zieh diesen Punkt ans Ende der Liste.",
+    "startNeedsSuccessor": "Setz zuerst einen Wendepunkt nach diesem, sonst führt der Start (SSS) ins Leere.",
+    "takeoffBeforeStart": "Der Startplatz muss vor dem Startzylinder (SSS) kommen.",
+    "setStartFirst": "Leg zuerst einen Start (SSS) fest.",
+    "essAfterStart": "Das ESS muss nach dem Start (SSS) kommen."
+  }
+}

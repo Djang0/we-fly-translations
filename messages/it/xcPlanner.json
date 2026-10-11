@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Pianificatore XC: percorsi e task di gara",
+    "description": "Pianifica percorsi di volo di distanza in parapendio o progetta task di gara FAI/PWCA su una mappa interattiva con skyways termici e spazi aerei. Gratis.",
+    "ogTitle": "Pianificatore XC: percorsi e task di gara | We-Fly",
+    "ogDescription": "Pianifica percorsi di distanza o progetta task di gara FAI/PWCA con skyways termici e spazi aerei."
+  },
+  "share": {
+    "title": "{name}: {kind, select, route {percorso XC} other {task di gara}} di {author}",
+    "anonymousAuthor": "un pilota We-Fly",
+    "summary": "{distance} · {detail}.",
+    "openInPlanner": "Aprilo nel pianificatore XC di We-Fly.",
+    "points": "{points, plural, one {# pt} other {# pt}}",
+    "turnpoints": "{count, plural, one {# boa} other {# boe}}",
+    "rulesetTask": "Task {ruleset}"
+  },
+  "page": {
+    "loadingPlanner": "Caricamento del pianificatore…"
+  },
+  "shell": {
+    "loadingMap": "Caricamento della mappa…",
+    "flightFallbackName": "Volo",
+    "linkedTaskFailed": "Impossibile caricare il task collegato al volo.",
+    "flightLoadFailed": "Impossibile caricare il volo. Devi accedere con l’account del pilota che l’ha caricato.",
+    "controlsTitle": "Comandi del pianificatore XC",
+    "clickToAddWaypoints": "Clicca sulla mappa per aggiungere waypoint."
+  },
+  "topbar": {
+    "documentation": "Documentazione",
+    "goToLogbook": "Vai al libretto di volo",
+    "startLogging": "Inizia il tuo libretto"
+  },
+  "stepper": {
+    "ariaLabel": "Fasi della pianificazione",
+    "locked": "Prima progetta il volo e scegli una data"
+  },
+  "steps": {
+    "1": {
+      "label": "Progetto",
+      "title": "Progetta il volo e scegli una data"
+    },
+    "2": {
+      "label": "Spazi aerei",
+      "title": "Scegli gli spazi aerei lungo il volo"
+    },
+    "3": {
+      "label": "NOTAM",
+      "title": "Scegli i NOTAM lungo il volo"
+    },
+    "4": {
+      "label": "Briefing",
+      "title": "Download, codice QR e meteo"
+    }
+  },
+  "stepNav": {
+    "toAirspaces": "Continua agli spazi aerei",
+    "toNotams": "Continua ai NOTAM",
+    "toBriefing": "Continua al briefing",
+    "openPanel": "Apri il pannello del pianificatore",
+    "controls": "Comandi",
+    "backAria": "Torna al passo precedente",
+    "back": "Indietro",
+    "notReady": "Prima aggiungi almeno due punti e scegli la data del volo"
+  },
+  "stepPanel": {
+    "route": "Percorso",
+    "task": "Task",
+    "waypoints": "Waypoint",
+    "designTool": "Strumento",
+    "pickDate": "Scegli la data del volo",
+    "startTime": "Orario di partenza previsto",
+    "unlockNeedsPoints": "Aggiungi almeno due punti e scegli una data per sbloccare spazi aerei, NOTAM e briefing.",
+    "unlockNeedsDate": "Scegli una data per sbloccare spazi aerei, NOTAM e briefing.",
+    "noDate": "Nessuna data",
+    "kmPlanned": "{distance} previsti",
+    "noPath": "nessun tracciato"
+  },
+  "sections": {
+    "overlays": "Sovrapposizioni",
+    "task": "Task",
+    "route": "Percorso",
+    "durationHm": "{hours} h {minutes} min",
+    "durationM": "{minutes} min",
+    "flight": "Volo",
+    "flownTrack": "{duration} · traccia volata",
+    "removeFlightTrace": "Rimuovi la traccia del volo",
+    "verticalCut": "Sezione verticale",
+    "airspaceCrossSection": "Sezione degli spazi aerei",
+    "verticalCutHint": "Spazi aerei controllati e regolamentati lungo {path, select, flown {la traccia volata} task {la rotta ottimizzata del task} other {il percorso previsto}}, per distanza e quota.",
+    "verticalCutEmpty": "Aggiungi almeno due punti (o apri un volo) per sezionare gli spazi aerei lungo un tracciato.",
+    "collectionLoadFailed": "Impossibile caricare questa raccolta.",
+    "waypointCount": "{count, plural, one {# waypoint} other {# waypoint}}",
+    "on": "Attiva",
+    "show": "Mostra",
+    "collections": "Raccolte",
+    "collectionsIntro": "Mostra le tue raccolte di waypoint, poi clicca un waypoint sulla mappa per aggiungerlo come {mode, select, task {boa} other {waypoint del percorso}}.",
+    "loading": "Caricamento…",
+    "myCollections": "Le mie raccolte",
+    "noCollections": "Ancora nessuna raccolta. Creane una in modalità Raccolta.",
+    "signInForCollections": "Accedi per usare le tue raccolte.",
+    "publicInArea": "Raccolte pubbliche in questa zona",
+    "searching": "Ricerca…",
+    "publicCollections": "Raccolte pubbliche",
+    "noPublicInView": "Nessuna raccolta pubblica in vista. Sposta la mappa o allarga lo zoom.",
+    "showingCollections": "{count, plural, one {# raccolta mostrata sulla mappa.} other {# raccolte mostrate sulla mappa.}}",
+    "activeCount": "Attive: {count}"
+  },
+  "sidebar": {
+    "signInToSave": "Accedi per salvare i percorsi nel tuo account.",
+    "drawRouteFirst": "Disegna prima un percorso con almeno due waypoint.",
+    "saveFailed": "Impossibile salvare il percorso.",
+    "routeUpdated": "Percorso aggiornato.",
+    "routeSaved": "Percorso salvato.",
+    "deleteFailed": "Impossibile eliminare il percorso.",
+    "routeDeleted": "Percorso eliminato.",
+    "visibilityFailed": "Impossibile aggiornare la visibilità.",
+    "noUsableRoute": "Questo file non contiene un percorso utilizzabile.",
+    "imported": "{count, plural, one {Importato # waypoint.} other {Importati # waypoint.}}",
+    "readFailed": "Impossibile leggere questo file. Usa .wpt, .gpx o .geojson.",
+    "drawRouteShort": "Disegna prima un percorso.",
+    "copyFailed": "Impossibile copiare il link.",
+    "linkCopiedToast": "Link di condivisione copiato negli appunti.",
+    "linkCopied": "Link copiato",
+    "copyShareLinkFor": "Copia il link di condivisione di {name}",
+    "copyShareLink": "Copia il link di condivisione",
+    "route": "Percorso",
+    "league": "Campionato",
+    "leagueDistance": "Distanza",
+    "speed": "Velocità · {speed}",
+    "closeCircuit": "Chiudi il circuito",
+    "fit": "Inquadra",
+    "clear": "Cancella",
+    "new": "Nuovo",
+    "faiSectors": "Settori FAI",
+    "routeHelp": "Clicca sulla mappa per aggiungere waypoint, trascinali per spostarli, usa le maniglie + per inserirne altri. I settori FAI evidenziano dove una boa mantiene ogni lato del triangolo ad almeno il 28% del perimetro.",
+    "saveAndShare": "Salva e condividi",
+    "routeName": "Nome del percorso",
+    "publicRoute": "Percorso pubblico",
+    "update": "Aggiorna",
+    "save": "Salva",
+    "copied": "Copiato",
+    "share": "Condividi",
+    "signInHint": "Accedi per salvare i percorsi. Anche senza account puoi pianificare, importare e scaricare.",
+    "privateHintSaved": "Questo percorso è privato. Attiva Percorso pubblico per condividerlo.",
+    "privateHintUnsaved": "Attiva Percorso pubblico e salva per ottenere un link di condivisione.",
+    "shareDirtyHint": "Il link di condivisione apre l’ultima versione salvata. Aggiorna per condividere le modifiche.",
+    "myRoutes": "I miei percorsi",
+    "loading": "Caricamento…",
+    "publicBadge": "pubblico",
+    "deleteRoute": "Elimina il percorso",
+    "noSavedRoutes": "Ancora nessun percorso salvato.",
+    "moreTools": "Altri strumenti",
+    "moreToolsMeta": "Scopri · importa · esporta",
+    "discover": "Scopri",
+    "publicRoutesInArea": "Percorsi pubblici in questa zona",
+    "filterByName": "Filtra per nome…",
+    "searching": "Ricerca…",
+    "noPublicRoutes": "Nessun percorso pubblico in vista. Sposta la mappa o allarga lo zoom.",
+    "importExport": "Importa ed esporta",
+    "importFile": "Importa .wpt / .gpx / .geojson"
+  },
+  "dynamicOpen": {
+    "badge": "Area aperta dinamica · {cls} · {type}",
+    "editFor": "Modifica l’area aperta dinamica di {name}",
+    "setFor": "Imposta {name} come area aperta dinamica",
+    "edit": "Modifica l’area aperta dinamica",
+    "set": "Imposta come area aperta dinamica"
+  },
+  "fadeScroll": {
+    "scrollUp": "Scorri su",
+    "scrollDown": "Scorri giù"
+  },
+  "siteOverlay": {
+    "title": "{kind, select, landing {Atterraggio} other {Decollo}} · {name}",
+    "unnamed": "Senza nome",
+    "facing": "esposto a {bearing}"
+  },
+  "waypointSearch": {
+    "placeholder": "Aggiungi per nome o codice del waypoint…",
+    "ariaLabel": "Cerca waypoint da aggiungere come boe",
+    "searching": "Ricerca…",
+    "noMatch": "Nessun waypoint corrisponde a “{query}”.",
+    "noCollections": "Nessuna raccolta in cui cercare. Importane o creane una in modalità Raccolta.",
+    "signIn": "Accedi o mostra una raccolta sulla mappa per cercarne i waypoint."
+  },
+  "mapOverlay": {
+    "layers": "Livelli",
+    "overlaysActive": "Sovrapposizioni attive",
+    "mapLayers": "Livelli della mappa",
+    "collapse": "Chiudi il pannello dei livelli"
+  },
+  "contextMenu": {
+    "centerHere": "Centra la mappa qui",
+    "copyCoords": "Copia le coordinate",
+    "measure": "Misura la distanza da qui",
+    "addTurnpoint": "Aggiungi una boa qui",
+    "fitTask": "Inquadra il task",
+    "clearTask": "Cancella il task",
+    "finishPolygon": "Chiudi il poligono",
+    "cancelDrawing": "Annulla il disegno",
+    "fitAirspaces": "Inquadra gli spazi aerei",
+    "clearAirspaces": "Cancella tutti gli spazi aerei",
+    "fitCollection": "Inquadra la raccolta",
+    "clearCollection": "Svuota la raccolta",
+    "fitRoute": "Inquadra il percorso",
+    "clearRoute": "Cancella il percorso",
+    "closeCircuit": "Chiudi il circuito",
+    "addWaypoint": "Aggiungi un waypoint qui",
+    "insertAsStart": "Inserisci come partenza",
+    "coordinatesCopied": "Coordinate copiate.",
+    "coordinatesCopyFailed": "Impossibile copiare le coordinate.",
+    "seeAirspaces": "Vedi gli spazi aerei ({count})",
+    "seeNotams": "Vedi i NOTAM ({count})",
+    "remove": "Rimuovi {name}",
+    "waypointN": "waypoint {n}"
+  },
+  "map": {
+    "waypointN": "Waypoint {n}",
+    "removeWaypoint": "Rimuovi il waypoint",
+    "airspaceNotAlongFlight": "Questo spazio aereo non è lungo il tuo volo. Puoi selezionare solo gli spazi aerei vicini alla linea prevista."
+  },
+  "scoreKinds": {
+    "free": "Distanza libera",
+    "outAndReturn": "Andata e ritorno",
+    "flatTriangle": "Triangolo piatto",
+    "faiTriangle": "Triangolo FAI"
+  }
+}

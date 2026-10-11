@@ -1,0 +1,254 @@
+{
+  "sidebar": {
+    "alongHeading": "Lungo il tuo volo ({count})",
+    "alongIntro": "Spazi aerei controllati e regolamentati entro circa 10 km dalla linea prevista. Seleziona quelli da portare nel briefing, oppure clicca una zona qualsiasi sulla mappa, di qualunque classe. Il pulsante info mostra tutto quello che si sa di una zona prima di sceglierla.",
+    "scanning": "Analisi degli spazi aerei lungo il volo…",
+    "loadFailed": "Impossibile caricare i dati degli spazi aerei. Riprova tra un momento.",
+    "noneFound": "Nessuno spazio aereo controllato o regolamentato lungo il tuo volo. Puoi comunque disegnare le tue zone qui sotto.",
+    "selectionHeading": "La tua selezione ({count})",
+    "clearAll": "Cancella tutto",
+    "selectionEmpty": "Ancora niente di selezionato. Il file OpenAir del briefing conterrà tutto ciò che scegli qui (più i NOTAM del passo successivo).",
+    "advanced": "Avanzate: disegno e fonti",
+    "drawnCount": "Disegnati: {count}",
+    "toolsHeading": "Strumenti",
+    "tools": {
+      "select": "Seleziona",
+      "polygon": "Poligono",
+      "rectangle": "Rettangolo",
+      "cylinder": "Cilindro"
+    },
+    "hints": {
+      "select": "Clicca sulla mappa per elencare gli spazi aerei in quel punto. Puoi selezionare solo quelli lungo il tuo volo.",
+      "polygonFirst": "Clicca sulla mappa per piazzare il primo punto.",
+      "polygonMore": "{count, plural, one {# punto} other {# punti}}: doppio clic (o Chiudi il poligono) per chiuderlo.",
+      "rectangleFirst": "Clicca sulla mappa per piazzare il primo angolo.",
+      "rectangleNext": "Clicca l’angolo opposto.",
+      "cylinderFirst": "Clicca sulla mappa per piazzare il centro.",
+      "cylinderNext": "Clicca di nuovo per impostare il raggio."
+    },
+    "finishPolygon": "Chiudi il poligono",
+    "undoLastPoint": "Annulla l’ultimo punto",
+    "cancelDrawing": "Annulla il disegno",
+    "sourceHeading": "Fonte degli spazi aerei",
+    "showAirspaces": "Mostra gli spazi aerei sulla mappa",
+    "sourceHint": "La selezione usa ciò che mostra la mappa: gli spazi aerei openAIP di default, oppure il tuo file OpenAir quando ne hai caricato uno.",
+    "row": {
+      "selected": "Selezionato",
+      "select": "Seleziona",
+      "viewDetailsAria": "Vedi i dettagli di {name}",
+      "viewDetailsTitle": "Vedi i dettagli dello spazio aereo",
+      "editAria": "Modifica {name}",
+      "removeAria": "Rimuovi {name}",
+      "deselectAria": "Deseleziona {name}"
+    }
+  },
+  "designDialog": {
+    "titleNew": "Nuovo spazio aereo",
+    "titleEdit": "Modifica lo spazio aereo",
+    "shapeCylinder": "Cilindro · raggio {radius}",
+    "shapeRectangle": "Rettangolo",
+    "shapePolygon": "Poligono · {count, plural, one {# punto} other {# punti}}",
+    "name": "Nome",
+    "namePlaceholder": "es. estensione CTR LSZH",
+    "class": "Classe",
+    "floor": "Limite inferiore",
+    "ceiling": "Limite superiore",
+    "valueAria": "{label}: valore",
+    "unitAria": "{label}: unità",
+    "schedule": "Orari di attivazione",
+    "scheduleOn": "Attiva solo durante queste finestre, come una zona attivata da NOTAM. Lascia vuota la fine per “fino a nuovo avviso”.",
+    "scheduleOff": "Sempre attiva. Attiva l’opzione per limitare questa zona a finestre di attivazione, come gli spazi aerei ufficiali attivati da NOTAM.",
+    "cancel": "Annulla",
+    "saveChanges": "Salva le modifiche",
+    "add": "Aggiungi lo spazio aereo",
+    "errors": {
+      "nameRequired": "Dai un nome a questo spazio aereo.",
+      "floorInvalid": "Inserisci un limite inferiore valido.",
+      "ceilingInvalid": "Inserisci un limite superiore valido.",
+      "ceilingAboveFloor": "Il limite superiore deve essere sopra quello inferiore."
+    },
+    "classes": {
+      "R": "R (Regolamentata)",
+      "Q": "Q (Pericolosa)",
+      "P": "P (Vietata)",
+      "CTR": "CTR (Zona di controllo)",
+      "TMZ": "TMZ (Transponder obbligatorio)",
+      "RMZ": "RMZ (Radio obbligatoria)",
+      "A": "Classe A",
+      "B": "Classe B",
+      "C": "Classe C",
+      "D": "Classe D",
+      "E": "Classe E",
+      "F": "Classe F",
+      "G": "Classe G",
+      "W": "W (Finestra d’onda)",
+      "GP": "GP (Vietata al volo a vela)"
+    }
+  },
+  "activation": {
+    "from": "Inizio",
+    "until": "Fine",
+    "removeAria": "Rimuovi la finestra di attivazione {number}",
+    "addWindow": "Aggiungi una finestra",
+    "range": "{from} → {to}",
+    "untilFurtherNotice": "{from} → fino a nuovo avviso",
+    "errors": {
+      "startRequired": "Ogni finestra di attivazione richiede data e ora di inizio.",
+      "endInvalid": "Inserisci data e ora di fine valide (o lascia vuoto).",
+      "endBeforeStart": "Una finestra di attivazione deve finire dopo il suo inizio.",
+      "noWindow": "Aggiungi almeno una finestra di attivazione."
+    }
+  },
+  "openArea": {
+    "title": "Area aperta dinamica",
+    "intro": "Mentre una delle finestre qui sotto è aperta, questo volume diventa <strong>spazio aereo aperto</strong> (settore per il volo a vela / zona flessibile) e viene ritagliato da ogni spazio aereo sovrapposto nel file OpenAir del briefing. Fuori dalle finestre, tutti gli spazi aerei mantengono la loro forma completa.",
+    "classWhenActive": "Classe quando è attiva",
+    "typeTag": "Tag del tipo (AY)",
+    "hoursLabel": "Orari di attivazione (obbligatori)",
+    "hoursPreset": "Precompilati con gli orari di attivazione di questa zona. Controllali o correggili prima di salvare.",
+    "hoursExisting": "Gli orari con cui è stata salvata questa designazione. Modificali se serve.",
+    "hoursEmpty": "Questa zona non ha orari di attivazione. Definisci quando si apre l’area. Lascia vuota la fine per “fino a nuovo avviso”.",
+    "remove": "Rimuovi la designazione",
+    "cancel": "Annulla",
+    "saveChanges": "Salva le modifiche",
+    "set": "Imposta come area aperta",
+    "classes": {
+      "G": "Classe G (non controllata)",
+      "E": "Classe E",
+      "W": "W (Finestra d’onda)"
+    }
+  },
+  "designer": {
+    "polygonTooFew": "Un poligono richiede almeno 3 punti.",
+    "outlinePartial": "Impossibile recuperare il contorno completo di questo spazio aereo: uso la parte visibile.",
+    "outlineFailed": "Impossibile leggere il contorno di questo spazio aereo."
+  },
+  "designLayer": {
+    "edit": "Modifica",
+    "remove": "Rimuovi",
+    "rotate": "Ruota",
+    "overlayOff": "Attiva la sovrapposizione Spazi aerei per sceglierli."
+  },
+  "overlay": {
+    "unnamed": "Spazio aereo"
+  },
+  "detail": {
+    "panelAria": "Dettagli dello spazio aereo: {name}",
+    "close": "Chiudi i dettagli dello spazio aereo",
+    "rows": {
+      "activation": "Attivazione",
+      "type": "Tipo",
+      "icaoClass": "Classe ICAO",
+      "frequencies": "Frequenze",
+      "squawk": "Squawk",
+      "notes": "Note",
+      "identifier": "Identificativo",
+      "ceiling": "Limite superiore",
+      "floor": "Limite inferiore",
+      "activity": "Attività",
+      "hours": "Orari",
+      "remarks": "Osservazioni"
+    },
+    "fromFile": "Dal tuo file OpenAir",
+    "openAipRecord": "Scheda openAIP",
+    "permanentlyActive": "Sempre attivo: il file non dichiara orari",
+    "activeNow": "Attivo ora",
+    "notActiveNow": "Non attivo ora",
+    "chips": {
+      "byNotam": "Tramite NOTAM",
+      "onDemand": "Su attivazione",
+      "onRequest": "Su richiesta",
+      "specialAgreement": "Accordo speciale"
+    },
+    "classValue": "Classe {value}",
+    "mhz": "{value} MHz",
+    "noName": "Questo spazio aereo non ha un nome nei dati della mappa, quindi non si può cercare su openAIP. {source, select, file {Qui sopra vedi ciò che dichiara il tuo file OpenAir.} other {Qui sopra vedi solo ciò che la mappa conosce già.}}",
+    "loading": "Caricamento dei dettagli completi da openAIP…",
+    "notConfigured": "I dettagli live di openAIP non sono configurati su questo server. {source, select, file {Qui sopra vedi ciò che dichiara il tuo file OpenAir.} other {Qui sopra vedi solo ciò che la mappa conosce già.}}",
+    "loadFailed": "Impossibile caricare ora i dettagli completi da openAIP. {source, select, file {Qui sopra vedi ciò che dichiara il tuo file OpenAir.} other {Qui sopra vedi solo ciò che la mappa conosce già.}}",
+    "notFoundFile": "Nessuno spazio aereo corrispondente nel database openAIP. Questa zona viene dal tuo file, quindi ciò che dichiara è tutto quello che c’è.",
+    "notFound": "Nessuno spazio aereo corrispondente trovato nel database openAIP.",
+    "viewOnOpenAip": "Vedi su openAIP",
+    "updated": "openAIP · aggiornamento: {date}",
+    "interval": {
+      "announcedSeparately": "Annunciato a parte (NOTAM)",
+      "until": "Fine: {to}",
+      "range": "{from} → {to}",
+      "untilFurtherNotice": "{from} → fino a nuovo avviso"
+    }
+  },
+  "cut": {
+    "title": "Sezione verticale degli spazi aerei",
+    "pathOptimal": "Rotta ottimizzata del task",
+    "pathPlanned": "Percorso previsto",
+    "close": "Chiudi la sezione verticale",
+    "nothing": "Ancora niente da sezionare. Apri un volo o aggiungi almeno due punti.",
+    "errorArea": "Questo tracciato copre un’area troppo vasta per la sezione verticale. Limita il percorso a una zona più piccola.",
+    "errorTiles": "Impossibile caricare le tile degli spazi aerei. Chiudi e riapri per riprovare.",
+    "tilesFailed": "Alcune tile degli spazi aerei non sono state caricate, quindi la sezione è incompleta.",
+    "noTerrain": "Nessun dato del terreno lungo questo tracciato: i limiti degli spazi aerei riferiti al suolo non sono mostrati.",
+    "footer": "Solo spazi aerei controllati e regolamentati · {clickable, select, yes {clicca una fascia per i dettagli · } other {}}{source, select, user {il tuo file OpenAir} other {dati openAIP}}. Solo a titolo informativo, non sostituisce mai l’informazione aeronautica ufficiale.",
+    "chartAria": "Sezione verticale degli spazi aerei",
+    "bandAria": "Mostra i dettagli di {name}",
+    "bandTitle": "{name}: clicca per i dettagli",
+    "ground": "suolo {value}",
+    "noFlagged": "Nessuno spazio aereo segnalato qui"
+  },
+  "notamStep": {
+    "connectHeading": "Collega autorouter",
+    "connectIntro": "I NOTAM europei arrivano da Eurocontrol EAD tramite <strong>autorouter</strong>, la cui licenza permette a ogni pilota di accedere al flusso con il <strong>proprio account</strong>, non con uno condiviso.",
+    "comingSoon": "Presto disponibile.",
+    "reconnectNeeded": "La tua sessione autorouter va ricollegata.",
+    "reconnect": "Ricollega autorouter",
+    "linkIntro": "Collega il tuo account autorouter gratuito per attivare i NOTAM. Mostra sempre e solo il <strong>tuo</strong> briefing.",
+    "connect": "Collega autorouter",
+    "skip": "Puoi saltare questo passo: il briefing semplicemente non conterrà NOTAM.",
+    "disclaimerHeading": "Avvertenza",
+    "disclaimer": "Solo indicativo: questo NON è un briefing ufficiale. Prima di volare controlla sempre le fonti ufficiali di informazione pre-volo (briefing AIS/NOTAM).",
+    "alongHeading": "Lungo il tuo volo ({count})",
+    "alongIntroDated": "NOTAM entro circa 10 km dalla linea prevista, attivi in data {date}. Seleziona quelli da portare nel briefing.",
+    "alongIntroUndated": "NOTAM entro circa 10 km dalla linea prevista, attivi nella data del volo. Seleziona quelli da portare nel briefing.",
+    "beyondHorizon": "La data del volo è a più di 7 giorni. La maggior parte dei NOTAM viene pubblicata solo a ridosso del giorno. Ricontrolla questo passo più vicino al volo.",
+    "loading": "Caricamento dei NOTAM…",
+    "loadFailed": "Impossibile caricare i NOTAM. Riprova tra un momento.",
+    "none": "Nessun NOTAM attivo lungo il tuo volo in quella data: cielo libero. Clicca sulla mappa per sondare un punto preciso.",
+    "selectedCount": "{count, plural, one {# NOTAM selezionato} other {# NOTAM selezionati}} per il briefing.",
+    "probeHeading": "Punto {lat}; {lng}",
+    "clearProbeAria": "Cancella il punto sondato",
+    "probeNone": "Nessun NOTAM attivo su questo punto con i filtri selezionati.",
+    "filters": "Filtri",
+    "lowerLimit": "Limite inferiore",
+    "lowerLimitHint": "Nasconde i NOTAM il cui spazio aereo inizia sopra questa quota.",
+    "altitudeBelow": "Sotto {value}",
+    "altitudeBelowFl": "Sotto {value} (≈ FL115)",
+    "altitudeAny": "Qualsiasi quota",
+    "restrictions": "Restrizioni",
+    "warnings": "Avvisi",
+    "keepLayer": "Mantieni il livello negli altri passi",
+    "dataNote": "Dati: il tuo account autorouter (Eurocontrol EAD, la fonte ufficiale per i NOTAM europei), scaricati in tempo reale per il corridoio del tuo volo. Alcuni NOTAM, in particolare quelli senza una geometria leggibile, potrebbero non comparire sulla mappa.",
+    "row": {
+      "selected": "Selezionato",
+      "select": "Seleziona"
+    }
+  },
+  "notamList": {
+    "title": "NOTAM in questo punto",
+    "description": "{count, plural, one {# NOTAM} other {# NOTAM}} in questo punto, prima le restrizioni. Selezionane uno per evidenziarlo sulla mappa.",
+    "outline": "contorno"
+  },
+  "notamPopup": {
+    "outlineFromOpenAip": "Contorno da openAIP (abbinato all’area indicata).",
+    "disclaimer": "Solo indicativo: questo NON è un briefing ufficiale. Prima di volare controlla sempre le fonti ufficiali di informazione pre-volo (briefing AIS/NOTAM)."
+  },
+  "notamValidity": {
+    "range": "{from} → {to}",
+    "rangeEstimated": "{from} → {to} (stima)",
+    "permanent": "{from} → permanente"
+  },
+  "classLabels": {
+    "restricted": "Regolamentata",
+    "danger": "Pericolosa",
+    "prohibited": "Vietata",
+    "icaoClass": "Classe {value}"
+  }
+}

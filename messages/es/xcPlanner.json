@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Planificador XC: diseño de rutas y mangas de competición",
+    "description": "Planifica rutas de vuelo de distancia en parapente o diseña mangas de competición FAI/PWCA en un mapa interactivo con skyways térmicos y espacios aéreos. Gratis.",
+    "ogTitle": "Planificador XC: diseño de rutas y mangas de competición | We-Fly",
+    "ogDescription": "Planifica rutas de vuelo de distancia o diseña mangas de competición FAI/PWCA con skyways térmicos y espacios aéreos."
+  },
+  "share": {
+    "title": "{name}: {kind, select, route {ruta XC} other {manga de competición}} de {author}",
+    "anonymousAuthor": "un piloto de We-Fly",
+    "summary": "{distance} · {detail}.",
+    "openInPlanner": "Ábrela en el planificador XC de We-Fly.",
+    "points": "{points, plural, one {# pt} other {# pts}}",
+    "turnpoints": "{count, plural, one {# baliza} other {# balizas}}",
+    "rulesetTask": "Manga {ruleset}"
+  },
+  "page": {
+    "loadingPlanner": "Cargando el planificador…"
+  },
+  "shell": {
+    "loadingMap": "Cargando el mapa…",
+    "flightFallbackName": "Vuelo",
+    "linkedTaskFailed": "No se pudo cargar la manga vinculada al vuelo.",
+    "flightLoadFailed": "No se pudo cargar el vuelo. Tienes que haber iniciado sesión como su propietario.",
+    "controlsTitle": "Controles del planificador XC",
+    "clickToAddWaypoints": "Haz clic en el mapa para añadir waypoints."
+  },
+  "topbar": {
+    "documentation": "Documentación",
+    "goToLogbook": "Ir al libro de vuelo",
+    "startLogging": "Empieza tu libro de vuelo"
+  },
+  "stepper": {
+    "ariaLabel": "Pasos de la planificación",
+    "locked": "Primero diseña tu vuelo y elige una fecha"
+  },
+  "steps": {
+    "1": {
+      "label": "Diseño",
+      "title": "Diseña tu vuelo y elige una fecha"
+    },
+    "2": {
+      "label": "Espacios aéreos",
+      "title": "Elige los espacios aéreos a lo largo de tu vuelo"
+    },
+    "3": {
+      "label": "NOTAM",
+      "title": "Elige los NOTAM a lo largo de tu vuelo"
+    },
+    "4": {
+      "label": "Briefing",
+      "title": "Descargas, código QR y meteo"
+    }
+  },
+  "stepNav": {
+    "toAirspaces": "Seguir a espacios aéreos",
+    "toNotams": "Seguir a NOTAM",
+    "toBriefing": "Seguir al briefing",
+    "openPanel": "Abrir el panel del planificador",
+    "controls": "Controles",
+    "backAria": "Volver al paso anterior",
+    "back": "Atrás",
+    "notReady": "Primero añade al menos dos puntos y elige la fecha del vuelo"
+  },
+  "stepPanel": {
+    "route": "Ruta",
+    "task": "Manga",
+    "waypoints": "Waypoints",
+    "designTool": "Herramienta de diseño",
+    "pickDate": "Elige la fecha del vuelo",
+    "startTime": "Hora de salida prevista",
+    "unlockNeedsPoints": "Añade al menos dos puntos y elige una fecha para desbloquear espacios aéreos, NOTAM y el briefing.",
+    "unlockNeedsDate": "Elige una fecha para desbloquear espacios aéreos, NOTAM y el briefing.",
+    "noDate": "Sin fecha",
+    "kmPlanned": "{distance} previstos",
+    "noPath": "sin trayecto"
+  },
+  "sections": {
+    "overlays": "Capas",
+    "task": "Manga",
+    "route": "Ruta",
+    "durationHm": "{hours} h {minutes} min",
+    "durationM": "{minutes} min",
+    "flight": "Vuelo",
+    "flownTrack": "{duration} · track volado",
+    "removeFlightTrace": "Quitar el track del vuelo",
+    "verticalCut": "Corte vertical",
+    "airspaceCrossSection": "Corte del espacio aéreo",
+    "verticalCutHint": "Espacio aéreo controlado y restringido a lo largo de {path, select, flown {el track volado} task {la ruta optimizada de la manga} other {la ruta prevista}}, por distancia y altitud.",
+    "verticalCutEmpty": "Añade al menos dos puntos (o abre un vuelo) para cortar el espacio aéreo a lo largo de un trayecto.",
+    "collectionLoadFailed": "No se pudo cargar esta colección.",
+    "waypointCount": "{count, plural, one {# waypoint} other {# waypoints}}",
+    "on": "Activa",
+    "show": "Mostrar",
+    "collections": "Colecciones",
+    "collectionsIntro": "Muestra tus colecciones de waypoints y luego haz clic en un waypoint del mapa para añadirlo como {mode, select, task {baliza} other {waypoint de la ruta}}.",
+    "loading": "Cargando…",
+    "myCollections": "Mis colecciones",
+    "noCollections": "Aún no tienes colecciones. Crea una en el modo Colección.",
+    "signInForCollections": "Inicia sesión para usar tus propias colecciones.",
+    "publicInArea": "Colecciones públicas en esta zona",
+    "searching": "Buscando…",
+    "publicCollections": "Colecciones públicas",
+    "noPublicInView": "No hay colecciones públicas a la vista. Desplaza el mapa o aleja el zoom.",
+    "showingCollections": "{count, plural, one {Mostrando # colección en el mapa.} other {Mostrando # colecciones en el mapa.}}",
+    "activeCount": "{count} activas"
+  },
+  "sidebar": {
+    "signInToSave": "Inicia sesión para guardar rutas en tu cuenta.",
+    "drawRouteFirst": "Primero dibuja una ruta con al menos dos waypoints.",
+    "saveFailed": "No se pudo guardar la ruta.",
+    "routeUpdated": "Ruta actualizada.",
+    "routeSaved": "Ruta guardada.",
+    "deleteFailed": "No se pudo eliminar la ruta.",
+    "routeDeleted": "Ruta eliminada.",
+    "visibilityFailed": "No se pudo cambiar la visibilidad.",
+    "noUsableRoute": "Ese archivo no contiene ninguna ruta utilizable.",
+    "imported": "{count, plural, one {# waypoint importado.} other {# waypoints importados.}}",
+    "readFailed": "No se pudo leer ese archivo. Usa .wpt, .gpx o .geojson.",
+    "drawRouteShort": "Primero dibuja una ruta.",
+    "copyFailed": "No se pudo copiar el enlace.",
+    "linkCopiedToast": "Enlace para compartir copiado al portapapeles.",
+    "linkCopied": "Enlace copiado",
+    "copyShareLinkFor": "Copiar el enlace para compartir de {name}",
+    "copyShareLink": "Copiar el enlace para compartir",
+    "route": "Ruta",
+    "league": "Liga",
+    "leagueDistance": "Distancia",
+    "speed": "Velocidad · {speed}",
+    "closeCircuit": "Cerrar el circuito",
+    "fit": "Encuadrar",
+    "clear": "Borrar",
+    "new": "Nueva",
+    "faiSectors": "Sectores FAI",
+    "routeHelp": "Haz clic en el mapa para añadir waypoints, arrástralos para moverlos y usa los tiradores + para insertar. Los sectores FAI sombrean dónde una baliza mantiene cada lado del triángulo en ≥ 28 % del perímetro.",
+    "saveAndShare": "Guardar y compartir",
+    "routeName": "Nombre de la ruta",
+    "publicRoute": "Ruta pública",
+    "update": "Actualizar",
+    "save": "Guardar",
+    "copied": "Copiado",
+    "share": "Compartir",
+    "signInHint": "Inicia sesión para guardar rutas. Sin cuenta puedes igualmente planificar, importar y descargar.",
+    "privateHintSaved": "Esta ruta es privada. Activa Ruta pública para compartirla.",
+    "privateHintUnsaved": "Activa Ruta pública y guarda para obtener un enlace para compartir.",
+    "shareDirtyHint": "El enlace abre la última versión guardada. Actualiza para compartir tus cambios.",
+    "myRoutes": "Mis rutas",
+    "loading": "Cargando…",
+    "publicBadge": "pública",
+    "deleteRoute": "Eliminar la ruta",
+    "noSavedRoutes": "Aún no tienes rutas guardadas.",
+    "moreTools": "Más herramientas",
+    "moreToolsMeta": "Descubrir · importar · exportar",
+    "discover": "Descubrir",
+    "publicRoutesInArea": "Rutas públicas en esta zona",
+    "filterByName": "Filtrar por nombre…",
+    "searching": "Buscando…",
+    "noPublicRoutes": "No hay rutas públicas a la vista. Desplaza el mapa o aleja el zoom.",
+    "importExport": "Importar y exportar",
+    "importFile": "Importar .wpt / .gpx / .geojson"
+  },
+  "dynamicOpen": {
+    "badge": "Zona abierta dinámica · {cls} · {type}",
+    "editFor": "Editar la zona abierta dinámica de {name}",
+    "setFor": "Definir {name} como zona abierta dinámica",
+    "edit": "Editar la zona abierta dinámica",
+    "set": "Definir como zona abierta dinámica"
+  },
+  "fadeScroll": {
+    "scrollUp": "Desplazar hacia arriba",
+    "scrollDown": "Desplazar hacia abajo"
+  },
+  "siteOverlay": {
+    "title": "{kind, select, landing {Aterrizaje} other {Despegue}} · {name}",
+    "unnamed": "Sin nombre",
+    "facing": "orientado a {bearing}"
+  },
+  "waypointSearch": {
+    "placeholder": "Añadir por nombre o código del waypoint…",
+    "ariaLabel": "Buscar waypoints para añadirlos como balizas",
+    "searching": "Buscando…",
+    "noMatch": "Ningún waypoint coincide con «{query}».",
+    "noCollections": "No hay colecciones en las que buscar. Importa o crea una en el modo Colección.",
+    "signIn": "Inicia sesión o muestra una colección en el mapa para buscar en sus waypoints."
+  },
+  "mapOverlay": {
+    "layers": "Capas",
+    "overlaysActive": "Capas superpuestas activas",
+    "mapLayers": "Capas del mapa",
+    "collapse": "Plegar el panel de capas"
+  },
+  "contextMenu": {
+    "centerHere": "Centrar el mapa aquí",
+    "copyCoords": "Copiar las coordenadas",
+    "measure": "Medir la distancia desde aquí",
+    "addTurnpoint": "Añadir una baliza aquí",
+    "fitTask": "Encuadrar la manga",
+    "clearTask": "Borrar la manga",
+    "finishPolygon": "Terminar el polígono",
+    "cancelDrawing": "Cancelar el dibujo",
+    "fitAirspaces": "Encuadrar los espacios aéreos",
+    "clearAirspaces": "Borrar todos los espacios aéreos",
+    "fitCollection": "Encuadrar la colección",
+    "clearCollection": "Borrar la colección",
+    "fitRoute": "Encuadrar la ruta",
+    "clearRoute": "Borrar la ruta",
+    "closeCircuit": "Cerrar el circuito",
+    "addWaypoint": "Añadir un waypoint aquí",
+    "insertAsStart": "Insertar como salida",
+    "coordinatesCopied": "Coordenadas copiadas.",
+    "coordinatesCopyFailed": "No se pudieron copiar las coordenadas.",
+    "seeAirspaces": "Ver espacios aéreos ({count})",
+    "seeNotams": "Ver NOTAM ({count})",
+    "remove": "Quitar {name}",
+    "waypointN": "waypoint {n}"
+  },
+  "map": {
+    "waypointN": "Waypoint {n}",
+    "removeWaypoint": "Quitar el waypoint",
+    "airspaceNotAlongFlight": "Este espacio aéreo no está a lo largo de tu vuelo. Solo se pueden seleccionar los espacios aéreos cercanos a tu línea prevista."
+  },
+  "scoreKinds": {
+    "free": "Distancia libre",
+    "outAndReturn": "Ida y vuelta",
+    "flatTriangle": "Triángulo plano",
+    "faiTriangle": "Triángulo FAI"
+  }
+}

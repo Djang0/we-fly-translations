@@ -29,5 +29,6 @@
     "WNW": "ONO",
     "NW": "NO",
     "NNW": "NNO"
-  }
+  },
+  "coordinatesPair": "{lat}; {lon}"
 }

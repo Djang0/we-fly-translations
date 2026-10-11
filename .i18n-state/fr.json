@@ -4330,6 +4330,11 @@
       "tr": "2d0348b2a366c1b6",
       "by": "ai"
     },
+    "common.coordinatesPair": {
+      "src": "3c449fecfc4e8323",
+      "tr": "37aef44976419e0c",
+      "by": "ai"
+    },
     "common.language.automatic": {
       "src": "d461a493a3753877",
       "tr": "89bd8db002892255",
@@ -29578,6 +29583,3346 @@
     "wings.table.willUpdate": {
       "src": "7b87f688084dd9fb",
       "tr": "639feef0b8285b79",
+      "by": "ai"
+    },
+    "xcAirspace.activation.addWindow": {
+      "src": "319c87b33a12dc22",
+      "tr": "fb6592b1f25b777d",
+      "by": "ai"
+    },
+    "xcAirspace.activation.errors.endBeforeStart": {
+      "src": "ab97606a05026777",
+      "tr": "aa9fef359afbf679",
+      "by": "ai"
+    },
+    "xcAirspace.activation.errors.endInvalid": {
+      "src": "9270596d7dd03b88",
+      "tr": "10c84bf9847d6467",
+      "by": "ai"
+    },
+    "xcAirspace.activation.errors.noWindow": {
+      "src": "439effe0958d073a",
+      "tr": "d6776c33aff5b40a",
+      "by": "ai"
+    },
+    "xcAirspace.activation.errors.startRequired": {
+      "src": "d753ae3ac2a9f055",
+      "tr": "d548b395e70f782f",
+      "by": "ai"
+    },
+    "xcAirspace.activation.from": {
+      "src": "218197693424e015",
+      "tr": "3c48aa2bdf769fd3",
+      "by": "ai"
+    },
+    "xcAirspace.activation.range": {
+      "src": "0bcc686f9c37249f",
+      "tr": "0bcc686f9c37249f",
+      "by": "ai"
+    },
+    "xcAirspace.activation.removeAria": {
+      "src": "3762f74d9963201e",
+      "tr": "b050cb90a475bed7",
+      "by": "ai"
+    },
+    "xcAirspace.activation.until": {
+      "src": "7caf856e8015823f",
+      "tr": "5a2af601e7a29281",
+      "by": "ai"
+    },
+    "xcAirspace.activation.untilFurtherNotice": {
+      "src": "ca508cb40a690cec",
+      "tr": "24d3d44c25670448",
+      "by": "ai"
+    },
+    "xcAirspace.classLabels.danger": {
+      "src": "8412c07002430421",
+      "tr": "e408e9384b424eef",
+      "by": "ai"
+    },
+    "xcAirspace.classLabels.icaoClass": {
+      "src": "e40fa17b696a8fc7",
+      "tr": "4c2c1262f2a622a1",
+      "by": "ai"
+    },
+    "xcAirspace.classLabels.prohibited": {
+      "src": "8a410b8f941e71cf",
+      "tr": "54d6854339c43bbf",
+      "by": "ai"
+    },
+    "xcAirspace.classLabels.restricted": {
+      "src": "a00571bcb257e863",
+      "tr": "2f7a4e57fa7c789e",
+      "by": "ai"
+    },
+    "xcAirspace.cut.bandAria": {
+      "src": "d949080e02af40b6",
+      "tr": "2b64df44be916b72",
+      "by": "ai"
+    },
+    "xcAirspace.cut.bandTitle": {
+      "src": "f72c632de8ec90c4",
+      "tr": "38199120e3384c8a",
+      "by": "ai"
+    },
+    "xcAirspace.cut.chartAria": {
+      "src": "69b6bd7c248de1ee",
+      "tr": "33a4f86d68938214",
+      "by": "ai"
+    },
+    "xcAirspace.cut.close": {
+      "src": "0d0bd70df5ab36fc",
+      "tr": "cc6276637639aa30",
+      "by": "ai"
+    },
+    "xcAirspace.cut.errorArea": {
+      "src": "ad70cd291d8ce6f9",
+      "tr": "62780f0e63484c50",
+      "by": "ai"
+    },
+    "xcAirspace.cut.errorTiles": {
+      "src": "cf400cf029477a1a",
+      "tr": "4326a0771b2ad532",
+      "by": "ai"
+    },
+    "xcAirspace.cut.footer": {
+      "src": "eed23c32e7036070",
+      "tr": "2bf80d3a70def512",
+      "by": "ai"
+    },
+    "xcAirspace.cut.ground": {
+      "src": "5eaf0b46db00a667",
+      "tr": "d8966b46a8b4c83f",
+      "by": "ai"
+    },
+    "xcAirspace.cut.noFlagged": {
+      "src": "aa462f8ff324ce7f",
+      "tr": "f4d22d4ebd81f7f2",
+      "by": "ai"
+    },
+    "xcAirspace.cut.noTerrain": {
+      "src": "0ccc86e7ca09ff06",
+      "tr": "4b241fe0d610ad3c",
+      "by": "ai"
+    },
+    "xcAirspace.cut.nothing": {
+      "src": "10035e5b17a44ffa",
+      "tr": "04e7250a8151ee6f",
+      "by": "ai"
+    },
+    "xcAirspace.cut.pathOptimal": {
+      "src": "3435c563f5e24fa1",
+      "tr": "9e78f76c35c6e71c",
+      "by": "ai"
+    },
+    "xcAirspace.cut.pathPlanned": {
+      "src": "8cd76b4d9034db83",
+      "tr": "4ee703ae7fcf6af9",
+      "by": "ai"
+    },
+    "xcAirspace.cut.tilesFailed": {
+      "src": "df2bd22a2d7bc4f7",
+      "tr": "49be846571ef1c8e",
+      "by": "ai"
+    },
+    "xcAirspace.cut.title": {
+      "src": "887216a03ebc2251",
+      "tr": "33a4f86d68938214",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.add": {
+      "src": "001aabde33294257",
+      "tr": "ff545afe700d13db",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "46ad3916f6a09798",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.ceiling": {
+      "src": "685394345b4000bb",
+      "tr": "fdf199d51ef18057",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.class": {
+      "src": "4f3a9bd003974a5e",
+      "tr": "fec19fe3d560669d",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.A": {
+      "src": "956b512cb39f30d0",
+      "tr": "b27110737d275ffe",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.B": {
+      "src": "aacae261ece9082c",
+      "tr": "5defdd6218046e14",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.C": {
+      "src": "2d90bb75691a4235",
+      "tr": "ac0c5c6e4c01de83",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.CTR": {
+      "src": "b987080e2b98468a",
+      "tr": "8c07c8b6cf3d7af3",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.D": {
+      "src": "ed873a42f3fd5e95",
+      "tr": "84b62bdccf288f54",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.E": {
+      "src": "acb2a03e4fdaab30",
+      "tr": "af4010cf997642ca",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.F": {
+      "src": "18cbf001d98f4a0e",
+      "tr": "fbd06a561e26ff40",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.G": {
+      "src": "bda4b85e2d08b08e",
+      "tr": "b7fec5f8c2107613",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.GP": {
+      "src": "7df8ba8b6d7da67f",
+      "tr": "ea320e737f2f4323",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.P": {
+      "src": "abef04bddc25fda4",
+      "tr": "ab740789d988b977",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.Q": {
+      "src": "743aeb8986b82564",
+      "tr": "ef50b014a5ac78b8",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.R": {
+      "src": "e06fd02d7b2db5d9",
+      "tr": "13f1ea2c2765eefb",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.RMZ": {
+      "src": "6fa615cca3e7ce05",
+      "tr": "68a6910a62509dd3",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.TMZ": {
+      "src": "dab555ed26db97fe",
+      "tr": "a168b5361ae01c8b",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.classes.W": {
+      "src": "82f0ace0d5bc7172",
+      "tr": "2b58a9ce35c9de1b",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.errors.ceilingAboveFloor": {
+      "src": "3fa7969f1623b6b5",
+      "tr": "016f1e73fef8c5d1",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.errors.ceilingInvalid": {
+      "src": "5ac5019ed81d1090",
+      "tr": "02959ed5d0a98184",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.errors.floorInvalid": {
+      "src": "e6419cbddf1620f7",
+      "tr": "18598b2289a7ef7b",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.errors.nameRequired": {
+      "src": "5a7c93a848b8a9ff",
+      "tr": "62c7daebf80d4c96",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.floor": {
+      "src": "d268c9c4492022ac",
+      "tr": "763b052305a74b26",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.name": {
+      "src": "dcd1d5223f73b3a9",
+      "tr": "b2c124536d218059",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.namePlaceholder": {
+      "src": "4becad7ed279fc68",
+      "tr": "8c780d67a98a3554",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.saveChanges": {
+      "src": "dd0ae7a5cbcf2339",
+      "tr": "71dc74873e23107d",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.schedule": {
+      "src": "a910d2f6c296a0ff",
+      "tr": "4c70d54fb87c8ac6",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.scheduleOff": {
+      "src": "d0aa0e227fa18beb",
+      "tr": "4c40fc91fa550d83",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.scheduleOn": {
+      "src": "0ec655649bdfbdc3",
+      "tr": "2984af20038bae11",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.shapeCylinder": {
+      "src": "c353176142ee84c9",
+      "tr": "0a2fc07d8c611839",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.shapePolygon": {
+      "src": "83bc53e898f22910",
+      "tr": "acc0b4bc74cdb31d",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.shapeRectangle": {
+      "src": "0306996228eb0b74",
+      "tr": "0306996228eb0b74",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.titleEdit": {
+      "src": "b96ad78eef5e067f",
+      "tr": "2180aeb7f59a0eff",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.titleNew": {
+      "src": "7c995cc4cf80a439",
+      "tr": "0b487941cc941490",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.unitAria": {
+      "src": "54cca02d7d44d1f3",
+      "tr": "f404f0194d315669",
+      "by": "ai"
+    },
+    "xcAirspace.designDialog.valueAria": {
+      "src": "34dffb96f94d9b78",
+      "tr": "b71bca6908a211ff",
+      "by": "ai"
+    },
+    "xcAirspace.designer.outlineFailed": {
+      "src": "c8438701ef6a0b3f",
+      "tr": "31189963d90e49d9",
+      "by": "ai"
+    },
+    "xcAirspace.designer.outlinePartial": {
+      "src": "bb0ca77f82f4009e",
+      "tr": "2aa5364bb3aba6f0",
+      "by": "ai"
+    },
+    "xcAirspace.designer.polygonTooFew": {
+      "src": "fae4bb62e0771422",
+      "tr": "b635e6cf9328c386",
+      "by": "ai"
+    },
+    "xcAirspace.designLayer.edit": {
+      "src": "464c4ffd019e1e96",
+      "tr": "42e37604b638b627",
+      "by": "ai"
+    },
+    "xcAirspace.designLayer.overlayOff": {
+      "src": "59e736dfc2406d50",
+      "tr": "7a4333b5a0013b9a",
+      "by": "ai"
+    },
+    "xcAirspace.designLayer.remove": {
+      "src": "c3812fc4acb861d5",
+      "tr": "41e22ed93372748e",
+      "by": "ai"
+    },
+    "xcAirspace.designLayer.rotate": {
+      "src": "c3613b1704f54c8b",
+      "tr": "bc301ef97255f7f9",
+      "by": "ai"
+    },
+    "xcAirspace.detail.activeNow": {
+      "src": "441658c6e1861714",
+      "tr": "76cbcb499b5508fb",
+      "by": "ai"
+    },
+    "xcAirspace.detail.chips.byNotam": {
+      "src": "b62a1774dcb00483",
+      "tr": "655f4abb62afc396",
+      "by": "ai"
+    },
+    "xcAirspace.detail.chips.onDemand": {
+      "src": "7be15cd189a3271d",
+      "tr": "33d4ff868ea19966",
+      "by": "ai"
+    },
+    "xcAirspace.detail.chips.onRequest": {
+      "src": "be820103712e1c2b",
+      "tr": "979c47496f70b3b3",
+      "by": "ai"
+    },
+    "xcAirspace.detail.chips.specialAgreement": {
+      "src": "3e4ec92007198f8b",
+      "tr": "dfa18ad98e3b4bf4",
+      "by": "ai"
+    },
+    "xcAirspace.detail.classValue": {
+      "src": "e40fa17b696a8fc7",
+      "tr": "4c2c1262f2a622a1",
+      "by": "ai"
+    },
+    "xcAirspace.detail.close": {
+      "src": "bc3dfc2b8892b04b",
+      "tr": "580a05cbb4e52d27",
+      "by": "ai"
+    },
+    "xcAirspace.detail.fromFile": {
+      "src": "18222db02bfddbda",
+      "tr": "10ef8836e0dd1123",
+      "by": "ai"
+    },
+    "xcAirspace.detail.interval.announcedSeparately": {
+      "src": "9c44ff1f91a69def",
+      "tr": "15056cf998d28977",
+      "by": "ai"
+    },
+    "xcAirspace.detail.interval.range": {
+      "src": "0bcc686f9c37249f",
+      "tr": "0bcc686f9c37249f",
+      "by": "ai"
+    },
+    "xcAirspace.detail.interval.until": {
+      "src": "863e4709bed190e7",
+      "tr": "50ac1c9194c41115",
+      "by": "ai"
+    },
+    "xcAirspace.detail.interval.untilFurtherNotice": {
+      "src": "ca508cb40a690cec",
+      "tr": "24d3d44c25670448",
+      "by": "ai"
+    },
+    "xcAirspace.detail.loadFailed": {
+      "src": "220a85a4fe0ad948",
+      "tr": "60a1fb141325e5c5",
+      "by": "ai"
+    },
+    "xcAirspace.detail.loading": {
+      "src": "355c0f07fb73bf2d",
+      "tr": "1c8d7342c35c483e",
+      "by": "ai"
+    },
+    "xcAirspace.detail.mhz": {
+      "src": "7f5d3840d0715c5d",
+      "tr": "7f5d3840d0715c5d",
+      "by": "ai"
+    },
+    "xcAirspace.detail.noName": {
+      "src": "de13e45f38cd0730",
+      "tr": "36ea01dd66d0789c",
+      "by": "ai"
+    },
+    "xcAirspace.detail.notActiveNow": {
+      "src": "647d835eb4aae61b",
+      "tr": "d57c04a85d4d502c",
+      "by": "ai"
+    },
+    "xcAirspace.detail.notConfigured": {
+      "src": "a011afddd896127a",
+      "tr": "768033a61a8a10f2",
+      "by": "ai"
+    },
+    "xcAirspace.detail.notFound": {
+      "src": "02229918ab1f538c",
+      "tr": "0acdb19249c950df",
+      "by": "ai"
+    },
+    "xcAirspace.detail.notFoundFile": {
+      "src": "25ed315fb99c605a",
+      "tr": "0bdc27b4acb46e87",
+      "by": "ai"
+    },
+    "xcAirspace.detail.openAipRecord": {
+      "src": "f5be8bac3fe2f2e9",
+      "tr": "0084f642be4e6bc3",
+      "by": "ai"
+    },
+    "xcAirspace.detail.panelAria": {
+      "src": "f4e4e64db245781e",
+      "tr": "286275aa9c705057",
+      "by": "ai"
+    },
+    "xcAirspace.detail.permanentlyActive": {
+      "src": "97c78bc3c37d3979",
+      "tr": "460a6fd3e7973866",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.activation": {
+      "src": "5d939d40080b779b",
+      "tr": "5d939d40080b779b",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.activity": {
+      "src": "38da1505ca837328",
+      "tr": "6b2b8f1b80e0743c",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.ceiling": {
+      "src": "685394345b4000bb",
+      "tr": "fdf199d51ef18057",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.floor": {
+      "src": "d268c9c4492022ac",
+      "tr": "763b052305a74b26",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.frequencies": {
+      "src": "1bfab041885cb933",
+      "tr": "8bbd1fb4e00257e6",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.hours": {
+      "src": "21e8492938abc179",
+      "tr": "d4cedd8140336739",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.icaoClass": {
+      "src": "d2cd59228569b9b1",
+      "tr": "b13a2fd015bf3de7",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.identifier": {
+      "src": "9b10587f84a2c374",
+      "tr": "f9e7d49e47452469",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.notes": {
+      "src": "8a7525b1492fb848",
+      "tr": "8a7525b1492fb848",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.remarks": {
+      "src": "b5025c735015c294",
+      "tr": "10a90f3ced76b855",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.squawk": {
+      "src": "15e73b7ed650250d",
+      "tr": "15e73b7ed650250d",
+      "by": "ai"
+    },
+    "xcAirspace.detail.rows.type": {
+      "src": "baaddf70fb5d432b",
+      "tr": "baaddf70fb5d432b",
+      "by": "ai"
+    },
+    "xcAirspace.detail.updated": {
+      "src": "3743c59576ed4275",
+      "tr": "db1b0862376b9d2e",
+      "by": "ai"
+    },
+    "xcAirspace.detail.viewOnOpenAip": {
+      "src": "401f29885dd49d9d",
+      "tr": "e823b54c670c9cd8",
+      "by": "ai"
+    },
+    "xcAirspace.notamList.description": {
+      "src": "3336a662d3b05368",
+      "tr": "c644be886c9662fd",
+      "by": "ai"
+    },
+    "xcAirspace.notamList.outline": {
+      "src": "318678825324247b",
+      "tr": "2e1025a6f0aa4c8e",
+      "by": "ai"
+    },
+    "xcAirspace.notamList.title": {
+      "src": "634502e5c752caaa",
+      "tr": "8d8e3d44c82aa6ab",
+      "by": "ai"
+    },
+    "xcAirspace.notamPopup.disclaimer": {
+      "src": "fd9e353bcc499145",
+      "tr": "22c4d96cb0409c4d",
+      "by": "ai"
+    },
+    "xcAirspace.notamPopup.outlineFromOpenAip": {
+      "src": "bcfab9b7babf04a1",
+      "tr": "eaea43b853038dec",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.alongHeading": {
+      "src": "1e8e521117623db2",
+      "tr": "c0224f70cbda7bdb",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.alongIntroDated": {
+      "src": "fc397b9c693fe588",
+      "tr": "cdc592215d0cecf6",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.alongIntroUndated": {
+      "src": "19ca63cae1b048f2",
+      "tr": "cc63cd77b3d70d4c",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.altitudeAny": {
+      "src": "cb34bb7627b698ba",
+      "tr": "2b9aaac76c0ab419",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.altitudeBelow": {
+      "src": "419f5337581b2519",
+      "tr": "23fe7c35e964c0ca",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.altitudeBelowFl": {
+      "src": "da0dcf35b5045d94",
+      "tr": "7ec9682ee3b37f70",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.beyondHorizon": {
+      "src": "116d80bdcbb460bd",
+      "tr": "e1d9b24d5a283934",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.clearProbeAria": {
+      "src": "bb9d2170bbeb8384",
+      "tr": "e668c284b693b369",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.comingSoon": {
+      "src": "9e3090de747039e6",
+      "tr": "0eeec6ea7e5895c9",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.connect": {
+      "src": "4e8d61ae18a46751",
+      "tr": "c77c88870b1177ff",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.connectHeading": {
+      "src": "4e8d61ae18a46751",
+      "tr": "c77c88870b1177ff",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.connectIntro": {
+      "src": "24d39f98904f9037",
+      "tr": "2d4fae3f7863c782",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.dataNote": {
+      "src": "2e8ff5d24a203104",
+      "tr": "d584d75c7073297d",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.disclaimer": {
+      "src": "fd9e353bcc499145",
+      "tr": "22c4d96cb0409c4d",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.disclaimerHeading": {
+      "src": "129c678fce59acee",
+      "tr": "f3bf7f3e9c66489f",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.filters": {
+      "src": "546ebb8eb993ea56",
+      "tr": "6e2287796c72d40f",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.keepLayer": {
+      "src": "215917758717a743",
+      "tr": "dc2c4bae7d88e2f1",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.linkIntro": {
+      "src": "ba1ec76b8e650334",
+      "tr": "7e122a81fe9f722c",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.loadFailed": {
+      "src": "25b1c3379f89151d",
+      "tr": "f0dbf98dc967338e",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.loading": {
+      "src": "9d6978a48b007467",
+      "tr": "a5fa059bdc7176e3",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.lowerLimit": {
+      "src": "05f51010ce64fd91",
+      "tr": "cb454cea39c4afcf",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.lowerLimitHint": {
+      "src": "883e1785ace374c6",
+      "tr": "4b3cf896e00962e8",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.none": {
+      "src": "827991ba19c880ce",
+      "tr": "4eb7e43df9f046d2",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.probeHeading": {
+      "src": "dbb83932652e73ef",
+      "tr": "ba629b6afb97c7c2",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.probeNone": {
+      "src": "8e58505e05a8c2b8",
+      "tr": "0b2b3e6db109934c",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.reconnect": {
+      "src": "f9cf15c1aa4e0c4e",
+      "tr": "1037bf05692bf07e",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.reconnectNeeded": {
+      "src": "0110df5f56def353",
+      "tr": "5b508d2d8d3309ad",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.restrictions": {
+      "src": "25ed77282d99c5d3",
+      "tr": "25ed77282d99c5d3",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.row.select": {
+      "src": "2a78025de6aae5e7",
+      "tr": "bec8087f7b1777df",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.row.selected": {
+      "src": "57fd7a0cf33f2666",
+      "tr": "42345d2389223645",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.selectedCount": {
+      "src": "82a79d0aaf396c5c",
+      "tr": "35872d75862c032c",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.skip": {
+      "src": "81055ddfa331175d",
+      "tr": "0d910d7a8c885a11",
+      "by": "ai"
+    },
+    "xcAirspace.notamStep.warnings": {
+      "src": "0e04cd10f9afd7e5",
+      "tr": "a4997c02648e913a",
+      "by": "ai"
+    },
+    "xcAirspace.notamValidity.permanent": {
+      "src": "16f3586dfebde3f1",
+      "tr": "16f3586dfebde3f1",
+      "by": "ai"
+    },
+    "xcAirspace.notamValidity.range": {
+      "src": "0bcc686f9c37249f",
+      "tr": "0bcc686f9c37249f",
+      "by": "ai"
+    },
+    "xcAirspace.notamValidity.rangeEstimated": {
+      "src": "7fdd278b5d3a8ec3",
+      "tr": "0f74f6eb322a6f54",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "46ad3916f6a09798",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.classes.E": {
+      "src": "acb2a03e4fdaab30",
+      "tr": "af4010cf997642ca",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.classes.G": {
+      "src": "21d9329320818917",
+      "tr": "522aca02eef5576d",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.classes.W": {
+      "src": "82f0ace0d5bc7172",
+      "tr": "2b58a9ce35c9de1b",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.classWhenActive": {
+      "src": "4b4ff4cca1ed98ac",
+      "tr": "a4ef6eda468fd2f3",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.hoursEmpty": {
+      "src": "f16c5a4e552600c9",
+      "tr": "9616a076d9b28bbd",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.hoursExisting": {
+      "src": "e555db958adaa0b9",
+      "tr": "70271c69e6ce989a",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.hoursLabel": {
+      "src": "2de84498f0658489",
+      "tr": "a5a7f783914bf775",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.hoursPreset": {
+      "src": "7b8c0aaee77642a4",
+      "tr": "003aa59613c3b6b8",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.intro": {
+      "src": "db7c60ee2637eddc",
+      "tr": "542cec8738dc9c4e",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.remove": {
+      "src": "7ff56c346ff8f085",
+      "tr": "0ca7520cbce88157",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.saveChanges": {
+      "src": "dd0ae7a5cbcf2339",
+      "tr": "71dc74873e23107d",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.set": {
+      "src": "44e72b6b2142ef8d",
+      "tr": "f70b6087caf9d9c2",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.title": {
+      "src": "79229c2dbb992732",
+      "tr": "3b5e0d5c8292d7a1",
+      "by": "ai"
+    },
+    "xcAirspace.openArea.typeTag": {
+      "src": "8efb36c93ece745d",
+      "tr": "ca3c6bf9c6a77ae1",
+      "by": "ai"
+    },
+    "xcAirspace.overlay.unnamed": {
+      "src": "c4d2205a0e38fda3",
+      "tr": "e8e986c2ec972a38",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.advanced": {
+      "src": "ef2942add7d6ceb1",
+      "tr": "34a5fe457d5368d5",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.alongHeading": {
+      "src": "1e8e521117623db2",
+      "tr": "c0224f70cbda7bdb",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.alongIntro": {
+      "src": "e07d9c960fcda133",
+      "tr": "790487d2e8451498",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.cancelDrawing": {
+      "src": "d0c99052cdcd9707",
+      "tr": "c3211d489488dc1a",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.clearAll": {
+      "src": "29a390f9237e3c84",
+      "tr": "54408b8064a2dd54",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.drawnCount": {
+      "src": "36c80f879090a4dd",
+      "tr": "8498dc598c83f82b",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.finishPolygon": {
+      "src": "5e1c8c8dc0adefac",
+      "tr": "076b2519cecf7c97",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.cylinderFirst": {
+      "src": "c6f056d6c30526b5",
+      "tr": "facfda563e1619ce",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.cylinderNext": {
+      "src": "73a4e6ad12946593",
+      "tr": "04215207b86fa22e",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.polygonFirst": {
+      "src": "07c367a7733a9fec",
+      "tr": "8033a583b2458270",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.polygonMore": {
+      "src": "4c16bd5ab1874474",
+      "tr": "60dfd9073b5d560d",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.rectangleFirst": {
+      "src": "21bde0c9fccb7bdd",
+      "tr": "13bbc23b8ba70d88",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.rectangleNext": {
+      "src": "1ec878a5ce93dc4e",
+      "tr": "0694a378bd9680b8",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.hints.select": {
+      "src": "941e8cb5b9f79347",
+      "tr": "23461722293c6f8b",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.loadFailed": {
+      "src": "9d3efe930c4f9474",
+      "tr": "953ab3931dd8459b",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.noneFound": {
+      "src": "c832ed88fba948d8",
+      "tr": "0c8db0bf81243222",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.deselectAria": {
+      "src": "c9e1afb75aa46397",
+      "tr": "863f4836ffcf2159",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.editAria": {
+      "src": "2313fe21ea84567f",
+      "tr": "ac9c9ab862602bc7",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.removeAria": {
+      "src": "e6a3c4a1250a6ad3",
+      "tr": "b1001c1e6faeff70",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.select": {
+      "src": "2a78025de6aae5e7",
+      "tr": "bec8087f7b1777df",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.selected": {
+      "src": "57fd7a0cf33f2666",
+      "tr": "42345d2389223645",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.viewDetailsAria": {
+      "src": "6f45920baac9d183",
+      "tr": "98a310a07d84071c",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.row.viewDetailsTitle": {
+      "src": "2e4bfaa6b690e07a",
+      "tr": "597e515eaca7f651",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.scanning": {
+      "src": "e90d6146802e0611",
+      "tr": "2238de8a68890d34",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.selectionEmpty": {
+      "src": "b572c8f0860d198e",
+      "tr": "6c5fdfe531783bd7",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.selectionHeading": {
+      "src": "d581aeaaa7967113",
+      "tr": "efaabdf51a862dc8",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.showAirspaces": {
+      "src": "1cfb1d2247c9ae95",
+      "tr": "eced41209fe803f9",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.sourceHeading": {
+      "src": "01e8d37972cad9cd",
+      "tr": "918842d98d361093",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.sourceHint": {
+      "src": "402bf39c16248224",
+      "tr": "6c31ef7a5037eb0e",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.tools.cylinder": {
+      "src": "4a103f5fd80c3b74",
+      "tr": "f5a86327b05ad774",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.tools.polygon": {
+      "src": "0ef705dd99da0ae4",
+      "tr": "8b604390f80ac1ba",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.tools.rectangle": {
+      "src": "0306996228eb0b74",
+      "tr": "0306996228eb0b74",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.tools.select": {
+      "src": "2a78025de6aae5e7",
+      "tr": "051e522a6c091d9a",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.toolsHeading": {
+      "src": "ea93d6a262ecb87a",
+      "tr": "8c54187d131cad9a",
+      "by": "ai"
+    },
+    "xcAirspace.sidebar.undoLastPoint": {
+      "src": "5b4dc714a40648c2",
+      "tr": "8acd8250e522bfe2",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.building": {
+      "src": "f8a48bcf5098d3e3",
+      "tr": "68418428225cc530",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.download": {
+      "src": "8d2d121b7adcd4ce",
+      "tr": "f28a92a2efde231d",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.exported": {
+      "src": "94b59e4e94826311",
+      "tr": "6ab2673115659693",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.exportFailed": {
+      "src": "4b11222dc404b9ad",
+      "tr": "e5f362cae4eab05a",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.fileName": {
+      "src": "3efed3de9d4b5170",
+      "tr": "1887084a783db97b",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.fileNamePlaceholder": {
+      "src": "e52300b3bb8a6f1f",
+      "tr": "e52300b3bb8a6f1f",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.formatVersion": {
+      "src": "4bf3f29c48201762",
+      "tr": "fcb5d48ff6cbd03b",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.openAreasV1": {
+      "src": "50095d8f911d3522",
+      "tr": "222762162ecedcbb",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.openAreasV21": {
+      "src": "9ccc016dda53d057",
+      "tr": "a45cf03bc50ad2a9",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.selectFirst": {
+      "src": "0e06bf29155d5131",
+      "tr": "50186ff267da043e",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.summary": {
+      "src": "b5bfd87540a23077",
+      "tr": "453746f3b8735185",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.title": {
+      "src": "bb24e06a0f2ebaea",
+      "tr": "65f1d7afa8b9e83a",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.versions.v1.hint": {
+      "src": "b42d7afa3d0094c1",
+      "tr": "fdd461bbf3ab38e3",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.versions.v1.label": {
+      "src": "dd9fd83b7ca15bd4",
+      "tr": "408ada0c78df5086",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.versions.v21.hint": {
+      "src": "f20cd05e1afef08a",
+      "tr": "c1d9cdce5c6e92b5",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.versions.v21.label": {
+      "src": "7fd1a48d2b8e2291",
+      "tr": "d3e6ab73aac7b3e5",
+      "by": "ai"
+    },
+    "xcBriefing.author.by": {
+      "src": "77567cd0f1b17d7c",
+      "tr": "5aa3121e308a8d42",
+      "by": "ai"
+    },
+    "xcBriefing.author.fallback": {
+      "src": "31871e63c67bdede",
+      "tr": "46b128b3ad65fc76",
+      "by": "ai"
+    },
+    "xcBriefing.collection.defaultName": {
+      "src": "8dae0a2d76ea5586",
+      "tr": "c37d985e97b37017",
+      "by": "ai"
+    },
+    "xcBriefing.collection.deleteAria": {
+      "src": "e734ac69a61060f7",
+      "tr": "7ce468a076b49f38",
+      "by": "ai"
+    },
+    "xcBriefing.collection.discover": {
+      "src": "d4a33d5b78bccebe",
+      "tr": "977ae6cb0c224bb8",
+      "by": "ai"
+    },
+    "xcBriefing.collection.discoverToggle": {
+      "src": "963d9ce0171892cb",
+      "tr": "e68403debdc4958e",
+      "by": "ai"
+    },
+    "xcBriefing.collection.filterPlaceholder": {
+      "src": "f02fdd4272906e7d",
+      "tr": "23bc26840b99e7b1",
+      "by": "ai"
+    },
+    "xcBriefing.collection.findPlaceholder": {
+      "src": "61e166647bbc243c",
+      "tr": "67ba545924bad61f",
+      "by": "ai"
+    },
+    "xcBriefing.collection.fit": {
+      "src": "9f872ed43d00d8bd",
+      "tr": "3657fe4492beeb6d",
+      "by": "ai"
+    },
+    "xcBriefing.collection.importExport": {
+      "src": "b12c287c9e55811b",
+      "tr": "3ba5436a2100425a",
+      "by": "ai"
+    },
+    "xcBriefing.collection.importFiles": {
+      "src": "1bc446e0978b2778",
+      "tr": "3a7c256f1a325b62",
+      "by": "ai"
+    },
+    "xcBriefing.collection.itemCount": {
+      "src": "98f3358f5a2df25b",
+      "tr": "859205febeee9526",
+      "by": "ai"
+    },
+    "xcBriefing.collection.itemCountOwner": {
+      "src": "365e880567428634",
+      "tr": "5574ae63a80ad918",
+      "by": "ai"
+    },
+    "xcBriefing.collection.itemCountPublic": {
+      "src": "080ff2bf1aabed2a",
+      "tr": "55c925a617b277ab",
+      "by": "ai"
+    },
+    "xcBriefing.collection.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "66474911d95325c8",
+      "by": "ai"
+    },
+    "xcBriefing.collection.mapHint": {
+      "src": "05cf78a8e06392ba",
+      "tr": "2956f3138beef8ec",
+      "by": "ai"
+    },
+    "xcBriefing.collection.mine": {
+      "src": "ca2b5513ee52648b",
+      "tr": "a180f95114cd9601",
+      "by": "ai"
+    },
+    "xcBriefing.collection.namePlaceholder": {
+      "src": "922214922b48f09e",
+      "tr": "c7048a0531734c26",
+      "by": "ai"
+    },
+    "xcBriefing.collection.new": {
+      "src": "18fdd549b2ed367a",
+      "tr": "85aea9c936e8b68a",
+      "by": "ai"
+    },
+    "xcBriefing.collection.noMatch": {
+      "src": "7e9835cebffc9f91",
+      "tr": "036189ece49b5265",
+      "by": "ai"
+    },
+    "xcBriefing.collection.none": {
+      "src": "639b2eb41f7f79fd",
+      "tr": "6b678c0533076ffb",
+      "by": "ai"
+    },
+    "xcBriefing.collection.noPublic": {
+      "src": "8c6b644802756285",
+      "tr": "c6c5ec3798f0b7c1",
+      "by": "ai"
+    },
+    "xcBriefing.collection.publicToggle": {
+      "src": "8ca6da5bcd1bb733",
+      "tr": "b4889e37cf3c49b6",
+      "by": "ai"
+    },
+    "xcBriefing.collection.removeWaypoint": {
+      "src": "bd1024e42700f2c1",
+      "tr": "7f065619fa5b2e51",
+      "by": "ai"
+    },
+    "xcBriefing.collection.save": {
+      "src": "1509f561f2416598",
+      "tr": "71dc74873e23107d",
+      "by": "ai"
+    },
+    "xcBriefing.collection.saveShare": {
+      "src": "9a30abeebdc0eb6d",
+      "tr": "c5f7348e676d4ac9",
+      "by": "ai"
+    },
+    "xcBriefing.collection.searching": {
+      "src": "c31723ab330289fe",
+      "tr": "d074331c5d3455d1",
+      "by": "ai"
+    },
+    "xcBriefing.collection.share": {
+      "src": "29887a5ff9846ccc",
+      "tr": "1316622345e8b8d4",
+      "by": "ai"
+    },
+    "xcBriefing.collection.signInHint": {
+      "src": "3187131eba720191",
+      "tr": "d73f3cbcb745e06d",
+      "by": "ai"
+    },
+    "xcBriefing.collection.title": {
+      "src": "7b790708ff1b1713",
+      "tr": "7b790708ff1b1713",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.addOne": {
+      "src": "026e122ecdb81158",
+      "tr": "41ef4a632bd8b415",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.addSome": {
+      "src": "5a731a98c194dc68",
+      "tr": "fd4bbf900caf96b5",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.copyFailed": {
+      "src": "f5e805d39112ad2e",
+      "tr": "7f40a8b5ec997936",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.deleted": {
+      "src": "5a1b200bd5548aa1",
+      "tr": "470419393db6d4b0",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.deleteFailed": {
+      "src": "9a12fb42050b922b",
+      "tr": "bfdbf5b2a1c5e39f",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.emptyFile": {
+      "src": "235756f273245828",
+      "tr": "c07f3a4241d8ec66",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.imported": {
+      "src": "ccc7c65cb54e9f24",
+      "tr": "8e802e4175f2b351",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.linkCopied": {
+      "src": "dcc967e614ba11de",
+      "tr": "2ee98cf38c5fe333",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.loadFailed": {
+      "src": "a33a27593d66a858",
+      "tr": "21cf770327527f9a",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.readFailed": {
+      "src": "343fbcae1f40b33d",
+      "tr": "fc70f2ced8b24461",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.saveAsPublic": {
+      "src": "13e101b8b45b0d16",
+      "tr": "1d3908b0a09c8774",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.saved": {
+      "src": "3e95db6c95f27d05",
+      "tr": "b6f97d99539b21bb",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.saveFailed": {
+      "src": "08a9e1f8baafe0a5",
+      "tr": "78414baaff5a980f",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.signInToSave": {
+      "src": "25f8f3348b3d4492",
+      "tr": "6a32754470811f3b",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.updated": {
+      "src": "0bb589eb1b853224",
+      "tr": "be4e088ea63b47c2",
+      "by": "ai"
+    },
+    "xcBriefing.collection.toast.visibilityFailed": {
+      "src": "b8e3809611966062",
+      "tr": "d928628487dbca35",
+      "by": "ai"
+    },
+    "xcBriefing.collection.update": {
+      "src": "c1c1009d3f37ec05",
+      "tr": "f475e8cf6bdc5942",
+      "by": "ai"
+    },
+    "xcBriefing.collection.waypointCount": {
+      "src": "0e661416f8364b36",
+      "tr": "0e661416f8364b36",
+      "by": "ai"
+    },
+    "xcBriefing.collection.waypointsHeading": {
+      "src": "e4e398d20d870a09",
+      "tr": "e4e398d20d870a09",
+      "by": "ai"
+    },
+    "xcBriefing.notes.credit": {
+      "src": "a8746105e5368aec",
+      "tr": "08517b6fd37bfdc5",
+      "by": "ai"
+    },
+    "xcBriefing.notes.label": {
+      "src": "8a7525b1492fb848",
+      "tr": "8a7525b1492fb848",
+      "by": "ai"
+    },
+    "xcBriefing.notes.placeholderRoute": {
+      "src": "26f3097ff7695983",
+      "tr": "3cd03a16e12e268f",
+      "by": "ai"
+    },
+    "xcBriefing.notes.placeholderTask": {
+      "src": "0585d16867117dd1",
+      "tr": "29e676941910a1d4",
+      "by": "ai"
+    },
+    "xcBriefing.notes.privateRoute": {
+      "src": "205a9d2eaabe9c7c",
+      "tr": "ef61a2cf89180454",
+      "by": "ai"
+    },
+    "xcBriefing.notes.privateTask": {
+      "src": "8690eb1774f91089",
+      "tr": "8ee899258ca30033",
+      "by": "ai"
+    },
+    "xcBriefing.notes.public": {
+      "src": "bc1906f2f814fe9a",
+      "tr": "2cf746e2ae8506d4",
+      "by": "ai"
+    },
+    "xcBriefing.plan.cloudCode": {
+      "src": "52eb77855a9b0284",
+      "tr": "bf657c70cbe5a065",
+      "by": "ai"
+    },
+    "xcBriefing.plan.download": {
+      "src": "d6eafe8235910042",
+      "tr": "cdaaab442d264a76",
+      "by": "ai"
+    },
+    "xcBriefing.plan.downloadXctsk": {
+      "src": "c4b46c7d533db419",
+      "tr": "81afd539eed5dc63",
+      "by": "ai"
+    },
+    "xcBriefing.plan.formatAria": {
+      "src": "abc3e16c341c8fde",
+      "tr": "ff6354feadc0e29d",
+      "by": "ai"
+    },
+    "xcBriefing.plan.hideQr": {
+      "src": "bc6fe0a541269fa8",
+      "tr": "018123fb6d21cde3",
+      "by": "ai"
+    },
+    "xcBriefing.plan.qrRouteHint": {
+      "src": "78385e2a123e4838",
+      "tr": "6ab43cb5868daaef",
+      "by": "ai"
+    },
+    "xcBriefing.plan.qrTaskHint": {
+      "src": "4e4ecef9e3bda1f9",
+      "tr": "dbca2224aed69471",
+      "by": "ai"
+    },
+    "xcBriefing.plan.showQr": {
+      "src": "f5cb68c3d7941f7c",
+      "tr": "988ed9e94b358adf",
+      "by": "ai"
+    },
+    "xcBriefing.plan.titleRoute": {
+      "src": "fdd85b70187dc8f6",
+      "tr": "bce94c4be1874777",
+      "by": "ai"
+    },
+    "xcBriefing.plan.titleTask": {
+      "src": "ccbed60abfd38512",
+      "tr": "0958eeedb2151c2f",
+      "by": "ai"
+    },
+    "xcBriefing.recap.airspaces": {
+      "src": "7ded2c91cc784eea",
+      "tr": "a63c64d206e71d6a",
+      "by": "ai"
+    },
+    "xcBriefing.recap.atSpeed": {
+      "src": "eec175e604d9521b",
+      "tr": "034f33d64d669846",
+      "by": "ai"
+    },
+    "xcBriefing.recap.downloadsInBriefing": {
+      "src": "c48667951802d558",
+      "tr": "c34314c8e8489809",
+      "by": "ai"
+    },
+    "xcBriefing.recap.legendRoute": {
+      "src": "3df460a569d83e4d",
+      "tr": "ade7cc143db12a3f",
+      "by": "ai"
+    },
+    "xcBriefing.recap.legendTurnpoints": {
+      "src": "8337942144beb6fd",
+      "tr": "51e8d220b3a9232b",
+      "by": "ai"
+    },
+    "xcBriefing.recap.legendWithApproach": {
+      "src": "7f7b44ad6f2f9941",
+      "tr": "c872bcd62a08826a",
+      "by": "ai"
+    },
+    "xcBriefing.recap.scoreWithPoints": {
+      "src": "cf4fb0ad8cf3b5d1",
+      "tr": "cf4fb0ad8cf3b5d1",
+      "by": "ai"
+    },
+    "xcBriefing.recap.selectedDrawn": {
+      "src": "777a9f2a171666e3",
+      "tr": "54d6c151a5c98088",
+      "by": "ai"
+    },
+    "xcBriefing.recap.waypoints": {
+      "src": "62f80d61abacfaba",
+      "tr": "62f80d61abacfaba",
+      "by": "ai"
+    },
+    "xcBriefing.recap.waypointsClosed": {
+      "src": "cd3a514ee32da8c7",
+      "tr": "57824c0704fd826e",
+      "by": "ai"
+    },
+    "xcBriefing.review.agl": {
+      "src": "5b9b45750f3a956f",
+      "tr": "5b9b45750f3a956f",
+      "by": "ai"
+    },
+    "xcBriefing.review.altitude": {
+      "src": "047d878cb81f0dc5",
+      "tr": "9daf166f8fec9b03",
+      "by": "ai"
+    },
+    "xcBriefing.review.belowTerrain": {
+      "src": "64a91ccdce6bc53d",
+      "tr": "41e68fb5270b2133",
+      "by": "ai"
+    },
+    "xcBriefing.review.close": {
+      "src": "d7f39b7c706ef482",
+      "tr": "22bae6717fed7a08",
+      "by": "ai"
+    },
+    "xcBriefing.review.dialogLabel": {
+      "src": "dd6a484fbb67f186",
+      "tr": "c7daf1932a03ba6d",
+      "by": "ai"
+    },
+    "xcBriefing.review.follow": {
+      "src": "5db1d18b6909119b",
+      "tr": "839681aaa878aa9b",
+      "by": "ai"
+    },
+    "xcBriefing.review.headerLine": {
+      "src": "1a079236272d22a5",
+      "tr": "1a079236272d22a5",
+      "by": "ai"
+    },
+    "xcBriefing.review.hideZone": {
+      "src": "9d8adcdcb4163f52",
+      "tr": "e82f5b92a345d5b9",
+      "by": "ai"
+    },
+    "xcBriefing.review.introCounts": {
+      "src": "fe26de8eb36b82a6",
+      "tr": "9616fad43e9bb220",
+      "by": "ai"
+    },
+    "xcBriefing.review.introEmpty": {
+      "src": "6d469371e93dcd1d",
+      "tr": "1b7e54f2c2af44a5",
+      "by": "ai"
+    },
+    "xcBriefing.review.noZones": {
+      "src": "59db20b35f330517",
+      "tr": "4246eef4c898acdd",
+      "by": "ai"
+    },
+    "xcBriefing.review.open": {
+      "src": "01b5357d75ee8598",
+      "tr": "b7376f85a73a9eb9",
+      "by": "ai"
+    },
+    "xcBriefing.review.pause": {
+      "src": "c3243a8d4e963509",
+      "tr": "3830705ea9e1ab3c",
+      "by": "ai"
+    },
+    "xcBriefing.review.plannedRoute": {
+      "src": "8cd76b4d9034db83",
+      "tr": "4ee703ae7fcf6af9",
+      "by": "ai"
+    },
+    "xcBriefing.review.plannedTask": {
+      "src": "15cf77b944d6ffc0",
+      "tr": "2b39e260d9a006e2",
+      "by": "ai"
+    },
+    "xcBriefing.review.play": {
+      "src": "11d2fc2b5b45e0f9",
+      "tr": "718b40739991f709",
+      "by": "ai"
+    },
+    "xcBriefing.review.position": {
+      "src": "65a070cc490d52bb",
+      "tr": "6cd4d972ae23e742",
+      "by": "ai"
+    },
+    "xcBriefing.review.progress": {
+      "src": "11b4f63bb08c1752",
+      "tr": "11b4f63bb08c1752",
+      "by": "ai"
+    },
+    "xcBriefing.review.progressWithTime": {
+      "src": "d95f3c5d4c8a3533",
+      "tr": "d95f3c5d4c8a3533",
+      "by": "ai"
+    },
+    "xcBriefing.review.showZone": {
+      "src": "94cf7a9396b0b646",
+      "tr": "76e7e8b8533336bf",
+      "by": "ai"
+    },
+    "xcBriefing.review.speed": {
+      "src": "630ffb5d0f02fae6",
+      "tr": "e2059414f09986e0",
+      "by": "ai"
+    },
+    "xcBriefing.review.title": {
+      "src": "dd6a484fbb67f186",
+      "tr": "c7daf1932a03ba6d",
+      "by": "ai"
+    },
+    "xcBriefing.review.toggleList": {
+      "src": "82e630a6f76a5277",
+      "tr": "2a44b1dccbcd061b",
+      "by": "ai"
+    },
+    "xcBriefing.review.zoneCount": {
+      "src": "41ca35ea9f28dd98",
+      "tr": "41ca35ea9f28dd98",
+      "by": "ai"
+    },
+    "xcBriefing.review.zoneOpenNow": {
+      "src": "b2b88c6402423b54",
+      "tr": "68da38ff4e03dc9d",
+      "by": "ai"
+    },
+    "xcBriefing.review.zoneOutside": {
+      "src": "4fb4f11a917ac060",
+      "tr": "267d061dfe531acf",
+      "by": "ai"
+    },
+    "xcBriefing.weather.cloud": {
+      "src": "b977b950c1ae31e5",
+      "tr": "7b4bc85f1d4dfff9",
+      "by": "ai"
+    },
+    "xcBriefing.weather.failed": {
+      "src": "0286e46155028747",
+      "tr": "9dad8fc055c2f990",
+      "by": "ai"
+    },
+    "xcBriefing.weather.loading": {
+      "src": "81a37712a1147e65",
+      "tr": "e301de1e4ac8dea4",
+      "by": "ai"
+    },
+    "xcBriefing.weather.noHourly": {
+      "src": "f1b9ea71d498b275",
+      "tr": "84aacec6dd2bfdb5",
+      "by": "ai"
+    },
+    "xcBriefing.weather.noModels": {
+      "src": "8a63027630c4c0f0",
+      "tr": "84b72dc913dec57b",
+      "by": "ai"
+    },
+    "xcBriefing.weather.pickDate": {
+      "src": "9afa72d0487afc76",
+      "tr": "51ccdd6df1ce271a",
+      "by": "ai"
+    },
+    "xcBriefing.weather.rain": {
+      "src": "a6d20aa6a4c73f0d",
+      "tr": "8a59a3bf65c9548a",
+      "by": "ai"
+    },
+    "xcBriefing.weather.rainMm": {
+      "src": "bcc375854db55849",
+      "tr": "bcc375854db55849",
+      "by": "ai"
+    },
+    "xcBriefing.weather.source": {
+      "src": "305db36b4380cb5d",
+      "tr": "569eaa7ea58ff365",
+      "by": "ai"
+    },
+    "xcBriefing.weather.time": {
+      "src": "33b93476cf597a33",
+      "tr": "56ff9400e9277cd2",
+      "by": "ai"
+    },
+    "xcBriefing.weather.title": {
+      "src": "a0bba63812466406",
+      "tr": "a7d812450b0c7afe",
+      "by": "ai"
+    },
+    "xcBriefing.weather.wind": {
+      "src": "60217c8e42e17892",
+      "tr": "13ab961e66436cdf",
+      "by": "ai"
+    },
+    "xcBriefing.weather.windFrom": {
+      "src": "9d58fc9f307dc1be",
+      "tr": "8ecf4f19a663c01e",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.addTurnpoint": {
+      "src": "a3afcee167fb4b01",
+      "tr": "6ecd5f1f60bc77c4",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.addWaypoint": {
+      "src": "989caf30ab6d2daa",
+      "tr": "5bf9b9d82331eb31",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.cancelDrawing": {
+      "src": "d0c99052cdcd9707",
+      "tr": "c3211d489488dc1a",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.centerHere": {
+      "src": "de4902a2d776148a",
+      "tr": "f8e480e81d36fe49",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.clearAirspaces": {
+      "src": "2022d2d7acea96ef",
+      "tr": "67423ba86feb34b8",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.clearCollection": {
+      "src": "8153dc9d26128fd3",
+      "tr": "f545e4a48cb62710",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.clearRoute": {
+      "src": "713b76f0124b4b95",
+      "tr": "7dd8f7e2cdb1b311",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.clearTask": {
+      "src": "76473cd8411e5a5e",
+      "tr": "cd9e6c23ee863028",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.closeCircuit": {
+      "src": "719113fbc5d169e4",
+      "tr": "f45650f9f9cb4425",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.coordinatesCopied": {
+      "src": "0fbc8321b5ff03be",
+      "tr": "75db1e37cc8e67c2",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.coordinatesCopyFailed": {
+      "src": "c032007b66057cf8",
+      "tr": "c38028ecdaf44039",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.copyCoords": {
+      "src": "9e53ebffdd8277bb",
+      "tr": "52fb50983786c2c6",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.finishPolygon": {
+      "src": "5e1c8c8dc0adefac",
+      "tr": "076b2519cecf7c97",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.fitAirspaces": {
+      "src": "581caeb44be1ec46",
+      "tr": "a831a9ea9fd320d7",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.fitCollection": {
+      "src": "412cdedc7bd71a55",
+      "tr": "1b9a2a6473265cea",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.fitRoute": {
+      "src": "b74cdd3a2552f2c4",
+      "tr": "e1a45e1d6d297f27",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.fitTask": {
+      "src": "403b923fdc9d3515",
+      "tr": "124bb4291ed6d0dd",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.insertAsStart": {
+      "src": "cf22fb44aba72be6",
+      "tr": "415df031779c38f1",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.measure": {
+      "src": "ed9fde5181bb5419",
+      "tr": "e6a6000363103999",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.remove": {
+      "src": "e6a3c4a1250a6ad3",
+      "tr": "b1001c1e6faeff70",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.seeAirspaces": {
+      "src": "903df87f05fa05c5",
+      "tr": "f11cf6edda4eacaf",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.seeNotams": {
+      "src": "193addb3c957bc7d",
+      "tr": "ede56ddffd560901",
+      "by": "ai"
+    },
+    "xcPlanner.contextMenu.waypointN": {
+      "src": "458cfb69a104fa56",
+      "tr": "e84f7aa14b7a65bf",
+      "by": "ai"
+    },
+    "xcPlanner.dynamicOpen.badge": {
+      "src": "9107fa8a440e1abc",
+      "tr": "d0c8f025f94dd7c7",
+      "by": "ai"
+    },
+    "xcPlanner.dynamicOpen.edit": {
+      "src": "f3cce412be93fd70",
+      "tr": "1796d72447701eb2",
+      "by": "ai"
+    },
+    "xcPlanner.dynamicOpen.editFor": {
+      "src": "1d6574b2d08859b3",
+      "tr": "2432cb0490cc4ca3",
+      "by": "ai"
+    },
+    "xcPlanner.dynamicOpen.set": {
+      "src": "1df92609b4dbce6f",
+      "tr": "d9fbf795092090f0",
+      "by": "ai"
+    },
+    "xcPlanner.dynamicOpen.setFor": {
+      "src": "a8bb44082a454f07",
+      "tr": "c87780e40f78ac7a",
+      "by": "ai"
+    },
+    "xcPlanner.fadeScroll.scrollDown": {
+      "src": "0fe90a93235113ff",
+      "tr": "21cbc06983ec3c60",
+      "by": "ai"
+    },
+    "xcPlanner.fadeScroll.scrollUp": {
+      "src": "b64921854852a9ba",
+      "tr": "fd93911f425e30a4",
+      "by": "ai"
+    },
+    "xcPlanner.map.airspaceNotAlongFlight": {
+      "src": "7a7beea60624e6f6",
+      "tr": "5b5849bfdc590384",
+      "by": "ai"
+    },
+    "xcPlanner.map.removeWaypoint": {
+      "src": "bd1024e42700f2c1",
+      "tr": "7f065619fa5b2e51",
+      "by": "ai"
+    },
+    "xcPlanner.map.waypointN": {
+      "src": "539c748f10a0e94f",
+      "tr": "539c748f10a0e94f",
+      "by": "ai"
+    },
+    "xcPlanner.mapOverlay.collapse": {
+      "src": "a0280336e706086a",
+      "tr": "f882b53382d86058",
+      "by": "ai"
+    },
+    "xcPlanner.mapOverlay.layers": {
+      "src": "0bcd66e677f4ee72",
+      "tr": "11280b73109378b6",
+      "by": "ai"
+    },
+    "xcPlanner.mapOverlay.mapLayers": {
+      "src": "5af504643b965014",
+      "tr": "740b4dda7d79e251",
+      "by": "ai"
+    },
+    "xcPlanner.mapOverlay.overlaysActive": {
+      "src": "7d5bdc417cfc2246",
+      "tr": "ab14c483b893c8b7",
+      "by": "ai"
+    },
+    "xcPlanner.meta.description": {
+      "src": "2430095573f83d34",
+      "tr": "f028a9bd568a957a",
+      "by": "ai"
+    },
+    "xcPlanner.meta.ogDescription": {
+      "src": "68d9e5259e954a91",
+      "tr": "bb8430ffa010f9e3",
+      "by": "ai"
+    },
+    "xcPlanner.meta.ogTitle": {
+      "src": "81bba116797490ad",
+      "tr": "448c13199c60563d",
+      "by": "ai"
+    },
+    "xcPlanner.meta.title": {
+      "src": "3c2f6e38bf2a71f8",
+      "tr": "fda6d8c83771d2c3",
+      "by": "ai"
+    },
+    "xcPlanner.page.loadingPlanner": {
+      "src": "89e91c19a4051e7c",
+      "tr": "63520a98c788f9ea",
+      "by": "ai"
+    },
+    "xcPlanner.scoreKinds.faiTriangle": {
+      "src": "75a41ae7c84635db",
+      "tr": "a6129edbc0e4b33a",
+      "by": "ai"
+    },
+    "xcPlanner.scoreKinds.flatTriangle": {
+      "src": "3ad4aff5cdfe49b2",
+      "tr": "aa06728eaf3e6f36",
+      "by": "ai"
+    },
+    "xcPlanner.scoreKinds.free": {
+      "src": "d4e82f08ef62e12d",
+      "tr": "da209c4775c141e8",
+      "by": "ai"
+    },
+    "xcPlanner.scoreKinds.outAndReturn": {
+      "src": "78487b67239cdfd3",
+      "tr": "c6fa61148dffec26",
+      "by": "ai"
+    },
+    "xcPlanner.sections.activeCount": {
+      "src": "b93544a232653bac",
+      "tr": "b7f0faa7310b83a2",
+      "by": "ai"
+    },
+    "xcPlanner.sections.airspaceCrossSection": {
+      "src": "a52aa7fcaea40b68",
+      "tr": "96ba286063f22de7",
+      "by": "ai"
+    },
+    "xcPlanner.sections.collectionLoadFailed": {
+      "src": "a33a27593d66a858",
+      "tr": "21cf770327527f9a",
+      "by": "ai"
+    },
+    "xcPlanner.sections.collections": {
+      "src": "9f9feade761d22f3",
+      "tr": "9f9feade761d22f3",
+      "by": "ai"
+    },
+    "xcPlanner.sections.collectionsIntro": {
+      "src": "8302be241509802f",
+      "tr": "cbdb9e1b996cd441",
+      "by": "ai"
+    },
+    "xcPlanner.sections.durationHm": {
+      "src": "cf8484035b7fa8c1",
+      "tr": "cf8484035b7fa8c1",
+      "by": "ai"
+    },
+    "xcPlanner.sections.durationM": {
+      "src": "e1bded87ee24b702",
+      "tr": "e1bded87ee24b702",
+      "by": "ai"
+    },
+    "xcPlanner.sections.flight": {
+      "src": "d839f0fdd5d94c9b",
+      "tr": "06ada9f84dedaf7b",
+      "by": "ai"
+    },
+    "xcPlanner.sections.flownTrack": {
+      "src": "44215ded8db20b94",
+      "tr": "9ede950a6cfc739a",
+      "by": "ai"
+    },
+    "xcPlanner.sections.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "66474911d95325c8",
+      "by": "ai"
+    },
+    "xcPlanner.sections.myCollections": {
+      "src": "ca2b5513ee52648b",
+      "tr": "a180f95114cd9601",
+      "by": "ai"
+    },
+    "xcPlanner.sections.noCollections": {
+      "src": "90277bf2122f804c",
+      "tr": "561ed56f2e875d21",
+      "by": "ai"
+    },
+    "xcPlanner.sections.noPublicInView": {
+      "src": "8c6b644802756285",
+      "tr": "c6c5ec3798f0b7c1",
+      "by": "ai"
+    },
+    "xcPlanner.sections.on": {
+      "src": "130011756125313c",
+      "tr": "2d66e4997fb99c66",
+      "by": "ai"
+    },
+    "xcPlanner.sections.overlays": {
+      "src": "975c5697ac193acb",
+      "tr": "eaa1ecaa099b5a1e",
+      "by": "ai"
+    },
+    "xcPlanner.sections.publicCollections": {
+      "src": "811fb4cf7aa3f5ec",
+      "tr": "2dfef1431719d26b",
+      "by": "ai"
+    },
+    "xcPlanner.sections.publicInArea": {
+      "src": "963d9ce0171892cb",
+      "tr": "e68403debdc4958e",
+      "by": "ai"
+    },
+    "xcPlanner.sections.removeFlightTrace": {
+      "src": "0b683af7b7572528",
+      "tr": "64de0190e6a071de",
+      "by": "ai"
+    },
+    "xcPlanner.sections.route": {
+      "src": "adc74704d65d5cc9",
+      "tr": "adc74704d65d5cc9",
+      "by": "ai"
+    },
+    "xcPlanner.sections.searching": {
+      "src": "c31723ab330289fe",
+      "tr": "d074331c5d3455d1",
+      "by": "ai"
+    },
+    "xcPlanner.sections.show": {
+      "src": "0df6f1cad36c49da",
+      "tr": "e5adbe81e8aaa15d",
+      "by": "ai"
+    },
+    "xcPlanner.sections.showingCollections": {
+      "src": "1020b2947f9b5710",
+      "tr": "a091dc4e155d1b90",
+      "by": "ai"
+    },
+    "xcPlanner.sections.signInForCollections": {
+      "src": "589a36db539f4e7b",
+      "tr": "46ae5a8cb0462894",
+      "by": "ai"
+    },
+    "xcPlanner.sections.task": {
+      "src": "4bc74b21357c6cf5",
+      "tr": "f111fa6273128345",
+      "by": "ai"
+    },
+    "xcPlanner.sections.verticalCut": {
+      "src": "b65c427fa267afb7",
+      "tr": "c2aaa08f803fc3f4",
+      "by": "ai"
+    },
+    "xcPlanner.sections.verticalCutEmpty": {
+      "src": "edd315ccaa75e32e",
+      "tr": "b81fe1627c3ed8ef",
+      "by": "ai"
+    },
+    "xcPlanner.sections.verticalCutHint": {
+      "src": "01948c119ea38b51",
+      "tr": "6e4f26030a36b011",
+      "by": "ai"
+    },
+    "xcPlanner.sections.waypointCount": {
+      "src": "62f80d61abacfaba",
+      "tr": "62f80d61abacfaba",
+      "by": "ai"
+    },
+    "xcPlanner.share.anonymousAuthor": {
+      "src": "31871e63c67bdede",
+      "tr": "46b128b3ad65fc76",
+      "by": "ai"
+    },
+    "xcPlanner.share.openInPlanner": {
+      "src": "054e470eefa42687",
+      "tr": "5def9df9921511d6",
+      "by": "ai"
+    },
+    "xcPlanner.share.points": {
+      "src": "d6140cf55ab815ce",
+      "tr": "d6140cf55ab815ce",
+      "by": "ai"
+    },
+    "xcPlanner.share.rulesetTask": {
+      "src": "77a2d61eff011e45",
+      "tr": "efb641b2d9325454",
+      "by": "ai"
+    },
+    "xcPlanner.share.summary": {
+      "src": "0781e1d029df97c3",
+      "tr": "0781e1d029df97c3",
+      "by": "ai"
+    },
+    "xcPlanner.share.title": {
+      "src": "9fe7b2183fb30d29",
+      "tr": "d60f0eb5d6ce9f1c",
+      "by": "ai"
+    },
+    "xcPlanner.share.turnpoints": {
+      "src": "fbb84751715985bb",
+      "tr": "841a4d34986a69d5",
+      "by": "ai"
+    },
+    "xcPlanner.shell.clickToAddWaypoints": {
+      "src": "b0e3a2e42bd614e8",
+      "tr": "682783d1eeceeed4",
+      "by": "ai"
+    },
+    "xcPlanner.shell.controlsTitle": {
+      "src": "bc33ba2fe67dba98",
+      "tr": "c7b8b37146f0d87f",
+      "by": "ai"
+    },
+    "xcPlanner.shell.flightFallbackName": {
+      "src": "d839f0fdd5d94c9b",
+      "tr": "06ada9f84dedaf7b",
+      "by": "ai"
+    },
+    "xcPlanner.shell.flightLoadFailed": {
+      "src": "3c6b867988a2a9b8",
+      "tr": "0ce2d814709ec0ab",
+      "by": "ai"
+    },
+    "xcPlanner.shell.linkedTaskFailed": {
+      "src": "d84643a4ca54c0a8",
+      "tr": "bac5e843a864c8d0",
+      "by": "ai"
+    },
+    "xcPlanner.shell.loadingMap": {
+      "src": "7c8befec7864d8ef",
+      "tr": "16feb71036f2ec1a",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.clear": {
+      "src": "83b12c2216efb4fd",
+      "tr": "e4750da99f0f7665",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.closeCircuit": {
+      "src": "719113fbc5d169e4",
+      "tr": "f45650f9f9cb4425",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.copied": {
+      "src": "8d525e5f158b9afe",
+      "tr": "00181a49f63e44b6",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.copyFailed": {
+      "src": "f5e805d39112ad2e",
+      "tr": "7f40a8b5ec997936",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.copyShareLink": {
+      "src": "d31483e209cd5b1d",
+      "tr": "eea1be66d11e5e38",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.copyShareLinkFor": {
+      "src": "16a3832926959188",
+      "tr": "42536d49496be166",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.deleteFailed": {
+      "src": "98abe470e9c104c1",
+      "tr": "daf99de8afb2cbf0",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.deleteRoute": {
+      "src": "032ad8957b1d66f7",
+      "tr": "b863aa6f9b1862e5",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.discover": {
+      "src": "d4a33d5b78bccebe",
+      "tr": "977ae6cb0c224bb8",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.drawRouteFirst": {
+      "src": "76c42bfcf351c126",
+      "tr": "90e2dc6f65ac73f3",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.drawRouteShort": {
+      "src": "23ea73c90d7ce5d2",
+      "tr": "dae917b266f1cbc8",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.faiSectors": {
+      "src": "bd0b62a626c5af82",
+      "tr": "79c6a93e35ea6a4d",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.fileStemFallback": {
+      "src": "8a84e406c08ac959",
+      "tr": "8a84e406c08ac959",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.filterByName": {
+      "src": "f02fdd4272906e7d",
+      "tr": "23bc26840b99e7b1",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.fit": {
+      "src": "9f872ed43d00d8bd",
+      "tr": "3657fe4492beeb6d",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.imported": {
+      "src": "cdb45cf738815688",
+      "tr": "a13d6c6e30b97f8c",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.importExport": {
+      "src": "b12c287c9e55811b",
+      "tr": "3ba5436a2100425a",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.importFile": {
+      "src": "ab3328bf0a8cb93e",
+      "tr": "b2ed2e4e67a22091",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.league": {
+      "src": "7f06ea4f0831f4f9",
+      "tr": "b7d25197c02bd8c8",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.leagueDistance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b7bdf7a2d6e73e58",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.linkCopied": {
+      "src": "d12860c21e78baa5",
+      "tr": "faecc14d44631a86",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.linkCopiedToast": {
+      "src": "dcc967e614ba11de",
+      "tr": "2ee98cf38c5fe333",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "66474911d95325c8",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.moreTools": {
+      "src": "5918cb537c7d940f",
+      "tr": "9fa688952e6d22a7",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.moreToolsMeta": {
+      "src": "76fcb0220ad140a4",
+      "tr": "5ddf8d37e51b3afa",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.myRoutes": {
+      "src": "4938b6efac2db369",
+      "tr": "2cc38c15371d6916",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.new": {
+      "src": "18fdd549b2ed367a",
+      "tr": "85aea9c936e8b68a",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.noPublicRoutes": {
+      "src": "97d3f848fd02bc5b",
+      "tr": "9d06322b221ed517",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.noSavedRoutes": {
+      "src": "837eecde045609b2",
+      "tr": "2c47effc99d27fc0",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.noUsableRoute": {
+      "src": "3b63c5429beabd7f",
+      "tr": "5d8384d6a47c54dd",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.privateHintSaved": {
+      "src": "761ae2ba654f9865",
+      "tr": "ec4abd0189eecb42",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.privateHintUnsaved": {
+      "src": "ab971f544775ac35",
+      "tr": "665e7d27b64550fd",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.publicBadge": {
+      "src": "efa1f375d76194fa",
+      "tr": "a03f9b39a1845ff4",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.publicRoute": {
+      "src": "e3b120b275d30d11",
+      "tr": "62e6020eef7e8d17",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.publicRoutesInArea": {
+      "src": "c482edac21042f47",
+      "tr": "d671dc277fa4cf87",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.readFailed": {
+      "src": "cbd0b6b526b437f8",
+      "tr": "96a7306aca13418c",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.route": {
+      "src": "adc74704d65d5cc9",
+      "tr": "adc74704d65d5cc9",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.routeDeleted": {
+      "src": "15a14353996f55e4",
+      "tr": "2e96a1aa0bca7aef",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.routeHelp": {
+      "src": "cdca32bf1f8010cd",
+      "tr": "286cec8aab46d30c",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.routeName": {
+      "src": "6e790af279b459f7",
+      "tr": "3d46e25dda34c0b9",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.routeSaved": {
+      "src": "f70eba43d556424b",
+      "tr": "6d54de5e0567921a",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.routeUpdated": {
+      "src": "2f18b54b503d339a",
+      "tr": "fbf11414a08df990",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.save": {
+      "src": "1509f561f2416598",
+      "tr": "71dc74873e23107d",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.saveAndShare": {
+      "src": "9a30abeebdc0eb6d",
+      "tr": "c5f7348e676d4ac9",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.saveFailed": {
+      "src": "95452026c8258794",
+      "tr": "7e0f9b5b2dde6e9d",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.searching": {
+      "src": "c31723ab330289fe",
+      "tr": "d074331c5d3455d1",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.share": {
+      "src": "29887a5ff9846ccc",
+      "tr": "1316622345e8b8d4",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.shareDirtyHint": {
+      "src": "06b2e4313b8067a0",
+      "tr": "d82d1655d74ca67d",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.signInHint": {
+      "src": "b03e034249627269",
+      "tr": "8a57ab28a668d786",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.signInToSave": {
+      "src": "acce9ba8ed6fc7e5",
+      "tr": "74fe08a586f7cd80",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.speed": {
+      "src": "f8377331c6411f2c",
+      "tr": "9806a51ccce91477",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.untitledRoute": {
+      "src": "ac0a65b09ea12b7b",
+      "tr": "ea8e4c3f6ccd772a",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.update": {
+      "src": "c1c1009d3f37ec05",
+      "tr": "f475e8cf6bdc5942",
+      "by": "ai"
+    },
+    "xcPlanner.sidebar.visibilityFailed": {
+      "src": "b8e3809611966062",
+      "tr": "d928628487dbca35",
+      "by": "ai"
+    },
+    "xcPlanner.siteOverlay.facing": {
+      "src": "352da0a900852c44",
+      "tr": "fad93b1b86a012e2",
+      "by": "ai"
+    },
+    "xcPlanner.siteOverlay.title": {
+      "src": "52d9c01a41e9fcec",
+      "tr": "a3ddb48517c0318d",
+      "by": "ai"
+    },
+    "xcPlanner.siteOverlay.unnamed": {
+      "src": "e504e61521948e34",
+      "tr": "1a0d80637738e423",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.back": {
+      "src": "76900f1bfd16c8d4",
+      "tr": "ef23a5940244e0f5",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.backAria": {
+      "src": "e3c1482546ffbd31",
+      "tr": "5ecd43d3537b80c4",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.controls": {
+      "src": "799c269135742a36",
+      "tr": "0e3118a24b9ff7bd",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.notReady": {
+      "src": "d602d66f424654a8",
+      "tr": "fa35da090d972015",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.openPanel": {
+      "src": "3bfba9865f9d90fd",
+      "tr": "2652db506548c3ee",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.toAirspaces": {
+      "src": "7da33a52b69fece3",
+      "tr": "136970670aa7a5f1",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.toBriefing": {
+      "src": "189d5c8692a0987c",
+      "tr": "87d671a65660d795",
+      "by": "ai"
+    },
+    "xcPlanner.stepNav.toNotams": {
+      "src": "a2dde62a40ff022e",
+      "tr": "6422c2cf2964b2bc",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.designTool": {
+      "src": "0a282ff8de378678",
+      "tr": "515183c8fadcabdc",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.kmPlanned": {
+      "src": "e852832fc96cd30b",
+      "tr": "5ae4dcd323549385",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.noDate": {
+      "src": "4214c2fd737cf9eb",
+      "tr": "e69b2d335af29c7a",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.noPath": {
+      "src": "05fd18a7807eb464",
+      "tr": "03d6dd6a42ab3d55",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.pickDate": {
+      "src": "77830b06b7e29318",
+      "tr": "2adada27ecf9a149",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.route": {
+      "src": "adc74704d65d5cc9",
+      "tr": "adc74704d65d5cc9",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.startTime": {
+      "src": "913a5c15dec8c0bd",
+      "tr": "90991c7dfc7f99ce",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.task": {
+      "src": "4bc74b21357c6cf5",
+      "tr": "f111fa6273128345",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.unlockNeedsDate": {
+      "src": "8e5930638a5dfe9f",
+      "tr": "dfea28040824694b",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.unlockNeedsPoints": {
+      "src": "64c95f668f162b7a",
+      "tr": "3eea1db0c0a5f101",
+      "by": "ai"
+    },
+    "xcPlanner.stepPanel.waypoints": {
+      "src": "05f0214faa240572",
+      "tr": "05f0214faa240572",
+      "by": "ai"
+    },
+    "xcPlanner.stepper.ariaLabel": {
+      "src": "b3a0f5776ed29e7f",
+      "tr": "7845aa7355dbae1a",
+      "by": "ai"
+    },
+    "xcPlanner.stepper.locked": {
+      "src": "81a6260a70a0d528",
+      "tr": "370f7984a4830c2b",
+      "by": "ai"
+    },
+    "xcPlanner.steps.1.label": {
+      "src": "0072e6b934945d5b",
+      "tr": "66acd33da6914191",
+      "by": "ai"
+    },
+    "xcPlanner.steps.1.title": {
+      "src": "ad3443c93491b0af",
+      "tr": "db093e71877d3d2f",
+      "by": "ai"
+    },
+    "xcPlanner.steps.2.label": {
+      "src": "d6e75c42e998c2de",
+      "tr": "bf0bca256a1034b7",
+      "by": "ai"
+    },
+    "xcPlanner.steps.2.title": {
+      "src": "187152a8aa842736",
+      "tr": "7810c361dd623cc5",
+      "by": "ai"
+    },
+    "xcPlanner.steps.3.label": {
+      "src": "21c39c463fdaf0d2",
+      "tr": "9a79b8023a298ea4",
+      "by": "ai"
+    },
+    "xcPlanner.steps.3.title": {
+      "src": "5473a910f9419517",
+      "tr": "671e61439e252c2d",
+      "by": "ai"
+    },
+    "xcPlanner.steps.4.label": {
+      "src": "532fdae24a3de05a",
+      "tr": "532fdae24a3de05a",
+      "by": "ai"
+    },
+    "xcPlanner.steps.4.title": {
+      "src": "2913279068c7ab21",
+      "tr": "5c4c502cc68af00c",
+      "by": "ai"
+    },
+    "xcPlanner.topbar.documentation": {
+      "src": "c205924de0fe636c",
+      "tr": "c205924de0fe636c",
+      "by": "ai"
+    },
+    "xcPlanner.topbar.goToLogbook": {
+      "src": "075b976c447dfb27",
+      "tr": "f972762da35e237e",
+      "by": "ai"
+    },
+    "xcPlanner.topbar.startLogging": {
+      "src": "f41fec8fb78adef3",
+      "tr": "f7febc215579ac59",
+      "by": "ai"
+    },
+    "xcPlanner.waypointSearch.ariaLabel": {
+      "src": "ef3c32dfe468b48b",
+      "tr": "237143d50ff4a9d7",
+      "by": "ai"
+    },
+    "xcPlanner.waypointSearch.noCollections": {
+      "src": "c14ca02fb38f31ef",
+      "tr": "bb28b63c4ab69b6e",
+      "by": "ai"
+    },
+    "xcPlanner.waypointSearch.noMatch": {
+      "src": "7e9835cebffc9f91",
+      "tr": "036189ece49b5265",
+      "by": "ai"
+    },
+    "xcPlanner.waypointSearch.placeholder": {
+      "src": "f955f43f6ecf1ba3",
+      "tr": "042fcba20bf29f31",
+      "by": "ai"
+    },
+    "xcPlanner.waypointSearch.searching": {
+      "src": "c31723ab330289fe",
+      "tr": "d074331c5d3455d1",
+      "by": "ai"
+    },
+    "xcPlanner.waypointSearch.signIn": {
+      "src": "270ee4c57906323a",
+      "tr": "4c41d235ab99b0c7",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.copyAria": {
+      "src": "3887e73740c35371",
+      "tr": "16efffe849f65369",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.expired": {
+      "src": "bc1228c88f9a5c5c",
+      "tr": "c2702a9c05e11a99",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.inXctrack": {
+      "src": "86ea81e619e1b185",
+      "tr": "9d1f1dfdd10a31ee",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.publish": {
+      "src": "49b90c3db792645e",
+      "tr": "6be115fecb7d95a7",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.refresh": {
+      "src": "fc7a141746a6a0e4",
+      "tr": "99f573cb399ef192",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.republish": {
+      "src": "7c815e2f9902bbaa",
+      "tr": "653eea8f2c36966e",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.requestNew": {
+      "src": "8d28164fe42e40b9",
+      "tr": "860a5c40e46dfc09",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.routeNote": {
+      "src": "2be2bb96f39289da",
+      "tr": "7c427fe75c80f22e",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.signInRoute": {
+      "src": "11a4fada907ed771",
+      "tr": "f32c19312ae47ae4",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.signInTask": {
+      "src": "702e526606eaa4bb",
+      "tr": "3cbb457d322965b8",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.stale": {
+      "src": "2865174cd6b7a6e8",
+      "tr": "c28b4c1a1d199322",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.taskNote": {
+      "src": "9ed346d08b142029",
+      "tr": "81d38d2cd55b9edb",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.toasts.copied": {
+      "src": "f0ffa2afbe6d64ae",
+      "tr": "480a60ce5e66cc75",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.toasts.copyFailed": {
+      "src": "e924a5a4b69caa12",
+      "tr": "85abc72993ed9230",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.toasts.needTask": {
+      "src": "56ad4302d09ffb84",
+      "tr": "0ee20646ca19230d",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.toasts.needWaypoints": {
+      "src": "2c86cb7e992fc5aa",
+      "tr": "8c089f232218f578",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.toasts.ready": {
+      "src": "af3a79a23e3120f6",
+      "tr": "bba09a698d7a7127",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.toasts.signIn": {
+      "src": "cf108a8a1802a438",
+      "tr": "cc6f897fc89067f0",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.validUntil": {
+      "src": "d658db08fa56e694",
+      "tr": "f8336682c7ea7f6c",
+      "by": "ai"
+    },
+    "xcTask.cloudCode.validUntilDays": {
+      "src": "bed96b58188049b5",
+      "tr": "bf58a00d9a888f9b",
+      "by": "ai"
+    },
+    "xcTask.layer.duplicate": {
+      "src": "e5e4a225f6fc1666",
+      "tr": "8bea9e84d54293b0",
+      "by": "ai"
+    },
+    "xcTask.layer.publicTooltip": {
+      "src": "15bf6f7dca02533f",
+      "tr": "15bf6f7dca02533f",
+      "by": "ai"
+    },
+    "xcTask.layer.publicTooltipOwner": {
+      "src": "99bcf9b8154247f0",
+      "tr": "99bcf9b8154247f0",
+      "by": "ai"
+    },
+    "xcTask.layer.remove": {
+      "src": "03704683124c7987",
+      "tr": "5fc78bfaae1899ce",
+      "by": "ai"
+    },
+    "xcTask.layer.roleRadius": {
+      "src": "72a5c447973f5cc0",
+      "tr": "72a5c447973f5cc0",
+      "by": "ai"
+    },
+    "xcTask.moreTools.cloud": {
+      "src": "2649fa9dcbc8b33a",
+      "tr": "196b6505abbe26ea",
+      "by": "ai"
+    },
+    "xcTask.moreTools.cloudAria": {
+      "src": "f6536693df1bf587",
+      "tr": "d518f7f39217e9dc",
+      "by": "ai"
+    },
+    "xcTask.moreTools.cloudImport": {
+      "src": "2cff9baabf56ca00",
+      "tr": "ed2c9cb3830e2860",
+      "by": "ai"
+    },
+    "xcTask.moreTools.cloudIntro": {
+      "src": "ee03942b8de70ecc",
+      "tr": "05bc6963fd0e1cdc",
+      "by": "ai"
+    },
+    "xcTask.moreTools.cloudPlaceholder": {
+      "src": "29b20f944595ecf6",
+      "tr": "a54741f1d50f9586",
+      "by": "ai"
+    },
+    "xcTask.moreTools.codeFormat": {
+      "src": "2a18d7ae71b933d3",
+      "tr": "f2feec8c77bfd9f7",
+      "by": "ai"
+    },
+    "xcTask.moreTools.copyVersion": {
+      "src": "76a69289f1470bc1",
+      "tr": "39e0c01a661b8302",
+      "by": "ai"
+    },
+    "xcTask.moreTools.discover": {
+      "src": "d4a33d5b78bccebe",
+      "tr": "977ae6cb0c224bb8",
+      "by": "ai"
+    },
+    "xcTask.moreTools.downloadXctsk": {
+      "src": "df7af52dd9fbff1b",
+      "tr": "df7af52dd9fbff1b",
+      "by": "ai"
+    },
+    "xcTask.moreTools.filterPlaceholder": {
+      "src": "f02fdd4272906e7d",
+      "tr": "23bc26840b99e7b1",
+      "by": "ai"
+    },
+    "xcTask.moreTools.hideQr": {
+      "src": "bc6fe0a541269fa8",
+      "tr": "018123fb6d21cde3",
+      "by": "ai"
+    },
+    "xcTask.moreTools.importExport": {
+      "src": "b12c287c9e55811b",
+      "tr": "3ba5436a2100425a",
+      "by": "ai"
+    },
+    "xcTask.moreTools.importFile": {
+      "src": "4c94c9bf617d5e80",
+      "tr": "5bd601cc9bcc5987",
+      "by": "ai"
+    },
+    "xcTask.moreTools.listMeta": {
+      "src": "768f8dc6cfd55950",
+      "tr": "768f8dc6cfd55950",
+      "by": "ai"
+    },
+    "xcTask.moreTools.listMetaOwner": {
+      "src": "a4a673083d0b7e56",
+      "tr": "a4a673083d0b7e56",
+      "by": "ai"
+    },
+    "xcTask.moreTools.load": {
+      "src": "8a6bdb6b18da586f",
+      "tr": "fd351654f44b394e",
+      "by": "ai"
+    },
+    "xcTask.moreTools.noPublic": {
+      "src": "90dec4fbdf20a5e3",
+      "tr": "fc47e2f3880f2807",
+      "by": "ai"
+    },
+    "xcTask.moreTools.pastePlaceholder": {
+      "src": "7d93e63d79e5c4ef",
+      "tr": "571b6453b388dea0",
+      "by": "ai"
+    },
+    "xcTask.moreTools.publicInArea": {
+      "src": "329178c750c8d24d",
+      "tr": "d2a40a0f211afc11",
+      "by": "ai"
+    },
+    "xcTask.moreTools.qrCaption": {
+      "src": "8b16e74b7b9875dd",
+      "tr": "80e0167295a72070",
+      "by": "ai"
+    },
+    "xcTask.moreTools.searching": {
+      "src": "c31723ab330289fe",
+      "tr": "d074331c5d3455d1",
+      "by": "ai"
+    },
+    "xcTask.moreTools.showQr": {
+      "src": "f5cb68c3d7941f7c",
+      "tr": "988ed9e94b358adf",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.cloudImported": {
+      "src": "d3baacf817622630",
+      "tr": "853449f72c0a9df6",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.cloudImportedNoCode": {
+      "src": "65b72e7913e938c5",
+      "tr": "8767d446ef66719a",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.codeCopied": {
+      "src": "6926cce12e1043fe",
+      "tr": "a5fc1a3c2de41a8a",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.codeCopyFailed": {
+      "src": "e924a5a4b69caa12",
+      "tr": "85abc72993ed9230",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.designFirst": {
+      "src": "8a7d6ce903d78493",
+      "tr": "2490a8a1a5ee00cd",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.imported": {
+      "src": "8e927c09bc0524fd",
+      "tr": "49e6f834107a7f07",
+      "by": "ai"
+    },
+    "xcTask.moreTools.toasts.importedFirst": {
+      "src": "2eaaa16ad59979cd",
+      "tr": "8a10f752ce094a94",
+      "by": "ai"
+    },
+    "xcTask.moreTools.v1Aria": {
+      "src": "d108ff2fd099bf60",
+      "tr": "3fff5910d26c2828",
+      "by": "ai"
+    },
+    "xcTask.moreTools.v1Hint": {
+      "src": "3b51f85e215a0acd",
+      "tr": "20ed337abe314110",
+      "by": "ai"
+    },
+    "xcTask.moreTools.v2Aria": {
+      "src": "3324a3490872c230",
+      "tr": "f57a3d8c34839628",
+      "by": "ai"
+    },
+    "xcTask.moreTools.v2Hint": {
+      "src": "a461e83c61ec9fca",
+      "tr": "7e68e5230e6e13ac",
+      "by": "ai"
+    },
+    "xcTask.qr.save": {
+      "src": "2622e965a998ec5b",
+      "tr": "1f6762ba1928d29a",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.essAfterStart": {
+      "src": "b044bea00af9c919",
+      "tr": "51807a6bad0111f9",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.goalMustBeLast": {
+      "src": "a2785bb6eb47cc5a",
+      "tr": "f29a09c0708ee4a9",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.lastIsGoal": {
+      "src": "916f0841199745cf",
+      "tr": "6cd83d1c865068d6",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.needSecondTurnpoint": {
+      "src": "5da343f226d7dd7f",
+      "tr": "6d81f2fed52bf4e7",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.setStartFirst": {
+      "src": "c57ad98dd12200b0",
+      "tr": "e3c67d7bbd31779e",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.startNeedsSuccessor": {
+      "src": "c9449463a01f17a5",
+      "tr": "f33d179c7d932c1e",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.takeoffBeforeStart": {
+      "src": "cc2693b3ee68dada",
+      "tr": "77e36a7243a1f266",
+      "by": "ai"
+    },
+    "xcTask.roleUnavailable.unknownTurnpoint": {
+      "src": "20bdf924fb6e7c10",
+      "tr": "e9921195d6714c4c",
+      "by": "ai"
+    },
+    "xcTask.rulesets.FAI.blurb": {
+      "src": "f78e52f0698b4c4c",
+      "tr": "b250b5e26adb4fd6",
+      "by": "ai"
+    },
+    "xcTask.rulesets.PWCA.blurb": {
+      "src": "cdced21713a90491",
+      "tr": "5761777ab100312c",
+      "by": "ai"
+    },
+    "xcTask.sidebar.checks.pass": {
+      "src": "526aaf7c9b36ad1f",
+      "tr": "7d25faad33307278",
+      "by": "ai"
+    },
+    "xcTask.sidebar.checks.start": {
+      "src": "983515e159d4fad1",
+      "tr": "f92edcadc89be91d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.directions.fixed": {
+      "src": "1246fc93bca00b90",
+      "tr": "cde0d52e04f80dee",
+      "by": "ai"
+    },
+    "xcTask.sidebar.directions.next": {
+      "src": "1ff57a29d7c9d11b",
+      "tr": "faf9a798db9006c6",
+      "by": "ai"
+    },
+    "xcTask.sidebar.directions.previous": {
+      "src": "a57b08a480b822a0",
+      "tr": "9aff6c5679b2dd62",
+      "by": "ai"
+    },
+    "xcTask.sidebar.directions.start": {
+      "src": "e4bb9f1ece9af926",
+      "tr": "a0f410e6d977932d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.directions.symmetric": {
+      "src": "8dfcfabe6691851a",
+      "tr": "42b6d5cd69fc579c",
+      "by": "ai"
+    },
+    "xcTask.sidebar.formats.clockStart": {
+      "src": "ed8893f7c137575f",
+      "tr": "155ba02122578b2a",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.arrivalAria": {
+      "src": "5753327d72a4b0ed",
+      "tr": "050f30ab66a50e35",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.arrivalHeight": {
+      "src": "8e9bc19885eb0665",
+      "tr": "04f5d18d8757dffc",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.arrivalPlaceholder": {
+      "src": "dbb3b50e59c7326b",
+      "tr": "8db59feb4d217f26",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.arrivalUnit": {
+      "src": "c73ad64241f3fcf6",
+      "tr": "c73ad64241f3fcf6",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.deadline": {
+      "src": "6fcb38ddc858fc85",
+      "tr": "8405aec1c8b96897",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.enter": {
+      "src": "dc8659db6d416dc3",
+      "tr": "d9c7efe13095fdad",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.exit": {
+      "src": "d17d84a604994b72",
+      "tr": "987ce358afb7a5a0",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.firstGate": {
+      "src": "49d795fef11df3e6",
+      "tr": "1c66190ad7e5e6ed",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.gates": {
+      "src": "f606e1670dbd4929",
+      "tr": "a49a6d4790f6c752",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.goalZone": {
+      "src": "7a6c8f4234fb0ffa",
+      "tr": "f349fb30eafaca17",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.help": {
+      "src": "3488c59e9a2ea300",
+      "tr": "0419288535a3f2ca",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.interval": {
+      "src": "8e25049982136330",
+      "tr": "73e54d91b02a6e32",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.startDirection": {
+      "src": "25082574c852b322",
+      "tr": "72290a13c595a5ad",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.startGate": {
+      "src": "ae60cf5fc304f32b",
+      "tr": "1f0f14be1969a385",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.timeNote": {
+      "src": "425b8fe9dddc783e",
+      "tr": "a36d9b1fc87b66d1",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.timeNoteWithZone": {
+      "src": "4b3be2394b4b1cc3",
+      "tr": "55b6fc0cd845c37c",
+      "by": "ai"
+    },
+    "xcTask.sidebar.goal.title": {
+      "src": "0d13eecadda92d12",
+      "tr": "f3b0483c53d60a6d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.more.meta": {
+      "src": "db6c10dab1d55803",
+      "tr": "7c4d72b251ced358",
+      "by": "ai"
+    },
+    "xcTask.sidebar.more.title": {
+      "src": "5918cb537c7d940f",
+      "tr": "9fa688952e6d22a7",
+      "by": "ai"
+    },
+    "xcTask.sidebar.roles.essLong": {
+      "src": "0c40926d9b85eb5a",
+      "tr": "547378aba2fca68d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.roles.sssShort": {
+      "src": "d20268c911bb808b",
+      "tr": "a0f410e6d977932d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.deleteAria": {
+      "src": "3baf554784839bd7",
+      "tr": "fb3812e835079c75",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.empty": {
+      "src": "44c76c01d45b76ec",
+      "tr": "d508e623c4729f79",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.listMeta": {
+      "src": "768f8dc6cfd55950",
+      "tr": "768f8dc6cfd55950",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.listMetaPublic": {
+      "src": "117786564a10f337",
+      "tr": "e58c351c5f0376dc",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "66474911d95325c8",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.myTasks": {
+      "src": "1f7f5b8863d02162",
+      "tr": "817a751d1b3cb5c8",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.publicTask": {
+      "src": "3c60d8b49fd1ed95",
+      "tr": "181c4afde6cc90b8",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.save": {
+      "src": "1509f561f2416598",
+      "tr": "71dc74873e23107d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.savedCount": {
+      "src": "2767bdc886ae8d59",
+      "tr": "a79b35b2db851d14",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.share": {
+      "src": "29887a5ff9846ccc",
+      "tr": "1316622345e8b8d4",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.signInHint": {
+      "src": "e1718dc659b443c5",
+      "tr": "4ab637778cd0dee9",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.taskName": {
+      "src": "d5164108945c9ab5",
+      "tr": "77000bd45b6a86d1",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.title": {
+      "src": "9a30abeebdc0eb6d",
+      "tr": "c5f7348e676d4ac9",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.deleted": {
+      "src": "e954e713cfb1c9e3",
+      "tr": "4964452991691c15",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.deleteFailed": {
+      "src": "4ee95d47f7fd8a3b",
+      "tr": "88ea8b451ac56e2e",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.linkCopied": {
+      "src": "dcc967e614ba11de",
+      "tr": "2ee98cf38c5fe333",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.linkCopyFailed": {
+      "src": "f5e805d39112ad2e",
+      "tr": "7f40a8b5ec997936",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.needPublic": {
+      "src": "eeed03176c4fb984",
+      "tr": "376e0ce7ea042d84",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.needTask": {
+      "src": "f799c6b6b7e74f49",
+      "tr": "f12b33e1947bc272",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.saved": {
+      "src": "03db467ed5f48bb0",
+      "tr": "27735bfcc118daeb",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.saveFailed": {
+      "src": "5071e91928223a55",
+      "tr": "adb8fe10ec672cf1",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.signIn": {
+      "src": "a0bf5897aad73f11",
+      "tr": "a3d527de3278e30a",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.updated": {
+      "src": "204dad8241d8b46f",
+      "tr": "9df298c7dfaf3c32",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.toasts.visibilityFailed": {
+      "src": "b8e3809611966062",
+      "tr": "d928628487dbca35",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.untitled": {
+      "src": "77efbb465696944a",
+      "tr": "948624b53b15346d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.save.update": {
+      "src": "c1c1009d3f37ec05",
+      "tr": "f475e8cf6bdc5942",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.clear": {
+      "src": "83b12c2216efb4fd",
+      "tr": "e4750da99f0f7665",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.empty": {
+      "src": "9b1414c28aca1a40",
+      "tr": "d1815d3204e2350a",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.fit": {
+      "src": "9f872ed43d00d8bd",
+      "tr": "3657fe4492beeb6d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.format": {
+      "src": "2f343666aaa88c44",
+      "tr": "2f343666aaa88c44",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.help": {
+      "src": "55169f94c77928f7",
+      "tr": "8c1c545b1e26a4de",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.newTask": {
+      "src": "3e992276b2298a1f",
+      "tr": "508458c17b27d9f5",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.newTaskTitle": {
+      "src": "b614f6fb2e7fc6b7",
+      "tr": "50545dea57278923",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.ruleset": {
+      "src": "d1edca3ff9573e69",
+      "tr": "54d5138b57b9af0d",
+      "by": "ai"
+    },
+    "xcTask.sidebar.setup.title": {
+      "src": "675816270de003ac",
+      "tr": "7c078bff54b3e106",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.bearingAria": {
+      "src": "f8229a7534dc9eeb",
+      "tr": "317fe69b4757ec97",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.dragAria": {
+      "src": "0f79a58bfe255ccb",
+      "tr": "1d02b259c042ea8e",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.duplicate": {
+      "src": "d8bada7463b6bdc1",
+      "tr": "e628cc02c7124580",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.halfLine": {
+      "src": "ff9014f6cbf8b7d9",
+      "tr": "ae580cef7aadda59",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.radiusAria": {
+      "src": "30223b68dfb309b4",
+      "tr": "b73971dc132b36e3",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.remove": {
+      "src": "03704683124c7987",
+      "tr": "5fc78bfaae1899ce",
+      "by": "ai"
+    },
+    "xcTask.sidebar.turnpoint.roleAria": {
+      "src": "5757d50026eaeb0a",
+      "tr": "2447e7bb70b9372f",
+      "by": "ai"
+    },
+    "xcTask.validation.elevatedGoalNeedsEss": {
+      "src": "50e05445ad9809ec",
+      "tr": "76340f5710fdf900",
+      "by": "ai"
+    },
+    "xcTask.validation.essBeforeGoalFai": {
+      "src": "59ff4d07e32b708d",
+      "tr": "4d45ff5dff66ae78",
+      "by": "ai"
+    },
+    "xcTask.validation.essBeforeGoalPwca": {
+      "src": "4c6ab820a9607e41",
+      "tr": "eed455a9344386ed",
+      "by": "ai"
+    },
+    "xcTask.validation.firstTurnpoint": {
+      "src": "34078edc711ce7b0",
+      "tr": "04a1cec64186c3da",
+      "by": "ai"
+    },
+    "xcTask.validation.gatesNotSorted": {
+      "src": "eeac50880a5de317",
+      "tr": "dcb0ccf6427d7f27",
+      "by": "ai"
+    },
+    "xcTask.validation.goalHeightHigh": {
+      "src": "3a69b274f57d187e",
+      "tr": "5e3b151bc9df36e8",
+      "by": "ai"
+    },
+    "xcTask.validation.goalNotLast": {
+      "src": "521bfca867e898d8",
+      "tr": "4b44fcb5f68e6402",
+      "by": "ai"
+    },
+    "xcTask.validation.needStartAndGoal": {
+      "src": "54caacb7867972de",
+      "tr": "6a3cd87dd47c0f1a",
+      "by": "ai"
+    },
+    "xcTask.validation.noGoal": {
+      "src": "38ecdea3aab73be7",
+      "tr": "51b8324ced94cf21",
+      "by": "ai"
+    },
+    "xcTask.validation.noSss": {
+      "src": "59dfbb7222403da2",
+      "tr": "df641c27390253dd",
+      "by": "ai"
+    },
+    "xcTask.validation.noTimeGate": {
+      "src": "5ceb08ab26954c82",
+      "tr": "838e214519ab5a84",
+      "by": "ai"
+    },
+    "xcTask.validation.pwcaGoalLine": {
+      "src": "d3a12fcb7dc739a9",
+      "tr": "1c919f0ae512bb83",
+      "by": "ai"
+    },
+    "xcTask.validation.pwcaGoalLineShort": {
+      "src": "bea246fccc6496b9",
+      "tr": "7abafad0437cdf74",
       "by": "ai"
     }
   },
