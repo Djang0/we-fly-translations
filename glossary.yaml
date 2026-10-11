@@ -806,3 +806,24 @@ terms:
     es: ¡A volar!
   "safety emails (gender)":
     note: "Safety contacts and pilots can be anyone: avoid gendered agreement (fr 'a ajouté ton adresse', not 't’a inscrit'; nl 'als veiligheidscontact', not 'zijn of haar')."
+  "z-score (statistics)":
+    fr: z-score
+    de: Z-Score
+    nl: z-score
+    it: z-score
+    es: puntuación z
+    note: "Running text; on-screen labels follow the app's own strings (fr cockpit column 'Score z')."
+  "glass-off (evening restitution lift)":
+    fr: restitution
+    de: Abendthermik
+    nl: avondrestitutie
+    it: restituzione serale
+    es: restitución
+  "sled ride (flight straight down to the landing)":
+    fr: plouf
+    de: Abgleiter
+    nl: glijvluchtje
+    it: planata diretta
+    es: planeo directo
+  "other apps' menus (XContest, Flyskyhy, SeeYou, FolderSync...)":
+    note: "Keep their own labels as they appear on screen (often English); do not invent translations."

@@ -34206,7 +34206,148 @@
       "by": "ai"
     }
   },
-  "docs": {},
+  "docs": {
+    "advanced-thermal-analysis": {
+      "src": "33ecc134c3e82d63",
+      "tr": "441abf575ae5f699",
+      "by": "ai"
+    },
+    "advanced-thermal-analysis-settings": {
+      "src": "f141d56d4853d49f",
+      "tr": "33b9d904afae43e5",
+      "by": "ai"
+    },
+    "cockpit": {
+      "src": "63df7d458bdab7a5",
+      "tr": "66c74813461f7818",
+      "by": "ai"
+    },
+    "community": {
+      "src": "d8afc33a82983030",
+      "tr": "7e5a15fb0d4d0eb0",
+      "by": "ai"
+    },
+    "data-filters": {
+      "src": "854d2cfa8fa1404f",
+      "tr": "872dd8fa839c55e6",
+      "by": "ai"
+    },
+    "data-retention-policy": {
+      "src": "b464100e135d0ec8",
+      "tr": "65797cea38ac8b71",
+      "by": "ai"
+    },
+    "export-igc-files": {
+      "src": "edf27f889ec8dec6",
+      "tr": "7d024d53c18b4709",
+      "by": "ai"
+    },
+    "fai-validation": {
+      "src": "32c0e77295effb4e",
+      "tr": "1d185d3867e6cce4",
+      "by": "ai"
+    },
+    "fix-flight-dates": {
+      "src": "15d4a19e0a98629c",
+      "tr": "94823d8be3bbe2eb",
+      "by": "ai"
+    },
+    "g-factor-pilot-guide": {
+      "src": "e5265059053e0b1c",
+      "tr": "9b849a50ea6004c5",
+      "by": "ai"
+    },
+    "get-your-data": {
+      "src": "5e4b3c06ba49ad39",
+      "tr": "bc6b06264621629d",
+      "by": "ai"
+    },
+    "glide-polar-pilot-guide": {
+      "src": "735963fbad9f3b32",
+      "tr": "71dd0c7d3d1f7a2c",
+      "by": "ai"
+    },
+    "historical-weather-guide": {
+      "src": "cbd59026f92206bd",
+      "tr": "9226bc2edfc63e0c",
+      "by": "ai"
+    },
+    "index": {
+      "src": "bb54ac776e6d1291",
+      "tr": "2590e9c8e134b833",
+      "by": "ai"
+    },
+    "leaderboard-guide": {
+      "src": "302b2c66c1876577",
+      "tr": "9625773b278729fe",
+      "by": "ai"
+    },
+    "overall-thermal-score": {
+      "src": "f4bd7ba65d45b0b6",
+      "tr": "6238613dddef5e92",
+      "by": "ai"
+    },
+    "privacy-policy": {
+      "src": "c28d55856aacb3e3",
+      "tr": "08dddc56103d3978",
+      "by": "ai"
+    },
+    "stats-concept-pilot-guide": {
+      "src": "4e4b6fa0e9b93a42",
+      "tr": "e4d340b4784adc78",
+      "by": "ai"
+    },
+    "sync-instruments-webdav": {
+      "src": "110df12c772b8c93",
+      "tr": "4cad3cbca4922f3d",
+      "by": "ai"
+    },
+    "terms-of-service": {
+      "src": "dd7961b8b850e5ac",
+      "tr": "e34878bc6403377c",
+      "by": "ai"
+    },
+    "upload-from-flyskyhy": {
+      "src": "ea5f4070fd2e6e1b",
+      "tr": "22cb442c447aea51",
+      "by": "ai"
+    },
+    "video-cockpit-tour": {
+      "src": "631920dcd75fc687",
+      "tr": "c1b48f5d3cac68b9",
+      "by": "ai"
+    },
+    "video-fai-walkthrough": {
+      "src": "086fcf70d1be86ad",
+      "tr": "0decfc80d7f9652b",
+      "by": "ai"
+    },
+    "video-thermal-replay": {
+      "src": "40b91c982a0d6429",
+      "tr": "e47bba23916b6c6d",
+      "by": "ai"
+    },
+    "video-three-minute-tour": {
+      "src": "506527281fe5735a",
+      "tr": "0f162dda9d792c4e",
+      "by": "ai"
+    },
+    "wings-management": {
+      "src": "04748f6c1ff4b4cc",
+      "tr": "62419a0ff598acf0",
+      "by": "ai"
+    },
+    "xctrack-folder-permission": {
+      "src": "d590259de9e5cc6b",
+      "tr": "36979e544833a3a5",
+      "by": "ai"
+    },
+    "z-score-pilot-guide": {
+      "src": "cff38fa296e3cdeb",
+      "tr": "651d5df7fcc51eec",
+      "by": "ai"
+    }
+  },
   "blog": {},
   "changelog": {
     "02ccbf1559a1": {
@@ -34257,6 +34398,11 @@
     "17fb450fa77e": {
       "src": "17fb450fa77e1273",
       "tr": "7a1a1f9a33ee0f33",
+      "by": "ai"
+    },
+    "282313d1711c": {
+      "src": "282313d1711c1904",
+      "tr": "57433a8df6507def",
       "by": "ai"
     },
     "2d343433f1f8": {

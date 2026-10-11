@@ -15,7 +15,7 @@ This Privacy Policy explains how we collect, use, store, and protect your person
 
 ### 1.1 Data Controller
 
-We-Fly is the data controller responsible for your personal data. For questions about this Privacy Policy or your data rights, please contact us at the details provided in Section 13.
+We-Fly is the data controller responsible for your personal data. For questions about this Privacy Policy or your data rights, please contact us at the details provided in Section 15.
 
 ### 1.2 Scope
 
@@ -328,7 +328,7 @@ In the event of a data breach affecting your personal data:
 
 **Account Data:**
 - Retained for the lifetime of your account
-- Deleted upon account closure (see Section 9.5)
+- Deleted upon account closure (see Section 9.3)
 
 **Flight Records:**
 - Retained indefinitely while your account is active
@@ -495,7 +495,7 @@ We encourage you to contact us first so we can address your concerns directly.
 ### 9.9 Exercising Your Rights
 
 To exercise any of these rights:
-1. Contact us using the information in Section 13
+1. Contact us using the information in Section 15
 2. Provide sufficient information to verify your identity (we may request confirmation of your email address)
 3. Specify which right(s) you wish to exercise
 4. We will respond within **one month** (extendable by two months for complex requests)
@@ -543,7 +543,7 @@ These preferences are synced across devices.
 We-Fly is not directed to children under the age of 16. We do not knowingly collect personal data from children under 16.
 
 If you are a parent or guardian and believe your child has provided us with personal data:
-- Contact us immediately using the details in Section 13
+- Contact us immediately using the details in Section 15
 - We will delete such information from our systems within 30 days
 
 ## 12. Automated Decision-Making and Profiling
