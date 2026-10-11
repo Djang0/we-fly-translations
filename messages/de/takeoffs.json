@@ -185,10 +185,11 @@
       "close": "Schließen"
     },
     "scoringTypes": {
-      "free_flight": "Freie Strecke",
-      "flat_triangle": "Geschlossenes FAI-Δ",
-      "fai_triangle": "FAI-Δ",
-      "free_triangle": "Geschlossenes freies Δ"
+      "freeFlight": "Freie Strecke",
+      "freeTriangle": "Flaches Dreieck",
+      "faiTriangle": "FAI-Dreieck",
+      "closedFreeTriangle": "Geschlossenes flaches Dreieck",
+      "closedFaiTriangle": "Geschlossenes FAI-Dreieck"
     },
     "conditions": {
       "title": "Aktuelle Bedingungen",

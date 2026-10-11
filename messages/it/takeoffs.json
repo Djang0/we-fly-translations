@@ -185,10 +185,11 @@
       "close": "Chiudi"
     },
     "scoringTypes": {
-      "free_flight": "Volo libero",
-      "flat_triangle": "Δ FAI chiuso",
-      "fai_triangle": "Δ FAI",
-      "free_triangle": "Δ libero chiuso"
+      "freeFlight": "Distanza libera",
+      "freeTriangle": "Triangolo piatto",
+      "faiTriangle": "Triangolo FAI",
+      "closedFreeTriangle": "Triangolo piatto chiuso",
+      "closedFaiTriangle": "Triangolo FAI chiuso"
     },
     "conditions": {
       "title": "Condizioni in tempo reale",

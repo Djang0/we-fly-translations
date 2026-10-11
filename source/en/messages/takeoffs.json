@@ -185,10 +185,11 @@
       "close": "Close"
     },
     "scoringTypes": {
-      "free_flight": "Free flight",
-      "flat_triangle": "Closed FAI Δ",
-      "fai_triangle": "FAI Δ",
-      "free_triangle": "Closed free Δ"
+      "freeFlight": "Free Flight",
+      "freeTriangle": "Free Triangle",
+      "faiTriangle": "FAI Triangle",
+      "closedFreeTriangle": "Closed Free Triangle",
+      "closedFaiTriangle": "Closed FAI Triangle"
     },
     "conditions": {
       "title": "Live conditions",

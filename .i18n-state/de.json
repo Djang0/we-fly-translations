@@ -25720,9 +25720,24 @@
       "tr": "83e07ed1f359d9be",
       "by": "ai"
     },
+    "takeoffs.detail.scoringTypes.closedFaiTriangle": {
+      "src": "176bc10418e925cb",
+      "tr": "def3ec59a06ee9a2",
+      "by": "ai"
+    },
+    "takeoffs.detail.scoringTypes.closedFreeTriangle": {
+      "src": "4f32306a57dfe033",
+      "tr": "95315d30ada15f90",
+      "by": "ai"
+    },
     "takeoffs.detail.scoringTypes.fai_triangle": {
       "src": "3494878aa1afe70e",
       "tr": "c653e3cb9cf36b7c",
+      "by": "ai"
+    },
+    "takeoffs.detail.scoringTypes.faiTriangle": {
+      "src": "271aa73d4cb75e32",
+      "tr": "ee189ca31089dac0",
       "by": "ai"
     },
     "takeoffs.detail.scoringTypes.flat_triangle": {
@@ -25738,6 +25753,16 @@
     "takeoffs.detail.scoringTypes.free_triangle": {
       "src": "3ce849291e73b01b",
       "tr": "a9bd3178096486f9",
+      "by": "ai"
+    },
+    "takeoffs.detail.scoringTypes.freeFlight": {
+      "src": "cdc4486f24da5943",
+      "tr": "4ebda432888282a1",
+      "by": "ai"
+    },
+    "takeoffs.detail.scoringTypes.freeTriangle": {
+      "src": "a27e7a05c4d243da",
+      "tr": "e3520e287e9259f1",
       "by": "ai"
     },
     "takeoffs.detail.sections.analytics": {
