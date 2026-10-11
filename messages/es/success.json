@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Catálogo de insignias",
+    "description": "Explora todos los logros e insignias disponibles en We-Fly. Mira cuáles has conseguido y qué te falta para desbloquear el resto."
+  },
+  "header": {
+    "eyebrow": "Libro de vuelo del piloto · Logros",
+    "title": "Historial de {name}",
+    "defaultName": "Piloto",
+    "subtitle": "{earned, plural, one {# logro sellado} other {# logros sellados}}, {remaining} todavía en el aire.",
+    "filterLabel": "Filtrar insignias"
+  },
+  "filters": {
+    "all": "Todas",
+    "earned": "Conseguidas",
+    "progress": "En curso",
+    "locked": "Bloqueadas"
+  },
+  "stats": {
+    "earned": "Conseguidas",
+    "earnedOf": "de {total}",
+    "completion": "Progreso",
+    "completionSub": "global",
+    "latest": "La última",
+    "latestNone": "aún sin insignias",
+    "closestNext": "La más cercana",
+    "closestNextNone": "vuela más para empezar",
+    "closestNextSub": "{threshold} · {category}"
+  },
+  "safety": {
+    "lead": "La seguridad, lo primero.",
+    "text": "Las insignias celebran tu progresión: nunca fuerces tus límites para conseguir una."
+  },
+  "entry": {
+    "moreMilestones": "+ {count, plural, one {# hito más} other {# hitos más}}",
+    "next": "Siguiente",
+    "stamped": "Sellada",
+    "stampedOn": "Sellada el {date}",
+    "nextMilestone": "Próximo hito",
+    "locked": "Bloqueada"
+  },
+  "special": {
+    "label": "Premios especiales",
+    "description": "Medallas exclusivas por formar parte de la historia de We-Fly.",
+    "pioneerName": "Pionero",
+    "pioneerDescription": "Los primeros 200 pilotos de We-Fly"
+  },
+  "categories": {
+    "xc_distance": {
+      "label": "Distancia XC",
+      "description": "Mayor distancia de cross en un solo vuelo",
+      "name": "XC {value}"
+    },
+    "triangle_distance": {
+      "label": "Triángulo",
+      "description": "Mayor distancia en triángulo en un solo vuelo",
+      "name": "Triángulo {value}"
+    },
+    "fai_triangle": {
+      "label": "Triángulo FAI",
+      "description": "Mayor distancia en triángulo FAI",
+      "name": "Triángulo FAI {value}"
+    },
+    "duration": {
+      "label": "Duración del vuelo",
+      "description": "Vuelo más largo en duración",
+      "name": "En el aire {value}"
+    },
+    "altitude": {
+      "label": "Altitud máxima",
+      "description": "Mayor altitud alcanzada en un solo vuelo",
+      "name": "Altitud {value}"
+    },
+    "height_gain": {
+      "label": "Ganancia de altura",
+      "description": "Mayor ganancia de altura en una sola térmica",
+      "name": "Ganancia en térmica {value}"
+    },
+    "thermal_strength": {
+      "label": "Fuerza de la térmica",
+      "description": "Mayor tasa de ascenso en térmica",
+      "name": "Térmica potente {value}"
+    },
+    "ground_speed": {
+      "label": "Velocidad sobre el suelo",
+      "description": "Mayor velocidad sobre el suelo registrada",
+      "name": "Velocidad {value}"
+    },
+    "flight_count": {
+      "label": "Vuelos totales",
+      "description": "Número acumulado de vuelos subidos",
+      "name": "Vuelos {value}"
+    },
+    "airtime": {
+      "label": "Tiempo de vuelo total",
+      "description": "Horas acumuladas en el aire",
+      "name": "Tiempo de vuelo {value}"
+    },
+    "site_explorer": {
+      "label": "Explorador de despegues",
+      "description": "Número de despegues distintos desde los que has volado",
+      "name": "Despegues {value}"
+    },
+    "country_explorer": {
+      "label": "Explorador de países",
+      "description": "Número de países en los que has volado",
+      "name": "Países {value}"
+    },
+    "season_first": {
+      "label": "Estreno de temporada",
+      "description": "Primer vuelo de la temporada",
+      "name": "Estreno de temporada"
+    }
+  },
+  "badgeGoal": {
+    "flight": "Consigue {value}",
+    "cumulative": "Acumula {value}"
+  },
+  "notYetEarned": "Aún no conseguida"
+}

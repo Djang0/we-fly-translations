@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Flüge hochladen",
+    "description": "Lade IGC-Dateien hoch, um Flüge in dein We-Fly-Flugbuch einzutragen. Zieh deine Gleitschirm-Flugdateien zur Auswertung einfach hierher.",
+    "ogTitle": "Flüge hochladen · We-Fly"
+  },
+  "page": {
+    "eyebrow": "Flugbuch · Hochladen",
+    "title": "Flüge hochladen",
+    "subtitle": "Zieh deine <igc>.igc</igc>-Tracks hierher. Wir lesen die Koordinaten aus, berechnen die Gleitzahlen und ordnen jeden Flug seinem Startplatz zu.",
+    "privacyNotice": "Mit dem Hochladen von IGC-Dateien akzeptierst du die <policy>Datenschutzerklärung</policy>. Flugdaten enthalten GPS-Koordinaten, Zeitstempel und Orte."
+  },
+  "dropzone": {
+    "areaLabel": "Bereich zum Hochladen von Dateien",
+    "title": "Zieh deine Flüge hierher",
+    "hint": "Leg <igc>.igc</igc>-Dateien oder Ordner hier ab.",
+    "limits": "Maximal {size} MB pro Datei · Ordner werden samt Unterordnern durchsucht",
+    "browseFilesAria": "IGC-Dateien durchsuchen und auswählen",
+    "browseFolderAria": "Einen Ordner mit IGC-Dateien durchsuchen und auswählen",
+    "browseMoreFilesAria": "Weitere IGC-Dateien durchsuchen und auswählen",
+    "browseMoreFolderAria": "Einen Ordner mit weiteren IGC-Dateien durchsuchen und auswählen",
+    "rateLimited": "Limit erreicht",
+    "browseFiles": "Dateien wählen",
+    "browseFolder": "Ordner wählen",
+    "addFiles": "Dateien hinzufügen",
+    "addFolder": "Ordner hinzufügen"
+  },
+  "list": {
+    "title": "Heutige Uploads",
+    "parsedCount": "{count} von {total} eingelesen",
+    "progressAria": "Upload-Fortschritt",
+    "progressValueAria": "Upload-Fortschritt: {percent}",
+    "fileSize": "{size} MB",
+    "fileSizeParsed": "{size} MB · Eingelesen",
+    "queued": "In Warteschlange",
+    "parsing": "Wird eingelesen … {percent}",
+    "failed": "Fehlgeschlagen",
+    "failedDetailsAria": "Fehlerdetails ansehen",
+    "uploadFailed": "Upload fehlgeschlagen",
+    "retry": "Erneut versuchen",
+    "retryAria": "Upload von {name} erneut versuchen",
+    "parsed": "Eingelesen",
+    "openFlightAria": "Flug {name} öffnen",
+    "openLogbook": "Flugbuch öffnen",
+    "whatsNew": "Neuigkeiten in We-Fly →"
+  },
+  "toast": {
+    "validReady": "{count, plural, one {# gültige .igc-Datei bereit zum Hochladen} other {# gültige .igc-Dateien bereit zum Hochladen}}",
+    "foundValidReady": "{count, plural, one {# gültige .igc-Datei gefunden, bereit zum Hochladen} other {# gültige .igc-Dateien gefunden, bereit zum Hochladen}}",
+    "ignoredNotIgc": "{count, plural, one {# Datei ignoriert (kein .igc).} other {# Dateien ignoriert (kein .igc).}}",
+    "ignoredTooLarge": "{count, plural, one {# Datei ignoriert (über {size} MB).} other {# Dateien ignoriert (über {size} MB).}}",
+    "noFilesInFolder": "Im abgelegten Ordner wurden keine Dateien gefunden",
+    "waitRateLimit": "Bitte warte, bis das Limit abgelaufen ist, bevor du weitere Dateien hinzufügst.",
+    "retryUnavailable": "Erneuter Versuch nicht möglich: Dateidaten nicht verfügbar",
+    "retrySucceeded": "{name} erfolgreich hochgeladen",
+    "retryFailed": "Erneuter Versuch fehlgeschlagen: {message}"
+  },
+  "rateLimit": {
+    "banner": "{count, plural, one {Upload-Limit erreicht. # Datei wartet auf den automatischen Upload. Lade diese Seite NICHT neu, die Uploads gehen automatisch weiter.} other {Upload-Limit erreicht. # Dateien warten auf den automatischen Upload. Lade diese Seite NICHT neu, die Uploads gehen automatisch weiter.}}"
+  },
+  "errors": {
+    "statusFailed": "Upload fehlgeschlagen mit Status {status}",
+    "server": "Serverfehler. Bitte versuch es später noch einmal.",
+    "unexpectedStatus": "Unerwarteter Status {status}",
+    "network": "Netzwerkfehler beim Hochladen",
+    "unknown": "Unbekannter Fehler",
+    "rateLimitRetry": "Limit überschritten. Neuer Versuch in {seconds} s",
+    "rateLimit": "Limit überschritten",
+    "uploadSuccessful": "Upload erfolgreich"
+  },
+  "summary": {
+    "title": "Upload-Übersicht",
+    "counts": "{success} erfolgreich, {failed} fehlgeschlagen",
+    "succeeded": "{count, plural, one {# Datei erfolgreich hochgeladen} other {# Dateien erfolgreich hochgeladen}}",
+    "failedHeading": "{count, plural, one {# Datei konnte nicht hochgeladen werden} other {# Dateien konnten nicht hochgeladen werden}}",
+    "retrying": "Upload wird erneut versucht …",
+    "retryUpload": "Upload erneut versuchen",
+    "close": "Schließen"
+  },
+  "api": {
+    "unauthorized": "Nicht berechtigt",
+    "tooLarge": "Anfrage zu groß. IGC-Uploads müssen kleiner als 3 MB sein.",
+    "noFile": "Keine Datei hochgeladen",
+    "invalidFile": "Hochgeladene Dateien müssen .IGC-Dateien unter 3 MB sein (1,8 MB entsprechen einem Flug über 531 km).",
+    "insufficientFixes": "Zu wenige GPS-Fixes: {count} B-Datensätze gefunden (mindestens {minimum} erforderlich)",
+    "processFailed": "Wir konnten diesen Flug nicht verarbeiten. Bitte versuch es später noch einmal.",
+    "uploaded": "Datei {name} wurde erfolgreich hochgeladen",
+    "internal": "Interner Serverfehler"
+  }
+}

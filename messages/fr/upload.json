@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Importer des vols",
+    "description": "Importe tes fichiers IGC pour ajouter tes vols à ton carnet de vol We-Fly. Glisse-dépose tes traces de parapente pour les analyser.",
+    "ogTitle": "Importer des vols - We-Fly"
+  },
+  "page": {
+    "eyebrow": "Carnet de vol · Import",
+    "title": "Importer des vols",
+    "subtitle": "Dépose tes traces <igc>.igc</igc> ici. On lit les coordonnées, on calcule les finesses et on rattache chaque vol à son décollage.",
+    "privacyNotice": "En important des fichiers IGC, tu acceptes la <policy>politique de confidentialité</policy>. Les données de vol contiennent des coordonnées GPS, des horodatages et des lieux."
+  },
+  "dropzone": {
+    "areaLabel": "Zone d’import de fichiers",
+    "title": "Glisse-dépose tes vols",
+    "hint": "Dépose ici des fichiers <igc>.igc</igc> ou des dossiers.",
+    "limits": "{size} Mo max par fichier · dossiers parcourus avec leurs sous-dossiers",
+    "browseFilesAria": "Parcourir et choisir des fichiers IGC",
+    "browseFolderAria": "Parcourir et choisir un dossier contenant des fichiers IGC",
+    "browseMoreFilesAria": "Parcourir et choisir d’autres fichiers IGC",
+    "browseMoreFolderAria": "Parcourir et choisir un dossier contenant d’autres fichiers IGC",
+    "rateLimited": "Limite atteinte",
+    "browseFiles": "Choisir des fichiers",
+    "browseFolder": "Choisir un dossier",
+    "addFiles": "Ajouter des fichiers",
+    "addFolder": "Ajouter un dossier"
+  },
+  "list": {
+    "title": "Imports du jour",
+    "parsedCount": "{count} sur {total} analysés",
+    "progressAria": "Progression de l’import",
+    "progressValueAria": "Progression de l’import : {percent}",
+    "fileSize": "{size} Mo",
+    "fileSizeParsed": "{size} Mo · Analysé",
+    "queued": "En attente",
+    "parsing": "Analyse… {percent}",
+    "failed": "Échec",
+    "failedDetailsAria": "Voir le détail de l’erreur",
+    "uploadFailed": "Échec de l’import",
+    "retry": "Réessayer",
+    "retryAria": "Relancer l’import de {name}",
+    "parsed": "Analysé",
+    "openFlightAria": "Ouvrir le vol {name}",
+    "openLogbook": "Ouvrir le carnet de vol",
+    "whatsNew": "Nouveautés de We-Fly →"
+  },
+  "toast": {
+    "validReady": "{count, plural, one {# fichier .igc valide prêt à importer} other {# fichiers .igc valides prêts à importer}}",
+    "foundValidReady": "{count, plural, one {# fichier .igc valide trouvé, prêt à importer} other {# fichiers .igc valides trouvés, prêts à importer}}",
+    "ignoredNotIgc": "{count, plural, one {# fichier ignoré (pas un .igc).} other {# fichiers ignorés (pas des .igc).}}",
+    "ignoredTooLarge": "{count, plural, one {# fichier ignoré (plus de {size} Mo).} other {# fichiers ignorés (plus de {size} Mo).}}",
+    "noFilesInFolder": "Aucun fichier trouvé dans le ou les dossiers déposés",
+    "waitRateLimit": "Attends la fin de la limite d’envoi avant d’ajouter d’autres fichiers.",
+    "retryUnavailable": "Impossible de réessayer : les données du fichier ne sont plus disponibles",
+    "retrySucceeded": "{name} importé avec succès",
+    "retryFailed": "Nouvel essai échoué : {message}"
+  },
+  "rateLimit": {
+    "banner": "{count, plural, one {Limite d’import atteinte. # fichier en attente d’import automatique. NE RECHARGE PAS cette page : les imports reprendront tout seuls.} other {Limite d’import atteinte. # fichiers en attente d’import automatique. NE RECHARGE PAS cette page : les imports reprendront tout seuls.}}"
+  },
+  "errors": {
+    "statusFailed": "Échec de l’import (statut {status})",
+    "server": "Erreur serveur. Réessaie plus tard.",
+    "unexpectedStatus": "Statut inattendu {status}",
+    "network": "Erreur réseau pendant l’import",
+    "unknown": "Erreur inconnue",
+    "rateLimitRetry": "Limite atteinte. Nouvel essai dans {seconds} s",
+    "rateLimit": "Limite atteinte",
+    "uploadSuccessful": "Import réussi"
+  },
+  "summary": {
+    "title": "Bilan de l’import",
+    "counts": "{success} réussis, {failed} en échec",
+    "succeeded": "{count, plural, one {# fichier importé avec succès} other {# fichiers importés avec succès}}",
+    "failedHeading": "{count, plural, one {# fichier n’a pas pu être importé} other {# fichiers n’ont pas pu être importés}}",
+    "retrying": "Nouvel essai en cours…",
+    "retryUpload": "Relancer l’import",
+    "close": "Fermer"
+  },
+  "api": {
+    "unauthorized": "Non autorisé",
+    "tooLarge": "Requête trop volumineuse. Les fichiers IGC doivent faire moins de 3 Mo.",
+    "noFile": "Aucun fichier importé",
+    "invalidFile": "Les fichiers importés doivent être des .IGC de moins de 3 Mo (1,8 Mo, c’est un vol de 531 km).",
+    "insufficientFixes": "Pas assez de points GPS : {count} trames B trouvées (minimum {minimum})",
+    "processFailed": "Impossible de traiter ce vol. Réessaie plus tard.",
+    "uploaded": "Le fichier {name} a bien été importé",
+    "internal": "Erreur interne du serveur"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "profile": {
+      "title": "Mijn profiel",
+      "description": "Beheer je We-Fly-profiel, je accountinstellingen en de voorkeuren van je paragliding-logboek.",
+      "ogTitle": "Mijn profiel - We-Fly"
+    },
+    "anomalies": {
+      "title": "Vluchtafwijkingen - We-Fly",
+      "description": "Bekijk en herstel afwijkingen die in je vluchtgegevens gevonden zijn"
+    },
+    "shared": {
+      "title": "Gedeelde vluchten - We-Fly",
+      "description": "Beheer je openbaar gedeelde links naar vluchten en replays"
+    }
+  },
+  "identity": {
+    "eyebrow": "Profiel",
+    "verified": "Geverifieerd",
+    "publicProfile": "Openbaar profiel",
+    "privateProfile": "Privéprofiel",
+    "avatarAlt": "Avatar van de gebruiker",
+    "editName": "Weergavenaam bewerken",
+    "makePublic": "Maak je profiel openbaar om het te delen.",
+    "openLogbook": "Volledig logboek openen",
+    "pioneer": "Pionier"
+  },
+  "signature": {
+    "hoursAloft": "Uren in de lucht",
+    "flights": "Vluchten",
+    "distance": "Afstand",
+    "sites": "Vlieggebieden",
+    "hoursThisYear": "<plus>+{value} u</plus> dit jaar",
+    "flightsThisYear": "<plus>+{count}</plus> dit jaar",
+    "noFlightsThisYear": "geen vluchten dit jaar",
+    "acrossCountries": "in {count, plural, one {# land} other {# landen}}",
+    "sitesThisYear": "{count, plural, one {# vlieggebied} other {# vlieggebieden}} dit jaar"
+  },
+  "settings": {
+    "title": "Account",
+    "caption": "Privacy, eenheden, inloggen, e-mails en je gegevens",
+    "privacy": {
+      "title": "Privacy-instellingen",
+      "public": "Openbaar profiel · zichtbaarheid per vlucht instellen",
+      "private": "Privéprofiel · alleen jij ziet je gegevens"
+    },
+    "export": {
+      "title": "Gegevens exporteren",
+      "description": "Download IGC-bestanden en een CSV van je vluchten · {count, plural, one {# record} other {# records}}"
+    },
+    "connectedServices": {
+      "title": "Gekoppelde diensten",
+      "description": "CIVL · Logfly · Google Drive"
+    },
+    "signIn": {
+      "title": "Inlogmethoden",
+      "description": "Passkeys · gekoppelde accounts"
+    },
+    "units": {
+      "title": "Meeteenheden"
+    },
+    "emails": {
+      "title": "E-mails",
+      "description": "Starttips"
+    },
+    "delete": {
+      "title": "Account verwijderen",
+      "description": "Account en {count, plural, one {# vluchtrecord} other {# vluchtrecords}} definitief verwijderen"
+    }
+  },
+  "statistics": {
+    "title": "Vluchtstatistieken",
+    "sectionLabel": "Vluchtstatistieken",
+    "sinceLabel": "Totaal · sinds {date}",
+    "empty": "Nog geen vluchten gelogd. Upload je eerste IGC-bestand om je statistieken te zien.",
+    "flights": "Vluchten",
+    "hours": "Uren",
+    "distance": "Afstand",
+    "sites": "Vlieggebieden",
+    "countries": "Landen",
+    "avgFlight": "Gem. vlucht",
+    "avgFlightCaps": "Gem. vlucht",
+    "total": "totaal",
+    "takeoffs": "startplaatsen",
+    "visited": "bezocht",
+    "hoursUnit": "uur",
+    "solo": "Solo",
+    "tandem": "Tandem",
+    "splitMeta": "uur · {count, plural, one {# vlucht} other {# vluchten}}",
+    "byType": "Vluchten per type",
+    "byTypeCaps": "Vluchten per type",
+    "totalFlights": "{count} in totaal"
+  },
+  "heatmap": {
+    "title": "Vliegactiviteit",
+    "yearInReview": "Jaaroverzicht",
+    "yearInReviewTitle": "Jaaroverzicht {year}",
+    "yearInReviewDescription": "Een samenvatting van je vliegseizoen {year}: totalen, records, favoriete vlieggebieden en je plaats in de community.",
+    "previousYear": "Vorig jaar",
+    "nextYear": "Volgend jaar",
+    "tooltip": "{date}: {count, plural, =0 {Geen vluchten} one {# vlucht} other {# vluchten}}",
+    "summary": "<b>{flights}</b> {flights, plural, one {vlucht} other {vluchten}} op <b>{days}</b> {days, plural, one {dag} other {dagen}}",
+    "longestStreak": "Langste reeks: <b>{count}</b> {count, plural, one {dag} other {dagen}}",
+    "currentStreak": "Huidige reeks: <b>{count}</b> {count, plural, one {dag} other {dagen}}",
+    "less": "Minder",
+    "more": "Meer"
+  },
+  "achievements": {
+    "title": "Prestaties",
+    "caption": "{earned} van {total} behaald",
+    "viewAll": "Alles bekijken",
+    "empty": "Nog geen prestaties. Upload een vlucht om badges te verdienen.",
+    "pioneer": "Pionier",
+    "founderCohort": "Eerste lichting",
+    "earnedOn": "Behaald op {date}",
+    "earned": "Behaald"
+  },
+  "anomalies": {
+    "sectionLabel": "Datakwaliteit",
+    "title": "Datakwaliteit",
+    "reviewAria": "{count, plural, one {# vluchtafwijking} other {# vluchtafwijkingen}} bekijken",
+    "issuesDetected": "{count, plural, one {# probleem} other {# problemen}} gevonden",
+    "actionRequired": "Actie vereist",
+    "inconsistencies": "We hebben inconsistenties in je vluchtgegevens gevonden. Bekijk en herstel ze om je logboek correct te houden.",
+    "none": "Geen afwijkingen gevonden",
+    "consistent": "Je vluchtgegevens zien er consistent en correct uit.",
+    "consistentWithIgnored": "Je vluchtgegevens zien er consistent en correct uit. {count} genegeerd.",
+    "viewIgnored": "Genegeerde bekijken"
+  },
+  "integrity": {
+    "title": "Data-integriteit",
+    "consistent": "Je vluchtgegevens zien er consistent uit",
+    "review": "Bekijken",
+    "reviewAria": "{count, plural, one {# vluchtafwijking} other {# vluchtafwijkingen}} bekijken",
+    "issuesDetected": "{count, plural, one {# probleem} other {# problemen}} gevonden",
+    "reviewAndFix": "Bekijk en herstel om je logboek correct te houden",
+    "reviewLink": "Bekijken →",
+    "none": "Geen afwijkingen gevonden",
+    "ignored": "{count} genegeerd",
+    "sharedPublicly": "<countTag>{formatted}</countTag> {count, plural, one {vlucht} other {vluchten}} openbaar gedeeld",
+    "manageLinks": "Links beheren"
+  },
+  "reviewRequests": {
+    "title": "Verzoeken om vluchtreview",
+    "pending": "{count} open",
+    "askedToReview": "{name} vroeg je een vlucht te bekijken",
+    "reviewAndAnnotate": "Bekijken en annoteren",
+    "blocked": "Geblokkeerde annotators",
+    "unblock": "Deblokkeren",
+    "unblocked": "Piloot gedeblokkeerd",
+    "unblockFailed": "Piloot deblokkeren mislukt"
+  },
+  "shared": {
+    "eyebrow": "Delen",
+    "title": "Gedeelde vluchten",
+    "subtitle": "Beheer je openbaar gedeelde links naar vluchten en replays.",
+    "backToProfile": "← Terug naar profiel",
+    "sectionLabel": "Gedeelde vluchten",
+    "sectionTitle": "Gedeelde vluchten",
+    "count": "{count, plural, one {# vlucht} other {# vluchten}} gedeeld",
+    "none": "Geen gedeelde vluchten",
+    "manage": "Beheer je openbare vluchtlinks",
+    "getStarted": "Deel vluchten vanuit je logboek om te beginnen",
+    "viewAria": "{count, plural, one {# gedeelde vlucht} other {# gedeelde vluchten}} bekijken",
+    "linkCount": "{count, plural, one {# link} other {# links}}",
+    "cancel": "Annuleren",
+    "revoke": "Intrekken",
+    "revoking": "Intrekken…",
+    "revokeLink": "Link intrekken",
+    "revokeFailed": "Link intrekken mislukt",
+    "flights": {
+      "title": "Gedeelde vluchten",
+      "loadFailed": "Gedeelde vluchten laden mislukt.",
+      "empty": "Nog geen gedeelde vluchten. Deel een vlucht vanuit je logboek.",
+      "date": "Datum",
+      "takeoff": "Startplaats",
+      "distance": "Afstand",
+      "type": "Type",
+      "rowAria": "Gedeelde vlucht op {date} vanaf {takeoff}",
+      "revokeAria": "Deellink intrekken",
+      "dialogTitle": "Deellink intrekken?",
+      "dialogDescription": "Wie de link heeft, kan deze vlucht dan niet meer bekijken. Je kunt altijd een nieuwe link maken.",
+      "revoked": "Deellink ingetrokken"
+    },
+    "replays": {
+      "title": "Gedeelde replays",
+      "loadFailed": "Gedeelde replays laden mislukt.",
+      "empty": "Nog geen gedeelde replays. Deel er een via het tabblad 3D-replay of Zelfde dag van een vlucht.",
+      "flightReplay": "3D-replay",
+      "sameDayReplay": "Replay zelfde dag · {count, plural, one {# piloot} other {# piloten}}",
+      "rowAria": "{label} op {date} vanaf {takeoff}",
+      "revokeAria": "Replaylink intrekken",
+      "dialogTitle": "Replaylink intrekken?",
+      "dialogDescription": "Wie de link heeft, kan deze replay dan niet meer bekijken. Je kunt altijd een nieuwe link maken.",
+      "revoked": "Replaylink ingetrokken"
+    }
+  },
+  "shareProfile": {
+    "button": "Profiel delen",
+    "dialogTitle": "Deel je pilotenprofiel",
+    "generating": "Je link wordt aangemaakt...",
+    "failed": "Link aanmaken mislukt",
+    "description": "Iedereen met deze link ziet je openbare pilotenkaart met statistieken en badges.",
+    "preview": "Voorbeeld",
+    "share": "Delen",
+    "nativeShareTitle": "Mijn We-Fly-profiel"
+  },
+  "civl": {
+    "rankings": "CIVL-rankings",
+    "viewOn": "Bekijken op civlcomps.org",
+    "profile": "CIVL-profiel: <link>{name}</link>",
+    "world": "Wereld",
+    "europe": "EU",
+    "national": "Nat",
+    "updated": "Bijgewerkt op {date}"
+  },
+  "publicFlights": {
+    "error": "Fout bij het laden van vluchten",
+    "empty": "Geen vluchten gevonden voor deze piloot"
+  }
+}

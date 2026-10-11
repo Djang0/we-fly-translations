@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Badgecatalogus",
+    "description": "Bekijk alle prestaties en badges op We-Fly. Zie welke je al behaald hebt en wat je nodig hebt om de rest te ontgrendelen."
+  },
+  "header": {
+    "eyebrow": "Logboek van de piloot · Prestaties",
+    "title": "Staat van dienst van {name}",
+    "defaultName": "Piloot",
+    "subtitle": "{earned, plural, one {# prestatie afgestempeld} other {# prestaties afgestempeld}}, {remaining} nog in de lucht.",
+    "filterLabel": "Badges filteren"
+  },
+  "filters": {
+    "all": "Alle",
+    "earned": "Behaald",
+    "progress": "Bezig",
+    "locked": "Vergrendeld"
+  },
+  "stats": {
+    "earned": "Behaald",
+    "earnedOf": "van {total}",
+    "completion": "Voltooiing",
+    "completionSub": "totaal",
+    "latest": "Laatste",
+    "latestNone": "nog geen badges",
+    "closestNext": "Eerstvolgende",
+    "closestNextNone": "vlieg meer om te beginnen",
+    "closestNextSub": "{threshold} · {category}"
+  },
+  "safety": {
+    "lead": "Veiligheid eerst.",
+    "text": "Badges vieren je vooruitgang, ga nooit over je grenzen om er een te halen."
+  },
+  "entry": {
+    "moreMilestones": "+ {count, plural, one {# mijlpaal meer} other {# mijlpalen meer}}",
+    "next": "Volgende",
+    "stamped": "Afgestempeld",
+    "stampedOn": "Afgestempeld op {date}",
+    "nextMilestone": "Volgende mijlpaal",
+    "locked": "Vergrendeld"
+  },
+  "special": {
+    "label": "Speciale onderscheidingen",
+    "description": "Exclusieve medailles voor wie deel uitmaakt van het verhaal van We-Fly.",
+    "pioneerName": "Pionier",
+    "pioneerDescription": "De eerste 200 piloten op We-Fly"
+  },
+  "categories": {
+    "xc_distance": {
+      "label": "XC-afstand",
+      "description": "Langste overlandafstand in één vlucht",
+      "name": "XC {value}"
+    },
+    "triangle_distance": {
+      "label": "Driehoek",
+      "description": "Langste driehoeksafstand in één vlucht",
+      "name": "Driehoek {value}"
+    },
+    "fai_triangle": {
+      "label": "FAI-driehoek",
+      "description": "Langste FAI-driehoek",
+      "name": "FAI-driehoek {value}"
+    },
+    "duration": {
+      "label": "Vluchtduur",
+      "description": "Langste duur van één vlucht",
+      "name": "In de lucht {value}"
+    },
+    "altitude": {
+      "label": "Max. hoogte",
+      "description": "Hoogste hoogte bereikt in één vlucht",
+      "name": "Hoogte {value}"
+    },
+    "height_gain": {
+      "label": "Hoogtewinst",
+      "description": "Grootste hoogtewinst in één thermiek",
+      "name": "Thermiekwinst {value}"
+    },
+    "thermal_strength": {
+      "label": "Thermiekkracht",
+      "description": "Sterkste stijgsnelheid in thermiek",
+      "name": "Thermiekkracht {value}"
+    },
+    "ground_speed": {
+      "label": "Grondsnelheid",
+      "description": "Hoogste geregistreerde grondsnelheid",
+      "name": "Snelheid {value}"
+    },
+    "flight_count": {
+      "label": "Totaal aantal vluchten",
+      "description": "Totaal aantal geüploade vluchten",
+      "name": "Vluchten {value}"
+    },
+    "airtime": {
+      "label": "Totale vliegtijd",
+      "description": "Totaal aantal uren in de lucht",
+      "name": "Vliegtijd {value}"
+    },
+    "site_explorer": {
+      "label": "Startplaatsverkenner",
+      "description": "Aantal verschillende startplaatsen waar je vanaf vloog",
+      "name": "Startplaatsen {value}"
+    },
+    "country_explorer": {
+      "label": "Landenverkenner",
+      "description": "Aantal landen waar je gevlogen hebt",
+      "name": "Landen {value}"
+    },
+    "season_first": {
+      "label": "Seizoensopener",
+      "description": "Eerste vlucht van het seizoen",
+      "name": "Seizoensopener"
+    }
+  },
+  "badgeGoal": {
+    "flight": "Haal {value}",
+    "cumulative": "Verzamel {value}"
+  },
+  "notYetEarned": "Nog niet behaald"
+}

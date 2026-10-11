@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Abzeichen-Katalog",
+    "description": "Entdecke alle Erfolge und Abzeichen auf We-Fly. Sieh, welche du schon hast und was es für die übrigen braucht."
+  },
+  "header": {
+    "eyebrow": "Flugbuch · Erfolge",
+    "title": "Bilanz von {name}",
+    "defaultName": "Pilot",
+    "subtitle": "{earned, plural, one {# Erfolg abgestempelt} other {# Erfolge abgestempelt}}, {remaining} noch in der Luft.",
+    "filterLabel": "Abzeichen filtern"
+  },
+  "filters": {
+    "all": "Alle",
+    "earned": "Erreicht",
+    "progress": "In Arbeit",
+    "locked": "Gesperrt"
+  },
+  "stats": {
+    "earned": "Erreicht",
+    "earnedOf": "von {total}",
+    "completion": "Fortschritt",
+    "completionSub": "gesamt",
+    "latest": "Zuletzt",
+    "latestNone": "noch keine Abzeichen",
+    "closestNext": "Als Nächstes",
+    "closestNextNone": "flieg mehr, um loszulegen",
+    "closestNextSub": "{threshold} · {category}"
+  },
+  "safety": {
+    "lead": "Sicherheit zuerst.",
+    "text": "Abzeichen feiern deinen Fortschritt. Geh nie über deine Grenzen, nur um eines zu bekommen."
+  },
+  "entry": {
+    "moreMilestones": "+ {count, plural, one {# weiterer Meilenstein} other {# weitere Meilensteine}}",
+    "next": "Nächstes",
+    "stamped": "Abgestempelt",
+    "stampedOn": "Abgestempelt am {date}",
+    "nextMilestone": "Nächster Meilenstein",
+    "locked": "Gesperrt"
+  },
+  "special": {
+    "label": "Sonderauszeichnungen",
+    "description": "Exklusive Medaillen für alle, die Teil der We-Fly-Geschichte sind.",
+    "pioneerName": "Pionier",
+    "pioneerDescription": "Die ersten 200 Piloten auf We-Fly"
+  },
+  "categories": {
+    "xc_distance": {
+      "label": "XC-Strecke",
+      "description": "Weiteste Strecke in einem einzigen Flug",
+      "name": "XC {value}"
+    },
+    "triangle_distance": {
+      "label": "Dreieck",
+      "description": "Größtes Dreieck in einem einzigen Flug",
+      "name": "Dreieck {value}"
+    },
+    "fai_triangle": {
+      "label": "FAI-Dreieck",
+      "description": "Größtes FAI-Dreieck",
+      "name": "FAI-Dreieck {value}"
+    },
+    "duration": {
+      "label": "Flugdauer",
+      "description": "Längste Dauer eines einzelnen Flugs",
+      "name": "In der Luft {value}"
+    },
+    "altitude": {
+      "label": "Max. Höhe",
+      "description": "Größte erreichte Höhe in einem einzigen Flug",
+      "name": "Höhe {value}"
+    },
+    "height_gain": {
+      "label": "Höhengewinn",
+      "description": "Größter Höhengewinn in einem einzigen Bart",
+      "name": "Höhengewinn {value}"
+    },
+    "thermal_strength": {
+      "label": "Thermikstärke",
+      "description": "Stärkster Steigwert in der Thermik",
+      "name": "Steigen {value}"
+    },
+    "ground_speed": {
+      "label": "Grundgeschwindigkeit",
+      "description": "Höchste gemessene Grundgeschwindigkeit",
+      "name": "Speed {value}"
+    },
+    "flight_count": {
+      "label": "Flüge gesamt",
+      "description": "Anzahl aller hochgeladenen Flüge",
+      "name": "Flüge {value}"
+    },
+    "airtime": {
+      "label": "Flugzeit gesamt",
+      "description": "Summe aller Stunden in der Luft",
+      "name": "Flugzeit {value}"
+    },
+    "site_explorer": {
+      "label": "Fluggebiets-Entdecker",
+      "description": "Anzahl verschiedener Startplätze, von denen du gestartet bist",
+      "name": "Startplätze {value}"
+    },
+    "country_explorer": {
+      "label": "Länder-Entdecker",
+      "description": "Anzahl der Länder, in denen du geflogen bist",
+      "name": "Länder {value}"
+    },
+    "season_first": {
+      "label": "Saisonauftakt",
+      "description": "Erster Flug der Saison",
+      "name": "Saisonauftakt"
+    }
+  },
+  "badgeGoal": {
+    "flight": "Erreiche {value}",
+    "cumulative": "Sammle {value}"
+  },
+  "notYetEarned": "Noch nicht erreicht"
+}

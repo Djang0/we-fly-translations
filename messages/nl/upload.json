@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Vluchten uploaden",
+    "description": "Upload IGC-bestanden om vluchten aan je We-Fly-logboek toe te voegen. Sleep je paraglidingvluchten hierheen voor analyse.",
+    "ogTitle": "Vluchten uploaden - We-Fly"
+  },
+  "page": {
+    "eyebrow": "Logboek · Uploaden",
+    "title": "Vluchten uploaden",
+    "subtitle": "Sleep je <igc>.igc</igc>-tracks hierheen. We lezen de coördinaten uit, berekenen je glijgetal en koppelen elke vlucht aan zijn startplaats.",
+    "privacyNotice": "Door IGC-bestanden te uploaden, ga je akkoord met het <policy>privacybeleid</policy>. Vluchtgegevens bevatten GPS-coördinaten, tijdstippen en locatie."
+  },
+  "dropzone": {
+    "areaLabel": "Uploadzone",
+    "title": "Sleep je vluchten hierheen",
+    "hint": "Zet hier <igc>.igc</igc>-bestanden of mappen neer.",
+    "limits": "Maximaal {size} MB per bestand · mappen worden volledig doorzocht",
+    "browseFilesAria": "IGC-bestanden zoeken en selecteren",
+    "browseFolderAria": "Een map met IGC-bestanden zoeken en selecteren",
+    "browseMoreFilesAria": "Meer IGC-bestanden zoeken en selecteren",
+    "browseMoreFolderAria": "Een map met meer IGC-bestanden zoeken en selecteren",
+    "rateLimited": "Limiet bereikt",
+    "browseFiles": "Bestanden kiezen",
+    "browseFolder": "Map kiezen",
+    "addFiles": "Bestanden toevoegen",
+    "addFolder": "Map toevoegen"
+  },
+  "list": {
+    "title": "Uploads van vandaag",
+    "parsedCount": "{count} van {total} verwerkt",
+    "progressAria": "Uploadvoortgang",
+    "progressValueAria": "Uploadvoortgang: {percent}",
+    "fileSize": "{size} MB",
+    "fileSizeParsed": "{size} MB · Verwerkt",
+    "queued": "In wachtrij",
+    "parsing": "Verwerken… {percent}",
+    "failed": "Mislukt",
+    "failedDetailsAria": "Foutdetails bekijken",
+    "uploadFailed": "Upload mislukt",
+    "retry": "Opnieuw",
+    "retryAria": "Upload van {name} opnieuw proberen",
+    "parsed": "Verwerkt",
+    "openFlightAria": "Vlucht {name} openen",
+    "openLogbook": "Logboek openen",
+    "whatsNew": "Wat is er nieuw in We-Fly →"
+  },
+  "toast": {
+    "validReady": "{count, plural, one {# geldig .igc-bestand klaar om te uploaden} other {# geldige .igc-bestanden klaar om te uploaden}}",
+    "foundValidReady": "{count, plural, one {# geldig .igc-bestand gevonden, klaar om te uploaden} other {# geldige .igc-bestanden gevonden, klaar om te uploaden}}",
+    "ignoredNotIgc": "{count, plural, one {# bestand genegeerd (geen .igc).} other {# bestanden genegeerd (geen .igc).}}",
+    "ignoredTooLarge": "{count, plural, one {# bestand genegeerd (groter dan {size} MB).} other {# bestanden genegeerd (groter dan {size} MB).}}",
+    "noFilesInFolder": "Geen bestanden gevonden in de neergezette map(pen)",
+    "waitRateLimit": "Wacht tot de limiet verlopen is voordat je meer bestanden toevoegt.",
+    "retryUnavailable": "Opnieuw proberen niet mogelijk: bestandsgegevens niet beschikbaar",
+    "retrySucceeded": "{name} geüpload",
+    "retryFailed": "Opnieuw proberen mislukt: {message}"
+  },
+  "rateLimit": {
+    "banner": "{count, plural, one {Uploadlimiet bereikt. # bestand staat in de wachtrij voor automatische upload. Herlaad deze pagina NIET, de uploads gaan vanzelf verder.} other {Uploadlimiet bereikt. # bestanden staan in de wachtrij voor automatische upload. Herlaad deze pagina NIET, de uploads gaan vanzelf verder.}}"
+  },
+  "errors": {
+    "statusFailed": "Upload mislukt met status {status}",
+    "server": "Serverfout. Probeer het later opnieuw.",
+    "unexpectedStatus": "Onverwachte status {status}",
+    "network": "Netwerkfout tijdens het uploaden",
+    "unknown": "Onbekende fout",
+    "rateLimitRetry": "Limiet overschreden. Nieuwe poging over {seconds}s",
+    "rateLimit": "Limiet overschreden",
+    "uploadSuccessful": "Upload gelukt"
+  },
+  "summary": {
+    "title": "Uploadoverzicht",
+    "counts": "{success} gelukt, {failed} mislukt",
+    "succeeded": "{count, plural, one {# bestand geüpload} other {# bestanden geüpload}}",
+    "failedHeading": "{count, plural, one {Upload van # bestand mislukt} other {Upload van # bestanden mislukt}}",
+    "retrying": "Upload opnieuw proberen...",
+    "retryUpload": "Upload opnieuw proberen",
+    "close": "Sluiten"
+  },
+  "api": {
+    "unauthorized": "Niet toegestaan",
+    "tooLarge": "Verzoek te groot. IGC-uploads moeten kleiner zijn dan 3 MB.",
+    "noFile": "Geen bestand geüpload",
+    "invalidFile": "Geüploade bestanden moeten .IGC-bestanden zijn van minder dan 3MB (1,8MB is een vlucht van 531km).",
+    "insufficientFixes": "Te weinig GPS-fixes: {count} B-records gevonden (minimaal {minimum} vereist)",
+    "processFailed": "We konden deze vlucht niet verwerken. Probeer het later opnieuw.",
+    "uploaded": "Bestand {name} is geüpload",
+    "internal": "Interne serverfout"
+  }
+}

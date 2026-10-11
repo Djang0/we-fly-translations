@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Badge Catalog",
+    "description": "Browse all achievements and badges available on We-Fly. See which ones you have earned and what it takes to unlock the rest."
+  },
+  "header": {
+    "eyebrow": "Pilot's logbook · Achievements",
+    "title": "{name}'s record",
+    "defaultName": "Pilot",
+    "subtitle": "{earned, plural, one {# achievement stamped} other {# achievements stamped}}, {remaining} still in the air.",
+    "filterLabel": "Filter badges"
+  },
+  "filters": {
+    "all": "All",
+    "earned": "Earned",
+    "progress": "In progress",
+    "locked": "Locked"
+  },
+  "stats": {
+    "earned": "Earned",
+    "earnedOf": "of {total}",
+    "completion": "Completion",
+    "completionSub": "overall",
+    "latest": "Latest",
+    "latestNone": "no badges yet",
+    "closestNext": "Closest next",
+    "closestNextNone": "fly more to start",
+    "closestNextSub": "{threshold} · {category}"
+  },
+  "safety": {
+    "lead": "Safety first.",
+    "text": "Badges celebrate progression, never push your limits to earn one."
+  },
+  "entry": {
+    "moreMilestones": "+ {count, plural, one {# more milestone} other {# more milestones}}",
+    "next": "Next",
+    "stamped": "Stamped",
+    "stampedOn": "Stamped {date}",
+    "nextMilestone": "Next milestone",
+    "locked": "Locked"
+  },
+  "special": {
+    "label": "Special Awards",
+    "description": "Exclusive medals awarded for being part of the We-Fly story.",
+    "pioneerName": "Pioneer",
+    "pioneerDescription": "First 200 pilots on We-Fly"
+  },
+  "categories": {
+    "xc_distance": {
+      "label": "XC Distance",
+      "description": "Longest cross-country distance in a single flight",
+      "name": "XC {value}"
+    },
+    "triangle_distance": {
+      "label": "Triangle",
+      "description": "Longest triangle distance in a single flight",
+      "name": "Triangle {value}"
+    },
+    "fai_triangle": {
+      "label": "FAI Triangle",
+      "description": "Longest FAI triangle distance",
+      "name": "FAI Triangle {value}"
+    },
+    "duration": {
+      "label": "Flight Duration",
+      "description": "Longest single flight duration",
+      "name": "Airborne {value}"
+    },
+    "altitude": {
+      "label": "Max Altitude",
+      "description": "Highest altitude reached in a single flight",
+      "name": "Altitude {value}"
+    },
+    "height_gain": {
+      "label": "Height Gain",
+      "description": "Greatest height gain in a single thermal",
+      "name": "Thermal Gain {value}"
+    },
+    "thermal_strength": {
+      "label": "Thermal Strength",
+      "description": "Strongest thermal climb rate",
+      "name": "Thermal Power {value}"
+    },
+    "ground_speed": {
+      "label": "Ground Speed",
+      "description": "Fastest ground speed recorded",
+      "name": "Speed {value}"
+    },
+    "flight_count": {
+      "label": "Total Flights",
+      "description": "Cumulative number of flights uploaded",
+      "name": "Flights {value}"
+    },
+    "airtime": {
+      "label": "Total Airtime",
+      "description": "Cumulative hours spent in the air",
+      "name": "Airtime {value}"
+    },
+    "site_explorer": {
+      "label": "Site Explorer",
+      "description": "Number of distinct takeoff sites flown from",
+      "name": "Sites {value}"
+    },
+    "country_explorer": {
+      "label": "Country Explorer",
+      "description": "Number of countries flown in",
+      "name": "Countries {value}"
+    },
+    "season_first": {
+      "label": "Season Starter",
+      "description": "First flight of the season",
+      "name": "Season Starter"
+    }
+  },
+  "badgeGoal": {
+    "flight": "Achieve {value}",
+    "cumulative": "Accumulate {value}"
+  },
+  "notYetEarned": "Not yet earned"
+}

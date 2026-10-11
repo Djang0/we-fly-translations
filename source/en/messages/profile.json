@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "profile": {
+      "title": "My Profile",
+      "description": "Manage your We-Fly profile, update account settings, and customize your paragliding logbook preferences.",
+      "ogTitle": "My Profile - We-Fly"
+    },
+    "anomalies": {
+      "title": "Flight Anomalies - We-Fly",
+      "description": "Review and fix anomalies detected in your flight data"
+    },
+    "shared": {
+      "title": "Shared Flights - We-Fly",
+      "description": "Manage your publicly shared flight and replay links"
+    }
+  },
+  "identity": {
+    "eyebrow": "Profile",
+    "verified": "Verified",
+    "publicProfile": "Public profile",
+    "privateProfile": "Private profile",
+    "avatarAlt": "User avatar",
+    "editName": "Edit display name",
+    "makePublic": "Make your profile public to share it.",
+    "openLogbook": "Open full logbook",
+    "pioneer": "Pioneer"
+  },
+  "signature": {
+    "hoursAloft": "Hours aloft",
+    "flights": "Flights",
+    "distance": "Distance",
+    "sites": "Sites",
+    "hoursThisYear": "<plus>+{value} h</plus> this year",
+    "flightsThisYear": "<plus>+{count}</plus> this year",
+    "noFlightsThisYear": "no flights this year",
+    "acrossCountries": "across {count, plural, one {# country} other {# countries}}",
+    "sitesThisYear": "{count, plural, one {# site} other {# sites}} this year"
+  },
+  "settings": {
+    "title": "Account",
+    "caption": "Privacy, units, sign-in, emails and your data",
+    "privacy": {
+      "title": "Privacy settings",
+      "public": "Public profile · control individual flight visibility",
+      "private": "Private profile · only you can see your data"
+    },
+    "export": {
+      "title": "Export data",
+      "description": "Download IGC files and a flight CSV · {count, plural, one {# record} other {# records}}"
+    },
+    "connectedServices": {
+      "title": "Connected services",
+      "description": "CIVL · Logfly · Google Drive"
+    },
+    "signIn": {
+      "title": "Sign-in methods",
+      "description": "Passkeys · connected accounts"
+    },
+    "units": {
+      "title": "Measurement units"
+    },
+    "emails": {
+      "title": "Emails",
+      "description": "Tips to get started"
+    },
+    "delete": {
+      "title": "Delete account",
+      "description": "Permanently remove account and {count, plural, one {# flight record} other {# flight records}}"
+    }
+  },
+  "statistics": {
+    "title": "Flight statistics",
+    "sectionLabel": "Flight statistics",
+    "sinceLabel": "All-time · since {date}",
+    "empty": "No flights logged yet. Upload your first IGC file to see your stats.",
+    "flights": "Flights",
+    "hours": "Hours",
+    "distance": "Distance",
+    "sites": "Sites",
+    "countries": "Countries",
+    "avgFlight": "Avg flight",
+    "avgFlightCaps": "Avg Flight",
+    "total": "total",
+    "takeoffs": "takeoffs",
+    "visited": "visited",
+    "hoursUnit": "hours",
+    "solo": "Solo",
+    "tandem": "Tandem",
+    "splitMeta": "hours · {count, plural, one {# flight} other {# flights}}",
+    "byType": "Flights by type",
+    "byTypeCaps": "Flights by Type",
+    "totalFlights": "{count} total"
+  },
+  "heatmap": {
+    "title": "Flight activity",
+    "yearInReview": "Year in Review",
+    "yearInReviewTitle": "{year} Year in Review",
+    "yearInReviewDescription": "A summary of your {year} flying season: totals, records, favorite sites and community ranking.",
+    "previousYear": "Previous year",
+    "nextYear": "Next year",
+    "tooltip": "{date}: {count, plural, =0 {No flights} one {# flight} other {# flights}}",
+    "summary": "<b>{flights}</b> {flights, plural, one {flight} other {flights}} across <b>{days}</b> {days, plural, one {day} other {days}}",
+    "longestStreak": "Longest streak: <b>{count}</b> {count, plural, one {day} other {days}}",
+    "currentStreak": "Current streak: <b>{count}</b> {count, plural, one {day} other {days}}",
+    "less": "Less",
+    "more": "More"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "caption": "{earned} of {total} earned",
+    "viewAll": "View all",
+    "empty": "No achievements yet. Upload a flight to start earning badges.",
+    "pioneer": "Pioneer",
+    "founderCohort": "Founder cohort",
+    "earnedOn": "Earned {date}",
+    "earned": "Earned"
+  },
+  "anomalies": {
+    "sectionLabel": "Data quality",
+    "title": "Data Quality",
+    "reviewAria": "Review {count, plural, one {# flight anomaly} other {# flight anomalies}}",
+    "issuesDetected": "{count, plural, one {# issue} other {# issues}} detected",
+    "actionRequired": "Action required",
+    "inconsistencies": "We found inconsistencies in your flight data. Review and fix them to keep your logbook accurate.",
+    "none": "No anomalies detected",
+    "consistent": "Your flight data looks consistent and accurate.",
+    "consistentWithIgnored": "Your flight data looks consistent and accurate. {count} ignored.",
+    "viewIgnored": "View ignored"
+  },
+  "integrity": {
+    "title": "Data integrity",
+    "consistent": "Your flight data looks consistent",
+    "review": "Review",
+    "reviewAria": "Review {count, plural, one {# flight anomaly} other {# flight anomalies}}",
+    "issuesDetected": "{count, plural, one {# issue} other {# issues}} detected",
+    "reviewAndFix": "Review and fix to keep your logbook accurate",
+    "reviewLink": "Review →",
+    "none": "No anomalies detected",
+    "ignored": "{count} ignored",
+    "sharedPublicly": "<countTag>{formatted}</countTag> {count, plural, one {flight} other {flights}} shared publicly",
+    "manageLinks": "Manage links"
+  },
+  "reviewRequests": {
+    "title": "Flight review requests",
+    "pending": "{count} pending",
+    "askedToReview": "{name} asked you to review a flight",
+    "reviewAndAnnotate": "Review & annotate",
+    "blocked": "Blocked annotators",
+    "unblock": "Unblock",
+    "unblocked": "Pilot unblocked",
+    "unblockFailed": "Failed to unblock pilot"
+  },
+  "shared": {
+    "eyebrow": "Sharing",
+    "title": "Shared flights",
+    "subtitle": "Manage your publicly shared flight and replay links.",
+    "backToProfile": "← Back to profile",
+    "sectionLabel": "Shared flights",
+    "sectionTitle": "Shared Flights",
+    "count": "{count, plural, one {# flight} other {# flights}} shared",
+    "none": "No shared flights",
+    "manage": "Manage your public flight links",
+    "getStarted": "Share flights from your logbook to get started",
+    "viewAria": "View {count, plural, one {# shared flight} other {# shared flights}}",
+    "linkCount": "{count, plural, one {# link} other {# links}}",
+    "cancel": "Cancel",
+    "revoke": "Revoke",
+    "revoking": "Revoking…",
+    "revokeLink": "Revoke link",
+    "revokeFailed": "Failed to revoke link",
+    "flights": {
+      "title": "Shared flights",
+      "loadFailed": "Failed to load shared flights.",
+      "empty": "No shared flights yet. Share a flight from your logbook.",
+      "date": "Date",
+      "takeoff": "Takeoff",
+      "distance": "Distance",
+      "type": "Type",
+      "rowAria": "Shared flight on {date} from {takeoff}",
+      "revokeAria": "Revoke shared link",
+      "dialogTitle": "Revoke shared link?",
+      "dialogDescription": "Anyone with the link will no longer be able to access this flight. You can create a new link at any time.",
+      "revoked": "Shared link revoked"
+    },
+    "replays": {
+      "title": "Shared replays",
+      "loadFailed": "Failed to load shared replays.",
+      "empty": "No shared replays yet. Share one from a flight's 3D Replay or Same day tab.",
+      "flightReplay": "3D replay",
+      "sameDayReplay": "Same-day replay · {count, plural, one {# pilot} other {# pilots}}",
+      "rowAria": "{label} on {date} from {takeoff}",
+      "revokeAria": "Revoke replay link",
+      "dialogTitle": "Revoke replay link?",
+      "dialogDescription": "Anyone with the link will no longer be able to watch this replay. You can create a new link at any time.",
+      "revoked": "Replay link revoked"
+    }
+  },
+  "shareProfile": {
+    "button": "Share profile",
+    "dialogTitle": "Share your pilot profile",
+    "generating": "Generating your link...",
+    "failed": "Failed to generate link",
+    "description": "Anyone with this link can see your public pilot card with stats and badges.",
+    "preview": "Preview",
+    "share": "Share",
+    "nativeShareTitle": "My We-Fly Profile"
+  },
+  "civl": {
+    "rankings": "CIVL Rankings",
+    "viewOn": "View on civlcomps.org",
+    "profile": "CIVL profile: <link>{name}</link>",
+    "world": "World",
+    "europe": "EU",
+    "national": "Nat",
+    "updated": "Updated {date}"
+  },
+  "publicFlights": {
+    "error": "Error loading flights",
+    "empty": "No flights found for this pilot"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "profile": {
+      "title": "Mi perfil",
+      "description": "Gestiona tu perfil de We-Fly, actualiza los ajustes de tu cuenta y personaliza las preferencias de tu libro de vuelo de parapente.",
+      "ogTitle": "Mi perfil · We-Fly"
+    },
+    "anomalies": {
+      "title": "Anomalías de vuelo · We-Fly",
+      "description": "Revisa y corrige las anomalías detectadas en los datos de tus vuelos"
+    },
+    "shared": {
+      "title": "Vuelos compartidos · We-Fly",
+      "description": "Gestiona los enlaces públicos de tus vuelos y repeticiones compartidos"
+    }
+  },
+  "identity": {
+    "eyebrow": "Perfil",
+    "verified": "Verificado",
+    "publicProfile": "Perfil público",
+    "privateProfile": "Perfil privado",
+    "avatarAlt": "Avatar del usuario",
+    "editName": "Editar nombre visible",
+    "makePublic": "Haz público tu perfil para compartirlo.",
+    "openLogbook": "Abrir el libro de vuelo completo",
+    "pioneer": "Pionero"
+  },
+  "signature": {
+    "hoursAloft": "Horas en el aire",
+    "flights": "Vuelos",
+    "distance": "Distancia",
+    "sites": "Zonas",
+    "hoursThisYear": "<plus>+{value} h</plus> este año",
+    "flightsThisYear": "<plus>+{count}</plus> este año",
+    "noFlightsThisYear": "ningún vuelo este año",
+    "acrossCountries": "en {count, plural, one {# país} other {# países}}",
+    "sitesThisYear": "{count, plural, one {# zona} other {# zonas}} este año"
+  },
+  "settings": {
+    "title": "Cuenta",
+    "caption": "Privacidad, unidades, inicio de sesión, emails y tus datos",
+    "privacy": {
+      "title": "Ajustes de privacidad",
+      "public": "Perfil público · controla la visibilidad de cada vuelo",
+      "private": "Perfil privado · solo tú puedes ver tus datos"
+    },
+    "export": {
+      "title": "Exportar datos",
+      "description": "Descarga los archivos IGC y un CSV de vuelos · {count, plural, one {# registro} other {# registros}}"
+    },
+    "connectedServices": {
+      "title": "Servicios conectados",
+      "description": "CIVL · Logfly · Google Drive"
+    },
+    "signIn": {
+      "title": "Métodos de inicio de sesión",
+      "description": "Llaves de acceso · cuentas conectadas"
+    },
+    "units": {
+      "title": "Unidades de medida"
+    },
+    "emails": {
+      "title": "Emails",
+      "description": "Consejos para empezar"
+    },
+    "delete": {
+      "title": "Eliminar cuenta",
+      "description": "Elimina para siempre la cuenta y {count, plural, one {# registro de vuelo} other {# registros de vuelo}}"
+    }
+  },
+  "statistics": {
+    "title": "Estadísticas de vuelo",
+    "sectionLabel": "Estadísticas de vuelo",
+    "sinceLabel": "Histórico · desde {date}",
+    "empty": "Aún no hay vuelos registrados. Sube tu primer archivo IGC para ver tus estadísticas.",
+    "flights": "Vuelos",
+    "hours": "Horas",
+    "distance": "Distancia",
+    "sites": "Zonas",
+    "countries": "Países",
+    "avgFlight": "Vuelo medio",
+    "avgFlightCaps": "Vuelo medio",
+    "total": "total",
+    "takeoffs": "despegues",
+    "visited": "visitados",
+    "hoursUnit": "horas",
+    "solo": "Solo",
+    "tandem": "Biplaza",
+    "splitMeta": "horas · {count, plural, one {# vuelo} other {# vuelos}}",
+    "byType": "Vuelos por tipo",
+    "byTypeCaps": "Vuelos por tipo",
+    "totalFlights": "{count} en total"
+  },
+  "heatmap": {
+    "title": "Actividad de vuelo",
+    "yearInReview": "Resumen del año",
+    "yearInReviewTitle": "Resumen del año {year}",
+    "yearInReviewDescription": "Un resumen de tu temporada {year}: totales, récords, zonas de vuelo favoritas y posición en la comunidad.",
+    "previousYear": "Año anterior",
+    "nextYear": "Año siguiente",
+    "tooltip": "{date}: {count, plural, =0 {Sin vuelos} one {# vuelo} other {# vuelos}}",
+    "summary": "<b>{flights}</b> {flights, plural, one {vuelo} other {vuelos}} en <b>{days}</b> {days, plural, one {día} other {días}}",
+    "longestStreak": "Racha más larga: <b>{count}</b> {count, plural, one {día} other {días}}",
+    "currentStreak": "Racha actual: <b>{count}</b> {count, plural, one {día} other {días}}",
+    "less": "Menos",
+    "more": "Más"
+  },
+  "achievements": {
+    "title": "Logros",
+    "caption": "{earned} de {total} conseguidos",
+    "viewAll": "Ver todos",
+    "empty": "Aún no tienes logros. Sube un vuelo para empezar a ganar insignias.",
+    "pioneer": "Pionero",
+    "founderCohort": "Grupo fundador",
+    "earnedOn": "Conseguida el {date}",
+    "earned": "Conseguida"
+  },
+  "anomalies": {
+    "sectionLabel": "Calidad de los datos",
+    "title": "Calidad de los datos",
+    "reviewAria": "Revisar {count, plural, one {# anomalía de vuelo} other {# anomalías de vuelo}}",
+    "issuesDetected": "{count, plural, one {# problema detectado} other {# problemas detectados}}",
+    "actionRequired": "Acción necesaria",
+    "inconsistencies": "Hemos encontrado incoherencias en los datos de tus vuelos. Revísalas y corrígelas para que tu libro de vuelo sea fiable.",
+    "none": "No se han detectado anomalías",
+    "consistent": "Los datos de tus vuelos parecen coherentes y precisos.",
+    "consistentWithIgnored": "Los datos de tus vuelos parecen coherentes y precisos. Ignoradas: {count}.",
+    "viewIgnored": "Ver ignoradas"
+  },
+  "integrity": {
+    "title": "Integridad de los datos",
+    "consistent": "Los datos de tus vuelos parecen coherentes",
+    "review": "Revisar",
+    "reviewAria": "Revisar {count, plural, one {# anomalía de vuelo} other {# anomalías de vuelo}}",
+    "issuesDetected": "{count, plural, one {# problema detectado} other {# problemas detectados}}",
+    "reviewAndFix": "Revisa y corrige para que tu libro de vuelo sea fiable",
+    "reviewLink": "Revisar →",
+    "none": "No se han detectado anomalías",
+    "ignored": "Ignoradas: {count}",
+    "sharedPublicly": "<countTag>{formatted}</countTag> {count, plural, one {vuelo compartido} other {vuelos compartidos}} públicamente",
+    "manageLinks": "Gestionar enlaces"
+  },
+  "reviewRequests": {
+    "title": "Solicitudes de revisión de vuelos",
+    "pending": "Pendientes: {count}",
+    "askedToReview": "{name} te ha pedido que revises un vuelo",
+    "reviewAndAnnotate": "Revisar y anotar",
+    "blocked": "Anotadores bloqueados",
+    "unblock": "Desbloquear",
+    "unblocked": "Piloto desbloqueado",
+    "unblockFailed": "No se pudo desbloquear al piloto"
+  },
+  "shared": {
+    "eyebrow": "Compartir",
+    "title": "Vuelos compartidos",
+    "subtitle": "Gestiona los enlaces públicos de tus vuelos y repeticiones compartidos.",
+    "backToProfile": "← Volver al perfil",
+    "sectionLabel": "Vuelos compartidos",
+    "sectionTitle": "Vuelos compartidos",
+    "count": "{count, plural, one {# vuelo compartido} other {# vuelos compartidos}}",
+    "none": "Ningún vuelo compartido",
+    "manage": "Gestiona los enlaces públicos de tus vuelos",
+    "getStarted": "Comparte vuelos desde tu libro de vuelo para empezar",
+    "viewAria": "Ver {count, plural, one {# vuelo compartido} other {# vuelos compartidos}}",
+    "linkCount": "{count, plural, one {# enlace} other {# enlaces}}",
+    "cancel": "Cancelar",
+    "revoke": "Revocar",
+    "revoking": "Revocando…",
+    "revokeLink": "Revocar enlace",
+    "revokeFailed": "No se pudo revocar el enlace",
+    "flights": {
+      "title": "Vuelos compartidos",
+      "loadFailed": "No se pudieron cargar los vuelos compartidos.",
+      "empty": "Aún no hay vuelos compartidos. Comparte un vuelo desde tu libro de vuelo.",
+      "date": "Fecha",
+      "takeoff": "Despegue",
+      "distance": "Distancia",
+      "type": "Tipo",
+      "rowAria": "Vuelo compartido del {date} desde {takeoff}",
+      "revokeAria": "Revocar enlace compartido",
+      "dialogTitle": "¿Revocar el enlace compartido?",
+      "dialogDescription": "Quien tenga el enlace ya no podrá acceder a este vuelo. Puedes crear un nuevo enlace cuando quieras.",
+      "revoked": "Enlace compartido revocado"
+    },
+    "replays": {
+      "title": "Repeticiones compartidas",
+      "loadFailed": "No se pudieron cargar las repeticiones compartidas.",
+      "empty": "Aún no hay repeticiones compartidas. Comparte una desde la pestaña Repetición 3D o Mismo día de un vuelo.",
+      "flightReplay": "Repetición 3D",
+      "sameDayReplay": "Repetición del mismo día · {count, plural, one {# piloto} other {# pilotos}}",
+      "rowAria": "{label} del {date} desde {takeoff}",
+      "revokeAria": "Revocar enlace de la repetición",
+      "dialogTitle": "¿Revocar el enlace de la repetición?",
+      "dialogDescription": "Quien tenga el enlace ya no podrá ver esta repetición. Puedes crear un nuevo enlace cuando quieras.",
+      "revoked": "Enlace de la repetición revocado"
+    }
+  },
+  "shareProfile": {
+    "button": "Compartir perfil",
+    "dialogTitle": "Comparte tu perfil de piloto",
+    "generating": "Generando tu enlace...",
+    "failed": "No se pudo generar el enlace",
+    "description": "Cualquiera con este enlace puede ver tu ficha pública de piloto con estadísticas e insignias.",
+    "preview": "Vista previa",
+    "share": "Compartir",
+    "nativeShareTitle": "Mi perfil de We-Fly"
+  },
+  "civl": {
+    "rankings": "Rankings CIVL",
+    "viewOn": "Ver en civlcomps.org",
+    "profile": "Perfil CIVL: <link>{name}</link>",
+    "world": "Mundial",
+    "europe": "UE",
+    "national": "Nac",
+    "updated": "Actualizado el {date}"
+  },
+  "publicFlights": {
+    "error": "Error al cargar los vuelos",
+    "empty": "No se han encontrado vuelos de este piloto"
+  }
+}

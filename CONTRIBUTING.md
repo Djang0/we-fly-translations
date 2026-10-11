@@ -3,6 +3,9 @@
 1. **Keep placeholders.** `{count}`, `{name}`, `<b>…</b>` and ICU blocks such as
    `{count, plural, one {# flight} other {# flights}}` must survive, with the same names.
    Translate only the words inside the plural branches.
+   **Apostrophes:** in ICU, a straight apostrophe right before `{` or `<` starts an
+   escaped literal and silently eats the placeholder or tag (`l'<link>` breaks).
+   Use the typographic apostrophe `’` (French and Italian elisions especially).
 2. **Never put numbers or units in a string.** They are formatted from the pilot's unit settings.
 3. **Follow the glossary.** If you think a term is wrong for your community, change it in
    `glossary.yaml` in its own pull request, with a short explanation.

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Carica voli",
+    "description": "Carica i file IGC per aggiungere voli al tuo libretto We-Fly. Trascina i file dei tuoi voli in parapendio per analizzarli.",
+    "ogTitle": "Carica voli - We-Fly"
+  },
+  "page": {
+    "eyebrow": "Libretto · Caricamento",
+    "title": "Carica voli",
+    "subtitle": "Trascina qui le tue tracce <igc>.igc</igc>. Leggiamo le coordinate, calcoliamo l'efficienza e mettiamo ogni volo sul suo decollo.",
+    "privacyNotice": "Caricando file IGC accetti l’<policy>Informativa privacy</policy>. I dati di volo includono coordinate GPS, orari e posizione."
+  },
+  "dropzone": {
+    "areaLabel": "Area di caricamento file",
+    "title": "Trascina qui i tuoi voli",
+    "hint": "Trascina qui file <igc>.igc</igc> o cartelle.",
+    "limits": "Massimo {size} MB per file · le cartelle vengono analizzate con le sottocartelle",
+    "browseFilesAria": "Sfoglia e seleziona i file IGC",
+    "browseFolderAria": "Sfoglia e seleziona una cartella con file IGC",
+    "browseMoreFilesAria": "Sfoglia e seleziona altri file IGC",
+    "browseMoreFolderAria": "Sfoglia e seleziona una cartella con altri file IGC",
+    "rateLimited": "Limite raggiunto",
+    "browseFiles": "Sfoglia file",
+    "browseFolder": "Sfoglia cartella",
+    "addFiles": "Aggiungi file",
+    "addFolder": "Aggiungi cartella"
+  },
+  "list": {
+    "title": "Caricamenti di oggi",
+    "parsedCount": "{count} di {total} elaborati",
+    "progressAria": "Avanzamento del caricamento",
+    "progressValueAria": "Avanzamento del caricamento: {percent}",
+    "fileSize": "{size} MB",
+    "fileSizeParsed": "{size} MB · Elaborato",
+    "queued": "In coda",
+    "parsing": "Elaborazione… {percent}",
+    "failed": "Non riuscito",
+    "failedDetailsAria": "Vedi i dettagli dell'errore",
+    "uploadFailed": "Caricamento non riuscito",
+    "retry": "Riprova",
+    "retryAria": "Riprova il caricamento di {name}",
+    "parsed": "Elaborato",
+    "openFlightAria": "Apri il volo {name}",
+    "openLogbook": "Apri il libretto",
+    "whatsNew": "Novità di We-Fly →"
+  },
+  "toast": {
+    "validReady": "{count, plural, one {# file .igc valido pronto per il caricamento} other {# file .igc validi pronti per il caricamento}}",
+    "foundValidReady": "{count, plural, one {Trovato # file .igc valido pronto per il caricamento} other {Trovati # file .igc validi pronti per il caricamento}}",
+    "ignoredNotIgc": "{count, plural, one {# file ignorato (non .igc).} other {# file ignorati (non .igc).}}",
+    "ignoredTooLarge": "{count, plural, one {# file ignorato (oltre {size} MB).} other {# file ignorati (oltre {size} MB).}}",
+    "noFilesInFolder": "Nessun file trovato nelle cartelle trascinate",
+    "waitRateLimit": "Attendi la fine del limite di caricamento prima di aggiungere altri file.",
+    "retryUnavailable": "Impossibile riprovare: dati del file non disponibili",
+    "retrySucceeded": "{name} caricato",
+    "retryFailed": "Nuovo tentativo non riuscito: {message}"
+  },
+  "rateLimit": {
+    "banner": "{count, plural, one {Limite di caricamento raggiunto. # file in coda per il caricamento automatico. NON ricaricare questa pagina: i caricamenti riprenderanno da soli.} other {Limite di caricamento raggiunto. # file in coda per il caricamento automatico. NON ricaricare questa pagina: i caricamenti riprenderanno da soli.}}"
+  },
+  "errors": {
+    "statusFailed": "Caricamento non riuscito con stato {status}",
+    "server": "Errore del server. Riprova più tardi.",
+    "unexpectedStatus": "Stato imprevisto {status}",
+    "network": "Errore di rete durante il caricamento",
+    "unknown": "Errore sconosciuto",
+    "rateLimitRetry": "Limite superato. Nuovo tentativo tra {seconds} s",
+    "rateLimit": "Limite superato",
+    "uploadSuccessful": "Caricamento riuscito"
+  },
+  "summary": {
+    "title": "Riepilogo del caricamento",
+    "counts": "{success} riusciti, {failed} non riusciti",
+    "succeeded": "{count, plural, one {# file caricato} other {# file caricati}}",
+    "failedHeading": "{count, plural, one {# file non caricato} other {# file non caricati}}",
+    "retrying": "Nuovo tentativo di caricamento...",
+    "retryUpload": "Riprova il caricamento",
+    "close": "Chiudi"
+  },
+  "api": {
+    "unauthorized": "Non autorizzato",
+    "tooLarge": "Richiesta troppo grande. I file IGC caricati devono essere sotto i 3 MB.",
+    "noFile": "Nessun file caricato",
+    "invalidFile": "I file caricati devono essere file .IGC più piccoli di 3 MB (1,8 MB corrispondono a un volo di 531 km).",
+    "insufficientFixes": "Punti GPS insufficienti: trovati {count} record B (minimo richiesto {minimum})",
+    "processFailed": "Non siamo riusciti a elaborare questo volo. Riprova più tardi.",
+    "uploaded": "Il file {name} è stato caricato",
+    "internal": "Errore interno del server"
+  }
+}

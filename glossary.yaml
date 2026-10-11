@@ -544,3 +544,37 @@ terms:
   Shiny (special release badge):
     keep: true
     note: "Product label, keep '✦ Shiny' in every language."
+
+  # --- added after the account pass (2026-10-11) --------------------------
+  pilot licence / rating (brevet):
+    fr: brevet
+    de: Lizenz
+    nl: brevet
+    it: brevetto
+    es: licencia
+    note: "The pilot's qualification, not a club or federation membership (fr 'licence' = FFVL membership)."
+  online league (CFD, DHV-XC, XContest):
+    fr: compétition en ligne
+    de: Online-Wettbewerb
+    nl: online competitie
+    it: campionato online
+    es: liga online
+  passkey:
+    fr: clé d’accès
+    de: Passkey
+    nl: passkey
+    it: passkey
+    es: llave de acceso
+    note: "fr/es follow Apple and Google's official terms; it: invariable feminine noun."
+  device password (instrument / WebDAV):
+    fr: mot de passe d’appareil
+    de: Gerätepasswort
+    nl: apparaatwachtwoord
+    it: password del dispositivo
+    es: contraseña de dispositivo
+  connected services:
+    fr: services connectés
+    de: verbundene Dienste
+    nl: gekoppelde diensten
+    it: servizi collegati
+    es: servicios conectados

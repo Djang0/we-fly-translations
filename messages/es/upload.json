@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Subir vuelos",
+    "description": "Sube archivos IGC para añadir vuelos a tu libro de vuelo de We-Fly. Arrastra y suelta tus archivos de vuelo de parapente para analizarlos.",
+    "ogTitle": "Subir vuelos · We-Fly"
+  },
+  "page": {
+    "eyebrow": "Libro de vuelo · Subir",
+    "title": "Subir vuelos",
+    "subtitle": "Suelta aquí tus tracks <igc>.igc</igc>. Leemos las coordenadas, calculamos la fineza y colocamos cada vuelo en su despegue.",
+    "privacyNotice": "Al subir archivos IGC, aceptas la <policy>Política de privacidad</policy>. Los datos de vuelo incluyen coordenadas GPS, marcas de tiempo y ubicación."
+  },
+  "dropzone": {
+    "areaLabel": "Zona de subida de archivos",
+    "title": "Arrastra y suelta tus vuelos",
+    "hint": "Suelta aquí archivos <igc>.igc</igc> o carpetas.",
+    "limits": "Máximo {size} MB por archivo · las carpetas se exploran con sus subcarpetas",
+    "browseFilesAria": "Buscar y seleccionar archivos IGC",
+    "browseFolderAria": "Buscar y seleccionar una carpeta con archivos IGC",
+    "browseMoreFilesAria": "Buscar y seleccionar más archivos IGC",
+    "browseMoreFolderAria": "Buscar y seleccionar una carpeta con más archivos IGC",
+    "rateLimited": "Límite alcanzado",
+    "browseFiles": "Elegir archivos",
+    "browseFolder": "Elegir carpeta",
+    "addFiles": "Añadir archivos",
+    "addFolder": "Añadir carpeta"
+  },
+  "list": {
+    "title": "Subidas de hoy",
+    "parsedCount": "{count} de {total} procesados",
+    "progressAria": "Progreso de la subida",
+    "progressValueAria": "Progreso de la subida: {percent}",
+    "fileSize": "{size} MB",
+    "fileSizeParsed": "{size} MB · Procesado",
+    "queued": "En cola",
+    "parsing": "Procesando… {percent}",
+    "failed": "Error",
+    "failedDetailsAria": "Ver los detalles del error",
+    "uploadFailed": "No se pudo subir",
+    "retry": "Reintentar",
+    "retryAria": "Reintentar la subida de {name}",
+    "parsed": "Procesado",
+    "openFlightAria": "Abrir el vuelo {name}",
+    "openLogbook": "Abrir libro de vuelo",
+    "whatsNew": "Novedades de We-Fly →"
+  },
+  "toast": {
+    "validReady": "{count, plural, one {# archivo .igc válido listo para subir} other {# archivos .igc válidos listos para subir}}",
+    "foundValidReady": "{count, plural, one {Se ha encontrado # archivo .igc válido listo para subir} other {Se han encontrado # archivos .igc válidos listos para subir}}",
+    "ignoredNotIgc": "{count, plural, one {# archivo ignorado (no es .igc).} other {# archivos ignorados (no son .igc).}}",
+    "ignoredTooLarge": "{count, plural, one {# archivo ignorado (más de {size} MB).} other {# archivos ignorados (más de {size} MB).}}",
+    "noFilesInFolder": "No se han encontrado archivos en la(s) carpeta(s) soltada(s)",
+    "waitRateLimit": "Espera a que termine el límite de subidas antes de añadir más archivos.",
+    "retryUnavailable": "No se puede reintentar: los datos del archivo no están disponibles",
+    "retrySucceeded": "{name} se ha subido correctamente",
+    "retryFailed": "Ha fallado el reintento: {message}"
+  },
+  "rateLimit": {
+    "banner": "{count, plural, one {Has alcanzado el límite de subidas. # archivo en cola para subirse automáticamente. NO recargues esta página: las subidas se reanudarán solas.} other {Has alcanzado el límite de subidas. # archivos en cola para subirse automáticamente. NO recargues esta página: las subidas se reanudarán solas.}}"
+  },
+  "errors": {
+    "statusFailed": "La subida falló con el estado {status}",
+    "server": "Error del servidor. Inténtalo más tarde.",
+    "unexpectedStatus": "Estado inesperado {status}",
+    "network": "Error de red durante la subida",
+    "unknown": "Error desconocido",
+    "rateLimitRetry": "Límite de subidas superado. Se reintentará en {seconds} s",
+    "rateLimit": "Límite de subidas superado",
+    "uploadSuccessful": "Subida completada"
+  },
+  "summary": {
+    "title": "Resumen de la subida",
+    "counts": "Correctos: {success} · Fallidos: {failed}",
+    "succeeded": "{count, plural, one {# archivo subido correctamente} other {# archivos subidos correctamente}}",
+    "failedHeading": "{count, plural, one {No se pudo subir # archivo} other {No se pudieron subir # archivos}}",
+    "retrying": "Reintentando la subida...",
+    "retryUpload": "Reintentar subida",
+    "close": "Cerrar"
+  },
+  "api": {
+    "unauthorized": "No autorizado",
+    "tooLarge": "Cuerpo de la solicitud demasiado grande. Los archivos IGC deben pesar menos de 3 MB.",
+    "noFile": "No se ha subido ningún archivo",
+    "invalidFile": "Los archivos subidos deben ser .IGC de menos de 3 MB (1,8 MB equivale a un vuelo de 531 km).",
+    "insufficientFixes": "Puntos GPS insuficientes: se han encontrado {count} registros B (se necesitan al menos {minimum})",
+    "processFailed": "No hemos podido procesar este vuelo. Inténtalo más tarde.",
+    "uploaded": "El archivo {name} se ha subido correctamente",
+    "internal": "Error interno del servidor"
+  }
+}

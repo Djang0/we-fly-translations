@@ -280,6 +280,1486 @@
       "tr": "b7defbf9cff089f6",
       "by": "ai"
     },
+    "auth.api.consent.alreadyFull": {
+      "src": "171eb279962a61bf",
+      "tr": "a89da6995b58126d",
+      "by": "ai"
+    },
+    "auth.api.consent.consentRequired": {
+      "src": "7ec7185364dde454",
+      "tr": "33946a4da1fe2bb4",
+      "by": "ai"
+    },
+    "auth.api.consent.failed": {
+      "src": "c5dc877c0a918c78",
+      "tr": "f5190f21e11d0594",
+      "by": "ai"
+    },
+    "auth.api.consent.invalidOrigin": {
+      "src": "a16637fa5cd1261f",
+      "tr": "5595b7516b4d0e69",
+      "by": "ai"
+    },
+    "auth.api.consent.invalidState": {
+      "src": "1afa9090343f2028",
+      "tr": "cbdf66180cc41614",
+      "by": "ai"
+    },
+    "auth.api.consent.missingOrigin": {
+      "src": "001f17e43dbb609c",
+      "tr": "cd3ef362182c9029",
+      "by": "ai"
+    },
+    "auth.api.consent.notAuthenticated": {
+      "src": "76d1efbeed2dd7b2",
+      "tr": "3af1e1869e85218a",
+      "by": "ai"
+    },
+    "auth.api.consent.success": {
+      "src": "118e74f1dec92a8e",
+      "tr": "9b3a5198c0dbb6b6",
+      "by": "ai"
+    },
+    "auth.api.consent.updateFailed": {
+      "src": "237db3c531156841",
+      "tr": "86257e9a7f444900",
+      "by": "ai"
+    },
+    "auth.api.consent.userNotFound": {
+      "src": "4a1793e9900cd312",
+      "tr": "276bc4859378f888",
+      "by": "ai"
+    },
+    "auth.api.emailRequired": {
+      "src": "41381ba2608d89e5",
+      "tr": "6539d92e1ae3a27b",
+      "by": "ai"
+    },
+    "auth.api.forgotPassword.ifExists": {
+      "src": "59ef16ded751239a",
+      "tr": "8f32957daa0a95d5",
+      "by": "ai"
+    },
+    "auth.api.forgotPassword.wait": {
+      "src": "a4e3cd6836e8f1d9",
+      "tr": "21e2d37900d5bc21",
+      "by": "ai"
+    },
+    "auth.api.genericError": {
+      "src": "9c170ddac6cbe0bc",
+      "tr": "dfc933cc7491d699",
+      "by": "ai"
+    },
+    "auth.api.invalidToken": {
+      "src": "ef8b9bb79af697b8",
+      "tr": "1b506174f0d6e1ab",
+      "by": "ai"
+    },
+    "auth.api.passkey.alreadyRegistered": {
+      "src": "81e308e425ebc295",
+      "tr": "1a7f2a47c64f5dad",
+      "by": "ai"
+    },
+    "auth.api.passkey.expired": {
+      "src": "a037f96dc2a454ad",
+      "tr": "c39d0dad2df47664",
+      "by": "ai"
+    },
+    "auth.api.passkey.invalidRequest": {
+      "src": "330509caa0f2887d",
+      "tr": "0e4698bf405187d1",
+      "by": "ai"
+    },
+    "auth.api.passkey.maxReached": {
+      "src": "d06a407131035f58",
+      "tr": "32fd90297cf08619",
+      "by": "ai"
+    },
+    "auth.api.passkey.notAuthenticated": {
+      "src": "76d1efbeed2dd7b2",
+      "tr": "3af1e1869e85218a",
+      "by": "ai"
+    },
+    "auth.api.passkey.notVerified": {
+      "src": "390f38ffc7684b5f",
+      "tr": "fa7228659d0c4ff7",
+      "by": "ai"
+    },
+    "auth.api.passkey.saveFailed": {
+      "src": "220aadcd32199e2b",
+      "tr": "c87bd9d28a400eca",
+      "by": "ai"
+    },
+    "auth.api.passkey.signInUnavailable": {
+      "src": "27b7cbdd9fbbad01",
+      "tr": "42e6269b4003cb3f",
+      "by": "ai"
+    },
+    "auth.api.passkey.startFailed": {
+      "src": "b557b53b949cc249",
+      "tr": "30d192735c70bd7a",
+      "by": "ai"
+    },
+    "auth.api.passwordRequirements": {
+      "src": "8cc516df0c4e82e2",
+      "tr": "a2c2bb17b3476407",
+      "by": "ai"
+    },
+    "auth.api.register.emailAvailable": {
+      "src": "e66cb038dc944e5f",
+      "tr": "0cae67d68f81b738",
+      "by": "ai"
+    },
+    "auth.api.register.failed": {
+      "src": "ee94a6c057034320",
+      "tr": "f2543fa54973dab9",
+      "by": "ai"
+    },
+    "auth.api.register.missingFields": {
+      "src": "3db3cb4a7658698a",
+      "tr": "01f4309714a06b8a",
+      "by": "ai"
+    },
+    "auth.api.register.nameLength": {
+      "src": "d78dcfddc1d1c04a",
+      "tr": "6c10793c3d52064c",
+      "by": "ai"
+    },
+    "auth.api.register.privacyRequired": {
+      "src": "b39d61b5805d2e7e",
+      "tr": "dd1cb998d46893e3",
+      "by": "ai"
+    },
+    "auth.api.register.success": {
+      "src": "e205aa462412920d",
+      "tr": "34451304579cc823",
+      "by": "ai"
+    },
+    "auth.api.register.tooMany": {
+      "src": "4ca8c0f27c677098",
+      "tr": "c23418c51fead83e",
+      "by": "ai"
+    },
+    "auth.api.resetPassword.invalidToken": {
+      "src": "316a089bf2173214",
+      "tr": "08264729da874819",
+      "by": "ai"
+    },
+    "auth.api.resetPassword.passwordRequired": {
+      "src": "757b294785e73fe7",
+      "tr": "eb7f1e0d60687e7f",
+      "by": "ai"
+    },
+    "auth.api.resetPassword.socialLogin": {
+      "src": "f0f9f0c9eaccfe43",
+      "tr": "fa6a761517e98ccc",
+      "by": "ai"
+    },
+    "auth.api.resetPassword.success": {
+      "src": "fe0033ebdd347392",
+      "tr": "ebc0cc7c2666efa3",
+      "by": "ai"
+    },
+    "auth.api.resetPassword.tokenRequired": {
+      "src": "5d84c21d6a9e0e3a",
+      "tr": "d7dd5dabd61657f4",
+      "by": "ai"
+    },
+    "auth.api.tokenExpired": {
+      "src": "3de2f200eefc8c55",
+      "tr": "55ec08ba08e52be8",
+      "by": "ai"
+    },
+    "auth.api.userNotFound": {
+      "src": "880db1652771bb91",
+      "tr": "e0d1232493e00191",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.alreadyVerified": {
+      "src": "829e3579e020d067",
+      "tr": "db4a825f5b8ab0c3",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.alreadyVerifiedSignIn": {
+      "src": "67067351e29606de",
+      "tr": "d8c6a15932ff7fc5",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.ifRegistered": {
+      "src": "eddeaea93d0138ff",
+      "tr": "c69e93fc0309bc20",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.invalidToken": {
+      "src": "e88b82382b10f624",
+      "tr": "66c58ad44710a6e5",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.sendFailed": {
+      "src": "fdade6d1e848d365",
+      "tr": "d049fb1c88b49481",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.sent": {
+      "src": "e7651dda277bc0c4",
+      "tr": "5be7632c5bc00bfe",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.tokenRequired": {
+      "src": "5e38fbf04722f979",
+      "tr": "a30505859592b5a7",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.verified": {
+      "src": "398c82bc7bb0ddb2",
+      "tr": "f999b17aba0e7edd",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.verifyFailed": {
+      "src": "a48ade640848c0c2",
+      "tr": "af6b59b66272d833",
+      "by": "ai"
+    },
+    "auth.api.verifyEmail.wait": {
+      "src": "8ed07f02df58b9cc",
+      "tr": "fb195f4e20e83eee",
+      "by": "ai"
+    },
+    "auth.connect.copied": {
+      "src": "d37078fe6a1faa15",
+      "tr": "4bfc61401e3371ba",
+      "by": "ai"
+    },
+    "auth.connect.copy": {
+      "src": "e8cd8b5d57c96e15",
+      "tr": "3c0c8bfe97d49695",
+      "by": "ai"
+    },
+    "auth.connect.description": {
+      "src": "21b925576b52fb90",
+      "tr": "ec3132bf3f79ee13",
+      "by": "ai"
+    },
+    "auth.connect.goToProfile": {
+      "src": "9b4cdce252b4b6de",
+      "tr": "1b201802d4a35aef",
+      "by": "ai"
+    },
+    "auth.connect.invalidBody": {
+      "src": "1388110597cd3c20",
+      "tr": "5dd0c80ae3b0ca90",
+      "by": "ai"
+    },
+    "auth.connect.invalidTitle": {
+      "src": "69a1441a21bac2b8",
+      "tr": "82c941098eec77e2",
+      "by": "ai"
+    },
+    "auth.connect.keepPrivate": {
+      "src": "ab8b5fcdf851621e",
+      "tr": "f2188d11f93aa817",
+      "by": "ai"
+    },
+    "auth.connect.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "2d03f8f3dfe1ed62",
+      "by": "ai"
+    },
+    "auth.connect.title": {
+      "src": "773dd30223b6cc23",
+      "tr": "ca1d986337161c3b",
+      "by": "ai"
+    },
+    "auth.consent.accept": {
+      "src": "8d6e1fc528990cf2",
+      "tr": "68fc6585cf225831",
+      "by": "ai"
+    },
+    "auth.consent.agree": {
+      "src": "393a6f9b32604030",
+      "tr": "63fb5f76cf4c3cea",
+      "by": "ai"
+    },
+    "auth.consent.collectAccount": {
+      "src": "e0e9441e950d6797",
+      "tr": "fe46522c54942f01",
+      "by": "ai"
+    },
+    "auth.consent.collectFlights": {
+      "src": "20714df3f385d70c",
+      "tr": "44780df648aae324",
+      "by": "ai"
+    },
+    "auth.consent.collectTitle": {
+      "src": "83e28f51d43d40c3",
+      "tr": "cffe40ab4d2712d4",
+      "by": "ai"
+    },
+    "auth.consent.collectUsage": {
+      "src": "929ac8cd74ab5c95",
+      "tr": "ae3edb15c992e455",
+      "by": "ai"
+    },
+    "auth.consent.creating": {
+      "src": "aeb5d280093018a8",
+      "tr": "2740a3f7dd93dc85",
+      "by": "ai"
+    },
+    "auth.consent.decline": {
+      "src": "a2d285b352873457",
+      "tr": "7be75ced71620109",
+      "by": "ai"
+    },
+    "auth.consent.declineNote": {
+      "src": "061070e972187896",
+      "tr": "a679b3876d1e5300",
+      "by": "ai"
+    },
+    "auth.consent.eyebrow": {
+      "src": "11c8b21c596de946",
+      "tr": "cb68771d42dba3d0",
+      "by": "ai"
+    },
+    "auth.consent.genericError": {
+      "src": "ddf785b79c42656a",
+      "tr": "0a7c7d6504ec5df8",
+      "by": "ai"
+    },
+    "auth.consent.loading": {
+      "src": "47d2a515ef2f05b8",
+      "tr": "2d03f8f3dfe1ed62",
+      "by": "ai"
+    },
+    "auth.consent.readPolicy": {
+      "src": "07d5c61c34d1161a",
+      "tr": "9516a1a70ed528d6",
+      "by": "ai"
+    },
+    "auth.consent.saveFailed": {
+      "src": "1e2e041f79866d56",
+      "tr": "f5190f21e11d0594",
+      "by": "ai"
+    },
+    "auth.consent.subtitle": {
+      "src": "b2f33249e51f2143",
+      "tr": "2dfbafbda4777672",
+      "by": "ai"
+    },
+    "auth.consent.title": {
+      "src": "e0353f1c4d2c56c5",
+      "tr": "4d8016c917673ce0",
+      "by": "ai"
+    },
+    "auth.email.feedback.didYouMean": {
+      "src": "b33e0c74d8f2d49f",
+      "tr": "244c4545daf3d393",
+      "by": "ai"
+    },
+    "auth.email.feedback.disposable": {
+      "src": "6423e94c5e5f6a9e",
+      "tr": "fc055251df516bff",
+      "by": "ai"
+    },
+    "auth.email.feedback.domainTooShort": {
+      "src": "8120b6a83b0f16b3",
+      "tr": "70320a7979cef26e",
+      "by": "ai"
+    },
+    "auth.email.feedback.invalidFormat": {
+      "src": "0bcecf6650e5fa35",
+      "tr": "ab32bb78317d4f67",
+      "by": "ai"
+    },
+    "auth.email.feedback.missingAt": {
+      "src": "3fbf7e09b524e4fb",
+      "tr": "ceb342c2719175a3",
+      "by": "ai"
+    },
+    "auth.email.feedback.missingDomain": {
+      "src": "a98b4e655d6da39d",
+      "tr": "7644535e654c0e82",
+      "by": "ai"
+    },
+    "auth.email.feedback.missingPeriod": {
+      "src": "197613217fde9263",
+      "tr": "9d86925eb34726de",
+      "by": "ai"
+    },
+    "auth.email.feedback.missingUser": {
+      "src": "92c543f44cb49bde",
+      "tr": "4fe43c5714361803",
+      "by": "ai"
+    },
+    "auth.email.feedback.multipleAt": {
+      "src": "944b3e5973594b97",
+      "tr": "7648504570d02418",
+      "by": "ai"
+    },
+    "auth.email.feedback.required": {
+      "src": "41381ba2608d89e5",
+      "tr": "6539d92e1ae3a27b",
+      "by": "ai"
+    },
+    "auth.field.hidePassword": {
+      "src": "a60a56c584b3b05b",
+      "tr": "680d43e0eca76247",
+      "by": "ai"
+    },
+    "auth.field.showPassword": {
+      "src": "6aeaa6a53d09dcad",
+      "tr": "dccd381767f2664e",
+      "by": "ai"
+    },
+    "auth.forgotPassword.backToSignIn": {
+      "src": "ee9eb75e2562e630",
+      "tr": "24e1219492b4bbd4",
+      "by": "ai"
+    },
+    "auth.forgotPassword.emailLabel": {
+      "src": "09bf25ef30833633",
+      "tr": "c2f9765ad5cefe3a",
+      "by": "ai"
+    },
+    "auth.forgotPassword.expiry": {
+      "src": "45c7806ab261c7a8",
+      "tr": "edd6d3ecdddf8f0a",
+      "by": "ai"
+    },
+    "auth.forgotPassword.eyebrow": {
+      "src": "89b8b1b0bb15c4f7",
+      "tr": "6c616ac63f2a49f6",
+      "by": "ai"
+    },
+    "auth.forgotPassword.genericError": {
+      "src": "9c170ddac6cbe0bc",
+      "tr": "dfc933cc7491d699",
+      "by": "ai"
+    },
+    "auth.forgotPassword.or": {
+      "src": "0568bd03b8eb6cca",
+      "tr": "aa03e53b4c06aa09",
+      "by": "ai"
+    },
+    "auth.forgotPassword.rateLimited": {
+      "src": "cef034a979f4ce2e",
+      "tr": "6e40bfe6159f5a3f",
+      "by": "ai"
+    },
+    "auth.forgotPassword.sending": {
+      "src": "286a3af7348e8312",
+      "tr": "e2308adbdd55d99c",
+      "by": "ai"
+    },
+    "auth.forgotPassword.sendToAnother": {
+      "src": "e1a7e27dcbeff11d",
+      "tr": "8e96c835d8ff4157",
+      "by": "ai"
+    },
+    "auth.forgotPassword.sentBody": {
+      "src": "397f9242b1f8bfcb",
+      "tr": "c0b900fcdafa8dca",
+      "by": "ai"
+    },
+    "auth.forgotPassword.submit": {
+      "src": "7d5f16d496d4e50d",
+      "tr": "eb72a5e50ce97ddd",
+      "by": "ai"
+    },
+    "auth.forgotPassword.subtitle": {
+      "src": "628128bbea884846",
+      "tr": "1d514d21f9287e60",
+      "by": "ai"
+    },
+    "auth.forgotPassword.subtitleSent": {
+      "src": "3021e63c903025eb",
+      "tr": "68d6a0e1bc438517",
+      "by": "ai"
+    },
+    "auth.forgotPassword.title": {
+      "src": "eeca4f80a184d5aa",
+      "tr": "78ef93e2ec179872",
+      "by": "ai"
+    },
+    "auth.forgotPassword.titleSent": {
+      "src": "0e5fc27d14b6ef30",
+      "tr": "2a00ab28ad037fa5",
+      "by": "ai"
+    },
+    "auth.inApp.body": {
+      "src": "d9178ab70b7cff5f",
+      "tr": "b7b81130ffb22355",
+      "by": "ai"
+    },
+    "auth.inApp.copied": {
+      "src": "d12860c21e78baa5",
+      "tr": "641fd9b45f7b605c",
+      "by": "ai"
+    },
+    "auth.inApp.copyLink": {
+      "src": "dbf362d4f210c780",
+      "tr": "6a752b442eff4efe",
+      "by": "ai"
+    },
+    "auth.inApp.openInChrome": {
+      "src": "491d1f61fc1d129c",
+      "tr": "0ddbe9a3a76f0a8e",
+      "by": "ai"
+    },
+    "auth.inApp.thisApp": {
+      "src": "d2c823cf6649d9cf",
+      "tr": "82336cbfbbab8c10",
+      "by": "ai"
+    },
+    "auth.inApp.title": {
+      "src": "6faa4cbad41bf371",
+      "tr": "e65812d3ea0e0fa7",
+      "by": "ai"
+    },
+    "auth.login.consentBody": {
+      "src": "a8e1bb237c48e112",
+      "tr": "d91e78b9e0913597",
+      "by": "ai"
+    },
+    "auth.login.consentTitle": {
+      "src": "14a85b82b6afc590",
+      "tr": "e185ddb9b107c5db",
+      "by": "ai"
+    },
+    "auth.login.email": {
+      "src": "969ccbd3cf6300ec",
+      "tr": "2fae6fb30b0d0077",
+      "by": "ai"
+    },
+    "auth.login.errorTitle": {
+      "src": "b2b04f776a8ac9e5",
+      "tr": "1c983667bad80395",
+      "by": "ai"
+    },
+    "auth.login.forgotPassword": {
+      "src": "30c1d8d3e9128893",
+      "tr": "78ef93e2ec179872",
+      "by": "ai"
+    },
+    "auth.login.genericError": {
+      "src": "9c170ddac6cbe0bc",
+      "tr": "dfc933cc7491d699",
+      "by": "ai"
+    },
+    "auth.login.goToFlights": {
+      "src": "b8ebcbfc8da1ddc6",
+      "tr": "57ac1972d4ae88d6",
+      "by": "ai"
+    },
+    "auth.login.invalidCredentials": {
+      "src": "457fe050a7d87e0c",
+      "tr": "d9c04d49348b1f78",
+      "by": "ai"
+    },
+    "auth.login.keepSignedIn": {
+      "src": "db3407e99939330f",
+      "tr": "2d1ae386210bd011",
+      "by": "ai"
+    },
+    "auth.login.otherWays": {
+      "src": "0d5d3051fc2d6e53",
+      "tr": "8da8d1368609a826",
+      "by": "ai"
+    },
+    "auth.login.passkey": {
+      "src": "b09700bcd53283b4",
+      "tr": "957b9ec917612596",
+      "by": "ai"
+    },
+    "auth.login.password": {
+      "src": "e7cf3ef4f17c3999",
+      "tr": "a36c101570cc4410",
+      "by": "ai"
+    },
+    "auth.login.passwordResetBody": {
+      "src": "7e4e2c31bb672f85",
+      "tr": "1e2fd2c574d605fd",
+      "by": "ai"
+    },
+    "auth.login.passwordResetTitle": {
+      "src": "359f68acb9b44376",
+      "tr": "732f2174fde70407",
+      "by": "ai"
+    },
+    "auth.login.recoveryBody": {
+      "src": "f17cd270f20a40b1",
+      "tr": "e9dc971475672e19",
+      "by": "ai"
+    },
+    "auth.login.recoveryTitle": {
+      "src": "976a6bb05133b5fe",
+      "tr": "d456b6888a69ae4c",
+      "by": "ai"
+    },
+    "auth.login.submit": {
+      "src": "bfd402b2f6f38125",
+      "tr": "a329a32263a460ff",
+      "by": "ai"
+    },
+    "auth.login.subtitle": {
+      "src": "53e63c27b0a04c0b",
+      "tr": "0a936d849096f535",
+      "by": "ai"
+    },
+    "auth.login.title": {
+      "src": "9124298443fdb967",
+      "tr": "5bb25aaf518c9ebf",
+      "by": "ai"
+    },
+    "auth.login.tryAgain": {
+      "src": "d8b8392e2c542950",
+      "tr": "948643cb59e8274f",
+      "by": "ai"
+    },
+    "auth.login.verifiedBody": {
+      "src": "275639802c74f198",
+      "tr": "f1b8390ee0acede3",
+      "by": "ai"
+    },
+    "auth.login.verifiedTitle": {
+      "src": "bdfb1e4f00c73e98",
+      "tr": "697a8c45b1aa96c9",
+      "by": "ai"
+    },
+    "auth.meta.connect.description": {
+      "src": "50444cfa5e9888b5",
+      "tr": "b986599921fa23fc",
+      "by": "ai"
+    },
+    "auth.meta.connect.title": {
+      "src": "70dbeb8bb737321e",
+      "tr": "158773dd2f32b3f0",
+      "by": "ai"
+    },
+    "auth.meta.consent.description": {
+      "src": "17772c9c2485c72d",
+      "tr": "98bf2f1e9761baf2",
+      "by": "ai"
+    },
+    "auth.meta.consent.ogTitle": {
+      "src": "7573c707f65c7f91",
+      "tr": "a898947ce4873166",
+      "by": "ai"
+    },
+    "auth.meta.consent.title": {
+      "src": "2f464e8bbc032138",
+      "tr": "163157af323016b5",
+      "by": "ai"
+    },
+    "auth.meta.forgotPassword.description": {
+      "src": "a9f76e4329d045ef",
+      "tr": "342c5964b38eb02a",
+      "by": "ai"
+    },
+    "auth.meta.forgotPassword.ogTitle": {
+      "src": "6e7e44d2a094bc34",
+      "tr": "bc924eef2d6dc1e8",
+      "by": "ai"
+    },
+    "auth.meta.forgotPassword.title": {
+      "src": "fdfd41de7ae5e1d9",
+      "tr": "84d8e3ab31a0804b",
+      "by": "ai"
+    },
+    "auth.meta.login.description": {
+      "src": "d75f5edb94d3f57d",
+      "tr": "5801cad498d2a263",
+      "by": "ai"
+    },
+    "auth.meta.login.ogTitle": {
+      "src": "5d2f4e8e3024ca6f",
+      "tr": "10f809ba0d15c134",
+      "by": "ai"
+    },
+    "auth.meta.login.title": {
+      "src": "bcc0bcc9140b0c97",
+      "tr": "a329a32263a460ff",
+      "by": "ai"
+    },
+    "auth.meta.register.description": {
+      "src": "9169661c0df1c599",
+      "tr": "61253e9c6978ee7b",
+      "by": "ai"
+    },
+    "auth.meta.register.ogTitle": {
+      "src": "3c012b988d8cb8df",
+      "tr": "3a1c02688a714e11",
+      "by": "ai"
+    },
+    "auth.meta.register.title": {
+      "src": "0dffe234b44793b6",
+      "tr": "d7e7f57a7cd451f8",
+      "by": "ai"
+    },
+    "auth.meta.resetPassword.description": {
+      "src": "61df1526ba668dc3",
+      "tr": "772206709379c2c9",
+      "by": "ai"
+    },
+    "auth.meta.resetPassword.ogTitle": {
+      "src": "3130fe83c75c12df",
+      "tr": "ef6c6d4fc4271e40",
+      "by": "ai"
+    },
+    "auth.meta.resetPassword.title": {
+      "src": "4e70f1fd24babdea",
+      "tr": "6c616ac63f2a49f6",
+      "by": "ai"
+    },
+    "auth.meta.unsubscribe.title": {
+      "src": "dd121554df671308",
+      "tr": "9513ac2cb0851aa3",
+      "by": "ai"
+    },
+    "auth.meta.verifyEmail.description": {
+      "src": "b2a2a5cea8e5ffb5",
+      "tr": "75d0f550d611d953",
+      "by": "ai"
+    },
+    "auth.meta.verifyEmail.ogTitle": {
+      "src": "9758cd640cf87ec8",
+      "tr": "750a62a80114d19f",
+      "by": "ai"
+    },
+    "auth.meta.verifyEmail.title": {
+      "src": "9ae9fbbcb1c80ca9",
+      "tr": "7b3fe21df24bee13",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.added": {
+      "src": "f3cea4bb8f1e0b9c",
+      "tr": "7bc7f6fe9a04e99d",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.body": {
+      "src": "37f496319f0629bd",
+      "tr": "966c2d90d6da375c",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.dismiss": {
+      "src": "48845bff334a50a5",
+      "tr": "042fae8a9e4a74b8",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.notNow": {
+      "src": "a0e63d7c7125d29a",
+      "tr": "29e16bd336521c52",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.setUp": {
+      "src": "212a220280d895ff",
+      "tr": "f0d5383bba1ae165",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.title": {
+      "src": "bdb07474f153a6a2",
+      "tr": "c0b6458024beafbf",
+      "by": "ai"
+    },
+    "auth.passkeyNudge.waiting": {
+      "src": "af560a110bae7331",
+      "tr": "2e0251eb86f1bff4",
+      "by": "ai"
+    },
+    "auth.passkeys.client.alreadyRegistered": {
+      "src": "d3ed38585324c5a6",
+      "tr": "097ee54c5a941c8a",
+      "by": "ai"
+    },
+    "auth.passkeys.client.createFailed": {
+      "src": "ee3aab14d853e322",
+      "tr": "a8b7e14f204654bb",
+      "by": "ai"
+    },
+    "auth.passkeys.client.requestFailed": {
+      "src": "3ccd9d6586ef9143",
+      "tr": "f51a737963efd468",
+      "by": "ai"
+    },
+    "auth.passkeys.client.setupCancelled": {
+      "src": "e84bea492148a30c",
+      "tr": "302025c0ad00cb34",
+      "by": "ai"
+    },
+    "auth.passkeys.client.signInCancelled": {
+      "src": "8cc9370548496c46",
+      "tr": "1a34c8237d2789dc",
+      "by": "ai"
+    },
+    "auth.passkeys.client.signInFailed": {
+      "src": "795054de045bfe3c",
+      "tr": "6d73a1ce57781815",
+      "by": "ai"
+    },
+    "auth.passkeys.client.useFailed": {
+      "src": "57f22a4adc98fdb4",
+      "tr": "094a3110debabe14",
+      "by": "ai"
+    },
+    "auth.passkeys.deleteFailed": {
+      "src": "264d7fd0390fe6e5",
+      "tr": "03e8aa9724ac1788",
+      "by": "ai"
+    },
+    "auth.passkeys.impersonating": {
+      "src": "5375e7e482180c3d",
+      "tr": "ad835f1f7b76ac0f",
+      "by": "ai"
+    },
+    "auth.passkeys.loadFailed": {
+      "src": "132a70b872dd2d4e",
+      "tr": "11b69310e65076c5",
+      "by": "ai"
+    },
+    "auth.passkeys.nameRequired": {
+      "src": "47096625bfd7b657",
+      "tr": "706c6231413987b5",
+      "by": "ai"
+    },
+    "auth.passkeys.notAuthenticated": {
+      "src": "76d1efbeed2dd7b2",
+      "tr": "3af1e1869e85218a",
+      "by": "ai"
+    },
+    "auth.passkeys.renameFailed": {
+      "src": "431efb2e88cb4b53",
+      "tr": "3bbbcdc57e22c432",
+      "by": "ai"
+    },
+    "auth.passkeys.unknown": {
+      "src": "90eb4d1d53341434",
+      "tr": "190553580afd22e3",
+      "by": "ai"
+    },
+    "auth.password.feedback.hasLowercase": {
+      "src": "d26b17f9840efc9e",
+      "tr": "c416ef0e56a7ce57",
+      "by": "ai"
+    },
+    "auth.password.feedback.hasNumber": {
+      "src": "a4655a786edba294",
+      "tr": "30c2b4905ad8c2ee",
+      "by": "ai"
+    },
+    "auth.password.feedback.hasSpecial": {
+      "src": "8f0d2bdd6e7ab5a7",
+      "tr": "49c9a70231fa51c1",
+      "by": "ai"
+    },
+    "auth.password.feedback.hasUppercase": {
+      "src": "83e04f51294cd490",
+      "tr": "639056313111edb4",
+      "by": "ai"
+    },
+    "auth.password.feedback.minLength": {
+      "src": "4b99c79dc2ec3e5f",
+      "tr": "8eba7c35a946249b",
+      "by": "ai"
+    },
+    "auth.password.feedback.noCommonPassword": {
+      "src": "493e31242f96995b",
+      "tr": "cc13a4f1fa190049",
+      "by": "ai"
+    },
+    "auth.password.feedback.noRepeated": {
+      "src": "74479a75f988c30b",
+      "tr": "0b59a23dbeb9809d",
+      "by": "ai"
+    },
+    "auth.password.feedback.noSequential": {
+      "src": "a9e5ac53576664ea",
+      "tr": "1208042ca542c9e8",
+      "by": "ai"
+    },
+    "auth.password.requirement.hasLowercase": {
+      "src": "a872817e07bba126",
+      "tr": "6bab782f732dab33",
+      "by": "ai"
+    },
+    "auth.password.requirement.hasNumber": {
+      "src": "2919013cacd89ed4",
+      "tr": "aa19cbe55f729f55",
+      "by": "ai"
+    },
+    "auth.password.requirement.hasSpecial": {
+      "src": "657a2c5ca274028b",
+      "tr": "46988c4107603e32",
+      "by": "ai"
+    },
+    "auth.password.requirement.hasUppercase": {
+      "src": "2a7e7140ed69763e",
+      "tr": "189487edb8ac0529",
+      "by": "ai"
+    },
+    "auth.password.requirement.minLength": {
+      "src": "48ff8fe4eeda11b5",
+      "tr": "8eba7c35a946249b",
+      "by": "ai"
+    },
+    "auth.password.requirement.noCommonPassword": {
+      "src": "7d699b5e1eb35afb",
+      "tr": "9c9a42c221cf3d52",
+      "by": "ai"
+    },
+    "auth.password.requirement.noRepeated": {
+      "src": "cc099543882221ca",
+      "tr": "f273db0928bd8ec8",
+      "by": "ai"
+    },
+    "auth.password.requirement.noSequential": {
+      "src": "7a2e3848199590da",
+      "tr": "ad3729d55ceeed5a",
+      "by": "ai"
+    },
+    "auth.passwordMeter.fair": {
+      "src": "1869c9d2a11e8ecd",
+      "tr": "668df3e089958c7b",
+      "by": "ai"
+    },
+    "auth.passwordMeter.good": {
+      "src": "770e607624d68926",
+      "tr": "77562953d4c8dc07",
+      "by": "ai"
+    },
+    "auth.passwordMeter.hint": {
+      "src": "d3e0403831f93df7",
+      "tr": "ea77bbbb31ffde9e",
+      "by": "ai"
+    },
+    "auth.passwordMeter.strength": {
+      "src": "22533247640111b4",
+      "tr": "01890f1c57d40762",
+      "by": "ai"
+    },
+    "auth.passwordMeter.strong": {
+      "src": "eda15ce4834ac303",
+      "tr": "7e7d8c699ee576ce",
+      "by": "ai"
+    },
+    "auth.passwordMeter.weak": {
+      "src": "481ba4019c9d2710",
+      "tr": "29ca7bad4a8db68e",
+      "by": "ai"
+    },
+    "auth.passwordStrength.fair": {
+      "src": "f7b19afcde965ea4",
+      "tr": "6ac467469f7e6efd",
+      "by": "ai"
+    },
+    "auth.passwordStrength.good": {
+      "src": "c939327ca16dcf97",
+      "tr": "7a26d266bf0c4e4d",
+      "by": "ai"
+    },
+    "auth.passwordStrength.strong": {
+      "src": "30a04fdcb6bb10b0",
+      "tr": "0857c7a77ba11845",
+      "by": "ai"
+    },
+    "auth.passwordStrength.title": {
+      "src": "b198b5529e788c49",
+      "tr": "c507fbe7228d88c2",
+      "by": "ai"
+    },
+    "auth.passwordStrength.veryStrong": {
+      "src": "1d46c9a42dc59227",
+      "tr": "9695d01add6ca722",
+      "by": "ai"
+    },
+    "auth.passwordStrength.veryWeak": {
+      "src": "40896ddf5325c527",
+      "tr": "d375c499e125f716",
+      "by": "ai"
+    },
+    "auth.passwordStrength.weak": {
+      "src": "8d6cea2517ff74f7",
+      "tr": "e5ded9770387e84c",
+      "by": "ai"
+    },
+    "auth.providerButton.continueWith": {
+      "src": "9fa94be7fa6aace0",
+      "tr": "4b10979386cce940",
+      "by": "ai"
+    },
+    "auth.providerButton.loading": {
+      "src": "47d2a515ef2f05b8",
+      "tr": "2d03f8f3dfe1ed62",
+      "by": "ai"
+    },
+    "auth.register.almostThere": {
+      "src": "9ada4bb91eb92640",
+      "tr": "bfd6e18890324e5c",
+      "by": "ai"
+    },
+    "auth.register.choosePassword": {
+      "src": "efd02f56819dba8a",
+      "tr": "048f6d828c6b015d",
+      "by": "ai"
+    },
+    "auth.register.confirmPassword": {
+      "src": "5ac265f396a2c586",
+      "tr": "7d338266c1801d45",
+      "by": "ai"
+    },
+    "auth.register.email": {
+      "src": "969ccbd3cf6300ec",
+      "tr": "2fae6fb30b0d0077",
+      "by": "ai"
+    },
+    "auth.register.errorTitle": {
+      "src": "8f5c0b1a0c31e3ba",
+      "tr": "5e6e9d1563037bbf",
+      "by": "ai"
+    },
+    "auth.register.failed": {
+      "src": "774f4ecd83391834",
+      "tr": "26b0e150e1065209",
+      "by": "ai"
+    },
+    "auth.register.genericError": {
+      "src": "9c170ddac6cbe0bc",
+      "tr": "dfc933cc7491d699",
+      "by": "ai"
+    },
+    "auth.register.nameTooLong": {
+      "src": "00a75dbd578fdcbf",
+      "tr": "cc5a4e9e7f5d7a14",
+      "by": "ai"
+    },
+    "auth.register.nameTooShort": {
+      "src": "9654ce026d95b6ef",
+      "tr": "f77eae19ea65b87e",
+      "by": "ai"
+    },
+    "auth.register.passwordsDoNotMatch": {
+      "src": "b6eb82cd3300c838",
+      "tr": "943de6dfe4317cc6",
+      "by": "ai"
+    },
+    "auth.register.passwordsMatch": {
+      "src": "49665aad0be44536",
+      "tr": "976b5c0b2ec7ef35",
+      "by": "ai"
+    },
+    "auth.register.passwordsMustMatch": {
+      "src": "0c060bd4fb571216",
+      "tr": "8465bf3c05e97c22",
+      "by": "ai"
+    },
+    "auth.register.pilotName": {
+      "src": "b0d2f045cb5bcda7",
+      "tr": "9a0583d9fd11281c",
+      "by": "ai"
+    },
+    "auth.register.submit": {
+      "src": "798ca2ce18bf2038",
+      "tr": "d7e7f57a7cd451f8",
+      "by": "ai"
+    },
+    "auth.register.subtitle": {
+      "src": "3b3789b1d76ad165",
+      "tr": "c31d51aa9dbb690e",
+      "by": "ai"
+    },
+    "auth.register.success": {
+      "src": "fed0bc81013434bf",
+      "tr": "aa7ffcd3ad23325c",
+      "by": "ai"
+    },
+    "auth.register.successTitle": {
+      "src": "9fee76c5bb5bea07",
+      "tr": "112e7245c14eda6d",
+      "by": "ai"
+    },
+    "auth.register.title": {
+      "src": "dbf4129f0a20820e",
+      "tr": "cb029fddc3234eb5",
+      "by": "ai"
+    },
+    "auth.resetPassword.backToSignIn": {
+      "src": "ee9eb75e2562e630",
+      "tr": "24e1219492b4bbd4",
+      "by": "ai"
+    },
+    "auth.resetPassword.confirmPassword": {
+      "src": "642776c02c0d14a0",
+      "tr": "8f99b8341f934a12",
+      "by": "ai"
+    },
+    "auth.resetPassword.confirmPlaceholder": {
+      "src": "bfd8c343fbd29ee3",
+      "tr": "9288852600c071c6",
+      "by": "ai"
+    },
+    "auth.resetPassword.doneBody": {
+      "src": "f52b96bb74d0e3bd",
+      "tr": "1206ee024c73dbb6",
+      "by": "ai"
+    },
+    "auth.resetPassword.eyebrow": {
+      "src": "89b8b1b0bb15c4f7",
+      "tr": "6c616ac63f2a49f6",
+      "by": "ai"
+    },
+    "auth.resetPassword.failed": {
+      "src": "8ac383120442afb6",
+      "tr": "e8f7cf843e44ea51",
+      "by": "ai"
+    },
+    "auth.resetPassword.genericError": {
+      "src": "9c170ddac6cbe0bc",
+      "tr": "dfc933cc7491d699",
+      "by": "ai"
+    },
+    "auth.resetPassword.invalidBody": {
+      "src": "d7e5fed6c87ffa2a",
+      "tr": "ac02b57d76d7b1e7",
+      "by": "ai"
+    },
+    "auth.resetPassword.invalidTitle": {
+      "src": "7b2bb4a804d393f5",
+      "tr": "76331bcc17740e07",
+      "by": "ai"
+    },
+    "auth.resetPassword.newPassword": {
+      "src": "7c451e0f436d04a6",
+      "tr": "88bba54d70a525b3",
+      "by": "ai"
+    },
+    "auth.resetPassword.newPasswordPlaceholder": {
+      "src": "3c9f1b8f209064e6",
+      "tr": "bbba38e57eb2b570",
+      "by": "ai"
+    },
+    "auth.resetPassword.passwordsDoNotMatch": {
+      "src": "b6eb82cd3300c838",
+      "tr": "943de6dfe4317cc6",
+      "by": "ai"
+    },
+    "auth.resetPassword.passwordsMatch": {
+      "src": "49665aad0be44536",
+      "tr": "976b5c0b2ec7ef35",
+      "by": "ai"
+    },
+    "auth.resetPassword.requestNew": {
+      "src": "9c073ac4a922dea8",
+      "tr": "941eaa820cc0f94f",
+      "by": "ai"
+    },
+    "auth.resetPassword.resetting": {
+      "src": "62197cbcaffd7f65",
+      "tr": "0000294dc3599874",
+      "by": "ai"
+    },
+    "auth.resetPassword.sessionsSignedOut": {
+      "src": "9cfa7ebf40b03145",
+      "tr": "9421a381ad1451ba",
+      "by": "ai"
+    },
+    "auth.resetPassword.signInNow": {
+      "src": "263e0e935572cc1a",
+      "tr": "5031b23730b03abf",
+      "by": "ai"
+    },
+    "auth.resetPassword.submit": {
+      "src": "4e70f1fd24babdea",
+      "tr": "6c616ac63f2a49f6",
+      "by": "ai"
+    },
+    "auth.resetPassword.subtitle": {
+      "src": "da32e5d6fe2aab3a",
+      "tr": "ead9c081a77d8384",
+      "by": "ai"
+    },
+    "auth.resetPassword.subtitleDone": {
+      "src": "676729883ebbe718",
+      "tr": "ff601078617316ba",
+      "by": "ai"
+    },
+    "auth.resetPassword.title": {
+      "src": "138b81ed32c32c56",
+      "tr": "7b3d5296e6650677",
+      "by": "ai"
+    },
+    "auth.resetPassword.titleDone": {
+      "src": "ec80e47d55470499",
+      "tr": "a7fec476f1fbcba8",
+      "by": "ai"
+    },
+    "auth.shell.copyright": {
+      "src": "1b5aa280f819e2a1",
+      "tr": "1b5aa280f819e2a1",
+      "by": "ai"
+    },
+    "auth.shell.help": {
+      "src": "b79cac926e0b2e34",
+      "tr": "95472f650a2b647f",
+      "by": "ai"
+    },
+    "auth.shell.modeRegister": {
+      "src": "bb7234ec12451361",
+      "tr": "3badc984343995c1",
+      "by": "ai"
+    },
+    "auth.shell.modeSignIn": {
+      "src": "bfd402b2f6f38125",
+      "tr": "a329a32263a460ff",
+      "by": "ai"
+    },
+    "auth.shell.orWithEmail": {
+      "src": "ece415ece1ce17a9",
+      "tr": "e30cb9244e25c8bf",
+      "by": "ai"
+    },
+    "auth.shell.privacy": {
+      "src": "54a57c3147c49f33",
+      "tr": "f624fcf0dcbb39c0",
+      "by": "ai"
+    },
+    "auth.shell.switchLogin.cta": {
+      "src": "798ca2ce18bf2038",
+      "tr": "d7e7f57a7cd451f8",
+      "by": "ai"
+    },
+    "auth.shell.switchLogin.hint": {
+      "src": "38c1c4457cd164cc",
+      "tr": "8f930dc47ed04c2f",
+      "by": "ai"
+    },
+    "auth.shell.switchRegister.cta": {
+      "src": "bfd402b2f6f38125",
+      "tr": "a329a32263a460ff",
+      "by": "ai"
+    },
+    "auth.shell.switchRegister.hint": {
+      "src": "caf2093e7d77b0fd",
+      "tr": "5fbd1cae29becf33",
+      "by": "ai"
+    },
+    "auth.story.bestLift": {
+      "src": "e8cc2bbc982cfc42",
+      "tr": "86b281e85af843b2",
+      "by": "ai"
+    },
+    "auth.story.distance": {
+      "src": "63e6ce93e1bcb512",
+      "tr": "b598dd1f2b770da0",
+      "by": "ai"
+    },
+    "auth.story.duration": {
+      "src": "caa79af4db67695c",
+      "tr": "668cbe316167110b",
+      "by": "ai"
+    },
+    "auth.story.flightsThisYear": {
+      "src": "225fca3ee70e9cbb",
+      "tr": "e46119346dde53f3",
+      "by": "ai"
+    },
+    "auth.story.headline": {
+      "src": "93144703298b08bb",
+      "tr": "15c32f5558c30d04",
+      "by": "ai"
+    },
+    "auth.story.homeAria": {
+      "src": "16525f8333fdd464",
+      "tr": "26e2ebc5f5e012d0",
+      "by": "ai"
+    },
+    "auth.story.lead": {
+      "src": "e84ba01172bd65ed",
+      "tr": "cd458b6cf0d837ca",
+      "by": "ai"
+    },
+    "auth.story.live": {
+      "src": "35e0d0360a0af6d1",
+      "tr": "35e0d0360a0af6d1",
+      "by": "ai"
+    },
+    "auth.story.logbook": {
+      "src": "0beb7f13b677f73d",
+      "tr": "80e5cfe8589487f4",
+      "by": "ai"
+    },
+    "auth.story.longestXc": {
+      "src": "d53d1dd760dfb46a",
+      "tr": "b1c60be04374175d",
+      "by": "ai"
+    },
+    "auth.story.maxAlt": {
+      "src": "8ccc7fbd53acdc04",
+      "tr": "283c2baa2bf45be5",
+      "by": "ai"
+    },
+    "auth.story.pilotsAndSites": {
+      "src": "129b7a436f1fbdca",
+      "tr": "fa5bd8d57c60302d",
+      "by": "ai"
+    },
+    "auth.story.preview": {
+      "src": "5975cf1bba432391",
+      "tr": "69337f6de91475ad",
+      "by": "ai"
+    },
+    "auth.story.sampleLabel": {
+      "src": "486288018192045e",
+      "tr": "7cfb6af9451a266e",
+      "by": "ai"
+    },
+    "auth.unsubscribe.body": {
+      "src": "308bf7ac6ebb793d",
+      "tr": "6ba1a2af5c1a07ef",
+      "by": "ai"
+    },
+    "auth.unsubscribe.bodyInvalid": {
+      "src": "752bf630015f6f86",
+      "tr": "5b40c5efdddac50b",
+      "by": "ai"
+    },
+    "auth.unsubscribe.confirm": {
+      "src": "03a191f356b30176",
+      "tr": "f71d98147e4e5444",
+      "by": "ai"
+    },
+    "auth.unsubscribe.doneBody": {
+      "src": "887026ac771532a1",
+      "tr": "2d99d3ba26c29e36",
+      "by": "ai"
+    },
+    "auth.unsubscribe.doneTitle": {
+      "src": "dc23d29e1841a033",
+      "tr": "c6137fb8c160cafd",
+      "by": "ai"
+    },
+    "auth.unsubscribe.eyebrow": {
+      "src": "dd121554df671308",
+      "tr": "9513ac2cb0851aa3",
+      "by": "ai"
+    },
+    "auth.unsubscribe.genericError": {
+      "src": "3ccd9d6586ef9143",
+      "tr": "f51a737963efd468",
+      "by": "ai"
+    },
+    "auth.unsubscribe.keep": {
+      "src": "02fc041fabc071ec",
+      "tr": "c0045a8449fdfb00",
+      "by": "ai"
+    },
+    "auth.unsubscribe.openProfile": {
+      "src": "60bf9e2dd105bbe0",
+      "tr": "62faf90566268ab0",
+      "by": "ai"
+    },
+    "auth.unsubscribe.title": {
+      "src": "7690a89a95be2e03",
+      "tr": "4601b6cc61f23fe9",
+      "by": "ai"
+    },
+    "auth.unsubscribe.titleInvalid": {
+      "src": "947afc829497fbe5",
+      "tr": "3489c16ad058250b",
+      "by": "ai"
+    },
+    "auth.verifyEmail.alreadyBody": {
+      "src": "72e7e437c4e6c2a4",
+      "tr": "f2d63727c9ccac5a",
+      "by": "ai"
+    },
+    "auth.verifyEmail.alreadySubtitle": {
+      "src": "21832726bf4f0270",
+      "tr": "5bf6542f54a5c8ca",
+      "by": "ai"
+    },
+    "auth.verifyEmail.alreadyTitle": {
+      "src": "5294f0159e3758cf",
+      "tr": "f142b9059c033e5b",
+      "by": "ai"
+    },
+    "auth.verifyEmail.backToSignIn": {
+      "src": "ee9eb75e2562e630",
+      "tr": "24e1219492b4bbd4",
+      "by": "ai"
+    },
+    "auth.verifyEmail.errorHint": {
+      "src": "b46413aedb51941a",
+      "tr": "eb4aff83c66af8f9",
+      "by": "ai"
+    },
+    "auth.verifyEmail.errorSubtitle": {
+      "src": "31743eb1e10197d5",
+      "tr": "97fa7e30b397e544",
+      "by": "ai"
+    },
+    "auth.verifyEmail.errorTitle": {
+      "src": "cb3a722bd933b8ca",
+      "tr": "bd2949fd6024a24c",
+      "by": "ai"
+    },
+    "auth.verifyEmail.eyebrow": {
+      "src": "36575d819a4c6ced",
+      "tr": "41d89445e522a13e",
+      "by": "ai"
+    },
+    "auth.verifyEmail.failed": {
+      "src": "8062a0d1f9c034d9",
+      "tr": "8e2726ad17a029eb",
+      "by": "ai"
+    },
+    "auth.verifyEmail.genericError": {
+      "src": "201eede024521037",
+      "tr": "89108ed7509d276d",
+      "by": "ai"
+    },
+    "auth.verifyEmail.loadingBody": {
+      "src": "1e1664e07db56842",
+      "tr": "a9c0e1ff0eb84d21",
+      "by": "ai"
+    },
+    "auth.verifyEmail.loadingTitle": {
+      "src": "2ec1ac7d45e8079b",
+      "tr": "af69cff318fea879",
+      "by": "ai"
+    },
+    "auth.verifyEmail.noToken": {
+      "src": "4e1f4cec2743583d",
+      "tr": "ecbf4894fbbb07fe",
+      "by": "ai"
+    },
+    "auth.verifyEmail.requestNew": {
+      "src": "b1cca073e618d8dc",
+      "tr": "df7afdfb00535fa1",
+      "by": "ai"
+    },
+    "auth.verifyEmail.signIn": {
+      "src": "bcc0bcc9140b0c97",
+      "tr": "a329a32263a460ff",
+      "by": "ai"
+    },
+    "auth.verifyEmail.signInNow": {
+      "src": "263e0e935572cc1a",
+      "tr": "5031b23730b03abf",
+      "by": "ai"
+    },
+    "auth.verifyEmail.successBody": {
+      "src": "91a5484ce4228bda",
+      "tr": "1f32f82a237c3cc7",
+      "by": "ai"
+    },
+    "auth.verifyEmail.successSubtitle": {
+      "src": "b69f7acb272f7e87",
+      "tr": "05a8c7bcbf685519",
+      "by": "ai"
+    },
+    "auth.verifyEmail.successTitle": {
+      "src": "b351d83035da4d45",
+      "tr": "efa1b568912e815f",
+      "by": "ai"
+    },
     "common.allSystemsNominal": {
       "src": "17473aee2b01184a",
       "tr": "a3bb231633fd1826",
@@ -2600,6 +4080,841 @@
       "tr": "18947a4da41d237c",
       "by": "ai"
     },
+    "profile.achievements.caption": {
+      "src": "2f00bee35f89e0c8",
+      "tr": "e64b85a4c1af2a54",
+      "by": "ai"
+    },
+    "profile.achievements.earned": {
+      "src": "63e39794f7d57484",
+      "tr": "38cecdae01e0d9b4",
+      "by": "ai"
+    },
+    "profile.achievements.earnedOn": {
+      "src": "2d1f4caa9413bf5f",
+      "tr": "5a421aa7e7c6357d",
+      "by": "ai"
+    },
+    "profile.achievements.empty": {
+      "src": "6d7515dcfa0d9e1b",
+      "tr": "a2ec96620381c9bb",
+      "by": "ai"
+    },
+    "profile.achievements.founderCohort": {
+      "src": "a0d3971ee43abb9e",
+      "tr": "da1131ab1dc916c3",
+      "by": "ai"
+    },
+    "profile.achievements.pioneer": {
+      "src": "743d781adc55be21",
+      "tr": "c24094644e04e682",
+      "by": "ai"
+    },
+    "profile.achievements.title": {
+      "src": "74cf2bc63fe12220",
+      "tr": "3bfef27c0e993b68",
+      "by": "ai"
+    },
+    "profile.achievements.viewAll": {
+      "src": "30a64216eaeac5d3",
+      "tr": "e9f64a88b98076eb",
+      "by": "ai"
+    },
+    "profile.anomalies.actionRequired": {
+      "src": "adf69e75cc7d3c9d",
+      "tr": "fd44d8d30c2c67b5",
+      "by": "ai"
+    },
+    "profile.anomalies.consistent": {
+      "src": "db17300b40fb9c2a",
+      "tr": "1c6560c291e40f7e",
+      "by": "ai"
+    },
+    "profile.anomalies.consistentWithIgnored": {
+      "src": "226f97bccf588900",
+      "tr": "90c0fe63f2eab774",
+      "by": "ai"
+    },
+    "profile.anomalies.inconsistencies": {
+      "src": "909ae843087fe676",
+      "tr": "5b29b4411500a032",
+      "by": "ai"
+    },
+    "profile.anomalies.issuesDetected": {
+      "src": "0bed4e087d3549f9",
+      "tr": "39353fafe1db103f",
+      "by": "ai"
+    },
+    "profile.anomalies.none": {
+      "src": "738a67fce85b7472",
+      "tr": "6d164e1e98174948",
+      "by": "ai"
+    },
+    "profile.anomalies.reviewAria": {
+      "src": "002affb9bffd5997",
+      "tr": "65704226c7d17b57",
+      "by": "ai"
+    },
+    "profile.anomalies.sectionLabel": {
+      "src": "ebeb78351a8ef074",
+      "tr": "fe0880dd803aa35c",
+      "by": "ai"
+    },
+    "profile.anomalies.title": {
+      "src": "1936bc968537f643",
+      "tr": "fe0880dd803aa35c",
+      "by": "ai"
+    },
+    "profile.anomalies.viewIgnored": {
+      "src": "dd2fb8e5df452e5f",
+      "tr": "b004979866c9a9f1",
+      "by": "ai"
+    },
+    "profile.civl.europe": {
+      "src": "9170a8b2fb3234ba",
+      "tr": "9170a8b2fb3234ba",
+      "by": "ai"
+    },
+    "profile.civl.national": {
+      "src": "3d1917aa425fd705",
+      "tr": "3d1917aa425fd705",
+      "by": "ai"
+    },
+    "profile.civl.profile": {
+      "src": "c3e5a29efbf6b705",
+      "tr": "d2c59869fbe2a7e6",
+      "by": "ai"
+    },
+    "profile.civl.rankings": {
+      "src": "b1f6544c0f83c19c",
+      "tr": "a46329b9363bb7fd",
+      "by": "ai"
+    },
+    "profile.civl.updated": {
+      "src": "328a4d4c6ba2b1ac",
+      "tr": "92dd84644249598d",
+      "by": "ai"
+    },
+    "profile.civl.viewOn": {
+      "src": "11447d3b271e5c31",
+      "tr": "d387546d80de4764",
+      "by": "ai"
+    },
+    "profile.civl.world": {
+      "src": "78ae647dc5544d22",
+      "tr": "e339011b9533aeab",
+      "by": "ai"
+    },
+    "profile.heatmap.currentStreak": {
+      "src": "4d946eee99de46d6",
+      "tr": "2e3c4b6667500b73",
+      "by": "ai"
+    },
+    "profile.heatmap.less": {
+      "src": "ae5239ec63f28cd4",
+      "tr": "f60087913323af48",
+      "by": "ai"
+    },
+    "profile.heatmap.longestStreak": {
+      "src": "f75d692293d60495",
+      "tr": "b8294be8fa5b8303",
+      "by": "ai"
+    },
+    "profile.heatmap.more": {
+      "src": "d47d7cb0e4f8fd2b",
+      "tr": "80dc77bcf4ca38b6",
+      "by": "ai"
+    },
+    "profile.heatmap.nextYear": {
+      "src": "a21a5dc62ee1cde3",
+      "tr": "c93c28f435a27d55",
+      "by": "ai"
+    },
+    "profile.heatmap.previousYear": {
+      "src": "91e33e3ba5c1ca1a",
+      "tr": "54dbdf341a12116a",
+      "by": "ai"
+    },
+    "profile.heatmap.summary": {
+      "src": "a0b4c66f14ad42e4",
+      "tr": "c9e32c1ea22ccd2d",
+      "by": "ai"
+    },
+    "profile.heatmap.title": {
+      "src": "cd3b872bb461f045",
+      "tr": "38d21cef4106cf49",
+      "by": "ai"
+    },
+    "profile.heatmap.tooltip": {
+      "src": "b947731af74923a2",
+      "tr": "24d0f70e7163f834",
+      "by": "ai"
+    },
+    "profile.heatmap.yearInReview": {
+      "src": "d939a782bff9dd79",
+      "tr": "b0402ccd7dcb49d1",
+      "by": "ai"
+    },
+    "profile.heatmap.yearInReviewDescription": {
+      "src": "d249757375ec6e98",
+      "tr": "38bade0f56e346de",
+      "by": "ai"
+    },
+    "profile.heatmap.yearInReviewTitle": {
+      "src": "b0e70e83e54823c6",
+      "tr": "8ca5c99f90510d0d",
+      "by": "ai"
+    },
+    "profile.identity.avatarAlt": {
+      "src": "e75e0e7cad5fe3aa",
+      "tr": "f7e3ae42f24e5256",
+      "by": "ai"
+    },
+    "profile.identity.editName": {
+      "src": "e6868d03ec2a7f9f",
+      "tr": "aea4eadc2abac9d1",
+      "by": "ai"
+    },
+    "profile.identity.eyebrow": {
+      "src": "d696a35bdd1883da",
+      "tr": "e267d343821f264e",
+      "by": "ai"
+    },
+    "profile.identity.makePublic": {
+      "src": "5c04c556f2e47bd4",
+      "tr": "b93858ecfa00e682",
+      "by": "ai"
+    },
+    "profile.identity.openLogbook": {
+      "src": "47125ad7010833d2",
+      "tr": "9a3a23d0c831f005",
+      "by": "ai"
+    },
+    "profile.identity.pioneer": {
+      "src": "743d781adc55be21",
+      "tr": "c24094644e04e682",
+      "by": "ai"
+    },
+    "profile.identity.privateProfile": {
+      "src": "5a024309a381341f",
+      "tr": "227da8471e9a1be4",
+      "by": "ai"
+    },
+    "profile.identity.publicProfile": {
+      "src": "eaad68e1f8c08279",
+      "tr": "1478536a9cb554c2",
+      "by": "ai"
+    },
+    "profile.identity.verified": {
+      "src": "4f7838402f37674e",
+      "tr": "838111f86dd65989",
+      "by": "ai"
+    },
+    "profile.integrity.consistent": {
+      "src": "b31a44c035338d6d",
+      "tr": "c482b09d43744bed",
+      "by": "ai"
+    },
+    "profile.integrity.ignored": {
+      "src": "b8df7988e8f2426d",
+      "tr": "1046739cd7bce406",
+      "by": "ai"
+    },
+    "profile.integrity.issuesDetected": {
+      "src": "0bed4e087d3549f9",
+      "tr": "39353fafe1db103f",
+      "by": "ai"
+    },
+    "profile.integrity.manageLinks": {
+      "src": "4987be0736aaddcb",
+      "tr": "37d147a58034742a",
+      "by": "ai"
+    },
+    "profile.integrity.none": {
+      "src": "738a67fce85b7472",
+      "tr": "6d164e1e98174948",
+      "by": "ai"
+    },
+    "profile.integrity.review": {
+      "src": "aff0766a5290e117",
+      "tr": "a1ca1357598782f7",
+      "by": "ai"
+    },
+    "profile.integrity.reviewAndFix": {
+      "src": "1d57162bfbb1d8e6",
+      "tr": "910074b7be0aabef",
+      "by": "ai"
+    },
+    "profile.integrity.reviewAria": {
+      "src": "002affb9bffd5997",
+      "tr": "65704226c7d17b57",
+      "by": "ai"
+    },
+    "profile.integrity.reviewLink": {
+      "src": "ab7681eab1638a81",
+      "tr": "f3c3b134fb84d7bd",
+      "by": "ai"
+    },
+    "profile.integrity.sharedPublicly": {
+      "src": "218d57c8bb29eae3",
+      "tr": "d47547594a6b79b1",
+      "by": "ai"
+    },
+    "profile.integrity.title": {
+      "src": "d11d4fc67ab02c28",
+      "tr": "e8185c02c6cbc613",
+      "by": "ai"
+    },
+    "profile.meta.anomalies.description": {
+      "src": "cd590279ffdfeb23",
+      "tr": "f943eb6abb207c5c",
+      "by": "ai"
+    },
+    "profile.meta.anomalies.title": {
+      "src": "14ba1422a242d0bc",
+      "tr": "8eb2168552889b05",
+      "by": "ai"
+    },
+    "profile.meta.profile.description": {
+      "src": "e292188a47f0a001",
+      "tr": "abdcce1507cbc274",
+      "by": "ai"
+    },
+    "profile.meta.profile.ogTitle": {
+      "src": "9febc37ee04990f1",
+      "tr": "d946c11813cae34a",
+      "by": "ai"
+    },
+    "profile.meta.profile.title": {
+      "src": "991bfa015514f9d5",
+      "tr": "23356602fe291ca8",
+      "by": "ai"
+    },
+    "profile.meta.shared.description": {
+      "src": "66b8e4fc1cd11088",
+      "tr": "dffe0e91585a5c4f",
+      "by": "ai"
+    },
+    "profile.meta.shared.title": {
+      "src": "0fe6009ffdc6bc65",
+      "tr": "1e42804c44cc7056",
+      "by": "ai"
+    },
+    "profile.publicFlights.empty": {
+      "src": "09931dfb2bec1802",
+      "tr": "1add062690fab48c",
+      "by": "ai"
+    },
+    "profile.publicFlights.error": {
+      "src": "0f57c209f03c3ac8",
+      "tr": "e50d19514d419dd4",
+      "by": "ai"
+    },
+    "profile.reviewRequests.askedToReview": {
+      "src": "3ab9d6da84f425b3",
+      "tr": "043759d540d149d7",
+      "by": "ai"
+    },
+    "profile.reviewRequests.blocked": {
+      "src": "10af0323b3c87bc7",
+      "tr": "bb9b1c5b4a9fc9c3",
+      "by": "ai"
+    },
+    "profile.reviewRequests.pending": {
+      "src": "bc608dfbf45c2100",
+      "tr": "5afd32a5c223c602",
+      "by": "ai"
+    },
+    "profile.reviewRequests.reviewAndAnnotate": {
+      "src": "15906d1f77163d29",
+      "tr": "d43ab05af5fd4bef",
+      "by": "ai"
+    },
+    "profile.reviewRequests.title": {
+      "src": "1c669f750620d2a8",
+      "tr": "653b404955338384",
+      "by": "ai"
+    },
+    "profile.reviewRequests.unblock": {
+      "src": "712da63171e0c9de",
+      "tr": "4bdc1659681ce22e",
+      "by": "ai"
+    },
+    "profile.reviewRequests.unblocked": {
+      "src": "3a0d36f36a233859",
+      "tr": "68a6ae352fa650ef",
+      "by": "ai"
+    },
+    "profile.reviewRequests.unblockFailed": {
+      "src": "36e62629102e4262",
+      "tr": "daccb02d596510d8",
+      "by": "ai"
+    },
+    "profile.settings.caption": {
+      "src": "409cf179747ff158",
+      "tr": "39036dabd1e2ab37",
+      "by": "ai"
+    },
+    "profile.settings.connectedServices.description": {
+      "src": "35694eb0eadf26c6",
+      "tr": "35694eb0eadf26c6",
+      "by": "ai"
+    },
+    "profile.settings.connectedServices.title": {
+      "src": "5da7ca5ffda29d33",
+      "tr": "8658fdf5b47bffb5",
+      "by": "ai"
+    },
+    "profile.settings.delete.description": {
+      "src": "350059542e2900a8",
+      "tr": "5d669c1f9cfe41c0",
+      "by": "ai"
+    },
+    "profile.settings.delete.title": {
+      "src": "a2e20a33570001ae",
+      "tr": "205096fdbbc32155",
+      "by": "ai"
+    },
+    "profile.settings.emails.description": {
+      "src": "a7ba1c3c2507181e",
+      "tr": "38f883effb5bb7c7",
+      "by": "ai"
+    },
+    "profile.settings.emails.title": {
+      "src": "373197624e9dd578",
+      "tr": "de82b8580beaf005",
+      "by": "ai"
+    },
+    "profile.settings.export.description": {
+      "src": "19f78c1ee2339520",
+      "tr": "f4f8a7c9c487ceca",
+      "by": "ai"
+    },
+    "profile.settings.export.title": {
+      "src": "c16e0b819445643b",
+      "tr": "29f43e97718e3284",
+      "by": "ai"
+    },
+    "profile.settings.privacy.private": {
+      "src": "be5ccc43bb4d3046",
+      "tr": "5b597d2fdd3f6862",
+      "by": "ai"
+    },
+    "profile.settings.privacy.public": {
+      "src": "4b96180823e4ee74",
+      "tr": "f4b7cf3f22086b0c",
+      "by": "ai"
+    },
+    "profile.settings.privacy.title": {
+      "src": "54345f962d1373cc",
+      "tr": "e1a0d1dd340a2b28",
+      "by": "ai"
+    },
+    "profile.settings.signIn.description": {
+      "src": "891a7c75bed71964",
+      "tr": "647317c9b0ac31e3",
+      "by": "ai"
+    },
+    "profile.settings.signIn.title": {
+      "src": "477be86784059605",
+      "tr": "9db1bd755195037f",
+      "by": "ai"
+    },
+    "profile.settings.title": {
+      "src": "7e1b0d5641f2640c",
+      "tr": "df8525011f618f54",
+      "by": "ai"
+    },
+    "profile.settings.units.title": {
+      "src": "85e72b85f3869a7f",
+      "tr": "158b44a2053592ef",
+      "by": "ai"
+    },
+    "profile.shared.backToProfile": {
+      "src": "34e278e839835074",
+      "tr": "3fcce061bbb287b0",
+      "by": "ai"
+    },
+    "profile.shared.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "f7ff1178af202f6f",
+      "by": "ai"
+    },
+    "profile.shared.count": {
+      "src": "3ec695a58dec2ec5",
+      "tr": "f1300b62cbb78dfc",
+      "by": "ai"
+    },
+    "profile.shared.eyebrow": {
+      "src": "bbedc70e985fe0b6",
+      "tr": "3050e581f29461ae",
+      "by": "ai"
+    },
+    "profile.shared.flights.date": {
+      "src": "99c40ab405926cb5",
+      "tr": "9135882d323cd839",
+      "by": "ai"
+    },
+    "profile.shared.flights.dialogDescription": {
+      "src": "f06d1d787fccb106",
+      "tr": "4044382842fea6ec",
+      "by": "ai"
+    },
+    "profile.shared.flights.dialogTitle": {
+      "src": "6c85f2eda4680929",
+      "tr": "d450846c2cf4bfdd",
+      "by": "ai"
+    },
+    "profile.shared.flights.distance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b598dd1f2b770da0",
+      "by": "ai"
+    },
+    "profile.shared.flights.empty": {
+      "src": "6ba253f0fea45360",
+      "tr": "fde00427fc90d7e6",
+      "by": "ai"
+    },
+    "profile.shared.flights.loadFailed": {
+      "src": "a49cce6c3bc32686",
+      "tr": "0edcf84e928c6dc3",
+      "by": "ai"
+    },
+    "profile.shared.flights.revokeAria": {
+      "src": "c8c581e270f92f19",
+      "tr": "157b09f0dc1d2ae1",
+      "by": "ai"
+    },
+    "profile.shared.flights.revoked": {
+      "src": "b343ef3d69add4ab",
+      "tr": "157b09f0dc1d2ae1",
+      "by": "ai"
+    },
+    "profile.shared.flights.rowAria": {
+      "src": "925b9495db9cd340",
+      "tr": "709d3a6223c682e8",
+      "by": "ai"
+    },
+    "profile.shared.flights.takeoff": {
+      "src": "9b27eafba7eecc57",
+      "tr": "bfd7edc9653fc0fe",
+      "by": "ai"
+    },
+    "profile.shared.flights.title": {
+      "src": "303ef8c3b65db12f",
+      "tr": "22ab68a87b4ad7b8",
+      "by": "ai"
+    },
+    "profile.shared.flights.type": {
+      "src": "baaddf70fb5d432b",
+      "tr": "75df3579c73089e3",
+      "by": "ai"
+    },
+    "profile.shared.getStarted": {
+      "src": "0e18fe5c58dab837",
+      "tr": "86b88096773e8ef8",
+      "by": "ai"
+    },
+    "profile.shared.linkCount": {
+      "src": "f1a3e0e92e818b21",
+      "tr": "8f58664850129e55",
+      "by": "ai"
+    },
+    "profile.shared.manage": {
+      "src": "940636f9d51c830b",
+      "tr": "b4d276b782d72d99",
+      "by": "ai"
+    },
+    "profile.shared.none": {
+      "src": "398f9394415b0332",
+      "tr": "6b39c2814052e40b",
+      "by": "ai"
+    },
+    "profile.shared.replays.dialogDescription": {
+      "src": "f814725b68b00f2f",
+      "tr": "7b9d2c5f7b1f1f67",
+      "by": "ai"
+    },
+    "profile.shared.replays.dialogTitle": {
+      "src": "0023d805afe293d5",
+      "tr": "32b96eea797b7965",
+      "by": "ai"
+    },
+    "profile.shared.replays.empty": {
+      "src": "2d578f9ed9134f00",
+      "tr": "a993d3c762617643",
+      "by": "ai"
+    },
+    "profile.shared.replays.flightReplay": {
+      "src": "fab7f3a415e20624",
+      "tr": "5cb193861dec1b61",
+      "by": "ai"
+    },
+    "profile.shared.replays.loadFailed": {
+      "src": "467d4a1f4fb43fbf",
+      "tr": "3bce78e31b32e088",
+      "by": "ai"
+    },
+    "profile.shared.replays.revokeAria": {
+      "src": "401f614045c8ae40",
+      "tr": "da34764cf4aaf0e0",
+      "by": "ai"
+    },
+    "profile.shared.replays.revoked": {
+      "src": "340544e050dd0cac",
+      "tr": "da34764cf4aaf0e0",
+      "by": "ai"
+    },
+    "profile.shared.replays.rowAria": {
+      "src": "91b6e64f2d63a071",
+      "tr": "ad8c93a592f1b420",
+      "by": "ai"
+    },
+    "profile.shared.replays.sameDayReplay": {
+      "src": "84c3946136bb4cd1",
+      "tr": "4b84130de72b7eb5",
+      "by": "ai"
+    },
+    "profile.shared.replays.title": {
+      "src": "7b9bfefaf378e1b7",
+      "tr": "cc047d1373e47a9a",
+      "by": "ai"
+    },
+    "profile.shared.revoke": {
+      "src": "87e6d00bbf53ec5a",
+      "tr": "d1a9bdb8adc5263a",
+      "by": "ai"
+    },
+    "profile.shared.revokeFailed": {
+      "src": "c271eafef2bc4954",
+      "tr": "86ac2690435847d6",
+      "by": "ai"
+    },
+    "profile.shared.revokeLink": {
+      "src": "da371ee1e141c623",
+      "tr": "20182eb1f8d48fd1",
+      "by": "ai"
+    },
+    "profile.shared.revoking": {
+      "src": "1a36f21b3cfe6642",
+      "tr": "037e49d759245b63",
+      "by": "ai"
+    },
+    "profile.shared.sectionLabel": {
+      "src": "303ef8c3b65db12f",
+      "tr": "22ab68a87b4ad7b8",
+      "by": "ai"
+    },
+    "profile.shared.sectionTitle": {
+      "src": "a1b7827521c4e77b",
+      "tr": "22ab68a87b4ad7b8",
+      "by": "ai"
+    },
+    "profile.shared.subtitle": {
+      "src": "4b176e01cded7b7c",
+      "tr": "6db7fb035369b848",
+      "by": "ai"
+    },
+    "profile.shared.title": {
+      "src": "303ef8c3b65db12f",
+      "tr": "22ab68a87b4ad7b8",
+      "by": "ai"
+    },
+    "profile.shared.viewAria": {
+      "src": "f3359f210ed9aaef",
+      "tr": "d27e349ba4a20931",
+      "by": "ai"
+    },
+    "profile.shareProfile.button": {
+      "src": "0590386ef5668f6c",
+      "tr": "5ead501124001192",
+      "by": "ai"
+    },
+    "profile.shareProfile.description": {
+      "src": "cbecddda73889afc",
+      "tr": "f95168defb42a689",
+      "by": "ai"
+    },
+    "profile.shareProfile.dialogTitle": {
+      "src": "af602de536ffb23d",
+      "tr": "5b585972d45bd6eb",
+      "by": "ai"
+    },
+    "profile.shareProfile.failed": {
+      "src": "df556f74a44ff2d5",
+      "tr": "ed265f7a93c1c7a6",
+      "by": "ai"
+    },
+    "profile.shareProfile.generating": {
+      "src": "ee9ced87226c2953",
+      "tr": "ba68ee011f38a153",
+      "by": "ai"
+    },
+    "profile.shareProfile.nativeShareTitle": {
+      "src": "e4c455ec4f54e33c",
+      "tr": "207086ba4741902d",
+      "by": "ai"
+    },
+    "profile.shareProfile.preview": {
+      "src": "324b134f57c70c72",
+      "tr": "69337f6de91475ad",
+      "by": "ai"
+    },
+    "profile.shareProfile.share": {
+      "src": "29887a5ff9846ccc",
+      "tr": "3050e581f29461ae",
+      "by": "ai"
+    },
+    "profile.signature.acrossCountries": {
+      "src": "31ad72d066e07e0f",
+      "tr": "52f00c056dbb4478",
+      "by": "ai"
+    },
+    "profile.signature.distance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b598dd1f2b770da0",
+      "by": "ai"
+    },
+    "profile.signature.flights": {
+      "src": "f8f5aa2b57ba8689",
+      "tr": "7279d562b38601a7",
+      "by": "ai"
+    },
+    "profile.signature.flightsThisYear": {
+      "src": "457a6d6bc9978114",
+      "tr": "0d23f33b9dcb8f0d",
+      "by": "ai"
+    },
+    "profile.signature.hoursAloft": {
+      "src": "6a41f7b111fa678a",
+      "tr": "d20f64d855226a5c",
+      "by": "ai"
+    },
+    "profile.signature.hoursThisYear": {
+      "src": "bd18191c4d664005",
+      "tr": "47dc58ac84cff3ea",
+      "by": "ai"
+    },
+    "profile.signature.noFlightsThisYear": {
+      "src": "77900a4a2531f59d",
+      "tr": "8cf5cb02766f6b20",
+      "by": "ai"
+    },
+    "profile.signature.sites": {
+      "src": "9d7690937436d9e3",
+      "tr": "e1ab75f8fb01ee95",
+      "by": "ai"
+    },
+    "profile.signature.sitesThisYear": {
+      "src": "5a1cabfae1129b26",
+      "tr": "de49616b3b4c9967",
+      "by": "ai"
+    },
+    "profile.statistics.avgFlight": {
+      "src": "935b649b3ef8c29a",
+      "tr": "62be2b7e7b70e350",
+      "by": "ai"
+    },
+    "profile.statistics.avgFlightCaps": {
+      "src": "f3ab61bb625c73a1",
+      "tr": "62be2b7e7b70e350",
+      "by": "ai"
+    },
+    "profile.statistics.byType": {
+      "src": "34943994bbe2fcec",
+      "tr": "507dd892fdf9d5d2",
+      "by": "ai"
+    },
+    "profile.statistics.byTypeCaps": {
+      "src": "f55adf2b4c8c3e68",
+      "tr": "507dd892fdf9d5d2",
+      "by": "ai"
+    },
+    "profile.statistics.countries": {
+      "src": "8faf7ec7ab20ca1c",
+      "tr": "b655add844a16426",
+      "by": "ai"
+    },
+    "profile.statistics.distance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b598dd1f2b770da0",
+      "by": "ai"
+    },
+    "profile.statistics.empty": {
+      "src": "58741dbd950f1508",
+      "tr": "c282315a21d0c716",
+      "by": "ai"
+    },
+    "profile.statistics.flights": {
+      "src": "f8f5aa2b57ba8689",
+      "tr": "7279d562b38601a7",
+      "by": "ai"
+    },
+    "profile.statistics.hours": {
+      "src": "21e8492938abc179",
+      "tr": "b26b52378d4f2047",
+      "by": "ai"
+    },
+    "profile.statistics.hoursUnit": {
+      "src": "404314b1f4bd8fa2",
+      "tr": "b26b52378d4f2047",
+      "by": "ai"
+    },
+    "profile.statistics.sectionLabel": {
+      "src": "6677ad0c168b3bff",
+      "tr": "fbb6ce921e7345e4",
+      "by": "ai"
+    },
+    "profile.statistics.sinceLabel": {
+      "src": "10b452bdac57a9a7",
+      "tr": "b480b316b5b14e47",
+      "by": "ai"
+    },
+    "profile.statistics.sites": {
+      "src": "9d7690937436d9e3",
+      "tr": "e1ab75f8fb01ee95",
+      "by": "ai"
+    },
+    "profile.statistics.solo": {
+      "src": "a6db480094950db2",
+      "tr": "a6db480094950db2",
+      "by": "ai"
+    },
+    "profile.statistics.splitMeta": {
+      "src": "9262058e08278ed9",
+      "tr": "0149f93e92f5db1a",
+      "by": "ai"
+    },
+    "profile.statistics.takeoffs": {
+      "src": "72decc10c1487290",
+      "tr": "480758fc2481dff4",
+      "by": "ai"
+    },
+    "profile.statistics.tandem": {
+      "src": "92a3b5e7527fdc93",
+      "tr": "92a3b5e7527fdc93",
+      "by": "ai"
+    },
+    "profile.statistics.title": {
+      "src": "6677ad0c168b3bff",
+      "tr": "fbb6ce921e7345e4",
+      "by": "ai"
+    },
+    "profile.statistics.total": {
+      "src": "11239872d178729a",
+      "tr": "b5fca4a8e2997a72",
+      "by": "ai"
+    },
+    "profile.statistics.totalFlights": {
+      "src": "704e245c4fe16957",
+      "tr": "804045fb7a25a868",
+      "by": "ai"
+    },
+    "profile.statistics.visited": {
+      "src": "a96a5b946ce5cda6",
+      "tr": "67f40532c697270f",
+      "by": "ai"
+    },
     "references.empty": {
       "src": "231401abf462fe10",
       "tr": "9b1d6f1c19ef6d40",
@@ -2903,6 +5218,2581 @@
     "references.types.research": {
       "src": "979d6300fd9884ff",
       "tr": "7a3a4a2bf2d2dffe",
+      "by": "ai"
+    },
+    "settings.affiliations.category": {
+      "src": "292c06f0045a45d0",
+      "tr": "52f2a87a419c0666",
+      "by": "ai"
+    },
+    "settings.affiliations.civlEmpty": {
+      "src": "aaa6132a811173aa",
+      "tr": "195b81c3a8adada9",
+      "by": "ai"
+    },
+    "settings.affiliations.civlRanking": {
+      "src": "50648d95846513b4",
+      "tr": "fceab2e58f7ff343",
+      "by": "ai"
+    },
+    "settings.affiliations.clubEmpty": {
+      "src": "f1617193a6ab1490",
+      "tr": "afed189fbc837f94",
+      "by": "ai"
+    },
+    "settings.affiliations.europe": {
+      "src": "e595f45dc6c9e766",
+      "tr": "fc30e2a579cdb971",
+      "by": "ai"
+    },
+    "settings.affiliations.licensesEmpty": {
+      "src": "a5bc0e3ef0357abc",
+      "tr": "0e758f88aa52521d",
+      "by": "ai"
+    },
+    "settings.affiliations.national": {
+      "src": "3d1917aa425fd705",
+      "tr": "3d1917aa425fd705",
+      "by": "ai"
+    },
+    "settings.affiliations.pilot": {
+      "src": "383e2d946278a872",
+      "tr": "383e2d946278a872",
+      "by": "ai"
+    },
+    "settings.affiliations.title": {
+      "src": "4bcd1462041c0bd9",
+      "tr": "6c8b6d921d40458e",
+      "by": "ai"
+    },
+    "settings.affiliations.world": {
+      "src": "78ae647dc5544d22",
+      "tr": "e339011b9533aeab",
+      "by": "ai"
+    },
+    "settings.autorouter.comingSoon": {
+      "src": "9e3090de747039e6",
+      "tr": "2c2e7c6933ff3dc4",
+      "by": "ai"
+    },
+    "settings.autorouter.connect": {
+      "src": "4e8d61ae18a46751",
+      "tr": "5a59a7a81a39cf1b",
+      "by": "ai"
+    },
+    "settings.autorouter.connected": {
+      "src": "22965568d22a14ee",
+      "tr": "0338189c985eee9c",
+      "by": "ai"
+    },
+    "settings.autorouter.connectedAs": {
+      "src": "f90e6ca369bdb5fc",
+      "tr": "fbe8947ebd7f2fd7",
+      "by": "ai"
+    },
+    "settings.autorouter.description": {
+      "src": "17eb03429f2046fb",
+      "tr": "0d144c93b8b7f6c7",
+      "by": "ai"
+    },
+    "settings.autorouter.disconnect": {
+      "src": "6db73a8294b39b36",
+      "tr": "babdf5862112c85d",
+      "by": "ai"
+    },
+    "settings.autorouter.disconnected": {
+      "src": "e01a5aac3c7460ca",
+      "tr": "2e53b235da07a3e6",
+      "by": "ai"
+    },
+    "settings.autorouter.disconnectFailed": {
+      "src": "b7668a581f590fa3",
+      "tr": "f2b9002f3330918a",
+      "by": "ai"
+    },
+    "settings.autorouter.expired": {
+      "src": "fc446c9b2ac7ec75",
+      "tr": "6470adc5153c900c",
+      "by": "ai"
+    },
+    "settings.autorouter.reconnect": {
+      "src": "bf8a9eab9e7e141b",
+      "tr": "4c47a5aab836b0f5",
+      "by": "ai"
+    },
+    "settings.autorouter.returnConnected": {
+      "src": "75c1802fa63a95b8",
+      "tr": "91a47d496c0545aa",
+      "by": "ai"
+    },
+    "settings.autorouter.returnError": {
+      "src": "ab05b81d07e70100",
+      "tr": "0baa6373cd4d6241",
+      "by": "ai"
+    },
+    "settings.autorouter.returnUnavailable": {
+      "src": "cdfb9a76467082e8",
+      "tr": "7958cda3abe43a5f",
+      "by": "ai"
+    },
+    "settings.autorouter.title": {
+      "src": "d0f6e5505eecc8c7",
+      "tr": "d0f6e5505eecc8c7",
+      "by": "ai"
+    },
+    "settings.avatar.avatarAlt": {
+      "src": "e75e0e7cad5fe3aa",
+      "tr": "f7e3ae42f24e5256",
+      "by": "ai"
+    },
+    "settings.avatar.browse": {
+      "src": "5afef2786b02d5d9",
+      "tr": "728787bd7b283510",
+      "by": "ai"
+    },
+    "settings.avatar.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "f7ff1178af202f6f",
+      "by": "ai"
+    },
+    "settings.avatar.change": {
+      "src": "57fb7654cf37637d",
+      "tr": "fe5838070134cee4",
+      "by": "ai"
+    },
+    "settings.avatar.cropFailed": {
+      "src": "125e73369a6bc5a9",
+      "tr": "402fa1f37685f830",
+      "by": "ai"
+    },
+    "settings.avatar.cropHint": {
+      "src": "9a78b8621c532c63",
+      "tr": "4648fce6ec232ab1",
+      "by": "ai"
+    },
+    "settings.avatar.dropPrompt": {
+      "src": "b319df371c572e44",
+      "tr": "c4d08e327a81023f",
+      "by": "ai"
+    },
+    "settings.avatar.invalidType": {
+      "src": "3c2b17e1406cc83c",
+      "tr": "d84bcc8b78478382",
+      "by": "ai"
+    },
+    "settings.avatar.removeSelected": {
+      "src": "e3c57f6e0cf6cf4b",
+      "tr": "1382d3218a594048",
+      "by": "ai"
+    },
+    "settings.avatar.success": {
+      "src": "76ee44655e697ce2",
+      "tr": "bb37d3b65dd4a11a",
+      "by": "ai"
+    },
+    "settings.avatar.title": {
+      "src": "507e1e7ea583e935",
+      "tr": "fe5838070134cee4",
+      "by": "ai"
+    },
+    "settings.avatar.tooLarge": {
+      "src": "f02641f51d2c9343",
+      "tr": "13bf71d4446fb21b",
+      "by": "ai"
+    },
+    "settings.avatar.upload": {
+      "src": "865e89de78d94c74",
+      "tr": "6638ef84fb9e2240",
+      "by": "ai"
+    },
+    "settings.avatar.uploadFailed": {
+      "src": "f0e208398a8a6288",
+      "tr": "5f84d0790e400cba",
+      "by": "ai"
+    },
+    "settings.avatar.uploadHint": {
+      "src": "311f726074d97464",
+      "tr": "9afb61d709db18ff",
+      "by": "ai"
+    },
+    "settings.avatar.uploading": {
+      "src": "72cb29c90ccd8361",
+      "tr": "c048f160255a36e2",
+      "by": "ai"
+    },
+    "settings.avatar.uploadPictureFailed": {
+      "src": "209e29868385f585",
+      "tr": "63b2ed453e7a2234",
+      "by": "ai"
+    },
+    "settings.civl.change": {
+      "src": "c0bf75bd78bf9572",
+      "tr": "ea5e3417aabcc097",
+      "by": "ai"
+    },
+    "settings.civl.dialogDescription": {
+      "src": "e7b1c80528863498",
+      "tr": "05dc736679087cbf",
+      "by": "ai"
+    },
+    "settings.civl.dialogTitle": {
+      "src": "a590a2675d9dfd11",
+      "tr": "b0e0a51c8ad72240",
+      "by": "ai"
+    },
+    "settings.civl.empty": {
+      "src": "6992bcde91bb0dd8",
+      "tr": "bb2325ef87605f7f",
+      "by": "ai"
+    },
+    "settings.civl.idLabel": {
+      "src": "bcd512d0d48fc631",
+      "tr": "7078cc7443a4a42d",
+      "by": "ai"
+    },
+    "settings.civl.invalidId": {
+      "src": "4788f963ef567842",
+      "tr": "6d58e268ff8287fb",
+      "by": "ai"
+    },
+    "settings.civl.placeholder": {
+      "src": "fcf60524cd8c4b41",
+      "tr": "6d4c133793750591",
+      "by": "ai"
+    },
+    "settings.civl.remove": {
+      "src": "efe2ff13feee52f3",
+      "tr": "3190c997e48f7c09",
+      "by": "ai"
+    },
+    "settings.civl.removed": {
+      "src": "a436e7bdd94cb61e",
+      "tr": "34ce80fa8c4a0e39",
+      "by": "ai"
+    },
+    "settings.civl.removeFailed": {
+      "src": "3679076bc748cb68",
+      "tr": "d51b6d6d0312d014",
+      "by": "ai"
+    },
+    "settings.civl.save": {
+      "src": "1509f561f2416598",
+      "tr": "f6b2ff39f540eb81",
+      "by": "ai"
+    },
+    "settings.civl.saved": {
+      "src": "b61b2b029b59bc02",
+      "tr": "01ee66f99221d1ad",
+      "by": "ai"
+    },
+    "settings.civl.saveFailed": {
+      "src": "417bb87a7bb2d43d",
+      "tr": "a280a11e68963b1d",
+      "by": "ai"
+    },
+    "settings.civl.saving": {
+      "src": "dc85af8f2b1d0d67",
+      "tr": "a8060ba6ff688c78",
+      "by": "ai"
+    },
+    "settings.civl.set": {
+      "src": "b6f6f3ad07b3c05f",
+      "tr": "c13167cb2969f767",
+      "by": "ai"
+    },
+    "settings.civl.title": {
+      "src": "e72849f2579d7058",
+      "tr": "fceab2e58f7ff343",
+      "by": "ai"
+    },
+    "settings.civl.viewOnCivl": {
+      "src": "0af68610e7d8e781",
+      "tr": "a86fb063a01f565e",
+      "by": "ai"
+    },
+    "settings.civl.viewRanking": {
+      "src": "9af8d6261d7b3586",
+      "tr": "b1443350c30dc3e0",
+      "by": "ai"
+    },
+    "settings.club.change": {
+      "src": "c0bf75bd78bf9572",
+      "tr": "ea5e3417aabcc097",
+      "by": "ai"
+    },
+    "settings.club.dialogDescription": {
+      "src": "30db65f8f6875dce",
+      "tr": "29c06404f663bcbe",
+      "by": "ai"
+    },
+    "settings.club.dialogTitle": {
+      "src": "dd96f94d2722ab59",
+      "tr": "77fba4b2337026ed",
+      "by": "ai"
+    },
+    "settings.club.empty": {
+      "src": "3e92742cb89c0ede",
+      "tr": "424e1d252deb070b",
+      "by": "ai"
+    },
+    "settings.club.nameLabel": {
+      "src": "a67224f0bd8d949b",
+      "tr": "b0d4e91e2cc209ab",
+      "by": "ai"
+    },
+    "settings.club.namePlaceholder": {
+      "src": "383f11c49c344e4f",
+      "tr": "2e0f6b0baeeaf095",
+      "by": "ai"
+    },
+    "settings.club.remove": {
+      "src": "295827b4c5c85c51",
+      "tr": "909040d8db6a243c",
+      "by": "ai"
+    },
+    "settings.club.removed": {
+      "src": "f9d65f540452683e",
+      "tr": "0fccdc73fcd151d6",
+      "by": "ai"
+    },
+    "settings.club.save": {
+      "src": "1509f561f2416598",
+      "tr": "f6b2ff39f540eb81",
+      "by": "ai"
+    },
+    "settings.club.saving": {
+      "src": "dc85af8f2b1d0d67",
+      "tr": "a8060ba6ff688c78",
+      "by": "ai"
+    },
+    "settings.club.set": {
+      "src": "b6f6f3ad07b3c05f",
+      "tr": "c13167cb2969f767",
+      "by": "ai"
+    },
+    "settings.club.title": {
+      "src": "72e81feaa8a14fac",
+      "tr": "5423c9b192908354",
+      "by": "ai"
+    },
+    "settings.club.updated": {
+      "src": "7d6f1fc25224cb69",
+      "tr": "7837dc13ed453aba",
+      "by": "ai"
+    },
+    "settings.club.updateFailed": {
+      "src": "5d74ef731f97af1b",
+      "tr": "5a98babfa683712a",
+      "by": "ai"
+    },
+    "settings.connected.civl.connect": {
+      "src": "1a2303ede07493ac",
+      "tr": "0eefbbbcecf606d8",
+      "by": "ai"
+    },
+    "settings.connected.civl.connected": {
+      "src": "d2ea2c6541e34464",
+      "tr": "aebe7499576ed515",
+      "by": "ai"
+    },
+    "settings.connected.civl.disconnect": {
+      "src": "38502f3b0d8674c1",
+      "tr": "e5d773201af83736",
+      "by": "ai"
+    },
+    "settings.connected.civl.disconnected": {
+      "src": "4ba40c0736fa6abb",
+      "tr": "c92e403b01a07f76",
+      "by": "ai"
+    },
+    "settings.connected.civl.hint": {
+      "src": "cd743c2c59366be5",
+      "tr": "2b899d23f45e7aff",
+      "by": "ai"
+    },
+    "settings.connected.civl.invalidId": {
+      "src": "4788f963ef567842",
+      "tr": "6d58e268ff8287fb",
+      "by": "ai"
+    },
+    "settings.connected.civl.label": {
+      "src": "bcd512d0d48fc631",
+      "tr": "7078cc7443a4a42d",
+      "by": "ai"
+    },
+    "settings.connected.civl.placeholder": {
+      "src": "fcf60524cd8c4b41",
+      "tr": "6d4c133793750591",
+      "by": "ai"
+    },
+    "settings.connected.civl.removeFailed": {
+      "src": "3679076bc748cb68",
+      "tr": "d51b6d6d0312d014",
+      "by": "ai"
+    },
+    "settings.connected.civl.saveFailed": {
+      "src": "417bb87a7bb2d43d",
+      "tr": "a280a11e68963b1d",
+      "by": "ai"
+    },
+    "settings.connected.civl.saving": {
+      "src": "dc85af8f2b1d0d67",
+      "tr": "a8060ba6ff688c78",
+      "by": "ai"
+    },
+    "settings.connected.civl.title": {
+      "src": "a6ca32289bd087d6",
+      "tr": "b0e0a51c8ad72240",
+      "by": "ai"
+    },
+    "settings.connected.civl.update": {
+      "src": "c1c1009d3f37ec05",
+      "tr": "96bf0098166f6c3e",
+      "by": "ai"
+    },
+    "settings.connected.civl.updated": {
+      "src": "d1686b362f65b439",
+      "tr": "e4699b20c7b619c3",
+      "by": "ai"
+    },
+    "settings.connected.civl.viewOnCivl": {
+      "src": "11447d3b271e5c31",
+      "tr": "d387546d80de4764",
+      "by": "ai"
+    },
+    "settings.connected.comingSoon": {
+      "src": "6cbec21ecb8a1003",
+      "tr": "571c5a9d743bd05b",
+      "by": "ai"
+    },
+    "settings.connected.continuous.blurb": {
+      "src": "b9ba8c85221eb902",
+      "tr": "290e71e84d45b24b",
+      "by": "ai"
+    },
+    "settings.connected.continuous.title": {
+      "src": "3af2dbc7ee1cd6fb",
+      "tr": "c111fe5d09a0a2ea",
+      "by": "ai"
+    },
+    "settings.connected.description": {
+      "src": "15091ec537d9230f",
+      "tr": "578fe78d256fd6ce",
+      "by": "ai"
+    },
+    "settings.connected.imports.blurb": {
+      "src": "fb29e9790f69b774",
+      "tr": "ea4d1df55648c54e",
+      "by": "ai"
+    },
+    "settings.connected.imports.title": {
+      "src": "fe799fc1b974d091",
+      "tr": "a7811cf83378acaa",
+      "by": "ai"
+    },
+    "settings.connected.leagues.blurb": {
+      "src": "ec835e928da61b5b",
+      "tr": "433a23e8dc67fbe9",
+      "by": "ai"
+    },
+    "settings.connected.leagues.title": {
+      "src": "ff574ce1d9c3b23e",
+      "tr": "8bf5fb5e331d781a",
+      "by": "ai"
+    },
+    "settings.connected.title": {
+      "src": "5da7ca5ffda29d33",
+      "tr": "8658fdf5b47bffb5",
+      "by": "ai"
+    },
+    "settings.deleteAccount.auditBody": {
+      "src": "e40b5799798e7660",
+      "tr": "34e9a98378f732f3",
+      "by": "ai"
+    },
+    "settings.deleteAccount.auditTitle": {
+      "src": "15314bacd62ba12e",
+      "tr": "b30718ba12d11e2e",
+      "by": "ai"
+    },
+    "settings.deleteAccount.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "f7ff1178af202f6f",
+      "by": "ai"
+    },
+    "settings.deleteAccount.confirmButton": {
+      "src": "752a5687f16f521a",
+      "tr": "01c636318577c8ec",
+      "by": "ai"
+    },
+    "settings.deleteAccount.confirmLabel": {
+      "src": "8b51a3838d46b3a2",
+      "tr": "787ec83512f97ba3",
+      "by": "ai"
+    },
+    "settings.deleteAccount.confirmPlaceholder": {
+      "src": "d156a430a35d3509",
+      "tr": "90d5db7a2b3cd8dc",
+      "by": "ai"
+    },
+    "settings.deleteAccount.deleting": {
+      "src": "f20aabb025c87d2c",
+      "tr": "5fc70f5d81ccafc2",
+      "by": "ai"
+    },
+    "settings.deleteAccount.emailMismatch": {
+      "src": "81e8567c92a29590",
+      "tr": "aca3e8e7163cd2bf",
+      "by": "ai"
+    },
+    "settings.deleteAccount.errorFailed": {
+      "src": "6f01c1653250c3bf",
+      "tr": "da5c018bd8d1fe84",
+      "by": "ai"
+    },
+    "settings.deleteAccount.errorRetry": {
+      "src": "f5344eb282759dff",
+      "tr": "f8a550534132ce09",
+      "by": "ai"
+    },
+    "settings.deleteAccount.permanent": {
+      "src": "b9c29c2af9c25a80",
+      "tr": "c2c3c6242ea15885",
+      "by": "ai"
+    },
+    "settings.deleteAccount.rateLimited": {
+      "src": "923618f2c29bace1",
+      "tr": "8fdd749e179996c6",
+      "by": "ai"
+    },
+    "settings.deleteAccount.success": {
+      "src": "8dd0d10f41d9bf52",
+      "tr": "c92ab76c0ef5b18b",
+      "by": "ai"
+    },
+    "settings.deleteAccount.title": {
+      "src": "c031bf992e172f57",
+      "tr": "205096fdbbc32155",
+      "by": "ai"
+    },
+    "settings.deleteAccount.tooManyAttempts": {
+      "src": "035dd31e410768a3",
+      "tr": "8ff969158c484a84",
+      "by": "ai"
+    },
+    "settings.deleteAccount.warning": {
+      "src": "0a89f9bb952ab0dc",
+      "tr": "8068a238ddb4fe95",
+      "by": "ai"
+    },
+    "settings.deleteAccount.will.account": {
+      "src": "0b5bcad29cb7588c",
+      "tr": "3aca5a3ac6ea0334",
+      "by": "ai"
+    },
+    "settings.deleteAccount.will.flights": {
+      "src": "c13186a5d6b18016",
+      "tr": "d6e03d460692401d",
+      "by": "ai"
+    },
+    "settings.deleteAccount.will.igc": {
+      "src": "cef0f8322781dc40",
+      "tr": "a5db52adee1d2ce5",
+      "by": "ai"
+    },
+    "settings.deleteAccount.will.sessions": {
+      "src": "ebc1613184c4805e",
+      "tr": "ae84856a0de02dd9",
+      "by": "ai"
+    },
+    "settings.deleteAccount.will.shared": {
+      "src": "48e69917a1fcdcbc",
+      "tr": "457ae15424e22788",
+      "by": "ai"
+    },
+    "settings.deleteAccount.willIntro": {
+      "src": "17a8a67625e6851c",
+      "tr": "289172e7e91e0565",
+      "by": "ai"
+    },
+    "settings.drive.choose": {
+      "src": "19964a1ec8be3727",
+      "tr": "428a4e325e9e16c8",
+      "by": "ai"
+    },
+    "settings.drive.description": {
+      "src": "b424aba87ec297ae",
+      "tr": "370266db3e824e40",
+      "by": "ai"
+    },
+    "settings.drive.duplicates": {
+      "src": "ec7e2d17e7a3a9d2",
+      "tr": "1573389c0b4bfc8b",
+      "by": "ai"
+    },
+    "settings.drive.failedCount": {
+      "src": "cd8f5051cba3686a",
+      "tr": "57703a89cbaa7091",
+      "by": "ai"
+    },
+    "settings.drive.finishedWithFailures": {
+      "src": "2ce6b16881ec79be",
+      "tr": "3603e51eab22e1ea",
+      "by": "ai"
+    },
+    "settings.drive.imported": {
+      "src": "27eba62467b11f6a",
+      "tr": "e9ee0086c0c1093f",
+      "by": "ai"
+    },
+    "settings.drive.loadingPicker": {
+      "src": "ba84becdfeeb14c9",
+      "tr": "9e2d00355f9bd12e",
+      "by": "ai"
+    },
+    "settings.drive.noIgcSelected": {
+      "src": "6edc46b25bf85533",
+      "tr": "f53fd862bb3c07cd",
+      "by": "ai"
+    },
+    "settings.drive.noNewFlights": {
+      "src": "8da335536764f316",
+      "tr": "4826c136f704aed7",
+      "by": "ai"
+    },
+    "settings.drive.nonIgcIgnored": {
+      "src": "91441ac244c81ea8",
+      "tr": "d013ed3574429c2f",
+      "by": "ai"
+    },
+    "settings.drive.pickerFailed": {
+      "src": "ca3c7166c573f52a",
+      "tr": "7e540eea76126333",
+      "by": "ai"
+    },
+    "settings.drive.pickerUnavailable": {
+      "src": "b1316b343ea20e9c",
+      "tr": "6cb41a0f46dd07af",
+      "by": "ai"
+    },
+    "settings.drive.progress": {
+      "src": "410dd1b6c0321cfa",
+      "tr": "42710138de622f28",
+      "by": "ai"
+    },
+    "settings.editName.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "f7ff1178af202f6f",
+      "by": "ai"
+    },
+    "settings.editName.counter": {
+      "src": "7df8f7c63fbecb7f",
+      "tr": "7ff0240ffaede737",
+      "by": "ai"
+    },
+    "settings.editName.description": {
+      "src": "cdb5c5d5f0a45dbd",
+      "tr": "e13d4eccc4374211",
+      "by": "ai"
+    },
+    "settings.editName.errorEmpty": {
+      "src": "9615c8137b02c861",
+      "tr": "1d012711d1a00e30",
+      "by": "ai"
+    },
+    "settings.editName.errorTooLong": {
+      "src": "c98bcdc7f28bdbc0",
+      "tr": "21ca9fd46528efff",
+      "by": "ai"
+    },
+    "settings.editName.errorUnexpected": {
+      "src": "e198269c2a19003d",
+      "tr": "3ef8ecbfc58cc49a",
+      "by": "ai"
+    },
+    "settings.editName.errorUpdate": {
+      "src": "e1154330b6e8cdc2",
+      "tr": "db65a9877d902c29",
+      "by": "ai"
+    },
+    "settings.editName.label": {
+      "src": "18d67c992b71ce69",
+      "tr": "3ab2eacdba90778d",
+      "by": "ai"
+    },
+    "settings.editName.placeholder": {
+      "src": "0421de120444dad3",
+      "tr": "25189dc70b236d40",
+      "by": "ai"
+    },
+    "settings.editName.save": {
+      "src": "1509f561f2416598",
+      "tr": "f6b2ff39f540eb81",
+      "by": "ai"
+    },
+    "settings.editName.saving": {
+      "src": "dc85af8f2b1d0d67",
+      "tr": "a8060ba6ff688c78",
+      "by": "ai"
+    },
+    "settings.editName.success": {
+      "src": "8f52f369a04afcce",
+      "tr": "3346bb6f3f72370b",
+      "by": "ai"
+    },
+    "settings.editName.title": {
+      "src": "28c6cb4e1becb4d6",
+      "tr": "71ec41c1b185bc7a",
+      "by": "ai"
+    },
+    "settings.emails.alwaysNote": {
+      "src": "4a96b88c0b4d37ce",
+      "tr": "ffd0b174e94c5e9a",
+      "by": "ai"
+    },
+    "settings.emails.description": {
+      "src": "cc59e571a1bb18b5",
+      "tr": "33e94e06101fe4b2",
+      "by": "ai"
+    },
+    "settings.emails.errorLoad": {
+      "src": "bb38313270732038",
+      "tr": "61d40589dd983d48",
+      "by": "ai"
+    },
+    "settings.emails.errorSave": {
+      "src": "f5beb96e667859bf",
+      "tr": "1f1d4e1d0fcc2682",
+      "by": "ai"
+    },
+    "settings.emails.tips": {
+      "src": "a7ba1c3c2507181e",
+      "tr": "38f883effb5bb7c7",
+      "by": "ai"
+    },
+    "settings.emails.tipsHint": {
+      "src": "2393648bd61b9993",
+      "tr": "59fa71d464da081e",
+      "by": "ai"
+    },
+    "settings.emails.tipsOff": {
+      "src": "c92913b03723e17f",
+      "tr": "1eeecb79b5c4b33b",
+      "by": "ai"
+    },
+    "settings.emails.tipsOn": {
+      "src": "4f49bb83599b89b5",
+      "tr": "66377a56be9c01f4",
+      "by": "ai"
+    },
+    "settings.emails.tipsToggle": {
+      "src": "68b3d4450ec75112",
+      "tr": "61832747e4027c44",
+      "by": "ai"
+    },
+    "settings.emails.title": {
+      "src": "373197624e9dd578",
+      "tr": "de82b8580beaf005",
+      "by": "ai"
+    },
+    "settings.errors.civlInvalidId": {
+      "src": "1f63252bd8ecfd9e",
+      "tr": "66961310eaf66f9b",
+      "by": "ai"
+    },
+    "settings.errors.clubUpdateFailed": {
+      "src": "5d74ef731f97af1b",
+      "tr": "5a98babfa683712a",
+      "by": "ai"
+    },
+    "settings.errors.consentRequired": {
+      "src": "c3323954c12aa8be",
+      "tr": "39a49f4e12c617df",
+      "by": "ai"
+    },
+    "settings.errors.dateInvalidFormat": {
+      "src": "94c6d67bfc6ce8eb",
+      "tr": "e83019543026e689",
+      "by": "ai"
+    },
+    "settings.errors.datePast": {
+      "src": "d7b86c2aba85ef0f",
+      "tr": "8f1d4655492723f5",
+      "by": "ai"
+    },
+    "settings.errors.dateRequired": {
+      "src": "2cc9bbca7f87524f",
+      "tr": "fd066ad0c3994479",
+      "by": "ai"
+    },
+    "settings.errors.deleteFailed": {
+      "src": "61ce6d376a4297ab",
+      "tr": "25c9321d4ec316b0",
+      "by": "ai"
+    },
+    "settings.errors.deleteSuccess": {
+      "src": "0be6e6f63393a7cd",
+      "tr": "4f6d865a02cdf836",
+      "by": "ai"
+    },
+    "settings.errors.deleteUnauthorized": {
+      "src": "cac72599f27a0c37",
+      "tr": "05f5dd91c13e8803",
+      "by": "ai"
+    },
+    "settings.errors.deviceCreateFailed": {
+      "src": "497bce27f2afaf68",
+      "tr": "293011ee20153a6d",
+      "by": "ai"
+    },
+    "settings.errors.deviceInvalidId": {
+      "src": "bab617556abebc44",
+      "tr": "ac2dcb5ecaa6ede9",
+      "by": "ai"
+    },
+    "settings.errors.deviceLimit": {
+      "src": "cd5e75c65038d726",
+      "tr": "3a98a2d73067dda2",
+      "by": "ai"
+    },
+    "settings.errors.deviceNameRequired": {
+      "src": "cbe6c7ad437af070",
+      "tr": "4b2ba6cce9fa600e",
+      "by": "ai"
+    },
+    "settings.errors.deviceNotFound": {
+      "src": "18081136ab96ac10",
+      "tr": "3d7be20d93de3e23",
+      "by": "ai"
+    },
+    "settings.errors.emailInvalidSetting": {
+      "src": "dd1576a454a8505d",
+      "tr": "759d24e7a668c58b",
+      "by": "ai"
+    },
+    "settings.errors.emailLoadFailed": {
+      "src": "bb38313270732038",
+      "tr": "61d40589dd983d48",
+      "by": "ai"
+    },
+    "settings.errors.emailSaveFailed": {
+      "src": "f5beb96e667859bf",
+      "tr": "1f1d4e1d0fcc2682",
+      "by": "ai"
+    },
+    "settings.errors.emailSignedIn": {
+      "src": "50535b7e64a2684b",
+      "tr": "196565c4c2bad379",
+      "by": "ai"
+    },
+    "settings.errors.field.clubName": {
+      "src": "a67224f0bd8d949b",
+      "tr": "b0d4e91e2cc209ab",
+      "by": "ai"
+    },
+    "settings.errors.field.licenseName": {
+      "src": "b6eeb26d83ad65d6",
+      "tr": "6e2400ffb9c8db89",
+      "by": "ai"
+    },
+    "settings.errors.field.organization": {
+      "src": "d764d42592fc9687",
+      "tr": "350be3643ce78043",
+      "by": "ai"
+    },
+    "settings.errors.leagueCfdRefused": {
+      "src": "9c4146ee84a45ac2",
+      "tr": "83f56d55e8c9c946",
+      "by": "ai"
+    },
+    "settings.errors.leagueDhvRefused": {
+      "src": "65d9210bc5383c75",
+      "tr": "e59490f9a19db60a",
+      "by": "ai"
+    },
+    "settings.errors.leagueImpersonating": {
+      "src": "441a79e7ba769b75",
+      "tr": "a41db10c2fbe824b",
+      "by": "ai"
+    },
+    "settings.errors.leagueLoginFormat": {
+      "src": "7e7cbdf425843160",
+      "tr": "c96560b25b3751b1",
+      "by": "ai"
+    },
+    "settings.errors.leagueNotConnected": {
+      "src": "0303e18246708180",
+      "tr": "a0b9c89e98f8e7f6",
+      "by": "ai"
+    },
+    "settings.errors.leaguePasswordLength": {
+      "src": "d86c3bf5603407d4",
+      "tr": "ba1d83e473ed5f78",
+      "by": "ai"
+    },
+    "settings.errors.leagueSaveFailed": {
+      "src": "20fa31a8c88846bb",
+      "tr": "341fb96dab0ed167",
+      "by": "ai"
+    },
+    "settings.errors.leagueTooManyChecks": {
+      "src": "052e358ee1836d79",
+      "tr": "e9b02222cf01247e",
+      "by": "ai"
+    },
+    "settings.errors.leagueUnknown": {
+      "src": "56cd1a119971e5d9",
+      "tr": "68ae5de974776bbf",
+      "by": "ai"
+    },
+    "settings.errors.leagueUnreachable": {
+      "src": "8d02e4fc549843e7",
+      "tr": "24dca41c4118ea1e",
+      "by": "ai"
+    },
+    "settings.errors.licenseAddFailed": {
+      "src": "0147cdadba9fdb28",
+      "tr": "9863b5050ff151ec",
+      "by": "ai"
+    },
+    "settings.errors.licenseIndexInvalid": {
+      "src": "a2c5a7c3d173e695",
+      "tr": "6104f99d36cef265",
+      "by": "ai"
+    },
+    "settings.errors.licenseLimit": {
+      "src": "e7ccc94eb58a6bc4",
+      "tr": "1063b48bab1d2ad5",
+      "by": "ai"
+    },
+    "settings.errors.licenseRemoveFailed": {
+      "src": "0f86440e70b773df",
+      "tr": "818646e0a96f7bb3",
+      "by": "ai"
+    },
+    "settings.errors.nameCredentialsOnly": {
+      "src": "97c5ed29a98b8a7a",
+      "tr": "aab210839a17c9ab",
+      "by": "ai"
+    },
+    "settings.errors.nameEmpty": {
+      "src": "9615c8137b02c861",
+      "tr": "1d012711d1a00e30",
+      "by": "ai"
+    },
+    "settings.errors.nameSignedIn": {
+      "src": "d13c619680064fb8",
+      "tr": "6d212fc9258fdbc9",
+      "by": "ai"
+    },
+    "settings.errors.nameTooLong": {
+      "src": "c98bcdc7f28bdbc0",
+      "tr": "21ca9fd46528efff",
+      "by": "ai"
+    },
+    "settings.errors.nameUpdateFailed": {
+      "src": "596e2d67bf361282",
+      "tr": "e1fb14f2b6fd3f0b",
+      "by": "ai"
+    },
+    "settings.errors.notAuthenticated": {
+      "src": "76d1efbeed2dd7b2",
+      "tr": "3af1e1869e85218a",
+      "by": "ai"
+    },
+    "settings.errors.pictureCredentialsOnly": {
+      "src": "af3e1a3c623a1246",
+      "tr": "494770b4473c0297",
+      "by": "ai"
+    },
+    "settings.errors.pictureInvalidPath": {
+      "src": "610cf07590e16615",
+      "tr": "29048c3b531823ac",
+      "by": "ai"
+    },
+    "settings.errors.pictureInvalidType": {
+      "src": "ce11c5b3a64fc9f5",
+      "tr": "ec9ace76edd8448b",
+      "by": "ai"
+    },
+    "settings.errors.pictureNoFile": {
+      "src": "79cff7c2e9366f93",
+      "tr": "72d0e8df418d258d",
+      "by": "ai"
+    },
+    "settings.errors.pictureNotConfigured": {
+      "src": "3a8140257c346865",
+      "tr": "d4a933f01c2bcf3a",
+      "by": "ai"
+    },
+    "settings.errors.pictureSuccess": {
+      "src": "bd64f98a71beb664",
+      "tr": "e06d2a72357fcbbe",
+      "by": "ai"
+    },
+    "settings.errors.pictureTooLarge": {
+      "src": "8f2e72251b6d1d22",
+      "tr": "d5fa7339d35cdf89",
+      "by": "ai"
+    },
+    "settings.errors.pictureTypeMismatch": {
+      "src": "38ef85cd05afa37f",
+      "tr": "f0c63dd74fc32ec9",
+      "by": "ai"
+    },
+    "settings.errors.pictureUnauthorized": {
+      "src": "d089c8a9fc28e4e5",
+      "tr": "f7bac8b419c8e4e1",
+      "by": "ai"
+    },
+    "settings.errors.pictureUploadFailed": {
+      "src": "3e977f48a7e17fb1",
+      "tr": "63b2ed453e7a2234",
+      "by": "ai"
+    },
+    "settings.errors.privacySignedIn": {
+      "src": "5c9bf10f230a611e",
+      "tr": "7264471b5d334d95",
+      "by": "ai"
+    },
+    "settings.errors.privacyUpdateFailed": {
+      "src": "0bbfc1edf6654e66",
+      "tr": "acef780edb955611",
+      "by": "ai"
+    },
+    "settings.errors.userNotFound": {
+      "src": "4a1793e9900cd312",
+      "tr": "276bc4859378f888",
+      "by": "ai"
+    },
+    "settings.errors.validation.containsUrl": {
+      "src": "e3335bbf4d55c6f2",
+      "tr": "7beec9badad0374c",
+      "by": "ai"
+    },
+    "settings.errors.validation.empty": {
+      "src": "fffe188e9a831507",
+      "tr": "3c6707ddb0b878e0",
+      "by": "ai"
+    },
+    "settings.errors.validation.tooLong": {
+      "src": "329b7fc867701b45",
+      "tr": "dd5935839e2cad4a",
+      "by": "ai"
+    },
+    "settings.instrument.copyFailed": {
+      "src": "705db1e465eee1f7",
+      "tr": "d8b0107c569d0e71",
+      "by": "ai"
+    },
+    "settings.instrument.copyLabel": {
+      "src": "63ba394601c5c4aa",
+      "tr": "e59aa5787d206a8d",
+      "by": "ai"
+    },
+    "settings.instrument.createFailed": {
+      "src": "497bce27f2afaf68",
+      "tr": "293011ee20153a6d",
+      "by": "ai"
+    },
+    "settings.instrument.description": {
+      "src": "b96aa143a1e4f7ec",
+      "tr": "97cc61b8ca065c40",
+      "by": "ai"
+    },
+    "settings.instrument.deviceNameHint": {
+      "src": "2afc7d9b54670410",
+      "tr": "b990812fee3caf88",
+      "by": "ai"
+    },
+    "settings.instrument.deviceNamePlaceholder": {
+      "src": "19a1db3649b1d5d4",
+      "tr": "3efd9d4b5fe66aab",
+      "by": "ai"
+    },
+    "settings.instrument.done": {
+      "src": "11a6767d5674c7e4",
+      "tr": "25d52d7e86650364",
+      "by": "ai"
+    },
+    "settings.instrument.emailFallback": {
+      "src": "142581b5ee6d10cd",
+      "tr": "8a2b1d6a0d7ce975",
+      "by": "ai"
+    },
+    "settings.instrument.flyskyhy": {
+      "src": "c3c5c830e9287182",
+      "tr": "b523b96160c5c3d3",
+      "by": "ai"
+    },
+    "settings.instrument.generate": {
+      "src": "49e49bb4401e67bd",
+      "tr": "5ca419548155adf2",
+      "by": "ai"
+    },
+    "settings.instrument.hideQr": {
+      "src": "684a9aa52482d19b",
+      "tr": "e73c4fa2b35d3197",
+      "by": "ai"
+    },
+    "settings.instrument.lastUsed": {
+      "src": "d64d04eb66ad381a",
+      "tr": "9da27fa452420a77",
+      "by": "ai"
+    },
+    "settings.instrument.leonardoUrl": {
+      "src": "e631281e75b0598e",
+      "tr": "e8b48005abe51a81",
+      "by": "ai"
+    },
+    "settings.instrument.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "2d03f8f3dfe1ed62",
+      "by": "ai"
+    },
+    "settings.instrument.neverUsed": {
+      "src": "dd57c2813b0bcaeb",
+      "tr": "d92823e52bf3228f",
+      "by": "ai"
+    },
+    "settings.instrument.password": {
+      "src": "e7cf3ef4f17c3999",
+      "tr": "a36c101570cc4410",
+      "by": "ai"
+    },
+    "settings.instrument.passwordFor": {
+      "src": "c8ac0a8b42fd51ca",
+      "tr": "6decd6fb53f3bb31",
+      "by": "ai"
+    },
+    "settings.instrument.passwordHint": {
+      "src": "07efa131f6e9cab2",
+      "tr": "07e9974e62e02e59",
+      "by": "ai"
+    },
+    "settings.instrument.qrHint": {
+      "src": "18f98b4ff42f11f4",
+      "tr": "79ddacfee131e565",
+      "by": "ai"
+    },
+    "settings.instrument.revealWarning": {
+      "src": "aa1bdb7c0e23e68a",
+      "tr": "b6a76c607a6ed488",
+      "by": "ai"
+    },
+    "settings.instrument.revoked": {
+      "src": "c113f8076e970ed6",
+      "tr": "791d282e0660f7c0",
+      "by": "ai"
+    },
+    "settings.instrument.revokeFailed": {
+      "src": "5ce54331277ec387",
+      "tr": "2433428f927edaae",
+      "by": "ai"
+    },
+    "settings.instrument.revokeNamed": {
+      "src": "94939ee44b2839d2",
+      "tr": "ce44415b1388bed3",
+      "by": "ai"
+    },
+    "settings.instrument.scanQr": {
+      "src": "b5e12819f6e36327",
+      "tr": "7611123cdcf38312",
+      "by": "ai"
+    },
+    "settings.instrument.serverUrl": {
+      "src": "22f5ebc3ad3ff763",
+      "tr": "6abdb8cffc731d20",
+      "by": "ai"
+    },
+    "settings.instrument.title": {
+      "src": "2c78c0e0d7bb5541",
+      "tr": "cdef0b554dd13382",
+      "by": "ai"
+    },
+    "settings.instrument.username": {
+      "src": "e3b89e9d33f88e52",
+      "tr": "fc309e30dbbe8a43",
+      "by": "ai"
+    },
+    "settings.leagues.autoSendOff": {
+      "src": "70ed947e93e6b4e0",
+      "tr": "c538ddff5ea3f505",
+      "by": "ai"
+    },
+    "settings.leagues.autoSendOn": {
+      "src": "c4d1a3714fb1118a",
+      "tr": "f73f0e18e9074195",
+      "by": "ai"
+    },
+    "settings.leagues.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "f7ff1178af202f6f",
+      "by": "ai"
+    },
+    "settings.leagues.changeLogin": {
+      "src": "26ae45f180f583aa",
+      "tr": "ab3f34fe0d8bf466",
+      "by": "ai"
+    },
+    "settings.leagues.checking": {
+      "src": "ec963ffc911b8401",
+      "tr": "49023282641c6dae",
+      "by": "ai"
+    },
+    "settings.leagues.connect": {
+      "src": "1a2303ede07493ac",
+      "tr": "0eefbbbcecf606d8",
+      "by": "ai"
+    },
+    "settings.leagues.connected": {
+      "src": "5c3930ce2fa0e2cd",
+      "tr": "07ea013683bb7389",
+      "by": "ai"
+    },
+    "settings.leagues.connectedAs": {
+      "src": "4bb73a3a3322a590",
+      "tr": "2ede52021c75534e",
+      "by": "ai"
+    },
+    "settings.leagues.connectedStatus": {
+      "src": "f90e6ca369bdb5fc",
+      "tr": "fbe8947ebd7f2fd7",
+      "by": "ai"
+    },
+    "settings.leagues.connectFailed": {
+      "src": "f399865a36fa6fb5",
+      "tr": "52c8f419e2296b54",
+      "by": "ai"
+    },
+    "settings.leagues.disconnected": {
+      "src": "b15bd720654e2a04",
+      "tr": "89b8eca636d5f454",
+      "by": "ai"
+    },
+    "settings.leagues.disconnectFailed": {
+      "src": "b7668a581f590fa3",
+      "tr": "f2b9002f3330918a",
+      "by": "ai"
+    },
+    "settings.leagues.disconnectNamed": {
+      "src": "494647fa8d4bbe0c",
+      "tr": "ee917b6252348230",
+      "by": "ai"
+    },
+    "settings.leagues.loginRefused": {
+      "src": "9bfce69a2e39ab8c",
+      "tr": "2355d86a0fba9bcb",
+      "by": "ai"
+    },
+    "settings.leagues.meta.cfd.help": {
+      "src": "827bb769be920a6e",
+      "tr": "fbf666af87879fe4",
+      "by": "ai"
+    },
+    "settings.leagues.meta.cfd.loginLabel": {
+      "src": "53dbf1a666198ac3",
+      "tr": "e2cc4a1c79acaf0e",
+      "by": "ai"
+    },
+    "settings.leagues.meta.cfd.loginPlaceholder": {
+      "src": "264aa3e055cb7daf",
+      "tr": "62529c9893b999b5",
+      "by": "ai"
+    },
+    "settings.leagues.meta.cfd.passwordLabel": {
+      "src": "d1af3ada114cc869",
+      "tr": "72a4823c65ea8f39",
+      "by": "ai"
+    },
+    "settings.leagues.meta.cfd.tagline": {
+      "src": "97097c7f2eb8599a",
+      "tr": "97097c7f2eb8599a",
+      "by": "ai"
+    },
+    "settings.leagues.meta.dhv.help": {
+      "src": "c8396a1db1526e50",
+      "tr": "8bbc3533d9624615",
+      "by": "ai"
+    },
+    "settings.leagues.meta.dhv.loginLabel": {
+      "src": "5b2eaa39f396bc87",
+      "tr": "63e655d95e55a6be",
+      "by": "ai"
+    },
+    "settings.leagues.meta.dhv.loginPlaceholder": {
+      "src": "ad247ef0af25d0d0",
+      "tr": "a6fced3701ffa2b9",
+      "by": "ai"
+    },
+    "settings.leagues.meta.dhv.passwordLabel": {
+      "src": "4b9dbe69111cc3f8",
+      "tr": "397c926efa1d8626",
+      "by": "ai"
+    },
+    "settings.leagues.meta.dhv.tagline": {
+      "src": "2cabdd2c9aca50ed",
+      "tr": "358e7df4048d2d26",
+      "by": "ai"
+    },
+    "settings.leagues.openSite": {
+      "src": "e926f9e53529dd89",
+      "tr": "17c8a8e5602b62be",
+      "by": "ai"
+    },
+    "settings.leagues.sendAfterUpload": {
+      "src": "69f42c6753575ff2",
+      "tr": "83a08be82bdcb41c",
+      "by": "ai"
+    },
+    "settings.leagues.sendAutomatically": {
+      "src": "49135df885de1b75",
+      "tr": "c63dd7d3f6e5cbbd",
+      "by": "ai"
+    },
+    "settings.leagues.storageNote": {
+      "src": "387c96a48ee3f2ae",
+      "tr": "6ec862abed26f774",
+      "by": "ai"
+    },
+    "settings.leagues.updateFailed": {
+      "src": "8eb4917bbe54bb69",
+      "tr": "3ebe655b380f12ce",
+      "by": "ai"
+    },
+    "settings.licenses.add": {
+      "src": "9fd728c66c9a256b",
+      "tr": "cbb95cf02b7d0216",
+      "by": "ai"
+    },
+    "settings.licenses.added": {
+      "src": "8362ec5736f72e3e",
+      "tr": "023480d8c4cec0d2",
+      "by": "ai"
+    },
+    "settings.licenses.addFailed": {
+      "src": "0147cdadba9fdb28",
+      "tr": "9863b5050ff151ec",
+      "by": "ai"
+    },
+    "settings.licenses.adding": {
+      "src": "913a8849b60dd752",
+      "tr": "969d26ff24565f07",
+      "by": "ai"
+    },
+    "settings.licenses.addLicense": {
+      "src": "b3d6a377c4cf119d",
+      "tr": "f740ed9ef285ec4f",
+      "by": "ai"
+    },
+    "settings.licenses.allRequired": {
+      "src": "04814271e197bd65",
+      "tr": "fc465f87577497dc",
+      "by": "ai"
+    },
+    "settings.licenses.dateLabel": {
+      "src": "769138a1dc32700e",
+      "tr": "fcded8b80e8cdc86",
+      "by": "ai"
+    },
+    "settings.licenses.dialogTitle": {
+      "src": "b3d6a377c4cf119d",
+      "tr": "f740ed9ef285ec4f",
+      "by": "ai"
+    },
+    "settings.licenses.empty": {
+      "src": "e69b91cdd53f766a",
+      "tr": "e04508454e2d6edf",
+      "by": "ai"
+    },
+    "settings.licenses.nameLabel": {
+      "src": "b6eeb26d83ad65d6",
+      "tr": "6e2400ffb9c8db89",
+      "by": "ai"
+    },
+    "settings.licenses.namePlaceholder": {
+      "src": "2cfc78daac2701ca",
+      "tr": "ade0ff51efc1d23e",
+      "by": "ai"
+    },
+    "settings.licenses.orgLabel": {
+      "src": "0e7980c5412cff14",
+      "tr": "fa9ebc09d26679f3",
+      "by": "ai"
+    },
+    "settings.licenses.orgPlaceholder": {
+      "src": "0a8f9e649b211b0d",
+      "tr": "ffe827791abd7114",
+      "by": "ai"
+    },
+    "settings.licenses.removed": {
+      "src": "88a26250076db63a",
+      "tr": "1e951f4eccf19400",
+      "by": "ai"
+    },
+    "settings.licenses.removeFailed": {
+      "src": "0f86440e70b773df",
+      "tr": "818646e0a96f7bb3",
+      "by": "ai"
+    },
+    "settings.licenses.removeNamed": {
+      "src": "e6a3c4a1250a6ad3",
+      "tr": "a906c4fafc65ceb6",
+      "by": "ai"
+    },
+    "settings.licenses.title": {
+      "src": "6d5d9004797377e1",
+      "tr": "6f7d16aca2cd47fb",
+      "by": "ai"
+    },
+    "settings.logfly.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "f7ff1178af202f6f",
+      "by": "ai"
+    },
+    "settings.logfly.contextNote": {
+      "src": "21080b8e6a5a411c",
+      "tr": "0a6ffc39ecb56cba",
+      "by": "ai"
+    },
+    "settings.logfly.database": {
+      "src": "3549b0028b75d981",
+      "tr": "4cc80701da55c69a",
+      "by": "ai"
+    },
+    "settings.logfly.doneTally": {
+      "src": "d2adaad257489cec",
+      "tr": "c2dcf2ec5e8241cd",
+      "by": "ai"
+    },
+    "settings.logfly.dropPrompt": {
+      "src": "5e1650d53b4356ad",
+      "tr": "92771447a9fbc1d9",
+      "by": "ai"
+    },
+    "settings.logfly.emptyTable": {
+      "src": "b669c14b20948a8a",
+      "tr": "a304f4d22f89b66c",
+      "by": "ai"
+    },
+    "settings.logfly.errorRow": {
+      "src": "4a356409e7e668d0",
+      "tr": "4a356409e7e668d0",
+      "by": "ai"
+    },
+    "settings.logfly.failedToast": {
+      "src": "29c78d6c951a1a98",
+      "tr": "978dee50fd9980c8",
+      "by": "ai"
+    },
+    "settings.logfly.importAnother": {
+      "src": "00c361b6c47cfbb3",
+      "tr": "9df3f995b4f0f050",
+      "by": "ai"
+    },
+    "settings.logfly.importButton": {
+      "src": "b92d4447227c9b0c",
+      "tr": "088e1df7bd2f2872",
+      "by": "ai"
+    },
+    "settings.logfly.importedToast": {
+      "src": "ba3fa3b90b045c0d",
+      "tr": "1c38b06b68d9c8a8",
+      "by": "ai"
+    },
+    "settings.logfly.moreSites": {
+      "src": "ecccea94c62457a7",
+      "tr": "3ec37a63e979ace9",
+      "by": "ai"
+    },
+    "settings.logfly.networkError": {
+      "src": "2a33d984de881573",
+      "tr": "f93fa7b766f95590",
+      "by": "ai"
+    },
+    "settings.logfly.nothingToImport": {
+      "src": "a6c235ebd14a8e18",
+      "tr": "be8428aabb78b2fd",
+      "by": "ai"
+    },
+    "settings.logfly.processed": {
+      "src": "e6161078ea4a6e79",
+      "tr": "d41c9f49516739bf",
+      "by": "ai"
+    },
+    "settings.logfly.readFailed": {
+      "src": "ec4ba95725947640",
+      "tr": "c03313e6f2cdb8a2",
+      "by": "ai"
+    },
+    "settings.logfly.reading": {
+      "src": "bfe1b1e8bf76fc7e",
+      "tr": "929d5157fc0933bd",
+      "by": "ai"
+    },
+    "settings.logfly.reset": {
+      "src": "daee7606b339f3c3",
+      "tr": "1ba0463c46e6cafa",
+      "by": "ai"
+    },
+    "settings.logfly.sites": {
+      "src": "9d7690937436d9e3",
+      "tr": "e1ab75f8fb01ee95",
+      "by": "ai"
+    },
+    "settings.logfly.sitesCount": {
+      "src": "767ddfb0d3637864",
+      "tr": "3577aa51deb8dd33",
+      "by": "ai"
+    },
+    "settings.logfly.stats.igcSize": {
+      "src": "6afb59446075efa2",
+      "tr": "c4118203173eef05",
+      "by": "ai"
+    },
+    "settings.logfly.stats.imported": {
+      "src": "5f54227b74fbba77",
+      "tr": "32dccb565f5d2fc5",
+      "by": "ai"
+    },
+    "settings.logfly.stats.inDb": {
+      "src": "f3e85e4ce022a989",
+      "tr": "da613580e4bab36b",
+      "by": "ai"
+    },
+    "settings.logfly.stats.noIgc": {
+      "src": "e2cc36744f213f07",
+      "tr": "80aac181a1f12109",
+      "by": "ai"
+    },
+    "settings.logfly.stats.willBeImported": {
+      "src": "d3f476a588279928",
+      "tr": "5a56a36763a0098b",
+      "by": "ai"
+    },
+    "settings.logfly.stop": {
+      "src": "de3ddd9a141a7402",
+      "tr": "2ae7184f658651d2",
+      "by": "ai"
+    },
+    "settings.logfly.tally": {
+      "src": "7850ee3485f67b98",
+      "tr": "35489175282959ad",
+      "by": "ai"
+    },
+    "settings.logfly.title": {
+      "src": "cefd024bd2c4db45",
+      "tr": "f3d147c079318ef5",
+      "by": "ai"
+    },
+    "settings.logfly.viewErrors": {
+      "src": "f22d6f33cd3f3c03",
+      "tr": "2e0be48ee8cea46f",
+      "by": "ai"
+    },
+    "settings.logfly.wings": {
+      "src": "d80f7da094e11c89",
+      "tr": "61253d93894f07a9",
+      "by": "ai"
+    },
+    "settings.logfly.wingsCount": {
+      "src": "604076412ee8e97d",
+      "tr": "aef114f92c4b6255",
+      "by": "ai"
+    },
+    "settings.privacy.currentlyPrivate": {
+      "src": "2a8cbd1deced6d38",
+      "tr": "d8998c3335e737eb",
+      "by": "ai"
+    },
+    "settings.privacy.description": {
+      "src": "a85133cbc782d543",
+      "tr": "c2b730e09bb8c39f",
+      "by": "ai"
+    },
+    "settings.privacy.errorUnexpected": {
+      "src": "e198269c2a19003d",
+      "tr": "3ef8ecbfc58cc49a",
+      "by": "ai"
+    },
+    "settings.privacy.errorUpdate": {
+      "src": "aa1f4f44acf440b7",
+      "tr": "6a006d0f5bf4f325",
+      "by": "ai"
+    },
+    "settings.privacy.includesPrivate": {
+      "src": "b44562a587fd6018",
+      "tr": "c8e41249878e2b80",
+      "by": "ai"
+    },
+    "settings.privacy.includesPublic": {
+      "src": "e8c70dd5fb0b853a",
+      "tr": "945e4044b2f9de31",
+      "by": "ai"
+    },
+    "settings.privacy.items.achievements": {
+      "src": "0ca4e497d261c161",
+      "tr": "2562c092cf1674ce",
+      "by": "ai"
+    },
+    "settings.privacy.items.flights": {
+      "src": "e3df298c69814ee3",
+      "tr": "53051fe78e0f3ff3",
+      "by": "ai"
+    },
+    "settings.privacy.items.name": {
+      "src": "3aeec03a8b1808f3",
+      "tr": "9d5a5ca2d38d4e09",
+      "by": "ai"
+    },
+    "settings.privacy.items.sites": {
+      "src": "361c897d3144c742",
+      "tr": "dd98d6e78a7eaa46",
+      "by": "ai"
+    },
+    "settings.privacy.nowPrivate": {
+      "src": "94f41d8b60351b33",
+      "tr": "c8b89533725e1d96",
+      "by": "ai"
+    },
+    "settings.privacy.nowPublic": {
+      "src": "e09db126bce6e21c",
+      "tr": "7dd037dac89a462c",
+      "by": "ai"
+    },
+    "settings.privacy.publicProfile": {
+      "src": "6f3c838c26c35059",
+      "tr": "1478536a9cb554c2",
+      "by": "ai"
+    },
+    "settings.privacy.publicProfileHint": {
+      "src": "7dd12a6003ba62d0",
+      "tr": "3e432b3bfeb508cb",
+      "by": "ai"
+    },
+    "settings.privacy.title": {
+      "src": "eefad6ba6a22ca99",
+      "tr": "1219aaca84a1772e",
+      "by": "ai"
+    },
+    "settings.privacy.toggleLabel": {
+      "src": "af8127b2ff1b5273",
+      "tr": "68cfd348100f717f",
+      "by": "ai"
+    },
+    "settings.signIn.addPasskey": {
+      "src": "09fb67d57bc78f93",
+      "tr": "0d8b8f2a3529f367",
+      "by": "ai"
+    },
+    "settings.signIn.cancelRename": {
+      "src": "3fe5423650803544",
+      "tr": "cf21cc686ed12b50",
+      "by": "ai"
+    },
+    "settings.signIn.connectedAccounts": {
+      "src": "2fc385cd20083a63",
+      "tr": "a62b5b4a37b8d1fc",
+      "by": "ai"
+    },
+    "settings.signIn.description": {
+      "src": "79d271e0ee88c600",
+      "tr": "c5ec142dbb7dae49",
+      "by": "ai"
+    },
+    "settings.signIn.emailPassword": {
+      "src": "23e42cc0f7dbc2f3",
+      "tr": "b6e337c0de9964c5",
+      "by": "ai"
+    },
+    "settings.signIn.keep": {
+      "src": "183f00f483d3844e",
+      "tr": "27d1d93c9b94ab29",
+      "by": "ai"
+    },
+    "settings.signIn.kindSynced": {
+      "src": "5da22fe4f7ac1d40",
+      "tr": "da7f91ee2818ed53",
+      "by": "ai"
+    },
+    "settings.signIn.kindThisDevice": {
+      "src": "636615ff9a681154",
+      "tr": "ea926b85d93e3ddd",
+      "by": "ai"
+    },
+    "settings.signIn.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "2d03f8f3dfe1ed62",
+      "by": "ai"
+    },
+    "settings.signIn.never": {
+      "src": "6497e4b3d7bed169",
+      "tr": "cd5b158f21b7588b",
+      "by": "ai"
+    },
+    "settings.signIn.noneBesidesPasskeys": {
+      "src": "b86f9da90ec44d8c",
+      "tr": "ecb47b13cfb776a7",
+      "by": "ai"
+    },
+    "settings.signIn.noPasskeys": {
+      "src": "e9185938f9f173ac",
+      "tr": "b17c74536a8b6721",
+      "by": "ai"
+    },
+    "settings.signIn.passkeyAdded": {
+      "src": "f3cea4bb8f1e0b9c",
+      "tr": "7bc7f6fe9a04e99d",
+      "by": "ai"
+    },
+    "settings.signIn.passkeyMeta": {
+      "src": "7fe0ee1b865a4479",
+      "tr": "9366a5f231547697",
+      "by": "ai"
+    },
+    "settings.signIn.passkeyName": {
+      "src": "30a3a952bf7cd3a0",
+      "tr": "3a3f7d5d9af88840",
+      "by": "ai"
+    },
+    "settings.signIn.passkeyRemoved": {
+      "src": "11097d9deb0ad0ae",
+      "tr": "10cfb0d1e049facf",
+      "by": "ai"
+    },
+    "settings.signIn.passkeys": {
+      "src": "c87ccdb428e6e24c",
+      "tr": "c87ccdb428e6e24c",
+      "by": "ai"
+    },
+    "settings.signIn.remove": {
+      "src": "c3812fc4acb861d5",
+      "tr": "3828375a2d45384b",
+      "by": "ai"
+    },
+    "settings.signIn.removeNamed": {
+      "src": "e6a3c4a1250a6ad3",
+      "tr": "a906c4fafc65ceb6",
+      "by": "ai"
+    },
+    "settings.signIn.renameNamed": {
+      "src": "e84e258ef7217296",
+      "tr": "57cb69e43015c609",
+      "by": "ai"
+    },
+    "settings.signIn.saveName": {
+      "src": "b7297226fd1f4681",
+      "tr": "002febf9f3bdbeec",
+      "by": "ai"
+    },
+    "settings.signIn.title": {
+      "src": "477be86784059605",
+      "tr": "9db1bd755195037f",
+      "by": "ai"
+    },
+    "settings.signIn.unsupported": {
+      "src": "3bcec2421f7e99b1",
+      "tr": "c91c60ae5027a46e",
+      "by": "ai"
+    },
+    "settings.signIn.waitingForDevice": {
+      "src": "af560a110bae7331",
+      "tr": "2e0251eb86f1bff4",
+      "by": "ai"
+    },
+    "settings.units.description": {
+      "src": "58f889273aadfafd",
+      "tr": "fdbb08ea1df4a524",
+      "by": "ai"
+    },
+    "settings.units.preview.altitude": {
+      "src": "cbc2e75740ca7af8",
+      "tr": "a4d8c3470ca778cd",
+      "by": "ai"
+    },
+    "settings.units.preview.distance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b598dd1f2b770da0",
+      "by": "ai"
+    },
+    "settings.units.preview.speed": {
+      "src": "c372fee9b4566b85",
+      "tr": "522637d7fb34df10",
+      "by": "ai"
+    },
+    "settings.units.preview.temp": {
+      "src": "d62f436b9e1b638e",
+      "tr": "007955c0717546de",
+      "by": "ai"
+    },
+    "settings.units.preview.title": {
+      "src": "324b134f57c70c72",
+      "tr": "69337f6de91475ad",
+      "by": "ai"
+    },
+    "settings.units.preview.vario": {
+      "src": "bb67619394a1ea3e",
+      "tr": "bb67619394a1ea3e",
+      "by": "ai"
+    },
+    "settings.units.preview.wind": {
+      "src": "d151346fe7eea3c6",
+      "tr": "d151346fe7eea3c6",
+      "by": "ai"
+    },
+    "settings.units.rows.altitude": {
+      "src": "cbc2e75740ca7af8",
+      "tr": "a4d8c3470ca778cd",
+      "by": "ai"
+    },
+    "settings.units.rows.distance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b598dd1f2b770da0",
+      "by": "ai"
+    },
+    "settings.units.rows.flightSpeed": {
+      "src": "d238923bc7ae05fb",
+      "tr": "2ae3f1c1534139ad",
+      "by": "ai"
+    },
+    "settings.units.rows.temperature": {
+      "src": "b958ce8b871ab36b",
+      "tr": "2da10076c9e7b7c9",
+      "by": "ai"
+    },
+    "settings.units.rows.vario": {
+      "src": "1678ff0394d3f383",
+      "tr": "aa4ebeeacc4228af",
+      "by": "ai"
+    },
+    "settings.units.rows.windSpeed": {
+      "src": "e74c158ed872524e",
+      "tr": "2690f77508d25d60",
+      "by": "ai"
+    },
+    "settings.units.title": {
+      "src": "85e72b85f3869a7f",
+      "tr": "158b44a2053592ef",
+      "by": "ai"
+    },
+    "success.badgeGoal.cumulative": {
+      "src": "7b3103c85425fa65",
+      "tr": "b4db1b3ab0043d87",
+      "by": "ai"
+    },
+    "success.badgeGoal.flight": {
+      "src": "fe226418f88a079a",
+      "tr": "1a6335004f2ea665",
+      "by": "ai"
+    },
+    "success.categories.airtime.description": {
+      "src": "5ff9808dffc725c8",
+      "tr": "43744d36a81a0df9",
+      "by": "ai"
+    },
+    "success.categories.airtime.label": {
+      "src": "68241c89b326beca",
+      "tr": "dfc14be42e5bb728",
+      "by": "ai"
+    },
+    "success.categories.airtime.name": {
+      "src": "fc19c97a13aa4f13",
+      "tr": "c4a775364d000312",
+      "by": "ai"
+    },
+    "success.categories.altitude.description": {
+      "src": "0766d7345aae2146",
+      "tr": "a7caec374ec89090",
+      "by": "ai"
+    },
+    "success.categories.altitude.label": {
+      "src": "935d69e85e62379c",
+      "tr": "f725cf4fb360a698",
+      "by": "ai"
+    },
+    "success.categories.altitude.name": {
+      "src": "477d644bc3f54614",
+      "tr": "66b4aa4d79631577",
+      "by": "ai"
+    },
+    "success.categories.country_explorer.description": {
+      "src": "047f45495d27cae5",
+      "tr": "6c6919486a96ceeb",
+      "by": "ai"
+    },
+    "success.categories.country_explorer.label": {
+      "src": "0c6ab6cf43050b0a",
+      "tr": "5d0877e5b9724a3a",
+      "by": "ai"
+    },
+    "success.categories.country_explorer.name": {
+      "src": "9f1f92cc15ada9a2",
+      "tr": "a44907fd13f7ccca",
+      "by": "ai"
+    },
+    "success.categories.duration.description": {
+      "src": "833053cf97ffb45d",
+      "tr": "c48654c7553debd7",
+      "by": "ai"
+    },
+    "success.categories.duration.label": {
+      "src": "4eb8861c0f30b724",
+      "tr": "ae1e63b92959ada6",
+      "by": "ai"
+    },
+    "success.categories.duration.name": {
+      "src": "a4bf80a9f4b290ff",
+      "tr": "00eb01fc5352acd0",
+      "by": "ai"
+    },
+    "success.categories.fai_triangle.description": {
+      "src": "770d91da4b8a0fb8",
+      "tr": "70ffdb0eb75f7c95",
+      "by": "ai"
+    },
+    "success.categories.fai_triangle.label": {
+      "src": "271aa73d4cb75e32",
+      "tr": "ee189ca31089dac0",
+      "by": "ai"
+    },
+    "success.categories.fai_triangle.name": {
+      "src": "08f497629f8503e2",
+      "tr": "18ec3c3c3f0d166a",
+      "by": "ai"
+    },
+    "success.categories.flight_count.description": {
+      "src": "83680d275b1672ca",
+      "tr": "1ab56fc2f243a7db",
+      "by": "ai"
+    },
+    "success.categories.flight_count.label": {
+      "src": "52788477b4f7822e",
+      "tr": "aa0cf468292f6c1e",
+      "by": "ai"
+    },
+    "success.categories.flight_count.name": {
+      "src": "015617171fb2e276",
+      "tr": "d635441ca8948483",
+      "by": "ai"
+    },
+    "success.categories.ground_speed.description": {
+      "src": "198b352303caa530",
+      "tr": "cc749f53c16f8e25",
+      "by": "ai"
+    },
+    "success.categories.ground_speed.label": {
+      "src": "5b0f75fcb93cc133",
+      "tr": "4e2e6ea64778accf",
+      "by": "ai"
+    },
+    "success.categories.ground_speed.name": {
+      "src": "768989bc48b18d95",
+      "tr": "768989bc48b18d95",
+      "by": "ai"
+    },
+    "success.categories.height_gain.description": {
+      "src": "750dfc60521eb0ba",
+      "tr": "7df63c655066af14",
+      "by": "ai"
+    },
+    "success.categories.height_gain.label": {
+      "src": "689419102e763311",
+      "tr": "c76ce1a57279516b",
+      "by": "ai"
+    },
+    "success.categories.height_gain.name": {
+      "src": "be17e95bc241727b",
+      "tr": "f74cff67add4938a",
+      "by": "ai"
+    },
+    "success.categories.season_first.description": {
+      "src": "833bfea5a2426aad",
+      "tr": "62edfcbfdefa6457",
+      "by": "ai"
+    },
+    "success.categories.season_first.label": {
+      "src": "358402fc1ebf9e39",
+      "tr": "8ff8de4d6946b38e",
+      "by": "ai"
+    },
+    "success.categories.season_first.name": {
+      "src": "358402fc1ebf9e39",
+      "tr": "8ff8de4d6946b38e",
+      "by": "ai"
+    },
+    "success.categories.site_explorer.description": {
+      "src": "cf0136c79d03e7e8",
+      "tr": "d614679821cb378e",
+      "by": "ai"
+    },
+    "success.categories.site_explorer.label": {
+      "src": "6212b61bac899bf6",
+      "tr": "fcd2b1cebaaffed5",
+      "by": "ai"
+    },
+    "success.categories.site_explorer.name": {
+      "src": "7b53e0de71ba865c",
+      "tr": "a418ca9b154d107e",
+      "by": "ai"
+    },
+    "success.categories.thermal_strength.description": {
+      "src": "46b7c00dd99b1b39",
+      "tr": "6ff432c404cddf40",
+      "by": "ai"
+    },
+    "success.categories.thermal_strength.label": {
+      "src": "f27c7d51cb7c6e38",
+      "tr": "6937c3ba658edc9b",
+      "by": "ai"
+    },
+    "success.categories.thermal_strength.name": {
+      "src": "e8f29fd3c31c1609",
+      "tr": "d52cfd28029b7395",
+      "by": "ai"
+    },
+    "success.categories.triangle_distance.description": {
+      "src": "3c6ea00318b44625",
+      "tr": "ab0c328cc38812f7",
+      "by": "ai"
+    },
+    "success.categories.triangle_distance.label": {
+      "src": "a0252691b5dc54b1",
+      "tr": "be39f4733f401052",
+      "by": "ai"
+    },
+    "success.categories.triangle_distance.name": {
+      "src": "ec9f27e707f6ed0a",
+      "tr": "2fc1c2d5c50cbc31",
+      "by": "ai"
+    },
+    "success.categories.xc_distance.description": {
+      "src": "eafc20401adb166d",
+      "tr": "63dc0fac8b7fcc71",
+      "by": "ai"
+    },
+    "success.categories.xc_distance.label": {
+      "src": "75b22f964df9e627",
+      "tr": "79c9908ddeb8856e",
+      "by": "ai"
+    },
+    "success.categories.xc_distance.name": {
+      "src": "3b9329f21246ce77",
+      "tr": "3b9329f21246ce77",
+      "by": "ai"
+    },
+    "success.entry.locked": {
+      "src": "a424e33d90931d1e",
+      "tr": "45f96e916050cd8a",
+      "by": "ai"
+    },
+    "success.entry.moreMilestones": {
+      "src": "8815ac55f27c7015",
+      "tr": "07b858244d190b93",
+      "by": "ai"
+    },
+    "success.entry.next": {
+      "src": "1ff57a29d7c9d11b",
+      "tr": "37a13ca05f8476f8",
+      "by": "ai"
+    },
+    "success.entry.nextMilestone": {
+      "src": "4fc498f7c3edb335",
+      "tr": "9352ab2c5672bd53",
+      "by": "ai"
+    },
+    "success.entry.stamped": {
+      "src": "de1e01c52cf45188",
+      "tr": "90fcce6852cad73d",
+      "by": "ai"
+    },
+    "success.entry.stampedOn": {
+      "src": "d7d39febdecbe04a",
+      "tr": "66a7f7dfbb660eec",
+      "by": "ai"
+    },
+    "success.filters.all": {
+      "src": "a52ace420f2175d0",
+      "tr": "3801a35c51822839",
+      "by": "ai"
+    },
+    "success.filters.earned": {
+      "src": "63e39794f7d57484",
+      "tr": "38cecdae01e0d9b4",
+      "by": "ai"
+    },
+    "success.filters.locked": {
+      "src": "a424e33d90931d1e",
+      "tr": "45f96e916050cd8a",
+      "by": "ai"
+    },
+    "success.filters.progress": {
+      "src": "c1f88e9d6c4145cf",
+      "tr": "e94e8adc17be38a7",
+      "by": "ai"
+    },
+    "success.header.defaultName": {
+      "src": "383e2d946278a872",
+      "tr": "383e2d946278a872",
+      "by": "ai"
+    },
+    "success.header.eyebrow": {
+      "src": "bb2c6bd8d1a28454",
+      "tr": "04a5283e1ca51b8c",
+      "by": "ai"
+    },
+    "success.header.filterLabel": {
+      "src": "ad04d1685a458990",
+      "tr": "fe3cc1eb3004d6a0",
+      "by": "ai"
+    },
+    "success.header.subtitle": {
+      "src": "92ccb6d9466be4a4",
+      "tr": "88e8936a7b2ed7dd",
+      "by": "ai"
+    },
+    "success.header.title": {
+      "src": "af1286625558a8bb",
+      "tr": "18d9dbb99792e7f2",
+      "by": "ai"
+    },
+    "success.meta.description": {
+      "src": "e118a7e0b7744994",
+      "tr": "57c56648f96e872b",
+      "by": "ai"
+    },
+    "success.meta.title": {
+      "src": "ad96f578c1b33429",
+      "tr": "3b5b6a192716a999",
+      "by": "ai"
+    },
+    "success.notYetEarned": {
+      "src": "c195c0e33765b05f",
+      "tr": "9890a675c01ca6d1",
+      "by": "ai"
+    },
+    "success.safety.lead": {
+      "src": "1357ff975172cffc",
+      "tr": "f9409e7b62a433b4",
+      "by": "ai"
+    },
+    "success.safety.text": {
+      "src": "7f08c0a2ac429f1f",
+      "tr": "09a6d3dfa89cfd38",
+      "by": "ai"
+    },
+    "success.special.description": {
+      "src": "acdc633b5088b43e",
+      "tr": "06506f4620c35c34",
+      "by": "ai"
+    },
+    "success.special.label": {
+      "src": "e8de9031fac39ed5",
+      "tr": "a5260c1f67c4c11f",
+      "by": "ai"
+    },
+    "success.special.pioneerDescription": {
+      "src": "50ea075fcf17bb0a",
+      "tr": "563aba42666c48d2",
+      "by": "ai"
+    },
+    "success.special.pioneerName": {
+      "src": "743d781adc55be21",
+      "tr": "c24094644e04e682",
+      "by": "ai"
+    },
+    "success.stats.closestNext": {
+      "src": "8442ee2d9b55c8fc",
+      "tr": "7d75c06611d6bd61",
+      "by": "ai"
+    },
+    "success.stats.closestNextNone": {
+      "src": "d7ceb9e589d678ba",
+      "tr": "b86431b758c1b1e1",
+      "by": "ai"
+    },
+    "success.stats.closestNextSub": {
+      "src": "d2a2cbbdcfc2c198",
+      "tr": "d2a2cbbdcfc2c198",
+      "by": "ai"
+    },
+    "success.stats.completion": {
+      "src": "557fe004f344e1cc",
+      "tr": "abfc3f29bb604493",
+      "by": "ai"
+    },
+    "success.stats.completionSub": {
+      "src": "c1deb3268b977bb9",
+      "tr": "b5fca4a8e2997a72",
+      "by": "ai"
+    },
+    "success.stats.earned": {
+      "src": "63e39794f7d57484",
+      "tr": "38cecdae01e0d9b4",
+      "by": "ai"
+    },
+    "success.stats.earnedOf": {
+      "src": "43db84087c320671",
+      "tr": "932ca942d0472514",
+      "by": "ai"
+    },
+    "success.stats.latest": {
+      "src": "8730d3c2022abf1f",
+      "tr": "9d4655937cc764db",
+      "by": "ai"
+    },
+    "success.stats.latestNone": {
+      "src": "4b31d30c967791f5",
+      "tr": "0224525d5a390e97",
+      "by": "ai"
+    },
+    "upload.api.insufficientFixes": {
+      "src": "90d1c99ac733ef91",
+      "tr": "ca3a862aba210d86",
+      "by": "ai"
+    },
+    "upload.api.internal": {
+      "src": "f74d744451ed1350",
+      "tr": "ba1e25e657572c4a",
+      "by": "ai"
+    },
+    "upload.api.invalidFile": {
+      "src": "d64f9fd6a4ec6a1b",
+      "tr": "9bbe16fb427976dc",
+      "by": "ai"
+    },
+    "upload.api.noFile": {
+      "src": "f2fe7af39fc24789",
+      "tr": "a1df94d61a4294b9",
+      "by": "ai"
+    },
+    "upload.api.processFailed": {
+      "src": "bf62fcc5da0944b6",
+      "tr": "75a2f9f44e489ab4",
+      "by": "ai"
+    },
+    "upload.api.tooLarge": {
+      "src": "18d2f6672356dedf",
+      "tr": "0342717deac7bd60",
+      "by": "ai"
+    },
+    "upload.api.unauthorized": {
+      "src": "d089c8a9fc28e4e5",
+      "tr": "f7bac8b419c8e4e1",
+      "by": "ai"
+    },
+    "upload.api.uploaded": {
+      "src": "6f4b0db6157899b9",
+      "tr": "696d16b76b5e5c8d",
+      "by": "ai"
+    },
+    "upload.dropzone.addFiles": {
+      "src": "01792a33c228a70e",
+      "tr": "0eb8ddab60382a9b",
+      "by": "ai"
+    },
+    "upload.dropzone.addFolder": {
+      "src": "5bbfc5a69b25b49c",
+      "tr": "a5bac4c19baa384e",
+      "by": "ai"
+    },
+    "upload.dropzone.areaLabel": {
+      "src": "27c528ad789d7ade",
+      "tr": "49e311661c5cfb6f",
+      "by": "ai"
+    },
+    "upload.dropzone.browseFiles": {
+      "src": "c8bb105f01017ced",
+      "tr": "02c90cfa3a4ad8c6",
+      "by": "ai"
+    },
+    "upload.dropzone.browseFilesAria": {
+      "src": "3ac6f09fae171eb1",
+      "tr": "f1e57147860c4083",
+      "by": "ai"
+    },
+    "upload.dropzone.browseFolder": {
+      "src": "a06957fcc715d602",
+      "tr": "d5ef05d10fe12489",
+      "by": "ai"
+    },
+    "upload.dropzone.browseFolderAria": {
+      "src": "f991429bfe533a63",
+      "tr": "b016629d1618171f",
+      "by": "ai"
+    },
+    "upload.dropzone.browseMoreFilesAria": {
+      "src": "01e064cff4e2da23",
+      "tr": "ba28bf6997ba72ef",
+      "by": "ai"
+    },
+    "upload.dropzone.browseMoreFolderAria": {
+      "src": "8d158c6c35c0708d",
+      "tr": "722629f064e3d667",
+      "by": "ai"
+    },
+    "upload.dropzone.hint": {
+      "src": "393f2ea4d6a24fd1",
+      "tr": "5dd1ddf13aa8ea5e",
+      "by": "ai"
+    },
+    "upload.dropzone.limits": {
+      "src": "9f2b35da9b84b382",
+      "tr": "21ead56c75d2bfc2",
+      "by": "ai"
+    },
+    "upload.dropzone.rateLimited": {
+      "src": "a06130a5a2818ae5",
+      "tr": "27e11aedd6e5a580",
+      "by": "ai"
+    },
+    "upload.dropzone.title": {
+      "src": "38ce1e2ce358d415",
+      "tr": "10221fdbd84a015a",
+      "by": "ai"
+    },
+    "upload.errors.network": {
+      "src": "ad73ec9943623858",
+      "tr": "f9b94f7f9d521a9a",
+      "by": "ai"
+    },
+    "upload.errors.rateLimit": {
+      "src": "95a111e3185eb006",
+      "tr": "c6df8e2cf8a62dca",
+      "by": "ai"
+    },
+    "upload.errors.rateLimitRetry": {
+      "src": "6d53455e81c0c4dc",
+      "tr": "6a17d9572816f04b",
+      "by": "ai"
+    },
+    "upload.errors.server": {
+      "src": "6eaa3abb62f90e6e",
+      "tr": "5ed0dda2b6414b60",
+      "by": "ai"
+    },
+    "upload.errors.statusFailed": {
+      "src": "43562aa2b63eb5ff",
+      "tr": "8d10ff9e306ac8ec",
+      "by": "ai"
+    },
+    "upload.errors.unexpectedStatus": {
+      "src": "27516e888e2b7ddf",
+      "tr": "4f5d300e2716ae75",
+      "by": "ai"
+    },
+    "upload.errors.unknown": {
+      "src": "27c2ccd962c2b8dc",
+      "tr": "617580f0f7efd75f",
+      "by": "ai"
+    },
+    "upload.errors.uploadSuccessful": {
+      "src": "eef92c67f057d34f",
+      "tr": "60e2f44336c2b6e8",
+      "by": "ai"
+    },
+    "upload.list.failed": {
+      "src": "031a8f0f659df890",
+      "tr": "1c47a9734b27dcd7",
+      "by": "ai"
+    },
+    "upload.list.failedDetailsAria": {
+      "src": "a9d0604e9024d51e",
+      "tr": "473ae11c4c41e504",
+      "by": "ai"
+    },
+    "upload.list.fileSize": {
+      "src": "55aa0a3318ad1002",
+      "tr": "55aa0a3318ad1002",
+      "by": "ai"
+    },
+    "upload.list.fileSizeParsed": {
+      "src": "165ce43597d13e92",
+      "tr": "e75383a869cc3708",
+      "by": "ai"
+    },
+    "upload.list.openFlightAria": {
+      "src": "71ce0bb148a2d5f4",
+      "tr": "bc974ecb74a44e15",
+      "by": "ai"
+    },
+    "upload.list.openLogbook": {
+      "src": "e29a615b1f51c776",
+      "tr": "437abbb36c71aa7c",
+      "by": "ai"
+    },
+    "upload.list.parsed": {
+      "src": "c254a27960b416b1",
+      "tr": "460019955e7c7311",
+      "by": "ai"
+    },
+    "upload.list.parsedCount": {
+      "src": "40e1b5e43644ac51",
+      "tr": "dd406c87c431668a",
+      "by": "ai"
+    },
+    "upload.list.parsing": {
+      "src": "e271f808f57ee16a",
+      "tr": "3298cd3d69584bb3",
+      "by": "ai"
+    },
+    "upload.list.progressAria": {
+      "src": "11a8bfc000fce25a",
+      "tr": "b53f03fd4605c54f",
+      "by": "ai"
+    },
+    "upload.list.progressValueAria": {
+      "src": "0ce7400f71f8f740",
+      "tr": "d7974189488627a0",
+      "by": "ai"
+    },
+    "upload.list.queued": {
+      "src": "661ff40a07e037bb",
+      "tr": "e7bf084c9efb0851",
+      "by": "ai"
+    },
+    "upload.list.retry": {
+      "src": "942087cc2d41e013",
+      "tr": "948643cb59e8274f",
+      "by": "ai"
+    },
+    "upload.list.retryAria": {
+      "src": "5a2313cbe364c098",
+      "tr": "21f16f89eda84d4a",
+      "by": "ai"
+    },
+    "upload.list.title": {
+      "src": "7676f01b7b376426",
+      "tr": "4ed76cdc0cd05ec2",
+      "by": "ai"
+    },
+    "upload.list.uploadFailed": {
+      "src": "6efc5d27f30b20c1",
+      "tr": "4917fab9185fd8b1",
+      "by": "ai"
+    },
+    "upload.list.whatsNew": {
+      "src": "29bc2529a5719d3c",
+      "tr": "a0ea2955cc2ed9dd",
+      "by": "ai"
+    },
+    "upload.meta.description": {
+      "src": "7583b2122f1efeae",
+      "tr": "d57bd3afe52514f2",
+      "by": "ai"
+    },
+    "upload.meta.ogTitle": {
+      "src": "5fea0f629bd05aa0",
+      "tr": "cfaa7a62630181bc",
+      "by": "ai"
+    },
+    "upload.meta.title": {
+      "src": "ac4a0f3b316cf18c",
+      "tr": "62a5dcc3cf1f385e",
+      "by": "ai"
+    },
+    "upload.page.eyebrow": {
+      "src": "dbe152b4198dc1d6",
+      "tr": "a9b07c1140b259b7",
+      "by": "ai"
+    },
+    "upload.page.privacyNotice": {
+      "src": "344586833b18595c",
+      "tr": "50e188d8a3f5cb71",
+      "by": "ai"
+    },
+    "upload.page.subtitle": {
+      "src": "f9b4963eae4821bd",
+      "tr": "9a5e292352b4cccd",
+      "by": "ai"
+    },
+    "upload.page.title": {
+      "src": "a6c035c29d0a7f1a",
+      "tr": "62a5dcc3cf1f385e",
+      "by": "ai"
+    },
+    "upload.rateLimit.banner": {
+      "src": "973d48177619cbba",
+      "tr": "aea8efa85fe2439a",
+      "by": "ai"
+    },
+    "upload.summary.close": {
+      "src": "7d9eb7acb13e2462",
+      "tr": "b808f6e97075772f",
+      "by": "ai"
+    },
+    "upload.summary.counts": {
+      "src": "148a42540375984d",
+      "tr": "d5440e8dbe1b2c71",
+      "by": "ai"
+    },
+    "upload.summary.failedHeading": {
+      "src": "7878467bba4a9a6e",
+      "tr": "c7edc699a4882d41",
+      "by": "ai"
+    },
+    "upload.summary.retrying": {
+      "src": "e008c43c196abd44",
+      "tr": "33fd224d52e4069c",
+      "by": "ai"
+    },
+    "upload.summary.retryUpload": {
+      "src": "91de03edef07e4ab",
+      "tr": "48c7b5f6177b4a44",
+      "by": "ai"
+    },
+    "upload.summary.succeeded": {
+      "src": "39f2e5cd5f2eaa2c",
+      "tr": "2474dea5e74e075c",
+      "by": "ai"
+    },
+    "upload.summary.title": {
+      "src": "2f808ced1526c35a",
+      "tr": "fe5ec0367edf98ac",
+      "by": "ai"
+    },
+    "upload.toast.foundValidReady": {
+      "src": "832f140dbc15ed9b",
+      "tr": "49b1936740730fb4",
+      "by": "ai"
+    },
+    "upload.toast.ignoredNotIgc": {
+      "src": "1000a95e2bcb6240",
+      "tr": "97d941ecb314c82c",
+      "by": "ai"
+    },
+    "upload.toast.ignoredTooLarge": {
+      "src": "40e33ca39b89d86e",
+      "tr": "0869104b8d0d1bd1",
+      "by": "ai"
+    },
+    "upload.toast.noFilesInFolder": {
+      "src": "129d6ebe7978ce24",
+      "tr": "68d33a4cc8535c74",
+      "by": "ai"
+    },
+    "upload.toast.retryFailed": {
+      "src": "7b5ee269c6a8047f",
+      "tr": "d9ab096c481fe22c",
+      "by": "ai"
+    },
+    "upload.toast.retrySucceeded": {
+      "src": "64a0e186e5e3f678",
+      "tr": "c2045a05f00c1afa",
+      "by": "ai"
+    },
+    "upload.toast.retryUnavailable": {
+      "src": "032c52d021d9f58c",
+      "tr": "5b59daf445a81bb6",
+      "by": "ai"
+    },
+    "upload.toast.validReady": {
+      "src": "66f2de0e0e1e5707",
+      "tr": "9757a92509d70d39",
+      "by": "ai"
+    },
+    "upload.toast.waitRateLimit": {
+      "src": "aa6de8378e83a2a1",
+      "tr": "95d3b61f053ed417",
       "by": "ai"
     }
   },

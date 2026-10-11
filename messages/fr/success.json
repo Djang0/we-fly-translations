@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Catalogue des badges",
+    "description": "Parcours tous les succès et badges de We-Fly. Vois ceux que tu as déjà décrochés et ce qu’il faut pour débloquer les autres."
+  },
+  "header": {
+    "eyebrow": "Carnet de vol · Succès",
+    "title": "Le palmarès de {name}",
+    "defaultName": "Pilote",
+    "subtitle": "{earned, plural, one {# succès tamponné} other {# succès tamponnés}}, {remaining} encore en l’air.",
+    "filterLabel": "Filtrer les badges"
+  },
+  "filters": {
+    "all": "Tous",
+    "earned": "Obtenus",
+    "progress": "En cours",
+    "locked": "Verrouillés"
+  },
+  "stats": {
+    "earned": "Obtenus",
+    "earnedOf": "sur {total}",
+    "completion": "Progression",
+    "completionSub": "au total",
+    "latest": "Dernier",
+    "latestNone": "aucun badge pour l’instant",
+    "closestNext": "Le plus proche",
+    "closestNextNone": "vole plus pour commencer",
+    "closestNextSub": "{threshold} · {category}"
+  },
+  "safety": {
+    "lead": "La sécurité d’abord.",
+    "text": "Les badges célèbrent ta progression : ne repousse jamais tes limites juste pour en décrocher un."
+  },
+  "entry": {
+    "moreMilestones": "+ {count, plural, one {# palier de plus} other {# paliers de plus}}",
+    "next": "Suivant",
+    "stamped": "Tamponné",
+    "stampedOn": "Tamponné le {date}",
+    "nextMilestone": "Prochain palier",
+    "locked": "Verrouillé"
+  },
+  "special": {
+    "label": "Distinctions spéciales",
+    "description": "Médailles exclusives pour celles et ceux qui font partie de l’histoire de We-Fly.",
+    "pioneerName": "Pionnier",
+    "pioneerDescription": "Parmi les 200 premiers pilotes de We-Fly"
+  },
+  "categories": {
+    "xc_distance": {
+      "label": "Distance cross",
+      "description": "Plus longue distance de cross en un seul vol",
+      "name": "XC {value}"
+    },
+    "triangle_distance": {
+      "label": "Triangle",
+      "description": "Plus long triangle en un seul vol",
+      "name": "Triangle {value}"
+    },
+    "fai_triangle": {
+      "label": "Triangle FAI",
+      "description": "Plus long triangle FAI",
+      "name": "Triangle FAI {value}"
+    },
+    "duration": {
+      "label": "Durée de vol",
+      "description": "Plus long vol",
+      "name": "En l’air {value}"
+    },
+    "altitude": {
+      "label": "Altitude max",
+      "description": "Plus haute altitude atteinte en un seul vol",
+      "name": "Altitude {value}"
+    },
+    "height_gain": {
+      "label": "Gain d’altitude",
+      "description": "Plus gros gain d’altitude dans un seul thermique",
+      "name": "Gain thermique {value}"
+    },
+    "thermal_strength": {
+      "label": "Puissance thermique",
+      "description": "Meilleur taux de montée en thermique",
+      "name": "Thermique {value}"
+    },
+    "ground_speed": {
+      "label": "Vitesse sol",
+      "description": "Plus grande vitesse sol enregistrée",
+      "name": "Vitesse {value}"
+    },
+    "flight_count": {
+      "label": "Nombre de vols",
+      "description": "Nombre total de vols importés",
+      "name": "Vols {value}"
+    },
+    "airtime": {
+      "label": "Temps de vol total",
+      "description": "Heures cumulées passées en l’air",
+      "name": "Temps de vol {value}"
+    },
+    "site_explorer": {
+      "label": "Explorateur de sites",
+      "description": "Nombre de décollages différents",
+      "name": "Sites {value}"
+    },
+    "country_explorer": {
+      "label": "Explorateur de pays",
+      "description": "Nombre de pays où tu as volé",
+      "name": "Pays {value}"
+    },
+    "season_first": {
+      "label": "Ouverture de saison",
+      "description": "Premier vol de la saison",
+      "name": "Ouverture de saison"
+    }
+  },
+  "badgeGoal": {
+    "flight": "Atteindre {value}",
+    "cumulative": "Cumuler {value}"
+  },
+  "notYetEarned": "Pas encore obtenu"
+}

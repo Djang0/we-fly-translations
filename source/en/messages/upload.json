@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Upload Flights",
+    "description": "Upload IGC files to add flights to your We-Fly logbook. Drag and drop your paragliding flight files for analysis.",
+    "ogTitle": "Upload Flights - We-Fly"
+  },
+  "page": {
+    "eyebrow": "Logbook · Upload",
+    "title": "Upload flights",
+    "subtitle": "Drop your <igc>.igc</igc> tracks here. We'll parse coordinates, compute glide ratios, and place each flight on its takeoff site.",
+    "privacyNotice": "By uploading IGC files, you accept the <policy>Privacy Policy</policy>. Flight data includes GPS coordinates, timestamps and location."
+  },
+  "dropzone": {
+    "areaLabel": "File upload area",
+    "title": "Drag and drop your flights",
+    "hint": "Drop <igc>.igc</igc> files or folders here.",
+    "limits": "Maximum {size} MB per file · folders scanned recursively",
+    "browseFilesAria": "Browse and select IGC files",
+    "browseFolderAria": "Browse and select a folder containing IGC files",
+    "browseMoreFilesAria": "Browse and select more IGC files",
+    "browseMoreFolderAria": "Browse and select a folder containing more IGC files",
+    "rateLimited": "Rate limited",
+    "browseFiles": "Browse files",
+    "browseFolder": "Browse folder",
+    "addFiles": "Add files",
+    "addFolder": "Add folder"
+  },
+  "list": {
+    "title": "Today's uploads",
+    "parsedCount": "{count} of {total} parsed",
+    "progressAria": "Upload progress",
+    "progressValueAria": "Upload progress: {percent}",
+    "fileSize": "{size} MB",
+    "fileSizeParsed": "{size} MB · Parsed",
+    "queued": "Queued",
+    "parsing": "Parsing… {percent}",
+    "failed": "Failed",
+    "failedDetailsAria": "View error details",
+    "uploadFailed": "Upload failed",
+    "retry": "Retry",
+    "retryAria": "Retry upload for {name}",
+    "parsed": "Parsed",
+    "openFlightAria": "Open flight {name}",
+    "openLogbook": "Open logbook",
+    "whatsNew": "What's new in We-Fly →"
+  },
+  "toast": {
+    "validReady": "{count, plural, one {# valid .igc file ready to upload} other {# valid .igc files ready to upload}}",
+    "foundValidReady": "{count, plural, one {Found # valid .igc file ready to upload} other {Found # valid .igc files ready to upload}}",
+    "ignoredNotIgc": "{count, plural, one {# file ignored (not .igc).} other {# files ignored (not .igc).}}",
+    "ignoredTooLarge": "{count, plural, one {# file ignored (over {size} MB).} other {# files ignored (over {size} MB).}}",
+    "noFilesInFolder": "No files found in the dropped folder(s)",
+    "waitRateLimit": "Please wait for rate limit to expire before adding more files.",
+    "retryUnavailable": "Cannot retry: file data not available",
+    "retrySucceeded": "{name} uploaded successfully",
+    "retryFailed": "Retry failed: {message}"
+  },
+  "rateLimit": {
+    "banner": "{count, plural, one {Upload rate limit reached. # file queued for automatic upload. DO NOT reload this page - uploads will resume automatically.} other {Upload rate limit reached. # files queued for automatic upload. DO NOT reload this page - uploads will resume automatically.}}"
+  },
+  "errors": {
+    "statusFailed": "Upload failed with status {status}",
+    "server": "Server error. Please try again later.",
+    "unexpectedStatus": "Unexpected status {status}",
+    "network": "Network error during upload",
+    "unknown": "Unknown error",
+    "rateLimitRetry": "Rate limit exceeded. Will retry in {seconds}s",
+    "rateLimit": "Rate limit exceeded",
+    "uploadSuccessful": "Upload successful"
+  },
+  "summary": {
+    "title": "Upload Summary",
+    "counts": "{success} successful, {failed} failed",
+    "succeeded": "{count, plural, one {Successfully uploaded # file} other {Successfully uploaded # files}}",
+    "failedHeading": "{count, plural, one {# file failed to upload} other {# files failed to upload}}",
+    "retrying": "Retrying upload...",
+    "retryUpload": "Retry Upload",
+    "close": "Close"
+  },
+  "api": {
+    "unauthorized": "Unauthorized",
+    "tooLarge": "Request body too large. IGC uploads must be under 3 MB.",
+    "noFile": "No file uploaded",
+    "invalidFile": "Uploaded files must be .IGC file smaller than 3MB (1.8MB is a 531km flight).",
+    "insufficientFixes": "Insufficient GPS fixes: {count} B-records found (minimum {minimum} required)",
+    "processFailed": "We couldn't process this flight. Please try again later.",
+    "uploaded": "File {name} was uploaded successfully",
+    "internal": "Internal server error"
+  }
+}
