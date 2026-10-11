@@ -1,0 +1,137 @@
+{
+  "area": {
+    "fly": "Mijn vluchten",
+    "com": "Community",
+    "tko": "Startplaatsen",
+    "xc": "XC-planner",
+    "acct": "Account"
+  },
+  "section": {
+    "fly": { "logbook": "Logboek", "cockpit": "Cockpit", "success": "Successen" },
+    "com": { "overview": "Overzicht", "feed": "Feed", "people": "Mensen", "stats": "Statistieken" },
+    "acct": {
+      "profile": "Profiel",
+      "anomalies": "Afwijkingen",
+      "sharedLinks": "Gedeelde links",
+      "developer": "Ontwikkelaar"
+    }
+  },
+  "item": {
+    "cockpit": {
+      "overview": "Overzicht",
+      "trends": "Trends",
+      "thermaling": "Thermieken",
+      "phases": "Fasen",
+      "glider": "Scherm",
+      "takeoff": "Startplaats",
+      "country": "Land",
+      "season": "Seizoen",
+      "month": "Maand",
+      "civl": "CIVL",
+      "map": "Kaart"
+    },
+    "com": {
+      "flights": "Vluchten",
+      "following": "Gevolgd",
+      "mapSearch": "Zoeken op kaart",
+      "pilots": "Piloten",
+      "clubs": "Clubs",
+      "leaderboard": "Ranglijst",
+      "instruments": "Instrumenten",
+      "placeToBe": "Place to be",
+      "seasonsRecap": "Seizoensoverzicht"
+    }
+  },
+  "help": {
+    "documentation": "Documentatie",
+    "whatsNew": "Wat is er nieuw",
+    "references": "Referenties",
+    "contact": "Contact",
+    "privacyPolicy": "Privacybeleid",
+    "about": "Over"
+  },
+  "session": { "logOut": "Uitloggen", "accountMenu": "Accountmenu" },
+  "topBar": {
+    "home": "We-Fly-startpagina",
+    "main": "Hoofdmenu",
+    "docs": "Docs",
+    "upload": "Vlucht uploaden"
+  },
+  "sectionBar": {
+    "backTo": "Terug naar {label}",
+    "sections": "Onderdelen van {area}",
+    "pages": "Pagina's van {section}",
+    "page": "Pagina"
+  },
+  "filters": {
+    "label": "Filters",
+    "ariaLabel": "{count, plural, =0 {Filters, geen actief} one {Filters, # actieve filter} other {Filters, # actieve filters}}"
+  },
+  "search": {
+    "triggerLabel": "Zoeken (Ctrl+K)",
+    "triggerTitle": "Zoeken (⌘K)",
+    "placeholder": "Zoek pagina's, piloten, startplaatsen"
+  },
+  "palette": {
+    "title": "Zoeken in We-Fly",
+    "description": "Zoek startplaatsen, vluchten, piloten, pagina's en docs, of voer een actie uit.",
+    "placeholder": "Startplaatsen, vluchten, piloten, pagina's, docs",
+    "cancel": "Annuleren",
+    "nothingMatches": "Niets gevonden.",
+    "breadcrumb": "{section} › {page}",
+    "uploadFlightsPath": "Logboek › Vluchten uploaden",
+    "myFlying": "Mijn vluchten",
+    "flightsCount": "{count, plural, one {# vlucht} other {# vluchten}}",
+    "flightTitle": "{takeoff} · {distance} km",
+    "groups": {
+      "jumpTo": "Ga naar",
+      "takeoffs": "Startplaatsen",
+      "recentFlights": "Recente vluchten",
+      "myFlights": "Mijn vluchten",
+      "pilots": "Piloten",
+      "pages": "Pagina's",
+      "filterPresets": "Filtersets",
+      "actions": "Acties",
+      "articles": "Artikelen",
+      "help": "Hulp"
+    },
+    "jump": {
+      "logbook": { "title": "Logboek", "subtitle": "Vluchten · Schermen" },
+      "overview": { "title": "Cockpit · Overzicht", "subtitle": "Je statistieken" },
+      "thermaling": { "title": "Cockpit · Thermieken", "subtitle": "Stijgsnelheid, thermiek" },
+      "takeoffStats": { "title": "Cockpit · Startplaats", "subtitle": "Uren per startplaats" },
+      "success": { "title": "Successen", "subtitle": "Badges" },
+      "takeoffs": { "title": "Startplaatsen", "subtitle": "Database met startplaatsen" }
+    },
+    "actions": {
+      "uploadFlights": "Vluchten uploaden",
+      "planXcRoute": "XC-route plannen",
+      "openFilters": "Filters openen",
+      "applyPreset": "Filterset toepassen: {name}",
+      "presetMeta": "Filterset",
+      "switchToLight": "Naar licht thema",
+      "switchToDark": "Naar donker thema",
+      "about": "Over We-Fly"
+    },
+    "articleKind": { "docs": "Docs", "whatsNew": "Wat is er nieuw" },
+    "hints": { "move": "↑↓ navigeren", "open": "↵ openen", "close": "esc sluiten" }
+  },
+  "tabBar": {
+    "upload": "Uploaden",
+    "me": "Ik",
+    "meUnread": "Ik, {count, plural, one {# ongelezen melding} other {# ongelezen meldingen}}",
+    "help": "Hulp",
+    "session": "Sessie"
+  },
+  "public": {
+    "takeoffs": "Startplaatsen",
+    "xcPlanner": "XC-planner",
+    "whatsNew": "Wat is er nieuw",
+    "docs": "Docs",
+    "apiStatus": "API-status",
+    "goToLogbook": "Naar je logboek →",
+    "signIn": "Inloggen",
+    "startLogging": "Begin met loggen",
+    "menu": "Menu"
+  }
+}

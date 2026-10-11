@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Libro de vuelo de parapente y análisis de vuelos",
+    "ogTitle": "We-Fly | Libro de vuelo de parapente y análisis de vuelos",
+    "description": "Suelta un archivo IGC. Extraemos tu fineza, tu tasa de ascenso, tu centrado en térmica y tu puntuación XC, y lo comparamos con la comunidad mundial de parapente."
+  },
+  "hero": {
+    "cta": {
+      "passkey": "Iniciar sesión con llave de acceso",
+      "continue": "Inicia sesión para continuar",
+      "upload": "Sube tu primer vuelo"
+    },
+    "tag": {
+      "logbook": "Libro de vuelo",
+      "insights": "Análisis",
+      "replay": "Repetición",
+      "flightsToday": "{count, plural, one {<n>#</n> vuelo registrado hoy} other {<n>#</n> vuelos registrados hoy}}"
+    },
+    "title": "<line>Cada vuelo,</line><line><it>medido.</it></line>Cada térmica, <accent>encontrada.</accent>",
+    "subtitle": "Suelta un archivo IGC. Extraemos tu fineza, tu tasa de ascenso, tu centrado en térmica y tu puntuación XC, y lo comparamos con <pilotsValue>{pilots}</pilotsValue> pilotos en <sitesValue>{sites}</sitesValue> despegues.",
+    "tour": "Mira el recorrido de 90 segundos",
+    "signInNudge": "¿Ya tienes cuenta? <link>Inicia sesión</link>",
+    "proof": {
+      "flights": "Vuelos registrados",
+      "pilots": "Pilotos activos",
+      "sites": "Despegues",
+      "parsed": "Archivos IGC analizados"
+    },
+    "panel": {
+      "altitude": "Altitud",
+      "vario": "Vario",
+      "groundSpeed": "Vel. suelo",
+      "heading": "Rumbo",
+      "live": "en vivo",
+      "altitudeTick": "{value} m",
+      "launch": "despegue {time}",
+      "land": "aterrizaje {time}",
+      "coreThermal": "<b>{value} m/s</b> en el núcleo",
+      "thermalDetail": "{gain} m ganados · {minutes} min",
+      "triangle": "<b>{distance} km</b> triángulo FAI",
+      "validated": "Validado · puntuación {score}"
+    }
+  },
+  "ticker": {
+    "title": "Registrados hace poco · comunidad",
+    "feed": "Actividad de la comunidad en directo · anónima",
+    "aWing": "Una vela",
+    "unnamedSite": "un despegue sin nombre",
+    "uploaded": "subió un vuelo desde",
+    "shared": "compartió un vuelo desde",
+    "tandem": "voló en biplaza desde",
+    "powered": "voló con motor desde",
+    "closed": "cerró",
+    "logged": "registró",
+    "scored": "puntuó",
+    "distanceAndType": "{type} de {distance}",
+    "airtime": "{hours}h {minutes}m en el aire",
+    "airtimeShort": "{minutes}m en el aire",
+    "justNow": "ahora mismo",
+    "recently": "hace poco",
+    "minutesAgo": "hace {count} min",
+    "hoursAgo": "hace {count} h",
+    "daysAgo": "hace {count} d",
+    "weeksAgo": "hace {count} sem",
+    "types": {
+      "closedFai": "triáng. FAI cerrado",
+      "fai": "triángulo FAI",
+      "closedFlat": "triáng. plano cerrado",
+      "flat": "triángulo plano",
+      "closedFree": "triáng. libre cerrado",
+      "free": "triángulo libre",
+      "outAndReturn": "ida y vuelta",
+      "freeDistance": "distancia libre",
+      "freeFlight": "vuelo libre"
+    }
+  },
+  "upload": {
+    "eyebrow": "› Paso 01 · subida",
+    "title": "<line>De <it>.igc</it> a</line>análisis en 4 segundos.",
+    "body": "Leemos cada registro B, detectamos las fases de ascenso con un reconocimiento de térmicas multiseñal y puntuamos tu XC (distancia libre, ida y vuelta, triángulo FAI) antes de que hayas plegado la vela.",
+    "steps": {
+      "parse": "Leer cabeceras y registros B del IGC",
+      "detect": "Detectar térmicas y puntuar el XC (libre, ida y vuelta, FAI)",
+      "compare": "Comparar con tu propio historial"
+    },
+    "dropZone": "zona de carga · .igc",
+    "parsing": "analizando · {percent, number, percent}",
+    "complete": "completado",
+    "ready": "listo",
+    "dragHere": "Arrastra aquí tu archivo IGC",
+    "pasteUrl": "o pega una URL · máx. {size} MB",
+    "result": {
+      "duration": "Duración",
+      "distance": "Distancia",
+      "maxAlt": "Alt. máx.",
+      "bestClimb": "Mejor ascenso",
+      "glideRatio": "Fineza",
+      "xcScore": "Puntuación XC",
+      "validated": "Triángulo FAI validado · supera el p{percentile} de la comunidad",
+      "openFlight": "Abrir vuelo"
+    }
+  },
+  "specs": {
+    "eyebrow": "› El sistema · {count} módulos",
+    "title": "<line>Un libro de vuelo que</line><it>hace las cuentas</it> por ti.",
+    "lede": "Doce herramientas de precisión que convierten el IGC en bruto en decisiones. Cada una sigue los criterios que usan los pilotos en los briefings, no los del marketing.",
+    "items": {
+      "parser": {
+        "title": "Lector universal",
+        "body": "Leemos los dialectos de Flymaster, Skytraxx, XCTrack, Syride y Alfapilot: todos los IGC, sin excepción.",
+        "accent": "Estándar IGC"
+      },
+      "thermals": {
+        "title": "Reconocimiento de térmicas",
+        "body": "La detección multiseñal combina vario, velocidad de giro, deriva del viento y rampas de entrada y salida. Se acabaron los falsos positivos en las pasadas de dinámica.",
+        "accent": "res. {resolution} m/s"
+      },
+      "scoring": {
+        "title": "Puntuación XC automática",
+        "body": "Distancia libre, ida y vuelta, triángulo FAI. Cada vuelo se puntúa con las reglas WPRS en cuanto aterriza.",
+        "accent": "Listo para FAI · OLC"
+      },
+      "metrics": {
+        "title": "Métricas de ascenso y planeo",
+        "body": "Velocidades verticales, finezas, dinámica de giro: todo calculado a partir de tu track. Los números que importan, en cada vuelo.",
+        "accent": "a partir del track"
+      },
+      "wind": {
+        "title": "Reconstrucción del viento",
+        "body": "Perfil de viento tras el vuelo a cada altitud, deducido de la deriva de tus giros. Sin ningún sensor externo.",
+        "accent": "por franja de altitud"
+      },
+      "progression": {
+        "title": "Análisis de progresión",
+        "body": "Sigue tu evolución a lo largo de temporadas, despegues y velas. Distancia, tiempo de vuelo, ascensos, condiciones: analízalo como tú vueles.",
+        "accent": "todo tu historial"
+      },
+      "takeoffs": {
+        "title": "Base de datos de despegues",
+        "body": "Coordenadas, altitud, orientación, mejores direcciones de viento, mediciones actuales de estaciones cercanas, enlaces a webcams. Mantenida por la comunidad.",
+        "accent": "~{sites} despegues"
+      },
+      "community": {
+        "title": "Referencia de la comunidad",
+        "body": "Tu fuerza en térmica frente a todos los que volaron ese despegue hoy. Tu planeo frente a la mediana de tu categoría de vela.",
+        "accent": "comparativas anónimas"
+      },
+      "sharing": {
+        "title": "Compartir con enlace privado",
+        "body": "Cada vuelo recibe una URL secreta e imposible de adivinar: solo la abre quien la recibe de ti. No hace falta cuenta para verlo y no aparece en ningún listado público.",
+        "accent": "enlace secreto imposible de adivinar"
+      }
+    },
+    "showcase": {
+      "eyebrow": "› Función · repetición del vuelo",
+      "title": "Revive la térmica que <it>casi</it> centraste.",
+      "body": "Recorre una repetición 3D con audio de vario, capa de viento y núcleos de térmica resaltados. Pon un marcador donde quieras: tu comentario queda sincronizado con ese instante.",
+      "sampleFlight": "Ver un vuelo de ejemplo",
+      "climbLabel": "{value} m/s"
+    }
+  },
+  "leaderboard": {
+    "eyebrow": "› Comunidad · últimos 7 días",
+    "title": "<line>La clasificación</line>que <it>enciende</it> a tu club.",
+    "lede": "Calculada solo con IGC validados, sin distancias declaradas a mano. Cada piloto aparece con el alias que elija.",
+    "tabs": { "xc": "Distancia XC", "climb": "Mejor ascenso", "triangle": "Triángulo FAI" },
+    "updated": "Actualizado hace {minutes} min · <live>en directo</live>",
+    "columns": {
+      "pilot": "Piloto",
+      "site": "Despegue",
+      "country": "País",
+      "wing": "Vela",
+      "result": "Resultado",
+      "rankDelta": "Δ puesto"
+    }
+  },
+  "cta": {
+    "eyebrow": "› Empieza gratis. Quédate para siempre.",
+    "title": "<line>Conoce tus vuelos,</line><it>no te limites a registrarlos.</it>",
+    "body": "Gratis para siempre. Vuelos ilimitados. Sin tarjeta de crédito. Tu primer IGC en menos de un minuto.",
+    "create": "Crea tu libro de vuelo",
+    "samplePilot": "Ver un piloto de ejemplo"
+  },
+  "footer": {
+    "asciiTagline": "we-fly.cloud · hecho en Bélgica 🇧🇪 con cariño por pilotos de parapente",
+    "asciiStats": "{flights} vuelos registrados · {sites} despegues",
+    "tagline": "Un libro de vuelo de precisión hecho por pilotos, para pilotos. Análisis honestos.",
+    "allSystemsNominal": "Todos los sistemas operativos",
+    "product": {
+      "title": "Producto",
+      "logbook": "Libro de vuelo",
+      "insights": "Análisis",
+      "trackReplay": "Repetición del track",
+      "migrate": "Pásate a we-fly"
+    },
+    "data": {
+      "title": "Datos",
+      "takeoffDatabase": "Base de datos de despegues",
+      "documentation": "Documentación",
+      "siteConditions": "Condiciones en el despegue"
+    },
+    "community": {
+      "title": "Comunidad",
+      "clubs": "Clubes",
+      "recentFlights": "Vuelos recientes",
+      "references": "Referencias"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Acerca de",
+      "whatsNew": "Novedades",
+      "contact": "Contacto",
+      "privacy": "Privacidad"
+    },
+    "copyright": "© {year} we-fly.cloud · Hecho en Bélgica",
+    "version": "v {version}"
+  }
+}

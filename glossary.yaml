@@ -436,3 +436,81 @@ terms:
     nl: deellink
     it: link di condivisione
     es: enlace para compartir
+
+  # --- added after the shell pass (2026-10-11) ----------------------------
+  tandem (flight):
+    fr: biplace
+    de: Tandem
+    nl: tandem
+    it: biposto
+    es: biplaza
+  replay (flight replay, 2D or 3D):
+    fr: replay
+    de: Replay
+    nl: replay
+    it: replay
+    es: repetición
+    note: "Pilots use the English word in fr/de/nl/it; es prefers 'repetición'. de: 'Wiedergabe' for the player controls."
+  climb (one climb, 'best climb'):
+    fr: montée
+    de: Steigen
+    nl: stijging
+    it: salita
+    es: ascenso
+  insights (analytics section):
+    fr: analyses
+    de: Analysen
+    nl: analyses
+    it: analisi
+    es: análisis
+  site (flying area):
+    fr: site
+    de: Fluggebiet
+    nl: vlieggebied
+    it: sito di volo
+    es: zona de vuelo
+    note: "Use the takeoff term when the takeoff itself is meant. es copy may say 'despegues' for sites in casual text."
+  community:
+    fr: communauté
+    de: Community
+    nl: community
+    it: community
+    es: comunidad
+  feed (community activity stream):
+    fr: fil
+    de: Feed
+    nl: feed
+    it: bacheca
+    es: actividad
+  filter preset (saved logbook filters):
+    fr: filtre enregistré
+    de: gespeicherter Filter
+    nl: filterset
+    it: filtro salvato
+    es: filtro guardado
+  Success (badges and achievements page):
+    fr: Succès
+    de: Erfolge
+    nl: Successen
+    it: Traguardi
+    es: Logros
+  Place to be (community ranking of flying regions):
+    fr: Où voler
+    de: Place to be
+    nl: Place to be
+    it: Dove volare
+    es: Dónde volar
+    note: "de/nl keep the English feature name, as their pilots say it."
+  B-record (IGC fix line):
+    fr: trame B
+    de: B-Datensatz
+    nl: B-record
+    it: record B
+    es: registro B
+  weather station (wind beacon near a site):
+    fr: station météo
+    de: Wetterstation
+    nl: weerstation
+    it: stazione meteo
+    es: estación meteorológica
+    note: "fr pilots say 'balise', but in UI text 'balise' is reserved for turnpoint."

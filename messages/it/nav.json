@@ -1,0 +1,137 @@
+{
+  "area": {
+    "fly": "I miei voli",
+    "com": "Comunità",
+    "tko": "Decolli",
+    "xc": "Pianificatore XC",
+    "acct": "Account"
+  },
+  "section": {
+    "fly": { "logbook": "Libretto", "cockpit": "Cockpit", "success": "Traguardi" },
+    "com": { "overview": "Panoramica", "feed": "Bacheca", "people": "Persone", "stats": "Statistiche" },
+    "acct": {
+      "profile": "Profilo",
+      "anomalies": "Anomalie",
+      "sharedLinks": "Link condivisi",
+      "developer": "Sviluppatori"
+    }
+  },
+  "item": {
+    "cockpit": {
+      "overview": "Panoramica",
+      "trends": "Tendenze",
+      "thermaling": "Termiche",
+      "phases": "Fasi",
+      "glider": "Vela",
+      "takeoff": "Decollo",
+      "country": "Paese",
+      "season": "Stagione",
+      "month": "Mese",
+      "civl": "CIVL",
+      "map": "Mappa"
+    },
+    "com": {
+      "flights": "Voli",
+      "following": "Seguiti",
+      "mapSearch": "Ricerca su mappa",
+      "pilots": "Piloti",
+      "clubs": "Club",
+      "leaderboard": "Classifica",
+      "instruments": "Strumenti",
+      "placeToBe": "Dove volare",
+      "seasonsRecap": "Riepilogo stagioni"
+    }
+  },
+  "help": {
+    "documentation": "Documentazione",
+    "whatsNew": "Novità",
+    "references": "Referenze",
+    "contact": "Contatti",
+    "privacyPolicy": "Informativa privacy",
+    "about": "Chi siamo"
+  },
+  "session": { "logOut": "Esci", "accountMenu": "Menu account" },
+  "topBar": {
+    "home": "Home di We-Fly",
+    "main": "Principale",
+    "docs": "Doc",
+    "upload": "Carica volo"
+  },
+  "sectionBar": {
+    "backTo": "Torna a {label}",
+    "sections": "Sezioni di {area}",
+    "pages": "Pagine di {section}",
+    "page": "Pagina"
+  },
+  "filters": {
+    "label": "Filtri",
+    "ariaLabel": "{count, plural, =0 {Filtri, nessuno attivo} one {Filtri, # filtro attivo} other {Filtri, # filtri attivi}}"
+  },
+  "search": {
+    "triggerLabel": "Cerca (Ctrl+K)",
+    "triggerTitle": "Cerca (⌘K)",
+    "placeholder": "Cerca pagine, piloti, decolli"
+  },
+  "palette": {
+    "title": "Cerca su We-Fly",
+    "description": "Cerca decolli, voli, piloti, pagine e documentazione, oppure esegui un'azione.",
+    "placeholder": "Decolli, voli, piloti, pagine, doc",
+    "cancel": "Annulla",
+    "nothingMatches": "Nessun risultato.",
+    "breadcrumb": "{section} › {page}",
+    "uploadFlightsPath": "Libretto › Carica voli",
+    "myFlying": "I miei voli",
+    "flightsCount": "{count, plural, one {# volo} other {# voli}}",
+    "flightTitle": "{takeoff} · {distance} km",
+    "groups": {
+      "jumpTo": "Vai a",
+      "takeoffs": "Decolli",
+      "recentFlights": "Voli recenti",
+      "myFlights": "I miei voli",
+      "pilots": "Piloti",
+      "pages": "Pagine",
+      "filterPresets": "Filtri salvati",
+      "actions": "Azioni",
+      "articles": "Articoli",
+      "help": "Aiuto"
+    },
+    "jump": {
+      "logbook": { "title": "Libretto", "subtitle": "Voli · Vele" },
+      "overview": { "title": "Cockpit · Panoramica", "subtitle": "Le tue statistiche" },
+      "thermaling": { "title": "Cockpit · Termiche", "subtitle": "Rateo di salita, termiche" },
+      "takeoffStats": { "title": "Cockpit · Decollo", "subtitle": "Ore per sito" },
+      "success": { "title": "Traguardi", "subtitle": "Badge" },
+      "takeoffs": { "title": "Decolli", "subtitle": "Database dei siti" }
+    },
+    "actions": {
+      "uploadFlights": "Carica voli",
+      "planXcRoute": "Pianifica un percorso XC",
+      "openFilters": "Apri i filtri",
+      "applyPreset": "Applica il filtro salvato: {name}",
+      "presetMeta": "Filtro salvato",
+      "switchToLight": "Passa al tema chiaro",
+      "switchToDark": "Passa al tema scuro",
+      "about": "Info su We-Fly"
+    },
+    "articleKind": { "docs": "Doc", "whatsNew": "Novità" },
+    "hints": { "move": "↑↓ sposta", "open": "↵ apri", "close": "esc chiudi" }
+  },
+  "tabBar": {
+    "upload": "Carica",
+    "me": "Profilo",
+    "meUnread": "Profilo, {count, plural, one {# notifica non letta} other {# notifiche non lette}}",
+    "help": "Aiuto",
+    "session": "Sessione"
+  },
+  "public": {
+    "takeoffs": "Decolli",
+    "xcPlanner": "Pianificatore XC",
+    "whatsNew": "Novità",
+    "docs": "Doc",
+    "apiStatus": "Stato API",
+    "goToLogbook": "Vai al libretto →",
+    "signIn": "Accedi",
+    "startLogging": "Inizia a registrare",
+    "menu": "Menu"
+  }
+}

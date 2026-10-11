@@ -1,0 +1,137 @@
+{
+  "area": {
+    "fly": "Mein Fliegen",
+    "com": "Community",
+    "tko": "Startplätze",
+    "xc": "XC-Planer",
+    "acct": "Konto"
+  },
+  "section": {
+    "fly": { "logbook": "Flugbuch", "cockpit": "Cockpit", "success": "Erfolge" },
+    "com": { "overview": "Übersicht", "feed": "Feed", "people": "Leute", "stats": "Statistik" },
+    "acct": {
+      "profile": "Profil",
+      "anomalies": "Anomalien",
+      "sharedLinks": "Freigabelinks",
+      "developer": "Entwickler"
+    }
+  },
+  "item": {
+    "cockpit": {
+      "overview": "Übersicht",
+      "trends": "Trends",
+      "thermaling": "Kurbeln",
+      "phases": "Phasen",
+      "glider": "Schirm",
+      "takeoff": "Startplatz",
+      "country": "Land",
+      "season": "Saison",
+      "month": "Monat",
+      "civl": "CIVL",
+      "map": "Karte"
+    },
+    "com": {
+      "flights": "Flüge",
+      "following": "Ich folge",
+      "mapSearch": "Kartensuche",
+      "pilots": "Piloten",
+      "clubs": "Vereine",
+      "leaderboard": "Rangliste",
+      "instruments": "Instrumente",
+      "placeToBe": "Place to be",
+      "seasonsRecap": "Saisonrückblick"
+    }
+  },
+  "help": {
+    "documentation": "Dokumentation",
+    "whatsNew": "Neuigkeiten",
+    "references": "Referenzen",
+    "contact": "Kontakt",
+    "privacyPolicy": "Datenschutzerklärung",
+    "about": "Über uns"
+  },
+  "session": { "logOut": "Abmelden", "accountMenu": "Kontomenü" },
+  "topBar": {
+    "home": "We-Fly Startseite",
+    "main": "Hauptnavigation",
+    "docs": "Doku",
+    "upload": "Flug hochladen"
+  },
+  "sectionBar": {
+    "backTo": "Zurück zu {label}",
+    "sections": "Bereiche: {area}",
+    "pages": "Seiten: {section}",
+    "page": "Seite"
+  },
+  "filters": {
+    "label": "Filter",
+    "ariaLabel": "{count, plural, =0 {Filter, keiner aktiv} one {Filter, # aktiver Filter} other {Filter, # aktive Filter}}"
+  },
+  "search": {
+    "triggerLabel": "Suche (Strg+K)",
+    "triggerTitle": "Suche (⌘K)",
+    "placeholder": "Seiten, Piloten, Startplätze suchen"
+  },
+  "palette": {
+    "title": "We-Fly durchsuchen",
+    "description": "Durchsuche Startplätze, Flüge, Piloten, Seiten und Doku oder führe eine Aktion aus.",
+    "placeholder": "Startplätze, Flüge, Piloten, Seiten, Doku",
+    "cancel": "Abbrechen",
+    "nothingMatches": "Keine Treffer.",
+    "breadcrumb": "{section} › {page}",
+    "uploadFlightsPath": "Flugbuch › Flüge hochladen",
+    "myFlying": "Mein Fliegen",
+    "flightsCount": "{count, plural, one {# Flug} other {# Flüge}}",
+    "flightTitle": "{takeoff} · {distance} km",
+    "groups": {
+      "jumpTo": "Direkt zu",
+      "takeoffs": "Startplätze",
+      "recentFlights": "Neueste Flüge",
+      "myFlights": "Meine Flüge",
+      "pilots": "Piloten",
+      "pages": "Seiten",
+      "filterPresets": "Filtervorlagen",
+      "actions": "Aktionen",
+      "articles": "Artikel",
+      "help": "Hilfe"
+    },
+    "jump": {
+      "logbook": { "title": "Flugbuch", "subtitle": "Flüge · Schirme" },
+      "overview": { "title": "Cockpit · Übersicht", "subtitle": "Deine Statistik" },
+      "thermaling": { "title": "Cockpit · Kurbeln", "subtitle": "Steigwerte, Thermik" },
+      "takeoffStats": { "title": "Cockpit · Startplatz", "subtitle": "Stunden pro Startplatz" },
+      "success": { "title": "Erfolge", "subtitle": "Abzeichen" },
+      "takeoffs": { "title": "Startplätze", "subtitle": "Startplatz-Datenbank" }
+    },
+    "actions": {
+      "uploadFlights": "Flüge hochladen",
+      "planXcRoute": "XC-Route planen",
+      "openFilters": "Filter öffnen",
+      "applyPreset": "Filtervorlage anwenden: {name}",
+      "presetMeta": "Vorlage",
+      "switchToLight": "Zum hellen Design wechseln",
+      "switchToDark": "Zum dunklen Design wechseln",
+      "about": "Über We-Fly"
+    },
+    "articleKind": { "docs": "Doku", "whatsNew": "Neuigkeiten" },
+    "hints": { "move": "↑↓ bewegen", "open": "↵ öffnen", "close": "esc schließen" }
+  },
+  "tabBar": {
+    "upload": "Hochladen",
+    "me": "Ich",
+    "meUnread": "Ich, {count, plural, one {# ungelesene Benachrichtigung} other {# ungelesene Benachrichtigungen}}",
+    "help": "Hilfe",
+    "session": "Sitzung"
+  },
+  "public": {
+    "takeoffs": "Startplätze",
+    "xcPlanner": "XC-Planer",
+    "whatsNew": "Neuigkeiten",
+    "docs": "Doku",
+    "apiStatus": "API-Status",
+    "goToLogbook": "Zum Flugbuch →",
+    "signIn": "Anmelden",
+    "startLogging": "Jetzt loslegen",
+    "menu": "Menü"
+  }
+}

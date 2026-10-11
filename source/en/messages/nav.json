@@ -1,0 +1,137 @@
+{
+  "area": {
+    "fly": "My flying",
+    "com": "Community",
+    "tko": "Takeoffs",
+    "xc": "XC planner",
+    "acct": "Account"
+  },
+  "section": {
+    "fly": { "logbook": "Logbook", "cockpit": "Cockpit", "success": "Success" },
+    "com": { "overview": "Overview", "feed": "Feed", "people": "People", "stats": "Stats" },
+    "acct": {
+      "profile": "Profile",
+      "anomalies": "Anomalies",
+      "sharedLinks": "Shared links",
+      "developer": "Developer"
+    }
+  },
+  "item": {
+    "cockpit": {
+      "overview": "Overview",
+      "trends": "Trends",
+      "thermaling": "Thermaling",
+      "phases": "Phases",
+      "glider": "Glider",
+      "takeoff": "Takeoff",
+      "country": "Country",
+      "season": "Season",
+      "month": "Month",
+      "civl": "CIVL",
+      "map": "Map"
+    },
+    "com": {
+      "flights": "Flights",
+      "following": "Following",
+      "mapSearch": "Map search",
+      "pilots": "Pilots",
+      "clubs": "Clubs",
+      "leaderboard": "Leaderboard",
+      "instruments": "Instruments",
+      "placeToBe": "Place to be",
+      "seasonsRecap": "Seasons recap"
+    }
+  },
+  "help": {
+    "documentation": "Documentation",
+    "whatsNew": "What's new",
+    "references": "References",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy policy",
+    "about": "About"
+  },
+  "session": { "logOut": "Log out", "accountMenu": "Account menu" },
+  "topBar": {
+    "home": "We-Fly home",
+    "main": "Main",
+    "docs": "Docs",
+    "upload": "Upload flight"
+  },
+  "sectionBar": {
+    "backTo": "Back to {label}",
+    "sections": "{area} sections",
+    "pages": "{section} pages",
+    "page": "Page"
+  },
+  "filters": {
+    "label": "Filters",
+    "ariaLabel": "{count, plural, =0 {Filters, none applied} one {Filters, # active filter} other {Filters, # active filters}}"
+  },
+  "search": {
+    "triggerLabel": "Search (Ctrl+K)",
+    "triggerTitle": "Search (⌘K)",
+    "placeholder": "Search pages, pilots, takeoffs"
+  },
+  "palette": {
+    "title": "Search We-Fly",
+    "description": "Search takeoffs, flights, pilots, pages and docs, or run an action.",
+    "placeholder": "Takeoffs, flights, pilots, pages, docs",
+    "cancel": "Cancel",
+    "nothingMatches": "Nothing matches.",
+    "breadcrumb": "{section} › {page}",
+    "uploadFlightsPath": "Logbook › Upload flights",
+    "myFlying": "My flying",
+    "flightsCount": "{count, plural, one {# flight} other {# flights}}",
+    "flightTitle": "{takeoff} · {distance} km",
+    "groups": {
+      "jumpTo": "Jump to",
+      "takeoffs": "Takeoffs",
+      "recentFlights": "Recent flights",
+      "myFlights": "My flights",
+      "pilots": "Pilots",
+      "pages": "Pages",
+      "filterPresets": "Filter presets",
+      "actions": "Actions",
+      "articles": "Articles",
+      "help": "Help"
+    },
+    "jump": {
+      "logbook": { "title": "Logbook", "subtitle": "Flights · Wings" },
+      "overview": { "title": "Cockpit · Overview", "subtitle": "Your statistics" },
+      "thermaling": { "title": "Cockpit · Thermaling", "subtitle": "Climb rate, thermals" },
+      "takeoffStats": { "title": "Cockpit · Takeoff", "subtitle": "Hours by site" },
+      "success": { "title": "Success", "subtitle": "Badges" },
+      "takeoffs": { "title": "Takeoffs", "subtitle": "Site database" }
+    },
+    "actions": {
+      "uploadFlights": "Upload flights",
+      "planXcRoute": "Plan XC route",
+      "openFilters": "Open filters",
+      "applyPreset": "Apply filter preset: {name}",
+      "presetMeta": "Preset",
+      "switchToLight": "Switch to light theme",
+      "switchToDark": "Switch to dark theme",
+      "about": "About We-Fly"
+    },
+    "articleKind": { "docs": "Docs", "whatsNew": "What's new" },
+    "hints": { "move": "↑↓ move", "open": "↵ open", "close": "esc close" }
+  },
+  "tabBar": {
+    "upload": "Upload",
+    "me": "Me",
+    "meUnread": "Me, {count, plural, one {# unread notification} other {# unread notifications}}",
+    "help": "Help",
+    "session": "Session"
+  },
+  "public": {
+    "takeoffs": "Takeoffs",
+    "xcPlanner": "XC Planner",
+    "whatsNew": "What’s new",
+    "docs": "Docs",
+    "apiStatus": "API status",
+    "goToLogbook": "Go to logbook →",
+    "signIn": "Sign in",
+    "startLogging": "Start logging",
+    "menu": "Menu"
+  }
+}

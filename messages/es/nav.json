@@ -1,0 +1,137 @@
+{
+  "area": {
+    "fly": "Mis vuelos",
+    "com": "Comunidad",
+    "tko": "Despegues",
+    "xc": "Planificador XC",
+    "acct": "Cuenta"
+  },
+  "section": {
+    "fly": { "logbook": "Libro de vuelo", "cockpit": "Cockpit", "success": "Logros" },
+    "com": { "overview": "Resumen", "feed": "Actividad", "people": "Pilotos", "stats": "Estadísticas" },
+    "acct": {
+      "profile": "Perfil",
+      "anomalies": "Anomalías",
+      "sharedLinks": "Enlaces compartidos",
+      "developer": "Desarrollador"
+    }
+  },
+  "item": {
+    "cockpit": {
+      "overview": "Resumen",
+      "trends": "Tendencias",
+      "thermaling": "Térmicas",
+      "phases": "Fases",
+      "glider": "Vela",
+      "takeoff": "Despegue",
+      "country": "País",
+      "season": "Temporada",
+      "month": "Mes",
+      "civl": "CIVL",
+      "map": "Mapa"
+    },
+    "com": {
+      "flights": "Vuelos",
+      "following": "Siguiendo",
+      "mapSearch": "Buscar en el mapa",
+      "pilots": "Pilotos",
+      "clubs": "Clubes",
+      "leaderboard": "Clasificación",
+      "instruments": "Instrumentos",
+      "placeToBe": "Dónde volar",
+      "seasonsRecap": "Resumen de temporadas"
+    }
+  },
+  "help": {
+    "documentation": "Documentación",
+    "whatsNew": "Novedades",
+    "references": "Referencias",
+    "contact": "Contacto",
+    "privacyPolicy": "Política de privacidad",
+    "about": "Acerca de"
+  },
+  "session": { "logOut": "Cerrar sesión", "accountMenu": "Menú de la cuenta" },
+  "topBar": {
+    "home": "Inicio de We-Fly",
+    "main": "Principal",
+    "docs": "Docs",
+    "upload": "Subir vuelo"
+  },
+  "sectionBar": {
+    "backTo": "Volver a {label}",
+    "sections": "Secciones de {area}",
+    "pages": "Páginas de {section}",
+    "page": "Página"
+  },
+  "filters": {
+    "label": "Filtros",
+    "ariaLabel": "{count, plural, =0 {Filtros, ninguno aplicado} one {Filtros, # filtro activo} other {Filtros, # filtros activos}}"
+  },
+  "search": {
+    "triggerLabel": "Buscar (Ctrl+K)",
+    "triggerTitle": "Buscar (⌘K)",
+    "placeholder": "Busca páginas, pilotos, despegues"
+  },
+  "palette": {
+    "title": "Buscar en We-Fly",
+    "description": "Busca despegues, vuelos, pilotos, páginas y documentación, o ejecuta una acción.",
+    "placeholder": "Despegues, vuelos, pilotos, páginas, docs",
+    "cancel": "Cancelar",
+    "nothingMatches": "Sin resultados.",
+    "breadcrumb": "{section} › {page}",
+    "uploadFlightsPath": "Libro de vuelo › Subir vuelos",
+    "myFlying": "Mis vuelos",
+    "flightsCount": "{count, plural, one {# vuelo} other {# vuelos}}",
+    "flightTitle": "{takeoff} · {distance} km",
+    "groups": {
+      "jumpTo": "Ir a",
+      "takeoffs": "Despegues",
+      "recentFlights": "Vuelos recientes",
+      "myFlights": "Mis vuelos",
+      "pilots": "Pilotos",
+      "pages": "Páginas",
+      "filterPresets": "Filtros guardados",
+      "actions": "Acciones",
+      "articles": "Artículos",
+      "help": "Ayuda"
+    },
+    "jump": {
+      "logbook": { "title": "Libro de vuelo", "subtitle": "Vuelos · Velas" },
+      "overview": { "title": "Cockpit · Resumen", "subtitle": "Tus estadísticas" },
+      "thermaling": { "title": "Cockpit · Térmicas", "subtitle": "Tasa de ascenso, térmicas" },
+      "takeoffStats": { "title": "Cockpit · Despegue", "subtitle": "Horas por despegue" },
+      "success": { "title": "Logros", "subtitle": "Insignias" },
+      "takeoffs": { "title": "Despegues", "subtitle": "Base de datos de despegues" }
+    },
+    "actions": {
+      "uploadFlights": "Subir vuelos",
+      "planXcRoute": "Planificar ruta XC",
+      "openFilters": "Abrir filtros",
+      "applyPreset": "Aplicar filtro guardado: {name}",
+      "presetMeta": "Filtro guardado",
+      "switchToLight": "Cambiar a tema claro",
+      "switchToDark": "Cambiar a tema oscuro",
+      "about": "Acerca de We-Fly"
+    },
+    "articleKind": { "docs": "Docs", "whatsNew": "Novedades" },
+    "hints": { "move": "↑↓ mover", "open": "↵ abrir", "close": "esc cerrar" }
+  },
+  "tabBar": {
+    "upload": "Subir",
+    "me": "Yo",
+    "meUnread": "Yo, {count, plural, one {# notificación sin leer} other {# notificaciones sin leer}}",
+    "help": "Ayuda",
+    "session": "Sesión"
+  },
+  "public": {
+    "takeoffs": "Despegues",
+    "xcPlanner": "Planificador XC",
+    "whatsNew": "Novedades",
+    "docs": "Docs",
+    "apiStatus": "Estado de la API",
+    "goToLogbook": "Ir al libro de vuelo →",
+    "signIn": "Iniciar sesión",
+    "startLogging": "Empieza a registrar",
+    "menu": "Menú"
+  }
+}

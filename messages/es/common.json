@@ -1,0 +1,14 @@
+{
+  "skipToContent": "Saltar al contenido principal",
+  "allSystemsNominal": "Todos los sistemas operativos",
+  "language": {
+    "label": "Idioma",
+    "automatic": "Automático",
+    "change": "Cambiar idioma"
+  },
+  "notFound": {
+    "title": "¡Vaya, te atrapó una descendencia!",
+    "body": "<line>Esta página ha bajado más rápido que un aterrizaje en pérdida total.</line>¿Quizá tu GPS necesita recalibrarse? 🪂",
+    "cta": "Buscar mejor ascendencia"
+  }
+}

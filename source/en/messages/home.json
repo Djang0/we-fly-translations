@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Paragliding Logbook & Flight Analytics",
+    "ogTitle": "We-Fly | Paragliding Logbook & Flight Analytics",
+    "description": "Drop an IGC file. We extract your glide ratio, climb rate, thermal centering, and XC score — then compare it against the global paragliding community."
+  },
+  "hero": {
+    "cta": {
+      "passkey": "Sign in with a passkey",
+      "continue": "Sign in to continue",
+      "upload": "Upload your first flight"
+    },
+    "tag": {
+      "logbook": "Logbook",
+      "insights": "Insights",
+      "replay": "Replay",
+      "flightsToday": "{count, plural, one {<n>#</n> flight logged today} other {<n>#</n> flights logged today}}"
+    },
+    "title": "<line>Every flight,</line><line><it>measured.</it></line>Every thermal, <accent>found.</accent>",
+    "subtitle": "Drop an IGC file. We extract your glide ratio, climb rate, thermal centering, and XC score — then compare it to <pilotsValue>{pilots}</pilotsValue> pilots across <sitesValue>{sites}</sitesValue> sites.",
+    "tour": "Watch 90-second tour",
+    "signInNudge": "Already have an account? <link>Sign in</link>",
+    "proof": {
+      "flights": "Flights logged",
+      "pilots": "Active pilots",
+      "sites": "Launch sites",
+      "parsed": "IGC files parsed"
+    },
+    "panel": {
+      "altitude": "Altitude",
+      "vario": "Vario",
+      "groundSpeed": "Ground sp.",
+      "heading": "Heading",
+      "live": "live",
+      "altitudeTick": "{value} m",
+      "launch": "{time} launch",
+      "land": "{time} land",
+      "coreThermal": "<b>{value} m/s</b> core thermal",
+      "thermalDetail": "{gain} m gain · {minutes} min",
+      "triangle": "<b>{distance} km</b> FAI triangle",
+      "validated": "Validated · score {score}"
+    }
+  },
+  "ticker": {
+    "title": "Recently logged · community",
+    "feed": "Live community stream · anonymized",
+    "aWing": "A wing",
+    "unnamedSite": "an unnamed site",
+    "uploaded": "uploaded a flight from",
+    "shared": "shared a flight from",
+    "tandem": "flew tandem from",
+    "powered": "flew powered from",
+    "closed": "closed",
+    "logged": "logged",
+    "scored": "scored",
+    "distanceAndType": "{distance} {type}",
+    "airtime": "{hours}h {minutes}m airtime",
+    "airtimeShort": "{minutes}m airtime",
+    "justNow": "just now",
+    "recently": "recently",
+    "minutesAgo": "{count} min ago",
+    "hoursAgo": "{count} h ago",
+    "daysAgo": "{count} d ago",
+    "weeksAgo": "{count} w ago",
+    "types": {
+      "closedFai": "closed FAI tri.",
+      "fai": "FAI triangle",
+      "closedFlat": "closed flat tri.",
+      "flat": "flat triangle",
+      "closedFree": "closed free tri.",
+      "free": "free triangle",
+      "outAndReturn": "out-and-return",
+      "freeDistance": "free distance",
+      "freeFlight": "free flight"
+    }
+  },
+  "upload": {
+    "eyebrow": "— Step 01 · upload",
+    "title": "<line>From <it>.igc</it> to</line>insights in 4 seconds.",
+    "body": "We parse every B-record, detect climb phases with multi-signal thermal recognition, and score your XC — free distance, out-and-return, FAI triangle — before your wing is packed.",
+    "steps": {
+      "parse": "Parse IGC headers & B-records",
+      "detect": "Detect thermals & score XC (free, out-and-return, FAI)",
+      "compare": "Compare to your own history"
+    },
+    "dropZone": "drop zone · .igc",
+    "parsing": "parsing · {percent, number, percent}",
+    "complete": "complete",
+    "ready": "ready",
+    "dragHere": "Drag your IGC file here",
+    "pasteUrl": "or paste a URL · max {size} MB",
+    "result": {
+      "duration": "Duration",
+      "distance": "Distance",
+      "maxAlt": "Max alt",
+      "bestClimb": "Best climb",
+      "glideRatio": "Glide ratio",
+      "xcScore": "XC score",
+      "validated": "FAI triangle validated · beats community p{percentile}",
+      "openFlight": "Open flight"
+    }
+  },
+  "specs": {
+    "eyebrow": "— The system · {count} modules",
+    "title": "<line>A logbook that</line><it>does the math</it> for you.",
+    "lede": "Twelve precision tools that turn raw IGC into decisions. Each one is built to the standards pilots use in briefings — not marketing.",
+    "items": {
+      "parser": {
+        "title": "Drop-in parser",
+        "body": "We read vendor dialects from Flymaster, Skytraxx, XCTrack, Syride, Alfapilot — every IGC, no exceptions.",
+        "accent": "IGC standard"
+      },
+      "thermals": {
+        "title": "Thermal recognition",
+        "body": "Multi-signal detection blends vario, turn-rate, wind drift, and entry-exit ramps. No more false positives on ridge beats.",
+        "accent": "{resolution} m/s res."
+      },
+      "scoring": {
+        "title": "XC scoring, auto",
+        "body": "Free distance, out-and-return, FAI triangle. Every flight scored against WPRS rules the moment it lands.",
+        "accent": "FAI · OLC ready"
+      },
+      "metrics": {
+        "title": "Climb & glide metrics",
+        "body": "Vertical speeds, glide ratios, turn dynamics — computed from your track. The numbers that matter, on every flight.",
+        "accent": "track-derived"
+      },
+      "wind": {
+        "title": "Wind reconstruction",
+        "body": "Post-flight wind profile at every altitude, inferred from your drift circles — no external sensor needed.",
+        "accent": "per altitude band"
+      },
+      "progression": {
+        "title": "Progression analytics",
+        "body": "Track how you grow over seasons, sites, and wings. Distance, airtime, climbs, conditions — slice it however you fly.",
+        "accent": "your full archive"
+      },
+      "takeoffs": {
+        "title": "Takeoff database",
+        "body": "Coordinates, elevation, orientation, best wind directions, current measurements from nearby stations, cam links. Community-curated.",
+        "accent": "~{sites} sites"
+      },
+      "community": {
+        "title": "Community baseline",
+        "body": "Your thermal strength vs. everyone else who flew that site today. Your glide vs. median for your wing class.",
+        "accent": "anonymous benchmarks"
+      },
+      "sharing": {
+        "title": "Private link sharing",
+        "body": "Each flight gets a secret, unguessable URL — only people you send it to can open it. No account needed to view, no public listing.",
+        "accent": "secret unguessable link"
+      }
+    },
+    "showcase": {
+      "eyebrow": "— Feature · flight replay",
+      "title": "Replay the thermal you <it>almost</it> centered.",
+      "body": "Scrub a 3D replay with vario audio, wind overlay, and thermal cores highlighted. Drop a marker anywhere — your comment syncs to the timestamp.",
+      "sampleFlight": "See a sample flight",
+      "climbLabel": "{value} m/s"
+    }
+  },
+  "leaderboard": {
+    "eyebrow": "— Community · last 7 days",
+    "title": "<line>The leaderboard</line>your club <it>argues about</it>.",
+    "lede": "Computed from validated IGC only — no self-reported distances. Pilots displayed with their handle of choice.",
+    "tabs": { "xc": "XC distance", "climb": "Best climb", "triangle": "FAI triangle" },
+    "updated": "Updated {minutes}m ago · <live>live</live>",
+    "columns": {
+      "pilot": "Pilot",
+      "site": "Site",
+      "country": "Country",
+      "wing": "Wing",
+      "result": "Result",
+      "rankDelta": "Δ rank"
+    }
+  },
+  "cta": {
+    "eyebrow": "— Start free. Stay forever.",
+    "title": "<line>Know your flights,</line><it>not just log them.</it>",
+    "body": "Free for a lifetime. Unlimited flights. No credit card. Your first IGC in under a minute.",
+    "create": "Create your logbook",
+    "samplePilot": "See a sample pilot"
+  },
+  "footer": {
+    "asciiTagline": "we-fly.cloud · made in Belgium 🇧🇪 with love by paragliding pilots",
+    "asciiStats": "{flights} flights logged · {sites} launch sites",
+    "tagline": "A precision logbook built by pilots, for pilots. Honest analytics.",
+    "allSystemsNominal": "All systems nominal",
+    "product": {
+      "title": "Product",
+      "logbook": "Logbook",
+      "insights": "Insights",
+      "trackReplay": "Track replay",
+      "migrate": "Move to we-fly"
+    },
+    "data": {
+      "title": "Data",
+      "takeoffDatabase": "Takeoff database",
+      "documentation": "Documentation",
+      "siteConditions": "Site conditions"
+    },
+    "community": {
+      "title": "Community",
+      "clubs": "Clubs",
+      "recentFlights": "Recent flights",
+      "references": "References"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "whatsNew": "What’s new",
+      "contact": "Contact",
+      "privacy": "Privacy"
+    },
+    "copyright": "© {year} we-fly.cloud · Made in Belgium",
+    "version": "v {version}"
+  }
+}

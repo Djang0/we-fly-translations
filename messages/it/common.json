@@ -1,0 +1,14 @@
+{
+  "skipToContent": "Vai al contenuto principale",
+  "allSystemsNominal": "Tutti i sistemi operativi",
+  "language": {
+    "label": "Lingua",
+    "automatic": "Automatica",
+    "change": "Cambia lingua"
+  },
+  "notFound": {
+    "title": "Sembra che tu abbia beccato una discendenza!",
+    "body": "<line>Questa pagina è scesa più in fretta di un atterraggio in stallo completo.</line>Forse il tuo GPS va ricalibrato? 🪂",
+    "cta": "Cerca una termica migliore"
+  }
+}

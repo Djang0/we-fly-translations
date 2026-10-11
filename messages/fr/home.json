@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "title": "Carnet de vol parapente et analyse de vols",
+    "ogTitle": "We-Fly | Carnet de vol parapente et analyse de vols",
+    "description": "Dépose un fichier IGC. On en tire ta finesse, ton taux de montée, ton centrage en thermique et ton score XC, puis on compare le tout à la communauté parapente du monde entier."
+  },
+  "hero": {
+    "cta": {
+      "passkey": "Se connecter avec une clé d’accès",
+      "continue": "Connecte-toi pour continuer",
+      "upload": "Importe ton premier vol"
+    },
+    "tag": {
+      "logbook": "Carnet de vol",
+      "insights": "Analyses",
+      "replay": "Replay",
+      "flightsToday": "{count, plural, one {<n>#</n> vol enregistré aujourd’hui} other {<n>#</n> vols enregistrés aujourd’hui}}"
+    },
+    "title": "<line>Chaque vol,</line><line><it>mesuré.</it></line>Chaque thermique, <accent>trouvé.</accent>",
+    "subtitle": "Dépose un fichier IGC. On en tire ta finesse, ton taux de montée, ton centrage en thermique et ton score XC, puis on te compare à <pilotsValue>{pilots}</pilotsValue> pilotes sur <sitesValue>{sites}</sitesValue> sites.",
+    "tour": "Visite guidée en 90 secondes",
+    "signInNudge": "Déjà un compte ? <link>Connecte-toi</link>",
+    "proof": {
+      "flights": "Vols enregistrés",
+      "pilots": "Pilotes actifs",
+      "sites": "Sites de décollage",
+      "parsed": "Fichiers IGC analysés"
+    },
+    "panel": {
+      "altitude": "Altitude",
+      "vario": "Vario",
+      "groundSpeed": "Vit. sol",
+      "heading": "Cap",
+      "live": "direct",
+      "altitudeTick": "{value} m",
+      "launch": "décollage {time}",
+      "land": "atterrissage {time}",
+      "coreThermal": "<b>{value} m/s</b> au cœur du thermique",
+      "thermalDetail": "{gain} m de gain · {minutes} min",
+      "triangle": "Triangle FAI de <b>{distance} km</b>",
+      "validated": "Validé · score {score}"
+    }
+  },
+  "ticker": {
+    "title": "Derniers vols · communauté",
+    "feed": "Flux de la communauté en direct · anonymisé",
+    "aWing": "Une voile",
+    "unnamedSite": "un site sans nom",
+    "uploaded": "a importé un vol depuis",
+    "shared": "a partagé un vol depuis",
+    "tandem": "a volé en biplace depuis",
+    "powered": "a volé au moteur depuis",
+    "closed": "a bouclé",
+    "logged": "a enregistré",
+    "scored": "a scoré",
+    "distanceAndType": "{distance} en {type}",
+    "airtime": "{hours} h {minutes} de vol",
+    "airtimeShort": "{minutes} min de vol",
+    "justNow": "à l’instant",
+    "recently": "récemment",
+    "minutesAgo": "il y a {count} min",
+    "hoursAgo": "il y a {count} h",
+    "daysAgo": "il y a {count} j",
+    "weeksAgo": "il y a {count} sem.",
+    "types": {
+      "closedFai": "tri. FAI fermé",
+      "fai": "triangle FAI",
+      "closedFlat": "tri. plat fermé",
+      "flat": "triangle plat",
+      "closedFree": "tri. libre fermé",
+      "free": "triangle libre",
+      "outAndReturn": "aller-retour",
+      "freeDistance": "distance libre",
+      "freeFlight": "vol libre"
+    }
+  },
+  "upload": {
+    "eyebrow": "› Étape 01 · import",
+    "title": "<line>Du <it>.igc</it> à l’analyse</line>en 4 secondes.",
+    "body": "On lit chaque trame B, on repère les phases de montée grâce à une détection multi-signaux des thermiques et on calcule ton score XC (distance libre, aller-retour, triangle FAI) avant même que ta voile soit pliée.",
+    "steps": {
+      "parse": "Lecture des en-têtes IGC et des trames B",
+      "detect": "Détection des thermiques et score XC (libre, aller-retour, FAI)",
+      "compare": "Comparaison avec ton historique"
+    },
+    "dropZone": "zone de dépôt · .igc",
+    "parsing": "analyse · {percent, number, percent}",
+    "complete": "terminé",
+    "ready": "prêt",
+    "dragHere": "Glisse ton fichier IGC ici",
+    "pasteUrl": "ou colle une URL · max {size} Mo",
+    "result": {
+      "duration": "Durée",
+      "distance": "Distance",
+      "maxAlt": "Alt. max",
+      "bestClimb": "Meilleure montée",
+      "glideRatio": "Finesse",
+      "xcScore": "Score XC",
+      "validated": "Triangle FAI validé · au-dessus du p{percentile} de la communauté",
+      "openFlight": "Ouvrir le vol"
+    }
+  },
+  "specs": {
+    "eyebrow": "› Le système · {count} modules",
+    "title": "<line>Un carnet de vol qui</line><it>fait les calculs</it> pour toi.",
+    "lede": "Douze outils de précision qui transforment l’IGC brut en décisions. Chacun suit les standards qu’on utilise en briefing, pas ceux du marketing.",
+    "items": {
+      "parser": {
+        "title": "Lecture universelle",
+        "body": "On lit les variantes de Flymaster, Skytraxx, XCTrack, Syride, Alfapilot : tous les IGC, sans exception.",
+        "accent": "norme IGC"
+      },
+      "thermals": {
+        "title": "Détection des thermiques",
+        "body": "La détection multi-signaux croise vario, taux de virage, dérive au vent et rampes d’entrée et de sortie. Fini les faux positifs sur les allers-retours en vol de pente.",
+        "accent": "rés. {resolution} m/s"
+      },
+      "scoring": {
+        "title": "Score XC automatique",
+        "body": "Distance libre, aller-retour, triangle FAI. Chaque vol est scoré selon les règles WPRS dès que tu es posé.",
+        "accent": "compatible FAI · OLC"
+      },
+      "metrics": {
+        "title": "Montées et transitions",
+        "body": "Vitesses verticales, finesses, dynamique de virage : tout est calculé à partir de ta trace. Les chiffres qui comptent, sur chaque vol.",
+        "accent": "tiré de ta trace"
+      },
+      "wind": {
+        "title": "Reconstitution du vent",
+        "body": "Profil de vent après le vol, à chaque altitude, déduit de la dérive de tes enroulements. Aucun capteur externe nécessaire.",
+        "accent": "par tranche d’altitude"
+      },
+      "progression": {
+        "title": "Suivi de progression",
+        "body": "Vois comment tu progresses au fil des saisons, des sites et des voiles. Distance, temps de vol, montées, conditions : découpe comme tu voles.",
+        "accent": "toutes tes archives"
+      },
+      "takeoffs": {
+        "title": "Base de décollages",
+        "body": "Coordonnées, altitude, orientation, meilleures directions de vent, mesures en direct des stations météo proches, liens webcam. Enrichie par la communauté.",
+        "accent": "~{sites} sites"
+      },
+      "community": {
+        "title": "Repères communautaires",
+        "body": "Tes thermiques face à ceux de tous les pilotes qui ont volé sur ce site aujourd’hui. Ta finesse face à la médiane de ta catégorie de voile.",
+        "accent": "comparatifs anonymes"
+      },
+      "sharing": {
+        "title": "Partage par lien privé",
+        "body": "Chaque vol reçoit une URL secrète, impossible à deviner : seules les personnes à qui tu l’envoies peuvent l’ouvrir. Pas besoin de compte pour la voir, aucune liste publique.",
+        "accent": "lien secret impossible à deviner"
+      }
+    },
+    "showcase": {
+      "eyebrow": "› Fonction · replay du vol",
+      "title": "Rejoue le thermique que tu as <it>presque</it> centré.",
+      "body": "Parcours un replay 3D avec le son du vario, le vent en surimpression et les cœurs de thermique en surbrillance. Pose un repère où tu veux : ton commentaire se cale sur l’horodatage.",
+      "sampleFlight": "Voir un vol d’exemple",
+      "climbLabel": "{value} m/s"
+    }
+  },
+  "leaderboard": {
+    "eyebrow": "› Communauté · 7 derniers jours",
+    "title": "<line>Le classement</line>qui fait <it>causer</it> ton club.",
+    "lede": "Calculé uniquement à partir d’IGC validés, aucune distance déclarée à la main. Chaque pilote apparaît sous le pseudo de son choix.",
+    "tabs": {
+      "xc": "Distance XC",
+      "climb": "Meilleure montée",
+      "triangle": "Triangle FAI"
+    },
+    "updated": "Mis à jour il y a {minutes} min · <live>direct</live>",
+    "columns": {
+      "pilot": "Pilote",
+      "site": "Site",
+      "country": "Pays",
+      "wing": "Voile",
+      "result": "Résultat",
+      "rankDelta": "Δ rang"
+    }
+  },
+  "cta": {
+    "eyebrow": "› Gratuit dès le départ. Et pour toujours.",
+    "title": "<line>Comprends tes vols,</line><it>ne te contente pas de les noter.</it>",
+    "body": "Gratuit à vie. Vols illimités. Sans carte bancaire. Ton premier IGC en moins d’une minute.",
+    "create": "Crée ton carnet de vol",
+    "samplePilot": "Voir un pilote d’exemple"
+  },
+  "footer": {
+    "asciiTagline": "we-fly.cloud · fait en Belgique 🇧🇪 avec amour par des parapentistes",
+    "asciiStats": "{flights} vols enregistrés · {sites} sites de décollage",
+    "tagline": "Un carnet de vol de précision, fait par des pilotes, pour des pilotes. Des analyses honnêtes.",
+    "allSystemsNominal": "Tous les systèmes sont opérationnels",
+    "product": {
+      "title": "Produit",
+      "logbook": "Carnet de vol",
+      "insights": "Analyses",
+      "trackReplay": "Replay de trace",
+      "migrate": "Passer à We-Fly"
+    },
+    "data": {
+      "title": "Données",
+      "takeoffDatabase": "Base de décollages",
+      "documentation": "Documentation",
+      "siteConditions": "Conditions des sites"
+    },
+    "community": {
+      "title": "Communauté",
+      "clubs": "Clubs",
+      "recentFlights": "Vols récents",
+      "references": "Références"
+    },
+    "company": {
+      "title": "Le projet",
+      "about": "À propos",
+      "whatsNew": "Nouveautés",
+      "contact": "Contact",
+      "privacy": "Confidentialité"
+    },
+    "copyright": "© {year} we-fly.cloud · Fait en Belgique",
+    "version": "v {version}"
+  }
+}

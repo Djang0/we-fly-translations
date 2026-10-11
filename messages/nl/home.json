@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Paragliding-logboek en vluchtanalyse",
+    "ogTitle": "We-Fly | Paragliding-logboek en vluchtanalyse",
+    "description": "Sleep een IGC-bestand hierheen. Wij halen er je glijgetal, stijgsnelheid, thermiekcentrering en XC-score uit en vergelijken die met de wereldwijde paraglidingcommunity."
+  },
+  "hero": {
+    "cta": {
+      "passkey": "Inloggen met een passkey",
+      "continue": "Log in om verder te gaan",
+      "upload": "Upload je eerste vlucht"
+    },
+    "tag": {
+      "logbook": "Logboek",
+      "insights": "Inzichten",
+      "replay": "Replay",
+      "flightsToday": "{count, plural, one {<n>#</n> vlucht vandaag gelogd} other {<n>#</n> vluchten vandaag gelogd}}"
+    },
+    "title": "<line>Elke vlucht,</line><line><it>gemeten.</it></line>Elke thermiek, <accent>gevonden.</accent>",
+    "subtitle": "Sleep een IGC-bestand hierheen. Wij halen er je glijgetal, stijgsnelheid, thermiekcentrering en XC-score uit en vergelijken die met <pilotsValue>{pilots}</pilotsValue> piloten op <sitesValue>{sites}</sitesValue> startplaatsen.",
+    "tour": "Bekijk de rondleiding van 90 seconden",
+    "signInNudge": "Heb je al een account? <link>Inloggen</link>",
+    "proof": {
+      "flights": "Gelogde vluchten",
+      "pilots": "Actieve piloten",
+      "sites": "Startplaatsen",
+      "parsed": "Verwerkte IGC-bestanden"
+    },
+    "panel": {
+      "altitude": "Hoogte",
+      "vario": "Vario",
+      "groundSpeed": "Grondsn.",
+      "heading": "Koers",
+      "live": "live",
+      "altitudeTick": "{value} m",
+      "launch": "{time} start",
+      "land": "{time} landing",
+      "coreThermal": "<b>{value} m/s</b> in de kern",
+      "thermalDetail": "{gain} m hoogtewinst · {minutes} min",
+      "triangle": "<b>{distance} km</b> FAI-driehoek",
+      "validated": "Gevalideerd · score {score}"
+    }
+  },
+  "ticker": {
+    "title": "Recent gelogd · community",
+    "feed": "Live communitystream · geanonimiseerd",
+    "aWing": "Een scherm",
+    "unnamedSite": "een naamloze startplaats",
+    "uploaded": "uploadde een vlucht vanaf",
+    "shared": "deelde een vlucht vanaf",
+    "tandem": "vloog tandem vanaf",
+    "powered": "vloog gemotoriseerd vanaf",
+    "closed": "vloog",
+    "logged": "logde",
+    "scored": "scoorde",
+    "distanceAndType": "{distance} {type}",
+    "airtime": "{hours}u {minutes}m vliegtijd",
+    "airtimeShort": "{minutes}m vliegtijd",
+    "justNow": "zonet",
+    "recently": "onlangs",
+    "minutesAgo": "{count} min geleden",
+    "hoursAgo": "{count} u geleden",
+    "daysAgo": "{count} d geleden",
+    "weeksAgo": "{count} wk geleden",
+    "types": {
+      "closedFai": "gesloten FAI-dr.",
+      "fai": "FAI-driehoek",
+      "closedFlat": "gesloten platte dr.",
+      "flat": "platte driehoek",
+      "closedFree": "gesloten vrije dr.",
+      "free": "vrije driehoek",
+      "outAndReturn": "heen-en-terug",
+      "freeDistance": "vrije afstand",
+      "freeFlight": "vrije vlucht"
+    }
+  },
+  "upload": {
+    "eyebrow": "› Stap 01 · upload",
+    "title": "<line>Van <it>.igc</it> naar</line>inzichten in 4 seconden.",
+    "body": "We lezen elk B-record, herkennen stijgfasen met thermiekherkenning op basis van meerdere signalen en scoren je XC (vrije afstand, heen-en-terug, FAI-driehoek) nog voor je scherm ingepakt is.",
+    "steps": {
+      "parse": "IGC-headers en B-records inlezen",
+      "detect": "Thermiek herkennen en XC scoren (vrij, heen-en-terug, FAI)",
+      "compare": "Vergelijken met je eerdere vluchten"
+    },
+    "dropZone": "dropzone · .igc",
+    "parsing": "verwerken · {percent, number, percent}",
+    "complete": "voltooid",
+    "ready": "klaar",
+    "dragHere": "Sleep je IGC-bestand hierheen",
+    "pasteUrl": "of plak een URL · max. {size} MB",
+    "result": {
+      "duration": "Duur",
+      "distance": "Afstand",
+      "maxAlt": "Max. hoogte",
+      "bestClimb": "Beste stijging",
+      "glideRatio": "Glijgetal",
+      "xcScore": "XC-score",
+      "validated": "FAI-driehoek gevalideerd · beter dan p{percentile} van de community",
+      "openFlight": "Vlucht openen"
+    }
+  },
+  "specs": {
+    "eyebrow": "› Het systeem · {count} modules",
+    "title": "<line>Een logboek dat</line><it>het rekenwerk</it> voor je doet.",
+    "lede": "Twaalf precisietools die ruwe IGC-data omzetten in beslissingen. Elk ervan is gebouwd volgens de normen die piloten in briefings hanteren, niet volgens die van de marketing.",
+    "items": {
+      "parser": {
+        "title": "Parser zonder gedoe",
+        "body": "We lezen de dialecten van Flymaster, Skytraxx, XCTrack, Syride en Alfapilot: elke IGC, zonder uitzondering.",
+        "accent": "IGC-standaard"
+      },
+      "thermals": {
+        "title": "Thermiekherkenning",
+        "body": "De detectie combineert vario, draaisnelheid, winddrift en het in- en uitvliegen van de thermiek. Geen valse thermiek meer bij heen-en-weer langs de helling.",
+        "accent": "res. {resolution} m/s"
+      },
+      "scoring": {
+        "title": "Automatische XC-score",
+        "body": "Vrije afstand, heen-en-terug, FAI-driehoek. Elke vlucht wordt volgens de WPRS-regels gescoord zodra je landt.",
+        "accent": "FAI · OLC-klaar"
+      },
+      "metrics": {
+        "title": "Stijg- en glijcijfers",
+        "body": "Verticale snelheden, glijgetallen, draaidynamiek: allemaal berekend uit je track. De cijfers die ertoe doen, voor elke vlucht.",
+        "accent": "uit je track"
+      },
+      "wind": {
+        "title": "Windreconstructie",
+        "body": "Na de vlucht een windprofiel op elke hoogte, afgeleid uit de drift van je cirkels. Geen externe sensor nodig.",
+        "accent": "per hoogteband"
+      },
+      "progression": {
+        "title": "Progressie-analyse",
+        "body": "Volg je groei over seizoenen, startplaatsen en schermen heen. Afstand, vliegtijd, stijgingen, omstandigheden: bekijk het zoals jij vliegt.",
+        "accent": "je volledige archief"
+      },
+      "takeoffs": {
+        "title": "Database met startplaatsen",
+        "body": "Coördinaten, hoogte, oriëntatie, beste windrichtingen, actuele metingen van weerstations in de buurt, webcamlinks. Bijgehouden door de community.",
+        "accent": "~{sites} startplaatsen"
+      },
+      "community": {
+        "title": "Vergelijken met de community",
+        "body": "Jouw thermieksterkte tegenover iedereen die vandaag op die startplaats vloog. Jouw glijvlucht tegenover de mediaan van je schermklasse.",
+        "accent": "anonieme benchmarks"
+      },
+      "sharing": {
+        "title": "Privé delen via link",
+        "body": "Elke vlucht krijgt een geheime, onraadbare URL: alleen wie je hem stuurt, kan hem openen. Geen account nodig om te kijken, geen openbare lijst.",
+        "accent": "geheime, onraadbare link"
+      }
+    },
+    "showcase": {
+      "eyebrow": "› Functie · vluchtreplay",
+      "title": "Herbeleef de thermiek die je <it>bijna</it> gecentreerd had.",
+      "body": "Spoel door een 3D-replay met variogeluid, windoverlay en gemarkeerde thermiekkernen. Zet overal een marker: je opmerking wordt gekoppeld aan het tijdstip.",
+      "sampleFlight": "Bekijk een voorbeeldvlucht",
+      "climbLabel": "{value} m/s"
+    }
+  },
+  "leaderboard": {
+    "eyebrow": "› Community · laatste 7 dagen",
+    "title": "<line>De ranglijst</line>waar je club <it>over bekvecht</it>.",
+    "lede": "Alleen berekend uit gevalideerde IGC-bestanden, geen zelf opgegeven afstanden. Piloten verschijnen met de naam die ze zelf kiezen.",
+    "tabs": { "xc": "XC-afstand", "climb": "Beste stijging", "triangle": "FAI-driehoek" },
+    "updated": "{minutes} min geleden bijgewerkt · <live>live</live>",
+    "columns": {
+      "pilot": "Piloot",
+      "site": "Startplaats",
+      "country": "Land",
+      "wing": "Scherm",
+      "result": "Resultaat",
+      "rankDelta": "Δ positie"
+    }
+  },
+  "cta": {
+    "eyebrow": "› Gratis starten. Voor altijd.",
+    "title": "<line>Ken je vluchten,</line><it>log ze niet alleen.</it>",
+    "body": "Levenslang gratis. Onbeperkt vluchten. Geen creditcard. Je eerste IGC in minder dan een minuut.",
+    "create": "Maak je logboek aan",
+    "samplePilot": "Bekijk een voorbeeldpiloot"
+  },
+  "footer": {
+    "asciiTagline": "we-fly.cloud · met liefde gemaakt in België 🇧🇪 door paraglidingpiloten",
+    "asciiStats": "{flights} gelogde vluchten · {sites} startplaatsen",
+    "tagline": "Een precisielogboek, door piloten gemaakt voor piloten. Eerlijke analyses.",
+    "allSystemsNominal": "Alle systemen operationeel",
+    "product": {
+      "title": "Product",
+      "logbook": "Logboek",
+      "insights": "Inzichten",
+      "trackReplay": "Track-replay",
+      "migrate": "Overstappen naar we-fly"
+    },
+    "data": {
+      "title": "Data",
+      "takeoffDatabase": "Database met startplaatsen",
+      "documentation": "Documentatie",
+      "siteConditions": "Omstandigheden per startplaats"
+    },
+    "community": {
+      "title": "Community",
+      "clubs": "Clubs",
+      "recentFlights": "Recente vluchten",
+      "references": "Referenties"
+    },
+    "company": {
+      "title": "Over ons",
+      "about": "Over",
+      "whatsNew": "Wat is er nieuw",
+      "contact": "Contact",
+      "privacy": "Privacy"
+    },
+    "copyright": "© {year} we-fly.cloud · Gemaakt in België",
+    "version": "v {version}"
+  }
+}

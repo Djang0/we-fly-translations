@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Gleitschirm-Flugbuch & Flugauswertung",
+    "ogTitle": "We-Fly | Gleitschirm-Flugbuch & Flugauswertung",
+    "description": "Zieh eine IGC-Datei rein. Wir ermitteln Gleitzahl, Steigwerte, Zentrieren in der Thermik und XC-Wertung und vergleichen alles mit der weltweiten Gleitschirm-Community."
+  },
+  "hero": {
+    "cta": {
+      "passkey": "Mit Passkey anmelden",
+      "continue": "Zum Weitermachen anmelden",
+      "upload": "Lade deinen ersten Flug hoch"
+    },
+    "tag": {
+      "logbook": "Flugbuch",
+      "insights": "Analysen",
+      "replay": "Replay",
+      "flightsToday": "{count, plural, one {<n>#</n> Flug heute geloggt} other {<n>#</n> Flüge heute geloggt}}"
+    },
+    "title": "<line>Jeder Flug,</line><line><it>vermessen.</it></line>Jeder Bart, <accent>gefunden.</accent>",
+    "subtitle": "Zieh eine IGC-Datei rein. Wir ermitteln Gleitzahl, Steigwerte, Zentrieren in der Thermik und XC-Wertung und vergleichen alles mit <pilotsValue>{pilots}</pilotsValue> Piloten an <sitesValue>{sites}</sitesValue> Startplätzen.",
+    "tour": "90-Sekunden-Tour ansehen",
+    "signInNudge": "Schon ein Konto? <link>Anmelden</link>",
+    "proof": {
+      "flights": "Geloggte Flüge",
+      "pilots": "Aktive Piloten",
+      "sites": "Startplätze",
+      "parsed": "Ausgewertete IGC-Dateien"
+    },
+    "panel": {
+      "altitude": "Höhe",
+      "vario": "Vario",
+      "groundSpeed": "Grundgeschw.",
+      "heading": "Kurs",
+      "live": "live",
+      "altitudeTick": "{value} m",
+      "launch": "Start {time}",
+      "land": "Landung {time}",
+      "coreThermal": "<b>{value} m/s</b> im Kern",
+      "thermalDetail": "{gain} m Höhengewinn · {minutes} min",
+      "triangle": "<b>{distance} km</b> FAI-Dreieck",
+      "validated": "Validiert · {score} Punkte"
+    }
+  },
+  "ticker": {
+    "title": "Neu geloggt · Community",
+    "feed": "Live aus der Community · anonymisiert",
+    "aWing": "Ein Schirm",
+    "unnamedSite": "einem namenlosen Startplatz",
+    "uploaded": "loggte einen Flug von",
+    "shared": "teilte einen Flug von",
+    "tandem": "flog Tandem von",
+    "powered": "flog motorisiert von",
+    "closed": "schloss",
+    "logged": "loggte",
+    "scored": "erflog",
+    "distanceAndType": "{distance} {type}",
+    "airtime": "{hours}:{minutes} h Flugzeit",
+    "airtimeShort": "{minutes} min Flugzeit",
+    "justNow": "gerade eben",
+    "recently": "kürzlich",
+    "minutesAgo": "vor {count} min",
+    "hoursAgo": "vor {count} h",
+    "daysAgo": "vor {count, plural, one {# Tag} other {# Tagen}}",
+    "weeksAgo": "vor {count, plural, one {# Woche} other {# Wochen}}",
+    "types": {
+      "closedFai": "geschl. FAI-Dreieck",
+      "fai": "FAI-Dreieck",
+      "closedFlat": "geschl. flaches Dreieck",
+      "flat": "flaches Dreieck",
+      "closedFree": "geschl. freies Dreieck",
+      "free": "freies Dreieck",
+      "outAndReturn": "Zielrückkehr",
+      "freeDistance": "freie Strecke",
+      "freeFlight": "freier Flug"
+    }
+  },
+  "upload": {
+    "eyebrow": "› Schritt 01 · Upload",
+    "title": "<line>Von <it>.igc</it> zur</line>Auswertung in 4 Sekunden.",
+    "body": "Wir lesen jeden B-Record, erkennen Steigphasen mit einer Thermikerkennung aus mehreren Signalen und werten deinen Streckenflug aus (freie Strecke, Zielrückkehr, FAI-Dreieck), noch bevor dein Schirm gepackt ist.",
+    "steps": {
+      "parse": "IGC-Header & B-Records auslesen",
+      "detect": "Thermik erkennen & XC werten (frei, Zielrückkehr, FAI)",
+      "compare": "Mit deinen bisherigen Flügen vergleichen"
+    },
+    "dropZone": "Ablagefläche · .igc",
+    "parsing": "Auswertung · {percent, number, percent}",
+    "complete": "fertig",
+    "ready": "bereit",
+    "dragHere": "Zieh deine IGC-Datei hierher",
+    "pasteUrl": "oder URL einfügen · max. {size} MB",
+    "result": {
+      "duration": "Dauer",
+      "distance": "Strecke",
+      "maxAlt": "Max. Höhe",
+      "bestClimb": "Bestes Steigen",
+      "glideRatio": "Gleitzahl",
+      "xcScore": "XC-Punkte",
+      "validated": "FAI-Dreieck validiert · über Community-p{percentile}",
+      "openFlight": "Flug öffnen"
+    }
+  },
+  "specs": {
+    "eyebrow": "› Das System · {count} Module",
+    "title": "<line>Ein Flugbuch, das</line><it>für dich rechnet</it>.",
+    "lede": "Zwölf Präzisionswerkzeuge, die aus rohen IGC-Daten Entscheidungen machen. Jedes nach den Maßstäben gebaut, die Piloten im Briefing anlegen, nicht nach Marketing.",
+    "items": {
+      "parser": {
+        "title": "Liest jedes Gerät",
+        "body": "Wir verstehen die Herstellerdialekte von Flymaster, Skytraxx, XCTrack, Syride, Alfapilot: jede IGC-Datei, ohne Ausnahme.",
+        "accent": "IGC-Standard"
+      },
+      "thermals": {
+        "title": "Thermikerkennung",
+        "body": "Die Erkennung kombiniert Vario, Drehrate, Windversatz sowie Ein- und Ausflugsrampen. Schluss mit Fehlalarmen beim Hangsoaren.",
+        "accent": "{resolution} m/s Aufl."
+      },
+      "scoring": {
+        "title": "XC-Wertung, automatisch",
+        "body": "Freie Strecke, Zielrückkehr, FAI-Dreieck. Jeder Flug wird nach WPRS-Regeln gewertet, sobald er gelandet ist.",
+        "accent": "FAI · OLC-tauglich"
+      },
+      "metrics": {
+        "title": "Steig- & Gleitwerte",
+        "body": "Vertikalgeschwindigkeiten, Gleitzahlen, Kurvendynamik: alles aus deinem Track berechnet. Die Zahlen, die zählen, bei jedem Flug.",
+        "accent": "aus dem Track"
+      },
+      "wind": {
+        "title": "Windrekonstruktion",
+        "body": "Windprofil nach dem Flug für jede Höhe, abgeleitet aus dem Versatz deiner Kreise. Kein externer Sensor nötig.",
+        "accent": "pro Höhenband"
+      },
+      "progression": {
+        "title": "Fortschrittsanalyse",
+        "body": "Sieh, wie du dich über Saisons, Fluggebiete und Schirme entwickelst. Strecke, Flugzeit, Steigen, Bedingungen: auswerten, wie du fliegst.",
+        "accent": "dein ganzes Archiv"
+      },
+      "takeoffs": {
+        "title": "Startplatz-Datenbank",
+        "body": "Koordinaten, Höhe, Ausrichtung, beste Windrichtungen, aktuelle Messwerte nahegelegener Stationen, Webcam-Links. Von der Community gepflegt.",
+        "accent": "~{sites} Startplätze"
+      },
+      "community": {
+        "title": "Community-Vergleich",
+        "body": "Deine Steigwerte im Vergleich zu allen, die heute am selben Startplatz geflogen sind. Dein Gleiten im Vergleich zum Median deiner Schirmklasse.",
+        "accent": "anonyme Benchmarks"
+      },
+      "sharing": {
+        "title": "Private Freigabelinks",
+        "body": "Jeder Flug bekommt eine geheime, nicht erratbare URL. Nur wer sie von dir bekommt, kann ihn öffnen. Kein Konto zum Ansehen nötig, keine öffentliche Liste.",
+        "accent": "geheimer, nicht erratbarer Link"
+      }
+    },
+    "showcase": {
+      "eyebrow": "› Feature · Flug-Replay",
+      "title": "Spiel den Bart noch mal ab, den du <it>fast</it> zentriert hättest.",
+      "body": "Spul durch ein 3D-Replay mit Vario-Ton, Wind-Overlay und markierten Thermikkernen. Setz irgendwo eine Markierung, und dein Kommentar hängt am Zeitstempel.",
+      "sampleFlight": "Beispielflug ansehen",
+      "climbLabel": "{value} m/s"
+    }
+  },
+  "leaderboard": {
+    "eyebrow": "› Community · letzte 7 Tage",
+    "title": "<line>Die Rangliste,</line>über die dein Verein <it>streitet</it>.",
+    "lede": "Nur aus validierten IGC-Dateien berechnet, keine selbst gemeldeten Strecken. Piloten erscheinen unter dem Namen ihrer Wahl.",
+    "tabs": { "xc": "XC-Strecke", "climb": "Bestes Steigen", "triangle": "FAI-Dreieck" },
+    "updated": "Aktualisiert vor {minutes} min · <live>live</live>",
+    "columns": {
+      "pilot": "Pilot",
+      "site": "Fluggebiet",
+      "country": "Land",
+      "wing": "Schirm",
+      "result": "Ergebnis",
+      "rankDelta": "Δ Rang"
+    }
+  },
+  "cta": {
+    "eyebrow": "› Kostenlos starten. Für immer bleiben.",
+    "title": "<line>Versteh deine Flüge,</line><it>statt sie nur zu loggen.</it>",
+    "body": "Für immer kostenlos. Unbegrenzt viele Flüge. Keine Kreditkarte. Deine erste IGC-Datei in unter einer Minute.",
+    "create": "Flugbuch anlegen",
+    "samplePilot": "Beispielpilot ansehen"
+  },
+  "footer": {
+    "asciiTagline": "we-fly.cloud · mit Liebe gemacht in Belgien 🇧🇪 von Gleitschirmpiloten",
+    "asciiStats": "{flights} Flüge geloggt · {sites} Startplätze",
+    "tagline": "Ein Präzisions-Flugbuch von Piloten für Piloten. Ehrliche Auswertungen.",
+    "allSystemsNominal": "Alle Systeme laufen",
+    "product": {
+      "title": "Produkt",
+      "logbook": "Flugbuch",
+      "insights": "Analysen",
+      "trackReplay": "Track-Replay",
+      "migrate": "Wechsel zu We-Fly"
+    },
+    "data": {
+      "title": "Daten",
+      "takeoffDatabase": "Startplatz-Datenbank",
+      "documentation": "Dokumentation",
+      "siteConditions": "Bedingungen vor Ort"
+    },
+    "community": {
+      "title": "Community",
+      "clubs": "Vereine",
+      "recentFlights": "Neueste Flüge",
+      "references": "Referenzen"
+    },
+    "company": {
+      "title": "Projekt",
+      "about": "Über uns",
+      "whatsNew": "Neuigkeiten",
+      "contact": "Kontakt",
+      "privacy": "Datenschutz"
+    },
+    "copyright": "© {year} we-fly.cloud · Gemacht in Belgien",
+    "version": "v {version}"
+  }
+}

@@ -1,0 +1,1426 @@
+{
+  "messages": {
+    "common.allSystemsNominal": {
+      "src": "17473aee2b01184a",
+      "tr": "d85e9b29c78216d8",
+      "by": "ai"
+    },
+    "common.language.automatic": {
+      "src": "d461a493a3753877",
+      "tr": "89bd8db002892255",
+      "by": "ai"
+    },
+    "common.language.change": {
+      "src": "009ed110badf6e7b",
+      "tr": "e93dffab73934281",
+      "by": "ai"
+    },
+    "common.language.label": {
+      "src": "a4fe65264ef7dbb3",
+      "tr": "5f6baab4dbe152fc",
+      "by": "ai"
+    },
+    "common.notFound.body": {
+      "src": "c711d7a1eb958ae1",
+      "tr": "c5db949ecec78fe9",
+      "by": "ai"
+    },
+    "common.notFound.cta": {
+      "src": "dc724fa89d03833d",
+      "tr": "6fa2782afe10e568",
+      "by": "ai"
+    },
+    "common.notFound.title": {
+      "src": "2dcbfa0a33172696",
+      "tr": "36f33db8bb15d331",
+      "by": "ai"
+    },
+    "common.skipToContent": {
+      "src": "c887f134c26ea831",
+      "tr": "f9a02b065dc3b874",
+      "by": "ai"
+    },
+    "home.cta.body": {
+      "src": "dfb9f6c247824354",
+      "tr": "8e1854cf8b110028",
+      "by": "ai"
+    },
+    "home.cta.create": {
+      "src": "797bca730dbcd785",
+      "tr": "da94c349f4efcbbf",
+      "by": "ai"
+    },
+    "home.cta.eyebrow": {
+      "src": "43d081de0ce62689",
+      "tr": "2e9a097cdfa86d88",
+      "by": "ai"
+    },
+    "home.cta.samplePilot": {
+      "src": "cac249b2549da6ea",
+      "tr": "ec9431b3d54cb968",
+      "by": "ai"
+    },
+    "home.cta.title": {
+      "src": "bb3ff55ce16ed0c6",
+      "tr": "1e499c446cc360de",
+      "by": "ai"
+    },
+    "home.footer.allSystemsNominal": {
+      "src": "17473aee2b01184a",
+      "tr": "d85e9b29c78216d8",
+      "by": "ai"
+    },
+    "home.footer.asciiStats": {
+      "src": "07606f7a1340d25a",
+      "tr": "17526e9559a82c1c",
+      "by": "ai"
+    },
+    "home.footer.asciiTagline": {
+      "src": "9f731a57853666d1",
+      "tr": "f68df43d096505c0",
+      "by": "ai"
+    },
+    "home.footer.community.clubs": {
+      "src": "98348a90362db8bb",
+      "tr": "98348a90362db8bb",
+      "by": "ai"
+    },
+    "home.footer.community.recentFlights": {
+      "src": "5f11d7118612846c",
+      "tr": "acd540f8c63e931b",
+      "by": "ai"
+    },
+    "home.footer.community.references": {
+      "src": "69824d3b0e70ca6a",
+      "tr": "7014babad0fef500",
+      "by": "ai"
+    },
+    "home.footer.community.title": {
+      "src": "bb501d7877eb7ddb",
+      "tr": "07cc69527b392f72",
+      "by": "ai"
+    },
+    "home.footer.company.about": {
+      "src": "4efca0d10c5feb8e",
+      "tr": "307ef284ba576615",
+      "by": "ai"
+    },
+    "home.footer.company.contact": {
+      "src": "2b5c3d26721ae9c3",
+      "tr": "2b5c3d26721ae9c3",
+      "by": "ai"
+    },
+    "home.footer.company.privacy": {
+      "src": "54a57c3147c49f33",
+      "tr": "f19bb4113dafe7cf",
+      "by": "ai"
+    },
+    "home.footer.company.title": {
+      "src": "de4743c879734dc3",
+      "tr": "b9978f00659968c0",
+      "by": "ai"
+    },
+    "home.footer.company.whatsNew": {
+      "src": "37e6112e84a88385",
+      "tr": "789201f14f14f7e2",
+      "by": "ai"
+    },
+    "home.footer.copyright": {
+      "src": "aad45b1fb92cdb03",
+      "tr": "5807b3894393a386",
+      "by": "ai"
+    },
+    "home.footer.data.documentation": {
+      "src": "c205924de0fe636c",
+      "tr": "c205924de0fe636c",
+      "by": "ai"
+    },
+    "home.footer.data.siteConditions": {
+      "src": "dc0b0d40efe9c777",
+      "tr": "a0584d57333b4618",
+      "by": "ai"
+    },
+    "home.footer.data.takeoffDatabase": {
+      "src": "dc7e6fa6b7d73c53",
+      "tr": "2885c35c1e7f2a15",
+      "by": "ai"
+    },
+    "home.footer.data.title": {
+      "src": "cec3a9b89b2e3913",
+      "tr": "6ef4db3c1dca75f8",
+      "by": "ai"
+    },
+    "home.footer.product.insights": {
+      "src": "2a932f90172e99ea",
+      "tr": "d2c228fc91dd9411",
+      "by": "ai"
+    },
+    "home.footer.product.logbook": {
+      "src": "13e5314a134f9b7a",
+      "tr": "70fea4ddbb3f1211",
+      "by": "ai"
+    },
+    "home.footer.product.migrate": {
+      "src": "eb64b1f9a6e5cf9c",
+      "tr": "7d596674772bb2f2",
+      "by": "ai"
+    },
+    "home.footer.product.title": {
+      "src": "fb9ef894175c3274",
+      "tr": "a0d3db2f080376be",
+      "by": "ai"
+    },
+    "home.footer.product.trackReplay": {
+      "src": "82dff347a1db3dd2",
+      "tr": "ae24e118b28947a1",
+      "by": "ai"
+    },
+    "home.footer.tagline": {
+      "src": "cf43a723dc448d7b",
+      "tr": "128f4f398608b4a9",
+      "by": "ai"
+    },
+    "home.footer.version": {
+      "src": "13bd3629419bf1a9",
+      "tr": "13bd3629419bf1a9",
+      "by": "ai"
+    },
+    "home.hero.cta.continue": {
+      "src": "607a80121c655651",
+      "tr": "aa90e4e3dee0b8be",
+      "by": "ai"
+    },
+    "home.hero.cta.passkey": {
+      "src": "b09700bcd53283b4",
+      "tr": "857c4a5fd723992f",
+      "by": "ai"
+    },
+    "home.hero.cta.upload": {
+      "src": "0d524a6d415904d6",
+      "tr": "0c4b7a02a9b78a86",
+      "by": "ai"
+    },
+    "home.hero.panel.altitude": {
+      "src": "cbc2e75740ca7af8",
+      "tr": "cbc2e75740ca7af8",
+      "by": "ai"
+    },
+    "home.hero.panel.altitudeTick": {
+      "src": "1357d161b5fccd53",
+      "tr": "ae5ce5501c63d5f2",
+      "by": "ai"
+    },
+    "home.hero.panel.coreThermal": {
+      "src": "ed17182122042e44",
+      "tr": "2085adf8eab72206",
+      "by": "ai"
+    },
+    "home.hero.panel.groundSpeed": {
+      "src": "95c12e7145e26bf9",
+      "tr": "dc64a55086047d12",
+      "by": "ai"
+    },
+    "home.hero.panel.heading": {
+      "src": "b34f17f02ecf0307",
+      "tr": "1257ac04471db97b",
+      "by": "ai"
+    },
+    "home.hero.panel.land": {
+      "src": "3e27230bc23f86d5",
+      "tr": "876e240c9e736150",
+      "by": "ai"
+    },
+    "home.hero.panel.launch": {
+      "src": "f972f185c678d8f3",
+      "tr": "08e7e26220b70315",
+      "by": "ai"
+    },
+    "home.hero.panel.live": {
+      "src": "247610f4dedd4ab7",
+      "tr": "d15690f08a575024",
+      "by": "ai"
+    },
+    "home.hero.panel.thermalDetail": {
+      "src": "5555f0f3fdfd8438",
+      "tr": "e5d3cf72afdffeed",
+      "by": "ai"
+    },
+    "home.hero.panel.triangle": {
+      "src": "d9db14725af176f9",
+      "tr": "08867bc9afa70f7c",
+      "by": "ai"
+    },
+    "home.hero.panel.validated": {
+      "src": "3a6de73c8e5cd8aa",
+      "tr": "041bdfba7995e1c5",
+      "by": "ai"
+    },
+    "home.hero.panel.vario": {
+      "src": "bb67619394a1ea3e",
+      "tr": "bb67619394a1ea3e",
+      "by": "ai"
+    },
+    "home.hero.proof.flights": {
+      "src": "cdbf5e2673aa5018",
+      "tr": "166304d50ff9cf10",
+      "by": "ai"
+    },
+    "home.hero.proof.parsed": {
+      "src": "77020e06b28e6c09",
+      "tr": "ae9c94e6cb7ff43a",
+      "by": "ai"
+    },
+    "home.hero.proof.pilots": {
+      "src": "e743f1d9cf947cef",
+      "tr": "23bd42fcba8355f3",
+      "by": "ai"
+    },
+    "home.hero.proof.sites": {
+      "src": "885a18e8518ca445",
+      "tr": "1028460ed0c9e37c",
+      "by": "ai"
+    },
+    "home.hero.signInNudge": {
+      "src": "e22f582d5ef0a97c",
+      "tr": "8c347876e30e2b07",
+      "by": "ai"
+    },
+    "home.hero.subtitle": {
+      "src": "d1602a3f7f2ebefc",
+      "tr": "15d14a863666ff60",
+      "by": "ai"
+    },
+    "home.hero.tag.flightsToday": {
+      "src": "2a89944bf5afe58a",
+      "tr": "734bb04c3f079dc0",
+      "by": "ai"
+    },
+    "home.hero.tag.insights": {
+      "src": "2a932f90172e99ea",
+      "tr": "d2c228fc91dd9411",
+      "by": "ai"
+    },
+    "home.hero.tag.logbook": {
+      "src": "13e5314a134f9b7a",
+      "tr": "70fea4ddbb3f1211",
+      "by": "ai"
+    },
+    "home.hero.tag.replay": {
+      "src": "c8dae6371b33b8d6",
+      "tr": "c8dae6371b33b8d6",
+      "by": "ai"
+    },
+    "home.hero.title": {
+      "src": "5cf70719a59f73e5",
+      "tr": "8a0db2f1bbf0f7d0",
+      "by": "ai"
+    },
+    "home.hero.tour": {
+      "src": "4e2e9451e46465f5",
+      "tr": "0d0f341ecdfbc471",
+      "by": "ai"
+    },
+    "home.leaderboard.columns.country": {
+      "src": "701d021d08c54579",
+      "tr": "fe753ffb9bbaf6eb",
+      "by": "ai"
+    },
+    "home.leaderboard.columns.pilot": {
+      "src": "383e2d946278a872",
+      "tr": "b38f20071104ac79",
+      "by": "ai"
+    },
+    "home.leaderboard.columns.rankDelta": {
+      "src": "658bbe3c129b92b1",
+      "tr": "55cd5ac53d4a0eba",
+      "by": "ai"
+    },
+    "home.leaderboard.columns.result": {
+      "src": "6e7d50e84f4731ef",
+      "tr": "f1ed9999c72bae39",
+      "by": "ai"
+    },
+    "home.leaderboard.columns.site": {
+      "src": "fa7955814e32aed3",
+      "tr": "fa7955814e32aed3",
+      "by": "ai"
+    },
+    "home.leaderboard.columns.wing": {
+      "src": "bfe7eb5a83c464d8",
+      "tr": "3095a55eb697dbb9",
+      "by": "ai"
+    },
+    "home.leaderboard.eyebrow": {
+      "src": "24cfdbe8af6f193d",
+      "tr": "e27a53fbe2ff2d1d",
+      "by": "ai"
+    },
+    "home.leaderboard.lede": {
+      "src": "226a013e74654cca",
+      "tr": "eb93c5d62620915c",
+      "by": "ai"
+    },
+    "home.leaderboard.tabs.climb": {
+      "src": "a3eb55ee52b6169e",
+      "tr": "002f7cfc82fb0d96",
+      "by": "ai"
+    },
+    "home.leaderboard.tabs.triangle": {
+      "src": "75a41ae7c84635db",
+      "tr": "a6129edbc0e4b33a",
+      "by": "ai"
+    },
+    "home.leaderboard.tabs.xc": {
+      "src": "a367d130f7aed3af",
+      "tr": "a99b91f55c89fc98",
+      "by": "ai"
+    },
+    "home.leaderboard.title": {
+      "src": "d9d8897e1b794b8d",
+      "tr": "8f760398708c8c3e",
+      "by": "ai"
+    },
+    "home.leaderboard.updated": {
+      "src": "a192264494226277",
+      "tr": "4ce1e9a9cb903429",
+      "by": "ai"
+    },
+    "home.meta.description": {
+      "src": "21c24b332f81a08f",
+      "tr": "3c89c0a8825835de",
+      "by": "ai"
+    },
+    "home.meta.ogTitle": {
+      "src": "162fbdc6e0e26b4a",
+      "tr": "43bc8d80882ddfee",
+      "by": "ai"
+    },
+    "home.meta.title": {
+      "src": "54cace637cdc5bb9",
+      "tr": "36873c0b945132e2",
+      "by": "ai"
+    },
+    "home.specs.eyebrow": {
+      "src": "92eeb41520875025",
+      "tr": "28f27c60f0517db2",
+      "by": "ai"
+    },
+    "home.specs.items.community.accent": {
+      "src": "0c3245a9220490f6",
+      "tr": "87b9a630fb76433b",
+      "by": "ai"
+    },
+    "home.specs.items.community.body": {
+      "src": "810ea9bd8db98c7f",
+      "tr": "7bf1b3dae310ed0c",
+      "by": "ai"
+    },
+    "home.specs.items.community.title": {
+      "src": "bde3448b36e3bc1f",
+      "tr": "9259c6149e544ee4",
+      "by": "ai"
+    },
+    "home.specs.items.metrics.accent": {
+      "src": "59eda14e46eaa351",
+      "tr": "1b492d2b12bbae0f",
+      "by": "ai"
+    },
+    "home.specs.items.metrics.body": {
+      "src": "80902dcee58d1f00",
+      "tr": "c360f39e9bbd1b5c",
+      "by": "ai"
+    },
+    "home.specs.items.metrics.title": {
+      "src": "00afdbd6d40fd998",
+      "tr": "01f992e8bd6435bc",
+      "by": "ai"
+    },
+    "home.specs.items.parser.accent": {
+      "src": "4da42da2a966056f",
+      "tr": "484bfc6363cfe7eb",
+      "by": "ai"
+    },
+    "home.specs.items.parser.body": {
+      "src": "676d493e951d921c",
+      "tr": "0083eee7f514d7b6",
+      "by": "ai"
+    },
+    "home.specs.items.parser.title": {
+      "src": "7a622e5372faef63",
+      "tr": "1d28c2119a37b021",
+      "by": "ai"
+    },
+    "home.specs.items.progression.accent": {
+      "src": "eeec81e8970f3160",
+      "tr": "476166f95f598898",
+      "by": "ai"
+    },
+    "home.specs.items.progression.body": {
+      "src": "e4f209f156770ffe",
+      "tr": "38dfdf4a7a00e06d",
+      "by": "ai"
+    },
+    "home.specs.items.progression.title": {
+      "src": "e64ed8c6a3a9c169",
+      "tr": "1714ee21312ec5b3",
+      "by": "ai"
+    },
+    "home.specs.items.scoring.accent": {
+      "src": "260166868bf3d2dd",
+      "tr": "ad9b53f7ec0c40bd",
+      "by": "ai"
+    },
+    "home.specs.items.scoring.body": {
+      "src": "b59d7649507d928f",
+      "tr": "ef9a76429b2bd3ab",
+      "by": "ai"
+    },
+    "home.specs.items.scoring.title": {
+      "src": "dfeea82cd840ed6a",
+      "tr": "376c92516e5475f9",
+      "by": "ai"
+    },
+    "home.specs.items.sharing.accent": {
+      "src": "b36168bf81bdfe33",
+      "tr": "dd16bb42129d76ea",
+      "by": "ai"
+    },
+    "home.specs.items.sharing.body": {
+      "src": "38607b808f3d6438",
+      "tr": "d893235d44d488c0",
+      "by": "ai"
+    },
+    "home.specs.items.sharing.title": {
+      "src": "6944a9081350f6e0",
+      "tr": "b86eafd5b946ae84",
+      "by": "ai"
+    },
+    "home.specs.items.takeoffs.accent": {
+      "src": "9669bec433c13b7e",
+      "tr": "9669bec433c13b7e",
+      "by": "ai"
+    },
+    "home.specs.items.takeoffs.body": {
+      "src": "884485a9768c7ab4",
+      "tr": "b6c24e92bb8d4a5c",
+      "by": "ai"
+    },
+    "home.specs.items.takeoffs.title": {
+      "src": "dc7e6fa6b7d73c53",
+      "tr": "2885c35c1e7f2a15",
+      "by": "ai"
+    },
+    "home.specs.items.thermals.accent": {
+      "src": "b882ab9f3d15dff9",
+      "tr": "25578a8e914a8c21",
+      "by": "ai"
+    },
+    "home.specs.items.thermals.body": {
+      "src": "3b2d2588da7b0db9",
+      "tr": "41c4d5e766cfd959",
+      "by": "ai"
+    },
+    "home.specs.items.thermals.title": {
+      "src": "56426d9a39e92653",
+      "tr": "765b592aadec7516",
+      "by": "ai"
+    },
+    "home.specs.items.wind.accent": {
+      "src": "5fbd7a6551aa59e6",
+      "tr": "d3fb7673c30f1fd1",
+      "by": "ai"
+    },
+    "home.specs.items.wind.body": {
+      "src": "8d9e3068eeae9bbc",
+      "tr": "affd9a125ba8fd94",
+      "by": "ai"
+    },
+    "home.specs.items.wind.title": {
+      "src": "c760679072ecd24a",
+      "tr": "fa73b1255bca1136",
+      "by": "ai"
+    },
+    "home.specs.lede": {
+      "src": "c7c42ce65d3cd369",
+      "tr": "1815afaa702ceeca",
+      "by": "ai"
+    },
+    "home.specs.showcase.body": {
+      "src": "0575b935a6ae1a05",
+      "tr": "1450bcb2ff243199",
+      "by": "ai"
+    },
+    "home.specs.showcase.climbLabel": {
+      "src": "e0a134cc92d9bd6b",
+      "tr": "7cc3b29c75232ae2",
+      "by": "ai"
+    },
+    "home.specs.showcase.eyebrow": {
+      "src": "949536608f3618fc",
+      "tr": "283f814228b808ca",
+      "by": "ai"
+    },
+    "home.specs.showcase.sampleFlight": {
+      "src": "1184567f0bbfdd83",
+      "tr": "9bcae2f56caf24a7",
+      "by": "ai"
+    },
+    "home.specs.showcase.title": {
+      "src": "d875b6b4dd5b200d",
+      "tr": "2e6e6c9268e9f767",
+      "by": "ai"
+    },
+    "home.specs.title": {
+      "src": "ed0c78eee5bae7c9",
+      "tr": "5e66f250d62cc2eb",
+      "by": "ai"
+    },
+    "home.ticker.airtime": {
+      "src": "e3d1cf59bbd30d73",
+      "tr": "70f7d106ddcbd047",
+      "by": "ai"
+    },
+    "home.ticker.airtimeShort": {
+      "src": "15f38eda0ec27397",
+      "tr": "b71070d48bcaa381",
+      "by": "ai"
+    },
+    "home.ticker.aWing": {
+      "src": "59e301f048ca7f4a",
+      "tr": "4ab1235a95a33eac",
+      "by": "ai"
+    },
+    "home.ticker.closed": {
+      "src": "c3eefb58d7c42440",
+      "tr": "398f2e30e3d82158",
+      "by": "ai"
+    },
+    "home.ticker.daysAgo": {
+      "src": "c49aff4201091a5f",
+      "tr": "08fa9b1fb2583049",
+      "by": "ai"
+    },
+    "home.ticker.distanceAndType": {
+      "src": "a1bf751fde39a210",
+      "tr": "d81549558e495823",
+      "by": "ai"
+    },
+    "home.ticker.feed": {
+      "src": "e15d69330d6de085",
+      "tr": "c843fcdb5b2921ba",
+      "by": "ai"
+    },
+    "home.ticker.hoursAgo": {
+      "src": "921c58d212da7c71",
+      "tr": "ae2d02bb04e6aea2",
+      "by": "ai"
+    },
+    "home.ticker.justNow": {
+      "src": "7ddb44d8a533a753",
+      "tr": "60bb92e984a4f2e3",
+      "by": "ai"
+    },
+    "home.ticker.logged": {
+      "src": "7baa99652be2c7c7",
+      "tr": "ead1e414f83bf655",
+      "by": "ai"
+    },
+    "home.ticker.minutesAgo": {
+      "src": "6bf264f3fc92ac66",
+      "tr": "4334be92fffbc9cf",
+      "by": "ai"
+    },
+    "home.ticker.powered": {
+      "src": "688ace4c1fc7b4a9",
+      "tr": "d9f95aa7cf9a2e59",
+      "by": "ai"
+    },
+    "home.ticker.recently": {
+      "src": "59f7a3dd09de1e02",
+      "tr": "51f790254aae32db",
+      "by": "ai"
+    },
+    "home.ticker.scored": {
+      "src": "59f2163089b84400",
+      "tr": "c37bcaef38fdc5f4",
+      "by": "ai"
+    },
+    "home.ticker.shared": {
+      "src": "70a313e9c8fbc364",
+      "tr": "5527f208a5e26edf",
+      "by": "ai"
+    },
+    "home.ticker.tandem": {
+      "src": "165b0d0f7b681e89",
+      "tr": "ff458070ce271c22",
+      "by": "ai"
+    },
+    "home.ticker.title": {
+      "src": "91dcda2244754b00",
+      "tr": "8ca3fd5442e9f342",
+      "by": "ai"
+    },
+    "home.ticker.types.closedFai": {
+      "src": "f22616fd8c32c05f",
+      "tr": "55b98a9b1ed32969",
+      "by": "ai"
+    },
+    "home.ticker.types.closedFlat": {
+      "src": "001454be85663f0c",
+      "tr": "0783b99411f07264",
+      "by": "ai"
+    },
+    "home.ticker.types.closedFree": {
+      "src": "63c869adbcf27d08",
+      "tr": "126a319a17d2445d",
+      "by": "ai"
+    },
+    "home.ticker.types.fai": {
+      "src": "75a41ae7c84635db",
+      "tr": "3be1f35ea3c45da4",
+      "by": "ai"
+    },
+    "home.ticker.types.flat": {
+      "src": "b6cdb3a5b02219eb",
+      "tr": "cfd2e476b0bb54ca",
+      "by": "ai"
+    },
+    "home.ticker.types.free": {
+      "src": "9a1058a6f5ad241d",
+      "tr": "3dde4f6e0b7ba138",
+      "by": "ai"
+    },
+    "home.ticker.types.freeDistance": {
+      "src": "ac3e878f40be982b",
+      "tr": "c5dc202d4e721bf1",
+      "by": "ai"
+    },
+    "home.ticker.types.freeFlight": {
+      "src": "e0ccc9584caeba3d",
+      "tr": "c34731c435815fee",
+      "by": "ai"
+    },
+    "home.ticker.types.outAndReturn": {
+      "src": "90bbf9cf75b61f42",
+      "tr": "4dfd89ac2f902eaf",
+      "by": "ai"
+    },
+    "home.ticker.unnamedSite": {
+      "src": "86c73b3422188058",
+      "tr": "b57d6d929bfb0db5",
+      "by": "ai"
+    },
+    "home.ticker.uploaded": {
+      "src": "eeaa00b83ccb4af9",
+      "tr": "cc01cf9720f7b357",
+      "by": "ai"
+    },
+    "home.ticker.weeksAgo": {
+      "src": "e946e13b568d618a",
+      "tr": "b306714df9ba09b7",
+      "by": "ai"
+    },
+    "home.upload.body": {
+      "src": "68925ab2e9a7b42b",
+      "tr": "a3926fd1314c6c80",
+      "by": "ai"
+    },
+    "home.upload.complete": {
+      "src": "eebbf6457e46a7f6",
+      "tr": "dca0ef73e20eaa30",
+      "by": "ai"
+    },
+    "home.upload.dragHere": {
+      "src": "670ae3553dc6e5ff",
+      "tr": "3ea44a60be74c891",
+      "by": "ai"
+    },
+    "home.upload.dropZone": {
+      "src": "a3faecbb5751d36e",
+      "tr": "ffc5377c76221666",
+      "by": "ai"
+    },
+    "home.upload.eyebrow": {
+      "src": "6a9bf711401064c5",
+      "tr": "52fcc54fd11fb00d",
+      "by": "ai"
+    },
+    "home.upload.parsing": {
+      "src": "47995a4785d6a418",
+      "tr": "d94091f3312ba82f",
+      "by": "ai"
+    },
+    "home.upload.pasteUrl": {
+      "src": "26a3ba72f5c9adf7",
+      "tr": "22e5e177837ed7d0",
+      "by": "ai"
+    },
+    "home.upload.ready": {
+      "src": "b24d6d33736ecd56",
+      "tr": "c9bb4c5a904c11f8",
+      "by": "ai"
+    },
+    "home.upload.result.bestClimb": {
+      "src": "a3eb55ee52b6169e",
+      "tr": "002f7cfc82fb0d96",
+      "by": "ai"
+    },
+    "home.upload.result.distance": {
+      "src": "b7bdf7a2d6e73e58",
+      "tr": "b7bdf7a2d6e73e58",
+      "by": "ai"
+    },
+    "home.upload.result.duration": {
+      "src": "4fc52a3c4c558b51",
+      "tr": "71d0bad42af1144f",
+      "by": "ai"
+    },
+    "home.upload.result.glideRatio": {
+      "src": "eb813a566ecc20d2",
+      "tr": "b97b8f529f5228ca",
+      "by": "ai"
+    },
+    "home.upload.result.maxAlt": {
+      "src": "19a7fc869ab8ac8f",
+      "tr": "9107387957cc8287",
+      "by": "ai"
+    },
+    "home.upload.result.openFlight": {
+      "src": "260e60ce73195aa9",
+      "tr": "e2c48e0a8f92a705",
+      "by": "ai"
+    },
+    "home.upload.result.validated": {
+      "src": "9d2d97d62cb13237",
+      "tr": "5d362ee65903a8b0",
+      "by": "ai"
+    },
+    "home.upload.result.xcScore": {
+      "src": "bb589204db834b35",
+      "tr": "8c4b471e81a0c51c",
+      "by": "ai"
+    },
+    "home.upload.steps.compare": {
+      "src": "f561ac923e09b79c",
+      "tr": "c4ef1a79244378fe",
+      "by": "ai"
+    },
+    "home.upload.steps.detect": {
+      "src": "7d06adca1bd49410",
+      "tr": "66940df05f377ed4",
+      "by": "ai"
+    },
+    "home.upload.steps.parse": {
+      "src": "29c71d13c6aa532f",
+      "tr": "66464e98116a8c99",
+      "by": "ai"
+    },
+    "home.upload.title": {
+      "src": "458378ab4247d132",
+      "tr": "1ef44f41115009c9",
+      "by": "ai"
+    },
+    "meta.description": {
+      "src": "ed801c94821186fd",
+      "tr": "88b9eb9faa57cd16",
+      "by": "ai"
+    },
+    "meta.ogDescription": {
+      "src": "9dcd0cde78e50335",
+      "tr": "a403956dc682ab35",
+      "by": "ai"
+    },
+    "meta.title": {
+      "src": "162fbdc6e0e26b4a",
+      "tr": "43bc8d80882ddfee",
+      "by": "ai"
+    },
+    "meta.titleTemplate": {
+      "src": "b940811ca188642f",
+      "tr": "b940811ca188642f",
+      "by": "ai"
+    },
+    "nav.area.acct": {
+      "src": "7e1b0d5641f2640c",
+      "tr": "dacd47619a726cd9",
+      "by": "ai"
+    },
+    "nav.area.com": {
+      "src": "bb501d7877eb7ddb",
+      "tr": "07cc69527b392f72",
+      "by": "ai"
+    },
+    "nav.area.fly": {
+      "src": "52a6e942ef4a73ca",
+      "tr": "e8b4c7e8138d96d6",
+      "by": "ai"
+    },
+    "nav.area.tko": {
+      "src": "beaf47754f6a5ec0",
+      "tr": "a47232817d460264",
+      "by": "ai"
+    },
+    "nav.area.xc": {
+      "src": "4e6d2a8aba1e70f9",
+      "tr": "9ed6fd68e4e98d02",
+      "by": "ai"
+    },
+    "nav.filters.ariaLabel": {
+      "src": "b5ccd908d349cebf",
+      "tr": "b6177362748c557e",
+      "by": "ai"
+    },
+    "nav.filters.label": {
+      "src": "546ebb8eb993ea56",
+      "tr": "6e2287796c72d40f",
+      "by": "ai"
+    },
+    "nav.help.about": {
+      "src": "4efca0d10c5feb8e",
+      "tr": "307ef284ba576615",
+      "by": "ai"
+    },
+    "nav.help.contact": {
+      "src": "2b5c3d26721ae9c3",
+      "tr": "2b5c3d26721ae9c3",
+      "by": "ai"
+    },
+    "nav.help.documentation": {
+      "src": "c205924de0fe636c",
+      "tr": "c205924de0fe636c",
+      "by": "ai"
+    },
+    "nav.help.privacyPolicy": {
+      "src": "ba445cff3898a3f2",
+      "tr": "f873b7dcc8ea0314",
+      "by": "ai"
+    },
+    "nav.help.references": {
+      "src": "69824d3b0e70ca6a",
+      "tr": "7014babad0fef500",
+      "by": "ai"
+    },
+    "nav.help.whatsNew": {
+      "src": "135e912e89054ffa",
+      "tr": "789201f14f14f7e2",
+      "by": "ai"
+    },
+    "nav.item.cockpit.civl": {
+      "src": "e5a51e8859fc82b8",
+      "tr": "e5a51e8859fc82b8",
+      "by": "ai"
+    },
+    "nav.item.cockpit.country": {
+      "src": "701d021d08c54579",
+      "tr": "fe753ffb9bbaf6eb",
+      "by": "ai"
+    },
+    "nav.item.cockpit.glider": {
+      "src": "8bb54eaddfa40498",
+      "tr": "3095a55eb697dbb9",
+      "by": "ai"
+    },
+    "nav.item.cockpit.map": {
+      "src": "be176b0015c424b7",
+      "tr": "8ae5253303843daf",
+      "by": "ai"
+    },
+    "nav.item.cockpit.month": {
+      "src": "310ca503ef36f177",
+      "tr": "709ceef6d9f80871",
+      "by": "ai"
+    },
+    "nav.item.cockpit.overview": {
+      "src": "d4b1ea5708dd5329",
+      "tr": "0d214ec700d59cd9",
+      "by": "ai"
+    },
+    "nav.item.cockpit.phases": {
+      "src": "b4b0b75a774761b3",
+      "tr": "b4b0b75a774761b3",
+      "by": "ai"
+    },
+    "nav.item.cockpit.season": {
+      "src": "bad2b893e5a46691",
+      "tr": "7e666523e2380e1f",
+      "by": "ai"
+    },
+    "nav.item.cockpit.takeoff": {
+      "src": "9b27eafba7eecc57",
+      "tr": "598ce999ad69ba5d",
+      "by": "ai"
+    },
+    "nav.item.cockpit.thermaling": {
+      "src": "7b3eaeb99a83f9d5",
+      "tr": "f7a30b570155a5ee",
+      "by": "ai"
+    },
+    "nav.item.cockpit.trends": {
+      "src": "e856c6c6a48b24f2",
+      "tr": "74f85685fa17fb52",
+      "by": "ai"
+    },
+    "nav.item.com.clubs": {
+      "src": "98348a90362db8bb",
+      "tr": "98348a90362db8bb",
+      "by": "ai"
+    },
+    "nav.item.com.flights": {
+      "src": "f8f5aa2b57ba8689",
+      "tr": "4b114faf5fdebe3e",
+      "by": "ai"
+    },
+    "nav.item.com.following": {
+      "src": "344b4271ca012d18",
+      "tr": "3485b0384f9eb2fd",
+      "by": "ai"
+    },
+    "nav.item.com.instruments": {
+      "src": "a81b2bad1f227b6a",
+      "tr": "a81b2bad1f227b6a",
+      "by": "ai"
+    },
+    "nav.item.com.leaderboard": {
+      "src": "31b4712158726342",
+      "tr": "7d7338b3577883a3",
+      "by": "ai"
+    },
+    "nav.item.com.mapSearch": {
+      "src": "0f59a9b653367b51",
+      "tr": "41bbe467115a26c0",
+      "by": "ai"
+    },
+    "nav.item.com.pilots": {
+      "src": "d3d4d03a81f9dc9a",
+      "tr": "cd8807fca0b23302",
+      "by": "ai"
+    },
+    "nav.item.com.placeToBe": {
+      "src": "31294ea6be9a80b8",
+      "tr": "d0fbf70606893331",
+      "by": "ai"
+    },
+    "nav.item.com.seasonsRecap": {
+      "src": "6ecac1d38ed4945a",
+      "tr": "eb5854fb2c0d1c96",
+      "by": "ai"
+    },
+    "nav.palette.actions.about": {
+      "src": "02ebfcf4c35eb168",
+      "tr": "1f0127c3f074bb15",
+      "by": "ai"
+    },
+    "nav.palette.actions.applyPreset": {
+      "src": "0e9ef0ab090e61dd",
+      "tr": "a0e30214cc1c17ef",
+      "by": "ai"
+    },
+    "nav.palette.actions.openFilters": {
+      "src": "baaa3007f92b4afd",
+      "tr": "7671e216dfbb3aa1",
+      "by": "ai"
+    },
+    "nav.palette.actions.planXcRoute": {
+      "src": "ef022dafb17abf79",
+      "tr": "6596e00b0dfa199b",
+      "by": "ai"
+    },
+    "nav.palette.actions.presetMeta": {
+      "src": "7252e7ce008587e1",
+      "tr": "bd38cc5ed90dd10e",
+      "by": "ai"
+    },
+    "nav.palette.actions.switchToDark": {
+      "src": "8abe9e0ba6b6f383",
+      "tr": "b991e4c1e5faf842",
+      "by": "ai"
+    },
+    "nav.palette.actions.switchToLight": {
+      "src": "2f740f4cf6888e99",
+      "tr": "a702f56393e50996",
+      "by": "ai"
+    },
+    "nav.palette.actions.uploadFlights": {
+      "src": "a6c035c29d0a7f1a",
+      "tr": "4208cd3034a11ddc",
+      "by": "ai"
+    },
+    "nav.palette.articleKind.docs": {
+      "src": "7af023c43013b9a5",
+      "tr": "7af023c43013b9a5",
+      "by": "ai"
+    },
+    "nav.palette.articleKind.whatsNew": {
+      "src": "135e912e89054ffa",
+      "tr": "789201f14f14f7e2",
+      "by": "ai"
+    },
+    "nav.palette.breadcrumb": {
+      "src": "94c162d46449ea4e",
+      "tr": "94c162d46449ea4e",
+      "by": "ai"
+    },
+    "nav.palette.cancel": {
+      "src": "19766ed6ccb2f4a3",
+      "tr": "46ad3916f6a09798",
+      "by": "ai"
+    },
+    "nav.palette.description": {
+      "src": "2d0794af16c46193",
+      "tr": "460567d96620d115",
+      "by": "ai"
+    },
+    "nav.palette.flightsCount": {
+      "src": "3e7d77542323d122",
+      "tr": "c6b97519ce216f2e",
+      "by": "ai"
+    },
+    "nav.palette.flightTitle": {
+      "src": "8d5675d130807bcc",
+      "tr": "68abcfae462cf86a",
+      "by": "ai"
+    },
+    "nav.palette.groups.actions": {
+      "src": "ff8059dc6752afdd",
+      "tr": "ff8059dc6752afdd",
+      "by": "ai"
+    },
+    "nav.palette.groups.articles": {
+      "src": "b14ac78a46e90b71",
+      "tr": "b14ac78a46e90b71",
+      "by": "ai"
+    },
+    "nav.palette.groups.filterPresets": {
+      "src": "c756b0b6cf857ad4",
+      "tr": "cd476f7121811138",
+      "by": "ai"
+    },
+    "nav.palette.groups.help": {
+      "src": "b79cac926e0b2e34",
+      "tr": "2e3054e12ff491c6",
+      "by": "ai"
+    },
+    "nav.palette.groups.jumpTo": {
+      "src": "da7b17bfa93c7d6b",
+      "tr": "615b02a6fef370c9",
+      "by": "ai"
+    },
+    "nav.palette.groups.myFlights": {
+      "src": "95c6322761bb87db",
+      "tr": "e8b4c7e8138d96d6",
+      "by": "ai"
+    },
+    "nav.palette.groups.pages": {
+      "src": "9046da16aea909ba",
+      "tr": "9046da16aea909ba",
+      "by": "ai"
+    },
+    "nav.palette.groups.pilots": {
+      "src": "d3d4d03a81f9dc9a",
+      "tr": "cd8807fca0b23302",
+      "by": "ai"
+    },
+    "nav.palette.groups.recentFlights": {
+      "src": "5f11d7118612846c",
+      "tr": "acd540f8c63e931b",
+      "by": "ai"
+    },
+    "nav.palette.groups.takeoffs": {
+      "src": "beaf47754f6a5ec0",
+      "tr": "a47232817d460264",
+      "by": "ai"
+    },
+    "nav.palette.hints.close": {
+      "src": "4d14915472057a9b",
+      "tr": "af8befd9def16764",
+      "by": "ai"
+    },
+    "nav.palette.hints.move": {
+      "src": "c0daa41914554d0e",
+      "tr": "764b0f243e942110",
+      "by": "ai"
+    },
+    "nav.palette.hints.open": {
+      "src": "b9330b0c96de16f7",
+      "tr": "9189b7da8f0c3b8d",
+      "by": "ai"
+    },
+    "nav.palette.jump.logbook.subtitle": {
+      "src": "2c41b2bec161ecda",
+      "tr": "704104ede660217a",
+      "by": "ai"
+    },
+    "nav.palette.jump.logbook.title": {
+      "src": "13e5314a134f9b7a",
+      "tr": "70fea4ddbb3f1211",
+      "by": "ai"
+    },
+    "nav.palette.jump.overview.subtitle": {
+      "src": "135daefe29528ab7",
+      "tr": "7a47d833fbf9fb28",
+      "by": "ai"
+    },
+    "nav.palette.jump.overview.title": {
+      "src": "9d5be03ba8e9f43c",
+      "tr": "937f3c8020b29f61",
+      "by": "ai"
+    },
+    "nav.palette.jump.success.subtitle": {
+      "src": "185d8ef0ae5ea9b8",
+      "tr": "185d8ef0ae5ea9b8",
+      "by": "ai"
+    },
+    "nav.palette.jump.success.title": {
+      "src": "c88a0b907419a70c",
+      "tr": "c9ad3c32c42e834b",
+      "by": "ai"
+    },
+    "nav.palette.jump.takeoffs.subtitle": {
+      "src": "46b221d72b1dbc37",
+      "tr": "883617620d897ac9",
+      "by": "ai"
+    },
+    "nav.palette.jump.takeoffs.title": {
+      "src": "beaf47754f6a5ec0",
+      "tr": "a47232817d460264",
+      "by": "ai"
+    },
+    "nav.palette.jump.takeoffStats.subtitle": {
+      "src": "8af51981eeb908f4",
+      "tr": "c0397f1255aa7829",
+      "by": "ai"
+    },
+    "nav.palette.jump.takeoffStats.title": {
+      "src": "c8fbf7fbe0bbad61",
+      "tr": "8c73ebab3bb8aeef",
+      "by": "ai"
+    },
+    "nav.palette.jump.thermaling.subtitle": {
+      "src": "e7fa5bec51466077",
+      "tr": "f20aa9f4e592d92b",
+      "by": "ai"
+    },
+    "nav.palette.jump.thermaling.title": {
+      "src": "1685f56fc8b33e2f",
+      "tr": "facd03bbe1087181",
+      "by": "ai"
+    },
+    "nav.palette.myFlying": {
+      "src": "52a6e942ef4a73ca",
+      "tr": "e8b4c7e8138d96d6",
+      "by": "ai"
+    },
+    "nav.palette.nothingMatches": {
+      "src": "32ab4da69c2b250a",
+      "tr": "1cbea4fa8ba96538",
+      "by": "ai"
+    },
+    "nav.palette.placeholder": {
+      "src": "21088564170e0e95",
+      "tr": "dd0958b6b1e548f7",
+      "by": "ai"
+    },
+    "nav.palette.title": {
+      "src": "1c56e002373500aa",
+      "tr": "1441c0d11e1f577d",
+      "by": "ai"
+    },
+    "nav.palette.uploadFlightsPath": {
+      "src": "4938b32134003fa1",
+      "tr": "84ebf8ed553f4407",
+      "by": "ai"
+    },
+    "nav.public.apiStatus": {
+      "src": "8ee11cfb1c44d6ea",
+      "tr": "fe7e8f11f9bcc62a",
+      "by": "ai"
+    },
+    "nav.public.docs": {
+      "src": "7af023c43013b9a5",
+      "tr": "7af023c43013b9a5",
+      "by": "ai"
+    },
+    "nav.public.goToLogbook": {
+      "src": "0a506b8643b60d7c",
+      "tr": "7475d4587a7b5e40",
+      "by": "ai"
+    },
+    "nav.public.menu": {
+      "src": "99af6606ff9d6cd5",
+      "tr": "99af6606ff9d6cd5",
+      "by": "ai"
+    },
+    "nav.public.signIn": {
+      "src": "bfd402b2f6f38125",
+      "tr": "0ac3d2cb30052ced",
+      "by": "ai"
+    },
+    "nav.public.startLogging": {
+      "src": "f41fec8fb78adef3",
+      "tr": "73a6cdb7c5d872ee",
+      "by": "ai"
+    },
+    "nav.public.takeoffs": {
+      "src": "beaf47754f6a5ec0",
+      "tr": "a47232817d460264",
+      "by": "ai"
+    },
+    "nav.public.whatsNew": {
+      "src": "37e6112e84a88385",
+      "tr": "789201f14f14f7e2",
+      "by": "ai"
+    },
+    "nav.public.xcPlanner": {
+      "src": "fade07750c33d1e3",
+      "tr": "9ed6fd68e4e98d02",
+      "by": "ai"
+    },
+    "nav.search.placeholder": {
+      "src": "a579da2ace394249",
+      "tr": "8a9d15fcdd996635",
+      "by": "ai"
+    },
+    "nav.search.triggerLabel": {
+      "src": "f767fd0da0edf4f5",
+      "tr": "e185a3eabf145a93",
+      "by": "ai"
+    },
+    "nav.search.triggerTitle": {
+      "src": "adc4c5775cdb440f",
+      "tr": "3d57223cd1030fe8",
+      "by": "ai"
+    },
+    "nav.section.acct.anomalies": {
+      "src": "ac2064ecc29b9f28",
+      "tr": "ac2064ecc29b9f28",
+      "by": "ai"
+    },
+    "nav.section.acct.developer": {
+      "src": "3fb7b39416f1d067",
+      "tr": "c37cafd1a5bd62cb",
+      "by": "ai"
+    },
+    "nav.section.acct.profile": {
+      "src": "d696a35bdd1883da",
+      "tr": "e267d343821f264e",
+      "by": "ai"
+    },
+    "nav.section.acct.sharedLinks": {
+      "src": "2e3ac056d4901875",
+      "tr": "3432f2161c5181f6",
+      "by": "ai"
+    },
+    "nav.section.com.feed": {
+      "src": "396c3cb18f811a18",
+      "tr": "52721fc1c69d800f",
+      "by": "ai"
+    },
+    "nav.section.com.overview": {
+      "src": "d4b1ea5708dd5329",
+      "tr": "0d214ec700d59cd9",
+      "by": "ai"
+    },
+    "nav.section.com.people": {
+      "src": "7db20897053bb278",
+      "tr": "cd8807fca0b23302",
+      "by": "ai"
+    },
+    "nav.section.com.stats": {
+      "src": "b4a7365740ef880b",
+      "tr": "b4a7365740ef880b",
+      "by": "ai"
+    },
+    "nav.section.fly.cockpit": {
+      "src": "1b67e81f90c79eca",
+      "tr": "1b67e81f90c79eca",
+      "by": "ai"
+    },
+    "nav.section.fly.logbook": {
+      "src": "13e5314a134f9b7a",
+      "tr": "70fea4ddbb3f1211",
+      "by": "ai"
+    },
+    "nav.section.fly.success": {
+      "src": "c88a0b907419a70c",
+      "tr": "c9ad3c32c42e834b",
+      "by": "ai"
+    },
+    "nav.sectionBar.backTo": {
+      "src": "e47ed0abc2c77d0c",
+      "tr": "51190e6c13e69471",
+      "by": "ai"
+    },
+    "nav.sectionBar.page": {
+      "src": "0a30a815d67d7dd2",
+      "tr": "0a30a815d67d7dd2",
+      "by": "ai"
+    },
+    "nav.sectionBar.pages": {
+      "src": "b90a587ff2f25cf5",
+      "tr": "9c97d509b891a37c",
+      "by": "ai"
+    },
+    "nav.sectionBar.sections": {
+      "src": "9f36dad7cfca5c85",
+      "tr": "5cab4a49bb6e4c26",
+      "by": "ai"
+    },
+    "nav.session.accountMenu": {
+      "src": "7fb5995bca43a6a3",
+      "tr": "d674260557d67c54",
+      "by": "ai"
+    },
+    "nav.session.logOut": {
+      "src": "49616145514e9abf",
+      "tr": "b18aeed1a806af34",
+      "by": "ai"
+    },
+    "nav.tabBar.help": {
+      "src": "b79cac926e0b2e34",
+      "tr": "2e3054e12ff491c6",
+      "by": "ai"
+    },
+    "nav.tabBar.me": {
+      "src": "d30af076b0dc85cc",
+      "tr": "a32799c816cc8b94",
+      "by": "ai"
+    },
+    "nav.tabBar.meUnread": {
+      "src": "40be99f04cc0f368",
+      "tr": "379ae8db7a965683",
+      "by": "ai"
+    },
+    "nav.tabBar.session": {
+      "src": "6959b4159575d8dd",
+      "tr": "6959b4159575d8dd",
+      "by": "ai"
+    },
+    "nav.tabBar.upload": {
+      "src": "865e89de78d94c74",
+      "tr": "ed2c9cb3830e2860",
+      "by": "ai"
+    },
+    "nav.topBar.docs": {
+      "src": "7af023c43013b9a5",
+      "tr": "7af023c43013b9a5",
+      "by": "ai"
+    },
+    "nav.topBar.home": {
+      "src": "578324f9ff0aa36f",
+      "tr": "f4b097cebf67cba8",
+      "by": "ai"
+    },
+    "nav.topBar.main": {
+      "src": "eb814be3ca3b78c0",
+      "tr": "afc19f1734c1d195",
+      "by": "ai"
+    },
+    "nav.topBar.upload": {
+      "src": "ecf0db7600e6f0c1",
+      "tr": "f89fb9515030f3ee",
+      "by": "ai"
+    }
+  },
+  "docs": {},
+  "blog": {}
+}

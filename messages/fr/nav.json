@@ -1,0 +1,174 @@
+{
+  "area": {
+    "fly": "Mes vols",
+    "com": "Communauté",
+    "tko": "Décollages",
+    "xc": "Planificateur XC",
+    "acct": "Compte"
+  },
+  "section": {
+    "fly": {
+      "logbook": "Carnet de vol",
+      "cockpit": "Cockpit",
+      "success": "Succès"
+    },
+    "com": {
+      "overview": "Vue d’ensemble",
+      "feed": "Fil",
+      "people": "Pilotes",
+      "stats": "Stats"
+    },
+    "acct": {
+      "profile": "Profil",
+      "anomalies": "Anomalies",
+      "sharedLinks": "Liens partagés",
+      "developer": "Développeur"
+    }
+  },
+  "item": {
+    "cockpit": {
+      "overview": "Vue d’ensemble",
+      "trends": "Tendances",
+      "thermaling": "Enroulement",
+      "phases": "Phases",
+      "glider": "Voile",
+      "takeoff": "Décollage",
+      "country": "Pays",
+      "season": "Saison",
+      "month": "Mois",
+      "civl": "CIVL",
+      "map": "Carte"
+    },
+    "com": {
+      "flights": "Vols",
+      "following": "Abonnements",
+      "mapSearch": "Recherche sur carte",
+      "pilots": "Pilotes",
+      "clubs": "Clubs",
+      "leaderboard": "Classement",
+      "instruments": "Instruments",
+      "placeToBe": "Où voler",
+      "seasonsRecap": "Bilan des saisons"
+    }
+  },
+  "help": {
+    "documentation": "Documentation",
+    "whatsNew": "Nouveautés",
+    "references": "Références",
+    "contact": "Contact",
+    "privacyPolicy": "Politique de confidentialité",
+    "about": "À propos"
+  },
+  "session": {
+    "logOut": "Se déconnecter",
+    "accountMenu": "Menu du compte"
+  },
+  "topBar": {
+    "home": "Accueil We-Fly",
+    "main": "Principal",
+    "docs": "Docs",
+    "upload": "Importer un vol"
+  },
+  "sectionBar": {
+    "backTo": "Retour vers {label}",
+    "sections": "Sections : {area}",
+    "pages": "Pages : {section}",
+    "page": "Page"
+  },
+  "filters": {
+    "label": "Filtres",
+    "ariaLabel": "{count, plural, =0 {Filtres, aucun appliqué} one {Filtres, # filtre actif} other {Filtres, # filtres actifs}}"
+  },
+  "search": {
+    "triggerLabel": "Rechercher (Ctrl+K)",
+    "triggerTitle": "Rechercher (⌘K)",
+    "placeholder": "Pages, pilotes, décollages…"
+  },
+  "palette": {
+    "title": "Rechercher dans We-Fly",
+    "description": "Cherche un décollage, un vol, un pilote, une page ou un doc, ou lance une action.",
+    "placeholder": "Décollages, vols, pilotes, pages, docs",
+    "cancel": "Annuler",
+    "nothingMatches": "Aucun résultat.",
+    "breadcrumb": "{section} › {page}",
+    "uploadFlightsPath": "Carnet de vol › Importer des vols",
+    "myFlying": "Mes vols",
+    "flightsCount": "{count, plural, one {# vol} other {# vols}}",
+    "flightTitle": "{takeoff} · {distance} km",
+    "groups": {
+      "jumpTo": "Aller à",
+      "takeoffs": "Décollages",
+      "recentFlights": "Vols récents",
+      "myFlights": "Mes vols",
+      "pilots": "Pilotes",
+      "pages": "Pages",
+      "filterPresets": "Préréglages de filtres",
+      "actions": "Actions",
+      "articles": "Articles",
+      "help": "Aide"
+    },
+    "jump": {
+      "logbook": {
+        "title": "Carnet de vol",
+        "subtitle": "Vols · Voiles"
+      },
+      "overview": {
+        "title": "Cockpit · Vue d’ensemble",
+        "subtitle": "Tes statistiques"
+      },
+      "thermaling": {
+        "title": "Cockpit · Enroulement",
+        "subtitle": "Taux de montée, thermiques"
+      },
+      "takeoffStats": {
+        "title": "Cockpit · Décollage",
+        "subtitle": "Heures par site"
+      },
+      "success": {
+        "title": "Succès",
+        "subtitle": "Badges"
+      },
+      "takeoffs": {
+        "title": "Décollages",
+        "subtitle": "Base de sites"
+      }
+    },
+    "actions": {
+      "uploadFlights": "Importer des vols",
+      "planXcRoute": "Préparer un cross",
+      "openFilters": "Ouvrir les filtres",
+      "applyPreset": "Appliquer le préréglage : {name}",
+      "presetMeta": "Préréglage",
+      "switchToLight": "Passer au thème clair",
+      "switchToDark": "Passer au thème sombre",
+      "about": "À propos de We-Fly"
+    },
+    "articleKind": {
+      "docs": "Docs",
+      "whatsNew": "Nouveautés"
+    },
+    "hints": {
+      "move": "↑↓ naviguer",
+      "open": "↵ ouvrir",
+      "close": "échap fermer"
+    }
+  },
+  "tabBar": {
+    "upload": "Importer",
+    "me": "Moi",
+    "meUnread": "Moi, {count, plural, one {# notification non lue} other {# notifications non lues}}",
+    "help": "Aide",
+    "session": "Session"
+  },
+  "public": {
+    "takeoffs": "Décollages",
+    "xcPlanner": "Planificateur XC",
+    "whatsNew": "Nouveautés",
+    "docs": "Docs",
+    "apiStatus": "État de l’API",
+    "goToLogbook": "Mon carnet de vol →",
+    "signIn": "Se connecter",
+    "startLogging": "Ouvrir mon carnet",
+    "menu": "Menu"
+  }
+}
