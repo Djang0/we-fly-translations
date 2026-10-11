@@ -12,12 +12,12 @@ updated: 2026-04-20
 
 Une vidéo de 3 minutes arrive. On en tourne une pour chaque grande partie de l’appli (Cockpit, carnet de vol, analyse des thermiques, communauté) pour que tu prennes les bases le temps de boire un café.
 
-> **Bientôt disponible.** La vidéo est tournée, elle est encore au montage. Suis le [blog](/blog) pour être prévenu dès sa sortie.
+> **Bientôt disponible.** La vidéo est tournée, elle est encore au montage. Garde un œil sur les [Nouveautés](/doc/whats-new) : elle y sera annoncée.
 
 ## Au programme
 
 - Où trouver tes vols
 - Comment lire les chiffres du Cockpit
-- Ton premier rapport d’analyse des thermiques
+- Lire l’analyse des thermiques de ton premier vol
 
 Si tu préfères lire plutôt que regarder, la page [Bienvenue](/doc) couvre la même chose en texte.

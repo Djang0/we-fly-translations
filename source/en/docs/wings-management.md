@@ -22,7 +22,7 @@ Each row in your wings list shows:
 - **Flights**: total number of flights logged with that wing
 - **Duration**: combined airtime across all those flights
 
-From here you can rename a wing and change its type. That's it, clean and simple.
+From here you can rename a wing, change its type and give it a **Logbook row color**. Click a row to expand its flight fingerprint, and use **Compare wings** further down the page to put several wings side by side.
 
 ---
 
@@ -32,7 +32,7 @@ There are three places you can update a wing name in We-Fly, and the scope of ea
 
 ### From the Wings page: rename everything at once
 
-Hit **Rename** next to any wing, type the new name, confirm. We-Fly updates the glider name on **every flight** that had the old name. Fifteen flights logged as "Rush 6"? They all become "Ozone Rush 6" in one shot. This is the right tool when you want to clean up a name across your entire logbook.
+Click the pencil icon next to any wing, type the **New Name**, confirm. We-Fly updates the glider name on **every flight** that had the old name. Fifteen flights logged as "Rush 6"? They all become "Ozone Rush 6" in one shot. This is the right tool when you want to clean up a name across your entire logbook.
 
 ### From your flight list: rename selected flights only
 
@@ -40,7 +40,7 @@ On `/flights`, select one or more flights using the checkboxes. A bulk action me
 
 ### From a single flight: rename one flight
 
-On any flight detail page, open the actions menu and choose **Change Wing**. This updates that flight only. No other flights are touched.
+In your logbook, open the flight's **⋯** menu and choose **Change Wing**. This updates that flight only. No other flights are touched.
 
 ---
 
@@ -68,9 +68,9 @@ Flights default to **solo** unless We-Fly finds an existing tandem flight with t
 
 ### Changing the type manually
 
-On the Wings page, each row has a type selector. Click it to switch all flights with that wing between Solo and Tandem. This is a **bulk operation**: it updates every flight with that wing name in one go.
+On the Wings page, each row has a type selector. Click it to switch all flights with that wing between Solo and Tandem. This is a **bulk operation**: it updates every flight with that wing name in one go, as soon as you pick the new type.
 
-Before confirming, We-Fly tells you exactly how many flights will be affected. No surprises.
+A message then tells you how many flights were updated. If the wing had both solo and tandem flights, you also get a warning that all of them now share the new type.
 
 ---
 

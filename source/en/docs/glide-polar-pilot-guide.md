@@ -9,7 +9,7 @@ order: 5
 
 ## What the Hell is This Chart Anyway?
 
-You've opened the Vector Vario tab, scrolled past the time-series, and now you're staring at a moody blue blob with a couple of lines wandering through it. Welcome to the **Glide-phase performance chart**: we-fly's attempt to show you what your wing actually did at each speed during the glide bits of your flight.
+You've opened the **Vector vario** tab, scrolled past the time-series, and now you're staring at a moody blue blob with a couple of lines wandering through it. Welcome to the **Glide-phase performance** chart: we-fly's attempt to show you what your wing actually did at each speed during the glide bits of your flight.
 
 **The Short Version:** It's a plot of your **vario (sink rate) vs your true airspeed (TAS)**, restricted to moments you were actually gliding. The shape of the lines is the closest thing we can give you to "your wing's polar on this specific day, in this specific air, with you in the harness."
 
@@ -74,7 +74,7 @@ Each (TAS, vario) cell is coloured by **mean netto** (vario minus assumed wing s
 It's basically a heat map of how the atmosphere treated you at every speed. Pretty, and informative.
 
 ### The Glide-Ratio Isolines (Diagonal Grey Dashed Rays)
-These are rays from the origin (0,0) at constant glide ratios, typically drawn at **5:1, 8:1, 10:1, 12:1, 15:1**.
+These are rays from the origin (0,0) at constant glide ratios, drawn at **3:1, 5:1, 7:1, 9:1, 12:1, 15:1, 20:1** (only the ones that fit inside the visible chart).
 
 Because the chart starts at TAS=24 (not 0), the origin lives off-screen to the lower-left, and the isolines appear as dashed diagonals climbing from lower-left to upper-right.
 
@@ -82,7 +82,7 @@ Because the chart starts at TAS=24 (not 0), the origin lives off-screen to the l
 - Where the **dashed clean-air line crosses an isoline** → that's the TAS at which the wing achieves that glide ratio in non-lifting air.
 - Where an isoline is **tangent** to the dashed polar (touching without crossing) → that's your **best L/D on this flight**.
 
-Quick example: if the dashed polar crosses the 5:1 ray at TAS=42 km/h, then at 42 km/h in cool air you'd have glided 5 km for every 1 km of altitude lost. If the 8:1 ray just barely kisses the dashed curve at TAS=32 km/h, that's your tangent point, your best glide of the day, at that speed.
+Quick example: if the dashed polar crosses the 5:1 ray at TAS=42 km/h, then at 42 km/h in cool air you'd have glided 5 km for every 1 km of altitude lost. If the 9:1 ray just barely kisses the dashed curve at TAS=32 km/h, that's your tangent point, your best glide of the day, at that speed.
 
 ### The Y=0 Reference Line (Dashed, Horizontal)
 The boundary between sinking (below) and climbing (above). Above this line, the atmosphere was contributing more lift than the wing was generating sink. Useful for spotting how much of your "glides" were actually thermal-tinged.

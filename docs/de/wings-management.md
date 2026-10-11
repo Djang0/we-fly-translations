@@ -22,7 +22,7 @@ Jede Zeile in deiner Schirmliste zeigt:
 - **Flüge**: Gesamtzahl der Flüge, die mit diesem Schirm geloggt sind
 - **Dauer**: zusammengerechnete Flugzeit all dieser Flüge
 
-Von hier aus kannst du einen Schirm umbenennen und seinen Typ ändern. Das war's, schlicht und einfach.
+Von hier aus kannst du einen Schirm umbenennen, seinen Typ ändern und ihm eine **Zeilenfarbe im Flugbuch** geben. Klick auf eine Zeile, um seinen Fingerabdruck aus Flügen aufzuklappen, und nutze weiter unten auf der Seite **Schirme vergleichen**, um mehrere Schirme nebeneinanderzustellen.
 
 ---
 
@@ -32,7 +32,7 @@ Es gibt in We-Fly drei Stellen, an denen du einen Schirmnamen ändern kannst, un
 
 ### Auf der Seite Schirme: alles auf einmal umbenennen
 
-Tippe neben einem Schirm auf **Umbenennen**, gib den neuen Namen ein und bestätige. We-Fly ändert den Schirmnamen bei **jedem Flug**, der den alten Namen hatte. Fünfzehn Flüge als „Rush 6“ geloggt? Mit einem Klick heißen alle „Ozone Rush 6“. Das ist das richtige Werkzeug, wenn du einen Namen in deinem ganzen Flugbuch aufräumen willst.
+Klick neben einem Schirm auf das Stiftsymbol, gib den **Neuen Namen** ein und bestätige. We-Fly ändert den Schirmnamen bei **jedem Flug**, der den alten Namen hatte. Fünfzehn Flüge als „Rush 6“ geloggt? Mit einem Klick heißen alle „Ozone Rush 6“. Das ist das richtige Werkzeug, wenn du einen Namen in deinem ganzen Flugbuch aufräumen willst.
 
 ### In deiner Flugliste: nur ausgewählte Flüge umbenennen
 
@@ -40,7 +40,7 @@ Wähle auf `/flights` einen oder mehrere Flüge über die Checkboxen aus. Ein Me
 
 ### Bei einem einzelnen Flug: einen Flug umbenennen
 
-Öffne auf der Detailseite eines Flugs das Aktionsmenü und wähle **Schirm ändern**. Das ändert nur diesen einen Flug. Alle anderen Flüge bleiben unberührt.
+Öffne in deinem Flugbuch das **⋯**-Menü des Flugs und wähle **Schirm ändern**. Das ändert nur diesen einen Flug. Alle anderen Flüge bleiben unberührt.
 
 ---
 
@@ -68,9 +68,9 @@ Flüge sind standardmäßig **Solo**, außer We-Fly findet in deinem Flugbuch sc
 
 ### Den Typ von Hand ändern
 
-Auf der Seite Schirme hat jede Zeile eine Typauswahl. Klick darauf, um alle Flüge mit diesem Schirm zwischen Solo und Tandem umzustellen. Das ist eine **Sammelaktion**: Sie ändert jeden Flug mit diesem Schirmnamen in einem Rutsch.
+Auf der Seite Schirme hat jede Zeile eine Typauswahl. Klick darauf, um alle Flüge mit diesem Schirm zwischen Solo und Tandem umzustellen. Das ist eine **Sammelaktion**: Sie ändert jeden Flug mit diesem Schirmnamen in einem Rutsch, sobald du den neuen Typ auswählst.
 
-Bevor du bestätigst, sagt dir We-Fly genau, wie viele Flüge betroffen sind. Keine Überraschungen.
+Eine Meldung sagt dir dann, wie viele Flüge geändert wurden. Hatte der Schirm sowohl Solo- als auch Tandemflüge, bekommst du zusätzlich einen Hinweis, dass jetzt alle denselben neuen Typ haben.
 
 ---
 

@@ -158,10 +158,10 @@ Cette politique s’applique à toutes les données personnelles collectées, tr
 
 Les utilisateurs peuvent supprimer leur compte à tout moment depuis la page des réglages du profil :
 
-1. Aller dans Profil → Compte
-2. Cliquer sur le bouton « Supprimer le compte »
-3. Lire et confirmer les avertissements de suppression
-4. Saisir le mot de passe pour confirmer
+1. Aller dans Profil et ouvrir **Supprimer le compte** dans la section Compte
+2. Lire les avertissements de suppression
+3. Saisir son adresse e-mail pour confirmer
+4. Cliquer sur **Supprimer définitivement mon compte**
 5. Le compte et toutes les données associées sont définitivement supprimés
 
 **Ce qui est supprimé :**
@@ -257,7 +257,7 @@ Les utilisateurs peuvent demander à tout moment la suppression immédiate de le
 
 ### 6.2 Droit à la portabilité des données (article 20 du RGPD)
 
-Les utilisateurs peuvent exporter leurs données de vol dans des formats standard (IGC, GPX, KML) à tout moment depuis la page des vols.
+Les utilisateurs peuvent exporter leurs données à tout moment : **Exporter mes données**, dans la section Compte de leur profil, télécharge leurs fichiers IGC d’origine accompagnés de leurs enregistrements de vol, et chaque fichier IGC peut être téléchargé individuellement depuis les pages des vols.
 
 ### 6.3 Droit d’accès (article 15 du RGPD)
 
@@ -295,7 +295,7 @@ Lorsque cette politique est mise à jour :
 ### 8.1 Surveillance des tâches cron
 
 Les tâches cron qui appliquent la conservation sont surveillées au moyen :
-- Des journaux de tâches cron du tableau de bord Vercel
+- Des journaux de tâches cron du serveur
 - Des journaux de l’application pour les exécutions réussies
 - De la journalisation des erreurs pour les exécutions en échec
 

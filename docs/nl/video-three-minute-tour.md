@@ -12,12 +12,12 @@ updated: 2026-04-20
 
 Een video van 3 minuten is onderweg. We nemen er een op voor elk belangrijk onderdeel van de app (Cockpit, logboek, thermiekanalyse, community), zodat je de basis onder de knie hebt in de tijd die je nodig hebt om koffie te zetten.
 
-> **Binnenkort.** De video is gefilmd, maar wordt nog gemonteerd. Abonneer je op de [blog](/blog) om het te weten zodra hij online staat.
+> **Binnenkort.** De video is gefilmd, maar wordt nog gemonteerd. Hou [Wat is er nieuw](/doc/whats-new) in de gaten: daar kondigen we hem aan.
 
 ## Wat komt aan bod
 
 - Waar je je vluchten vindt
 - Hoe je de cijfers in de Cockpit leest
-- Je eerste thermiekanalyse opstellen
+- De thermiekanalyse van je eerste vlucht lezen
 
 Lees je liever dan dat je kijkt? De pagina [Welkom](/doc) behandelt hetzelfde in tekst.

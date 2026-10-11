@@ -38,19 +38,18 @@ Niet elke vlucht telt mee. Dit komt in aanmerking:
 
 ### Wat je ziet
 
+De tabel **Top 10 piloten**, met **Activiteit** geselecteerd:
+
 | Kolom | Wat het betekent |
 |--------|--------------|
-| Rang | Je plaats op de lijst |
+| # | Je plaats op de lijst |
 | Piloot | Voornaam L. (privacyvriendelijk) |
 | Vluchten | Totaal aantal geldige vluchten |
 | Uren | Totale vliegtijd van de geldige vluchten |
-| XC km | Totaal aantal overlandkilometers |
+| XC | Totale overlandafstand, in je afstandseenheid |
 | XC-score | Het getal dat je rang bepaalt |
-| Niveau | Je badge op basis van je totale aantal publieke vlieguren |
 
-### Het niveausysteem (korte versie)
-
-Je niveaubadge is gebaseerd op je **totale aantal publieke vlieguren** en gaat van Bronze Wing helemaal tot Titanium Wing. Het is een badge voor je vooruitgang, geen beoordeling van je kunnen: vlieg genoeg uren en je klimt door de niveaus. Zie het als airmiles, maar dan voor mensen die echt vliegen.
+De ranglijst aller tijden bovenaan de pagina gebruikt dezelfde geldige vluchten. Schakel ze tussen **XC-score**, **XC-afstand** en **Vliegtijd** om die piloten te herschikken volgens de meetwaarde die jij belangrijk vindt.
 
 ### Waar het op neerkomt
 
@@ -70,8 +69,8 @@ De efficiëntiescore combineert drie meetwaarden, die **even zwaar wegen**, met 
 
 | Meetwaarde | Wat ze beloont |
 |--------|----------------|
-| **Afstand per uur** (km/h) | Efficiënt terrein winnen: goede routeplanning, een sterke glijvlucht, weinig geschraap |
-| **Afstand per vlucht** (km) | Ver gaan als je gaat: je echt aan een XC wagen, niet afhaken bij de eerste tegenwind |
+| **Afstand per uur** | Efficiënt terrein winnen: goede routeplanning, een sterke glijvlucht, weinig geschraap |
+| **Afstand per vlucht** | Ver gaan als je gaat: je echt aan een XC wagen, niet afhaken bij de eerste tegenwind |
 | **Aantal geldige vluchten** | Opdagen: meer geldige vluchten betekent een regelmatigere inzet voor XC |
 
 Je samengestelde score is het gemiddelde van de drie z-scores:
@@ -88,7 +87,7 @@ Krijg je glazige ogen van z-scores, lees dan de [Gids z-scores voor piloten](/do
 |-------|-------|--------------|-------------------|
 | +2,0 of hoger | Groen | Ver boven het gemiddelde van de community | Je vliegt niet alleen, je *reist* |
 | +1,0 tot +2,0 | Groen | Duidelijk boven het gemiddelde | Efficiënte piloot, goede beslissingen |
-| -1,0 tot +1,0 | Neutraal | Rond het gemiddelde van de community | Normaal, gezond, hier is niets mis |
+| -1,0 tot +1,0 | Groen boven 0, rood eronder | Rond het gemiddelde van de community | Normaal, gezond, hier is niets mis |
 | -1,0 tot -2,0 | Rood | Onder het gemiddelde | Ruimte om je XC-efficiëntie te verbeteren |
 | -2,0 of lager | Rood | Ver onder het gemiddelde | Misschien veel tijd aan het hellingvliegen? |
 
@@ -144,7 +143,7 @@ Dat is zo bedoeld. De ranglijst Efficiëntie kan het niet schelen hoe *vaak* je 
 
 ### „Mijn score is negatief. Ben ik een slechte piloot?“
 
-Nee. Een negatieve score betekent dat je op die meetwaarden **onder het huidige gemiddelde van de community** zit. Het is relatief. Zit de community vol XC-wedstrijdpiloten, dan krijgt zelfs een sterke recreatieve piloot een negatieve score. Het zegt niets over je veiligheid, je kunnen in turbulentie, je landingsprecisie of je talent om na het vliegen een goede kroeg te kiezen.
+Nee. Een negatieve score betekent dat je op die drie meetwaarden **onder het huidige gemiddelde van de community** zit. Het is relatief. Zit de community vol XC-wedstrijdpiloten, dan krijgt zelfs een sterke recreatieve piloot een negatieve score. Het zegt niets over je veiligheid, je kunnen in turbulentie, je landingsprecisie of je talent om na het vliegen een goede kroeg te kiezen.
 
 ### „Waarom minimaal 10 km?“
 

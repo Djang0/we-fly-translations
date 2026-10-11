@@ -23,8 +23,8 @@ Tu panel de estadísticas de vuelo: tendencias, rendimiento y los números que i
 **[Análisis avanzado de térmicas](/doc/advanced-thermal-analysis)**
 Bucea en tu rendimiento en térmica: descubre qué ascensos valieron oro y cuáles fueron basura. Cada giro analizado, cada pitido del vario descifrado.
 
-**[Ajustes del análisis de térmicas](/doc/advanced-thermal-analysis-settings)**
-Los controles finos de la detección de térmicas: ajusta la sensibilidad, retoca los filtros y encuentra la configuración perfecta para tu estilo de vuelo.
+**[Cómo funciona la detección de térmicas](/doc/advanced-thermal-analysis-settings)**
+Los detalles finos de la detección de térmicas: qué señales lee el análisis, qué umbrales usa y por qué una subida cuenta o no como térmica.
 
 ### Datos y validación
 

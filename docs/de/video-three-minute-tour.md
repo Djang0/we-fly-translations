@@ -12,12 +12,12 @@ updated: 2026-04-20
 
 Ein dreiminütiges Video ist in Arbeit. Wir nehmen für jeden großen Bereich der App eins auf (Cockpit, Flugbuch, Thermikanalyse, Community), damit du die Grundlagen in der Zeit lernst, die ein Kaffee braucht.
 
-> **Bald verfügbar.** Das Video ist gedreht, wird aber noch geschnitten. Abonniere den [Blog](/blog), dann erfährst du sofort, wenn es online ist.
+> **Bald verfügbar.** Das Video ist gedreht, wird aber noch geschnitten. Behalte die [Neuigkeiten](/doc/whats-new) im Auge: Dort wird es angekündigt.
 
 ## Was drin ist
 
 - Wo du deine Flüge findest
 - Wie du die Zahlen im Cockpit liest
-- Wie du deinen ersten Thermikanalyse-Bericht erstellst
+- Wie du die Thermikanalyse deines ersten Flugs liest
 
 Wenn du lieber liest als schaust: Die Seite [Willkommen](/doc) deckt dasselbe als Text ab.

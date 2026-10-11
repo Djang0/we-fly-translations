@@ -19,10 +19,10 @@ Si tu voles avec **Flyskyhy** sur ton iPhone ou ton iPad, il peut maintenant con
 
 Tout repose sur un seul **mot de passe d’appareil** que tu génères dans We-Fly. Vois-le comme un double de clé taillé pour une seule appli. Tu perds ou tu vends ton téléphone, tu révoques cette clé-là sans toucher au reste.
 
-1. Va dans **Profil → Services connectés** et trouve la carte **« Synchro instrument et cloud »**.
+1. Va dans **Profil → Services connectés** et trouve la carte **« Synchro instrument et cloud (WebDAV) »**.
 2. Tape un nom d’appareil que tu reconnaîtras plus tard, comme `iPhone - Flyskyhy`. C’est *juste une étiquette pour toi* : elle n’est envoyée nulle part et Flyskyhy n’en a jamais besoin.
 3. Tape sur **Générer**. Un **mot de passe d’appareil** apparaît (il commence par `wf_key_`).
-4. **Copie-le tout de suite.** Il n’est affiché **qu’une seule fois**. Si tu fermes la fenêtre sans le copier, tu en génères simplement un nouveau, aucun souci. Tu le génères sur un ordi ? Tape sur **Scanner sur le téléphone** pour le récupérer avec l’appareil photo de ton téléphone au lieu de taper tous ces caractères.
+4. **Copie-le tout de suite.** Si tu cliques ailleurs, tu peux encore le recopier depuis la ligne de son appareil tant que cet onglet du navigateur reste ouvert. Si tu fermes l’onglet sans le copier, tu en génères simplement un nouveau, aucun souci. Tu le génères sur un ordi ? Tape sur **Scanner sur le téléphone** pour le récupérer avec l’appareil photo de ton téléphone au lieu de taper tous ces caractères.
 
 > **Tu synchronises déjà un vario en WebDAV ?** Alors tu as déjà un de ces mots de passe. Le *même* mot de passe d’appareil marche pour Flyskyhy. Pas besoin d’en créer un autre.
 
@@ -75,7 +75,7 @@ Copie ces trois valeurs, garde-les sous la main, et c’est parti.
 ## Dépannage / FAQ
 
 **Flyskyhy dit que le nom d’utilisateur ou le mot de passe est faux.**
-Neuf fois sur dix, c’est le mot de passe d’appareil : comme il n’est affiché qu’une fois, un copier-coller raté peut vite arriver. Retourne dans **Profil → Services connectés → Synchro instrument et cloud**, tape sur **Générer** pour en avoir un nouveau, et colle-le à nouveau dans Flyskyhy. Ton nom d’utilisateur, c’est ton **e-mail** We-Fly, pas un pseudo.
+Neuf fois sur dix, c’est le mot de passe d’appareil : il est long, et un copier-coller raté peut vite arriver. Retourne dans **Profil → Services connectés → Synchro instrument et cloud (WebDAV)**, tape sur **Générer** pour en avoir un nouveau, et colle-le à nouveau dans Flyskyhy. Ton nom d’utilisateur, c’est ton **e-mail** We-Fly, pas un pseudo.
 
 **Vérifie bien la Submit URL.**
 Elle doit être exactement `https://we-fly.cloud/api/leonardo/flight_submit.php`, avec `https://` au début et `/flight_submit.php` à la fin. Un `s` qui manque ou une faute de frappe à la fin, c’est l’autre suspect habituel.
@@ -84,7 +84,7 @@ Elle doit être exactement `https://we-fly.cloud/api/leonardo/flight_submit.php`
 Vérifie que l’envoi s’est vraiment terminé (que tu as du réseau), puis rafraîchis ta [page des vols](/flights). Si Flyskyhy a indiqué un succès, le vol est bien arrivé. Laisse un instant à la page et il apparaîtra.
 
 **Mon mot de passe est-il en sécurité ?**
-C’est un **mot de passe par appareil**, pas l’identifiant de ton compte. Il ne sert qu’à ajouter des vols, et tu peux **le révoquer à tout moment** depuis la même carte Services connectés. Ça coupe Flyskyhy instantanément sans toucher aux autres appareils. Tu vends ton téléphone ? Révoque d’abord.
+C’est un **mot de passe par appareil**, pas l’identifiant de ton compte. Il n’ouvre que ton dossier de vols (ajouter des vols, lire ceux qui s’y trouvent déjà) et ne peut jamais supprimer un vol ni toucher à ton compte. Tu peux **le révoquer à tout moment** depuis la même carte Services connectés. Ça coupe Flyskyhy instantanément sans toucher aux autres appareils. Tu vends ton téléphone ? Révoque d’abord.
 
 **Est-ce que ça supprime des vols ?**
 Jamais. Ça ne fait qu’*ajouter* des vols. C’est toi qui supprimes, dans l’appli We-Fly, volontairement. Rien de ce que fait Flyskyhy ne peut retirer un vol.

@@ -59,7 +59,7 @@ Z-Score = 2.45
 
 **Cosa significa 2,45?**
 - La durata media di Bassano è 2,45 deviazioni standard **sopra** la media
-- Nel Cockpit del pilota compare come il tuo **punteggio di prestazione**
+- Nel tuo **Cockpit** compare nella colonna **Z-score**
 - È statisticamente significativo (|z| > 2 = territorio dei valori anomali)
 - Traduzione: Bassano non è solo buono, è **davvero eccezionale**
 
@@ -121,7 +121,7 @@ Vuoi giustificare quelle 4 ore di macchina con il partner, il capo o la scusa de
 
 ### Nella dashboard Cockpit
 
-Quando guardi le statistiche **Decollo**, vedi un **punteggio di prestazione** per ogni sito (la colonna **Z-score**). È lo z-score, calcolato sulla **durata media dei tuoi voli per sito** (il rapporto tra ore totali e numero di voli).
+Quando apri la vista **Decollo** del tuo **Cockpit**, vedi uno **Z-score** per ogni decollo. È lo z-score, calcolato sulla **durata media dei tuoi voli per sito** (il rapporto tra ore totali e numero di voli).
 
 ```typescript
 // From src/lib/utils.ts
@@ -143,9 +143,10 @@ export function computeZScore(dataSerie: chartData[]) {
     let deviation = Math.sqrt(sum_deviations / dataSerie.length);
 
     // Calculate z-score: (this site's ratio - average) / std deviation
+    // (rounded to one decimal)
     dataSerie[indexx].z = deviation === 0
       ? 0
-      : (dataSerie[indexx].ratio - avg_ratio) / deviation;
+      : Number(((dataSerie[indexx].ratio - avg_ratio) / deviation).toFixed(1));
   }
 }
 ```
@@ -167,20 +168,22 @@ Significa:
 
 ### Un esempio reale dal tuo Cockpit
 
-Mettiamo che apri «Decollo» e vedi:
+Mettiamo che apri la vista **Decollo** e vedi:
 
-| Decollo | Ore totali | Voli | Media/volo | **Punteggio di prestazione** |
-|--------------|-------------|---------|------------|-----------------------|
-| Mont Blanc | 45,5 h | 8 | 5,69 h | **+2,84** 🌟 |
-| Collina di casa | 67,2 h | 42 | 1,60 h | **-0,52** 😐 |
-| Quella volta là | 3,2 h | 1 | 3,20 h | **+0,41** 🤷 |
+| Decollo | Voli | Ore totali | Media/volo | **Z-score** |
+|---------|------|------------|------------|-------------|
+| Mont Blanc | 8 | 45,5 h | 5,69 h | **2,80** 🌟 |
+| Collina di casa | 42 | 67,2 h | 1,60 h | **-0,50** 😐 |
+| Quella volta là | 1 | 3,2 h | 3,20 h | **0,40** 🤷 |
+
+Il Cockpit arrotonda ogni z-score a un decimale, quindi un sito a 2,84 compare come 2,80.
 
 **Cosa ti dice:**
-1. **Mont Blanc (z = +2,84):** accidenti, questo sito è un unicorno statistico. Ogni volta che voli qui hai quasi la garanzia di un volo lungo. Prenota l’Airbnb SUBITO.
+1. **Mont Blanc (z = +2,8):** accidenti, questo sito è un unicorno statistico. Ogni volta che voli qui hai quasi la garanzia di un volo lungo. Prenota l’Airbnb SUBITO.
 
-2. **Collina di casa (z = -0,52):** poco sotto la media, ma non terribile. È comoda e ci accumuli ore. Continua a usarla per allenarti, ma non aspettarti voli epici.
+2. **Collina di casa (z = -0,5):** poco sotto la media, ma non terribile. È comoda e ci accumuli ore. Continua a usarla per allenarti, ma non aspettarti voli epici.
 
-3. **Quella volta là (z = +0,41):** leggermente sopra la media, ma ci hai volato una volta sola. Potrebbe essere fortuna. Servono più dati prima di sapere se è davvero buono.
+3. **Quella volta là (z = +0,4):** leggermente sopra la media, ma ci hai volato una volta sola. Potrebbe essere fortuna. Servono più dati prima di sapere se è davvero buono.
 
 ---
 
@@ -280,7 +283,7 @@ Per capire quali decolli (o vele, mesi, paesi) sono **davvero eccezionali** e qu
 - **|z| < 1:** piuttosto normale (nella media)
 
 **Dove lo vedo?**
-Nella tua **dashboard Cockpit**, come punteggio di prestazione (colonna «Z-score») per decolli, vele, mesi, ecc.
+Nel tuo **Cockpit**, nella colonna **Z-score** delle viste **Decollo**, **Vela**, **Paese** e **Stagione**, e come metrica **Z-score** nella vista **Mese**.
 
 **Cosa ci faccio?**
 Usalo per decidere meglio dove volare, che attrezzatura usare e quando organizzare i viaggi. Lo z-score è il tuo gregario basato sui dati.

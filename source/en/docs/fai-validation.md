@@ -16,52 +16,50 @@ FAI (Fédération Aéronautique Internationale) is the world air sports federati
 Use FAI validation for:
 - **Competition flights** - Official contest verification
 - **Record claims** - World/national record attempts
-- **Official verification** - Proof of flight legitimacy
-- **Certification** - Badge and rating requirements
+- **Official verification** - Proof that the file was not altered
+- **Badge claims** - When a contest or federation asks for a signed track
 
 ### How It Works
 
-1. **Open flight** - Navigate to flight detail page
-2. **Click "Validate with FAI"** - Submit to FAI CIVL service
-3. **Processing** - IGC file sent to http://vali.fai-civl.org
-4. **Results** - Validation result returned
-5. **Storage** - Result stored with flight
+1. **Open your flight** - Validation is available on your own flights
+2. **Click "Validate flight (FAI)"** - The check icon in the flight's toolbar (on a phone, it sits in the **⋯** menu)
+3. **Confirm** - The **FAI Flight Validation** dialog explains what happens; click **Proceed**
+4. **Processing** - We-Fly sends the original IGC file, unchanged, to the FAI CIVL validation service (vali.fai-civl.org)
+5. **Results** - The button turns into **FAI validation passed** or **FAI validation failed**, and the result is stored with the flight
+
+Click the button again to open the **FAI Validation Result** dialog (status, message and the full validation data). To run the check again, use **Re-validate (FAI)** in the flight's **⋯** menu.
 
 ### Validation Results
 
 Two possible outcomes:
 
 #### PASSED
-- Flight is valid according to FAI rules
-- IGC file integrity confirmed
-- GPS track is legitimate
-- No tampering detected
-- Validation certificate available
+- The FAI service accepted the file
+- The IGC security record (G-record) matches the file content
+- The file has not been altered since the instrument signed it
 
 #### FAILED
-- Flight did not pass validation
+- The FAI service rejected the file
 - Possible reasons:
-  - IGC file integrity issues
-  - GPS track anomalies
+  - Missing or broken G-record (some apps and instruments do not sign their files)
+  - The file was edited after recording
+  - The instrument is not known to the FAI service
   - Invalid data format
-  - Suspected tampering
+
+The **Message** in the result dialog tells you what the service reported.
 
 ### What FAI Checks
 
-The FAI validation service verifies:
-- **G-record integrity** - Security signature validation
+The FAI validation service verifies the file itself, not your flying:
+- **G-record integrity** - The security signature written by the instrument
 - **File format** - Valid IGC structure
-- **GPS track continuity** - No gaps or jumps
-- **Data consistency** - Altitude, position, time correlation
-- **Instrument validation** - Known/approved GPS devices
+- **Instrument validation** - The signature is checked against the instrument maker's validation program
 
-### Validation Certificate
+It does not judge whether the flight was legal, scored correctly or safe.
 
-If flight passes:
-- Validation certificate link provided
-- Can be used for official submissions
-- Permanent record on FAI servers
-- Proof of legitimate flight
+### Where the Result Lives
+
+The validation result is saved with the flight in We-Fly, so you can open it again at any time. The FAI service itself returns a verdict, not a certificate: if a contest or record claim asks for proof, it usually wants the original IGC file, which We-Fly keeps byte for byte as you uploaded it.
 
 ### Important Notes
 
@@ -71,9 +69,10 @@ If flight passes:
 - Sharing flights with friends
 - Community features
 
-**FAI validation IS required for:**
+**A signed, valid IGC file is often required for:**
 - Official competitions
 - Record claims
-- Pilot certification/badges
-- Contest prize claims
+- Some contest and badge claims
+
+Check the rules of the contest or federation you submit to.
 

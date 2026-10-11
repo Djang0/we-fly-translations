@@ -176,6 +176,6 @@ De SkyDrop is een piepkleine, lichte logger die IGC-bestanden opneemt.
 
 ## Zodra je je IGC-bestanden hebt
 
-Ga naar [/upload](/upload), sleep je bestanden erin, en We-Fly doet de rest: statistieken, thermiek, het hele pakket. Upload tot 50 bestanden tegelijk als je een achterstand weg te werken hebt.
+Ga naar [/upload](/upload), sleep je bestanden erin, en We-Fly doet de rest: statistieken, thermiek, het hele pakket. Een achterstand weg te werken? Sleep een hele map erin: die wordt doorzocht op `.igc`-bestanden, en loop je tegen de limiet aan, dan wacht de rest in een wachtrij en wordt die automatisch geüpload.
 
 Blue skies en volle logboeken.

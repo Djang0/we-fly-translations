@@ -38,19 +38,18 @@ No todos los vuelos cuentan. Esto es lo que vale:
 
 ### Qué ves
 
+La tabla **Top 10 de pilotos**, con **Actividad** seleccionada:
+
 | Columna | Qué significa |
 |--------|--------------|
-| Puesto | Tu posición en la clasificación |
+| # | Tu posición en la clasificación |
 | Piloto | Nombre I. (respetuoso con la privacidad) |
 | Vuelos | Número total de vuelos válidos |
 | Horas | Tiempo de vuelo total en vuelos válidos |
-| XC km | Kilómetros totales de vuelo de distancia |
+| XC | Distancia total de vuelo de distancia, en tu unidad de distancia |
 | Puntuación XC | El número que determina tu puesto |
-| Nivel | Tu insignia según tus horas totales de vuelo público |
 
-### El sistema de niveles (versión rápida)
-
-Tu insignia de nivel se basa en tus **horas totales de vuelo público** y va desde Ala de Bronce hasta Ala de Titanio. Es una insignia de progresión, no una medida de habilidad: vuela suficientes horas y subirás de nivel. Piensa en ella como las millas de viajero frecuente, pero para gente que vuela de verdad.
+La clasificación histórica de la parte superior de la página usa los mismos vuelos válidos. Cámbiala entre **Puntuación XC**, **Distancia XC** y **Tiempo de vuelo** para reordenar a esos pilotos según la métrica que te interese.
 
 ### En resumen
 
@@ -70,8 +69,8 @@ La puntuación de eficiencia combina tres métricas, **con el mismo peso**, medi
 
 | Métrica | Qué premia |
 |--------|----------------|
-| **Distancia por hora** (km/h) | Avanzar con eficiencia: buena elección de ruta, buen planeo, poco rascar |
-| **Distancia por vuelo** (km) | Llegar lejos cuando sales: comprometerse de verdad con el vuelo de distancia, no rendirse al primer viento en contra |
+| **Distancia por hora** | Avanzar con eficiencia: buena elección de ruta, buen planeo, poco rascar |
+| **Distancia por vuelo** | Llegar lejos cuando sales: comprometerse de verdad con el vuelo de distancia, no rendirse al primer viento en contra |
 | **Número de vuelos válidos** | Aparecer: más vuelos válidos significa un compromiso más constante con el vuelo de distancia |
 
 Tu puntuación compuesta es la media de las tres puntuaciones z:
@@ -88,7 +87,7 @@ Si las puntuaciones z te dejan la mirada perdida, echa un vistazo a la [Guía de
 |-------|-------|--------------|-------------------|
 | +2,0 o más | Verde | Muy por encima de la media de la comunidad | No solo vuelas, *viajas* |
 | +1,0 a +2,0 | Verde | Claramente por encima de la media | Piloto eficiente, buenas decisiones |
-| -1,0 a +1,0 | Neutro | Alrededor de la media de la comunidad | Normal, sano, nada raro aquí |
+| -1,0 a +1,0 | Verde por encima de 0, rojo por debajo | Alrededor de la media de la comunidad | Normal, sano, nada raro aquí |
 | -1,0 a -2,0 | Rojo | Por debajo de la media | Margen de mejora en eficiencia de distancia |
 | -2,0 o menos | Rojo | Muy por debajo de la media | ¿Quizá pasas mucho tiempo en dinámica de ladera? |
 
@@ -144,7 +143,7 @@ Es así a propósito. A la clasificación de eficiencia no le importa *cuánto* 
 
 ### «Mi puntuación es negativa. ¿Soy un mal piloto?»
 
-No. Una puntuación negativa significa que estás **por debajo de la media actual de la comunidad** en esas métricas. Es relativa. Si la comunidad está llena de pilotos de competición de distancia, incluso un buen piloto de ocio saldrá en negativo. No dice nada de tu seguridad, de tu manejo en turbulencia, de tu precisión al aterrizar ni de tu habilidad para elegir bar después de volar.
+No. Una puntuación negativa significa que estás **por debajo de la media actual de la comunidad** en esas tres métricas. Es relativa. Si la comunidad está llena de pilotos de competición de distancia, incluso un buen piloto de ocio saldrá en negativo. No dice nada de tu seguridad, de tu manejo en turbulencia, de tu precisión al aterrizar ni de tu habilidad para elegir bar después de volar.
 
 ### «¿Por qué el mínimo de 10 km?»
 

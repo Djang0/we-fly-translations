@@ -22,7 +22,7 @@ Cada fila de tu lista de velas muestra:
 - **Vuelos**: número total de vuelos registrados con esa vela
 - **Duración**: tiempo de vuelo acumulado en todos esos vuelos
 
-Desde aquí puedes renombrar una vela y cambiar su tipo. Nada más, limpio y sencillo.
+Desde aquí puedes renombrar una vela, cambiar su tipo y darle un **Color de la fila en el libro de vuelo**. Pulsa una fila para desplegar su huella de vuelo, y usa **Comparar velas**, más abajo en la página, para poner varias velas una al lado de otra.
 
 ---
 
@@ -32,7 +32,7 @@ Hay tres sitios donde puedes cambiar el nombre de una vela en We-Fly, y el alcan
 
 ### Desde la página Velas: renombrar todo de una vez
 
-Pulsa **Renombrar** junto a cualquier vela, escribe el nuevo nombre y confirma. We-Fly cambia el nombre de la vela en **todos los vuelos** que tenían el nombre antiguo. ¿Quince vuelos registrados como «Rush 6»? Todos pasan a «Ozone Rush 6» de un plumazo. Es la herramienta adecuada cuando quieres limpiar un nombre en todo tu libro de vuelo.
+Pulsa el icono del lápiz junto a cualquier vela, escribe el **Nombre nuevo** y confirma. We-Fly cambia el nombre de la vela en **todos los vuelos** que tenían el nombre antiguo. ¿Quince vuelos registrados como «Rush 6»? Todos pasan a «Ozone Rush 6» de un plumazo. Es la herramienta adecuada cuando quieres limpiar un nombre en todo tu libro de vuelo.
 
 ### Desde tu lista de vuelos: renombrar solo los vuelos seleccionados
 
@@ -40,7 +40,7 @@ En `/flights`, selecciona uno o varios vuelos con las casillas. Aparece un menú
 
 ### Desde un vuelo concreto: renombrar un solo vuelo
 
-En la página de detalle de cualquier vuelo, abre el menú de acciones y elige **Cambiar vela**. Esto actualiza solo ese vuelo. Ningún otro vuelo se toca.
+En tu libro de vuelo, abre el menú **⋯** del vuelo y elige **Cambiar vela**. Esto actualiza solo ese vuelo. Ningún otro vuelo se toca.
 
 ---
 
@@ -68,9 +68,9 @@ Los vuelos son **solo** por defecto, salvo que We-Fly encuentre en tu libro de v
 
 ### Cambiar el tipo a mano
 
-En la página Velas, cada fila tiene un selector de tipo. Púlsalo para cambiar todos los vuelos de esa vela entre Solo y Biplaza. Es una **operación en bloque**: actualiza de una vez todos los vuelos con ese nombre de vela.
+En la página Velas, cada fila tiene un selector de tipo. Púlsalo para cambiar todos los vuelos de esa vela entre Solo y Biplaza. Es una **operación en bloque**: actualiza de una vez todos los vuelos con ese nombre de vela, en cuanto eliges el nuevo tipo.
 
-Antes de confirmar, We-Fly te dice exactamente cuántos vuelos se verán afectados. Sin sorpresas.
+Después, un mensaje te dice cuántos vuelos se han actualizado. Si la vela tenía vuelos solo y biplaza, también recibes un aviso de que ahora todos comparten el nuevo tipo.
 
 ---
 

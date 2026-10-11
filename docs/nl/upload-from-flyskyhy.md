@@ -19,10 +19,10 @@ Vlieg je met **Flyskyhy** op je iPhone of iPad? Dan kan die elke vlucht aan We-F
 
 Alles draait om één **apparaatwachtwoord** dat je in We-Fly aanmaakt. Zie het als een reservesleutel die speciaal voor één app is bijgemaakt. Raak je je telefoon kwijt of verkoop je hem, dan trek je die ene sleutel in zonder aan iets anders te komen.
 
-1. Ga naar **Profiel → Gekoppelde diensten** en zoek de kaart **„Instrument- en cloudsync“**.
+1. Ga naar **Profiel → Gekoppelde diensten** en zoek de kaart **„Instrument- en cloudsync (WebDAV)“**.
 2. Typ een apparaatnaam die je later herkent, zoals `iPhone - Flyskyhy`. Dat is *alleen een label voor jezelf*; het wordt nergens heen gestuurd en Flyskyhy heeft het nooit nodig.
 3. Tik op **Aanmaken**. Er verschijnt een **apparaatwachtwoord** (het begint met `wf_key_`).
-4. **Kopieer het meteen.** Het wordt **maar één keer** getoond. Sluit je het venster zonder te kopiëren, dan maak je gewoon een nieuw aan, geen probleem. Maak je het aan op een laptop? Tik op **Scannen met telefoon** om het met de camera van je telefoon over te nemen in plaats van al die tekens over te typen.
+4. **Kopieer het meteen.** Klik je weg, dan blijft het opnieuw te kopiëren vanuit de rij van het apparaat, zolang dit browsertabblad open blijft. Sluit je het tabblad zonder te kopiëren, dan maak je gewoon een nieuw aan, geen probleem. Maak je het aan op een laptop? Tik op **Scannen met telefoon** om het met de camera van je telefoon over te nemen in plaats van al die tekens over te typen.
 
 > **Synchroniseer je al een vario via WebDAV?** Dan heb je er al zo een. *Hetzelfde* apparaatwachtwoord werkt voor Flyskyhy. Je hoeft geen nieuw te maken.
 
@@ -75,7 +75,7 @@ Kopieer die drie, houd ze bij de hand en je bent klaar.
 ## Problemen oplossen / FAQ
 
 **Flyskyhy zegt dat de gebruikersnaam of het wachtwoord fout is.**
-Negen keer op de tien is het het apparaatwachtwoord: het wordt maar één keer getoond, dus een verkeerde copy-paste kan je parten spelen. Ga terug naar **Profiel → Gekoppelde diensten → Instrument- en cloudsync**, tik op **Aanmaken** voor een nieuw wachtwoord en plak het opnieuw in Flyskyhy. Je gebruikersnaam is je We-Fly-**e-mailadres**, geen bijnaam.
+Negen keer op de tien is het het apparaatwachtwoord: het is lang, en een verkeerde copy-paste kan je parten spelen. Ga terug naar **Profiel → Gekoppelde diensten → Instrument- en cloudsync (WebDAV)**, tik op **Aanmaken** voor een nieuw wachtwoord en plak het opnieuw in Flyskyhy. Je gebruikersnaam is je We-Fly-**e-mailadres**, geen bijnaam.
 
 **Controleer de Submit URL nog eens.**
 Die moet precies `https://we-fly.cloud/api/leonardo/flight_submit.php` zijn, met `https://` vooraan en eindigend op `/flight_submit.php`. Een ontbrekende `s` of een tikfout op het einde is de andere gebruikelijke boosdoener.
@@ -84,7 +84,7 @@ Die moet precies `https://we-fly.cloud/api/leonardo/flight_submit.php` zijn, met
 Controleer of de upload echt klaar is (je hebt bereik), en vernieuw dan je [vluchtenpagina](/flights). Meldde Flyskyhy dat het gelukt is, dan is de vlucht binnen. Geef de pagina even de tijd en ze verschijnt.
 
 **Is mijn wachtwoord veilig?**
-Het is een **wachtwoord per apparaat**, niet de login van je account. Het werkt alleen om vluchten toe te voegen, en je kunt het **op elk moment intrekken** via dezelfde kaart bij Gekoppelde diensten. Dat sluit Flyskyhy meteen af en laat al je andere apparaten ongemoeid. Verkoop je je telefoon? Trek het eerst in.
+Het is een **wachtwoord per apparaat**, niet de login van je account. Het opent alleen je vluchtenmap (vluchten toevoegen, de vluchten die er al staan lezen) en kan nooit een vlucht verwijderen of aan je account komen. Je kunt het **op elk moment intrekken** via dezelfde kaart bij Gekoppelde diensten. Dat sluit Flyskyhy meteen af en laat al je andere apparaten ongemoeid. Verkoop je je telefoon? Trek het eerst in.
 
 **Verwijdert dit vluchten?**
 Nooit. Dit *voegt* alleen vluchten toe. Verwijderen doe jij, in de We-Fly-app, bewust. Niets wat Flyskyhy doet kan een vlucht weghalen.

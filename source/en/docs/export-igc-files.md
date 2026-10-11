@@ -176,6 +176,6 @@ SkyDrop is a tiny, lightweight logger that records IGC files.
 
 ## Once you have your IGC files
 
-Head to [/upload](/upload), drop your files in, and We-Fly handles the rest: stats, thermals, the works. Upload up to 50 files at a time if you've got a backlog to clear.
+Head to [/upload](/upload), drop your files in, and We-Fly handles the rest: stats, thermals, the works. Got a backlog to clear? Drop a whole folder: it's scanned for `.igc` files, and if you hit the rate limit the rest wait in a queue and upload automatically.
 
 Blue skies and full logbooks.

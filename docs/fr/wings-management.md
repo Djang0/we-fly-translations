@@ -22,7 +22,7 @@ Chaque ligne de ta liste de voiles affiche :
 - **Vols** : le nombre total de vols enregistrés avec cette voile
 - **Durée** : le temps de vol cumulé sur tous ces vols
 
-De là, tu peux renommer une voile et changer son type. C’est tout, simple et propre.
+De là, tu peux renommer une voile, changer son type et lui donner une **Couleur de ligne dans le carnet**. Clique sur une ligne pour déplier son empreinte de vol, et utilise **Comparer des voiles** plus bas sur la page pour mettre plusieurs voiles côte à côte.
 
 ---
 
@@ -32,7 +32,7 @@ Il y a trois endroits où modifier un nom de voile dans We-Fly, et chacun a une 
 
 ### Depuis la page Voiles : tout renommer d’un coup
 
-Appuie sur **Renommer** à côté d’une voile, tape le nouveau nom, confirme. We-Fly met à jour le nom de la voile sur **tous les vols** qui portaient l’ancien nom. Quinze vols enregistrés sous « Rush 6 » ? Ils deviennent tous « Ozone Rush 6 » d’un seul coup. C’est le bon outil pour nettoyer un nom dans tout ton carnet de vol.
+Clique sur l’icône crayon à côté d’une voile, tape le **Nouveau nom**, confirme. We-Fly met à jour le nom de la voile sur **tous les vols** qui portaient l’ancien nom. Quinze vols enregistrés sous « Rush 6 » ? Ils deviennent tous « Ozone Rush 6 » d’un seul coup. C’est le bon outil pour nettoyer un nom dans tout ton carnet de vol.
 
 ### Depuis ta liste de vols : renommer seulement les vols sélectionnés
 
@@ -40,7 +40,7 @@ Sur `/flights`, sélectionne un ou plusieurs vols avec les cases à cocher. Un m
 
 ### Depuis un vol : renommer un seul vol
 
-Sur la page de détail d’un vol, ouvre le menu des actions et choisis **Changer de voile**. Seul ce vol est mis à jour. Aucun autre vol n’est touché.
+Dans ton carnet de vol, ouvre le menu **⋯** du vol et choisis **Changer de voile**. Seul ce vol est mis à jour. Aucun autre vol n’est touché.
 
 ---
 
@@ -68,9 +68,9 @@ Les vols sont en **solo** par défaut, sauf si We-Fly trouve dans ton carnet un 
 
 ### Changer le type à la main
 
-Sur la page Voiles, chaque ligne a un sélecteur de type. Clique dessus pour basculer tous les vols de cette voile entre Solo et Biplace. C’est une **opération groupée** : elle met à jour d’un coup tous les vols portant ce nom de voile.
+Sur la page Voiles, chaque ligne a un sélecteur de type. Clique dessus pour basculer tous les vols de cette voile entre Solo et Biplace. C’est une **opération groupée** : elle met à jour d’un coup tous les vols portant ce nom de voile, dès que tu choisis le nouveau type.
 
-Avant que tu confirmes, We-Fly t’indique exactement combien de vols seront touchés. Pas de surprise.
+Un message t’indique ensuite combien de vols ont été mis à jour. Si la voile avait à la fois des vols solo et biplace, tu reçois aussi un avertissement : ils partagent tous désormais le nouveau type.
 
 ---
 

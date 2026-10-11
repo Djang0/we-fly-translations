@@ -23,8 +23,8 @@ La dashboard delle tue statistiche di volo: tendenze, prestazioni e i numeri che
 **[Analisi avanzata delle termiche](/doc/advanced-thermal-analysis)**
 Un’immersione profonda nelle tue prestazioni in termica: scopri quali salite erano oro e quali spazzatura. Ogni virata analizzata, ogni bip del vario decifrato.
 
-**[Impostazioni dell’analisi delle termiche](/doc/advanced-thermal-analysis-settings)**
-I comandi di dettaglio per il rilevamento delle termiche: regola la sensibilità, sistema i filtri e trova le impostazioni perfette per il tuo stile di volo.
+**[Come funziona il rilevamento delle termiche](/doc/advanced-thermal-analysis-settings)**
+I dettagli del rilevamento delle termiche: quali segnali legge l’analisi, le soglie che usa e perché una salita conta o non conta come termica.
 
 ### Dati e validazione
 

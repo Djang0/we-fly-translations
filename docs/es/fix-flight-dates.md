@@ -13,10 +13,10 @@ Tu track, tus horarios y tus puntuaciones están bien. Solo la fecha está mal, 
 
 ## Corregir un vuelo
 
-Abre el menú **⋯** del vuelo y elige **Cambiar fecha**.
+En tu libro de vuelo, abre el menú **⋯** del vuelo y elige **Cambiar fecha**.
 
-- Si la fecha parece invertida, We-Fly muestra una **corrección sugerida** junto a la fecha actual. Un toque y queda aplicada.
-- Si no, elige el día correcto en el calendario. La hora del vuelo no cambia; solo cambia el día.
+- Si la fecha parece invertida, We-Fly muestra **Hay una corrección sugerida** con la fecha corregida. Toca **Usar la fecha sugerida** y luego **Guardar fecha**.
+- Si no, elige el día correcto en el calendario y toca **Guardar fecha**. La hora del vuelo no cambia; solo cambia el día.
 
 ## Corregir muchos vuelos a la vez
 

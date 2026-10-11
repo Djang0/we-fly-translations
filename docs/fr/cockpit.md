@@ -12,25 +12,32 @@ Ouvre le [Cockpit](/cockpit) pour voir toutes tes statistiques de vol.
 
 ## Les vues du Cockpit
 
-Le Cockpit propose six vues différentes, chacune avec son propre éclairage :
+Le Cockpit propose onze vues, chacune avec son propre éclairage :
 
 1. **Vue d’ensemble** : statistiques et totaux sur les données filtrées
-2. **Voile** : performances détaillées par voile
-3. **Saison** : comparaison d’une année sur l’autre
-4. **Pays** : statistiques de tes vols à l’étranger
-5. **Décollage** : statistiques par site avec scores de performance
-6. **Mois** : détail mensuel et tendances saisonnières
+2. **Tendances** : ta pratique dans le temps, du jour par jour à l’année par année
+3. **Enroulement** : taux de montée, enroulement et qualité des thermiques, saison par saison
+4. **Phases** : comment ton temps de vol se répartit entre thermique, recherche, transition et flottement
+5. **Voile** : répartition du temps de vol par voile
+6. **Décollage** : statistiques par site avec z-scores
+7. **Pays** : statistiques de tes vols à l’étranger
+8. **Saison** : comparaison d’une année sur l’autre
+9. **Mois** : détail mensuel et tendances saisonnières
+10. **CIVL** : ton classement mondial CIVL
+11. **Carte** : tes décollages sur une carte
 
 ### Navigation
 
-- Utilise les onglets principaux pour passer d’une vue à l’autre
+- Choisis une vue dans le menu du Cockpit
 - Chaque vue porte sur les [données filtrées](./data-filters.md)
 
 ## Statistiques de la vue d’ensemble
 
-La page Vue d’ensemble du [Cockpit](/cockpit) affiche les statistiques de vol de tes [données filtrées](./data-filters.md).
+La page Vue d’ensemble du [Cockpit](/cockpit) affiche les statistiques de vol de tes [données filtrées](./data-filters.md). Chaque distance, altitude et vitesse s’affiche dans les unités choisies dans ton profil.
 
 ### Totaux de vol
+
+Le bandeau en haut te donne les quatre chiffres clés :
 
 #### Total des vols
 - **Définition** : nombre de tous les vols de ton carnet
@@ -40,72 +47,88 @@ La page Vue d’ensemble du [Cockpit](/cockpit) affiche les statistiques de vol 
 - **Unité** : heures et minutes
 - **Calcul** : somme de tous les écarts (heure d’atterrissage moins heure de décollage)
 
-#### Temps d’enroulement total
-- **Définition** : temps total passé à enrouler dans les thermiques
-- **Unité** : heures et minutes
-- **Détail** : réparti entre enroulement à gauche et à droite
+#### Distance
+- **Définition** : longueur de trace totale, tous vols confondus
 
-#### Temps de transition total
-- **Définition** : temps total passé en vol rectiligne
-- **Unité** : heures et minutes
-- **Interprétation** : plus de temps en transition = cross plus efficace
+#### Vol le plus long
+- **Définition** : ton plus long temps de vol
+- **Affichage** : durée ; clique dessus pour ouvrir ce vol
+
+#### Efficacité en vol
+- **Définition** : temps passé à enrouler dans les thermiques (**Enroulement**) comparé au temps passé en vol rectiligne (**Transition**)
+- **Unité** : heures et minutes, avec la répartition en pourcentage
+
+#### Équilibre d’enroulement
+- **Définition** : comment ton temps d’enroulement se répartit entre **Virages à gauche** et **Virages à droite**
+
+#### Répartition solo / biplace
+- **Définition** : comment ton temps de vol se répartit entre vols **Solo** et **Biplace** (affiché seulement si tu as des vols en biplace)
 
 ### Distance et score
 
 Toutes les distances et tous les scores de cross sont calculés par la bibliothèque open source [igc-xc-score
 ](https://github.com/mmomtchev/igc-xc-score), créée et maintenue par [Momtchil Momtchev](https://github.com/mmomtchev).
 
-#### Distance de cross totale
+#### Distance en cross
 - **Définition** : somme de toutes tes distances de cross au score
-- **Unité** : kilomètres
 - **Usage** : suivre l’ensemble de tes réalisations en cross
 
-#### Total des points de cross
+#### Points cross
 - **Définition** : somme de tous tes scores XContest
 - **Inclut** : tous les coefficients (distance libre, triangles)
 - **Usage** : comparer tes performances en cross dans le temps
 
-#### Longueur de trace totale
+#### Longueur de trace
 - **Définition** : somme de toutes les distances de trace GPS
-- **Unité** : kilomètres
-- **Toujours > distance de cross totale** : inclut tous les tours et les détours
+- **Toujours > distance en cross** : inclut tous les tours et les détours
 
-### Records personnels
+### Records perso
 
-#### Distance de cross max
-- **Définition** : ton plus long vol de cross au score
-- **Affichage** : distance et date
-- **Réussite** : ton record perso en cross !
-
-#### Points de cross max
-- **Définition** : meilleur score XContest sur un seul vol
-- **Affichage** : points et date
-- **Remarque** : peut différer de la distance max (à cause des coefficients des triangles)
+Chaque record renvoie au vol dont il vient : clique sur la valeur pour l’ouvrir.
 
 #### Altitude max
 - **Définition** : altitude la plus haute atteinte, tous vols confondus
-- **Unité** : mètres au-dessus du niveau de la mer
-- **Affichage** : altitude
+- **Unité** : au-dessus du niveau de la mer
 
 #### Gain d’altitude max
 - **Définition** : plus grand gain d’altitude sur un seul vol
-- **Unité** : mètres
 - **Calcul** : altitude max moins altitude min
 
-#### Thermique le plus fort
-- **Définition** : meilleur taux de montée jamais rencontré
-- **Unité** : mètres par seconde (m/s)
-- **Affichage** : taux de montée
-
 #### Vitesse max
-- **Définition** : vitesse sol la plus élevée enregistrée
-- **Unité** : kilomètres par heure (km/h)
+- **Définition** : vitesse sol la plus élevée tenue pendant 5 secondes, pics GPS filtrés
 - **Remarque** : inclut l’effet du vent
 
-#### Durée max
-- **Définition** : ton plus long temps de vol
-- **Unité** : heures et minutes
-- **Affichage** : durée et date
+#### Meilleure distance en cross
+- **Définition** : ton plus long vol de cross au score
+- **Réussite** : ton record perso en cross !
+
+#### Meilleur score cross
+- **Définition** : meilleur score XContest sur un seul vol
+- **Remarque** : peut différer de la meilleure distance (à cause des coefficients des triangles)
+
+#### Remontée de bas la plus basse
+- **Définition** : le point le plus bas (en hauteur sol) d’où tu es remonté, et la hauteur que tu as regagnée
+
+### Indicateurs de performance
+
+- **Durée méd. d’un tour** : durée médiane d’un 360°
+- **Rayon méd. d’un tour** : rayon de virage médian en enroulement
+- **Facteur de charge médian** : facteur de charge (voir le [guide du facteur de charge pour pilotes](/doc/g-factor-pilot-guide))
+- **Pic du thermique le plus fort** : meilleur taux de montée, tenu sur 5 secondes ; clique dessus pour aller directement à ce thermique
+
+## Vue Tendances
+
+Va sur **/cockpit?view=trends** pour voir comment ta pratique évolue dans le temps.
+
+Choisis un **Indicateur** (**Temps de vol**, **Vols**, **Distance moy.**, **Temps de vol moy.**, **Vitesse moy.**), un **Intervalle** (**Jour**, **Semaine**, **Mois**, **Année**), une **Période** (**30 jours**, **12 mois**, **Cette année**, **Tout**) et une **Répartition** (**Total** ou **Par voile**). Bascule l’**Affichage** entre **Graphique** et **Tableau**. Clique sur une colonne pour ouvrir ses vols dans le carnet.
+
+## Vue Enroulement
+
+Va sur **/cockpit?view=thermaling** pour tes statistiques de montée sur tous les thermiques des vols filtrés : **Montée médiane**, **Meilleure montée**, **Gain médian**, **Thermiques/h**, **Temps d’enroulement**, durée et rayon des tours, et **Remontées de bas**. Les graphiques saison par saison sont regroupés sous **Efficacité**, **Volume**, **Technique** et **Maîtrise**.
+
+## Vue Phases
+
+Va sur **/cockpit?view=phases** pour voir comment ton temps de vol se répartit entre **Thermique**, **Recherche**, **Transition** et **Flottement**, avec ta **Finesse médiane**, ta **Vitesse médiane en transition** et tes **Tours / min**, saison par saison.
 
 ## Vue par mois
 
@@ -113,11 +136,9 @@ Va sur **/cockpit?view=month** pour voir les statistiques mensuelles.
 
 ### Détail mensuel
 
-Pour chaque mois avec des vols :
-- Nombre total de vols ce mois-là
-- Distance totale
-- Points totaux
-- Moyennes des indicateurs de vol
+- **Mois les plus actifs** : tes mois les plus chargés, avec le **Total des vols** toutes années confondues, ton **Année la plus active** et l’**Activité par année**
+- **Analyse visuelle** : **Durée**, **Nombre** et **Score z** par mois, pour chaque année, en barres **Groupé** ou **Empilé**
+- **Détail mensuel par année** : un tableau mois par année de tes vols
 
 ### Tendances saisonnières
 
@@ -130,7 +151,7 @@ Repère les tendances :
 
 - **Planifier ta saison** : vois quand tu voles le mieux en général
 - **Suivre ta régularité** : combien de mois par an es-tu actif ?
-- **Identifier ta haute saison** : quand réalises-tu tes meilleures distances de cross ?
+- **Identifier ta haute saison** : quand accumules-tu le plus de temps de vol ?
 
 ## Vue par saison (année)
 
@@ -138,17 +159,19 @@ Va sur **/cockpit?view=season** pour voir les statistiques annuelles.
 
 ### Comparaison d’une année sur l’autre
 
-Pour chaque saison (année) :
-- Nombre total de vols
-- Distance et points de cross totaux
-- Moyennes des indicateurs de vol
-- Records personnels de l’année
+Pour chaque saison (année), le tableau affiche :
+- **Vols**
+- **Heures totales**
+- **Moy./vol** (heures par vol)
+- **Score z** du temps de vol moyen
+
+Le graphique au-dessus te permet de comparer les saisons par **Durée**, **Nombre** ou **Score z**.
 
 ### Suivi de la progression
 
 Compare les années pour voir :
 - Est-ce que tu voles plus ?
-- Est-ce que tes distances de cross augmentent ?
+- Est-ce que tes vols s’allongent ?
 - Comment se comparent les différentes années ?
 
 ### Cas d’usage
@@ -159,22 +182,20 @@ Compare les années pour voir :
 
 ## Vue par voile
 
-Va sur **/cockpit?view=glider** pour comparer les performances de tes voiles.
+Va sur **/cockpit?view=glider** pour comparer tes voiles.
 
 ### Statistiques par voile
 
 Pour chaque voile de ton carnet :
-- Nombre de vols
-- Distance et points totaux
-- Distance de cross moyenne
-- Durée de vol moyenne
-- Distance max réalisée
-- Taux de montée moyens
+- **Vols**
+- **Heures totales**
+- **Moy./vol** (heures par vol)
+- **Score z** du temps de vol moyen
 
 ### Comparer tes voiles
 
 Réponds à des questions comme :
-- Quelle voile me donne les meilleures performances en cross ?
+- Quelle voile me garde le plus longtemps en l’air ?
 - Comment se comparent mes différentes voiles ?
 - Quelle voile est-ce que je vole le plus souvent ?
 
@@ -190,24 +211,31 @@ Va sur **/cockpit?view=takeoff** pour analyser tes performances site par site.
 
 ### Statistiques par site
 
-Pour chaque décollage :
-- Nombre de vols depuis ce site
-- Distance de cross totale
-- Distance de cross moyenne
-- Distance max depuis ce site
-- **Score de performance (Z-score)** : détection statistique des valeurs atypiques (voir : [Guide du Z-score pour pilotes](/doc/z-score-pilot-guide))
+Pour chaque décollage, un tableau triable affiche :
+- **Vols** depuis ce site
+- **Heures totales**
+- **Moy./vol** (heures par vol)
+- **Score z** : détection statistique des valeurs atypiques (voir : [Guide du Z-score pour pilotes](/doc/z-score-pilot-guide))
 
 ## Vue par pays
 
-Va sur **/cockpit/?view=country** pour voir tes statistiques internationales.
+Va sur **/cockpit?view=country** pour voir tes statistiques internationales.
 
 ### Statistiques par pays
 
 Pour chaque pays où tu as volé :
-- Nombre de vols
-- Distance de cross totale
-- Moyennes des indicateurs
-- Meilleurs sites de ce pays
+- **Vols**
+- **Heures totales**
+- **Moy./vol** (heures par vol)
+- **Score z** du temps de vol moyen
+
+## Vue CIVL
+
+Va sur **/cockpit?view=civl** pour voir ton classement CIVL (mondial, européen et national) et son historique. Ajoute d’abord ton identifiant CIVL dans les réglages de ton profil.
+
+## Vue Carte
+
+Va sur **/cockpit?view=map** pour voir sur une carte chaque décollage d’où tu as volé, avec le nombre de vols pour chacun.
 
 ## Conseils et bonnes pratiques
 

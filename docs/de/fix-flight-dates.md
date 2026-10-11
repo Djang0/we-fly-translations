@@ -13,10 +13,10 @@ Dein Track, die Uhrzeiten und die Wertung stimmen. Nur das Datum ist falsch, und
 
 ## Einen Flug korrigieren
 
-Öffne das **⋯**-Menü des Flugs und wähle **Datum ändern**.
+Öffne in deinem Flugbuch das **⋯**-Menü des Flugs und wähle **Datum ändern**.
 
-- Sieht das Datum vertauscht aus, zeigt We-Fly neben dem aktuellen Datum einen **Korrekturvorschlag** an. Ein Tippen übernimmt ihn.
-- Andernfalls wählst du den richtigen Tag im Kalender. Die Uhrzeit des Flugs bleibt gleich, nur der Tag ändert sich.
+- Sieht das Datum vertauscht aus, zeigt We-Fly **Korrekturvorschlag verfügbar** mit dem korrigierten Datum an. Tippe auf **Vorschlag übernehmen** und dann auf **Datum speichern**.
+- Andernfalls wählst du den richtigen Tag im Kalender und tippst auf **Datum speichern**. Die Uhrzeit des Flugs bleibt gleich, nur der Tag ändert sich.
 
 ## Viele Flüge auf einmal korrigieren
 

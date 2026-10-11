@@ -176,6 +176,6 @@ Le SkyDrop est un petit enregistreur ultraléger qui produit des fichiers IGC.
 
 ## Une fois tes fichiers IGC en main
 
-Va sur [/upload](/upload), dépose tes fichiers, et We-Fly s’occupe du reste : stats, thermiques, la totale. Tu peux importer jusqu’à 50 fichiers à la fois si tu as du retard à rattraper.
+Va sur [/upload](/upload), dépose tes fichiers, et We-Fly s’occupe du reste : stats, thermiques, la totale. Tu as du retard à rattraper ? Dépose un dossier entier : on y cherche les fichiers `.igc`, et si tu atteins la limite d’envoi, le reste patiente dans une file d’attente et s’importe automatiquement.
 
 Bons vols, et des carnets bien remplis.

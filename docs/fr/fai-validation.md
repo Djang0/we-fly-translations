@@ -16,52 +16,50 @@ La FAI (Fédération Aéronautique Internationale) est la fédération mondiale 
 Utilise la validation FAI pour :
 - **Les vols de compétition** : vérification officielle en compète
 - **Les demandes de record** : tentatives de record du monde ou national
-- **La vérification officielle** : preuve que ton vol est authentique
-- **La certification** : exigences pour les badges et les qualifications
+- **La vérification officielle** : preuve que le fichier n’a pas été modifié
+- **Les demandes de badge** : quand une compétition ou une fédération demande une trace signée
 
 ### Comment ça marche
 
-1. **Ouvre le vol** : va sur la page de détail du vol
-2. **Clique sur « Valider le vol (FAI) »** : envoi au service CIVL de la FAI
-3. **Traitement** : le fichier IGC est envoyé à http://vali.fai-civl.org
-4. **Résultats** : le résultat de la validation revient
-5. **Stockage** : le résultat est enregistré avec le vol
+1. **Ouvre ton vol** : la validation est disponible sur tes propres vols
+2. **Clique sur « Valider le vol (FAI) »** : l’icône de coche dans la barre d’outils du vol (sur téléphone, elle se trouve dans le menu **⋯**)
+3. **Confirme** : la fenêtre **Validation FAI du vol** explique ce qui va se passer ; clique sur **Continuer**
+4. **Traitement** : We-Fly envoie le fichier IGC d’origine, sans modification, au service de validation CIVL de la FAI (vali.fai-civl.org)
+5. **Résultats** : le bouton devient **Validation FAI réussie** ou **Validation FAI échouée**, et le résultat est enregistré avec le vol
+
+Clique à nouveau sur le bouton pour ouvrir la fenêtre **Résultat de la validation FAI** (statut, message et données complètes de la validation). Pour relancer la vérification, utilise **Revalider (FAI)** dans le menu **⋯** du vol.
 
 ### Résultats de la validation
 
 Deux issues possibles :
 
 #### PASSED (validé)
-- Le vol est valide selon les règles de la FAI
-- L’intégrité du fichier IGC est confirmée
-- La trace GPS est authentique
-- Aucune falsification détectée
-- Un certificat de validation est disponible
+- Le service de la FAI a accepté le fichier
+- L’enregistrement de sécurité IGC (enregistrement G) correspond au contenu du fichier
+- Le fichier n’a pas été modifié depuis que l’instrument l’a signé
 
 #### FAILED (échec)
-- Le vol n’a pas passé la validation
+- Le service de la FAI a rejeté le fichier
 - Raisons possibles :
-  - Problèmes d’intégrité du fichier IGC
-  - Anomalies dans la trace GPS
+  - Enregistrement G absent ou cassé (certaines applis et certains instruments ne signent pas leurs fichiers)
+  - Le fichier a été modifié après l’enregistrement
+  - L’instrument n’est pas connu du service de la FAI
   - Format de données invalide
-  - Falsification suspectée
+
+Le **Message** de la fenêtre de résultat t’indique ce que le service a signalé.
 
 ### Ce que la FAI vérifie
 
-Le service de validation de la FAI contrôle :
-- **L’intégrité de l’enregistrement G** : vérification de la signature de sécurité
+Le service de validation de la FAI contrôle le fichier lui-même, pas ta façon de voler :
+- **L’intégrité de l’enregistrement G** : la signature de sécurité écrite par l’instrument
 - **Le format du fichier** : structure IGC valide
-- **La continuité de la trace GPS** : ni trous ni sauts
-- **La cohérence des données** : corrélation entre altitude, position et heure
-- **La validation de l’instrument** : appareils GPS connus et homologués
+- **La validation de l’instrument** : la signature est vérifiée avec le programme de validation du fabricant de l’instrument
 
-### Certificat de validation
+Il ne juge pas si le vol était réglementaire, correctement scoré ou sûr.
 
-Si le vol passe :
-- Un lien vers le certificat de validation est fourni
-- Il peut servir pour les déclarations officielles
-- Il est conservé de façon permanente sur les serveurs de la FAI
-- C’est une preuve que ton vol est authentique
+### Où se trouve le résultat
+
+Le résultat de la validation est enregistré avec le vol dans We-Fly, tu peux donc le rouvrir à tout moment. Le service de la FAI rend un verdict, pas un certificat : si une compétition ou une demande de record exige une preuve, elle veut en général le fichier IGC d’origine, que We-Fly conserve octet pour octet tel que tu l’as importé.
 
 ### À savoir
 
@@ -71,8 +69,9 @@ Si le vol passe :
 - Partager tes vols avec tes potes
 - Les fonctions de la communauté
 
-**La validation FAI EST nécessaire pour :**
+**Un fichier IGC signé et valide est souvent exigé pour :**
 - Les compétitions officielles
 - Les demandes de record
-- Les qualifications et badges de pilote
-- Réclamer un prix de compétition
+- Certaines demandes de compétition et de badge
+
+Vérifie le règlement de la compétition ou de la fédération à laquelle tu soumets ton vol.

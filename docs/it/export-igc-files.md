@@ -176,6 +176,6 @@ SkyDrop è un logger minuscolo e leggerissimo che registra file IGC.
 
 ## Quando hai i tuoi file IGC
 
-Vai su [/upload](/upload), trascina dentro i file e We-Fly pensa al resto: statistiche, termiche, tutto quanto. Puoi caricare fino a 50 file alla volta se hai un arretrato da smaltire.
+Vai su [/upload](/upload), trascina dentro i file e We-Fly pensa al resto: statistiche, termiche, tutto quanto. Hai un arretrato da smaltire? Trascina un’intera cartella: viene scansionata alla ricerca dei file `.igc` e, se raggiungi il limite di caricamento, i restanti aspettano in coda e si caricano da soli.
 
 Cieli blu e libretti pieni.

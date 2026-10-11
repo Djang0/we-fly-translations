@@ -74,7 +74,7 @@ Jede Zelle (TAS, Vario) ist nach **mittlerem Netto** eingefärbt (Vario minus an
 Im Grunde eine Heatmap dafür, wie dich die Atmosphäre bei jeder Geschwindigkeit behandelt hat. Hübsch und aufschlussreich.
 
 ### Die Gleitzahl-Linien (diagonale graue gestrichelte Strahlen)
-Das sind Strahlen vom Ursprung (0,0) mit konstanter Gleitzahl, typischerweise bei **5:1, 8:1, 10:1, 12:1, 15:1**.
+Das sind Strahlen vom Ursprung (0,0) mit konstanter Gleitzahl, eingezeichnet bei **3:1, 5:1, 7:1, 9:1, 12:1, 15:1, 20:1** (nur die, die in den sichtbaren Bereich des Diagramms passen).
 
 Weil das Diagramm bei TAS=24 beginnt (nicht bei 0), liegt der Ursprung außerhalb des Bildes unten links, und die Linien erscheinen als gestrichelte Diagonalen, die von unten links nach oben rechts ansteigen.
 
@@ -82,7 +82,7 @@ Weil das Diagramm bei TAS=24 beginnt (nicht bei 0), liegt der Ursprung außerhal
 - Wo die **gestrichelte Linie für ruhige Luft eine Gleitzahl-Linie schneidet** → das ist die TAS, bei der der Schirm diese Gleitzahl in nicht tragender Luft erreicht.
 - Wo eine Gleitzahl-Linie die gestrichelte Polare **tangiert** (berührt, ohne sie zu schneiden) → das ist deine **beste Gleitzahl auf diesem Flug**.
 
-Kurzes Beispiel: Schneidet die gestrichelte Polare den 5:1-Strahl bei TAS=42 km/h, dann wärst du bei 42 km/h in kühler Luft 5 km pro 1 km Höhenverlust geglitten. Streift der 8:1-Strahl die gestrichelte Kurve gerade so bei TAS=32 km/h, ist das dein Tangentenpunkt, deine beste Gleitzahl des Tages, bei dieser Geschwindigkeit.
+Kurzes Beispiel: Schneidet die gestrichelte Polare den 5:1-Strahl bei TAS=42 km/h, dann wärst du bei 42 km/h in kühler Luft 5 km pro 1 km Höhenverlust geglitten. Streift der 9:1-Strahl die gestrichelte Kurve gerade so bei TAS=32 km/h, ist das dein Tangentenpunkt, deine beste Gleitzahl des Tages, bei dieser Geschwindigkeit.
 
 ### Die Referenzlinie Y=0 (gestrichelt, horizontal)
 Die Grenze zwischen Sinken (darunter) und Steigen (darüber). Oberhalb dieser Linie hat die Atmosphäre mehr Steigen beigesteuert, als der Schirm an Sinken erzeugt hat. Praktisch, um zu erkennen, wie viel deiner „Gleitflüge“ eigentlich thermisch angehaucht waren.

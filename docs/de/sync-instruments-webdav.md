@@ -97,7 +97,7 @@ Ziehst du dann `.igc`-Dateien auf dieses Laufwerk, werden sie zu We-Fly hochgela
 
 ## Gut zu wissen
 
-- **Nur `.igc`-Dateien werden angenommen.** Alles andere, was das Gerät hochschieben will, wird höflich ignoriert: keine Fehler, kein Durcheinander. Es macht also nichts, wenn in deinem Tracklog-Ordner noch irgendwelche Konfigurations- oder Logdateien herumliegen.
+- **Nur `.igc`-Dateien werden angenommen.** Alles andere, was das Gerät hochschieben will, wird abgewiesen und nie gespeichert. Deine Sync-App protokolliert diese Dateien vielleicht als fehlgeschlagen, was harmlos ist. Es macht also nichts, wenn in deinem Tracklog-Ordner noch irgendwelche Konfigurations- oder Logdateien herumliegen.
 - **Duplikate werden automatisch übersprungen**, erkannt am tatsächlichen Inhalt der Datei. Du kannst denselben Ordner tausendmal synchronisieren, es entsteht nie ein einziger doppelter Flug. Deshalb kannst du es bedenkenlos für immer laufen lassen.
 - **Im Prinzip ist es reiner Upload.** Das Gerät schiebt Flüge hoch; es greift nie zurück, um etwas zu ändern oder zu löschen. Willst du einen Flug löschen? Mach das in der We-Fly-App, nie vom Gerät aus.
 
@@ -112,7 +112,7 @@ Geh die üblichen Verdächtigen durch: Bist du wirklich im WLAN (oder wo auch im
 Na klar. Richte einmal ein Sync-Paar auf deinen kompletten Archivordner ein, lass es durchlaufen, und jeder alte Track landet in We-Fly. Weil Duplikate am Inhalt erkannt und übersprungen werden, besteht null Risiko für Doppelte, selbst wenn einige dieser Flüge schon in deinem Flugbuch sind.
 
 **Ist mein Passwort sicher?**
-Es ist ein **Passwort pro Gerät**, nicht dein Konto-Login. Es taugt nur zum Hochladen von `.igc`-Dateien, und du kannst es **jederzeit widerrufen**, auf derselben Karte unter Verbundene Dienste. Widerrufen kappt genau dieses eine Gerät sofort und lässt alle anderen Geräte unberührt. Du verkaufst dein Air³? Erst widerrufen.
+Es ist ein **Passwort pro Gerät**, nicht dein Konto-Login. Es öffnet nur deinen Flugordner (neue `.igc`-Dateien hochladen, die schon vorhandenen lesen) und kann nie einen Flug löschen oder dein Konto anfassen. Du kannst es **jederzeit widerrufen**, auf derselben Karte unter Verbundene Dienste. Widerrufen kappt genau dieses eine Gerät sofort und lässt alle anderen Geräte unberührt. Du verkaufst dein Air³? Erst widerrufen.
 
 **Löscht das irgendwelche meiner Flüge?**
 Nein. Der Sync ist einseitig und reiner Upload. Gelöscht wird **nur** in der We-Fly-App, absichtlich und von dir. Nichts, was dein Instrument tut, kann einen Flug entfernen.

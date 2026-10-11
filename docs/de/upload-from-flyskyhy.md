@@ -22,7 +22,7 @@ Alles hängt an einem einzigen **Gerätepasswort**, das du in We-Fly erstellst. 
 1. Geh zu **Profil → Verbundene Dienste** und such die Karte **„Instrument- und Cloud-Sync (WebDAV)“**.
 2. Gib einen Gerätenamen ein, den du später wiedererkennst, zum Beispiel `iPhone - Flyskyhy`. Das ist *nur eine Bezeichnung für dich*; sie wird nirgendwohin gesendet, und Flyskyhy braucht sie nie.
 3. Tippe auf **Erstellen**. Ein **Gerätepasswort** erscheint (es beginnt mit `wf_key_`).
-4. **Kopier es sofort.** Es wird **nur einmal** angezeigt. Schließt du das Fenster, ohne zu kopieren, erstellst du einfach ein neues, kein Schaden entstanden. Erstellst du es am Laptop? Tippe auf **Aufs Handy scannen**, um es mit der Handykamera zu übernehmen, statt all die Zeichen abzutippen.
+4. **Kopier es sofort.** Klickst du woanders hin, kannst du es weiterhin über seine Gerätezeile erneut kopieren, solange dieser Browser-Tab offen bleibt. Schließt du den Tab, ohne zu kopieren, erstellst du einfach ein neues, kein Schaden entstanden. Erstellst du es am Laptop? Tippe auf **Aufs Handy scannen**, um es mit der Handykamera zu übernehmen, statt all die Zeichen abzutippen.
 
 > **Du synchronisierst schon ein Vario über WebDAV?** Dann hast du bereits so ein Passwort. *Dasselbe* Gerätepasswort funktioniert auch für Flyskyhy. Du musst kein weiteres erstellen.
 
@@ -75,7 +75,7 @@ Kopier die drei, halt sie bereit, und du bist startklar.
 ## Fehlersuche / FAQ
 
 **Flyskyhy sagt, Benutzername oder Passwort sind falsch.**
-In neun von zehn Fällen ist es das Gerätepasswort: Weil es nur einmal angezeigt wird, kann ein verrutschtes Kopieren und Einfügen zuschlagen. Geh zurück zu **Profil → Verbundene Dienste → Instrument- und Cloud-Sync (WebDAV)**, tippe auf **Erstellen**, um ein neues zu bekommen, und füg es erneut in Flyskyhy ein. Dein Benutzername ist deine We-Fly-**E-Mail-Adresse**, kein Spitzname.
+In neun von zehn Fällen ist es das Gerätepasswort: Es ist lang, und ein verrutschtes Kopieren und Einfügen kann zuschlagen. Geh zurück zu **Profil → Verbundene Dienste → Instrument- und Cloud-Sync (WebDAV)**, tippe auf **Erstellen**, um ein neues zu bekommen, und füg es erneut in Flyskyhy ein. Dein Benutzername ist deine We-Fly-**E-Mail-Adresse**, kein Spitzname.
 
 **Prüf die Submit URL noch einmal.**
 Sie muss genau `https://we-fly.cloud/api/leonardo/flight_submit.php` lauten, mit `https://` am Anfang und `/flight_submit.php` am Ende. Ein fehlendes `s` oder ein Tippfehler am Ende ist der andere übliche Verdächtige.
@@ -84,7 +84,7 @@ Sie muss genau `https://we-fly.cloud/api/leonardo/flight_submit.php` lauten, mit
 Stell sicher, dass der Upload wirklich fertig ist (du hast Empfang), und lade dann deine [Flugseite](/flights) neu. Hat Flyskyhy Erfolg gemeldet, ist der Flug drin. Gib der Seite einen Moment, dann erscheint er.
 
 **Ist mein Passwort sicher?**
-Es ist ein **Passwort pro Gerät**, nicht dein Konto-Login. Es taugt nur zum Hinzufügen von Flügen, und du kannst es **jederzeit widerrufen**, auf derselben Karte unter Verbundene Dienste. Damit ist Flyskyhy sofort abgeklemmt, und alle anderen Geräte bleiben unberührt. Du verkaufst dein Handy? Erst widerrufen.
+Es ist ein **Passwort pro Gerät**, nicht dein Konto-Login. Es öffnet nur deinen Flugordner (Flüge hinzufügen, die schon vorhandenen lesen) und kann nie einen Flug löschen oder dein Konto anfassen. Du kannst es **jederzeit widerrufen**, auf derselben Karte unter Verbundene Dienste. Damit ist Flyskyhy sofort abgeklemmt, und alle anderen Geräte bleiben unberührt. Du verkaufst dein Handy? Erst widerrufen.
 
 **Werden dabei Flüge gelöscht?**
 Niemals. Damit werden nur Flüge *hinzugefügt*. Löschen tust du selbst, in der We-Fly-App, mit Absicht. Nichts, was Flyskyhy tut, kann einen Flug entfernen.

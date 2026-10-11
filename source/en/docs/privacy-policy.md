@@ -5,7 +5,7 @@ category: Account & Data
 order: 3
 ---
 
-**Last Updated:** October 7, 2026
+**Last Updated:** October 11, 2026
 
 ## 1. Introduction
 
@@ -231,6 +231,13 @@ Some of our third-party service providers are located outside the European Econo
 - **Provider:** NextAuth.js
 - **Can be disabled:** No (essential for service functionality)
 
+**Connection Security Cookies (autorouter):**
+- **Names:** `ar_oauth_state`, `ar_oauth_return`
+- **Purpose:** Protect the sign-in to autorouter when you connect it for NOTAMs, and bring you back to the page you came from
+- **Type:** HTTP-only, secure
+- **Duration:** 10 minutes, deleted as soon as the connection completes
+- **Can be disabled:** No (only set when you choose to connect autorouter)
+
 ### 6.2 Functional Cookies (Legitimate Interest)
 
 **Sidebar State Cookie:**
@@ -238,6 +245,30 @@ Some of our third-party service providers are located outside the European Econo
 - **Purpose:** Remember UI sidebar expanded/collapsed preference
 - **Duration:** 7 days
 - **Data Stored:** "true" or "false"
+
+**Language Cookie:**
+- **Name:** `NEXT_LOCALE`
+- **Purpose:** Remember the interface language you picked (English, French, German, Dutch, Italian or Spanish)
+- **Duration:** 1 year
+- **Data Stored:** A language code such as "fr"
+
+**Displayed Language Cookie:**
+- **Name:** `wf-rl`
+- **Purpose:** Note the language of the page last shown, so the app can refresh once if you switch language while browsing
+- **Duration:** Until you close your browser
+- **Data Stored:** A language code such as "fr"
+
+**Returning Device Cookie:**
+- **Name:** `wf-known-device`
+- **Purpose:** Remember that someone has signed in on this browser before, so the home page offers "Sign in" rather than "Create an account"
+- **Duration:** About 13 months
+- **Data Stored:** "1" only, never your email or account id
+
+**Passkey Hint Cookie:**
+- **Name:** `wf-passkey-hint`
+- **Purpose:** Remember that this browser has a passkey for We-Fly, so the sign-in page can offer it first
+- **Duration:** About 13 months
+- **Data Stored:** "1" only
 
 ### 6.3 Local Storage
 
@@ -414,7 +445,7 @@ You have the right to request:
 - A copy of your personal data
 - Information about how we use your data
 
-**How to exercise:** Use the "Export My Data" feature in your profile settings, which generates a ZIP file containing all your IGC files organized by date.
+**How to exercise:** Click **Export data** in the **Account** panel of your **Profile**. It generates a ZIP file containing all your IGC files organized by date, plus a structured JSON file with your profile, preferences, flight records, linked sign-in accounts and consent records.
 
 ### 9.2 Right to Rectification (Article 16)
 
@@ -430,7 +461,7 @@ You have the right to request deletion of your personal data when:
 - You object to processing (and no overriding legitimate grounds exist)
 - Data has been unlawfully processed
 
-**How to exercise:** Use the "Delete Account" feature in your profile settings. Your account and all associated data will be immediately deleted.
+**How to exercise:** Click **Delete account** in the **Account** panel of your **Profile**, type your email address to confirm, then click **Delete My Account Permanently**. Your account and all associated data will be immediately deleted.
 
 **What is deleted:**
 - All account information (email, name, profile)
@@ -459,15 +490,15 @@ You have the right to request we limit processing of your data when:
 You have the right to receive your personal data in a structured, commonly used, and machine-readable format.
 
 **How to exercise:**
-- **Flight Data:** Use the "Export My Data" feature to download a ZIP archive of all your IGC files
-- **Account Data:** Contact us for a JSON export of your account information
+- **Flight Data:** Use **Export data** in your **Profile** to download a ZIP archive of all your IGC files
+- **Account Data:** The same archive includes a JSON file (`data-export.json`) with your account information, preferences and flight records
 
 ### 9.6 Right to Object (Article 21)
 
 You have the right to object to processing based on legitimate interest or for direct marketing purposes.
 
 **How to exercise:**
-- **Community Features:** Disable "Public Profile" in privacy settings to prevent display in community features
+- **Community Features:** Switch off **Public Profile** in **Privacy settings** to prevent display in community features
 - **Other Processing:** Contact us with your specific objection
 
 ### 9.7 Right to Withdraw Consent (Article 7(3))
@@ -476,7 +507,7 @@ Where processing is based on consent, you can withdraw consent at any time.
 
 **How to exercise:**
 - **OAuth Authentication:** Revoke access via your Google account security settings
-- **Public Profile:** Toggle off "Public Profile" in account settings
+- **Public Profile:** Switch off **Public Profile** in **Privacy settings** on your **Profile**
 - **Account:** Delete your account to withdraw all consent
 
 **Note:** Withdrawal does not affect the lawfulness of processing based on consent before withdrawal.
@@ -518,7 +549,7 @@ You control whether your profile and flights are visible to other users:
 - You do not appear in community leaderboards
 - You can still generate secret shareable links for individual flights
 
-**How to change:** Go to Profile Settings > Privacy > Toggle "Public Profile"
+**How to change:** Open your **Profile**, click **Privacy settings** in the **Account** panel and switch **Public Profile** on or off. The change applies immediately.
 
 ### 10.2 Display Preferences
 
@@ -533,9 +564,9 @@ These preferences are synced across devices.
 ### 10.3 Data Export
 
 **Self-Service Export:**
-- Navigate to Profile > Export My Data
-- Generates a ZIP file with all your IGC files
-- Organized by date (YYYY/MM/DD directory structure)
+- Open your **Profile** and click **Export data** in the **Account** panel
+- Generates a ZIP file with all your IGC files, organized by date (YYYY/MM/DD directory structure)
+- Includes a structured JSON file with your profile, preferences, flight records, linked sign-in accounts and consent records
 - Includes a list of any flights without stored files
 
 ## 11. Children's Privacy

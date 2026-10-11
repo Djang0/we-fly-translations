@@ -9,7 +9,7 @@ order: 5
 
 ## Ma che diavolo è questo grafico?
 
-Hai aperto la scheda Vector vario, sei sceso oltre le serie temporali e ora stai fissando una macchia blu un po’ cupa con un paio di linee che ci vagano dentro. Benvenuto nel grafico **Prestazioni in planata**: il tentativo di we-fly di mostrarti cosa ha fatto davvero la tua vela a ogni velocità durante i tratti in planata del tuo volo.
+Hai aperto la scheda **Vector vario**, sei sceso oltre le serie temporali e ora stai fissando una macchia blu un po’ cupa con un paio di linee che ci vagano dentro. Benvenuto nel grafico **Prestazioni in planata**: il tentativo di we-fly di mostrarti cosa ha fatto davvero la tua vela a ogni velocità durante i tratti in planata del tuo volo.
 
 **La versione breve:** è un grafico del tuo **vario (tasso di caduta) in funzione della velocità vera (TAS)**, limitato ai momenti in cui stavi davvero planando. La forma delle linee è la cosa più vicina che possiamo darti a "la polare della tua vela in questo giorno preciso, in quest’aria precisa, con te in selletta".
 
@@ -74,7 +74,7 @@ Ogni cella (TAS, vario) è colorata in base al **netto medio** (vario meno il ta
 In pratica è una mappa di calore di come ti ha trattato l’atmosfera a ogni velocità. Bella e istruttiva.
 
 ### Le isolinee di efficienza (raggi diagonali grigi tratteggiati)
-Sono raggi che partono dall’origine (0,0) a efficienza costante, di solito disegnati a **5:1, 8:1, 10:1, 12:1, 15:1**.
+Sono raggi che partono dall’origine (0,0) a efficienza costante, disegnati a **3:1, 5:1, 7:1, 9:1, 12:1, 15:1, 20:1** (solo quelli che stanno nel grafico visibile).
 
 Siccome il grafico parte da TAS=24 (non da 0), l’origine sta fuori dallo schermo in basso a sinistra e le isolinee appaiono come diagonali tratteggiate che salgono da in basso a sinistra verso in alto a destra.
 
@@ -82,7 +82,7 @@ Siccome il grafico parte da TAS=24 (non da 0), l’origine sta fuori dallo scher
 - Dove la **linea tratteggiata in aria calma incrocia un’isolinea** → quella è la TAS a cui la vela raggiunge quell’efficienza in aria senza ascendenza.
 - Dove un’isolinea è **tangente** alla polare tratteggiata (la tocca senza attraversarla) → quella è la tua **efficienza massima in questo volo**.
 
-Un esempio veloce: se la polare tratteggiata incrocia il raggio 5:1 a TAS=42 km/h, allora a 42 km/h in aria calma avresti planato 5 km per ogni km di quota persa. Se il raggio 8:1 sfiora appena la curva tratteggiata a TAS=32 km/h, quello è il tuo punto di tangenza, la tua migliore planata della giornata, a quella velocità.
+Un esempio veloce: se la polare tratteggiata incrocia il raggio 5:1 a TAS=42 km/h, allora a 42 km/h in aria calma avresti planato 5 km per ogni km di quota persa. Se il raggio 9:1 sfiora appena la curva tratteggiata a TAS=32 km/h, quello è il tuo punto di tangenza, la tua migliore planata della giornata, a quella velocità.
 
 ### La linea di riferimento Y=0 (tratteggiata, orizzontale)
 Il confine tra discesa (sotto) e salita (sopra). Sopra questa linea, l’atmosfera ti dava più salita di quanta caduta producesse la vela. Utile per capire quanto delle tue "planate" aveva in realtà un sapore di termica.

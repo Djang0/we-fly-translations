@@ -22,7 +22,7 @@ Ogni riga dell’elenco delle vele mostra:
 - **Voli**: numero totale di voli registrati con quella vela
 - **Durata**: tempo di volo complessivo di tutti quei voli
 
-Da qui puoi rinominare una vela e cambiarne il tipo. Tutto qui, semplice e pulito.
+Da qui puoi rinominare una vela, cambiarne il tipo e darle un **Colore della riga nel libretto**. Clicca una riga per aprire la sua impronta di volo, e usa **Confronta le vele** più in basso nella pagina per mettere più vele a confronto.
 
 ---
 
@@ -32,7 +32,7 @@ Ci sono tre punti in We-Fly da cui puoi aggiornare il nome di una vela, e ognuno
 
 ### Dalla pagina Vele: rinomina tutto in una volta
 
-Premi **Rinomina** accanto a una vela, scrivi il nuovo nome e conferma. We-Fly aggiorna il nome della vela su **tutti i voli** che avevano il vecchio nome. Quindici voli registrati come «Rush 6»? Diventano tutti «Ozone Rush 6» in un colpo solo. È lo strumento giusto quando vuoi ripulire un nome in tutto il libretto di volo.
+Clicca l’icona della matita accanto a una vela, scrivi il **Nuovo nome** e conferma. We-Fly aggiorna il nome della vela su **tutti i voli** che avevano il vecchio nome. Quindici voli registrati come «Rush 6»? Diventano tutti «Ozone Rush 6» in un colpo solo. È lo strumento giusto quando vuoi ripulire un nome in tutto il libretto di volo.
 
 ### Dall’elenco dei voli: rinomina solo i voli selezionati
 
@@ -40,7 +40,7 @@ Su `/flights`, seleziona uno o più voli con le caselle di spunta. Compare un me
 
 ### Da un singolo volo: rinomina un volo
 
-Nella pagina di dettaglio di un volo, apri il menu delle azioni e scegli **Cambia vela**. Viene aggiornato solo quel volo. Nessun altro volo viene toccato.
+Nel tuo libretto di volo, apri il menu **⋯** del volo e scegli **Cambia vela**. Viene aggiornato solo quel volo. Nessun altro volo viene toccato.
 
 ---
 
@@ -68,9 +68,9 @@ I voli sono **in singolo** per impostazione predefinita, a meno che We-Fly non t
 
 ### Cambiare il tipo a mano
 
-Nella pagina Vele ogni riga ha un selettore del tipo. Cliccalo per passare tutti i voli di quella vela da Singolo a Biposto o viceversa. È un’**operazione multipla**: aggiorna in un colpo solo tutti i voli con quel nome di vela.
+Nella pagina Vele ogni riga ha un selettore del tipo. Cliccalo per passare tutti i voli di quella vela da Singolo a Biposto o viceversa. È un’**operazione multipla**: aggiorna in un colpo solo tutti i voli con quel nome di vela, appena scegli il nuovo tipo.
 
-Prima della conferma, We-Fly ti dice esattamente quanti voli verranno modificati. Nessuna sorpresa.
+Un messaggio ti dice poi quanti voli sono stati aggiornati. Se la vela aveva sia voli in singolo sia voli in biposto, ricevi anche un avviso che ora tutti condividono il nuovo tipo.
 
 ---
 

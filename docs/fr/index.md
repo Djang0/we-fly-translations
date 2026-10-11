@@ -23,8 +23,8 @@ Le tableau de bord de tes stats de vol : tendances, performances et les chiffre
 **[Analyse avancée des thermiques](/doc/advanced-thermal-analysis)**
 Plonge dans tes performances en thermique : découvre quelles montées valaient de l’or et lesquelles étaient à jeter. Chaque virage analysé, chaque bip du vario décodé.
 
-**[Réglages de l’analyse avancée des thermiques](/doc/advanced-thermal-analysis-settings)**
-Les réglages fins de la détection des thermiques : ajuste la sensibilité, règle les filtres et trouve les paramètres parfaits pour ta façon de voler.
+**[Comment fonctionne la détection des thermiques](/doc/advanced-thermal-analysis-settings)**
+Les rouages de la détection des thermiques : quels signaux l’analyse lit, quels seuils elle applique, et pourquoi une montée compte ou non comme un thermique.
 
 ### Données et validation
 

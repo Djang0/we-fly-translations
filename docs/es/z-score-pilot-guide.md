@@ -59,7 +59,7 @@ Puntuación z = 2.45
 
 **¿Qué significa 2,45?**
 - La duración media de Bassano está 2,45 desviaciones típicas **por encima** de la media
-- En el Cockpit del piloto, aparece como tu **Puntuación z**
+- En tu **Cockpit**, aparece en la columna **Puntuación z**
 - Es estadísticamente significativo (|z| > 2 = territorio de valores atípicos)
 - Traducción: Bassano no es solo buena, es **excepcional de verdad**
 
@@ -121,7 +121,7 @@ Quieres justificar ese viaje de 4 horas ante tu pareja, tu jefe o tu excusa de �
 
 ### En el panel del Cockpit
 
-Cuando miras tus estadísticas de **Despegues**, ves una **Puntuación z** para cada zona. Se calcula a partir de tu **duración media de vuelo por zona** (la relación entre horas totales y número de vuelos).
+Cuando abres la vista **Despegue** de tu **Cockpit**, ves una **Puntuación z** para cada despegue. Se calcula a partir de tu **duración media de vuelo por zona** (la relación entre horas totales y número de vuelos).
 
 ```typescript
 // From src/lib/utils.ts
@@ -143,9 +143,10 @@ export function computeZScore(dataSerie: chartData[]) {
     let deviation = Math.sqrt(sum_deviations / dataSerie.length);
 
     // Calculate z-score: (this site's ratio - average) / std deviation
+    // (rounded to one decimal)
     dataSerie[indexx].z = deviation === 0
       ? 0
-      : (dataSerie[indexx].ratio - avg_ratio) / deviation;
+      : Number(((dataSerie[indexx].ratio - avg_ratio) / deviation).toFixed(1));
   }
 }
 ```
@@ -167,20 +168,22 @@ Esto significa:
 
 ### Ejemplo real de tu Cockpit
 
-Supongamos que miras «Despegues» y ves:
+Supongamos que abres la vista **Despegue** y ves:
 
-| Despegue | Horas totales | Vuelos | Media/vuelo | **Puntuación z** |
-|--------------|-------------|---------|------------|-----------------------|
-| Mont Blanc | 45,5 h | 8 | 5,69 h | **+2,84** 🌟 |
-| Monte local | 67,2 h | 42 | 1,60 h | **-0,52** 😐 |
-| Aquella vez | 3,2 h | 1 | 3,20 h | **+0,41** 🤷 |
+| Despegue | Vuelos | Horas totales | Media/vuelo | **Puntuación z** |
+|----------|--------|---------------|-------------|------------------|
+| Mont Blanc | 8 | 45,5 h | 5,69 h | **2,80** 🌟 |
+| Monte local | 42 | 67,2 h | 1,60 h | **-0,50** 😐 |
+| Aquella vez | 1 | 3,2 h | 3,20 h | **0,40** 🤷 |
+
+El Cockpit redondea cada puntuación z a un decimal, así que una zona con 2,84 aparece como 2,80.
 
 **Qué te dice esto:**
-1. **Mont Blanc (z = +2,84):** madre mía, esta zona es un unicornio estadístico. Cada vez que vuelas aquí tienes casi garantizado un vuelo largo. Reserva el alojamiento YA.
+1. **Mont Blanc (z = +2,8):** madre mía, esta zona es un unicornio estadístico. Cada vez que vuelas aquí tienes casi garantizado un vuelo largo. Reserva el alojamiento YA.
 
-2. **Monte local (z = -0,52):** un poco por debajo de la media, pero no está mal. Te pilla cerca y vas sumando horas. Sigue usándolo para practicar, pero no esperes vuelos épicos.
+2. **Monte local (z = -0,5):** un poco por debajo de la media, pero no está mal. Te pilla cerca y vas sumando horas. Sigue usándolo para practicar, pero no esperes vuelos épicos.
 
-3. **Aquella vez (z = +0,41):** algo por encima de la media, pero solo has volado allí una vez. Puede ser suerte. Necesitas más datos para saber si es buena de verdad.
+3. **Aquella vez (z = +0,4):** algo por encima de la media, pero solo has volado allí una vez. Puede ser suerte. Necesitas más datos para saber si es buena de verdad.
 
 ---
 
@@ -280,7 +283,7 @@ Para identificar qué despegues (o velas, o meses, o países) son **excepcionale
 - **|z| < 1:** bastante normal (en la media)
 
 **¿Dónde la veo?**
-En tu **panel del Cockpit**, como «Puntuación z» para despegues, velas, meses, etc.
+En tu **Cockpit**, en la columna **Puntuación z** de las vistas **Despegue**, **Vela**, **País** y **Temporada**, y como métrica **Puntuación z** en la vista **Mes**.
 
 **¿Qué hago con ella?**
 Úsala para tomar decisiones más inteligentes sobre dónde volar, qué equipo usar y cuándo planificar viajes. La puntuación z es tu copiloto basado en datos.

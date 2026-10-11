@@ -9,7 +9,7 @@ order: 5
 
 ## Mais c’est quoi, ce graphique ?
 
-Tu as ouvert l’onglet Vector Vario, fait défiler les séries temporelles, et te voilà face à une tache bleue un peu mystérieuse traversée par deux ou trois lignes. Bienvenue dans le graphique **Performances en transition** : la tentative de We-Fly de te montrer ce que ta voile a réellement fait à chaque vitesse pendant les transitions de ton vol.
+Tu as ouvert l’onglet **Vector Vario**, fait défiler les séries temporelles, et te voilà face à une tache bleue un peu mystérieuse traversée par deux ou trois lignes. Bienvenue dans le graphique **Performances en transition** : la tentative de We-Fly de te montrer ce que ta voile a réellement fait à chaque vitesse pendant les transitions de ton vol.
 
 **La version courte :** c’est un graphique de ton **vario (taux de chute) en fonction de ta vitesse air vraie (TAS)**, limité aux moments où tu étais réellement en transition. La forme des lignes est ce qui se rapproche le plus de « la polaire de ta voile ce jour-là, dans cet air-là, avec toi dans la sellette ».
 
@@ -74,7 +74,7 @@ Chaque cellule (TAS, vario) est colorée selon le **netto moyen** (vario moins l
 C’est en gros une carte de chaleur de la façon dont l’atmosphère t’a traité à chaque vitesse. Joli, et instructif.
 
 ### Les isolignes de finesse (rayons gris pointillés en diagonale)
-Ce sont des rayons partant de l’origine (0,0) à finesse constante, en général tracés à **5:1, 8:1, 10:1, 12:1, 15:1**.
+Ce sont des rayons partant de l’origine (0,0) à finesse constante, tracés à **3:1, 5:1, 7:1, 9:1, 12:1, 15:1, 20:1** (seulement ceux qui tiennent dans la partie visible du graphique).
 
 Comme le graphique commence à TAS=24 (et pas 0), l’origine se trouve hors de l’écran en bas à gauche, et les isolignes apparaissent comme des diagonales pointillées qui montent du bas à gauche vers le haut à droite.
 
@@ -82,7 +82,7 @@ Comme le graphique commence à TAS=24 (et pas 0), l’origine se trouve hors de 
 - Là où la **ligne pointillée air calme croise une isoligne** → c’est la TAS à laquelle la voile atteint cette finesse en air non ascendant.
 - Là où une isoligne est **tangente** à la polaire pointillée (elle la touche sans la croiser) → c’est ta **finesse max sur ce vol**.
 
-Petit exemple : si la polaire pointillée croise le rayon 5:1 à TAS=42 km/h, alors à 42 km/h en air calme tu aurais parcouru 5 km pour chaque kilomètre d’altitude perdu. Si le rayon 8:1 effleure tout juste la courbe pointillée à TAS=32 km/h, c’est ton point de tangence, ta meilleure finesse de la journée, à cette vitesse.
+Petit exemple : si la polaire pointillée croise le rayon 5:1 à TAS=42 km/h, alors à 42 km/h en air calme tu aurais parcouru 5 km pour chaque kilomètre d’altitude perdu. Si le rayon 9:1 effleure tout juste la courbe pointillée à TAS=32 km/h, c’est ton point de tangence, ta meilleure finesse de la journée, à cette vitesse.
 
 ### La ligne de référence Y=0 (pointillée, horizontale)
 La frontière entre chute (en dessous) et montée (au-dessus). Au-dessus de cette ligne, l’atmosphère apportait plus d’ascendance que la voile ne générait de chute. Pratique pour repérer quelle part de tes « transitions » avait en fait un goût de thermique.

@@ -1,356 +1,146 @@
 ---
-title: Advanced Thermal Analysis Settings
-description: Configure the parameters used to detect and score your thermals
+title: How Thermal Detection Works
+description: The rules We-Fly uses to decide where a thermal starts, where it ends, and which climbs make the list
 category: Thermal Analysis
 order: 2
 ---
 
-*Or: How to Teach the Algorithm What a Real Thermal Looks Like*
+*Or: how the analysis decides that all that circling was actually a thermal*
 
-So you've uploaded your flight, opened the Advanced Thermal Analysis, and now you're staring at the Settings tab wondering what all these sliders and numbers actually do. Good news: you're in the right place. Bad news: we're about to get nerdy (but in a fun way, promise).
+Every thermal you see in the **Thermals** tab of a flight was found by the same detector, using the same thresholds, for every pilot. There are no sliders to tune and nothing to reset: the rules are fixed so that your numbers mean the same thing as your mate's numbers, flight after flight.
 
-Think of these settings as teaching the computer what *you* consider a "thermal worth logging." Because let's be honest, that weak, scrapy bubble you worked for 45 seconds because you were getting low? The algorithm might not count it. But that glorious 5 m/s elevator that took you from "oh crap" to "cloud base baby"? Yeah, that's getting logged.
-
----
-
-## The TL;DR Version
-
-**99% of pilots should just use the default settings.** They're tuned for typical paragliding thermals and work great for most flights. Only mess with these if:
-
-1. You fly in weird conditions (super weak thermals, crazy wind, flying microlift near terrain)
-2. You're a data nerd who wants to understand *exactly* how the analysis works
-3. You had a beer and decided it would be fun to see what happens when you set everything to maximum
-
-Still here? Alright, let's dig in.
+This page explains those rules, so that when the analysis ignores a climb you are sure you worked (or splits one thermal into two), you know why.
 
 ---
 
-## Detection Thresholds
+## The short version
 
-*"When does circling around become 'I'm in a thermal'?"*
+1. The detector looks at a short sliding window of your track and asks four questions: are you going up, are you turning, is the turn steady, and did you gain height?
+2. It blends the answers into one **thermal score** between 0 and 1.
+3. A small state machine with built-in hesitation turns that score into "gliding" and "thermalling", so a single burble or one lap of sink does not flip the result.
+4. Every candidate climb is then trimmed to the circles you actually flew and kept only if it is long enough, gains height and contains at least two complete turns.
 
-### Min Thermal Score (Default: 0.35)
+The rest of this page is the detail behind each step.
 
-**What it does:** The algorithm combines multiple signals (lift, turn rate, GPS movement) into a single "thermal confidence score" from 0 to 1. This setting says "don't call it a thermal unless confidence hits 35%."
-
-**In pilot terms:** How picky are you about what counts as a thermal?
-
-- **Lower (0.2-0.3):** "I'll work anything that goes up." Catches weak bubbles, but might log some false positives when you're just turning in ridge lift or scratching terrain.
-- **Default (0.35):** "Show me real thermals, not garbage." Balanced for typical XC flying.
-- **Higher (0.4-0.5):** "Only log the good stuff." Misses weak thermals but keeps your stats clean.
-
-**Real talk:** If you fly in the Alps and frequently work 0.5 m/s thermals near terrain, lower this. If you fly in summer flatlands with 4 m/s cores, you can bump it up.
+All thresholds below are the values the engine uses internally, in metric units. Your display units (feet, knots, and so on) change how numbers are shown to you, not where the lines are drawn.
 
 ---
 
-### Exit Thermal Score (Default: 0.2)
+## Step 1: Four signals from a sliding window
 
-**What it does:** Once you're "in" a thermal, confidence has to drop below 20% before the algorithm starts thinking you've left.
+For each GPS fix, the detector looks back over the previous ten fixes. With a typical logger recording one fix per second, that is about ten seconds of flight, roughly a quarter to a half of a circle.
 
-**In pilot terms:** How long do you keep searching before admitting "yep, I lost it"?
+From that window it reads four signals, each squeezed onto a 0 to 1 scale:
 
-- **Lower (0.1-0.15):** "I'm definitely out." Exits thermals quickly. Good if you fly clean, consistent thermals.
-- **Default (0.2):** "Okay, this isn't working anymore." Tolerates brief sink or wandering around the edges.
-- **Higher (0.25-0.3):** "Maybe it's still here somewhere..." Takes longer to exit. Useful for broken, choppy thermals where you're constantly in/out.
+| Signal | What it measures | Full marks at | Weight |
+|---|---|---|---|
+| Vario | Average vertical speed over the window | 3 m/s | 45% |
+| Circling consistency | How steady your turn rate is | perfectly steady turning | 25% |
+| Turn rate | How fast your heading is changing | 30°/s | 20% |
+| Height gain | Net altitude gained across the window | 50 m | 10% |
 
-**Why it's lower than entry:** Hysteresis! Same reason your thermostat doesn't turn the heat on at 20°C and off at 19.9°C. Prevents the algorithm from logging 47 separate "thermals" when you're just working one broken bubble.
+Vario carries the most weight because it is the most direct proof of lift. Circling consistency comes next because it separates an organised thermal (smooth, repeatable turns) from random turbulence, where your heading jumps around. Turn rate and height gain confirm the picture.
 
----
-
-### Min Vario (Default: 0.3 m/s)
-
-**What it does:** Ignore any circling where your vario shows less than this.
-
-**In pilot terms:** "If it's not at least this good, I'm not calling it a thermal."
-
-- **Lower (0.1-0.2):** Logs weak lift, scratching, maybe even dynamic ridge lift if you're turning. Great for "survival mode" flights.
-- **Default (0.3):** Standard XC thermal threshold. If it's not averaging 0.3 m/s, you're probably not staying up long-term.
-- **Higher (0.5-1.0):** Only logs thermals where you're actually gaining altitude at a decent rate.
-
-**Fun fact:** The defaults are tuned for paragliding. If you're flying a hang glider with a worse sink rate, you might want to bump this up a bit.
+The weighted sum is the **thermal score**. A pilot gliding straight in still air scores close to zero; a pilot carving steady circles in good lift scores well above 0.5.
 
 ---
 
-### Min Turn Rate (Default: 10 deg/s)
+## Step 2: The state machine (why the detector hesitates on purpose)
 
-**What it does:** How fast you need to be turning for the algorithm to think "yeah, they're circling."
+If the detector simply said "score above X means thermal", the result would flicker on and off every time you hit a bump or crossed the sink side of a broken core. So it moves through four states instead:
 
-**In pilot terms:** How tight are your circles?
+| State | How you get in | How you get out |
+|---|---|---|
+| **Gliding** | Starting state | Score reaches **0.35** → Entering |
+| **Entering** | Score reached 0.35 | Score stays at or above 0.35 for **5 seconds** → Thermalling. Drops below 0.35 → back to Gliding (false alarm) |
+| **Thermalling** | Confirmed thermal | Score drops below **0.20** → Leaving |
+| **Leaving** | Score fell below 0.20 | Stays below 0.20 for **3 seconds** → Gliding. Climbs back to 0.35 or more → Thermalling again |
 
-- **Lower (5-8 deg/s):** Wide, lazy circles. Good for tandem, early students, or if you fly a high-performance wing and like gentle bank angles.
-- **Default (10 deg/s):** Normal thermaling. One complete 360° every 36 seconds.
-- **Higher (15-20 deg/s):** Tight, aggressive circles. One 360° every 18-24 seconds. Might miss your thermaling if you circle wide.
+Two details matter here:
 
-**Real talk:** Most pilots thermal at 10-15 deg/s naturally. If the algorithm is missing obvious thermals, maybe you circle wider than average. Drop this to 8. If it's logging random "thermals" when you're just S-turning in ridge lift, bump it to 12-15.
+- **The way in is stricter than the way out.** You need 0.35 to start a thermal but only have to stay above 0.20 to keep it. This gap (called hysteresis) is what stops one ragged thermal from being chopped into five.
+- **In between, the detector waits.** If the score hovers between 0.20 and 0.35 while you are leaving, it neither ends the thermal nor restarts it until the picture is clear.
 
----
+### Safety nets for long climbs
 
-## Hysteresis Parameters
+A long thermal builds up a lot of height, and that banked height can hide the moment the lift actually stopped. Two extra rules catch this:
 
-*"Stop being so twitchy, algorithm"*
+- **Recent trend check.** While thermalling, if the last 60 seconds show a net loss of height, the thermal is closed straight away, however good it was earlier.
+- **Average climb check.** After the first minute, the average climb since the thermal started must stay above 0.2 m/s. The bar rises to 0.3 m/s after three minutes and 0.4 m/s after five. Fall below it and the thermal is closed.
+- **Hard descent break.** Once you are leaving, losing 30 m more ends the thermal immediately, even if a few search turns briefly push the score back up.
 
-These prevent the detector from flapping on/off every time you hit a burble or spend 2 seconds in sink. Think of them as "confirmation time."
-
-### Entering Duration (Default: 5 seconds)
-
-**What it does:** You need to meet thermal conditions for this many seconds straight before it officially counts as "thermal entry."
-
-**In pilot terms:** How many turns before you commit and go "yeah, this is a thermal"?
-
-- **Lower (2-3s):** "I'm in!" after half a turn. Logs thermals fast, but might catch false positives.
-- **Default (5s):** About 1.5 circles to confirm. Good balance.
-- **Higher (8-10s):** "Let me make sure this is real first." Takes 2-3 circles to log. Misses short bubbles but very clean results.
-
-**When to adjust:** Lower if you fly in super broken conditions where thermals are small and you need to catch everything. Higher if you're getting false thermals logged (common in windy/turbulent conditions).
+These rules are why two real climbs joined by a short search glide show up as two thermals, not one.
 
 ---
 
-### Leaving Duration (Default: 3 seconds)
+## Step 3: Trim, then keep or discard
 
-**What it does:** You need to *not* meet thermal conditions for this long before it counts as "thermal exit."
+When a thermal closes, the detector cleans it up before deciding whether it counts.
 
-**In pilot terms:** How long you keep searching after the lift dies before you push out.
+**Trimming.** The state machine opens a thermal a few seconds after you start turning and closes it a few seconds after you leave. Those edges are mostly search glide, so the thermal is trimmed to run from the start of your first complete 360° turn to the end of your last one. A complete turn needs at least eight GPS fixes, so a noisy wiggle does not qualify.
 
-- **Lower (1-2s):** "Nope, I'm out." Exits fast. Good for clean, consistent thermals.
-- **Default (3s):** "Hold on, maybe it's just weak here..." One more turn to check.
-- **Higher (5-8s):** "I'm gonna work this a bit more..." Multiple turns before giving up. Good for complex, multi-core thermals.
+**Keep or discard.** After trimming, a thermal is kept only if:
 
-**Pro tip:** In strong, punchy summer thermals, you can lower this. In spring/fall conditions with weak, broken lift, bump it up.
+- it **gained height** overall,
+- it lasted at least **15 seconds**, and
+- it contains at least **two complete turns**.
 
----
+Anything else is treated as a pass through lift or a search turn, not a thermal. You will still see that time in the **Phases** tab: circling that did not make the cut shows up as **Search**, and the rest as **Glide** or **Float**.
 
-### Min Thermal Duration (Default: 15 seconds)
+### Towed and powered launches
 
-**What it does:** If you're only circling for less than this, it doesn't count as a "thermal" in the stats.
+A tow, winch or paramotor climb-out is strong and steady, which is exactly what scores well, but it is not a thermal. When a flight's launch type is **Towed** or **Powered**, detection starts only at your first sustained circling (a smoothed turn rate of at least 8°/s held for eight consecutive fixes). Everything before that is treated as the launch climb.
 
-**In pilot terms:** "Was that a thermal or just a bump?"
-
-- **Lower (8-10s):** Counts short bubbles. Good if you're deliberately jumping bubble to bubble.
-- **Default (15s):** About 4 circles minimum. Filters out "I took two turns and left" moments.
-- **Higher (20-30s):** Only logs thermals where you actually stayed and worked it. Cleaner stats but might miss legitimate short climbs.
-
-**When to use:** If you're flying competition and working every little scrap, lower it. If you're doing casual XC and only want "real" thermals in your stats, bump it up.
+If the launch type on a flight is wrong, fix it with **Change launch type** in the flight's actions menu. The flight is re-analysed with the new setting.
 
 ---
 
-## Circling Detection
+## Step 4: What gets measured on each thermal
 
-*"How to tell the difference between thermaling and just turning"*
+Once a thermal is kept, the analysis measures it. These are the numbers you see in the thermal details panel:
 
-### Min Circling Window (Default: 10 seconds)
+- **Climb.** Gain, average, maximum and minimum climb. Maximum and minimum are smoothed over 5 seconds so a single noisy GPS fix cannot set a record; the raw one-fix peaks are shown alongside as "peak".
+- **Core.** For each complete turn, the analysis finds the centre of the lift, weighted towards the fixes where you climbed best. Those per-turn centres are combined into the thermal's core position, strength and size.
+- **Centering time.** Time from the start of the thermal until you were first within 50 m of the core while climbing at more than 70% of the core's strength.
+- **Centering.** How close you orbited to the core. Circling at the core's own radius (or tighter) scores 100%; every extra core radius of distance costs 50%, so orbiting at three times the core radius scores zero. Wind drift is taken out by comparing each turn with its own local centre.
+- **Efficiency.** Height gained divided by the horizontal distance between where the thermal started and where it ended, capped at 100%.
+- **Turn dynamics.** Direction, number of complete turns, average turn rate, time per circle, circle radius, and an estimated bank angle and airspeed from the turn radius and period.
+- **Drift and wind.** Drift distance and an estimate of wind speed and direction from how your circles moved across the ground.
 
-**What it does:** The algorithm looks at this many seconds of flight at a time to calculate if you're circling.
-
-**In pilot terms:** How much flight history to analyze for turn consistency.
-
-- **Lower (5-8s):** Fast response. Detects thermals quickly but more sensitive to noise.
-- **Default (10s):** About 2.5 circles worth of data. Good balance between speed and accuracy.
-- **Higher (15-20s):** Slower response but very accurate. Might take longer to detect thermal entry.
-
-**Real talk:** Most pilots won't need to touch this. It's a technical parameter that affects algorithm smoothness, not really pilot behavior.
+These feed the thermal's **quality score** and its **Recommendations**. The scoring formula has its own page: [Overall Thermal Score Explained](/doc/overall-thermal-score).
 
 ---
 
-### Min Turn Count (Default: 1.0)
+## FAQ
 
-**What it does:** You need to complete at least this many full 360° circles for it to count as "circling in a thermal."
-
-**In pilot terms:** How many turns before it's officially a thermal?
-
-- **Lower (0.5-0.8):** Half a circle is enough. Catches very short thermal contacts.
-- **Default (1.0):** At least one complete 360°. Filters out "I turned twice and left."
-- **Higher (2-3):** Multiple complete circles required. Very conservative, misses quick climbs.
-
-**When to adjust:** Combine with Min Thermal Duration. If you want to log everything, set both low. If you want clean stats, set both high.
-
----
-
-### Max Core Radius (Default: 80 meters)
-
-**What it does:** When calculating "centering quality," the algorithm measures how far you drift from the thermal core. This sets the maximum radius it considers reasonable.
-
-**In pilot terms:** How big of a circle are we expecting?
-
-- **Lower (50-60m):** Tight cores. Good for summer, boomer thermals. Penalizes wide circling.
-- **Default (80m):** Standard for paragliding. Radius of ~50-80m is typical.
-- **Higher (100-120m):** Large, spread-out thermals. Flatlands, weak conditions, or if you fly wide circles.
-
-**Fun fact:** This doesn't affect *what* gets logged as a thermal, only the quality score. A thermal is a thermal. This just changes how "good" the algorithm thinks your centering was.
-
----
-
-## Quality Metrics
-
-*"How good was that thermal, really?"*
-
-### Ideal Drift Ratio (Default: 0.3)
-
-**What it does:** Ratio of drift distance to altitude gain. Default 0.3 means ideally you drift 30m sideways for every 100m you climb.
-
-**In pilot terms:** What counts as "well-centered" vs "drifting off-core"?
-
-- **Lower (0.1-0.2):** Very strict. "You should barely drift at all." Good for calm conditions, strong thermals.
-- **Default (0.3):** Realistic for average conditions. Some drift is normal.
-- **Higher (0.4-0.6):** Lenient. "It's okay to drift, I'm still climbing." Good for windy days or weak, drifting thermals.
-
-**Why this matters:** Affects your thermal quality scores and recommendations. If you fly in strong wind and constantly drift 50m while climbing, bump this up so you don't get penalized.
-
----
-
-### Centering Window (Default: 20 seconds)
-
-**What it does:** The algorithm checks your first X seconds in the thermal to see how quickly you found the core.
-
-**In pilot terms:** "How fast did you find the best lift?"
-
-- **Lower (10-15s):** "Did you nail it immediately?" Very strict about initial centering.
-- **Default (20s):** About 5-6 circles to find the core. Realistic for most pilots.
-- **Higher (30-40s):** "Take your time, we all struggle sometimes." More forgiving if you wander a bit at first.
-
-**Real talk:** This affects the "Great core entry" / "Work on centering" feedback. If you're getting "work on centering" a lot but you feel like you *are* centering well, your flying style might just be more exploratory in the first few turns. Bump this up.
-
----
-
-## Practical Scenarios: When to Adjust Settings
-
-### "The algorithm isn't logging my weak thermals"
-
-You're flying in marginal conditions, working 0.3-0.8 m/s lift, but the analysis shows no thermals.
-
-**Fix:**
-- Lower **Min Vario** to 0.2
-- Lower **Min Thermal Score** to 0.25
-- Lower **Min Thermal Duration** to 10s
-
----
-
-### "It's logging random 'thermals' that weren't thermals"
-
-You see thermals logged during your glide, or when you were just turning near terrain.
-
-**Fix:**
-- Raise **Min Thermal Score** to 0.4
-- Raise **Min Turn Rate** to 12-15 deg/s
-- Raise **Min Thermal Duration** to 20s
-
----
-
-### "I'm getting 'work on centering' but I center fine!"
-
-The algorithm thinks you drift too much or take too long to find the core.
-
-**Fix:**
-- Raise **Ideal Drift Ratio** to 0.4-0.5 (especially for windy days)
-- Raise **Centering Window** to 30s (gives you more time to explore)
-
----
-
-### "Thermals keep starting/stopping in the analysis"
-
-You're working one thermal but it's logging it as 3 separate thermals.
-
-**Fix:**
-- Raise **Leaving Duration** to 5-8s (takes longer to exit)
-- Lower **Exit Thermal Score** to 0.15 (easier to stay "in")
-
----
-
-### "I fly tandems and it's not detecting my thermals"
-
-Tandem = wider circles, slower turns, more conservative flying.
-
-**Fix:**
-- Lower **Min Turn Rate** to 6-8 deg/s
-- Raise **Max Core Radius** to 100m
-- Raise **Centering Window** to 30s
-
----
-
-## The "Just Tell Me What to Do" Guide
-
-### Most pilots (XC, recreational)
-**Use the defaults.** They're tuned for you. Seriously.
-
-### Competition pilots
-- Lower **Min Thermal Duration** to 10s (every climb counts)
-- Lower **Entering Duration** to 3s (fast detection)
-- Raise **Min Vario** to 0.5 (only log good thermals)
-
-### Coastal/terrain flying
-- Lower **Min Thermal Score** to 0.25 (catch weak lift)
-- Raise **Leaving Duration** to 5s (broken thermals)
-- Raise **Ideal Drift Ratio** to 0.5 (wind drift)
-
-### Flatland flying (strong summer thermals)
-- Raise **Min Vario** to 0.5 m/s (ignore weak lift)
-- Lower **Max Core Radius** to 60m (tight cores)
-- Raise **Min Turn Rate** to 12 deg/s (tighter circles)
-
-### Alpine flying (weak, broken thermals)
-- Lower **Min Vario** to 0.2 m/s
-- Lower **Min Thermal Score** to 0.25
-- Raise **Leaving Duration** to 8s (don't exit too fast)
-
----
-
-## FAQ: Questions We've Heard at the Landing Field
-
-### "Why isn't my favorite thermal showing up?"
+### Why isn't my favourite climb in the list?
 
 Check these in order:
-1. Was it at least 15s long? (Min Thermal Duration)
-2. Was lift at least 0.3 m/s? (Min Vario)
-3. Were you actually circling? (Min Turn Rate)
-4. Did you complete at least one full 360°? (Min Turn Count)
 
-### "Can I break anything by messing with these?"
+1. Did you make at least **two complete turns**? A climb you flew straight through, or with a single turn, is not counted.
+2. Did it last at least **15 seconds** once trimmed to your circles?
+3. Did you actually **gain height** between your first and last complete turn?
+4. Was it right after a tow or engine climb? On a **Towed** or **Powered** flight, nothing before your first sustained circling counts.
 
-Nope! Worst case, you get weird results. Just hit "Reset to Default" and you're back to normal.
+### Why was one thermal split into two?
 
-### "What happens if I set everything to maximum?"
+Most often the recent trend check or the hard descent break fired: somewhere in the middle you lost height for a minute, or lost 30 m while the score was low. From the track's point of view, you left one thermal and found another.
 
-You'll probably get zero thermals detected. The algorithm will be like "NOTHING IS GOOD ENOUGH" and reject everything. It's like setting your dating standards so high you end up alone. (We've tested this. For science.)
+### Can I change the thresholds?
 
-### "What happens if I set everything to minimum?"
+No. Earlier versions of We-Fly had a settings panel for this; it is gone. Fixed rules mean that thermal counts, climb rates and quality scores can be compared fairly between your own flights and with other pilots.
 
-Everything becomes a thermal. Your ground handling? Thermal. Your ridge run? 47 thermals. That time you did a wingtip drag? Surprisingly good thermal. Again, we tested it. It was chaos.
+### Do these rules change my flight statistics?
 
-### "Do these settings affect my flight stats?"
+They define them. Your thermal count, height gained in thermals, average climb and the cockpit's thermalling numbers all come from this detector. Because everyone gets the same rules, the comparisons are like for like.
 
-Yes! Changing what counts as a "thermal" changes your thermal count, total altitude gained in thermals, average climb rate, etc. So if you're comparing stats with a friend, make sure you're using the same settings.
+### Does my logger's recording interval matter?
+
+Somewhat. The sliding window and the "complete turn" test count GPS fixes. Loggers recording every second give the cleanest result. A logger recording every few seconds sees fewer fixes per circle, so short or tight thermals are easier to miss.
 
 ---
 
-## Advanced Nerd Notes
+## Further reading
 
-(Feel free to skip this if you just want to fly)
-
-The thermal detection uses a **multi-signal composite score** that combines:
-- Vario readings (are you going up?)
-- Turn rate (are you circling?)
-- GPS track geometry (is your flight path consistent with thermaling?)
-- Bearing changes (are you completing turns?)
-
-Each signal is normalized 0-1, then weighted and combined. The **Min Thermal Score** is the threshold for that combined score.
-
-The **hysteresis parameters** (Entering/Leaving Duration) implement a state machine with confirmation delays to prevent oscillation. This is the same principle used in thermostats, brake lights, and basically any system that needs to avoid rapid on/off switching.
-
-The **quality metrics** use circular statistics to calculate drift bearing, thermal core position, and centering efficiency. The math involves dot products, bearing deltas, and some coordinate geometry that would make your high school math teacher proud (or traumatized).
-
-## Final Thoughts
-
-Look, at the end of the day, these settings are just knobs that adjust what the algorithm considers a "thermal." The *real* learning happens when you:
-
-1. Fly the flight
-2. Look at the analysis
-3. Compare it to what you *felt* in the air
-4. Adjust settings if needed
-5. Learn from the patterns
-
-The goal isn't to game the system for perfect stats. It's to understand your flying better. Did you actually center well, or did you just get lucky with a strong core? Did you leave thermals too early, or were they genuinely dying?
-
-The algorithm is a tool, not a judge. Use it to improve, not to stress about numbers.
-
-Now get out there and go find some thermals. The real ones. In the air. Where they belong.
-
-*Blue skies and smooth air,*
+- [Advanced Thermal Analysis](/doc/advanced-thermal-analysis): a tour of the **Thermals** tab
+- [Overall Thermal Score Explained](/doc/overall-thermal-score): how each thermal's score is built

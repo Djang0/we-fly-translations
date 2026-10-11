@@ -59,7 +59,7 @@ Z-Score = 2.45
 
 **Que veut dire 2,45 ?**
 - La durée moyenne à Bassano est 2,45 écarts-types **au-dessus** de la moyenne
-- Dans le Cockpit, c’est la colonne **Score z**
+- Dans ton **Cockpit**, ça apparaît dans la colonne **Score z**
 - C’est statistiquement significatif (|z| > 2 = territoire des valeurs hors norme)
 - Traduction : Bassano n’est pas juste bon, il est **réellement exceptionnel**
 
@@ -121,7 +121,7 @@ Tu veux justifier ces 4 heures de route auprès de ton conjoint, de ton patron, 
 
 ### Dans le Cockpit
 
-Quand tu regardes l’onglet **Décollage**, tu vois un **Score z** pour chaque site. Il est calculé à partir de ta **durée de vol moyenne par site** (le rapport entre le total d’heures et le nombre de vols).
+Quand tu ouvres la vue **Décollage** de ton **Cockpit**, tu vois un **Score z** pour chaque décollage. Il est calculé à partir de ta **durée de vol moyenne par site** (le rapport entre le total d’heures et le nombre de vols).
 
 ```typescript
 // From src/lib/utils.ts
@@ -143,9 +143,10 @@ export function computeZScore(dataSerie: chartData[]) {
     let deviation = Math.sqrt(sum_deviations / dataSerie.length);
 
     // Calculate z-score: (this site's ratio - average) / std deviation
+    // (rounded to one decimal)
     dataSerie[indexx].z = deviation === 0
-      ? 0
-      : (dataSerie[indexx].ratio - avg_ratio) / deviation;
+      ? 0
+      : Number(((dataSerie[indexx].ratio - avg_ratio) / deviation).toFixed(1));
   }
 }
 ```
@@ -167,20 +168,22 @@ Autrement dit :
 
 ### Exemple concret tiré de ton Cockpit
 
-Disons que tu ouvres l’onglet « Décollage » et que tu vois :
+Disons que tu ouvres la vue **Décollage** et que tu vois :
 
-| Décollage | Heures totales | Vols | Moy./vol | **Score z** |
-|--------------|-------------|---------|------------|-----------------------|
-| Mont Blanc | 45.5h | 8 | 5.69h | **+2.84** 🌟 |
-| Colline locale | 67.2h | 42 | 1.60h | **-0.52** 😐 |
-| La fois unique | 3.2h | 1 | 3.20h | **+0.41** 🤷 |
+| Décollage | Vols | Heures totales | Moy./vol | **Score z** |
+|------------------|---------|-------------|------------|-------------|
+| Mont Blanc | 8 | 45.5h | 5.69h | **2.80** 🌟 |
+| Colline locale | 42 | 67.2h | 1.60h | **-0.50** 😐 |
+| La fois unique | 1 | 3.2h | 3.20h | **0.40** 🤷 |
+
+Le cockpit arrondit chaque z-score à une décimale : un site à 2,84 s’affiche donc 2,80.
 
 **Ce que ça te dit :**
-1. **Mont Blanc (z = +2,84) :** la vache, ce site est une licorne statistique. Chaque fois que tu y voles, tu es quasi sûr de faire un long vol. Réserve le gîte MAINTENANT.
+1. **Mont Blanc (z = +2,8) :** la vache, ce site est une licorne statistique. Chaque fois que tu y voles, tu es quasi sûr de faire un long vol. Réserve le gîte MAINTENANT.
 
-2. **Colline locale (z = -0,52) :** un peu sous la moyenne, mais pas terrible pour autant. C’est pratique, et tu accumules des heures. Continue d’y aller pour t’entraîner, mais n’en attends pas des vols épiques.
+2. **Colline locale (z = -0,5) :** un peu sous la moyenne, mais pas terrible pour autant. C’est pratique, et tu accumules des heures. Continue d’y aller pour t’entraîner, mais n’en attends pas des vols épiques.
 
-3. **La fois unique (z = +0,41) :** légèrement au-dessus de la moyenne, mais tu n’y as volé qu’une fois. C’est peut-être de la chance. Il faut plus de données pour savoir s’il est vraiment bon.
+3. **La fois unique (z = +0,4) :** légèrement au-dessus de la moyenne, mais tu n’y as volé qu’une fois. C’est peut-être de la chance. Il faut plus de données pour savoir s’il est vraiment bon.
 
 ---
 
@@ -280,7 +283,7 @@ Pour repérer quels décollages (ou voiles, ou mois, ou pays) sont **vraiment ex
 - **|z| < 1 :** plutôt normal (dans la moyenne)
 
 **Où le voir ?**
-Dans ton **Cockpit**, dans la colonne « Score z » des onglets décollages, voiles, mois, etc.
+Dans ton **Cockpit**, dans la colonne **Score z** des vues **Décollage**, **Voile**, **Pays** et **Saison**, et comme métrique **Score z** dans la vue **Mois**.
 
 **Qu’en faire ?**
 T’en servir pour mieux décider où voler, avec quel matériel, et quand planifier tes voyages. Le z-score, c’est ton coéquipier qui s’appuie sur les données.

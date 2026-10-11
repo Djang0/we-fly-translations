@@ -1,6 +1,6 @@
 ---
-title: Validare un triangolo FAI
-description: Una guida passo passo per validare un volo libero, un task dichiarato o un triangolo secondo le regole FAI.
+title: Validare un volo con la FAI
+description: Una guida passo passo per inviare un volo registrato al servizio di validazione della FAI e leggerne il risultato.
 category: Video Walkthroughs
 order: 3
 type: video
@@ -10,7 +10,7 @@ updated: 2026-03-28
 
 ## Cosa imparerai
 
-Una guida di 7 minuti per lanciare una validazione FAI su un volo registrato: dichiarare le boe, controllare il lato di chiusura e leggere il rapporto di validazione quando la geometria è al limite.
+Una guida di 7 minuti per lanciare una validazione FAI su un volo registrato: cosa controlla il servizio (la firma di sicurezza del file IGC, non la geometria del tuo percorso), come avviarla dalla pagina del volo e come leggere il risultato quando fallisce.
 
 > **In arrivo.** Mentre registriamo il video, la guida [Validazione FAI](/doc/fai-validation) spiega tutto per iscritto, compresa la chiamata all’API pubblica della FAI che facciamo dietro le quinte.
 

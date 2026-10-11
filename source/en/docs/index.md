@@ -23,8 +23,8 @@ Your flight stats dashboard: trends, performance, and the numbers that matter. T
 **[Advanced Thermal Analysis](/doc/advanced-thermal-analysis)**
 Deep dive into your thermal performance: find out which climbs were money and which were garbage. Every turn analyzed, every vario beep decoded.
 
-**[Thermal Analysis Settings](/doc/advanced-thermal-analysis-settings)**
-The nitty-gritty controls for thermal detection: tweak the sensitivity, adjust the filters, and dial in the perfect settings for your flying style.
+**[How Thermal Detection Works](/doc/advanced-thermal-analysis-settings)**
+The nitty-gritty of thermal detection: which signals the analysis reads, the thresholds it uses, and why a climb does or doesn't count as a thermal.
 
 ### Data & Validation
 

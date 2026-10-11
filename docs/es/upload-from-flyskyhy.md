@@ -19,10 +19,10 @@ Si vuelas con **Flyskyhy** en tu iPhone o iPad, ahora puede pasarle cada vuelo a
 
 Todo depende de una sola **contraseña de dispositivo** que generas dentro de We-Fly. Piensa en ella como una copia de llave hecha solo para una app. Si pierdes el móvil o lo vendes, revocas esa llave sin tocar nada más.
 
-1. Ve a **Perfil → Servicios conectados** y busca la tarjeta **«Sincronización con instrumento y nube»**.
+1. Ve a **Perfil → Servicios conectados** y busca la tarjeta **«Sincronización con instrumento y nube (WebDAV)»**.
 2. Escribe un nombre de dispositivo que reconozcas después, como `iPhone - Flyskyhy`. Es *solo una etiqueta para ti*; no se envía a ningún sitio y Flyskyhy no la necesita nunca.
 3. Toca **Generar**. Aparece una **contraseña de dispositivo** (empieza por `wf_key_`).
-4. **Cópiala ahora mismo.** Se muestra **una sola vez**. Si cierras el cuadro sin copiarla, simplemente generas otra nueva, sin problema. ¿La estás generando en un portátil? Toca **Escanear con el móvil** para pasarla con la cámara del teléfono en lugar de teclear todos esos caracteres.
+4. **Cópiala ahora mismo.** Si haces clic en otro sitio, puedes volver a copiarla desde la fila de su dispositivo mientras esta pestaña del navegador siga abierta. Si cierras la pestaña sin copiarla, simplemente generas otra nueva, sin problema. ¿La estás generando en un portátil? Toca **Escanear con el móvil** para pasarla con la cámara del teléfono en lugar de teclear todos esos caracteres.
 
 > **¿Ya sincronizas un vario por WebDAV?** Entonces ya tienes una. La *misma* contraseña de dispositivo sirve para Flyskyhy. No hace falta crear otra.
 
@@ -75,7 +75,7 @@ Copia esos tres datos, tenlos a mano y listo.
 ## Problemas y preguntas frecuentes
 
 **Flyskyhy dice que el usuario o la contraseña no son correctos.**
-Nueve de cada diez veces es la contraseña de dispositivo: como solo se muestra una vez, un copia y pega despistado te la puede jugar. Vuelve a **Perfil → Servicios conectados → Sincronización con instrumento y nube**, toca **Generar** para crear una nueva y pégala otra vez en Flyskyhy. Tu usuario es tu **email** de We-Fly, no un apodo.
+Nueve de cada diez veces es la contraseña de dispositivo: es larga, y un copia y pega despistado te la puede jugar. Vuelve a **Perfil → Servicios conectados → Sincronización con instrumento y nube (WebDAV)**, toca **Generar** para crear una nueva y pégala otra vez en Flyskyhy. Tu usuario es tu **email** de We-Fly, no un apodo.
 
 **Revisa bien la Submit URL.**
 Tiene que ser exactamente `https://we-fly.cloud/api/leonardo/flight_submit.php`, con `https://` delante y terminando en `/flight_submit.php`. Una `s` que falta o una errata al final es el otro sospechoso habitual.
@@ -84,7 +84,7 @@ Tiene que ser exactamente `https://we-fly.cloud/api/leonardo/flight_submit.php`,
 Asegúrate de que la subida terminó de verdad (que tienes cobertura) y luego recarga tu [página de vuelos](/flights). Si Flyskyhy indicó que todo fue bien, el vuelo está dentro. Dale un momento a la página y aparecerá.
 
 **¿Mi contraseña está segura?**
-Es una **contraseña por dispositivo**, no la de tu cuenta. Solo sirve para añadir vuelos, y puedes **revocarla cuando quieras** desde la misma tarjeta de Servicios conectados. Eso corta el acceso a Flyskyhy al instante y no toca ningún otro dispositivo. ¿Vas a vender el móvil? Revócala antes.
+Es una **contraseña por dispositivo**, no la de tu cuenta. Solo abre tu carpeta de vuelos (añadir vuelos, leer los que ya están) y nunca puede eliminar un vuelo ni tocar tu cuenta. Puedes **revocarla cuando quieras** desde la misma tarjeta de Servicios conectados. Eso corta el acceso a Flyskyhy al instante y no toca ningún otro dispositivo. ¿Vas a vender el móvil? Revócala antes.
 
 **¿Esto elimina algún vuelo?**
 Nunca. Esto solo *añade* vuelos. Eliminar lo haces tú, en la app de We-Fly, a propósito. Nada de lo que haga Flyskyhy puede borrar un vuelo.

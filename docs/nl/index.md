@@ -23,8 +23,8 @@ Je dashboard met vluchtstatistieken: trends, prestaties en de cijfers die ertoe 
 **[Geavanceerde thermiekanalyse](/doc/advanced-thermal-analysis)**
 Duik diep in je thermiekprestaties: ontdek welke stijgingen goud waard waren en welke rommel. Elke bocht geanalyseerd, elke piep van je vario ontcijferd.
 
-**[Instellingen thermiekanalyse](/doc/advanced-thermal-analysis-settings)**
-De fijne knoppen van de thermiekdetectie: pas de gevoeligheid aan, stel de filters bij en vind de perfecte instellingen voor jouw vliegstijl.
+**[Zo werkt de thermiekdetectie](/doc/advanced-thermal-analysis-settings)**
+Het fijne van de thermiekdetectie: welke signalen de analyse leest, welke drempels ze gebruikt en waarom een stijging wel of niet als thermiek telt.
 
 ### Data en validatie
 

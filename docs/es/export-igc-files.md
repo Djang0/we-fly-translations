@@ -176,6 +176,6 @@ El SkyDrop es un registrador diminuto y ligero que graba archivos IGC.
 
 ## Cuando ya tengas tus archivos IGC
 
-Ve a [/upload](/upload), suelta tus archivos y We-Fly se encarga del resto: estadísticas, térmicas, todo. Sube hasta 50 archivos a la vez si tienes vuelos atrasados que poner al día.
+Ve a [/upload](/upload), suelta tus archivos y We-Fly se encarga del resto: estadísticas, térmicas, todo. ¿Tienes vuelos atrasados que poner al día? Suelta una carpeta entera: buscamos en ella los archivos `.igc` y, si alcanzas el límite de frecuencia, el resto espera en una cola y se sube automáticamente.
 
 Buenos vuelos y libros de vuelo bien llenos.

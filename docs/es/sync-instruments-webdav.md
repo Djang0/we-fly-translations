@@ -97,7 +97,7 @@ Después, arrastrar archivos `.igc` a esa unidad los sube a We-Fly. Muy práctic
 
 ## Conviene saber
 
-- **Solo se aceptan archivos `.igc`.** Cualquier otra cosa que intente subir el dispositivo se ignora educadamente: sin errores, sin líos. Así que no pasa nada si tu carpeta de tracklogs también tiene archivos de configuración o de registro sueltos.
+- **Solo se aceptan archivos `.igc`.** Cualquier otra cosa que intente subir el dispositivo se rechaza y nunca se guarda. Puede que tu app de sincronización marque esos archivos como fallidos, lo cual es inofensivo, así que no pasa nada si tu carpeta de tracklogs también tiene archivos de configuración o de registro sueltos.
 - **Los duplicados se saltan automáticamente**, comparando el contenido real del archivo. Sincronizar la misma carpeta mil veces nunca creará ni un solo vuelo duplicado. Por eso es seguro dejarlo funcionando para siempre.
 - **En esencia es solo de subida.** El dispositivo sube los vuelos; nunca vuelve atrás para cambiar o borrar nada. ¿Quieres borrar un vuelo? Hazlo en la app de We-Fly, nunca desde el dispositivo.
 
@@ -112,7 +112,7 @@ Repasa a los sospechosos habituales: ¿estás de verdad conectado al wifi (o a l
 Por supuesto. Apunta una vez un par de sincronización a toda tu carpeta de archivo, deja que lo procese y cada track antiguo aterriza en We-Fly. Como los duplicados se saltan por contenido, no hay ningún riesgo de duplicar nada, aunque algunos de esos vuelos ya estén en tu libro de vuelo.
 
 **¿Mi contraseña está segura?**
-Es una **contraseña por dispositivo**, no la de tu cuenta. Solo sirve para subir archivos `.igc`, y puedes **revocarla cuando quieras** desde la misma tarjeta de Servicios conectados. Revocarla desconecta al instante ese dispositivo y deja intactos todos los demás. ¿Vendes tu Air³? Revócala antes.
+Es una **contraseña por dispositivo**, no la de tu cuenta. Solo abre tu carpeta de vuelos (subir archivos `.igc` nuevos, leer los que ya están) y nunca puede eliminar un vuelo ni tocar tu cuenta. Puedes **revocarla cuando quieras** desde la misma tarjeta de Servicios conectados. Revocarla desconecta al instante ese dispositivo y deja intactos todos los demás. ¿Vendes tu Air³? Revócala antes.
 
 **¿Esto borra alguno de mis vuelos?**
 No. La sincronización va en un solo sentido y solo sube. Los borrados ocurren **únicamente** en la app de We-Fly, a propósito y hechos por ti. Nada de lo que haga tu instrumento puede eliminar un vuelo.

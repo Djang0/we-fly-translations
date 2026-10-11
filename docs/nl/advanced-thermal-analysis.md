@@ -5,153 +5,167 @@ category: Thermal Analysis
 order: 1
 ---
 
-Ooit afgevraagd of je echt een thermiekgenie bent of gewoon geluk had? Welkom bij de geavanceerde thermiekanalyse, je persoonlijke partner voor de nabespreking, die elke cirkel die je gevlogen hebt uitpluist als een wedstrijdjury met een doctoraat in thermieken.
+Ooit afgevraagd of je echt een thermiekgenie bent of gewoon geluk had? Het tabblad **Thermiek** van elke vlucht is je persoonlijke partner voor de nabespreking: het pluist elke stijging uit die je gevlogen hebt, cirkel per cirkel.
 
 ## Wat is dit ding?
 
-Zie het als een analyse na de vlucht die elke beweging volgt die je in thermiek maakte. Het zegt je niet gewoon „hé, je bent 500 m gestegen“. Het duikt in *hoe* je gestegen bent: zat je als een prof achter de kern aan, of dwaalde je rond als een toerist?
+Het is een analyse na de vlucht die elke beweging volgt die je in thermiek maakte. Het blijft niet staan bij „je bent 500 m gestegen“. Het kijkt naar *hoe* je gestegen bent: zat je als een prof achter de kern aan, of toerde je langs de randen?
 
-De tool herkent automatisch elke thermiek die je tijdens je vlucht gedraaid hebt en geeft elke thermiek een kwaliteitsscore en een gedetailleerde analyse. Het is alsof een coach je GoPro-beelden bekijkt, alleen analyseert hij GPS-tracks en variogegevens.
+Als je een vlucht uploadt, herkent We-Fly elke thermiek die je gedraaid hebt, geeft elke thermiek een kwaliteitsscore op 100 en stelt een gedetailleerde analyse op. Zie het als een coach die je track en je variolijn bekijkt, stijging per stijging. Benieuwd hoe een stijging überhaupt herkend wordt? Lees dan [Hoe thermiekdetectie werkt](/doc/advanced-thermal-analysis-settings).
+
+Open een vlucht en kies het tabblad **Thermiek**. Het getal naast de naam van het tabblad is het aantal gevonden thermieken.
 
 ## Het hoofdscherm
 
-Als je de analyse opent, zie je drie hoofdpanelen:
+Het tabblad lees je van boven naar beneden:
 
-### Linkerpaneel: samenvatting van de vlucht en lijst met thermieken
+1. Een samenvattingsstrook voor de hele vlucht
+2. De grafiek **Vario t.o.v. cirkelstraal**
+3. Filterchips en een tijdlijn om een thermiek te kiezen
+4. De viewer voor de geselecteerde thermiek: kaart of 3D-weergave aan de ene kant, details aan de andere
+5. De grafiek **Stijgsnelheid per hoogte en tijd**
 
-Bovenaan krijg je het overzicht in vogelvlucht:
-- **Thermieken**: hoeveel je er gedraaid hebt (of *geprobeerd* hebt te draaien)
-- **Winst**: alle hoogte die je bij elkaar geschraapt hebt
+### Samenvattingsstrook van de vlucht
+
+Je dag in vogelvlucht:
+
+- **Thermieken**: hoeveel stijgingen de selectie haalden
+- **Beste**: de hoogste kwaliteitsscore van de vlucht, met het nummer van de thermiek en het kwaliteitslabel
+- **Winst**: alle hoogte die je in thermiek gewonnen hebt
 - **Gem. stijging**: je gemiddelde stijgsnelheid over alle thermieken
-- **Kwaliteit**: de algemene kwaliteitsscore van je thermieken (daar komen we nog op)
+- **Kwaliteit**: de gemiddelde kwaliteitsscore, met de mediaan eronder
 
-Daaronder staat je lijst met thermieken, elke thermiek die je tegenkwam, in chronologische volgorde. Elke kaart toont:
-- **Kwaliteitsbadge**: van „Redelijk“ (au) tot „Uitstekend“ (leer het me alsjeblieft)
-- **Tijd**: wanneer je de thermiek binnenvloog
-- **Winst**: hoeveel hoogte je binnenhaalde
-- **Stijging**: gemiddelde m/s voor die thermiek
+### Vario t.o.v. cirkelstraal
 
-Klik op een thermiek om hem te analyseren. Het kleine doelwit-icoon zet de zoom van de kaart terug als je wat rondgeneusd hebt.
+Elke volledige cirkel die je gevlogen hebt, wordt een stip: de straal langs de onderkant, de stijgsnelheid die je eruit haalde langs de zijkant. De achtergrond is verdeeld in zones met de labels **riskant**, **ideaal**, **ok** en **krapper**, van heel krappe cirkels links tot brede rechts. Zitten de meeste van je beste stippen in de zone **krapper**, dan weet je waaraan je de volgende vlucht moet werken.
 
-### Middenpaneel: de kaart
+### Een thermiek kiezen
 
-Hier gebeurt de magie. Je ziet:
+Boven de tijdlijn staat een rij filterchips, die elk tonen hoeveel thermieken erbij passen:
 
-**Je track**: GPS-punten met een kleurcode die je weg door de thermiek tonen
-- 🟢 **Groene stippen**: sterke stijging (>3 m/s), je hebt het sap gevonden!
-- 🔵 **Blauwe stippen**: matige stijging (0-3 m/s), je bent eraan aan het werken
-- 🔴 **Rode stippen**: dalen (<0 m/s), we zijn er allemaal al geweest
+- **Alle**: elke thermiek
+- **Beste 5**: de vijf sterkste stijgingen volgens gemiddelde stijgsnelheid
+- **Onder mediaan**: thermieken met een stijgsnelheid onder de mediaan van de vlucht
+- **Veel drift**: thermieken waarin je meer dan 30 m wegdreef voor elke 100 m die je won (alleen stijgingen van 50 m of meer tellen mee)
 
-**Geselecteerde thermiek**: rood gemarkeerd met een witte rand. Dit is wat je nu analyseert
+Onder de chips zet de tijdlijn elke thermiek uit op de echte klok van de vlucht. De kleur van elke stip is haar kwaliteit en haar grootte is de gewonnen hoogte, zodat je „die grote rond half twee“ makkelijk terugvindt. Klik op een stip om die thermiek in de viewer te openen.
 
-**Andere thermieken**: in paars op 40% dekking, als context voor waar je nog meer gestegen bent
+De geselecteerde thermiek staat in het adres van de pagina, zodat je een link rechtstreeks naar „Thermiek #7“ kunt delen.
 
-**Bediening van de animatie**:
-- ▶️ **Afspelen/Pauze**: bekijk de replay van je vlucht frame per frame
-- 🔄 **Terugzetten**: terug naar het begin
-- ⬅️➡️ **Navigatie per frame**: loop handmatig door elk GPS-punt (of gebruik de pijltjestoetsen, ja, het werkt met het toetsenbord)
-- **Frameteller**: toont precies waar je in de thermiek zit (bv. „42/156“)
+### De thermiekviewer
 
-Onder de bediening zie je live gegevens van het huidige GPS-punt:
-- **Tijd**: exacte tijdstempel
-- **Hoogte**: huidige hoogte
-- **Vario**: verticale snelheid op dat moment
+De titelbalk toont **Thermiek #N**, het kwaliteitslabel, het begintijdstip, de gewonnen hoogte en de gemiddelde stijging. Rechts wissel je tussen **2D-kaart** en **3D-weergave**.
 
-**Pro-tip**: gebruik de pijltjestoetsen om frame per frame door de thermiek te lopen. Ideaal om precies te zien wanneer je de kern raakte.
+**Op de 2D-kaart:**
 
-### Rechterpaneel: details van de thermiek
+- **De track van de geselecteerde thermiek** wordt getekend als stippen met een kleur volgens de vario: groen voor sterk stijgen (boven 3 m/s), geel voor stijgen tot 3 m/s, rood voor dalen
+- De markeringen **Instappunt** en **Uitstappunt** tonen waar de stijging begon en eindigde
+- **De thermiekkern** van elke thermiek is een markering met een gestippelde ring. De geselecteerde is rood, de andere zijn vaag roze voor de context. Beweeg over een kern om haar sterkte te zien
+- **Huidige positie** is de lichtblauwe markering die beweegt tijdens het afspelen
 
-Dit is je coachingrapport. We overlopen elk onderdeel:
-
-#### Kwaliteitsoverzicht
-**Totale score**: een samengesteld getal (0-40) dat met verschillende factoren rekening houdt:
-- Efficiëntie van de stijgsnelheid
-- Hoe goed je gecentreerd bleef
-- Verhouding tussen drift en stijging
-- Regelmaat van je bochten
-
-De voortgangsbalk toont waar je op de schaal uitkomt. Haal je geregeld 25+? Dan doe je iets goed.
-
-**Efficiëntie**: welk percentage van je tijd in de thermiek echt productief stijgen was. Lagere getallen betekenen dat je tijd verloor met rondzwerven of in dalende lucht.
-
-#### Drift en wind
-**Driftafstand**: hoe ver de thermiek je met de wind mee blies terwijl je steeg. Lager is meestal beter (tenzij je *wilde* driften).
-
-**Windsnelheid**: berekend uit je drift. Handig om de omstandigheden te begrijpen.
-
-**Windkompas**: toont de windrichting. De pijl wijst naar waar de wind *naartoe* waait (conventie van de meteorologen, sorry zeilers).
-
-#### Stijging
-De ruwe cijfers:
-- **Winst**: totaal aantal meters gewonnen
-- **Gem.**: je gemiddelde verticale snelheid
-- **Max.**: de beste stijgsnelheid die je haalde (meestal toen je de kern perfect zat)
-- **Min.**: het slechtste moment (vaak bij het binnenvliegen of toen je de kern kwijt was)
-- **Variatie**: hoe constant het stijgen was. Lager = gladde thermiek, hoger = schokkerig of turbulent
-
-#### Kern
-Hier wordt het nerdy:
-
-**Sterkte**: het sterkste aanhoudende stijgen dat je vond. Dit is je „sweet spot“-stijgsnelheid.
-
-**Centreertijd**: hoe lang je erover deed om de kern te vinden en erin te blijven na het binnenvliegen. Lager is beter: je verloor geen tijd met rondzwerven aan de randen.
-
-**Centrering**: percentage van de tijd in sterk stijgen tegenover zwak stijgen. Hoge getallen = je bleef in het goede spul.
-
-#### Draaigedrag
-**Richting**: links of rechts (de meeste piloten hebben een favoriete kant, geen oordeel)
-
-**Cirkels**: hoeveel volledige cirkels je gedraaid hebt
-
-**Draaisnelheid**: gemiddelde draaisnelheid in graden per seconde. Te traag = je drijft eruit, te snel = je hangt misschien te schuin
-
-#### Tijd
-Gewoon de tijdstempels en de duur. Handig om te vergelijken met je notities of je wedstrijdlogger.
-
-#### Tips
-
-Hier wordt de tool spraakzaam. Op basis van de analyse krijg je persoonlijke feedback, zoals:
-- 🟢 **Positieve feedback** (groene achtergrond): dingen die je goed deed, „Uitstekende kerninstap met minimale zoektijd“
-- 🟡 **Verbeterpunten** (oranjegele achtergrond): dingen om aan te werken, „Overweeg een kleinere draaistraal om de drift te beperken“
-
-De tips worden opgesteld op basis van je echte prestatiecijfers, niet uit algemeen advies.
+**In de 3D-weergave** wordt dezelfde stijging getekend als een spiraal die je kunt draaien, met een legende voor **Sterk stijgen**, **Zwak stijgen**, **Dalende lucht**, **Thermiekkern**, **Uitstaphoogte** en **Huidige positie**.
 
 ## De animatie afspelen
 
-De replay is echt best cool. Druk op afspelen en kijk hoe je de thermiek in real time draait (nou ja, versneld). Je kunt:
+Onder de kaart of de 3D-weergave staat de afspeelbalk:
 
-1. **Alles afspelen**: zie je hele thermiek van binnenkomst tot uitgang
-2. **Pauzeren en scrubben**: gebruik de pijltjestoetsen om door interessante momenten te stappen
-3. **De cijfers volgen**: huidige hoogte, vario en tijd worden bijgewerkt terwijl je door de thermiek beweegt
-4. **Meerdere thermieken vergelijken**: wissel tussen thermieken om te zien hoe je techniek verschilde
+- **Afspelen** / **Pauze**: speel de thermiek punt per punt opnieuw af
+- De ronde pijl: terug naar het eerste punt
+- De pijlen voor het vorige en volgende frame: loop door de stijging, één GPS-punt per keer
+- **Frame**-teller: waar je in de thermiek zit (bijvoorbeeld 42/156)
+- Tijd, hoogte en vario op het huidige punt
+- De doelwitknop: **Kaart centreren op deze thermiek**, handig als je wat rondgeschoven hebt
 
-**Sneltoetsen**:
-- **←** Vorig frame
-- **→** Volgend frame
+Frame per frame doorlopen is de beste manier om precies het moment te zien waarop je de kern vond, of kwijtraakte.
+
+## Details van de thermiek
+
+Naast de viewer (eronder op een telefoon) staat je coachingrapport. Bovenaan een grote kwaliteitsscore met haar label, plus twee snelle aflezingen: **eff** (efficiëntie) en **cent** (centrering).
+
+Daaronder zijn de details opgevouwen in secties. Er gaat er telkens één open, en elke sectie toont een voorbeeld van één regel als ze dicht is, zodat je het hele verhaal kunt overlopen zonder te scrollen.
+
+#### Stijging
+
+- **Winst**: totale gewonnen hoogte
+- **Gem.**: gemiddelde stijgsnelheid
+- **Max.**: beste stijging, gladgestreken over 5 seconden (de ruwe piek van één punt staat eronder)
+- **Min.**: het zwakste moment, meestal bij het instappen of toen je uit de kern viel
+- **Variatie**: hoeveel de stijgsnelheid schommelde. Laag betekent een gladde thermiek, hoog betekent schokkerig of turbulent
+
+#### Kern
+
+- **Sterkte**: gemiddelde stijging in de kern, je sweet spot
+- **Centreertijd**: hoe lang je erover deed om de kern te bereiken nadat de thermiek begon. Lager is beter
+- **Grootte**: de straal van het stijgen in de kern
+- **Gem. afst.**: hoe ver je gemiddeld van de kern rondcirkelde
+- **Centrering**: hoe dicht je bij de kern bleef, als percentage. Draaien op de straal van de kern zelf scoort 100%
+
+#### Draaigedrag
+
+- **Richting**: links of rechts (de meeste piloten hebben een favoriete kant, geen oordeel)
+- **Cirkels**: aantal volledige cirkels
+- **Draaisnelheid**: gemiddelde draaisnelheid in graden per seconde
+- **Hellingshoek**: geschat uit de grootte en de duur van je cirkels, met de afgeleide luchtsnelheid eronder
+- **Tijd per cirkel** en **Cirkelstraal**: de spreiding van je cirkels, als minimale, mediane en maximale tijd, en straal op het 25e percentiel, de mediaan en het 75e percentiel
+
+#### Drift en wind
+
+- **Windsnelheid**: geschat uit hoe je cirkels wegdreven
+- **Driftafst.**: hoe ver de thermiek je meenam terwijl je steeg
+- **Richting**: waar de wind vandaan kwam, met een kompas. De pijl van het kompas wijst de richting waarin de wind waaide, en het label geeft de richting „vanwaar“, zoals in een weerbericht
+
+#### Tijd
+
+**Begin**, **Einde** en **Duur** van de stijging. Handig om te vergelijken met je eigen notities.
+
+#### Opbouw van de score
+
+Toont hoe de kwaliteitsscore is opgebouwd: één balk per factor (**Stijging**, **Efficiëntie**, **Centrering**, **Regelmaat** en **Volgehouden**), het gewicht, je echte waarde en de punten die hij opleverde. De link **Hoe wordt dit berekend?** brengt je naar de volledige formule.
+
+#### Tips
+
+Op basis van de cijfers hierboven krijg je specifieke feedback voor deze stijging, bijvoorbeeld:
+
+- Positieve opmerkingen op een groene achtergrond: „Sterke instap: het sterkste stijgen gevonden in 12 s.“
+- Suggesties op een oranjegele achtergrond: „Trage instap in de kern: … Begin met wijdere cirkels om de gradiënt te voelen.“
+
+De tips worden opgesteld op basis van de eigen metingen van deze thermiek (grootte van de kern, drift, hellingshoek, variatie), niet uit algemeen advies. Voor een samenvatting over de hele vlucht kijk je naar het paneel **Coaching** in het tabblad **Overzicht** van de vlucht.
+
+## Stijgsnelheid per hoogte en tijd
+
+Onderaan het tabblad staat elke thermiek uitgezet volgens uur van de dag en hoogte, met een kleur volgens de stijgsnelheid. Wissel de hoogtereferentie tussen **AMSL** en **AGL** (boven de startplaats). De gestippelde lijn is het werkplafond van de dag; splitst die in twee treden, dan verschilden het plafond van de ochtend en dat van de namiddag. Klik op een punt om terug naar boven te springen, naar die thermiek in de viewer.
 
 ## De kwaliteitsscore uitgelegd
 
-De kwaliteitsscore is niet gewoon „goede stijgsnelheid = hoge score“. Het is een samengestelde score die rekening houdt met:
+De kwaliteitsscore is niet gewoon „goede stijgsnelheid = hoge score“. Het is een score op 100 die vijf factoren combineert:
 
-1. **Stijgefficiëntie**: echte stijging tegenover het theoretische maximum
-2. **Centreervaardigheid**: hoe snel je de kern vond en erin bleef
-3. **Driftbeheer**: of je de drift met de wind mee beperkt hebt
-4. **Regelmaat**: hoe stabiel je cirkels waren
+1. **Stijging**: hoe sterk de stijgende lucht op haar best was
+2. **Efficiëntie**: gewonnen hoogte tegenover weggedreven afstand
+3. **Centrering**: hoe dicht je bij de kern bleef
+4. **Regelmaat**: hoe gelijkmatig de stijging was
+5. **Volgehouden**: of je echt bleef en rondjes draaide, in plaats van er gewoon door te vliegen
 
-Een thermiek van 5 m/s waarin je rondzwierf, kan lager scoren dan een thermiek van 2,5 m/s die je perfect gedraaid hebt. Het gaat om techniek, niet alleen om geluk.
+Een knallende thermiek waarin je rondzwierf, kan lager scoren dan een matige die je perfect uitwerkte. Het gaat om techniek, niet alleen om geluk.
 
-**Scorebereiken**:
-- **25-40 (Uitstekend)**: je bent on fire. Thermieken op wedstrijdniveau.
-- **15-25 (Goed)**: degelijk werk. Je haalde de hoogte en verloor niet te veel tijd.
-- **0-15 (Redelijk)**: de klus is geklaard, maar er is ruimte voor verbetering.
+**Kwaliteitslabels:**
+
+| Score | Label |
+|---|---|
+| 80 en hoger | Uitzonderlijk |
+| 73 tot 79 | Uitstekend |
+| 66 tot 72 | Goed |
+| 60 tot 65 | Redelijk |
+| Onder 60 | Zwak |
+
+Deze grenzen zijn afgesteld op echte vluchten in We-Fly: een typische thermiek komt rond de 65 uit. De volledige formule, met een uitgewerkt voorbeeld, staat in [De algemene thermiekscore uitgelegd](/doc/overall-thermal-score).
 
 ## Patronen die je misschien opvallen
 
 **Veel drift, lage centrering**: je vliegt misschien te wijd binnen of verkleint je cirkel niet snel genoeg als je stijgen vindt.
 
-**Goede centreertijd maar lage efficiëntie**: de thermiek zelf was misschien zwak of rafelig. Niet altijd jouw schuld!
+**Goede centreertijd maar lage efficiëntie**: de thermiek zelf was misschien zwak, of de wind sterk. Niet altijd jouw schuld!
 
-**Hoge variatie**: dat kan aan de omstandigheden liggen (ruige dag), of aan een wisselende hellingshoek. Controleer hoe constant je draaisnelheid is.
+**Hoge variatie**: dat kan aan de omstandigheden liggen (een ruige dag) of aan een wisselende hellingshoek. De tips proberen die twee uit elkaar te houden door te kijken hoeveel je cirkelstraal veranderde.
 
 **Snel in de kern bij de ene thermiek, traag bij de andere**: let op je instaptechniek. Vloog je binnen aan de loefzijde of aan de lijzijde? Schoot je voorbij de kern?
 
@@ -159,29 +173,29 @@ Een thermiek van 5 m/s waarin je rondzwierf, kan lager scoren dan een thermiek v
 
 - **Nabespreking na de vlucht**: begrijp wat werkte en wat niet
 - **Voorbereiding op een wedstrijd**: analyseer je thermiektechniek onder druk
-- **Omstandigheden vergelijken**: zie hoe de kwaliteit van de thermiek verandert met het uur van de dag, de plaats of het weer
-- **Je vooruitgang volgen**: analyseer vluchten uit verschillende maanden om je groei te zien
-- **Voor het volgende biertje**: toon je vliegmaten dat je die thermiek van 6 m/s *echt* gecentreerd hebt (bewijs!)
+- **Omstandigheden vergelijken**: zie hoe de kwaliteit van de thermiek verandert met het uur van de dag, het vlieggebied of het weer
+- **Je vooruitgang volgen**: bekijk vluchten uit verschillende maanden om je groei te zien
+- **Voor het volgende biertje**: toon je vliegmaten dat je die monsterthermiek *echt* gecentreerd hebt (bewijs!)
 
 ## Tips voor een betere analyse
 
-1. **Schone GPS-gegevens helpen**: zwak GPS-signaal = minder nauwkeurige analyse
+1. **Schone GPS-gegevens helpen**: een zwak GPS-signaal geeft een minder nauwkeurige analyse, en een logger die elke seconde registreert geeft de beste resultaten
 2. **Vergelijk gelijkaardige thermieken**: vergelijk je techniek in vergelijkbare omstandigheden voor zinvolle inzichten
-3. **Blijf niet hangen aan één vlucht**: trends over meerdere vluchten zeggen meer dan één perfecte thermiek
-4. **De wind telt mee**: een score „Redelijk“ in 30 km/h wind kan beter zijn dan „Uitstekend“ in windstille lucht
+3. **Blijf niet hangen aan één vlucht**: trends over veel vluchten zeggen meer dan één perfecte thermiek
+4. **De wind telt mee**: een score „Redelijk“ op een winderige dag kan beter vliegwerk zijn dan „Uitstekend“ in windstille lucht
 
 ## Wat deze tool niet doet
 
-- **Toekomstige thermiek voorspellen**: het is analyse, geen voorspelling (we werken eraan... grapje)
-- **Je levenskeuzes beoordelen**: had je die thermiek om 11 uur moeten nemen of moeten doorvliegen? Nog altijd jouw beslissing
+- **Toekomstige thermiek voorspellen**: het is analyse, geen voorspelling
+- **Je beslissingen beoordelen**: had je die stijging om 11 uur moeten nemen of moeten doorvliegen? Nog altijd jouw beslissing
 - **Ervaring vervangen**: de tool toont gegevens, maar thermiek leren *voelen* vraagt nog altijd vlieguren
 
 ## Waar het op neerkomt
 
-Deze tool maakt je niet van de ene dag op de andere een betere piloot, maar hij toont je *precies* wat je in thermiek doet. Of je nu seconden wilt afknabbelen van je centreertijd of gewoon nieuwsgierig bent waarom die ene thermiek anders aanvoelde, de geavanceerde thermiekanalyse staat achter je.
+Deze tool maakt je niet van de ene dag op de andere een betere piloot, maar hij toont je *precies* wat je in thermiek doet. Of je nu je centreertijd wilt inkorten of gewoon nieuwsgierig bent waarom die ene stijging anders aanvoelde, het tabblad **Thermiek** staat achter je.
 
 Ga nu vliegen, pak wat thermiek en kom terug om te zien of je zo goed bent als je denkt.
 
 ---
 
-Zie ook: [Instellingen van de geavanceerde thermiekanalyse](advanced-thermal-analysis-settings.md)
+Zie ook: [Hoe thermiekdetectie werkt](/doc/advanced-thermal-analysis-settings) | [De algemene thermiekscore uitgelegd](/doc/overall-thermal-score)

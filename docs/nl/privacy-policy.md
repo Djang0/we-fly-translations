@@ -5,7 +5,7 @@ category: Account & Data
 order: 3
 ---
 
-**Laatst bijgewerkt:** 7 oktober 2026
+**Laatst bijgewerkt:** 11 oktober 2026
 
 ## 1. Inleiding
 
@@ -231,6 +231,13 @@ Sommige van onze externe dienstverleners bevinden zich buiten de Europese Econom
 - **Aanbieder:** NextAuth.js
 - **Kan worden uitgeschakeld:** nee (essentieel voor de werking van de dienst)
 
+**Cookies voor de beveiliging van de koppeling (autorouter):**
+- **Namen:** `ar_oauth_state`, `ar_oauth_return`
+- **Doel:** het inloggen bij autorouter beveiligen wanneer je het koppelt voor NOTAM's, en je terugbrengen naar de pagina waar je vandaan kwam
+- **Type:** HTTP-only, beveiligd
+- **Duur:** 10 minuten, verwijderd zodra de koppeling voltooid is
+- **Kan worden uitgeschakeld:** nee (alleen geplaatst wanneer je ervoor kiest autorouter te koppelen)
+
 ### 6.2 Functionele cookies (gerechtvaardigd belang)
 
 **Cookie voor de status van de zijbalk:**
@@ -238,6 +245,30 @@ Sommige van onze externe dienstverleners bevinden zich buiten de Europese Econom
 - **Doel:** onthouden of je de zijbalk van de interface open- of dichtgeklapt wilt
 - **Duur:** 7 dagen
 - **Opgeslagen gegevens:** "true" of "false"
+
+**Taalcookie:**
+- **Naam:** `NEXT_LOCALE`
+- **Doel:** onthouden welke interfacetaal je gekozen hebt (Engels, Frans, Duits, Nederlands, Italiaans of Spaans)
+- **Duur:** 1 jaar
+- **Opgeslagen gegevens:** een taalcode zoals "fr"
+
+**Cookie voor de weergegeven taal:**
+- **Naam:** `wf-rl`
+- **Doel:** de taal van de laatst getoonde pagina noteren, zodat de app één keer kan vernieuwen als je tijdens het surfen van taal wisselt
+- **Duur:** tot je je browser sluit
+- **Opgeslagen gegevens:** een taalcode zoals "fr"
+
+**Cookie voor een terugkerend toestel:**
+- **Naam:** `wf-known-device`
+- **Doel:** onthouden dat er al eens iemand in deze browser is ingelogd, zodat de startpagina „Inloggen“ aanbiedt in plaats van „Account aanmaken“
+- **Duur:** ongeveer 13 maanden
+- **Opgeslagen gegevens:** alleen "1", nooit je e-mailadres of account-ID
+
+**Cookie met passkeyhint:**
+- **Naam:** `wf-passkey-hint`
+- **Doel:** onthouden dat deze browser een passkey voor We-Fly heeft, zodat de inlogpagina die als eerste kan aanbieden
+- **Duur:** ongeveer 13 maanden
+- **Opgeslagen gegevens:** alleen "1"
 
 ### 6.3 Lokale opslag
 
@@ -414,7 +445,7 @@ Je hebt het recht om te vragen:
 - Om een kopie van je persoonsgegevens
 - Om informatie over hoe we je gegevens gebruiken
 
-**Hoe je dit uitoefent:** gebruik de functie „Mijn gegevens exporteren“ in je profielinstellingen. Die maakt een ZIP-bestand aan met al je IGC-bestanden, geordend op datum.
+**Hoe je dit uitoefent:** klik op **Gegevens exporteren** in het paneel **Account** van je **Profiel**. Dat maakt een ZIP-bestand aan met al je IGC-bestanden, geordend op datum, plus een gestructureerd JSON-bestand met je profiel, voorkeuren, vluchtrecords, gekoppelde inlogaccounts en toestemmingen.
 
 ### 9.2 Recht op rectificatie (artikel 16)
 
@@ -430,7 +461,7 @@ Je hebt het recht om de verwijdering van je persoonsgegevens te vragen wanneer:
 - Je bezwaar maakt tegen de verwerking (en er geen prevalerende gerechtvaardigde gronden zijn)
 - De gegevens onrechtmatig zijn verwerkt
 
-**Hoe je dit uitoefent:** gebruik de functie „Account verwijderen“ in je profielinstellingen. Je account en alle bijbehorende gegevens worden onmiddellijk verwijderd.
+**Hoe je dit uitoefent:** klik op **Account verwijderen** in het paneel **Account** van je **Profiel**, typ je e-mailadres ter bevestiging en klik dan op **Mijn account definitief verwijderen**. Je account en alle bijbehorende gegevens worden onmiddellijk verwijderd.
 
 **Wat wordt verwijderd:**
 - Alle accountgegevens (e-mailadres, naam, profiel)
@@ -459,15 +490,15 @@ Je hebt het recht om ons te vragen de verwerking van je gegevens te beperken wan
 Je hebt het recht om je persoonsgegevens te ontvangen in een gestructureerde, gangbare en machineleesbare vorm.
 
 **Hoe je dit uitoefent:**
-- **Vluchtgegevens:** gebruik de functie „Mijn gegevens exporteren“ om een ZIP-archief met al je IGC-bestanden te downloaden
-- **Accountgegevens:** neem contact met ons op voor een JSON-export van je accountgegevens
+- **Vluchtgegevens:** gebruik **Gegevens exporteren** in je **Profiel** om een ZIP-archief met al je IGC-bestanden te downloaden
+- **Accountgegevens:** hetzelfde archief bevat een JSON-bestand (`data-export.json`) met je accountgegevens, voorkeuren en vluchtrecords
 
 ### 9.6 Recht van bezwaar (artikel 21)
 
 Je hebt het recht om bezwaar te maken tegen verwerking op basis van gerechtvaardigd belang of voor direct marketing.
 
 **Hoe je dit uitoefent:**
-- **Communityfuncties:** schakel „Openbaar profiel“ uit in de privacyinstellingen om niet in de communityfuncties te verschijnen
+- **Communityfuncties:** zet **Openbaar profiel** uit in **Privacy-instellingen** om niet in de communityfuncties te verschijnen
 - **Andere verwerkingen:** neem contact met ons op met je concrete bezwaar
 
 ### 9.7 Recht om je toestemming in te trekken (artikel 7, lid 3)
@@ -476,7 +507,7 @@ Wanneer de verwerking op toestemming berust, kun je die toestemming op elk momen
 
 **Hoe je dit uitoefent:**
 - **OAuth-authenticatie:** trek de toegang in via de beveiligingsinstellingen van je Google-account
-- **Openbaar profiel:** zet „Openbaar profiel“ uit in de accountinstellingen
+- **Openbaar profiel:** zet **Openbaar profiel** uit in **Privacy-instellingen** op je **Profiel**
 - **Account:** verwijder je account om al je toestemmingen in te trekken
 
 **Opmerking:** de intrekking doet geen afbreuk aan de rechtmatigheid van de verwerking op basis van toestemming vóór de intrekking.
@@ -518,7 +549,7 @@ Jij bepaalt of je profiel en je vluchten zichtbaar zijn voor andere gebruikers:
 - Je verschijnt niet in de ranglijsten van de community
 - Je kunt nog altijd geheime deelbare links voor afzonderlijke vluchten aanmaken
 
-**Hoe je dit wijzigt:** ga naar Profielinstellingen > Privacy > zet „Openbaar profiel“ aan of uit
+**Hoe je dit wijzigt:** open je **Profiel**, klik op **Privacy-instellingen** in het paneel **Account** en zet **Openbaar profiel** aan of uit. De wijziging geldt onmiddellijk.
 
 ### 10.2 Weergavevoorkeuren
 
@@ -533,9 +564,9 @@ Deze voorkeuren worden tussen je toestellen gesynchroniseerd.
 ### 10.3 Export van gegevens
 
 **Export in selfservice:**
-- Ga naar Profiel > Mijn gegevens exporteren
-- Maakt een ZIP-bestand aan met al je IGC-bestanden
-- Geordend op datum (mappenstructuur JJJJ/MM/DD)
+- Open je **Profiel** en klik op **Gegevens exporteren** in het paneel **Account**
+- Maakt een ZIP-bestand aan met al je IGC-bestanden, geordend op datum (mappenstructuur JJJJ/MM/DD)
+- Bevat een gestructureerd JSON-bestand met je profiel, voorkeuren, vluchtrecords, gekoppelde inlogaccounts en toestemmingen
 - Bevat een lijst van eventuele vluchten zonder opgeslagen bestand
 
 ## 11. Privacy van kinderen

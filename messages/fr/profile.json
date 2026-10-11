@@ -46,7 +46,7 @@
     },
     "export": {
       "title": "Exporter mes données",
-      "description": "Télécharge tes fichiers IGC et un CSV de tes vols · {count, plural, one {# entrée} other {# entrées}}"
+      "description": "Télécharge tes fichiers IGC et une copie JSON de tes données · {count, plural, one {# entrée} other {# entrées}}"
     },
     "connectedServices": {
       "title": "Services connectés",

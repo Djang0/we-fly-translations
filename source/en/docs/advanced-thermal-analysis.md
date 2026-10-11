@@ -5,183 +5,197 @@ category: Thermal Analysis
 order: 1
 ---
 
-Ever wondered if you're actually a thermal genius or just getting lucky? Welcome to the Advanced Thermal Analysis tool, your personal debrief partner that breaks down every circle you flew like a competition judge with a PhD in thermalling.
+Ever wondered if you're actually a thermal genius or just getting lucky? The **Thermals** tab on every flight is your personal debrief partner: it breaks down every climb you worked, circle by circle.
 
 ## What Is This Thing?
 
-Think of it as a post-flight analyzer that watches every move you made in thermals. It doesn't just tell you "hey, you climbed 500m". It deep-dives into *how* you climbed, whether you were core-hunting like a pro or wandering around like a tourist.
+It's a post-flight analyser that watches every move you made in thermals. It doesn't stop at "you climbed 500 m". It looks at *how* you climbed: whether you were hunting the core like a pro or touring the edges.
 
-The tool automatically detects every thermal you worked during your flight, then gives each one a quality score and detailed breakdown. It's like having a coach review your GoPro footage, except it's analyzing GPS tracks and variometer data instead.
+When you upload a flight, We-Fly detects every thermal you worked, gives each one a quality score out of 100, and builds a detailed breakdown. Think of it as a coach reviewing your track and vario trace, one climb at a time. Curious how a climb gets recognised in the first place? See [How Thermal Detection Works](/doc/advanced-thermal-analysis-settings).
+
+Open any flight and pick the **Thermals** tab. The number next to the tab name is how many thermals were found.
 
 ## The Main View
 
-When you fire up the analysis, you'll see three main panels:
+The tab reads from top to bottom:
 
-### Left Panel: Flight Summary & Thermal List
+1. A summary strip for the whole flight
+2. The **Vario vs Circle Radius** chart
+3. Filter chips and a timeline to pick a thermal
+4. The viewer for the selected thermal: map or 3D view on one side, details on the other
+5. The **Climb Rate by Altitude & Time** chart
 
-At the top, you get the bird's-eye view:
-- **Total Thermals**: How many you worked (or *attempted* to work)
-- **Total Gain**: All the altitude you scraped together
-- **Avg Climb**: Your average climb rate across all thermals
-- **Avg Quality**: Overall thermal quality score (we'll get to this)
+### Flight Summary Strip
 
-Below that is your thermal list, every thermal you hit, ordered chronologically. Each card shows:
-- **Quality Badge**: Ranges from "Fair" (ouch) to "Excellent" (teach me your ways)
-- **Start Time**: When you entered the thermal
-- **Height Gain**: How much altitude you banked
-- **Climb Rate**: Average m/s for that thermal
+The bird's-eye view of your day:
 
-Click any thermal to analyze it. The little target icon resets the map zoom if you've been poking around.
+- **Thermals**: how many climbs made the cut
+- **Best**: the highest quality score of the flight, with the thermal number and its quality label
+- **Gain**: all the height you gained in thermals
+- **Avg climb**: your average climb rate across all thermals
+- **Quality**: the average quality score, with the median underneath
 
-### Center Panel: The Map
+### Vario vs Circle Radius
 
-This is where the magic happens. You'll see:
+Every complete circle you flew becomes a dot: its radius along the bottom, the climb rate you got from it up the side. The background is split into zones labelled **risky**, **ideal**, **ok** and **tighten**, from very tight circles on the left to wide ones on the right. If most of your best dots sit in the **tighten** zone, you know what to work on next flight.
 
-**Your Track**: Color-coded GPS points showing your path through the thermal
-- 🟢 **Green dots**: Strong climb (>3 m/s), you found the juice!
-- 🔵 **Blue dots**: Moderate climb (0-3 m/s), working it
-- 🔴 **Red dots**: Sink (<0 m/s), we've all been there
+### Picking a Thermal
 
-**Selected Thermal**: Highlighted in red with a white border. This is what you're currently analyzing
+Above the timeline sits a row of filter chips, each showing how many thermals it matches:
 
-**Other Thermals**: Shown in purple at 40% opacity, context for where else you climbed
+- **All**: every thermal
+- **Best 5**: the five strongest climbs by average climb rate
+- **Below median**: thermals with a climb rate below the flight's median
+- **Drifty**: thermals where you drifted more than 30 m for every 100 m gained (only climbs of 50 m or more are considered)
 
-**Animation Controls**:
-- ▶️ **Play/Pause**: Watch your flight replay frame-by-frame
-- 🔄 **Reset**: Back to the beginning
-- ⬅️➡️ **Frame Navigation**: Step through each GPS point manually (or use arrow keys, yes, we made it keyboard-friendly)
-- **Frame Counter**: Shows exactly where you are in the thermal (e.g., "42/156")
+Below the chips, the timeline lays every thermal out along the flight's actual clock. Each dot's colour is its quality, and its size is the height gained, so "that big one around half past one" is easy to find. Click a dot to open that thermal in the viewer.
 
-Below the controls, you'll see real-time data for the current GPS point:
-- **Time**: Exact timestamp
-- **Altitude**: Current height
-- **Vario**: Vertical speed at that moment
+The selected thermal is part of the page address, so you can share a link straight to "Thermal #7".
 
-**Pro tip**: Use the arrow keys to scrub through the thermal frame-by-frame. Great for spotting exactly when you hit the core.
+### The Thermal Viewer
 
-### Right Panel: Thermal Details
+The title bar shows **Thermal #N**, its quality label, the start time, the height gained and the average climb. On the right you switch between **2D Map** and **3D View**.
 
-This is your coaching report. Let's break down each section:
+**On the 2D map:**
 
-#### Quality Overview
-**Overall Score**: A composite number (0-40) that considers multiple factors:
-- Climb rate efficiency
-- How well you stayed centered
-- Drift vs. climb ratio
-- Turn consistency
+- **The selected thermal's track** is drawn as dots coloured by vario: green for strong climb (above 3 m/s), yellow for climb up to 3 m/s, red for sink
+- **Entry Point** and **Exit Point** markers show where the climb started and ended
+- **The thermal core** of each thermal is a marker with a dashed ring. The selected one is red, the others are faded pink for context. Hover a core to see its strength
+- **Current Position** is the light-blue marker that moves during playback
 
-The progress bar shows where you land on the scale. Getting 25+ consistently? You're doing something right.
-
-**Efficiency**: What percentage of your time in the thermal was actually productive climbing. Lower numbers mean you spent time wandering or in sink.
-
-#### Drift & Wind
-**Drift Distance**: How far the thermal blew you downwind while you climbed. Lower is usually better (unless you *wanted* to drift).
-
-**Wind Speed**: Calculated from your drift. Handy for understanding conditions.
-
-**Wind Compass**: Visual showing wind direction. The arrow points where the wind is blowing *to* (meteorologist convention, sorry sailors).
-
-#### Climb Performance
-The raw numbers:
-- **Height Gain**: Total meters gained
-- **Avg Climb**: Your average vertical speed
-- **Max Climb**: Best climb rate you hit (usually when you nailed the core)
-- **Min Climb**: Worst moment (often during entry or when you lost the core)
-- **Variability**: How consistent the lift was. Lower = smooth thermal, Higher = punchy/turbulent
-
-#### Core Analysis
-This is where it gets nerdy:
-
-**Core Strength**: The strongest sustained lift you found. This is your "sweet spot" climb rate.
-
-**Centering Time**: How long it took you to find and stay in the core after entering. Lower is better, means you didn't waste time wandering around the edges.
-
-**Centering Quality**: Percentage of time spent in strong lift vs. weak lift. High numbers = you stayed in the good stuff.
-
-#### Turn Dynamics
-**Direction**: Left or Right (most pilots have a favorite side, no judgment)
-
-**Turns**: How many complete circles you made
-
-**Rate**: Average turn rate in degrees per second. Too slow = drifting out, too fast = might be over-banking
-
-#### Time Information
-Just the timestamps and duration. Useful for correlating with your notes or competition logger.
-
-#### Recommendations
-
-Here's where the tool gets chatty. Based on the analysis, you'll get personalized feedback like:
-- 🟢 **Positive feedback** (green background): Things you did well, "Excellent core entry with minimal search time"
-- 🟡 **Improvement suggestions** (amber background): Areas to work on, "Consider tightening turn radius to reduce drift"
-
-The recommendations are generated based on actual performance metrics, not generic advice.
+**In the 3D view**, the same climb is drawn as a spiral you can rotate, with a legend for **Strong lift**, **Weak lift**, **Sink**, **Thermal core**, **Leave altitude** and **Current position**.
 
 ## Animation Playback
 
-The replay feature is honestly pretty cool. Hit play and watch yourself work the thermal in real-time (well, sped up). You can:
+Under the map or 3D view sits the playback bar:
 
-1. **Play it through**: See your entire thermal from entry to exit
-2. **Pause and scrub**: Use arrow keys to step through interesting moments
-3. **Watch the metrics**: Current altitude, vario, and time update as you move through the thermal
-4. **Compare multiple thermals**: Switch between different thermals to see how your technique varied
+- **Play** / **Pause**: replay the thermal fix by fix
+- The circular arrow: back to the first fix
+- The previous and next frame arrows: step through the climb one GPS fix at a time
+- **Frame** counter: where you are in the thermal (for example 42/156)
+- Time, altitude and vario at the current fix
+- The target button: **Centre map on this thermal**, handy after you've been panning around
 
-**Keyboard shortcuts**:
-- **←** Previous frame
-- **→** Next frame
+Stepping frame by frame is the best way to spot the exact moment you found the core, or lost it.
+
+## Thermal Details
+
+Next to the viewer (below it on a phone) is your coaching report. At the top, a big quality score with its label, plus two quick reads: **eff** (efficiency) and **ctr** (centering).
+
+Below that, the details are folded into sections. One opens at a time, and each shows a one-line preview while folded, so you can scan the whole story without scrolling.
+
+#### Climb
+
+- **Gain**: total height gained
+- **Avg**: average climb rate
+- **Max**: best climb, smoothed over 5 seconds (the raw single-fix peak is shown underneath)
+- **Min**: weakest moment, usually on entry or when you fell out of the core
+- **Variab.**: how much the climb rate varied. Low means a smooth thermal, high means punchy or turbulent
+
+#### Core
+
+- **Strength**: average climb in the core, your sweet spot
+- **Ctr time**: how long it took to reach the core after the thermal started. Lower is better
+- **Size**: the core's lift radius
+- **Mean dist**: how far, on average, you orbited from the core
+- **Centering**: how close you stayed to the core, as a percentage. Circling at the core's own radius scores 100%
+
+#### Turn Dynamics
+
+- **Direction**: left or right (most pilots have a favourite side, no judgement)
+- **Turns**: number of complete circles
+- **Rate**: average turn rate in degrees per second
+- **Bank angle**: estimated from your circle size and timing, with the implied airspeed underneath
+- **Time per circle** and **Circle radius**: the spread of your circles, as minimum, median and maximum time, and 25th percentile, median and 75th percentile radius
+
+#### Drift & Wind
+
+- **Wind speed**: estimated from how your circles drifted
+- **Drift dist.**: how far the thermal carried you while you climbed
+- **Direction**: where the wind came from, with a compass. The compass arrow points the way the wind was blowing, and the label reads the "from" direction, like a forecast
+
+#### Time
+
+**Start**, **End** and **Duration** of the climb. Handy for matching against your own notes.
+
+#### Score Breakdown
+
+Shows how the quality score was built: one bar per factor (**Climb**, **Efficiency**, **Centering**, **Consistency** and **Sustained**), its weight, your actual value and the points it added. The **How is this calculated?** link takes you to the full formula.
+
+#### Recommendations
+
+Based on the numbers above, you get specific feedback for this climb, for example:
+
+- Positive notes on a green background: "Great core entry: found the strongest lift in 12 s."
+- Suggestions on an amber background: "Slow core entry: … Consider wider initial circles to feel the gradient."
+
+The tips are built from this thermal's own measurements (core size, drift, bank angle, variability), not generic advice. For a summary across the whole flight, look at the **Coaching** panel on the flight's **Summary** tab.
+
+## Climb Rate by Altitude & Time
+
+At the bottom of the tab, every thermal is placed by time of day and altitude, coloured by climb rate. Switch the height reference between **AMSL** and **AGL** (above takeoff). The dashed line is the day's working ceiling; if it splits into two steps, the morning and afternoon ceilings were different. Click any point to jump back up to that thermal in the viewer.
 
 ## Quality Scoring Explained
 
-The quality score isn't just "good climb rate = high score." It's a composite that considers:
+The quality score isn't just "good climb rate = high score". It's a score out of 100 that blends five factors:
 
-1. **Climb efficiency**: Actual climb vs. theoretical maximum
-2. **Centering skill**: How quickly you found and stayed in the core
-3. **Drift management**: Whether you minimized downwind drift
-4. **Consistency**: How stable your circling was
+1. **Climb**: how strong the lift was at its best
+2. **Efficiency**: height gained versus distance drifted
+3. **Centering**: how close you stayed to the core
+4. **Consistency**: how steady the climb was
+5. **Sustained**: whether you actually stayed and circled, rather than passing through
 
-A 5 m/s thermal where you wandered around might score lower than a 2.5 m/s thermal you worked perfectly. It's about technique, not just luck.
+A booming thermal you wandered around in can score lower than a moderate one you worked perfectly. It's about technique, not just luck.
 
-**Score Ranges**:
-- **25-40 (Excellent)**: You're cooking with gas. Competition-level thermalling.
-- **15-25 (Good)**: Solid work. You got the altitude and didn't waste too much time.
-- **0-15 (Fair)**: Got the job done, but there's room for improvement.
+**Quality labels:**
+
+| Score | Label |
+|---|---|
+| 80 and above | Outstanding |
+| 73 to 79 | Excellent |
+| 66 to 72 | Good |
+| 60 to 65 | Fair |
+| Below 60 | Poor |
+
+These bands are calibrated on real flights in We-Fly: a typical thermal lands in the mid-60s. The full formula, with a worked example, is in [Overall Thermal Score Explained](/doc/overall-thermal-score).
 
 ## Common Patterns You Might Notice
 
-**High drift, low centering quality**: You might be entering too wide or not tightening your circle fast enough when you find lift.
+**High drift, low centering**: you might be entering too wide, or not tightening your circle fast enough when you find lift.
 
-**Good centering time but low efficiency**: The thermal itself might have been weak or broken. Not always your fault!
+**Good centering time but low efficiency**: the thermal itself might have been weak, or the wind strong. Not always your fault!
 
-**High variability**: Could be conditions (rowdy day), or could be inconsistent bank angle. Check your turn rate consistency.
+**High variability**: could be the conditions (a rowdy day) or an inconsistent bank angle. The recommendations try to tell the two apart by looking at how much your circle radius changed.
 
-**Quick core entry on one thermal, slow on another**: Pay attention to entry technique. Did you enter upwind vs. downwind? Overshoot the core?
+**Quick core entry on one thermal, slow on another**: look at your entry technique. Did you come in upwind or downwind? Overshoot the core?
 
 ## When to Use This Tool
 
-- **Post-flight debrief**: Understand what worked and what didn't
-- **Competition prep**: Analyze your thermalling technique under pressure
-- **Comparing conditions**: See how thermal quality varies with time of day, location, or weather
-- **Tracking improvement**: Run analysis on flights from different months to see skill progression
-- **Before the next beer**: Show your mates that you *did* actually center that 6 m/s thermal (proof!)
+- **Post-flight debrief**: understand what worked and what didn't
+- **Competition prep**: analyse your thermalling technique under pressure
+- **Comparing conditions**: see how thermal quality varies with time of day, site or weather
+- **Tracking improvement**: look at flights from different months to see your progression
+- **Before the next beer**: show your mates that you *did* actually center that monster thermal (proof!)
 
 ## Tips for Better Analysis
 
-1. **Clean GPS data helps**: Weak GPS signal = less accurate analysis
-2. **Compare similar thermals**: Compare techniques in similar conditions for meaningful insights
-3. **Don't obsess over one flight**: Trends over multiple flights matter more than one perfect thermal
-4. **Wind context matters**: A "fair" score in 30 km/h wind might be better than "excellent" in dead air
+1. **Clean GPS data helps**: a weak GPS signal means a less accurate analysis, and a logger recording every second gives the best results
+2. **Compare similar thermals**: compare technique in similar conditions for meaningful insights
+3. **Don't obsess over one flight**: trends over many flights matter more than one perfect thermal
+4. **Wind context matters**: a "Fair" score on a windy day can be better flying than "Excellent" in still air
 
 ## What This Tool Doesn't Do
 
-- **Predict future thermals**: It's analysis, not forecasting (we're working on that... kidding)
-- **Judge your life choices**: Whether you should have taken that thermal at 11 AM vs. pushing on? Still your call
-- **Replace experience**: The tool shows data, but learning to *feel* thermals still requires stick time
+- **Predict future thermals**: it's analysis, not forecasting
+- **Judge your decisions**: should you have taken that climb at 11 AM or pushed on? Still your call
+- **Replace experience**: the tool shows data, but learning to *feel* thermals still takes airtime
 
 ## The Bottom Line
 
-This tool won't make you a better pilot overnight, but it will show you *exactly* what you're doing in thermals. Whether you're trying to shave seconds off your centering time or just curious why that one thermal felt different, the Advanced Thermal Analysis has your back.
+This tool won't make you a better pilot overnight, but it shows you *exactly* what you're doing in thermals. Whether you're trying to cut your centering time or just curious why one climb felt different, the **Thermals** tab has your back.
 
-Now go fly, get some thermals, and come back to see if you're as good as you think you are.
+Now go fly, find some thermals, and come back to see if you're as good as you think you are.
 
 ---
 
-See also : [Advanced thermal analysis settings](advanced-thermal-analysis-settings.md)
+See also: [How Thermal Detection Works](/doc/advanced-thermal-analysis-settings) | [Overall Thermal Score Explained](/doc/overall-thermal-score)

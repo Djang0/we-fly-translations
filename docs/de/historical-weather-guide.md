@@ -20,10 +20,10 @@ Oben im Tab fassen dich sechs Karten die Höhepunkte des Tages zusammen:
 | Karte | Was sie dir sagt |
 |---|---|
 | **Temperatur** | Tageshöchst- und Tiefstwert, dazu die gefühlten Werte |
-| **Niederschlag** | Gesamter Regen des Tages in mm |
-| **Max. Wind** | Stärkster mittlerer Wind, stärkste Böe und vorherrschende Richtung |
+| **Niederschlag** | Gesamter Regen des Tages |
+| **Max. Wind** | Stärkster mittlerer Wind, stärkste Böe und deren Richtung |
 | **Sonnenschein** | Wie viele Stunden direktes Sonnenlicht den Boden erreicht haben |
-| **Sonnenaufgang / Sonnenuntergang** | Ortszeiten für das nutzbare Flugfenster des Tages |
+| **Sonnenaufgang** und **Sonnenuntergang** | Ortszeiten für das nutzbare Flugfenster des Tages |
 
 Das sind deine schnellen Plausibilitätschecks: War es ein Tag mit voller Sonne, oder hast du dich den ganzen Nachmittag durch Abschattungen gekämpft?
 
@@ -36,13 +36,13 @@ Jetzt wird es spannend. Die Tabelle schlüsselt die Bedingungen Stunde für Stun
 Das bedeuten die einzelnen Spalten:
 
 ### Stunde
-Ortszeit der Messung (Format HH:MM). Der blaue Punkt neben der Uhrzeit markiert Stunden, die sich mit deinem Flug überschneiden.
+Ortszeit der Messung (Format HH:MM). Der kleine Punkt neben der Stunde markiert Stunden, die sich mit deinem Flug überschneiden.
 
 ### Wetter: Wetterlage
 Ein Wettersymbol nach WMO-Code mit Bezeichnung. Deckt alles ab von „Wolkenlos“ bis „Gewitter + Hagel“. Wenn du unter einem grauen Himmel gekratzt hast, siehst du hier, ob es bedeckt war, teilweise bewölkt oder ob es richtiger Nebel war.
 
 ### Temp.: Temperatur in 2 m
-Lufttemperatur in Bodennähe (2 Meter), in **°C**. Farbcodiert von Blau (eisig) über Cyan, Grün, Gelb und Orange bis Rot (heiß). Eine schnelle visuelle Abkürzung: Grün ist dein Wohlfühlbereich, Orange heißt, es war ein warmer Tag.
+Lufttemperatur in Bodennähe (2 Meter), in der Temperatureinheit, die du in deinem Profil gewählt hast. Farbcodiert von Blau (eisig) über Cyan, Grün, Gelb und Orange bis Rot (heiß). Eine schnelle visuelle Abkürzung: Grün ist dein Wohlfühlbereich, Orange heißt, es war ein warmer Tag.
 
 ### Gefühlt: gefühlte Temperatur
 Wie es sich wirklich angefühlt hat, unter Berücksichtigung von Luftfeuchte und Windchill. Nützlich, um zu verstehen, warum es am Start kalt war, obwohl das Thermometer 18 °C anzeigte.
@@ -51,25 +51,25 @@ Wie es sich wirklich angefühlt hat, unter Berücksichtigung von Luftfeuchte und
 Der Feuchtegehalt der Luft in Prozent. Hohe Luftfeuchte (über ~80 %) bremst die Thermikentwicklung eher und kann auf aufkommende Labilität hindeuten. Niedrige Luftfeuchte zusammen mit kräftiger Sonne ist oft ein Zeichen, dass der Tag richtig gezündet hat.
 
 ### Wind: Windgeschwindigkeit in 10 m
-Mittlere Windgeschwindigkeit 10 Meter über Grund, in **km/h**. Das ist die offizielle Referenz für den Bodenwind, gemessen in meteorologischer Standardhöhe.
+Mittlere Windgeschwindigkeit 10 Meter über Grund, in deiner Windeinheit (steht im Spaltenkopf). Das ist die offizielle Referenz für den Bodenwind, gemessen in meteorologischer Standardhöhe.
 
 ### Richt.: Windrichtung
 Himmelsrichtung, **aus** der der Wind weht (N, NO, O usw.), mit einem passend gedrehten Pfeil. Auflösung in sechzehn Richtungen, damit du siehst, ob der Talwind gehalten hat oder ob der Höhenwind angefangen hat durchzudrücken.
 
 ### Böen: Böengeschwindigkeit
-Stärkste in dieser Stunde gemessene Böe, in **km/h**. Liegt dieser Wert deutlich über dem mittleren Wind, war die Luft turbulent. Ein Böenfaktor (Böen ÷ Wind) über 1,5 ist ein Warnsignal, das du dir merken solltest.
+Stärkste in dieser Stunde gemessene Böe, in derselben Einheit wie der Wind. Liegt dieser Wert deutlich über dem mittleren Wind, war die Luft turbulent. Ein Böenfaktor (Böen ÷ Wind) über 1,5 ist ein Warnsignal, das du dir merken solltest.
 
 ### Wolken: Gesamtbedeckung
 Anteil des Himmels, der von Wolken in allen Höhen bedeckt ist, mit einem Balken dargestellt. Das ist die kombinierte Gesamtbedeckung. Ein feineres Bild bekommst du im Abschnitt zu den Wolkenschichten weiter unten.
 
 ### Regen: Niederschlag
-In dieser Stunde gefallener Regen, in **mm**. Blau dargestellt, wenn er nicht null ist. Schon 0,1 mm können auf einen durchziehenden Schauer hindeuten; alles über 1 mm in einer einzigen Stunde heißt, dass es irgendwo in der Nähe deines Fluggebiets richtig geregnet hat.
+In dieser Stunde gefallener Regen (Einheit im Spaltenkopf). Blau dargestellt, wenn er nicht null ist. Schon eine Spur kann auf einen durchziehenden Schauer hindeuten; eine stetige stündliche Menge heißt, dass es irgendwo in der Nähe deines Fluggebiets richtig geregnet hat.
 
 ### Luftdruck: Luftdruck auf Meereshöhe
 Auf Meereshöhe reduzierter Luftdruck, in **hPa**. Fällt der Druck im Laufe des Tages, deutet das auf eine Verschlechterung hin; steigender Druck heißt meist Besserung. Die meisten Piloten schauen auf diesen Trend, nicht auf den absoluten Wert.
 
 ### PBL AGL: Höhe der planetaren Grenzschicht
-Die Obergrenze der konvektiven Mischungsschicht: im Grunde die theoretisch maximale Höhe, die Thermik unter den gegebenen Bedingungen erreichen kann, in **Metern über Grund (AGL)**. Dieser Wert wird vom Gelände an deinem Startplatz aus gemessen, nicht von Meereshöhe. Wenn du an der Basis gekratzt hast und dich gefragt hast, wie hoch es gehen könnte, ist das deine Zahl. Hohe PBL (2000 m+ AGL) an einem sonnigen Tag heißt meist: Der Himmel ist die Grenze; niedrige PBL (unter 1000 m AGL), und du hast gekratzt.
+Die Obergrenze der konvektiven Mischungsschicht: im Grunde die theoretisch maximale Höhe, die Thermik unter den gegebenen Bedingungen erreichen kann, in deiner Höheneinheit, **über Grund (AGL)**. Dieser Wert wird vom Gelände an deinem Startplatz aus gemessen, nicht von Meereshöhe. Wenn du an der Basis gekratzt hast und dich gefragt hast, wie hoch es gehen könnte, ist das deine Zahl. Hohe PBL (2000 m+ AGL) an einem sonnigen Tag heißt meist: Der Himmel ist die Grenze; niedrige PBL (unter 1000 m AGL), und du hast gekratzt.
 
 > PBL-Daten sind nicht für alle historischen Tage verfügbar. Wenn es sie gibt, erscheinen sie zusätzlich als interaktives Balkendiagramm unter der Tabelle.
 

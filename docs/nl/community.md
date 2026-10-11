@@ -27,11 +27,12 @@ Met een geheime link deel je een losse vlucht met wie je maar wilt, zonder dat d
 ### Hoe werkt het?
 
 **Voor jou (eigenaar van de vlucht):**
-1. Open de detailpagina van een vlucht
-2. Klik op de knop „Link maken“
-3. Er wordt een unieke URL aangemaakt
-4. Kopieer de link naar je klembord
-5. Deel de link met wie je wilt (e-mail, bericht, sociale media)
+1. Open een van je vluchten
+2. Klik op de knop **Vlucht delen** (het deelicoon in de werkbalk van de vlucht)
+3. Er wordt een unieke URL aangemaakt en naar je klembord gekopieerd (op een telefoon opent in plaats daarvan het deelmenu)
+4. Deel de link met wie je wilt (e-mail, bericht, sociale media)
+
+Vanuit je logboek doet **Link kopiëren** in het menu van de rij hetzelfde in één keer.
 
 **Voor wie de link krijgt:**
 1. Klik op de gedeelde link
@@ -46,7 +47,7 @@ Met een geheime link deel je een losse vlucht met wie je maar wilt, zonder dat d
 - **Niet te raden**: (bijna) onmogelijk te vinden zonder de link
 - **Niet doorzoekbaar**: links verschijnen niet in de community of in zoekresultaten
 - **Permanent**: links blijven geldig tot je de vlucht verwijdert
-- **Intrekbaar**: gebruik „gedeelde link verwijderen“, „Stoppen met delen“ of „Vlucht verwijderen“ om de link ongeldig te maken
+- **Intrekbaar**: trek de link in via **Gedeelde links** (in het menu Account), of verwijder de vlucht
 
 ### Wat is zichtbaar via een geheime link?
 
@@ -93,10 +94,11 @@ Als je je openbaar profiel aanzet, worden je vluchten vindbaar in de We-Fly-comm
 
 ### Zo zet je je openbaar profiel aan
 
-1. Ga naar **/profile**
-2. Zoek de instelling „Openbaar profiel“
-3. Zet ze aan
-4. Sla je wijzigingen op
+1. Open je **Profiel** (menu Account)
+2. Klik op **Privacy-instellingen**
+3. Zet **Openbaar profiel** aan
+
+De wijziging geldt meteen, je hoeft niets op te slaan.
 
 Je vluchten zijn nu zichtbaar in de community!
 
@@ -121,21 +123,21 @@ Ook met een openbaar profiel:
 ### Je openbaar profiel uitzetten
 
 Wil je weer privé?
-1. Ga naar **/profile**
-2. Zet „Openbaar profiel“ uit
-3. Sla je wijzigingen op
+1. Open je **Profiel**
+2. Klik op **Privacy-instellingen**
+3. Zet **Openbaar profiel** uit
 
 **Gevolg:**
 - Je vluchten verdwijnen uit de lijsten van de community
-- Bestaande openbare deellinks werken niet meer
+- De link naar je gedeelde pilotenpagina werkt niet meer
 - Je profiel wordt privé
-- Geheime links blijven werken
+- Geheime links naar vluchten blijven werken
 
 ---
 
 ## Communityfuncties
 
-Je vindt de communityfuncties op **/community** (als je openbaar profiel aanstaat, of om de openbare vluchten van anderen te bekijken).
+Je vindt de communityfuncties in het onderdeel **Community** van het menu. Je moet ingelogd zijn; bladeren werkt of je eigen profiel nu openbaar of privé is.
 
 ### Onderdelen van de community
 
@@ -184,34 +186,26 @@ Ontdek andere piloten met een openbaar profiel:
 - Statistieken en prestaties
 - Kaart met vluchten (recente vluchten)
 
-#### 3. Startplaatsen in de community (/community/takeoffs)
+#### 3. Startplaatsen en zoeken op de kaart
 
-Verken startplaatsen waar de community actief is:
+Verken vlieggebieden waar de community actief is:
 
-**Functies:**
-- Lijst van startplaatsen
-- Zie hoeveel piloten er vanaf elke startplaats vliegen
-- Bekijk de openbare vluchten vanaf elke startplaats
-- Ontdek populaire vlieggebieden
-
-**Informatie over de startplaats:**
-- Naam en locatie
-- Aantal openbare vluchten
-- Lijst van piloten die er vliegen
-- Vluchtgeschiedenis van de community
+- **Startplaatsendatabase** (/takeoffs): startplaatsen wereldwijd, met hun geschiedenis
+- **Vluchten zoeken op de kaart** (/community/search-flights): kies een startplaats en zie elke communityvlucht die daar vertrokken is
 
 **Toepassingen:**
 - Actieve vlieggebieden vinden
 - Zien wat anderen vliegen vanaf je eigen startplaatsen
 - Nieuwe bestemmingen ontdekken
 
+#### En meer
+
+Het menu Community leidt ook naar **Gevolgd**, **Clubs**, **Ranglijst**, **Instrumenten**, **Place to be** en **Seizoensoverzicht**.
+
 ### Filteren en zoeken
 
-Alle onderdelen van de community hebben:
-- **Datumfilters**: recent, deze maand, dit jaar
-- **Locatiefilters**: per land, per regio
-- **Afstandsfilters**: minimale XC-afstand
-- **Sorteeropties**: datum, afstand, score
+- **Vluchten**: zoekveld, vaste periodes (Vandaag, Afgelopen 7 dagen, Afgelopen 30 dagen, Afgelopen 90 dagen, Afgelopen jaar, Aangepast), plus filters op Piloot, Vlieggebied, Scherm en Start
+- **Piloten**: zoeken op naam, minimaal aantal vluchten, filterchips en verschillende sorteervolgordes
 
 ---
 
@@ -293,7 +287,7 @@ Help de kwaliteit van de gegevens te bewaren:
 
 ### Kan ik het delen van een vlucht ongedaan maken?
 
-**Geheime links:** verwijder de vlucht om de link ongeldig te maken.
+**Geheime links:** trek de link in via **Gedeelde links** in het menu Account (of verwijder de vlucht).
 **Openbaar profiel:** zet je openbaar profiel uit om al je vluchten te verbergen.
 
 ### Kan ik maar een deel van mijn vluchten delen met de community?
@@ -302,7 +296,7 @@ Momenteel niet. Een openbaar profiel maakt al je vluchten openbaar. Gebruik gehe
 
 ### Verschijnen mijn vluchten in de zoekresultaten van Google?
 
-Nee.
+Communitypagina's zijn alleen zichtbaar voor ingelogde piloten en worden nooit geïndexeerd. We-Fly zet geheime links nergens in een lijst, maar als je er een op een openbare webpagina plaatst, kan een zoekmachine hem vinden zoals elke andere link.
 
 ### Kan ik de IGC-bestanden van andere piloten downloaden?
 

@@ -13,10 +13,10 @@ Your track, times and scores are fine. Only the date is off, which puts the flig
 
 ## Fix one flight
 
-Open the flight's **⋯** menu and choose **Change Date**.
+In your logbook, open the flight's **⋯** menu and choose **Change Date**.
 
-- If the date looks swapped, We-Fly shows a **Suggested fix** next to the current date. One tap applies it.
-- Otherwise pick the right day in the calendar. The time of the flight stays the same; only the day changes.
+- If the date looks swapped, We-Fly shows **Suggested Fix Available** with the corrected date. Tap **Use Suggested Date**, then **Save Date**.
+- Otherwise pick the right day in the calendar and tap **Save Date**. The time of the flight stays the same; only the day changes.
 
 ## Fix many flights at once
 

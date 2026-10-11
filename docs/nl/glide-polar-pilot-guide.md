@@ -9,7 +9,7 @@ order: 5
 
 ## Wat is dit in godsnaam voor grafiek?
 
-Je hebt het tabblad Vector Vario geopend, bent voorbij de tijdreeksen gescrold, en nu staar je naar een sombere blauwe vlek met een paar lijnen die erdoor dwalen. Welkom bij de grafiek **Prestaties in glijvlucht**: de poging van We-Fly om je te tonen wat je scherm echt deed bij elke snelheid tijdens de glijstukken van je vlucht.
+Je hebt het tabblad **Vector Vario** geopend, bent voorbij de tijdreeksen gescrold, en nu staar je naar een sombere blauwe vlek met een paar lijnen die erdoor dwalen. Welkom bij de grafiek **Prestaties in glijvlucht**: de poging van We-Fly om je te tonen wat je scherm echt deed bij elke snelheid tijdens de glijstukken van je vlucht.
 
 **De korte versie:** het is een grafiek van je **vario (daalsnelheid) tegenover je ware luchtsnelheid (TAS)**, beperkt tot de momenten waarop je echt aan het glijden was. De vorm van de lijnen komt het dichtst bij wat we je kunnen geven als „de polaire van je scherm op deze dag, in deze lucht, met jou in het harnas“.
 
@@ -74,7 +74,7 @@ Elke cel (TAS, vario) krijgt een kleur volgens de **gemiddelde netto** (vario mi
 Het is eigenlijk een heatmap van hoe de atmosfeer je bij elke snelheid behandelde. Mooi, en leerrijk.
 
 ### De lijnen van het glijgetal (diagonale grijze gestippelde stralen)
-Dit zijn stralen vanuit de oorsprong (0,0) met een constant glijgetal, meestal getekend bij **5:1, 8:1, 10:1, 12:1, 15:1**.
+Dit zijn stralen vanuit de oorsprong (0,0) met een constant glijgetal, getekend bij **3:1, 5:1, 7:1, 9:1, 12:1, 15:1, 20:1** (alleen de stralen die binnen de zichtbare grafiek passen).
 
 Omdat de grafiek begint bij TAS=24 (niet 0), ligt de oorsprong buiten beeld linksonder, en verschijnen de lijnen als gestippelde diagonalen die van linksonder naar rechtsboven lopen.
 
@@ -82,7 +82,7 @@ Omdat de grafiek begint bij TAS=24 (niet 0), ligt de oorsprong buiten beeld link
 - Waar de **stippellijn van de rustige lucht een glijgetallijn kruist** → dat is de TAS waarbij het scherm dat glijgetal haalt in lucht die niet stijgt.
 - Waar een glijgetallijn de gestippelde polaire **raakt** (aanraakt zonder te kruisen) → dat is je **beste L/D op deze vlucht**.
 
-Snel voorbeeld: kruist de gestippelde polaire de straal 5:1 bij TAS=42 km/h, dan zou je bij 42 km/h in koele lucht 5 km gegleden hebben per 1 km hoogteverlies. Raakt de straal 8:1 de stippellijn net bij TAS=32 km/h, dan is dat je raakpunt, je beste glijvlucht van de dag, bij die snelheid.
+Snel voorbeeld: kruist de gestippelde polaire de straal 5:1 bij TAS=42 km/h, dan zou je bij 42 km/h in koele lucht 5 km gegleden hebben per 1 km hoogteverlies. Raakt de straal 9:1 de stippellijn net bij TAS=32 km/h, dan is dat je raakpunt, je beste glijvlucht van de dag, bij die snelheid.
 
 ### De referentielijn Y=0 (gestippeld, horizontaal)
 De grens tussen dalen (eronder) en stijgen (erboven). Boven deze lijn leverde de atmosfeer meer stijgen dan je scherm aan daalsnelheid opwekte. Handig om te zien hoeveel van je „glijvluchten“ eigenlijk een thermiekrandje hadden.

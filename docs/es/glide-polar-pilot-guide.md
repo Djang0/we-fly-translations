@@ -9,7 +9,7 @@ order: 5
 
 ## ¿Pero qué demonios es este gráfico?
 
-Has abierto la pestaña Vector vario, has pasado de largo las series temporales y ahora estás mirando una mancha azul con mala cara atravesada por un par de líneas. Bienvenido al gráfico **Rendimiento en planeo**: el intento de We-Fly de enseñarte lo que hizo de verdad tu vela a cada velocidad durante los tramos de planeo de tu vuelo.
+Has abierto la pestaña **Vector vario**, has pasado de largo las series temporales y ahora estás mirando una mancha azul con mala cara atravesada por un par de líneas. Bienvenido al gráfico **Rendimiento en planeo**: el intento de We-Fly de enseñarte lo que hizo de verdad tu vela a cada velocidad durante los tramos de planeo de tu vuelo.
 
 **La versión corta:** es un gráfico de tu **vario (tasa de caída) frente a tu velocidad aire verdadera (TAS)**, limitado a los momentos en que estabas realmente planeando. La forma de las líneas es lo más parecido que te podemos dar a «la polar de tu vela en este día concreto, en este aire concreto, contigo en la silla».
 
@@ -74,7 +74,7 @@ Cada celda (TAS, vario) se colorea según el **netto medio** (vario menos la ca�
 Es básicamente un mapa de calor de cómo te trató la atmósfera a cada velocidad. Bonito e informativo.
 
 ### Las isolíneas de fineza (rayos grises discontinuos en diagonal)
-Son rayos desde el origen (0,0) con fineza constante, normalmente dibujados a **5:1, 8:1, 10:1, 12:1, 15:1**.
+Son rayos desde el origen (0,0) con fineza constante, dibujados a **3:1, 5:1, 7:1, 9:1, 12:1, 15:1, 20:1** (solo los que caben dentro del gráfico visible).
 
 Como el gráfico empieza en TAS=24 (no en 0), el origen queda fuera de la pantalla abajo a la izquierda, y las isolíneas aparecen como diagonales discontinuas que suben de abajo a la izquierda hacia arriba a la derecha.
 
@@ -82,7 +82,7 @@ Como el gráfico empieza en TAS=24 (no en 0), el origen queda fuera de la pantal
 - Donde la **línea discontinua de aire limpio cruza una isolínea** → esa es la TAS a la que la vela consigue esa fineza en aire sin ascendencia.
 - Donde una isolínea es **tangente** a la polar discontinua (la toca sin cruzarla) → esa es tu **mejor fineza en este vuelo**.
 
-Ejemplo rápido: si la polar discontinua cruza el rayo de 5:1 a TAS=42 km/h, a 42 km/h en aire frío habrías planeado 5 km por cada km de altura perdida. Si el rayo de 8:1 apenas roza la curva discontinua a TAS=32 km/h, ese es tu punto de tangencia, tu mejor planeo del día, a esa velocidad.
+Ejemplo rápido: si la polar discontinua cruza el rayo de 5:1 a TAS=42 km/h, a 42 km/h en aire frío habrías planeado 5 km por cada km de altura perdida. Si el rayo de 9:1 apenas roza la curva discontinua a TAS=32 km/h, ese es tu punto de tangencia, tu mejor planeo del día, a esa velocidad.
 
 ### La línea de referencia Y=0 (discontinua, horizontal)
 La frontera entre caer (debajo) y subir (encima). Por encima de esta línea, la atmósfera aportaba más ascendencia que la caída que generaba la vela. Útil para ver cuánto de tus «planeos» tenía en realidad sabor a térmica.

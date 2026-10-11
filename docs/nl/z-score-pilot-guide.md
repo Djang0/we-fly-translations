@@ -59,7 +59,7 @@ Z-Score = 2.45
 
 **Wat betekent 2,45?**
 - De gemiddelde duur in Bassano ligt 2,45 standaardafwijkingen **boven** het gemiddelde
-- In de Cockpit verschijnt dit als je **Z-score**
+- In je **Cockpit** verschijnt dit in de kolom **Z-score**
 - Dit is statistisch significant (|z| > 2 = gebied van de uitschieters)
 - Vertaling: Bassano is niet alleen goed, het is **echt uitzonderlijk**
 
@@ -121,7 +121,7 @@ Je wilt die rit van 4 uur rechtvaardigen tegenover je partner, je baas of je smo
 
 ### In het Cockpit-dashboard
 
-In je statistieken per startplaats zie je voor elk vlieggebied een **Z-score**. Die wordt berekend uit je **gemiddelde vluchtduur per vlieggebied** (de verhouding tussen het totale aantal uren en het aantal vluchten).
+Open je de weergave **Startplaats** van je **Cockpit**, dan zie je voor elke startplaats een **Z-score**. Die wordt berekend uit je **gemiddelde vluchtduur per vlieggebied** (de verhouding tussen het totale aantal uren en het aantal vluchten).
 
 ```typescript
 // From src/lib/utils.ts
@@ -143,9 +143,10 @@ export function computeZScore(dataSerie: chartData[]) {
     let deviation = Math.sqrt(sum_deviations / dataSerie.length);
 
     // Calculate z-score: (this site's ratio - average) / std deviation
+    // (rounded to one decimal)
     dataSerie[indexx].z = deviation === 0
       ? 0
-      : (dataSerie[indexx].ratio - avg_ratio) / deviation;
+      : Number(((dataSerie[indexx].ratio - avg_ratio) / deviation).toFixed(1));
   }
 }
 ```
@@ -167,20 +168,22 @@ Dat betekent:
 
 ### Een echt voorbeeld uit je Cockpit
 
-Stel dat je de statistieken per startplaats bekijkt en dit ziet:
+Stel dat je de weergave **Startplaats** opent en dit ziet:
 
-| Startplaats | Totaal uren | Vluchten | Gem./vlucht | **Z-score** |
-|--------------|-------------|---------|------------|-----------------------|
-| Mont Blanc | 45,5 u | 8 | 5,69 u | **+2,84** 🌟 |
-| Eigen heuvel | 67,2 u | 42 | 1,60 u | **-0,52** 😐 |
-| Die ene keer | 3,2 u | 1 | 3,20 u | **+0,41** 🤷 |
+| Startplaats | Vluchten | Totaal uren | Gem./vlucht | **Z-score** |
+|------------------|---------|-------------|------------|-------------|
+| Mont Blanc | 8 | 45,5 u | 5,69 u | **2,80** 🌟 |
+| Eigen heuvel | 42 | 67,2 u | 1,60 u | **-0,50** 😐 |
+| Die ene keer | 1 | 3,2 u | 3,20 u | **0,40** 🤷 |
+
+De Cockpit rondt elke z-score af op één decimaal, dus een vlieggebied op 2,84 verschijnt als 2,80.
 
 **Wat dit je vertelt:**
-1. **Mont Blanc (z = +2,84):** allemachtig, dit vlieggebied is een statistische eenhoorn. Elke keer dat je hier vliegt, ben je zo goed als zeker van een lange vlucht. Boek die Airbnb NU.
+1. **Mont Blanc (z = +2,8):** allemachtig, dit vlieggebied is een statistische eenhoorn. Elke keer dat je hier vliegt, ben je zo goed als zeker van een lange vlucht. Boek die Airbnb NU.
 
-2. **Eigen heuvel (z = -0,52):** iets onder het gemiddelde, maar niet slecht. Het ligt dichtbij en je maakt uren. Blijf er oefenen, maar verwacht geen epische vluchten.
+2. **Eigen heuvel (z = -0,5):** iets onder het gemiddelde, maar niet slecht. Het ligt dichtbij en je maakt uren. Blijf er oefenen, maar verwacht geen epische vluchten.
 
-3. **Die ene keer (z = +0,41):** licht boven het gemiddelde, maar je hebt er maar één keer gevlogen. Kan geluk zijn. Je hebt meer data nodig om te weten of het echt goed is.
+3. **Die ene keer (z = +0,4):** licht boven het gemiddelde, maar je hebt er maar één keer gevlogen. Kan geluk zijn. Je hebt meer data nodig om te weten of het echt goed is.
 
 ---
 
@@ -280,7 +283,7 @@ Om te zien welke startplaatsen (of schermen, of maanden, of landen) **echt uitzo
 - **|z| < 1:** vrij normaal (gemiddeld)
 
 **Waar zie ik hem?**
-In je **Cockpit**, onder „Z-score“ voor startplaatsen, schermen, maanden enzovoort.
+In je **Cockpit**, in de kolom **Z-score** van de weergaven **Startplaats**, **Scherm**, **Land** en **Seizoen**, en als de metriek **Z-score** in de weergave **Maand**.
 
 **Wat doe ik ermee?**
 Gebruik hem om slimmer te beslissen waar je vliegt, met welk materiaal en wanneer je je reizen plant. De z-score is je datagedreven wingman.

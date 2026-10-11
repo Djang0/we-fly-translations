@@ -20,10 +20,10 @@ In alto nella scheda, sei schede di riepilogo ti danno i punti salienti della gi
 | Scheda | Cosa ti dice |
 |---|---|
 | **Temperatura** | Massima e minima del giorno, più i valori "percepiti" |
-| **Precipitazioni** | Pioggia totale del giorno in mm |
-| **Vento max** | Vento medio di picco, raffica massima e direzione dominante |
+| **Precipitazioni** | Pioggia totale del giorno |
+| **Vento max** | Vento medio di picco, raffica massima e la sua direzione |
 | **Soleggiamento** | Quante ore di sole diretto hanno raggiunto il suolo |
-| **Alba / Tramonto** | Orari locali della finestra di volo utile della giornata |
+| **Alba** e **Tramonto** | Orari locali della finestra di volo utile della giornata |
 
 Sono i tuoi controlli rapidi: era una giornata di sole pieno o hai lottato con le velature tutto il pomeriggio?
 
@@ -36,13 +36,13 @@ Qui si fa interessante. La tabella scompone le condizioni ora per ora su 13 colo
 Ecco cosa significa ogni colonna:
 
 ### Ora
-Ora locale della rilevazione (formato HH:MM). Il pallino blu accanto all’ora segna le ore che si sovrappongono al tuo volo.
+Ora locale della rilevazione (formato HH:MM). Il pallino accanto all’ora segna le ore che si sovrappongono al tuo volo.
 
 ### Cond.: condizioni meteo
 Un’icona e un’etichetta meteo codificate WMO. Coprono tutto, da "Sereno" a "Temporale + grandine". Se stavi raschiando sotto un cielo grigio, qui hai la conferma se era coperto, parzialmente nuvoloso o nebbia vera e propria.
 
 ### Temp: temperatura a 2 m
-Temperatura dell’aria al suolo (2 metri), in **°C**. Colori dal blu (gelo) passando per ciano, verde, giallo, arancione fino al rosso (caldo). Una scorciatoia visiva: il verde è la tua zona di comfort, l’arancione vuol dire che faceva caldo.
+Temperatura dell’aria al suolo (2 metri), nell’unità di temperatura che hai scelto nel profilo. Colori dal blu (gelo) passando per ciano, verde, giallo, arancione fino al rosso (caldo). Una scorciatoia visiva: il verde è la tua zona di comfort, l’arancione vuol dire che faceva caldo.
 
 ### Percepita: temperatura apparente
 Quella che si sentiva davvero, tenendo conto di umidità e vento. Utile per capire perché in decollo faceva freddo anche se il termometro segnava 18°C.
@@ -51,25 +51,25 @@ Quella che si sentiva davvero, tenendo conto di umidità e vento. Utile per capi
 La percentuale di umidità nell’aria. Un’umidità alta (oltre l’80% circa) tende a frenare lo sviluppo delle termiche e può indicare un’instabilità in arrivo. Umidità bassa con sole forte è spesso il segno che la giornata è partita alla grande.
 
 ### Vento: velocità del vento a 10 m
-Velocità del vento medio a 10 metri dal suolo, in **km/h**. È il riferimento ufficiale del vento al suolo, misurato all’altezza meteorologica standard.
+Velocità del vento medio a 10 metri dal suolo, nella tua unità del vento (indicata nell’intestazione della colonna). È il riferimento ufficiale del vento al suolo, misurato all’altezza meteorologica standard.
 
 ### Dir.: direzione del vento
 Il punto cardinale **da cui** soffia il vento (N, NE, E, ecc.), con una freccia ruotata di conseguenza. Risoluzione a sedici settori, così vedi se la brezza di valle teneva o se il vento sinottico cominciava a infilarsi.
 
 ### Raffiche: velocità delle raffiche
-La raffica di picco registrata in quell’ora, in **km/h**. Se questo numero è molto più alto del vento medio, l’aria era turbolenta. Un fattore di raffica (raffiche ÷ vento) superiore a 1,5 è un segnale da tenere a mente.
+La raffica di picco registrata in quell’ora, nella stessa unità del vento. Se questo numero è molto più alto del vento medio, l’aria era turbolenta. Un fattore di raffica (raffiche ÷ vento) superiore a 1,5 è un segnale da tenere a mente.
 
 ### Nubi: copertura nuvolosa totale
 Percentuale di cielo coperta da nubi a tutte le quote, mostrata con una barra. È il totale combinato. Vedi la sezione sulla suddivisione degli strati nuvolosi più sotto per un quadro più dettagliato.
 
 ### Pioggia: precipitazioni
-La pioggia accumulata nell’ora, in **mm**. Mostrata in blu quando non è zero. Anche 0,1 mm può indicare un rovescio di passaggio; oltre 1 mm in una sola ora vuol dire che pioveva davvero da qualche parte vicino al tuo sito.
+La pioggia accumulata nell’ora (unità nell’intestazione della colonna). Mostrata in blu quando non è zero. Anche una traccia può indicare un rovescio di passaggio; una quantità oraria costante vuol dire che pioveva davvero da qualche parte vicino al tuo sito.
 
 ### Pressione: pressione al livello medio del mare
 Pressione atmosferica riportata al livello del mare, in **hPa**. Una pressione che scende nel corso della giornata indica un peggioramento; una pressione in salita in genere vuol dire miglioramento. La maggior parte dei piloti guarda la tendenza più che il valore assoluto.
 
 ### PBL AGL: altezza dello strato limite planetario
-Il tetto dello strato di rimescolamento convettivo: in pratica, la quota massima teorica che le termiche possono raggiungere nelle condizioni atmosferiche date, in **metri dal suolo (AGL)**. Questo valore si misura dal terreno del tuo decollo, non dal livello del mare. Se stavi bucando la base delle nubi chiedendoti fin dove potevi salire, questo è il tuo numero. PBL alto (2000 m+ AGL) in una giornata di sole di solito vuol dire che il limite è il cielo; PBL basso (sotto i 1000 m AGL) e stavi raschiando.
+Il tetto dello strato di rimescolamento convettivo: in pratica, la quota massima teorica che le termiche possono raggiungere nelle condizioni atmosferiche date, nella tua unità di quota, **dal suolo (AGL)**. Questo valore si misura dal terreno del tuo decollo, non dal livello del mare. Se stavi bucando la base delle nubi chiedendoti fin dove potevi salire, questo è il tuo numero. PBL alto (2000 m+ AGL) in una giornata di sole di solito vuol dire che il limite è il cielo; PBL basso (sotto i 1000 m AGL) e stavi raschiando.
 
 > I dati PBL potrebbero non essere disponibili per tutte le date storiche. Quando ci sono, compaiono anche in un grafico a barre interattivo sotto la tabella.
 

@@ -13,10 +13,10 @@ La traccia, gli orari e i punteggi sono a posto. Solo la data è sbagliata, e qu
 
 ## Correggere un volo
 
-Apri il menu **⋯** del volo e scegli **Cambia data**.
+Nel tuo libretto di volo, apri il menu **⋯** del volo e scegli **Cambia data**.
 
-- Se la data sembra invertita, We-Fly mostra una **Correzione suggerita** accanto alla data attuale. Basta un tocco per applicarla.
-- Altrimenti scegli il giorno giusto nel calendario. L’orario del volo resta lo stesso; cambia solo il giorno.
+- Se la data sembra invertita, We-Fly mostra **Correzione suggerita disponibile** con la data corretta. Tocca **Usa la data suggerita**, poi **Salva la data**.
+- Altrimenti scegli il giorno giusto nel calendario e tocca **Salva la data**. L’orario del volo resta lo stesso; cambia solo il giorno.
 
 ## Correggere molti voli insieme
 

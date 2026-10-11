@@ -97,7 +97,7 @@ Il suffit alors de glisser des fichiers `.igc` dans ce lecteur pour les importer
 
 ## Bon à savoir
 
-- **Seuls les fichiers `.igc` sont acceptés.** Tout ce que l’appareil essaie d’envoyer d’autre est poliment ignoré : pas d’erreur, pas de bazar. Pas de souci donc si ton dossier de traces contient aussi des fichiers de config ou de log qui traînent.
+- **Seuls les fichiers `.igc` sont acceptés.** Tout ce que l’appareil essaie d’envoyer d’autre est refusé et jamais stocké. Ton appli de synchro peut signaler ces fichiers en échec, c’est sans conséquence : pas de souci donc si ton dossier de traces contient aussi des fichiers de config ou de log qui traînent.
 - **Les doublons sont ignorés automatiquement**, repérés d’après le contenu réel du fichier. Resynchroniser mille fois le même dossier ne créera jamais un seul vol en double. C’est pour ça qu’on peut le laisser tourner pour toujours sans crainte.
 - **C’est de l’envoi seulement, par principe.** L’appareil envoie les vols ; il ne revient jamais modifier ou supprimer quoi que ce soit. Tu veux supprimer un vol ? Fais-le dans l’appli We-Fly, jamais depuis l’appareil.
 
@@ -112,7 +112,7 @@ Passe en revue les suspects habituels : es-tu vraiment sur le Wi-Fi (ou sur ce 
 Évidemment. Pointe une fois une paire de synchro sur tout ton dossier d’archives, laisse-la mouliner, et chaque vieille trace atterrit dans We-Fly. Comme les doublons sont repérés par leur contenu, aucun risque de vol en double, même si certains de ces vols sont déjà dans ton carnet de vol.
 
 **Mon mot de passe est-il en sécurité ?**
-C’est un **mot de passe par appareil**, pas l’identifiant de ton compte. Il ne sert qu’à importer des fichiers `.igc`, et tu peux le **révoquer à tout moment** depuis la même carte Services connectés. La révocation coupe cet appareil instantanément et laisse tous les autres intacts. Tu vends ton Air³ ? Révoque d’abord.
+C’est un **mot de passe par appareil**, pas l’identifiant de ton compte. Il n’ouvre que ton dossier de vols (envoyer de nouveaux fichiers `.igc`, lire ceux qui s’y trouvent déjà) et ne peut jamais supprimer un vol ni toucher à ton compte. Tu peux le **révoquer à tout moment** depuis la même carte Services connectés. La révocation coupe cet appareil instantanément et laisse tous les autres intacts. Tu vends ton Air³ ? Révoque d’abord.
 
 **Est-ce que ça supprime certains de mes vols ?**
 Non. La synchro est unidirectionnelle, en envoi seulement. Les suppressions se font **uniquement** dans l’appli We-Fly, volontairement, par toi. Rien de ce que fait ton instrument ne peut supprimer un vol.

@@ -97,7 +97,7 @@ Then dragging `.igc` files into that drive uploads them to We-Fly. Handy for cle
 
 ## Good things to know
 
-- **Only `.igc` files are accepted.** Anything else the device tries to push is politely ignored: no errors, no mess. So it's fine if your tracklog folder also has odd config or log files hanging around.
+- **Only `.igc` files are accepted.** Anything else the device tries to push is turned away and never stored. Your sync app may log those files as failed, which is harmless, so it's fine if your tracklog folder also has odd config or log files hanging around.
 - **Duplicates are skipped automatically**, matched by the file's actual contents. Re-syncing the same folder a thousand times will never create a single duplicate flight. This is why it's safe to just leave it running forever.
 - **It's upload-only in spirit.** The device pushes flights up; it never reaches back to change or remove anything. Want to delete a flight? Do it in the We-Fly app, never from the device.
 
@@ -112,7 +112,7 @@ Run down the usual suspects: are you actually on Wi-Fi (or wherever your sync is
 Absolutely. Point a sync pair at your entire archive folder once, let it churn through, and every old track lands in We-Fly. Because duplicates are skipped by content, there's zero risk of doubling up, even if some of those flights are already in your logbook.
 
 **Is my password safe?**
-It's a **per-device password**, not your account login. It only works for uploading `.igc` files, and you can **revoke it anytime** from the same Connected services card. Revoking cuts that one device off instantly and leaves every other device untouched. Selling your Air³? Revoke first.
+It's a **per-device password**, not your account login. It only opens your flight folder (upload new `.igc` files, read the ones already there) and can never delete a flight or touch your account. You can **revoke it anytime** from the same Connected services card. Revoking cuts that one device off instantly and leaves every other device untouched. Selling your Air³? Revoke first.
 
 **Does this delete any of my flights?**
 No. Sync is one-way and upload-only. Deletions happen **only** in the We-Fly app, on purpose, by you. Nothing your instrument does can remove a flight.

@@ -22,7 +22,7 @@ Elke rij in je lijst met schermen toont:
 - **Vluchten**: het totale aantal vluchten dat met dat scherm gelogd is
 - **Duur**: de opgetelde vliegtijd van al die vluchten
 
-Van hieruit kun je een scherm hernoemen en het type wijzigen. Dat is alles, netjes en eenvoudig.
+Van hieruit kun je een scherm hernoemen, het type wijzigen en het een **Rijkleur in het logboek** geven. Klik op een rij om de vingerafdruk van dat scherm open te klappen, en gebruik **Schermen vergelijken** verderop op de pagina om verschillende schermen naast elkaar te zetten.
 
 ---
 
@@ -32,7 +32,7 @@ Er zijn drie plaatsen waar je in We-Fly een schermnaam kunt aanpassen, en elk we
 
 ### Vanaf de pagina Schermen: alles in één keer hernoemen
 
-Klik op **Hernoemen** naast een scherm, typ de nieuwe naam en bevestig. We-Fly past de schermnaam aan op **elke vlucht** met de oude naam. Vijftien vluchten gelogd als „Rush 6“? Ze worden allemaal in één klap „Ozone Rush 6“. Dit is het juiste gereedschap als je een naam in je hele logboek wilt opkuisen.
+Klik op het potloodicoon naast een scherm, typ de **Nieuwe naam** en bevestig. We-Fly past de schermnaam aan op **elke vlucht** met de oude naam. Vijftien vluchten gelogd als „Rush 6“? Ze worden allemaal in één klap „Ozone Rush 6“. Dit is het juiste gereedschap als je een naam in je hele logboek wilt opkuisen.
 
 ### Vanuit je vluchtenlijst: alleen geselecteerde vluchten hernoemen
 
@@ -40,7 +40,7 @@ Selecteer op `/flights` een of meer vluchten met de selectievakjes. Er verschijn
 
 ### Vanuit één vlucht: één vlucht hernoemen
 
-Open op de detailpagina van een vlucht het actiemenu en kies **Scherm wijzigen**. Dat past alleen die vlucht aan. Andere vluchten blijven onaangeroerd.
+Open in je logboek het menu **⋯** van de vlucht en kies **Scherm wijzigen**. Dat past alleen die vlucht aan. Andere vluchten blijven onaangeroerd.
 
 ---
 
@@ -68,9 +68,9 @@ Vluchten zijn standaard **solo**, tenzij We-Fly in je logboek al een tandemvluch
 
 ### Het type zelf wijzigen
 
-Op de pagina Schermen heeft elke rij een typekeuze. Klik erop om alle vluchten met dat scherm tussen Solo en Tandem te wisselen. Dit is een **bulkbewerking**: ze past elke vlucht met die schermnaam in één keer aan.
+Op de pagina Schermen heeft elke rij een typekeuze. Klik erop om alle vluchten met dat scherm tussen Solo en Tandem te wisselen. Dit is een **bulkbewerking**: ze past elke vlucht met die schermnaam in één keer aan, zodra je het nieuwe type kiest.
 
-Voor je bevestigt, vertelt We-Fly je precies hoeveel vluchten aangepast worden. Geen verrassingen.
+Een melding vertelt je daarna hoeveel vluchten aangepast zijn. Had het scherm zowel solo- als tandemvluchten, dan krijg je ook een waarschuwing dat ze nu allemaal het nieuwe type delen.
 
 ---
 

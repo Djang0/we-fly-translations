@@ -5,183 +5,197 @@ category: Thermal Analysis
 order: 1
 ---
 
-Ti sei mai chiesto se sei davvero un genio delle termiche o se hai solo avuto fortuna? Benvenuto nello strumento di Analisi avanzata delle termiche, il tuo compagno di debriefing che scompone ogni giro che hai fatto come un giudice di gara con un dottorato in termica.
+Ti sei mai chiesto se sei davvero un genio delle termiche o se hai solo avuto fortuna? La scheda **Termiche** di ogni volo è il tuo compagno di debriefing: scompone ogni salita che hai lavorato, giro dopo giro.
 
 ## Che cos’è?
 
-Pensalo come un analizzatore post-volo che osserva ogni tua mossa in termica. Non si limita a dirti "ehi, hai guadagnato 500 m". Va a fondo su *come* sei salito: se andavi a caccia del nucleo come un pro o se girovagavi come un turista.
+È un analizzatore post-volo che osserva ogni tua mossa in termica. Non si ferma a "hai guadagnato 500 m". Guarda *come* sei salito: se andavi a caccia del nucleo come un pro o se giravi sui bordi.
 
-Lo strumento rileva automaticamente ogni termica che hai lavorato durante il volo, poi assegna a ciascuna un punteggio di qualità e un’analisi dettagliata. È come avere un istruttore che rivede le riprese della tua GoPro, solo che analizza tracce GPS e dati del variometro.
+Quando carichi un volo, We-Fly rileva ogni termica che hai lavorato, assegna a ciascuna un punteggio di qualità su 100 e prepara un’analisi dettagliata. Pensalo come un istruttore che rivede la tua traccia e il tracciato del vario, una salita alla volta. Ti chiedi come viene riconosciuta una salita? Leggi [Come funziona il rilevamento delle termiche](/doc/advanced-thermal-analysis-settings).
+
+Apri un volo qualsiasi e scegli la scheda **Termiche**. Il numero accanto al nome della scheda indica quante termiche sono state trovate.
 
 ## La vista principale
 
-Quando avvii l’analisi, vedi tre pannelli principali:
+La scheda si legge dall’alto in basso:
 
-### Pannello sinistro: riepilogo del volo ed elenco delle termiche
+1. Una striscia di riepilogo per tutto il volo
+2. Il grafico **Vario e raggio dei giri**
+3. I filtri e una linea del tempo per scegliere una termica
+4. Il visualizzatore della termica selezionata: mappa o vista 3D da un lato, dettagli dall’altro
+5. Il grafico **Rateo di salita per quota e ora**
 
-In alto hai la vista dall’alto:
-- **Termiche**: quante ne hai lavorate (o hai *provato* a lavorare)
-- **Guadagno**: tutta la quota che hai racimolato
+### Striscia di riepilogo del volo
+
+La vista dall’alto della tua giornata:
+
+- **Termiche**: quante salite hanno superato la selezione
+- **Migliore**: il punteggio di qualità più alto del volo, con il numero della termica e la sua etichetta di qualità
+- **Guadagno**: tutta la quota che hai guadagnato in termica
 - **Salita media**: il tuo rateo di salita medio su tutte le termiche
-- **Qualità**: il punteggio complessivo di qualità delle termiche (ci arriviamo)
+- **Qualità**: il punteggio di qualità medio, con la mediana sotto
 
-Sotto trovi l’elenco delle termiche, tutte quelle che hai preso, in ordine cronologico. Ogni scheda mostra:
-- **Badge di qualità**: va da "Discreta" (ahia) a "Ottima" (insegnami i tuoi segreti)
-- **Ora di inizio**: quando sei entrato nella termica
-- **Guadagno**: quanta quota hai messo in cassaforte
-- **Salita**: m/s medi in quella termica
+### Vario e raggio dei giri
 
-Clicca una termica per analizzarla. La piccola icona a bersaglio reimposta lo zoom della mappa se hai curiosato in giro.
+Ogni giro completo che hai fatto diventa un punto: il raggio in orizzontale, il rateo di salita che ne hai ricavato in verticale. Lo sfondo è diviso in zone etichettate **rischioso**, **ideale**, **ok** e **stringi**, dai giri molto stretti a sinistra a quelli larghi a destra. Se la maggior parte dei tuoi punti migliori sta nella zona **stringi**, sai su cosa lavorare al prossimo volo.
 
-### Pannello centrale: la mappa
+### Scegliere una termica
 
-Qui succede la magia. Vedrai:
+Sopra la linea del tempo c’è una fila di filtri, ognuno con il numero di termiche che corrispondono:
 
-**La tua traccia**: punti GPS colorati che mostrano il tuo percorso nella termica
-- 🟢 **Punti verdi**: salita forte (>3 m/s), hai trovato il succo!
-- 🔵 **Punti blu**: salita moderata (0-3 m/s), la stai lavorando
-- 🔴 **Punti rossi**: discendenza (<0 m/s), ci siamo passati tutti
+- **Tutte**: ogni termica
+- **Migliori 5**: le cinque salite più forti per rateo di salita medio
+- **Sotto la mediana**: le termiche con un rateo di salita sotto la mediana del volo
+- **Con deriva**: le termiche in cui hai derivato più di 30 m per ogni 100 m guadagnati (si considerano solo le salite di almeno 50 m)
 
-**Termica selezionata**: evidenziata in rosso con il bordo bianco. È quella che stai analizzando
+Sotto i filtri, la linea del tempo dispone ogni termica lungo l’orario reale del volo. Il colore di ogni punto è la sua qualità e la dimensione è la quota guadagnata, così "quella grossa verso l’una e mezza" si trova subito. Clicca un punto per aprire quella termica nel visualizzatore.
 
-**Altre termiche**: mostrate in viola con opacità al 40%, per darti il contesto di dove altro sei salito
+La termica selezionata fa parte dell’indirizzo della pagina, così puoi condividere un link diretto alla "Termica #7".
 
-**Controlli dell’animazione**:
-- ▶️ **Riproduci/Pausa**: guarda il replay del volo fotogramma per fotogramma
-- 🔄 **Reimposta**: torna all’inizio
-- ⬅️➡️ **Navigazione tra i fotogrammi**: passa manualmente da un punto GPS all’altro (o usa le frecce, sì, l’abbiamo reso comodo da tastiera)
-- **Contatore dei fotogrammi**: mostra esattamente dove sei nella termica (es. "42/156")
+### Il visualizzatore della termica
 
-Sotto i controlli vedi i dati in tempo reale del punto GPS corrente:
-- **Ora**: il timestamp esatto
-- **Quota**: la quota attuale
-- **Vario**: la velocità verticale in quel momento
+La barra del titolo mostra **Termica #N**, la sua etichetta di qualità, l’ora di inizio, la quota guadagnata e la salita media. A destra passi da **Mappa 2D** a **Vista 3D**.
 
-**Consiglio da pro**: usa le frecce per scorrere la termica fotogramma per fotogramma. Perfetto per individuare il momento esatto in cui hai preso il nucleo.
+**Sulla mappa 2D:**
 
-### Pannello destro: dettagli della termica
+- **La traccia della termica selezionata** è disegnata a punti colorati in base al vario: verde per salita forte (oltre 3 m/s), giallo per salita fino a 3 m/s, rosso per discendenza
+- I marcatori **Punto di ingresso** e **Punto di uscita** mostrano dove la salita è iniziata e finita
+- **Il nucleo** di ogni termica è un marcatore con un anello tratteggiato. Quello selezionato è rosso, gli altri sono rosa sbiadito per contesto. Passa sopra un nucleo per vederne la forza
+- **Posizione attuale** è il marcatore azzurro che si muove durante la riproduzione
 
-Questo è il tuo rapporto da istruttore. Vediamo ogni sezione:
+**Nella vista 3D**, la stessa salita è disegnata come una spirale che puoi ruotare, con una legenda per **Salita forte**, **Salita debole**, **Discendenza**, **Nucleo della termica**, **Quota di uscita** e **Posizione attuale**.
 
-#### Panoramica della qualità
-**Punteggio complessivo**: un numero composito (0-40) che tiene conto di più fattori:
-- Efficienza del rateo di salita
-- Quanto sei rimasto centrato
-- Rapporto tra deriva e salita
-- Regolarità delle virate
+## Riproduzione animata
 
-La barra di avanzamento mostra dove ti collochi sulla scala. Fai 25+ con costanza? Stai facendo qualcosa di giusto.
+Sotto la mappa o la vista 3D c’è la barra di riproduzione:
 
-**Efficienza**: la percentuale del tempo in termica che è stata davvero salita produttiva. Numeri più bassi vogliono dire che hai passato tempo a girovagare o in discendenza.
+- **Riproduci** / **Pausa**: rivedi la termica punto per punto
+- La freccia circolare: torna al primo punto
+- Le frecce fotogramma precedente e successivo: scorri la salita un punto GPS alla volta
+- Il contatore **Fotogramma**: dove sei nella termica (per esempio 42/156)
+- Ora, quota e vario al punto attuale
+- Il pulsante con il mirino: **Centra la mappa su questa termica**, comodo dopo che hai spostato la mappa in giro
 
-#### Deriva e vento
-**Distanza di deriva**: quanto la termica ti ha portato sottovento mentre salivi. Di solito meno è meglio (a meno che tu non *volessi* derivare).
+Avanzare fotogramma per fotogramma è il modo migliore per individuare il momento esatto in cui hai trovato il nucleo, o in cui lo hai perso.
 
-**Velocità del vento**: calcolata dalla tua deriva. Utile per capire le condizioni.
+## Dettagli della termica
 
-**Bussola del vento**: mostra graficamente la direzione del vento. La freccia punta verso dove il vento *va* (convenzione dei meteorologi, scusate velisti).
+Accanto al visualizzatore (sotto, sul telefono) c’è il tuo rapporto di coaching. In alto, un grande punteggio di qualità con la sua etichetta, più due letture rapide: **eff** (efficienza) e **ctr** (centratura).
+
+Sotto, i dettagli sono raccolti in sezioni. Se ne apre una alla volta e, quando è chiusa, ognuna mostra un’anteprima di una riga, così scorri tutta la storia senza scrollare.
 
 #### Salita
-I numeri grezzi:
-- **Guadagno**: i metri totali guadagnati
-- **Media**: la tua velocità verticale media
-- **Max**: il miglior rateo di salita che hai preso (di solito quando hai centrato il nucleo)
-- **Min**: il momento peggiore (spesso all’ingresso o quando hai perso il nucleo)
-- **Variabilità**: quanto è stata regolare la salita. Più bassa = termica morbida, più alta = termica a strappi/turbolenta
+
+- **Guadagno**: la quota totale guadagnata
+- **Media**: il rateo di salita medio
+- **Max**: la salita migliore, mediata su 5 secondi (il picco grezzo su un singolo punto compare sotto)
+- **Min**: il momento più debole, di solito all’ingresso o quando sei uscito dal nucleo
+- **Variab.**: quanto è variato il rateo di salita. Bassa vuol dire una termica regolare, alta vuol dire secca o turbolenta
 
 #### Nucleo
-Qui si fa sul serio da nerd:
 
-**Forza**: la salita sostenuta più forte che hai trovato. È il tuo rateo di salita "ideale".
-
-**Tempo di centratura**: quanto ci hai messo a trovare il nucleo e a restarci dopo essere entrato. Meno è meglio: vuol dire che non hai perso tempo a girovagare ai bordi.
-
-**Centratura**: percentuale del tempo passato nella salita forte rispetto a quella debole. Numeri alti = sei rimasto nel buono.
+- **Forza**: la salita media nel nucleo, il tuo punto ideale
+- **Tempo centr.**: quanto ci hai messo a raggiungere il nucleo dall’inizio della termica. Meno è meglio
+- **Dimensione**: il raggio di salita del nucleo
+- **Dist. media**: a che distanza, in media, hai girato dal nucleo
+- **Centratura**: quanto sei rimasto vicino al nucleo, in percentuale. Girare al raggio stesso del nucleo vale il 100%
 
 #### Dinamica delle virate
-**Senso**: sinistra o destra (quasi tutti i piloti hanno un lato preferito, nessun giudizio)
 
-**Giri**: quanti giri completi hai fatto
+- **Senso**: sinistra o destra (quasi tutti i piloti hanno un lato preferito, nessun giudizio)
+- **Giri**: il numero di giri completi
+- **Velocità**: la velocità di virata media in gradi al secondo
+- **Inclinazione**: stimata dalla dimensione e dalla durata dei tuoi giri, con sotto la velocità all’aria che ne deriva
+- **Tempo per giro** e **Raggio del giro**: la dispersione dei tuoi giri, come tempo minimo, mediano e massimo, e raggio al 25° percentile, mediano e al 75° percentile
 
-**Velocità**: velocità media di virata in gradi al secondo. Troppo lenta = esci dalla termica per deriva, troppo veloce = forse stai inclinando troppo
+#### Deriva e vento
+
+- **Velocità del vento**: stimata da come sono derivati i tuoi giri
+- **Dist. deriva**: quanto lontano ti ha portato la termica mentre salivi
+- **Direzione**: da dove veniva il vento, con una bussola. La freccia della bussola punta dove soffiava il vento e l’etichetta indica la direzione di provenienza, come in una previsione
 
 #### Tempo
-Solo i timestamp e la durata. Utile per incrociarli con i tuoi appunti o con il logger di gara.
+
+**Inizio**, **Fine** e **Durata** della salita. Comodo per confrontarli con i tuoi appunti.
+
+#### Dettaglio del punteggio
+
+Mostra come si compone il punteggio di qualità: una barra per fattore (**Salita**, **Efficienza**, **Centratura**, **Regolarità** e **Sostenuta**), il suo peso, il tuo valore reale e i punti che ha aggiunto. Il link **Come viene calcolato?** ti porta alla formula completa.
 
 #### Consigli
 
-Qui lo strumento diventa chiacchierone. In base all’analisi ricevi un feedback personalizzato, per esempio:
-- 🟢 **Feedback positivo** (sfondo verde): cose che hai fatto bene, "Ottimo ingresso nel nucleo con un tempo di ricerca minimo"
-- 🟡 **Suggerimenti di miglioramento** (sfondo ambra): aspetti su cui lavorare, "Prova a stringere il raggio di virata per ridurre la deriva"
+In base ai numeri qui sopra, ricevi indicazioni specifiche per questa salita, per esempio:
 
-I consigli sono generati dalle metriche reali della tua prestazione, non sono consigli generici.
+- Note positive su sfondo verde: "Ottimo ingresso nel nucleo: hai trovato la salita più forte in 12 s."
+- Suggerimenti su sfondo ambra: "Ingresso lento nel nucleo: … Prova giri iniziali più larghi per sentire il gradiente."
 
-## Riproduzione dell’animazione
+I consigli nascono dalle misure di questa termica (dimensione del nucleo, deriva, inclinazione, variabilità), non da indicazioni generiche. Per un riepilogo su tutto il volo, guarda il pannello **Coaching** nella scheda **Riepilogo** del volo.
 
-Il replay è davvero carino. Premi play e guardati lavorare la termica in tempo reale (beh, accelerato). Puoi:
+## Rateo di salita per quota e ora
 
-1. **Guardarla tutta**: vedi l’intera termica dall’ingresso all’uscita
-2. **Mettere in pausa e scorrere**: usa le frecce per passare dai momenti interessanti
-3. **Seguire le metriche**: quota, vario e ora si aggiornano mentre ti muovi nella termica
-4. **Confrontare più termiche**: passa da una termica all’altra per vedere come è cambiata la tua tecnica
-
-**Scorciatoie da tastiera**:
-- **←** Fotogramma precedente
-- **→** Fotogramma successivo
+In fondo alla scheda, ogni termica è posizionata per ora del giorno e quota, colorata in base al rateo di salita. Cambia il riferimento di quota tra **s.l.m.** e **AGL** (sopra il decollo). La linea tratteggiata è il plafond utile della giornata; se si divide in due gradini, il plafond del mattino e quello del pomeriggio erano diversi. Clicca un punto qualsiasi per tornare su a quella termica nel visualizzatore.
 
 ## Il punteggio di qualità spiegato
 
-Il punteggio di qualità non è solo "buon rateo di salita = punteggio alto". È un valore composito che considera:
+Il punteggio di qualità non è solo "buon rateo di salita = punteggio alto". È un punteggio su 100 che combina cinque fattori:
 
-1. **Efficienza di salita**: salita reale rispetto al massimo teorico
-2. **Abilità di centratura**: quanto in fretta hai trovato il nucleo e ci sei rimasto
-3. **Gestione della deriva**: se hai ridotto al minimo la deriva sottovento
-4. **Regolarità**: quanto è stato stabile il tuo girare
+1. **Salita**: quanto era forte la salita al suo meglio
+2. **Efficienza**: quota guadagnata rispetto alla distanza di deriva
+3. **Centratura**: quanto sei rimasto vicino al nucleo
+4. **Regolarità**: quanto è stata costante la salita
+5. **Sostenuta**: se sei davvero rimasto a girare, invece di passarci attraverso
 
-Una termica da 5 m/s in cui hai girovagato può prendere un punteggio più basso di una da 2,5 m/s lavorata alla perfezione. Conta la tecnica, non solo la fortuna.
+Una termica potente in cui hai girovagato può prendere un punteggio più basso di una moderata lavorata alla perfezione. Conta la tecnica, non solo la fortuna.
 
-**Fasce di punteggio**:
-- **25-40 (Ottima)**: vai a tutto gas. Girare in termica da livello gara.
-- **15-25 (Buona)**: lavoro solido. Hai preso la quota senza perdere troppo tempo.
-- **0-15 (Discreta)**: hai portato a casa il risultato, ma c’è margine di miglioramento.
+**Etichette di qualità:**
+
+| Punteggio | Etichetta |
+|---|---|
+| 80 e oltre | Eccezionale |
+| Da 73 a 79 | Ottima |
+| Da 66 a 72 | Buona |
+| Da 60 a 65 | Discreta |
+| Sotto 60 | Scarsa |
+
+Queste fasce sono calibrate su voli reali in We-Fly: una termica tipica si colloca a metà dei 60. La formula completa, con un esempio svolto, è in [Il punteggio complessivo delle termiche spiegato](/doc/overall-thermal-score).
 
 ## Schemi ricorrenti che potresti notare
 
-**Deriva alta, centratura bassa**: forse entri troppo largo o non stringi il giro abbastanza in fretta quando trovi la salita.
+**Deriva alta, centratura bassa**: forse entri troppo largo, o non stringi il giro abbastanza in fretta quando trovi la salita.
 
-**Buon tempo di centratura ma efficienza bassa**: la termica stessa poteva essere debole o spezzata. Non è sempre colpa tua!
+**Buon tempo di centratura ma efficienza bassa**: la termica stessa poteva essere debole, o il vento forte. Non è sempre colpa tua!
 
-**Variabilità alta**: possono essere le condizioni (giornata vivace), oppure un’inclinazione poco costante. Controlla la regolarità della tua velocità di virata.
+**Variabilità alta**: possono essere le condizioni (una giornata vivace) o un’inclinazione poco costante. I consigli provano a distinguere i due casi guardando quanto è cambiato il raggio dei tuoi giri.
 
-**Ingresso nel nucleo rapido in una termica, lento in un’altra**: fai attenzione alla tecnica di ingresso. Sei entrato sopravento o sottovento? Hai superato il nucleo?
+**Ingresso nel nucleo rapido in una termica, lento in un’altra**: guarda la tua tecnica di ingresso. Sei entrato sopravento o sottovento? Hai superato il nucleo?
 
 ## Quando usare questo strumento
 
 - **Debriefing dopo il volo**: capisci cosa ha funzionato e cosa no
 - **Preparazione alle gare**: analizza la tua tecnica in termica sotto pressione
-- **Confronto delle condizioni**: guarda come varia la qualità delle termiche con l’ora del giorno, il posto o il meteo
-- **Seguire i progressi**: lancia l’analisi su voli di mesi diversi per vedere come cresci
-- **Prima della prossima birra**: dimostra ai tuoi amici che quella termica da 6 m/s l’hai *davvero* centrata (prove alla mano!)
+- **Confronto delle condizioni**: guarda come varia la qualità delle termiche con l’ora del giorno, il sito o il meteo
+- **Seguire i progressi**: guarda voli di mesi diversi per vedere come cresci
+- **Prima della prossima birra**: dimostra ai tuoi amici che quella termica mostruosa l’hai *davvero* centrata (prove alla mano!)
 
 ## Consigli per un’analisi migliore
 
-1. **Dati GPS puliti aiutano**: segnale GPS debole = analisi meno precisa
-2. **Confronta termiche simili**: confronta le tecniche in condizioni simili per conclusioni sensate
-3. **Non fissarti su un solo volo**: le tendenze su più voli contano più di una singola termica perfetta
-4. **Il vento conta**: un punteggio "Discreta" con 30 km/h di vento può valere più di un "Ottima" in aria ferma
+1. **Dati GPS puliti aiutano**: un segnale GPS debole vuol dire un’analisi meno precisa, e uno strumento che registra un punto al secondo dà i risultati migliori
+2. **Confronta termiche simili**: confronta la tecnica in condizioni simili per conclusioni sensate
+3. **Non fissarti su un solo volo**: le tendenze su molti voli contano più di una singola termica perfetta
+4. **Il vento conta**: un punteggio "Discreta" in una giornata ventosa può valere più di un "Ottima" in aria ferma
 
 ## Cosa questo strumento non fa
 
-- **Prevedere le termiche future**: è analisi, non previsione (ci stiamo lavorando... scherzo)
-- **Giudicare le tue scelte di vita**: se dovevi prendere quella termica alle 11 o tirare dritto? Resta una tua decisione
+- **Prevedere le termiche future**: è analisi, non previsione
+- **Giudicare le tue scelte**: se dovevi prendere quella salita alle 11 o tirare dritto? Resta una tua decisione
 - **Sostituire l’esperienza**: lo strumento mostra i dati, ma imparare a *sentire* le termiche richiede ancora ore di volo
 
 ## In conclusione
 
-Questo strumento non ti renderà un pilota migliore dall’oggi al domani, ma ti mostrerà *esattamente* cosa fai in termica. Che tu voglia limare qualche secondo dal tempo di centratura o sia solo curioso di capire perché quella termica era diversa, l’Analisi avanzata delle termiche ti copre le spalle.
+Questo strumento non ti renderà un pilota migliore dall’oggi al domani, ma ti mostra *esattamente* cosa fai in termica. Che tu voglia ridurre il tempo di centratura o sia solo curioso di capire perché una salita era diversa, la scheda **Termiche** ti copre le spalle.
 
-Ora vai a volare, prendi qualche termica e torna a vedere se sei bravo quanto pensi.
+Ora vai a volare, trova qualche termica e torna a vedere se sei bravo quanto pensi.
 
 ---
 
-Vedi anche: [Impostazioni dell’analisi avanzata delle termiche](advanced-thermal-analysis-settings.md)
+Vedi anche: [Come funziona il rilevamento delle termiche](/doc/advanced-thermal-analysis-settings) | [Il punteggio complessivo delle termiche spiegato](/doc/overall-thermal-score)

@@ -5,153 +5,167 @@ category: Thermal Analysis
 order: 1
 ---
 
-Tu t’es déjà demandé si tu étais un génie du thermique ou si tu avais juste de la chance ? Bienvenue dans l’outil d’analyse avancée des thermiques, ton partenaire de débrief perso qui décortique chaque tour que tu as fait, comme un juge de compète titulaire d’un doctorat en enroulement.
+Tu t’es déjà demandé si tu étais un génie du thermique ou si tu avais juste de la chance ? L’onglet **Thermiques** de chaque vol est ton partenaire de débrief perso : il décortique chaque montée que tu as exploitée, spirale par spirale.
 
 ## C’est quoi, ce truc ?
 
-Vois-le comme un analyseur d’après-vol qui observe chacun de tes gestes dans les thermiques. Il ne se contente pas de te dire « hé, tu as pris 500 m ». Il creuse *comment* tu es monté : est-ce que tu chassais le cœur comme un pro ou est-ce que tu te baladais comme un touriste ?
+C’est un analyseur d’après-vol qui observe chacun de tes gestes dans les thermiques. Il ne se contente pas de te dire « tu as pris 500 m ». Il regarde *comment* tu es monté : est-ce que tu chassais le cœur comme un pro ou est-ce que tu faisais le tour des bords ?
 
-L’outil détecte automatiquement chaque thermique que tu as exploité pendant ton vol, puis attribue à chacun un score de qualité et une analyse détaillée. C’est comme si un moniteur regardait tes images GoPro, sauf qu’il analyse les traces GPS et les données du vario à la place.
+Quand tu importes un vol, We-Fly détecte chaque thermique que tu as exploité, attribue à chacun un score de qualité sur 100 et en tire une analyse détaillée. Vois-le comme un moniteur qui passe en revue ta trace et ton vario, une montée à la fois. Tu te demandes comment une montée est reconnue au départ ? Va voir [Comment fonctionne la détection des thermiques](/doc/advanced-thermal-analysis-settings).
+
+Ouvre n’importe quel vol et choisis l’onglet **Thermiques**. Le chiffre à côté du nom de l’onglet indique combien de thermiques ont été trouvés.
 
 ## La vue principale
 
-Quand tu lances l’analyse, tu vois trois panneaux principaux :
+L’onglet se lit de haut en bas :
 
-### Panneau de gauche : résumé du vol et liste des thermiques
+1. Un bandeau de résumé pour tout le vol
+2. Le graphique **Vario selon le rayon de spirale**
+3. Des filtres et une frise chronologique pour choisir un thermique
+4. La visionneuse du thermique sélectionné : carte ou vue 3D d’un côté, détails de l’autre
+5. Le graphique **Taux de montée par altitude et heure**
 
-En haut, tu as la vue d’ensemble :
-- **Thermiques** : combien tu en as exploité (ou *tenté* d’exploiter)
-- **Gain** : toute l’altitude que tu as grappillée
+### Bandeau de résumé du vol
+
+La vue d’ensemble de ta journée :
+
+- **Thermiques** : combien de montées ont été retenues
+- **Meilleur** : le score de qualité le plus haut du vol, avec le numéro du thermique et sa note de qualité
+- **Gain** : toute l’altitude que tu as prise en thermique
 - **Montée moy.** : ton taux de montée moyen sur l’ensemble des thermiques
-- **Qualité** : score de qualité global des thermiques (on y vient)
+- **Qualité** : le score de qualité moyen, avec la médiane en dessous
 
-En dessous se trouve ta liste de thermiques, chaque thermique que tu as accroché, dans l’ordre chronologique. Chaque carte affiche :
-- **Badge de qualité** : de « Moyen » (aïe) à « Excellent » (apprends-moi tes secrets)
-- **Heure de début** : quand tu es entré dans le thermique
-- **Gain** : combien d’altitude tu as mise en banque
-- **Montée** : moyenne en m/s pour ce thermique
+### Vario selon le rayon de spirale
 
-Clique sur n’importe quel thermique pour l’analyser. La petite icône de cible réinitialise le zoom de la carte si tu t’es un peu baladé.
+Chaque spirale complète que tu as faite devient un point : son rayon en abscisse, le taux de montée que tu en as tiré en ordonnée. Le fond est découpé en zones nommées **risqué**, **idéal**, **ok** et **à serrer**, des spirales très serrées à gauche aux plus larges à droite. Si la plupart de tes meilleurs points tombent dans la zone **à serrer**, tu sais quoi travailler au prochain vol.
 
-### Panneau central : la carte
+### Choisir un thermique
 
-C’est là que la magie opère. Tu y vois :
+Au-dessus de la frise se trouve une rangée de filtres, chacun indiquant combien de thermiques il retient :
 
-**Ta trace** : des points GPS colorés qui montrent ton chemin dans le thermique
-- 🟢 **Points verts** : forte montée (>3 m/s), tu as trouvé le jus !
-- 🔵 **Points bleus** : montée modérée (0-3 m/s), tu bosses
-- 🔴 **Points rouges** : dégueulante (<0 m/s), on est tous passés par là
+- **Tous** : tous les thermiques
+- **Top 5** : les cinq montées les plus fortes selon le taux de montée moyen
+- **Sous la médiane** : les thermiques dont le taux de montée est sous la médiane du vol
+- **Dérivants** : les thermiques où tu as dérivé de plus de 30 m pour 100 m gagnés (seules les montées de 50 m ou plus sont prises en compte)
 
-**Thermique sélectionné** : surligné en rouge avec un contour blanc. C’est celui que tu analyses en ce moment
+Sous les filtres, la frise place chaque thermique sur l’heure réelle du vol. La couleur de chaque point indique sa qualité, et sa taille la hauteur gagnée : « le gros vers une heure et demie » se retrouve facilement. Clique sur un point pour ouvrir ce thermique dans la visionneuse.
 
-**Autres thermiques** : affichés en violet à 40 % d’opacité, pour situer où tu as monté ailleurs
+Le thermique sélectionné fait partie de l’adresse de la page : tu peux partager un lien qui mène directement au « Thermique n° 7 ».
 
-**Commandes d’animation** :
-- ▶️ **Lecture/Pause** : regarde le replay de ton vol image par image
-- 🔄 **Réinitialiser** : retour au début
-- ⬅️➡️ **Navigation image par image** : avance point GPS par point GPS à la main (ou avec les flèches du clavier, oui, on l’a rendu utilisable au clavier)
-- **Compteur d’images** : montre exactement où tu en es dans le thermique (par ex. « 42/156 »)
+### La visionneuse de thermique
 
-Sous les commandes, tu vois les données en temps réel du point GPS courant :
-- **Heure** : horodatage exact
-- **Altitude** : hauteur actuelle
-- **Vario** : vitesse verticale à ce moment-là
+La barre de titre affiche **Thermique n° N**, sa note de qualité, l’heure de début, la hauteur gagnée et la montée moyenne. À droite, tu bascules entre **Carte 2D** et **Vue 3D**.
 
-**L’astuce du pro** : utilise les flèches du clavier pour parcourir le thermique image par image. Idéal pour repérer le moment exact où tu as trouvé le cœur.
+**Sur la carte 2D :**
 
-### Panneau de droite : détails du thermique
+- **La trace du thermique sélectionné** est dessinée en points colorés selon le vario : vert pour une forte montée (au-dessus de 3 m/s), jaune pour une montée jusqu’à 3 m/s, rouge pour la dégueulante
+- Les marqueurs **Point d’entrée** et **Point de sortie** montrent où la montée a commencé et fini
+- **Le cœur** de chaque thermique est un marqueur entouré d’un anneau en pointillés. Celui du thermique sélectionné est rouge, les autres sont en rose pâle pour le contexte. Survole un cœur pour voir sa force
+- **Position actuelle** est le marqueur bleu clair qui se déplace pendant la lecture
 
-C’est ton rapport de coaching. Voyons chaque section :
-
-#### Aperçu de la qualité
-**Score global** : un chiffre composite (0-40) qui prend en compte plusieurs facteurs :
-- L’efficacité du taux de montée
-- Ta capacité à rester centré
-- Le rapport entre dérive et montée
-- La régularité de tes virages
-
-La barre de progression montre où tu te situes sur l’échelle. Tu fais régulièrement 25+ ? Tu fais quelque chose de bien.
-
-**Efficacité** : quel pourcentage de ton temps dans le thermique était vraiment de la montée productive. Un chiffre bas veut dire que tu as passé du temps à errer ou dans la dégueulante.
-
-#### Dérive et vent
-**Dérive** : de combien le thermique t’a poussé sous le vent pendant que tu montais. Moins, c’est généralement mieux (sauf si tu *voulais* dériver).
-
-**Force du vent** : calculée à partir de ta dérive. Pratique pour comprendre les conditions.
-
-**Rose du vent** : visuel qui montre la direction du vent. La flèche pointe là où le vent *va* (convention des météorologues, désolé les marins).
-
-#### Performances de montée
-Les chiffres bruts :
-- **Gain** : nombre total de mètres gagnés
-- **Montée moy.** : ta vitesse verticale moyenne
-- **Montée max** : meilleur taux de montée atteint (en général quand tu étais pile dans le cœur)
-- **Montée min** : le pire moment (souvent à l’entrée ou quand tu as perdu le cœur)
-- **Variabilité** : la régularité de l’ascendance. Faible = thermique doux, élevée = thermique costaud et turbulent
-
-#### Analyse du cœur
-C’est là que ça devient technique :
-
-**Force du cœur** : l’ascendance soutenue la plus forte que tu aies trouvée. C’est ton taux de montée « idéal ».
-
-**Temps de centrage** : combien de temps il t’a fallu pour trouver le cœur et y rester après ton entrée. Moins, c’est mieux : ça veut dire que tu n’as pas perdu de temps à traîner sur les bords.
-
-**Qualité de centrage** : pourcentage du temps passé dans l’ascendance forte plutôt que dans la faible. Chiffre élevé = tu es resté dans le bon.
-
-#### Dynamique de virage
-**Sens** : gauche ou droite (la plupart des pilotes ont un côté préféré, on ne juge pas)
-
-**Tours** : combien de tours complets tu as faits
-
-**Taux** : taux de virage moyen en degrés par seconde. Trop lent = tu sors du thermique en dérivant, trop rapide = tu prends peut-être trop d’inclinaison
-
-#### Horaires
-Juste les horodatages et la durée. Utile pour recouper avec tes notes ou ton enregistreur de compète.
-
-#### Conseils
-
-C’est là que l’outil devient bavard. En fonction de l’analyse, tu reçois des retours personnalisés comme :
-- 🟢 **Retours positifs** (fond vert) : ce que tu as bien fait, « Excellente entrée dans le cœur avec un temps de recherche minimal »
-- 🟡 **Pistes d’amélioration** (fond orangé) : les points à travailler, « Essaie de resserrer ton rayon de virage pour limiter la dérive »
-
-Les conseils sont générés à partir de tes vraies mesures de performance, pas de conseils génériques.
+**Dans la vue 3D**, la même montée est dessinée en spirale que tu peux faire pivoter, avec une légende pour **Ascendance forte**, **Ascendance faible**, **Descendance**, **Cœur du thermique**, **Altitude de sortie** et **Position actuelle**.
 
 ## Lecture de l’animation
 
-Franchement, la fonction replay est plutôt cool. Appuie sur lecture et regarde-toi exploiter le thermique en temps réel (enfin, en accéléré). Tu peux :
+Sous la carte ou la vue 3D se trouve la barre de lecture :
 
-1. **Tout regarder** : vois ton thermique en entier, de l’entrée à la sortie
-2. **Mettre en pause et parcourir** : utilise les flèches pour avancer pas à pas sur les moments intéressants
-3. **Suivre les mesures** : l’altitude, le vario et l’heure se mettent à jour pendant que tu avances dans le thermique
-4. **Comparer plusieurs thermiques** : passe d’un thermique à l’autre pour voir comment ta technique a varié
+- **Lecture** / **Pause** : rejoue le thermique point par point
+- La flèche circulaire : retour au premier point
+- Les flèches image précédente et image suivante : avance dans la montée un point GPS à la fois
+- Compteur **Image** : où tu en es dans le thermique (par exemple 42/156)
+- L’heure, l’altitude et le vario au point courant
+- Le bouton cible : **Centrer la carte sur ce thermique**, pratique après t’être un peu baladé sur la carte
 
-**Raccourcis clavier** :
-- **←** Image précédente
-- **→** Image suivante
+Avancer image par image, c’est le meilleur moyen de repérer le moment exact où tu as trouvé le cœur, ou celui où tu l’as perdu.
+
+## Détails du thermique
+
+À côté de la visionneuse (en dessous sur téléphone), c’est ton rapport de coaching. En haut, un grand score de qualité avec sa note, plus deux indicateurs rapides : **eff** (efficacité) et **cent** (centrage).
+
+En dessous, les détails sont repliés en sections. Une seule s’ouvre à la fois, et chacune affiche un aperçu d’une ligne quand elle est repliée : tu parcours toute l’histoire sans faire défiler.
+
+#### Montée
+
+- **Gain** : hauteur totale gagnée
+- **Moy.** : taux de montée moyen
+- **Max** : meilleure montée, lissée sur 5 secondes (le pic brut sur un seul point est affiché en dessous)
+- **Min** : le pire moment, souvent à l’entrée ou quand tu es sorti du cœur
+- **Variab.** : à quel point le taux de montée a varié. Faible = thermique doux, élevée = thermique costaud ou turbulent
+
+#### Cœur
+
+- **Force** : montée moyenne dans le cœur, ton point idéal
+- **Tps centr.** : le temps qu’il t’a fallu pour atteindre le cœur après le début du thermique. Moins, c’est mieux
+- **Taille** : le rayon d’ascendance du cœur
+- **Dist. moy.** : à quelle distance du cœur tu as tourné en moyenne
+- **Centrage** : à quel point tu es resté près du cœur, en pourcentage. Tourner au rayon du cœur lui-même donne 100 %
+
+#### Dynamique de virage
+
+- **Sens** : gauche ou droite (la plupart des pilotes ont un côté préféré, on ne juge pas)
+- **Tours** : nombre de tours complets
+- **Taux** : taux de virage moyen en degrés par seconde
+- **Inclinaison** : estimée à partir de la taille et de la durée de tes spirales, avec la vitesse air qui en découle en dessous
+- **Temps par tour** et **Rayon de spirale** : la dispersion de tes spirales, en temps minimum, médian et maximum, et en rayon au 25e percentile, médian et au 75e percentile
+
+#### Dérive et vent
+
+- **Force du vent** : estimée à partir de la dérive de tes spirales
+- **Dérive** : la distance sur laquelle le thermique t’a emporté pendant que tu montais
+- **Direction** : d’où venait le vent, avec une rose des vents. La flèche pointe dans le sens où soufflait le vent, et l’étiquette indique la direction « d’où » il vient, comme dans une prévision
+
+#### Horaires
+
+**Début**, **Fin** et **Durée** de la montée. Utile pour recouper avec tes propres notes.
+
+#### Détail du score
+
+Montre comment le score de qualité a été construit : une barre par facteur (**Montée**, **Efficacité**, **Centrage**, **Régularité** et **Durée**), son poids, ta valeur réelle et les points qu’il a rapportés. Le lien **Comment est-ce calculé ?** t’emmène vers la formule complète.
+
+#### Conseils
+
+À partir des chiffres ci-dessus, tu reçois des retours précis sur cette montée, par exemple :
+
+- Des points positifs sur fond vert : « Super entrée dans le cœur : plus forte ascendance trouvée en 12 s. »
+- Des suggestions sur fond orangé : « Entrée lente dans le cœur : … Fais des premiers tours plus larges pour sentir le gradient. »
+
+Les conseils sont construits à partir des mesures de ce thermique-là (taille du cœur, dérive, inclinaison, variabilité), pas de conseils génériques. Pour un bilan sur tout le vol, regarde le panneau **Coaching** dans l’onglet **Résumé** du vol.
+
+## Taux de montée par altitude et heure
+
+En bas de l’onglet, chaque thermique est placé selon l’heure de la journée et l’altitude, coloré selon le taux de montée. Bascule la référence de hauteur entre **AMSL** et **AGL** (au-dessus du décollage). La ligne en pointillés est le plafond exploitable du jour ; si elle se coupe en deux paliers, les plafonds du matin et de l’après-midi étaient différents. Clique sur n’importe quel point pour remonter à ce thermique dans la visionneuse.
 
 ## Le score de qualité expliqué
 
-Le score de qualité, ce n’est pas juste « bon taux de montée = bon score ». C’est un composite qui prend en compte :
+Le score de qualité, ce n’est pas juste « bon taux de montée = bon score ». C’est un score sur 100 qui combine cinq facteurs :
 
-1. **L’efficacité de montée** : montée réelle par rapport au maximum théorique
-2. **La technique de centrage** : la rapidité avec laquelle tu as trouvé le cœur et la façon dont tu y es resté
-3. **La gestion de la dérive** : si tu as limité la dérive sous le vent
-4. **La régularité** : la stabilité de tes tours
+1. **Montée** : la force de l’ascendance au mieux
+2. **Efficacité** : la hauteur gagnée par rapport à la distance de dérive
+3. **Centrage** : à quel point tu es resté près du cœur
+4. **Régularité** : la stabilité de la montée
+5. **Durée** : si tu es vraiment resté enrouler, plutôt que de juste passer au travers
 
-Un thermique à 5 m/s où tu t’es baladé peut avoir un score plus bas qu’un thermique à 2,5 m/s que tu as parfaitement exploité. C’est une question de technique, pas seulement de chance.
+Un thermique musclé où tu t’es baladé peut avoir un score plus bas qu’un thermique moyen que tu as parfaitement exploité. C’est une question de technique, pas seulement de chance.
 
-**Plages de score** :
-- **25-40 (Excellent)** : tu envoies du lourd. Enroulement de niveau compète.
-- **15-25 (Bon)** : du bon boulot. Tu as pris l’altitude sans trop perdre de temps.
-- **0-15 (Moyen)** : le boulot est fait, mais il y a de la marge de progression.
+**Notes de qualité :**
+
+| Score | Note |
+|---|---|
+| 80 et plus | Exceptionnel |
+| 73 à 79 | Excellent |
+| 66 à 72 | Bon |
+| 60 à 65 | Moyen |
+| Moins de 60 | Faible |
+
+Ces plages sont calibrées sur de vrais vols dans We-Fly : un thermique typique tombe vers le milieu des 60. La formule complète, avec un exemple détaillé, se trouve dans [Le score global de thermique expliqué](/doc/overall-thermal-score).
 
 ## Schémas fréquents que tu pourrais remarquer
 
-**Forte dérive, faible qualité de centrage** : tu entres peut-être trop large ou tu ne resserres pas tes tours assez vite quand tu trouves l’ascendance.
+**Forte dérive, faible centrage** : tu entres peut-être trop large ou tu ne resserres pas tes tours assez vite quand tu trouves l’ascendance.
 
-**Bon temps de centrage mais faible efficacité** : le thermique lui-même était peut-être faible ou haché. Ce n’est pas toujours ta faute !
+**Bon temps de centrage mais faible efficacité** : le thermique lui-même était peut-être faible, ou le vent fort. Ce n’est pas toujours ta faute !
 
-**Forte variabilité** : ça peut venir des conditions (journée musclée), ou d’une inclinaison irrégulière. Vérifie la régularité de ton taux de virage.
+**Forte variabilité** : ça peut venir des conditions (journée musclée) ou d’une inclinaison irrégulière. Les conseils essaient de faire la différence entre les deux en regardant à quel point ton rayon de spirale a varié.
 
 **Entrée rapide dans le cœur sur un thermique, lente sur un autre** : fais attention à ta technique d’entrée. Tu es entré au vent ou sous le vent ? Tu as dépassé le cœur ?
 
@@ -159,29 +173,29 @@ Un thermique à 5 m/s où tu t’es baladé peut avoir un score plus bas qu’un
 
 - **Débrief après le vol** : comprendre ce qui a marché et ce qui n’a pas marché
 - **Préparation de compète** : analyser ta technique d’enroulement sous pression
-- **Comparer les conditions** : voir comment la qualité des thermiques varie selon l’heure, le lieu ou la météo
-- **Suivre ta progression** : lancer l’analyse sur des vols de mois différents pour voir l’évolution de ta technique
-- **Avant la prochaine bière** : prouver à tes potes que tu as *vraiment* centré ce 6 m/s (preuve à l’appui !)
+- **Comparer les conditions** : voir comment la qualité des thermiques varie selon l’heure, le site ou la météo
+- **Suivre ta progression** : regarder des vols de mois différents pour voir ton évolution
+- **Avant la prochaine bière** : prouver à tes potes que tu as *vraiment* centré ce thermique monstrueux (preuve à l’appui !)
 
 ## Conseils pour une meilleure analyse
 
-1. **Des données GPS propres aident** : un signal GPS faible = une analyse moins précise
+1. **Des données GPS propres aident** : un signal GPS faible donne une analyse moins précise, et un enregistreur qui note un point par seconde donne les meilleurs résultats
 2. **Compare des thermiques similaires** : compare ta technique dans des conditions similaires pour en tirer des enseignements utiles
 3. **Ne fais pas une fixation sur un seul vol** : les tendances sur plusieurs vols comptent plus qu’un thermique parfait
-4. **Le contexte de vent compte** : un score « Moyen » par 30 km/h de vent vaut peut-être mieux qu’un « Excellent » dans l’air calme
+4. **Le contexte de vent compte** : un score « Moyen » par jour de vent peut refléter un meilleur pilotage qu’un « Excellent » dans l’air calme
 
 ## Ce que cet outil ne fait pas
 
-- **Prédire les thermiques à venir** : c’est de l’analyse, pas de la prévision (on y travaille... on rigole)
-- **Juger tes choix de vie** : fallait-il prendre ce thermique à 11 h ou pousser plus loin ? Ça reste ta décision
+- **Prédire les thermiques à venir** : c’est de l’analyse, pas de la prévision
+- **Juger tes choix** : fallait-il prendre ce thermique à 11 h ou pousser plus loin ? Ça reste ta décision
 - **Remplacer l’expérience** : l’outil montre des données, mais apprendre à *sentir* les thermiques demande toujours des heures de vol
 
 ## En résumé
 
-Cet outil ne fera pas de toi un meilleur pilote du jour au lendemain, mais il te montrera *exactement* ce que tu fais dans les thermiques. Que tu cherches à grappiller des secondes sur ton temps de centrage ou que tu sois juste curieux de savoir pourquoi ce thermique-là était différent, l’analyse avancée des thermiques est là pour toi.
+Cet outil ne fera pas de toi un meilleur pilote du jour au lendemain, mais il te montre *exactement* ce que tu fais dans les thermiques. Que tu cherches à réduire ton temps de centrage ou que tu sois juste curieux de savoir pourquoi une montée t’a paru différente, l’onglet **Thermiques** est là pour toi.
 
-Maintenant, va voler, enroule quelques thermiques, et reviens voir si tu es aussi bon que tu le penses.
+Maintenant, va voler, trouve quelques thermiques, et reviens voir si tu es aussi bon que tu le penses.
 
 ---
 
-À voir aussi : [Réglages de l’analyse avancée des thermiques](advanced-thermal-analysis-settings.md)
+À voir aussi : [Comment fonctionne la détection des thermiques](/doc/advanced-thermal-analysis-settings) | [Le score global de thermique expliqué](/doc/overall-thermal-score)

@@ -13,10 +13,10 @@ Je track, tijden en scores kloppen. Alleen de datum zit ernaast, waardoor de vlu
 
 ## Eén vlucht corrigeren
 
-Open het menu **⋯** van de vlucht en kies **Datum wijzigen**.
+Open in je logboek het menu **⋯** van de vlucht en kies **Datum wijzigen**.
 
-- Lijkt de datum omgewisseld, dan toont We-Fly naast de huidige datum een **voorgestelde correctie**. Met één tik pas je die toe.
-- Kies anders de juiste dag in de kalender. Het tijdstip van de vlucht blijft hetzelfde; alleen de dag verandert.
+- Lijkt de datum omgewisseld, dan toont We-Fly **Voorgestelde correctie beschikbaar** met de gecorrigeerde datum. Tik op **Voorgestelde datum gebruiken** en daarna op **Datum opslaan**.
+- Kies anders de juiste dag in de kalender en tik op **Datum opslaan**. Het tijdstip van de vlucht blijft hetzelfde; alleen de dag verandert.
 
 ## Veel vluchten tegelijk corrigeren
 

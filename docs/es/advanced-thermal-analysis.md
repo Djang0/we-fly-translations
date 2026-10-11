@@ -5,153 +5,167 @@ category: Thermal Analysis
 order: 1
 ---
 
-¿Alguna vez te has preguntado si eres un genio de las térmicas o si simplemente tienes suerte? Bienvenido al análisis avanzado de térmicas, tu compañero de debriefing personal que desmenuza cada giro que hiciste como un juez de competición con un doctorado en centrar térmicas.
+¿Alguna vez te has preguntado si eres un genio de las térmicas o si simplemente tienes suerte? La pestaña **Térmicas** de cada vuelo es tu compañera de debriefing personal: desmenuza cada ascenso que trabajaste, vuelta a vuelta.
 
 ## ¿Qué es esto?
 
-Piensa en ello como un analizador posvuelo que observa cada movimiento que hiciste en térmica. No se limita a decirte «oye, subiste 500 m». Profundiza en *cómo* subiste, si buscabas el núcleo como un profesional o dabas vueltas como un turista.
+Es un analizador posvuelo que observa cada movimiento que hiciste en térmica. No se queda en «subiste 500 m». Mira *cómo* subiste: si buscabas el núcleo como un profesional o dabas vueltas por los bordes como un turista.
 
-La herramienta detecta automáticamente cada térmica que trabajaste durante el vuelo y le da a cada una una puntuación de calidad y un desglose detallado. Es como tener un instructor revisando las imágenes de tu GoPro, solo que analiza tracks GPS y datos del variómetro.
+Cuando subes un vuelo, We-Fly detecta cada térmica que trabajaste, le da a cada una una puntuación de calidad sobre 100 y prepara un desglose detallado. Es como tener un instructor revisando tu track y la traza de tu variómetro, ascenso a ascenso. ¿Te pica la curiosidad por saber cómo se reconoce un ascenso? Mira [Cómo funciona la detección de térmicas](/doc/advanced-thermal-analysis-settings).
+
+Abre cualquier vuelo y elige la pestaña **Térmicas**. El número junto al nombre de la pestaña es la cantidad de térmicas encontradas.
 
 ## La vista principal
 
-Cuando abres el análisis, verás tres paneles principales:
+La pestaña se lee de arriba abajo:
 
-### Panel izquierdo: resumen del vuelo y lista de térmicas
+1. Una franja de resumen de todo el vuelo
+2. El gráfico **Vario frente a radio de giro**
+3. Chips de filtro y una línea de tiempo para elegir una térmica
+4. El visor de la térmica seleccionada: mapa o vista 3D a un lado, detalles al otro
+5. El gráfico **Tasa de ascenso por altitud y hora**
 
-Arriba tienes la vista de pájaro:
-- **Térmicas totales**: cuántas trabajaste (o *intentaste* trabajar)
-- **Ganancia total**: toda la altura que fuiste rascando
+### Franja de resumen del vuelo
+
+La vista de pájaro de tu día:
+
+- **Térmicas**: cuántos ascensos pasaron el corte
+- **Mejor**: la puntuación de calidad más alta del vuelo, con el número de la térmica y su etiqueta de calidad
+- **Ganancia**: toda la altura que ganaste en térmica
 - **Ascenso medio**: tu tasa de ascenso media en todas las térmicas
-- **Calidad media**: puntuación global de calidad térmica (ahora llegamos a eso)
+- **Calidad**: la puntuación de calidad media, con la mediana debajo
 
-Debajo está tu lista de térmicas, todas las que cogiste, en orden cronológico. Cada tarjeta muestra:
-- **Insignia de calidad**: va de «Regular» (ay) a «Excelente» (enséñame tus trucos)
-- **Hora de inicio**: cuándo entraste en la térmica
-- **Ganancia de altura**: cuánta altura te guardaste
-- **Tasa de ascenso**: m/s medios en esa térmica
+### Vario frente a radio de giro
 
-Haz clic en cualquier térmica para analizarla. El iconito de la diana restablece el zoom del mapa si has estado curioseando.
+Cada vuelta completa que diste se convierte en un punto: su radio en el eje horizontal y la tasa de ascenso que te dio en el vertical. El fondo está dividido en zonas etiquetadas **arriesgado**, **ideal**, **ok** y **cerrar**, de los giros muy cerrados a la izquierda a los más abiertos a la derecha. Si la mayoría de tus mejores puntos caen en la zona **cerrar**, ya sabes qué trabajar en el próximo vuelo.
 
-### Panel central: el mapa
+### Elegir una térmica
 
-Aquí es donde ocurre la magia. Verás:
+Encima de la línea de tiempo hay una fila de chips de filtro, y cada uno muestra cuántas térmicas le corresponden:
 
-**Tu track**: puntos GPS con código de colores que muestran tu trayectoria por la térmica
-- 🟢 **Puntos verdes**: ascenso fuerte (>3 m/s), ¡encontraste el chollo!
-- 🔵 **Puntos azules**: ascenso moderado (0-3 m/s), trabajándola
-- 🔴 **Puntos rojos**: descendencia (<0 m/s), todos hemos pasado por ahí
+- **Todas**: todas las térmicas
+- **Mejores 5**: los cinco ascensos más fuertes por tasa de ascenso media
+- **Bajo la mediana**: térmicas con una tasa de ascenso por debajo de la mediana del vuelo
+- **Con deriva**: térmicas en las que derivaste más de 30 m por cada 100 m ganados (solo cuentan los ascensos de 50 m o más)
 
-**Térmica seleccionada**: resaltada en rojo con borde blanco. Es la que estás analizando ahora
+Debajo de los chips, la línea de tiempo coloca cada térmica según el reloj real del vuelo. El color de cada punto es su calidad y su tamaño, la altura ganada, así que «aquella grande hacia la una y media» se encuentra enseguida. Haz clic en un punto para abrir esa térmica en el visor.
 
-**Otras térmicas**: en morado al 40 % de opacidad, para dar contexto de dónde más subiste
+La térmica seleccionada forma parte de la dirección de la página, así que puedes compartir un enlace directo a la «Térmica n.º 7».
 
-**Controles de animación**:
-- ▶️ **Reproducir/Pausa**: mira la repetición de tu vuelo fotograma a fotograma
-- 🔄 **Reiniciar**: vuelta al principio
-- ⬅️➡️ **Navegación por fotogramas**: avanza punto GPS a punto GPS a mano (o usa las flechas del teclado; sí, también funciona con teclado)
-- **Contador de fotogramas**: muestra exactamente en qué punto de la térmica estás (por ejemplo, «42/156»)
+### El visor de térmicas
 
-Debajo de los controles verás los datos en tiempo real del punto GPS actual:
-- **Hora**: marca de tiempo exacta
-- **Altitud**: altura actual
-- **Vario**: velocidad vertical en ese momento
+La barra de título muestra **Térmica n.º N**, su etiqueta de calidad, la hora de inicio, la altura ganada y el ascenso medio. A la derecha cambias entre **Mapa 2D** y **Vista 3D**.
 
-**Consejo pro**: usa las flechas del teclado para recorrer la térmica fotograma a fotograma. Genial para ver exactamente cuándo pillaste el núcleo.
+**En el mapa 2D:**
 
-### Panel derecho: detalles de la térmica
+- **El track de la térmica seleccionada** se dibuja con puntos coloreados según el vario: verde para ascenso fuerte (más de 3 m/s), amarillo para ascenso de hasta 3 m/s, rojo para descendencia
+- Los marcadores **Punto de entrada** y **Punto de salida** indican dónde empezó y dónde terminó el ascenso
+- **El núcleo** de cada térmica es un marcador con un anillo discontinuo. El de la seleccionada es rojo; los demás aparecen en rosa difuminado para dar contexto. Pasa el ratón por un núcleo para ver su intensidad
+- **Posición actual** es el marcador azul claro que se mueve durante la reproducción
 
-Este es tu informe de entrenamiento. Veamos cada sección:
-
-#### Resumen de calidad
-**Puntuación global**: un número compuesto (0-40) que tiene en cuenta varios factores:
-- Eficiencia de la tasa de ascenso
-- Lo bien que te mantuviste centrado
-- Relación entre deriva y ascenso
-- Regularidad de los giros
-
-La barra de progreso muestra dónde quedas en la escala. ¿Sacas 25 o más de forma constante? Algo estás haciendo bien.
-
-**Eficiencia**: qué porcentaje de tu tiempo en la térmica fue ascenso productivo de verdad. Los números bajos significan que pasaste tiempo dando vueltas o en descendencia.
-
-#### Deriva y viento
-**Distancia de deriva**: cuánto te llevó la térmica a sotavento mientras subías. Menos suele ser mejor (salvo que *quisieras* derivar).
-
-**Velocidad del viento**: calculada a partir de tu deriva. Útil para entender las condiciones.
-
-**Rosa del viento**: muestra visualmente la dirección del viento. La flecha apunta hacia *donde va* el viento (convención meteorológica, perdón, navegantes).
-
-#### Rendimiento en ascenso
-Los números en bruto:
-- **Ganancia de altura**: metros totales ganados
-- **Ascenso medio**: tu velocidad vertical media
-- **Ascenso máximo**: la mejor tasa de ascenso que alcanzaste (normalmente cuando clavaste el núcleo)
-- **Ascenso mínimo**: el peor momento (a menudo al entrar o cuando perdiste el núcleo)
-- **Variabilidad**: lo regular que fue la ascendencia. Más baja = térmica suave, más alta = térmica brusca o turbulenta
-
-#### Análisis del núcleo
-Aquí se pone friki:
-
-**Intensidad del núcleo**: la ascendencia sostenida más fuerte que encontraste. Es tu tasa de ascenso en el «punto dulce».
-
-**Tiempo de centrado**: cuánto tardaste en encontrar el núcleo y quedarte en él después de entrar. Menos es mejor: significa que no perdiste tiempo dando vueltas por los bordes.
-
-**Calidad del centrado**: porcentaje del tiempo pasado en ascendencia fuerte frente a ascendencia débil. Números altos = te quedaste en lo bueno.
-
-#### Dinámica de giro
-**Sentido**: izquierda o derecha (la mayoría de los pilotos tiene un lado favorito, sin juzgar)
-
-**Vueltas**: cuántos giros completos hiciste
-
-**Ritmo**: velocidad de giro media en grados por segundo. Demasiado lento = te sales derivando; demasiado rápido = quizá te pasas de inclinación
-
-#### Información de tiempo
-Solo las marcas de tiempo y la duración. Útil para cruzarlo con tus notas o con el registrador de competición.
-
-#### Recomendaciones
-
-Aquí la herramienta se pone charlatana. Según el análisis, recibirás comentarios personalizados como:
-- 🟢 **Comentarios positivos** (fondo verde): lo que hiciste bien, «Excelente entrada al núcleo con muy poco tiempo de búsqueda»
-- 🟡 **Sugerencias de mejora** (fondo ámbar): aspectos a trabajar, «Prueba a cerrar el radio de giro para reducir la deriva»
-
-Las recomendaciones se generan a partir de métricas reales de rendimiento, no son consejos genéricos.
+**En la vista 3D**, el mismo ascenso se dibuja como una espiral que puedes girar, con una leyenda para **Ascendencia fuerte**, **Ascendencia débil**, **Descendencia**, **Núcleo de la térmica**, **Altitud de salida** y **Posición actual**.
 
 ## Reproducción animada
 
-La función de repetición mola bastante, la verdad. Dale a reproducir y mírate trabajando la térmica en tiempo real (bueno, acelerado). Puedes:
+Bajo el mapa o la vista 3D está la barra de reproducción:
 
-1. **Verla entera**: sigue toda la térmica desde la entrada hasta la salida
-2. **Pausar y recorrer**: usa las flechas del teclado para pasar por los momentos interesantes
-3. **Mirar las métricas**: la altitud, el vario y la hora se actualizan mientras avanzas por la térmica
-4. **Comparar varias térmicas**: cambia de una térmica a otra para ver cómo varió tu técnica
+- **Reproducir** / **Pausa**: repite la térmica punto a punto
+- La flecha circular: vuelta al primer punto
+- Las flechas de fotograma anterior y siguiente: recorre el ascenso punto GPS a punto GPS
+- Contador de **Fotograma**: en qué punto de la térmica estás (por ejemplo, 42/156)
+- Hora, altitud y vario en el punto actual
+- El botón de la diana: **Centrar el mapa en esta térmica**, muy útil después de haber estado moviendo el mapa
 
-**Atajos de teclado**:
-- **←** Fotograma anterior
-- **→** Fotograma siguiente
+Avanzar fotograma a fotograma es la mejor forma de ver el momento exacto en que encontraste el núcleo, o en que lo perdiste.
+
+## Detalles de la térmica
+
+Junto al visor (debajo, en el móvil) está tu informe de coaching. Arriba, una gran puntuación de calidad con su etiqueta, más dos lecturas rápidas: **efic** (eficiencia) y **cen** (centrado).
+
+Debajo, los detalles están plegados en secciones. Solo se abre una a la vez, y cada una muestra una vista previa de una línea mientras está plegada, así que puedes repasar toda la historia sin desplazarte.
+
+#### Ascenso
+
+- **Ganancia**: altura total ganada
+- **Medio**: tasa de ascenso media
+- **Máx.**: mejor ascenso, suavizado sobre 5 segundos (el pico bruto de un solo punto aparece debajo)
+- **Mín.**: el momento más flojo, normalmente al entrar o cuando te saliste del núcleo
+- **Variab.**: cuánto varió la tasa de ascenso. Baja significa una térmica suave; alta, una térmica a golpes o turbulenta
+
+#### Núcleo
+
+- **Intensidad**: ascenso medio en el núcleo, tu punto dulce
+- **T. centrado**: cuánto tardaste en llegar al núcleo desde que empezó la térmica. Cuanto menos, mejor
+- **Tamaño**: el radio de ascendencia del núcleo
+- **Dist. media**: a qué distancia media del núcleo giraste
+- **Centrado**: lo cerca que te mantuviste del núcleo, en porcentaje. Girar al propio radio del núcleo puntúa 100 %
+
+#### Dinámica de giro
+
+- **Sentido**: izquierda o derecha (casi todos los pilotos tienen un lado favorito, sin juzgar)
+- **Vueltas**: número de vueltas completas
+- **Ritmo**: velocidad de giro media en grados por segundo
+- **Inclinación**: estimada a partir del tamaño y la duración de tus vueltas, con la velocidad aire implícita debajo
+- **Tiempo por vuelta** y **Radio de giro**: la dispersión de tus vueltas, como tiempo mínimo, mediano y máximo, y radio en el percentil 25, la mediana y el percentil 75
+
+#### Deriva y viento
+
+- **Velocidad del viento**: estimada a partir de cómo derivaron tus vueltas
+- **Dist. deriva**: cuánto te llevó la térmica mientras subías
+- **Dirección**: de dónde venía el viento, con una brújula. La flecha de la brújula apunta hacia donde soplaba el viento, y la etiqueta indica la dirección «desde», como en una previsión
+
+#### Tiempo
+
+**Inicio**, **Fin** y **Duración** del ascenso. Útil para cruzarlo con tus propias notas.
+
+#### Desglose de la puntuación
+
+Muestra cómo se construyó la puntuación de calidad: una barra por factor (**Ascenso**, **Eficiencia**, **Centrado**, **Regularidad** y **Sostenido**), su peso, tu valor real y los puntos que aportó. El enlace **¿Cómo se calcula?** te lleva a la fórmula completa.
+
+#### Recomendaciones
+
+A partir de las cifras anteriores, recibes comentarios concretos sobre este ascenso, por ejemplo:
+
+- Notas positivas sobre fondo verde: «Gran entrada al núcleo: encontraste la ascendencia más fuerte en 12 s.»
+- Sugerencias sobre fondo ámbar: «Entrada lenta al núcleo: … Prueba con giros iniciales más abiertos para notar el gradiente.»
+
+Los consejos salen de las mediciones de esta térmica (tamaño del núcleo, deriva, inclinación, variabilidad), no de consejos genéricos. Para un resumen de todo el vuelo, mira el panel **Consejos** en la pestaña **Resumen** del vuelo.
+
+## Tasa de ascenso por altitud y hora
+
+Al final de la pestaña, cada térmica se coloca según la hora del día y la altitud, coloreada por tasa de ascenso. Cambia la referencia de altura entre **s. n. m.** y **AGL** (sobre el despegue). La línea discontinua es el techo operativo del día; si se parte en dos escalones, el techo de la mañana y el de la tarde fueron distintos. Haz clic en cualquier punto para volver a esa térmica en el visor.
 
 ## La puntuación de calidad, explicada
 
-La puntuación de calidad no es simplemente «buena tasa de ascenso = puntuación alta». Es una nota compuesta que tiene en cuenta:
+La puntuación de calidad no es simplemente «buena tasa de ascenso = puntuación alta». Es una nota sobre 100 que combina cinco factores:
 
-1. **Eficiencia del ascenso**: ascenso real frente al máximo teórico
-2. **Habilidad de centrado**: lo rápido que encontraste el núcleo y te quedaste en él
-3. **Gestión de la deriva**: si minimizaste la deriva a sotavento
-4. **Regularidad**: lo estable que fue tu giro
+1. **Ascenso**: lo fuerte que fue la ascendencia en su mejor momento
+2. **Eficiencia**: altura ganada frente a distancia derivada
+3. **Centrado**: lo cerca que te mantuviste del núcleo
+4. **Regularidad**: lo estable que fue el ascenso
+5. **Sostenido**: si de verdad te quedaste girando, en lugar de solo atravesarla
 
-Una térmica de 5 m/s en la que diste vueltas sin rumbo puede puntuar menos que una de 2,5 m/s que trabajaste a la perfección. Va de técnica, no solo de suerte.
+Una térmica potente en la que diste vueltas sin rumbo puede puntuar menos que una moderada que trabajaste a la perfección. Va de técnica, no solo de suerte.
 
-**Rangos de puntuación**:
-- **25-40 (Excelente)**: estás que te sales. Centrado de nivel de competición.
-- **15-25 (Buena)**: buen trabajo. Ganaste la altura sin perder demasiado tiempo.
-- **0-15 (Regular)**: cumpliste, pero hay margen de mejora.
+**Etiquetas de calidad:**
+
+| Puntuación | Etiqueta |
+|---|---|
+| 80 o más | Sobresaliente |
+| De 73 a 79 | Excelente |
+| De 66 a 72 | Buena |
+| De 60 a 65 | Regular |
+| Menos de 60 | Floja |
+
+Estos rangos están calibrados con vuelos reales de We-Fly: una térmica típica se queda a mitad de los 60. La fórmula completa, con un ejemplo resuelto, está en [La puntuación global de térmica, explicada](/doc/overall-thermal-score).
 
 ## Patrones habituales que puedes ver
 
-**Mucha deriva, poca calidad de centrado**: quizá entras demasiado abierto o no cierras el giro lo bastante rápido cuando encuentras ascendencia.
+**Mucha deriva, poco centrado**: quizá entras demasiado abierto o no cierras el giro lo bastante rápido cuando encuentras ascendencia.
 
-**Buen tiempo de centrado pero poca eficiencia**: puede que la térmica en sí fuera débil o estuviera rota. ¡No siempre es culpa tuya!
+**Buen tiempo de centrado pero poca eficiencia**: puede que la térmica en sí fuera débil o que el viento fuera fuerte. ¡No siempre es culpa tuya!
 
-**Mucha variabilidad**: pueden ser las condiciones (día movido) o una inclinación irregular. Revisa la regularidad de tu velocidad de giro.
+**Mucha variabilidad**: pueden ser las condiciones (día movido) o una inclinación irregular. Las recomendaciones intentan distinguir una cosa de la otra mirando cuánto cambió el radio de tus vueltas.
 
 **Entrada rápida al núcleo en una térmica y lenta en otra**: fíjate en tu técnica de entrada. ¿Entraste por barlovento o por sotavento? ¿Te pasaste el núcleo?
 
@@ -159,29 +173,29 @@ Una térmica de 5 m/s en la que diste vueltas sin rumbo puede puntuar menos que 
 
 - **Debriefing posvuelo**: entiende qué funcionó y qué no
 - **Preparación para competición**: analiza tu técnica de centrado bajo presión
-- **Comparar condiciones**: mira cómo varía la calidad de las térmicas según la hora, el lugar o la meteo
-- **Seguir tu progreso**: analiza vuelos de distintos meses para ver cómo evoluciona tu técnica
-- **Antes de la siguiente cerveza**: demuéstrales a tus colegas que *sí* centraste esa térmica de 6 m/s (¡pruebas!)
+- **Comparar condiciones**: mira cómo varía la calidad de las térmicas según la hora, la zona de vuelo o la meteo
+- **Seguir tu progreso**: mira vuelos de distintos meses para ver cómo evolucionas
+- **Antes de la siguiente cerveza**: demuéstrales a tus colegas que *sí* centraste aquella térmica monstruosa (¡pruebas!)
 
 ## Consejos para un mejor análisis
 
-1. **Unos datos GPS limpios ayudan**: señal GPS débil = análisis menos preciso
+1. **Unos datos GPS limpios ayudan**: una señal GPS débil da un análisis menos preciso, y un registrador que graba cada segundo da los mejores resultados
 2. **Compara térmicas parecidas**: compara técnicas en condiciones similares para sacar conclusiones con sentido
 3. **No te obsesiones con un solo vuelo**: las tendencias en muchos vuelos importan más que una térmica perfecta
-4. **El contexto del viento importa**: una puntuación «Regular» con 30 km/h de viento puede valer más que un «Excelente» en aire muerto
+4. **El contexto del viento importa**: una puntuación «Regular» en un día de viento puede ser mejor vuelo que un «Excelente» en aire en calma
 
 ## Lo que esta herramienta no hace
 
-- **Predecir térmicas futuras**: es análisis, no previsión (estamos en ello... es broma)
-- **Juzgar tus decisiones vitales**: ¿deberías haber cogido esa térmica a las 11 o seguir adelante? Sigue siendo cosa tuya
+- **Predecir térmicas futuras**: es análisis, no previsión
+- **Juzgar tus decisiones**: ¿deberías haber cogido ese ascenso a las 11 o seguir adelante? Sigue siendo cosa tuya
 - **Sustituir la experiencia**: la herramienta te muestra datos, pero aprender a *sentir* las térmicas sigue requiriendo horas de vuelo
 
 ## En resumen
 
-Esta herramienta no te convertirá en mejor piloto de la noche a la mañana, pero te mostrará *exactamente* lo que haces en térmica. Tanto si quieres arañar segundos a tu tiempo de centrado como si solo tienes curiosidad por saber por qué aquella térmica se sintió distinta, el análisis avanzado de térmicas te cubre las espaldas.
+Esta herramienta no te convertirá en mejor piloto de la noche a la mañana, pero te muestra *exactamente* lo que haces en térmica. Tanto si quieres recortar tu tiempo de centrado como si solo tienes curiosidad por saber por qué un ascenso se sintió distinto, la pestaña **Térmicas** te cubre las espaldas.
 
-Ahora ve a volar, pilla unas cuantas térmicas y vuelve para ver si eres tan bueno como crees.
+Ahora ve a volar, encuentra unas cuantas térmicas y vuelve para ver si eres tan bueno como crees.
 
 ---
 
-Ver también: [Ajustes del análisis avanzado de térmicas](advanced-thermal-analysis-settings.md)
+Ver también: [Cómo funciona la detección de térmicas](/doc/advanced-thermal-analysis-settings) | [La puntuación global de térmica, explicada](/doc/overall-thermal-score)

@@ -158,10 +158,10 @@ Esta política se aplica a todos los datos personales recogidos, tratados y alma
 
 Los usuarios pueden eliminar su cuenta en cualquier momento desde la página de ajustes del perfil:
 
-1. Ve a Perfil → Ajustes
-2. Haz clic en el botón «Eliminar cuenta»
-3. Lee y confirma los avisos de supresión
-4. Introduce tu contraseña para confirmar
+1. Ve a Perfil y abre **Eliminar cuenta** en la sección Cuenta
+2. Lee los avisos de supresión
+3. Escribe tu dirección de correo electrónico para confirmar
+4. Haz clic en **Eliminar mi cuenta para siempre**
 5. La cuenta y todos los datos asociados se suprimen de forma permanente
 
 **Qué se suprime:**
@@ -257,7 +257,7 @@ Los usuarios pueden solicitar en cualquier momento la supresión inmediata de su
 
 ### 6.2 Derecho a la portabilidad de los datos (artículo 20 del RGPD)
 
-Los usuarios pueden exportar sus datos de vuelo en formatos estándar (IGC, GPX, KML) en cualquier momento desde la página de vuelos.
+Los usuarios pueden exportar sus datos en cualquier momento: **Exportar datos**, en la sección Cuenta de su perfil, descarga sus archivos IGC originales junto con sus registros de vuelo, y los archivos IGC individuales pueden descargarse desde las páginas de vuelos.
 
 ### 6.3 Derecho de acceso (artículo 15 del RGPD)
 
@@ -295,7 +295,7 @@ Cuando se actualice esta política:
 ### 8.1 Supervisión de las tareas programadas
 
 Las tareas programadas (cron) de aplicación de la conservación se supervisan mediante:
-- Los registros de tareas cron del panel de Vercel
+- Los registros de tareas cron del servidor
 - Los registros de la aplicación para las ejecuciones correctas
 - El registro de errores para las ejecuciones fallidas
 

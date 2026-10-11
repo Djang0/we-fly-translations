@@ -38,19 +38,18 @@ Tous les vols ne comptent pas. Voici ce qui est éligible :
 
 ### Ce que tu vois
 
+Le tableau **Top 10 des pilotes**, avec **Activité** sélectionné :
+
 | Colonne | Ce que ça veut dire |
 |--------|--------------|
-| Rang | Ta position au classement |
+| # | Ta position au classement |
 | Pilote | Prénom N. (respectueux de la vie privée) |
 | Vols | Nombre total de vols éligibles |
 | Heures | Temps de vol total sur les vols éligibles |
-| XC km | Total des kilomètres de cross |
+| XC | Distance totale en cross, dans ton unité de distance |
 | Score cross | Le chiffre qui détermine ton rang |
-| Niveau | Ton badge, selon ton total d’heures de vol publiques |
 
-### Le système de niveaux (version courte)
-
-Ton badge de niveau dépend de ton **total d’heures de vol publiques** et va du niveau Bronze jusqu’au niveau Titane. C’est un badge de progression, pas une note de pilotage : accumule assez d’heures et tu grimperas les niveaux. Vois-le comme des miles de grand voyageur, mais pour des gens qui volent vraiment.
+Le classement depuis toujours en haut de la page utilise les mêmes vols éligibles. Bascule-le entre **Score cross**, **Distance cross** et **Temps de vol** pour reclasser ces pilotes selon le critère qui t’intéresse.
 
 ### En résumé
 
@@ -70,8 +69,8 @@ Le score d’efficacité combine trois indicateurs, **à poids égal**, normalis
 
 | Indicateur | Ce qu’il récompense |
 |--------|----------------|
-| **Distance par heure** (km/h) | Avancer efficacement : bon choix d’itinéraire, transitions solides, peu de gratte |
-| **Distance par vol** (km) | Aller loin quand tu pars : s’engager dans un vrai cross, pas jeter l’éponge au premier vent de face |
+| **Distance par heure** | Avancer efficacement : bon choix d’itinéraire, transitions solides, peu de gratte |
+| **Distance par vol** | Aller loin quand tu pars : s’engager dans un vrai cross, pas jeter l’éponge au premier vent de face |
 | **Nombre de vols éligibles** | Être présent : plus de vols éligibles, c’est un engagement plus régulier en cross |
 
 Ton score composite est la moyenne des trois z-scores :
@@ -88,7 +87,7 @@ Si les z-scores te donnent le regard vitreux, jette un œil au [guide du z-score
 |-------|-------|--------------|-------------------|
 | +2.0 ou plus | Vert | Très au-dessus de la moyenne de la communauté | Tu ne voles pas, tu *voyages* |
 | +1.0 à +2.0 | Vert | Nettement au-dessus de la moyenne | Pilote efficace, bonnes décisions |
-| -1.0 à +1.0 | Neutre | Autour de la moyenne de la communauté | Normal, sain, rien à signaler |
+| -1.0 à +1.0 | Vert au-dessus de 0, rouge en dessous | Autour de la moyenne de la communauté | Normal, sain, rien à signaler |
 | -1.0 à -2.0 | Rouge | Sous la moyenne | De la marge pour gagner en efficacité en cross |
 | -2.0 ou moins | Rouge | Bien sous la moyenne | Beaucoup de vol de pente, peut-être ? |
 
@@ -144,7 +143,7 @@ C’est voulu. Le classement Efficacité se moque de la *fréquence* de tes vols
 
 ### « Mon score est négatif. Je suis un mauvais pilote ? »
 
-Non. Un score négatif veut dire que tu es **sous la moyenne actuelle de la communauté** sur ces indicateurs. C’est relatif. Si la communauté est pleine de compétiteurs de cross, même un bon pilote loisir sera dans le négatif. Ça ne dit rien de ta sécurité, de ton aisance dans la turbulence, de ta précision à l’atterrissage, ni de ton talent pour choisir le bon bar après le vol.
+Non. Un score négatif veut dire que tu es **sous la moyenne actuelle de la communauté** sur ces trois indicateurs. C’est relatif. Si la communauté est pleine de compétiteurs de cross, même un bon pilote loisir sera dans le négatif. Ça ne dit rien de ta sécurité, de ton aisance dans la turbulence, de ta précision à l’atterrissage, ni de ton talent pour choisir le bon bar après le vol.
 
 ### « Pourquoi ce minimum de 10 km ? »
 

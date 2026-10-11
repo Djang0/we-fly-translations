@@ -1,356 +1,146 @@
 ---
-title: Instellingen van de geavanceerde thermiekanalyse
-description: Stel de parameters in waarmee je thermieken herkend en gescoord worden
+title: Zo werkt de thermiekdetectie
+description: De regels waarmee We-Fly bepaalt waar een thermiek begint, waar ze eindigt en welke stijgingen op de lijst komen
 category: Thermal Analysis
 order: 2
 ---
 
-*Of: hoe je het algoritme leert hoe een echte thermiek eruitziet*
+*Of: hoe de analyse beslist dat al dat gedraai echt een thermiek was*
 
-Je hebt je vlucht geüpload, de geavanceerde thermiekanalyse geopend, en nu zit je naar het tabblad Instellingen te staren en vraag je je af wat al die schuifjes en getallen eigenlijk doen. Goed nieuws: je bent hier aan het juiste adres. Slecht nieuws: het wordt nu nerdy (maar op een leuke manier, beloofd).
+Elke thermiek die je in het tabblad **Thermiek** van een vlucht ziet, is gevonden door dezelfde detector, met dezelfde drempels, voor elke piloot. Er zijn geen schuifjes om aan te draaien en niets om terug te zetten: de regels liggen vast, zodat jouw cijfers hetzelfde betekenen als die van je vliegmaat, vlucht na vlucht.
 
-Zie deze instellingen als een manier om de computer te leren wat *jij* een „thermiek die het loggen waard is“ vindt. Want laten we eerlijk zijn: dat zwakke, rafelige belletje dat je 45 seconden gedraaid hebt omdat je laag zat? Misschien telt het algoritme dat niet mee. Maar die glorieuze lift van 5 m/s die je van „oh shit“ naar „hallo wolkenbasis“ bracht? Die wordt zeker gelogd.
+Deze pagina legt die regels uit. Negeert de analyse een stijging waarvan je zeker weet dat je ze gewerkt hebt (of splitst ze één thermiek in twee), dan weet je waarom.
 
 ---
 
 ## De korte versie
 
-**99% van de piloten gebruikt gewoon best de standaardinstellingen.** Die zijn afgesteld op typische thermiek voor paragliders en werken prima voor de meeste vluchten. Kom er alleen aan als:
+1. De detector bekijkt een kort schuivend venster van je track en stelt vier vragen: ga je omhoog, draai je, is de bocht regelmatig, en heb je hoogte gewonnen?
+2. Hij voegt de antwoorden samen tot één **thermiekscore** tussen 0 en 1.
+3. Een kleine toestandsmachine met ingebouwde aarzeling zet die score om in „glijden“ en „thermieken“, zodat één bobbel of één rondje in dalende lucht het resultaat niet omgooit.
+4. Elke kandidaat-stijging wordt daarna bijgesneden tot de cirkels die je echt gevlogen hebt, en blijft alleen behouden als ze lang genoeg duurt, hoogte wint en minstens twee volledige cirkels bevat.
 
-1. Je in rare omstandigheden vliegt (superzwakke thermiek, gekke wind, microlift vlak bij het terrein)
-2. Je een datanerd bent die *precies* wil begrijpen hoe de analyse werkt
-3. Je een biertje op had en besloot dat het leuk zou zijn om te zien wat er gebeurt als je alles op het maximum zet
+De rest van deze pagina geeft de details achter elke stap.
 
-Nog altijd hier? Goed, we duiken erin.
-
----
-
-## Detectiedrempels
-
-*„Wanneer wordt rondjes draaien ‚ik zit in een thermiek‘?“*
-
-### Min. thermiekscore (standaard: 0.35)
-
-**Wat het doet:** het algoritme combineert meerdere signalen (stijgen, draaisnelheid, GPS-beweging) tot één „thermiekbetrouwbaarheidsscore“ van 0 tot 1. Deze instelling zegt: „noem het geen thermiek tenzij de betrouwbaarheid 35% haalt.“
-
-**In pilotentaal:** hoe kieskeurig ben je over wat als thermiek telt?
-
-- **Lager (0.2-0.3):** „Ik draai alles wat omhoog gaat.“ Vangt zwakke belletjes, maar logt misschien vals positieven als je gewoon draait in hellingwind of tegen het terrein aan krabt.
-- **Standaard (0.35):** „Toon me echte thermiek, geen rommel.“ In balans voor gewoon overlandvliegen.
-- **Hoger (0.4-0.5):** „Log alleen het goede spul.“ Mist zwakke thermiek, maar houdt je statistieken zuiver.
-
-**Eerlijk gezegd:** vlieg je in de Alpen en draai je vaak thermiek van 0,5 m/s vlak bij het terrein, zet dit dan lager. Vlieg je 's zomers boven vlak land met kernen van 4 m/s, dan mag het hoger.
+Alle drempels hieronder zijn de waarden die de engine intern gebruikt, in metrische eenheden. Je weergave-eenheden (voet, knopen enzovoort) veranderen hoe de getallen aan jou getoond worden, niet waar de grenzen liggen.
 
 ---
 
-### Uitstapscore (standaard: 0.2)
+## Stap 1: vier signalen uit een schuivend venster
 
-**Wat het doet:** zodra je „in“ een thermiek zit, moet de betrouwbaarheid onder 20% zakken voor het algoritme denkt dat je eruit bent.
+Voor elk GPS-punt kijkt de detector terug naar de tien vorige punten. Met een gewone logger die één punt per seconde opneemt, is dat ongeveer tien seconden vliegen, zo'n kwart tot een halve cirkel.
 
-**In pilotentaal:** hoe lang blijf je zoeken voor je toegeeft: „ja, ik ben hem kwijt“?
+Uit dat venster leest hij vier signalen, elk samengeperst op een schaal van 0 tot 1:
 
-- **Lager (0.1-0.15):** „Ik ben er echt uit.“ Verlaat thermiek snel. Goed als je in schone, regelmatige thermiek vliegt.
-- **Standaard (0.2):** „Oké, dit werkt niet meer.“ Verdraagt even dalende lucht of wat rondzwerven aan de randen.
-- **Hoger (0.25-0.3):** „Misschien zit hij hier nog ergens...“ Duurt langer voor je eruit bent. Handig voor rafelige, hakkelige thermiek waar je constant in en uit vliegt.
+| Signaal | Wat het meet | Volle punten bij | Gewicht |
+|---|---|---|---|
+| Vario | Gemiddelde verticale snelheid over het venster | 3 m/s | 45% |
+| Regelmaat van het draaien | Hoe constant je draaisnelheid is | perfect regelmatig draaien | 25% |
+| Draaisnelheid | Hoe snel je koers verandert | 30°/s | 20% |
+| Hoogtewinst | Netto gewonnen hoogte over het venster | 50 m | 10% |
 
-**Waarom lager dan bij het instappen:** hysteresis! Om dezelfde reden dat je thermostaat de verwarming niet aanzet bij 20°C en uitzet bij 19,9°C. Zo voorkom je dat het algoritme 47 aparte „thermieken“ logt terwijl je gewoon één rafelig belletje draait.
+De vario weegt het zwaarst, omdat hij het meest rechtstreekse bewijs van stijgende lucht is. Daarna komt de regelmaat van het draaien, omdat die een georganiseerde thermiek (vloeiende, herhaalbare cirkels) onderscheidt van willekeurige turbulentie, waarin je koers alle kanten op springt. Draaisnelheid en hoogtewinst bevestigen het beeld.
 
----
-
-### Min. vario (standaard: 0.3 m/s)
-
-**Wat het doet:** negeert elk cirkelen waarbij je vario minder aangeeft dan dit.
-
-**In pilotentaal:** „Is het niet minstens zo goed, dan noem ik het geen thermiek.“
-
-- **Lager (0.1-0.2):** logt zwak stijgen, krabben, misschien zelfs dynamisch hellingstijgen als je aan het draaien bent. Ideaal voor vluchten in „overlevingsmodus“.
-- **Standaard (0.3):** de gewone drempel voor XC-thermiek. Haal je gemiddeld geen 0,3 m/s, dan blijf je op lange termijn waarschijnlijk niet boven.
-- **Hoger (0.5-1.0):** logt alleen thermiek waarin je echt met een fatsoenlijk tempo hoogte wint.
-
-**Leuk weetje:** de standaardwaarden zijn afgesteld op paragliders. Vlieg je een deltavlieger met een slechtere daalsnelheid, dan zet je dit misschien wat hoger.
+De gewogen som is de **thermiekscore**. Een piloot die rechtdoor glijdt in stille lucht scoort bijna nul; een piloot die regelmatige cirkels draait in goede stijging scoort ruim boven 0,5.
 
 ---
 
-### Min. draaisnelheid (standaard: 10 deg/s)
+## Stap 2: de toestandsmachine (waarom de detector bewust aarzelt)
 
-**Wat het doet:** hoe snel je moet draaien voor het algoritme denkt: „ja, die cirkelt.“
+Zou de detector gewoon zeggen „score boven X is thermiek“, dan zou het resultaat aan en uit flikkeren telkens als je een bobbel raakt of de dalende kant van een gebroken kern doorkruist. Daarom doorloopt hij in plaats daarvan vier toestanden:
 
-**In pilotentaal:** hoe krap zijn je cirkels?
+| Toestand | Hoe je erin komt | Hoe je eruit komt |
+|---|---|---|
+| **Glijden** | Begintoestand | Score bereikt **0,35** → Binnenkomen |
+| **Binnenkomen** | Score bereikte 0,35 | Score blijft **5 seconden** op of boven 0,35 → Thermieken. Zakt onder 0,35 → terug naar Glijden (vals alarm) |
+| **Thermieken** | Bevestigde thermiek | Score zakt onder **0,20** → Verlaten |
+| **Verlaten** | Score viel onder 0,20 | Blijft **3 seconden** onder 0,20 → Glijden. Klimt terug naar 0,35 of meer → opnieuw Thermieken |
 
-- **Lager (5-8 deg/s):** wijde, luie cirkels. Goed voor tandem, beginnende leerlingen of als je een high-performance scherm vliegt en van zachte hellingshoeken houdt.
-- **Standaard (10 deg/s):** gewoon thermieken. Eén volledige 360° per 36 seconden.
-- **Hoger (15-20 deg/s):** krappe, agressieve cirkels. Eén 360° per 18-24 seconden. Mist misschien je thermieken als je wijd draait.
+Twee details zijn hier belangrijk:
 
-**Eerlijk gezegd:** de meeste piloten thermieken vanzelf aan 10-15 deg/s. Mist het algoritme duidelijke thermieken, dan draai je misschien wijder dan gemiddeld. Zet dit dan op 8. Logt het willekeurige „thermieken“ terwijl je gewoon S-bochten maakt in hellingwind, zet het dan op 12-15.
+- **Erin komen is strenger dan eruit gaan.** Je hebt 0,35 nodig om een thermiek te beginnen, maar hoeft maar boven 0,20 te blijven om ze te houden. Dat verschil (hysterese genoemd) zorgt ervoor dat één rafelige thermiek niet in vijf stukken gehakt wordt.
+- **Daartussen wacht de detector.** Blijft de score tijdens het verlaten tussen 0,20 en 0,35 hangen, dan beëindigt hij de thermiek niet en start hij ze ook niet opnieuw, tot het beeld duidelijk is.
 
----
+### Vangnetten voor lange stijgingen
 
-## Hysteresisparameters
+Een lange thermiek bouwt veel hoogte op, en die opgespaarde hoogte kan het moment verbergen waarop de stijging echt ophield. Twee extra regels vangen dat op:
 
-*„Doe eens niet zo zenuwachtig, algoritme“*
+- **Controle van de recente trend.** Tonen de laatste 60 seconden tijdens het thermieken een netto hoogteverlies, dan wordt de thermiek meteen afgesloten, hoe goed ze eerder ook was.
+- **Controle van de gemiddelde stijging.** Na de eerste minuut moet de gemiddelde stijging sinds het begin van de thermiek boven 0,2 m/s blijven. De lat gaat naar 0,3 m/s na drie minuten en naar 0,4 m/s na vijf. Zak je eronder, dan wordt de thermiek afgesloten.
+- **Harde onderbreking bij dalen.** Ben je aan het verlaten, dan beëindigt nog eens 30 m hoogteverlies de thermiek onmiddellijk, ook als een paar zoekcirkels de score even terug omhoog duwen.
 
-Deze voorkomen dat de detector aan en uit flappert telkens je een rimpeling raakt of 2 seconden in dalende lucht zit. Zie ze als „bevestigingstijd“.
-
-### Instapduur (standaard: 5 seconden)
-
-**Wat het doet:** je moet zoveel seconden aan een stuk aan de voorwaarden voor thermiek voldoen voor het officieel als „thermiek binnengevlogen“ telt.
-
-**In pilotentaal:** hoeveel bochten voor je je vastlegt en zegt: „ja, dit is een thermiek“?
-
-- **Lager (2-3s):** „Ik zit erin!“ na een halve bocht. Logt thermiek snel, maar vangt misschien vals positieven.
-- **Standaard (5s):** ongeveer 1,5 cirkel om te bevestigen. Goede balans.
-- **Hoger (8-10s):** „Laat me eerst zeker zijn dat dit echt is.“ Neemt 2-3 cirkels om te loggen. Mist korte belletjes, maar geeft heel zuivere resultaten.
-
-**Wanneer bijstellen:** lager als je in superrafelige omstandigheden vliegt waar thermieken klein zijn en je alles moet vangen. Hoger als er valse thermieken gelogd worden (vaak bij winderige of turbulente omstandigheden).
+Door deze regels verschijnen twee echte stijgingen, verbonden door een korte zoekglijvlucht, als twee thermieken en niet als één.
 
 ---
 
-### Uitstapduur (standaard: 3 seconden)
+## Stap 3: bijsnijden, dan behouden of weggooien
 
-**Wat het doet:** je moet zo lang *niet* aan de voorwaarden voor thermiek voldoen voor het als „thermiek verlaten“ telt.
+Wanneer een thermiek afgesloten wordt, ruimt de detector ze op voor hij beslist of ze meetelt.
 
-**In pilotentaal:** hoe lang je blijft zoeken nadat het stijgen wegvalt, voor je doorvliegt.
+**Bijsnijden.** De toestandsmachine opent een thermiek een paar seconden nadat je begint te draaien en sluit ze een paar seconden nadat je vertrekt. Die randen zijn meestal zoekglijvlucht, dus de thermiek wordt bijgesneden zodat ze loopt van het begin van je eerste volledige cirkel van 360° tot het einde van je laatste. Een volledige cirkel heeft minstens acht GPS-punten nodig, dus een rommelige kronkel telt niet.
 
-- **Lager (1-2s):** „Nee, ik ben weg.“ Verlaat snel. Goed voor schone, regelmatige thermiek.
-- **Standaard (3s):** „Wacht even, misschien is het hier gewoon zwak...“ Nog één bocht om te checken.
-- **Hoger (5-8s):** „Ik werk hier nog wat aan...“ Meerdere bochten voor je opgeeft. Goed voor complexe thermiek met meerdere kernen.
+**Behouden of weggooien.** Na het bijsnijden blijft een thermiek alleen behouden als ze:
 
-**Pro-tip:** in sterke, pittige zomerthermiek kun je dit verlagen. In lente- of herfstomstandigheden met zwak, rafelig stijgen zet je het hoger.
+- in totaal **hoogte gewonnen** heeft,
+- minstens **15 seconden** geduurd heeft, en
+- minstens **twee volledige cirkels** bevat.
 
----
+Al het andere wordt gezien als een doortocht door stijgende lucht of een zoekcirkel, niet als een thermiek. Je ziet die tijd wel terug in het tabblad **Fases**: gedraai dat de lat niet haalde, verschijnt als **Zoeken**, en de rest als **Glijvlucht** of **Zweven**.
 
-### Min. thermiekduur (standaard: 15 seconden)
+### Gesleepte en gemotoriseerde starts
 
-**Wat het doet:** cirkel je korter dan dit, dan telt het niet als „thermiek“ in de statistieken.
+Een klim aan de lier, achter een sleep of met een paramotor is sterk en regelmatig, precies wat goed scoort, maar het is geen thermiek. Is het starttype van een vlucht **Gesleept** of **Gemotoriseerd**, dan begint de detectie pas bij je eerste aanhoudende gedraai (een afgevlakte draaisnelheid van minstens 8°/s, volgehouden over acht opeenvolgende punten). Alles daarvoor wordt als de startklim behandeld.
 
-**In pilotentaal:** „Was dat een thermiek of gewoon een hobbel?“
-
-- **Lager (8-10s):** telt korte belletjes mee. Goed als je bewust van belletje naar belletje springt.
-- **Standaard (15s):** minimaal ongeveer 4 cirkels. Filtert de momenten „ik draaide twee keer en vertrok“ eruit.
-- **Hoger (20-30s):** logt alleen thermiek waarin je echt bleef en hem uitwerkte. Zuiverdere statistieken, maar mist misschien echte korte stijgingen.
-
-**Wanneer gebruiken:** vlieg je wedstrijden en draai je elk klein restje, zet het dan lager. Vlieg je ontspannen XC en wil je alleen „echte“ thermiek in je statistieken, zet het dan hoger.
+Klopt het starttype van een vlucht niet, verbeter het dan met **Starttype wijzigen** in het actiemenu van de vlucht. De vlucht wordt opnieuw geanalyseerd met de nieuwe instelling.
 
 ---
 
-## Cirkeldetectie
+## Stap 4: wat er van elke thermiek gemeten wordt
 
-*„Hoe je het verschil ziet tussen thermieken en gewoon draaien“*
+Zodra een thermiek behouden is, meet de analyse ze. Dit zijn de getallen die je in het detailpaneel van de thermiek ziet:
 
-### Min. cirkelvenster (standaard: 10 seconden)
+- **Stijging.** Winst, gemiddelde, maximale en minimale stijging. Maximum en minimum worden afgevlakt over 5 seconden, zodat één rommelig GPS-punt geen record kan zetten; de ruwe pieken van één punt staan ernaast als „piek“.
+- **Kern.** Voor elke volledige cirkel zoekt de analyse het centrum van de stijging, met meer gewicht voor de punten waar je het best steeg. Die centra per cirkel worden samengevoegd tot de positie, de sterkte en de grootte van de kern van de thermiek.
+- **Centreertijd.** De tijd vanaf het begin van de thermiek tot je voor het eerst binnen 50 m van de kern zat, terwijl je steeg met meer dan 70% van de sterkte van de kern.
+- **Centrering.** Hoe dicht je rond de kern draaide. Draaien op de straal van de kern zelf (of krapper) scoort 100%; elke extra kernstraal afstand kost 50%, dus draaien op drie keer de kernstraal scoort nul. Winddrift wordt eruit gehaald door elke cirkel met zijn eigen lokale centrum te vergelijken.
+- **Efficiëntie.** Gewonnen hoogte gedeeld door de horizontale afstand tussen waar de thermiek begon en waar ze eindigde, met een maximum van 100%.
+- **Draaigedrag.** Richting, aantal volledige cirkels, gemiddelde draaisnelheid, tijd per cirkel, cirkelstraal, en een geschatte hellingshoek en luchtsnelheid op basis van de straal en de duur van de cirkel.
+- **Drift en wind.** Driftafstand en een schatting van windsnelheid en windrichting, afgeleid uit hoe je cirkels over de grond verschoven.
 
-**Wat het doet:** het algoritme bekijkt telkens zoveel seconden vlucht om te berekenen of je aan het cirkelen bent.
-
-**In pilotentaal:** hoeveel vluchtgeschiedenis er geanalyseerd wordt om de regelmaat van je bochten te beoordelen.
-
-- **Lager (5-8s):** snelle reactie. Herkent thermiek snel, maar is gevoeliger voor ruis.
-- **Standaard (10s):** gegevens van ongeveer 2,5 cirkel. Goede balans tussen snelheid en nauwkeurigheid.
-- **Hoger (15-20s):** tragere reactie, maar heel nauwkeurig. Het kan langer duren voor het binnenvliegen van een thermiek herkend wordt.
-
-**Eerlijk gezegd:** de meeste piloten hoeven hier niet aan te komen. Het is een technische parameter die bepaalt hoe vloeiend het algoritme werkt, niet echt je gedrag als piloot.
+Deze getallen voeden de **kwaliteitsscore** van de thermiek en haar **Tips**. De scoreformule heeft een eigen pagina: [De algemene thermiekscore uitgelegd](/doc/overall-thermal-score).
 
 ---
 
-### Min. aantal cirkels (standaard: 1.0)
+## Veelgestelde vragen
 
-**Wat het doet:** je moet minstens zoveel volledige cirkels van 360° maken voor het als „cirkelen in een thermiek“ telt.
-
-**In pilotentaal:** hoeveel bochten voor het officieel een thermiek is?
-
-- **Lager (0.5-0.8):** een halve cirkel is genoeg. Vangt heel korte contacten met thermiek.
-- **Standaard (1.0):** minstens één volledige 360°. Filtert „ik draaide twee keer en vertrok“ eruit.
-- **Hoger (2-3):** meerdere volledige cirkels nodig. Heel voorzichtig, mist snelle stijgingen.
-
-**Wanneer bijstellen:** combineer met Min. thermiekduur. Wil je alles loggen, zet ze dan allebei laag. Wil je zuivere statistieken, zet ze dan allebei hoog.
-
----
-
-### Max. kernstraal (standaard: 80 meter)
-
-**Wat het doet:** bij het berekenen van de „centreerkwaliteit“ meet het algoritme hoe ver je wegdrijft van de kern van de thermiek. Dit bepaalt de maximale straal die het nog redelijk vindt.
-
-**In pilotentaal:** hoe groot verwachten we de cirkel?
-
-- **Lager (50-60m):** krappe kernen. Goed voor zomerse knallers. Bestraft wijd cirkelen.
-- **Standaard (80m):** standaard voor paragliding. Een straal van ~50-80m is gebruikelijk.
-- **Hoger (100-120m):** grote, uitgespreide thermiek. Vlak land, zwakke omstandigheden, of als je wijde cirkels draait.
-
-**Leuk weetje:** dit verandert niet *wat* als thermiek gelogd wordt, alleen de kwaliteitsscore. Een thermiek is een thermiek. Dit verandert alleen hoe „goed“ het algoritme je centreren vindt.
-
----
-
-## Kwaliteitswaarden
-
-*„Hoe goed was die thermiek nu echt?“*
-
-### Ideale driftverhouding (standaard: 0.3)
-
-**Wat het doet:** de verhouding tussen driftafstand en hoogtewinst. Standaard 0.3 betekent dat je idealiter 30m opzij drijft per 100m die je stijgt.
-
-**In pilotentaal:** wat telt als „goed gecentreerd“ en wat als „uit de kern gedreven“?
-
-- **Lager (0.1-0.2):** heel streng. „Je hoort amper te drijven.“ Goed voor rustige omstandigheden en sterke thermiek.
-- **Standaard (0.3):** realistisch voor gemiddelde omstandigheden. Wat drift is normaal.
-- **Hoger (0.4-0.6):** soepel. „Drijven mag, ik stijg nog altijd.“ Goed voor winderige dagen of zwakke, drijvende thermiek.
-
-**Waarom dit telt:** het beïnvloedt je kwaliteitsscores en tips. Vlieg je in sterke wind en drijf je constant 50m weg terwijl je stijgt, zet dit dan hoger zodat je er niet voor gestraft wordt.
-
----
-
-### Centreervenster (standaard: 20 seconden)
-
-**Wat het doet:** het algoritme bekijkt je eerste X seconden in de thermiek om te zien hoe snel je de kern vond.
-
-**In pilotentaal:** „Hoe snel vond je het beste stijgen?“
-
-- **Lager (10-15s):** „Zat je meteen goed?“ Heel streng voor het eerste centreren.
-- **Standaard (20s):** ongeveer 5-6 cirkels om de kern te vinden. Realistisch voor de meeste piloten.
-- **Hoger (30-40s):** „Neem je tijd, we sukkelen allemaal wel eens.“ Vergevingsgezinder als je eerst wat rondzwerft.
-
-**Eerlijk gezegd:** dit beïnvloedt de feedback „Mooie instap in de kern“ / „Werk aan je centreren“. Krijg je vaak „werk aan je centreren“ terwijl je het gevoel hebt dat je *wel* goed centreert, dan is je vliegstijl in de eerste bochten misschien gewoon wat meer verkennend. Zet dit hoger.
-
----
-
-## Praktijkvoorbeelden: wanneer bijstellen?
-
-### „Het algoritme logt mijn zwakke thermiek niet“
-
-Je vliegt in marginale omstandigheden en draait stijgen van 0,3-0,8 m/s, maar de analyse toont geen thermiek.
-
-**Oplossing:**
-- Verlaag **Min. vario** naar 0.2
-- Verlaag **Min. thermiekscore** naar 0.25
-- Verlaag **Min. thermiekduur** naar 10s
-
----
-
-### „Het logt willekeurige ‚thermieken‘ die geen thermieken waren“
-
-Je ziet thermieken gelogd tijdens je glijvlucht, of terwijl je gewoon vlak bij het terrein aan het draaien was.
-
-**Oplossing:**
-- Verhoog **Min. thermiekscore** naar 0.4
-- Verhoog **Min. draaisnelheid** naar 12-15 deg/s
-- Verhoog **Min. thermiekduur** naar 20s
-
----
-
-### „Ik krijg ‚werk aan je centreren‘ maar ik centreer prima!“
-
-Het algoritme denkt dat je te veel drijft of te lang zoekt naar de kern.
-
-**Oplossing:**
-- Verhoog **Ideale driftverhouding** naar 0.4-0.5 (zeker op winderige dagen)
-- Verhoog **Centreervenster** naar 30s (geeft je meer tijd om te verkennen)
-
----
-
-### „Thermieken blijven starten en stoppen in de analyse“
-
-Je draait één thermiek, maar die wordt als 3 aparte thermieken gelogd.
-
-**Oplossing:**
-- Verhoog **Uitstapduur** naar 5-8s (duurt langer voor je eruit bent)
-- Verlaag **Uitstapscore** naar 0.15 (makkelijker om „erin“ te blijven)
-
----
-
-### „Ik vlieg tandem en mijn thermieken worden niet herkend“
-
-Tandem = wijdere cirkels, tragere bochten, voorzichtiger vliegen.
-
-**Oplossing:**
-- Verlaag **Min. draaisnelheid** naar 6-8 deg/s
-- Verhoog **Max. kernstraal** naar 100m
-- Verhoog **Centreervenster** naar 30s
-
----
-
-## De gids „Zeg me gewoon wat ik moet doen“
-
-### De meeste piloten (XC, recreatief)
-**Gebruik de standaardwaarden.** Ze zijn op jou afgesteld. Echt.
-
-### Wedstrijdpiloten
-- Verlaag **Min. thermiekduur** naar 10s (elke stijging telt)
-- Verlaag **Instapduur** naar 3s (snelle detectie)
-- Verhoog **Min. vario** naar 0.5 (log alleen goede thermiek)
-
-### Vliegen aan de kust of langs het terrein
-- Verlaag **Min. thermiekscore** naar 0.25 (vang zwak stijgen)
-- Verhoog **Uitstapduur** naar 5s (rafelige thermiek)
-- Verhoog **Ideale driftverhouding** naar 0.5 (drift door de wind)
-
-### Vliegen boven vlak land (sterke zomerthermiek)
-- Verhoog **Min. vario** naar 0.5 m/s (negeer zwak stijgen)
-- Verlaag **Max. kernstraal** naar 60m (krappe kernen)
-- Verhoog **Min. draaisnelheid** naar 12 deg/s (krappere cirkels)
-
-### Vliegen in de Alpen (zwakke, rafelige thermiek)
-- Verlaag **Min. vario** naar 0.2 m/s
-- Verlaag **Min. thermiekscore** naar 0.25
-- Verhoog **Uitstapduur** naar 8s (niet te snel eruit)
-
----
-
-## FAQ: vragen die we op de landingsplaats hoorden
-
-### „Waarom verschijnt mijn favoriete thermiek niet?“
+### Waarom staat mijn favoriete stijging niet in de lijst?
 
 Controleer deze punten in volgorde:
-1. Duurde hij minstens 15s? (Min. thermiekduur)
-2. Was het stijgen minstens 0,3 m/s? (Min. vario)
-3. Was je echt aan het cirkelen? (Min. draaisnelheid)
-4. Heb je minstens één volledige 360° gemaakt? (Min. aantal cirkels)
 
-### „Kan ik iets kapotmaken door hieraan te prutsen?“
+1. Heb je minstens **twee volledige cirkels** gedraaid? Een stijging waar je rechtdoor doorheen vloog, of met maar één cirkel, telt niet.
+2. Duurde ze minstens **15 seconden** nadat ze bijgesneden was tot je cirkels?
+3. Heb je tussen je eerste en je laatste volledige cirkel echt **hoogte gewonnen**?
+4. Was het vlak na een sleep- of motorklim? Bij een vlucht met **Gesleept** of **Gemotoriseerd** telt niets vóór je eerste aanhoudende gedraai.
 
-Nee hoor! In het slechtste geval krijg je rare resultaten. Klik gewoon op „Standaardwaarden herstellen“ en alles is weer normaal.
+### Waarom werd één thermiek in twee gesplitst?
 
-### „Wat gebeurt er als ik alles op het maximum zet?“
+Meestal sloeg de controle van de recente trend of de harde onderbreking bij dalen aan: ergens in het midden verloor je een minuut lang hoogte, of verloor je 30 m terwijl de score laag was. Vanuit het standpunt van de track verliet je de ene thermiek en vond je een andere.
 
-Dan wordt er waarschijnlijk geen enkele thermiek herkend. Het algoritme roept „NIETS IS GOED GENOEG“ en verwerpt alles. Een beetje zoals je eisen bij het daten zo hoog leggen dat je alleen eindigt. (We hebben het getest. Voor de wetenschap.)
+### Kan ik de drempels aanpassen?
 
-### „Wat gebeurt er als ik alles op het minimum zet?“
+Nee. Vroegere versies van We-Fly hadden daar een instellingenpaneel voor; dat is verdwenen. Vaste regels betekenen dat het aantal thermieken, de stijgsnelheden en de kwaliteitsscores eerlijk vergeleken kunnen worden, tussen je eigen vluchten en met andere piloten.
 
-Dan wordt alles een thermiek. Je groundhandling? Thermiek. Je run langs de helling? 47 thermieken. Die keer dat je een vleugeltip over de grond sleepte? Verrassend goede thermiek. Ook dit hebben we getest. Het was chaos.
+### Veranderen deze regels mijn vluchtstatistieken?
 
-### „Beïnvloeden deze instellingen mijn vluchtstatistieken?“
+Ze bepalen ze. Je aantal thermieken, de hoogte die je in thermiek won, je gemiddelde stijging en de thermiekcijfers in de Cockpit komen allemaal van deze detector. Omdat iedereen dezelfde regels krijgt, vergelijk je appels met appels.
 
-Ja! Als je verandert wat als „thermiek“ telt, verandert ook je aantal thermieken, de totale hoogte gewonnen in thermiek, je gemiddelde stijgsnelheid enzovoort. Vergelijk je statistieken met een vriend, zorg dan dat jullie dezelfde instellingen gebruiken.
+### Maakt het opname-interval van mijn logger uit?
+
+Een beetje. Het schuivende venster en de test voor een „volledige cirkel“ tellen GPS-punten. Loggers die elke seconde opnemen, geven het zuiverste resultaat. Een logger die om de paar seconden opneemt, ziet minder punten per cirkel, waardoor korte of krappe thermieken makkelijker gemist worden.
 
 ---
 
-## Geavanceerde nerdnotities
+## Verder lezen
 
-(Sla dit gerust over als je gewoon wilt vliegen)
-
-De thermiekdetectie gebruikt een **samengestelde score uit meerdere signalen** die combineert:
-- Variowaarden (ga je omhoog?)
-- Draaisnelheid (ben je aan het cirkelen?)
-- Geometrie van de GPS-track (past je vliegpad bij thermieken?)
-- Koersveranderingen (maak je volledige bochten?)
-
-Elk signaal wordt genormaliseerd tussen 0 en 1, daarna gewogen en gecombineerd. De **Min. thermiekscore** is de drempel voor die gecombineerde score.
-
-De **hysteresisparameters** (Instapduur/Uitstapduur) vormen een toestandsmachine met bevestigingsvertragingen om schommelen te voorkomen. Hetzelfde principe zit in thermostaten, remlichten en eigenlijk elk systeem dat snel aan- en uitschakelen moet vermijden.
-
-De **kwaliteitswaarden** gebruiken circulaire statistiek om de koers van de drift, de positie van de kern en de centreerefficiëntie te berekenen. Daar komen inproducten, koersverschillen en wat coördinatenmeetkunde bij kijken waar je wiskundeleraar van het middelbaar trots op zou zijn (of een trauma van zou krijgen).
-
-## Tot slot
-
-Kijk, uiteindelijk zijn deze instellingen gewoon knoppen die bijstellen wat het algoritme als een „thermiek“ beschouwt. Het *echte* leren gebeurt wanneer je:
-
-1. De vlucht vliegt
-2. De analyse bekijkt
-3. Ze vergelijkt met wat je in de lucht *voelde*
-4. De instellingen bijstelt als het nodig is
-5. Leert uit de patronen
-
-Het doel is niet om het systeem te bespelen voor perfecte statistieken. Het doel is je eigen vliegen beter te begrijpen. Centreerde je echt goed, of had je gewoon geluk met een sterke kern? Verliet je thermieken te vroeg, of stierven ze echt uit?
-
-Het algoritme is een hulpmiddel, geen jury. Gebruik het om beter te worden, niet om je druk te maken over cijfers.
-
-Ga nu naar buiten en zoek wat thermiek. De echte. In de lucht. Waar ze thuishoort.
-
-*Blauwe luchten en rustige lucht,*
+- [Geavanceerde thermiekanalyse](/doc/advanced-thermal-analysis): een rondleiding door het tabblad **Thermiek**
+- [De algemene thermiekscore uitgelegd](/doc/overall-thermal-score): hoe de score van elke thermiek opgebouwd wordt

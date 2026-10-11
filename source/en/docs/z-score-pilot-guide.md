@@ -59,7 +59,7 @@ Z-Score = 2.45
 
 **What does 2.45 mean?**
 - Bassano's average duration is 2.45 standard deviations **above** the mean
-- In the pilot cockpit, this shows up as your **Performance Score**
+- In your **Cockpit**, this shows up in the **Z-Score** column
 - This is statistically significant (|z| > 2 = outlier territory)
 - Translation: Bassano isn't just good, it's **legitimately exceptional**
 
@@ -121,7 +121,7 @@ You want to justify that 4-hour drive to your partner/boss/"I'm working from hom
 
 ### In the Cockpit Dashboard
 
-When you look at your **By Takeoff** stats, you'll see a **Performance Score** for each site. This is the z-score, and it's calculated from your **average flight duration per site** (the ratio of total hours to number of flights).
+When you open the **Takeoff** view of your **Cockpit**, you'll see a **Z-Score** for each takeoff location. This is the z-score, and it's calculated from your **average flight duration per site** (the ratio of total hours to number of flights).
 
 ```typescript
 // From src/lib/utils.ts
@@ -143,9 +143,10 @@ export function computeZScore(dataSerie: chartData[]) {
     let deviation = Math.sqrt(sum_deviations / dataSerie.length);
 
     // Calculate z-score: (this site's ratio - average) / std deviation
+    // (rounded to one decimal)
     dataSerie[indexx].z = deviation === 0
       ? 0
-      : (dataSerie[indexx].ratio - avg_ratio) / deviation;
+      : Number(((dataSerie[indexx].ratio - avg_ratio) / deviation).toFixed(1));
   }
 }
 ```
@@ -167,20 +168,22 @@ This means:
 
 ### Real Example from Your Cockpit
 
-Let's say you check "By Takeoff" and see:
+Let's say you open the **Takeoff** view and see:
 
-| Takeoff Site | Total Hours | Flights | Avg/Flight | **Performance Score** |
-|--------------|-------------|---------|------------|-----------------------|
-| Mont Blanc | 45.5h | 8 | 5.69h | **+2.84** 🌟 |
-| Local Hill | 67.2h | 42 | 1.60h | **-0.52** 😐 |
-| That One Time | 3.2h | 1 | 3.20h | **+0.41** 🤷 |
+| Takeoff Location | Flights | Total Hours | Avg/Flight | **Z-Score** |
+|------------------|---------|-------------|------------|-------------|
+| Mont Blanc | 8 | 45.5h | 5.69h | **2.80** 🌟 |
+| Local Hill | 42 | 67.2h | 1.60h | **-0.50** 😐 |
+| That One Time | 1 | 3.2h | 3.20h | **0.40** 🤷 |
+
+The cockpit rounds each z-score to one decimal, so a site at 2.84 shows as 2.80.
 
 **What this tells you:**
-1. **Mont Blanc (z = +2.84):** Holy crap, this site is a statistical unicorn. Every time you fly here, you're almost guaranteed a long flight. Book the Airbnb NOW.
+1. **Mont Blanc (z = +2.8):** Holy crap, this site is a statistical unicorn. Every time you fly here, you're almost guaranteed a long flight. Book the Airbnb NOW.
 
-2. **Local Hill (z = -0.52):** Slightly below average, but not terrible. It's convenient, and you're building hours. Keep using it for practice, but don't expect epics.
+2. **Local Hill (z = -0.5):** Slightly below average, but not terrible. It's convenient, and you're building hours. Keep using it for practice, but don't expect epics.
 
-3. **That One Time (z = +0.41):** Mildly above average, but you've only flown it once. Could be luck. Need more data before you know if it's actually good.
+3. **That One Time (z = +0.4):** Mildly above average, but you've only flown it once. Could be luck. Need more data before you know if it's actually good.
 
 ---
 
@@ -280,7 +283,7 @@ To identify which takeoff sites (or gliders, or months, or countries) are **actu
 - **|z| < 1:** Pretty normal (average)
 
 **Where do I see it?**
-In your **Cockpit Dashboard**, under "Performance Score" for takeoffs, gliders, months, etc.
+In your **Cockpit**, in the **Z-score** column of the **Takeoff**, **Glider**, **Country** and **Season** views, and as the **Z-Score** metric in the **Month** view.
 
 **What should I do with it?**
 Use it to make smarter decisions about where to fly, what gear to use, and when to plan trips. The z-score is your data-driven wingman.

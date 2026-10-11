@@ -20,10 +20,10 @@ En haut de l’onglet, six cartes de synthèse te donnent les grandes lignes de 
 | Carte | Ce qu’elle t’apprend |
 |---|---|
 | **Température** | Max et min de la journée, plus les valeurs ressenties |
-| **Précipitations** | Cumul de pluie de la journée, en mm |
-| **Vent max** | Vent moyen le plus fort, rafale max et direction dominante |
+| **Précipitations** | Cumul de pluie de la journée |
+| **Vent max** | Vent moyen le plus fort, rafale max et sa direction |
 | **Ensoleillement** | Nombre d’heures de soleil direct au sol |
-| **Lever / coucher du soleil** | Heures locales qui bornent ta fenêtre de vol utile |
+| **Lever du soleil** et **Coucher du soleil** | Heures locales qui bornent ta fenêtre de vol utile |
 
 Ce sont tes vérifications rapides : grand soleil toute la journée, ou tu as bataillé sous des passages nuageux tout l’après-midi ?
 
@@ -36,13 +36,13 @@ C’est là que ça devient intéressant. Le tableau détaille les conditions he
 Voici ce que veut dire chaque colonne :
 
 ### Heure
-Heure locale de la mesure (format HH:MM). Le point bleu à côté de l’heure signale les heures qui chevauchent ton vol.
+Heure locale de la mesure (format HH:MM). Le petit point à côté de l’heure signale les heures qui chevauchent ton vol.
 
 ### Cond. : conditions météo
 Une icône et un libellé météo selon le code WMO. Ça couvre tout, de « Ciel dégagé » à « Orage + grêle ». Si tu grattais sous un ciel gris, ça te confirme si c’était couvert, partiellement nuageux ou carrément du brouillard.
 
 ### Temp. : température à 2 m
-Température de l’air au niveau du sol (2 mètres), en **°C**. Code couleur du bleu (gel) au rouge (chaud), en passant par le cyan, le vert, le jaune et l’orange. Raccourci visuel : le vert, c’est ta zone de confort ; l’orange, c’est qu’il faisait chaud.
+Température de l’air au niveau du sol (2 mètres), dans l’unité de température choisie dans ton profil. Code couleur du bleu (gel) au rouge (chaud), en passant par le cyan, le vert, le jaune et l’orange. Raccourci visuel : le vert, c’est ta zone de confort ; l’orange, c’est qu’il faisait chaud.
 
 ### Ressenti : température apparente
 La température telle que tu l’as vraiment sentie, en tenant compte de l’humidité et du refroidissement dû au vent. Pratique pour comprendre pourquoi il faisait froid au déco alors que le thermomètre affichait 18 °C.
@@ -51,25 +51,25 @@ La température telle que tu l’as vraiment sentie, en tenant compte de l’hum
 Le pourcentage d’humidité dans l’air. Une humidité élevée (au-dessus de ~80 %) a tendance à freiner le développement des thermiques et peut annoncer une dégradation instable. Une humidité basse avec un soleil franc, c’est souvent le signe d’une journée qui a vraiment envoyé.
 
 ### Vent : vitesse du vent à 10 m
-Vent moyen à 10 mètres au-dessus du sol, en **km/h**. C’est la référence officielle du vent de surface, mesurée à la hauteur météorologique standard.
+Vent moyen à 10 mètres au-dessus du sol, dans ton unité de vent (indiquée dans l’en-tête de la colonne). C’est la référence officielle du vent de surface, mesurée à la hauteur météorologique standard.
 
 ### Dir. : direction du vent
 Le point cardinal **d’où** vient le vent (N, NE, E, etc.), avec une flèche orientée en conséquence. Résolution sur seize secteurs, pour voir si la brise de vallée tenait ou si le vent météo commençait à s’infiltrer.
 
 ### Rafales : vitesse des rafales
-Rafale maximale enregistrée pendant l’heure, en **km/h**. Si ce chiffre est nettement plus élevé que le vent moyen, l’air était turbulent. Un facteur de rafale (rafales ÷ vent) au-dessus de 1,5 mérite d’être noté.
+Rafale maximale enregistrée pendant l’heure, dans la même unité que le vent. Si ce chiffre est nettement plus élevé que le vent moyen, l’air était turbulent. Un facteur de rafale (rafales ÷ vent) au-dessus de 1,5 mérite d’être noté.
 
 ### Nuages : couverture nuageuse totale
 Pourcentage du ciel couvert par des nuages, tous étages confondus, affiché avec une barre. C’est le total combiné. Regarde la section sur les étages nuageux plus bas pour une vue plus fine.
 
 ### Pluie : précipitations
-Pluie accumulée pendant l’heure, en **mm**. Affichée en bleu quand elle n’est pas nulle. Même 0,1 mm peut signaler une averse passagère ; au-delà de 1 mm en une heure, il pleuvait franchement quelque part près de ton site.
+Pluie accumulée pendant l’heure (unité dans l’en-tête de la colonne). Affichée en bleu quand elle n’est pas nulle. Même une trace peut signaler une averse passagère ; un cumul horaire soutenu, et il pleuvait franchement quelque part près de ton site.
 
 ### Pression : pression au niveau de la mer
 Pression atmosphérique ramenée au niveau de la mer, en **hPa**. Une pression qui baisse au fil de la journée annonce une dégradation ; une pression qui monte signifie en général une amélioration. La plupart des pilotes regardent la tendance plutôt que la valeur absolue.
 
 ### CLP AGL : hauteur de la couche limite planétaire
-Le plafond de la couche de mélange convective : en gros, l’altitude maximale théorique que les thermiques peuvent atteindre dans les conditions atmosphériques du moment, en **mètres au-dessus du sol (AGL)**. Cette valeur est mesurée depuis le relief de ton décollage, pas depuis le niveau de la mer. Si tu crevais le plafond en te demandant jusqu’où tu pouvais monter, c’est ton chiffre. Une CLP haute (2000 m+ AGL) par journée ensoleillée, c’est généralement le ciel pour limite ; une CLP basse (sous 1000 m AGL), et tu grattais.
+Le plafond de la couche de mélange convective : en gros, l’altitude maximale théorique que les thermiques peuvent atteindre dans les conditions atmosphériques du moment, dans ton unité d’altitude, **au-dessus du sol (AGL)**. Cette valeur est mesurée depuis le relief de ton décollage, pas depuis le niveau de la mer. Si tu crevais le plafond en te demandant jusqu’où tu pouvais monter, c’est ton chiffre. Une CLP haute (2000 m+ AGL) par journée ensoleillée, c’est généralement le ciel pour limite ; une CLP basse (sous 1000 m AGL), et tu grattais.
 
 > Les données de CLP ne sont pas disponibles pour toutes les dates passées. Quand elles le sont, elles apparaissent aussi sous forme de graphique en barres interactif sous le tableau.
 

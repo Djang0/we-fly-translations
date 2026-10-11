@@ -158,10 +158,10 @@ Dit beleid geldt voor alle persoonsgegevens die We-Fly verzamelt, verwerkt en op
 
 Gebruikers kunnen hun account op elk moment verwijderen via de pagina met profielinstellingen:
 
-1. Ga naar Profiel → Instellingen
-2. Klik op de knop „Account verwijderen“
-3. Lees en bevestig de waarschuwingen over de verwijdering
-4. Voer je wachtwoord in om te bevestigen
+1. Ga naar Profiel en open **Account verwijderen** in de sectie Account
+2. Lees de waarschuwingen over de verwijdering
+3. Typ je e-mailadres om te bevestigen
+4. Klik op **Mijn account definitief verwijderen**
 5. Het account en alle bijbehorende gegevens worden definitief verwijderd
 
 **Wat wordt verwijderd:**
@@ -257,7 +257,7 @@ Gebruikers kunnen op elk moment via de profielinstellingen vragen om onmiddellij
 
 ### 6.2 Recht op overdraagbaarheid van gegevens (artikel 20 AVG)
 
-Gebruikers kunnen hun vluchtgegevens op elk moment in standaardformaten (IGC, GPX, KML) exporteren via de vluchtenpagina.
+Gebruikers kunnen hun gegevens op elk moment exporteren: **Gegevens exporteren** in de sectie Account van hun profiel downloadt hun originele IGC-bestanden samen met hun vluchtgegevens, en afzonderlijke IGC-bestanden kunnen worden gedownload via de vluchtenpagina's.
 
 ### 6.3 Recht van inzage (artikel 15 AVG)
 
@@ -295,7 +295,7 @@ Wanneer dit beleid wordt bijgewerkt:
 ### 8.1 Monitoring van cronjobs
 
 De cronjobs voor de handhaving van de bewaartermijnen worden gemonitord via:
-- De logboeken van cronjobs in het Vercel-dashboard
+- De logboeken van cronjobs op de server
 - Applicatielogboeken voor geslaagde uitvoeringen
 - Foutregistratie voor mislukte uitvoeringen
 

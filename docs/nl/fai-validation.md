@@ -16,52 +16,50 @@ De FAI (Fédération Aéronautique Internationale) is de wereldwijde federatie v
 Gebruik FAI-validatie voor:
 - **Competitievluchten**: officiële controle voor wedstrijden
 - **Recordaanvragen**: pogingen voor een wereld- of nationaal record
-- **Officiële verificatie**: bewijs dat je vlucht echt is
-- **Certificering**: vereisten voor badges en brevetten
+- **Officiële verificatie**: bewijs dat het bestand niet gewijzigd is
+- **Badgeaanvragen**: als een wedstrijd of federatie een ondertekende track vraagt
 
 ### Hoe werkt het?
 
-1. **Open je vlucht**: ga naar de detailpagina van de vlucht
-2. **Klik op „Vlucht valideren (FAI)“**: dien hem in bij de dienst van de FAI CIVL
-3. **Verwerking**: het IGC-bestand wordt naar http://vali.fai-civl.org gestuurd
-4. **Resultaat**: het validatieresultaat komt terug
-5. **Opslag**: het resultaat wordt bij de vlucht bewaard
+1. **Open je vlucht**: validatie is beschikbaar voor je eigen vluchten
+2. **Klik op „Vlucht valideren (FAI)“**: het vinkicoon in de werkbalk van de vlucht (op een telefoon staat het in het menu **⋯**)
+3. **Bevestig**: het venster **FAI-vluchtvalidatie** legt uit wat er gebeurt; klik op **Doorgaan**
+4. **Verwerking**: We-Fly stuurt het originele IGC-bestand, ongewijzigd, naar de validatiedienst van de FAI CIVL (vali.fai-civl.org)
+5. **Resultaat**: de knop verandert in **FAI-validatie geslaagd** of **FAI-validatie mislukt**, en het resultaat wordt bij de vlucht bewaard
+
+Klik opnieuw op de knop om het venster **Resultaat FAI-validatie** te openen (status, bericht en de volledige validatiegegevens). Wil je de controle opnieuw uitvoeren, gebruik dan **Opnieuw valideren (FAI)** in het menu **⋯** van de vlucht.
 
 ### Validatieresultaten
 
 Er zijn twee mogelijke uitkomsten:
 
 #### PASSED
-- De vlucht is geldig volgens de FAI-regels
-- De integriteit van het IGC-bestand is bevestigd
-- De GPS-track is echt
-- Geen manipulatie vastgesteld
-- Validatiecertificaat beschikbaar
+- De dienst van de FAI heeft het bestand aanvaard
+- Het beveiligingsrecord van het IGC-bestand (G-record) klopt met de inhoud van het bestand
+- Het bestand is niet gewijzigd sinds het instrument het ondertekende
 
 #### FAILED
-- De vlucht is niet door de validatie gekomen
+- De dienst van de FAI heeft het bestand geweigerd
 - Mogelijke oorzaken:
-  - problemen met de integriteit van het IGC-bestand
-  - afwijkingen in de GPS-track
+  - ontbrekend of beschadigd G-record (sommige apps en instrumenten ondertekenen hun bestanden niet)
+  - het bestand is na de opname bewerkt
+  - het instrument is niet bekend bij de dienst van de FAI
   - ongeldig gegevensformaat
-  - vermoedelijke manipulatie
+
+Het **Bericht** in het resultaatvenster vertelt je wat de dienst gemeld heeft.
 
 ### Wat controleert de FAI?
 
-De validatiedienst van de FAI controleert:
-- **Integriteit van het G-record**: validatie van de beveiligingshandtekening
+De validatiedienst van de FAI controleert het bestand zelf, niet hoe je gevlogen hebt:
+- **Integriteit van het G-record**: de beveiligingshandtekening die het instrument heeft geschreven
 - **Bestandsformaat**: geldige IGC-structuur
-- **Continuïteit van de GPS-track**: geen gaten of sprongen
-- **Consistentie van de gegevens**: hoogte, positie en tijd kloppen met elkaar
-- **Validatie van het instrument**: bekende of goedgekeurde GPS-toestellen
+- **Validatie van het instrument**: de handtekening wordt gecontroleerd met het validatieprogramma van de fabrikant van het instrument
 
-### Validatiecertificaat
+Ze oordeelt niet of de vlucht reglementair was, correct gescoord werd of veilig was.
 
-Als je vlucht slaagt:
-- Krijg je een link naar het validatiecertificaat
-- Kun je het gebruiken voor officiële inzendingen
-- Blijft het permanent bewaard op de servers van de FAI
-- Heb je een bewijs dat je vlucht echt is
+### Waar het resultaat staat
+
+Het validatieresultaat wordt in We-Fly bij de vlucht bewaard, zodat je het op elk moment opnieuw kunt openen. De dienst van de FAI geeft zelf een oordeel terug, geen certificaat: vraagt een wedstrijd of een recordaanvraag om bewijs, dan willen ze meestal het originele IGC-bestand, en dat bewaart We-Fly byte voor byte zoals je het geüpload hebt.
 
 ### Belangrijk om te weten
 
@@ -71,8 +69,9 @@ Als je vlucht slaagt:
 - Vluchten delen met vrienden
 - Communityfuncties
 
-**FAI-validatie IS nodig voor:**
+**Een ondertekend, geldig IGC-bestand is vaak nodig voor:**
 - Officiële competities
 - Recordaanvragen
-- Brevetten en badges voor piloten
-- Prijzen in wedstrijden opeisen
+- Sommige aanvragen voor wedstrijden en badges
+
+Kijk de regels na van de wedstrijd of federatie waar je indient.

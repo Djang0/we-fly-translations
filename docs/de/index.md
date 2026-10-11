@@ -23,8 +23,8 @@ Dein Dashboard für Flugstatistiken: Trends, Leistung und die Zahlen, auf die es
 **[Erweiterte Thermikanalyse](/doc/advanced-thermal-analysis)**
 Tauch tief in deine Thermikleistung ein: Finde heraus, welche Bärte Gold wert waren und welche Murks. Jeder Kreis analysiert, jeder Vario-Piepser entschlüsselt.
 
-**[Einstellungen der Thermikanalyse](/doc/advanced-thermal-analysis-settings)**
-Die Feinjustierung der Thermikerkennung: Empfindlichkeit anpassen, Filter einstellen und genau die Werte finden, die zu deinem Flugstil passen.
+**[So funktioniert die Thermikerkennung](/doc/advanced-thermal-analysis-settings)**
+Die Details der Thermikerkennung: welche Signale die Analyse auswertet, welche Schwellenwerte sie nutzt und warum ein Steigen als Bart zählt oder nicht.
 
 ### Daten und Validierung
 

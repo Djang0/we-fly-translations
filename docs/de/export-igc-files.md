@@ -176,6 +176,6 @@ Das SkyDrop ist ein winziger, leichter Logger, der IGC-Dateien aufzeichnet.
 
 ## Sobald du deine IGC-Dateien hast
 
-Geh zu [/upload](/upload), zieh deine Dateien hinein, und We-Fly erledigt den Rest: Statistiken, Thermik, das volle Programm. Du kannst bis zu 50 Dateien auf einmal hochladen, falls du einen Rückstau abarbeiten musst.
+Geh zu [/upload](/upload), zieh deine Dateien hinein, und We-Fly erledigt den Rest: Statistiken, Thermik, das volle Programm. Musst du einen Rückstau abarbeiten? Zieh einen ganzen Ordner hinein: Er wird nach `.igc`-Dateien durchsucht, und stößt du an das Upload-Limit, warten die restlichen in einer Warteschlange und werden automatisch hochgeladen.
 
 Allzeit gute Thermik und volle Flugbücher.

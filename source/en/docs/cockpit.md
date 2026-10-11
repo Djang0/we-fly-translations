@@ -12,25 +12,32 @@ Access the [Cockpit](/cockpit) to see your complete flying statistics.
 
 ## Cockpit Views
 
-The Cockpit has six different views, each providing unique insights:
+The Cockpit has eleven views, each providing unique insights:
 
 1. **Overview** - Statistics and totals about filtered data
-2. **Glider** - Performance breakdown by wing
-3. **Season** - Year-over-year comparison
-4. **Country** - International flying statistics
-5. **Takeoff** - Site-specific statistics with performance scores
-6. **Month** - Monthly breakdown and seasonal patterns
+2. **Trends** - Your flying over time, day by day up to year by year
+3. **Thermaling** - Climb rates, circling and thermal quality, season by season
+4. **Phases** - How your air time splits between thermal, search, glide and float
+5. **Glider** - Air time breakdown by wing
+6. **Takeoff** - Site-specific statistics with z-scores
+7. **Country** - International flying statistics
+8. **Season** - Year-over-year comparison
+9. **Month** - Monthly breakdown and seasonal patterns
+10. **CIVL** - Your CIVL world ranking
+11. **Map** - Your takeoffs on a map
 
 ### Navigation
 
-- Use the main tabs to switch between views
+- Pick a view from the Cockpit menu
 - Each view is scoped by [filtered data](./data-filters.md)
 
 ## Overview Statistics
 
-The Overview page [Cockpit](/cockpit) displays [filtered data](./data-filters.md) flying statistics.
+The Overview page [Cockpit](/cockpit) displays [filtered data](./data-filters.md) flying statistics. Every distance, altitude and speed is shown in the units you picked in your profile.
 
 ### Flight Totals
+
+The headline strip at the top gives you the big four:
 
 #### Total Flights
 - **Definition** - Count of all flights in your logbook
@@ -40,72 +47,88 @@ The Overview page [Cockpit](/cockpit) displays [filtered data](./data-filters.md
 - **Unit** - Hours and minutes
 - **Calculation** - Sum of all (Landing time to Takeoff time)
 
-#### Total Thermaling Time
-- **Definition** - Total time spent circling in thermals
-- **Unit** - Hours and minutes
-- **Breakdown** - Separated into left and right thermaling
+#### Distance
+- **Definition** - Total track length across all flights
 
-#### Total Gliding Time
-- **Definition** - Total time spent in straight flight
-- **Unit** - Hours and minutes
-- **Interpretation** - Higher gliding time = more efficient XC flying
+#### Longest Flight
+- **Definition** - Your longest flight time
+- **Display** - Duration; click it to open that flight
+
+#### Flight Efficiency
+- **Definition** - Time spent circling in thermals (**Thermaling**) versus time spent in straight flight (**Gliding**)
+- **Unit** - Hours and minutes, plus the split as a percentage
+
+#### Thermaling Balance
+- **Definition** - How your thermaling time splits between **Left turns** and **Right turns**
+
+#### Flight Mode Balance
+- **Definition** - How your air time splits between **Solo** and **Tandem** flights (only shown when you have tandem flights)
 
 ### Distance & Scoring
 
 All XC distances & scoring are computed by [igc-xc-score
 ](https://github.com/mmomtchev/igc-xc-score) open source library maintened and created by [Momtchil Momtchev](https://github.com/mmomtchev).
 
-#### Total XC Distance
+#### XC Distance
 - **Definition** - Sum of all scored cross-country distances
-- **Unit** - Kilometers
 - **Use** - Track your total XC achievement
 
-#### Total XC Points
+#### XC Points
 - **Definition** - Sum of all XContest scores
 - **Includes** - All multipliers (free flight, triangles)
 - **Use** - Compare your XC performance over time
 
-#### Total Track Length
+#### Track Length
 - **Definition** - Sum of all GPS track distances
-- **Unit** - Kilometers
-- **Always > Total XC Distance** - Includes all circling and deviations
+- **Always > XC distance** - Includes all circling and deviations
 
 ### Personal Bests
 
-#### Max XC Distance
-- **Definition** - Longest scored cross-country flight
-- **Display** - Distance and date
-- **Achievement** - Your personal best XC!
-
-#### Max XC Points
-- **Definition** - Highest XContest score for a single flight
-- **Display** - Points and date
-- **Note** - May differ from max distance (due to triangle multipliers)
+Each best links to the flight it came from: click the value to open it.
 
 #### Max Altitude
 - **Definition** - Highest altitude reached across all flights
-- **Unit** - Meters above sea level (ASL)
-- **Display** - Altitude
+- **Unit** - Above sea level (ASL)
 
 #### Max Height Gain
 - **Definition** - Largest altitude gain in a single flight
-- **Unit** - Meters
 - **Calculation** - Max altitude - Min altitude
 
-#### Strongest Thermal
-- **Definition** - Best climb rate ever encountered
-- **Unit** - Meters per second (m/s)
-- **Display** - Climb rate
-
 #### Max Speed
-- **Definition** - Fastest ground speed recorded
-- **Unit** - Kilometers per hour (km/h)
+- **Definition** - Fastest ground speed held for 5 seconds, with GPS spikes filtered out
 - **Note** - Includes wind effect
 
-#### Max Duration
-- **Definition** - Longest flight time
-- **Unit** - Hours and minutes
-- **Display** - Duration and date
+#### Best XC Distance
+- **Definition** - Longest scored cross-country flight
+- **Achievement** - Your personal best XC!
+
+#### Best XC Score
+- **Definition** - Highest XContest score for a single flight
+- **Note** - May differ from best distance (due to triangle multipliers)
+
+#### Lowest Low Save
+- **Definition** - The lowest point (above ground) from which you climbed back out, and how much height you regained
+
+### Performance Metrics
+
+- **Med. circle time** - Median time per 360° turn
+- **Med. circle radius** - Median turn radius while circling
+- **Median G-factor** - Load factor (see the [G-Factor Pilot Guide](/doc/g-factor-pilot-guide))
+- **Strongest thermal peak** - Best climb rate, sustained over 5 seconds; click it to jump straight to that thermal
+
+## Trends View
+
+Access at **/cockpit?view=trends** to see how your flying evolves over time.
+
+Choose a **Metric** (**Air time**, **Flights**, **Avg distance**, **Avg air time**, **Avg speed**), an **Interval** (**Day**, **Week**, **Month**, **Year**), a **Period** (**30 days**, **12 months**, **This year**, **All**) and a **Breakdown** (**Total** or **By glider**). Switch the **Display** between **Chart** and **Table**. Click a column to open its flights in the logbook.
+
+## Thermaling View
+
+Access at **/cockpit?view=thermaling** for your climbing statistics across every thermal in the filtered flights: **Median Climb**, **Best Climb**, **Median Height Gain**, **Thermals/hr**, **Thermaling Time**, circle time and radius, and **Low Saves**. The season-over-season charts are grouped under **Efficiency**, **Volume**, **Technique** and **Mastery**.
+
+## Phases View
+
+Access at **/cockpit?view=phases** to see how your air time splits between **Thermal**, **Search**, **Glide** and **Float**, with your **Median Glide Ratio**, **Median Glide Speed** and **Circles / min**, season by season.
 
 ## By Month View
 
@@ -113,11 +136,9 @@ Access at **/cockpit?view=month** to see monthly statistics.
 
 ### Monthly Breakdown
 
-For each month with flights:
-- Total flights that month
-- Total distance
-- Total points
-- Average flight metrics
+- **Most Active Months** - Your busiest months, with **Total Flights** across all years, your **Most Active Year** and **Activity by Year**
+- **Visual Analysis** - Monthly **Duration**, **Count** and **Z-Score**, per year, as **Grouped** or **Stacked** bars
+- **Monthly Breakdown by Year** - A month by year table of your flights
 
 ### Seasonal Patterns
 
@@ -130,7 +151,7 @@ Identify patterns:
 
 - **Plan your season** - See when you typically fly best
 - **Track consistency** - How many months per year are you active?
-- **Identify peak season** - When do you achieve the best XC distances?
+- **Identify peak season** - When do you rack up the most air time?
 
 ## By Season (Year) View
 
@@ -138,17 +159,19 @@ Access at **/cockpit?view=season** to see annual statistics.
 
 ### Year-over-Year Comparison
 
-For each season (year):
-- Total flights
-- Total XC distance and points
-- Average flight metrics
-- Personal bests that year
+For each season (year), the table shows:
+- **Flights**
+- **Total hours**
+- **Avg/flight** (hours per flight)
+- **Z-score** of the average flight time
+
+The chart above lets you compare seasons by **Duration**, **Count** or **Z-Score**.
 
 ### Progress Tracking
 
 Compare years to see:
 - Are you flying more?
-- Are your XC distances increasing?
+- Are your flights getting longer?
 - How do different years compare?
 
 ### Use Cases
@@ -159,22 +182,20 @@ Compare years to see:
 
 ## By Glider View
 
-Access at **/cockpit?view=glider** to compare wing performance.
+Access at **/cockpit?view=glider** to compare your wings.
 
 ### Per-Glider Statistics
 
 For each glider in your logbook:
-- Number of flights
-- Total distance and points
-- Average XC distance
-- Average flight duration
-- Max distance achieved
-- Average climb rates
+- **Flights**
+- **Total hours**
+- **Avg/flight** (hours per flight)
+- **Z-score** of the average flight time
 
 ### Comparing Wings
 
 Answer questions like:
-- Which wing gives me the best XC performance?
+- Which wing keeps me in the air longest?
 - How do my different gliders compare?
 - Which wing do I fly most often?
 
@@ -190,24 +211,31 @@ Access at **/cockpit?view=takeoff** to analyze site-specific performance.
 
 ### Per-Site Statistics
 
-For each takeoff site:
-- Number of flights from that site
-- Total XC distance
-- Average XC distance
-- Max distance from that site
-- **Performance Score (Z-score)** - Statistical outlier detection (see: [Z Score Pilot Guide](/doc/z-score-pilot-guide))
+For each takeoff site, a sortable table shows:
+- **Flights** from that site
+- **Total Hours**
+- **Avg/Flight** (hours per flight)
+- **Z-Score** - Statistical outlier detection (see: [Z Score Pilot Guide](/doc/z-score-pilot-guide))
 
 ## By Country View
 
-Access at **/cockpit/?view=country** to see international statistics.
+Access at **/cockpit?view=country** to see international statistics.
 
 ### Per-Country Statistics
 
 For each country you've flown in:
-- Number of flights
-- Total XC distance
-- Average metrics
-- Top sites in that country
+- **Flights**
+- **Total hours**
+- **Avg/flight** (hours per flight)
+- **Z-score** of the average flight time
+
+## CIVL View
+
+Access at **/cockpit?view=civl** to see your CIVL ranking (world, Europe and country) and its history. Add your CIVL ID in your profile settings first.
+
+## Map View
+
+Access at **/cockpit?view=map** to see every takeoff you've flown from on a map, with the number of flights at each.
 
 ## Tips & Best Practices
 

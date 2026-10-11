@@ -158,10 +158,10 @@ La presente politica si applica a tutti i dati personali raccolti, trattati e co
 
 Gli utenti possono eliminare il proprio account in qualsiasi momento dalla pagina delle impostazioni del profilo:
 
-1. Vai su Profilo → Impostazioni
-2. Clicca il pulsante «Elimina account»
-3. Leggi e conferma gli avvisi di eliminazione
-4. Inserisci la password per confermare
+1. Vai su Profilo e apri **Elimina account** nella sezione Account
+2. Leggi gli avvisi di eliminazione
+3. Digita il tuo indirizzo email per confermare
+4. Clicca **Elimina definitivamente il mio account**
 5. L’account e tutti i dati associati vengono eliminati definitivamente
 
 **Cosa viene eliminato:**
@@ -257,7 +257,7 @@ Gli utenti possono chiedere in qualsiasi momento l’eliminazione immediata del 
 
 ### 6.2 Diritto alla portabilità dei dati (Articolo 20 del GDPR)
 
-Gli utenti possono esportare in qualsiasi momento i propri dati di volo in formati standard (IGC, GPX, KML) dalla pagina dei voli.
+Gli utenti possono esportare i propri dati in qualsiasi momento: **Esporta i dati**, nella sezione Account del profilo, scarica i file IGC originali insieme alle registrazioni dei voli, e i singoli file IGC possono essere scaricati dalle pagine dei voli.
 
 ### 6.3 Diritto di accesso (Articolo 15 del GDPR)
 
@@ -295,7 +295,7 @@ Quando la presente politica viene aggiornata:
 ### 8.1 Monitoraggio dei cron job
 
 I cron job che applicano la conservazione sono monitorati tramite:
-- I log dei cron job nella dashboard di Vercel
+- I log dei cron job sul server
 - I log dell’applicazione per le esecuzioni riuscite
 - La registrazione degli errori per le esecuzioni non riuscite
 

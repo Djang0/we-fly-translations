@@ -27,11 +27,12 @@ Un lien secret te permet de partager un vol précis avec n’importe qui, sans q
 ### Comment ça marche
 
 **Pour toi (propriétaire du vol) :**
-1. Ouvre la page de détail de n’importe quel vol
-2. Clique sur le bouton « Créer le lien »
-3. Une URL unique est générée
-4. Copie le lien dans le presse-papiers
-5. Partage-le avec qui tu veux (e-mail, message, réseaux sociaux)
+1. Ouvre n’importe lequel de tes vols
+2. Clique sur le bouton **Partager le vol** (l’icône de partage dans la barre d’outils du vol)
+3. Une URL unique est générée et copiée dans ton presse-papiers (sur téléphone, c’est le menu de partage qui s’ouvre)
+4. Partage le lien avec qui tu veux (e-mail, message, réseaux sociaux)
+
+Depuis ton carnet de vol, **Copier le lien** dans le menu de la ligne fait la même chose en une fois.
 
 **Pour les destinataires :**
 1. Cliquer sur le lien partagé
@@ -46,7 +47,7 @@ Un lien secret te permet de partager un vol précis avec n’importe qui, sans q
 - **Impossible à deviner** : (quasiment) impossible à trouver sans le lien
 - **Non référencé** : les liens n’apparaissent ni dans la communauté ni dans la recherche
 - **Permanent** : les liens restent valides tant que tu ne supprimes pas le vol
-- **Révocable** : utilise « Supprimer le lien », « Arrêter le partage » ou la suppression du vol pour invalider le lien
+- **Révocable** : révoque le lien depuis **Liens partagés** (dans le menu du compte), ou supprime le vol
 
 ### Ce qu’on voit avec un lien secret
 
@@ -93,10 +94,11 @@ Activer ton profil public rend tes vols visibles dans la communauté We-Fly : l
 
 ### Comment activer ton profil public
 
-1. Va sur **/profile**
-2. Trouve le réglage « Profil public »
-3. Active-le
-4. Enregistre les modifications
+1. Ouvre ton **Profil** (menu du compte)
+2. Clique sur **Confidentialité**
+3. Active **Profil public**
+
+Le changement s’applique tout de suite, pas besoin de bouton d’enregistrement.
 
 Tes vols sont maintenant visibles dans la communauté !
 
@@ -121,21 +123,21 @@ Même avec un profil public :
 ### Désactiver ton profil public
 
 Pour redevenir privé :
-1. Va sur **/profile**
-2. Désactive « Profil public »
-3. Enregistre les modifications
+1. Ouvre ton **Profil**
+2. Clique sur **Confidentialité**
+3. Désactive **Profil public**
 
 **Effet :**
 - Tes vols disparaissent des listes de la communauté
-- Les liens de partage publics existants deviennent inaccessibles
+- Le lien de partage de ta page pilote ne fonctionne plus
 - Ton profil redevient privé
-- Les liens secrets continuent de fonctionner
+- Les liens secrets vers tes vols continuent de fonctionner
 
 ---
 
 ## Fonctions de la communauté
 
-Accède aux fonctions de la communauté sur **/community** (si ton profil public est activé, ou pour parcourir les vols publics des autres).
+Accède aux fonctions de la communauté depuis la partie **Communauté** du menu. Tu dois être connecté ; la navigation fonctionne que ton propre profil soit public ou privé.
 
 ### Les sections de la communauté
 
@@ -184,34 +186,26 @@ Découvre les autres pilotes qui ont un profil public :
 - Ses statistiques et ses réussites
 - La carte de ses vols (vols récents)
 
-#### 3. Décollages de la communauté (/community/takeoffs)
+#### 3. Décollages et recherche sur la carte
 
-Explore les décollages où la communauté est active :
+Explore les sites où la communauté est active :
 
-**Fonctions :**
-- Liste des décollages
-- Nombre de pilotes qui volent depuis chaque site
-- Vols publics depuis chaque site
-- Découverte des sites populaires
-
-**Infos sur le site :**
-- Nom et emplacement du site
-- Nombre de vols publics
-- Liste des pilotes qui y volent
-- Historique des vols de la communauté
+- **Base des décollages** (/takeoffs) : des décollages du monde entier, avec leur historique
+- **Chercher des vols sur la carte** (/community/search-flights) : choisis un décollage et vois tous les vols de la communauté partis de là
 
 **Cas d’usage :**
 - Trouver des sites actifs
 - Voir ce que les autres font depuis tes sites locaux
 - Découvrir de nouvelles destinations
 
+#### Et plus encore
+
+Le menu Communauté mène aussi à **Abonnements**, **Clubs**, **Classement**, **Instruments**, **Où voler** et **Bilan des saisons**.
+
 ### Filtres et recherche
 
-Toutes les sections de la communauté proposent :
-- **Filtres de date** : récent, ce mois-ci, cette année
-- **Filtres de lieu** : par pays, par région
-- **Filtres de distance** : distance de cross minimale
-- **Options de tri** : date, distance, score
+- **Vols** : champ de recherche, périodes prédéfinies (Aujourd’hui, 7 derniers jours, 30 derniers jours, 90 derniers jours, Dernière année, Personnalisé), plus les filtres Pilote, Site, Voile et Décollage
+- **Pilotes** : recherche par nom, nombre minimum de vols, filtres en puces et plusieurs ordres de tri
 
 ---
 
@@ -293,7 +287,7 @@ Aide à garder des données de qualité :
 
 ### Puis-je annuler le partage d’un vol ?
 
-**Liens secrets :** supprime le vol pour invalider le lien.
+**Liens secrets :** révoque le lien depuis **Liens partagés** dans le menu du compte (ou supprime le vol).
 **Profil public :** désactive ton profil public pour masquer tous tes vols.
 
 ### Puis-je ne partager que certains vols avec la communauté ?
@@ -302,7 +296,7 @@ Pas pour l’instant. Le profil public rend tous tes vols publics. Utilise les l
 
 ### Mes vols vont-ils apparaître dans les recherches Google ?
 
-Non.
+Les pages de la communauté ne sont visibles que par les pilotes connectés et ne sont jamais indexées. We-Fly ne publie les liens secrets nulle part, mais si tu en postes un sur une page web publique, un moteur de recherche peut le trouver comme n’importe quel autre lien.
 
 ### Puis-je télécharger les fichiers IGC des autres pilotes ?
 

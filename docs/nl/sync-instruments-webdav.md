@@ -97,7 +97,7 @@ Sleep je daarna `.igc`-bestanden naar die schijf, dan worden ze naar We-Fly geü
 
 ## Goed om te weten
 
-- **Alleen `.igc`-bestanden worden aanvaard.** Al de rest die het toestel probeert te sturen, wordt beleefd genegeerd: geen fouten, geen rommel. Het geeft dus niet als er in je tracklogmap ook vreemde configuratie- of logbestanden rondslingeren.
+- **Alleen `.igc`-bestanden worden aanvaard.** Al de rest die het toestel probeert te sturen, wordt geweigerd en nooit opgeslagen. Je sync-app kan die bestanden als mislukt loggen, wat onschuldig is, dus het geeft niet als er in je tracklogmap ook vreemde configuratie- of logbestanden rondslingeren.
 - **Dubbels worden automatisch overgeslagen**, herkend aan de echte inhoud van het bestand. Dezelfde map duizend keer opnieuw synchroniseren levert nooit één dubbele vlucht op. Daarom kun je het gerust altijd laten draaien.
 - **Het is in wezen alleen uploaden.** Het toestel stuurt vluchten naar boven; het komt nooit terug om iets te wijzigen of te verwijderen. Wil je een vlucht verwijderen? Doe dat in de app van We-Fly, nooit vanaf het toestel.
 
@@ -112,7 +112,7 @@ Loop de gebruikelijke verdachten af: zit je echt op wifi (of waar je synchronisa
 Zeker. Laat een sync-paar één keer naar je volledige archiefmap wijzen, laat het doorwerken, en elke oude track landt in We-Fly. Omdat dubbels op inhoud worden overgeslagen, is er geen enkel risico op dubbele vluchten, ook niet als een deel van die vluchten al in je logboek staat.
 
 **Is mijn wachtwoord veilig?**
-Het is een **wachtwoord per toestel**, niet je accountlogin. Het werkt alleen om `.igc`-bestanden te uploaden, en je kunt het **op elk moment intrekken** vanuit dezelfde kaart in Gekoppelde diensten. Intrekken sluit dat ene toestel meteen af en laat alle andere toestellen ongemoeid. Verkoop je je Air³? Eerst intrekken.
+Het is een **wachtwoord per toestel**, niet je accountlogin. Het opent alleen je vluchtenmap (nieuwe `.igc`-bestanden uploaden, de bestanden die er al staan lezen) en kan nooit een vlucht verwijderen of aan je account komen. Je kunt het **op elk moment intrekken** vanuit dezelfde kaart in Gekoppelde diensten. Intrekken sluit dat ene toestel meteen af en laat alle andere toestellen ongemoeid. Verkoop je je Air³? Eerst intrekken.
 
 **Verwijdert dit een van mijn vluchten?**
 Nee. Synchronisatie gaat in één richting en is alleen uploaden. Verwijderen gebeurt **alleen** in de app van We-Fly, bewust, door jou. Niets wat je instrument doet, kan een vlucht verwijderen.

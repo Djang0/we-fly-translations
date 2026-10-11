@@ -59,7 +59,7 @@ Z-Score = 2.45
 
 **Was bedeutet 2,45?**
 - Die mittlere Flugdauer in Bassano liegt 2,45 Standardabweichungen **über** dem Mittelwert
-- Im Cockpit taucht das als dein **Leistungswert** auf
+- In deinem **Cockpit** taucht das in der Spalte **Z-Score** auf
 - Das ist statistisch signifikant (|z| > 2 = Ausreißergebiet)
 - Übersetzung: Bassano ist nicht nur gut, es ist **wirklich außergewöhnlich**
 
@@ -121,7 +121,7 @@ Du willst die 4 Stunden Fahrt vor deinem Partner, deinem Chef oder deiner „Ich
 
 ### Im Cockpit-Dashboard
 
-Wenn du dir deine Statistik nach **Startplätzen** anschaust, siehst du für jeden Startplatz einen **Leistungswert**. Das ist der Z-Score, und er wird aus deiner **mittleren Flugdauer pro Startplatz** berechnet (dem Verhältnis von Gesamtstunden zur Anzahl der Flüge).
+Wenn du in deinem **Cockpit** die Ansicht **Startplatz** öffnest, siehst du für jeden Startplatz einen **Z-Score**. Das ist der Z-Score, und er wird aus deiner **mittleren Flugdauer pro Startplatz** berechnet (dem Verhältnis von Gesamtstunden zur Anzahl der Flüge).
 
 ```typescript
 // From src/lib/utils.ts
@@ -143,9 +143,10 @@ export function computeZScore(dataSerie: chartData[]) {
     let deviation = Math.sqrt(sum_deviations / dataSerie.length);
 
     // Calculate z-score: (this site's ratio - average) / std deviation
+    // (rounded to one decimal)
     dataSerie[indexx].z = deviation === 0
       ? 0
-      : (dataSerie[indexx].ratio - avg_ratio) / deviation;
+      : Number(((dataSerie[indexx].ratio - avg_ratio) / deviation).toFixed(1));
   }
 }
 ```
@@ -167,20 +168,22 @@ Das heißt:
 
 ### Ein echtes Beispiel aus deinem Cockpit
 
-Angenommen, du schaust unter „Startplätze“ nach und siehst:
+Angenommen, du öffnest die Ansicht **Startplatz** und siehst:
 
-| Startplatz | Stunden gesamt | Flüge | Ø/Flug | **Leistungswert** |
-|--------------|-------------|---------|------------|-----------------------|
-| Mont Blanc | 45,5 h | 8 | 5,69 h | **+2,84** 🌟 |
-| Hausberg | 67,2 h | 42 | 1,60 h | **-0,52** 😐 |
-| Das eine Mal | 3,2 h | 1 | 3,20 h | **+0,41** 🤷 |
+| Startplatz | Flüge | Stunden gesamt | Ø/Flug | **Z-Score** |
+|------------|-------|----------------|--------|-------------|
+| Mont Blanc | 8 | 45,5 h | 5,69 h | **2,80** 🌟 |
+| Hausberg | 42 | 67,2 h | 1,60 h | **-0,50** 😐 |
+| Das eine Mal | 1 | 3,2 h | 3,20 h | **0,40** 🤷 |
+
+Das Cockpit rundet jeden Z-Score auf eine Nachkommastelle, ein Startplatz mit 2,84 erscheint also als 2,80.
 
 **Was dir das sagt:**
-1. **Mont Blanc (z = +2,84):** Heiliger Bimbam, dieses Gebiet ist ein statistisches Einhorn. Jedes Mal, wenn du hier fliegst, ist dir ein langer Flug fast sicher. Buch JETZT die Ferienwohnung.
+1. **Mont Blanc (z = +2,8):** Heiliger Bimbam, dieses Gebiet ist ein statistisches Einhorn. Jedes Mal, wenn du hier fliegst, ist dir ein langer Flug fast sicher. Buch JETZT die Ferienwohnung.
 
-2. **Hausberg (z = -0,52):** Leicht unter dem Durchschnitt, aber nicht schlimm. Er ist praktisch, und du sammelst Stunden. Nutz ihn weiter zum Üben, aber erwarte keine Epen.
+2. **Hausberg (z = -0,5):** Leicht unter dem Durchschnitt, aber nicht schlimm. Er ist praktisch, und du sammelst Stunden. Nutz ihn weiter zum Üben, aber erwarte keine Epen.
 
-3. **Das eine Mal (z = +0,41):** Etwas über dem Durchschnitt, aber du bist dort nur einmal geflogen. Kann Glück gewesen sein. Du brauchst mehr Daten, um zu wissen, ob es wirklich gut ist.
+3. **Das eine Mal (z = +0,4):** Etwas über dem Durchschnitt, aber du bist dort nur einmal geflogen. Kann Glück gewesen sein. Du brauchst mehr Daten, um zu wissen, ob es wirklich gut ist.
 
 ---
 
@@ -280,7 +283,7 @@ Um herauszufinden, welche Startplätze (oder Schirme, Monate, Länder) **wirklic
 - **|z| < 1:** Ziemlich normal (Durchschnitt)
 
 **Wo sehe ich ihn?**
-In deinem **Cockpit-Dashboard**, als „Leistungswert“ für Startplätze, Schirme, Monate und so weiter.
+In deinem **Cockpit**, in der Spalte **Z-Score** der Ansichten **Startplatz**, **Schirm**, **Land** und **Saison**, und als Kennzahl **Z-Score** in der Ansicht **Monat**.
 
 **Was mache ich damit?**
 Triff damit klügere Entscheidungen, wo du fliegst, welche Ausrüstung du nimmst und wann du Reisen planst. Der Z-Score ist dein datengestützter Flügelmann.

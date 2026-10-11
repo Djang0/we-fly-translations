@@ -5,29 +5,29 @@ category: Thermal Analysis
 order: 4
 ---
 
-Ooit die kwaliteitsscore in de geavanceerde thermiekanalyse gezien en je afgevraagd of hij echt iets betekent? Goed nieuws: dat doet hij. Het is niet zomaar een gevoel. We pluizen precies uit hoe dat getal berekend wordt, zodat je begrijpt wat „Redelijk“ van „Uitstekend“ scheidt, en wat je eraan kunt doen.
+Ooit de kwaliteitsscore van een thermiek in het tabblad **Thermiek** gezien en je afgevraagd of hij echt iets betekent? Goed nieuws: dat doet hij. Het is niet zomaar een gevoel. We pluizen precies uit hoe dat getal berekend wordt, zodat je begrijpt wat „Redelijk“ van „Uitstekend“ scheidt, en wat je eraan kunt doen.
 
 ## Het grote plaatje
 
-De algemene thermiekscore (0-100) is een gewogen combinatie van vijf factoren:
+De thermiekscore (0 tot 100) is een gewogen combinatie van vijf factoren. Het zijn dezelfde vijf rijen die je ziet in de **Opbouw van de score** van een thermiek:
 
 | Factor | Gewicht | Wat hij meet |
 |--------|--------|------------------|
-| **Stijging** | 30% | Hoe sterk was de stijgende lucht? |
+| **Stijging** | 30% | Hoe sterk was de stijgende lucht op haar best? |
 | **Efficiëntie** | 20% | Hoe recht steeg je? |
 | **Centrering** | 20% | Hoe goed bleef je in de kern? |
 | **Regelmaat** | 15% | Hoe stabiel waren de waarden van je vario? |
-| **Volgehouden** | 15% | Heb je de thermiek echt uitgewerkt? |
+| **Volgehouden** | 15% | Ben je echt gebleven en heb je de thermiek uitgewerkt? |
 
-Elke factor wordt genormaliseerd naar een schaal van 0 tot 1, vermenigvuldigd met zijn gewicht, en daarna wordt het geheel geschaald naar 0-100. Eenvoudig in theorie, veelzeggend in de praktijk.
+Elke factor wordt genormaliseerd naar een schaal van 0 tot 1, vermenigvuldigd met zijn gewicht, en daarna wordt het geheel geschaald naar 0 tot 100. Eenvoudig in theorie, veelzeggend in de praktijk.
 
-De factor **Volgehouden** is cruciaal: hij voorkomt hoge scores voor korte doorkomsten. 15 seconden door sterke stijgende lucht vliegen bewijst geen thermiektalent; echt rondjes draaien en de thermiek uitwerken wel.
+De factor **Volgehouden** is cruciaal: hij zorgt ervoor dat korte bezoekjes niet hoog scoren. Een paar rondjes in sterke stijgende lucht pikken bewijst geen thermiektalent; blijven en de thermiek uitwerken wel.
 
 ---
 
 ## De formule
 
-Dit is de echte berekening uit de code:
+Dit is de echte berekening:
 
 ```
 Quality Score = (climbScore * 0.30 +
@@ -37,31 +37,34 @@ Quality Score = (climbScore * 0.30 +
                  sustainedScore * 0.15) * 100
 ```
 
+De drempels in de formule liggen vast in m/s en meter, welke eenheden je ook laat weergeven.
+
 ### Hoe elk onderdeel berekend wordt
 
 **1. Stijgscore**
 ```
-climbScore = min(1, climbrate / 3.0)
+climbScore = min(1, maxClimb / 5.0)
 ```
-Je gemiddelde stijgsnelheid gedeeld door 3,0 m/s (met 1 als maximum). Dus 3 m/s of beter = perfecte score. Minder = evenredig lager.
+Je beste volgehouden stijging in de thermiek (de waarde **Max.** in de details van de thermiek, gladgestreken over 5 seconden zodat één ruizig GPS-punt niet kan valsspelen) gedeeld door 5,0 m/s, met 1 als maximum. Alleen het beste tiende van de stijgingen in We-Fly komt in de buurt van dat maximum; een gemiddelde stijging scoort iets meer dan de helft.
 
 **2. Efficiëntiescore**
 ```
-efficiencyScore = heightGain / horizontalDistance
+efficiencyScore = min(1, heightGain / driftDistance)
 ```
-Al een waarde tussen 0 en 1. Perfecte efficiëntie (recht omhoog) = 1,0. Hoe meer je horizontaal wegdrijft, hoe lager hij wordt.
+De gewonnen hoogte gedeeld door de horizontale afstand tussen de plek waar de thermiek begon en de plek waar hij eindigde. Win je evenveel hoogte als je wegdreef, of meer, dan scoor je de volle 1,0. Hoe meer de wind je opzij meeneemt, hoe lager hij wordt.
 
 **3. Centreerscore**
 ```
-centeringScore = centeringQuality
+excess = max(0, meanDistanceFromCore - coreRadius)
+centeringScore = max(0, 1 - excess / (2 * coreRadius))
 ```
-Die komt uit het algoritme voor de kernanalyse: hoeveel tijd je in de buurt van de beste plek van de thermiek doorbracht. Al tussen 0 en 1.
+Een scherm kan niet ter plaatse draaien, dus rondjes draaien precies op de straal van de kern zelf (of krapper) scoort een perfecte 1,0. Elke extra kernstraal afstand kost de helft van de score: draaien op twee keer de kernstraal scoort 0,5, op drie keer scoort het nul. De drift door de wind wordt eerst weggewerkt door elk rondje te vergelijken met zijn eigen lokale middelpunt.
 
 **4. Regelmaatscore**
 ```
 consistencyScore = max(0, 1 - variability / 2.0)
 ```
-Het omgekeerde van de variatie van je vario (de standaardafwijking van de stijgwaarden). Gladde thermiek = hoge score. Heen en weer tussen +5 en -2 m/s = lage score. Een variatie van 2 m/s of meer = geen bijdrage voor regelmaat.
+Het omgekeerde van de variatie van je vario (de standaardafwijking van je gladgestreken stijgsnelheid). Gladde thermiek = hoge score. Heen en weer tussen sterke stijgende en dalende lucht = lage score. Een variatie van 2 m/s of meer = geen bijdrage voor regelmaat.
 
 **5. Score volgehouden**
 ```
@@ -69,7 +72,7 @@ durationFactor = min(1, duration / 90)
 turnFactor = min(1, turnCount / 2)
 sustainedScore = durationFactor * turnFactor
 ```
-Combineert duur en aantal rondjes om echt thermiekwerk te belonen. Voor de volle score heb je ongeveer 90 seconden EN minstens 2 volledige rondjes nodig. Een doorkomst van 15 seconden zonder rondjes scoort hier bijna nul, ook als de andere meetwaarden er geweldig uitzien.
+Combineert duur en aantal rondjes om echt thermiekwerk te belonen. Voor de volle score heb je ongeveer 90 seconden EN 2 of meer volledige rondjes nodig. Elke thermiek in de lijst heeft al minstens twee volledige rondjes (zie [Hoe thermiekdetectie werkt](/doc/advanced-thermal-analysis-settings)), dus in de praktijk straft deze factor vooral korte stijgingen af.
 
 ---
 
@@ -79,7 +82,7 @@ We lopen een echte berekening door met concrete getallen. Stel dat je een thermi
 
 | Meetwaarde | Waarde |
 |--------|-------|
-| Stijgsnelheid | 2,15 m/s |
+| Max. stijging | 3,5 m/s |
 | Efficiëntie | 0,41 (41%) |
 | Centrering | 0,53 (53%) |
 | Variatie | 0,92 m/s |
@@ -90,23 +93,22 @@ We lopen een echte berekening door met concrete getallen. Stel dat je een thermi
 
 **Stijgscore:**
 ```
-climbScore = min(1, 2.15 / 3.0)
-climbScore = min(1, 0.717)
-climbScore = 0.717
+climbScore = min(1, 3.5 / 5.0)
+climbScore = 0.70
 ```
-Je stijgsnelheid van 2,15 m/s is 71,7% van de „perfecte“ maatstaf van 3,0 m/s.
+Je beste volgehouden stijging van 3,5 m/s is 70% van de maatstaf van 5,0 m/s.
 
 **Efficiëntiescore:**
 ```
 efficiencyScore = 0.41
 ```
-Al genormaliseerd. Je won 41% zoveel hoogte als je horizontaal aflegde. Vrij typisch voor een thermiek met veel drift.
+Je won 41% zoveel hoogte als je opzij wegdreef. Vrij typisch voor een thermiek met veel drift.
 
 **Centreerscore:**
 ```
 centeringScore = 0.53
 ```
-Je zat ongeveer de helft van de tijd in behoorlijke stijgende lucht. Ruimte voor verbetering, maar niet slecht.
+Je draaide gemiddeld op iets minder dan twee keer de kernstraal. Ruimte voor verbetering, maar niet slecht.
 
 **Regelmaatscore:**
 ```
@@ -122,7 +124,7 @@ durationFactor = min(1, 75 / 90) = 0.833
 turnFactor = min(1, 3 / 2) = 1.0
 sustainedScore = 0.833 * 1.0 = 0.833
 ```
-Je bleef 75 seconden en draaide 3 volledige rondjes: degelijk thermiekwerk.
+Je bleef 75 seconden en draaide 3 volledige rondjes: degelijk thermiekwerk, net onder de grens van 90 seconden.
 
 ### Stap 2: pas de gewichten toe
 
@@ -130,62 +132,65 @@ Vermenigvuldig nu elke score met zijn gewicht:
 
 | Onderdeel | Score | Gewicht | Bijdrage |
 |-----------|-------|--------|--------------|
-| Stijging | 0,717 | 0,30 | 0,215 |
+| Stijging | 0,70 | 0,30 | 0,210 |
 | Efficiëntie | 0,41 | 0,20 | 0,082 |
 | Centrering | 0,53 | 0,20 | 0,106 |
 | Regelmaat | 0,54 | 0,15 | 0,081 |
 | Volgehouden | 0,833 | 0,15 | 0,125 |
-| **Totaal** | | | **0,609** |
+| **Totaal** | | | **0,604** |
 
 ### Stap 3: schaal naar 0-100
 
 ```
-qualityScore = round(0.609 * 100) = 61
+qualityScore = round(0.604 * 100) = 60
 ```
 
-**Resultaat: algemene score van 61**, stevig in de zone „Goed“.
+**Resultaat: een score van 60**, net binnen „Redelijk“. Krappere rondjes zouden zowel je efficiëntie als je centrering opkrikken, en daar liggen de makkelijke punten.
 
 ---
 
 ## Je score interpreteren
 
-| Scorebereik | Beoordeling | Wat het betekent |
+| Scorebereik | Label | Wat het betekent |
 |-------------|--------|---------------|
-| **70-100** | Uitstekend | Thermieken op wedstrijdniveau. Je vond de kern snel en bleef erin. |
-| **50-69** | Goed | Degelijk werk. Je haalde de hoogte zonder al te veel tijd te verliezen. |
-| **25-49** | Redelijk | Klus geklaard, maar je liet wat prestaties liggen. |
-| **0-24** | Zwak | Moeite om de kern te vinden of erin te blijven, of de omstandigheden waren echt beroerd. |
+| **80 en hoger** | Uitzonderlijk | De beste stijgingen in We-Fly. Sterke stijgende lucht, goed uitgewerkt. |
+| **73 tot 79** | Uitstekend | Beter dan drie thermieken op vier. Je vond de kern snel en bleef erin. |
+| **66 tot 72** | Goed | Boven de typische thermiek. Degelijk werk. |
+| **60 tot 65** | Redelijk | Ongeveer in het midden van het peloton. Klus geklaard, met wat prestaties die je liet liggen. |
+| **Onder 60** | Zwak | Moeite om de kern te vinden of erin te blijven, een korte stijging, of omstandigheden die echt beroerd waren. |
+
+De grenzen zijn afgesteld op echte thermieken van We-Fly-piloten: de typische (mediane) thermiek scoort ongeveer 65, een kwart van de thermieken scoort 73 of meer, en één op tien haalt 80.
 
 ---
 
 ## Wat elk onderdeel je vertelt
 
-### Stijging (gewicht 30%)
+### Stijgkracht (gewicht 30%)
 
-Dit weegt het zwaarst omdat... nou ja, het draait allemaal om omhoog gaan. Maar maak je er niet te druk om: soms levert een thermiek van 1,5 m/s die je perfect uitwerkt meer XC-kilometers op dan een thermiek van 4,0 m/s waar je steeds uit valt.
+Dit is de factor die het zwaarst weegt, omdat... nou ja, het draait allemaal om omhoog gaan. Hij gebruikt je beste *volgehouden* stijging, dus hij beloont dat je het sterke deel van de thermiek vindt, niet alleen dat je blijft hangen. Maar maak je er niet te druk om: soms levert een zwakke thermiek die je perfect uitwerkt meer afstand op dan een sterke waar je steeds uit valt.
 
 **Lage stijgscore?**
 - De thermiek was echt zwak (niet jouw schuld)
-- Je zat te lang aan de randen (kijk naar je centrering)
+- Je vond het sterkste deel van de kern nooit (kijk naar je centrering)
 - Je kwam te laat op het feestje en pikte alleen de top mee
 
 ### Efficiëntie (gewicht 20%)
 
-Efficiëntie = gewonnen hoogte / afgelegde horizontale afstand. Een perfecte spiraal recht omhoog zou 1,0 scoren (en is bij echte wind ook onmogelijk).
+Efficiëntie = gewonnen hoogte / horizontale driftafstand, met 1,0 als maximum. Een thermiek waarin je minstens evenveel hoogte wint als je wegdrijft, scoort de volle 1,0, en daarvoor heb je weinig wind of een sterke stijging nodig.
 
 Typische waarden:
-- **0,3-0,4**: normaal, wat drift
-- **0,5-0,6**: heel goed, krappe rondjes
-- **0,6+**: uitstekend, minimale drift
+- **0,3 tot 0,4**: normaal, wat drift
+- **0,5 tot 0,6**: heel goed, krappe rondjes
+- **boven 0,6**: uitstekend, minimale drift
 
 **Lage efficiëntie?**
 - Sterke wind die je opzij duwt
-- Brede rondjes of een slechte hellingshoek
+- Brede rondjes of een te vlakke hellingshoek
 - Met de wind mee binnenkomen en nooit corrigeren
 
 ### Centrering (gewicht 20%)
 
-Hoeveel tijd je in het goede spul zat in plaats van aan de randen te dwalen. Berekend met een exponentieel verval van de afstand tot de kern: hoe verder van het centrum, hoe sneller je score daalt.
+Hoe dicht je rond de kern draaide. Draaien op de straal van de kern zelf is perfect; de score daalt in een rechte lijn naarmate je gemiddelde afstand groeit, tot nul op drie keer de kernstraal.
 
 **Lage centrering?**
 - Het duurde even voor je de kern vond
@@ -203,17 +208,16 @@ Gebaseerd op de standaardafwijking van de waarden van je vario. Gladde, gelijkma
 
 ### Volgehouden (gewicht 15%)
 
-Combineert duur en aantal rondjes om te bewijzen dat je de thermiek echt uitwerkte in plaats van er gewoon door te vliegen. 10 seconden door 4 m/s vliegen is geen thermieken, dat is geluk. Deze factor beloont piloten die zich aan de thermiek wagen en hem goed uitwerken.
+Combineert duur en aantal rondjes om te bewijzen dat je de thermiek echt uitwerkte in plaats van er gewoon door te vliegen. Deze factor beloont piloten die zich aan de thermiek wagen en hem goed uitwerken.
 
 Voor de volle score heb je nodig:
 - **ongeveer 90 seconden** duur (kortere thermieken scoren evenredig minder)
-- **2+ volledige rondjes** (minder rondjes scoren evenredig minder)
+- **2 of meer volledige rondjes** (minder rondjes scoren evenredig minder)
 
-De twee factoren worden met elkaar vermenigvuldigd, dus je hebt ze ALLEBEI nodig om hier goed te scoren. Een rechte glijvlucht van 2 minuten door stijgende lucht (0 rondjes) scoort nul. Eén snelle 360 in zwakke stijgende lucht (10 seconden) scoort ook bijna nul.
+De twee factoren worden met elkaar vermenigvuldigd, dus je hebt ze ALLEBEI nodig om hier goed te scoren. Een stijging van 30 seconden met drie rondjes krijgt maar een derde van de punten.
 
 **Lage score volgehouden?**
 - Je verliet de thermiek te vroeg
-- Je waagde je niet aan rondjes draaien (doorkomst)
 - De thermiek stierf voor je hem goed kon uitwerken
 
 ---
@@ -222,20 +226,20 @@ De twee factoren worden met elkaar vermenigvuldigd, dus je hebt ze ALLEBEI nodig
 
 ### Snelle winst
 
-1. **Draai krapper zodra je stijgende lucht raakt**: wacht niet, begin meteen te draaien als je vario uitslaat
-2. **Verschuif je rondje naar de stijgende lucht**: klassieke centreertechniek, ruimer op weg naar buiten, krapper op weg naar binnen
-3. **Let op je hellingshoek**: te vlak = brede rondjes = drift. Te steil = inefficiënt in zwakke stijgende lucht
+1. **Draai krapper zodra je stijgende lucht raakt**: wacht niet, begin te draaien zodra je vario aantrekt
+2. **Verschuif je rondje naar de stijgende lucht**: klassieke centreertechniek, ruimer aan de zwakke kant, krapper aan de sterke kant
+3. **Let op je hellingshoek**: te vlak geeft brede rondjes en drift, te steil is inefficiënt in zwakke stijgende lucht
 
 ### Volg je vooruitgang
 
-Open dezelfde thermiek in de analysetool na meerdere vluchten vanaf dezelfde startplaats. Je begint patronen te zien:
+Vergelijk thermieken uit verschillende vluchten vanaf hetzelfde vlieggebied. Je begint patronen te zien:
 - „Op deze startplaats heb ik altijd moeite met centreren“
 - „Mijn thermieken in de namiddag zijn regelmatiger“
 - „Dat nieuwe scherm heeft mijn efficiëntie echt verbeterd“
 
 ### Jaag niet op het getal
 
-Een score van 45 in een gebroken, stevige thermiek kan beter vliegwerk zijn dan een 70 in een gladde, dikke kolom. Context telt. Gebruik de score om je eigen vooruitgang te volgen, niet om je te vergelijken met anderen op andere dagen.
+Een score van 55 in een gebroken, stevige thermiek kan beter vliegwerk zijn dan een 80 in een gladde, dikke kolom. Context telt. Gebruik de score om je eigen vooruitgang te volgen, niet om je te vergelijken met anderen op andere dagen.
 
 ---
 
@@ -243,13 +247,13 @@ Een score van 45 in een gebroken, stevige thermiek kan beter vliegwerk zijn dan 
 
 De gewichten (30/20/20/15/15) zijn niet uit de lucht gegrepen. Ze zijn gebaseerd op wat echt telt om efficiënt te thermieken:
 
-- **Stijging voert aan** (30%) omdat het hoofddoel omhoog gaan is. Een zwakke thermiek die je perfect uitwerkt, blijft een zwakke thermiek.
+- **Stijgkracht voert aan** (30%) omdat het hoofddoel omhoog gaan is. Een zwakke thermiek die je perfect uitwerkt, blijft een zwakke thermiek.
 
 - **Efficiëntie en centrering delen het gewicht voor techniek** (elk 20%) omdat ze allebei over kunnen gaan. Je kunt het ene hebben zonder het andere (goed centreren maar wegdrijven, of krappe rondjes op de verkeerde plek).
 
 - **Regelmaat is een bijsturing** (15%) omdat je een deel van de turbulentie niet in de hand hebt. Ze beïnvloedt je score, maar domineert hem niet.
 
-- **Volgehouden filtert toevalstreffers eruit** (15%) omdat kort door sterke stijgende lucht vliegen geen thermieken is, maar geluk. Deze factor zorgt ervoor dat hoge scores naar piloten gaan die zich echt aan het uitwerken van de thermiek waagden.
+- **Volgehouden filtert toevalstreffers eruit** (15%) omdat een paar rondjes in sterke stijgende lucht niet hetzelfde is als een thermiek uitwerken. Deze factor zorgt ervoor dat hoge scores naar piloten gaan die zich echt aan de stijging wijdden.
 
 ---
 
@@ -259,59 +263,59 @@ De gewichten (30/20/20/15/15) zijn niet uit de lucht gegrepen. Ze zijn gebaseerd
 
 | Meetwaarde | Waarde | Score |
 |--------|-------|-------|
-| Stijgsnelheid | 4,2 m/s | 1,0 (maximum) |
+| Max. stijging | 5,6 m/s | 1,0 (maximum) |
 | Efficiëntie | 0,65 | 0,65 |
 | Centrering | 0,78 | 0,78 |
 | Regelmaat | 0,38 m/s | 0,81 |
 | Duur / rondjes | 120 s / 4 rondjes | 1,0 |
 
-**Bijdragen:** 0,30 + 0,13 + 0,156 + 0,122 + 0,15 = **0,86**
-**Score:** 86 (Uitstekend)
+**Bijdragen:** 0,30 + 0,13 + 0,156 + 0,121 + 0,15 = **0,858**
+**Score:** 86 (Uitzonderlijk)
 
 Je raakte een monsterthermiek, bleef in de kern en reed hem twee volle minuten mee. Droomscenario.
 
-### De korte doorkomst (afgestraft)
+### De snelle hap (afgestraft)
 
 | Meetwaarde | Waarde | Score |
 |--------|-------|-------|
-| Stijgsnelheid | 3,5 m/s | 1,0 (maximum) |
+| Max. stijging | 4,8 m/s | 0,96 |
 | Efficiëntie | 0,72 | 0,72 |
 | Centrering | 0,85 | 0,85 |
 | Regelmaat | 0,45 m/s | 0,78 |
-| Duur / rondjes | 18 s / 0 rondjes | 0,0 |
+| Duur / rondjes | 25 s / 2 rondjes | 0,28 |
 
-**Bijdragen:** 0,30 + 0,144 + 0,17 + 0,117 + 0,0 = **0,73**
-**Score:** 73 (Uitstekend... maar net)
+**Bijdragen:** 0,288 + 0,144 + 0,17 + 0,116 + 0,042 = **0,760**
+**Score:** 76 (Uitstekend)
 
-Sterke stijgende lucht, prachtige vario-waarden, maar je vloog er recht doorheen zonder je aan rondjes te wagen. De score nul voor volgehouden trekt dit flink naar beneden. In het oude scoresysteem was dit 85+ geweest.
+Sterke stijgende lucht, prima centrering, maar je bleef maar twee rondjes. Had je hem 90 seconden met dezelfde techniek uitgewerkt, dan had de factor volgehouden de ontbrekende punten toegevoegd en was de score 87 geweest.
 
 ### De bevochten stijging
 
 | Meetwaarde | Waarde | Score |
 |--------|-------|-------|
-| Stijgsnelheid | 1,8 m/s | 0,60 |
+| Max. stijging | 2,6 m/s | 0,52 |
 | Efficiëntie | 0,38 | 0,38 |
 | Centrering | 0,45 | 0,45 |
 | Regelmaat | 1,4 m/s | 0,30 |
 | Duur / rondjes | 180 s / 6 rondjes | 1,0 |
 
-**Bijdragen:** 0,18 + 0,076 + 0,09 + 0,045 + 0,15 = **0,54**
-**Score:** 54 (Goed)
+**Bijdragen:** 0,156 + 0,076 + 0,09 + 0,045 + 0,15 = **0,517**
+**Score:** 52 (Zwak)
 
-Zwakke thermiek, gebroken kern, veel zoeken. Maar je hield 3 minuten vol en draaide 6 rondjes. Die volharding wordt beloond.
+Zwakke thermiek, gebroken kern, veel zoeken. Het label is hard, maar het zegt meer over de thermiek dan over jou: je hield 3 minuten en 6 rondjes vol, en de factor volgehouden gaf je al zijn punten. Op zo'n dag was de stijging die je in de lucht hield de juiste keuze.
 
 ### De kernkraker
 
 | Meetwaarde | Waarde | Score |
 |--------|-------|-------|
-| Stijgsnelheid | 2,4 m/s | 0,80 |
+| Max. stijging | 3,4 m/s | 0,68 |
 | Efficiëntie | 0,52 | 0,52 |
 | Centrering | 0,85 | 0,85 |
 | Regelmaat | 0,65 m/s | 0,68 |
 | Duur / rondjes | 95 s / 3 rondjes | 1,0 |
 
-**Bijdragen:** 0,24 + 0,104 + 0,17 + 0,102 + 0,15 = **0,77**
-**Score:** 77 (Uitstekend)
+**Bijdragen:** 0,204 + 0,104 + 0,17 + 0,101 + 0,15 = **0,729**
+**Score:** 73 (Uitstekend)
 
 Matige thermiek, maar je centreerde perfect en werkte hem netjes uit. Techniek boven kracht.
 
@@ -319,7 +323,7 @@ Matige thermiek, maar je centreerde perfect en werkte hem netjes uit. Techniek b
 
 ## Waar het op neerkomt
 
-De algemene thermiekscore is er niet om je te beoordelen, maar om je feedback te geven. Een samenvatting in cijfers van „wat er daarbinnen gebeurde“, zodat je van elke thermiek leert in plaats van alleen te onthouden „dat was een goeie“.
+De thermiekscore is er niet om je te beoordelen, maar om je feedback te geven. Een samenvatting in cijfers van „wat er daarbinnen gebeurde“, zodat je van elke thermiek leert in plaats van alleen te onthouden „dat was een goeie“.
 
 Gebruik hem om:
 - patronen in je vliegen te zien
@@ -333,4 +337,4 @@ Ga nu iets vliegen!
 
 ---
 
-Zie ook: [Geavanceerde thermiekanalyse](advanced-thermal-analysis.md) | [Instellingen analyse](advanced-thermal-analysis-settings.md)
+Zie ook: [Geavanceerde thermiekanalyse](/doc/advanced-thermal-analysis) | [Hoe thermiekdetectie werkt](/doc/advanced-thermal-analysis-settings)

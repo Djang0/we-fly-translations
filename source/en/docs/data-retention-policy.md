@@ -158,10 +158,10 @@ This policy applies to all personal data collected, processed, and stored by We-
 
 Users can delete their accounts at any time through the profile settings page:
 
-1. Navigate to Profile → Settings
-2. Click "Delete Account" button
-3. Read and confirm deletion warnings
-4. Enter password to confirm
+1. Navigate to Profile and open **Delete account** in the Account section
+2. Read the deletion warnings
+3. Type your email address to confirm
+4. Click **Delete My Account Permanently**
 5. Account and all associated data are permanently deleted
 
 **What is deleted:**
@@ -257,7 +257,7 @@ Users can request immediate deletion of their account and all associated data at
 
 ### 6.2 Right to Data Portability (GDPR Article 20)
 
-Users can export their flight data in standard formats (IGC, GPX, KML) at any time through the flights page.
+Users can export their data at any time: **Export data** in the Account section of their profile downloads their original IGC files together with their flight records, and individual IGC files can be downloaded from the flights pages.
 
 ### 6.3 Right to Access (GDPR Article 15)
 
@@ -295,7 +295,7 @@ When this policy is updated:
 ### 8.1 Cron Job Monitoring
 
 Retention enforcement cron jobs are monitored through:
-- Vercel dashboard cron job logs
+- Server cron job logs
 - Application logs for successful executions
 - Error logging for failed executions
 

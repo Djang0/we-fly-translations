@@ -12,25 +12,32 @@ Entra en el [Cockpit](/cockpit) para ver todas tus estadísticas de vuelo.
 
 ## Vistas del Cockpit
 
-El Cockpit tiene seis vistas distintas, y cada una aporta su propio análisis:
+El Cockpit tiene once vistas, y cada una aporta su propio análisis:
 
 1. **Resumen**: estadísticas y totales de los datos filtrados
-2. **Vela**: rendimiento desglosado por vela
-3. **Temporada**: comparación año a año
-4. **País**: estadísticas de vuelo por países
-5. **Despegue**: estadísticas por zona de vuelo con puntuaciones de rendimiento
-6. **Mes**: desglose mensual y patrones estacionales
+2. **Tendencias**: tu forma de volar a lo largo del tiempo, desde día a día hasta año a año
+3. **Térmicas**: tasas de ascenso, giro y calidad de las térmicas, temporada a temporada
+4. **Fases**: cómo se reparte tu tiempo de vuelo entre térmica, búsqueda, planeo y planeo neutro
+5. **Vela**: desglose del tiempo de vuelo por vela
+6. **Despegue**: estadísticas por zona de vuelo con puntuaciones z
+7. **País**: estadísticas de vuelo por países
+8. **Temporada**: comparación año a año
+9. **Mes**: desglose mensual y patrones estacionales
+10. **CIVL**: tu clasificación mundial CIVL
+11. **Mapa**: tus despegues en un mapa
 
 ### Navegación
 
-- Usa las pestañas principales para cambiar de vista
+- Elige una vista en el menú del Cockpit
 - Cada vista se limita a los [datos filtrados](./data-filters.md)
 
 ## Estadísticas del resumen
 
-La página de resumen del [Cockpit](/cockpit) muestra las estadísticas de vuelo de los [datos filtrados](./data-filters.md).
+La página de resumen del [Cockpit](/cockpit) muestra las estadísticas de vuelo de los [datos filtrados](./data-filters.md). Todas las distancias, altitudes y velocidades se muestran en las unidades que elegiste en tu perfil.
 
 ### Totales de vuelo
+
+La franja de cabecera de arriba te da las cuatro cifras principales:
 
 #### Vuelos totales
 - **Definición**: número de todos los vuelos de tu libro de vuelo
@@ -40,72 +47,88 @@ La página de resumen del [Cockpit](/cockpit) muestra las estadísticas de vuelo
 - **Unidad**: horas y minutos
 - **Cálculo**: suma de todos los (hora de aterrizaje menos hora de despegue)
 
-#### Tiempo total en térmica
-- **Definición**: tiempo total pasado girando en térmicas
-- **Unidad**: horas y minutos
-- **Desglose**: separado en giros a la izquierda y a la derecha
+#### Distancia
+- **Definición**: longitud total del track en todos los vuelos
 
-#### Tiempo total de planeo
-- **Definición**: tiempo total en vuelo recto
-- **Unidad**: horas y minutos
-- **Interpretación**: más tiempo de planeo = vuelo de distancia más eficiente
+#### Vuelo más largo
+- **Definición**: tu mayor tiempo de vuelo
+- **Muestra**: la duración; púlsala para abrir ese vuelo
+
+#### Eficiencia de vuelo
+- **Definición**: tiempo pasado girando en térmicas (**Centrando**) frente al tiempo en vuelo recto (**Planeando**)
+- **Unidad**: horas y minutos, más el reparto en porcentaje
+
+#### Equilibrio de giro
+- **Definición**: cómo se reparte tu tiempo centrando térmicas entre **Giros a la izquierda** y **Giros a la derecha**
+
+#### Reparto por modo de vuelo
+- **Definición**: cómo se reparte tu tiempo de vuelo entre vuelos **Solo** y **Biplaza** (solo se muestra si tienes vuelos biplaza)
 
 ### Distancia y puntuación
 
 Todas las distancias y puntuaciones de cross se calculan con la biblioteca de código abierto [igc-xc-score
 ](https://github.com/mmomtchev/igc-xc-score), creada y mantenida por [Momtchil Momtchev](https://github.com/mmomtchev).
 
-#### Distancia XC total
+#### Distancia XC
 - **Definición**: suma de todas las distancias de cross puntuadas
-- **Unidad**: kilómetros
 - **Uso**: sigue tu logro total en distancia
 
-#### Puntos XC totales
+#### Puntos XC
 - **Definición**: suma de todas las puntuaciones de XContest
 - **Incluye**: todos los multiplicadores (distancia libre, triángulos)
 - **Uso**: compara tu rendimiento en distancia a lo largo del tiempo
 
-#### Longitud total del track
+#### Longitud del track
 - **Definición**: suma de todas las distancias de los tracks GPS
-- **Unidad**: kilómetros
-- **Siempre > Distancia XC total**: incluye todos los giros y desvíos
+- **Siempre > Distancia XC**: incluye todos los giros y desvíos
 
 ### Récords personales
 
-#### Distancia XC máxima
-- **Definición**: el vuelo de distancia puntuado más largo
-- **Muestra**: distancia y fecha
-- **Logro**: ¡tu récord personal de distancia!
-
-#### Puntos XC máximos
-- **Definición**: la puntuación de XContest más alta en un solo vuelo
-- **Muestra**: puntos y fecha
-- **Nota**: puede no coincidir con la distancia máxima (por los multiplicadores de los triángulos)
+Cada récord enlaza con el vuelo del que procede: pulsa el valor para abrirlo.
 
 #### Altitud máx.
 - **Definición**: la altitud más alta alcanzada en todos los vuelos
-- **Unidad**: metros sobre el nivel del mar (s. n. m.)
-- **Muestra**: altitud
+- **Unidad**: sobre el nivel del mar (s. n. m.)
 
 #### Ganancia de altura máx.
 - **Definición**: la mayor ganancia de altitud en un solo vuelo
-- **Unidad**: metros
 - **Cálculo**: altitud máxima - altitud mínima
 
-#### Térmica más fuerte
-- **Definición**: la mejor tasa de ascenso que has encontrado
-- **Unidad**: metros por segundo (m/s)
-- **Muestra**: tasa de ascenso
-
 #### Velocidad máx.
-- **Definición**: la velocidad suelo más alta registrada
-- **Unidad**: kilómetros por hora (km/h)
+- **Definición**: la velocidad suelo más alta mantenida durante 5 segundos, filtrando los picos del GPS
 - **Nota**: incluye el efecto del viento
 
-#### Duración máxima
-- **Definición**: el tiempo de vuelo más largo
-- **Unidad**: horas y minutos
-- **Muestra**: duración y fecha
+#### Mejor distancia XC
+- **Definición**: el vuelo de distancia puntuado más largo
+- **Logro**: ¡tu récord personal de distancia!
+
+#### Mejor puntuación XC
+- **Definición**: la puntuación de XContest más alta en un solo vuelo
+- **Nota**: puede no coincidir con la mejor distancia (por los multiplicadores de los triángulos)
+
+#### Remontada más baja
+- **Definición**: el punto más bajo (sobre el suelo) desde el que volviste a subir, y cuánta altura recuperaste
+
+### Métricas de rendimiento
+
+- **Tiempo de giro med.**: tiempo mediano por cada giro de 360°
+- **Radio de giro med.**: radio de giro mediano mientras centras
+- **Factor G mediano**: factor de carga (consulta la [Guía del factor G para pilotos](/doc/g-factor-pilot-guide))
+- **Pico de la térmica más fuerte**: la mejor tasa de ascenso, mantenida durante 5 segundos; púlsala para ir directamente a esa térmica
+
+## Vista de tendencias
+
+Entra en **/cockpit?view=trends** para ver cómo evoluciona tu forma de volar con el tiempo.
+
+Elige una **Métrica** (**Tiempo de vuelo**, **Vuelos**, **Distancia media**, **Tiempo de vuelo medio**, **Velocidad media**), un **Intervalo** (**Día**, **Semana**, **Mes**, **Año**), un **Periodo** (**30 días**, **12 meses**, **Este año**, **Todo**) y un **Desglose** (**Total** o **Por vela**). Cambia la **Vista** entre **Gráfico** y **Tabla**. Pulsa una columna para abrir sus vuelos en el libro de vuelo.
+
+## Vista de térmicas
+
+Entra en **/cockpit?view=thermaling** para ver tus estadísticas de ascenso en todas las térmicas de los vuelos filtrados: **Ascenso mediano**, **Mejor ascenso**, **Ganancia mediana**, **Térmicas/h**, **Tiempo en térmica**, tiempo y radio de giro, y **Remontadas desde abajo**. Los gráficos temporada a temporada se agrupan en **Eficiencia**, **Volumen**, **Técnica** y **Dominio**.
+
+## Vista de fases
+
+Entra en **/cockpit?view=phases** para ver cómo se reparte tu tiempo de vuelo entre **Térmica**, **Búsqueda**, **Planeo** y **Planeo neutro**, con tu **Fineza mediana**, tu **Velocidad de planeo mediana** y tus **Giros / min**, temporada a temporada.
 
 ## Vista por mes
 
@@ -113,11 +136,9 @@ Entra en **/cockpit?view=month** para ver las estadísticas mensuales.
 
 ### Desglose mensual
 
-Para cada mes con vuelos:
-- Vuelos totales de ese mes
-- Distancia total
-- Puntos totales
-- Métricas medias de vuelo
+- **Meses más activos**: tus meses con más actividad, con los **Vuelos totales** de todos los años, tu **Año más activo** y la **Actividad por año**
+- **Análisis visual**: **Duración**, **Número** y **Puntuación z** mensuales, por año, en barras **Agrupado** o **Apilado**
+- **Desglose mensual por año**: una tabla de tus vuelos por mes y año
 
 ### Patrones estacionales
 
@@ -130,7 +151,7 @@ Detecta patrones:
 
 - **Planifica tu temporada**: mira cuándo sueles volar mejor
 - **Sigue tu regularidad**: ¿cuántos meses al año estás activo?
-- **Identifica tu temporada alta**: ¿cuándo consigues tus mejores distancias?
+- **Identifica tu temporada alta**: ¿cuándo acumulas más tiempo de vuelo?
 
 ## Vista por temporada (año)
 
@@ -138,17 +159,19 @@ Entra en **/cockpit?view=season** para ver las estadísticas anuales.
 
 ### Comparación año a año
 
-Para cada temporada (año):
-- Vuelos totales
-- Distancia XC y puntos totales
-- Métricas medias de vuelo
-- Récords personales de ese año
+Para cada temporada (año), la tabla muestra:
+- **Vuelos**
+- **Horas totales**
+- **Media/vuelo** (horas por vuelo)
+- **Puntuación z** del tiempo de vuelo medio
+
+El gráfico de arriba te permite comparar las temporadas por **Duración**, **Número** o **Puntuación z**.
 
 ### Seguimiento del progreso
 
 Compara años para ver:
 - ¿Vuelas más?
-- ¿Aumentan tus distancias?
+- ¿Son tus vuelos cada vez más largos?
 - ¿Cómo se comparan los distintos años?
 
 ### Casos de uso
@@ -159,22 +182,20 @@ Compara años para ver:
 
 ## Vista por vela
 
-Entra en **/cockpit?view=glider** para comparar el rendimiento de tus velas.
+Entra en **/cockpit?view=glider** para comparar tus velas.
 
 ### Estadísticas por vela
 
 Para cada vela de tu libro de vuelo:
-- Número de vuelos
-- Distancia y puntos totales
-- Distancia XC media
-- Duración media de vuelo
-- Distancia máxima conseguida
-- Tasas de ascenso medias
+- **Vuelos**
+- **Horas totales**
+- **Media/vuelo** (horas por vuelo)
+- **Puntuación z** del tiempo de vuelo medio
 
 ### Comparar velas
 
 Responde a preguntas como:
-- ¿Con qué vela rindo mejor en distancia?
+- ¿Con qué vela me mantengo más tiempo en el aire?
 - ¿Cómo se comparan mis distintas velas?
 - ¿Qué vela vuelo más a menudo?
 
@@ -190,24 +211,31 @@ Entra en **/cockpit?view=takeoff** para analizar tu rendimiento por zona de vuel
 
 ### Estadísticas por zona de vuelo
 
-Para cada despegue:
-- Número de vuelos desde ese despegue
-- Distancia XC total
-- Distancia XC media
-- Distancia máxima desde ese despegue
-- **Puntuación de rendimiento (puntuación z)**: detección estadística de valores atípicos (consulta la [Guía de la puntuación z para pilotos](/doc/z-score-pilot-guide))
+Para cada despegue, una tabla ordenable muestra:
+- **Vuelos** desde ese despegue
+- **Horas totales**
+- **Media/vuelo** (horas por vuelo)
+- **Puntuación z**: detección estadística de valores atípicos (consulta la [Guía de la puntuación z para pilotos](/doc/z-score-pilot-guide))
 
 ## Vista por país
 
-Entra en **/cockpit/?view=country** para ver las estadísticas por países.
+Entra en **/cockpit?view=country** para ver las estadísticas por países.
 
 ### Estadísticas por país
 
 Para cada país en el que has volado:
-- Número de vuelos
-- Distancia XC total
-- Métricas medias
-- Mejores zonas de vuelo de ese país
+- **Vuelos**
+- **Horas totales**
+- **Media/vuelo** (horas por vuelo)
+- **Puntuación z** del tiempo de vuelo medio
+
+## Vista CIVL
+
+Entra en **/cockpit?view=civl** para ver tu clasificación CIVL (mundial, europea y nacional) y su historial. Antes, añade tu ID CIVL en los ajustes de tu perfil.
+
+## Vista de mapa
+
+Entra en **/cockpit?view=map** para ver en un mapa todos los despegues desde los que has volado, con el número de vuelos de cada uno.
 
 ## Consejos y buenas prácticas
 

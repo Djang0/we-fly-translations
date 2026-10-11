@@ -27,11 +27,12 @@ Mit geheimen Links (Freigabelinks) teilst du einzelne Flüge mit beliebigen Pers
 ### So funktioniert es
 
 **Für dich (Besitzer des Flugs):**
-1. Öffne die Detailseite eines Flugs
-2. Klick auf die Schaltfläche „Link erstellen“
-3. Eine eindeutige URL wird erzeugt
-4. Kopier den Link in die Zwischenablage
-5. Teil den Link mit wem du willst (E-Mail, Nachricht, soziale Medien)
+1. Öffne einen deiner Flüge
+2. Klick auf die Schaltfläche **Flug teilen** (das Teilen-Symbol in der Werkzeugleiste des Flugs)
+3. Eine eindeutige URL wird erzeugt und in deine Zwischenablage kopiert (auf dem Handy öffnet sich stattdessen das Teilen-Menü)
+4. Teil den Link mit wem du willst (E-Mail, Nachricht, soziale Medien)
+
+In deinem Flugbuch macht **Link kopieren** im Menü der Zeile dasselbe in einem Schritt.
 
 **Für die Empfänger:**
 1. Auf den geteilten Link klicken
@@ -46,7 +47,7 @@ Mit geheimen Links (Freigabelinks) teilst du einzelne Flüge mit beliebigen Pers
 - **Nicht zu erraten**: (Fast) unmöglich zu finden, ohne den Link zu haben
 - **Nicht durchsuchbar**: Links erscheinen weder in der Community noch in der Suche
 - **Dauerhaft**: Links bleiben gültig, bis du den Flug löschst
-- **Widerrufbar**: Mit „Link entfernen“, „Freigabe beenden“ oder „Flug löschen“ machst du den Link ungültig
+- **Widerrufbar**: Widerrufe den Link unter **Freigabelinks** (im Kontomenü) oder lösche den Flug
 
 ### Was über geheime Links sichtbar ist
 
@@ -93,10 +94,11 @@ Wenn du dein öffentliches Profil einschaltest, werden deine Flüge in der We-Fl
 
 ### So schaltest du das öffentliche Profil ein
 
-1. Geh zu **/profile**
-2. Such die Einstellung „Öffentliches Profil“
-3. Schalte sie ein
-4. Speichere die Änderungen
+1. Öffne dein **Profil** (Kontomenü)
+2. Klick auf **Privatsphäre**
+3. Schalte **Öffentliches Profil** ein
+
+Die Änderung gilt sofort, du musst nichts speichern.
 
 Deine Flüge sind jetzt in der Community sichtbar!
 
@@ -121,21 +123,21 @@ Auch mit öffentlichem Profil:
 ### Öffentliches Profil ausschalten
 
 So wirst du wieder privat:
-1. Geh zu **/profile**
-2. Schalte „Öffentliches Profil“ aus
-3. Speichere die Änderungen
+1. Öffne dein **Profil**
+2. Klick auf **Privatsphäre**
+3. Schalte **Öffentliches Profil** aus
 
 **Wirkung:**
 - Deine Flüge verschwinden aus den Listen der Community
-- Bestehende öffentliche Freigabelinks sind nicht mehr erreichbar
+- Der Link zu deiner geteilten Pilotenseite funktioniert nicht mehr
 - Dein Profil wird privat
-- Geheime Links funktionieren weiter
+- Geheime Links zu Flügen funktionieren weiter
 
 ---
 
 ## Funktionen der Community
 
-Die Funktionen der Community findest du unter **/community** (wenn du ein öffentliches Profil hast oder die öffentlichen Flüge anderer durchstöbern willst).
+Die Funktionen der Community findest du im Bereich **Community** des Menüs. Du musst angemeldet sein; Stöbern klappt egal, ob dein eigenes Profil öffentlich oder privat ist.
 
 ### Bereiche der Community
 
@@ -184,34 +186,26 @@ Entdecke andere Piloten mit öffentlichem Profil:
 - Statistik und Erfolge
 - Karte der Flüge (neueste Flüge)
 
-#### 3. Startplätze in der Community (/community/takeoffs)
+#### 3. Startplätze und Kartensuche
 
-Erkunde Startplätze mit Aktivität aus der Community:
+Erkunde Fluggebiete mit Aktivität aus der Community:
 
-**Funktionen:**
-- Liste der Startplätze
-- Sieh, wie viele Piloten von jedem Startplatz fliegen
-- Öffentliche Flüge von jedem Startplatz ansehen
-- Beliebte Fluggebiete entdecken
-
-**Infos zum Fluggebiet:**
-- Name und Lage des Fluggebiets
-- Anzahl der öffentlichen Flüge
-- Liste der Piloten, die dort fliegen
-- Fluggeschichte der Community
+- **Startplatz-Datenbank** (/takeoffs): Startplätze weltweit, mit ihrer Geschichte
+- **Flüge auf der Karte suchen** (/community/search-flights): Wähl einen Startplatz und sieh jeden Community-Flug, der dort gestartet ist
 
 **Anwendungsfälle:**
 - Aktive Fluggebiete finden
 - Sehen, was andere von deinen Hausbergen aus fliegen
 - Neue Ziele entdecken
 
+#### Und noch mehr
+
+Das Community-Menü führt außerdem zu **Ich folge**, **Vereine**, **Rangliste**, **Instrumente**, **Place to be** und **Saisonrückblick**.
+
 ### Filtern und Suchen
 
-Alle Bereiche der Community bieten:
-- **Datumsfilter**: Neueste, dieser Monat, dieses Jahr
-- **Ortsfilter**: Nach Land, Region
-- **Streckenfilter**: Minimale XC-Strecke
-- **Sortieroptionen**: Datum, Strecke, Wertung
+- **Flüge**: Suchfeld, Datumsvorgaben (Heute, Letzte 7 Tage, Letzte 30 Tage, Letzte 90 Tage, Letztes Jahr, Eigener), dazu die Filter Pilot, Fluggebiet, Schirm und Start
+- **Piloten**: Suche nach Namen, Mindestanzahl an Flügen, Filter-Chips und mehrere Sortierungen
 
 ---
 
@@ -293,7 +287,7 @@ Hilf mit, die Datenqualität hochzuhalten:
 
 ### Kann ich das Teilen eines Flugs rückgängig machen?
 
-**Geheime Links:** Lösch den Flug, um den Link ungültig zu machen.
+**Geheime Links:** Widerrufe den Link unter **Freigabelinks** im Kontomenü (oder lösche den Flug).
 **Öffentliches Profil:** Schalte das öffentliche Profil aus, um alle Flüge zu verbergen.
 
 ### Kann ich nur einige Flüge mit der Community teilen?
@@ -302,7 +296,7 @@ Derzeit nicht. Mit dem öffentlichen Profil werden alle Flüge öffentlich. Nutz
 
 ### Tauchen meine Flüge in der Google-Suche auf?
 
-Nein.
+Community-Seiten sind nur für angemeldete Piloten sichtbar und werden nie indexiert. Geheime Links listet We-Fly nirgends auf, aber wenn du einen auf einer öffentlichen Webseite postest, kann eine Suchmaschine ihn finden wie jeden anderen Link.
 
 ### Kann ich die IGC-Dateien anderer Piloten herunterladen?
 

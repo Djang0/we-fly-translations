@@ -46,7 +46,7 @@
     },
     "export": {
       "title": "Gegevens exporteren",
-      "description": "Download IGC-bestanden en een CSV van je vluchten · {count, plural, one {# record} other {# records}}"
+      "description": "Download je IGC-bestanden en een JSON-kopie van je gegevens · {count, plural, one {# record} other {# records}}"
     },
     "connectedServices": {
       "title": "Gekoppelde diensten",

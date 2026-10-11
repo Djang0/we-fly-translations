@@ -20,10 +20,10 @@ At the top of the tab, six summary cards give you the day's highlights:
 | Card | What it tells you |
 |---|---|
 | **Temperature** | Day max and min, plus "feels like" values |
-| **Precipitation** | Total rainfall in mm for the day |
-| **Max Wind** | Peak sustained wind, max gust, and dominant direction |
+| **Precipitation** | Total rainfall for the day |
+| **Max Wind** | Peak sustained wind, max gust, and its direction |
 | **Sunshine** | How many hours of direct sunlight hit the ground |
-| **Sunrise / Sunset** | Local times for the day's usable flying window |
+| **Sunrise** and **Sunset** | Local times for the day's usable flying window |
 
 These are your quick sanity checks: was it a full-sun day or were you fighting through patches all afternoon?
 
@@ -35,14 +35,14 @@ This is where it gets interesting. The table breaks down conditions hour by hour
 
 Here's what each column means:
 
-### Time
-Local hour of the reading (HH:MM format). The blue dot next to the time marks hours that overlap with your flight.
+### Hour
+Local hour of the reading (HH:MM format). The small dot next to the hour marks hours that overlap with your flight.
 
 ### Cond.: Weather Condition
 A WMO-coded weather icon and label. Covers everything from "Clear sky" to "Thunderstorm with heavy hail". If you were scratching under a grey sky, this confirms whether it was overcast, partial cloud, or actual fog.
 
 ### Temp: Temperature at 2m
-Air temperature at ground level (2 metres), in **°C**. Colour-coded from blue (freezing) through cyan, green, yellow, orange, and red (hot). A quick visual shortcut: green is your comfort zone, orange means it was a warm one.
+Air temperature at ground level (2 metres), in the temperature unit you picked in your profile. Colour-coded from blue (freezing) through cyan, green, yellow, orange, and red (hot). A quick visual shortcut: green is your comfort zone, orange means it was a warm one.
 
 ### Feels: Apparent Temperature
 What it actually felt like, factoring in humidity and wind chill. Useful for understanding why launch felt cold even when the thermometer said 18°C.
@@ -51,25 +51,25 @@ What it actually felt like, factoring in humidity and wind chill. Useful for und
 The percentage of moisture in the air. High humidity (above ~80%) tends to suppress thermal development and can indicate incoming instability. Low humidity combined with strong sun is often a sign the day went off properly.
 
 ### Wind: Wind Speed at 10m
-Sustained wind speed at 10 metres above ground, in **km/h**. This is the official surface wind reference, measured at standard meteorological height.
+Sustained wind speed at 10 metres above ground, in your wind unit (shown in the column header). This is the official surface wind reference, measured at standard meteorological height.
 
 ### Dir.: Wind Direction
 Compass direction the wind is blowing **from** (N, NE, E, etc.), with a rotated arrow to match. Sixteen-point resolution so you can see if the valley breeze was holding or whether the gradient started leaking in.
 
 ### Gusts: Wind Gust Speed
-Peak gust recorded during that hour, in **km/h**. If this number is significantly higher than the sustained wind, the air was turbulent. Gust factor (gusts ÷ wind) above 1.5 is a flag worth noting.
+Peak gust recorded during that hour, in the same unit as the wind. If this number is significantly higher than the sustained wind, the air was turbulent. Gust factor (gusts ÷ wind) above 1.5 is a flag worth noting.
 
 ### Cloud: Total Cloud Cover
 Percentage of the sky covered by clouds at all levels, shown with a visual bar. This is the combined total. See the cloud layer breakdown section below for a more granular picture.
 
 ### Rain: Precipitation
-Rainfall accumulated during the hour, in **mm**. Shown in blue when non-zero. Even 0.1 mm can indicate a passing shower; anything above 1 mm in a single hour means it was properly raining somewhere near your site.
+Rainfall accumulated during the hour (unit in the column header). Shown in blue when non-zero. Even a trace can indicate a passing shower; a steady hourly amount means it was properly raining somewhere near your site.
 
 ### Pressure: Mean Sea Level Pressure
 Atmospheric pressure normalised to sea level, in **hPa**. A dropping pressure across the day points toward deteriorating conditions; a rising pressure generally means improvement. Most pilots look at this trend rather than the absolute value.
 
 ### PBL AGL: Planetary Boundary Layer Height
-The ceiling of the convective mixing layer: essentially, the theoretical maximum altitude that thermals can reach under the given atmospheric conditions, in **metres above ground level (AGL)**. This value is measured from the terrain at your takeoff site, not from sea level. If you were punching through cloudbase and wondering how high you could go, this is your number. High PBL (2000m+ AGL) on a sunny day usually means sky's the limit; low PBL (below 1000m AGL) and you were scratching.
+The ceiling of the convective mixing layer: essentially, the theoretical maximum altitude that thermals can reach under the given atmospheric conditions, in your altitude unit, **above ground level (AGL)**. This value is measured from the terrain at your takeoff site, not from sea level. If you were punching through cloudbase and wondering how high you could go, this is your number. High PBL (2000m+ AGL) on a sunny day usually means sky's the limit; low PBL (below 1000m AGL) and you were scratching.
 
 > PBL data may not be available for all historical dates. When present, it also appears as an interactive bar chart below the table.
 

@@ -20,10 +20,10 @@ Arriba de la pestaña, seis tarjetas de resumen te dan lo más destacado del dí
 | Tarjeta | Lo que te dice |
 |---|---|
 | **Temperatura** | Máxima y mínima del día, más los valores de sensación térmica |
-| **Precipitación** | Lluvia total del día en mm |
-| **Viento máx.** | Viento medio máximo, racha máxima y dirección dominante |
+| **Precipitación** | Lluvia total del día |
+| **Viento máx.** | Viento medio máximo, racha máxima y su dirección |
 | **Sol** | Cuántas horas de sol directo llegaron al suelo |
-| **Amanecer / Atardecer** | Horas locales de la ventana de vuelo aprovechable del día |
+| **Amanecer** y **Atardecer** | Horas locales de la ventana de vuelo aprovechable del día |
 
 Son tus comprobaciones rápidas: ¿fue un día de sol pleno o pasaste la tarde peleando entre claros?
 
@@ -36,13 +36,13 @@ Aquí se pone interesante. La tabla desglosa las condiciones hora a hora en 13 c
 Esto es lo que significa cada columna:
 
 ### Hora
-Hora local de la lectura (formato HH:MM). El punto azul junto a la hora marca las horas que coinciden con tu vuelo.
+Hora local de la lectura (formato HH:MM). El pequeño punto junto a la hora marca las horas que coinciden con tu vuelo.
 
 ### Cond.: estado del tiempo
 Un icono y una etiqueta según el código meteorológico WMO. Cubre desde «Despejado» hasta «Tormenta + granizo». Si estabas rascando bajo un cielo gris, esto te confirma si estaba cubierto, parcialmente nublado o si era niebla de verdad.
 
 ### Temp.: temperatura a 2 m
-Temperatura del aire a ras de suelo (2 metros), en **°C**. Con código de colores del azul (helada) al cian, verde, amarillo, naranja y rojo (calor). Un atajo visual: el verde es tu zona de confort, el naranja significa que hizo calorcito.
+Temperatura del aire a ras de suelo (2 metros), en la unidad de temperatura que elegiste en tu perfil. Con código de colores del azul (helada) al cian, verde, amarillo, naranja y rojo (calor). Un atajo visual: el verde es tu zona de confort, el naranja significa que hizo calorcito.
 
 ### Sens.: temperatura aparente
 Lo que se sentía de verdad, teniendo en cuenta la humedad y el viento. Útil para entender por qué en el despegue hacía frío aunque el termómetro marcara 18 °C.
@@ -51,25 +51,25 @@ Lo que se sentía de verdad, teniendo en cuenta la humedad y el viento. Útil pa
 El porcentaje de humedad del aire. Una humedad alta (por encima de ~80 %) tiende a frenar el desarrollo térmico y puede anunciar inestabilidad. Humedad baja con sol fuerte suele ser señal de que el día se puso en marcha de verdad.
 
 ### Viento: velocidad del viento a 10 m
-Velocidad del viento medio a 10 metros sobre el suelo, en **km/h**. Es la referencia oficial del viento en superficie, medida a la altura meteorológica estándar.
+Velocidad del viento medio a 10 metros sobre el suelo, en tu unidad de viento (indicada en el encabezado de la columna). Es la referencia oficial del viento en superficie, medida a la altura meteorológica estándar.
 
 ### Dir.: dirección del viento
 Dirección **desde** la que sopla el viento (N, NE, E, etc.), con una flecha girada a juego. Resolución de dieciséis rumbos para que veas si la brisa de valle aguantaba o si el viento sinóptico empezaba a colarse.
 
 ### Rachas: velocidad de las rachas
-Racha máxima registrada durante esa hora, en **km/h**. Si este número es bastante más alto que el viento medio, el aire estaba turbulento. Un factor de racha (rachas ÷ viento) por encima de 1,5 es una señal a tener en cuenta.
+Racha máxima registrada durante esa hora, en la misma unidad que el viento. Si este número es bastante más alto que el viento medio, el aire estaba turbulento. Un factor de racha (rachas ÷ viento) por encima de 1,5 es una señal a tener en cuenta.
 
 ### Nubes: nubosidad total
 Porcentaje del cielo cubierto por nubes de todos los niveles, con una barra visual. Es el total combinado. Mira la sección de capas de nubes más abajo para un desglose más fino.
 
 ### Lluvia: precipitación
-Lluvia acumulada durante la hora, en **mm**. Se muestra en azul cuando no es cero. Incluso 0,1 mm puede indicar un chubasco de paso; más de 1 mm en una sola hora significa que llovía de verdad en algún sitio cerca de tu zona de vuelo.
+Lluvia acumulada durante la hora (unidad en el encabezado de la columna). Se muestra en azul cuando no es cero. Incluso unas gotas pueden indicar un chubasco de paso; una cantidad horaria sostenida significa que llovía de verdad en algún sitio cerca de tu zona de vuelo.
 
 ### Presión: presión media a nivel del mar
 Presión atmosférica reducida al nivel del mar, en **hPa**. Una presión que baja a lo largo del día apunta a un empeoramiento; una presión que sube suele significar mejoría. La mayoría de los pilotos se fija en la tendencia más que en el valor absoluto.
 
 ### CLP AGL: altura de la capa límite planetaria
-El techo de la capa de mezcla convectiva: básicamente, la altitud máxima teórica que pueden alcanzar las térmicas en esas condiciones atmosféricas, en **metros sobre el suelo (AGL)**. Este valor se mide desde el terreno de tu despegue, no desde el nivel del mar. Si estabas tocando techo y te preguntabas hasta dónde podías subir, este es tu número. Una CLP alta (más de 2000 m AGL) en un día de sol suele significar que el cielo es el límite; con una CLP baja (menos de 1000 m AGL), tocaba rascar.
+El techo de la capa de mezcla convectiva: básicamente, la altitud máxima teórica que pueden alcanzar las térmicas en esas condiciones atmosféricas, en tu unidad de altitud, **sobre el suelo (AGL)**. Este valor se mide desde el terreno de tu despegue, no desde el nivel del mar. Si estabas tocando techo y te preguntabas hasta dónde podías subir, este es tu número. Una CLP alta (más de 2000 m AGL) en un día de sol suele significar que el cielo es el límite; con una CLP baja (menos de 1000 m AGL), tocaba rascar.
 
 > Puede que no haya datos de CLP para todas las fechas históricas. Cuando los hay, también aparecen en un gráfico de barras interactivo debajo de la tabla.
 

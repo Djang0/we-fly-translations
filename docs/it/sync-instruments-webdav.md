@@ -97,7 +97,7 @@ A quel punto trascinare i file `.igc` in quell’unità li carica su We-Fly. Com
 
 ## Buono a sapersi
 
-- **Sono accettati solo i file `.igc`.** Tutto il resto che il dispositivo prova a inviare viene educatamente ignorato: nessun errore, nessun disordine. Quindi non importa se nella cartella dei tracklog ci sono anche strani file di configurazione o di log.
+- **Sono accettati solo i file `.igc`.** Tutto il resto che il dispositivo prova a inviare viene respinto e mai salvato. La tua app di sincronizzazione potrebbe segnare quei file come falliti, ed è innocuo, quindi non importa se nella cartella dei tracklog ci sono anche strani file di configurazione o di log.
 - **I doppioni vengono saltati automaticamente**, riconosciuti dal contenuto reale del file. Risincronizzare la stessa cartella mille volte non creerà mai un solo volo doppio. Per questo puoi lasciarla girare per sempre senza pensieri.
 - **Nello spirito è solo caricamento.** Il dispositivo spinge i voli verso l’alto; non torna mai indietro a modificare o rimuovere qualcosa. Vuoi eliminare un volo? Fallo nell’app We-Fly, mai dal dispositivo.
 
@@ -112,7 +112,7 @@ Passa in rassegna i soliti sospetti: sei davvero sotto Wi-Fi (o dove è impostat
 Certo. Punta una volta una coppia di sincronizzazione sull’intera cartella dell’archivio, lasciala macinare e ogni vecchia traccia arriva su We-Fly. Visto che i doppioni sono riconosciuti dal contenuto, il rischio di duplicati è zero, anche se alcuni di quei voli sono già nel tuo libretto.
 
 **La mia password è al sicuro?**
-È una **password per dispositivo**, non quella di accesso al tuo account. Serve solo a caricare file `.igc` e puoi **revocarla quando vuoi** dalla stessa scheda Servizi collegati. La revoca taglia fuori subito quel dispositivo e lascia intatti tutti gli altri. Vendi il tuo Air³? Prima revoca.
+È una **password per dispositivo**, non quella di accesso al tuo account. Apre solo la tua cartella dei voli (caricare nuovi file `.igc`, leggere quelli già presenti) e non può mai eliminare un volo né toccare il tuo account. Puoi **revocarla quando vuoi** dalla stessa scheda Servizi collegati. La revoca taglia fuori subito quel dispositivo e lascia intatti tutti gli altri. Vendi il tuo Air³? Prima revoca.
 
 **Questo elimina qualcuno dei miei voli?**
 No. La sincronizzazione è a senso unico e serve solo a caricare. Le eliminazioni avvengono **solo** nell’app We-Fly, di proposito, per mano tua. Niente di ciò che fa il tuo strumento può rimuovere un volo.

@@ -1,356 +1,146 @@
 ---
-title: "Ajustes del análisis avanzado de térmicas"
-description: "Configura los parámetros que se usan para detectar y puntuar tus térmicas"
+title: "Cómo funciona la detección de térmicas"
+description: "Las reglas que usa We-Fly para decidir dónde empieza una térmica, dónde termina y qué ascensos entran en la lista"
 category: Thermal Analysis
 order: 2
 ---
 
-*O sea: cómo enseñarle al algoritmo qué pinta tiene una térmica de verdad*
+*O sea: cómo decide el análisis que todos esos giros eran de verdad una térmica*
 
-Has subido tu vuelo, has abierto el análisis avanzado de térmicas y ahora miras la pestaña Ajustes preguntándote qué hacen todos estos deslizadores y números. La buena noticia: estás en el sitio correcto. La mala: nos vamos a poner un poco frikis (pero de forma divertida, prometido).
+Cada térmica que ves en la pestaña **Térmicas** de un vuelo la ha encontrado el mismo detector, con los mismos umbrales, para todos los pilotos. No hay deslizadores que ajustar ni nada que restablecer: las reglas son fijas para que tus números signifiquen lo mismo que los de tu colega, vuelo tras vuelo.
 
-Piensa en estos ajustes como una forma de enseñarle al ordenador qué consideras *tú* una «térmica digna de registrar». Porque, seamos sinceros, ¿esa burbuja débil y raquítica que trabajaste 45 segundos porque te estabas quedando bajo? Puede que el algoritmo no la cuente. Pero ¿ese ascensor glorioso de 5 m/s que te llevó de «uy, la que me va a caer» a «al techo, colega»? Esa sí se registra.
+Esta página explica esas reglas, para que cuando el análisis ignore un ascenso que estás seguro de haber trabajado (o parta una térmica en dos), sepas por qué.
 
 ---
 
 ## La versión resumida
 
-**El 99 % de los pilotos debería usar los ajustes por defecto.** Están afinados para las térmicas típicas de parapente y funcionan muy bien en la mayoría de vuelos. Toca esto solo si:
+1. El detector mira una ventana deslizante corta de tu track y se hace cuatro preguntas: ¿estás subiendo?, ¿estás girando?, ¿el giro es regular? y ¿has ganado altura?
+2. Combina las respuestas en una única **puntuación de térmica** entre 0 y 1.
+3. Una pequeña máquina de estados con una indecisión incorporada convierte esa puntuación en «planeando» y «centrando la térmica», para que una sola burbuja o una vuelta en descendencia no cambie el resultado.
+4. Después, cada ascenso candidato se recorta a los giros que de verdad hiciste y solo se conserva si dura lo suficiente, gana altura y contiene al menos dos giros completos.
 
-1. Vuelas en condiciones raras (térmicas superdébiles, viento loco, ascendencias mínimas pegado al relieve)
-2. Eres un friki de los datos y quieres entender *exactamente* cómo funciona el análisis
-3. Te tomaste una cerveza y pensaste que sería divertido ver qué pasa si lo pones todo al máximo
+El resto de esta página es el detalle de cada paso.
 
-¿Sigues aquí? Vale, vamos al lío.
-
----
-
-## Umbrales de detección
-
-*«¿Cuándo pasa el dar vueltas a ser "estoy en una térmica"?»*
-
-### Puntuación térmica mínima (por defecto: 0,35)
-
-**Qué hace:** el algoritmo combina varias señales (ascendencia, velocidad de giro, movimiento GPS) en una sola «puntuación de confianza térmica» de 0 a 1. Este ajuste dice «no lo llames térmica a menos que la confianza llegue al 35 %».
-
-**En términos de piloto:** ¿cómo de exigente eres con lo que cuenta como térmica?
-
-- **Más baja (0,2-0,3):** «Yo trabajo todo lo que sube». Pilla burbujas débiles, pero puede registrar algún falso positivo cuando solo estás girando en dinámica de ladera o rascando el relieve.
-- **Por defecto (0,35):** «Enséñame térmicas de verdad, no basura». Equilibrado para el vuelo de distancia típico.
-- **Más alta (0,4-0,5):** «Registra solo lo bueno». Se pierde térmicas débiles pero mantiene tus estadísticas limpias.
-
-**Hablando claro:** si vuelas en los Alpes y trabajas a menudo térmicas de 0,5 m/s pegado al relieve, bájala. Si vuelas en llanura en verano con núcleos de 4 m/s, puedes subirla.
+Todos los umbrales de abajo son los valores que usa internamente el motor, en unidades métricas. Tus unidades de visualización (pies, nudos, etc.) cambian cómo se te muestran los números, no dónde se trazan las líneas.
 
 ---
 
-### Puntuación térmica de salida (por defecto: 0,2)
+## Paso 1: cuatro señales en una ventana deslizante
 
-**Qué hace:** una vez que estás «dentro» de una térmica, la confianza tiene que bajar del 20 % antes de que el algoritmo empiece a pensar que has salido.
+Para cada punto GPS, el detector mira hacia atrás los diez puntos anteriores. Con un registrador típico que graba un punto por segundo, eso son unos diez segundos de vuelo, más o menos entre un cuarto y media vuelta.
 
-**En términos de piloto:** ¿cuánto rato sigues buscando antes de admitir «vale, la he perdido»?
+De esa ventana lee cuatro señales, cada una comprimida en una escala de 0 a 1:
 
-- **Más baja (0,1-0,15):** «Estoy fuera, seguro». Sale de las térmicas rápido. Bien si vuelas térmicas limpias y regulares.
-- **Por defecto (0,2):** «Vale, esto ya no funciona». Tolera una descendencia breve o dar vueltas por los bordes.
-- **Más alta (0,25-0,3):** «A lo mejor sigue por aquí...». Tarda más en salir. Útil en térmicas rotas y turbulentas en las que entras y sales todo el rato.
+| Señal | Qué mide | Nota máxima con | Peso |
+|---|---|---|---|
+| Vario | Velocidad vertical media en la ventana | 3 m/s | 45 % |
+| Regularidad del giro | Lo constante que es tu ritmo de giro | un giro perfectamente regular | 25 % |
+| Ritmo de giro | Lo rápido que cambia tu rumbo | 30°/s | 20 % |
+| Ganancia de altura | Altura neta ganada en la ventana | 50 m | 10 % |
 
-**Por qué es más baja que la de entrada:** ¡histéresis! Por lo mismo que tu termostato no enciende la calefacción a 20 °C y la apaga a 19,9 °C. Evita que el algoritmo registre 47 «térmicas» distintas cuando solo estás trabajando una burbuja rota.
+El vario es lo que más pesa porque es la prueba más directa de ascendencia. Le sigue la regularidad del giro, porque separa una térmica organizada (giros suaves y repetibles) de la turbulencia aleatoria, donde tu rumbo salta de un lado a otro. El ritmo de giro y la ganancia de altura confirman el cuadro.
 
----
-
-### Vario mínimo (por defecto: 0,3 m/s)
-
-**Qué hace:** ignora cualquier giro en el que tu vario marque menos que esto.
-
-**En términos de piloto:** «Si no es al menos así de buena, no la llamo térmica».
-
-- **Más bajo (0,1-0,2):** registra ascendencia débil, rascadas, incluso dinámica de ladera si estás girando. Genial para vuelos en «modo supervivencia».
-- **Por defecto (0,3):** umbral térmico estándar de distancia. Si no promedia 0,3 m/s, seguramente no te vas a mantener mucho tiempo.
-- **Más alto (0,5-1,0):** registra solo las térmicas en las que de verdad ganas altura a buen ritmo.
-
-**Dato curioso:** los valores por defecto están afinados para parapente. Si vuelas un ala delta con peor tasa de caída, quizá quieras subirlo un poco.
+La suma ponderada es la **puntuación de térmica**. Un piloto planeando en línea recta en aire en calma puntúa cerca de cero; un piloto trazando giros regulares en buena ascendencia puntúa muy por encima de 0,5.
 
 ---
 
-### Velocidad de giro mínima (por defecto: 10 °/s)
+## Paso 2: la máquina de estados (por qué el detector duda a propósito)
 
-**Qué hace:** lo rápido que tienes que girar para que el algoritmo piense «sí, está dando vueltas».
+Si el detector se limitara a decir «una puntuación por encima de X es una térmica», el resultado se encendería y apagaría cada vez que pasaras por un bache o cruzaras el lado de descendencia de un núcleo roto. Así que, en su lugar, pasa por cuatro estados:
 
-**En términos de piloto:** ¿cómo de cerrados son tus giros?
+| Estado | Cómo se entra | Cómo se sale |
+|---|---|---|
+| **Planeando** | Estado inicial | La puntuación llega a **0,35** → Entrando |
+| **Entrando** | La puntuación llegó a 0,35 | La puntuación se mantiene en 0,35 o más durante **5 segundos** → Centrando. Baja de 0,35 → vuelta a Planeando (falsa alarma) |
+| **Centrando** | Térmica confirmada | La puntuación baja de **0,20** → Saliendo |
+| **Saliendo** | La puntuación bajó de 0,20 | Se mantiene por debajo de 0,20 durante **3 segundos** → Planeando. Vuelve a subir a 0,35 o más → Centrando otra vez |
 
-- **Más baja (5-8 °/s):** giros amplios y perezosos. Bien para biplaza, alumnos que empiezan o si vuelas una vela de altas prestaciones y te gustan las inclinaciones suaves.
-- **Por defecto (10 °/s):** centrado normal. Un 360° completo cada 36 segundos.
-- **Más alta (15-20 °/s):** giros cerrados y agresivos. Un 360° cada 18-24 segundos. Puede que no detecte tu centrado si giras amplio.
+Aquí importan dos detalles:
 
-**Hablando claro:** la mayoría de los pilotos centra de forma natural a 10-15 °/s. Si el algoritmo se pierde térmicas evidentes, quizá giras más amplio que la media. Bájala a 8. Si registra «térmicas» al azar cuando solo haces eses en la ladera, súbela a 12-15.
+- **Entrar es más exigente que salir.** Necesitas 0,35 para empezar una térmica, pero solo tienes que mantenerte por encima de 0,20 para conservarla. Esta diferencia (llamada histéresis) es lo que evita que una térmica desordenada se trocee en cinco.
+- **Entre medias, el detector espera.** Si la puntuación ronda entre 0,20 y 0,35 mientras sales, ni termina la térmica ni la reinicia hasta que el cuadro esté claro.
 
----
+### Redes de seguridad para los ascensos largos
 
-## Parámetros de histéresis
+Una térmica larga acumula mucha altura, y esa altura ganada puede ocultar el momento en que la ascendencia realmente se acabó. Dos reglas adicionales lo detectan:
 
-*«Deja de ser tan nervioso, algoritmo»*
+- **Comprobación de la tendencia reciente.** Mientras centras, si los últimos 60 segundos muestran una pérdida neta de altura, la térmica se cierra de inmediato, por buena que fuera antes.
+- **Comprobación del ascenso medio.** Pasado el primer minuto, el ascenso medio desde el inicio de la térmica debe mantenerse por encima de 0,2 m/s. El listón sube a 0,3 m/s pasados tres minutos y a 0,4 m/s pasados cinco. Si caes por debajo, la térmica se cierra.
+- **Corte por descenso fuerte.** Una vez que estás saliendo, perder 30 m más termina la térmica al instante, aunque unos cuantos giros de búsqueda hagan subir brevemente la puntuación.
 
-Estos parámetros evitan que el detector se encienda y se apague cada vez que pillas un rebufo o pasas 2 segundos en descendencia. Piensa en ellos como un «tiempo de confirmación».
-
-### Duración de entrada (por defecto: 5 segundos)
-
-**Qué hace:** tienes que cumplir las condiciones de térmica durante estos segundos seguidos antes de que cuente oficialmente como «entrada en térmica».
-
-**En términos de piloto:** ¿cuántos giros das antes de comprometerte y decir «sí, esto es una térmica»?
-
-- **Más baja (2-3 s):** «¡Estoy dentro!» tras medio giro. Registra térmicas rápido, pero puede pillar falsos positivos.
-- **Por defecto (5 s):** unos 1,5 giros para confirmar. Buen equilibrio.
-- **Más alta (8-10 s):** «Déjame asegurarme primero de que es real». Hacen falta 2-3 giros para registrarla. Se pierde burbujas cortas pero da resultados muy limpios.
-
-**Cuándo ajustarla:** bájala si vuelas en condiciones muy rotas, con térmicas pequeñas, y necesitas pillarlo todo. Súbela si se registran térmicas falsas (habitual con viento o turbulencia).
+Estas reglas son la razón de que dos ascensos reales unidos por un corto planeo de búsqueda aparezcan como dos térmicas y no como una.
 
 ---
 
-### Duración de salida (por defecto: 3 segundos)
+## Paso 3: recortar y luego conservar o descartar
 
-**Qué hace:** tienes que *no* cumplir las condiciones de térmica durante este tiempo antes de que cuente como «salida de térmica».
+Cuando una térmica se cierra, el detector la limpia antes de decidir si cuenta.
 
-**En términos de piloto:** cuánto rato sigues buscando cuando muere la ascendencia antes de salir a planear.
+**Recorte.** La máquina de estados abre una térmica unos segundos después de que empieces a girar y la cierra unos segundos después de que salgas. Esos bordes son sobre todo planeo de búsqueda, así que la térmica se recorta para ir desde el inicio de tu primer giro completo de 360° hasta el final del último. Un giro completo necesita al menos ocho puntos GPS, así que un meneo ruidoso no cuenta.
 
-- **Más baja (1-2 s):** «No, me voy». Sale rápido. Bien para térmicas limpias y regulares.
-- **Por defecto (3 s):** «Espera, a lo mejor aquí solo está floja...». Un giro más para comprobar.
-- **Más alta (5-8 s):** «La voy a trabajar un poco más...». Varios giros antes de rendirte. Bien para térmicas complejas con varios núcleos.
+**Conservar o descartar.** Tras el recorte, una térmica solo se conserva si:
 
-**Consejo pro:** en térmicas de verano fuertes y contundentes, puedes bajarla. En primavera u otoño, con ascendencia débil y rota, súbela.
+- **ganó altura** en conjunto,
+- duró al menos **15 segundos**, y
+- contiene al menos **dos giros completos**.
 
----
+Todo lo demás se trata como un paso por una ascendencia o un giro de búsqueda, no como una térmica. Seguirás viendo ese tiempo en la pestaña **Fases**: los giros que no pasaron el corte aparecen como **Búsqueda**, y el resto como **Planeo** o **Planeo neutro**.
 
-### Duración mínima de térmica (por defecto: 15 segundos)
+### Despegues remolcados y motorizados
 
-**Qué hace:** si solo giras durante menos de esto, no cuenta como «térmica» en las estadísticas.
+Una subida con remolque, torno o paramotor es fuerte y regular, justo lo que puntúa bien, pero no es una térmica. Cuando el tipo de despegue de un vuelo es **Remolcado** o **Motorizado**, la detección empieza solo en tu primer giro sostenido (un ritmo de giro suavizado de al menos 8°/s mantenido durante ocho puntos consecutivos). Todo lo anterior se trata como la subida del despegue.
 
-**En términos de piloto:** «¿Eso fue una térmica o solo un meneo?»
-
-- **Más baja (8-10 s):** cuenta las burbujas cortas. Bien si saltas de burbuja en burbuja a propósito.
-- **Por defecto (15 s):** unos 4 giros como mínimo. Filtra los momentos de «di dos vueltas y me fui».
-- **Más alta (20-30 s):** registra solo las térmicas en las que te quedaste a trabajarlas. Estadísticas más limpias, pero puede perder ascensos cortos legítimos.
-
-**Cuándo usarla:** si vuelas en competición y trabajas cada pequeña rascada, bájala. Si haces distancia tranquila y solo quieres térmicas «de verdad» en tus estadísticas, súbela.
+Si el tipo de despegue de un vuelo está mal, corrígelo con **Cambiar tipo de despegue** en el menú de acciones del vuelo. El vuelo se vuelve a analizar con el nuevo ajuste.
 
 ---
 
-## Detección de giros
+## Paso 4: qué se mide en cada térmica
 
-*«Cómo distinguir entre centrar una térmica y simplemente girar»*
+Una vez conservada una térmica, el análisis la mide. Estos son los números que ves en el panel de detalles de la térmica:
 
-### Ventana mínima de giro (por defecto: 10 segundos)
+- **Ascenso.** Ganancia y ascenso medio, máximo y mínimo. El máximo y el mínimo se suavizan sobre 5 segundos para que un solo punto GPS ruidoso no pueda marcar un récord; los picos brutos de un solo punto se muestran al lado como «pico».
+- **Núcleo.** Para cada giro completo, el análisis encuentra el centro de la ascendencia, ponderado hacia los puntos en los que mejor subiste. Esos centros por giro se combinan en la posición, la intensidad y el tamaño del núcleo de la térmica.
+- **Tiempo de centrado.** Tiempo desde el inicio de la térmica hasta que estuviste por primera vez a menos de 50 m del núcleo subiendo a más del 70 % de la intensidad del núcleo.
+- **Centrado.** Lo cerca del núcleo que giraste. Girar al radio del propio núcleo (o más cerrado) puntúa 100 %; cada radio de núcleo adicional de distancia cuesta un 50 %, así que girar a tres veces el radio del núcleo puntúa cero. La deriva del viento se elimina comparando cada giro con su propio centro local.
+- **Eficiencia.** Altura ganada dividida por la distancia horizontal entre el punto donde empezó la térmica y donde terminó, con un máximo del 100 %.
+- **Dinámica de giro.** Sentido, número de giros completos, ritmo de giro medio, tiempo por vuelta, radio de giro, y una estimación de la inclinación y de la velocidad aire a partir del radio y el periodo del giro.
+- **Deriva y viento.** Distancia de deriva y una estimación de la velocidad y la dirección del viento a partir de cómo se desplazaron tus giros sobre el suelo.
 
-**Qué hace:** el algoritmo mira estos segundos de vuelo cada vez para calcular si estás girando.
-
-**En términos de piloto:** cuánto historial de vuelo se analiza para ver si tus giros son regulares.
-
-- **Más baja (5-8 s):** respuesta rápida. Detecta térmicas pronto pero es más sensible al ruido.
-- **Por defecto (10 s):** unos 2,5 giros de datos. Buen equilibrio entre rapidez y precisión.
-- **Más alta (15-20 s):** respuesta más lenta pero muy precisa. Puede tardar más en detectar la entrada en térmica.
-
-**Hablando claro:** la mayoría de los pilotos no necesitará tocar esto. Es un parámetro técnico que afecta a la suavidad del algoritmo, no realmente al comportamiento del piloto.
+Todo esto alimenta la **puntuación de calidad** de la térmica y sus **Recomendaciones**. La fórmula de puntuación tiene su propia página: [La puntuación global de térmica, explicada](/doc/overall-thermal-score).
 
 ---
 
-### Número mínimo de giros (por defecto: 1,0)
+## Preguntas frecuentes
 
-**Qué hace:** tienes que completar al menos estos 360° completos para que cuente como «girar en una térmica».
+### ¿Por qué no aparece en la lista mi ascenso favorito?
 
-**En términos de piloto:** ¿cuántos giros hacen falta para que sea oficialmente una térmica?
+Comprueba esto, por orden:
 
-- **Más bajo (0,5-0,8):** medio giro basta. Pilla contactos térmicos muy cortos.
-- **Por defecto (1,0):** al menos un 360° completo. Filtra los «giré dos veces y me fui».
-- **Más alto (2-3):** hacen falta varios giros completos. Muy conservador, se pierde los ascensos rápidos.
+1. ¿Hiciste al menos **dos giros completos**? Un ascenso que atravesaste en línea recta, o con un solo giro, no cuenta.
+2. ¿Duró al menos **15 segundos** una vez recortado a tus giros?
+3. ¿De verdad **ganaste altura** entre tu primer y tu último giro completo?
+4. ¿Fue justo después de una subida con remolque o con motor? En un vuelo **Remolcado** o **Motorizado**, no cuenta nada anterior a tu primer giro sostenido.
 
-**Cuándo ajustarlo:** combínalo con Duración mínima de térmica. Si quieres registrarlo todo, pon los dos bajos. Si quieres estadísticas limpias, pon los dos altos.
+### ¿Por qué se partió una térmica en dos?
 
----
+Casi siempre ha saltado la comprobación de la tendencia reciente o el corte por descenso fuerte: en algún punto intermedio perdiste altura durante un minuto, o perdiste 30 m mientras la puntuación estaba baja. Desde el punto de vista del track, saliste de una térmica y encontraste otra.
 
-### Radio máximo del núcleo (por defecto: 80 metros)
+### ¿Puedo cambiar los umbrales?
 
-**Qué hace:** al calcular la «calidad del centrado», el algoritmo mide cuánto te alejas del núcleo de la térmica. Este ajuste fija el radio máximo que considera razonable.
+No. Las versiones anteriores de We-Fly tenían un panel de ajustes para esto; ya no existe. Unas reglas fijas hacen que el número de térmicas, las tasas de ascenso y las puntuaciones de calidad se puedan comparar con justicia entre tus propios vuelos y con otros pilotos.
 
-**En términos de piloto:** ¿qué tamaño de giro esperamos?
+### ¿Cambian estas reglas mis estadísticas de vuelo?
 
-- **Más bajo (50-60 m):** núcleos estrechos. Bien para las térmicas potentes de verano. Penaliza los giros amplios.
-- **Por defecto (80 m):** estándar en parapente. Un radio de ~50-80 m es lo típico.
-- **Más alto (100-120 m):** térmicas grandes y anchas. Llanura, condiciones débiles o si giras amplio.
+Son las que las definen. Tu número de térmicas, la altura ganada en térmicas, el ascenso medio y los números de centrado de térmicas del Cockpit salen todos de este detector. Como todo el mundo tiene las mismas reglas, las comparaciones son de igual a igual.
 
-**Dato curioso:** esto no afecta a *qué* se registra como térmica, solo a la puntuación de calidad. Una térmica es una térmica. Esto solo cambia lo «bueno» que el algoritmo cree que fue tu centrado.
+### ¿Importa el intervalo de grabación de mi registrador?
 
----
-
-## Métricas de calidad
-
-*«¿Cómo de buena fue esa térmica, de verdad?»*
-
-### Ratio ideal de deriva (por defecto: 0,3)
-
-**Qué hace:** la relación entre la distancia de deriva y la altura ganada. El valor por defecto 0,3 significa que lo ideal es derivar 30 m de lado por cada 100 m que subes.
-
-**En términos de piloto:** ¿qué cuenta como «bien centrado» frente a «derivando fuera del núcleo»?
-
-- **Más bajo (0,1-0,2):** muy estricto. «Casi no deberías derivar». Bien para condiciones tranquilas y térmicas fuertes.
-- **Por defecto (0,3):** realista para condiciones normales. Algo de deriva es normal.
-- **Más alto (0,4-0,6):** permisivo. «No pasa nada por derivar, sigo subiendo». Bien para días de viento o térmicas débiles que derivan.
-
-**Por qué importa:** afecta a tus puntuaciones de calidad térmica y a las recomendaciones. Si vuelas con viento fuerte y derivas 50 m constantemente mientras subes, súbelo para que no te penalice.
+Algo. La ventana deslizante y la prueba del «giro completo» cuentan puntos GPS. Los registradores que graban cada segundo dan el resultado más limpio. Un registrador que graba cada pocos segundos ve menos puntos por vuelta, así que es más fácil que se le escapen las térmicas cortas o cerradas.
 
 ---
 
-### Ventana de centrado (por defecto: 20 segundos)
+## Para saber más
 
-**Qué hace:** el algoritmo revisa tus primeros X segundos en la térmica para ver lo rápido que encontraste el núcleo.
-
-**En términos de piloto:** «¿Cuánto tardaste en encontrar la mejor ascendencia?»
-
-- **Más baja (10-15 s):** «¿Lo clavaste a la primera?». Muy estricta con el centrado inicial.
-- **Por defecto (20 s):** unos 5-6 giros para encontrar el núcleo. Realista para la mayoría de los pilotos.
-- **Más alta (30-40 s):** «Tómate tu tiempo, a todos nos cuesta a veces». Más indulgente si al principio das un poco de vueltas.
-
-**Hablando claro:** esto afecta a los comentarios «Gran entrada al núcleo» / «Trabaja el centrado». Si te sale mucho «trabaja el centrado» pero sientes que *sí* centras bien, quizá tu estilo es simplemente más exploratorio en los primeros giros. Súbela.
-
----
-
-## Casos prácticos: cuándo cambiar los ajustes
-
-### «El algoritmo no registra mis térmicas débiles»
-
-Vuelas en condiciones justas, trabajando ascendencias de 0,3-0,8 m/s, pero el análisis no muestra ninguna térmica.
-
-**Solución:**
-- Baja **Vario mínimo** a 0,2
-- Baja **Puntuación térmica mínima** a 0,25
-- Baja **Duración mínima de térmica** a 10 s
-
----
-
-### «Registra "térmicas" al azar que no eran térmicas»
-
-Ves térmicas registradas durante tu planeo, o cuando solo estabas girando cerca del relieve.
-
-**Solución:**
-- Sube **Puntuación térmica mínima** a 0,4
-- Sube **Velocidad de giro mínima** a 12-15 °/s
-- Sube **Duración mínima de térmica** a 20 s
-
----
-
-### «¡Me sale "trabaja el centrado" pero centro bien!»
-
-El algoritmo cree que derivas demasiado o que tardas mucho en encontrar el núcleo.
-
-**Solución:**
-- Sube **Ratio ideal de deriva** a 0,4-0,5 (sobre todo en días de viento)
-- Sube **Ventana de centrado** a 30 s (te da más tiempo para explorar)
-
----
-
-### «En el análisis las térmicas empiezan y terminan todo el rato»
-
-Estás trabajando una sola térmica pero se registra como 3 térmicas distintas.
-
-**Solución:**
-- Sube **Duración de salida** a 5-8 s (tarda más en salir)
-- Baja **Puntuación térmica de salida** a 0,15 (más fácil seguir «dentro»)
-
----
-
-### «Vuelo biplaza y no detecta mis térmicas»
-
-Biplaza = giros más amplios, viradas más lentas, vuelo más conservador.
-
-**Solución:**
-- Baja **Velocidad de giro mínima** a 6-8 °/s
-- Sube **Radio máximo del núcleo** a 100 m
-- Sube **Ventana de centrado** a 30 s
-
----
-
-## La guía «dime qué hago y ya»
-
-### La mayoría de los pilotos (distancia, ocio)
-**Usa los valores por defecto.** Están afinados para ti. En serio.
-
-### Pilotos de competición
-- Baja **Duración mínima de térmica** a 10 s (cada ascenso cuenta)
-- Baja **Duración de entrada** a 3 s (detección rápida)
-- Sube **Vario mínimo** a 0,5 (registra solo las buenas térmicas)
-
-### Vuelo en costa o pegado al relieve
-- Baja **Puntuación térmica mínima** a 0,25 (pilla la ascendencia débil)
-- Sube **Duración de salida** a 5 s (térmicas rotas)
-- Sube **Ratio ideal de deriva** a 0,5 (deriva por el viento)
-
-### Vuelo en llanura (térmicas fuertes de verano)
-- Sube **Vario mínimo** a 0,5 m/s (ignora la ascendencia débil)
-- Baja **Radio máximo del núcleo** a 60 m (núcleos estrechos)
-- Sube **Velocidad de giro mínima** a 12 °/s (giros más cerrados)
-
-### Vuelo alpino (térmicas débiles y rotas)
-- Baja **Vario mínimo** a 0,2 m/s
-- Baja **Puntuación térmica mínima** a 0,25
-- Sube **Duración de salida** a 8 s (no salgas demasiado rápido)
-
----
-
-## Preguntas frecuentes: lo que hemos oído en el aterrizaje
-
-### «¿Por qué no aparece mi térmica favorita?»
-
-Comprueba esto en orden:
-1. ¿Duró al menos 15 s? (Duración mínima de térmica)
-2. ¿La ascendencia fue de al menos 0,3 m/s? (Vario mínimo)
-3. ¿Estabas girando de verdad? (Velocidad de giro mínima)
-4. ¿Completaste al menos un 360° entero? (Número mínimo de giros)
-
-### «¿Puedo romper algo trasteando con esto?»
-
-¡Qué va! En el peor de los casos, te salen resultados raros. Pulsa «Restablecer valores por defecto» y vuelves a la normalidad.
-
-### «¿Qué pasa si lo pongo todo al máximo?»
-
-Seguramente no se detecte ninguna térmica. El algoritmo dirá «NADA ES SUFICIENTEMENTE BUENO» y lo rechazará todo. Es como poner el listón tan alto en las citas que acabas solo. (Lo hemos probado. Por la ciencia.)
-
-### «¿Y si lo pongo todo al mínimo?»
-
-Todo se convierte en térmica. ¿Tu inflado en el suelo? Térmica. ¿Tu pasada por la ladera? 47 térmicas. ¿Aquella vez que arrastraste la punta del ala? Una térmica sorprendentemente buena. Otra vez: lo probamos. Fue el caos.
-
-### «¿Estos ajustes afectan a las estadísticas de mi vuelo?»
-
-¡Sí! Cambiar lo que cuenta como «térmica» cambia tu número de térmicas, la altura total ganada en térmicas, la tasa de ascenso media, etc. Así que si comparas estadísticas con un amigo, aseguraos de usar los mismos ajustes.
-
----
-
-## Notas avanzadas para frikis
-
-(Sáltate esto tranquilamente si solo quieres volar)
-
-La detección de térmicas usa una **puntuación compuesta de varias señales** que combina:
-- Lecturas del vario (¿estás subiendo?)
-- Velocidad de giro (¿estás girando?)
-- Geometría del track GPS (¿tu trayectoria encaja con un centrado?)
-- Cambios de rumbo (¿completas los giros?)
-
-Cada señal se normaliza entre 0 y 1, se pondera y se combina. La **Puntuación térmica mínima** es el umbral de esa puntuación combinada.
-
-Los **parámetros de histéresis** (duración de entrada y de salida) implementan una máquina de estados con retardos de confirmación para evitar oscilaciones. Es el mismo principio que usan los termostatos, las luces de freno y básicamente cualquier sistema que necesite evitar encendidos y apagados rápidos.
-
-Las **métricas de calidad** usan estadística circular para calcular el rumbo de la deriva, la posición del núcleo de la térmica y la eficacia del centrado. Las matemáticas incluyen productos escalares, diferencias de rumbo y algo de geometría de coordenadas que haría sentirse orgulloso (o traumatizado) a tu profe de mates del instituto.
-
-## Reflexión final
-
-Mira, al final del día estos ajustes son solo mandos que cambian lo que el algoritmo considera una «térmica». Lo que de *verdad* te enseña es:
-
-1. Volar el vuelo
-2. Mirar el análisis
-3. Compararlo con lo que *sentiste* en el aire
-4. Cambiar los ajustes si hace falta
-5. Aprender de los patrones
-
-El objetivo no es engañar al sistema para tener estadísticas perfectas. Es entender mejor cómo vuelas. ¿Centraste bien de verdad o tuviste suerte con un núcleo fuerte? ¿Saliste de las térmicas demasiado pronto o se estaban muriendo de verdad?
-
-El algoritmo es una herramienta, no un juez. Úsalo para mejorar, no para agobiarte con los números.
-
-Y ahora sal a buscar térmicas. Las de verdad. En el aire. Donde tienen que estar.
-
-*Cielos azules y aire suave,*
+- [Análisis avanzado de térmicas](/doc/advanced-thermal-analysis): un recorrido por la pestaña **Térmicas**
+- [La puntuación global de térmica, explicada](/doc/overall-thermal-score): cómo se construye la puntuación de cada térmica

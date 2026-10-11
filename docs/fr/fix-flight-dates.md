@@ -13,10 +13,10 @@ Ta trace, tes horaires et tes scores sont bons. Seule la date est fausse, ce qui
 
 ## Corriger un vol
 
-Ouvre le menu **⋯** du vol et choisis **Changer la date**.
+Dans ton carnet de vol, ouvre le menu **⋯** du vol et choisis **Changer la date**.
 
-- Si la date semble inversée, We-Fly affiche une **Correction suggérée** à côté de la date actuelle. Un tap et c’est appliqué.
-- Sinon, choisis le bon jour dans le calendrier. L’heure du vol ne bouge pas, seul le jour change.
+- Si la date semble inversée, We-Fly affiche **Correction suggérée** avec la date corrigée. Tape sur **Utiliser la date suggérée**, puis sur **Enregistrer la date**.
+- Sinon, choisis le bon jour dans le calendrier et tape sur **Enregistrer la date**. L’heure du vol ne bouge pas, seul le jour change.
 
 ## Corriger plusieurs vols d’un coup
 

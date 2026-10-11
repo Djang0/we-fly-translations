@@ -38,19 +38,18 @@ Non tutti i voli entrano. Ecco quali sono validi:
 
 ### Cosa vedi
 
+La tabella **Top 10 piloti**, con **Attività** selezionata:
+
 | Colonna | Cosa significa |
 |--------|--------------|
-| Posizione | Il tuo posto in classifica |
+| # | Il tuo posto in classifica |
 | Pilota | Nome I. (rispettoso della privacy) |
 | Voli | Numero totale di voli validi |
 | Ore | Tempo di volo totale sui voli validi |
-| XC km | Chilometri totali di volo di distanza |
+| XC | Distanza totale di volo di distanza, nella tua unità di distanza |
 | Punteggio XC | Il numero che decide la tua posizione |
-| Livello | Il tuo badge in base alle ore totali di volo pubblico |
 
-### Il sistema dei livelli (versione breve)
-
-Il badge di livello si basa sulle **ore totali di volo pubblico** e va dall’Ala di bronzo fino all’Ala di titanio. È un badge di progressione, non una valutazione delle capacità: accumula abbastanza ore e salirai di livello. Pensalo come le miglia di una carta fedeltà, ma per gente che vola davvero.
+La classifica di sempre in cima alla pagina usa gli stessi voli validi. Passa tra **Punteggio XC**, **Distanza XC** e **Tempo di volo** per riordinare quei piloti secondo la metrica che ti interessa.
 
 ### In sintesi
 
@@ -70,8 +69,8 @@ Il punteggio di rendimento combina tre metriche, **con lo stesso peso**, usando 
 
 | Metrica | Cosa premia |
 |--------|----------------|
-| **Distanza all’ora** (km/h) | Coprire terreno in modo efficiente: buona scelta della rotta, planata solida, poco tempo a raschiare |
-| **Distanza per volo** (km) | Andare lontano quando parti: impegnarsi in un vero volo di distanza, non mollare al primo vento contrario |
+| **Distanza all’ora** | Coprire terreno in modo efficiente: buona scelta della rotta, planata solida, poco tempo a raschiare |
+| **Distanza per volo** | Andare lontano quando parti: impegnarsi in un vero volo di distanza, non mollare al primo vento contrario |
 | **Numero di voli validi** | Esserci: più voli validi significano un impegno XC più costante |
 
 Il tuo punteggio composito è la media dei tre z-score:
@@ -88,7 +87,7 @@ Se gli z-score ti fanno venire gli occhi a palla, dai un’occhiata alla [Guida 
 |-------|-------|--------------|-------------------|
 | +2,0 o più | Verde | Ben sopra la media della community | Non stai solo volando, stai *viaggiando* |
 | da +1,0 a +2,0 | Verde | Nettamente sopra la media | Pilota efficiente, buone decisioni |
-| da -1,0 a +1,0 | Neutro | Intorno alla media della community | Normale, sano, niente da segnalare |
+| da -1,0 a +1,0 | Verde sopra lo 0, rosso sotto | Intorno alla media della community | Normale, sano, niente da segnalare |
 | da -1,0 a -2,0 | Rosso | Sotto la media | Margine di miglioramento sul rendimento XC |
 | -2,0 o meno | Rosso | Ben sotto la media | Forse passi molto tempo a fare dinamica? |
 
@@ -144,7 +143,7 @@ Ti servono **almeno 5 voli validi** (XC di 10+ km, senza motore, oltre i 5 minut
 
 ### «Il mio punteggio è negativo. Sono un cattivo pilota?»
 
-No. Un punteggio negativo significa che sei **sotto la media attuale della community** su quelle metriche. È relativo. Se la community è piena di piloti da gara XC, anche un solido pilota amatoriale risulterà negativo. Non dice niente sulla tua sicurezza, sulla tua abilità in turbolenza, sulla precisione in atterraggio o sulla tua capacità di scegliere un bar dopo il volo.
+No. Un punteggio negativo significa che sei **sotto la media attuale della community** su quelle tre metriche. È relativo. Se la community è piena di piloti da gara XC, anche un solido pilota amatoriale risulterà negativo. Non dice niente sulla tua sicurezza, sulla tua abilità in turbolenza, sulla precisione in atterraggio o sulla tua capacità di scegliere un bar dopo il volo.
 
 ### «Perché il minimo di 10 km?»
 

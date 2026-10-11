@@ -38,19 +38,18 @@ Not every flight makes the cut. Here's what qualifies:
 
 ### What You See
 
+The **Top 10 pilots** table, with **Activity** selected:
+
 | Column | What It Means |
 |--------|--------------|
-| Rank | Your position on the board |
+| # | Your position on the board |
 | Pilot | FirstName L. (privacy-friendly) |
 | Flights | Total qualifying flight count |
 | Hours | Total airtime across qualifying flights |
-| XC Km | Total cross-country kilometers |
+| XC | Total cross-country distance, in your distance unit |
 | XC Score | The number that determines your rank |
-| Tier | Your badge based on total public flight hours |
 
-### The Tier System (Quick Version)
-
-Your tier badge is based on **total public flight hours** and goes from Bronze Wing all the way up to Titanium Wing. It's a progression badge, not a skill rating -- fly enough hours and you'll climb the tiers. Think of it as frequent flyer miles, but for people who actually fly.
+The all-time board at the top of the page uses the same qualifying flights. Switch it between **XC score**, **XC distance** and **Air time** to re-rank those pilots by the metric you care about.
 
 ### The Bottom Line
 
@@ -70,8 +69,8 @@ The efficiency score combines three metrics, **equally weighted**, using z-score
 
 | Metric | What It Rewards |
 |--------|----------------|
-| **Distance per hour** (km/h) | Covering ground efficiently -- good route planning, solid glide, minimal scratching |
-| **Distance per flight** (km) | Going far when you go -- committing to real XC, not bailing at the first headwind |
+| **Distance per hour** | Covering ground efficiently -- good route planning, solid glide, minimal scratching |
+| **Distance per flight** | Going far when you go -- committing to real XC, not bailing at the first headwind |
 | **Qualifying flight count** | Showing up -- more qualifying flights means more consistent XC commitment |
 
 Your composite score is the average of the three z-scores:
@@ -88,7 +87,7 @@ If z-scores make your eyes glaze over, check out the [Z-Score Pilot Guide](/doc/
 |-------|-------|--------------|-------------------|
 | +2.0 or higher | Green | Way above community average | You're not just flying, you're *traveling* |
 | +1.0 to +2.0 | Green | Solidly above average | Efficient pilot, good decision-making |
-| -1.0 to +1.0 | Neutral | Around the community average | Normal, healthy, nothing wrong here |
+| -1.0 to +1.0 | Green above 0, red below | Around the community average | Normal, healthy, nothing wrong here |
 | -1.0 to -2.0 | Red | Below average | Room to improve on XC efficiency |
 | -2.0 or lower | Red | Well below average | Maybe spending a lot of time ridge soaring? |
 
@@ -144,7 +143,7 @@ That's by design. The efficiency board doesn't care how *often* you fly -- that'
 
 ### "My score is negative. Am I a bad pilot?"
 
-No. A negative score means you're **below the current community average** on those two metrics. It's relative. If the community is full of XC competition pilots, even a solid recreational pilot will show negative. It says nothing about your safety, your skill in turbulence, your landing accuracy, or your ability to pick a pub after flying.
+No. A negative score means you're **below the current community average** on those three metrics. It's relative. If the community is full of XC competition pilots, even a solid recreational pilot will show negative. It says nothing about your safety, your skill in turbulence, your landing accuracy, or your ability to pick a pub after flying.
 
 ### "Why the 10 km minimum?"
 

@@ -5,7 +5,7 @@ category: Account & Data
 order: 3
 ---
 
-**Zuletzt aktualisiert:** 7. Oktober 2026
+**Zuletzt aktualisiert:** 11. Oktober 2026
 
 ## 1. Einleitung
 
@@ -231,6 +231,13 @@ Einige unserer Drittanbieter haben ihren Sitz außerhalb des Europäischen Wirts
 - **Anbieter:** NextAuth.js
 - **Deaktivierbar:** Nein (für die Funktion des Dienstes unerlässlich)
 
+**Cookies zur Absicherung der Verbindung (autorouter):**
+- **Namen:** `ar_oauth_state`, `ar_oauth_return`
+- **Zweck:** Absicherung der Anmeldung bei autorouter, wenn du es für NOTAMs verbindest, und Rückkehr zu der Seite, von der du gekommen bist
+- **Art:** HTTP-only, sicher
+- **Dauer:** 10 Minuten, gelöscht, sobald die Verbindung hergestellt ist
+- **Deaktivierbar:** Nein (wird nur gesetzt, wenn du dich entscheidest, autorouter zu verbinden)
+
 ### 6.2 Funktionale Cookies (berechtigtes Interesse)
 
 **Cookie für den Zustand der Seitenleiste:**
@@ -238,6 +245,30 @@ Einige unserer Drittanbieter haben ihren Sitz außerhalb des Europäischen Wirts
 - **Zweck:** Speichert, ob die Seitenleiste der Oberfläche auf- oder zugeklappt sein soll
 - **Dauer:** 7 Tage
 - **Gespeicherte Daten:** "true" oder "false"
+
+**Sprach-Cookie:**
+- **Name:** `NEXT_LOCALE`
+- **Zweck:** Speichert die Sprache der Oberfläche, die du gewählt hast (Englisch, Französisch, Deutsch, Niederländisch, Italienisch oder Spanisch)
+- **Dauer:** 1 Jahr
+- **Gespeicherte Daten:** Ein Sprachcode wie "fr"
+
+**Cookie für die angezeigte Sprache:**
+- **Name:** `wf-rl`
+- **Zweck:** Merkt sich die Sprache der zuletzt angezeigten Seite, damit die App einmal neu laden kann, wenn du beim Surfen die Sprache wechselst
+- **Dauer:** Bis du deinen Browser schließt
+- **Gespeicherte Daten:** Ein Sprachcode wie "fr"
+
+**Cookie für bekannte Geräte:**
+- **Name:** `wf-known-device`
+- **Zweck:** Merkt sich, dass sich in diesem Browser schon einmal jemand angemeldet hat, damit die Startseite „Anmelden“ statt „Konto erstellen“ anbietet
+- **Dauer:** Etwa 13 Monate
+- **Gespeicherte Daten:** Nur "1", nie deine E-Mail-Adresse oder Konto-ID
+
+**Cookie für den Passkey-Hinweis:**
+- **Name:** `wf-passkey-hint`
+- **Zweck:** Merkt sich, dass dieser Browser einen Passkey für We-Fly hat, damit die Anmeldeseite ihn zuerst anbieten kann
+- **Dauer:** Etwa 13 Monate
+- **Gespeicherte Daten:** Nur "1"
 
 ### 6.3 Lokaler Speicher
 
@@ -414,7 +445,7 @@ Du hast das Recht, Folgendes zu verlangen:
 - eine Kopie deiner personenbezogenen Daten
 - Informationen darüber, wie wir deine Daten nutzen
 
-**So übst du es aus:** Nutze die Funktion „Daten exportieren“ in deinen Profileinstellungen. Sie erstellt eine ZIP-Datei mit all deinen IGC-Dateien, nach Datum geordnet.
+**So übst du es aus:** Klick im Bereich **Konto** deines **Profils** auf **Daten exportieren**. Dadurch wird eine ZIP-Datei mit all deinen IGC-Dateien, nach Datum geordnet, erstellt, dazu eine strukturierte JSON-Datei mit deinem Profil, deinen Einstellungen, deinen Flugdatensätzen, den verknüpften Anmeldekonten und deinen Einwilligungsnachweisen.
 
 ### 9.2 Recht auf Berichtigung (Art. 16)
 
@@ -430,7 +461,7 @@ Du hast das Recht, die Löschung deiner personenbezogenen Daten zu verlangen, we
 - du der Verarbeitung widersprichst (und keine vorrangigen berechtigten Gründe vorliegen)
 - die Daten unrechtmäßig verarbeitet wurden
 
-**So übst du es aus:** Nutze die Funktion „Konto löschen“ in deinen Profileinstellungen. Dein Konto und alle zugehörigen Daten werden sofort gelöscht.
+**So übst du es aus:** Klick im Bereich **Konto** deines **Profils** auf **Konto löschen**, gib zur Bestätigung deine E-Mail-Adresse ein und klick dann auf **Mein Konto endgültig löschen**. Dein Konto und alle zugehörigen Daten werden sofort gelöscht.
 
 **Was gelöscht wird:**
 - Alle Kontoinformationen (E-Mail-Adresse, Name, Profil)
@@ -459,15 +490,15 @@ Du hast das Recht zu verlangen, dass wir die Verarbeitung deiner Daten einschrä
 Du hast das Recht, deine personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten.
 
 **So übst du es aus:**
-- **Flugdaten:** Nutze die Funktion „Daten exportieren“, um ein ZIP-Archiv mit all deinen IGC-Dateien herunterzuladen
-- **Kontodaten:** Kontaktiere uns für einen JSON-Export deiner Kontoinformationen
+- **Flugdaten:** Nutze **Daten exportieren** in deinem **Profil**, um ein ZIP-Archiv mit all deinen IGC-Dateien herunterzuladen
+- **Kontodaten:** Dasselbe Archiv enthält eine JSON-Datei (`data-export.json`) mit deinen Kontoinformationen, Einstellungen und Flugdatensätzen
 
 ### 9.6 Widerspruchsrecht (Art. 21)
 
 Du hast das Recht, einer Verarbeitung zu widersprechen, die auf berechtigtem Interesse beruht oder der Direktwerbung dient.
 
 **So übst du es aus:**
-- **Community-Funktionen:** Deaktiviere „Öffentliches Profil“ in den Privatsphäre-Einstellungen, damit du nicht in den Community-Funktionen angezeigt wirst
+- **Community-Funktionen:** Schalte **Öffentliches Profil** unter **Privatsphäre** aus, damit du nicht in den Community-Funktionen angezeigt wirst
 - **Sonstige Verarbeitung:** Kontaktiere uns mit deinem konkreten Widerspruch
 
 ### 9.7 Recht auf Widerruf der Einwilligung (Art. 7 Abs. 3)
@@ -476,7 +507,7 @@ Beruht eine Verarbeitung auf einer Einwilligung, kannst du diese jederzeit wider
 
 **So übst du es aus:**
 - **OAuth-Authentifizierung:** Entziehe den Zugriff in den Sicherheitseinstellungen deines Google-Kontos
-- **Öffentliches Profil:** Schalte „Öffentliches Profil“ in den Kontoeinstellungen aus
+- **Öffentliches Profil:** Schalte **Öffentliches Profil** unter **Privatsphäre** in deinem **Profil** aus
 - **Konto:** Lösche dein Konto, um alle Einwilligungen zu widerrufen
 
 **Hinweis:** Der Widerruf berührt nicht die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung.
@@ -518,7 +549,7 @@ Du entscheidest, ob dein Profil und deine Flüge für andere Nutzer sichtbar sin
 - Du erscheinst nicht in den Community-Ranglisten
 - Du kannst weiterhin geheime Freigabelinks für einzelne Flüge erzeugen
 
-**So änderst du es:** Geh zu Profileinstellungen > Privatsphäre > „Öffentliches Profil“ umschalten
+**So änderst du es:** Öffne dein **Profil**, klick im Bereich **Konto** auf **Privatsphäre** und schalte **Öffentliches Profil** ein oder aus. Die Änderung gilt sofort.
 
 ### 10.2 Anzeigeeinstellungen
 
@@ -533,9 +564,9 @@ Diese Einstellungen werden geräteübergreifend synchronisiert.
 ### 10.3 Datenexport
 
 **Export in Eigenregie:**
-- Geh zu Profil > Daten exportieren
-- Erstellt eine ZIP-Datei mit all deinen IGC-Dateien
-- Nach Datum geordnet (Verzeichnisstruktur JJJJ/MM/TT)
+- Öffne dein **Profil** und klick im Bereich **Konto** auf **Daten exportieren**
+- Erstellt eine ZIP-Datei mit all deinen IGC-Dateien, nach Datum geordnet (Verzeichnisstruktur JJJJ/MM/TT)
+- Enthält eine strukturierte JSON-Datei mit deinem Profil, deinen Einstellungen, deinen Flugdatensätzen, den verknüpften Anmeldekonten und deinen Einwilligungsnachweisen
 - Enthält eine Liste aller Flüge, zu denen keine Datei gespeichert ist
 
 ## 11. Privatsphäre von Kindern

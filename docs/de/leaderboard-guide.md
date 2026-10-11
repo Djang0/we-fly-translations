@@ -38,19 +38,18 @@ Nicht jeder Flug zählt. Das hier wird gewertet:
 
 ### Was du siehst
 
+Die Tabelle **Top 10 Piloten**, mit **Aktivität** ausgewählt:
+
 | Spalte | Was sie bedeutet |
 |--------|--------------|
-| Rang | Deine Position in der Rangliste |
+| # | Deine Position in der Rangliste |
 | Pilot | Vorname N. (datenschutzfreundlich) |
 | Flüge | Anzahl der gewerteten Flüge |
 | Stunden | Gesamte Flugzeit der gewerteten Flüge |
-| XC km | Gesamte Streckenflug-Kilometer |
+| XC | Gesamte Streckenflug-Distanz, in deiner Streckeneinheit |
 | XC-Punkte | Die Zahl, die deinen Rang bestimmt |
-| Stufe | Dein Abzeichen nach den gesamten öffentlichen Flugstunden |
 
-### Das Stufensystem (Kurzfassung)
-
-Dein Stufenabzeichen richtet sich nach deinen **gesamten öffentlichen Flugstunden** und reicht von Bronze Wing bis hinauf zu Titanium Wing. Es ist ein Fortschrittsabzeichen, keine Bewertung deines Könnens: Flieg genug Stunden, und du steigst durch die Stufen auf. Wie Vielfliegermeilen, nur für Leute, die wirklich selbst fliegen.
+Die Gesamtrangliste oben auf der Seite nutzt dieselben gewerteten Flüge. Schalte sie zwischen **XC-Punkte**, **XC-Strecke** und **Flugzeit** um, um diese Piloten nach der Kennzahl zu sortieren, die dich interessiert.
 
 ### Unterm Strich
 
@@ -70,8 +69,8 @@ Der Effizienz-Score kombiniert drei Kennzahlen, **gleich gewichtet**, über eine
 
 | Kennzahl | Was sie belohnt |
 |--------|----------------|
-| **Strecke pro Stunde** (km/h) | Effizient Strecke machen: gute Routenwahl, solider Gleitflug, wenig Kratzen |
-| **Strecke pro Flug** (km) | Weit fliegen, wenn du fliegst: echte Streckenflüge, statt beim ersten Gegenwind abzudrehen |
+| **Strecke pro Stunde** | Effizient Strecke machen: gute Routenwahl, solider Gleitflug, wenig Kratzen |
+| **Strecke pro Flug** | Weit fliegen, wenn du fliegst: echte Streckenflüge, statt beim ersten Gegenwind abzudrehen |
 | **Anzahl gewerteter Flüge** | Dabei sein: Mehr gewertete Flüge stehen für mehr Beständigkeit im Streckenflug |
 
 Dein Gesamtscore ist der Mittelwert der drei Z-Scores:
@@ -88,7 +87,7 @@ Wenn dir bei Z-Scores die Augen zufallen, schau in den [Z-Score-Guide für Pilot
 |-------|-------|--------------|-------------------|
 | +2,0 oder höher | Grün | Weit über dem Community-Durchschnitt | Du fliegst nicht nur, du *reist* |
 | +1,0 bis +2,0 | Grün | Klar über dem Durchschnitt | Effizienter Pilot, gute Entscheidungen |
-| -1,0 bis +1,0 | Neutral | Etwa im Community-Durchschnitt | Normal, gesund, alles in Ordnung |
+| -1,0 bis +1,0 | Grün über 0, rot darunter | Etwa im Community-Durchschnitt | Normal, gesund, alles in Ordnung |
 | -1,0 bis -2,0 | Rot | Unter dem Durchschnitt | Luft nach oben bei der Streckenflug-Effizienz |
 | -2,0 oder niedriger | Rot | Deutlich unter dem Durchschnitt | Vielleicht viel Zeit beim Soaren am Hang? |
 
@@ -144,7 +143,7 @@ Das ist Absicht. Der Effizienz-Rangliste ist egal, wie *oft* du fliegst, dafür 
 
 ### „Mein Score ist negativ. Bin ich ein schlechter Pilot?“
 
-Nein. Ein negativer Score heißt, dass du bei diesen Kennzahlen **unter dem aktuellen Community-Durchschnitt** liegst. Das ist relativ. Ist die Community voller Streckenflug-Wettkampfpiloten, steht selbst ein solider Genusspilot im Minus. Über deine Sicherheit, dein Können in Turbulenzen, deine Ziellandegenauigkeit oder dein Händchen bei der Wahl der Kneipe nach dem Fliegen sagt das nichts aus.
+Nein. Ein negativer Score heißt, dass du bei diesen drei Kennzahlen **unter dem aktuellen Community-Durchschnitt** liegst. Das ist relativ. Ist die Community voller Streckenflug-Wettkampfpiloten, steht selbst ein solider Genusspilot im Minus. Über deine Sicherheit, dein Können in Turbulenzen, deine Ziellandegenauigkeit oder dein Händchen bei der Wahl der Kneipe nach dem Fliegen sagt das nichts aus.
 
 ### „Warum mindestens 10 km?“
 

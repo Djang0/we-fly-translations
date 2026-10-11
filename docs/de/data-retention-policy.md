@@ -158,10 +158,10 @@ Diese Richtlinie gilt für alle personenbezogenen Daten, die We-Fly erhebt, vera
 
 Nutzer können ihr Konto jederzeit über die Seite mit den Profileinstellungen löschen:
 
-1. Zu Profil → Einstellungen navigieren
-2. Auf die Schaltfläche „Konto löschen“ klicken
-3. Die Warnhinweise zur Löschung lesen und bestätigen
-4. Zur Bestätigung das Passwort eingeben
+1. Zu Profil navigieren und im Abschnitt Konto **Konto löschen** öffnen
+2. Die Warnhinweise zur Löschung lesen
+3. Zur Bestätigung die eigene E-Mail-Adresse eingeben
+4. Auf **Mein Konto endgültig löschen** klicken
 5. Das Konto und alle zugehörigen Daten werden endgültig gelöscht
 
 **Was gelöscht wird:**
@@ -257,7 +257,7 @@ Nutzer können jederzeit über die Profileinstellungen die sofortige Löschung i
 
 ### 6.2 Recht auf Datenübertragbarkeit (Art. 20 DSGVO)
 
-Nutzer können ihre Flugdaten jederzeit über die Seite mit den Flügen in Standardformaten (IGC, GPX, KML) exportieren.
+Nutzer können ihre Daten jederzeit exportieren: **Daten exportieren** im Abschnitt Konto ihres Profils lädt ihre originalen IGC-Dateien zusammen mit ihren Flugdatensätzen herunter, und einzelne IGC-Dateien können über die Flugseiten heruntergeladen werden.
 
 ### 6.3 Auskunftsrecht (Art. 15 DSGVO)
 
@@ -295,7 +295,7 @@ Wird diese Richtlinie aktualisiert:
 ### 8.1 Überwachung der Cron-Jobs
 
 Die Cron-Jobs zur Durchsetzung der Aufbewahrungsfristen werden überwacht über:
-- die Cron-Job-Logs im Vercel-Dashboard
+- die Cron-Job-Logs des Servers
 - Anwendungslogs für erfolgreiche Ausführungen
 - Fehlerprotokollierung für fehlgeschlagene Ausführungen
 

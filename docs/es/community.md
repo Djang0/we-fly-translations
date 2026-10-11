@@ -27,11 +27,12 @@ Los enlaces secretos te permiten compartir vuelos sueltos con cualquiera, sin qu
 ### Cómo funciona
 
 **Para ti (propietario del vuelo):**
-1. Abre la página de detalle de cualquier vuelo
-2. Pulsa el botón «Crear enlace»
-3. Se genera una URL única
-4. Copia el enlace al portapapeles
-5. Comparte el enlace con quien quieras (correo, mensaje, redes sociales)
+1. Abre cualquiera de tus vuelos
+2. Pulsa el botón **Compartir vuelo** (el icono de compartir en la barra de herramientas del vuelo)
+3. Se genera una URL única y se copia en tu portapapeles (en un móvil, se abre en su lugar el menú de compartir)
+4. Comparte el enlace con quien quieras (correo, mensaje, redes sociales)
+
+Desde tu libro de vuelo, la opción **Copiar enlace** del menú de la fila hace lo mismo de una sola vez.
 
 **Para quien lo recibe:**
 1. Abre el enlace compartido
@@ -46,7 +47,7 @@ Los enlaces secretos te permiten compartir vuelos sueltos con cualquiera, sin qu
 - **Imposible de adivinar**: (casi) imposible de descubrir sin el enlace
 - **No aparece en búsquedas**: los enlaces no salen en la comunidad ni en las búsquedas
 - **Permanente**: los enlaces siguen siendo válidos hasta que eliminas el vuelo
-- **Revocable**: usa «quitar enlace compartido», «Dejar de compartir» o «Eliminar vuelo» para invalidar el enlace
+- **Revocable**: revoca el enlace desde **Enlaces compartidos** (en el **Menú de la cuenta**) o elimina el vuelo
 
 ### Lo que se ve con un enlace secreto
 
@@ -93,10 +94,11 @@ Activar tu perfil público hace que tus vuelos se puedan descubrir en la comunid
 
 ### Cómo activar el perfil público
 
-1. Ve a **/profile**
-2. Busca el ajuste «Perfil público»
-3. Actívalo
-4. Guarda los cambios
+1. Abre tu **Perfil** (**Menú de la cuenta**)
+2. Pulsa **Ajustes de privacidad**
+3. Activa **Perfil público**
+
+El cambio se aplica al momento, sin botón de guardar.
 
 ¡Tus vuelos ya son visibles en la comunidad!
 
@@ -121,21 +123,21 @@ Incluso con el perfil público:
 ### Desactivar el perfil público
 
 Para volver a ser privado:
-1. Ve a **/profile**
-2. Desactiva «Perfil público»
-3. Guarda los cambios
+1. Abre tu **Perfil**
+2. Pulsa **Ajustes de privacidad**
+3. Desactiva **Perfil público**
 
 **Efecto:**
 - Tus vuelos desaparecen de los listados de la comunidad
-- Los enlaces públicos que ya existían dejan de ser accesibles
+- El enlace a tu página de piloto compartida deja de funcionar
 - Tu perfil pasa a ser privado
-- Los enlaces secretos siguen funcionando
+- Los enlaces secretos de vuelos siguen funcionando
 
 ---
 
 ## Funciones de la comunidad
 
-Entra en las funciones de la comunidad en **/community** (si tienes el perfil público activado, o para ver los vuelos públicos de otros).
+Entra en las funciones de la comunidad desde la zona **Comunidad** del menú. Tienes que haber iniciado sesión; puedes explorar tanto si tu perfil es público como si es privado.
 
 ### Secciones de la comunidad
 
@@ -184,34 +186,26 @@ Descubre a otros pilotos con perfil público:
 - Estadísticas y logros
 - Mapa de vuelos (vuelos recientes)
 
-#### 3. Despegues de la comunidad (/community/takeoffs)
+#### 3. Despegues y búsqueda en el mapa
 
-Explora los despegues con actividad de la comunidad:
+Explora las zonas de vuelo con actividad de la comunidad:
 
-**Funciones:**
-- Lista de despegues
-- Cuántos pilotos vuelan desde cada despegue
-- Vuelos públicos desde cada despegue
-- Descubre zonas de vuelo populares
-
-**Información de la zona de vuelo:**
-- Nombre y ubicación
-- Número de vuelos públicos
-- Lista de pilotos que vuelan allí
-- Historial de vuelos de la comunidad
+- **Base de datos de despegues** (/takeoffs): despegues de todo el mundo, con su historial
+- **Buscar vuelos en el mapa** (/community/search-flights): elige un despegue y ve todos los vuelos de la comunidad que salieron desde él
 
 **Casos de uso:**
 - Encontrar zonas de vuelo activas
 - Ver qué vuelan otros desde tus despegues de siempre
 - Descubrir nuevos destinos
 
+#### Y más
+
+El menú Comunidad también lleva a **Siguiendo**, **Clubes**, **Clasificación**, **Instrumentos**, **Dónde volar** y **Resumen de temporadas**.
+
 ### Filtros y búsqueda
 
-Todas las secciones de la comunidad incluyen:
-- **Filtros de fecha**: recientes, este mes, este año
-- **Filtros de lugar**: por país o región
-- **Filtros de distancia**: distancia XC mínima
-- **Opciones de orden**: fecha, distancia, puntuación
+- **Vuelos**: cuadro de búsqueda, periodos predefinidos (Hoy, Últimos 7 días, Últimos 30 días, Últimos 90 días, Último año, Personalizado), además de los filtros Piloto, Zona, Vela y Despegue
+- **Pilotos**: búsqueda por nombre, número mínimo de vuelos, chips de filtro y varios órdenes de clasificación
 
 ---
 
@@ -293,7 +287,7 @@ Ayuda a mantener la calidad de los datos:
 
 ### ¿Puedo dejar de compartir un vuelo?
 
-**Enlaces secretos:** elimina el vuelo para invalidar el enlace.
+**Enlaces secretos:** revoca el enlace desde **Enlaces compartidos** en el **Menú de la cuenta** (o elimina el vuelo).
 **Perfil público:** desactiva el perfil público para ocultar todos tus vuelos.
 
 ### ¿Puedo compartir solo algunos vuelos con la comunidad?
@@ -302,7 +296,7 @@ Por ahora no. El perfil público hace públicos todos tus vuelos. Usa los enlace
 
 ### ¿Aparecerán mis vuelos en las búsquedas de Google?
 
-No.
+Las páginas de la comunidad solo las ven los pilotos que han iniciado sesión y nunca se indexan. We-Fly no publica los enlaces secretos en ningún sitio, pero si publicas uno en una página web pública, un buscador puede encontrarlo como cualquier otro enlace.
 
 ### ¿Puedo descargar los archivos IGC de otros pilotos?
 

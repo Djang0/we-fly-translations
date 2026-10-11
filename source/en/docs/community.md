@@ -27,11 +27,12 @@ Secret links allow you to share individual flights with anyone, without requirin
 ### How It Works
 
 **For you (flight owner):**
-1. Open any flight detail page
-2. Click "Create Link" button
-3. Unique URL is generated
-4. Copy link to clipboard
-5. Share link with anyone (email, message, social media)
+1. Open any of your flights
+2. Click the **Share flight** button (the share icon in the flight's toolbar)
+3. A unique URL is generated and copied to your clipboard (on a phone, the share sheet opens instead)
+4. Share the link with anyone (email, message, social media)
+
+From your logbook, the row menu's **Copy link** does the same in one go.
 
 **For recipients:**
 1. Click the shared link
@@ -46,7 +47,7 @@ Secret links allow you to share individual flights with anyone, without requirin
 - **Unguessable** - (almost) Impossible to discover without the link
 - **Not searchable** - Links don't appear in community or search
 - **Permanent** - Links remain valid until you delete the flight
-- **Revocable** - use "remove shared link", "stop sharing" or Delete flight to invalidate link
+- **Revocable** - revoke the link from **Shared links** (in the Account menu), or delete the flight
 
 ### What's Visible in Secret Links
 
@@ -93,10 +94,11 @@ Enabling your public profile makes your flights discoverable in the We-Fly commu
 
 ### How to Enable Public Profile
 
-1. Navigate to **/profile**
-2. Find "Public Profile" setting
-3. Toggle to "Enabled"
-4. Save changes
+1. Open your **Profile** (Account menu)
+2. Click **Privacy settings**
+3. Switch on **Public Profile**
+
+The change applies right away, no save button needed.
 
 Your flights are now visible in the community!
 
@@ -121,21 +123,21 @@ Even with public profile:
 ### Disabling Public Profile
 
 To go private again:
-1. Go to **/profile**
-2. Toggle "Public Profile" to disable
-3. Save changes
+1. Open your **Profile**
+2. Click **Privacy settings**
+3. Switch off **Public Profile**
 
 **Effect:**
 - Your flights disappear from community listings
-- Existing public share links become inaccessible
+- Your shared pilot page link stops working
 - Your profile becomes private
-- Secret links continue to work
+- Secret flight links continue to work
 
 ---
 
 ## Community Features
 
-Access community features at **/community** (if you have public profile enabled, or to browse others' public flights).
+Access community features from the **Community** area of the menu. You need to be signed in; browsing works whether your own profile is public or private.
 
 ### Community Hub Sections
 
@@ -184,34 +186,26 @@ Discover other pilots with public profiles:
 - Statistics and achievements
 - Flight map (recent flights)
 
-#### 3. Takeoffs Community (/community/takeoffs)
+#### 3. Takeoffs and Map Search
 
-Explore takeoff sites with community activity:
+Explore sites with community activity:
 
-**Features:**
-- List of takeoff sites
-- See how many pilots fly from each site
-- View public flights from each site
-- Discover popular flying locations
-
-**Site information:**
-- Site name and location
-- Number of public flights
-- List of pilots who fly there
-- Community flight history
+- **Takeoff database** (/takeoffs): launch sites worldwide, with their history
+- **Search flights on the map** (/community/search-flights): pick a takeoff and see every community flight launched from it
 
 **Use cases:**
 - Find active flying sites
 - See what others are flying from your local sites
 - Discover new destinations
 
+#### And More
+
+The Community menu also leads to **Following**, **Clubs**, **Leaderboard**, **Instruments**, **Place to be** and **Seasons recap**.
+
 ### Filtering & Search
 
-All community sections include:
-- **Date filters** - Recent, this month, this year
-- **Location filters** - By country, region
-- **Distance filters** - Minimum XC distance
-- **Sorting options** - Date, distance, score
+- **Flights**: search box, date presets (Today, Past 7 days, Past 30 days, Past 90 days, Past year, Custom), plus Pilot, Site, Glider and Launch filters
+- **Pilots**: search by name, minimum flight count, filter chips and several sort orders
 
 ---
 
@@ -293,7 +287,7 @@ Help maintain data quality:
 
 ### Can I undo sharing a flight?
 
-**Secret links:** Delete the flight to invalidate the link.
+**Secret links:** Revoke the link from **Shared links** in the Account menu (or delete the flight).
 **Public profile:** Disable public profile to hide all flights.
 
 ### Can I share only some flights to the community?
@@ -302,7 +296,7 @@ Not currently. Public profile makes all flights public. Use secret links for sel
 
 ### Will my flights show up in Google search?
 
-No.
+Community pages are only visible to signed-in pilots and are never indexed. Secret links are not listed anywhere by We-Fly, but if you post one on a public web page, a search engine can find it like any other link.
 
 ### Can I download other pilots' IGC files?
 

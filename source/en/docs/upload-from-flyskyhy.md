@@ -19,10 +19,10 @@ If you fly with **Flyskyhy** on your iPhone or iPad, it can now hand every fligh
 
 Everything hangs off a single **device password** you generate inside We-Fly. Think of it like a spare key cut just for one app. Lose your phone or sell it, and you revoke that one key without touching anything else.
 
-1. Go to **Profile → Connected services** and find the **"Instrument & cloud sync"** card.
+1. Go to **Profile → Connected services** and find the **"Instrument & cloud sync (WebDAV)"** card.
 2. Type a device name you'll recognise later, like `iPhone - Flyskyhy`. This is *just a label for you*; it isn't sent anywhere and Flyskyhy never needs it.
 3. Tap **Generate**. A **device password** pops up (it starts with `wf_key_`).
-4. **Copy it right now.** It's shown **only once**. Close that box without copying and you'll just generate a fresh one, no harm done. Generating on a laptop? Tap **Scan onto phone** to grab it with your phone camera instead of typing all those characters.
+4. **Copy it right now.** If you click away, it stays re-copyable from its device row for as long as this browser tab stays open. Close the tab without copying and you'll just generate a fresh one, no harm done. Generating on a laptop? Tap **Scan onto phone** to grab it with your phone camera instead of typing all those characters.
 
 > **Already sync a vario over WebDAV?** Then you already have one of these. The *same* device password works for Flyskyhy. No need to make another.
 
@@ -75,7 +75,7 @@ Copy those three, keep them handy, and you're ready.
 ## Troubleshooting / FAQ
 
 **Flyskyhy says the username or password is wrong.**
-Nine times out of ten it's the device password, because it's shown only once, a stray copy-paste can bite. Pop back into **Profile → Connected services → Instrument & cloud sync**, tap **Generate** for a fresh one, and paste it into Flyskyhy again. Your username is your We-Fly **email**, not a nickname.
+Nine times out of ten it's the device password: it's long, and a stray copy-paste can bite. Pop back into **Profile → Connected services → Instrument & cloud sync (WebDAV)**, tap **Generate** for a fresh one, and paste it into Flyskyhy again. Your username is your We-Fly **email**, not a nickname.
 
 **Double-check the Submit URL.**
 It must be exactly `https://we-fly.cloud/api/leonardo/flight_submit.php`, with `https://` at the front and ending in `/flight_submit.php`. A missing `s` or a typo in the tail is the other usual suspect.
@@ -84,7 +84,7 @@ It must be exactly `https://we-fly.cloud/api/leonardo/flight_submit.php`, with `
 Make sure the upload actually finished (you're on a signal), then refresh your [flights page](/flights). If Flyskyhy reported success, the flight is in. Give the page a moment and it'll appear.
 
 **Is my password safe?**
-It's a **per-device password**, not your account login. It only works for adding flights, and you can **revoke it anytime** from the same Connected services card. That cuts Flyskyhy off instantly and leaves every other device untouched. Selling your phone? Revoke first.
+It's a **per-device password**, not your account login. It only opens your flight folder (add flights, read the ones already there) and can never delete a flight or touch your account. You can **revoke it anytime** from the same Connected services card. That cuts Flyskyhy off instantly and leaves every other device untouched. Selling your phone? Revoke first.
 
 **Does this delete any flights?**
 Never. This only *adds* flights. Deleting is done by you, in the We-Fly app, on purpose. Nothing Flyskyhy does can remove a flight.

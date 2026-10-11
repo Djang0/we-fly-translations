@@ -20,10 +20,10 @@ Bovenaan het tabblad geven zes overzichtskaarten de hoogtepunten van de dag:
 | Kaart | Wat ze je vertelt |
 |---|---|
 | **Temperatuur** | Maximum en minimum van de dag, plus de gevoelstemperatuur |
-| **Neerslag** | Totale regenval van de dag in mm |
-| **Max. wind** | Sterkste gemiddelde wind, sterkste vlaag en overheersende richting |
+| **Neerslag** | Totale regenval van de dag |
+| **Max. wind** | Sterkste gemiddelde wind, sterkste vlaag en de richting daarvan |
 | **Zonneschijn** | Hoeveel uur direct zonlicht de grond bereikte |
-| **Zonsopgang / Zonsondergang** | Lokale tijden voor het bruikbare vliegvenster van de dag |
+| **Zonsopgang** en **Zonsondergang** | Lokale tijden voor het bruikbare vliegvenster van de dag |
 
 Dit zijn je snelle realiteitschecks: was het een dag met volle zon, of zat je de hele namiddag tussen de wolkenvelden te vechten?
 
@@ -36,13 +36,13 @@ Hier wordt het interessant. De tabel splitst de omstandigheden uur per uur op ov
 Dit betekent elke kolom:
 
 ### Uur
-Lokaal uur van de meting (formaat HH:MM). Het blauwe bolletje naast het uur markeert de uren die overlappen met je vlucht.
+Lokaal uur van de meting (formaat HH:MM). Het kleine bolletje naast het uur markeert de uren die overlappen met je vlucht.
 
 ### Weer: weersomstandigheid
 Een weericoon en label volgens de WMO-code. Gaat van „Onbewolkt“ tot „Onweer met hagel“. Zat je te krabben onder een grijze lucht, dan bevestigt dit of het zwaar bewolkt was, half bewolkt of echt mistig.
 
 ### Temp.: temperatuur op 2 m
-Luchttemperatuur op grondniveau (2 meter), in **°C**. Met een kleurcode van blauw (vriezend) over cyaan, groen, geel en oranje tot rood (heet). Een snelle visuele hulp: groen is je comfortzone, oranje betekent dat het warm was.
+Luchttemperatuur op grondniveau (2 meter), in de temperatuureenheid die je in je profiel hebt gekozen. Met een kleurcode van blauw (vriezend) over cyaan, groen, geel en oranje tot rood (heet). Een snelle visuele hulp: groen is je comfortzone, oranje betekent dat het warm was.
 
 ### Gevoel: gevoelstemperatuur
 Hoe het echt aanvoelde, rekening houdend met luchtvochtigheid en windchill. Handig om te begrijpen waarom het op de startplaats koud aanvoelde, ook al gaf de thermometer 18°C aan.
@@ -51,25 +51,25 @@ Hoe het echt aanvoelde, rekening houdend met luchtvochtigheid en windchill. Hand
 Het percentage vocht in de lucht. Een hoge luchtvochtigheid (boven ~80%) remt de ontwikkeling van thermiek vaak af en kan wijzen op instabiliteit die eraan komt. Een lage luchtvochtigheid samen met sterke zon is vaak een teken dat de dag echt goed draaide.
 
 ### Wind: windsnelheid op 10 m
-Gemiddelde windsnelheid op 10 meter boven de grond, in **km/h**. Dit is de officiële referentie voor de grondwind, gemeten op de standaard meteorologische hoogte.
+Gemiddelde windsnelheid op 10 meter boven de grond, in je windeenheid (vermeld in de kolomkop). Dit is de officiële referentie voor de grondwind, gemeten op de standaard meteorologische hoogte.
 
 ### Richt.: windrichting
 De kompasrichting **waar de wind vandaan komt** (N, NO, O enzovoort), met een gedraaide pijl die erbij past. Met een resolutie van zestien richtingen, zodat je ziet of de dalwind het hield of de gradiëntwind begon door te sijpelen.
 
 ### Vlagen: snelheid van de windvlagen
-De sterkste vlaag die tijdens dat uur gemeten werd, in **km/h**. Ligt dit getal duidelijk hoger dan de gemiddelde wind, dan was de lucht turbulent. Een vlaagfactor (vlagen ÷ wind) boven 1,5 is een signaal om in je achterhoofd te houden.
+De sterkste vlaag die tijdens dat uur gemeten werd, in dezelfde eenheid als de wind. Ligt dit getal duidelijk hoger dan de gemiddelde wind, dan was de lucht turbulent. Een vlaagfactor (vlagen ÷ wind) boven 1,5 is een signaal om in je achterhoofd te houden.
 
 ### Bewolking: totale bewolking
 Percentage van de hemel dat bedekt is met wolken op alle hoogtes, getoond met een balkje. Dit is het gecombineerde totaal. Zie het onderdeel over de wolkenlagen hieronder voor een gedetailleerder beeld.
 
 ### Regen: neerslag
-De regen die in dat uur gevallen is, in **mm**. Blauw weergegeven als het niet nul is. Zelfs 0,1 mm kan wijzen op een voorbijtrekkende bui; alles boven 1 mm in één uur betekent dat het ergens in de buurt van je vlieggebied echt regende.
+De regen die in dat uur gevallen is (eenheid in de kolomkop). Blauw weergegeven als het niet nul is. Zelfs een spoortje kan wijzen op een voorbijtrekkende bui; een aanhoudende hoeveelheid per uur betekent dat het ergens in de buurt van je vlieggebied echt regende.
 
 ### Luchtdruk: luchtdruk herleid tot zeeniveau
 De luchtdruk herleid tot zeeniveau, in **hPa**. Een dalende luchtdruk in de loop van de dag wijst op verslechterende omstandigheden; een stijgende luchtdruk betekent meestal verbetering. De meeste piloten kijken naar die trend en niet naar de absolute waarde.
 
 ### PBL AGL: hoogte van de planetaire grenslaag
-Het plafond van de convectieve menglaag: in feite de theoretische maximale hoogte die thermiek onder de gegeven atmosferische omstandigheden kan bereiken, in **meter boven de grond (AGL)**. Deze waarde wordt gemeten vanaf het terrein van je startplaats, niet vanaf zeeniveau. Prikte je door de wolkenbasis en vroeg je je af hoe hoog je kon gaan, dan is dit je getal. Een hoge PBL (2000 m+ AGL) op een zonnige dag betekent meestal dat de lucht de limiet is; een lage PBL (onder 1000 m AGL) en je zat te krabben.
+Het plafond van de convectieve menglaag: in feite de theoretische maximale hoogte die thermiek onder de gegeven atmosferische omstandigheden kan bereiken, in je hoogte-eenheid, **boven de grond (AGL)**. Deze waarde wordt gemeten vanaf het terrein van je startplaats, niet vanaf zeeniveau. Prikte je door de wolkenbasis en vroeg je je af hoe hoog je kon gaan, dan is dit je getal. Een hoge PBL (2000 m+ AGL) op een zonnige dag betekent meestal dat de lucht de limiet is; een lage PBL (onder 1000 m AGL) en je zat te krabben.
 
 > PBL-gegevens zijn misschien niet voor alle historische datums beschikbaar. Als ze er zijn, verschijnen ze ook als interactieve staafgrafiek onder de tabel.
 

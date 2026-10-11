@@ -12,25 +12,32 @@ Das Cockpit ist dein Leistungs-Dashboard mit umfassender Statistik und Analysen 
 
 ## Ansichten im Cockpit
 
-Das Cockpit hat sechs verschiedene Ansichten, jede mit eigenen Erkenntnissen:
+Das Cockpit hat elf Ansichten, jede mit eigenen Erkenntnissen:
 
 1. **Übersicht**: Statistik und Summen über die gefilterten Daten
-2. **Schirm**: Leistung aufgeschlüsselt nach Schirm
-3. **Saison**: Vergleich von Jahr zu Jahr
-4. **Land**: Statistik deiner Flüge in verschiedenen Ländern
-5. **Startplatz**: Statistik pro Fluggebiet mit Leistungswerten
-6. **Monat**: Aufschlüsselung nach Monaten und saisonale Muster
+2. **Trends**: Dein Fliegen im Lauf der Zeit, von Tag zu Tag bis Jahr für Jahr
+3. **Kurbeln**: Steigwerte, Kreisen und Qualität der Bärte, Saison für Saison
+4. **Phasen**: Wie sich deine Flugzeit auf Thermik, Suche, Gleitflug und Schweben verteilt
+5. **Schirm**: Flugzeit aufgeschlüsselt nach Schirm
+6. **Startplatz**: Statistik pro Fluggebiet mit Z-Scores
+7. **Land**: Statistik deiner Flüge in verschiedenen Ländern
+8. **Saison**: Vergleich von Jahr zu Jahr
+9. **Monat**: Aufschlüsselung nach Monaten und saisonale Muster
+10. **CIVL**: Dein CIVL-Weltranking
+11. **Karte**: Deine Startplätze auf einer Karte
 
 ### Navigation
 
-- Wechsle über die Haupttabs zwischen den Ansichten
+- Wähl eine Ansicht im Cockpit-Menü
 - Jede Ansicht bezieht sich auf die [gefilterten Daten](./data-filters.md)
 
 ## Statistik in der Übersicht
 
-Die Seite **Übersicht** im [Cockpit](/cockpit) zeigt die Flugstatistik der [gefilterten Daten](./data-filters.md).
+Die Seite **Übersicht** im [Cockpit](/cockpit) zeigt die Flugstatistik der [gefilterten Daten](./data-filters.md). Jede Strecke, Höhe und Geschwindigkeit wird in den Einheiten angezeigt, die du in deinem Profil gewählt hast.
 
 ### Flugsummen
+
+Die Kopfzeile ganz oben zeigt dir die großen Vier:
 
 #### Flüge gesamt
 - **Definition**: Anzahl aller Flüge in deinem Flugbuch
@@ -40,72 +47,88 @@ Die Seite **Übersicht** im [Cockpit](/cockpit) zeigt die Flugstatistik der [gef
 - **Einheit**: Stunden und Minuten
 - **Berechnung**: Summe aller Zeiten von der Startzeit bis zur Landezeit
 
-#### Kurbelzeit gesamt
-- **Definition**: Gesamte Zeit, die du kreisend in der Thermik verbracht hast
-- **Einheit**: Stunden und Minuten
-- **Aufschlüsselung**: Getrennt nach Links- und Rechtskreisen
+#### Strecke
+- **Definition**: Gesamte Tracklänge über alle Flüge
 
-#### Gleitzeit gesamt
-- **Definition**: Gesamte Zeit im Geradeausflug
-- **Einheit**: Stunden und Minuten
-- **Deutung**: Mehr Gleitzeit = effizienterer Streckenflug
+#### Längster Flug
+- **Definition**: Deine längste Flugzeit
+- **Anzeige**: Dauer; klick darauf, um diesen Flug zu öffnen
+
+#### Flugeffizienz
+- **Definition**: Zeit, die du kreisend in der Thermik verbracht hast (**Kurbeln**), im Vergleich zur Zeit im Geradeausflug (**Gleiten**)
+- **Einheit**: Stunden und Minuten, dazu die Aufteilung in Prozent
+
+#### Kurbelrichtung
+- **Definition**: Wie sich deine Kurbelzeit auf **Linkskreise** und **Rechtskreise** verteilt
+
+#### Solo und Tandem
+- **Definition**: Wie sich deine Flugzeit auf **Solo**- und **Tandem**flüge verteilt (wird nur angezeigt, wenn du Tandemflüge hast)
 
 ### Strecke und Wertung
 
 Alle XC-Strecken und Wertungen werden von der Open-Source-Bibliothek [igc-xc-score
 ](https://github.com/mmomtchev/igc-xc-score) berechnet, die von [Momtchil Momtchev](https://github.com/mmomtchev) entwickelt und gepflegt wird.
 
-#### XC-Strecke gesamt
+#### XC-Strecke
 - **Definition**: Summe aller gewerteten Streckenflug-Distanzen
-- **Einheit**: Kilometer
 - **Nutzen**: Verfolge deine gesamte Streckenleistung
 
-#### XC-Punkte gesamt
+#### XC-Punkte
 - **Definition**: Summe aller XContest-Wertungen
 - **Enthält**: Alle Faktoren (freie Strecke, Dreiecke)
 - **Nutzen**: Vergleiche deine Streckenleistung über die Zeit
 
-#### Tracklänge gesamt
+#### Tracklänge
 - **Definition**: Summe aller GPS-Tracklängen
-- **Einheit**: Kilometer
-- **Immer > XC-Strecke gesamt**: Enthält alles Kreisen und alle Umwege
+- **Immer > XC-Strecke**: Enthält alles Kreisen und alle Umwege
 
 ### Persönliche Bestwerte
 
+Jeder Bestwert verweist auf den Flug, aus dem er stammt: Klick auf den Wert, um ihn zu öffnen.
+
+#### Max. Höhe
+- **Definition**: Größte Höhe, die du auf allen Flügen erreicht hast
+- **Einheit**: Über dem Meeresspiegel (MSL)
+
+#### Max. Höhengewinn
+- **Definition**: Größter Höhengewinn auf einem einzelnen Flug
+- **Berechnung**: Max. Höhe - Min. Höhe
+
+#### Max. Geschwindigkeit
+- **Definition**: Schnellste Grundgeschwindigkeit, die 5 Sekunden lang gehalten wurde, GPS-Ausreißer herausgefiltert
+- **Hinweis**: Einschließlich Windeinfluss
+
 #### Beste XC-Strecke
 - **Definition**: Längster gewerteter Streckenflug
-- **Anzeige**: Strecke und Datum
 - **Erfolg**: Deine persönliche Bestleistung auf Strecke!
 
 #### Beste XC-Wertung
 - **Definition**: Höchste XContest-Wertung eines einzelnen Flugs
-- **Anzeige**: Punkte und Datum
 - **Hinweis**: Kann von der weitesten Strecke abweichen (wegen der Faktoren für Dreiecke)
 
-#### Max. Höhe
-- **Definition**: Größte Höhe, die du auf allen Flügen erreicht hast
-- **Einheit**: Meter über dem Meeresspiegel (MSL)
-- **Anzeige**: Höhe
+#### Tiefster Low Save
+- **Definition**: Der tiefste Punkt (über Grund), von dem aus du wieder hochgekommen bist, und wie viel Höhe du zurückgeholt hast
 
-#### Max. Höhengewinn
-- **Definition**: Größter Höhengewinn auf einem einzelnen Flug
-- **Einheit**: Meter
-- **Berechnung**: Max. Höhe - Min. Höhe
+### Leistungswerte
 
-#### Stärkster Bart
-- **Definition**: Bester Steigwert, den du je erwischt hast
-- **Einheit**: Meter pro Sekunde (m/s)
-- **Anzeige**: Steigwert
+- **Med. Kreiszeit**: Median der Zeit pro 360°-Kreis
+- **Med. Kreisradius**: Median des Kurvenradius beim Kreisen
+- **Median-G-Faktor**: Lastvielfaches (siehe den [G-Faktor-Guide für Piloten](/doc/g-factor-pilot-guide))
+- **Stärkster Thermik-Spitzenwert**: Bester Steigwert, über 5 Sekunden gehalten; klick darauf, um direkt zu diesem Bart zu springen
 
-#### Max. Geschwindigkeit
-- **Definition**: Höchste aufgezeichnete Grundgeschwindigkeit
-- **Einheit**: Kilometer pro Stunde (km/h)
-- **Hinweis**: Einschließlich Windeinfluss
+## Ansicht Trends
 
-#### Längster Flug
-- **Definition**: Längste Flugzeit
-- **Einheit**: Stunden und Minuten
-- **Anzeige**: Dauer und Datum
+Unter **/cockpit?view=trends** siehst du, wie sich dein Fliegen im Lauf der Zeit entwickelt.
+
+Wähl eine **Kennzahl** (**Flugzeit**, **Flüge**, **Ø Strecke**, **Ø Flugzeit**, **Ø Geschwindigkeit**), ein **Intervall** (**Tag**, **Woche**, **Monat**, **Jahr**), einen **Zeitraum** (**30 Tage**, **12 Monate**, **Dieses Jahr**, **Alle**) und eine **Aufteilung** (**Gesamt** oder **Nach Schirm**). Schalte die **Anzeige** zwischen **Diagramm** und **Tabelle** um. Klick auf eine Säule, um ihre Flüge im Flugbuch zu öffnen.
+
+## Ansicht Kurbeln
+
+Unter **/cockpit?view=thermaling** findest du deine Steigstatistik über jeden Bart in den gefilterten Flügen: **Median-Steigen**, **Bestes Steigen**, **Median-Höhengewinn**, **Bärte/h**, **Kurbelzeit**, Kreiszeit und Kreisradius sowie **Low Saves**. Die Diagramme im Saisonvergleich sind in **Effizienz**, **Umfang**, **Technik** und **Können** gruppiert.
+
+## Ansicht Phasen
+
+Unter **/cockpit?view=phases** siehst du, wie sich deine Flugzeit auf **Thermik**, **Suche**, **Gleitflug** und **Schweben** verteilt, mit **Median-Gleitzahl**, **Median-Gleitgeschwindigkeit** und **Kreise / min**, Saison für Saison.
 
 ## Ansicht nach Monat
 
@@ -113,11 +136,9 @@ Unter **/cockpit?view=month** siehst du die Statistik pro Monat.
 
 ### Aufschlüsselung nach Monaten
 
-Für jeden Monat mit Flügen:
-- Flüge gesamt in diesem Monat
-- Strecke gesamt
-- Punkte gesamt
-- Mittlere Flugkennzahlen
+- **Aktivste Monate**: Deine fleißigsten Monate, mit **Flüge gesamt** über alle Jahre, **Aktivstes Jahr** und **Aktivität pro Jahr**
+- **Visuelle Analyse**: **Dauer**, **Anzahl** und **Z-Score** pro Monat und Jahr, als Balken, **Gruppiert** oder **Gestapelt**
+- **Monate nach Jahr**: Eine Tabelle deiner Flüge nach Monat und Jahr
 
 ### Saisonale Muster
 
@@ -130,7 +151,7 @@ Erkenne Muster:
 
 - **Plane deine Saison**: Sieh, wann du typischerweise am besten fliegst
 - **Verfolge deine Regelmäßigkeit**: In wie vielen Monaten pro Jahr bist du aktiv?
-- **Finde deine Hauptsaison**: Wann fliegst du deine weitesten Strecken?
+- **Finde deine Hauptsaison**: Wann sammelst du die meiste Flugzeit?
 
 ## Ansicht nach Saison (Jahr)
 
@@ -138,17 +159,19 @@ Unter **/cockpit?view=season** siehst du die Statistik pro Jahr.
 
 ### Vergleich von Jahr zu Jahr
 
-Für jede Saison (jedes Jahr):
-- Flüge gesamt
-- XC-Strecke und Punkte gesamt
-- Mittlere Flugkennzahlen
-- Persönliche Bestwerte in diesem Jahr
+Für jede Saison (jedes Jahr) zeigt die Tabelle:
+- **Flüge**
+- **Stunden gesamt**
+- **Ø/Flug** (Stunden pro Flug)
+- **Z-Score** der mittleren Flugzeit
+
+Mit dem Diagramm darüber vergleichst du die Saisons nach **Dauer**, **Anzahl** oder **Z-Score**.
 
 ### Fortschritte verfolgen
 
 Vergleiche die Jahre und sieh:
 - Fliegst du mehr?
-- Werden deine Strecken länger?
+- Werden deine Flüge länger?
 - Wie schneiden die einzelnen Jahre im Vergleich ab?
 
 ### Anwendungsfälle
@@ -159,22 +182,20 @@ Vergleiche die Jahre und sieh:
 
 ## Ansicht nach Schirm
 
-Unter **/cockpit?view=glider** vergleichst du die Leistung deiner Schirme.
+Unter **/cockpit?view=glider** vergleichst du deine Schirme.
 
 ### Statistik pro Schirm
 
 Für jeden Schirm in deinem Flugbuch:
-- Anzahl der Flüge
-- Strecke und Punkte gesamt
-- Mittlere XC-Strecke
-- Mittlere Flugdauer
-- Weiteste erreichte Strecke
-- Mittlere Steigwerte
+- **Flüge**
+- **Stunden gesamt**
+- **Ø/Flug** (Stunden pro Flug)
+- **Z-Score** der mittleren Flugzeit
 
 ### Schirme vergleichen
 
 Beantworte Fragen wie:
-- Mit welchem Schirm fliege ich die besten Strecken?
+- Mit welchem Schirm bleibe ich am längsten in der Luft?
 - Wie schneiden meine verschiedenen Schirme im Vergleich ab?
 - Welchen Schirm fliege ich am häufigsten?
 
@@ -190,24 +211,31 @@ Unter **/cockpit?view=takeoff** analysierst du deine Leistung pro Fluggebiet.
 
 ### Statistik pro Fluggebiet
 
-Für jeden Startplatz:
-- Anzahl der Flüge von diesem Startplatz
-- XC-Strecke gesamt
-- Mittlere XC-Strecke
-- Weiteste Strecke von diesem Startplatz
-- **Leistungswert (Z-Score)**: Statistische Erkennung von Ausreißern (siehe: [Z-Score-Guide für Piloten](/doc/z-score-pilot-guide))
+Für jeden Startplatz zeigt eine sortierbare Tabelle:
+- **Flüge** von diesem Startplatz
+- **Stunden gesamt**
+- **Ø/Flug** (Stunden pro Flug)
+- **Z-Score**: Statistische Erkennung von Ausreißern (siehe: [Z-Score-Guide für Piloten](/doc/z-score-pilot-guide))
 
 ## Ansicht nach Land
 
-Unter **/cockpit/?view=country** siehst du deine Statistik nach Ländern.
+Unter **/cockpit?view=country** siehst du deine Statistik nach Ländern.
 
 ### Statistik pro Land
 
 Für jedes Land, in dem du geflogen bist:
-- Anzahl der Flüge
-- XC-Strecke gesamt
-- Mittlere Kennzahlen
-- Top-Fluggebiete in diesem Land
+- **Flüge**
+- **Stunden gesamt**
+- **Ø/Flug** (Stunden pro Flug)
+- **Z-Score** der mittleren Flugzeit
+
+## Ansicht CIVL
+
+Unter **/cockpit?view=civl** siehst du dein CIVL-Ranking (Welt, Europa und Land) und seinen Verlauf. Trag dafür zuerst deine CIVL-ID in deinen Profileinstellungen ein.
+
+## Ansicht Karte
+
+Unter **/cockpit?view=map** siehst du jeden Startplatz, von dem du geflogen bist, auf einer Karte, mit der Anzahl der Flüge an jedem.
 
 ## Tipps und bewährte Vorgehensweisen
 

@@ -12,12 +12,12 @@ updated: 2026-04-20
 
 Un vídeo de 3 minutos está en camino. Estamos grabando uno para cada parte importante de la app (cockpit, libro de vuelo, análisis de térmicas, comunidad) para que aprendas lo básico en lo que tardas en hacerte un café.
 
-> **Muy pronto.** El vídeo ya está grabado, pero aún se está editando. Suscríbete al [blog](/blog) para enterarte en cuanto aterrice.
+> **Muy pronto.** El vídeo ya está grabado, pero aún se está editando. Estate atento a [Novedades](/doc/whats-new): lo anunciaremos ahí.
 
 ## Qué incluye
 
 - Dónde encontrar tus vuelos
 - Cómo leer los números del cockpit
-- Cómo preparar tu primer informe de análisis de térmicas
+- Cómo leer el análisis de térmicas de tu primer vuelo
 
 Si prefieres leer a mirar, la página de [Bienvenida](/doc) cubre lo mismo en texto.
