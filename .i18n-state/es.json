@@ -21905,6 +21905,66 @@
       "tr": "5b65bfdbd2cfe0ca",
       "by": "ai"
     },
+    "profile.logflyImport.importErrors.generic": {
+      "src": "44836065785b3890",
+      "tr": "e0796c4fef28e09b",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.igcTooLarge": {
+      "src": "7a047322d854a07d",
+      "tr": "017d8c6c802df1d4",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.insufficientFixes": {
+      "src": "8fe2e8ca50a1e3e5",
+      "tr": "e35014f8b43d48ed",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.invalidBody": {
+      "src": "0363682130c6916f",
+      "tr": "7b961bb85605a6bf",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.invalidIgcNoFixes": {
+      "src": "5db80bc5d21b9714",
+      "tr": "1e1959e7538022f0",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.invalidIgcParse": {
+      "src": "cbe3a5dfd01b78ce",
+      "tr": "6a2d6279005000b2",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.invalidVolId": {
+      "src": "06083f1952348fe5",
+      "tr": "21fc20072630bd33",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.missingIgc": {
+      "src": "fcee1d2a98f28f2d",
+      "tr": "c6f069faae00b1df",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.processFailed": {
+      "src": "bf62fcc5da0944b6",
+      "tr": "93d60227f93f8206",
+      "by": "ai"
+    },
+    "profile.logflyImport.importErrors.rateLimited": {
+      "src": "fa85b24314476ee7",
+      "tr": "27e46e48ca7bc56a",
+      "by": "ai"
+    },
+    "profile.logflyImport.notLogflyDb": {
+      "src": "8470ea4c69b5870b",
+      "tr": "80ed2d9e6e2c5911",
+      "by": "ai"
+    },
+    "profile.logflyImport.unknownSite": {
+      "src": "82dbb3296b1b12c5",
+      "tr": "e0534a4c8bff0350",
+      "by": "ai"
+    },
     "profile.meta.anomalies.description": {
       "src": "cd590279ffdfeb23",
       "tr": "8fa94a4136de6611",
@@ -22260,6 +22320,11 @@
       "tr": "cce35affe6dccde0",
       "by": "ai"
     },
+    "profile.shared.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
+      "by": "ai"
+    },
     "profile.shared.viewAria": {
       "src": "f3359f210ed9aaef",
       "tr": "e1f69b911982cc09",
@@ -22278,6 +22343,31 @@
     "profile.shareProfile.dialogTitle": {
       "src": "af602de536ffb23d",
       "tr": "8b38013a94514b96",
+      "by": "ai"
+    },
+    "profile.shareProfile.errors.consentRequired": {
+      "src": "62e4a3fc68214c5c",
+      "tr": "b34a0d86cdfce4e2",
+      "by": "ai"
+    },
+    "profile.shareProfile.errors.generateFailed": {
+      "src": "df556f74a44ff2d5",
+      "tr": "01730db5020835c9",
+      "by": "ai"
+    },
+    "profile.shareProfile.errors.notAuthenticated": {
+      "src": "12a585f01582a300",
+      "tr": "6190080ba7fbfbde",
+      "by": "ai"
+    },
+    "profile.shareProfile.errors.profileNotPublic": {
+      "src": "29efd7d73e0932e4",
+      "tr": "c24ac453373efa68",
+      "by": "ai"
+    },
+    "profile.shareProfile.errors.userNotFound": {
+      "src": "adad81173d730eec",
+      "tr": "f7c765b50783cc19",
       "by": "ai"
     },
     "profile.shareProfile.failed": {
@@ -29565,6 +29655,11 @@
       "tr": "0ae1ea31051ce2ac",
       "by": "ai"
     },
+    "upload.api.compareReadFailed": {
+      "src": "b3b169cd6767ce0a",
+      "tr": "c47cb64b71abb60f",
+      "by": "ai"
+    },
     "upload.api.insufficientFixes": {
       "src": "90d1c99ac733ef91",
       "tr": "4b8ae542c9fddeb6",
@@ -29578,6 +29673,16 @@
     "upload.api.invalidFile": {
       "src": "d64f9fd6a4ec6a1b",
       "tr": "010b0466595246e2",
+      "by": "ai"
+    },
+    "upload.api.invalidIgcNoFixes": {
+      "src": "5db80bc5d21b9714",
+      "tr": "dfafd7a5d4ab8882",
+      "by": "ai"
+    },
+    "upload.api.invalidIgcParse": {
+      "src": "cbe3a5dfd01b78ce",
+      "tr": "49aec629788a667d",
       "by": "ai"
     },
     "upload.api.noFile": {
@@ -34280,6 +34385,286 @@
       "tr": "4a7e215546101c03",
       "by": "ai"
     },
+    "xcPlanner.errors.cloudCouldNotReturn": {
+      "src": "51dee5c78028613c",
+      "tr": "0d2b882691e2cb9d",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudEmptyResponse": {
+      "src": "a5e4a9329e4237f0",
+      "tr": "afb967350291129c",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudInvalidCode": {
+      "src": "d05c1b020f38974b",
+      "tr": "935b9ccefdad4c10",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudNotFound": {
+      "src": "126dc3132177e0fe",
+      "tr": "dcc26773f5699603",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudRejected": {
+      "src": "8f9b9bade90de8ca",
+      "tr": "6564e55bc4330be3",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudTaskEmpty": {
+      "src": "31f5c6cafadadc04",
+      "tr": "9c3ed0bfe5d02eac",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudUnexpectedResponse": {
+      "src": "62e93030398e8c78",
+      "tr": "efefe27e00c8eebc",
+      "by": "ai"
+    },
+    "xcPlanner.errors.cloudUnreachable": {
+      "src": "5f6e83e1ade4017a",
+      "tr": "6f6b2c3d799d0136",
+      "by": "ai"
+    },
+    "xcPlanner.errors.collectionNameRequired": {
+      "src": "08f46eaf644a5430",
+      "tr": "7cc29c52c7b92f05",
+      "by": "ai"
+    },
+    "xcPlanner.errors.collectionNotFound": {
+      "src": "fed482786acf6273",
+      "tr": "a44a4e8e6c90a053",
+      "by": "ai"
+    },
+    "xcPlanner.errors.deleteCollectionFailed": {
+      "src": "b06bb1628700a277",
+      "tr": "31b73daa5ccb23ad",
+      "by": "ai"
+    },
+    "xcPlanner.errors.deleteRouteFailed": {
+      "src": "7c74efe99785d3e2",
+      "tr": "272c6882f093f562",
+      "by": "ai"
+    },
+    "xcPlanner.errors.deleteTaskFailed": {
+      "src": "9a6ee655a3bb9cfc",
+      "tr": "c76d70130775cbbd",
+      "by": "ai"
+    },
+    "xcPlanner.errors.emptyTaskInput": {
+      "src": "c6a8a3eff1fe1fc6",
+      "tr": "55e652ffe8510246",
+      "by": "ai"
+    },
+    "xcPlanner.errors.enterCloudCode": {
+      "src": "691a5e6fb842cb3b",
+      "tr": "e885ccbf5a333991",
+      "by": "ai"
+    },
+    "xcPlanner.errors.invalidCollectionId": {
+      "src": "4864739337564a5f",
+      "tr": "19147268fc562afa",
+      "by": "ai"
+    },
+    "xcPlanner.errors.invalidCollectionWaypoints": {
+      "src": "a617bf93843363af",
+      "tr": "6a500239a7eb9ebd",
+      "by": "ai"
+    },
+    "xcPlanner.errors.invalidRouteId": {
+      "src": "b70104b9d15780b0",
+      "tr": "56f3dd9fa4aa2502",
+      "by": "ai"
+    },
+    "xcPlanner.errors.invalidRouteWaypoints": {
+      "src": "5fa4a228c154a64f",
+      "tr": "fe4c140ca95f30f9",
+      "by": "ai"
+    },
+    "xcPlanner.errors.invalidTaskId": {
+      "src": "35a5bb92d29cc50c",
+      "tr": "9e2326723dd73e4c",
+      "by": "ai"
+    },
+    "xcPlanner.errors.noTaskInFile": {
+      "src": "5e2bbfe6a4f20661",
+      "tr": "3bb7e313f9c23212",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidCompression": {
+      "src": "94fdd0a8e716bba5",
+      "tr": "9ec3e4accb69577a",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidCoordinates": {
+      "src": "018070e8b4ee7166",
+      "tr": "179d3a5bc3bad07a",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidCup": {
+      "src": "26213656783b688e",
+      "tr": "a6a281ae5b1b330b",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidJson": {
+      "src": "1cbaccedaa665876",
+      "tr": "850e23747a6fd85f",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidPolyline": {
+      "src": "d153379f87bbf669",
+      "tr": "f65b7e255509a93d",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidPrefix": {
+      "src": "ca18a384a7e9161a",
+      "tr": "4675e4cd3555eb5c",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidRadius": {
+      "src": "7120f3b7af4fc4d0",
+      "tr": "7a2e2e6dea21171d",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidStructure": {
+      "src": "2f48f1bd76bf2dbe",
+      "tr": "c8816f1b28d1c47e",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidTime": {
+      "src": "4df8f9e668d0634c",
+      "tr": "a646b267c1b2389c",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.invalidXml": {
+      "src": "2f80be5fe47b5a35",
+      "tr": "68b9de371eced10a",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.noTasks": {
+      "src": "67778d057ae30724",
+      "tr": "224bc5e17d9ef738",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.tooFewTurnpoints": {
+      "src": "b9acc65fd35bac7c",
+      "tr": "af6b8dcfaaaee22f",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.tooLarge": {
+      "src": "1e4343e640d8812f",
+      "tr": "9aa45f1bdca4ca36",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.tooManyTurnpoints": {
+      "src": "6079f2620f0fe7e3",
+      "tr": "e3713b24e0539cef",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.unsupportedFormat": {
+      "src": "25c591b009cdbfef",
+      "tr": "5115324ee28d7c97",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.unsupportedTaskType": {
+      "src": "60c2227408d79c7d",
+      "tr": "ce385f96072385ce",
+      "by": "ai"
+    },
+    "xcPlanner.errors.parse.unsupportedVersion": {
+      "src": "0fdb4c89fed2a616",
+      "tr": "c252f5700a1c544e",
+      "by": "ai"
+    },
+    "xcPlanner.errors.routeNameRequired": {
+      "src": "fb942630c4850bf2",
+      "tr": "c7716ef70c0ca01f",
+      "by": "ai"
+    },
+    "xcPlanner.errors.routeNotFound": {
+      "src": "490f1a85783367c7",
+      "tr": "60e7fc39adb51e2d",
+      "by": "ai"
+    },
+    "xcPlanner.errors.saveCollectionFailed": {
+      "src": "4a5524378a97c14b",
+      "tr": "bc5d2bf5201ae272",
+      "by": "ai"
+    },
+    "xcPlanner.errors.saveRouteFailed": {
+      "src": "db5c3938b980edad",
+      "tr": "7ab9c37932996226",
+      "by": "ai"
+    },
+    "xcPlanner.errors.saveTaskFailed": {
+      "src": "65187fb57da10216",
+      "tr": "9c8c9fdb67bf200c",
+      "by": "ai"
+    },
+    "xcPlanner.errors.signInRequired": {
+      "src": "0e55d2d0c08be505",
+      "tr": "16dc119808078c01",
+      "by": "ai"
+    },
+    "xcPlanner.errors.signInToPublish": {
+      "src": "50d61e57e0b80517",
+      "tr": "cc70fee7112a960f",
+      "by": "ai"
+    },
+    "xcPlanner.errors.signInToSaveCollections": {
+      "src": "7a3813f7d0378924",
+      "tr": "c04a3cf333c65692",
+      "by": "ai"
+    },
+    "xcPlanner.errors.signInToSaveRoutes": {
+      "src": "17199c48939bcfe8",
+      "tr": "3a164b57fa995e4b",
+      "by": "ai"
+    },
+    "xcPlanner.errors.signInToSaveTasks": {
+      "src": "ccebc261e5b4a3f6",
+      "tr": "cf2db64dff7cbec4",
+      "by": "ai"
+    },
+    "xcPlanner.errors.taskFileTooLarge": {
+      "src": "685b04631d28e928",
+      "tr": "a498dc774735d481",
+      "by": "ai"
+    },
+    "xcPlanner.errors.taskNameRequired": {
+      "src": "ea4fffcaaf0d209a",
+      "tr": "0a837dc520c1d329",
+      "by": "ai"
+    },
+    "xcPlanner.errors.taskNeedsStartAndGoal": {
+      "src": "9da4222da11eb2ea",
+      "tr": "2f4cad323da75b89",
+      "by": "ai"
+    },
+    "xcPlanner.errors.taskNotFound": {
+      "src": "9c0fab976b3f46f6",
+      "tr": "fd42e6bce0564609",
+      "by": "ai"
+    },
+    "xcPlanner.errors.tooManyCloudRequests": {
+      "src": "abb2c94e2d355df4",
+      "tr": "881fcffc6f3740ab",
+      "by": "ai"
+    },
+    "xcPlanner.errors.updateCollectionFailed": {
+      "src": "4afc259c770dcde1",
+      "tr": "f1928fdffb24c909",
+      "by": "ai"
+    },
+    "xcPlanner.errors.updateRouteFailed": {
+      "src": "0b470ec4b6cd7aa9",
+      "tr": "c5de482affc0b2b2",
+      "by": "ai"
+    },
+    "xcPlanner.errors.updateTaskFailed": {
+      "src": "75412f5b18048a0c",
+      "tr": "f7d1bf0916763e2e",
+      "by": "ai"
+    },
     "xcPlanner.fadeScroll.scrollDown": {
       "src": "0fe90a93235113ff",
       "tr": "3e56ed9db90011e0",
@@ -36003,6 +36388,11 @@
     "12c788f0e704": {
       "src": "12c788f0e70447b5",
       "tr": "790e5719d944fbed",
+      "by": "ai"
+    },
+    "16e88c1baccf": {
+      "src": "16e88c1baccfaa2f",
+      "tr": "529d7b5b2d3714fe",
       "by": "ai"
     },
     "17fb450fa77e": {

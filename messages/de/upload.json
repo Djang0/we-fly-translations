@@ -84,6 +84,9 @@
     "invalidFile": "Hochgeladene Dateien müssen .IGC-Dateien unter 3 MB sein (1,8 MB entsprechen einem Flug über 531 km).",
     "insufficientFixes": "Zu wenige GPS-Fixes: {count} B-Datensätze gefunden (mindestens {minimum} erforderlich)",
     "processFailed": "Wir konnten diesen Flug nicht verarbeiten. Bitte versuch es später noch einmal.",
+    "invalidIgcParse": "Diese IGC-Datei konnte nicht gelesen werden. Sie ist vielleicht beschädigt oder keine gültige IGC-Datei.",
+    "invalidIgcNoFixes": "Diese IGC-Datei enthält nach dem Filtern keine brauchbaren GPS-Fixes.",
+    "compareReadFailed": "Wir konnten diese IGC-Datei nicht lesen.",
     "uploaded": "Datei {name} wurde erfolgreich hochgeladen",
     "internal": "Interner Serverfehler"
   }

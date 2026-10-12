@@ -193,7 +193,8 @@
       "dialogTitle": "¿Revocar el enlace de la repetición?",
       "dialogDescription": "Quien tenga el enlace ya no podrá ver esta repetición. Puedes crear un nuevo enlace cuando quieras.",
       "revoked": "Enlace de la repetición revocado"
-    }
+    },
+    "unknownTakeoff": "Despegue desconocido"
   },
   "shareProfile": {
     "button": "Compartir perfil",
@@ -203,7 +204,14 @@
     "description": "Cualquiera con este enlace puede ver tu ficha pública de piloto con estadísticas e insignias.",
     "preview": "Vista previa",
     "share": "Compartir",
-    "nativeShareTitle": "Mi perfil de We-Fly"
+    "nativeShareTitle": "Mi perfil de We-Fly",
+    "errors": {
+      "notAuthenticated": "Inicia sesión para compartir tu perfil.",
+      "consentRequired": "Acepta las condiciones para compartir tu perfil.",
+      "userNotFound": "No encontramos tu cuenta.",
+      "profileNotPublic": "Tu perfil tiene que ser público para poder compartirlo.",
+      "generateFailed": "No se pudo generar el enlace"
+    }
   },
   "civl": {
     "rankings": "Rankings CIVL",
@@ -217,5 +225,21 @@
   "publicFlights": {
     "error": "Error al cargar los vuelos",
     "empty": "No se han encontrado vuelos de este piloto"
+  },
+  "logflyImport": {
+    "notLogflyDb": "Este archivo no parece una base de datos de Logfly (no hay tabla de vuelos).",
+    "unknownSite": "Zona de vuelo desconocida",
+    "importErrors": {
+      "generic": "No se pudo importar este vuelo.",
+      "rateLimited": "Demasiadas solicitudes. Espera un momento y vuelve a intentarlo.",
+      "invalidBody": "La solicitud de importación no es válida.",
+      "missingIgc": "Este vuelo no tiene contenido IGC.",
+      "igcTooLarge": "El archivo IGC pesa más de 3 MB.",
+      "insufficientFixes": "No hay suficientes puntos GPS: hay {count} y se necesitan al menos {minimum}.",
+      "invalidVolId": "Este vuelo no tiene un id de Logfly válido.",
+      "invalidIgcParse": "No se pudo leer este archivo IGC. Puede que esté dañado o que no sea un IGC válido.",
+      "invalidIgcNoFixes": "Tras el filtrado, este archivo IGC no tiene puntos GPS utilizables.",
+      "processFailed": "No pudimos procesar este vuelo. Vuelve a intentarlo más tarde."
+    }
   }
 }

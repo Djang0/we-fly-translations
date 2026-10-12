@@ -84,6 +84,9 @@
     "invalidFile": "Los archivos subidos deben ser .IGC de menos de 3 MB (1,8 MB equivale a un vuelo de 531 km).",
     "insufficientFixes": "Puntos GPS insuficientes: se han encontrado {count} registros B (se necesitan al menos {minimum})",
     "processFailed": "No hemos podido procesar este vuelo. Inténtalo más tarde.",
+    "invalidIgcParse": "No se ha podido leer este archivo IGC. Puede que esté dañado o que no sea un archivo IGC válido.",
+    "invalidIgcNoFixes": "Después del filtrado, este archivo IGC no tiene puntos GPS utilizables.",
+    "compareReadFailed": "No hemos podido leer este archivo IGC.",
     "uploaded": "El archivo {name} se ha subido correctamente",
     "internal": "Error interno del servidor"
   }

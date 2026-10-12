@@ -84,6 +84,9 @@
     "invalidFile": "Geüploade bestanden moeten .IGC-bestanden zijn van minder dan 3MB (1,8MB is een vlucht van 531km).",
     "insufficientFixes": "Te weinig GPS-fixes: {count} B-records gevonden (minimaal {minimum} vereist)",
     "processFailed": "We konden deze vlucht niet verwerken. Probeer het later opnieuw.",
+    "invalidIgcParse": "Dit IGC-bestand kan niet worden gelezen. Het is misschien beschadigd of geen geldig IGC-bestand.",
+    "invalidIgcNoFixes": "Na filteren heeft dit IGC-bestand geen bruikbare GPS-punten meer.",
+    "compareReadFailed": "We konden dit IGC-bestand niet lezen.",
     "uploaded": "Bestand {name} is geüpload",
     "internal": "Interne serverfout"
   }

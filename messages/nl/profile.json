@@ -193,7 +193,8 @@
       "dialogTitle": "Replaylink intrekken?",
       "dialogDescription": "Wie de link heeft, kan deze replay dan niet meer bekijken. Je kunt altijd een nieuwe link maken.",
       "revoked": "Replaylink ingetrokken"
-    }
+    },
+    "unknownTakeoff": "Onbekende startplaats"
   },
   "shareProfile": {
     "button": "Profiel delen",
@@ -203,7 +204,14 @@
     "description": "Iedereen met deze link ziet je openbare pilotenkaart met statistieken en badges.",
     "preview": "Voorbeeld",
     "share": "Delen",
-    "nativeShareTitle": "Mijn We-Fly-profiel"
+    "nativeShareTitle": "Mijn We-Fly-profiel",
+    "errors": {
+      "notAuthenticated": "Log in om je profiel te delen.",
+      "consentRequired": "Accepteer de voorwaarden om je profiel te delen.",
+      "userNotFound": "We konden je account niet vinden.",
+      "profileNotPublic": "Je profiel moet openbaar zijn om het te delen.",
+      "generateFailed": "Link aanmaken mislukt"
+    }
   },
   "civl": {
     "rankings": "CIVL-rankings",
@@ -217,5 +225,21 @@
   "publicFlights": {
     "error": "Fout bij het laden van vluchten",
     "empty": "Geen vluchten gevonden voor deze piloot"
+  },
+  "logflyImport": {
+    "notLogflyDb": "Dit bestand lijkt geen Logfly-database (geen vluchtentabel gevonden).",
+    "unknownSite": "Onbekend vlieggebied",
+    "importErrors": {
+      "generic": "Deze vlucht kon niet worden geïmporteerd.",
+      "rateLimited": "Te veel verzoeken. Wacht even en probeer het opnieuw.",
+      "invalidBody": "Het importverzoek was niet geldig.",
+      "missingIgc": "Deze vlucht heeft geen IGC-inhoud.",
+      "igcTooLarge": "Het IGC-bestand is groter dan 3 MB.",
+      "insufficientFixes": "Niet genoeg GPS-punten: {count} gevonden, minstens {minimum} nodig.",
+      "invalidVolId": "Deze vlucht heeft geen geldig Logfly-id.",
+      "invalidIgcParse": "Dit IGC-bestand kon niet worden gelezen. Het is misschien beschadigd of geen geldig IGC-bestand.",
+      "invalidIgcNoFixes": "Dit IGC-bestand heeft na het filteren geen bruikbare GPS-punten.",
+      "processFailed": "We konden deze vlucht niet verwerken. Probeer het later opnieuw."
+    }
   }
 }

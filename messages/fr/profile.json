@@ -193,7 +193,8 @@
       "dialogTitle": "Révoquer le lien du replay ?",
       "dialogDescription": "Les personnes qui ont le lien ne pourront plus regarder ce replay. Tu peux créer un nouveau lien à tout moment.",
       "revoked": "Lien du replay révoqué"
-    }
+    },
+    "unknownTakeoff": "Décollage inconnu"
   },
   "shareProfile": {
     "button": "Partager le profil",
@@ -203,7 +204,14 @@
     "description": "Toute personne qui a ce lien peut voir ta carte de pilote publique avec tes stats et tes badges.",
     "preview": "Aperçu",
     "share": "Partager",
-    "nativeShareTitle": "Mon profil We-Fly"
+    "nativeShareTitle": "Mon profil We-Fly",
+    "errors": {
+      "notAuthenticated": "Connecte-toi pour partager ton profil.",
+      "consentRequired": "Accepte les conditions pour partager ton profil.",
+      "userNotFound": "Impossible de retrouver ton compte.",
+      "profileNotPublic": "Ton profil doit être public pour pouvoir le partager.",
+      "generateFailed": "Impossible de générer le lien"
+    }
   },
   "civl": {
     "rankings": "Classements CIVL",
@@ -217,5 +225,21 @@
   "publicFlights": {
     "error": "Erreur de chargement des vols",
     "empty": "Aucun vol trouvé pour ce pilote"
+  },
+  "logflyImport": {
+    "notLogflyDb": "Ce fichier ne ressemble pas à une base Logfly (aucune table de vols trouvée).",
+    "unknownSite": "Site inconnu",
+    "importErrors": {
+      "generic": "Impossible d’importer ce vol.",
+      "rateLimited": "Trop de requêtes. Attends un instant et réessaie.",
+      "invalidBody": "La demande d’import n’est pas valide.",
+      "missingIgc": "Ce vol n’a pas de contenu IGC.",
+      "igcTooLarge": "Le fichier IGC dépasse 3 Mo.",
+      "insufficientFixes": "Pas assez de points GPS : {count} trouvés, il en faut au moins {minimum}.",
+      "invalidVolId": "Ce vol n’a pas d’identifiant Logfly valide.",
+      "invalidIgcParse": "Impossible de lire ce fichier IGC. Il est peut-être corrompu ou ce n’est pas un vrai fichier IGC.",
+      "invalidIgcNoFixes": "Ce fichier IGC n’a plus aucun point GPS exploitable après filtrage.",
+      "processFailed": "Impossible de traiter ce vol. Réessaie plus tard."
+    }
   }
 }

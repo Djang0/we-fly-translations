@@ -84,6 +84,9 @@
     "invalidFile": "Les fichiers importés doivent être des .IGC de moins de 3 Mo (1,8 Mo, c’est un vol de 531 km).",
     "insufficientFixes": "Pas assez de points GPS : {count} trames B trouvées (minimum {minimum})",
     "processFailed": "Impossible de traiter ce vol. Réessaie plus tard.",
+    "invalidIgcParse": "Impossible de lire ce fichier IGC. Il est peut-être corrompu ou ce n’est pas un fichier IGC valide.",
+    "invalidIgcNoFixes": "Ce fichier IGC ne contient aucun point GPS exploitable après filtrage.",
+    "compareReadFailed": "On n’a pas pu lire ce fichier IGC.",
     "uploaded": "Le fichier {name} a bien été importé",
     "internal": "Erreur interne du serveur"
   }
