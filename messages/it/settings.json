@@ -185,7 +185,12 @@
     "failedCount": "{count} non riusciti",
     "nonIgcIgnored": "{count} non IGC ignorati",
     "finishedWithFailures": "Importazione terminata: {count} non riusciti",
-    "noNewFlights": "Nessun volo nuovo: {count} già importati"
+    "noNewFlights": "Nessun volo nuovo: {count} già importati",
+    "errors": {
+      "tooLarge": "Questo file supera il limite di 3 MB.",
+      "importFailed": "Non siamo riusciti a importare questo file.",
+      "downloadFailed": "Non siamo riusciti a scaricare questo file da Google Drive."
+    }
   },
   "logfly": {
     "title": "Database Logfly",
@@ -432,24 +437,6 @@
       "licenseName": "Nome del brevetto",
       "organization": "Ente",
       "clubName": "Nome del club"
-    },
-    "unsubscribeInvalid": "Questo link di disiscrizione non è valido",
-    "unsubscribeFailed": "Qualcosa è andato storto. Riprova."
-  },
-  "safetyContact": {
-    "page": {
-      "incompleteTitle": "Manca qualcosa",
-      "incompleteBody": "Il link è incompleto. Riapri quello che trovi nell’email.",
-      "invalidTitle": "Nessuna azione necessaria",
-      "invalidBody": "Questo link non è più valido. Se un pilota ti ha tolto dai suoi contatti di sicurezza, la rimozione è già effettiva e non ti scriveremo più.",
-      "confirmedTitle": "Conferma ricevuta",
-      "confirmedBodyLanding": "Grazie, d’ora in poi riceverai un breve messaggio quando questo pilota atterra e un allarme di emergenza se mai dovesse segnalarne una.",
-      "confirmedBodyRemove": "Ogni messaggio che ti inviamo contiene un link per toglierti dalla lista, e puoi usarlo in qualsiasi momento.",
-      "removedTitle": "Rimozione completata",
-      "removedBodyDone": "Non fai più parte dei contatti di sicurezza di questo pilota e non ti scriveremo più per i suoi voli.",
-      "removedBodyAskAgain": "Se vuoi rientrare nella lista, chiedilo direttamente al pilota. Da qui non possiamo farlo.",
-      "errorTitle": "Qualcosa è andato storto",
-      "errorBody": "Al momento non siamo riusciti a completare l’operazione. Riapri il link tra qualche minuto."
     }
   }
 }

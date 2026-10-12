@@ -267,7 +267,7 @@
     "cloudEmptyResponse": "Il servizio cloud di XContest ha restituito un task vuoto.",
     "parse": {
       "invalidJson": "Dati del task non validi (impossibile leggere il JSON).",
-      "tooLarge": "Questo task è troppo grande (limite {limit}).",
+      "tooLarge": "Questo file del task è troppo grande.",
       "unsupportedTaskType": "Sono supportati solo i task CLASSIC.",
       "unsupportedVersion": "Qui è supportata solo la versione {version} del formato task.",
       "unsupportedFormat": "File task non riconosciuto. Formati attesi: .xctsk, .fsdb, .tsk o .cup.",

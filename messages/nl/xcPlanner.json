@@ -267,7 +267,7 @@
     "cloudEmptyResponse": "De XContest-clouddienst gaf een lege taak terug.",
     "parse": {
       "invalidJson": "Dit zijn geen geldige taakgegevens (de JSON kon niet worden gelezen).",
-      "tooLarge": "Deze taak is te groot (limiet {limit}).",
+      "tooLarge": "Dit taakbestand is te groot.",
       "unsupportedTaskType": "Alleen CLASSIC-taken worden ondersteund.",
       "unsupportedVersion": "Hier wordt alleen versie {version} van het taakformaat ondersteund.",
       "unsupportedFormat": "Onbekend taakbestand. Verwacht .xctsk, .fsdb, .tsk of .cup.",

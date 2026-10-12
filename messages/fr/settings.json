@@ -185,7 +185,12 @@
     "failedCount": "{count} en échec",
     "nonIgcIgnored": "{count} non-IGC ignoré(s)",
     "finishedWithFailures": "Import terminé : {count} en échec",
-    "noNewFlights": "Aucun nouveau vol : {count} déjà importé(s)"
+    "noNewFlights": "Aucun nouveau vol : {count} déjà importé(s)",
+    "errors": {
+      "tooLarge": "Ce fichier dépasse la limite de 3 MB.",
+      "importFailed": "Impossible d’importer ce fichier.",
+      "downloadFailed": "Impossible de télécharger ce fichier depuis Google Drive."
+    }
   },
   "logfly": {
     "title": "Base Logfly",
@@ -432,24 +437,6 @@
       "licenseName": "Nom du brevet",
       "organization": "Organisme",
       "clubName": "Nom du club"
-    },
-    "unsubscribeInvalid": "Ce lien de désinscription n’est pas valide",
-    "unsubscribeFailed": "Un problème est survenu. Réessaie."
-  },
-  "safetyContact": {
-    "page": {
-      "incompleteTitle": "Il manque quelque chose",
-      "incompleteBody": "Ce lien est incomplet. Rouvre celui de l’e-mail.",
-      "invalidTitle": "Rien à faire",
-      "invalidBody": "Ce lien n’est plus valide. Si tu ne fais plus partie des contacts de sécurité d’un pilote, c’est déjà effectif et tu n’auras plus de nouvelles de notre part.",
-      "confirmedTitle": "C’est confirmé",
-      "confirmedBodyLanding": "Merci, tu recevras désormais un petit message quand ce pilote atterrit, et une alerte si jamais une urgence est déclenchée.",
-      "confirmedBodyRemove": "Chaque message qu’on t’envoie contient un lien pour te retirer de la liste, utilisable à tout moment.",
-      "removedTitle": "Retrait effectué",
-      "removedBodyDone": "Tu ne fais plus partie des contacts de sécurité de ce pilote et on ne t’enverra plus d’e-mail sur ses vols.",
-      "removedBodyAskAgain": "Pour revenir sur la liste, demande-lui directement. On ne peut pas le faire d’ici.",
-      "errorTitle": "Un problème est survenu",
-      "errorBody": "On n’a pas pu finaliser l’opération pour l’instant. Réessaie le lien dans quelques minutes."
     }
   }
 }

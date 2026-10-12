@@ -25110,6 +25110,21 @@
       "tr": "c634b22a7e3f5c38",
       "by": "ai"
     },
+    "settings.drive.errors.downloadFailed": {
+      "src": "6d0bfb4957402b5f",
+      "tr": "77d131e8f4d64730",
+      "by": "ai"
+    },
+    "settings.drive.errors.importFailed": {
+      "src": "fd7bfb439d6180ca",
+      "tr": "89ed5905abf3fcb3",
+      "by": "ai"
+    },
+    "settings.drive.errors.tooLarge": {
+      "src": "7c5c8f02b7b6e4ef",
+      "tr": "54a1398733281de3",
+      "by": "ai"
+    },
     "settings.drive.failedCount": {
       "src": "cd8f5051cba3686a",
       "tr": "49241c5879fc7a0f",
@@ -35016,8 +35031,8 @@
       "by": "ai"
     },
     "xcPlanner.errors.parse.tooLarge": {
-      "src": "1e4343e640d8812f",
-      "tr": "be1b0d16bb9281a2",
+      "src": "685b04631d28e928",
+      "tr": "68bcf566f887ca96",
       "by": "ai"
     },
     "xcPlanner.errors.parse.tooManyTurnpoints": {

@@ -267,7 +267,7 @@
     "cloudEmptyResponse": "El servicio en la nube de XContest devolvió una manga vacía.",
     "parse": {
       "invalidJson": "Estos datos de manga no son válidos (no se pudo leer el JSON).",
-      "tooLarge": "Esta manga es demasiado grande (límite: {limit}).",
+      "tooLarge": "Este archivo de manga es demasiado grande.",
       "unsupportedTaskType": "Solo se admiten mangas CLASSIC.",
       "unsupportedVersion": "Aquí solo se admite la versión {version} del formato de manga.",
       "unsupportedFormat": "Archivo de manga no reconocido. Se esperaba .xctsk, .fsdb, .tsk o .cup.",

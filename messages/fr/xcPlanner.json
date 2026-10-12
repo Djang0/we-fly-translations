@@ -267,7 +267,7 @@
     "cloudEmptyResponse": "Le service cloud XContest a renvoyé une manche vide.",
     "parse": {
       "invalidJson": "Ces données de manche ne sont pas valides (impossible de lire le JSON).",
-      "tooLarge": "Cette manche est trop volumineuse (limite : {limit}).",
+      "tooLarge": "Ce fichier de manche est trop volumineux.",
       "unsupportedTaskType": "Seules les manches CLASSIC sont prises en charge.",
       "unsupportedVersion": "Seule la version {version} du format de manche est prise en charge ici.",
       "unsupportedFormat": "Fichier de manche non reconnu. Formats attendus : .xctsk, .fsdb, .tsk ou .cup.",

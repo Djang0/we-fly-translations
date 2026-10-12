@@ -185,7 +185,12 @@
     "failedCount": "{count} fehlgeschlagen",
     "nonIgcIgnored": "{count} Nicht-IGC-Dateien ignoriert",
     "finishedWithFailures": "Import abgeschlossen: {count} fehlgeschlagen",
-    "noNewFlights": "Keine neuen Flüge: {count} bereits importiert"
+    "noNewFlights": "Keine neuen Flüge: {count} bereits importiert",
+    "errors": {
+      "tooLarge": "Diese Datei ist größer als das Limit von 3 MB.",
+      "importFailed": "Wir konnten diese Datei nicht importieren.",
+      "downloadFailed": "Wir konnten diese Datei nicht von Google Drive herunterladen."
+    }
   },
   "logfly": {
     "title": "Logfly-Datenbank",
@@ -432,24 +437,6 @@
       "licenseName": "Name der Lizenz",
       "organization": "Organisation",
       "clubName": "Name des Vereins"
-    },
-    "unsubscribeInvalid": "Dieser Abmeldelink ist ungültig",
-    "unsubscribeFailed": "Da ist etwas schiefgelaufen. Bitte versuch es noch einmal."
-  },
-  "safetyContact": {
-    "page": {
-      "incompleteTitle": "Da fehlt etwas",
-      "incompleteBody": "Der Link ist unvollständig. Öffne bitte noch einmal den Link aus der E-Mail.",
-      "invalidTitle": "Nichts zu tun",
-      "invalidBody": "Dieser Link ist nicht mehr gültig. Falls du als Sicherheitskontakt entfernt wurdest, ist das bereits erledigt und du hörst nichts mehr von uns.",
-      "confirmedTitle": "Du bist bestätigt",
-      "confirmedBodyLanding": "Danke! Du bekommst jetzt eine kurze Nachricht, wenn dieser Pilot landet, und einen Notfallalarm, falls jemals ein Notfall gemeldet wird.",
-      "confirmedBodyRemove": "Jede Nachricht von uns enthält einen Link, mit dem du dich jederzeit selbst austragen kannst.",
-      "removedTitle": "Du wurdest entfernt",
-      "removedBodyDone": "Du bist nicht mehr Sicherheitskontakt für diesen Piloten und bekommst keine E-Mails mehr zu dessen Flügen.",
-      "removedBodyAskAgain": "Wenn du wieder eingetragen werden möchtest, wende dich direkt an die Person. Von hier aus können wir das nicht machen.",
-      "errorTitle": "Da ist etwas schiefgelaufen",
-      "errorBody": "Das hat gerade nicht geklappt. Versuch den Link in ein paar Minuten bitte noch einmal."
     }
   }
 }

@@ -117,24 +117,5 @@
     "flightMode": "Flight mode",
     "flightModeCaption": "Solo and tandem hours",
     "flightsByType": "Flights by type"
-  },
-  "api": {
-    "unauthorized": "Please sign in to continue.",
-    "internal": "Something went wrong. Please try again.",
-    "invalidFlightId": "Invalid flight ID.",
-    "missingFlightId": "The flight ID is missing.",
-    "flightNotFound": "Flight not found.",
-    "flightNotOwned": "Flight not found, or it is not yours.",
-    "link": {
-      "exists": "This flight already has a shared link.",
-      "none": "This flight has no shared link."
-    },
-    "replay": {
-      "invalidRequest": "Invalid request.",
-      "invalidFlightList": "The list of flights is invalid.",
-      "tooManyFlights": "A shared replay can include at most {max, plural, one {# other flight} other {# other flights}}.",
-      "invalidId": "Invalid shared replay ID.",
-      "notFound": "Shared replay not found."
-    }
   }
 }

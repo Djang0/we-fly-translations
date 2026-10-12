@@ -34,10 +34,6 @@
     "fileNotFound": "Airspace file not found",
     "flightNotFound": "Flight not found",
     "fileGone": "This airspace file was just removed. Upload it again.",
-    "internal": "Internal error",
-    "noFile": "Choose an airspace file to attach.",
-    "tooLarge": "Airspace file exceeds the 8 MB limit",
-    "noAirspace": "No airspace found in this file.",
-    "notReadable": "This is not a readable OpenAir file."
+    "internal": "Internal error"
   }
 }
