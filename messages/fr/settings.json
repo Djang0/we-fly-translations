@@ -185,12 +185,7 @@
     "failedCount": "{count} en échec",
     "nonIgcIgnored": "{count} non-IGC ignoré(s)",
     "finishedWithFailures": "Import terminé : {count} en échec",
-    "noNewFlights": "Aucun nouveau vol : {count} déjà importé(s)",
-    "errors": {
-      "tooLarge": "Ce fichier dépasse la limite de 3 MB.",
-      "importFailed": "Impossible d’importer ce fichier.",
-      "downloadFailed": "Impossible de télécharger ce fichier depuis Google Drive."
-    }
+    "noNewFlights": "Aucun nouveau vol : {count} déjà importé(s)"
   },
   "logfly": {
     "title": "Base Logfly",
@@ -437,6 +432,24 @@
       "licenseName": "Nom du brevet",
       "organization": "Organisme",
       "clubName": "Nom du club"
+    },
+    "unsubscribeInvalid": "Ce lien de désinscription n’est pas valide",
+    "unsubscribeFailed": "Un problème est survenu. Réessaie."
+  },
+  "safetyContact": {
+    "page": {
+      "incompleteTitle": "Il manque quelque chose",
+      "incompleteBody": "Ce lien est incomplet. Rouvre celui de l’e-mail.",
+      "invalidTitle": "Rien à faire",
+      "invalidBody": "Ce lien n’est plus valide. Si ton adresse a été retirée des contacts de sécurité d’un pilote, c’est déjà effectif et tu n’auras plus de nouvelles de notre part.",
+      "confirmedTitle": "C’est confirmé",
+      "confirmedBodyLanding": "Merci, tu recevras désormais un court message quand ce pilote se pose, et une alerte si jamais une urgence est déclenchée.",
+      "confirmedBodyRemove": "Chaque message qu’on t’envoie contient un lien pour te désinscrire, utilisable à tout moment.",
+      "removedTitle": "Désinscription effectuée",
+      "removedBodyDone": "Ton adresse ne figure plus parmi les contacts de sécurité de ce pilote et on ne t’écrira plus au sujet de ses vols.",
+      "removedBodyAskAgain": "Si tu veux y figurer à nouveau, demande-le-lui directement. On ne peut pas le faire d’ici.",
+      "errorTitle": "Un problème est survenu",
+      "errorBody": "On n’a pas pu finaliser ça pour l’instant. Réessaie le lien d’ici quelques minutes."
     }
   }
 }

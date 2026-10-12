@@ -185,12 +185,7 @@
     "failedCount": "Fallidos: {count}",
     "nonIgcIgnored": "Ignorados por no ser IGC: {count}",
     "finishedWithFailures": "Importación terminada. Fallidos: {count}",
-    "noNewFlights": "No hay vuelos nuevos. Ya importados: {count}",
-    "errors": {
-      "tooLarge": "Este archivo supera el límite de 3 MB.",
-      "importFailed": "No hemos podido importar este archivo.",
-      "downloadFailed": "No hemos podido descargar este archivo de Google Drive."
-    }
+    "noNewFlights": "No hay vuelos nuevos. Ya importados: {count}"
   },
   "logfly": {
     "title": "Base de datos de Logfly",
@@ -437,6 +432,24 @@
       "licenseName": "El nombre de la licencia",
       "organization": "El organismo",
       "clubName": "El nombre del club"
+    },
+    "unsubscribeInvalid": "Este enlace para darte de baja no es válido",
+    "unsubscribeFailed": "Algo ha fallado. Vuelve a intentarlo."
+  },
+  "safetyContact": {
+    "page": {
+      "incompleteTitle": "Falta algo",
+      "incompleteBody": "Ese enlace está incompleto. Vuelve a abrir el del correo.",
+      "invalidTitle": "No hay nada que hacer",
+      "invalidBody": "Este enlace ya no es válido. Si te quitaron de los contactos de seguridad de un piloto, el cambio ya está hecho y no volverás a saber de nosotros.",
+      "confirmedTitle": "Confirmación hecha",
+      "confirmedBodyLanding": "Gracias. A partir de ahora recibirás un mensaje corto cuando este piloto aterrice, y una alerta si alguna vez lanza una emergencia.",
+      "confirmedBodyRemove": "Cada mensaje que te enviamos incluye un enlace para salir de la lista, y puedes usarlo cuando quieras.",
+      "removedTitle": "Ya no estás en la lista",
+      "removedBodyDone": "Ya no figuras como contacto de seguridad de este piloto y no volveremos a escribirte sobre sus vuelos.",
+      "removedBodyAskAgain": "Si quieres volver a la lista, pídeselo directamente al piloto. Desde aquí no podemos hacerlo.",
+      "errorTitle": "Algo ha fallado",
+      "errorBody": "No hemos podido completarlo ahora mismo. Vuelve a probar el enlace dentro de unos minutos."
     }
   }
 }

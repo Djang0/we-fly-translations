@@ -19800,6 +19800,11 @@
       "tr": "cf3d4e5018da9dee",
       "by": "ai"
     },
+    "map.openAirFile.noAirspace": {
+      "src": "0f4b72a0c9eb4e90",
+      "tr": "eacddeb3d305e3a2",
+      "by": "ai"
+    },
     "map.openAirFile.readFailed": {
       "src": "bba5c07bc9253b53",
       "tr": "a45f555bae9041cb",
@@ -25557,7 +25562,7 @@
     },
     "settings.errors.unsubscribeFailed": {
       "src": "3ccd9d6586ef9143",
-      "tr": "7da29cb513275381",
+      "tr": "04edbc844265aa4b",
       "by": "ai"
     },
     "settings.errors.unsubscribeInvalid": {
@@ -26187,27 +26192,27 @@
     },
     "settings.safetyContact.page.confirmedBodyLanding": {
       "src": "28a65d690305419d",
-      "tr": "2dff324b974855ae",
+      "tr": "aa005f0a0aa44828",
       "by": "ai"
     },
     "settings.safetyContact.page.confirmedBodyRemove": {
       "src": "ef328941058edb03",
-      "tr": "298c5ec0af9caf92",
+      "tr": "140e5589320ca2c5",
       "by": "ai"
     },
     "settings.safetyContact.page.confirmedTitle": {
       "src": "a387928c7e310555",
-      "tr": "e9fbc3cf1bba5ef7",
+      "tr": "19cd5b2c8866303a",
       "by": "ai"
     },
     "settings.safetyContact.page.errorBody": {
       "src": "758c503fd38b8371",
-      "tr": "e98ee307ac4a6211",
+      "tr": "520ac992ac52878e",
       "by": "ai"
     },
     "settings.safetyContact.page.errorTitle": {
       "src": "ab827e3fe17da220",
-      "tr": "957d926a254523a6",
+      "tr": "b2e4bf0a6a30750e",
       "by": "ai"
     },
     "settings.safetyContact.page.incompleteBody": {
@@ -26222,7 +26227,7 @@
     },
     "settings.safetyContact.page.invalidBody": {
       "src": "8492bba2845b3efe",
-      "tr": "bdd356405eb6222a",
+      "tr": "7f6b42db5d58c398",
       "by": "ai"
     },
     "settings.safetyContact.page.invalidTitle": {
@@ -26232,12 +26237,12 @@
     },
     "settings.safetyContact.page.removedBodyAskAgain": {
       "src": "1964dabef3214e23",
-      "tr": "af9dfe713740153c",
+      "tr": "c086763d245c39eb",
       "by": "ai"
     },
     "settings.safetyContact.page.removedBodyDone": {
       "src": "8d120e19dbd3517e",
-      "tr": "7cb40d580f844b2c",
+      "tr": "346779f8e8e81196",
       "by": "ai"
     },
     "settings.safetyContact.page.removedTitle": {

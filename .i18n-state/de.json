@@ -19800,6 +19800,11 @@
       "tr": "83c52ae293d6827c",
       "by": "ai"
     },
+    "map.openAirFile.noAirspace": {
+      "src": "0f4b72a0c9eb4e90",
+      "tr": "ff49836540b9f869",
+      "by": "ai"
+    },
     "map.openAirFile.readFailed": {
       "src": "bba5c07bc9253b53",
       "tr": "08c9865f4f326ccf",
@@ -25557,7 +25562,7 @@
     },
     "settings.errors.unsubscribeFailed": {
       "src": "3ccd9d6586ef9143",
-      "tr": "e0a269b09dcb853d",
+      "tr": "fcb6c52fe2d17d18",
       "by": "ai"
     },
     "settings.errors.unsubscribeInvalid": {
@@ -26187,12 +26192,12 @@
     },
     "settings.safetyContact.page.confirmedBodyLanding": {
       "src": "28a65d690305419d",
-      "tr": "21b9a3511204d150",
+      "tr": "824a6d1493163cf4",
       "by": "ai"
     },
     "settings.safetyContact.page.confirmedBodyRemove": {
       "src": "ef328941058edb03",
-      "tr": "def8d0a0e2d0f5b3",
+      "tr": "157dbee6760bf423",
       "by": "ai"
     },
     "settings.safetyContact.page.confirmedTitle": {
@@ -26202,7 +26207,7 @@
     },
     "settings.safetyContact.page.errorBody": {
       "src": "758c503fd38b8371",
-      "tr": "3365f4bacdfaedec",
+      "tr": "14831ac10ae1581e",
       "by": "ai"
     },
     "settings.safetyContact.page.errorTitle": {
@@ -26212,7 +26217,7 @@
     },
     "settings.safetyContact.page.incompleteBody": {
       "src": "803e26b1fcf30a31",
-      "tr": "75853ef6f33c1654",
+      "tr": "eee18436c143e4af",
       "by": "ai"
     },
     "settings.safetyContact.page.incompleteTitle": {
@@ -26227,17 +26232,17 @@
     },
     "settings.safetyContact.page.invalidTitle": {
       "src": "a288a348be3efa2a",
-      "tr": "305d3546db17a4cc",
+      "tr": "150bc1e0ece11452",
       "by": "ai"
     },
     "settings.safetyContact.page.removedBodyAskAgain": {
       "src": "1964dabef3214e23",
-      "tr": "81366f00738152af",
+      "tr": "f68ed330a6889ade",
       "by": "ai"
     },
     "settings.safetyContact.page.removedBodyDone": {
       "src": "8d120e19dbd3517e",
-      "tr": "639589a8b57a3128",
+      "tr": "0ee806305db875c8",
       "by": "ai"
     },
     "settings.safetyContact.page.removedTitle": {

@@ -114,6 +114,7 @@
     "tooLarge": "Airspace file exceeds the 8 MB limit",
     "loaded": "Loaded {count, plural, one {# airspace} other {# airspaces}} from {name}",
     "readFailed": "Could not read this file.",
+    "noAirspace": "No airspace found in this file.",
     "yourFile": "{count, plural, one {# airspace} other {# airspaces}} · your file",
     "useDefault": "Use default",
     "load": "Load OpenAir file",

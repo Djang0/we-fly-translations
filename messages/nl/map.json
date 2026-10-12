@@ -70,10 +70,10 @@
       "oct": "Herfst"
     },
     "skywaysTime": {
+      "10": "Avond",
       "all": "Hele dag",
       "04": "Ochtend",
-      "07": "Middag",
-      "10": "Avond"
+      "07": "Middag"
     },
     "floorAny": "Alle",
     "floorBelow": "Onder {value} m",
@@ -114,6 +114,7 @@
     "tooLarge": "Het luchtruimbestand is groter dan de limiet van 8 MB",
     "loaded": "{count, plural, one {# luchtruim} other {# luchtruimen}} geladen uit {name}",
     "readFailed": "Dit bestand kon niet gelezen worden.",
+    "noAirspace": "Geen luchtruim gevonden in dit bestand.",
     "yourFile": "{count, plural, one {# luchtruim} other {# luchtruimen}} · je eigen bestand",
     "useDefault": "Standaard gebruiken",
     "load": "OpenAir-bestand laden",

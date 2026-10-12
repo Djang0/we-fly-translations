@@ -185,12 +185,7 @@
     "failedCount": "{count} mislukt",
     "nonIgcIgnored": "{count} niet-IGC genegeerd",
     "finishedWithFailures": "Import klaar: {count} mislukt",
-    "noNewFlights": "Geen nieuwe vluchten: {count} al geïmporteerd",
-    "errors": {
-      "tooLarge": "Dit bestand is groter dan de limiet van 3 MB.",
-      "importFailed": "We konden dit bestand niet importeren.",
-      "downloadFailed": "We konden dit bestand niet downloaden van Google Drive."
-    }
+    "noNewFlights": "Geen nieuwe vluchten: {count} al geïmporteerd"
   },
   "logfly": {
     "title": "Logfly-database",
@@ -437,6 +432,24 @@
       "licenseName": "Naam van het brevet",
       "organization": "Organisatie",
       "clubName": "Clubnaam"
+    },
+    "unsubscribeInvalid": "Deze afmeldlink is niet geldig",
+    "unsubscribeFailed": "Er ging iets mis. Probeer het opnieuw."
+  },
+  "safetyContact": {
+    "page": {
+      "incompleteTitle": "Er ontbreekt iets",
+      "incompleteBody": "Die link is onvolledig. Open de link uit de e-mail opnieuw.",
+      "invalidTitle": "Niets te doen",
+      "invalidBody": "Deze link is niet meer geldig. Als je als veiligheidscontact van een piloot bent verwijderd, is dat al gebeurd en hoor je niets meer van ons.",
+      "confirmedTitle": "Je bent bevestigd",
+      "confirmedBodyLanding": "Bedankt. Je krijgt nu een kort bericht als deze piloot landt, en een noodmelding als er ooit alarm wordt geslagen.",
+      "confirmedBodyRemove": "In elk bericht dat we je sturen staat een link om jezelf te verwijderen. Die kun je altijd gebruiken.",
+      "removedTitle": "Je bent verwijderd",
+      "removedBodyDone": "Je staat niet meer bij de veiligheidscontacten van deze piloot en we mailen je niet meer over die vluchten.",
+      "removedBodyAskAgain": "Wil je weer toegevoegd worden? Vraag het de piloot zelf. Wij kunnen dat hier niet doen.",
+      "errorTitle": "Er ging iets mis",
+      "errorBody": "Dat lukte nu even niet. Probeer de link over een paar minuten opnieuw."
     }
   }
 }

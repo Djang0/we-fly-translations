@@ -91,6 +91,17 @@
     "invalidUser": "Invalid user",
     "unblockFailed": "Failed to unblock annotator",
     "commentTooLong": "Comment cannot exceed {max} characters",
-    "internal": "Internal error"
+    "internal": "Internal error",
+    "consentRequired": "Finish the consent flow at /consent before performing this action.",
+    "reviewTooFast": "You are sending review requests too quickly. Please try again later.",
+    "invalidRequest": "Invalid request",
+    "reviewerNotFound": "Reviewer not found",
+    "reviewAlreadyPending": "This pilot already has a pending review request for this flight",
+    "reviewSendFailed": "Failed to send review request"
+  },
+  "fallbacks": {
+    "pilot": "Pilot",
+    "unknownTakeoff": "Unknown takeoff",
+    "yourFlight": "your flight"
   }
 }

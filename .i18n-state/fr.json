@@ -19800,6 +19800,11 @@
       "tr": "4b5bb12fc5f559f8",
       "by": "ai"
     },
+    "map.openAirFile.noAirspace": {
+      "src": "0f4b72a0c9eb4e90",
+      "tr": "ac5b65af5003326f",
+      "by": "ai"
+    },
     "map.openAirFile.readFailed": {
       "src": "bba5c07bc9253b53",
       "tr": "80b7102a0540b5b7",
@@ -26187,12 +26192,12 @@
     },
     "settings.safetyContact.page.confirmedBodyLanding": {
       "src": "28a65d690305419d",
-      "tr": "a49ab46c2fa54398",
+      "tr": "01aae516da095f8a",
       "by": "ai"
     },
     "settings.safetyContact.page.confirmedBodyRemove": {
       "src": "ef328941058edb03",
-      "tr": "d07c9d8b10091b8e",
+      "tr": "20330fe34d8e5b8e",
       "by": "ai"
     },
     "settings.safetyContact.page.confirmedTitle": {
@@ -26202,7 +26207,7 @@
     },
     "settings.safetyContact.page.errorBody": {
       "src": "758c503fd38b8371",
-      "tr": "b2741d200a2f7528",
+      "tr": "37ac1babad550a6e",
       "by": "ai"
     },
     "settings.safetyContact.page.errorTitle": {
@@ -26222,7 +26227,7 @@
     },
     "settings.safetyContact.page.invalidBody": {
       "src": "8492bba2845b3efe",
-      "tr": "611ba094423a37e9",
+      "tr": "9f600a00179a5e4d",
       "by": "ai"
     },
     "settings.safetyContact.page.invalidTitle": {
@@ -26232,17 +26237,17 @@
     },
     "settings.safetyContact.page.removedBodyAskAgain": {
       "src": "1964dabef3214e23",
-      "tr": "5d5aec94573a9576",
+      "tr": "220e8f06143b4881",
       "by": "ai"
     },
     "settings.safetyContact.page.removedBodyDone": {
       "src": "8d120e19dbd3517e",
-      "tr": "a53351e4e9496a93",
+      "tr": "fa2135516d6e1432",
       "by": "ai"
     },
     "settings.safetyContact.page.removedTitle": {
       "src": "ef2a768a51afa556",
-      "tr": "83ab1ec5a2cb2118",
+      "tr": "00ae52b87ce1a8c6",
       "by": "ai"
     },
     "settings.signIn.addPasskey": {

@@ -193,8 +193,7 @@
       "dialogTitle": "Revoke replay link?",
       "dialogDescription": "Anyone with the link will no longer be able to watch this replay. You can create a new link at any time.",
       "revoked": "Replay link revoked"
-    },
-    "unknownTakeoff": "Unknown takeoff"
+    }
   },
   "shareProfile": {
     "button": "Share profile",
@@ -204,14 +203,7 @@
     "description": "Anyone with this link can see your public pilot card with stats and badges.",
     "preview": "Preview",
     "share": "Share",
-    "nativeShareTitle": "My We-Fly Profile",
-    "errors": {
-      "notAuthenticated": "Sign in to share your profile.",
-      "consentRequired": "Accept the terms to share your profile.",
-      "userNotFound": "We could not find your account.",
-      "profileNotPublic": "Your profile must be public to share it.",
-      "generateFailed": "Failed to generate link"
-    }
+    "nativeShareTitle": "My We-Fly Profile"
   },
   "civl": {
     "rankings": "CIVL Rankings",
@@ -225,21 +217,5 @@
   "publicFlights": {
     "error": "Error loading flights",
     "empty": "No flights found for this pilot"
-  },
-  "logflyImport": {
-    "notLogflyDb": "This file doesn't look like a Logfly database (no flight table found).",
-    "unknownSite": "Unknown site",
-    "importErrors": {
-      "generic": "This flight could not be imported.",
-      "rateLimited": "Too many requests. Wait a moment and try again.",
-      "invalidBody": "The import request was not valid.",
-      "missingIgc": "This flight has no IGC content.",
-      "igcTooLarge": "The IGC file is larger than 3 MB.",
-      "insufficientFixes": "Not enough GPS fixes: {count} found, at least {minimum} needed.",
-      "invalidVolId": "This flight has no valid Logfly id.",
-      "invalidIgcParse": "This IGC file could not be read. It may be corrupted or not a valid IGC file.",
-      "invalidIgcNoFixes": "This IGC file has no usable GPS fixes after filtering.",
-      "processFailed": "We couldn't process this flight. Please try again later."
-    }
   }
 }

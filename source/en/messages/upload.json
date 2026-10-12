@@ -84,9 +84,6 @@
     "invalidFile": "Uploaded files must be .IGC file smaller than 3MB (1.8MB is a 531km flight).",
     "insufficientFixes": "Insufficient GPS fixes: {count} B-records found (minimum {minimum} required)",
     "processFailed": "We couldn't process this flight. Please try again later.",
-    "invalidIgcParse": "This IGC file could not be read. It may be corrupted or not a valid IGC file.",
-    "invalidIgcNoFixes": "This IGC file has no usable GPS fixes after filtering.",
-    "compareReadFailed": "We couldn't read this IGC file.",
     "uploaded": "File {name} was uploaded successfully",
     "internal": "Internal server error"
   }

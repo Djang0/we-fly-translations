@@ -114,6 +114,7 @@
     "tooLarge": "Le fichier d’espaces aériens dépasse la limite de 8 Mo",
     "loaded": "{count, plural, one {# espace aérien chargé} other {# espaces aériens chargés}} depuis {name}",
     "readFailed": "Impossible de lire ce fichier.",
+    "noAirspace": "Aucun espace aérien trouvé dans ce fichier.",
     "yourFile": "{count, plural, one {# espace aérien} other {# espaces aériens}} · ton fichier",
     "useDefault": "Utiliser les données par défaut",
     "load": "Charger un fichier OpenAir",

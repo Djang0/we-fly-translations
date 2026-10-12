@@ -1,10 +1,20 @@
 {
   "baseLayers": {
-    "wefly": { "name": "We-Fly-Design" },
-    "opentopomap": { "name": "OpenTopoMap" },
-    "terrain": { "name": "Gelände (OpenFreeMap)" },
-    "satellite": { "name": "Satellit" },
-    "geoportail": { "name": "Geoportail.fr (langsam)" }
+    "wefly": {
+      "name": "We-Fly-Design"
+    },
+    "opentopomap": {
+      "name": "OpenTopoMap"
+    },
+    "terrain": {
+      "name": "Gelände (OpenFreeMap)"
+    },
+    "satellite": {
+      "name": "Satellit"
+    },
+    "geoportail": {
+      "name": "Geoportail.fr (langsam)"
+    }
   },
   "measure": {
     "toggle": "Distanz messen",
@@ -60,10 +70,10 @@
       "oct": "Herbst"
     },
     "skywaysTime": {
+      "10": "Abend",
       "all": "Ganzer Tag",
       "04": "Vormittag",
-      "07": "Mittag",
-      "10": "Abend"
+      "07": "Mittag"
     },
     "floorAny": "Alle",
     "floorBelow": "Unter {value} m",
@@ -104,6 +114,7 @@
     "tooLarge": "Die Luftraumdatei überschreitet die Grenze von 8 MB",
     "loaded": "{count, plural, one {# Luftraum} other {# Lufträume}} aus {name} geladen",
     "readFailed": "Diese Datei konnte nicht gelesen werden.",
+    "noAirspace": "In dieser Datei wurde kein Luftraum gefunden.",
     "yourFile": "{count, plural, one {# Luftraum} other {# Lufträume}} · deine Datei",
     "useDefault": "Standard verwenden",
     "load": "OpenAir-Datei laden",

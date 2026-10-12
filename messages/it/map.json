@@ -70,10 +70,10 @@
       "oct": "Autunno"
     },
     "skywaysTime": {
+      "10": "Sera",
       "all": "Tutto il giorno",
       "04": "Mattina",
-      "07": "Mezzogiorno",
-      "10": "Sera"
+      "07": "Mezzogiorno"
     },
     "floorAny": "Qualsiasi",
     "floorBelow": "Sotto {value} m",
@@ -114,6 +114,7 @@
     "tooLarge": "Il file degli spazi aerei supera il limite di 8 MB",
     "loaded": "{count, plural, one {Caricato # spazio aereo} other {Caricati # spazi aerei}} da {name}",
     "readFailed": "Impossibile leggere questo file.",
+    "noAirspace": "Nessuno spazio aereo trovato in questo file.",
     "yourFile": "{count, plural, one {# spazio aereo} other {# spazi aerei}} · il tuo file",
     "useDefault": "Usa quelli predefiniti",
     "load": "Carica un file OpenAir",
