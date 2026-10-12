@@ -2240,6 +2240,16 @@
       "tr": "cb5a577872c605fb",
       "by": "ai"
     },
+    "clubs.detail.unknownPilot": {
+      "src": "d9a43af1b8d838ac",
+      "tr": "5dca5ed0512e434b",
+      "by": "ai"
+    },
+    "clubs.detail.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
+      "by": "ai"
+    },
     "clubs.detail.xc": {
       "src": "f5cbed1751cd629f",
       "tr": "f5cbed1751cd629f",
@@ -4410,6 +4420,11 @@
       "tr": "77e8e0bc69bb1c78",
       "by": "ai"
     },
+    "common.flightTypes.freeDistance": {
+      "src": "62e27c8952049607",
+      "tr": "10c711569b3d5ef2",
+      "by": "ai"
+    },
     "common.flightTypes.freeFlight": {
       "src": "cdc4486f24da5943",
       "tr": "10c711569b3d5ef2",
@@ -4418,6 +4433,11 @@
     "common.flightTypes.freeTriangle": {
       "src": "a27e7a05c4d243da",
       "tr": "d9b08ddfaa0804d7",
+      "by": "ai"
+    },
+    "common.flightTypes.outAndReturn": {
+      "src": "2354f3b567b1c00a",
+      "tr": "3868d011010f8b25",
       "by": "ai"
     },
     "common.language.automatic": {
@@ -4723,6 +4743,11 @@
     "community.challenges.leaderboard.units.sites": {
       "src": "db905278f90cd6f8",
       "tr": "1f93bd7e094e3cfc",
+      "by": "ai"
+    },
+    "community.challenges.leaderboard.unknownPilot": {
+      "src": "d9a43af1b8d838ac",
+      "tr": "5dca5ed0512e434b",
       "by": "ai"
     },
     "community.challenges.leaderboard.you": {
@@ -5160,6 +5185,16 @@
       "tr": "ea3a04719306e9c2",
       "by": "ai"
     },
+    "community.following.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
+      "by": "ai"
+    },
+    "community.following.unnamedPilot": {
+      "src": "383e2d946278a872",
+      "tr": "939bce9ccf5f6a25",
+      "by": "ai"
+    },
     "community.hub.followedTile.latestFlight": {
       "src": "26133f79c24978b5",
       "tr": "8454cb50ee3b9b47",
@@ -5325,6 +5360,11 @@
       "tr": "aa56664d77c69c69",
       "by": "ai"
     },
+    "community.hub.recentFlights.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
+      "by": "ai"
+    },
     "community.hub.recentFlights.caption": {
       "src": "32b70095be192b55",
       "tr": "a7a372d1627f3f40",
@@ -5368,6 +5408,11 @@
     "community.hub.recentFlights.title": {
       "src": "f2b54d483d694d44",
       "tr": "cd52be3845dea06e",
+      "by": "ai"
+    },
+    "community.hub.recentFlights.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
       "by": "ai"
     },
     "community.hub.since.daysAgo": {
@@ -5440,9 +5485,19 @@
       "tr": "981fdf356db70bad",
       "by": "ai"
     },
+    "community.hub.unnamedPilot": {
+      "src": "383e2d946278a872",
+      "tr": "939bce9ccf5f6a25",
+      "by": "ai"
+    },
     "community.hub.weekRecords.airTime": {
       "src": "c74e51266563401c",
       "tr": "2df6d3da6dcf270a",
+      "by": "ai"
+    },
+    "community.hub.weekRecords.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
       "by": "ai"
     },
     "community.hub.weekRecords.caption": {
@@ -5473,6 +5528,11 @@
     "community.hub.weekRecords.title": {
       "src": "c1c221977f1eec80",
       "tr": "4bacb904e58091c4",
+      "by": "ai"
+    },
+    "community.hub.weekRecords.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
       "by": "ai"
     },
     "community.instruments.brands.description": {
@@ -5660,6 +5720,11 @@
       "tr": "2b908ce6770be34c",
       "by": "ai"
     },
+    "community.instruments.otherLabel": {
+      "src": "f97e9da0e3b879f0",
+      "tr": "0108f1aeeef4d7cd",
+      "by": "ai"
+    },
     "community.instruments.pilotsUnit": {
       "src": "e010963a4422ead3",
       "tr": "392b95c7bc17f537",
@@ -5723,6 +5788,16 @@
     "community.instruments.trend.title": {
       "src": "a1cc847cec05d6ea",
       "tr": "c2ca0471f48e63ce",
+      "by": "ai"
+    },
+    "community.instruments.unknownLabel": {
+      "src": "b764cdc0eab71374",
+      "tr": "2669e033a1213e64",
+      "by": "ai"
+    },
+    "community.leaderboard.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
       "by": "ai"
     },
     "community.leaderboard.columns.flights": {
@@ -6870,6 +6945,11 @@
       "tr": "d134a8ecb32a6e6e",
       "by": "ai"
     },
+    "community.stats.leaderboard.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
+      "by": "ai"
+    },
     "community.stats.leaderboard.captionActivity": {
       "src": "ab84a02e542d4630",
       "tr": "730cd599665f2180",
@@ -7080,6 +7160,11 @@
       "tr": "bc65245441e1c232",
       "by": "ai"
     },
+    "community.stats.pilotFlights.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
+      "by": "ai"
+    },
     "community.stats.pulse.launch.barAria": {
       "src": "7963f402a373ab35",
       "tr": "39da6c3a6538d90c",
@@ -7190,6 +7275,11 @@
       "tr": "e7d113383df2177d",
       "by": "ai"
     },
+    "community.stats.pulse.snapshot.commonTypeNone": {
+      "src": "e2f79e5b60330bba",
+      "tr": "eb34623b71cda2c4",
+      "by": "ai"
+    },
     "community.stats.pulse.snapshot.direction": {
       "src": "f42da5228c3f7112",
       "tr": "cb19c4de2f6ee702",
@@ -7213,6 +7303,11 @@
     "community.stats.pulse.snapshot.title": {
       "src": "fbf2e74f2ab56a86",
       "tr": "372378ad2dab4fd4",
+      "by": "ai"
+    },
+    "community.stats.records.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
       "by": "ai"
     },
     "community.stats.records.cardAria": {
@@ -7263,6 +7358,11 @@
     "community.stats.records.scoreUnit": {
       "src": "8c32e612bdc22150",
       "tr": "8c32e612bdc22150",
+      "by": "ai"
+    },
+    "community.stats.records.unknownTakeoff": {
+      "src": "87fc9593ef8077fe",
+      "tr": "24a2d0f7c8f3b0b5",
       "by": "ai"
     },
     "communityRecap.clubs.avgFlightMinutes": {
@@ -7765,6 +7865,11 @@
       "tr": "6404bce084ad6346",
       "by": "ai"
     },
+    "communityRecap.inflections.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
+      "by": "ai"
+    },
     "communityRecap.inflections.eyebrow": {
       "src": "df9de76052f1bdfd",
       "tr": "eeaa3a3898e288d4",
@@ -7933,6 +8038,11 @@
     "communityRecap.page.title": {
       "src": "6ecac1d38ed4945a",
       "tr": "ed371b93d77b78b1",
+      "by": "ai"
+    },
+    "communityRecap.records.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
       "by": "ai"
     },
     "communityRecap.records.biggestFaiTriangle": {
@@ -18210,6 +18320,11 @@
       "tr": "6aa7846af197aa09",
       "by": "ai"
     },
+    "flightSearch.board.unnamedTakeoff": {
+      "src": "51d99d4d9f84f871",
+      "tr": "9a62389a238e7d68",
+      "by": "ai"
+    },
     "flightSearch.board.view": {
       "src": "dcc839a4015c4b7d",
       "tr": "20ab386d12d982bd",
@@ -18238,6 +18353,11 @@
     "flightSearch.map.siteTooltip": {
       "src": "628b0928d4944d02",
       "tr": "0a166d448bac3062",
+      "by": "ai"
+    },
+    "flightSearch.map.unnamedTakeoff": {
+      "src": "51d99d4d9f84f871",
+      "tr": "9a62389a238e7d68",
       "by": "ai"
     },
     "flightSearch.map.viewFlight": {
@@ -21188,6 +21308,11 @@
     "placeToBe.detail.anchorTooltip": {
       "src": "88026069f2c7cc08",
       "tr": "68133e64b9af05d1",
+      "by": "ai"
+    },
+    "placeToBe.detail.anonymousPilot": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "7e3e94d30a7380bd",
       "by": "ai"
     },
     "placeToBe.detail.asl": {
@@ -35973,6 +36098,11 @@
     "50aafa31c05f": {
       "src": "50aafa31c05fb02c",
       "tr": "9da1d8c765ee72ee",
+      "by": "ai"
+    },
+    "51a63f6466a3": {
+      "src": "51a63f6466a31c64",
+      "tr": "ad840411de658f8c",
       "by": "ai"
     },
     "5666394f2444": {

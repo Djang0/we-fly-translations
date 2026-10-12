@@ -36,7 +36,9 @@
     "freeTriangle": "Free Triangle",
     "faiTriangle": "FAI Triangle",
     "closedFreeTriangle": "Closed Free Triangle",
-    "closedFaiTriangle": "Closed FAI Triangle"
+    "closedFaiTriangle": "Closed FAI Triangle",
+    "freeDistance": "Free Distance",
+    "outAndReturn": "Out & Return"
   },
   "error": {
     "status": "Status · turbulence detected",

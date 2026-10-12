@@ -73,7 +73,9 @@
         "longestXc": "Längster Streckenflug",
         "longestAirTime": "Längste Flugzeit",
         "highestAltitude": "Größte Höhe"
-      }
+      },
+      "anonymousPilot": "Anonym",
+      "unknownTakeoff": "Unbekannter Startplatz"
     },
     "quickAccess": {
       "title": "Entdecken",
@@ -143,7 +145,9 @@
         "today": "Heute",
         "yesterday": "Gestern",
         "daysAgo": "vor {days} T."
-      }
+      },
+      "anonymousPilot": "Anonym",
+      "unknownTakeoff": "Unbekannter Startplatz"
     },
     "since": {
       "none": "Keine Flüge",
@@ -168,7 +172,8 @@
       "followingHint": "Piloten mit Ring sind diese Woche geflogen",
       "theirFlights": "Ihre Flüge",
       "more": "Mehr"
-    }
+    },
+    "unnamedPilot": "Pilot"
   },
   "leaderboard": {
     "panelTitle": "{metric} · gesamt",
@@ -197,7 +202,8 @@
       "minutesAgo": "vor {count} min",
       "hoursAgo": "vor {count} h",
       "daysAgo": "vor {count} T."
-    }
+    },
+    "anonymousPilot": "Anonym"
   },
   "following": {
     "day": {
@@ -220,7 +226,9 @@
     "profile": "Profil",
     "emptyTitle": "Folge Piloten, um ihre Flüge hier zu sehen",
     "emptyBody": "Freunde, Vereinskollegen, die Locals an deinem Startplatz: Folge ihnen, und jeder Flug, den sie loggen, landet hier auf dieser Seite, nach Tagen sortiert und mit ihren Tracks.",
-    "browseAllPilots": "Alle Piloten ansehen"
+    "browseAllPilots": "Alle Piloten ansehen",
+    "unnamedPilot": "Pilot",
+    "unknownTakeoff": "Unbekannter Startplatz"
   },
   "social": {
     "follow": "Folgen",
@@ -299,7 +307,8 @@
         "soloRatio": "Solo-Anteil",
         "soloValue": "{percent} % solo",
         "commonType": "Häufigster Flugtyp",
-        "avgWind": "Ø Windgeschwindigkeit"
+        "avgWind": "Ø Windgeschwindigkeit",
+        "commonTypeNone": "k. A."
       },
       "launch": {
         "title": "Startarten",
@@ -323,7 +332,9 @@
         "bestXcScore": "Beste XC-Punktzahl",
         "strongestThermal": "Stärkster Bart",
         "maxSpeed": "Höchstgeschwindigkeit"
-      }
+      },
+      "anonymousPilot": "Anonym",
+      "unknownTakeoff": "Unbekannter Startplatz"
     },
     "leaderboard": {
       "title": "Top 10 Piloten",
@@ -347,7 +358,8 @@
       "colXcDistance": "XC {unit}",
       "colXcScore": "XC-Punkte",
       "colDistPerHour": "Str./h ({unit})",
-      "colDistPerFlight": "Str./Flug ({unit})"
+      "colDistPerFlight": "Str./Flug ({unit})",
+      "anonymousPilot": "Anonym"
     },
     "clubs": {
       "empty": "Noch keine Vereine. Piloten können ihren Verein in ihrem Profil angeben.",
@@ -370,7 +382,8 @@
       "colXcDistance": "XC {unit}",
       "colXcScore": "XC-Punkte",
       "colDuration": "Dauer",
-      "openFlight": "Flug öffnen"
+      "openFlight": "Flug öffnen",
+      "unknownTakeoff": "Unbekannter Startplatz"
     },
     "insights": {
       "hoursSeries": "Stunden",
@@ -479,7 +492,9 @@
       "title": "Firmware im Umlauf",
       "description": "Häufigste Firmware-Versionen, nach Flügen",
       "empty": "Keine Firmware erfasst"
-    }
+    },
+    "unknownLabel": "Unbekannt",
+    "otherLabel": "Sonstige"
   },
   "challenges": {
     "card": {
@@ -504,7 +519,8 @@
         "flights": "Flüge",
         "countries": "Länder",
         "days": "Tage"
-      }
+      },
+      "unknownPilot": "Unbekannter Pilot"
     },
     "detail": {
       "notFound": "Herausforderung nicht gefunden.",

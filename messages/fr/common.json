@@ -36,7 +36,9 @@
     "freeTriangle": "Triangle plat",
     "faiTriangle": "Triangle FAI",
     "closedFreeTriangle": "Triangle plat fermé",
-    "closedFaiTriangle": "Triangle FAI fermé"
+    "closedFaiTriangle": "Triangle FAI fermé",
+    "freeDistance": "Distance libre",
+    "outAndReturn": "Aller-retour"
   },
   "error": {
     "status": "Statut · turbulences détectées",
@@ -76,8 +78,5 @@
     "copied": "Copié !",
     "copyLink": "Copier le lien",
     "email": "E-mail"
-  },
-  "scrollLeft": "Défiler vers la gauche",
-  "scrollRight": "Défiler vers la droite",
-  "avatarAlt": "Avatar"
+  }
 }

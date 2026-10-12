@@ -73,7 +73,9 @@
         "longestXc": "Plus long cross",
         "longestAirTime": "Plus long temps de vol",
         "highestAltitude": "Plus haute altitude"
-      }
+      },
+      "anonymousPilot": "Anonyme",
+      "unknownTakeoff": "Décollage inconnu"
     },
     "quickAccess": {
       "title": "Explorer",
@@ -143,7 +145,9 @@
         "today": "Aujourd’hui",
         "yesterday": "Hier",
         "daysAgo": "il y a {days} j"
-      }
+      },
+      "anonymousPilot": "Anonyme",
+      "unknownTakeoff": "Décollage inconnu"
     },
     "since": {
       "none": "Aucun vol",
@@ -168,7 +172,8 @@
       "followingHint": "Les pilotes entourés ont volé cette semaine",
       "theirFlights": "Leurs vols",
       "more": "Plus"
-    }
+    },
+    "unnamedPilot": "Pilote"
   },
   "leaderboard": {
     "panelTitle": "{metric} · depuis toujours",
@@ -197,7 +202,8 @@
       "minutesAgo": "il y a {count} min",
       "hoursAgo": "il y a {count} h",
       "daysAgo": "il y a {count} j"
-    }
+    },
+    "anonymousPilot": "Anonyme"
   },
   "following": {
     "day": {
@@ -220,7 +226,9 @@
     "profile": "Profil",
     "emptyTitle": "Suis des pilotes pour voir leurs vols ici",
     "emptyBody": "Potes, membres du club, les locaux de ton déco : suis-les et chaque vol qu’ils enregistrent arrive sur cette page, regroupé par jour, avec leurs traces.",
-    "browseAllPilots": "Parcourir tous les pilotes"
+    "browseAllPilots": "Parcourir tous les pilotes",
+    "unnamedPilot": "Pilote",
+    "unknownTakeoff": "Décollage inconnu"
   },
   "social": {
     "follow": "Suivre",
@@ -299,7 +307,8 @@
         "soloRatio": "Part de vols solo",
         "soloValue": "{percent} % en solo",
         "commonType": "Type le plus courant",
-        "avgWind": "Vent moyen"
+        "avgWind": "Vent moyen",
+        "commonTypeNone": "N/A"
       },
       "launch": {
         "title": "Types de décollage",
@@ -323,7 +332,9 @@
         "bestXcScore": "Meilleur score cross",
         "strongestThermal": "Plus fort thermique",
         "maxSpeed": "Vitesse max"
-      }
+      },
+      "anonymousPilot": "Anonyme",
+      "unknownTakeoff": "Décollage inconnu"
     },
     "leaderboard": {
       "title": "Top 10 des pilotes",
@@ -347,7 +358,8 @@
       "colXcDistance": "XC {unit}",
       "colXcScore": "Score cross",
       "colDistPerHour": "Dist./h ({unit})",
-      "colDistPerFlight": "Dist./vol ({unit})"
+      "colDistPerFlight": "Dist./vol ({unit})",
+      "anonymousPilot": "Anonyme"
     },
     "clubs": {
       "empty": "Pas encore de clubs. Les pilotes peuvent indiquer leur club dans leur profil.",
@@ -370,7 +382,8 @@
       "colXcDistance": "XC {unit}",
       "colXcScore": "Score cross",
       "colDuration": "Durée",
-      "openFlight": "Ouvrir le vol"
+      "openFlight": "Ouvrir le vol",
+      "unknownTakeoff": "Décollage inconnu"
     },
     "insights": {
       "hoursSeries": "Heures",
@@ -479,7 +492,9 @@
       "title": "Firmwares en circulation",
       "description": "Versions de firmware les plus courantes, par vols",
       "empty": "Aucun firmware enregistré"
-    }
+    },
+    "unknownLabel": "Inconnu",
+    "otherLabel": "Autre"
   },
   "challenges": {
     "card": {
@@ -504,7 +519,8 @@
         "flights": "vols",
         "countries": "pays",
         "days": "jours"
-      }
+      },
+      "unknownPilot": "Pilote inconnu"
     },
     "detail": {
       "notFound": "Défi introuvable.",

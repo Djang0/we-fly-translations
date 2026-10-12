@@ -73,7 +73,9 @@
         "longestXc": "Langste XC",
         "longestAirTime": "Langste vliegtijd",
         "highestAltitude": "Grootste hoogte"
-      }
+      },
+      "anonymousPilot": "Anoniem",
+      "unknownTakeoff": "Onbekende startplaats"
     },
     "quickAccess": {
       "title": "Ontdekken",
@@ -143,7 +145,9 @@
         "today": "Vandaag",
         "yesterday": "Gisteren",
         "daysAgo": "{days} d geleden"
-      }
+      },
+      "anonymousPilot": "Anoniem",
+      "unknownTakeoff": "Onbekende startplaats"
     },
     "since": {
       "none": "Geen vluchten",
@@ -168,7 +172,8 @@
       "followingHint": "Piloten met een ring vlogen deze week",
       "theirFlights": "Hun vluchten",
       "more": "Meer"
-    }
+    },
+    "unnamedPilot": "Piloot"
   },
   "leaderboard": {
     "panelTitle": "{metric} · aller tijden",
@@ -197,7 +202,8 @@
       "minutesAgo": "{count} min geleden",
       "hoursAgo": "{count} u geleden",
       "daysAgo": "{count} d geleden"
-    }
+    },
+    "anonymousPilot": "Anoniem"
   },
   "following": {
     "day": {
@@ -220,7 +226,9 @@
     "profile": "Profiel",
     "emptyTitle": "Volg piloten om hun vluchten hier te zien",
     "emptyBody": "Vrienden, clubgenoten, de locals op jouw startplaats: volg ze en elke vlucht die ze loggen verschijnt op deze pagina, per dag gegroepeerd, met hun tracks.",
-    "browseAllPilots": "Alle piloten bekijken"
+    "browseAllPilots": "Alle piloten bekijken",
+    "unnamedPilot": "Piloot",
+    "unknownTakeoff": "Onbekende startplaats"
   },
   "social": {
     "follow": "Volgen",
@@ -299,7 +307,8 @@
         "soloRatio": "Aandeel solo",
         "soloValue": "{percent}% solo",
         "commonType": "Meest voorkomend type",
-        "avgWind": "Gem. windsnelheid"
+        "avgWind": "Gem. windsnelheid",
+        "commonTypeNone": "n.v.t."
       },
       "launch": {
         "title": "Starttypes",
@@ -323,7 +332,9 @@
         "bestXcScore": "Beste XC-score",
         "strongestThermal": "Sterkste thermiek",
         "maxSpeed": "Topsnelheid"
-      }
+      },
+      "anonymousPilot": "Anoniem",
+      "unknownTakeoff": "Onbekende startplaats"
     },
     "leaderboard": {
       "title": "Top 10 piloten",
@@ -347,7 +358,8 @@
       "colXcDistance": "XC {unit}",
       "colXcScore": "XC-score",
       "colDistPerHour": "Afst./u ({unit})",
-      "colDistPerFlight": "Afst./vlucht ({unit})"
+      "colDistPerFlight": "Afst./vlucht ({unit})",
+      "anonymousPilot": "Anoniem"
     },
     "clubs": {
       "empty": "Nog geen clubs. Piloten kunnen hun club opgeven in hun profiel.",
@@ -370,7 +382,8 @@
       "colXcDistance": "XC {unit}",
       "colXcScore": "XC-score",
       "colDuration": "Duur",
-      "openFlight": "Vlucht openen"
+      "openFlight": "Vlucht openen",
+      "unknownTakeoff": "Onbekende startplaats"
     },
     "insights": {
       "hoursSeries": "Uren",
@@ -479,7 +492,9 @@
       "title": "Firmware in omloop",
       "description": "Meest voorkomende firmwareversies, per vlucht",
       "empty": "Geen firmware geregistreerd"
-    }
+    },
+    "unknownLabel": "Onbekend",
+    "otherLabel": "Overig"
   },
   "challenges": {
     "card": {
@@ -504,7 +519,8 @@
         "flights": "vluchten",
         "countries": "landen",
         "days": "dagen"
-      }
+      },
+      "unknownPilot": "Onbekende piloot"
     },
     "detail": {
       "notFound": "Challenge niet gevonden.",

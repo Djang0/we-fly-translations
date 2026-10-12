@@ -171,14 +171,5 @@
     "noTasksForCompetition": "No tasks found for this competition",
     "tasksNotImported": "Tasks could not be imported",
     "internal": "Internal error"
-  },
-  "airspaceLabels": {
-    "restricted": "Restricted",
-    "danger": "Danger",
-    "prohibited": "Prohibited",
-    "icaoClass": "Class {value}",
-    "restrictedNotam": "Restricted (NOTAM)",
-    "dangerNotam": "Danger (NOTAM)",
-    "unnamed": "Airspace"
   }
 }

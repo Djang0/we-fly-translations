@@ -45,7 +45,9 @@
     "flightCount": "{count, plural, one {# volo} other {# voli}}",
     "recentFlights": "Voli recenti",
     "loading": "Caricamento…",
-    "loadMore": "Carica altri"
+    "loadMore": "Carica altri",
+    "unknownPilot": "Pilota sconosciuto",
+    "unknownTakeoff": "Decollo sconosciuto"
   },
   "share": {
     "button": "Condividi",

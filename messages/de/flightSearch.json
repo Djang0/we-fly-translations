@@ -28,7 +28,8 @@
     "noMatch": "Kein Flug passt.",
     "view": "Ansehen",
     "openFlightAria": "Vollständigen Flug von {pilot} öffnen",
-    "openFlightTitle": "Vollständigen Flug öffnen"
+    "openFlightTitle": "Vollständigen Flug öffnen",
+    "unnamedTakeoff": "Startplatz ohne Namen"
   },
   "picker": {
     "one": "1 Flug hier",
@@ -39,7 +40,8 @@
   "map": {
     "clusterTooltip": "{takeoffs, plural, one {# Startplatz} other {# Startplätze}} · {flights, plural, one {# Flug} other {# Flüge}}",
     "siteTooltip": "{flights, plural, one {# Flug} other {# Flüge}}",
-    "viewFlight": "Flug ansehen"
+    "viewFlight": "Flug ansehen",
+    "unnamedTakeoff": "Startplatz ohne Namen"
   },
   "summary": {
     "allFlights": "Alle Flüge",

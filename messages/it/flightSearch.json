@@ -28,7 +28,8 @@
     "noMatch": "Nessun volo corrisponde.",
     "view": "Apri",
     "openFlightAria": "Apri il volo completo di {pilot}",
-    "openFlightTitle": "Apri il volo completo"
+    "openFlightTitle": "Apri il volo completo",
+    "unnamedTakeoff": "Decollo senza nome"
   },
   "picker": {
     "one": "1 volo qui",
@@ -39,7 +40,8 @@
   "map": {
     "clusterTooltip": "{takeoffs, plural, one {# decollo} other {# decolli}} · {flights, plural, one {# volo} other {# voli}}",
     "siteTooltip": "{flights, plural, one {# volo} other {# voli}}",
-    "viewFlight": "Apri il volo"
+    "viewFlight": "Apri il volo",
+    "unnamedTakeoff": "Decollo senza nome"
   },
   "summary": {
     "allFlights": "Tutti i voli",

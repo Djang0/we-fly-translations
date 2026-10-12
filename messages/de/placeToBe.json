@@ -82,7 +82,8 @@
     "launch": "Start",
     "asl": "{unit} MSL",
     "typical": "typisch",
-    "openTakeoff": "Startplatzseite öffnen"
+    "openTakeoff": "Startplatzseite öffnen",
+    "anonymousPilot": "Anonym"
   },
   "teaser": {
     "title": "Place to be",

@@ -82,7 +82,8 @@
     "launch": "Decollo",
     "asl": "{unit} s.l.m.",
     "typical": "tipico",
-    "openTakeoff": "Apri la pagina del decollo"
+    "openTakeoff": "Apri la pagina del decollo",
+    "anonymousPilot": "Anonimo"
   },
   "teaser": {
     "title": "Dove volare",

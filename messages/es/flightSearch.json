@@ -28,7 +28,8 @@
     "noMatch": "Ningún vuelo coincide.",
     "view": "Ver",
     "openFlightAria": "Abrir el vuelo completo de {pilot}",
-    "openFlightTitle": "Abrir el vuelo completo"
+    "openFlightTitle": "Abrir el vuelo completo",
+    "unnamedTakeoff": "Despegue sin nombre"
   },
   "picker": {
     "one": "1 vuelo aquí",
@@ -39,7 +40,8 @@
   "map": {
     "clusterTooltip": "{takeoffs, plural, one {# despegue} other {# despegues}} · {flights, plural, one {# vuelo} other {# vuelos}}",
     "siteTooltip": "{flights, plural, one {# vuelo} other {# vuelos}}",
-    "viewFlight": "Ver vuelo"
+    "viewFlight": "Ver vuelo",
+    "unnamedTakeoff": "Despegue sin nombre"
   },
   "summary": {
     "allFlights": "Todos los vuelos",

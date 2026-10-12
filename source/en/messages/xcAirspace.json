@@ -175,59 +175,6 @@
       "until": "Until {to}",
       "range": "{from} → {to}",
       "untilFurtherNotice": "{from} → until further notice"
-    },
-    "types": {
-      "0": "Other",
-      "1": "Restricted",
-      "2": "Danger",
-      "3": "Prohibited",
-      "4": "Controlled Tower Region (CTR)",
-      "5": "Transponder Mandatory Zone (TMZ)",
-      "6": "Radio Mandatory Zone (RMZ)",
-      "7": "Terminal Manoeuvring Area (TMA)",
-      "8": "Temporary Reserved Area (TRA)",
-      "9": "Temporary Segregated Area (TSA)",
-      "10": "Flight Information Region (FIR)",
-      "11": "Upper Flight Information Region (UIR)",
-      "12": "Air Defense Identification Zone (ADIZ)",
-      "13": "Airport Traffic Zone (ATZ)",
-      "14": "Military Airport Traffic Zone (MATZ)",
-      "15": "Airway",
-      "16": "Military Training Route (MTR)",
-      "17": "Alert Area",
-      "18": "Warning Area",
-      "19": "Protected Area",
-      "20": "Helicopter Traffic Zone (HTZ)",
-      "21": "Gliding Sector",
-      "22": "Transponder Setting (TRP)",
-      "23": "Traffic Information Zone (TIZ)",
-      "24": "Traffic Information Area (TIA)",
-      "25": "Military Training Area (MTA)",
-      "26": "Controlled Area (CTA)",
-      "27": "ACC Sector",
-      "28": "Aerial Sporting or Recreational Activity",
-      "29": "Low Altitude Overflight Restriction",
-      "30": "Military Route (MRT)",
-      "31": "TSA/TRA Feeding Route (TFR)",
-      "32": "VFR Sector",
-      "33": "Flight Information Service Sector (FIS)",
-      "34": "Lower Traffic Area (LTA)",
-      "35": "Upper Traffic Area (UTA)"
-    },
-    "activities": {
-      "1": "Parachuting",
-      "2": "Aerobatics",
-      "3": "Aeroclub / aerial work",
-      "4": "Ultralight (ULM)",
-      "5": "Hang gliding / paragliding"
-    },
-    "icaoUnclassified": "Unclassified",
-    "hours": {
-      "h24": "H24 (continuous)",
-      "notam": "By NOTAM",
-      "daily": "{from} to {to} daily",
-      "scheduled": "Irregular schedule, see openAIP",
-      "withRemark": "{summary} · {remark}"
     }
   },
   "cut": {
@@ -298,36 +245,10 @@
     "rangeEstimated": "{from} → {to} (est.)",
     "permanent": "{from} → permanent"
   },
-  "notamKinds": {
-    "unknown": "NOTAM",
-    "name": "NOTAM {id} {location} · {kind}",
-    "subjects": {
-      "RA": "Airspace reservation",
-      "RD": "Danger area",
-      "RM": "Military operating area",
-      "RO": "Overflying restriction",
-      "RP": "Prohibited area",
-      "RR": "Restricted area",
-      "RT": "Temporary restricted area",
-      "WA": "Aerobatics",
-      "WB": "Balloon flying",
-      "WC": "Captive balloon or kite",
-      "WD": "Demolition of explosives",
-      "WE": "Exercises",
-      "WF": "Air display",
-      "WG": "Glider flying",
-      "WH": "Blasting",
-      "WJ": "Banner / target towing",
-      "WL": "Ascent of free balloon",
-      "WM": "Missile, gun or rocket firing",
-      "WP": "Parachute jumping, paragliding or hang gliding",
-      "WS": "Burning or blowing gas",
-      "WT": "Mass movement of aircraft",
-      "WU": "Unmanned aircraft",
-      "WV": "Formation flight",
-      "WW": "Significant volcanic activity",
-      "WY": "Aerial survey",
-      "WZ": "Model flying"
-    }
+  "classLabels": {
+    "restricted": "Restricted",
+    "danger": "Danger",
+    "prohibited": "Prohibited",
+    "icaoClass": "Class {value}"
   }
 }

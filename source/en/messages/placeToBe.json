@@ -82,7 +82,8 @@
     "launch": "Launch",
     "asl": "{unit} ASL",
     "typical": "typical",
-    "openTakeoff": "Open takeoff page"
+    "openTakeoff": "Open takeoff page",
+    "anonymousPilot": "Anonymous"
   },
   "teaser": {
     "title": "Place to be",

@@ -82,7 +82,8 @@
     "launch": "Décollage",
     "asl": "{unit} AMSL",
     "typical": "typique",
-    "openTakeoff": "Ouvrir la page du décollage"
+    "openTakeoff": "Ouvrir la page du décollage",
+    "anonymousPilot": "Anonyme"
   },
   "teaser": {
     "title": "Où voler",

@@ -36,7 +36,9 @@
     "freeTriangle": "Flaches Dreieck",
     "faiTriangle": "FAI-Dreieck",
     "closedFreeTriangle": "Geschlossenes flaches Dreieck",
-    "closedFaiTriangle": "Geschlossenes FAI-Dreieck"
+    "closedFaiTriangle": "Geschlossenes FAI-Dreieck",
+    "freeDistance": "Freie Strecke",
+    "outAndReturn": "Zielrückkehr"
   },
   "error": {
     "status": "Status · Turbulenzen erkannt",
@@ -76,8 +78,5 @@
     "copied": "Kopiert!",
     "copyLink": "Link kopieren",
     "email": "E-Mail"
-  },
-  "scrollLeft": "Nach links scrollen",
-  "scrollRight": "Nach rechts scrollen",
-  "avatarAlt": "Avatar"
+  }
 }

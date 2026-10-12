@@ -36,7 +36,9 @@
     "freeTriangle": "Triangolo piatto",
     "faiTriangle": "Triangolo FAI",
     "closedFreeTriangle": "Triangolo piatto chiuso",
-    "closedFaiTriangle": "Triangolo FAI chiuso"
+    "closedFaiTriangle": "Triangolo FAI chiuso",
+    "freeDistance": "Distanza libera",
+    "outAndReturn": "Andata e ritorno"
   },
   "error": {
     "status": "Stato · turbolenza rilevata",
@@ -76,8 +78,5 @@
     "copied": "Copiato!",
     "copyLink": "Copia il link",
     "email": "Email"
-  },
-  "scrollLeft": "Scorri a sinistra",
-  "scrollRight": "Scorri a destra",
-  "avatarAlt": "Avatar"
+  }
 }

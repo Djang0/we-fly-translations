@@ -45,7 +45,9 @@
     "flightCount": "{count, plural, one {# vlucht} other {# vluchten}}",
     "recentFlights": "Recente vluchten",
     "loading": "Laden…",
-    "loadMore": "Meer laden"
+    "loadMore": "Meer laden",
+    "unknownPilot": "Onbekende piloot",
+    "unknownTakeoff": "Onbekende startplaats"
   },
   "share": {
     "button": "Delen",

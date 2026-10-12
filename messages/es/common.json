@@ -36,7 +36,9 @@
     "freeTriangle": "Triángulo plano",
     "faiTriangle": "Triángulo FAI",
     "closedFreeTriangle": "Triángulo plano cerrado",
-    "closedFaiTriangle": "Triángulo FAI cerrado"
+    "closedFaiTriangle": "Triángulo FAI cerrado",
+    "freeDistance": "Distancia libre",
+    "outAndReturn": "Ida y vuelta"
   },
   "error": {
     "status": "Estado · turbulencia detectada",
@@ -76,8 +78,5 @@
     "copied": "¡Copiado!",
     "copyLink": "Copiar enlace",
     "email": "Email"
-  },
-  "scrollLeft": "Desplazar a la izquierda",
-  "scrollRight": "Desplazar a la derecha",
-  "avatarAlt": "Avatar"
+  }
 }

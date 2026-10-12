@@ -82,7 +82,8 @@
     "launch": "Despegue",
     "asl": "{unit} s. n. m.",
     "typical": "típico",
-    "openTakeoff": "Abrir la página del despegue"
+    "openTakeoff": "Abrir la página del despegue",
+    "anonymousPilot": "Anónimo"
   },
   "teaser": {
     "title": "Dónde volar",

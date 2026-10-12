@@ -28,7 +28,8 @@
     "noMatch": "Geen vluchten gevonden.",
     "view": "Bekijken",
     "openFlightAria": "Volledige vlucht van {pilot} openen",
-    "openFlightTitle": "Volledige vlucht openen"
+    "openFlightTitle": "Volledige vlucht openen",
+    "unnamedTakeoff": "Naamloze startplaats"
   },
   "picker": {
     "one": "1 vlucht hier",
@@ -39,7 +40,8 @@
   "map": {
     "clusterTooltip": "{takeoffs, plural, one {# startplaats} other {# startplaatsen}} · {flights, plural, one {# vlucht} other {# vluchten}}",
     "siteTooltip": "{flights, plural, one {# vlucht} other {# vluchten}}",
-    "viewFlight": "Vlucht bekijken"
+    "viewFlight": "Vlucht bekijken",
+    "unnamedTakeoff": "Naamloze startplaats"
   },
   "summary": {
     "allFlights": "Alle vluchten",

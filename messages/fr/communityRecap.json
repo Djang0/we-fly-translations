@@ -126,7 +126,8 @@
     "longestDuration": "Plus long vol",
     "firstHundredKm": "Premier 100 km",
     "firstFaiTriangle": "Premier triangle FAI",
-    "duration": "{hours} h {minutes}"
+    "duration": "{hours} h {minutes}",
+    "anonymousPilot": "Anonyme"
   },
   "inflections": {
     "eyebrow": "Chapitre IV · Les premières",
@@ -157,7 +158,8 @@
       "siteUnlockedAt": "Premier vol à {site}",
       "newCountry": "Premier vol dans un nouveau pays : {country}",
       "milestoneFlightCount": "Cap franchi"
-    }
+    },
+    "anonymousPilot": "Anonyme"
   },
   "diversity": {
     "eyebrow": "Chapitre V · La flotte",

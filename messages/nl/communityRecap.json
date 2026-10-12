@@ -126,7 +126,8 @@
     "longestDuration": "Langste vlucht",
     "firstHundredKm": "Eerste 100 km",
     "firstFaiTriangle": "Eerste FAI-driehoek",
-    "duration": "{hours}u {minutes}"
+    "duration": "{hours}u {minutes}",
+    "anonymousPilot": "Anoniem"
   },
   "inflections": {
     "eyebrow": "Hoofdstuk IV · Primeurs",
@@ -157,7 +158,8 @@
       "siteUnlockedAt": "Eerste vlucht vanaf {site}",
       "newCountry": "Eerste vlucht in {country}",
       "milestoneFlightCount": "Mijlpaal"
-    }
+    },
+    "anonymousPilot": "Anoniem"
   },
   "diversity": {
     "eyebrow": "Hoofdstuk V · De vloot",
