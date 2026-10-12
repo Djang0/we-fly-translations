@@ -37,5 +37,44 @@
     "faiTriangle": "FAI Triangle",
     "closedFreeTriangle": "Closed Free Triangle",
     "closedFaiTriangle": "Closed FAI Triangle"
+  },
+  "error": {
+    "status": "Status · turbulence detected",
+    "title": "Something went sideways.",
+    "body": "The page hit unexpected air on the way in. The crash has been recorded. Try again, or head back to the homepage.",
+    "retry": "Try again",
+    "home": "Back to homepage",
+    "ref": "ref · {digest}"
+  },
+  "moreCount": "+{count} more",
+  "pioneer": {
+    "name": "Pioneer",
+    "hint": "One of the first 200 We-Fly pilots",
+    "notEarned": "Not yet earned"
+  },
+  "back": "Back",
+  "subtitleFromSite": "{subtitle} from <link>{site}</link>",
+  "close": "Close",
+  "loadingData": "Loading data, please wait...",
+  "pickDate": "Pick a date",
+  "pickDateRange": "Pick a date range",
+  "scrollToTop": "Scroll to top",
+  "rateLimit": {
+    "defaultMessage": "Rate limit reached. Please wait before making more requests.",
+    "title": "Rate limit reached",
+    "retryIn": "Retry in {time}",
+    "retryNow": "Retry now",
+    "pleaseWait": "Please wait {time}",
+    "retryAfterTimer": "You can retry after the timer expires",
+    "ready": "Ready to continue",
+    "canRequestAgain": "You can now make requests again",
+    "seconds": "{seconds}s",
+    "minutesSeconds": "{minutes}m {seconds}s"
+  },
+  "share": {
+    "label": "Share",
+    "copied": "Copied!",
+    "copyLink": "Copy link",
+    "email": "Email"
   }
 }

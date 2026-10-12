@@ -72,7 +72,8 @@
       "aggressive": "<strong>2.0-5.0 G:</strong> Aggressive maneuvers and spirals",
       "extreme": "<strong>Over 5.0 G:</strong> Extreme maneuvers (approach structural limits)",
       "method": "This analysis combines vertical acceleration (from altitude changes) and lateral acceleration (from turning).<br></br><b>Always respect your wing's certified G-limits</b> (8G during 3 seconds for <standard>EN 926-1</standard>)."
-    }
+    },
+    "statsHelp": "Confused about median, average, variance and deviation? <link>Check this out!</link>"
   },
   "quality": {
     "outstanding": "Outstanding",

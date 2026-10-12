@@ -317,5 +317,67 @@
     "facing": "facing {bearing}",
     "callToAction": "View conditions, statistics and flight history on We-Fly",
     "fallbackSchemaName": "Paragliding Takeoff"
+  },
+  "actions": {
+    "tooltip": "Actions",
+    "edit": "Edit",
+    "getElevation": "Get Elevation",
+    "geocode": "Geocode",
+    "loading": "Loading...",
+    "delete": "Delete"
+  },
+  "siteForm": {
+    "charCount": "{count}/{max} characters",
+    "country": "Country",
+    "countryPlaceholder": "Enter country name",
+    "cancel": "Cancel",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "editSite": {
+    "title": "Edit Site Information",
+    "description": "Update takeoff site metadata for improved data quality",
+    "name": "Site Name",
+    "namePlaceholder": "Enter site name",
+    "bearing": "Bearing",
+    "bearingPlaceholder": "e.g., N, NW, SE, S-SW",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Full location description",
+    "countryCode": "Country Code",
+    "countryCodePlaceholder": "e.g., FR, CH, AT",
+    "invalid": "Please check all fields meet the requirements",
+    "updated": "Site information updated successfully",
+    "updateFailed": "Failed to update site",
+    "updateFailedRetry": "Failed to update site. Please try again.",
+    "saving": "Saving...",
+    "save": "Save Changes"
+  },
+  "deleteSite": {
+    "title": "Delete Takeoff Site",
+    "description": "Are you sure you want to delete {name}? This action cannot be undone.",
+    "confirm": "Are you sure you want to delete <strong>{name}</strong>?",
+    "permanent": "This action cannot be undone. The site will be permanently removed from the database.",
+    "flightsNote": "Note: Sites with associated flights cannot be deleted. You must reassign or delete those flights first.",
+    "deleted": "Takeoff site deleted successfully",
+    "deleteFailed": "Failed to delete takeoff site",
+    "deleteFailedRetry": "Failed to delete takeoff site. Please try again.",
+    "deleting": "Deleting...",
+    "submit": "Delete Site"
+  },
+  "renameSavage": {
+    "title": "Rename Savage Takeoff",
+    "description": "Rename this placeholder takeoff site and consolidate nearby duplicates within 100m",
+    "currentName": "Current Name",
+    "newName": "New Takeoff Name",
+    "newNamePlaceholder": "Enter the actual takeoff name",
+    "missingFields": "Please fill in all required fields",
+    "renamed": "Takeoff renamed successfully. {flights, plural, one {# flight} other {# flights}} and {sites, plural, one {# duplicate site} other {# duplicate sites}} updated.",
+    "renameFailed": "Failed to rename takeoff",
+    "renameFailedRetry": "Failed to rename takeoff. Please try again.",
+    "willTitle": "This operation will:",
+    "willRename": "Rename this site to the new name",
+    "willUpdateFlights": "Update all flights with this takeoff within 100m",
+    "willDeleteDuplicates": "Delete other \"Savage takeoff\" sites within 100m",
+    "renaming": "Renaming...",
+    "submit": "Rename Takeoff"
   }
 }

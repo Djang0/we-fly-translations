@@ -7,8 +7,17 @@
     "acct": "Account"
   },
   "section": {
-    "fly": { "logbook": "Logbook", "cockpit": "Cockpit", "success": "Success" },
-    "com": { "overview": "Overview", "feed": "Feed", "people": "People", "stats": "Stats" },
+    "fly": {
+      "logbook": "Logbook",
+      "cockpit": "Cockpit",
+      "success": "Success"
+    },
+    "com": {
+      "overview": "Overview",
+      "feed": "Feed",
+      "people": "People",
+      "stats": "Stats"
+    },
     "acct": {
       "profile": "Profile",
       "anomalies": "Anomalies",
@@ -50,7 +59,10 @@
     "privacyPolicy": "Privacy policy",
     "about": "About"
   },
-  "session": { "logOut": "Log out", "accountMenu": "Account menu" },
+  "session": {
+    "logOut": "Log out",
+    "accountMenu": "Account menu"
+  },
   "topBar": {
     "home": "We-Fly home",
     "main": "Main",
@@ -96,12 +108,30 @@
       "help": "Help"
     },
     "jump": {
-      "logbook": { "title": "Logbook", "subtitle": "Flights · Wings" },
-      "overview": { "title": "Cockpit · Overview", "subtitle": "Your statistics" },
-      "thermaling": { "title": "Cockpit · Thermaling", "subtitle": "Climb rate, thermals" },
-      "takeoffStats": { "title": "Cockpit · Takeoff", "subtitle": "Hours by site" },
-      "success": { "title": "Success", "subtitle": "Badges" },
-      "takeoffs": { "title": "Takeoffs", "subtitle": "Site database" }
+      "logbook": {
+        "title": "Logbook",
+        "subtitle": "Flights · Wings"
+      },
+      "overview": {
+        "title": "Cockpit · Overview",
+        "subtitle": "Your statistics"
+      },
+      "thermaling": {
+        "title": "Cockpit · Thermaling",
+        "subtitle": "Climb rate, thermals"
+      },
+      "takeoffStats": {
+        "title": "Cockpit · Takeoff",
+        "subtitle": "Hours by site"
+      },
+      "success": {
+        "title": "Success",
+        "subtitle": "Badges"
+      },
+      "takeoffs": {
+        "title": "Takeoffs",
+        "subtitle": "Site database"
+      }
     },
     "actions": {
       "uploadFlights": "Upload flights",
@@ -113,8 +143,15 @@
       "switchToDark": "Switch to dark theme",
       "about": "About We-Fly"
     },
-    "articleKind": { "docs": "Docs", "whatsNew": "What's new" },
-    "hints": { "move": "↑↓ move", "open": "↵ open", "close": "esc close" }
+    "articleKind": {
+      "docs": "Docs",
+      "whatsNew": "What's new"
+    },
+    "hints": {
+      "move": "↑↓ move",
+      "open": "↵ open",
+      "close": "esc close"
+    }
   },
   "tabBar": {
     "upload": "Upload",
@@ -133,5 +170,23 @@
     "signIn": "Sign in",
     "startLogging": "Start logging",
     "menu": "Menu"
+  },
+  "notifications": {
+    "bellAria": "{count, plural, =0 {No new notifications} one {# unread notification} other {# unread notifications}}",
+    "title": "Notifications",
+    "newCount": "{count} new",
+    "empty": "No notifications",
+    "anomalies": "{count, plural, one {# data anomaly to review} other {# data anomalies to review}}",
+    "reviewRequested": "{name} requested a review",
+    "annotated": "{name} annotated your flight",
+    "followed": "started following you",
+    "unread": "Unread"
+  },
+  "themeToggle": {
+    "loading": "Loading theme toggle",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
   }
 }

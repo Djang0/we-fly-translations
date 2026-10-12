@@ -34,7 +34,9 @@
     "varioLegend": "Vario · {unit}",
     "gaggle": "Gaggle · <n>{count}</n> {count, plural, one {pilot} other {pilots}} from this launch",
     "openComparison": "Open these pilots in the full comparison",
-    "loadingTerrain": "Loading terrain…"
+    "loadingTerrain": "Loading terrain…",
+    "legend": "Legend",
+    "controlsHint": "Drag to rotate · right-drag to pan · scroll to zoom"
   },
   "telemetry": {
     "alt": "Alt",
@@ -282,7 +284,8 @@
     "alertMax": "max {altitude}",
     "attachedFile": "the attached file",
     "shareTitle": "{pilot, select, other {{pilot}'s}} 3D replay from {place} · We-Fly",
-    "shareFallbackPlace": "a paragliding flight"
+    "shareFallbackPlace": "a paragliding flight",
+    "notEnoughTrack": "Not enough track data to build a 3D replay."
   },
   "recap": {
     "unavailable": "No recap available for this season.",

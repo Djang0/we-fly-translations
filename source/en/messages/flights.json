@@ -380,7 +380,9 @@
     "showNearby": "Show nearby takeoffs",
     "cancel": "Cancel",
     "updating": "Updating...",
-    "submit": "Update Takeoff"
+    "submit": "Update Takeoff",
+    "adminTools": "Administrator tools",
+    "renameSavage": "Rename this Savage takeoff"
   },
   "leagues": {
     "title": "Send to a league",

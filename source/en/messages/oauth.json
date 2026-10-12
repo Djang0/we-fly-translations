@@ -1,0 +1,36 @@
+{
+  "authorize": {
+    "invalidTitle": "Authorization request invalid",
+    "invalidDescription": "We can't safely redirect you to the requesting application, so the error is shown here instead.",
+    "invalidReport": "If you reached this page from a third-party app, please report this error to its developer.",
+    "backToFlights": "Return to your flights",
+    "kicker": "Authorize application",
+    "wantsAccess": "<app>{name}</app> <muted>wants to access your account</muted>",
+    "scopesHeading": "This app will be able to:",
+    "homepage": "App homepage: <link>{url}</link>",
+    "revokeHint": "You can revoke this access anytime under <link>your developer dashboard</link>."
+  },
+  "device": {
+    "kicker": "Device authorisation",
+    "title": "Connect a device",
+    "description": "Type the code shown on your device. It looks like <code>{example}</code>.",
+    "invalidTitle": "That code didn't work"
+  },
+  "consent": {
+    "pendingReview": "This application is still pending review. You're authorising it because you're its owner; other users won't be able to grant consent until an admin promotes it.",
+    "signedInAs": "Signed in as <b>{email}</b>.",
+    "connectedTitle": "You're connected",
+    "connectedDescription": "Go back to your device: it should pick up the new token within a few seconds. You can close this tab.",
+    "cancelledTitle": "Authorization cancelled",
+    "cancelledDescription": "Your device will see the cancel and stop polling. You can close this tab.",
+    "deviceKicker": "Connect a device",
+    "code": "Code <mono>{code}</mono>",
+    "deviceScopesHeading": "This device will be able to:"
+  },
+  "form": {
+    "authorize": "Authorize",
+    "working": "Working…",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  }
+}
