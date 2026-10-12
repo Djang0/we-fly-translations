@@ -171,5 +171,14 @@
     "noTasksForCompetition": "Keine Tasks für diesen Wettbewerb gefunden",
     "tasksNotImported": "Tasks konnten nicht importiert werden",
     "internal": "Interner Fehler"
+  },
+  "airspaceLabels": {
+    "restricted": "Flugbeschränkungsgebiet",
+    "danger": "Gefahrengebiet",
+    "prohibited": "Sperrgebiet",
+    "icaoClass": "Klasse {value}",
+    "restrictedNotam": "Flugbeschränkungsgebiet (NOTAM)",
+    "dangerNotam": "Gefahrengebiet (NOTAM)",
+    "unnamed": "Luftraum"
   }
 }

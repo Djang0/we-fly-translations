@@ -175,6 +175,59 @@
       "until": "Tot {to}",
       "range": "{from} → {to}",
       "untilFurtherNotice": "{from} → tot nader bericht"
+    },
+    "types": {
+      "0": "Overig",
+      "1": "Beperkt",
+      "2": "Gevaar",
+      "3": "Verboden",
+      "4": "Controlled Tower Region (CTR)",
+      "5": "Transponderplichtige zone (TMZ)",
+      "6": "Radioplichtige zone (RMZ)",
+      "7": "Terminal Manoeuvring Area (TMA)",
+      "8": "Tijdelijk gereserveerd gebied (TRA)",
+      "9": "Tijdelijk afgescheiden gebied (TSA)",
+      "10": "Vluchtinformatiegebied (FIR)",
+      "11": "Hoger vluchtinformatiegebied (UIR)",
+      "12": "Luchtverdedigingsidentificatiezone (ADIZ)",
+      "13": "Luchthavenverkeerszone (ATZ)",
+      "14": "Militaire luchthavenverkeerszone (MATZ)",
+      "15": "Luchtweg",
+      "16": "Militaire oefenroute (MTR)",
+      "17": "Alarmgebied",
+      "18": "Waarschuwingsgebied",
+      "19": "Beschermd gebied",
+      "20": "Helikopterverkeerszone (HTZ)",
+      "21": "Zweefvliegsector",
+      "22": "Transponderinstelling (TRP)",
+      "23": "Verkeersinformatiezone (TIZ)",
+      "24": "Verkeersinformatiegebied (TIA)",
+      "25": "Militair oefengebied (MTA)",
+      "26": "Gecontroleerd gebied (CTA)",
+      "27": "ACC-sector",
+      "28": "Luchtsport of recreatieve activiteit",
+      "29": "Overvliegbeperking op lage hoogte",
+      "30": "Militaire route (MRT)",
+      "31": "Aanvoerroute TSA/TRA (TFR)",
+      "32": "VFR-sector",
+      "33": "Vluchtinformatiedienstsector (FIS)",
+      "34": "Lower Traffic Area (LTA)",
+      "35": "Upper Traffic Area (UTA)"
+    },
+    "activities": {
+      "1": "Parachutespringen",
+      "2": "Kunstvliegen",
+      "3": "Vliegclub / luchtwerk",
+      "4": "Ultralight (ULM)",
+      "5": "Deltavliegen / paragliding"
+    },
+    "icaoUnclassified": "Niet geclassificeerd",
+    "hours": {
+      "h24": "H24 (doorlopend)",
+      "notam": "Via NOTAM",
+      "daily": "Dagelijks van {from} tot {to}",
+      "scheduled": "Onregelmatig schema, zie openAIP",
+      "withRemark": "{summary} · {remark}"
     }
   },
   "cut": {
@@ -245,10 +298,36 @@
     "rangeEstimated": "{from} → {to} (geschat)",
     "permanent": "{from} → permanent"
   },
-  "classLabels": {
-    "restricted": "Beperkt",
-    "danger": "Gevaar",
-    "prohibited": "Verboden",
-    "icaoClass": "Klasse {value}"
+  "notamKinds": {
+    "unknown": "NOTAM",
+    "name": "NOTAM {id} {location} · {kind}",
+    "subjects": {
+      "RA": "Luchtruimreservering",
+      "RD": "Gevaarlijk gebied",
+      "RM": "Militair operatiegebied",
+      "RO": "Overvliegbeperking",
+      "RP": "Verboden gebied",
+      "RR": "Beperkt gebied",
+      "RT": "Tijdelijk beperkt gebied",
+      "WA": "Kunstvliegen",
+      "WB": "Ballonvaart",
+      "WC": "Kabelballon of vlieger",
+      "WD": "Springen van explosieven",
+      "WE": "Oefeningen",
+      "WF": "Vliegshow",
+      "WG": "Zweefvliegen",
+      "WH": "Springwerkzaamheden",
+      "WJ": "Banner- / doelsleep",
+      "WL": "Opstijgen van vrije ballon",
+      "WM": "Raket-, kanon- of geschutvuur",
+      "WP": "Parachutespringen, paragliding of deltavliegen",
+      "WS": "Affakkelen of afblazen van gas",
+      "WT": "Massale verplaatsing van luchtvaartuigen",
+      "WU": "Onbemande luchtvaartuigen",
+      "WV": "Formatievlucht",
+      "WW": "Significante vulkanische activiteit",
+      "WY": "Luchtkartering",
+      "WZ": "Modelvliegen"
+    }
   }
 }

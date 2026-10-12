@@ -171,5 +171,14 @@
     "noTasksForCompetition": "Aucune manche trouvée pour cette compétition",
     "tasksNotImported": "Les manches n’ont pas pu être importées",
     "internal": "Erreur interne"
+  },
+  "airspaceLabels": {
+    "restricted": "Réglementée",
+    "danger": "Dangereuse",
+    "prohibited": "Interdite",
+    "icaoClass": "Classe {value}",
+    "restrictedNotam": "Réglementée (NOTAM)",
+    "dangerNotam": "Dangereuse (NOTAM)",
+    "unnamed": "Espace aérien"
   }
 }

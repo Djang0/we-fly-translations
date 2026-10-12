@@ -175,6 +175,59 @@
       "until": "Fine: {to}",
       "range": "{from} → {to}",
       "untilFurtherNotice": "{from} → fino a nuovo avviso"
+    },
+    "types": {
+      "0": "Altro",
+      "1": "Regolamentata",
+      "2": "Pericolosa",
+      "3": "Vietata",
+      "4": "Zona di controllo (CTR)",
+      "5": "Zona a transponder obbligatorio (TMZ)",
+      "6": "Zona a radio obbligatoria (RMZ)",
+      "7": "Area di controllo terminale (TMA)",
+      "8": "Area temporaneamente riservata (TRA)",
+      "9": "Area temporaneamente segregata (TSA)",
+      "10": "Regione informazioni volo (FIR)",
+      "11": "Regione superiore informazioni volo (UIR)",
+      "12": "Zona di identificazione di difesa aerea (ADIZ)",
+      "13": "Zona di traffico aeroportuale (ATZ)",
+      "14": "Zona di traffico aeroportuale militare (MATZ)",
+      "15": "Aerovia",
+      "16": "Rotta di addestramento militare (MTR)",
+      "17": "Area di allerta",
+      "18": "Area di avviso",
+      "19": "Area protetta",
+      "20": "Zona di traffico elicotteri (HTZ)",
+      "21": "Settore volo a vela",
+      "22": "Impostazione transponder (TRP)",
+      "23": "Zona informazioni traffico (TIZ)",
+      "24": "Area informazioni traffico (TIA)",
+      "25": "Area di addestramento militare (MTA)",
+      "26": "Area di controllo (CTA)",
+      "27": "Settore ACC",
+      "28": "Attività aerea sportiva o ricreativa",
+      "29": "Limitazione di sorvolo a bassa quota",
+      "30": "Rotta militare (MRT)",
+      "31": "Rotta di collegamento TSA/TRA (TFR)",
+      "32": "Settore VFR",
+      "33": "Settore servizio informazioni volo (FIS)",
+      "34": "Area di traffico inferiore (LTA)",
+      "35": "Area di traffico superiore (UTA)"
+    },
+    "activities": {
+      "1": "Paracadutismo",
+      "2": "Acrobazia aerea",
+      "3": "Aeroclub / lavoro aereo",
+      "4": "Ultraleggero (ULM)",
+      "5": "Deltaplano / parapendio"
+    },
+    "icaoUnclassified": "Non classificato",
+    "hours": {
+      "h24": "H24 (continuo)",
+      "notam": "Tramite NOTAM",
+      "daily": "{from} - {to} tutti i giorni",
+      "scheduled": "Orari irregolari, vedi openAIP",
+      "withRemark": "{summary} · {remark}"
     }
   },
   "cut": {
@@ -245,10 +298,36 @@
     "rangeEstimated": "{from} → {to} (stima)",
     "permanent": "{from} → permanente"
   },
-  "classLabels": {
-    "restricted": "Regolamentata",
-    "danger": "Pericolosa",
-    "prohibited": "Vietata",
-    "icaoClass": "Classe {value}"
+  "notamKinds": {
+    "unknown": "NOTAM",
+    "name": "NOTAM {id} {location} · {kind}",
+    "subjects": {
+      "RA": "Riserva di spazio aereo",
+      "RD": "Zona pericolosa",
+      "RM": "Area operativa militare",
+      "RO": "Restrizione di sorvolo",
+      "RP": "Zona vietata",
+      "RR": "Zona regolamentata",
+      "RT": "Zona regolamentata temporanea",
+      "WA": "Acrobazia aerea",
+      "WB": "Voli in pallone",
+      "WC": "Pallone frenato o aquilone",
+      "WD": "Demolizione di esplosivi",
+      "WE": "Esercitazioni",
+      "WF": "Esibizione aerea",
+      "WG": "Attività di volo a vela",
+      "WH": "Brillamento di mine",
+      "WJ": "Traino di striscioni o bersagli",
+      "WL": "Lancio di pallone libero",
+      "WM": "Lancio di missili, tiri d’artiglieria o razzi",
+      "WP": "Lanci con paracadute, parapendio o deltaplano",
+      "WS": "Combustione o rilascio di gas",
+      "WT": "Movimento di massa di aeromobili",
+      "WU": "Aeromobili a pilotaggio remoto",
+      "WV": "Volo in formazione",
+      "WW": "Attività vulcanica significativa",
+      "WY": "Rilevamento aereo",
+      "WZ": "Aeromodellismo"
+    }
   }
 }

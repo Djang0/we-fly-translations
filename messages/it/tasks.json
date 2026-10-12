@@ -171,5 +171,14 @@
     "noTasksForCompetition": "Nessun task trovato per questa gara",
     "tasksNotImported": "Impossibile importare i task",
     "internal": "Errore interno"
+  },
+  "airspaceLabels": {
+    "restricted": "Regolamentata",
+    "danger": "Pericolosa",
+    "prohibited": "Vietata",
+    "icaoClass": "Classe {value}",
+    "restrictedNotam": "Regolamentata (NOTAM)",
+    "dangerNotam": "Pericolosa (NOTAM)",
+    "unnamed": "Spazio aereo"
   }
 }

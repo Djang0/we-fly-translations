@@ -28660,6 +28660,41 @@
       "tr": "dfc0c15480ad6d58",
       "by": "ai"
     },
+    "tasks.airspaceLabels.danger": {
+      "src": "8412c07002430421",
+      "tr": "e408e9384b424eef",
+      "by": "ai"
+    },
+    "tasks.airspaceLabels.dangerNotam": {
+      "src": "ec8cf43bdc5f2d2d",
+      "tr": "65091e6c2935e937",
+      "by": "ai"
+    },
+    "tasks.airspaceLabels.icaoClass": {
+      "src": "e40fa17b696a8fc7",
+      "tr": "4c2c1262f2a622a1",
+      "by": "ai"
+    },
+    "tasks.airspaceLabels.prohibited": {
+      "src": "8a410b8f941e71cf",
+      "tr": "54d6854339c43bbf",
+      "by": "ai"
+    },
+    "tasks.airspaceLabels.restricted": {
+      "src": "a00571bcb257e863",
+      "tr": "2f7a4e57fa7c789e",
+      "by": "ai"
+    },
+    "tasks.airspaceLabels.restrictedNotam": {
+      "src": "5fac79180b5fe00c",
+      "tr": "5657bb269e61b3c5",
+      "by": "ai"
+    },
+    "tasks.airspaceLabels.unnamed": {
+      "src": "c4d2205a0e38fda3",
+      "tr": "e8e986c2ec972a38",
+      "by": "ai"
+    },
     "tasks.badge.relink": {
       "src": "822f8b454a4b8833",
       "tr": "08fba505d1fbcd95",
@@ -32310,6 +32345,31 @@
       "tr": "76cbcb499b5508fb",
       "by": "ai"
     },
+    "xcAirspace.detail.activities.1": {
+      "src": "0c01a57fd1d30a7d",
+      "tr": "bf2ce9d11b766dff",
+      "by": "ai"
+    },
+    "xcAirspace.detail.activities.2": {
+      "src": "843ee815b9ccd35f",
+      "tr": "3cd9e876bdfdb055",
+      "by": "ai"
+    },
+    "xcAirspace.detail.activities.3": {
+      "src": "f508ab9a7a5aab07",
+      "tr": "9f5f29d0835c3fda",
+      "by": "ai"
+    },
+    "xcAirspace.detail.activities.4": {
+      "src": "bfa596baf8b32c6e",
+      "tr": "81375fe2cdfa8414",
+      "by": "ai"
+    },
+    "xcAirspace.detail.activities.5": {
+      "src": "6b4103d0d53bfe43",
+      "tr": "545d1bb60519d832",
+      "by": "ai"
+    },
     "xcAirspace.detail.chips.byNotam": {
       "src": "b62a1774dcb00483",
       "tr": "655f4abb62afc396",
@@ -32343,6 +32403,36 @@
     "xcAirspace.detail.fromFile": {
       "src": "18222db02bfddbda",
       "tr": "10ef8836e0dd1123",
+      "by": "ai"
+    },
+    "xcAirspace.detail.hours.daily": {
+      "src": "9ce433d6a3ea93f3",
+      "tr": "4c82803d2eca59b2",
+      "by": "ai"
+    },
+    "xcAirspace.detail.hours.h24": {
+      "src": "d468d1b23158c0b3",
+      "tr": "a40de1f4679f9f65",
+      "by": "ai"
+    },
+    "xcAirspace.detail.hours.notam": {
+      "src": "b62a1774dcb00483",
+      "tr": "c55c82a6cf233057",
+      "by": "ai"
+    },
+    "xcAirspace.detail.hours.scheduled": {
+      "src": "7c54de24b8486f6b",
+      "tr": "427e71c165ec1269",
+      "by": "ai"
+    },
+    "xcAirspace.detail.hours.withRemark": {
+      "src": "3754fd74c7e65a25",
+      "tr": "3754fd74c7e65a25",
+      "by": "ai"
+    },
+    "xcAirspace.detail.icaoUnclassified": {
+      "src": "1372a3810da5224a",
+      "tr": "d7167149f49c2c56",
       "by": "ai"
     },
     "xcAirspace.detail.interval.announcedSeparately": {
@@ -32480,6 +32570,186 @@
       "tr": "baaddf70fb5d432b",
       "by": "ai"
     },
+    "xcAirspace.detail.types.0": {
+      "src": "f97e9da0e3b879f0",
+      "tr": "eb72e1683b81c924",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.1": {
+      "src": "a00571bcb257e863",
+      "tr": "2f7a4e57fa7c789e",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.10": {
+      "src": "99b56fe92e168452",
+      "tr": "a676f4b888bb56d6",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.11": {
+      "src": "e3915cff0d1f7a9a",
+      "tr": "f3475729d4debdcf",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.12": {
+      "src": "bd5c7d73163825d6",
+      "tr": "48f1c079e8ffed71",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.13": {
+      "src": "6ff08e69e7933603",
+      "tr": "8e9bed101d70278c",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.14": {
+      "src": "c39079719b8d72fa",
+      "tr": "44386f185f339864",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.15": {
+      "src": "a1b344bbff1ecdd2",
+      "tr": "11ccfcaaa4ea20cb",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.16": {
+      "src": "45e2941b2200d9da",
+      "tr": "e8e037a67acecbfc",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.17": {
+      "src": "2fccdc651d9072bb",
+      "tr": "5ca799bb25e9eb3f",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.18": {
+      "src": "a8ca4d8efa3eef1a",
+      "tr": "46f76b9f2e02741a",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.19": {
+      "src": "2696ff0e804a7a3a",
+      "tr": "75a915396fe14d37",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.2": {
+      "src": "8412c07002430421",
+      "tr": "e408e9384b424eef",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.20": {
+      "src": "379f6120fda60f78",
+      "tr": "16aec5d458493942",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.21": {
+      "src": "8a8b5ac5faecfb4f",
+      "tr": "0cdcd459a8f8bc8f",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.22": {
+      "src": "78a5f92b91968b8f",
+      "tr": "6256d9b6ffdbfc0c",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.23": {
+      "src": "96615ab4e56f0ba7",
+      "tr": "eaae708af4f836ef",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.24": {
+      "src": "88b1f41561fd0834",
+      "tr": "3e9ecaf4a3096666",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.25": {
+      "src": "fee48a2a4f3a6c2c",
+      "tr": "9e2f6b8a9bb3d331",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.26": {
+      "src": "04490acbbed87552",
+      "tr": "873fd784dcbf9a45",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.27": {
+      "src": "1db08ab55bb8f654",
+      "tr": "f54643593611dd55",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.28": {
+      "src": "050b010558c45695",
+      "tr": "d8edb4efd595e464",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.29": {
+      "src": "423433e96f00c928",
+      "tr": "b256fb8312fee4d7",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.3": {
+      "src": "8a410b8f941e71cf",
+      "tr": "54d6854339c43bbf",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.30": {
+      "src": "5f0883a1dec54daa",
+      "tr": "d5dcd55327536fe8",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.31": {
+      "src": "4ddc4ab7647f8b07",
+      "tr": "25e83bf13e5437e6",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.32": {
+      "src": "bd98eeb88358ab22",
+      "tr": "66faf4c82462876f",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.33": {
+      "src": "5dbd7f8a4ca2c1d2",
+      "tr": "0d425e0230a2210a",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.34": {
+      "src": "73389f80f50d624a",
+      "tr": "3293ad37312b7b1c",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.35": {
+      "src": "62a8ab19056cc3d1",
+      "tr": "303e6a09aba5e2a9",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.4": {
+      "src": "6a88e743011b76aa",
+      "tr": "c79071ebd244337b",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.5": {
+      "src": "22f2490e44ab8f75",
+      "tr": "676402e21f348dd8",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.6": {
+      "src": "a28ca7b212cf4273",
+      "tr": "aa8c69c1cf28ed0e",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.7": {
+      "src": "9526be299090ea1a",
+      "tr": "145e807dd6b9b731",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.8": {
+      "src": "d84f0c5be446c64f",
+      "tr": "9d51976bc609574a",
+      "by": "ai"
+    },
+    "xcAirspace.detail.types.9": {
+      "src": "b8eb6f02e1d57fbb",
+      "tr": "f43a0a90cb707a00",
+      "by": "ai"
+    },
     "xcAirspace.detail.updated": {
       "src": "3743c59576ed4275",
       "tr": "db1b0862376b9d2e",
@@ -32488,6 +32758,146 @@
     "xcAirspace.detail.viewOnOpenAip": {
       "src": "401f29885dd49d9d",
       "tr": "e823b54c670c9cd8",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.name": {
+      "src": "b9fde01cbc667f19",
+      "tr": "b9fde01cbc667f19",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RA": {
+      "src": "fb2276fc267b66d2",
+      "tr": "fd2e38d2586530a3",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RD": {
+      "src": "6b433b5c90ec9d91",
+      "tr": "ba61c249827e7aa8",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RM": {
+      "src": "2c5cad22c24728d8",
+      "tr": "7037157339869574",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RO": {
+      "src": "4cb2e70aa370cb85",
+      "tr": "cc23ba67835c7ce9",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RP": {
+      "src": "debf180f4e47328d",
+      "tr": "f08aad6b8856eb9c",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RR": {
+      "src": "ee1b4e0184a4d4b5",
+      "tr": "927ddd44bd7aff6e",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.RT": {
+      "src": "44f4aa7dbbe46d18",
+      "tr": "a75dce2c071ce7eb",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WA": {
+      "src": "843ee815b9ccd35f",
+      "tr": "3cd9e876bdfdb055",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WB": {
+      "src": "c544b99ba9ed9f80",
+      "tr": "68e41364a0979848",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WC": {
+      "src": "59098d0aab841c9c",
+      "tr": "e2dc1238c786cd4f",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WD": {
+      "src": "b19b7b819a73fcc8",
+      "tr": "a88f4baa87baac1e",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WE": {
+      "src": "988f06b3635487bb",
+      "tr": "4e9218b97a448d91",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WF": {
+      "src": "7ed03b7336aa1580",
+      "tr": "16aac730276dcfe7",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WG": {
+      "src": "8bb5e02b70e09b7c",
+      "tr": "d6d2a4bb89b6efc9",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WH": {
+      "src": "fa7c478f9dbacf0c",
+      "tr": "feb41b43bd3ad96c",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WJ": {
+      "src": "1b680e2661b13fb4",
+      "tr": "e58c3b321078f167",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WL": {
+      "src": "44b5b246210ce0a7",
+      "tr": "596995656daa0e1a",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WM": {
+      "src": "a67fa0c310e258e0",
+      "tr": "d60b4738fcd63b35",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WP": {
+      "src": "26985e3755d5c9ca",
+      "tr": "3c4a447dd3034698",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WS": {
+      "src": "23a3d50b49e217c9",
+      "tr": "894eebd3790943ed",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WT": {
+      "src": "95a8fd270394feee",
+      "tr": "42f0ce1b0dfcd872",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WU": {
+      "src": "e23d0a2c25dbe8d7",
+      "tr": "ca7a97c0452ea0d4",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WV": {
+      "src": "25988da2641f56eb",
+      "tr": "ea86a665e577e902",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WW": {
+      "src": "8bb8799a8aa273fc",
+      "tr": "5ada5ace2e729216",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WY": {
+      "src": "05b49aa6ba32678f",
+      "tr": "a684b047bb63ef78",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.subjects.WZ": {
+      "src": "09f40f91e99583e5",
+      "tr": "4e2bdeb56ea8ed48",
+      "by": "ai"
+    },
+    "xcAirspace.notamKinds.unknown": {
+      "src": "9a79b8023a298ea4",
+      "tr": "9a79b8023a298ea4",
       "by": "ai"
     },
     "xcAirspace.notamList.description": {
@@ -35608,6 +36018,11 @@
     "7532a4179ba1": {
       "src": "7532a4179ba1d12e",
       "tr": "04dc4f463e3cb833",
+      "by": "ai"
+    },
+    "7a8bccf98ce1": {
+      "src": "7a8bccf98ce15bde",
+      "tr": "b2ce74d35124abf0",
       "by": "ai"
     },
     "7b5c2d744fdb": {

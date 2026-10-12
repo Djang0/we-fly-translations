@@ -175,6 +175,59 @@
       "until": "Bis {to}",
       "range": "{from} → {to}",
       "untilFurtherNotice": "{from} → bis auf Weiteres"
+    },
+    "types": {
+      "0": "Sonstige",
+      "1": "Flugbeschränkungsgebiet",
+      "2": "Gefahrengebiet",
+      "3": "Sperrgebiet",
+      "4": "Kontrollzone (CTR)",
+      "5": "Transponderpflichtige Zone (TMZ)",
+      "6": "Funkpflichtige Zone (RMZ)",
+      "7": "Nahkontrollbereich (TMA)",
+      "8": "Zeitweilig reserviertes Gebiet (TRA)",
+      "9": "Zeitweilig abgetrenntes Gebiet (TSA)",
+      "10": "Fluginformationsgebiet (FIR)",
+      "11": "Oberes Fluginformationsgebiet (UIR)",
+      "12": "Luftverteidigungs-Identifizierungszone (ADIZ)",
+      "13": "Flugplatzverkehrszone (ATZ)",
+      "14": "Militärische Flugplatzverkehrszone (MATZ)",
+      "15": "Luftstraße",
+      "16": "Militärische Übungsroute (MTR)",
+      "17": "Hinweisgebiet",
+      "18": "Warngebiet",
+      "19": "Schutzgebiet",
+      "20": "Hubschrauberverkehrszone (HTZ)",
+      "21": "Segelflugsektor",
+      "22": "Transponder-Einstellung (TRP)",
+      "23": "Verkehrsinformationszone (TIZ)",
+      "24": "Verkehrsinformationsgebiet (TIA)",
+      "25": "Militärisches Übungsgebiet (MTA)",
+      "26": "Kontrollbezirk (CTA)",
+      "27": "ACC-Sektor",
+      "28": "Luftsport- oder Freizeitaktivität",
+      "29": "Tiefflugbeschränkung",
+      "30": "Militärroute (MRT)",
+      "31": "TSA/TRA-Zubringerroute (TFR)",
+      "32": "VFR-Sektor",
+      "33": "Fluginformationsdienst-Sektor (FIS)",
+      "34": "Unterer Verkehrsbereich (LTA)",
+      "35": "Oberer Verkehrsbereich (UTA)"
+    },
+    "activities": {
+      "1": "Fallschirmspringen",
+      "2": "Kunstflug",
+      "3": "Aeroclub / Arbeitsflug",
+      "4": "Ultraleicht (ULM)",
+      "5": "Drachen- / Gleitschirmfliegen"
+    },
+    "icaoUnclassified": "Nicht klassifiziert",
+    "hours": {
+      "h24": "H24 (durchgehend)",
+      "notam": "Per NOTAM",
+      "daily": "Täglich {from} bis {to}",
+      "scheduled": "Unregelmäßige Zeiten, siehe openAIP",
+      "withRemark": "{summary} · {remark}"
     }
   },
   "cut": {
@@ -245,10 +298,36 @@
     "rangeEstimated": "{from} → {to} (geschätzt)",
     "permanent": "{from} → dauerhaft"
   },
-  "classLabels": {
-    "restricted": "Beschränkungsgebiet",
-    "danger": "Gefahrengebiet",
-    "prohibited": "Sperrgebiet",
-    "icaoClass": "Klasse {value}"
+  "notamKinds": {
+    "unknown": "NOTAM",
+    "name": "NOTAM {id} {location} · {kind}",
+    "subjects": {
+      "RA": "Luftraumreservierung",
+      "RD": "Gefahrengebiet",
+      "RM": "Militärisches Übungsgebiet",
+      "RO": "Überflugbeschränkung",
+      "RP": "Sperrgebiet",
+      "RR": "Flugbeschränkungsgebiet",
+      "RT": "Temporäres Flugbeschränkungsgebiet",
+      "WA": "Kunstflug",
+      "WB": "Ballonfahren",
+      "WC": "Fesselballon oder Drachen",
+      "WD": "Sprengstoffbeseitigung",
+      "WE": "Übungen",
+      "WF": "Flugvorführung",
+      "WG": "Segelflugbetrieb",
+      "WH": "Sprengarbeiten",
+      "WJ": "Banner- / Zielschlepp",
+      "WL": "Aufstieg eines Freiballons",
+      "WM": "Flugkörper-, Geschütz- oder Raketenschießen",
+      "WP": "Fallschirmspringen, Gleitschirm- oder Drachenfliegen",
+      "WS": "Abfackeln oder Abblasen von Gas",
+      "WT": "Massenflugbewegungen",
+      "WU": "Unbemannte Luftfahrzeuge",
+      "WV": "Formationsflug",
+      "WW": "Erhebliche vulkanische Aktivität",
+      "WY": "Luftbildvermessung",
+      "WZ": "Modellflug"
+    }
   }
 }

@@ -171,5 +171,14 @@
     "noTasksForCompetition": "No se encontraron mangas para esta competición",
     "tasksNotImported": "No se pudieron importar las mangas",
     "internal": "Error interno"
+  },
+  "airspaceLabels": {
+    "restricted": "Zona restringida",
+    "danger": "Zona peligrosa",
+    "prohibited": "Zona prohibida",
+    "icaoClass": "Clase {value}",
+    "restrictedNotam": "Zona restringida (NOTAM)",
+    "dangerNotam": "Zona peligrosa (NOTAM)",
+    "unnamed": "Espacio aéreo"
   }
 }

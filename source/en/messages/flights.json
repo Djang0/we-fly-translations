@@ -548,11 +548,5 @@
     "presetNotFound": "Preset not found",
     "presetUpdateFailed": "Failed to update preset",
     "presetDeleteFailed": "Failed to delete preset"
-  },
-  "recap": {
-    "metaTitle": "Season Recap",
-    "description": "Your paragliding season in review.",
-    "eyebrow": "Season recap",
-    "title": "Season {season}"
   }
 }

@@ -171,5 +171,14 @@
     "noTasksForCompetition": "Geen taken gevonden voor deze wedstrijd",
     "tasksNotImported": "Taken konden niet geïmporteerd worden",
     "internal": "Interne fout"
+  },
+  "airspaceLabels": {
+    "restricted": "Beperkt",
+    "danger": "Gevaarlijk",
+    "prohibited": "Verboden",
+    "icaoClass": "Klasse {value}",
+    "restrictedNotam": "Beperkt (NOTAM)",
+    "dangerNotam": "Gevaarlijk (NOTAM)",
+    "unnamed": "Luchtruim"
   }
 }
