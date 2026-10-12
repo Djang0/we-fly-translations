@@ -28,7 +28,8 @@
     "noMatch": "No flights match.",
     "view": "View",
     "openFlightAria": "Open {pilot}'s full flight",
-    "openFlightTitle": "Open the full flight"
+    "openFlightTitle": "Open the full flight",
+    "unnamedTakeoff": "Unnamed takeoff"
   },
   "picker": {
     "one": "1 flight here",
@@ -39,7 +40,8 @@
   "map": {
     "clusterTooltip": "{takeoffs, plural, one {# takeoff} other {# takeoffs}} · {flights, plural, one {# flight} other {# flights}}",
     "siteTooltip": "{flights, plural, one {# flight} other {# flights}}",
-    "viewFlight": "View flight"
+    "viewFlight": "View flight",
+    "unnamedTakeoff": "Unnamed takeoff"
   },
   "summary": {
     "allFlights": "All flights",

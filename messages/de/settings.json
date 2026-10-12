@@ -185,7 +185,12 @@
     "failedCount": "{count} fehlgeschlagen",
     "nonIgcIgnored": "{count} Nicht-IGC-Dateien ignoriert",
     "finishedWithFailures": "Import abgeschlossen: {count} fehlgeschlagen",
-    "noNewFlights": "Keine neuen Flüge: {count} bereits importiert"
+    "noNewFlights": "Keine neuen Flüge: {count} bereits importiert",
+    "errors": {
+      "tooLarge": "Diese Datei ist größer als 3 MB.",
+      "importFailed": "Wir konnten diese Datei nicht importieren.",
+      "downloadFailed": "Wir konnten diese Datei nicht aus Google Drive herunterladen."
+    }
   },
   "logfly": {
     "title": "Logfly-Datenbank",

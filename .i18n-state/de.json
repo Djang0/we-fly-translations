@@ -25117,7 +25117,7 @@
     },
     "settings.drive.errors.downloadFailed": {
       "src": "6d0bfb4957402b5f",
-      "tr": "5db2f08d0e9559ff",
+      "tr": "ce7fb1e3b440c6d9",
       "by": "ai"
     },
     "settings.drive.errors.importFailed": {
@@ -25127,7 +25127,7 @@
     },
     "settings.drive.errors.tooLarge": {
       "src": "7c5c8f02b7b6e4ef",
-      "tr": "df4fdd3447d7ad4d",
+      "tr": "1bb5833c66f3f2d8",
       "by": "ai"
     },
     "settings.drive.failedCount": {
@@ -36968,6 +36968,11 @@
     "412df92cf39c": {
       "src": "412df92cf39c4717",
       "tr": "fdf6cf72347dcd90",
+      "by": "ai"
+    },
+    "4817a398aad5": {
+      "src": "4817a398aad5e193",
+      "tr": "67e96ea5f1b6d199",
       "by": "ai"
     },
     "4c1f273eeabe": {

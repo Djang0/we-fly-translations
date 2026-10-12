@@ -579,5 +579,18 @@
     "loading": "Loading trace preview",
     "unavailable": "Preview unavailable",
     "none": "No trace preview available"
+  },
+  "metadata": {
+    "notFoundTitle": "Flight Not Found",
+    "notFoundDescription": "This flight does not exist.",
+    "unknownPilot": "Unknown Pilot",
+    "unknownLocation": "Unknown Location",
+    "title": "{pilot}'s Flight from {takeoff}",
+    "ogTitle": "{title} - We-Fly",
+    "description": "Flight on {date} • {distance} km • {duration} duration",
+    "durationHoursMinutes": "{hours}h {minutes}m",
+    "durationMinutes": "{minutes}m",
+    "fallbackTitle": "Flight Details",
+    "fallbackDescription": "View detailed flight information and analytics"
   }
 }
