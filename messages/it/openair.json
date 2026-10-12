@@ -34,6 +34,10 @@
     "fileNotFound": "File degli spazi aerei non trovato",
     "flightNotFound": "Volo non trovato",
     "fileGone": "Questo file degli spazi aerei è appena stato rimosso. Caricalo di nuovo.",
-    "internal": "Errore interno"
+    "internal": "Errore interno",
+    "noFile": "Scegli un file di spazi aerei da allegare.",
+    "tooLarge": "Il file di spazi aerei supera il limite di 8 MB",
+    "noAirspace": "Nessuno spazio aereo trovato in questo file.",
+    "notReadable": "Questo non è un file OpenAir leggibile."
   }
 }

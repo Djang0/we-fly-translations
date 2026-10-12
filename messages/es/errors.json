@@ -1,0 +1,15 @@
+{
+  "request": {
+    "rateLimitActive": "Has hecho demasiadas solicitudes. Espera {seconds, plural, one {# segundo} other {# segundos}} antes de volver a intentarlo.",
+    "rateLimitRetrying": "Demasiadas solicitudes. Reintentando en {seconds, plural, one {# segundo} other {# segundos}}…",
+    "rateLimitExceeded": "Has superado el límite de solicitudes. Vuelve a intentarlo en {seconds, plural, one {# segundo} other {# segundos}}.",
+    "serverRetrying": "La solicitud ha fallado. Reintentando en {seconds, plural, one {# segundo} other {# segundos}}…",
+    "networkRetrying": "Error de red. Reintentando en {seconds, plural, one {# segundo} other {# segundos}}…",
+    "failedAfterRetries": "La solicitud falló tras varios intentos",
+    "badRequest": "No se pudo procesar la solicitud.",
+    "unauthorized": "Inicia sesión para continuar.",
+    "forbidden": "No tienes acceso a esto.",
+    "notFound": "No encontramos lo que buscas.",
+    "serverError": "Algo ha fallado por nuestra parte. Vuelve a intentarlo."
+  }
+}

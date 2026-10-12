@@ -32,5 +32,77 @@
     "working": "Un attimo…",
     "cancel": "Annulla",
     "continue": "Continua"
+  },
+  "errors": {
+    "notAuthenticated": "Non autenticato",
+    "consentRequired": "Completa il consenso su /consent prima di eseguire questa azione.",
+    "codeFormat": "Formato del codice non valido (atteso XXXX-XXXX)",
+    "codeNotFound": "Codice non trovato o già scaduto",
+    "codeExpired": "Il codice è scaduto",
+    "codeUsed": "Il codice è già stato usato",
+    "codeDenied": "Il codice è già stato rifiutato",
+    "codeAuthorised": "Il codice è già stato autorizzato da un altro utente",
+    "codeNotPending": "Il codice non è più in attesa",
+    "appGone": "L'applicazione non esiste più",
+    "appSuspended": "L'applicazione è sospesa",
+    "pendingScope": "Questa app è ancora in attesa di revisione e non può richiedere \"{scope}\".",
+    "pendingOwnerOnly": "Le applicazioni in attesa di revisione possono essere autorizzate solo dal loro proprietario.",
+    "fatal": {
+      "clientIdRequired": "L'applicazione non ha detto chi è (manca client_id).",
+      "unknownClient": "Non riconosciamo questa applicazione.",
+      "appSuspended": "Questa applicazione è stata sospesa.",
+      "redirectUriRequired": "L'applicazione non ha detto dove rimandarti (manca redirect_uri).",
+      "redirectUriMismatch": "L'indirizzo di ritorno non corrisponde a nessuno di quelli registrati per questa applicazione."
+    }
+  },
+  "scopes": {
+    "flightsRead": {
+      "label": "Leggere i tuoi voli",
+      "description": "Vedere l'elenco dei tuoi voli, i punteggi e le statistiche, e scaricare i file IGC originali."
+    },
+    "flightsWrite": {
+      "label": "Caricare voli a tuo nome",
+      "description": "Caricare nuovi file IGC e importarli nel tuo libretto di volo."
+    },
+    "profileRead": {
+      "label": "Leggere il tuo profilo",
+      "description": "Vedere il tuo nome visualizzato, i dati del brevetto e i tuoi club."
+    },
+    "profileEmail": {
+      "label": "Vedere il tuo indirizzo email",
+      "description": "Vedere l'indirizzo email del tuo account We-Fly."
+    },
+    "profileWrite": {
+      "label": "Aggiornare il tuo profilo",
+      "description": "Modificare il tuo nome visualizzato, i dati del brevetto e le preferenze."
+    },
+    "communityRead": {
+      "label": "Leggere i dati pubblici della community",
+      "description": "Accedere ai decolli, ai voli pubblici e alle classifiche della community."
+    },
+    "tasksRead": {
+      "label": "Leggere i tuoi task, waypoint e percorsi",
+      "description": "Vedere i tuoi task di gara, le raccolte di waypoint e i percorsi pianificati, e sfogliare la libreria condivisa dei task."
+    },
+    "tasksWrite": {
+      "label": "Aggiungere task, waypoint e percorsi",
+      "description": "Salvare task di gara, raccolte di waypoint e percorsi pianificati nel tuo account."
+    },
+    "screensRead": {
+      "label": "Leggere le schermate del tuo strumento",
+      "description": "Vedere i layout delle schermate che usi sul tuo strumento di volo e la galleria della community."
+    },
+    "screensWrite": {
+      "label": "Modificare le schermate del tuo strumento",
+      "description": "Creare, aggiornare, eliminare e pubblicare i layout delle schermate del tuo strumento di volo."
+    },
+    "airspaceRead": {
+      "label": "Leggere i dati dello spazio aereo",
+      "description": "Scaricare le regioni di spazio aereo e le attivazioni temporanee per l'uso offline."
+    },
+    "liveWrite": {
+      "label": "Inviare la tua posizione e lanciare allarmi",
+      "description": "Pubblicare la tua posizione live mentre voli e inviare ai tuoi contatti le notifiche di decollo, atterraggio ed emergenza."
+    }
   }
 }

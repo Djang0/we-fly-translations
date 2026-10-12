@@ -91,6 +91,17 @@
     "invalidUser": "Ungültiger Benutzer",
     "unblockFailed": "Blockierung konnte nicht aufgehoben werden",
     "commentTooLong": "Der Kommentar darf höchstens {max} Zeichen lang sein",
-    "internal": "Interner Fehler"
+    "internal": "Interner Fehler",
+    "consentRequired": "Schließ zuerst die Einwilligung unter /consent ab, bevor du diese Aktion ausführst.",
+    "reviewTooFast": "Du schickst zu schnell Review-Anfragen. Versuch es bitte später noch mal.",
+    "invalidRequest": "Ungültige Anfrage",
+    "reviewerNotFound": "Reviewer nicht gefunden",
+    "reviewAlreadyPending": "Dieser Pilot hat für diesen Flug schon eine offene Review-Anfrage",
+    "reviewSendFailed": "Review-Anfrage konnte nicht gesendet werden"
+  },
+  "fallbacks": {
+    "pilot": "Pilot",
+    "unknownTakeoff": "Unbekannter Startplatz",
+    "yourFlight": "dein Flug"
   }
 }

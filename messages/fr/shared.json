@@ -117,5 +117,24 @@
     "flightMode": "Mode de vol",
     "flightModeCaption": "Heures en solo et en biplace",
     "flightsByType": "Vols par type"
+  },
+  "api": {
+    "unauthorized": "Connecte-toi pour continuer.",
+    "internal": "Un problème est survenu. Réessaie.",
+    "invalidFlightId": "Identifiant de vol invalide.",
+    "missingFlightId": "L’identifiant du vol est manquant.",
+    "flightNotFound": "Vol introuvable.",
+    "flightNotOwned": "Vol introuvable, ou ce n’est pas le tien.",
+    "link": {
+      "exists": "Ce vol a déjà un lien de partage.",
+      "none": "Ce vol n’a pas de lien de partage."
+    },
+    "replay": {
+      "invalidRequest": "Requête invalide.",
+      "invalidFlightList": "La liste des vols est invalide.",
+      "tooManyFlights": "Un replay partagé peut inclure au maximum {max, plural, one {# autre vol} other {# autres vols}}.",
+      "invalidId": "Identifiant de replay partagé invalide.",
+      "notFound": "Replay partagé introuvable."
+    }
   }
 }

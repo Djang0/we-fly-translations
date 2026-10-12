@@ -117,5 +117,24 @@
     "flightMode": "Modalità di volo",
     "flightModeCaption": "Ore in singolo e in biposto",
     "flightsByType": "Voli per tipo"
+  },
+  "api": {
+    "unauthorized": "Accedi per continuare.",
+    "internal": "Qualcosa è andato storto. Riprova.",
+    "invalidFlightId": "ID del volo non valido.",
+    "missingFlightId": "Manca l’ID del volo.",
+    "flightNotFound": "Volo non trovato.",
+    "flightNotOwned": "Volo non trovato, oppure non è tuo.",
+    "link": {
+      "exists": "Questo volo ha già un link di condivisione.",
+      "none": "Questo volo non ha un link di condivisione."
+    },
+    "replay": {
+      "invalidRequest": "Richiesta non valida.",
+      "invalidFlightList": "L’elenco dei voli non è valido.",
+      "tooManyFlights": "Un replay condiviso può includere al massimo {max, plural, one {# altro volo} other {# altri voli}}.",
+      "invalidId": "ID del replay condiviso non valido.",
+      "notFound": "Replay condiviso non trovato."
+    }
   }
 }

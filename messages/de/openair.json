@@ -34,6 +34,10 @@
     "fileNotFound": "Luftraumdatei nicht gefunden",
     "flightNotFound": "Flug nicht gefunden",
     "fileGone": "Diese Luftraumdatei wurde gerade entfernt. Lade sie erneut hoch.",
-    "internal": "Interner Fehler"
+    "internal": "Interner Fehler",
+    "noFile": "Wähle eine Luftraumdatei zum Anhängen aus.",
+    "tooLarge": "Die Luftraumdatei ist größer als 8 MB",
+    "noAirspace": "In dieser Datei wurde kein Luftraum gefunden.",
+    "notReadable": "Das ist keine lesbare OpenAir-Datei."
   }
 }

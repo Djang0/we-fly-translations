@@ -117,5 +117,24 @@
     "flightMode": "Vliegmodus",
     "flightModeCaption": "Solo- en tandemuren",
     "flightsByType": "Vluchten per type"
+  },
+  "api": {
+    "unauthorized": "Log in om verder te gaan.",
+    "internal": "Er ging iets mis. Probeer het opnieuw.",
+    "invalidFlightId": "Ongeldige vlucht-ID.",
+    "missingFlightId": "De vlucht-ID ontbreekt.",
+    "flightNotFound": "Vlucht niet gevonden.",
+    "flightNotOwned": "Vlucht niet gevonden, of het is niet jouw vlucht.",
+    "link": {
+      "exists": "Deze vlucht heeft al een deellink.",
+      "none": "Deze vlucht heeft geen deellink."
+    },
+    "replay": {
+      "invalidRequest": "Ongeldig verzoek.",
+      "invalidFlightList": "De lijst met vluchten is ongeldig.",
+      "tooManyFlights": "Een gedeelde replay kan maximaal {max, plural, one {# andere vlucht} other {# andere vluchten}} bevatten.",
+      "invalidId": "Ongeldige ID van gedeelde replay.",
+      "notFound": "Gedeelde replay niet gevonden."
+    }
   }
 }

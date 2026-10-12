@@ -34,6 +34,10 @@
     "fileNotFound": "Luchtruimbestand niet gevonden",
     "flightNotFound": "Vlucht niet gevonden",
     "fileGone": "Dit luchtruimbestand is net verwijderd. Upload het opnieuw.",
-    "internal": "Interne fout"
+    "internal": "Interne fout",
+    "noFile": "Kies een luchtruimbestand om te koppelen.",
+    "tooLarge": "Luchtruimbestand is groter dan de limiet van 8 MB",
+    "noAirspace": "Geen luchtruim gevonden in dit bestand.",
+    "notReadable": "Dit is geen leesbaar OpenAir-bestand."
   }
 }

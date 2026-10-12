@@ -1,0 +1,15 @@
+{
+  "request": {
+    "rateLimitActive": "Anfragelimit aktiv. Bitte warte {seconds, plural, one {# Sekunde} other {# Sekunden}}, bevor du es erneut versuchst.",
+    "rateLimitRetrying": "Anfragelimit erreicht. Neuer Versuch in {seconds, plural, one {# Sekunde} other {# Sekunden}}…",
+    "rateLimitExceeded": "Anfragelimit überschritten. Bitte versuch es in {seconds, plural, one {# Sekunde} other {# Sekunden}} noch mal.",
+    "serverRetrying": "Anfrage fehlgeschlagen. Neuer Versuch in {seconds, plural, one {# Sekunde} other {# Sekunden}}…",
+    "networkRetrying": "Netzwerkfehler. Neuer Versuch in {seconds, plural, one {# Sekunde} other {# Sekunden}}…",
+    "failedAfterRetries": "Anfrage nach mehreren Versuchen fehlgeschlagen",
+    "badRequest": "Die Anfrage konnte nicht verarbeitet werden.",
+    "unauthorized": "Bitte melde dich an, um weiterzumachen.",
+    "forbidden": "Darauf hast du keinen Zugriff.",
+    "notFound": "Wir konnten nicht finden, wonach du gesucht hast.",
+    "serverError": "Bei uns ist etwas schiefgelaufen. Bitte versuch es noch mal."
+  }
+}

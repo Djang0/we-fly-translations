@@ -91,6 +91,17 @@
     "invalidUser": "Usuario no válido",
     "unblockFailed": "No se pudo desbloquear al anotador",
     "commentTooLong": "El comentario no puede superar los {max} caracteres",
-    "internal": "Error interno"
+    "internal": "Error interno",
+    "consentRequired": "Termina el proceso de consentimiento en /consent antes de realizar esta acción.",
+    "reviewTooFast": "Estás enviando solicitudes de revisión demasiado rápido. Inténtalo de nuevo más tarde.",
+    "invalidRequest": "Solicitud no válida",
+    "reviewerNotFound": "Revisor no encontrado",
+    "reviewAlreadyPending": "Este piloto ya tiene una solicitud de revisión pendiente para este vuelo",
+    "reviewSendFailed": "No se pudo enviar la solicitud de revisión"
+  },
+  "fallbacks": {
+    "pilot": "Piloto",
+    "unknownTakeoff": "Despegue desconocido",
+    "yourFlight": "tu vuelo"
   }
 }

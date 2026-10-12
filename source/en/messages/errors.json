@@ -1,0 +1,15 @@
+{
+  "request": {
+    "rateLimitActive": "Rate limit active. Please wait {seconds, plural, one {# second} other {# seconds}} before retrying.",
+    "rateLimitRetrying": "Rate limit reached. Retrying in {seconds, plural, one {# second} other {# seconds}}…",
+    "rateLimitExceeded": "Rate limit exceeded. Please try again in {seconds, plural, one {# second} other {# seconds}}.",
+    "serverRetrying": "Request failed. Retrying in {seconds, plural, one {# second} other {# seconds}}…",
+    "networkRetrying": "Network error. Retrying in {seconds, plural, one {# second} other {# seconds}}…",
+    "failedAfterRetries": "Request failed after multiple attempts",
+    "badRequest": "The request could not be processed.",
+    "unauthorized": "Please sign in to continue.",
+    "forbidden": "You do not have access to this.",
+    "notFound": "We could not find what you asked for.",
+    "serverError": "Something went wrong on our side. Please try again."
+  }
+}

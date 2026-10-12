@@ -1,0 +1,15 @@
+{
+  "request": {
+    "rateLimitActive": "Limiet bereikt. Wacht {seconds, plural, one {# seconde} other {# seconden}} voor je het opnieuw probeert.",
+    "rateLimitRetrying": "Limiet bereikt. Nieuwe poging over {seconds, plural, one {# seconde} other {# seconden}}…",
+    "rateLimitExceeded": "Limiet overschreden. Probeer het over {seconds, plural, one {# seconde} other {# seconden}} opnieuw.",
+    "serverRetrying": "Verzoek mislukt. Nieuwe poging over {seconds, plural, one {# seconde} other {# seconden}}…",
+    "networkRetrying": "Netwerkfout. Nieuwe poging over {seconds, plural, one {# seconde} other {# seconden}}…",
+    "failedAfterRetries": "Verzoek mislukt na meerdere pogingen",
+    "badRequest": "Het verzoek kon niet worden verwerkt.",
+    "unauthorized": "Log in om verder te gaan.",
+    "forbidden": "Je hebt hier geen toegang toe.",
+    "notFound": "We konden niet vinden wat je zoekt.",
+    "serverError": "Er ging bij ons iets mis. Probeer het opnieuw."
+  }
+}

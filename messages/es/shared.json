@@ -117,5 +117,24 @@
     "flightMode": "Modo de vuelo",
     "flightModeCaption": "Horas en solitario y en biplaza",
     "flightsByType": "Vuelos por tipo"
+  },
+  "api": {
+    "unauthorized": "Inicia sesión para continuar.",
+    "internal": "Algo salió mal. Inténtalo de nuevo.",
+    "invalidFlightId": "ID de vuelo no válido.",
+    "missingFlightId": "Falta el ID del vuelo.",
+    "flightNotFound": "No se encontró el vuelo.",
+    "flightNotOwned": "No se encontró el vuelo o no es tuyo.",
+    "link": {
+      "exists": "Este vuelo ya tiene un enlace para compartir.",
+      "none": "Este vuelo no tiene enlace para compartir."
+    },
+    "replay": {
+      "invalidRequest": "Solicitud no válida.",
+      "invalidFlightList": "La lista de vuelos no es válida.",
+      "tooManyFlights": "Una repetición compartida puede incluir como máximo {max, plural, one {# vuelo más} other {# vuelos más}}.",
+      "invalidId": "ID de repetición compartida no válido.",
+      "notFound": "No se encontró la repetición compartida."
+    }
   }
 }

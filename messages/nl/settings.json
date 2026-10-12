@@ -432,6 +432,24 @@
       "licenseName": "Naam van het brevet",
       "organization": "Organisatie",
       "clubName": "Clubnaam"
+    },
+    "unsubscribeInvalid": "Deze afmeldlink is niet geldig",
+    "unsubscribeFailed": "Er ging iets mis. Probeer het opnieuw."
+  },
+  "safetyContact": {
+    "page": {
+      "incompleteTitle": "Er ontbreekt iets",
+      "incompleteBody": "Die link is onvolledig. Open de link uit de e-mail opnieuw.",
+      "invalidTitle": "Niets te doen",
+      "invalidBody": "Deze link is niet meer geldig. Als je als veiligheidscontact van een piloot verwijderd bent, is dat al gebeurd en hoor je niets meer van ons.",
+      "confirmedTitle": "Je bent bevestigd",
+      "confirmedBodyLanding": "Bedankt. Je krijgt nu een kort bericht wanneer deze piloot geland is, en een melding als er ooit een noodmelding wordt gedaan.",
+      "confirmedBodyRemove": "Elk bericht dat we je sturen bevat een link om jezelf te verwijderen, en die kun je op elk moment gebruiken.",
+      "removedTitle": "Je bent verwijderd",
+      "removedBodyDone": "Je staat niet meer bij de veiligheidscontacten van deze piloot en we mailen je niet meer over de vluchten van deze piloot.",
+      "removedBodyAskAgain": "Wil je opnieuw toegevoegd worden? Vraag het de piloot zelf. Wij kunnen dat hier niet doen.",
+      "errorTitle": "Er ging iets mis",
+      "errorBody": "Dat lukte ons nu niet. Probeer de link over een paar minuten opnieuw."
     }
   }
 }

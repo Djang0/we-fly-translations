@@ -32,5 +32,77 @@
     "working": "Bezig…",
     "cancel": "Annuleren",
     "continue": "Doorgaan"
+  },
+  "errors": {
+    "notAuthenticated": "Niet ingelogd",
+    "consentRequired": "Rond eerst de toestemmingsstap op /consent af voordat je deze actie uitvoert.",
+    "codeFormat": "Ongeldig codeformaat (verwacht: XXXX-XXXX)",
+    "codeNotFound": "Code niet gevonden of al verlopen",
+    "codeExpired": "Code is verlopen",
+    "codeUsed": "Code is al gebruikt",
+    "codeDenied": "Code is al geweigerd",
+    "codeAuthorised": "Code is al door iemand anders geautoriseerd",
+    "codeNotPending": "Code staat niet meer open",
+    "appGone": "Applicatie bestaat niet meer",
+    "appSuspended": "Applicatie is geschorst",
+    "pendingScope": "Deze app wacht nog op beoordeling en kan \"{scope}\" niet aanvragen.",
+    "pendingOwnerOnly": "Applicaties die nog op beoordeling wachten, kunnen alleen door hun eigenaar worden geautoriseerd.",
+    "fatal": {
+      "clientIdRequired": "De applicatie heeft niet gezegd wie ze is (client_id ontbreekt).",
+      "unknownClient": "We kennen deze applicatie niet.",
+      "appSuspended": "Deze applicatie is geschorst.",
+      "redirectUriRequired": "De applicatie heeft niet gezegd waar je naar terug moet (redirect_uri ontbreekt).",
+      "redirectUriMismatch": "Het terugkeeradres komt niet overeen met een van de adressen die voor deze applicatie zijn geregistreerd."
+    }
+  },
+  "scopes": {
+    "flightsRead": {
+      "label": "Je vluchten inzien",
+      "description": "Je vluchtenlijst, scores en statistieken bekijken en ruwe IGC-bestanden downloaden."
+    },
+    "flightsWrite": {
+      "label": "Vluchten uploaden namens jou",
+      "description": "Nieuwe IGC-bestanden uploaden en in je logboek verwerken."
+    },
+    "profileRead": {
+      "label": "Je profiel inzien",
+      "description": "Je weergavenaam, brevetgegevens en clubs bekijken."
+    },
+    "profileEmail": {
+      "label": "Je e-mailadres zien",
+      "description": "Het e-mailadres van je We-Fly-account bekijken."
+    },
+    "profileWrite": {
+      "label": "Je profiel bijwerken",
+      "description": "Je weergavenaam, brevetgegevens en voorkeuren wijzigen."
+    },
+    "communityRead": {
+      "label": "Openbare communitygegevens inzien",
+      "description": "Toegang tot startplaatsen, openbare vluchten en communityranglijsten."
+    },
+    "tasksRead": {
+      "label": "Je taken, waypoints en routes inzien",
+      "description": "Je wedstrijdtaken, waypointcollecties en geplande routes bekijken en door de gedeelde takenbibliotheek bladeren."
+    },
+    "tasksWrite": {
+      "label": "Taken, waypoints en routes toevoegen",
+      "description": "Wedstrijdtaken, waypointcollecties en geplande routes in je account opslaan."
+    },
+    "screensRead": {
+      "label": "Je instrumentschermen inzien",
+      "description": "De schermindelingen die je op je vlieginstrument gebruikt en de communitygalerij bekijken."
+    },
+    "screensWrite": {
+      "label": "Je instrumentschermen wijzigen",
+      "description": "De schermindelingen van je vlieginstrument maken, bijwerken, verwijderen en publiceren."
+    },
+    "airspaceRead": {
+      "label": "Luchtruimgegevens inzien",
+      "description": "Luchtruimregio's en tijdelijke activaties downloaden voor offline gebruik."
+    },
+    "liveWrite": {
+      "label": "Je positie doorgeven en meldingen versturen",
+      "description": "Tijdens het vliegen je live positie publiceren en start-, landings- en noodmeldingen naar je contacten sturen."
+    }
   }
 }

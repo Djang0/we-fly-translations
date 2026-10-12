@@ -91,6 +91,17 @@
     "invalidUser": "Utente non valido",
     "unblockFailed": "Impossibile sbloccare l'autore delle annotazioni",
     "commentTooLong": "Il commento non può superare {max} caratteri",
-    "internal": "Errore interno"
+    "internal": "Errore interno",
+    "consentRequired": "Completa il consenso su /consent prima di fare questa operazione.",
+    "reviewTooFast": "Stai inviando richieste di revisione troppo in fretta. Riprova più tardi.",
+    "invalidRequest": "Richiesta non valida",
+    "reviewerNotFound": "Revisore non trovato",
+    "reviewAlreadyPending": "Questo pilota ha già una richiesta di revisione in sospeso per questo volo",
+    "reviewSendFailed": "Impossibile inviare la richiesta di revisione"
+  },
+  "fallbacks": {
+    "pilot": "Pilota",
+    "unknownTakeoff": "Decollo sconosciuto",
+    "yourFlight": "il tuo volo"
   }
 }

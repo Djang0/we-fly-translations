@@ -432,6 +432,24 @@
       "licenseName": "License name",
       "organization": "Organization",
       "clubName": "Club name"
+    },
+    "unsubscribeInvalid": "This unsubscribe link is not valid",
+    "unsubscribeFailed": "Something went wrong. Please try again."
+  },
+  "safetyContact": {
+    "page": {
+      "incompleteTitle": "Something's missing",
+      "incompleteBody": "That link is incomplete. Please open the one from the email again.",
+      "invalidTitle": "Nothing to do",
+      "invalidBody": "This link is no longer valid. If you were removed from a pilot's safety contacts, that has already taken effect and you will not hear from us again.",
+      "confirmedTitle": "You're confirmed",
+      "confirmedBodyLanding": "Thanks, you'll now get a short message when this pilot lands, and an alert if they ever raise an emergency.",
+      "confirmedBodyRemove": "Every message we send you has a link to remove yourself, and you can use it at any time.",
+      "removedTitle": "You've been removed",
+      "removedBodyDone": "You're off this pilot's safety-contact list and we won't email you about their flights again.",
+      "removedBodyAskAgain": "If you'd like to be added back, ask them directly. We can't do it from here.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "We couldn't complete that just now. Please try the link again in a few minutes."
     }
   }
 }

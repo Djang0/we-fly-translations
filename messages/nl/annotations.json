@@ -91,6 +91,17 @@
     "invalidUser": "Ongeldige gebruiker",
     "unblockFailed": "Blokkering opheffen mislukt",
     "commentTooLong": "Een opmerking mag niet langer zijn dan {max} tekens",
-    "internal": "Interne fout"
+    "internal": "Interne fout",
+    "consentRequired": "Rond eerst de toestemmingsprocedure af op /consent voordat je dit doet.",
+    "reviewTooFast": "Je stuurt te snel verzoeken om een nabespreking. Probeer het later opnieuw.",
+    "invalidRequest": "Ongeldig verzoek",
+    "reviewerNotFound": "Piloot voor de nabespreking niet gevonden",
+    "reviewAlreadyPending": "Deze piloot heeft al een openstaand verzoek om een nabespreking van deze vlucht",
+    "reviewSendFailed": "Kon verzoek om nabespreking niet versturen"
+  },
+  "fallbacks": {
+    "pilot": "Piloot",
+    "unknownTakeoff": "Onbekende startplaats",
+    "yourFlight": "je vlucht"
   }
 }

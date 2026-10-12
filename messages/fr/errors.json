@@ -1,0 +1,15 @@
+{
+  "request": {
+    "rateLimitActive": "Limitation des requêtes active. Attends {seconds, plural, one {# seconde} other {# secondes}} avant de réessayer.",
+    "rateLimitRetrying": "Limite de requêtes atteinte. Nouvel essai dans {seconds, plural, one {# seconde} other {# secondes}}…",
+    "rateLimitExceeded": "Limite de requêtes dépassée. Réessaie dans {seconds, plural, one {# seconde} other {# secondes}}.",
+    "serverRetrying": "Échec de la requête. Nouvel essai dans {seconds, plural, one {# seconde} other {# secondes}}…",
+    "networkRetrying": "Erreur réseau. Nouvel essai dans {seconds, plural, one {# seconde} other {# secondes}}…",
+    "failedAfterRetries": "Échec de la requête après plusieurs tentatives",
+    "badRequest": "Impossible de traiter la requête.",
+    "unauthorized": "Connecte-toi pour continuer.",
+    "forbidden": "Tu n’as pas accès à ce contenu.",
+    "notFound": "On n’a pas trouvé ce que tu cherches.",
+    "serverError": "Un problème est survenu de notre côté. Réessaie."
+  }
+}

@@ -34,6 +34,10 @@
     "fileNotFound": "Fichier d’espaces aériens introuvable",
     "flightNotFound": "Vol introuvable",
     "fileGone": "Ce fichier d’espaces aériens vient d’être supprimé. Importe-le à nouveau.",
-    "internal": "Erreur interne"
+    "internal": "Erreur interne",
+    "noFile": "Choisis un fichier d’espaces aériens à joindre.",
+    "tooLarge": "Le fichier d’espaces aériens dépasse la limite de 8 Mo",
+    "noAirspace": "Aucun espace aérien trouvé dans ce fichier.",
+    "notReadable": "Ce fichier OpenAir est illisible."
   }
 }

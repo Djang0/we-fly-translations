@@ -91,6 +91,17 @@
     "invalidUser": "Utilisateur invalide",
     "unblockFailed": "Impossible de débloquer l’annotateur",
     "commentTooLong": "Le commentaire ne peut pas dépasser {max} caractères",
-    "internal": "Erreur interne"
+    "internal": "Erreur interne",
+    "consentRequired": "Termine le parcours de consentement sur /consent avant d’effectuer cette action.",
+    "reviewTooFast": "Tu envoies des demandes de débrief trop vite. Réessaie plus tard.",
+    "invalidRequest": "Requête invalide",
+    "reviewerNotFound": "Pilote introuvable pour le débrief",
+    "reviewAlreadyPending": "Ce pilote a déjà une demande de débrief en attente pour ce vol",
+    "reviewSendFailed": "Échec de l’envoi de la demande de débrief"
+  },
+  "fallbacks": {
+    "pilot": "Pilote",
+    "unknownTakeoff": "Décollage inconnu",
+    "yourFlight": "ton vol"
   }
 }

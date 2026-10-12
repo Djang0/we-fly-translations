@@ -34,6 +34,10 @@
     "fileNotFound": "Archivo de espacio aéreo no encontrado",
     "flightNotFound": "Vuelo no encontrado",
     "fileGone": "Este archivo de espacio aéreo se acaba de eliminar. Vuelve a subirlo.",
-    "internal": "Error interno"
+    "internal": "Error interno",
+    "noFile": "Elige un archivo de espacio aéreo para adjuntar.",
+    "tooLarge": "El archivo de espacio aéreo supera el límite de 8 MB",
+    "noAirspace": "No hay ningún espacio aéreo en este archivo.",
+    "notReadable": "No es un archivo OpenAir legible."
   }
 }

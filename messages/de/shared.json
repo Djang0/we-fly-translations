@@ -117,5 +117,24 @@
     "flightMode": "Flugart",
     "flightModeCaption": "Solo- und Tandemstunden",
     "flightsByType": "Flüge nach Wertungsart"
+  },
+  "api": {
+    "unauthorized": "Bitte melde dich an, um fortzufahren.",
+    "internal": "Da ist etwas schiefgelaufen. Bitte versuch es noch mal.",
+    "invalidFlightId": "Ungültige Flug-ID.",
+    "missingFlightId": "Die Flug-ID fehlt.",
+    "flightNotFound": "Flug nicht gefunden.",
+    "flightNotOwned": "Flug nicht gefunden oder nicht deiner.",
+    "link": {
+      "exists": "Für diesen Flug gibt es schon einen Freigabelink.",
+      "none": "Für diesen Flug gibt es keinen Freigabelink."
+    },
+    "replay": {
+      "invalidRequest": "Ungültige Anfrage.",
+      "invalidFlightList": "Die Flugliste ist ungültig.",
+      "tooManyFlights": "Ein geteiltes Replay kann höchstens {max, plural, one {# weiteren Flug} other {# weitere Flüge}} enthalten.",
+      "invalidId": "Ungültige ID des geteilten Replays.",
+      "notFound": "Geteiltes Replay nicht gefunden."
+    }
   }
 }
