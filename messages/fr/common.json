@@ -76,5 +76,8 @@
     "copied": "Copié !",
     "copyLink": "Copier le lien",
     "email": "E-mail"
-  }
+  },
+  "scrollLeft": "Défiler vers la gauche",
+  "scrollRight": "Défiler vers la droite",
+  "avatarAlt": "Avatar"
 }

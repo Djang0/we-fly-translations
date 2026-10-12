@@ -76,5 +76,8 @@
     "copied": "Gekopieerd!",
     "copyLink": "Link kopiëren",
     "email": "E-mail"
-  }
+  },
+  "scrollLeft": "Naar links scrollen",
+  "scrollRight": "Naar rechts scrollen",
+  "avatarAlt": "Avatar"
 }

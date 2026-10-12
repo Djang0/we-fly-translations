@@ -548,5 +548,11 @@
     "presetNotFound": "Filtro salvato non trovato",
     "presetUpdateFailed": "Aggiornamento del filtro non riuscito",
     "presetDeleteFailed": "Eliminazione del filtro non riuscita"
+  },
+  "recap": {
+    "metaTitle": "Riepilogo della stagione",
+    "description": "La tua stagione di parapendio in un colpo d'occhio.",
+    "eyebrow": "Riepilogo della stagione",
+    "title": "Stagione {season}"
   }
 }

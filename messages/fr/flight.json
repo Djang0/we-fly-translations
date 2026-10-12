@@ -579,5 +579,18 @@
     "loading": "Chargement de l’aperçu de la trace",
     "unavailable": "Aperçu indisponible",
     "none": "Aucun aperçu de trace disponible"
+  },
+  "metadata": {
+    "notFoundTitle": "Vol introuvable",
+    "notFoundDescription": "Ce vol n’existe pas.",
+    "unknownPilot": "Pilote inconnu",
+    "unknownLocation": "Lieu inconnu",
+    "title": "Vol de {pilot} depuis {takeoff}",
+    "ogTitle": "{title} - We-Fly",
+    "description": "Vol du {date} • {distance} km • durée {duration}",
+    "durationHoursMinutes": "{hours} h {minutes} min",
+    "durationMinutes": "{minutes} min",
+    "fallbackTitle": "Détails du vol",
+    "fallbackDescription": "Découvre le détail et les analyses de ce vol"
   }
 }

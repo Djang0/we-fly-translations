@@ -579,5 +579,18 @@
     "loading": "Voorbeeld van de track laden",
     "unavailable": "Voorbeeld niet beschikbaar",
     "none": "Geen voorbeeld van de track beschikbaar"
+  },
+  "metadata": {
+    "notFoundTitle": "Vlucht niet gevonden",
+    "notFoundDescription": "Deze vlucht bestaat niet.",
+    "unknownPilot": "Onbekende piloot",
+    "unknownLocation": "Onbekende locatie",
+    "title": "Vlucht van {pilot} vanaf {takeoff}",
+    "ogTitle": "{title} - We-Fly",
+    "description": "Vlucht op {date} • {distance} km • {duration} vliegtijd",
+    "durationHoursMinutes": "{hours}u {minutes}m",
+    "durationMinutes": "{minutes}m",
+    "fallbackTitle": "Vluchtdetails",
+    "fallbackDescription": "Bekijk alle details en analyses van je vlucht"
   }
 }

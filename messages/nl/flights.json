@@ -548,5 +548,11 @@
     "presetNotFound": "Filterset niet gevonden",
     "presetUpdateFailed": "Filterset bijwerken mislukt",
     "presetDeleteFailed": "Filterset verwijderen mislukt"
+  },
+  "recap": {
+    "metaTitle": "Seizoensoverzicht",
+    "description": "Je paraglidingseizoen in een notendop.",
+    "eyebrow": "Seizoensoverzicht",
+    "title": "Seizoen {season}"
   }
 }

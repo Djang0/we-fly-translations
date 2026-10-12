@@ -548,5 +548,11 @@
     "presetNotFound": "Filtro guardado no encontrado",
     "presetUpdateFailed": "No se pudo actualizar el filtro",
     "presetDeleteFailed": "No se pudo eliminar el filtro"
+  },
+  "recap": {
+    "metaTitle": "Resumen de temporada",
+    "description": "Tu temporada de parapente, de un vistazo.",
+    "eyebrow": "Resumen de temporada",
+    "title": "Temporada {season}"
   }
 }

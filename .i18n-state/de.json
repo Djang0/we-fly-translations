@@ -4265,6 +4265,11 @@
       "tr": "a3bb231633fd1826",
       "by": "ai"
     },
+    "common.avatarAlt": {
+      "src": "ca8e826d9c2ec401",
+      "tr": "ca8e826d9c2ec401",
+      "by": "ai"
+    },
     "common.back": {
       "src": "76900f1bfd16c8d4",
       "tr": "548611ce58f71a17",
@@ -4533,6 +4538,16 @@
     "common.rateLimit.title": {
       "src": "06946279b9c4689f",
       "tr": "27e11aedd6e5a580",
+      "by": "ai"
+    },
+    "common.scrollLeft": {
+      "src": "35dfa1045cb22a38",
+      "tr": "80f6b0ba1df7f3c8",
+      "by": "ai"
+    },
+    "common.scrollRight": {
+      "src": "366bd578350ae272",
+      "tr": "7771df47722a9d3d",
       "by": "ai"
     },
     "common.scrollToTop": {
@@ -12645,6 +12660,61 @@
       "tr": "1c0e00be5cf09da5",
       "by": "ai"
     },
+    "flight.metadata.description": {
+      "src": "aebc1f5e4e1f2b52",
+      "tr": "b360ac5db9b679a8",
+      "by": "ai"
+    },
+    "flight.metadata.durationHoursMinutes": {
+      "src": "425dc6c72de6fdc5",
+      "tr": "cf8484035b7fa8c1",
+      "by": "ai"
+    },
+    "flight.metadata.durationMinutes": {
+      "src": "f7047179845887e8",
+      "tr": "e1bded87ee24b702",
+      "by": "ai"
+    },
+    "flight.metadata.fallbackDescription": {
+      "src": "afede21b1bc26e6d",
+      "tr": "cd01653ceba607f9",
+      "by": "ai"
+    },
+    "flight.metadata.fallbackTitle": {
+      "src": "cb27efe5e84ec02e",
+      "tr": "948168017c81bb14",
+      "by": "ai"
+    },
+    "flight.metadata.notFoundDescription": {
+      "src": "3493699bc1971e63",
+      "tr": "e8c6094eafe7a4ec",
+      "by": "ai"
+    },
+    "flight.metadata.notFoundTitle": {
+      "src": "b4ade9136f53889b",
+      "tr": "167b652b0c8e7bc3",
+      "by": "ai"
+    },
+    "flight.metadata.ogTitle": {
+      "src": "78759e2bca8c0671",
+      "tr": "78759e2bca8c0671",
+      "by": "ai"
+    },
+    "flight.metadata.title": {
+      "src": "5193d030160a8bf5",
+      "tr": "c6a6aa3d29442448",
+      "by": "ai"
+    },
+    "flight.metadata.unknownLocation": {
+      "src": "da03bf3b5441da17",
+      "tr": "84068b3722a03b46",
+      "by": "ai"
+    },
+    "flight.metadata.unknownPilot": {
+      "src": "8ec43857af1e1f1e",
+      "tr": "532b53f68c6c02ed",
+      "by": "ai"
+    },
     "flight.phases.float": {
       "src": "1a693c00c40cc749",
       "tr": "e29b4e102be87331",
@@ -17433,6 +17503,26 @@
     "flights.meta.title": {
       "src": "40a2abd4a94390a1",
       "tr": "82a8b5abec984218",
+      "by": "ai"
+    },
+    "flights.recap.description": {
+      "src": "a308e46030b74b45",
+      "tr": "e8700eb65c5c90cf",
+      "by": "ai"
+    },
+    "flights.recap.eyebrow": {
+      "src": "96195f3bf3117adc",
+      "tr": "46f6562db0a9068d",
+      "by": "ai"
+    },
+    "flights.recap.metaTitle": {
+      "src": "f59ea3cf65eac5e4",
+      "tr": "46f6562db0a9068d",
+      "by": "ai"
+    },
+    "flights.recap.title": {
+      "src": "e50945dbb69a7ad1",
+      "tr": "79c9e69c4988ec02",
       "by": "ai"
     },
     "flights.sharedLink.copied": {
@@ -35383,6 +35473,11 @@
     "17fb450fa77e": {
       "src": "17fb450fa77e1273",
       "tr": "c49ad7fdc68ca1f2",
+      "by": "ai"
+    },
+    "1efbe02163ca": {
+      "src": "1efbe02163ca0bca",
+      "tr": "84d40f444b037591",
       "by": "ai"
     },
     "282313d1711c": {

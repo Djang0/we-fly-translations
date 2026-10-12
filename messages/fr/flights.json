@@ -548,5 +548,11 @@
     "presetNotFound": "Filtre enregistré introuvable",
     "presetUpdateFailed": "Impossible de mettre à jour le filtre",
     "presetDeleteFailed": "Impossible de supprimer le filtre"
+  },
+  "recap": {
+    "metaTitle": "Bilan de saison",
+    "description": "Ta saison de parapente en un coup d’œil.",
+    "eyebrow": "Bilan de saison",
+    "title": "Saison {season}"
   }
 }

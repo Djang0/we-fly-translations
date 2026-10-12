@@ -548,5 +548,11 @@
     "presetNotFound": "Gespeicherter Filter nicht gefunden",
     "presetUpdateFailed": "Filter konnte nicht aktualisiert werden",
     "presetDeleteFailed": "Filter konnte nicht gelöscht werden"
+  },
+  "recap": {
+    "metaTitle": "Saisonrückblick",
+    "description": "Deine Gleitschirmsaison im Rückblick.",
+    "eyebrow": "Saisonrückblick",
+    "title": "Saison {season}"
   }
 }

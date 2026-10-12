@@ -579,5 +579,18 @@
     "loading": "Caricamento dell'anteprima della traccia",
     "unavailable": "Anteprima non disponibile",
     "none": "Nessuna anteprima della traccia disponibile"
+  },
+  "metadata": {
+    "notFoundTitle": "Volo non trovato",
+    "notFoundDescription": "Questo volo non esiste.",
+    "unknownPilot": "Pilota sconosciuto",
+    "unknownLocation": "Luogo sconosciuto",
+    "title": "Volo di {pilot} da {takeoff}",
+    "ogTitle": "{title} - We-Fly",
+    "description": "Volo, {date} • {distance} km • durata {duration}",
+    "durationHoursMinutes": "{hours}h {minutes}min",
+    "durationMinutes": "{minutes}min",
+    "fallbackTitle": "Dettagli del volo",
+    "fallbackDescription": "Guarda i dettagli e le analisi del volo"
   }
 }
