@@ -6,6 +6,7 @@
   },
   "hero": {
     "cta": {
+      "logbook": "Va dans ton carnet de vol",
       "passkey": "Se connecter avec une clé d’accès",
       "continue": "Connecte-toi pour continuer",
       "upload": "Importe ton premier vol"

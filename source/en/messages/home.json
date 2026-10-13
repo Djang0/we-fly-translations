@@ -6,6 +6,7 @@
   },
   "hero": {
     "cta": {
+      "logbook": "Go to your logbook",
       "passkey": "Sign in with a passkey",
       "continue": "Sign in to continue",
       "upload": "Upload your first flight"

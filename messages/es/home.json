@@ -6,6 +6,7 @@
   },
   "hero": {
     "cta": {
+      "logbook": "Ir a tu libro de vuelo",
       "passkey": "Iniciar sesión con llave de acceso",
       "continue": "Inicia sesión para continuar",
       "upload": "Sube tu primer vuelo"
@@ -163,7 +164,11 @@
     "eyebrow": "› Comunidad · últimos 7 días",
     "title": "<line>La clasificación</line>que <it>enciende</it> a tu club.",
     "lede": "Calculada solo con IGC validados, sin distancias declaradas a mano. Cada piloto aparece con el alias que elija.",
-    "tabs": { "xc": "Distancia XC", "climb": "Mejor ascenso", "triangle": "Triángulo FAI" },
+    "tabs": {
+      "xc": "Distancia XC",
+      "climb": "Mejor ascenso",
+      "triangle": "Triángulo FAI"
+    },
     "updated": "Actualizado hace {minutes} min · <live>en directo</live>",
     "columns": {
       "pilot": "Piloto",

@@ -6,6 +6,7 @@
   },
   "hero": {
     "cta": {
+      "logbook": "Naar je logboek",
       "passkey": "Inloggen met een passkey",
       "continue": "Log in om verder te gaan",
       "upload": "Upload je eerste vlucht"
@@ -163,7 +164,11 @@
     "eyebrow": "› Community · laatste 7 dagen",
     "title": "<line>De ranglijst</line>waar je club <it>over bekvecht</it>.",
     "lede": "Alleen berekend uit gevalideerde IGC-bestanden, geen zelf opgegeven afstanden. Piloten verschijnen met de naam die ze zelf kiezen.",
-    "tabs": { "xc": "XC-afstand", "climb": "Beste stijging", "triangle": "FAI-driehoek" },
+    "tabs": {
+      "xc": "XC-afstand",
+      "climb": "Beste stijging",
+      "triangle": "FAI-driehoek"
+    },
     "updated": "{minutes} min geleden bijgewerkt · <live>live</live>",
     "columns": {
       "pilot": "Piloot",

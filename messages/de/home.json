@@ -6,6 +6,7 @@
   },
   "hero": {
     "cta": {
+      "logbook": "Zu deinem Flugbuch",
       "passkey": "Mit Passkey anmelden",
       "continue": "Zum Weitermachen anmelden",
       "upload": "Lade deinen ersten Flug hoch"
@@ -163,7 +164,11 @@
     "eyebrow": "› Community · letzte 7 Tage",
     "title": "<line>Die Rangliste,</line>über die dein Verein <it>streitet</it>.",
     "lede": "Nur aus validierten IGC-Dateien berechnet, keine selbst gemeldeten Strecken. Piloten erscheinen unter dem Namen ihrer Wahl.",
-    "tabs": { "xc": "XC-Strecke", "climb": "Bestes Steigen", "triangle": "FAI-Dreieck" },
+    "tabs": {
+      "xc": "XC-Strecke",
+      "climb": "Bestes Steigen",
+      "triangle": "FAI-Dreieck"
+    },
     "updated": "Aktualisiert vor {minutes} min · <live>live</live>",
     "columns": {
       "pilot": "Pilot",
