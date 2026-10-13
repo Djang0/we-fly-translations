@@ -36833,7 +36833,13 @@
       "by": "ai"
     }
   },
-  "blog": {},
+  "blog": {
+    "20261013": {
+      "src": "fccbaf1efa00fce0",
+      "tr": "ecf9cd43d56686a7",
+      "by": "ai"
+    }
+  },
   "changelog": {
     "000eeac0d6cb": {
       "src": "000eeac0d6cbc412",
@@ -37008,6 +37014,11 @@
     "5a8d4e060cc9": {
       "src": "5a8d4e060cc932ce",
       "tr": "5f7841a1712de14f",
+      "by": "ai"
+    },
+    "5d346b75be92": {
+      "src": "5d346b75be920a85",
+      "tr": "2230f7bced59ad59",
       "by": "ai"
     },
     "5fbc1726c5bd": {
