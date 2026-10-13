@@ -4,7 +4,8 @@
     "greeting": "Bonjour {name},",
     "sentTo": "Envoyé à {email}",
     "tagline": "We&#8209;Fly : ton carnet de vol de parapente",
-    "fallbackLink": "Si le bouton ne marche pas, colle ce lien dans ton navigateur :"
+    "fallbackLink": "Si le bouton ne marche pas, colle ce lien dans ton navigateur :",
+    "followUs": "Suis We-Fly :"
   },
   "auth": {
     "securityEyebrow": "Sécurité du compte",

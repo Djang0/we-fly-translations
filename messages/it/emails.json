@@ -4,7 +4,8 @@
     "greeting": "Ciao {name},",
     "sentTo": "Inviata a {email}",
     "tagline": "We&#8209;Fly: il diario dei tuoi voli in parapendio",
-    "fallbackLink": "Se il pulsante non funziona, incolla questo indirizzo nel browser:"
+    "fallbackLink": "Se il pulsante non funziona, incolla questo indirizzo nel browser:",
+    "followUs": "Segui We-Fly:"
   },
   "auth": {
     "securityEyebrow": "Sicurezza dell’account",

@@ -4,7 +4,8 @@
     "greeting": "Hola, {name}:",
     "sentTo": "Enviado a {email}",
     "tagline": "We&#8209;Fly: registra tus vuelos de parapente",
-    "fallbackLink": "Si el botón no funciona, pega esto en tu navegador:"
+    "fallbackLink": "Si el botón no funciona, pega esto en tu navegador:",
+    "followUs": "Sigue a We-Fly:"
   },
   "auth": {
     "securityEyebrow": "Seguridad de la cuenta",

@@ -4,7 +4,8 @@
     "greeting": "Hoi {name},",
     "sentTo": "Verstuurd naar {email}",
     "tagline": "We&#8209;Fly: houd je paraglidingvluchten bij",
-    "fallbackLink": "Werkt de knop niet? Plak dit in je browser:"
+    "fallbackLink": "Werkt de knop niet? Plak dit in je browser:",
+    "followUs": "Volg We-Fly:"
   },
   "auth": {
     "securityEyebrow": "Accountbeveiliging",

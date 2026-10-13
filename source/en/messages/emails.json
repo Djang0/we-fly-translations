@@ -4,7 +4,8 @@
     "greeting": "Hi {name},",
     "sentTo": "Sent to {email}",
     "tagline": "We&#8209;Fly: track your paragliding flights",
-    "fallbackLink": "If the button doesn&#39;t work, paste this into your browser:"
+    "fallbackLink": "If the button doesn&#39;t work, paste this into your browser:",
+    "followUs": "Follow We-Fly:"
   },
   "auth": {
     "securityEyebrow": "Account security",

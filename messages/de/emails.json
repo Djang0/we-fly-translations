@@ -4,7 +4,8 @@
     "greeting": "Hallo {name},",
     "sentTo": "Gesendet an {email}",
     "tagline": "We&#8209;Fly: dein Flugbuch fürs Gleitschirmfliegen",
-    "fallbackLink": "Falls der Button nicht funktioniert, kopiere diesen Link in deinen Browser:"
+    "fallbackLink": "Falls der Button nicht funktioniert, kopiere diesen Link in deinen Browser:",
+    "followUs": "Folge We-Fly:"
   },
   "auth": {
     "securityEyebrow": "Kontosicherheit",
