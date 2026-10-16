@@ -37,7 +37,22 @@
     "download": "Download OpenAir file",
     "selectFirst": "Select at least one airspace or NOTAM first (steps 2 and 3).",
     "exported": "Exported {count, plural, one {# zone} other {# zones}} as OpenAir {version}.",
-    "exportFailed": "Could not build the OpenAir file. Please try again."
+    "exportFailed": "Could not build the OpenAir file. Please try again.",
+    "save": "Save to my account",
+    "saving": "Saving…",
+    "saveHint": "Kept for {days, plural, one {# day} other {# days}} under the name above, then deleted. Instruments and apps connected to your account can download it.",
+    "signInToSave": "Sign in to save this file to your account for {days, plural, one {# day} other {# days}}.",
+    "savedToast": "Saved \"{name}\". It stays available for {days, plural, one {# day} other {# days}}.",
+    "saved": {
+      "title": "Saved files",
+      "loading": "Loading your saved files…",
+      "meta": "OpenAir {version} · {count, plural, one {# zone} other {# zones}} · expires {expires}",
+      "download": "Download {name}",
+      "delete": "Delete {name}",
+      "deleted": "Deleted \"{name}\".",
+      "apiHint": "Connected tools fetch these files through the <link>We-Fly API</link>."
+    },
+    "consentToSave": "Finish setting up your account (privacy consent) to save files."
   },
   "weather": {
     "title": "Weather",

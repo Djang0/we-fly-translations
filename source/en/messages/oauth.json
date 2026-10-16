@@ -98,7 +98,7 @@
     },
     "airspaceRead": {
       "label": "Read airspace data",
-      "description": "Download airspace regions and temporary activations for offline use."
+      "description": "Download airspace regions, temporary activations and the OpenAir files you saved in the XC planner, for offline use."
     },
     "liveWrite": {
       "label": "Report your position and raise alerts",

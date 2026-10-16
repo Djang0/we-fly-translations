@@ -283,6 +283,21 @@
       "invalidRadius": "The radius of turnpoint \"{name}\" must be between 1 and {max} m.",
       "invalidTime": "A start gate or deadline time is invalid.",
       "invalidStructure": "This task is incomplete or not structured as expected."
+    },
+    "airspaceFile": {
+      "signIn": "Sign in to save airspace files.",
+      "invalidName": "Give the file a name first.",
+      "invalidVersion": "Pick OpenAir v1 or v2.1.",
+      "invalidDate": "The flight date is not valid.",
+      "empty": "The file is empty. Select at least one airspace or NOTAM first.",
+      "tooLarge": "The file is too large to save ({size} at most).",
+      "invalidContent": "The file holds no readable airspace.",
+      "tooMany": "You already have {max} saved files. Delete one, or wait for the oldest to expire.",
+      "saveFailed": "Could not save the file. Please try again.",
+      "loadFailed": "Could not load your saved files.",
+      "deleteFailed": "Could not delete the file. Please try again.",
+      "notFound": "That file no longer exists. It may have expired.",
+      "consentRequired": "Finish setting up your account (privacy consent) to save files."
     }
   }
 }

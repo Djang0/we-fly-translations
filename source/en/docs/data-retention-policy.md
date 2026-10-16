@@ -152,6 +152,21 @@ This policy applies to all personal data collected, processed, and stored by We-
 
 **Important:** Users requesting immediate and complete data erasure should be informed that deleted data may remain in backups for up to 7 days. After this period, the data is permanently unrecoverable.
 
+### 2.9 Saved Airspace Files
+
+**Retention Period:** 30 days from the moment you save the file
+
+**Legal Basis:** Contract performance (the planning service you asked for)
+
+**Description:** At the end of the XC planner you can save the OpenAir airspace file you built under a name of your choice. It is private to you, and the apps and instruments you connected to your account with the airspace permission can download it.
+
+**Automated Deletion:** Each file is deleted automatically 30 days after it was saved, and is no longer served from that moment on. You can delete it earlier from the planner. Deleting your account deletes all of them.
+
+**Data Included:**
+- The file name you chose and the planned flight date
+- The OpenAir text (the airspaces and NOTAMs you picked)
+- The OpenAir version, size and when it was saved
+
 ## 3. Deletion Procedures
 
 ### 3.1 User-Initiated Account Deletion
