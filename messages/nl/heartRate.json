@@ -1,0 +1,53 @@
+{
+  "bpm": "bpm",
+  "tab": {
+    "noDataTitle": "Geen hartslag bij deze vlucht",
+    "noDataBody": "Je hartslag verschijnt hier als je vliegapp hem via een borstband in het IGC-bestand opneemt.",
+    "loadFailedTitle": "Kon je hartslag niet lezen",
+    "loadFailedBody": "We-Fly leest hem uit je IGC-bestand telkens als je dit tabblad opent. Probeer het zo meteen opnieuw."
+  },
+  "hero": {
+    "title": "Hartslag",
+    "private": "Alleen jij",
+    "coverage": "{percent}% van de vlucht gemeten",
+    "average": "Gemiddeld",
+    "averageSub": "mediaan {value} bpm",
+    "peak": "Piek",
+    "peakSub": "om {time} UTC",
+    "peakSubAltitude": "om {time} UTC, {altitude}",
+    "lowest": "Laagst",
+    "lowestSub": "bereik {value} bpm",
+    "takeoffLanding": "Start → landing",
+    "takeoffLandingValue": "{takeoff} → {landing}",
+    "takeoffLandingSub": "eerste en laatste 2 minuten"
+  },
+  "timeline": {
+    "title": "Hartslag tijdens de vlucht",
+    "description": "Je hartslag tegenover je hoogte. De stippellijn is je gemiddelde over de hele vlucht.",
+    "empty": "Geen hartslagmetingen tijdens de vlucht.",
+    "bpm": "Hartslag",
+    "altitude": "Hoogte"
+  },
+  "distribution": {
+    "title": "Tijd per hartslagzone",
+    "description": "Minuten vliegtijd in elke zone van 10 bpm.",
+    "empty": "Geen hartslagmetingen tijdens de vlucht.",
+    "minutes": "Minuten",
+    "band": "{range} bpm",
+    "minutesValue": "{value} min"
+  },
+  "phases": {
+    "title": "Per vluchtfase",
+    "description": "Gemiddelde hartslag per fase, met het verschil met je vluchtgemiddelde. De balken beginnen bij {floor} bpm.",
+    "empty": "In geen enkele vluchtfase genoeg hartslagmetingen.",
+    "bpm": "bpm",
+    "meta": "{minutes} min · {delta} t.o.v. gem.",
+    "name": {
+      "thermal": "Thermieken",
+      "glide": "Glijden",
+      "search": "Zoeken",
+      "float": "Zweven"
+    }
+  },
+  "privacy": "Hartslag valt onder gezondheidsgegevens. We-Fly leest hem uit je IGC-bestand als je dit tabblad opent en bewaart er niets van. Iedereen anders die het bestand van deze vlucht downloadt, via een gedeelde link of de community, krijgt het zonder je hartslag."
+}

@@ -43,7 +43,9 @@
       "trackSpeed": "Track-Geschwindigkeit",
       "scoringSpeed": "Wertungsgeschwindigkeit",
       "routeEfficiency": "Routeneffizienz",
-      "validation": "FAI-gültig"
+      "validation": "FAI-gültig",
+      "hasVectorVario": "Vector-Vario-Daten",
+      "hasHeartRate": "Herzfrequenzdaten"
     },
     "header": {
       "date": "Datum",
@@ -71,19 +73,29 @@
       "trackSpeed": "Track-Geschw.",
       "scoringSpeed": "Wertungsgeschw.",
       "routeEfficiency": "Routeneffizienz",
-      "validation": "FAI-gültig"
+      "validation": "FAI-gültig",
+      "hasVectorVario": "Vector Vario",
+      "hasHeartRate": "Herzfrequenz"
     },
     "hint": {
       "qualityVsAvg": "Wie die Qualität dieses Flugs im Vergleich zu deinem Median über alle Flüge abschneidet.",
       "qualityDeviation": "Standardabweichung der Qualitätswerte der Bärte in diesem Flug. Niedriger = gleichmäßigeres Steigen.",
-      "routeEfficiency": "Verhältnis von Wertungsdistanz zur gesamten Tracklänge. Aussagekräftiger bei Streckenflügen."
+      "routeEfficiency": "Verhältnis von Wertungsdistanz zur gesamten Tracklänge. Aussagekräftiger bei Streckenflügen.",
+      "hasVectorVario": "Flüge, deren Datei Vector-Vario-Daten enthält: Fahrt, Fluglage, gemessener Wind. Aufgezeichnet vom Vector Vario selbst oder von einer damit gekoppelten App.",
+      "hasHeartRate": "Flüge, deren Datei deine Herzfrequenz von einem Brustgurt enthält. Nur du siehst sie."
     },
     "selectAll": "Alle auswählen",
     "selectRow": "Zeile auswählen",
     "gpsCorruption": "GPS-Fehler erkannt",
     "gpsCorruptionHint": "Die IGC-Datei enthält fehlerhafte GPS-Daten. Wertungsdistanz und Tracklänge sind möglicherweise ungenau.",
     "previewHint": "Mit der Maus darüberfahren für eine Vorschau des Tracks",
-    "lifetimeMedian": "Median über alle Flüge: {value}"
+    "lifetimeMedian": "Median über alle Flüge: {value}",
+    "sensor": {
+      "vectorVarioYes": "Vector-Vario-Daten",
+      "vectorVarioNo": "Keine Vector-Vario-Daten",
+      "heartRateYes": "Herzfrequenz aufgezeichnet",
+      "heartRateNo": "Keine Herzfrequenz"
+    }
   },
   "launchType": {
     "Self": "Eigenstart",
@@ -205,7 +217,9 @@
       "thermals": "Bärte",
       "quality": "Qualität",
       "vsAvg": "Ggü. deinem Ø",
-      "efficiency": "Effizienz"
+      "efficiency": "Effizienz",
+      "vectorVario": "Vector-Vario-Daten",
+      "heartRate": "Herzfrequenzdaten"
     },
     "option": {
       "date": "Datum",

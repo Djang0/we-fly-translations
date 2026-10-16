@@ -1,7 +1,7 @@
 {
   "tab": {
     "noDataTitle": "Keine Vector-Vario-Daten",
-    "noDataBody": "Dieser Flug wurde mit einem normalen IGC-Logger aufgezeichnet. Vector-Vario-Daten (sekündliche Fahrt, Lastvielfaches, Fluglage, Netto usw.) erscheinen hier, wenn die IGC-Datei LXVV-Datensätze enthält.",
+    "noDataBody": "Dieser Flug wurde ohne Vector Vario aufgezeichnet. Seine Daten (sekündliche Fahrt, Lastvielfaches, Fluglage, Netto usw.) erscheinen hier, wenn die IGC-Datei sie enthält, egal ob das Vector Vario selbst die Datei geschrieben hat oder eine damit gekoppelte Navigations-App.",
     "loadFailedTitle": "Vector-Vario-Messwerte konnten nicht geladen werden",
     "loadFailedBody": "{message}. Die Zusammenfassung oben stammt aus dem Flugdokument und bleibt korrekt; nur die sekündlichen Diagramme hängen von der Zusatzdatei ab.",
     "unknownError": "Unbekannter Fehler"

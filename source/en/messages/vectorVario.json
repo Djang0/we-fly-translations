@@ -1,7 +1,7 @@
 {
   "tab": {
     "noDataTitle": "No Vector Vario data",
-    "noDataBody": "This flight was recorded with a standard IGC logger. Vector Vario data (per-second airspeed, load factor, attitude, netto, etc.) appears here when the IGC contains LXVV records.",
+    "noDataBody": "This flight was recorded without a Vector Vario. Its data (per-second airspeed, load factor, attitude, netto, etc.) appears here when the IGC carries it, whether the Vector wrote the file or a navigation app paired with it did.",
     "loadFailedTitle": "Couldn't load Vector Vario samples",
     "loadFailedBody": "{message}. The summary above is from the flight document and stays accurate; only the per-second charts depend on the sidecar.",
     "unknownError": "Unknown error"

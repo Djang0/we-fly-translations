@@ -43,7 +43,9 @@
       "trackSpeed": "Velocità sulla traccia",
       "scoringSpeed": "Velocità valida",
       "routeEfficiency": "Rendimento del percorso",
-      "validation": "Valido FAI"
+      "validation": "Valido FAI",
+      "hasVectorVario": "Dati Vector Vario",
+      "hasHeartRate": "Dati frequenza cardiaca"
     },
     "header": {
       "date": "Data",
@@ -71,19 +73,29 @@
       "trackSpeed": "Vel. traccia",
       "scoringSpeed": "Vel. valida",
       "routeEfficiency": "Rendimento percorso",
-      "validation": "Valido FAI"
+      "validation": "Valido FAI",
+      "hasVectorVario": "Vector Vario",
+      "hasHeartRate": "Freq. cardiaca"
     },
     "hint": {
       "qualityVsAvg": "Come si confronta la qualità di questo volo con la tua mediana di sempre.",
       "qualityDeviation": "Deviazione standard dei punteggi di qualità delle termiche di questo volo. Più bassa = salite più costanti.",
-      "routeEfficiency": "Rapporto tra distanza valida e lunghezza totale della traccia. Più significativo per i voli di distanza."
+      "routeEfficiency": "Rapporto tra distanza valida e lunghezza totale della traccia. Più significativo per i voli di distanza.",
+      "hasVectorVario": "Voli il cui file contiene dati Vector Vario: velocità all'aria, assetto, vento misurato. Registrati dal Vector stesso o da un'app abbinata.",
+      "hasHeartRate": "Voli il cui file contiene la tua frequenza cardiaca da una fascia cardio. La vedi solo tu."
     },
     "selectAll": "Seleziona tutto",
     "selectRow": "Seleziona riga",
     "gpsCorruption": "GPS corrotto rilevato",
     "gpsCorruptionHint": "Il file IGC contiene dati GPS corrotti. Distanza valida e lunghezza della traccia potrebbero non essere affidabili.",
     "previewHint": "Passa sopra per vedere l'anteprima della traccia",
-    "lifetimeMedian": "Mediana di sempre: {value}"
+    "lifetimeMedian": "Mediana di sempre: {value}",
+    "sensor": {
+      "vectorVarioYes": "Dati Vector Vario",
+      "vectorVarioNo": "Nessun dato Vector Vario",
+      "heartRateYes": "Frequenza cardiaca registrata",
+      "heartRateNo": "Nessuna frequenza cardiaca"
+    }
   },
   "launchType": {
     "Self": "A piedi",
@@ -205,7 +217,9 @@
       "thermals": "termiche",
       "quality": "qualità",
       "vsAvg": "vs tua media",
-      "efficiency": "rendimento"
+      "efficiency": "rendimento",
+      "vectorVario": "dati Vector Vario",
+      "heartRate": "dati frequenza cardiaca"
     },
     "option": {
       "date": "Data",

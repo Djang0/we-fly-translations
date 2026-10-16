@@ -1,0 +1,53 @@
+{
+  "bpm": "bpm",
+  "tab": {
+    "noDataTitle": "Nessuna frequenza cardiaca in questo volo",
+    "noDataBody": "La frequenza cardiaca compare qui quando la tua app di volo la registra da una fascia cardio nel file IGC.",
+    "loadFailedTitle": "Non riusciamo a leggere la tua frequenza cardiaca",
+    "loadFailedBody": "We-Fly la legge dal tuo file IGC ogni volta che apri questa scheda. Riprova tra un attimo."
+  },
+  "hero": {
+    "title": "Frequenza cardiaca",
+    "private": "Solo tu",
+    "coverage": "{percent}% del volo coperto",
+    "average": "Media",
+    "averageSub": "mediana {value} bpm",
+    "peak": "Picco",
+    "peakSub": "alle {time} UTC",
+    "peakSubAltitude": "alle {time} UTC, a {altitude}",
+    "lowest": "Minima",
+    "lowestSub": "intervallo {value} bpm",
+    "takeoffLanding": "Decollo → atterraggio",
+    "takeoffLandingValue": "{takeoff} → {landing}",
+    "takeoffLandingSub": "primi e ultimi 2 minuti"
+  },
+  "timeline": {
+    "title": "Frequenza cardiaca durante il volo",
+    "description": "Il tuo battito confrontato con la quota. La linea tratteggiata è la tua media del volo.",
+    "empty": "Nessun dato di frequenza cardiaca durante il volo.",
+    "bpm": "Frequenza cardiaca",
+    "altitude": "Quota"
+  },
+  "distribution": {
+    "title": "Tempo in ogni fascia di frequenza",
+    "description": "Minuti di volo passati in ogni fascia da 10 bpm.",
+    "empty": "Nessun dato di frequenza cardiaca durante il volo.",
+    "minutes": "Minuti",
+    "band": "{range} bpm",
+    "minutesValue": "{value} min"
+  },
+  "phases": {
+    "title": "Per fase di volo",
+    "description": "Frequenza cardiaca media in ogni fase, con lo scarto rispetto alla tua media del volo. Le barre partono da {floor} bpm.",
+    "empty": "Nessuna fase di volo ha abbastanza dati di frequenza cardiaca.",
+    "bpm": "bpm",
+    "meta": "{minutes} min · {delta} vs media",
+    "name": {
+      "thermal": "In termica",
+      "glide": "In planata",
+      "search": "In ricerca",
+      "float": "In galleggiamento"
+    }
+  },
+  "privacy": "La frequenza cardiaca è un dato sanitario. We-Fly la legge dal tuo file IGC quando apri questa scheda e non ne salva nulla. Chiunque altro scarichi il file di questo volo, da un link condiviso o dalla community, lo riceve senza la tua frequenza cardiaca."
+}

@@ -1,0 +1,53 @@
+{
+  "bpm": "bpm",
+  "tab": {
+    "noDataTitle": "No heart rate on this flight",
+    "noDataBody": "Heart rate appears here when your flight app records it from a chest strap into the IGC file.",
+    "loadFailedTitle": "Couldn't read your heart rate",
+    "loadFailedBody": "We-Fly reads it from your IGC file each time you open this tab. Try again in a moment."
+  },
+  "hero": {
+    "title": "Heart rate",
+    "private": "Only you",
+    "coverage": "{percent}% of the flight covered",
+    "average": "Average",
+    "averageSub": "median {value} bpm",
+    "peak": "Peak",
+    "peakSub": "at {time} UTC",
+    "peakSubAltitude": "at {time} UTC, {altitude}",
+    "lowest": "Lowest",
+    "lowestSub": "range {value} bpm",
+    "takeoffLanding": "Takeoff → landing",
+    "takeoffLandingValue": "{takeoff} → {landing}",
+    "takeoffLandingSub": "first and last 2 minutes"
+  },
+  "timeline": {
+    "title": "Heart rate over the flight",
+    "description": "Your pulse against your altitude. The dashed line is your average for the flight.",
+    "empty": "No heart-rate readings during the flight.",
+    "bpm": "Heart rate",
+    "altitude": "Altitude"
+  },
+  "distribution": {
+    "title": "Time in each heart-rate band",
+    "description": "Minutes of flight spent in each 10 bpm band.",
+    "empty": "No heart-rate readings during the flight.",
+    "minutes": "Minutes",
+    "band": "{range} bpm",
+    "minutesValue": "{value} min"
+  },
+  "phases": {
+    "title": "By flight phase",
+    "description": "Average heart rate in each phase, with its gap to your flight average. Bars start at {floor} bpm.",
+    "empty": "Not enough heart-rate readings in any one flight phase.",
+    "bpm": "bpm",
+    "meta": "{minutes} min · {delta} vs avg",
+    "name": {
+      "thermal": "Thermalling",
+      "glide": "Gliding",
+      "search": "Searching",
+      "float": "Floating"
+    }
+  },
+  "privacy": "Heart rate is health data. We-Fly reads it from your IGC file when you open this tab and stores none of it. Anyone else who downloads this flight's file, from a shared link or the community, gets it without your heart rate."
+}

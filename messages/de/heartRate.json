@@ -1,0 +1,53 @@
+{
+  "bpm": "bpm",
+  "tab": {
+    "noDataTitle": "Keine Herzfrequenz in diesem Flug",
+    "noDataBody": "Die Herzfrequenz erscheint hier, wenn deine Flug-App sie von einem Brustgurt in die IGC-Datei schreibt.",
+    "loadFailedTitle": "Deine Herzfrequenz konnte nicht gelesen werden",
+    "loadFailedBody": "We-Fly liest sie bei jedem Öffnen dieses Tabs aus deiner IGC-Datei. Versuch es gleich noch mal."
+  },
+  "hero": {
+    "title": "Herzfrequenz",
+    "private": "Nur für dich",
+    "coverage": "{percent} % des Flugs erfasst",
+    "average": "Durchschnitt",
+    "averageSub": "Median {value} bpm",
+    "peak": "Maximum",
+    "peakSub": "um {time} UTC",
+    "peakSubAltitude": "um {time} UTC, auf {altitude}",
+    "lowest": "Minimum",
+    "lowestSub": "Spanne {value} bpm",
+    "takeoffLanding": "Start → Landung",
+    "takeoffLandingValue": "{takeoff} → {landing}",
+    "takeoffLandingSub": "erste und letzte 2 Minuten"
+  },
+  "timeline": {
+    "title": "Herzfrequenz im Flugverlauf",
+    "description": "Dein Puls neben deiner Höhe. Die gestrichelte Linie ist dein Durchschnitt für diesen Flug.",
+    "empty": "Keine Herzfrequenzwerte während des Flugs.",
+    "bpm": "Herzfrequenz",
+    "altitude": "Höhe"
+  },
+  "distribution": {
+    "title": "Zeit pro Pulsbereich",
+    "description": "Flugminuten in jedem 10-bpm-Bereich.",
+    "empty": "Keine Herzfrequenzwerte während des Flugs.",
+    "minutes": "Minuten",
+    "band": "{range} bpm",
+    "minutesValue": "{value} min"
+  },
+  "phases": {
+    "title": "Nach Flugphase",
+    "description": "Durchschnittliche Herzfrequenz in jeder Phase und ihre Abweichung von deinem Flugdurchschnitt. Die Balken beginnen bei {floor} bpm.",
+    "empty": "In keiner Flugphase genug Herzfrequenzwerte.",
+    "bpm": "bpm",
+    "meta": "{minutes} min · {delta} ggü. Ø",
+    "name": {
+      "thermal": "Kurbeln",
+      "glide": "Gleitflug",
+      "search": "Suchen",
+      "float": "Schweben"
+    }
+  },
+  "privacy": "Die Herzfrequenz gehört zu deinen Gesundheitsdaten. We-Fly liest sie beim Öffnen dieses Tabs aus deiner IGC-Datei und speichert nichts davon. Wer sonst die Datei dieses Flugs herunterlädt, über einen geteilten Link oder in der Community, bekommt sie ohne deine Herzfrequenz."
+}

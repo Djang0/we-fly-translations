@@ -1,7 +1,7 @@
 {
   "tab": {
     "noDataTitle": "Geen Vector Vario-gegevens",
-    "noDataBody": "Deze vlucht is opgenomen met een standaard IGC-logger. Vector Vario-gegevens (luchtsnelheid per seconde, belastingsfactor, stand, netto, enz.) verschijnen hier wanneer het IGC-bestand LXVV-records bevat.",
+    "noDataBody": "Deze vlucht is opgenomen zonder Vector Vario. De gegevens ervan (luchtsnelheid per seconde, belastingsfactor, stand, netto, enz.) verschijnen hier als het IGC-bestand ze bevat, of de Vector het bestand nu zelf schreef of een navigatie-app die eraan gekoppeld was.",
     "loadFailedTitle": "Kon de Vector Vario-samples niet laden",
     "loadFailedBody": "{message}. Het overzicht hierboven komt uit het vluchtdocument en blijft correct; alleen de grafieken per seconde hangen af van het sidecar-bestand.",
     "unknownError": "Onbekende fout"

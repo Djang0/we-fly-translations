@@ -43,7 +43,9 @@
       "trackSpeed": "Vitesse sur la trace",
       "scoringSpeed": "Vitesse au score",
       "routeEfficiency": "Efficacité du parcours",
-      "validation": "Validé FAI"
+      "validation": "Validé FAI",
+      "hasVectorVario": "Données Vector Vario",
+      "hasHeartRate": "Fréquence cardiaque"
     },
     "header": {
       "date": "Date",
@@ -71,19 +73,29 @@
       "trackSpeed": "Vit. trace",
       "scoringSpeed": "Vit. au score",
       "routeEfficiency": "Efficacité parcours",
-      "validation": "Validé FAI"
+      "validation": "Validé FAI",
+      "hasVectorVario": "Vector Vario",
+      "hasHeartRate": "Fréq. cardiaque"
     },
     "hint": {
       "qualityVsAvg": "La qualité de ce vol comparée à ta médiane sur l’ensemble de tes vols.",
       "qualityDeviation": "Écart type des notes de qualité des thermiques de ce vol. Plus c’est bas, plus tes montées sont régulières.",
-      "routeEfficiency": "Rapport entre la distance au score et la longueur totale de la trace. Plus parlant pour les vols de cross."
+      "routeEfficiency": "Rapport entre la distance au score et la longueur totale de la trace. Plus parlant pour les vols de cross.",
+      "hasVectorVario": "Vols dont le fichier contient des données Vector Vario : vitesse air, assiette, vent mesuré. Enregistrées par le Vector lui-même ou par une appli couplée avec lui.",
+      "hasHeartRate": "Vols dont le fichier contient ta fréquence cardiaque, mesurée par une ceinture cardio. Toi seul peux la voir."
     },
     "selectAll": "Tout sélectionner",
     "selectRow": "Sélectionner la ligne",
     "gpsCorruption": "GPS corrompu détecté",
     "gpsCorruptionHint": "Le fichier IGC contient des points GPS corrompus. La distance au score et la longueur de la trace peuvent être faussées.",
     "previewHint": "Survole pour prévisualiser la trace du vol",
-    "lifetimeMedian": "Médiane sur tous tes vols : {value}"
+    "lifetimeMedian": "Médiane sur tous tes vols : {value}",
+    "sensor": {
+      "vectorVarioYes": "Données Vector Vario",
+      "vectorVarioNo": "Pas de données Vector Vario",
+      "heartRateYes": "Fréquence cardiaque enregistrée",
+      "heartRateNo": "Pas de fréquence cardiaque"
+    }
   },
   "launchType": {
     "Self": "À pied",
@@ -205,7 +217,9 @@
       "thermals": "thermiques",
       "quality": "qualité",
       "vsAvg": "vs ta moyenne",
-      "efficiency": "efficacité"
+      "efficiency": "efficacité",
+      "vectorVario": "données Vector Vario",
+      "heartRate": "fréquence cardiaque"
     },
     "option": {
       "date": "Date",

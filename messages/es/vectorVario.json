@@ -1,7 +1,7 @@
 {
   "tab": {
     "noDataTitle": "Sin datos de Vector Vario",
-    "noDataBody": "Este vuelo se grabó con un registrador IGC estándar. Los datos de Vector Vario (velocidad aire, factor de carga, actitud, netto, etc. segundo a segundo) aparecen aquí cuando el IGC contiene registros LXVV.",
+    "noDataBody": "Este vuelo se grabó sin Vector Vario. Sus datos (velocidad aire, factor de carga, actitud, netto, etc. segundo a segundo) aparecen aquí cuando el IGC los contiene, tanto si el archivo lo escribió el Vector como una app de navegación emparejada con él.",
     "loadFailedTitle": "No se pudieron cargar las muestras de Vector Vario",
     "loadFailedBody": "{message}. El resumen de arriba sale del documento del vuelo y sigue siendo correcto; solo los gráficos segundo a segundo dependen del archivo complementario.",
     "unknownError": "Error desconocido"

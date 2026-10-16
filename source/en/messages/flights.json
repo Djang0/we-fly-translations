@@ -43,7 +43,9 @@
       "trackSpeed": "Track speed",
       "scoringSpeed": "Scoring speed",
       "routeEfficiency": "Route efficiency",
-      "validation": "FAI valid"
+      "validation": "FAI valid",
+      "hasVectorVario": "Vector Vario data",
+      "hasHeartRate": "Heart rate data"
     },
     "header": {
       "date": "Date",
@@ -71,19 +73,29 @@
       "trackSpeed": "Track Speed",
       "scoringSpeed": "Scoring Speed",
       "routeEfficiency": "Route Efficiency",
-      "validation": "FAI Valid"
+      "validation": "FAI Valid",
+      "hasVectorVario": "Vector Vario",
+      "hasHeartRate": "Heart rate"
     },
     "hint": {
       "qualityVsAvg": "How this flight's quality compares to your lifetime median.",
       "qualityDeviation": "Standard deviation of the quality scores of the thermals within this flight. Lower = more consistent climbs.",
-      "routeEfficiency": "Ratio of scoring distance to total track distance. More meaningful for cross-country flights."
+      "routeEfficiency": "Ratio of scoring distance to total track distance. More meaningful for cross-country flights.",
+      "hasVectorVario": "Flights whose file carries Vector Vario data: airspeed, attitude, measured wind. Recorded by the Vector itself or by an app paired with it.",
+      "hasHeartRate": "Flights whose file carries your heart rate from a chest strap. Only you can see it."
     },
     "selectAll": "Select all",
     "selectRow": "Select row",
     "gpsCorruption": "GPS corruption detected",
     "gpsCorruptionHint": "IGC file contains GPS corruption. Scored distance and track length may be unreliable.",
     "previewHint": "Hover to preview the flight trace",
-    "lifetimeMedian": "Lifetime median: {value}"
+    "lifetimeMedian": "Lifetime median: {value}",
+    "sensor": {
+      "vectorVarioYes": "Vector Vario data",
+      "vectorVarioNo": "No Vector Vario data",
+      "heartRateYes": "Heart rate recorded",
+      "heartRateNo": "No heart rate"
+    }
   },
   "launchType": {
     "Self": "Self",
@@ -205,7 +217,9 @@
       "thermals": "thermals",
       "quality": "quality",
       "vsAvg": "Vs Your Avg",
-      "efficiency": "efficiency"
+      "efficiency": "efficiency",
+      "vectorVario": "Vector Vario data",
+      "heartRate": "heart rate data"
     },
     "option": {
       "date": "Date",

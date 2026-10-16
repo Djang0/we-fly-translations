@@ -1,0 +1,53 @@
+{
+  "bpm": "bpm",
+  "tab": {
+    "noDataTitle": "Pas de fréquence cardiaque sur ce vol",
+    "noDataBody": "La fréquence cardiaque s’affiche ici quand ton appli de vol l’enregistre dans le fichier IGC, depuis une ceinture cardio.",
+    "loadFailedTitle": "Impossible de lire ta fréquence cardiaque",
+    "loadFailedBody": "We-Fly la lit dans ton fichier IGC à chaque fois que tu ouvres cet onglet. Réessaie dans un instant."
+  },
+  "hero": {
+    "title": "Fréquence cardiaque",
+    "private": "Toi seul",
+    "coverage": "{percent}% du vol couvert",
+    "average": "Moyenne",
+    "averageSub": "médiane {value} bpm",
+    "peak": "Pic",
+    "peakSub": "à {time} UTC",
+    "peakSubAltitude": "à {time} UTC, {altitude}",
+    "lowest": "Minimum",
+    "lowestSub": "plage {value} bpm",
+    "takeoffLanding": "Décollage → atterrissage",
+    "takeoffLandingValue": "{takeoff} → {landing}",
+    "takeoffLandingSub": "2 premières et 2 dernières minutes"
+  },
+  "timeline": {
+    "title": "Fréquence cardiaque au fil du vol",
+    "description": "Ton pouls face à ton altitude. La ligne pointillée, c’est ta moyenne sur le vol.",
+    "empty": "Aucune mesure de fréquence cardiaque pendant le vol.",
+    "bpm": "Fréquence cardiaque",
+    "altitude": "Altitude"
+  },
+  "distribution": {
+    "title": "Temps passé dans chaque tranche de fréquence cardiaque",
+    "description": "Minutes de vol passées dans chaque tranche de 10 bpm.",
+    "empty": "Aucune mesure de fréquence cardiaque pendant le vol.",
+    "minutes": "Minutes",
+    "band": "{range} bpm",
+    "minutesValue": "{value} min"
+  },
+  "phases": {
+    "title": "Par phase de vol",
+    "description": "Fréquence cardiaque moyenne dans chaque phase, avec l’écart à ta moyenne du vol. Les barres partent de {floor} bpm.",
+    "empty": "Pas assez de mesures de fréquence cardiaque dans une même phase de vol.",
+    "bpm": "bpm",
+    "meta": "{minutes} min · {delta} vs moy.",
+    "name": {
+      "thermal": "Enroulement",
+      "glide": "Transition",
+      "search": "Recherche",
+      "float": "Flottement"
+    }
+  },
+  "privacy": "La fréquence cardiaque est une donnée de santé. We-Fly la lit dans ton fichier IGC quand tu ouvres cet onglet et n’en garde rien. Toute autre personne qui télécharge le fichier de ce vol, depuis un lien partagé ou la communauté, le reçoit sans ta fréquence cardiaque."
+}

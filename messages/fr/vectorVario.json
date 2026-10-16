@@ -1,7 +1,7 @@
 {
   "tab": {
     "noDataTitle": "Pas de données Vector Vario",
-    "noDataBody": "Ce vol a été enregistré avec un enregistreur IGC classique. Les données Vector Vario (vitesse air, facteur de charge, assiette, netto, etc. à la seconde) s’affichent ici quand l’IGC contient des enregistrements LXVV.",
+    "noDataBody": "Ce vol a été enregistré sans Vector Vario. Ses données (vitesse air, facteur de charge, assiette, netto, etc. à la seconde) s’affichent ici quand l’IGC les contient, que le fichier vienne du Vector lui-même ou d’une appli de navigation couplée avec lui.",
     "loadFailedTitle": "Impossible de charger les échantillons Vector Vario",
     "loadFailedBody": "{message}. Le résumé ci-dessus vient de la fiche du vol et reste juste ; seuls les graphiques à la seconde dépendent du fichier annexe.",
     "unknownError": "Erreur inconnue"

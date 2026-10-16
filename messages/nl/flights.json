@@ -43,7 +43,9 @@
       "trackSpeed": "Tracksnelheid",
       "scoringSpeed": "Scoresnelheid",
       "routeEfficiency": "Route-efficiëntie",
-      "validation": "FAI-geldig"
+      "validation": "FAI-geldig",
+      "hasVectorVario": "Vector Vario-gegevens",
+      "hasHeartRate": "Hartslaggegevens"
     },
     "header": {
       "date": "Datum",
@@ -71,19 +73,29 @@
       "trackSpeed": "Tracksnelheid",
       "scoringSpeed": "Scoresnelheid",
       "routeEfficiency": "Route-efficiëntie",
-      "validation": "FAI-geldig"
+      "validation": "FAI-geldig",
+      "hasVectorVario": "Vector Vario",
+      "hasHeartRate": "Hartslag"
     },
     "hint": {
       "qualityVsAvg": "Hoe de kwaliteit van deze vlucht zich verhoudt tot je mediaan over al je vluchten.",
       "qualityDeviation": "Standaardafwijking van de kwaliteitsscores van de thermieken in deze vlucht. Lager = gelijkmatiger stijgen.",
-      "routeEfficiency": "Verhouding tussen gescoorde afstand en totale tracklengte. Zinvoller bij overlandvluchten."
+      "routeEfficiency": "Verhouding tussen gescoorde afstand en totale tracklengte. Zinvoller bij overlandvluchten.",
+      "hasVectorVario": "Vluchten waarvan het bestand Vector Vario-gegevens bevat: luchtsnelheid, stand, gemeten wind. Opgenomen door de Vector zelf of door een app die eraan gekoppeld is.",
+      "hasHeartRate": "Vluchten waarvan het bestand je hartslag van een borstband bevat. Alleen jij kunt die zien."
     },
     "selectAll": "Alles selecteren",
     "selectRow": "Rij selecteren",
     "gpsCorruption": "GPS-fouten gevonden",
     "gpsCorruptionHint": "Het IGC-bestand bevat corrupte GPS-gegevens. Gescoorde afstand en tracklengte kunnen onbetrouwbaar zijn.",
     "previewHint": "Beweeg erover om de track te bekijken",
-    "lifetimeMedian": "Mediaan over al je vluchten: {value}"
+    "lifetimeMedian": "Mediaan over al je vluchten: {value}",
+    "sensor": {
+      "vectorVarioYes": "Vector Vario-gegevens",
+      "vectorVarioNo": "Geen Vector Vario-gegevens",
+      "heartRateYes": "Hartslag opgenomen",
+      "heartRateNo": "Geen hartslag"
+    }
   },
   "launchType": {
     "Self": "Zelf",
@@ -205,7 +217,9 @@
       "thermals": "thermiek",
       "quality": "kwaliteit",
       "vsAvg": "t.o.v. je gem.",
-      "efficiency": "efficiëntie"
+      "efficiency": "efficiëntie",
+      "vectorVario": "Vector Vario-gegevens",
+      "heartRate": "hartslaggegevens"
     },
     "option": {
       "date": "Datum",

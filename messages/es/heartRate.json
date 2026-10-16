@@ -1,0 +1,53 @@
+{
+  "bpm": "ppm",
+  "tab": {
+    "noDataTitle": "Sin datos de pulso en este vuelo",
+    "noDataBody": "El pulso aparece aquí cuando tu app de vuelo lo graba en el archivo IGC desde una banda de pecho.",
+    "loadFailedTitle": "No hemos podido leer tu pulso",
+    "loadFailedBody": "We-Fly lo lee de tu archivo IGC cada vez que abres esta pestaña. Vuelve a intentarlo en un momento."
+  },
+  "hero": {
+    "title": "Frecuencia cardiaca",
+    "private": "Solo tú",
+    "coverage": "{percent} % del vuelo cubierto",
+    "average": "Media",
+    "averageSub": "mediana {value} ppm",
+    "peak": "Máximo",
+    "peakSub": "a las {time} UTC",
+    "peakSubAltitude": "a las {time} UTC, {altitude}",
+    "lowest": "Mínimo",
+    "lowestSub": "rango {value} ppm",
+    "takeoffLanding": "Despegue → aterrizaje",
+    "takeoffLandingValue": "{takeoff} → {landing}",
+    "takeoffLandingSub": "primeros y últimos 2 minutos"
+  },
+  "timeline": {
+    "title": "Pulso a lo largo del vuelo",
+    "description": "Tu pulso frente a tu altitud. La línea discontinua es tu media del vuelo.",
+    "empty": "No hay lecturas de pulso durante el vuelo.",
+    "bpm": "Pulso",
+    "altitude": "Altitud"
+  },
+  "distribution": {
+    "title": "Tiempo en cada franja de pulso",
+    "description": "Minutos de vuelo pasados en cada franja de 10 ppm.",
+    "empty": "No hay lecturas de pulso durante el vuelo.",
+    "minutes": "Minutos",
+    "band": "{range} ppm",
+    "minutesValue": "{value} min"
+  },
+  "phases": {
+    "title": "Por fase de vuelo",
+    "description": "Pulso medio en cada fase, con su diferencia respecto a tu media del vuelo. Las barras empiezan en {floor} ppm.",
+    "empty": "No hay suficientes lecturas de pulso en ninguna fase de vuelo.",
+    "bpm": "ppm",
+    "meta": "{minutes} min · {delta} vs. media",
+    "name": {
+      "thermal": "Térmica",
+      "glide": "Planeo",
+      "search": "Búsqueda",
+      "float": "Planeo neutro"
+    }
+  },
+  "privacy": "El pulso es un dato de salud. We-Fly lo lee de tu archivo IGC cuando abres esta pestaña y no guarda nada. Quien descargue el archivo de este vuelo, desde un enlace compartido o desde la comunidad, lo recibe sin tu pulso."
+}

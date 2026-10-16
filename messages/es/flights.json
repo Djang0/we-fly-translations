@@ -43,7 +43,9 @@
       "trackSpeed": "Velocidad en track",
       "scoringSpeed": "Velocidad puntuada",
       "routeEfficiency": "Eficiencia de ruta",
-      "validation": "Válido FAI"
+      "validation": "Válido FAI",
+      "hasVectorVario": "Datos de Vector Vario",
+      "hasHeartRate": "Datos de pulso"
     },
     "header": {
       "date": "Fecha",
@@ -71,19 +73,29 @@
       "trackSpeed": "Vel. en track",
       "scoringSpeed": "Vel. puntuada",
       "routeEfficiency": "Eficiencia de ruta",
-      "validation": "Válido FAI"
+      "validation": "Válido FAI",
+      "hasVectorVario": "Vector Vario",
+      "hasHeartRate": "Pulso"
     },
     "hint": {
       "qualityVsAvg": "Cómo se compara la calidad de este vuelo con tu mediana histórica.",
       "qualityDeviation": "Desviación estándar de las puntuaciones de calidad de las térmicas de este vuelo. Cuanto menor, más regulares los ascensos.",
-      "routeEfficiency": "Relación entre la distancia puntuada y la distancia total del track. Tiene más sentido en vuelos de distancia."
+      "routeEfficiency": "Relación entre la distancia puntuada y la distancia total del track. Tiene más sentido en vuelos de distancia.",
+      "hasVectorVario": "Vuelos cuyo archivo contiene datos de Vector Vario: velocidad aire, actitud, viento medido. Grabados por el propio Vector o por una app emparejada con él.",
+      "hasHeartRate": "Vuelos cuyo archivo contiene tu pulso, grabado con una banda de pecho. Solo tú puedes verlo."
     },
     "selectAll": "Seleccionar todo",
     "selectRow": "Seleccionar fila",
     "gpsCorruption": "GPS corrupto detectado",
     "gpsCorruptionHint": "El archivo IGC contiene datos GPS corruptos. La distancia puntuada y la longitud del track pueden no ser fiables.",
     "previewHint": "Pasa el ratón para ver el track del vuelo",
-    "lifetimeMedian": "Mediana histórica: {value}"
+    "lifetimeMedian": "Mediana histórica: {value}",
+    "sensor": {
+      "vectorVarioYes": "Con datos de Vector Vario",
+      "vectorVarioNo": "Sin datos de Vector Vario",
+      "heartRateYes": "Pulso registrado",
+      "heartRateNo": "Sin datos de pulso"
+    }
   },
   "launchType": {
     "Self": "A pie",
@@ -205,7 +217,9 @@
       "thermals": "térmicas",
       "quality": "calidad",
       "vsAvg": "Frente a tu media",
-      "efficiency": "eficiencia"
+      "efficiency": "eficiencia",
+      "vectorVario": "datos de Vector Vario",
+      "heartRate": "datos de pulso"
     },
     "option": {
       "date": "Fecha",
