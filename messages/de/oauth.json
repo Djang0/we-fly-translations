@@ -98,7 +98,7 @@
     },
     "airspaceRead": {
       "label": "Luftraumdaten lesen",
-      "description": "Luftraumregionen und temporäre Aktivierungen für die Offline-Nutzung herunterladen."
+      "description": "Luftraumregionen, temporäre Aktivierungen und die im XC-Planer gespeicherten OpenAir-Dateien für die Offline-Nutzung herunterladen."
     },
     "liveWrite": {
       "label": "Deine Position melden und Alarm auslösen",

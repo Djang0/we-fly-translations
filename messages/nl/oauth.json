@@ -98,7 +98,7 @@
     },
     "airspaceRead": {
       "label": "Luchtruimgegevens inzien",
-      "description": "Luchtruimregio's en tijdelijke activaties downloaden voor offline gebruik."
+      "description": "Luchtruimregio's, tijdelijke activaties en de OpenAir-bestanden die je in de XC-planner hebt opgeslagen downloaden voor offline gebruik."
     },
     "liveWrite": {
       "label": "Je positie doorgeven en meldingen versturen",

@@ -98,7 +98,7 @@
     },
     "airspaceRead": {
       "label": "Ver datos de espacio aéreo",
-      "description": "Descargar regiones de espacio aéreo y activaciones temporales para usarlas sin conexión."
+      "description": "Descargar regiones de espacio aéreo, activaciones temporales y los archivos OpenAir que guardaste en el planificador XC, para usarlos sin conexión."
     },
     "liveWrite": {
       "label": "Compartir tu posición y enviar alertas",

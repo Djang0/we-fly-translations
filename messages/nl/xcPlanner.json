@@ -77,6 +77,11 @@
   },
   "sections": {
     "overlays": "Overlays",
+    "liveTraffic": "Live verkeer",
+    "liveTrafficAll": "Ook motorvliegtuigen en helikopters tonen",
+    "liveTrafficHint": "Toestellen die FLARM of OGN uitzenden, elke 15 s ververst zodra je inzoomt. Gegevens: <ogn>Open Glider Network</ogn>. Niet elke piloot is zichtbaar, dus blijf goed uitkijken.",
+    "liveTrafficZoomIn": "Zoom in om het live verkeer te zien.",
+    "liveTrafficUnavailable": "Live verkeer is nu niet beschikbaar.",
     "task": "Taak",
     "route": "Route",
     "durationHm": "{hours} u {minutes} min",
@@ -212,7 +217,8 @@
     "seeAirspaces": "Luchtruimen bekijken ({count})",
     "seeNotams": "NOTAMs bekijken ({count})",
     "remove": "{name} verwijderen",
-    "waypointN": "waypoint {n}"
+    "waypointN": "waypoint {n}",
+    "meteogram": "Meteogram hier"
   },
   "map": {
     "waypointN": "Waypoint {n}",
@@ -283,6 +289,154 @@
       "invalidRadius": "De straal van keerpunt „{name}” moet tussen 1 en {max} m liggen.",
       "invalidTime": "Een startgate- of deadlinetijd is ongeldig.",
       "invalidStructure": "Deze taak is onvolledig of niet opgebouwd zoals verwacht."
+    },
+    "airspaceFile": {
+      "signIn": "Log in om luchtruimbestanden op te slaan.",
+      "invalidName": "Geef het bestand eerst een naam.",
+      "invalidVersion": "Kies OpenAir v1 of v2.1.",
+      "invalidDate": "De vluchtdatum is ongeldig.",
+      "empty": "Het bestand is leeg. Selecteer eerst minstens één luchtruim of NOTAM.",
+      "tooLarge": "Het bestand is te groot om op te slaan (maximaal {size}).",
+      "invalidContent": "Het bestand bevat geen leesbaar luchtruim.",
+      "tooMany": "Je hebt al {max} opgeslagen bestanden. Verwijder er een, of wacht tot het oudste verloopt.",
+      "saveFailed": "Kon het bestand niet opslaan. Probeer het opnieuw.",
+      "loadFailed": "Kon je opgeslagen bestanden niet laden.",
+      "deleteFailed": "Kon het bestand niet verwijderen. Probeer het opnieuw.",
+      "notFound": "Dat bestand bestaat niet meer. Misschien is het verlopen.",
+      "consentRequired": "Rond het instellen van je account af (privacytoestemming) om bestanden op te slaan."
     }
+  },
+  "forecast": {
+    "title": "Startverwachting",
+    "hint": "Startplaatsen in beeld krijgen een beoordeling voor de gekozen dag en het gekozen uur, op basis van de wind op starthoogte, de windstoten, regen en onweersrisico. Zoom in om ze te zien. Klik met rechts of druk lang ergens op de kaart voor het meteogram van die plek.",
+    "hide": "Startverwachting verbergen",
+    "play": "Verwachting afspelen",
+    "pause": "Pauze",
+    "zoomIn": "Zoom in om de startplaatsen te beoordelen",
+    "unavailable": "Verwachting nu niet beschikbaar",
+    "loading": "Verwachting laden van Open-Meteo…",
+    "count": {
+      "good": "{count} goed",
+      "marginal": "{count} twijfelachtig",
+      "unsuitable": "{count} ongeschikt"
+    },
+    "verdict": {
+      "good": "Goed",
+      "marginal": "Twijfelachtig",
+      "unsuitable": "Ongeschikt"
+    },
+    "reason": {
+      "gustsTooStrong": "windstoten {speed}, te sterk",
+      "windTooStrong": "wind {speed}, te sterk",
+      "lightWind": "zwakke wind, thermiekstart mogelijk",
+      "bearingUnknown": "oriëntatie van de startplaats onbekend",
+      "strongWindBearingUnknown": "sterke wind, oriëntatie van de startplaats onbekend",
+      "favorable": "wind recht op de helling",
+      "crosswind": "zijwind, voorzichtig starten",
+      "tailwind": "meewind of sterke zijwind",
+      "rain": "lichte regen",
+      "showers": "regenbuien",
+      "stormRisk": "kans op onweer",
+      "thunderstorm": "onweer waarschijnlijk"
+    },
+    "unnamed": "Naamloze startplaats",
+    "facing": "oriëntatie {bearing}",
+    "windLine": "Wind {wind} uit {dir}, stoten {gusts}",
+    "noData": "Geen verwachting voor deze startplaats",
+    "meteogramHint": "Klik met rechts of druk lang voor het meteogram",
+    "timeline": "Tijdstip van de verwachting",
+    "model": "Open-Meteo beste match",
+    "sunTimes": "Op {rise} · Onder {set}",
+    "legend": {
+      "day": "Dag",
+      "twilight": "Schemering",
+      "night": "Nacht",
+      "sunrise": "Zonsopkomst",
+      "sunset": "Zonsondergang"
+    }
+  },
+  "meteogram": {
+    "pointTitle": "Meteogram {lat}; {lng}",
+    "subtitle": "Vijfdaagse verwachting voor dit punt",
+    "takeoffAt": "Startplaats {elevation}",
+    "facing": "oriëntatie {bearing}",
+    "modelGround": "modelterrein {elevation}",
+    "loading": "Verwachting laden van Open-Meteo…",
+    "loadingSlow": "Open-Meteo, onze gratis weerbron, heeft het nu druk. Nog even geduld, dit kan een paar seconden duren…",
+    "unavailable": "De verwachting is nu niet beschikbaar. Probeer het over een paar minuten opnieuw.",
+    "noHours": "Geen verwachting voor deze dag.",
+    "chartLabel": "Meteogram: wind op hoogte, thermiek, wolkenbasis, nulgradengrens en grondwind per uur",
+    "source": "Verwachting: {models} via Open-Meteo.",
+    "disclaimer": "Een modelverwachting, geen briefing: check de lokale omstandigheden voor je gaat vliegen.",
+    "summary": {
+      "base": "Wolkenbasis tot {value}",
+      "blue": "Blauwe thermiek tot {value}",
+      "wStar": "w* max {value}",
+      "gusts": "windstoten tot {value}",
+      "rain": "regen {value} mm",
+      "dry": "droog",
+      "window": "startvenster van {from} tot {to}",
+      "noWindow": "geen goed startuur",
+      "noThermals": "Geen bruikbare thermiek"
+    },
+    "rows": {
+      "weather": "Weer",
+      "wStar": "w*",
+      "launch": "Start",
+      "wind": "Wind {unit}",
+      "gusts": "Stoten"
+    },
+    "tip": {
+      "temp": "Temp / dauwpunt",
+      "base": "Wolkenbasis",
+      "blueTop": "Thermiektop",
+      "wStar": "w*",
+      "freezing": "Nulgradengrens",
+      "wind": "Wind",
+      "gustsShort": "stoten {value}",
+      "wind850": "Wind 1.500 m",
+      "rain": "Regen",
+      "mm": "{value} mm",
+      "cape": "CAPE",
+      "jkg": "{value} J/kg"
+    },
+    "legend": {
+      "thermals": "Thermiek",
+      "cumulus": "Cumulus",
+      "freezing": "Nulgradengrens",
+      "wind": "Wind op hoogte"
+    }
+  },
+  "liveTraffic": {
+    "legend": "Symbolen",
+    "legendHint": "Tik op een toestel voor de details en zijn track van vandaag.",
+    "kinds": {
+      "paraglider": "Paraglider",
+      "hangGlider": "Deltavlieger",
+      "glider": "Zweefvliegtuig",
+      "powered": "Motorvliegtuig",
+      "helicopter": "Helikopter",
+      "other": "Overig of onbekend"
+    },
+    "type": "{code, select, 1 {Zweefvliegtuig of motorzwever} 2 {Sleepvliegtuig} 3 {Helikopter} 4 {Parachutist} 5 {Parachutistentoestel} 6 {Deltavlieger} 7 {Paraglider} 8 {Motorvliegtuig} 9 {Straalvliegtuig} 11 {Ballon} 12 {Luchtschip} 13 {Drone} other {Onbekend type toestel}}",
+    "anonymous": "Anoniem",
+    "anonymousHint": "Deze piloot wil niet herkenbaar zijn op OGN.",
+    "close": "Details van het toestel sluiten",
+    "model": "Model",
+    "registration": "Registratie",
+    "competitionId": "Wedstrijdnummer",
+    "altitude": "Hoogte",
+    "climb": "Stijging",
+    "groundSpeed": "Grondsnelheid",
+    "lastFix": "Laatste positie",
+    "ageSeconds": "{seconds, plural, one {# s geleden} other {# s geleden}}",
+    "ageMinutes": "{minutes, plural, one {# min geleden} other {# min geleden}}",
+    "receiver": "Opgevangen door",
+    "loading": "Laden…",
+    "traceLoading": "Track van vandaag laden…",
+    "traceShown": "De track van vandaag staat op de kaart en vervaagt naarmate hij ouder wordt.",
+    "traceNone": "OGN heeft vandaag geen track van dit toestel.",
+    "traceUnavailable": "De track is nu niet beschikbaar.",
+    "outOfView": "Niet in de laatste update: je ziet de laatst bekende positie."
   }
 }

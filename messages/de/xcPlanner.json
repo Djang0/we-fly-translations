@@ -77,6 +77,11 @@
   },
   "sections": {
     "overlays": "Overlays",
+    "liveTraffic": "Live-Verkehr",
+    "liveTrafficAll": "Auch Motorflugzeuge und Hubschrauber zeigen",
+    "liveTrafficHint": "Luftfahrzeuge, die FLARM oder OGN senden, alle 15 s aktualisiert, sobald du hineinzoomst. Daten: <ogn>Open Glider Network</ogn>. Nicht jeder Pilot ist sichtbar, also schau weiter raus.",
+    "liveTrafficZoomIn": "Zoom hinein, um den Live-Verkehr zu sehen.",
+    "liveTrafficUnavailable": "Der Live-Verkehr ist gerade nicht verfügbar.",
     "task": "Task",
     "route": "Route",
     "durationHm": "{hours} h {minutes} min",
@@ -212,7 +217,8 @@
     "seeAirspaces": "Lufträume ansehen ({count})",
     "seeNotams": "NOTAMs ansehen ({count})",
     "remove": "{name} entfernen",
-    "waypointN": "Wegpunkt {n}"
+    "waypointN": "Wegpunkt {n}",
+    "meteogram": "Meteogramm hier"
   },
   "map": {
     "waypointN": "Wegpunkt {n}",
@@ -283,6 +289,154 @@
       "invalidRadius": "Der Radius des Wendepunkts „{name}“ muss zwischen 1 und {max} m liegen.",
       "invalidTime": "Eine Startgate- oder Deadline-Zeit ist ungültig.",
       "invalidStructure": "Dieser Task ist unvollständig oder nicht wie erwartet aufgebaut."
+    },
+    "airspaceFile": {
+      "signIn": "Melde dich an, um Luftraumdateien zu speichern.",
+      "invalidName": "Gib der Datei zuerst einen Namen.",
+      "invalidVersion": "Wähl OpenAir v1 oder v2.1.",
+      "invalidDate": "Das Flugdatum ist ungültig.",
+      "empty": "Die Datei ist leer. Wähl zuerst mindestens einen Luftraum oder ein NOTAM aus.",
+      "tooLarge": "Die Datei ist zu groß zum Speichern (höchstens {size}).",
+      "invalidContent": "Die Datei enthält keinen lesbaren Luftraum.",
+      "tooMany": "Du hast schon {max} gespeicherte Dateien. Lösch eine oder warte, bis die älteste abläuft.",
+      "saveFailed": "Die Datei konnte nicht gespeichert werden. Versuch es noch einmal.",
+      "loadFailed": "Deine gespeicherten Dateien konnten nicht geladen werden.",
+      "deleteFailed": "Die Datei konnte nicht gelöscht werden. Versuch es noch einmal.",
+      "notFound": "Diese Datei gibt es nicht mehr. Vielleicht ist sie abgelaufen.",
+      "consentRequired": "Schließ die Einrichtung deines Kontos ab (Datenschutz-Einwilligung), um Dateien zu speichern."
     }
+  },
+  "forecast": {
+    "title": "Startplatz-Prognose",
+    "hint": "Die Startplätze im Bildausschnitt werden für den gewählten Tag und die gewählte Stunde bewertet: Wind auf Starthöhe, Böen, Regen und Gewitterrisiko. Zoom hinein, um sie zu sehen. Rechtsklick oder langes Drücken irgendwo auf der Karte öffnet das Meteogramm für diesen Punkt.",
+    "hide": "Startplatz-Prognose ausblenden",
+    "play": "Prognose abspielen",
+    "pause": "Pause",
+    "zoomIn": "Zoom hinein, um die Startplätze zu bewerten",
+    "unavailable": "Prognose gerade nicht verfügbar",
+    "loading": "Prognose wird von Open-Meteo geladen…",
+    "count": {
+      "good": "{count} gut",
+      "marginal": "{count} grenzwertig",
+      "unsuitable": "{count} ungeeignet"
+    },
+    "verdict": {
+      "good": "Gut",
+      "marginal": "Grenzwertig",
+      "unsuitable": "Ungeeignet"
+    },
+    "reason": {
+      "gustsTooStrong": "Böen {speed}, zu stark",
+      "windTooStrong": "Wind {speed}, zu stark",
+      "lightWind": "schwacher Wind, Thermikstart möglich",
+      "bearingUnknown": "Ausrichtung des Startplatzes unbekannt",
+      "strongWindBearingUnknown": "starker Wind, Ausrichtung des Startplatzes unbekannt",
+      "favorable": "Wind steht auf den Hang",
+      "crosswind": "Seitenwind, Start mit Vorsicht",
+      "tailwind": "Rückenwind oder starker Seitenwind",
+      "rain": "leichter Regen",
+      "showers": "Regenschauer",
+      "stormRisk": "Gewitterrisiko",
+      "thunderstorm": "Gewitter wahrscheinlich"
+    },
+    "unnamed": "Unbenannter Startplatz",
+    "facing": "Ausrichtung {bearing}",
+    "windLine": "Wind {wind} aus {dir}, Böen {gusts}",
+    "noData": "Keine Prognose für diesen Startplatz",
+    "meteogramHint": "Rechtsklick oder lang drücken für das Meteogramm",
+    "timeline": "Prognosezeit",
+    "model": "Open-Meteo Best Match",
+    "sunTimes": "SA {rise} · SU {set}",
+    "legend": {
+      "day": "Tag",
+      "twilight": "Dämmerung",
+      "night": "Nacht",
+      "sunrise": "Sonnenaufgang",
+      "sunset": "Sonnenuntergang"
+    }
+  },
+  "meteogram": {
+    "pointTitle": "Meteogramm {lat}, {lng}",
+    "subtitle": "Fünf-Tage-Prognose für diesen Punkt",
+    "takeoffAt": "Startplatz {elevation}",
+    "facing": "Ausrichtung {bearing}",
+    "modelGround": "Modellgelände {elevation}",
+    "loading": "Prognose wird von Open-Meteo geladen…",
+    "loadingSlow": "Open-Meteo, unser kostenloser Wetterdienst, ist gerade ausgelastet. Es lädt noch, das kann ein paar Sekunden dauern…",
+    "unavailable": "Die Prognose ist gerade nicht verfügbar. Versuch es in ein paar Minuten noch einmal.",
+    "noHours": "Keine Prognose für diesen Tag.",
+    "chartLabel": "Meteogramm: Höhenwind, Thermik, Basis, Nullgradgrenze und Bodenwind pro Stunde",
+    "source": "Prognose: {models} über Open-Meteo.",
+    "disclaimer": "Eine Modellprognose, kein Flugwetter-Briefing: Prüf vor dem Fliegen die Bedingungen vor Ort.",
+    "summary": {
+      "base": "Basis bis {value}",
+      "blue": "Blauthermik bis {value}",
+      "wStar": "w* max. {value}",
+      "gusts": "Böen bis {value}",
+      "rain": "Regen {value} mm",
+      "dry": "trocken",
+      "window": "startbar {from} bis {to}",
+      "noWindow": "keine gute Startstunde",
+      "noThermals": "Keine nutzbare Thermik"
+    },
+    "rows": {
+      "weather": "Wetter",
+      "wStar": "w*",
+      "launch": "Start",
+      "wind": "Wind {unit}",
+      "gusts": "Böen"
+    },
+    "tip": {
+      "temp": "Temp. / Taupunkt",
+      "base": "Basis",
+      "blueTop": "Thermikobergrenze",
+      "wStar": "w*",
+      "freezing": "Nullgradgrenze",
+      "wind": "Wind",
+      "gustsShort": "Böen {value}",
+      "wind850": "Wind 1.500 m",
+      "rain": "Regen",
+      "mm": "{value} mm",
+      "cape": "CAPE",
+      "jkg": "{value} J/kg"
+    },
+    "legend": {
+      "thermals": "Thermik",
+      "cumulus": "Cumulus",
+      "freezing": "Nullgradgrenze",
+      "wind": "Höhenwind"
+    }
+  },
+  "liveTraffic": {
+    "legend": "Symbole",
+    "legendHint": "Tipp auf ein Luftfahrzeug für Details und seinen Track von heute.",
+    "kinds": {
+      "paraglider": "Gleitschirm",
+      "hangGlider": "Hängegleiter",
+      "glider": "Segelflugzeug",
+      "powered": "Motorflugzeug",
+      "helicopter": "Hubschrauber",
+      "other": "Sonstige oder unbekannt"
+    },
+    "type": "{code, select, 1 {Segelflugzeug oder Motorsegler} 2 {Schleppflugzeug} 3 {Hubschrauber} 4 {Fallschirmspringer} 5 {Absetzflugzeug} 6 {Hängegleiter} 7 {Gleitschirm} 8 {Motorflugzeug} 9 {Jet} 11 {Ballon} 12 {Luftschiff} 13 {Drohne} other {Unbekannter Luftfahrzeugtyp}}",
+    "anonymous": "Anonym",
+    "anonymousHint": "Dieser Pilot will auf OGN anonym bleiben.",
+    "close": "Details zum Luftfahrzeug schließen",
+    "model": "Modell",
+    "registration": "Kennzeichen",
+    "competitionId": "Wettbewerbskennung",
+    "altitude": "Höhe",
+    "climb": "Steigen",
+    "groundSpeed": "Groundspeed",
+    "lastFix": "Letzte Position",
+    "ageSeconds": "{seconds, plural, one {vor # s} other {vor # s}}",
+    "ageMinutes": "{minutes, plural, one {vor # min} other {vor # min}}",
+    "receiver": "Empfangen von",
+    "loading": "Wird geladen…",
+    "traceLoading": "Track von heute wird geladen…",
+    "traceShown": "Der Track von heute ist auf der Karte eingezeichnet, ältere Abschnitte verblassen.",
+    "traceNone": "OGN hat heute keinen Track für dieses Luftfahrzeug.",
+    "traceUnavailable": "Der Track ist gerade nicht verfügbar.",
+    "outOfView": "Nicht im letzten Update: Du siehst die letzte bekannte Position."
   }
 }

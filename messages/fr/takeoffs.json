@@ -111,7 +111,9 @@
     "youAreHere": "Tu es ici",
     "elevationAsl": "{altitude} AMSL",
     "facing": "Orientation : {bearing}",
-    "zoomForFlyable": "Zoome pour n’afficher que les décollages volables"
+    "zoomForFlyable": "Zoome pour n’afficher que les décollages volables",
+    "meteogram": "Météogramme",
+    "showForecast": "Prévision des décollages"
   },
   "detail": {
     "back": "Retour",

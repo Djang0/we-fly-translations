@@ -77,6 +77,11 @@
   },
   "sections": {
     "overlays": "Capas",
+    "liveTraffic": "Tráfico en directo",
+    "liveTrafficAll": "Incluir aviones a motor y helicópteros",
+    "liveTrafficHint": "Aeronaves que emiten FLARM u OGN, actualizadas cada 15 s cuando acercas el mapa. Datos: <ogn>Open Glider Network</ogn>. No todos los pilotos son visibles, así que sigue mirando fuera.",
+    "liveTrafficZoomIn": "Acerca el mapa para ver el tráfico en directo.",
+    "liveTrafficUnavailable": "El tráfico en directo no está disponible ahora mismo.",
     "task": "Manga",
     "route": "Ruta",
     "durationHm": "{hours} h {minutes} min",
@@ -212,7 +217,8 @@
     "seeAirspaces": "Ver espacios aéreos ({count})",
     "seeNotams": "Ver NOTAM ({count})",
     "remove": "Quitar {name}",
-    "waypointN": "waypoint {n}"
+    "waypointN": "waypoint {n}",
+    "meteogram": "Meteograma aquí"
   },
   "map": {
     "waypointN": "Waypoint {n}",
@@ -283,6 +289,154 @@
       "invalidRadius": "El radio de la baliza «{name}» debe estar entre 1 y {max} m.",
       "invalidTime": "Una hora de salida o de cierre no es válida.",
       "invalidStructure": "Esta manga está incompleta o no tiene la estructura esperada."
+    },
+    "airspaceFile": {
+      "signIn": "Inicia sesión para guardar archivos de espacio aéreo.",
+      "invalidName": "Primero ponle un nombre al archivo.",
+      "invalidVersion": "Elige OpenAir v1 o v2.1.",
+      "invalidDate": "La fecha del vuelo no es válida.",
+      "empty": "El archivo está vacío. Primero selecciona al menos un espacio aéreo o un NOTAM.",
+      "tooLarge": "El archivo es demasiado grande para guardarlo ({size} como máximo).",
+      "invalidContent": "El archivo no contiene ningún espacio aéreo legible.",
+      "tooMany": "Ya tienes {max} archivos guardados. Borra uno o espera a que caduque el más antiguo.",
+      "saveFailed": "No se pudo guardar el archivo. Inténtalo de nuevo.",
+      "loadFailed": "No se pudieron cargar tus archivos guardados.",
+      "deleteFailed": "No se pudo borrar el archivo. Inténtalo de nuevo.",
+      "notFound": "Ese archivo ya no existe. Puede que haya caducado.",
+      "consentRequired": "Termina de configurar tu cuenta (consentimiento de privacidad) para guardar archivos."
     }
+  },
+  "forecast": {
+    "title": "Previsión de despegue",
+    "hint": "Los despegues a la vista se valoran para el día y la hora elegidos según el viento a la altura del despegue, las rachas, la lluvia y el riesgo de tormenta. Acerca el mapa para verlos. Haz clic derecho o mantén pulsado en cualquier punto del mapa para ver su meteograma.",
+    "hide": "Ocultar la previsión de despegue",
+    "play": "Reproducir la previsión",
+    "pause": "Pausa",
+    "zoomIn": "Acerca el mapa para valorar los despegues",
+    "unavailable": "Previsión no disponible ahora mismo",
+    "loading": "Cargando la previsión de Open-Meteo…",
+    "count": {
+      "good": "{count, plural, one {# bueno} other {# buenos}}",
+      "marginal": "{count, plural, one {# justo} other {# justos}}",
+      "unsuitable": "{count, plural, one {# no volable} other {# no volables}}"
+    },
+    "verdict": {
+      "good": "Bueno",
+      "marginal": "Justo",
+      "unsuitable": "No volable"
+    },
+    "reason": {
+      "gustsTooStrong": "rachas de {speed}, demasiado fuertes",
+      "windTooStrong": "viento de {speed}, demasiado fuerte",
+      "lightWind": "viento flojo, despegue térmico posible",
+      "bearingUnknown": "orientación del despegue desconocida",
+      "strongWindBearingUnknown": "viento fuerte, orientación del despegue desconocida",
+      "favorable": "viento de cara a la ladera",
+      "crosswind": "viento cruzado, despega con cuidado",
+      "tailwind": "viento de cola o cruzado fuerte",
+      "rain": "lluvia débil",
+      "showers": "chubascos",
+      "stormRisk": "riesgo de tormenta",
+      "thunderstorm": "tormentas probables"
+    },
+    "unnamed": "Despegue sin nombre",
+    "facing": "orientado a {bearing}",
+    "windLine": "Viento {wind} del {dir}, rachas {gusts}",
+    "noData": "No hay previsión para este despegue",
+    "meteogramHint": "Clic derecho o mantén pulsado para ver el meteograma",
+    "timeline": "Hora de la previsión",
+    "model": "Open-Meteo, mejor modelo",
+    "sunTimes": "Orto {rise} · Ocaso {set}",
+    "legend": {
+      "day": "Día",
+      "twilight": "Crepúsculo",
+      "night": "Noche",
+      "sunrise": "Salida del sol",
+      "sunset": "Puesta del sol"
+    }
+  },
+  "meteogram": {
+    "pointTitle": "Meteograma {lat}, {lng}",
+    "subtitle": "Previsión a cinco días para este punto",
+    "takeoffAt": "Despegue a {elevation}",
+    "facing": "orientado a {bearing}",
+    "modelGround": "suelo del modelo a {elevation}",
+    "loading": "Cargando la previsión de Open-Meteo…",
+    "loadingSlow": "Open-Meteo, nuestro proveedor gratuito de previsiones, está saturado ahora mismo. Sigue cargando, puede tardar unos segundos…",
+    "unavailable": "La previsión no está disponible ahora mismo. Vuelve a intentarlo dentro de unos minutos.",
+    "noHours": "No hay previsión para este día.",
+    "chartLabel": "Meteograma: viento en altura, térmicas, base de nubes, nivel de congelación y viento en superficie por horas",
+    "source": "Previsión: {models} vía Open-Meteo.",
+    "disclaimer": "Es una previsión de modelo, no un briefing: comprueba las condiciones locales antes de volar.",
+    "summary": {
+      "base": "Base de nubes hasta {value}",
+      "blue": "Térmicas azules hasta {value}",
+      "wStar": "w* máx. {value}",
+      "gusts": "rachas de hasta {value}",
+      "rain": "lluvia {value} mm",
+      "dry": "seco",
+      "window": "ventana de despegue de {from} a {to}",
+      "noWindow": "ninguna hora buena para despegar",
+      "noThermals": "Sin térmicas aprovechables"
+    },
+    "rows": {
+      "weather": "Tiempo",
+      "wStar": "w*",
+      "launch": "Despegue",
+      "wind": "Viento {unit}",
+      "gusts": "Rachas"
+    },
+    "tip": {
+      "temp": "Temp. / rocío",
+      "base": "Base de nubes",
+      "blueTop": "Techo térmico",
+      "wStar": "w*",
+      "freezing": "Nivel de congelación",
+      "wind": "Viento",
+      "gustsShort": "rachas {value}",
+      "wind850": "Viento a 1500 m",
+      "rain": "Lluvia",
+      "mm": "{value} mm",
+      "cape": "CAPE",
+      "jkg": "{value} J/kg"
+    },
+    "legend": {
+      "thermals": "Térmicas",
+      "cumulus": "Cúmulos",
+      "freezing": "Nivel de congelación",
+      "wind": "Viento en altura"
+    }
+  },
+  "liveTraffic": {
+    "legend": "Marcadores",
+    "legendHint": "Toca una aeronave para ver sus datos y su track de hoy.",
+    "kinds": {
+      "paraglider": "Parapente",
+      "hangGlider": "Ala delta",
+      "glider": "Velero",
+      "powered": "Avión a motor",
+      "helicopter": "Helicóptero",
+      "other": "Otro o desconocido"
+    },
+    "type": "{code, select, 1 {Velero o motovelero} 2 {Avión remolcador} 3 {Helicóptero} 4 {Paracaidista} 5 {Avión de paracaidistas} 6 {Ala delta} 7 {Parapente} 8 {Avión a motor} 9 {Reactor} 11 {Globo} 12 {Dirigible} 13 {Dron} other {Tipo de aeronave desconocido}}",
+    "anonymous": "Anónimo",
+    "anonymousHint": "Este piloto prefiere no ser identificado en OGN.",
+    "close": "Cerrar los datos de la aeronave",
+    "model": "Modelo",
+    "registration": "Matrícula",
+    "competitionId": "Identificador de competición",
+    "altitude": "Altitud",
+    "climb": "Ascenso",
+    "groundSpeed": "Velocidad sobre el suelo",
+    "lastFix": "Última posición",
+    "ageSeconds": "{seconds, plural, one {hace # s} other {hace # s}}",
+    "ageMinutes": "{minutes, plural, one {hace # min} other {hace # min}}",
+    "receiver": "Recibido por",
+    "loading": "Cargando…",
+    "traceLoading": "Cargando el track de hoy…",
+    "traceShown": "El track de hoy se dibuja en el mapa y se difumina hacia el pasado.",
+    "traceNone": "OGN no tiene track de esta aeronave hoy.",
+    "traceUnavailable": "El track no está disponible ahora mismo.",
+    "outOfView": "No aparece en la última actualización: se muestra su última posición conocida."
   }
 }

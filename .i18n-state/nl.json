@@ -21576,8 +21576,8 @@
       "by": "ai"
     },
     "oauth.scopes.airspaceRead.description": {
-      "src": "937a2791606febac",
-      "tr": "3829fe86509e8ae9",
+      "src": "8ac4637e04d89536",
+      "tr": "4a911b5d6466840a",
       "by": "ai"
     },
     "oauth.scopes.airspaceRead.label": {
@@ -29200,6 +29200,16 @@
       "tr": "1fcb041ddbf45763",
       "by": "ai"
     },
+    "takeoffs.map.meteogram": {
+      "src": "1126f0d6c47b4da0",
+      "tr": "1126f0d6c47b4da0",
+      "by": "ai"
+    },
+    "takeoffs.map.showForecast": {
+      "src": "56d7a5f844bcfea0",
+      "tr": "8d85b4d48b779e48",
+      "by": "ai"
+    },
     "takeoffs.map.youAreHere": {
       "src": "b0b52ce074f3c6d0",
       "tr": "1f1865bcb9fb7ece",
@@ -34350,6 +34360,11 @@
       "tr": "8476cf143cbb1ace",
       "by": "ai"
     },
+    "xcBriefing.airspaceFile.consentToSave": {
+      "src": "e8a7397efc7f5db4",
+      "tr": "794c4218b1a3f949",
+      "by": "ai"
+    },
     "xcBriefing.airspaceFile.download": {
       "src": "8d2d121b7adcd4ce",
       "tr": "ff41809fd95c69af",
@@ -34390,9 +34405,69 @@
       "tr": "438948c2493f3c34",
       "by": "ai"
     },
+    "xcBriefing.airspaceFile.save": {
+      "src": "fafdd5721f161fa9",
+      "tr": "37b9f377c0195019",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.apiHint": {
+      "src": "a3600e4f9366e8bb",
+      "tr": "ca702e66359115c6",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.delete": {
+      "src": "3cf8146e529f1e42",
+      "tr": "f057d5c742ce7d54",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.deleted": {
+      "src": "77fb3cfab39079a1",
+      "tr": "92dd625df7aabca1",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.download": {
+      "src": "c807156b8e24f0a3",
+      "tr": "c472153cd78d673e",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.loading": {
+      "src": "39dc6a55dd41997b",
+      "tr": "39411856cb73b210",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.meta": {
+      "src": "e98abe00ba7f914a",
+      "tr": "9e214e878d63e1f8",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saved.title": {
+      "src": "926d7b47d68ca081",
+      "tr": "d2ae8f4fa0227369",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.savedToast": {
+      "src": "26809a661e9f86b2",
+      "tr": "4e630e10d2a5ebe7",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saveHint": {
+      "src": "a9a9ea46b7749c27",
+      "tr": "de77e3ac685ae815",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.saving": {
+      "src": "23e39291d6135814",
+      "tr": "75f1f38e8d4cdb9e",
+      "by": "ai"
+    },
     "xcBriefing.airspaceFile.selectFirst": {
       "src": "0e06bf29155d5131",
       "tr": "857dbde51e28fd1e",
+      "by": "ai"
+    },
+    "xcBriefing.airspaceFile.signInToSave": {
+      "src": "f8b5c72ceec25f86",
+      "tr": "8d18b773da69534a",
       "by": "ai"
     },
     "xcBriefing.airspaceFile.summary": {
@@ -35095,6 +35170,11 @@
       "tr": "ed55e315c85e0e0f",
       "by": "ai"
     },
+    "xcPlanner.contextMenu.meteogram": {
+      "src": "9896f96dbb0ae3d0",
+      "tr": "c822c2ef282fdcb9",
+      "by": "ai"
+    },
     "xcPlanner.contextMenu.remove": {
       "src": "e6a3c4a1250a6ad3",
       "tr": "f057d5c742ce7d54",
@@ -35138,6 +35218,71 @@
     "xcPlanner.dynamicOpen.setFor": {
       "src": "a8bb44082a454f07",
       "tr": "195f7ac64258b807",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.consentRequired": {
+      "src": "e8a7397efc7f5db4",
+      "tr": "794c4218b1a3f949",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.deleteFailed": {
+      "src": "3c367b5fbc02660d",
+      "tr": "b1f62f1c82dd34ee",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.empty": {
+      "src": "14c7ce94549693fa",
+      "tr": "2f9367ae07d3ae15",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.invalidContent": {
+      "src": "ff0047c7ec33fbeb",
+      "tr": "e33fd0cefb1d9f26",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.invalidDate": {
+      "src": "0ed8499ab2afc02e",
+      "tr": "650c73bcb38aa347",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.invalidName": {
+      "src": "d8d9c87c1a06e37c",
+      "tr": "60ea7640882e3c38",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.invalidVersion": {
+      "src": "469e005b28e4f308",
+      "tr": "7960a175c79d8ec4",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.loadFailed": {
+      "src": "85277b3e4346ed18",
+      "tr": "8eba87638efb46c3",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.notFound": {
+      "src": "f11039bc4d1bb589",
+      "tr": "d67f334add285afd",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.saveFailed": {
+      "src": "f0ef17df0b7482b8",
+      "tr": "ee3b5dffb6ef5494",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.signIn": {
+      "src": "8af24d0264127bf2",
+      "tr": "8c17326136d18dd8",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.tooLarge": {
+      "src": "1b4c48cf028f2827",
+      "tr": "a76086c7e94c26f4",
+      "by": "ai"
+    },
+    "xcPlanner.errors.airspaceFile.tooMany": {
+      "src": "062d2b8f9469f308",
+      "tr": "3a1285983ea07ed4",
       "by": "ai"
     },
     "xcPlanner.errors.cloudCouldNotReturn": {
@@ -35430,6 +35575,341 @@
       "tr": "2c03f325254dcb13",
       "by": "ai"
     },
+    "xcPlanner.forecast.count.good": {
+      "src": "31520f5c29385f99",
+      "tr": "d943275487926420",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.count.marginal": {
+      "src": "ef2152579d1b39cf",
+      "tr": "039ee781243152dc",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.count.unsuitable": {
+      "src": "a2257fc7ec69cddc",
+      "tr": "331bad46f5f8a3f3",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.facing": {
+      "src": "328f4e9ffdd6c711",
+      "tr": "3e82d1b1dfe1d7df",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.hide": {
+      "src": "cabfc3cf89a675ba",
+      "tr": "2116391b49e43631",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.hint": {
+      "src": "6b19653d76fd14d4",
+      "tr": "581e70c2bdc5b3c8",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.legend.day": {
+      "src": "8f2364e11b8be3ff",
+      "tr": "fd43f8cd2456d2f7",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.legend.night": {
+      "src": "4e9f8db8242b57e7",
+      "tr": "0af3584be7836030",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.legend.sunrise": {
+      "src": "9c7c53e80a4e74d5",
+      "tr": "e937683e9a36e2ac",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.legend.sunset": {
+      "src": "275dbda9dedbb4a2",
+      "tr": "82841bd4fa59b2f8",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.legend.twilight": {
+      "src": "6ca52258a43795ab",
+      "tr": "7b0166cd895268f9",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.loading": {
+      "src": "a2bce9614dd9b857",
+      "tr": "3d8ca2b0ca48119f",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.meteogramHint": {
+      "src": "4cb968ba5986195c",
+      "tr": "ad6270c26b52faf1",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.model": {
+      "src": "cf7db844d17d7e47",
+      "tr": "9550d1ad26ed1cdb",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.noData": {
+      "src": "f69b57465c957ca8",
+      "tr": "a1cae80f789d6415",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.pause": {
+      "src": "858e4ba7a29fd38b",
+      "tr": "c3f4a297550fc063",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.play": {
+      "src": "7317a344ecc82003",
+      "tr": "eaf64a0600cf2ebb",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.bearingUnknown": {
+      "src": "f8051f3990d936e5",
+      "tr": "11c7b2f56100fadc",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.crosswind": {
+      "src": "5c634ee08305e6e3",
+      "tr": "7cc6e982bd4dc923",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.favorable": {
+      "src": "14053916244eb12e",
+      "tr": "691d76bca16257c7",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.gustsTooStrong": {
+      "src": "df5f512712ed2d13",
+      "tr": "2f1ff7da0c7c310e",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.lightWind": {
+      "src": "10ad3625d76f7ade",
+      "tr": "0d677d55763341e6",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.rain": {
+      "src": "45ae8b58bdee236e",
+      "tr": "21ebe9dd653b0c29",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.showers": {
+      "src": "f626383756112d02",
+      "tr": "b32b5499d433b05f",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.stormRisk": {
+      "src": "990b23d3d9015b9c",
+      "tr": "c80b2c98205d0e34",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.strongWindBearingUnknown": {
+      "src": "45b9bf48d183fd94",
+      "tr": "c11412d29630edd7",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.tailwind": {
+      "src": "0b084bcbc8f4f38d",
+      "tr": "e134b8204216284f",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.thunderstorm": {
+      "src": "9aa74c5d46a59a9b",
+      "tr": "c5efd239535d4dba",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.reason.windTooStrong": {
+      "src": "554d326c4da29b66",
+      "tr": "7fba39862a1a3eee",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.sunTimes": {
+      "src": "6753d9b4649bc987",
+      "tr": "1f23e7e41dfacb00",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.timeline": {
+      "src": "32f7e0616d981fda",
+      "tr": "400e028429459e9b",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.title": {
+      "src": "56d7a5f844bcfea0",
+      "tr": "8d85b4d48b779e48",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.unavailable": {
+      "src": "cfb71cdbabc5c90b",
+      "tr": "9c3eb708b704ba2d",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.unnamed": {
+      "src": "51d99d4d9f84f871",
+      "tr": "17ab5a9776dd417d",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.verdict.good": {
+      "src": "c939327ca16dcf97",
+      "tr": "cd1ded48c10629a0",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.verdict.marginal": {
+      "src": "023f2ca37ae40798",
+      "tr": "3f71906dfed1ebe9",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.verdict.unsuitable": {
+      "src": "05eade990c6f397e",
+      "tr": "14f4677d0f55d0ae",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.windLine": {
+      "src": "c1c392fbf320bd4c",
+      "tr": "c6974c6761582592",
+      "by": "ai"
+    },
+    "xcPlanner.forecast.zoomIn": {
+      "src": "1ad075227ba77057",
+      "tr": "927f1955468c4f33",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.ageMinutes": {
+      "src": "e86a8cc303eaea07",
+      "tr": "bda747e9c828c5db",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.ageSeconds": {
+      "src": "5582b58151350c64",
+      "tr": "0968dcf2188c5f94",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.altitude": {
+      "src": "cbc2e75740ca7af8",
+      "tr": "d4d5df943361af12",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.anonymous": {
+      "src": "e7a8aa2df7e5d0b2",
+      "tr": "f9b8a3c991ad3993",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.anonymousHint": {
+      "src": "d102cf1679857b0b",
+      "tr": "dc0d965139a15775",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.climb": {
+      "src": "98ca5f27d9642dc7",
+      "tr": "634ef5efd0bc310a",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.close": {
+      "src": "91a702ad4bd472ba",
+      "tr": "7e2e5a6878514fd1",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.competitionId": {
+      "src": "bed9e1d7047ded80",
+      "tr": "8cbd0cc4fd3dfccc",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.groundSpeed": {
+      "src": "c02a28ea1b069ccb",
+      "tr": "370d1d1c8aaee467",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.kinds.glider": {
+      "src": "8bb54eaddfa40498",
+      "tr": "f1ac03bd14589324",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.kinds.hangGlider": {
+      "src": "712c527a0bca0403",
+      "tr": "e1d16cf8566599a1",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.kinds.helicopter": {
+      "src": "0fa9e71f0805ddfb",
+      "tr": "aac8c576456f0d96",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.kinds.other": {
+      "src": "48782b8200c20118",
+      "tr": "5fde2192595f6326",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.kinds.paraglider": {
+      "src": "26ff6fed929876a8",
+      "tr": "26ff6fed929876a8",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.kinds.powered": {
+      "src": "f36cd2d0ab288c02",
+      "tr": "3dcec9eceadbe867",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.lastFix": {
+      "src": "712a2f4d12726604",
+      "tr": "40bcedd013f2b8ed",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.legend": {
+      "src": "4e8d1a7260782cb2",
+      "tr": "b1c553ee7bafc39b",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.legendHint": {
+      "src": "8866830bc0a42f08",
+      "tr": "9ac8c024754b39f1",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.loading": {
+      "src": "ba3bbbe10d8bef66",
+      "tr": "437466ccf276d8a7",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.model": {
+      "src": "5e2c614c23f02239",
+      "tr": "5e2c614c23f02239",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.outOfView": {
+      "src": "2e43ad31ffc339a3",
+      "tr": "a4ef5f602f997ba3",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.receiver": {
+      "src": "7df29faf5dec0ffb",
+      "tr": "1570d19570206a55",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.registration": {
+      "src": "c793e0d9a1cc6421",
+      "tr": "1612e13f88b42a9e",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.traceLoading": {
+      "src": "0b05558a32a3f850",
+      "tr": "084917de0f3595a3",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.traceNone": {
+      "src": "ea2381757281f55e",
+      "tr": "0c0f64325e6576a0",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.traceShown": {
+      "src": "721bc15ec93e37f1",
+      "tr": "e0ca8c1da9adcd0a",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.traceUnavailable": {
+      "src": "bb6dabf0643b794b",
+      "tr": "d280f018e8851701",
+      "by": "ai"
+    },
+    "xcPlanner.liveTraffic.type": {
+      "src": "44803922b752a146",
+      "tr": "db6d3c5db0cff868",
+      "by": "ai"
+    },
     "xcPlanner.map.airspaceNotAlongFlight": {
       "src": "7a7beea60624e6f6",
       "tr": "01487e453b73dff3",
@@ -35483,6 +35963,216 @@
     "xcPlanner.meta.title": {
       "src": "3c2f6e38bf2a71f8",
       "tr": "cee8008567420aa1",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.chartLabel": {
+      "src": "bf496e2c9ca335ec",
+      "tr": "0cffe2c2563089d7",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.disclaimer": {
+      "src": "2b15464671e8d881",
+      "tr": "adc40098b6dc13f2",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.facing": {
+      "src": "328f4e9ffdd6c711",
+      "tr": "3e82d1b1dfe1d7df",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.legend.cumulus": {
+      "src": "f20b2be43e46c35f",
+      "tr": "f20b2be43e46c35f",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.legend.freezing": {
+      "src": "fb3d8a3961450592",
+      "tr": "cf19df504a9e015e",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.legend.thermals": {
+      "src": "0c80d7ded37717b5",
+      "tr": "7621796c75b8ee30",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.legend.wind": {
+      "src": "cf940ede1df702b9",
+      "tr": "afbccb39d48c1098",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.loading": {
+      "src": "a2bce9614dd9b857",
+      "tr": "3d8ca2b0ca48119f",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.loadingSlow": {
+      "src": "fb39872c0f0315ec",
+      "tr": "ad439436e9ef5917",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.modelGround": {
+      "src": "87301f8b988d2e56",
+      "tr": "e4ec2b864678cb9b",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.noHours": {
+      "src": "edb9c1ab54767a93",
+      "tr": "f2a9f480aefb3a10",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.pointTitle": {
+      "src": "14573af1614a894c",
+      "tr": "65a248756c96214b",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.rows.gusts": {
+      "src": "763622525c57774f",
+      "tr": "4792712700018ce0",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.rows.launch": {
+      "src": "ccf56ef5db0b82a5",
+      "tr": "e4bb9f1ece9af926",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.rows.weather": {
+      "src": "a0bba63812466406",
+      "tr": "b96f4874e738c278",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.rows.wind": {
+      "src": "60217c8e42e17892",
+      "tr": "60217c8e42e17892",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.rows.wStar": {
+      "src": "72c512b89fe7ebd3",
+      "tr": "72c512b89fe7ebd3",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.source": {
+      "src": "87da85834fdff3fd",
+      "tr": "814df203df0ac834",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.subtitle": {
+      "src": "db0ccd77f1617222",
+      "tr": "ea9f669e6a5d4d6f",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.base": {
+      "src": "54a81176d3dcfc87",
+      "tr": "78f1a7f81f398201",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.blue": {
+      "src": "2cf0298f2d74fd6e",
+      "tr": "6ee338a270f303bf",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.dry": {
+      "src": "b755cb248c3c4a7d",
+      "tr": "3f97b6b0901fd403",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.gusts": {
+      "src": "876336864e0723ea",
+      "tr": "ae0d42adb873137d",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.noThermals": {
+      "src": "f11a66e4ee2b72b5",
+      "tr": "8a0c48323e16d78f",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.noWindow": {
+      "src": "4c120f48d1cbecfa",
+      "tr": "24a7e941c460f6aa",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.rain": {
+      "src": "ccf4047de2b310c8",
+      "tr": "5b9e6291164ffde9",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.window": {
+      "src": "e648f1897909bd51",
+      "tr": "0048a5a16d081173",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.summary.wStar": {
+      "src": "c0d4527abfae4cbd",
+      "tr": "c0d4527abfae4cbd",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.takeoffAt": {
+      "src": "cdec79edc3f3dbc1",
+      "tr": "5a08f51bd12ed1e8",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.base": {
+      "src": "f58a54188a830294",
+      "tr": "263488cf395746b1",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.blueTop": {
+      "src": "770eae7cfe973810",
+      "tr": "50b90ffac4b7d9a4",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.cape": {
+      "src": "3403d45dfd4968ae",
+      "tr": "3403d45dfd4968ae",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.freezing": {
+      "src": "fb3d8a3961450592",
+      "tr": "cf19df504a9e015e",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.gustsShort": {
+      "src": "a099145223feb990",
+      "tr": "4b847732a74ab935",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.jkg": {
+      "src": "3f680db209145976",
+      "tr": "3f680db209145976",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.mm": {
+      "src": "bcc375854db55849",
+      "tr": "bcc375854db55849",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.rain": {
+      "src": "a6d20aa6a4c73f0d",
+      "tr": "ab98e5d7e5cda3be",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.temp": {
+      "src": "5301e61e83b407da",
+      "tr": "c9a756c8a3c3626b",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.wind": {
+      "src": "d151346fe7eea3c6",
+      "tr": "d151346fe7eea3c6",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.wind850": {
+      "src": "51175a1d08d3a014",
+      "tr": "06d7d59921e2d9c0",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.tip.wStar": {
+      "src": "72c512b89fe7ebd3",
+      "tr": "72c512b89fe7ebd3",
+      "by": "ai"
+    },
+    "xcPlanner.meteogram.unavailable": {
+      "src": "3e0e6cbb32b7880e",
+      "tr": "2667cb27ca0676d9",
       "by": "ai"
     },
     "xcPlanner.page.loadingPlanner": {
@@ -35553,6 +36243,31 @@
     "xcPlanner.sections.flownTrack": {
       "src": "44215ded8db20b94",
       "tr": "8bfeb26f880bd758",
+      "by": "ai"
+    },
+    "xcPlanner.sections.liveTraffic": {
+      "src": "9fd866625ba6f0bd",
+      "tr": "7e7d2cfdcb5628f2",
+      "by": "ai"
+    },
+    "xcPlanner.sections.liveTrafficAll": {
+      "src": "cf88db8788d39700",
+      "tr": "e603042de0d9d866",
+      "by": "ai"
+    },
+    "xcPlanner.sections.liveTrafficHint": {
+      "src": "89025f280332c123",
+      "tr": "fed3d7cb50881dc9",
+      "by": "ai"
+    },
+    "xcPlanner.sections.liveTrafficUnavailable": {
+      "src": "390b91edb310bcdc",
+      "tr": "d9b938796db602a4",
+      "by": "ai"
+    },
+    "xcPlanner.sections.liveTrafficZoomIn": {
+      "src": "436af01abc322142",
+      "tr": "8012a02c5ab7a0cb",
       "by": "ai"
     },
     "xcPlanner.sections.loading": {
@@ -36983,8 +37698,8 @@
       "by": "ai"
     },
     "data-retention-policy": {
-      "src": "bb3ce78d27a80b04",
-      "tr": "a73cfbb0d540ccac",
+      "src": "314a84431c4c6b6b",
+      "tr": "5c00e70ea9a5c017",
       "by": "ai"
     },
     "export-igc-files": {
@@ -37082,6 +37797,11 @@
       "tr": "0f600e5010125acb",
       "by": "ai"
     },
+    "we-track-privacy-policy": {
+      "src": "eb99cb70a6c60a82",
+      "tr": "ce4c0f2cbab2ddae",
+      "by": "ai"
+    },
     "wings-management": {
       "src": "eef912230425932e",
       "tr": "55abc6c4035c9507",
@@ -37111,6 +37831,11 @@
       "tr": "db088e5c1a82389d",
       "by": "ai"
     },
+    "0124f00972b1": {
+      "src": "0124f00972b129fd",
+      "tr": "2bace738c4c7597b",
+      "by": "ai"
+    },
     "02ccbf1559a1": {
       "src": "02ccbf1559a13a7b",
       "tr": "aa5a061c55c3de0c",
@@ -37129,6 +37854,11 @@
     "062f02691ff7": {
       "src": "062f02691ff7ac9c",
       "tr": "a6e5ca68a81f1674",
+      "by": "ai"
+    },
+    "0a525b752263": {
+      "src": "0a525b752263ba09",
+      "tr": "8190b24cfda45606",
       "by": "ai"
     },
     "0b9b2eaff76e": {
@@ -37154,6 +37884,11 @@
     "12c788f0e704": {
       "src": "12c788f0e70447b5",
       "tr": "d1b1e21dfc309100",
+      "by": "ai"
+    },
+    "130aef253080": {
+      "src": "130aef2530807a14",
+      "tr": "b6dae88f736a2a10",
       "by": "ai"
     },
     "16e88c1baccf": {
@@ -37251,6 +37986,11 @@
       "tr": "1d656acb56b1ccf0",
       "by": "ai"
     },
+    "405960eb71aa": {
+      "src": "405960eb71aa8f48",
+      "tr": "ebd4321eeb425cd7",
+      "by": "ai"
+    },
     "412df92cf39c": {
       "src": "412df92cf39c4717",
       "tr": "642cc0fc0bc94fea",
@@ -37281,6 +38021,11 @@
       "tr": "3164e2be48603954",
       "by": "ai"
     },
+    "578dbf97cd0a": {
+      "src": "578dbf97cd0ad6f2",
+      "tr": "fa4a7aef4210625b",
+      "by": "ai"
+    },
     "592352c06634": {
       "src": "592352c06634fd3c",
       "tr": "a3973fb46ba1b19c",
@@ -37294,6 +38039,11 @@
     "5d346b75be92": {
       "src": "5d346b75be920a85",
       "tr": "49a7173633cc0234",
+      "by": "ai"
+    },
+    "5db4b5c4aae6": {
+      "src": "5db4b5c4aae63260",
+      "tr": "bda5660fc6ee1248",
       "by": "ai"
     },
     "5fbc1726c5bd": {
@@ -37396,6 +38146,11 @@
       "tr": "fae80fd256d8e74f",
       "by": "ai"
     },
+    "9200e97424cb": {
+      "src": "9200e97424cb5ae1",
+      "tr": "9951a80410c08c53",
+      "by": "ai"
+    },
     "95182e0cce8e": {
       "src": "95182e0cce8e4e0b",
       "tr": "30f10fe9ec2e14f3",
@@ -37436,6 +38191,11 @@
       "tr": "74d627725670211a",
       "by": "ai"
     },
+    "b4bba26dac92": {
+      "src": "b4bba26dac9278be",
+      "tr": "01c871cc160fbd5e",
+      "by": "ai"
+    },
     "b6e56c2816b4": {
       "src": "b6e56c2816b4551b",
       "tr": "bdb2090f10a27eaa",
@@ -37461,6 +38221,11 @@
       "tr": "f632fd68b6ec1ec7",
       "by": "ai"
     },
+    "c0bd4dcc3408": {
+      "src": "c0bd4dcc3408a98a",
+      "tr": "35016c65937e2917",
+      "by": "ai"
+    },
     "c222e9a3633a": {
       "src": "c222e9a3633a4ef4",
       "tr": "ff58c5b73debbfaf",
@@ -37479,6 +38244,11 @@
     "c8156bc5d2e2": {
       "src": "c8156bc5d2e29ec1",
       "tr": "54b48f114ad4db5d",
+      "by": "ai"
+    },
+    "c8ab2dcc766d": {
+      "src": "c8ab2dcc766d4199",
+      "tr": "42fa2c2a5b9750bf",
       "by": "ai"
     },
     "c90a0f4c14e2": {
@@ -37586,6 +38356,11 @@
       "tr": "8aec551cbe5c26d1",
       "by": "ai"
     },
+    "ef03062866f6": {
+      "src": "ef03062866f636d1",
+      "tr": "f75b7756dc598817",
+      "by": "ai"
+    },
     "efa895984e44": {
       "src": "efa895984e44b679",
       "tr": "11f34c22f8e287ef",
@@ -37599,6 +38374,16 @@
     "f3e6e4a8fa32": {
       "src": "f3e6e4a8fa32e123",
       "tr": "dd7e9ea488829dfb",
+      "by": "ai"
+    },
+    "f47d2702e0a9": {
+      "src": "f47d2702e0a9d39e",
+      "tr": "2a2ad7e229739ff9",
+      "by": "ai"
+    },
+    "f64cc7252ea0": {
+      "src": "f64cc7252ea0f106",
+      "tr": "0cb4ad39cb3495db",
       "by": "ai"
     },
     "f6b3d301dc23": {

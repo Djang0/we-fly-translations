@@ -111,7 +111,9 @@
     "youAreHere": "Du bist hier",
     "elevationAsl": "{altitude} MSL",
     "facing": "Ausrichtung: {bearing}",
-    "zoomForFlyable": "Hineinzoomen, um nur fliegbare Startplätze zu zeigen"
+    "zoomForFlyable": "Hineinzoomen, um nur fliegbare Startplätze zu zeigen",
+    "meteogram": "Meteogramm",
+    "showForecast": "Startplatz-Prognose"
   },
   "detail": {
     "back": "Zurück",

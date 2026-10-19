@@ -152,6 +152,21 @@ Dit beleid geldt voor alle persoonsgegevens die We-Fly verzamelt, verwerkt en op
 
 **Belangrijk:** gebruikers die om onmiddellijke en volledige wissing van hun gegevens vragen, moeten worden geïnformeerd dat verwijderde gegevens tot 7 dagen in back-ups kunnen blijven staan. Na deze periode zijn de gegevens definitief onherstelbaar.
 
+### 2.9 Opgeslagen luchtruimbestanden
+
+**Bewaartermijn:** 30 dagen vanaf het moment dat je het bestand opslaat
+
+**Rechtsgrond:** uitvoering van de overeenkomst (de planningsdienst waar je om vroeg)
+
+**Beschrijving:** aan het einde van de XC-planner kun je het OpenAir-luchtruimbestand dat je hebt samengesteld opslaan onder een naam naar keuze. Het is alleen voor jou zichtbaar, en de apps en instrumenten die je met de luchtruimtoestemming aan je account hebt gekoppeld, kunnen het downloaden.
+
+**Automatische verwijdering:** elk bestand wordt 30 dagen na het opslaan automatisch verwijderd en vanaf dat moment niet meer aangeboden. Je kunt het eerder verwijderen vanuit de planner. Als je je account verwijdert, worden ze allemaal verwijderd.
+
+**Betrokken gegevens:**
+- De bestandsnaam die je koos en de geplande vluchtdatum
+- De OpenAir-tekst (de luchtruimen en NOTAMs die je selecteerde)
+- De OpenAir-versie, de grootte en het tijdstip van opslaan
+
 ## 3. Verwijderingsprocedures
 
 ### 3.1 Verwijdering van het account door de gebruiker

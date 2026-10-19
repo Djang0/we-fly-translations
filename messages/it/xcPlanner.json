@@ -77,6 +77,11 @@
   },
   "sections": {
     "overlays": "Sovrapposizioni",
+    "liveTraffic": "Traffico live",
+    "liveTrafficAll": "Includi aerei a motore ed elicotteri",
+    "liveTrafficHint": "Velivoli che trasmettono FLARM o OGN, aggiornati ogni 15 s quando ingrandisci. Dati: <ogn>Open Glider Network</ogn>. Non tutti i piloti sono visibili: continua a guardarti intorno.",
+    "liveTrafficZoomIn": "Ingrandisci per vedere il traffico live.",
+    "liveTrafficUnavailable": "Il traffico live non è disponibile al momento.",
     "task": "Task",
     "route": "Percorso",
     "durationHm": "{hours} h {minutes} min",
@@ -212,7 +217,8 @@
     "seeAirspaces": "Vedi gli spazi aerei ({count})",
     "seeNotams": "Vedi i NOTAM ({count})",
     "remove": "Rimuovi {name}",
-    "waypointN": "waypoint {n}"
+    "waypointN": "waypoint {n}",
+    "meteogram": "Meteogramma qui"
   },
   "map": {
     "waypointN": "Waypoint {n}",
@@ -283,6 +289,154 @@
       "invalidRadius": "Il raggio della boa \"{name}\" deve essere tra 1 e {max} m.",
       "invalidTime": "Un orario di apertura della partenza o di chiusura non è valido.",
       "invalidStructure": "Questo task è incompleto o non ha la struttura prevista."
+    },
+    "airspaceFile": {
+      "signIn": "Accedi per salvare i file degli spazi aerei.",
+      "invalidName": "Dai prima un nome al file.",
+      "invalidVersion": "Scegli OpenAir v1 o v2.1.",
+      "invalidDate": "La data del volo non è valida.",
+      "empty": "Il file è vuoto. Seleziona prima almeno uno spazio aereo o un NOTAM.",
+      "tooLarge": "Il file è troppo grande da salvare (massimo {size}).",
+      "invalidContent": "Il file non contiene nessuno spazio aereo leggibile.",
+      "tooMany": "Hai già {max} file salvati. Eliminane uno o aspetta che scada il più vecchio.",
+      "saveFailed": "Impossibile salvare il file. Riprova.",
+      "loadFailed": "Impossibile caricare i tuoi file salvati.",
+      "deleteFailed": "Impossibile eliminare il file. Riprova.",
+      "notFound": "Questo file non esiste più. Forse è scaduto.",
+      "consentRequired": "Completa la configurazione del tuo account (consenso privacy) per salvare i file."
     }
+  },
+  "forecast": {
+    "title": "Previsioni decolli",
+    "hint": "I decolli visibili sono valutati per il giorno e l'ora scelti in base al vento alla quota di decollo, alle raffiche, alla pioggia e al rischio di temporali. Ingrandisci per vederli. Clic destro o pressione prolungata in un punto qualsiasi della mappa per il suo meteogramma.",
+    "hide": "Nascondi le previsioni decolli",
+    "play": "Avvia le previsioni",
+    "pause": "Pausa",
+    "zoomIn": "Ingrandisci per valutare i decolli",
+    "unavailable": "Previsioni non disponibili al momento",
+    "loading": "Caricamento delle previsioni da Open-Meteo…",
+    "count": {
+      "good": "{count} buoni",
+      "marginal": "{count} al limite",
+      "unsuitable": "{count} non adatti"
+    },
+    "verdict": {
+      "good": "Buono",
+      "marginal": "Al limite",
+      "unsuitable": "Non adatto"
+    },
+    "reason": {
+      "gustsTooStrong": "raffiche {speed}, troppo forti",
+      "windTooStrong": "vento {speed}, troppo forte",
+      "lightWind": "vento debole, decollo in termica possibile",
+      "bearingUnknown": "orientamento del sito sconosciuto",
+      "strongWindBearingUnknown": "vento forte, orientamento del sito sconosciuto",
+      "favorable": "vento frontale sul pendio",
+      "crosswind": "vento al traverso, decolla con attenzione",
+      "tailwind": "vento in coda o forte vento al traverso",
+      "rain": "pioggia debole",
+      "showers": "rovesci",
+      "stormRisk": "rischio di temporali",
+      "thunderstorm": "temporali probabili"
+    },
+    "unnamed": "Decollo senza nome",
+    "facing": "esposto a {bearing}",
+    "windLine": "Vento {wind} da {dir}, raffiche {gusts}",
+    "noData": "Nessuna previsione per questo decollo",
+    "meteogramHint": "Clic destro o pressione prolungata per il meteogramma",
+    "timeline": "Ora della previsione",
+    "model": "Open-Meteo, modello ottimale",
+    "sunTimes": "Alba {rise} · Tramonto {set}",
+    "legend": {
+      "day": "Giorno",
+      "twilight": "Crepuscolo",
+      "night": "Notte",
+      "sunrise": "Alba",
+      "sunset": "Tramonto"
+    }
+  },
+  "meteogram": {
+    "pointTitle": "Meteogramma {lat}, {lng}",
+    "subtitle": "Previsioni a cinque giorni per questo punto",
+    "takeoffAt": "Decollo {elevation}",
+    "facing": "esposto a {bearing}",
+    "modelGround": "suolo del modello {elevation}",
+    "loading": "Caricamento delle previsioni da Open-Meteo…",
+    "loadingSlow": "Open-Meteo, il nostro fornitore gratuito di previsioni, è molto occupato in questo momento. Caricamento in corso, può richiedere qualche secondo…",
+    "unavailable": "Le previsioni non sono disponibili al momento. Riprova tra qualche minuto.",
+    "noHours": "Nessuna previsione per questo giorno.",
+    "chartLabel": "Meteogramma: vento in quota, termiche, base delle nubi, zero termico e vento al suolo ora per ora",
+    "source": "Previsioni: {models} tramite Open-Meteo.",
+    "disclaimer": "È una previsione del modello, non un briefing: controlla le condizioni locali prima di volare.",
+    "summary": {
+      "base": "Base delle nubi fino a {value}",
+      "blue": "Termiche blu fino a {value}",
+      "wStar": "w* max {value}",
+      "gusts": "raffiche fino a {value}",
+      "rain": "pioggia {value} mm",
+      "dry": "asciutto",
+      "window": "finestra di decollo dalle {from} alle {to}",
+      "noWindow": "nessuna ora buona per decollare",
+      "noThermals": "Nessuna termica sfruttabile"
+    },
+    "rows": {
+      "weather": "Meteo",
+      "wStar": "w*",
+      "launch": "Decollo",
+      "wind": "Vento {unit}",
+      "gusts": "Raffiche"
+    },
+    "tip": {
+      "temp": "Temp. / rugiada",
+      "base": "Base delle nubi",
+      "blueTop": "Top delle termiche",
+      "wStar": "w*",
+      "freezing": "Zero termico",
+      "wind": "Vento",
+      "gustsShort": "raffiche {value}",
+      "wind850": "Vento 1.500 m",
+      "rain": "Pioggia",
+      "mm": "{value} mm",
+      "cape": "CAPE",
+      "jkg": "{value} J/kg"
+    },
+    "legend": {
+      "thermals": "Termiche",
+      "cumulus": "Cumuli",
+      "freezing": "Zero termico",
+      "wind": "Vento in quota"
+    }
+  },
+  "liveTraffic": {
+    "legend": "Simboli",
+    "legendHint": "Tocca un velivolo per vederne i dettagli e la traccia di oggi.",
+    "kinds": {
+      "paraglider": "Parapendio",
+      "hangGlider": "Deltaplano",
+      "glider": "Aliante",
+      "powered": "Aereo a motore",
+      "helicopter": "Elicottero",
+      "other": "Altro o sconosciuto"
+    },
+    "type": "{code, select, 1 {Aliante o motoaliante} 2 {Aereo trainatore} 3 {Elicottero} 4 {Paracadutista} 5 {Aereo per lanci} 6 {Deltaplano} 7 {Parapendio} 8 {Aereo a motore} 9 {Jet} 11 {Mongolfiera} 12 {Dirigibile} 13 {Drone} other {Tipo di velivolo sconosciuto}}",
+    "anonymous": "Anonimo",
+    "anonymousHint": "Questo pilota ha scelto di non farsi identificare su OGN.",
+    "close": "Chiudi i dettagli del velivolo",
+    "model": "Modello",
+    "registration": "Immatricolazione",
+    "competitionId": "Sigla di gara",
+    "altitude": "Quota",
+    "climb": "Salita",
+    "groundSpeed": "Velocità al suolo",
+    "lastFix": "Ultimo fix",
+    "ageSeconds": "{seconds, plural, one {# s fa} other {# s fa}}",
+    "ageMinutes": "{minutes, plural, one {# min fa} other {# min fa}}",
+    "receiver": "Ricevuto da",
+    "loading": "Caricamento…",
+    "traceLoading": "Caricamento della traccia di oggi…",
+    "traceShown": "La traccia di oggi è disegnata sulla mappa e sfuma andando indietro nel tempo.",
+    "traceNone": "OGN non ha nessuna traccia di questo velivolo per oggi.",
+    "traceUnavailable": "La traccia non è disponibile al momento.",
+    "outOfView": "Assente dall'ultimo aggiornamento: ne mostriamo l'ultima posizione nota."
   }
 }

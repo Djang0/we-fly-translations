@@ -37,7 +37,22 @@
     "download": "Télécharger le fichier OpenAir",
     "selectFirst": "Sélectionne d’abord au moins un espace aérien ou un NOTAM (étapes 2 et 3).",
     "exported": "{count, plural, one {# zone exportée} other {# zones exportées}} en OpenAir {version}.",
-    "exportFailed": "Impossible de créer le fichier OpenAir. Réessaie."
+    "exportFailed": "Impossible de créer le fichier OpenAir. Réessaie.",
+    "save": "Enregistrer dans mon compte",
+    "saving": "Enregistrement…",
+    "saveHint": "Conservé {days, plural, one {# jour} other {# jours}} sous le nom ci-dessus, puis supprimé. Les instruments et applis connectés à ton compte peuvent le télécharger.",
+    "signInToSave": "Connecte-toi pour garder ce fichier dans ton compte pendant {days, plural, one {# jour} other {# jours}}.",
+    "savedToast": "« {name} » est enregistré. Il reste disponible {days, plural, one {# jour} other {# jours}}.",
+    "saved": {
+      "title": "Fichiers enregistrés",
+      "loading": "Chargement de tes fichiers enregistrés…",
+      "meta": "OpenAir {version} · {count, plural, one {# zone} other {# zones}} · expire le {expires}",
+      "download": "Télécharger {name}",
+      "delete": "Supprimer {name}",
+      "deleted": "« {name} » est supprimé.",
+      "apiHint": "Les outils connectés récupèrent ces fichiers via l’<link>API We-Fly</link>."
+    },
+    "consentToSave": "Termine la configuration de ton compte (consentement vie privée) pour enregistrer des fichiers."
   },
   "weather": {
     "title": "Météo",

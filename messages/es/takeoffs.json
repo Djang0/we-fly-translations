@@ -111,7 +111,9 @@
     "youAreHere": "Estás aquí",
     "elevationAsl": "{altitude} s. n. m.",
     "facing": "Orientación: {bearing}",
-    "zoomForFlyable": "Acerca el mapa para ver solo los despegues volables"
+    "zoomForFlyable": "Acerca el mapa para ver solo los despegues volables",
+    "meteogram": "Meteograma",
+    "showForecast": "Previsión de despegue"
   },
   "detail": {
     "back": "Volver",

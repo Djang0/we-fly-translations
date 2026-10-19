@@ -152,6 +152,21 @@ Esta política se aplica a todos los datos personales recogidos, tratados y alma
 
 **Importante:** debe informarse a los usuarios que soliciten una supresión inmediata y completa de sus datos de que los datos suprimidos pueden permanecer en las copias de seguridad hasta 7 días. Transcurrido este plazo, los datos son irrecuperables de forma permanente.
 
+### 2.9 Archivos de espacio aéreo guardados
+
+**Plazo de conservación:** 30 días desde el momento en que guardas el archivo
+
+**Base jurídica:** ejecución del contrato (el servicio de preparación de vuelo que solicitaste)
+
+**Descripción:** al final del planificador XC puedes guardar, con el nombre que elijas, el archivo de espacio aéreo OpenAir que has preparado. Es privado y solo pueden descargarlo las apps e instrumentos que conectaste a tu cuenta con el permiso de espacio aéreo.
+
+**Supresión automática:** cada archivo se suprime automáticamente 30 días después de guardarlo y deja de servirse desde ese momento. Puedes borrarlo antes desde el planificador. Al eliminar tu cuenta se suprimen todos.
+
+**Datos incluidos:**
+- El nombre de archivo que elegiste y la fecha prevista del vuelo
+- El texto OpenAir (los espacios aéreos y NOTAM que elegiste)
+- La versión OpenAir, el tamaño y la fecha en que se guardó
+
 ## 3. Procedimientos de supresión
 
 ### 3.1 Supresión de la cuenta a iniciativa del usuario

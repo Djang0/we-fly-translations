@@ -152,6 +152,21 @@ Diese Richtlinie gilt für alle personenbezogenen Daten, die We-Fly erhebt, vera
 
 **Wichtig:** Nutzer, die eine sofortige und vollständige Löschung ihrer Daten verlangen, sind darauf hinzuweisen, dass gelöschte Daten bis zu 7 Tage lang in Sicherungen verbleiben können. Nach Ablauf dieser Frist sind die Daten endgültig nicht mehr wiederherstellbar.
 
+### 2.9 Gespeicherte Luftraumdateien
+
+**Aufbewahrungsfrist:** 30 Tage ab dem Zeitpunkt, an dem du die Datei speicherst
+
+**Rechtsgrundlage:** Vertragserfüllung (der Planungsdienst, den du angefordert hast)
+
+**Beschreibung:** Am Ende des XC-Planers kannst du die OpenAir-Luftraumdatei, die du erstellt hast, unter einem Namen deiner Wahl speichern. Sie ist privat, und die Apps und Fluginstrumente, die du mit der Luftraum-Berechtigung mit deinem Konto verbunden hast, können sie herunterladen.
+
+**Automatische Löschung:** Jede Datei wird 30 Tage nach dem Speichern automatisch gelöscht und ab diesem Moment nicht mehr ausgeliefert. Du kannst sie vorher im Planer löschen. Wenn du dein Konto löschst, werden alle Dateien gelöscht.
+
+**Enthaltene Daten:**
+- Der von dir gewählte Dateiname und das geplante Flugdatum
+- Der OpenAir-Text (die Lufträume und NOTAMs, die du ausgewählt hast)
+- Die OpenAir-Version, die Größe und der Zeitpunkt des Speicherns
+
 ## 3. Löschverfahren
 
 ### 3.1 Kontolöschung durch den Nutzer

@@ -77,6 +77,11 @@
   },
   "sections": {
     "overlays": "Calques",
+    "liveTraffic": "Trafic en direct",
+    "liveTrafficAll": "Inclure les avions à moteur et les hélicoptères",
+    "liveTrafficHint": "Les aéronefs qui émettent en FLARM ou OGN, actualisés toutes les 15 s une fois que tu as zoomé. Données : <ogn>Open Glider Network</ogn>. Tous les pilotes ne sont pas visibles, alors garde l’œil dehors.",
+    "liveTrafficZoomIn": "Zoome pour voir le trafic en direct.",
+    "liveTrafficUnavailable": "Le trafic en direct est indisponible pour le moment.",
     "task": "Manche",
     "route": "Route",
     "durationHm": "{hours} h {minutes} min",
@@ -212,7 +217,8 @@
     "seeAirspaces": "Voir les espaces aériens ({count})",
     "seeNotams": "Voir les NOTAM ({count})",
     "remove": "Retirer {name}",
-    "waypointN": "le waypoint {n}"
+    "waypointN": "le waypoint {n}",
+    "meteogram": "Météogramme ici"
   },
   "map": {
     "waypointN": "Waypoint {n}",
@@ -283,6 +289,154 @@
       "invalidRadius": "Le rayon de la balise « {name} » doit être compris entre 1 et {max} m.",
       "invalidTime": "Une heure de départ ou une heure limite n’est pas valide.",
       "invalidStructure": "Cette manche est incomplète ou n’a pas la structure attendue."
+    },
+    "airspaceFile": {
+      "signIn": "Connecte-toi pour enregistrer des fichiers d’espaces aériens.",
+      "invalidName": "Donne d’abord un nom au fichier.",
+      "invalidVersion": "Choisis OpenAir v1 ou v2.1.",
+      "invalidDate": "La date du vol n’est pas valide.",
+      "empty": "Le fichier est vide. Sélectionne d’abord au moins un espace aérien ou un NOTAM.",
+      "tooLarge": "Le fichier est trop lourd pour être enregistré ({size} maximum).",
+      "invalidContent": "Le fichier ne contient aucun espace aérien lisible.",
+      "tooMany": "Tu as déjà {max} fichiers enregistrés. Supprimes-en un ou attends que le plus ancien expire.",
+      "saveFailed": "Impossible d’enregistrer le fichier. Réessaie.",
+      "loadFailed": "Impossible de charger tes fichiers enregistrés.",
+      "deleteFailed": "Impossible de supprimer le fichier. Réessaie.",
+      "notFound": "Ce fichier n’existe plus. Il a peut-être expiré.",
+      "consentRequired": "Termine la configuration de ton compte (consentement vie privée) pour enregistrer des fichiers."
     }
+  },
+  "forecast": {
+    "title": "Prévision des décollages",
+    "hint": "Les décollages visibles sont évalués pour le jour et l’heure choisis d’après le vent à l’altitude du décollage, les rafales, la pluie et le risque d’orage. Zoome pour les voir. Clic droit ou appui long n’importe où sur la carte pour le météogramme de ce point.",
+    "hide": "Masquer la prévision des décollages",
+    "play": "Faire défiler la prévision",
+    "pause": "Pause",
+    "zoomIn": "Zoome pour évaluer les décollages",
+    "unavailable": "Prévision indisponible pour le moment",
+    "loading": "Chargement de la prévision Open-Meteo…",
+    "count": {
+      "good": "{count, plural, one {# volable} other {# volables}}",
+      "marginal": "{count, plural, one {# limite} other {# limites}}",
+      "unsuitable": "{count, plural, one {# pas volable} other {# pas volables}}"
+    },
+    "verdict": {
+      "good": "Volable",
+      "marginal": "Limite",
+      "unsuitable": "Pas volable"
+    },
+    "reason": {
+      "gustsTooStrong": "rafales {speed}, trop fort",
+      "windTooStrong": "vent {speed}, trop fort",
+      "lightWind": "vent faible, décollage en thermique possible",
+      "bearingUnknown": "orientation du site inconnue",
+      "strongWindBearingUnknown": "vent fort, orientation du site inconnue",
+      "favorable": "vent dans la pente",
+      "crosswind": "vent de travers, décolle prudemment",
+      "tailwind": "vent arrière ou fort vent de travers",
+      "rain": "pluie faible",
+      "showers": "averses",
+      "stormRisk": "risque d’orage",
+      "thunderstorm": "orages probables"
+    },
+    "unnamed": "Décollage sans nom",
+    "facing": "orienté {bearing}",
+    "windLine": "Vent {wind} du {dir}, rafales {gusts}",
+    "noData": "Pas de prévision pour ce décollage",
+    "meteogramHint": "Clic droit ou appui long pour le météogramme",
+    "timeline": "Heure de la prévision",
+    "model": "Open-Meteo, meilleur modèle",
+    "sunTimes": "Lever {rise} · coucher {set}",
+    "legend": {
+      "day": "Jour",
+      "twilight": "Crépuscule",
+      "night": "Nuit",
+      "sunrise": "Lever du soleil",
+      "sunset": "Coucher du soleil"
+    }
+  },
+  "meteogram": {
+    "pointTitle": "Météogramme {lat} ; {lng}",
+    "subtitle": "Prévision sur cinq jours pour ce point",
+    "takeoffAt": "Décollage {elevation}",
+    "facing": "orienté {bearing}",
+    "modelGround": "sol du modèle {elevation}",
+    "loading": "Chargement de la prévision Open-Meteo…",
+    "loadingSlow": "Open-Meteo, notre fournisseur de prévisions gratuit, est très sollicité en ce moment. Ça charge encore, ça peut prendre quelques secondes…",
+    "unavailable": "La prévision est indisponible pour le moment. Réessaie dans quelques minutes.",
+    "noHours": "Pas de prévision pour ce jour.",
+    "chartLabel": "Météogramme : vent en altitude, thermiques, plafond, isotherme 0 °C et vent au sol, heure par heure",
+    "source": "Prévision : {models} via Open-Meteo.",
+    "disclaimer": "Une prévision de modèle, pas un briefing : vérifie les conditions sur place avant de voler.",
+    "summary": {
+      "base": "Plafond jusqu’à {value}",
+      "blue": "Thermiques bleus jusqu’à {value}",
+      "wStar": "w* max {value}",
+      "gusts": "rafales jusqu’à {value}",
+      "rain": "pluie {value} mm",
+      "dry": "sec",
+      "window": "créneau de décollage de {from} à {to}",
+      "noWindow": "pas de bon créneau pour décoller",
+      "noThermals": "Pas de thermiques exploitables"
+    },
+    "rows": {
+      "weather": "Météo",
+      "wStar": "w*",
+      "launch": "Décollage",
+      "wind": "Vent {unit}",
+      "gusts": "Rafales"
+    },
+    "tip": {
+      "temp": "Temp. / rosée",
+      "base": "Plafond",
+      "blueTop": "Sommet des thermiques",
+      "wStar": "w*",
+      "freezing": "Isotherme 0 °C",
+      "wind": "Vent",
+      "gustsShort": "rafales {value}",
+      "wind850": "Vent à 1 500 m",
+      "rain": "Pluie",
+      "mm": "{value} mm",
+      "cape": "CAPE",
+      "jkg": "{value} J/kg"
+    },
+    "legend": {
+      "thermals": "Thermiques",
+      "cumulus": "Cumulus",
+      "freezing": "Isotherme 0 °C",
+      "wind": "Vent en altitude"
+    }
+  },
+  "liveTraffic": {
+    "legend": "Symboles",
+    "legendHint": "Touche un aéronef pour voir sa fiche et sa trace du jour.",
+    "kinds": {
+      "paraglider": "Parapente",
+      "hangGlider": "Delta",
+      "glider": "Planeur",
+      "powered": "Avion à moteur",
+      "helicopter": "Hélicoptère",
+      "other": "Autre ou inconnu"
+    },
+    "type": "{code, select, 1 {Planeur ou motoplaneur} 2 {Remorqueur} 3 {Hélicoptère} 4 {Parachutiste} 5 {Avion largueur} 6 {Delta} 7 {Parapente} 8 {Avion à moteur} 9 {Jet} 11 {Ballon} 12 {Dirigeable} 13 {Drone} other {Type d’aéronef inconnu}}",
+    "anonymous": "Anonyme",
+    "anonymousHint": "Ce pilote a choisi de ne pas être identifié sur OGN.",
+    "close": "Fermer la fiche de l’aéronef",
+    "model": "Modèle",
+    "registration": "Immatriculation",
+    "competitionId": "Numéro de concours",
+    "altitude": "Altitude",
+    "climb": "Vario",
+    "groundSpeed": "Vitesse sol",
+    "lastFix": "Dernier point",
+    "ageSeconds": "{seconds, plural, one {il y a # s} other {il y a # s}}",
+    "ageMinutes": "{minutes, plural, one {il y a # min} other {il y a # min}}",
+    "receiver": "Capté par",
+    "loading": "Chargement…",
+    "traceLoading": "Chargement de la trace du jour…",
+    "traceShown": "La trace du jour est dessinée sur la carte et s’estompe avec le temps.",
+    "traceNone": "OGN n’a pas de trace pour cet aéronef aujourd’hui.",
+    "traceUnavailable": "La trace n’est pas disponible pour le moment.",
+    "outOfView": "Absent de la dernière mise à jour : on affiche sa dernière position connue."
   }
 }

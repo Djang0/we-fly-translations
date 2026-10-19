@@ -827,3 +827,93 @@ terms:
     es: planeo directo
   "other apps' menus (XContest, Flyskyhy, SeeYou, FolderSync...)":
     note: "Keep their own labels as they appear on screen (often English); do not invent translations."
+  "live traffic (OGN/FLARM map layer)":
+    fr: trafic en direct
+    de: Live-Verkehr
+    nl: live verkeer
+    it: traffico live
+    es: tráfico en directo
+  "aircraft (any traffic target, live traffic)":
+    fr: aéronef
+    de: Luftfahrzeug
+    nl: toestel
+    it: velivolo
+    es: aeronave
+  "glider (sailplane, never a paraglider)":
+    fr: planeur
+    de: Segelflugzeug
+    nl: zweefvliegtuig
+    it: aliante
+    es: velero
+    note: "Not the same as 'glider (generic, as in glider model)', which is the pilot's wing."
+  "hang glider (the aircraft)":
+    fr: delta
+    de: Hängegleiter
+    nl: deltavlieger
+    it: deltaplano
+    es: ala delta
+  "registration (aircraft)":
+    fr: immatriculation
+    de: Kennzeichen
+    nl: registratie
+    it: immatricolazione
+    es: matrícula
+  meteogram:
+    fr: météogramme
+    de: Meteogramm
+    nl: meteogram
+    it: meteogramma
+    es: meteograma
+  "launch forecast (takeoffs rated by the forecast)":
+    fr: prévision des décollages
+    de: Startplatz-Prognose
+    nl: startverwachting
+    it: previsioni decolli
+    es: previsión de despegue
+  "launch window (forecast hours a takeoff works)":
+    fr: créneau de décollage
+    de: startbar
+    nl: startvenster
+    it: finestra di decollo
+    es: ventana de despegue
+    note: "de: never 'Startfenster', which is the competition start gate (flight.json)."
+  freezing level:
+    fr: isotherme 0 °C
+    de: Nullgradgrenze
+    nl: nulgradengrens
+    it: zero termico
+    es: nivel de congelación
+  winds aloft:
+    fr: vent en altitude
+    de: Höhenwind
+    nl: wind op hoogte
+    it: vento in quota
+    es: viento en altura
+  gusts:
+    fr: rafales
+    de: Böen
+    nl: windstoten
+    it: raffiche
+    es: rachas
+    note: "nl: 'stoten' in tight labels."
+  "blue thermals (no cumulus)":
+    fr: thermiques bleus
+    de: Blauthermik
+    nl: blauwe thermiek
+    it: termiche blu
+    es: térmicas azules
+  "thermal top (blue day)":
+    fr: sommet des thermiques
+    de: Thermikobergrenze
+    nl: thermiektop
+    it: top delle termiche
+    es: techo térmico
+  "wind stick (barbed wind arrow on the map)":
+    fr: manche à air
+    de: Windpfeil
+    nl: windpijl
+    it: manica a vento
+    es: flecha de viento
+    note: "es: never 'manga de viento', 'manga' is the competition task."
+  "w* (thermal strength)":
+    keep: true

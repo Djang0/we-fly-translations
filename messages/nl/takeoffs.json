@@ -111,7 +111,9 @@
     "youAreHere": "Je bent hier",
     "elevationAsl": "{altitude} boven zeeniveau",
     "facing": "Oriëntatie: {bearing}",
-    "zoomForFlyable": "Zoom in om alleen vliegbare startplaatsen te zien"
+    "zoomForFlyable": "Zoom in om alleen vliegbare startplaatsen te zien",
+    "meteogram": "Meteogram",
+    "showForecast": "Startverwachting"
   },
   "detail": {
     "back": "Terug",

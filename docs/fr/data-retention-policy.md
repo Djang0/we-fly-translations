@@ -152,6 +152,21 @@ Cette politique s’applique à toutes les données personnelles collectées, tr
 
 **Important :** les utilisateurs qui demandent un effacement immédiat et complet de leurs données doivent être informés que les données supprimées peuvent rester dans les sauvegardes jusqu’à 7 jours. Passé ce délai, les données sont définitivement irrécupérables.
 
+### 2.9 Fichiers d’espaces aériens enregistrés
+
+**Durée de conservation :** 30 jours à compter de l’enregistrement du fichier
+
+**Base légale :** exécution du contrat (le service de préparation de vol que tu as demandé)
+
+**Description :** à la fin du Planificateur XC, tu peux enregistrer sous le nom de ton choix le fichier d’espaces aériens OpenAir que tu as préparé. Il est privé et seuls les applications et instruments connectés à ton compte avec l’autorisation espaces aériens peuvent le télécharger.
+
+**Suppression automatique :** chaque fichier est supprimé automatiquement 30 jours après son enregistrement et n’est plus servi à partir de ce moment. Tu peux le supprimer plus tôt depuis le planificateur. Supprimer ton compte les supprime tous.
+
+**Données concernées :**
+- Le nom de fichier que tu as choisi et la date de vol prévue
+- Le texte OpenAir (les espaces aériens et NOTAM que tu as choisis)
+- La version OpenAir, la taille et la date d’enregistrement
+
 ## 3. Procédures de suppression
 
 ### 3.1 Suppression du compte à l’initiative de l’utilisateur

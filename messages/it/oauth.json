@@ -98,7 +98,7 @@
     },
     "airspaceRead": {
       "label": "Leggere i dati dello spazio aereo",
-      "description": "Scaricare le regioni di spazio aereo e le attivazioni temporanee per l'uso offline."
+      "description": "Scaricare le regioni di spazio aereo, le attivazioni temporanee e i file OpenAir salvati nel pianificatore XC, per l'uso offline."
     },
     "liveWrite": {
       "label": "Inviare la tua posizione e lanciare allarmi",

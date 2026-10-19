@@ -111,7 +111,9 @@
     "youAreHere": "You are here",
     "elevationAsl": "{altitude} ASL",
     "facing": "Facing: {bearing}",
-    "zoomForFlyable": "Zoom in to show only flyable takeoffs"
+    "zoomForFlyable": "Zoom in to show only flyable takeoffs",
+    "meteogram": "Meteogram",
+    "showForecast": "Launch forecast"
   },
   "detail": {
     "back": "Back",

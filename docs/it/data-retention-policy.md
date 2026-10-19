@@ -152,6 +152,21 @@ La presente politica si applica a tutti i dati personali raccolti, trattati e co
 
 **Importante:** gli utenti che chiedono una cancellazione immediata e completa dei dati devono essere informati che i dati eliminati possono restare nei backup per un massimo di 7 giorni. Trascorso questo periodo, i dati sono definitivamente irrecuperabili.
 
+### 2.9 File degli spazi aerei salvati
+
+**Periodo di conservazione:** 30 giorni dal momento in cui salvi il file
+
+**Base giuridica:** esecuzione del contratto (il servizio di pianificazione che hai richiesto)
+
+**Descrizione:** alla fine del pianificatore XC puoi salvare il file OpenAir degli spazi aerei che hai creato, con un nome a tua scelta. Il file è visibile solo a te, e le app e gli strumenti che hai collegato al tuo account con l’autorizzazione per gli spazi aerei possono scaricarlo.
+
+**Eliminazione automatica:** ogni file viene eliminato automaticamente 30 giorni dopo il salvataggio e da quel momento non viene più fornito. Puoi eliminarlo prima dal pianificatore. L’eliminazione del tuo account li elimina tutti.
+
+**Dati inclusi:**
+- Il nome del file che hai scelto e la data del volo pianificato
+- Il testo OpenAir (gli spazi aerei e i NOTAM che hai selezionato)
+- La versione OpenAir, la dimensione e la data di salvataggio
+
 ## 3. Procedure di cancellazione
 
 ### 3.1 Eliminazione dell’account da parte dell’utente

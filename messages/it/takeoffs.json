@@ -111,7 +111,9 @@
     "youAreHere": "Sei qui",
     "elevationAsl": "{altitude} s.l.m.",
     "facing": "Esposizione: {bearing}",
-    "zoomForFlyable": "Ingrandisci per vedere solo i decolli volabili"
+    "zoomForFlyable": "Ingrandisci per vedere solo i decolli volabili",
+    "meteogram": "Meteogramma",
+    "showForecast": "Previsioni decolli"
   },
   "detail": {
     "back": "Indietro",

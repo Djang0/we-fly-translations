@@ -77,6 +77,11 @@
   },
   "sections": {
     "overlays": "Overlays",
+    "liveTraffic": "Live traffic",
+    "liveTrafficAll": "Include powered aircraft and helicopters",
+    "liveTrafficHint": "Aircraft broadcasting FLARM or OGN, refreshed every 15 s once you zoom in. Data: <ogn>Open Glider Network</ogn>. Not every pilot is visible, so keep looking out.",
+    "liveTrafficZoomIn": "Zoom in to see live traffic.",
+    "liveTrafficUnavailable": "Live traffic is unavailable right now.",
     "task": "Task",
     "route": "Route",
     "durationHm": "{hours} h {minutes} min",
@@ -212,7 +217,8 @@
     "seeAirspaces": "See airspaces ({count})",
     "seeNotams": "See NOTAMs ({count})",
     "remove": "Remove {name}",
-    "waypointN": "waypoint {n}"
+    "waypointN": "waypoint {n}",
+    "meteogram": "Meteogram here"
   },
   "map": {
     "waypointN": "Waypoint {n}",
@@ -299,5 +305,138 @@
       "notFound": "That file no longer exists. It may have expired.",
       "consentRequired": "Finish setting up your account (privacy consent) to save files."
     }
+  },
+  "forecast": {
+    "title": "Launch forecast",
+    "hint": "Takeoffs in view are rated for the chosen day and hour from the wind at launch height, gusts, rain and storm risk. Zoom in to see them. Right-click or long-press anywhere on the map for its meteogram.",
+    "hide": "Hide the launch forecast",
+    "play": "Play the forecast",
+    "pause": "Pause",
+    "zoomIn": "Zoom in to rate the takeoffs",
+    "unavailable": "Forecast unavailable right now",
+    "loading": "Loading the forecast from Open-Meteo…",
+    "count": {
+      "good": "{count} good",
+      "marginal": "{count} marginal",
+      "unsuitable": "{count} unsuitable"
+    },
+    "verdict": {
+      "good": "Good",
+      "marginal": "Marginal",
+      "unsuitable": "Unsuitable"
+    },
+    "reason": {
+      "gustsTooStrong": "gusts {speed}, too strong",
+      "windTooStrong": "wind {speed}, too strong",
+      "lightWind": "light wind, thermal launch possible",
+      "bearingUnknown": "site orientation unknown",
+      "strongWindBearingUnknown": "strong wind, site orientation unknown",
+      "favorable": "wind on the slope",
+      "crosswind": "crosswind, launch with care",
+      "tailwind": "tailwind or strong crosswind",
+      "rain": "light rain",
+      "showers": "rain showers",
+      "stormRisk": "storm risk",
+      "thunderstorm": "thunderstorms likely"
+    },
+    "unnamed": "Unnamed takeoff",
+    "facing": "faces {bearing}",
+    "windLine": "Wind {wind} from {dir}, gusts {gusts}",
+    "noData": "No forecast for this takeoff",
+    "meteogramHint": "Right-click or long-press for the meteogram",
+    "timeline": "Forecast time",
+    "model": "Open-Meteo best match",
+    "sunTimes": "SR {rise} · SS {set}",
+    "legend": {
+      "day": "Day",
+      "twilight": "Twilight",
+      "night": "Night",
+      "sunrise": "Sunrise",
+      "sunset": "Sunset"
+    }
+  },
+  "meteogram": {
+    "pointTitle": "Meteogram {lat}, {lng}",
+    "subtitle": "Five-day forecast for this point",
+    "takeoffAt": "Takeoff {elevation}",
+    "facing": "faces {bearing}",
+    "modelGround": "model ground {elevation}",
+    "loading": "Loading the forecast from Open-Meteo…",
+    "loadingSlow": "Open-Meteo, our free forecast provider, is busy right now. Still loading, this can take a few seconds…",
+    "unavailable": "The forecast is unavailable right now. Try again in a few minutes.",
+    "noHours": "No forecast for this day.",
+    "chartLabel": "Meteogram: winds aloft, thermals, cloud base, freezing level and surface wind per hour",
+    "source": "Forecast: {models} via Open-Meteo.",
+    "disclaimer": "A model forecast, not a briefing: check the local conditions before you fly.",
+    "summary": {
+      "base": "Cloud base up to {value}",
+      "blue": "Blue thermals up to {value}",
+      "wStar": "w* max {value}",
+      "gusts": "gusts up to {value}",
+      "rain": "rain {value} mm",
+      "dry": "dry",
+      "window": "launch window {from}–{to}",
+      "noWindow": "no good launch hour",
+      "noThermals": "No usable thermals"
+    },
+    "rows": {
+      "weather": "Weather",
+      "wStar": "w*",
+      "launch": "Launch",
+      "wind": "Wind {unit}",
+      "gusts": "Gusts"
+    },
+    "tip": {
+      "temp": "Temp / dew",
+      "base": "Cloud base",
+      "blueTop": "Thermal top",
+      "wStar": "w*",
+      "freezing": "Freezing level",
+      "wind": "Wind",
+      "gustsShort": "gusts {value}",
+      "wind850": "Wind 1,500 m",
+      "rain": "Rain",
+      "mm": "{value} mm",
+      "cape": "CAPE",
+      "jkg": "{value} J/kg"
+    },
+    "legend": {
+      "thermals": "Thermals",
+      "cumulus": "Cumulus",
+      "freezing": "Freezing level",
+      "wind": "Wind aloft"
+    }
+  },
+  "liveTraffic": {
+    "legend": "Markers",
+    "legendHint": "Tap an aircraft for its details and today's trace.",
+    "kinds": {
+      "paraglider": "Paraglider",
+      "hangGlider": "Hang glider",
+      "glider": "Glider",
+      "powered": "Powered aircraft",
+      "helicopter": "Helicopter",
+      "other": "Other or unknown"
+    },
+    "type": "{code, select, 1 {Glider or motor glider} 2 {Tow plane} 3 {Helicopter} 4 {Skydiver} 5 {Drop plane} 6 {Hang glider} 7 {Paraglider} 8 {Powered aircraft} 9 {Jet} 11 {Balloon} 12 {Airship} 13 {Drone} other {Unknown aircraft type}}",
+    "anonymous": "Anonymous",
+    "anonymousHint": "This pilot chose not to be identified on OGN.",
+    "close": "Close aircraft details",
+    "model": "Model",
+    "registration": "Registration",
+    "competitionId": "Competition id",
+    "altitude": "Altitude",
+    "climb": "Climb",
+    "groundSpeed": "Ground speed",
+    "lastFix": "Last fix",
+    "ageSeconds": "{seconds, plural, one {# s ago} other {# s ago}}",
+    "ageMinutes": "{minutes, plural, one {# min ago} other {# min ago}}",
+    "receiver": "Heard by",
+    "loading": "Loading…",
+    "traceLoading": "Loading today's trace…",
+    "traceShown": "Today's trace is drawn on the map, fading into the past.",
+    "traceNone": "OGN has no trace for this aircraft today.",
+    "traceUnavailable": "The trace is unavailable right now.",
+    "outOfView": "Not in the latest update: showing its last known position."
   }
 }

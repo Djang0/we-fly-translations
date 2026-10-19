@@ -98,7 +98,7 @@
     },
     "airspaceRead": {
       "label": "Lire les données d’espace aérien",
-      "description": "Télécharger les zones d’espace aérien et les activations temporaires pour une utilisation hors ligne."
+      "description": "Télécharger les zones d’espace aérien, les activations temporaires et les fichiers OpenAir enregistrés dans le Planificateur XC, pour une utilisation hors ligne."
     },
     "liveWrite": {
       "label": "Partager ta position et lancer des alertes",
