@@ -175,6 +175,13 @@
       "description": "Momentos en los que ibas a aterrizar (≥5 min de planeo continuo, ≥200 m de altura perdida, punto más bajo por debajo de 150 m AGL sobre terreno aterrizable) y una térmica te rescató. Las térmicas de ladera se excluyen a propósito. Las 10 mejores del conjunto filtrado, ordenadas por la altura AGL más baja alcanzada.",
       "searchContext": "{minutes, number} min de búsqueda · −{lost}",
       "aglValue": "{value} AGL"
+    },
+    "byHour": {
+      "title": "Ascenso por hora del día",
+      "description": "Ascenso neto mediano de tus térmicas según la hora local. Tu mejor hora: {hour}, con {value}.",
+      "axis": "Ascenso neto",
+      "tooltip": "{value} de mediana · {count, plural, one {# térmica} other {# térmicas}}",
+      "hourLabel": "{hour} h"
     }
   },
   "phases": {
@@ -303,7 +310,10 @@
       "maxSpeed": "Velocidad máx.",
       "bestXcDistance": "Mejor distancia XC",
       "bestXcScore": "Mejor puntuación XC",
-      "viewFlight": "Ver el vuelo con {label}: {value}"
+      "viewFlight": "Ver el vuelo con {label}: {value}",
+      "fastestKm": "{distance} más rápidos",
+      "farthestFromTakeoff": "Más lejos del despegue",
+      "bestGlide": "Mejor planeo (2 km+)"
     },
     "lowSave": {
       "label": "Remontada más baja",
@@ -317,8 +327,10 @@
       "circleTime": "Tiempo de giro med.",
       "circleRadius": "Radio de giro med.",
       "gFactor": "Factor G mediano",
-      "strongestThermal": "Pico de la térmica más fuerte",
-      "viewStrongest": "Ver el vuelo con el pico de térmica más fuerte: {value}"
+      "strongestThermal": "Ascenso más fuerte (5 s)",
+      "viewStrongest": "Ver el vuelo con tu ascenso más fuerte: {value}",
+      "netClimb": "Ascenso neto en térmica",
+      "topLandings": "Aterrizajes en despegue"
     }
   },
   "backfill": {

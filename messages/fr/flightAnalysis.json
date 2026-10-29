@@ -2,6 +2,9 @@
   "altitudeChart": {
     "gpsAlt": "Alt GPS",
     "baroAlt": "Alt baro",
+    "baroAltCalibrated": "Alt baro · calée au déco",
+    "baroCalibratedTakeoffHint": "Altitude barométrique décalée de {offset} pour coller au terrain au décollage, comme quand tu cales ton vario avant de décoller. Les enregistreurs la mesurent par rapport à la pression standard (1013 hPa), pas celle du jour.",
+    "baroCalibratedGpsHint": "Altitude barométrique décalée de {offset} pour s’aligner sur l’altitude GPS. Les enregistreurs la mesurent par rapport à la pression standard (1013 hPa), pas celle du jour.",
     "alt": "Alt",
     "altitude": "Altitude",
     "ground": "Sol",
@@ -174,12 +177,12 @@
     }
   },
   "qualityStrip": {
-    "efficiency": "eff",
+    "netClimb": "net",
     "centering": "cent"
   },
   "scoreBreakdown": {
     "climb": "Montée",
-    "efficiency": "Efficacité",
+    "netClimb": "Montée nette",
     "centering": "Centrage",
     "consistency": "Régularité",
     "sustained": "Durée",

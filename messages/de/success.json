@@ -78,7 +78,7 @@
     },
     "thermal_strength": {
       "label": "Thermikstärke",
-      "description": "Stärkster Steigwert in der Thermik",
+      "description": "Stärkster Steigwert, über 5 Sekunden gehalten",
       "name": "Steigen {value}"
     },
     "ground_speed": {

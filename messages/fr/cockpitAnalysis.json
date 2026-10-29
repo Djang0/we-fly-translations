@@ -175,6 +175,13 @@
       "description": "Les moments où tu allais te poser (≥5 min de transition sans interruption, ≥200 m d’altitude perdue, point le plus bas sous 150 m sol au-dessus d’un terrain posable) et où un thermique t’a sauvé. Les thermiques de pente sont volontairement exclus. Les 10 premières des vols filtrés, classées par hauteur sol la plus basse atteinte.",
       "searchContext": "{minutes, number} min de recherche · −{lost}",
       "aglValue": "{value} sol"
+    },
+    "byHour": {
+      "title": "Montée selon l’heure",
+      "description": "Taux de montée net médian de tes thermiques selon l’heure locale. Ta meilleure heure : {hour}, à {value}.",
+      "axis": "Montée nette",
+      "tooltip": "{value} médian · {count, plural, one {# thermique} other {# thermiques}}",
+      "hourLabel": "{hour}h"
     }
   },
   "phases": {
@@ -303,7 +310,10 @@
       "maxSpeed": "Vitesse max",
       "bestXcDistance": "Meilleure distance en cross",
       "bestXcScore": "Meilleur score cross",
-      "viewFlight": "Voir le vol avec {label} : {value}"
+      "viewFlight": "Voir le vol avec {label} : {value}",
+      "fastestKm": "{distance} le plus rapide",
+      "farthestFromTakeoff": "Plus loin du décollage",
+      "bestGlide": "Meilleure transition (2 km+)"
     },
     "lowSave": {
       "label": "Remontée de bas la plus basse",
@@ -317,8 +327,10 @@
       "circleTime": "Durée méd. d’un tour",
       "circleRadius": "Rayon méd. d’un tour",
       "gFactor": "Facteur de charge médian",
-      "strongestThermal": "Pic du thermique le plus fort",
-      "viewStrongest": "Voir le vol du pic de thermique le plus fort : {value}"
+      "strongestThermal": "Plus forte montée (5 s)",
+      "viewStrongest": "Voir le vol de ta plus forte montée : {value}",
+      "netClimb": "Montée nette en thermique",
+      "topLandings": "Posés déco"
     }
   },
   "backfill": {

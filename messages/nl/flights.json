@@ -468,7 +468,7 @@
         "resolving": "Oplossen...",
         "resolveAll": "Alles oplossen",
         "confirmTitle": "Alle overlappende vluchten oplossen?",
-        "confirmBody": "Dit verwijdert definitief de kortste vlucht van elk van de {count, plural, one {# overlappende vluchtpaar} other {# overlappende vluchtparen}}. Dit kan niet ongedaan worden gemaakt.",
+        "confirmBody": "Dit verwijdert definitief één vlucht van elk van de {count, plural, one {# overlappende vluchtpaar} other {# overlappende vluchtparen}}: de nieuwste kopie als hetzelfde bestand twee keer is geüpload, anders de kortste vlucht. Dit kan niet ongedaan worden gemaakt.",
         "confirmAction": "Kortste vluchten verwijderen",
         "overlap": "Overlap",
         "date": "Datum",
@@ -502,7 +502,10 @@
       "confirmTitle": "Kortste vlucht verwijderen?",
       "confirmBody": "Dit verwijdert definitief de vlucht van <strong>{date}</strong> ({takeoff} naar {landing}, {duration}). Dit kan niet ongedaan worden gemaakt en het bijbehorende IGC-bestand wordt ook gewist.",
       "cancel": "Annuleren",
-      "confirmAction": "Vlucht verwijderen"
+      "confirmAction": "Vlucht verwijderen",
+      "duplicateCopy": "Dubbele kopie",
+      "deleteDuplicate": "Kopie verwijderen",
+      "deletedDuplicateDescription": "De dubbele kopie is definitief verwijderd; je originele vlucht blijft bewaard"
     },
     "altitude": {
       "unknownDate": "Onbekende datum",

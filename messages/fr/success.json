@@ -78,7 +78,7 @@
     },
     "thermal_strength": {
       "label": "Puissance thermique",
-      "description": "Meilleur taux de montée en thermique",
+      "description": "Meilleur taux de montée, maintenu plus de 5 secondes",
       "name": "Thermique {value}"
     },
     "ground_speed": {

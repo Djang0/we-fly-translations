@@ -468,7 +468,7 @@
         "resolving": "Wird behoben…",
         "resolveAll": "Alle beheben",
         "confirmTitle": "Alle überlappenden Flüge beheben?",
-        "confirmBody": "Damit wird bei {count, plural, one {# überlappenden Flugpaar} other {allen # überlappenden Flugpaaren}} jeweils der kürzere Flug endgültig gelöscht. Das lässt sich nicht rückgängig machen.",
+        "confirmBody": "Damit wird bei {count, plural, one {# überlappenden Flugpaar} other {allen # überlappenden Flugpaaren}} jeweils ein Flug endgültig gelöscht: die neuere Kopie, wenn dieselbe Datei doppelt hochgeladen wurde, sonst der kürzere Flug. Das lässt sich nicht rückgängig machen.",
         "confirmAction": "Kürzere Flüge löschen",
         "overlap": "Überlappung",
         "date": "Datum",
@@ -502,7 +502,10 @@
       "confirmTitle": "Kürzeren Flug löschen?",
       "confirmBody": "Damit wird der Flug vom <strong>{date}</strong> ({takeoff} nach {landing}, {duration}) endgültig gelöscht. Das lässt sich nicht rückgängig machen, und die zugehörige IGC-Datei wird ebenfalls entfernt.",
       "cancel": "Abbrechen",
-      "confirmAction": "Flug löschen"
+      "confirmAction": "Flug löschen",
+      "duplicateCopy": "Doppelte Kopie",
+      "deleteDuplicate": "Kopie löschen",
+      "deletedDuplicateDescription": "Die doppelte Kopie wurde endgültig gelöscht, dein Originalflug bleibt erhalten"
     },
     "altitude": {
       "unknownDate": "Unbekanntes Datum",

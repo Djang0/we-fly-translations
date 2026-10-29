@@ -175,6 +175,13 @@
       "description": "Momenti in cui stavi per atterrare (≥5 min di planata continua, ≥200 m di quota persa, minimo sotto i 150 m dal suolo sopra terreno atterrabile) e una termica ti ha salvato. Le termiche di dinamica sono escluse di proposito. Le 10 migliori del set filtrato, ordinate per quota minima dal suolo raggiunta.",
       "searchContext": "{minutes, number} min di ricerca · −{lost}",
       "aglValue": "{value} dal suolo"
+    },
+    "byHour": {
+      "title": "Salita per ora del giorno",
+      "description": "Salita netta mediana delle tue termiche per ora locale. La tua ora migliore: le {hour}, con {value}.",
+      "axis": "Salita netta",
+      "tooltip": "{value} di mediana · {count, plural, one {# termica} other {# termiche}}",
+      "hourLabel": "{hour}h"
     }
   },
   "phases": {
@@ -303,7 +310,10 @@
       "maxSpeed": "Velocità massima",
       "bestXcDistance": "Miglior distanza XC",
       "bestXcScore": "Miglior punteggio XC",
-      "viewFlight": "Vedi il volo con {label}: {value}"
+      "viewFlight": "Vedi il volo con {label}: {value}",
+      "fastestKm": "{distance} più veloci",
+      "farthestFromTakeoff": "Più lontano dal decollo",
+      "bestGlide": "Miglior planata (2 km+)"
     },
     "lowSave": {
       "label": "Ripartenza più bassa",
@@ -317,8 +327,10 @@
       "circleTime": "Tempo giro med.",
       "circleRadius": "Raggio giro med.",
       "gFactor": "Fattore G mediano",
-      "strongestThermal": "Picco della termica più forte",
-      "viewStrongest": "Vedi il volo con il picco di termica più forte: {value}"
+      "strongestThermal": "Salita più forte (5 s)",
+      "viewStrongest": "Vedi il volo con la tua salita più forte: {value}",
+      "netClimb": "Salita netta in termica",
+      "topLandings": "Atterraggi in decollo"
     }
   },
   "backfill": {

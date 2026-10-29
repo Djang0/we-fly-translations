@@ -468,7 +468,7 @@
         "resolving": "Risoluzione...",
         "resolveAll": "Risolvi tutto",
         "confirmTitle": "Risolvere tutti i voli sovrapposti?",
-        "confirmBody": "Verrà eliminato definitivamente il volo più corto di {count, plural, one {# coppia di voli sovrapposti} other {ciascuna delle # coppie di voli sovrapposti}}. Questa azione non si può annullare.",
+        "confirmBody": "Verrà eliminato definitivamente un volo da {count, plural, one {# coppia di voli sovrapposti} other {ciascuna delle # coppie di voli sovrapposti}}: la copia più recente se lo stesso file è stato caricato due volte, altrimenti il volo più corto. Questa azione non si può annullare.",
         "confirmAction": "Elimina i voli più corti",
         "overlap": "Sovrapposizione",
         "date": "Data",
@@ -502,7 +502,10 @@
       "confirmTitle": "Eliminare il volo più corto?",
       "confirmBody": "Verrà eliminato definitivamente il volo del <strong>{date}</strong> (da {takeoff} a {landing}, {duration}). Questa azione non si può annullare e rimuoverà anche il file IGC associato.",
       "cancel": "Annulla",
-      "confirmAction": "Elimina il volo"
+      "confirmAction": "Elimina il volo",
+      "duplicateCopy": "Copia duplicata",
+      "deleteDuplicate": "Elimina la copia",
+      "deletedDuplicateDescription": "La copia duplicata è stata eliminata definitivamente; il volo originale resta nel tuo libretto"
     },
     "altitude": {
       "unknownDate": "Data sconosciuta",

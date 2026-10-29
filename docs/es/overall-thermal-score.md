@@ -1,27 +1,27 @@
 ---
-title: La puntuación global de térmica, explicada
-description: Cómo calculamos la calidad de una térmica, con un ejemplo resuelto
+title: La puntuación global de la térmica, explicada
+description: Cómo calculamos la calidad de una térmica, con un ejemplo paso a paso
 category: Thermal Analysis
 order: 4
 ---
 
-¿Has visto la puntuación de calidad de una térmica en la pestaña **Térmicas** y te has preguntado si significa algo de verdad? Buena noticia: sí. No es una sensación. Vamos a desgranar exactamente cómo se calcula ese número para que entiendas qué separa una térmica «Regular» de una «Excelente», y qué puedes hacer al respecto.
+¿Has visto la puntuación de calidad de una térmica en la pestaña **Térmicas** y te has preguntado si de verdad significa algo? Buenas noticias: sí. No es a ojo. Vamos a desmontar exactamente cómo se calcula ese número para que entiendas qué separa un «Aceptable» de un «Excelente» y qué puedes hacer para mejorarlo.
 
-## La visión de conjunto
+## La idea general
 
-La puntuación de térmica (de 0 a 100) es una combinación ponderada de cinco factores. Son las mismas cinco filas que ves en el **Desglose de la puntuación** de una térmica:
+La puntuación de la térmica (de 0 a 100) es una combinación ponderada de cinco factores. Son las mismas cinco filas que ves en el **Desglose de la puntuación** de una térmica:
 
 | Factor | Peso | Qué mide |
 |--------|------|----------|
-| **Ascenso** | 30 % | ¿Qué fuerza tenía la ascendencia en su mejor momento? |
-| **Eficiencia** | 20 % | ¿Qué tan directo fue tu ascenso? |
-| **Centrado** | 20 % | ¿Qué tal te mantuviste en el núcleo? |
-| **Regularidad** | 15 % | ¿Qué estables fueron las lecturas del vario? |
-| **Sostenido** | 15 % | ¿Te quedaste a trabajar la térmica de verdad? |
+| **Ascenso** | 30% | ¿Qué tan fuerte era la térmica en su mejor momento? |
+| **Ascenso neto** | 20% | ¿Cuánto de ese ascenso conservaste? |
+| **Centrado** | 20% | ¿Qué tan bien te quedaste en el núcleo? |
+| **Regularidad** | 15% | ¿Qué tan estables eran las lecturas del vario? |
+| **Sostenido** | 15% | ¿Te quedaste de verdad a trabajar la térmica? |
 
-Cada factor se normaliza en una escala de 0 a 1, se multiplica por su peso y luego el total se escala de 0 a 100. Sencillo en teoría, revelador en la práctica.
+Cada factor se normaliza en una escala de 0 a 1, se multiplica por su peso y luego el total se lleva a una escala de 0 a 100. Sencillo en teoría, revelador en la práctica.
 
-El factor **Sostenido** es clave: evita que las visitas cortas puntúen alto. Pillar una ascendencia fuerte durante unas pocas vueltas no demuestra saber centrar térmicas; quedarse a trabajar la térmica sí.
+El factor **Sostenido** es clave: evita que las visitas cortas saquen notas altas. Pillar un buen ascenso durante un par de vueltas no demuestra que sepas centrar la térmica; quedarte y trabajarla, sí.
 
 ---
 
@@ -31,13 +31,13 @@ Este es el cálculo real:
 
 ```
 Quality Score = (climbScore * 0.30 +
-                 efficiencyScore * 0.20 +
+                 netClimbScore * 0.20 +
                  centeringScore * 0.20 +
                  consistencyScore * 0.15 +
                  sustainedScore * 0.15) * 100
 ```
 
-Los umbrales de la fórmula están fijados en m/s y en metros, sean cuales sean las unidades en que muestres los datos.
+Los umbrales de la fórmula son fijos en m/s y metros, uses las unidades que uses en pantalla.
 
 ### Cómo se calcula cada componente
 
@@ -45,26 +45,28 @@ Los umbrales de la fórmula están fijados en m/s y en metros, sean cuales sean 
 ```
 climbScore = min(1, maxClimb / 5.0)
 ```
-Tu mejor ascenso sostenido en la térmica (el valor **Máx.** de los detalles de la térmica, suavizado sobre 5 segundos para que un solo punto GPS con ruido no pueda hacer trampa) dividido entre 5,0 m/s, con un máximo de 1. Solo la décima parte más fuerte de los ascensos de We-Fly se acerca al máximo; un ascenso medio puntúa algo más de la mitad.
+Tu mejor ascenso sostenido en la térmica (el valor **Máx.** en los detalles de la térmica, suavizado sobre 5 segundos para que un solo punto GPS con ruido no haga trampa) dividido entre 5.0 m/s, con un tope de 1. Solo la décima parte de los mejores ascensos en We-Fly se acerca al tope; un ascenso medio saca algo más de la mitad.
 
-**2. Puntuación de eficiencia**
+**2. Puntuación de ascenso neto**
 ```
-efficiencyScore = min(1, heightGain / driftDistance)
+netClimbScore = min(1, (heightGain / duration) / 3.0)
 ```
-Altura ganada dividida entre la distancia horizontal que separa el punto donde empezó la térmica del punto donde terminó. Ganar tanta altura como lo que derivaste, o más, da el 1,0 completo. Cuanto más te lleva el viento de lado, más baja.
+La altura que ganaste dividida entre el tiempo que pasaste en la térmica: tu ascenso medio, de la entrada a la salida. 3.0 m/s da el 1.0 completo; solo llega más o menos una térmica de cada cien. Mientras el ascenso máximo premia encontrar la parte fuerte, este premia quedarte en ella.
+
+Las versiones anteriores comparaban la altura ganada con la distancia derivada. El viento la bajaba por sí solo, así que el mismo ascenso caía una franja en un día de viento. Al ascenso neto le da igual el viento.
 
 **3. Puntuación de centrado**
 ```
 excess = max(0, meanDistanceFromCore - coreRadius)
 centeringScore = max(0, 1 - excess / (2 * coreRadius))
 ```
-Una vela no puede girar sobre sí misma, así que girar justo al radio del propio núcleo (o más cerrado) da un 1,0 perfecto. Cada radio de núcleo de distancia extra cuesta la mitad de la puntuación: girar al doble del radio del núcleo da 0,5, y al triple, cero. Antes se elimina la deriva del viento comparando cada vuelta con su propio centro local.
+Una vela no gira sobre sí misma, así que girar justo al radio del propio núcleo (o más cerrado) da un 1.0 perfecto. Cada radio de núcleo extra de distancia te cuesta la mitad de la puntuación: girar al doble del radio del núcleo da 0.5, al triple da cero. Antes se elimina la deriva del viento comparando cada vuelta con su propio centro local.
 
 **4. Puntuación de regularidad**
 ```
 consistencyScore = max(0, 1 - variability / 2.0)
 ```
-La inversa de la variabilidad de tu vario (la desviación típica de tu tasa de ascenso suavizada). Térmica suave = puntuación alta. Saltar entre ascendencia fuerte y descendencia = puntuación baja. Una variabilidad de 2 m/s o más = aportación nula a la regularidad.
+El inverso de la variabilidad del vario (la desviación estándar de tu tasa de ascenso suavizada). Térmica suave = puntuación alta. Saltar entre ascenso fuerte y descendencia = puntuación baja. Una variabilidad de 2 m/s o más = la regularidad no aporta nada.
 
 **5. Puntuación de sostenido**
 ```
@@ -72,37 +74,38 @@ durationFactor = min(1, duration / 90)
 turnFactor = min(1, turnCount / 2)
 sustainedScore = durationFactor * turnFactor
 ```
-Combina la duración y el número de vueltas para premiar el trabajo real en térmica. La puntuación completa exige unos 90 segundos Y 2 o más vueltas completas. Todas las térmicas de la lista tienen ya al menos dos vueltas completas (mira [Cómo funciona la detección de térmicas](/doc/advanced-thermal-analysis-settings)), así que en la práctica este factor penaliza sobre todo los ascensos cortos.
+Combina duración y número de vueltas para premiar el trabajo real en la térmica. La puntuación completa exige unos 90 segundos Y 2 o más vueltas completas. Todas las térmicas de la lista ya tienen al menos dos vueltas completas (consulta [Cómo funciona la detección de térmicas](/doc/advanced-thermal-analysis-settings)), así que en la práctica este factor sobre todo penaliza los ascensos cortos.
 
 ---
 
-## Ejemplo resuelto: térmica n.º 9
+## Ejemplo paso a paso: térmica #9
 
-Hagamos un cálculo real con números concretos. Supón que trabajaste una térmica con estos datos:
+Vamos con un cálculo real con números concretos. Supón que trabajaste una térmica con estos datos:
 
 | Métrica | Valor |
-|--------|-------|
-| Ascenso máx. | 3,5 m/s |
-| Eficiencia | 0,41 (41 %) |
-| Centrado | 0,53 (53 %) |
-| Variabilidad | 0,92 m/s |
+|---------|-------|
+| Ascenso máx. | 3.5 m/s |
+| Ascenso neto | 1.8 m/s |
+| Centrado | 0.53 (53%) |
+| Variabilidad | 0.92 m/s |
 | Duración | 75 segundos |
 | Número de vueltas | 3 vueltas |
 
-### Paso 1: calcular la puntuación de cada componente
+### Paso 1: calcula la puntuación de cada componente
 
 **Puntuación de ascenso:**
 ```
 climbScore = min(1, 3.5 / 5.0)
 climbScore = 0.70
 ```
-Tu mejor ascenso sostenido de 3,5 m/s es el 70 % de la referencia de 5,0 m/s.
+Tu mejor ascenso sostenido de 3.5 m/s es el 70% de la referencia de 5.0 m/s.
 
-**Puntuación de eficiencia:**
+**Puntuación de ascenso neto:**
 ```
-efficiencyScore = 0.41
+netClimbScore = min(1, 1.8 / 3.0)
+netClimbScore = 0.60
 ```
-La altura que ganaste equivale al 41 % de lo que derivaste de lado. Bastante típico de una térmica con mucha deriva.
+Promediaste 1.8 m/s de la entrada a la salida, bastante por encima de la térmica típica (alrededor de 1 m/s).
 
 **Puntuación de centrado:**
 ```
@@ -116,7 +119,7 @@ consistencyScore = max(0, 1 - 0.92 / 2.0)
 consistencyScore = max(0, 1 - 0.46)
 consistencyScore = 0.54
 ```
-Una variabilidad del vario de 0,92 m/s significa que la ascendencia era algo turbulenta, pero nada loco.
+Una variabilidad del vario de 0.92 m/s indica que la térmica estaba algo turbulenta, pero nada loco.
 
 **Puntuación de sostenido:**
 ```
@@ -124,91 +127,91 @@ durationFactor = min(1, 75 / 90) = 0.833
 turnFactor = min(1, 3 / 2) = 1.0
 sustainedScore = 0.833 * 1.0 = 0.833
 ```
-Pasaste 75 segundos y diste 3 vueltas completas: buen trabajo en térmica, a poco de la marca de los 90 segundos.
+Estuviste 75 segundos y diste 3 vueltas completas: buen trabajo en la térmica, justo por debajo de la marca de 90 segundos.
 
-### Paso 2: aplicar los pesos
+### Paso 2: aplica los pesos
 
 Ahora multiplica cada puntuación por su peso:
 
-| Componente | Puntuación | Peso | Aportación |
-|-----------|-------|--------|--------------|
-| Ascenso | 0,70 | 0,30 | 0,210 |
-| Eficiencia | 0,41 | 0,20 | 0,082 |
-| Centrado | 0,53 | 0,20 | 0,106 |
-| Regularidad | 0,54 | 0,15 | 0,081 |
-| Sostenido | 0,833 | 0,15 | 0,125 |
-| **Total** | | | **0,604** |
+| Componente | Puntuación | Peso | Aporte |
+|------------|------------|------|--------|
+| Ascenso | 0.70 | 0.30 | 0.210 |
+| Ascenso neto | 0.60 | 0.20 | 0.120 |
+| Centrado | 0.53 | 0.20 | 0.106 |
+| Regularidad | 0.54 | 0.15 | 0.081 |
+| Sostenido | 0.833 | 0.15 | 0.125 |
+| **Total** | | | **0.642** |
 
-### Paso 3: escalar a 0-100
+### Paso 3: escala de 0 a 100
 
 ```
-qualityScore = round(0.604 * 100) = 60
+qualityScore = round(0.642 * 100) = 64
 ```
 
-**Resultado: una puntuación de 60**, justo dentro de «Regular». Unos giros más cerrados mejorarían a la vez la eficiencia y el centrado, y ahí están los puntos fáciles.
+**Resultado: una puntuación de 64**, justo dentro de «Bueno». Cerrar más los giros alrededor del núcleo subiría tanto el centrado como el ascenso neto, y ahí están los puntos fáciles.
 
 ---
 
-## Interpretar tu puntuación
+## Cómo interpretar tu puntuación
 
 | Rango | Etiqueta | Qué significa |
 |-------|----------|---------------|
-| **80 o más** | Sobresaliente | Los mejores ascensos de We-Fly. Ascendencia fuerte, bien trabajada. |
-| **De 73 a 79** | Excelente | Mejor que tres térmicas de cada cuatro. Encontraste el núcleo rápido y te quedaste en él. |
-| **De 66 a 72** | Buena | Por encima de la térmica típica. Buen trabajo. |
-| **De 60 a 65** | Regular | Por el centro del pelotón. Cumpliste, aunque te dejaste algo de rendimiento por el camino. |
-| **Menos de 60** | Floja | Te costó encontrar o mantener el núcleo, fue un ascenso corto o las condiciones eran realmente horribles. |
+| **74 o más** | Sobresaliente | Los mejores ascensos de We-Fly. Térmica fuerte, bien trabajada. |
+| **68 a 73** | Excelente | Mejor que tres de cada cinco térmicas. Encontraste el núcleo rápido y te quedaste en él. |
+| **63 a 67** | Bueno | Por encima de la térmica típica. Buen trabajo. |
+| **58 a 62** | Aceptable | Más o menos en la media. Cumpliste, pero te dejaste rendimiento por el camino. |
+| **Menos de 58** | Flojo | Te costó encontrar o mantener el núcleo, un ascenso corto o unas condiciones realmente malas. |
 
-Los rangos están calibrados con térmicas reales voladas por pilotos de We-Fly: la térmica típica (la mediana) puntúa unos 65, una cuarta parte de las térmicas puntúa 73 o más, y una de cada diez llega a 80.
+Las franjas están calibradas con más de 100,000 térmicas reales voladas por pilotos de We-Fly: la térmica típica (mediana) saca unos 66, una cuarta parte de las térmicas saca 73 o más y una de cada diez llega a 80.
 
 ---
 
 ## Qué te dice cada componente
 
-### Fuerza del ascenso (peso del 30 %)
+### Fuerza del ascenso (peso del 30%)
 
-Es el factor que más pesa porque... bueno, de lo que se trata es de subir. Usa tu mejor ascenso *sostenido*, así que premia encontrar la parte fuerte de la térmica, no solo aguantar en ella. Pero no te obsesiones: a veces una térmica débil trabajada a la perfección te da más distancia que una fuerte de la que te caes una y otra vez.
+Es el factor con más peso porque... bueno, de lo que se trata es de subir. Usa tu mejor ascenso *sostenido*, así que premia encontrar la parte fuerte de la térmica, no solo aguantar ahí. Pero no te obsesiones: a veces una térmica débil trabajada a la perfección te da más distancia que una fuerte de la que te sales una y otra vez.
 
 **¿Puntuación de ascenso baja?**
 - La térmica era realmente débil (no es culpa tuya)
-- Nunca encontraste la parte más fuerte del núcleo (mira el centrado)
+- Nunca encontraste la parte más fuerte del núcleo (revisa el centrado)
 - Llegaste tarde a la fiesta y solo pillaste la parte de arriba
 
-### Eficiencia (peso del 20 %)
+### Ascenso neto (peso del 20%)
 
-Eficiencia = altura ganada / distancia de deriva horizontal, con un máximo de 1,0. Una térmica en la que ganas al menos tanta altura como lo que derivas da el 1,0 completo, y eso exige viento flojo o un ascenso fuerte.
+Ascenso neto = altura ganada / tiempo en la térmica, comparado con 3.0 m/s. Es el ascenso que de verdad te llevaste, de la entrada a la salida, así que cada vuelta que pasas fuera de la térmica te cuesta aquí. El viento no lo cambia.
 
 Valores típicos:
-- **De 0,3 a 0,4**: normal, algo de deriva
-- **De 0,5 a 0,6**: muy bien, giros cerrados
-- **Más de 0,6**: excelente, deriva mínima
+- **alrededor de 1 m/s**: una térmica típica
+- **2 m/s o más**: un ascenso fuerte, bien trabajado (la décima parte de arriba)
+- **3 m/s o más**: nota máxima
 
-**¿Eficiencia baja?**
-- Viento fuerte que te empuja de lado
-- Giros abiertos o poca inclinación
-- Entrar a favor del viento y no corregir nunca
+**¿Ascenso neto bajo?**
+- La térmica era realmente débil (no es culpa tuya)
+- Vueltas perdidas buscando o saliéndote del núcleo
+- Giros muy abiertos o poca inclinación en un núcleo estrecho
 
-### Calidad del centrado (peso del 20 %)
+### Calidad del centrado (peso del 20%)
 
-Lo cerca del núcleo que giraste. Girar al propio radio del núcleo es perfecto; la puntuación baja en línea recta a medida que crece tu distancia media, hasta llegar a cero al triple del radio del núcleo.
+Lo cerca del núcleo que giraste. Girar al radio del propio núcleo es perfecto; la puntuación baja en línea recta a medida que crece tu distancia media, hasta llegar a cero al triple del radio del núcleo.
 
 **¿Centrado bajo?**
 - Tardaste en encontrar el núcleo
-- Te ibas saliendo y volvías a centrar una y otra vez
-- El núcleo se movía (térmica de burbuja) o era muy pequeño
+- Te ibas saliendo y tenías que volver a centrar
+- El núcleo se movía (térmica en burbuja) o era muy pequeño
 
-### Regularidad (peso del 15 %)
+### Regularidad (peso del 15%)
 
-Se basa en la desviación típica de las lecturas de tu vario. Pitido suave y constante = puntuación alta. Vario como loco = puntuación baja.
+Se basa en la desviación estándar de las lecturas del vario. Pitido suave y constante = puntuación alta. Vario como loco = puntuación baja.
 
 **¿Regularidad baja?**
 - Térmica turbulenta (no siempre es culpa tuya)
-- Atravesabas el núcleo y salías por el otro lado una y otra vez
-- Ascendencia y descendencia mezcladas en la misma vuelta
+- Atravesabas el núcleo y salías por el otro lado
+- Ascenso y descendencia mezclados en la misma vuelta
 
-### Habilidad sostenida (peso del 15 %)
+### Trabajo sostenido (peso del 15%)
 
-Combina la duración y el número de vueltas para demostrar que trabajaste la térmica de verdad y no que solo pasabas por ahí. Este factor premia a los pilotos que se comprometen con la térmica y la trabajan como es debido.
+Combina duración y número de vueltas para demostrar que de verdad trabajaste la térmica en lugar de solo pasar por ella. Este factor premia a los pilotos que se comprometen con la térmica y la trabajan bien.
 
 La puntuación completa exige:
 - **unos 90 segundos** de duración (las térmicas más cortas puntúan proporcionalmente menos)
@@ -218,7 +221,7 @@ Los dos factores se multiplican, así que necesitas AMBOS para puntuar bien aqu�
 
 **¿Puntuación de sostenido baja?**
 - Dejaste la térmica demasiado pronto
-- La térmica murió antes de que pudieras trabajarla bien
+- La térmica se murió antes de que pudieras trabajarla bien
 
 ---
 
@@ -226,34 +229,34 @@ Los dos factores se multiplican, así que necesitas AMBOS para puntuar bien aqu�
 
 ### Mejoras rápidas
 
-1. **Cierra el giro en cuanto toques ascendencia**: no esperes, empieza a girar en cuanto se dispare el vario
-2. **Desplaza tu círculo hacia la ascendencia**: la técnica clásica de centrado, abre en el lado débil y cierra en el lado fuerte
-3. **Vigila tu inclinación**: demasiado plana significa círculos abiertos y deriva; demasiado inclinada es poco eficiente en ascendencia débil
+1. **Cierra en cuanto entres en la térmica**: no esperes, empieza a girar en cuanto el vario empiece a pitar
+2. **Desplaza el giro hacia el ascenso**: la técnica clásica de centrado, abre en el lado débil y cierra en el lado fuerte
+3. **Vigila la inclinación**: poca inclinación significa giros abiertos y deriva; demasiada es ineficiente en térmicas débiles
 
-### Sigue tu progresión
+### Sigue tu progreso
 
 Compara térmicas de varios vuelos en la misma zona de vuelo. Empezarás a ver patrones:
-- «Siempre me cuesta centrar en este despegue»
+- «En este despegue siempre me cuesta centrar»
 - «Mis térmicas de la tarde son más regulares»
-- «Esa vela nueva ha mejorado mucho mi eficiencia»
+- «La vela nueva me ha mejorado mucho el ascenso neto»
 
 ### No persigas el número
 
-Un 55 en una térmica rota y pegona puede reflejar un vuelo mejor que un 80 en una columna ancha y suave. El contexto importa. Usa la puntuación para seguir tu propia progresión con el tiempo, no para compararte con otros en días distintos.
+Un 55 en una térmica rota y pegona puede ser mejor vuelo que un 80 en una columna ancha y suave. El contexto importa. Usa la puntuación para seguir tu propio progreso con el tiempo, no para compararte con otros en días distintos.
 
 ---
 
 ## Entre bastidores: ¿por qué estos pesos?
 
-Los pesos (30/20/20/15/15) no salen de la nada. Se basan en lo que de verdad importa para centrar térmicas con eficacia:
+Los pesos (30/20/20/15/15) no salen de la nada. Se basan en lo que de verdad importa para centrar bien una térmica:
 
-- **El ascenso manda** (30 %) porque el objetivo principal es subir. Una térmica débil trabajada a la perfección sigue siendo una térmica débil.
+- **La fuerza del ascenso manda** (30%) porque el objetivo principal es subir. Una térmica débil trabajada a la perfección sigue siendo una térmica débil.
 
-- **La eficiencia y el centrado se reparten el peso de la técnica** (20 % cada uno) porque ambos tienen que ver con la habilidad. Puedes tener uno sin el otro (buen centrado pero derivando hacia fuera, o giros cerrados en el sitio equivocado).
+- **El ascenso neto y el centrado se reparten el peso técnico** (20% cada uno) porque los dos hablan de habilidad. Puedes tener uno sin el otro (giros cerrados en el sitio equivocado, o un giro bien centrado en una térmica de la que no paras de salirte).
 
-- **La regularidad es un modificador** (15 %) porque parte de la turbulencia no depende de ti. Afecta a tu puntuación, pero no la domina.
+- **La regularidad es un modificador** (15%) porque parte de la turbulencia escapa a tu control. Afecta a tu puntuación, pero no la domina.
 
-- **La habilidad sostenida filtra los golpes de suerte** (15 %) porque unas pocas vueltas en ascendencia fuerte no son lo mismo que trabajar una térmica. Este factor garantiza que las puntuaciones altas sean para los pilotos que se comprometieron de verdad con el ascenso.
+- **El trabajo sostenido filtra las chiripas** (15%) porque un par de vueltas en un ascenso fuerte no es lo mismo que trabajar una térmica. Este factor asegura que las puntuaciones altas vayan a los pilotos que de verdad se comprometieron con el ascenso.
 
 ---
 
@@ -262,78 +265,78 @@ Los pesos (30/20/20/15/15) no salen de la nada. Se basan en lo que de verdad imp
 ### El ascensor de la suerte
 
 | Métrica | Valor | Puntuación |
-|--------|-------|-------|
-| Ascenso máx. | 5,6 m/s | 1,0 (máximo) |
-| Eficiencia | 0,65 | 0,65 |
-| Centrado | 0,78 | 0,78 |
-| Regularidad | 0,38 m/s | 0,81 |
-| Duración / vueltas | 120 s / 4 vueltas | 1,0 |
+|---------|-------|------------|
+| Ascenso máx. | 5.6 m/s | 1.0 (tope) |
+| Ascenso neto | 3.4 m/s | 1.0 (tope) |
+| Centrado | 0.78 | 0.78 |
+| Regularidad | 0.38 m/s | 0.81 |
+| Duración / vueltas | 120s / 4 vueltas | 1.0 |
 
-**Aportaciones:** 0,30 + 0,13 + 0,156 + 0,121 + 0,15 = **0,858**
-**Puntuación:** 86 (Sobresaliente)
+**Aportes:** 0.30 + 0.20 + 0.156 + 0.121 + 0.15 = **0.927**
+**Puntuación:** 93 (Sobresaliente)
 
-Pillaste una térmica monstruosa, te quedaste en el núcleo y la subiste durante dos buenos minutos. El escenario soñado.
+Te metiste en una térmica monstruosa, te quedaste en el núcleo y la subiste durante dos buenos minutos. El escenario soñado.
 
-### La visita rápida (penalizada)
+### El paso rápido (penalizado)
 
 | Métrica | Valor | Puntuación |
-|--------|-------|-------|
-| Ascenso máx. | 4,8 m/s | 0,96 |
-| Eficiencia | 0,72 | 0,72 |
-| Centrado | 0,85 | 0,85 |
-| Regularidad | 0,45 m/s | 0,78 |
-| Duración / vueltas | 25 s / 2 vueltas | 0,28 |
+|---------|-------|------------|
+| Ascenso máx. | 4.8 m/s | 0.96 |
+| Ascenso neto | 2.4 m/s | 0.80 |
+| Centrado | 0.85 | 0.85 |
+| Regularidad | 0.45 m/s | 0.78 |
+| Duración / vueltas | 25s / 2 vueltas | 0.28 |
 
-**Aportaciones:** 0,288 + 0,144 + 0,17 + 0,116 + 0,042 = **0,760**
-**Puntuación:** 76 (Excelente)
+**Aportes:** 0.288 + 0.16 + 0.17 + 0.116 + 0.042 = **0.776**
+**Puntuación:** 78 (Sobresaliente)
 
-Ascendencia fuerte, centrado estupendo, pero solo te quedaste dos vueltas. Si la hubieras trabajado 90 segundos con la misma técnica, el factor sostenido habría sumado los puntos que faltan y la puntuación sería 87.
+Térmica fuerte, gran centrado, pero solo te quedaste dos vueltas. Si la hubieras trabajado 90 segundos con la misma técnica, el factor de sostenido habría sumado los puntos que faltan y la puntuación sería 88.
 
 ### El ascenso peleado
 
 | Métrica | Valor | Puntuación |
-|--------|-------|-------|
-| Ascenso máx. | 2,6 m/s | 0,52 |
-| Eficiencia | 0,38 | 0,38 |
-| Centrado | 0,45 | 0,45 |
-| Regularidad | 1,4 m/s | 0,30 |
-| Duración / vueltas | 180 s / 6 vueltas | 1,0 |
+|---------|-------|------------|
+| Ascenso máx. | 2.6 m/s | 0.52 |
+| Ascenso neto | 0.9 m/s | 0.30 |
+| Centrado | 0.45 | 0.45 |
+| Regularidad | 1.4 m/s | 0.30 |
+| Duración / vueltas | 180s / 6 vueltas | 1.0 |
 
-**Aportaciones:** 0,156 + 0,076 + 0,09 + 0,045 + 0,15 = **0,517**
-**Puntuación:** 52 (Floja)
+**Aportes:** 0.156 + 0.06 + 0.09 + 0.045 + 0.15 = **0.501**
+**Puntuación:** 50 (Flojo)
 
-Térmica débil, núcleo roto, mucho buscar. La etiqueta es dura, pero describe la térmica más que a ti: aguantaste 3 minutos y 6 vueltas, y el factor sostenido te dio todos sus puntos. En un día así, el ascenso que te mantuvo en el aire fue la decisión correcta.
+Térmica débil, núcleo roto, mucho buscar. La etiqueta es dura, pero describe más la térmica que a ti: aguantaste 3 minutos y 6 vueltas, y el factor de sostenido te dio todos sus puntos. En un día así, el ascenso que te mantuvo en el aire fue la decisión correcta.
 
-### El que exprime el núcleo
+### El rey del núcleo
 
 | Métrica | Valor | Puntuación |
-|--------|-------|-------|
-| Ascenso máx. | 3,4 m/s | 0,68 |
-| Eficiencia | 0,52 | 0,52 |
-| Centrado | 0,85 | 0,85 |
-| Regularidad | 0,65 m/s | 0,68 |
-| Duración / vueltas | 95 s / 3 vueltas | 1,0 |
+|---------|-------|------------|
+| Ascenso máx. | 3.4 m/s | 0.68 |
+| Ascenso neto | 1.8 m/s | 0.60 |
+| Centrado | 0.85 | 0.85 |
+| Regularidad | 0.65 m/s | 0.68 |
+| Duración / vueltas | 95s / 3 vueltas | 1.0 |
 
-**Aportaciones:** 0,204 + 0,104 + 0,17 + 0,101 + 0,15 = **0,729**
-**Puntuación:** 73 (Excelente)
+**Aportes:** 0.204 + 0.12 + 0.17 + 0.101 + 0.15 = **0.745**
+**Puntuación:** 75 (Sobresaliente)
 
-Térmica moderada, pero clavaste el centrado y la trabajaste como es debido. La técnica por encima de la potencia.
+Térmica moderada, pero clavaste el centrado y la trabajaste bien. Técnica antes que potencia.
 
 ---
 
 ## En resumen
 
-La puntuación de térmica no está para juzgarte: está para darte información. Un resumen numérico de «qué pasó ahí dentro» para que aprendas de cada térmica en lugar de quedarte solo con un «esa estuvo bien».
+La puntuación de la térmica no está para juzgarte, sino para darte información. Un resumen numérico de «qué pasó ahí dentro» para que aprendas de cada térmica en lugar de solo recordar «esa estuvo buena».
 
 Úsala para:
 - Detectar patrones en tu forma de volar
-- Seguir tu progresión con el tiempo
+- Seguir tu mejora con el tiempo
 - Identificar puntos débiles concretos que trabajar
 - Presumir ante tus amigos con datos de verdad
 
-Y recuerda: incluso una térmica «Regular» que te llevó al siguiente ascenso es mejor que una «Excelente» que no cogiste por esperar algo mejor.
+Y recuerda: hasta una térmica «Aceptable» que te llevó a la siguiente es mejor que una «Excelente» que no cogiste por esperar algo mejor.
 
-¡Ahora sal a volar!
+¡Y ahora, a volar!
 
 ---
 

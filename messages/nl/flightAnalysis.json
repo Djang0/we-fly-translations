@@ -2,6 +2,9 @@
   "altitudeChart": {
     "gpsAlt": "GPS-hoogte",
     "baroAlt": "Barohoogte",
+    "baroAltCalibrated": "Baro-hoogte · op startplaats gezet",
+    "baroCalibratedTakeoffHint": "Barometrische hoogte met {offset} verschoven zodat ze klopt met het terrein op de startplaats, net zoals je je vario instelt voor de start. Loggers registreren ze ten opzichte van de standaarddruk (1013 hPa), niet die van de dag.",
+    "baroCalibratedGpsHint": "Barometrische hoogte met {offset} verschoven zodat ze gelijkloopt met de GPS-hoogte. Loggers registreren ze ten opzichte van de standaarddruk (1013 hPa), niet die van de dag.",
     "alt": "Hoogte",
     "altitude": "Hoogte",
     "ground": "Grond",
@@ -174,12 +177,12 @@
     }
   },
   "qualityStrip": {
-    "efficiency": "eff",
+    "netClimb": "netto",
     "centering": "cent"
   },
   "scoreBreakdown": {
     "climb": "Stijging",
-    "efficiency": "Efficiëntie",
+    "netClimb": "Netto stijging",
     "centering": "Centrering",
     "consistency": "Regelmaat",
     "sustained": "Volgehouden",

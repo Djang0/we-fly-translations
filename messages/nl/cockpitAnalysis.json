@@ -175,6 +175,13 @@
       "description": "Momenten waarop je bijna moest landen (≥5 min ononderbroken glijvlucht, ≥200 m hoogte verloren, laagste punt onder 150 m AGL boven landbaar terrein) en een thermiek je redde. Hellingthermiek telt bewust niet mee. Top 10 over de gefilterde gegevens, gesorteerd op de laagste bereikte hoogte AGL.",
       "searchContext": "{minutes, number} min zoeken · −{lost}",
       "aglValue": "{value} AGL"
+    },
+    "byHour": {
+      "title": "Stijging per uur van de dag",
+      "description": "Mediane netto stijging van je thermiek per lokaal uur. Je beste uur: {hour}, met {value}.",
+      "axis": "Netto stijging",
+      "tooltip": "{value} mediaan · {count, plural, one {# thermiek} other {# thermieken}}",
+      "hourLabel": "{hour}u"
     }
   },
   "phases": {
@@ -303,7 +310,10 @@
       "maxSpeed": "Max. snelheid",
       "bestXcDistance": "Beste XC-afstand",
       "bestXcScore": "Beste XC-score",
-      "viewFlight": "Vlucht bekijken met {label}: {value}"
+      "viewFlight": "Vlucht bekijken met {label}: {value}",
+      "fastestKm": "Snelste {distance}",
+      "farthestFromTakeoff": "Verst van de startplaats",
+      "bestGlide": "Beste glijvlucht (2 km+)"
     },
     "lowSave": {
       "label": "Laagste low save",
@@ -317,8 +327,10 @@
       "circleTime": "Med. cirkeltijd",
       "circleRadius": "Med. cirkelstraal",
       "gFactor": "Mediane g-factor",
-      "strongestThermal": "Sterkste thermiekpiek",
-      "viewStrongest": "Vlucht met de sterkste thermiekpiek bekijken: {value}"
+      "strongestThermal": "Sterkste stijging (5 s)",
+      "viewStrongest": "Vlucht met je sterkste stijging bekijken: {value}",
+      "netClimb": "Netto stijging in thermiek",
+      "topLandings": "Toplandingen"
     }
   },
   "backfill": {

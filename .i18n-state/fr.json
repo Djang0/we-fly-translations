@@ -3375,6 +3375,11 @@
       "tr": "fc49ced477306443",
       "by": "ai"
     },
+    "cockpitAnalysis.overview.bests.bestGlide": {
+      "src": "35aa55b858f5d0e2",
+      "tr": "572604acc7f16fea",
+      "by": "ai"
+    },
     "cockpitAnalysis.overview.bests.bestXcDistance": {
       "src": "2103ade5504e002a",
       "tr": "3aadf93146ccd520",
@@ -3388,6 +3393,16 @@
     "cockpitAnalysis.overview.bests.description": {
       "src": "48905f10a5d5f532",
       "tr": "adee2ee8a12dc114",
+      "by": "ai"
+    },
+    "cockpitAnalysis.overview.bests.farthestFromTakeoff": {
+      "src": "fa4d0bc39773ae13",
+      "tr": "b657ab346c8cbdba",
+      "by": "ai"
+    },
+    "cockpitAnalysis.overview.bests.fastestKm": {
+      "src": "854a2c8500bda802",
+      "tr": "a9d944e1e2b2e330",
       "by": "ai"
     },
     "cockpitAnalysis.overview.bests.maxAltitude": {
@@ -3580,9 +3595,14 @@
       "tr": "a927c998c61e9362",
       "by": "ai"
     },
+    "cockpitAnalysis.overview.performance.netClimb": {
+      "src": "b0f43c8988727d6a",
+      "tr": "13bb27642a36565c",
+      "by": "ai"
+    },
     "cockpitAnalysis.overview.performance.strongestThermal": {
-      "src": "71409a0d365aa3c0",
-      "tr": "a9a1f1a171354750",
+      "src": "1dfdc0519b7c75d8",
+      "tr": "e20e98c82156109b",
       "by": "ai"
     },
     "cockpitAnalysis.overview.performance.title": {
@@ -3590,9 +3610,14 @@
       "tr": "6e2bd6f3159b3a60",
       "by": "ai"
     },
+    "cockpitAnalysis.overview.performance.topLandings": {
+      "src": "c28062703e7e3bf2",
+      "tr": "00a8b8d921d624da",
+      "by": "ai"
+    },
     "cockpitAnalysis.overview.performance.viewStrongest": {
-      "src": "0ff6670dd1a9cfd6",
-      "tr": "6df6668ad3853777",
+      "src": "5170adc7f5c26302",
+      "tr": "363aea6b32659b05",
       "by": "ai"
     },
     "cockpitAnalysis.overview.pts": {
@@ -3793,6 +3818,31 @@
     "cockpitAnalysis.phases.showAll": {
       "src": "2150d8df37e48957",
       "tr": "ff8a99c5c6f6da80",
+      "by": "ai"
+    },
+    "cockpitAnalysis.thermaling.byHour.axis": {
+      "src": "52e284713b615b9c",
+      "tr": "843e1768bb0f1413",
+      "by": "ai"
+    },
+    "cockpitAnalysis.thermaling.byHour.description": {
+      "src": "29a5cf8b59d4b39e",
+      "tr": "fa497a1270b4d3e2",
+      "by": "ai"
+    },
+    "cockpitAnalysis.thermaling.byHour.hourLabel": {
+      "src": "05355b11681b5b31",
+      "tr": "05355b11681b5b31",
+      "by": "ai"
+    },
+    "cockpitAnalysis.thermaling.byHour.title": {
+      "src": "a9b04095fa6171fe",
+      "tr": "28ca09321387da7c",
+      "by": "ai"
+    },
+    "cockpitAnalysis.thermaling.byHour.tooltip": {
+      "src": "1995aec726968d77",
+      "tr": "6e7284ce3a6ad691",
       "by": "ai"
     },
     "cockpitAnalysis.thermaling.charts.avgQuality.axis": {
@@ -13530,6 +13580,11 @@
       "tr": "1a48f97b98ac7c08",
       "by": "ai"
     },
+    "flight.summaryTab.aboveTakeoff": {
+      "src": "c285868a19a2daa7",
+      "tr": "b1f563ac784782f3",
+      "by": "ai"
+    },
     "flight.summaryTab.avgClimb": {
       "src": "a4e202a0ad7866f9",
       "tr": "67618bd289270500",
@@ -13543,6 +13598,21 @@
     "flight.summaryTab.bestClimb": {
       "src": "a3eb55ee52b6169e",
       "tr": "002f7cfc82fb0d96",
+      "by": "ai"
+    },
+    "flight.summaryTab.bestGlide": {
+      "src": "749268eac6e4127a",
+      "tr": "e1de11c95bd21169",
+      "by": "ai"
+    },
+    "flight.summaryTab.bestGlideHelp": {
+      "src": "a8f366bd46f59ab3",
+      "tr": "2b043b0faea5f445",
+      "by": "ai"
+    },
+    "flight.summaryTab.bestGlideSub": {
+      "src": "32e4784887c26b26",
+      "tr": "857501a0b16948c3",
       "by": "ai"
     },
     "flight.summaryTab.ceiling": {
@@ -13600,6 +13670,16 @@
       "tr": "1d0b523cb38918c2",
       "by": "ai"
     },
+    "flight.summaryTab.farthestFromTakeoff": {
+      "src": "fa4d0bc39773ae13",
+      "tr": "b657ab346c8cbdba",
+      "by": "ai"
+    },
+    "flight.summaryTab.fastestStretch": {
+      "src": "854a2c8500bda802",
+      "tr": "70b7fa4f274a2a1a",
+      "by": "ai"
+    },
     "flight.summaryTab.file": {
       "src": "50009ce1da4d15e1",
       "tr": "07ceb51d3a38741e",
@@ -13610,9 +13690,24 @@
       "tr": "a14c13b9925198c2",
       "by": "ai"
     },
+    "flight.summaryTab.glideByWind": {
+      "src": "8ac9aac3e12d5b0b",
+      "tr": "c1badda0e06eaae7",
+      "by": "ai"
+    },
+    "flight.summaryTab.glideByWindHelp": {
+      "src": "2475e3bca9b72290",
+      "tr": "dd03ec6aa29d13ea",
+      "by": "ai"
+    },
     "flight.summaryTab.gpsBadge": {
       "src": "176c7866b945713f",
       "tr": "176c7866b945713f",
+      "by": "ai"
+    },
+    "flight.summaryTab.heights": {
+      "src": "9e0b632003ee4df8",
+      "tr": "9391497369a9ec2d",
       "by": "ai"
     },
     "flight.summaryTab.importedFromLogfly": {
@@ -13620,9 +13715,24 @@
       "tr": "3e8f820de42d526d",
       "by": "ai"
     },
+    "flight.summaryTab.landedAway": {
+      "src": "e75fa9206ee29d4b",
+      "tr": "107911993a90cdee",
+      "by": "ai"
+    },
     "flight.summaryTab.length": {
       "src": "adc95605a1b30c73",
       "tr": "e912493ce5341528",
+      "by": "ai"
+    },
+    "flight.summaryTab.maxAboveGround": {
+      "src": "38f8b8d5c256968c",
+      "tr": "6942c192b77b0b00",
+      "by": "ai"
+    },
+    "flight.summaryTab.maxAboveGroundHelp": {
+      "src": "3b1a2a31c0a9b6c1",
+      "tr": "6a3ef54a82ebca4b",
       "by": "ai"
     },
     "flight.summaryTab.maxAltitude": {
@@ -13635,9 +13745,79 @@
       "tr": "32ca6a3d594d6f6a",
       "by": "ai"
     },
+    "flight.summaryTab.netClimbSub": {
+      "src": "58b49cd99bec06a3",
+      "tr": "0cc473181504127a",
+      "by": "ai"
+    },
     "flight.summaryTab.noThermals": {
       "src": "4cde41618f9a66f9",
       "tr": "5172f8e124f1f61f",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.darkHelp": {
+      "src": "f00ae10434a7675a",
+      "tr": "6f7968dd3634303d",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.darkLanding": {
+      "src": "e878a459e2ea36e1",
+      "tr": "b6e4db00513ec592",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.darkTakeoff": {
+      "src": "9796d5fca789f1e4",
+      "tr": "f5fb1c8581dde551",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.issues.channel_switches": {
+      "src": "b49248c85bdc55d0",
+      "tr": "15614b8b92d4de7e",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.issues.dropped_fixes": {
+      "src": "2d03164b91b63ffb",
+      "tr": "e23db67c95c10d7f",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.issues.gps_glitches": {
+      "src": "97d8cf3a224574c3",
+      "tr": "1c84b40ff9dc9f11",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.issues.long_gap": {
+      "src": "2c5c5672d9ccad5d",
+      "tr": "0b197ab9ef4c6674",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.issues.no_barometer": {
+      "src": "db599debaa87c0ed",
+      "tr": "dd7602eee71bfcbd",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.issues.sparse_logging": {
+      "src": "3598017c9aead677",
+      "tr": "716f67afdae6dd04",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.qualityFair": {
+      "src": "ef04131d6a47372e",
+      "tr": "e20335c6d52b937d",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.qualityFooter": {
+      "src": "7c82951cc087ee4d",
+      "tr": "ac90c4fe43a2da2c",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.qualityPoor": {
+      "src": "7e47c623e15b6d61",
+      "tr": "32f711b46f5f805c",
+      "by": "ai"
+    },
+    "flight.summaryTab.notices.qualityTitle": {
+      "src": "abb75ea5685cee35",
+      "tr": "fc584f093701a80d",
       "by": "ai"
     },
     "flight.summaryTab.onPar": {
@@ -13653,6 +13833,21 @@
     "flight.summaryTab.pointsUnit": {
       "src": "8c32e612bdc22150",
       "tr": "8c32e612bdc22150",
+      "by": "ai"
+    },
+    "flight.summaryTab.qnh": {
+      "src": "84e1784fde572abf",
+      "tr": "128d0ef49e4449fa",
+      "by": "ai"
+    },
+    "flight.summaryTab.qnhHelp": {
+      "src": "ad13f16b96fe1c36",
+      "tr": "957dd761ea33a29d",
+      "by": "ai"
+    },
+    "flight.summaryTab.qnhSub": {
+      "src": "5b85d0cbcb0b3e7d",
+      "tr": "d450c6fb9701e5cf",
       "by": "ai"
     },
     "flight.summaryTab.qualityScore": {
@@ -13710,6 +13905,16 @@
       "tr": "e6d5097de960e945",
       "by": "ai"
     },
+    "flight.summaryTab.thermalDensity": {
+      "src": "793c2a0a93cac3b2",
+      "tr": "bdb5c2565bbe8574",
+      "by": "ai"
+    },
+    "flight.summaryTab.thermalDensityHelp": {
+      "src": "661669dbd74b6edb",
+      "tr": "1cab76f01d956def",
+      "by": "ai"
+    },
     "flight.summaryTab.thermalSpacing": {
       "src": "c609bafd6f72b975",
       "tr": "c112ea1dbc571ef6",
@@ -13718,6 +13923,21 @@
     "flight.summaryTab.thermalSpacingHelp": {
       "src": "1fbd9d573866da83",
       "tr": "cb9b6738c2f455be",
+      "by": "ai"
+    },
+    "flight.summaryTab.timeClimbing": {
+      "src": "1c96315a88c50f9e",
+      "tr": "f4baed265491f2d5",
+      "by": "ai"
+    },
+    "flight.summaryTab.timeClimbingHelp": {
+      "src": "ba85aba4be9e9d09",
+      "tr": "cbb20f80f295e07d",
+      "by": "ai"
+    },
+    "flight.summaryTab.topLanding": {
+      "src": "5aebd8e918584062",
+      "tr": "d5b6dfdaf0ea605a",
       "by": "ai"
     },
     "flight.summaryTab.totalGain": {
@@ -13823,6 +14043,46 @@
     "flight.unifiedMap.baroHint": {
       "src": "1b49c636f253b57e",
       "tr": "3a0f7198dd589b67",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoAria": {
+      "src": "b25f571b7ce956e0",
+      "tr": "1d97e89678ef6d4d",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoFile": {
+      "src": "5e1907204563d5f4",
+      "tr": "45f717c53232bdff",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoLearnMore": {
+      "src": "9bd7237f6aead53b",
+      "tr": "b4200691ab135ec5",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoNone": {
+      "src": "fee80605379737cc",
+      "tr": "4ba2ba8a2fbacf68",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoQne": {
+      "src": "140622890a9abd1e",
+      "tr": "a26ced6c0b95a6a9",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoShiftGps": {
+      "src": "2c878bb4a1b316f4",
+      "tr": "2f7fdea3f11b0419",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoShiftTakeoff": {
+      "src": "b219aac47549b5e4",
+      "tr": "7178c3aaec6e4680",
+      "by": "ai"
+    },
+    "flight.unifiedMap.baroInfoTitle": {
+      "src": "b1eb73271346b63d",
+      "tr": "d08b8555cfd0f394",
       "by": "ai"
     },
     "flight.unifiedMap.exitFullscreen": {
@@ -14445,6 +14705,21 @@
       "tr": "607fc6bed24f2cdd",
       "by": "ai"
     },
+    "flightAnalysis.altitudeChart.baroAltCalibrated": {
+      "src": "90bdd3c84ae67a06",
+      "tr": "aef77aec54fd7261",
+      "by": "ai"
+    },
+    "flightAnalysis.altitudeChart.baroCalibratedGpsHint": {
+      "src": "6f806673d65a9de6",
+      "tr": "30a9fcae9fd1d708",
+      "by": "ai"
+    },
+    "flightAnalysis.altitudeChart.baroCalibratedTakeoffHint": {
+      "src": "25ec84966f6cb4b9",
+      "tr": "32bae38e0f1a83d5",
+      "by": "ai"
+    },
     "flightAnalysis.altitudeChart.gpsAlt": {
       "src": "e52e62e887c92232",
       "tr": "3fed191ea96ff271",
@@ -14860,6 +15135,11 @@
       "tr": "f90e22675ced9c13",
       "by": "ai"
     },
+    "flightAnalysis.qualityStrip.netClimb": {
+      "src": "a08a0fcbdeafd3c1",
+      "tr": "a08a0fcbdeafd3c1",
+      "by": "ai"
+    },
     "flightAnalysis.scoreBreakdown.centering": {
       "src": "e92e5215f64f7212",
       "tr": "17db6657754f6701",
@@ -14883,6 +15163,11 @@
     "flightAnalysis.scoreBreakdown.howCalculated": {
       "src": "72d755b258b88d95",
       "tr": "573c18abbc8a08d8",
+      "by": "ai"
+    },
+    "flightAnalysis.scoreBreakdown.netClimb": {
+      "src": "52e284713b615b9c",
+      "tr": "843e1768bb0f1413",
       "by": "ai"
     },
     "flightAnalysis.scoreBreakdown.sustained": {
@@ -16210,6 +16495,16 @@
       "tr": "4aadd7061f143e90",
       "by": "ai"
     },
+    "flights.anomalies.concurrent.deletedDuplicateDescription": {
+      "src": "da4ab308df9fbef8",
+      "tr": "8b6ace4445701c8b",
+      "by": "ai"
+    },
+    "flights.anomalies.concurrent.deleteDuplicate": {
+      "src": "75938c9372c0cd75",
+      "tr": "32195f64363fb3a6",
+      "by": "ai"
+    },
     "flights.anomalies.concurrent.deleteFailed": {
       "src": "f625b14e1b2c5f79",
       "tr": "82debfd615eae3a8",
@@ -16228,6 +16523,11 @@
     "flights.anomalies.concurrent.deleting": {
       "src": "685ecb984ac29ce8",
       "tr": "2f5f32765f028f2a",
+      "by": "ai"
+    },
+    "flights.anomalies.concurrent.duplicateCopy": {
+      "src": "48dfae9381c2e43a",
+      "tr": "92488b48e6d99f05",
       "by": "ai"
     },
     "flights.anomalies.concurrent.overlapLabel": {
@@ -16426,8 +16726,8 @@
       "by": "ai"
     },
     "flights.anomalies.view.concurrent.confirmBody": {
-      "src": "074027dca0f120ed",
-      "tr": "512deb7fcab54ab2",
+      "src": "00624072b6c7e67a",
+      "tr": "b438466b860eef8f",
       "by": "ai"
     },
     "flights.anomalies.view.concurrent.confirmTitle": {
@@ -27446,8 +27746,8 @@
       "by": "ai"
     },
     "success.categories.thermal_strength.description": {
-      "src": "46b7c00dd99b1b39",
-      "tr": "38d948b62e2f381f",
+      "src": "9bba4a173ac75ae3",
+      "tr": "b9ab86694ceabb42",
       "by": "ai"
     },
     "success.categories.thermal_strength.label": {
@@ -37673,13 +37973,18 @@
   },
   "docs": {
     "advanced-thermal-analysis": {
-      "src": "9fd312fa5e83a7df",
-      "tr": "bc437d8930fad0e8",
+      "src": "dd4608fe0c3c6b0f",
+      "tr": "cb4715252ffd4a49",
       "by": "ai"
     },
     "advanced-thermal-analysis-settings": {
       "src": "e5767dbf49499a45",
       "tr": "a1aa7c7bdcc043d6",
+      "by": "ai"
+    },
+    "baro-and-gps-altitude": {
+      "src": "f0864f4a066d97c7",
+      "tr": "6e2c3686d032ac3f",
       "by": "ai"
     },
     "cockpit": {
@@ -37748,8 +38053,8 @@
       "by": "ai"
     },
     "overall-thermal-score": {
-      "src": "9725cf7d5bfa9b03",
-      "tr": "a280c0a51288b206",
+      "src": "98db4dc6aa26a40f",
+      "tr": "e6fc2ad14278af4d",
       "by": "ai"
     },
     "privacy-policy": {
@@ -37836,6 +38141,11 @@
       "tr": "54d9869b79859b99",
       "by": "ai"
     },
+    "016cc6bf8b8e": {
+      "src": "016cc6bf8b8e6dea",
+      "tr": "be4ec8b80117d095",
+      "by": "ai"
+    },
     "02ccbf1559a1": {
       "src": "02ccbf1559a13a7b",
       "tr": "c0795c48fdcffef1",
@@ -37869,6 +38179,16 @@
     "0c38ca9fe94f": {
       "src": "0c38ca9fe94f1d01",
       "tr": "e3f36f0c05d7e7fb",
+      "by": "ai"
+    },
+    "0d6da72f7c4e": {
+      "src": "0d6da72f7c4e650f",
+      "tr": "738f280bcfae75dc",
+      "by": "ai"
+    },
+    "0efd69adc914": {
+      "src": "0efd69adc91449ff",
+      "tr": "9e5fe21d5aa8d15e",
       "by": "ai"
     },
     "0fee577ce21b": {
@@ -37941,6 +38261,11 @@
       "tr": "4cd0222e5d974a93",
       "by": "ai"
     },
+    "304d81535a4e": {
+      "src": "304d81535a4ed7e8",
+      "tr": "bc97c62d33538d47",
+      "by": "ai"
+    },
     "305edbc1e9c0": {
       "src": "305edbc1e9c03901",
       "tr": "fe6f4136648d6b8f",
@@ -37974,6 +38299,11 @@
     "3d181c84309d": {
       "src": "3d181c84309d3a9c",
       "tr": "bc5fc65bb17e97db",
+      "by": "ai"
+    },
+    "3d1e9ca2d400": {
+      "src": "3d1e9ca2d400ef95",
+      "tr": "421e0699fb966c2e",
       "by": "ai"
     },
     "3dfbb967f2a1": {
@@ -38056,9 +38386,19 @@
       "tr": "603301cf40e003f2",
       "by": "ai"
     },
+    "67c702ac7dde": {
+      "src": "67c702ac7dde3a39",
+      "tr": "0160f1dd5cef49f7",
+      "by": "ai"
+    },
     "69c4fb696d1e": {
       "src": "69c4fb696d1e8125",
       "tr": "7c8c3c8fa287cc71",
+      "by": "ai"
+    },
+    "6cb1b57ae6d8": {
+      "src": "6cb1b57ae6d8a5be",
+      "tr": "679fecca224c2539",
       "by": "ai"
     },
     "6d93ad7e45fb": {
@@ -38069,6 +38409,11 @@
     "6e93f594d363": {
       "src": "6e93f594d36341bd",
       "tr": "2a3d872cb64a1d7d",
+      "by": "ai"
+    },
+    "6ffcc8333b78": {
+      "src": "6ffcc8333b78235c",
+      "tr": "71d7911735faf37f",
       "by": "ai"
     },
     "729b04b59e00": {
@@ -38156,6 +38501,16 @@
       "tr": "dc4c47b3f78dabcd",
       "by": "ai"
     },
+    "959343589241": {
+      "src": "9593435892410d3c",
+      "tr": "2a5e9bb97b1d37bc",
+      "by": "ai"
+    },
+    "95fc6575deda": {
+      "src": "95fc6575dedacfd0",
+      "tr": "daac970695b2861a",
+      "by": "ai"
+    },
     "98093f5a5158": {
       "src": "98093f5a51580d90",
       "tr": "299f2e920da47bdc",
@@ -38186,9 +38541,19 @@
       "tr": "8700f990262bc8c0",
       "by": "ai"
     },
+    "aa831986bab4": {
+      "src": "aa831986bab43585",
+      "tr": "2f8d16e01517f244",
+      "by": "ai"
+    },
     "afe64ffe622d": {
       "src": "afe64ffe622d7a45",
       "tr": "e9ffef22ce72a217",
+      "by": "ai"
+    },
+    "b2cb7c7543ef": {
+      "src": "b2cb7c7543ef6b4e",
+      "tr": "02f6c4e2e71fa7dc",
       "by": "ai"
     },
     "b4bba26dac92": {
@@ -38219,6 +38584,11 @@
     "bee7d9b88824": {
       "src": "bee7d9b88824cb5c",
       "tr": "797f305f37922b53",
+      "by": "ai"
+    },
+    "c0a07dada016": {
+      "src": "c0a07dada0169091",
+      "tr": "f2c80ff3f322c785",
       "by": "ai"
     },
     "c0bd4dcc3408": {
@@ -38314,6 +38684,11 @@
     "d4a1fc31044a": {
       "src": "d4a1fc31044a7f26",
       "tr": "6cfbdb17260476ef",
+      "by": "ai"
+    },
+    "d6962f1f6d6e": {
+      "src": "d6962f1f6d6eb709",
+      "tr": "6144c0f16ce29b91",
       "by": "ai"
     },
     "d740da7b75cc": {

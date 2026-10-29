@@ -468,7 +468,7 @@
         "resolving": "Résolution…",
         "resolveAll": "Tout résoudre",
         "confirmTitle": "Résoudre tous les vols simultanés ?",
-        "confirmBody": "Le vol le plus court de {count, plural, one {la paire de vols simultanés sera définitivement supprimé} other {chacune des # paires de vols simultanés sera définitivement supprimé}}. Cette action est irréversible.",
+        "confirmBody": "Pour {count, plural, one {la paire de vols simultanés, un vol sera définitivement supprimé} other {chacune des # paires de vols simultanés, un vol sera définitivement supprimé}} : la copie la plus récente si le même fichier a été importé deux fois, sinon le vol le plus court. Cette action est irréversible.",
         "confirmAction": "Supprimer les vols les plus courts",
         "overlap": "Chevauchement",
         "date": "Date",
@@ -502,7 +502,10 @@
       "confirmTitle": "Supprimer le vol le plus court ?",
       "confirmBody": "Le vol du <strong>{date}</strong> ({takeoff} à {landing}, {duration}) sera définitivement supprimé. Cette action est irréversible et supprime aussi le fichier IGC associé.",
       "cancel": "Annuler",
-      "confirmAction": "Supprimer le vol"
+      "confirmAction": "Supprimer le vol",
+      "duplicateCopy": "Copie en double",
+      "deleteDuplicate": "Supprimer la copie",
+      "deletedDuplicateDescription": "La copie en double a été définitivement supprimée ; ton vol d’origine est conservé"
     },
     "altitude": {
       "unknownDate": "Date inconnue",

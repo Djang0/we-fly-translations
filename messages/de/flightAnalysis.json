@@ -2,6 +2,9 @@
   "altitudeChart": {
     "gpsAlt": "GPS-Höhe",
     "baroAlt": "Baro-Höhe",
+    "baroAltCalibrated": "Baro-Höhe · auf Start abgeglichen",
+    "baroCalibratedTakeoffHint": "Barometrische Höhe um {offset} verschoben, damit sie am Startplatz zum Gelände passt – wie wenn du dein Vario vor dem Start einstellst. Logger zeichnen sie gegen Standarddruck (1013 hPa) auf, nicht gegen den Luftdruck des Tages.",
+    "baroCalibratedGpsHint": "Barometrische Höhe um {offset} verschoben, damit sie zur GPS-Höhe passt. Logger zeichnen sie gegen Standarddruck (1013 hPa) auf, nicht gegen den Luftdruck des Tages.",
     "alt": "Höhe",
     "altitude": "Höhe",
     "ground": "Gelände",
@@ -174,12 +177,12 @@
     }
   },
   "qualityStrip": {
-    "efficiency": "Eff.",
+    "netClimb": "netto",
     "centering": "Zentr."
   },
   "scoreBreakdown": {
     "climb": "Steigen",
-    "efficiency": "Effizienz",
+    "netClimb": "Netto-Steigen",
     "centering": "Zentrieren",
     "consistency": "Gleichmäßigkeit",
     "sustained": "Konstanz",

@@ -468,7 +468,7 @@
         "resolving": "Resolviendo...",
         "resolveAll": "Resolver todo",
         "confirmTitle": "¿Resolver todos los vuelos simultáneos?",
-        "confirmBody": "Se eliminará para siempre el vuelo más corto de {count, plural, one {la # pareja de vuelos simultáneos} other {cada una de las # parejas de vuelos simultáneos}}. Esta acción no se puede deshacer.",
+        "confirmBody": "Se eliminará para siempre un vuelo de {count, plural, one {la # pareja de vuelos simultáneos} other {cada una de las # parejas de vuelos simultáneos}}: la copia más reciente si subiste el mismo archivo dos veces; si no, el vuelo más corto. Esta acción no se puede deshacer.",
         "confirmAction": "Eliminar los vuelos más cortos",
         "overlap": "Solapamiento",
         "date": "Fecha",
@@ -502,7 +502,10 @@
       "confirmTitle": "¿Eliminar el vuelo más corto?",
       "confirmBody": "Se eliminará para siempre el vuelo del <strong>{date}</strong> ({takeoff} a {landing}, {duration}). Esta acción no se puede deshacer y también borrará el archivo IGC asociado.",
       "cancel": "Cancelar",
-      "confirmAction": "Eliminar vuelo"
+      "confirmAction": "Eliminar vuelo",
+      "duplicateCopy": "Copia duplicada",
+      "deleteDuplicate": "Eliminar la copia",
+      "deletedDuplicateDescription": "La copia duplicada se ha eliminado para siempre; tu vuelo original se conserva"
     },
     "altitude": {
       "unknownDate": "Fecha desconocida",

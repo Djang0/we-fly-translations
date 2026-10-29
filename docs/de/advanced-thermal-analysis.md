@@ -1,201 +1,201 @@
 ---
 title: Erweiterte Thermikanalyse
-description: Jeder Bart, den du bearbeitet hast, im Detail, Zentrieren, Steigwert und Effizienz Flug für Flug bewertet
+description: Jeder Bart, den du gekurbelt hast, im Detail – Zentrieren, Steigwert und Effizienz, Flug für Flug bewertet
 category: Thermal Analysis
 order: 1
 ---
 
-Hast du dich schon mal gefragt, ob du wirklich ein Thermikgenie bist oder einfach nur Glück hast? Der Tab **Thermik** an jedem Flug ist dein persönlicher Debriefing-Partner: Er nimmt jedes Steigen, das du bearbeitet hast, Kreis für Kreis auseinander.
+Schon mal gefragt, ob du wirklich ein Thermik-Genie bist oder nur Glück hattest? Der Tab **Thermik** bei jedem Flug ist dein persönlicher Debriefing-Partner: Er nimmt jedes Steigen, das du gekurbelt hast, Kreis für Kreis auseinander.
 
-## Was ist das für ein Ding?
+## Was ist das überhaupt?
 
-Es ist ein Analysetool für nach dem Flug, das jede deiner Bewegungen in der Thermik beobachtet. Es bleibt nicht bei „du bist 500 m gestiegen“ stehen. Es schaut, *wie* du gestiegen bist: ob du wie ein Profi den Kern gejagt hast oder eine Rundreise am Rand gemacht hast.
+Eine Analyse nach dem Flug, die jede deiner Bewegungen in der Thermik unter die Lupe nimmt. Sie hört nicht bei „du bist 500 m gestiegen“ auf, sondern schaut, *wie* du gestiegen bist: ob du wie ein Profi den Kern gesucht oder eine Rundreise am Rand gemacht hast.
 
-Wenn du einen Flug hochlädst, erkennt We-Fly jeden Bart, den du bearbeitet hast, gibt jedem eine Qualitätsbewertung von 100 Punkten und erstellt eine ausführliche Aufschlüsselung. Stell es dir vor wie einen Coach, der deinen Track und deine Variokurve durchgeht, ein Steigen nach dem anderen. Neugierig, wie ein Steigen überhaupt erkannt wird? Schau in [So funktioniert die Thermikerkennung](/doc/advanced-thermal-analysis-settings).
+Wenn du einen Flug hochlädst, erkennt We-Fly jeden Bart, den du gekurbelt hast, gibt jedem eine Qualitätsnote von 0 bis 100 und erstellt eine detaillierte Auswertung. Stell es dir vor wie einen Coach, der deinen Track und deine Vario-Kurve durchgeht, Bart für Bart. Neugierig, wie ein Steigen überhaupt erkannt wird? Schau in [Wie die Thermikerkennung funktioniert](/doc/advanced-thermal-analysis-settings).
 
-Öffne einen beliebigen Flug und wähle den Tab **Thermik**. Die Zahl neben dem Namen des Tabs sagt dir, wie viele Bärte gefunden wurden.
+Öffne einen beliebigen Flug und wähle den Tab **Thermik**. Die Zahl neben dem Tab-Namen zeigt, wie viele Bärte gefunden wurden.
 
 ## Die Hauptansicht
 
-Der Tab liest sich von oben nach unten:
+Der Tab ist von oben nach unten aufgebaut:
 
 1. Eine Übersichtsleiste für den ganzen Flug
 2. Das Diagramm **Vario vs. Kreisradius**
 3. Filter-Chips und eine Zeitleiste, um einen Bart auszuwählen
-4. Die Ansicht für den ausgewählten Bart: Karte oder 3D-Ansicht auf der einen Seite, Details auf der anderen
+4. Die Ansicht des gewählten Barts: Karte oder 3D-Ansicht auf der einen Seite, Details auf der anderen
 5. Das Diagramm **Steigwert nach Höhe & Zeit**
 
 ### Übersichtsleiste des Flugs
 
-Die Vogelperspektive auf deinen Tag:
+Dein Tag aus der Vogelperspektive:
 
-- **Bärte**: Wie viele Steigen es in die Auswertung geschafft haben
-- **Bester**: Die höchste Qualitätsbewertung des Flugs, mit der Nummer des Barts und seiner Qualitätsstufe
-- **Gewinn**: Die ganze Höhe, die du in der Thermik gemacht hast
-- **Ø Steigen**: Dein mittlerer Steigwert über alle Bärte
-- **Qualität**: Die mittlere Qualitätsbewertung, mit dem Median darunter
+- **Bärte**: wie viele Steigen es in die Auswertung geschafft haben
+- **Bester**: die höchste Qualitätsnote des Flugs, mit Nummer des Barts und seinem Qualitätslabel
+- **Gewinn**: die gesamte Höhe, die du in der Thermik gemacht hast
+- **Ø Steigen**: dein durchschnittlicher Steigwert über alle Bärte
+- **Qualität**: die durchschnittliche Qualitätsnote, darunter der Median
 
 ### Vario vs. Kreisradius
 
-Jeder volle Kreis, den du geflogen bist, wird zu einem Punkt: sein Radius auf der waagrechten Achse, der Steigwert, den er dir gebracht hat, auf der senkrechten. Der Hintergrund ist in Zonen aufgeteilt, beschriftet mit **riskant**, **ideal**, **ok** und **enger kreisen**, von sehr engen Kreisen links bis zu weiten rechts. Liegen die meisten deiner besten Punkte in der Zone **enger kreisen**, weißt du, woran du beim nächsten Flug arbeitest.
+Jeder vollständige Kreis, den du geflogen bist, wird zu einem Punkt: sein Radius auf der horizontalen Achse, das Steigen, das er dir gebracht hat, auf der vertikalen. Der Hintergrund ist in Zonen aufgeteilt, beschriftet mit **riskant**, **ideal**, **ok** und **enger kreisen**, von sehr engen Kreisen links bis zu weiten rechts. Liegen die meisten deiner besten Punkte in der Zone **enger kreisen**, weißt du, woran du beim nächsten Flug arbeiten kannst.
 
 ### Einen Bart auswählen
 
-Über der Zeitleiste sitzt eine Reihe Filter-Chips, jeder mit der Anzahl der passenden Bärte:
+Über der Zeitleiste sitzt eine Reihe Filter-Chips, jeder zeigt, wie viele Bärte er trifft:
 
-- **Alle**: Jeder Bart
-- **Beste 5**: Die fünf stärksten Steigen nach mittlerem Steigwert
+- **Alle**: jeder Bart
+- **Beste 5**: die fünf stärksten Steigen nach durchschnittlichem Steigwert
 - **Unter Median**: Bärte mit einem Steigwert unter dem Median des Flugs
-- **Starker Versatz**: Bärte, in denen du pro 100 m Höhengewinn mehr als 30 m versetzt wurdest (nur Steigen ab 50 m zählen)
+- **Starker Versatz**: Bärte, in denen du pro 100 m Höhengewinn mehr als 30 m versetzt wurdest (berücksichtigt werden nur Steigen ab 50 m)
 
-Unter den Chips legt die Zeitleiste jeden Bart entlang der echten Uhrzeit des Flugs aus. Die Farbe jedes Punkts ist seine Qualität, seine Größe der Höhengewinn, so findest du „den großen um halb zwei“ ganz leicht. Klick auf einen Punkt, um diesen Bart in der Ansicht zu öffnen.
+Unter den Chips legt die Zeitleiste jeden Bart entlang der echten Uhrzeit des Flugs aus. Die Farbe jedes Punkts steht für seine Qualität, die Größe für den Höhengewinn – so findest du „den großen um halb zwei“ ganz leicht. Klick auf einen Punkt, um diesen Bart in der Ansicht zu öffnen.
 
-Der ausgewählte Bart steht in der Adresse der Seite, so kannst du einen Link direkt auf „Bart #7“ teilen.
+Der gewählte Bart ist Teil der Seitenadresse, du kannst also einen Link direkt auf „Bart #7“ teilen.
 
 ### Die Bart-Ansicht
 
-Die Titelleiste zeigt **Bart #N**, seine Qualitätsstufe, die Startzeit, den Höhengewinn und das mittlere Steigen. Rechts wechselst du zwischen **2D-Karte** und **3D-Ansicht**.
+Die Titelleiste zeigt **Bart #N**, sein Qualitätslabel, die Startzeit, den Höhengewinn und das durchschnittliche Steigen. Rechts wechselst du zwischen **2D-Karte** und **3D-Ansicht**.
 
 **Auf der 2D-Karte:**
 
-- **Der Track des ausgewählten Barts** ist als Punkte gezeichnet, nach Vario eingefärbt: Grün für starkes Steigen (über 3 m/s), Gelb für Steigen bis 3 m/s, Rot für Sinken
+- **Der Track des gewählten Barts** wird als Punkte in Vario-Farben gezeichnet: grün für starkes Steigen (über 3 m/s), gelb für Steigen bis 3 m/s, rot für Sinken
 - Die Markierungen **Einstiegspunkt** und **Ausstiegspunkt** zeigen, wo das Steigen begann und endete
-- **Der Thermikkern** jedes Barts ist eine Markierung mit einem gestrichelten Ring. Der ausgewählte ist rot, die anderen blassrosa als Kontext. Fahr mit der Maus über einen Kern, um seine Stärke zu sehen
+- **Der Thermikkern** jedes Barts ist eine Markierung mit gestricheltem Ring. Der gewählte ist rot, die anderen blassrosa zur Orientierung. Fahr mit der Maus über einen Kern, um seine Stärke zu sehen
 - **Aktuelle Position** ist die hellblaue Markierung, die sich bei der Wiedergabe bewegt
 
-**In der 3D-Ansicht** ist dasselbe Steigen als Spirale gezeichnet, die du drehen kannst, mit einer Legende für **Starkes Steigen**, **Schwaches Steigen**, **Sinken**, **Thermikkern**, **Ausstiegshöhe** und **Aktuelle Position**.
+**In der 3D-Ansicht** wird dasselbe Steigen als Spirale gezeichnet, die du drehen kannst, mit einer Legende für **Starkes Steigen**, **Schwaches Steigen**, **Sinken**, **Thermikkern**, **Ausstiegshöhe** und **Aktuelle Position**.
 
-## Wiedergabe der Animation
+## Animierte Wiedergabe
 
 Unter der Karte oder der 3D-Ansicht sitzt die Wiedergabeleiste:
 
-- **Abspielen** / **Pause**: Spiel den Bart Fix für Fix ab
+- **Abspielen** / **Pause**: den Bart Fix für Fix nachfliegen
 - Der kreisförmige Pfeil: zurück zum ersten Fix
-- Die Pfeile für vorheriges und nächstes Frame: Geh das Steigen GPS-Fix für GPS-Fix durch
-- **Frame**-Zähler: Wo du im Bart bist (zum Beispiel 42/156)
+- Die Pfeile für vorheriges und nächstes Bild: das Steigen GPS-Fix für GPS-Fix durchgehen
+- Zähler **Frame**: wo du gerade im Bart bist (zum Beispiel 42/156)
 - Zeit, Höhe und Vario am aktuellen Fix
-- Der Zielscheiben-Button: **Karte auf diesen Bart zentrieren**, praktisch, nachdem du herumgeschoben hast
+- Der Zielscheiben-Button: **Karte auf diesen Bart zentrieren**, praktisch, nachdem du auf der Karte herumgeschoben hast
 
-Frame für Frame zu gehen ist der beste Weg, um genau den Moment zu erwischen, in dem du den Kern gefunden oder verloren hast.
+Bild für Bild durchzugehen ist der beste Weg, den genauen Moment zu finden, in dem du den Kern gefunden – oder verloren – hast.
 
-## Details zum Bart
+## Bart-Details
 
-Neben der Ansicht (am Handy darunter) steht dein Coaching-Bericht. Oben eine große Qualitätsbewertung mit ihrer Stufe, dazu zwei schnelle Werte: **Eff.** (Effizienz) und **Zentr.** (Zentrieren).
+Neben der Ansicht (auf dem Handy darunter) steht dein Coaching-Bericht. Oben eine große Qualitätsnote mit Label, dazu zwei schnelle Kennzahlen: **netto** (Netto-Steigen, dein durchschnittliches Steigen vom Einstieg bis zum Ausstieg) und **Zentr.** (Zentrieren).
 
-Darunter sind die Details in Abschnitte eingeklappt. Es ist immer einer offen, und jeder zeigt eingeklappt eine einzeilige Vorschau, so überblickst du die ganze Geschichte, ohne zu scrollen.
+Darunter sind die Details in Abschnitte eingeklappt. Es ist immer nur einer offen, und jeder zeigt eingeklappt eine einzeilige Vorschau – so überblickst du die ganze Geschichte, ohne zu scrollen.
 
 #### Steigen
 
-- **Gewinn**: Gesamter Höhengewinn
-- **Ø**: Mittlerer Steigwert
-- **Max.**: Bestes Steigen, über 5 Sekunden geglättet (der rohe Spitzenwert eines einzelnen Fixes steht darunter)
-- **Min.**: Schwächster Moment, meist beim Einfliegen oder als du aus dem Kern gefallen bist
-- **Schwank.**: Wie stark der Steigwert geschwankt hat. Niedrig heißt ruhiger Bart, hoch heißt knackig oder turbulent
+- **Gewinn**: gesamter Höhengewinn
+- **Ø**: durchschnittlicher Steigwert
+- **Max.**: bestes Steigen, über 5 Sekunden geglättet (der rohe Spitzenwert eines einzelnen Fixes steht darunter)
+- **Min.**: der schwächste Moment, meist beim Einstieg oder wenn du aus dem Kern gefallen bist
+- **Schwank.**: wie stark der Steigwert geschwankt hat. Niedrig heißt gleichmäßiger Bart, hoch heißt ruppig oder turbulent
 
 #### Kern
 
-- **Stärke**: Mittleres Steigen im Kern, dein Sweet Spot
-- **Zentrierzeit**: Wie lange du nach Beginn des Barts gebraucht hast, um den Kern zu erreichen. Weniger ist besser
-- **Größe**: Der Radius des Steigens im Kern
-- **Ø Abstand**: Wie weit du im Mittel um den Kern gekreist bist
-- **Zentrieren**: Wie nah du am Kern geblieben bist, in Prozent. Kreist du genau im Radius des Kerns, gibt das 100 %
+- **Stärke**: durchschnittliches Steigen im Kern, dein Sweet Spot
+- **Zentrierzeit**: wie lange es nach Beginn des Barts gedauert hat, bis du im Kern warst. Je kürzer, desto besser
+- **Größe**: der Steigradius des Kerns
+- **Ø Abstand**: wie weit du im Schnitt vom Kern entfernt gekreist bist
+- **Zentrieren**: wie nah du am Kern geblieben bist, in Prozent. Wer genau auf dem Radius des Kerns kreist, bekommt 100 %
 
 #### Kurvendynamik
 
-- **Richtung**: Links oder rechts (die meisten Piloten haben eine Lieblingsseite, kein Urteil)
-- **Kreise**: Anzahl der vollen Kreise
-- **Drehrate**: Mittlere Drehrate in Grad pro Sekunde
-- **Schräglage**: Aus Größe und Dauer deiner Kreise geschätzt, mit der daraus folgenden Fluggeschwindigkeit darunter
-- **Zeit pro Kreis** und **Kreisradius**: Die Streuung deiner Kreise, als minimale, mittlere (Median) und maximale Zeit sowie als Radius beim 25. Perzentil, Median und 75. Perzentil
+- **Richtung**: links oder rechts (die meisten Piloten haben eine Lieblingsseite, kein Urteil)
+- **Kreise**: Anzahl vollständiger Kreise
+- **Drehrate**: durchschnittliche Drehrate in Grad pro Sekunde
+- **Schräglage**: geschätzt aus Kreisgröße und Timing, darunter die daraus abgeleitete Fahrt
+- **Zeit pro Kreis** und **Kreisradius**: die Streuung deiner Kreise, als minimale, mittlere und maximale Zeit sowie 25. Perzentil, Median und 75. Perzentil des Radius
 
 #### Versatz & Wind
 
-- **Windgeschwindigkeit**: Daraus geschätzt, wie deine Kreise versetzt wurden
-- **Versatz**: Wie weit dich der Bart beim Steigen mitgenommen hat
-- **Richtung**: Woher der Wind kam, mit einem Kompass. Der Pfeil des Kompasses zeigt, wohin der Wind geweht hat, und die Beschriftung nennt die Richtung, aus der er kam, wie in einer Vorhersage
+- **Windgeschwindigkeit**: geschätzt daraus, wie deine Kreise versetzt wurden
+- **Versatz**: wie weit dich der Bart beim Steigen mitgenommen hat
+- **Richtung**: woher der Wind kam, mit Kompass. Der Kompasspfeil zeigt, wohin der Wind geweht hat, das Label nennt die Richtung, „aus“ der er kam – wie in einer Wettervorhersage
 
 #### Zeit
 
-**Beginn**, **Ende** und **Dauer** des Steigens. Praktisch, um sie mit deinen eigenen Notizen abzugleichen.
+**Beginn**, **Ende** und **Dauer** des Steigens. Praktisch zum Abgleich mit deinen eigenen Notizen.
 
-#### Punkteaufschlüsselung
+#### Aufschlüsselung der Note
 
-Zeigt, wie sich die Qualitätsbewertung zusammensetzt: ein Balken pro Faktor (**Steigen**, **Effizienz**, **Zentrieren**, **Gleichmäßigkeit** und **Konstanz**), seine Gewichtung, dein tatsächlicher Wert und die Punkte, die er beigetragen hat. Der Link **Wie wird das berechnet?** führt dich zur vollständigen Formel.
+Zeigt, wie die Qualitätsnote zustande kam: ein Balken pro Faktor (**Steigen**, **Netto-Steigen**, **Zentrieren**, **Gleichmäßigkeit** und **Konstanz**), seine Gewichtung, dein tatsächlicher Wert und die Punkte, die er beigetragen hat. Der Link **Wie wird das berechnet?** führt dich zur vollständigen Formel.
 
 #### Empfehlungen
 
-Anhand der Zahlen oben bekommst du gezieltes Feedback zu diesem Steigen, zum Beispiel:
+Anhand der Zahlen oben bekommst du konkretes Feedback zu diesem Steigen, zum Beispiel:
 
-- Lob auf grünem Hintergrund: „Super Kerneinstieg: stärkstes Steigen in 12 s gefunden.“
-- Vorschläge auf bernsteinfarbenem Hintergrund: „Langsamer Kerneinstieg: … Flieg anfangs weitere Kreise, um den Gradienten zu spüren.“
+- Positives auf grünem Hintergrund: „Super Kerneinstieg: stärkstes Steigen in 12 s gefunden.“
+- Vorschläge auf orangem Hintergrund: „Langsamer Kerneinstieg: … Versuch es mit weiteren ersten Kreisen, um den Gradienten zu spüren.“
 
-Die Tipps entstehen aus den Messwerten genau dieses Barts (Größe des Kerns, Versatz, Schräglage, Schwankung), nicht aus allgemeinen Ratschlägen. Eine Zusammenfassung über den ganzen Flug findest du im Bereich **Coaching** im Tab **Übersicht** des Flugs.
+Die Tipps basieren auf den Messwerten genau dieses Barts (Kerngröße, Versatz, Schräglage, Schwankung), nicht auf Allerweltsratschlägen. Eine Zusammenfassung für den ganzen Flug findest du im Panel **Coaching** auf dem Tab **Übersicht** des Flugs.
 
 ## Steigwert nach Höhe & Zeit
 
-Ganz unten im Tab ist jeder Bart nach Tageszeit und Höhe eingetragen, nach Steigwert eingefärbt. Stell den Höhenbezug zwischen **MSL** und **AGL** (über dem Startplatz) um. Die gestrichelte Linie ist die nutzbare Basis des Tages; teilt sie sich in zwei Stufen, war die Basis am Vormittag und am Nachmittag unterschiedlich. Klick auf einen Punkt, um oben in der Ansicht zu diesem Bart zu springen.
+Ganz unten im Tab wird jeder Bart nach Uhrzeit und Höhe eingetragen, eingefärbt nach Steigwert. Stell die Höhenreferenz zwischen **MSL** und **AGL** (über dem Startplatz) um. Die gestrichelte Linie ist die Arbeitshöhe des Tages; teilt sie sich in zwei Stufen, lag die Arbeitshöhe vormittags und nachmittags unterschiedlich. Klick auf einen Punkt, um nach oben zu diesem Bart in der Ansicht zu springen.
 
-## Die Qualitätsbewertung erklärt
+## Die Qualitätsnote erklärt
 
-Die Qualitätsbewertung ist nicht einfach „guter Steigwert = hohe Bewertung“. Sie ist eine Bewertung von 100 Punkten, die fünf Faktoren verbindet:
+Die Qualitätsnote ist nicht einfach „gutes Steigen = hohe Note“. Sie ist eine Note von 0 bis 100, die fünf Faktoren kombiniert:
 
-1. **Steigen**: Wie stark das Steigen in seiner besten Phase war
-2. **Effizienz**: Höhengewinn im Verhältnis zum Versatz
-3. **Zentrieren**: Wie nah du am Kern geblieben bist
-4. **Gleichmäßigkeit**: Wie ruhig das Steigen war
-5. **Konstanz**: Ob du wirklich geblieben bist und gekreist hast, statt nur durchzufliegen
+1. **Steigen**: wie stark das Steigen in der Spitze war
+2. **Netto-Steigen**: Höhengewinn über die im Bart verbrachte Zeit – daran ändert der Wind nichts
+3. **Zentrieren**: wie nah du am Kern geblieben bist
+4. **Gleichmäßigkeit**: wie konstant das Steigen war
+5. **Konstanz**: ob du wirklich drin geblieben bist und gekurbelt hast, statt nur durchzufliegen
 
-Ein brettharter Bart, in dem du herumgeirrt bist, kann schlechter abschneiden als ein mäßiger, den du perfekt bearbeitet hast. Es geht um Technik, nicht nur um Glück.
+Ein brettharter Bart, in dem du herumgeeiert bist, kann schlechter abschneiden als ein mäßiger, den du perfekt gekurbelt hast. Es geht um Technik, nicht nur um Glück.
 
-**Qualitätsstufen:**
+**Qualitätslabels:**
 
-| Bewertung | Stufe |
+| Note | Label |
 |---|---|
-| 80 und mehr | Herausragend |
-| 73 bis 79 | Exzellent |
-| 66 bis 72 | Gut |
-| 60 bis 65 | Mittel |
-| Unter 60 | Schwach |
+| 74 und mehr | Herausragend |
+| 68 bis 73 | Exzellent |
+| 63 bis 67 | Gut |
+| 58 bis 62 | Ordentlich |
+| Unter 58 | Schwach |
 
-Diese Bereiche sind an echten Flügen in We-Fly kalibriert: Ein typischer Bart landet bei Mitte 60. Die vollständige Formel mit einem durchgerechneten Beispiel findest du unter [Die Gesamtbewertung der Thermik erklärt](/doc/overall-thermal-score).
+Diese Stufen sind an echten Flügen in We-Fly kalibriert: Ein typischer Bart landet bei Mitte 60. Die vollständige Formel mit einem Rechenbeispiel steht in [Die Gesamtnote der Thermik erklärt](/doc/overall-thermal-score).
 
 ## Typische Muster, die dir auffallen könnten
 
-**Viel Versatz, schlechtes Zentrieren**: Vielleicht fliegst du zu weit ein oder ziehst deinen Kreis nicht schnell genug enger, wenn du Steigen findest.
+**Viel Versatz, wenig Zentrieren**: Vielleicht steigst du zu weit ein oder ziehst den Kreis nicht schnell genug enger, wenn du Steigen findest.
 
-**Gute Zentrierzeit, aber geringe Effizienz**: Der Bart selbst war vielleicht schwach oder der Wind stark. Nicht immer deine Schuld!
+**Gute Zentrierzeit, aber wenig Netto-Steigen**: Vielleicht war der Bart selbst schwach, oder du hast nach dem Finden des Kerns Kreise außerhalb gedreht. Nicht immer deine Schuld!
 
-**Starke Schwankungen**: Können an den Bedingungen liegen (ruppiger Tag) oder an einer ungleichmäßigen Schräglage. Die Empfehlungen versuchen, beides auseinanderzuhalten, indem sie schauen, wie stark sich dein Kreisradius verändert hat.
+**Hohe Schwankung**: Kann an den Bedingungen liegen (ein ruppiger Tag) oder an einer unregelmäßigen Schräglage. Die Empfehlungen versuchen, beides auseinanderzuhalten, indem sie schauen, wie stark sich dein Kreisradius verändert hat.
 
-**In einem Bart schnell im Kern, in einem anderen langsam**: Achte auf deine Einflugtechnik. Bist du gegen den Wind oder mit dem Wind eingeflogen? Über den Kern hinausgeschossen?
+**In einem Bart schnell im Kern, im anderen langsam**: Schau dir deine Einstiegstechnik an. Bist du gegen den Wind oder mit dem Wind eingestiegen? Über den Kern hinausgeschossen?
 
-## Wann du dieses Tool nutzt
+## Wann du das Tool nutzt
 
-- **Debriefing nach dem Flug**: Versteh, was funktioniert hat und was nicht
-- **Wettkampfvorbereitung**: Analysiere deine Kurbeltechnik unter Druck
-- **Bedingungen vergleichen**: Sieh, wie sich die Thermikqualität mit Tageszeit, Ort oder Wetter verändert
-- **Fortschritte verfolgen**: Schau dir Flüge aus verschiedenen Monaten an, um zu sehen, wie du dich entwickelst
-- **Vor dem nächsten Bier**: Zeig deinen Kumpels, dass du den Monsterbart *wirklich* zentriert hast (Beweis!)
+- **Debriefing nach dem Flug**: verstehen, was funktioniert hat und was nicht
+- **Wettkampfvorbereitung**: deine Kurbeltechnik unter Druck analysieren
+- **Bedingungen vergleichen**: sehen, wie die Thermikqualität mit Tageszeit, Fluggebiet oder Wetter schwankt
+- **Fortschritt verfolgen**: Flüge aus verschiedenen Monaten anschauen und deine Entwicklung sehen
+- **Vor dem nächsten Bier**: deinen Kumpels beweisen, dass du den Monsterbart *wirklich* zentriert hast (Beweis!)
 
 ## Tipps für eine bessere Analyse
 
-1. **Saubere GPS-Daten helfen**: Ein schwaches GPS-Signal heißt eine ungenauere Analyse, und ein Logger, der jede Sekunde aufzeichnet, liefert die besten Ergebnisse
-2. **Vergleiche ähnliche Bärte**: Vergleiche deine Technik unter ähnlichen Bedingungen, dann sind die Erkenntnisse aussagekräftig
-3. **Verbeiß dich nicht in einen einzigen Flug**: Trends über viele Flüge zählen mehr als ein perfekter Bart
-4. **Der Wind gehört zum Kontext**: Ein „Mittel“ an einem windigen Tag kann besseres Fliegen sein als ein „Exzellent“ in ruhiger Luft
+1. **Saubere GPS-Daten helfen**: Ein schwaches GPS-Signal bedeutet eine ungenauere Analyse, ein Logger, der jede Sekunde aufzeichnet, liefert die besten Ergebnisse
+2. **Ähnliche Bärte vergleichen**: Vergleiche deine Technik bei ähnlichen Bedingungen, dann sind die Erkenntnisse aussagekräftig
+3. **Nicht auf einen Flug fixieren**: Trends über viele Flüge zählen mehr als ein perfekter Bart
+4. **Der Wind gehört dazu**: Ein „Ordentlich“ an einem windigen Tag kann besseres Fliegen sein als ein „Exzellent“ bei ruhiger Luft
 
-## Was dieses Tool nicht kann
+## Was das Tool nicht kann
 
-- **Künftige Bärte vorhersagen**: Es ist Analyse, keine Vorhersage
-- **Deine Entscheidungen beurteilen**: Hättest du den Bart um 11 Uhr nehmen oder lieber weiterfliegen sollen? Das bleibt deine Entscheidung
-- **Erfahrung ersetzen**: Das Tool zeigt Daten, aber Thermik *spüren* lernst du nur mit Stunden in der Luft
+- **Künftige Thermik vorhersagen**: Es ist Analyse, keine Vorhersage
+- **Deine Entscheidungen bewerten**: Hättest du das Steigen um 11 Uhr nehmen oder weiterfliegen sollen? Bleibt deine Entscheidung
+- **Erfahrung ersetzen**: Das Tool zeigt Daten, aber Thermik *spüren* lernst du nur mit Flugzeit
 
 ## Unterm Strich
 
-Dieses Tool macht dich nicht über Nacht zu einem besseren Piloten, aber es zeigt dir *genau*, was du in der Thermik machst. Ob du deine Zentrierzeit verkürzen willst oder einfach neugierig bist, warum sich ein Steigen anders angefühlt hat: Der Tab **Thermik** hält dir den Rücken frei.
+Dieses Tool macht dich nicht über Nacht zum besseren Piloten, aber es zeigt dir *genau*, was du in der Thermik machst. Egal ob du deine Zentrierzeit verkürzen willst oder einfach wissen möchtest, warum sich ein Steigen anders angefühlt hat – der Tab **Thermik** hat dich im Rücken.
 
-Und jetzt geh fliegen, hol dir ein paar Bärte und komm zurück, um zu sehen, ob du so gut bist, wie du glaubst.
+Jetzt ab in die Luft, such dir ein paar Bärte und komm zurück, um zu sehen, ob du so gut bist, wie du glaubst.
 
 ---
 
-Siehe auch: [So funktioniert die Thermikerkennung](/doc/advanced-thermal-analysis-settings) | [Die Gesamtbewertung der Thermik erklärt](/doc/overall-thermal-score)
+Siehe auch: [Wie die Thermikerkennung funktioniert](/doc/advanced-thermal-analysis-settings) | [Die Gesamtnote der Thermik erklärt](/doc/overall-thermal-score)

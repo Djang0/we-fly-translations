@@ -2,6 +2,9 @@
   "altitudeChart": {
     "gpsAlt": "Quota GPS",
     "baroAlt": "Quota baro",
+    "baroAltCalibrated": "Quota baro · tarata al decollo",
+    "baroCalibratedTakeoffHint": "Quota barometrica corretta di {offset} per farla coincidere con il terreno al decollo, come quando tari il vario prima di partire. Gli strumenti la registrano rispetto alla pressione standard (1013 hPa), non a quella del giorno.",
+    "baroCalibratedGpsHint": "Quota barometrica corretta di {offset} per allinearla alla quota GPS. Gli strumenti la registrano rispetto alla pressione standard (1013 hPa), non a quella del giorno.",
     "alt": "Quota",
     "altitude": "Quota",
     "ground": "Suolo",
@@ -174,12 +177,12 @@
     }
   },
   "qualityStrip": {
-    "efficiency": "eff",
+    "netClimb": "netta",
     "centering": "ctr"
   },
   "scoreBreakdown": {
     "climb": "Salita",
-    "efficiency": "Efficienza",
+    "netClimb": "Salita netta",
     "centering": "Centratura",
     "consistency": "Regolarità",
     "sustained": "Sostenuta",

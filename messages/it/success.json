@@ -78,7 +78,7 @@
     },
     "thermal_strength": {
       "label": "Forza della termica",
-      "description": "Rateo di salita in termica più forte",
+      "description": "Salita più forte, mantenuta per oltre 5 secondi",
       "name": "Termica da {value}"
     },
     "ground_speed": {

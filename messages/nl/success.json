@@ -78,7 +78,7 @@
     },
     "thermal_strength": {
       "label": "Thermiekkracht",
-      "description": "Sterkste stijgsnelheid in thermiek",
+      "description": "Sterkste stijging, minstens 5 seconden volgehouden",
       "name": "Thermiekkracht {value}"
     },
     "ground_speed": {

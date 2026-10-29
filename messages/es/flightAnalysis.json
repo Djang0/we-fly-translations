@@ -2,6 +2,9 @@
   "altitudeChart": {
     "gpsAlt": "Alt. GPS",
     "baroAlt": "Alt. baro",
+    "baroAltCalibrated": "Alt. baro · ajustada al despegue",
+    "baroCalibratedTakeoffHint": "Altitud barométrica corregida en {offset} para que coincida con el terreno del despegue, como cuando ajustas el vario antes de despegar. Los registradores la graban con la presión estándar (1013 hPa), no con la del día.",
+    "baroCalibratedGpsHint": "Altitud barométrica corregida en {offset} para alinearla con la altitud GPS. Los registradores la graban con la presión estándar (1013 hPa), no con la del día.",
     "alt": "Alt.",
     "altitude": "Altitud",
     "ground": "Suelo",
@@ -174,12 +177,12 @@
     }
   },
   "qualityStrip": {
-    "efficiency": "efic",
+    "netClimb": "neto",
     "centering": "cen"
   },
   "scoreBreakdown": {
     "climb": "Ascenso",
-    "efficiency": "Eficiencia",
+    "netClimb": "Ascenso neto",
     "centering": "Centrado",
     "consistency": "Regularidad",
     "sustained": "Sostenido",

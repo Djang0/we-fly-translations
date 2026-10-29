@@ -175,6 +175,13 @@
       "description": "Momente, in denen du kurz vor der Landung warst (≥5 min durchgehender Gleitflug, ≥200 m Höhe verloren, tiefster Punkt unter 150 m AGL über landbarem Gelände) und dich ein Bart gerettet hat. Hangthermik ist bewusst ausgenommen. Die 10 besten im gefilterten Datensatz, sortiert nach der geringsten erreichten Höhe AGL.",
       "searchContext": "{minutes, number} min Suche · −{lost}",
       "aglValue": "{value} AGL"
+    },
+    "byHour": {
+      "title": "Steigen nach Tageszeit",
+      "description": "Medianes Netto-Steigen deiner Bärte nach Ortszeit. Deine beste Stunde: {hour}, mit {value}.",
+      "axis": "Netto-Steigen",
+      "tooltip": "{value} Median · {count, plural, one {# Bart} other {# Bärte}}",
+      "hourLabel": "{hour} Uhr"
     }
   },
   "phases": {
@@ -303,7 +310,10 @@
       "maxSpeed": "Max. Geschwindigkeit",
       "bestXcDistance": "Beste XC-Strecke",
       "bestXcScore": "Beste XC-Wertung",
-      "viewFlight": "Flug mit {label} ansehen: {value}"
+      "viewFlight": "Flug mit {label} ansehen: {value}",
+      "fastestKm": "Schnellste {distance}",
+      "farthestFromTakeoff": "Weiteste Entfernung vom Startplatz",
+      "bestGlide": "Bester Gleitflug (ab 2 km)"
     },
     "lowSave": {
       "label": "Tiefster Low Save",
@@ -317,8 +327,10 @@
       "circleTime": "Med. Kreiszeit",
       "circleRadius": "Med. Kreisradius",
       "gFactor": "Median-G-Faktor",
-      "strongestThermal": "Stärkster Thermik-Spitzenwert",
-      "viewStrongest": "Flug mit dem stärksten Thermik-Spitzenwert ansehen: {value}"
+      "strongestThermal": "Stärkstes Steigen (5 s)",
+      "viewStrongest": "Flug mit deinem stärksten Steigen ansehen: {value}",
+      "netClimb": "Netto-Steigen in der Thermik",
+      "topLandings": "Toplandungen"
     }
   },
   "backfill": {

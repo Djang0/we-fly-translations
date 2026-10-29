@@ -78,7 +78,7 @@
     },
     "thermal_strength": {
       "label": "Fuerza de la térmica",
-      "description": "Mayor tasa de ascenso en térmica",
+      "description": "Ascenso más fuerte, mantenido durante más de 5 segundos",
       "name": "Térmica potente {value}"
     },
     "ground_speed": {
