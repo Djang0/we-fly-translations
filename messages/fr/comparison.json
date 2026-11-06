@@ -220,7 +220,7 @@
     "hud": {
       "groupFlight": "Vol",
       "vario": "Vario",
-      "varioDesc": "Colorer la route du pilote suivi selon le taux de montée",
+      "varioDesc": "Colore la trace du pilote suivi selon le taux de montée, avec un trait qui le relie au sol",
       "thermals": "Thermiques",
       "thermalsDesc": "Montées annotées avec hauteurs d’entrée → de sortie",
       "wind": "Vent",

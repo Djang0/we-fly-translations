@@ -369,6 +369,7 @@
     "trackLoadFailed": "Impossible de charger la trace",
     "gFactorLoadFailed": "Impossible de charger le facteur de charge",
     "viewsAria": "Vue des données du vol",
+    "tab3d": "3D",
     "tabAltitude": "Altitude",
     "tabVario": "Vario",
     "tabSpeed": "Vitesse",
@@ -410,6 +411,33 @@
     "gFactorInfoButton": "C’est quoi le facteur de charge ?",
     "gFactorInfoTitle": "Comprendre le facteur de charge",
     "gFactorInfoBody": "Le <link>facteur de charge (G)</link> représente la charge verticale en vol : 1 G = vol droit en palier, 1 à 2 G = virages doux, 2 à 5 G = manœuvres engagées."
+  },
+  "overview3d": {
+    "loading": "Construction de la vue 3D…",
+    "takeoff": "Décollage",
+    "landing": "Atterrissage",
+    "north": "N",
+    "resetView": "Réinitialiser la vue",
+    "noTerrain": "Pas de données de relief ici",
+    "exaggeration": "Hauteurs ×{factor, number}",
+    "noWebgl": "Ton navigateur ne peut pas afficher de vues 3D (WebGL est désactivé ou indisponible).",
+    "legend": {
+      "strongClimb": "Forte montée",
+      "climb": "Montée",
+      "glide": "Transition",
+      "sink": "Dégueulante",
+      "thermal": "Thermique"
+    },
+    "replay": {
+      "label": "Replay du vol",
+      "play": "Lancer le vol",
+      "pause": "Pause",
+      "restart": "Rejouer depuis le décollage",
+      "position": "Position du replay",
+      "speed": "Vitesse de lecture",
+      "speedAria": "Vitesse de lecture {speed}×, modifier",
+      "waiting": "Le replay démarre une fois la trace entièrement chargée"
+    }
   },
   "weatherTab": {
     "wmo": {

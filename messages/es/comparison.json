@@ -220,7 +220,7 @@
     "hud": {
       "groupFlight": "Vuelo",
       "vario": "Vario",
-      "varioDesc": "Colorea la ruta del piloto seguido según la tasa de ascenso",
+      "varioDesc": "Colorea la ruta del piloto seguido según la tasa de ascenso, con una línea que baja desde él hasta el suelo",
       "thermals": "Térmicas",
       "thermalsDesc": "Ascensos etiquetados con alturas de entrada → salida",
       "wind": "Viento",

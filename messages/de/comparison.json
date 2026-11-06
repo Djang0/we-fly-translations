@@ -220,7 +220,7 @@
     "hud": {
       "groupFlight": "Flug",
       "vario": "Vario",
-      "varioDesc": "Route des verfolgten Piloten nach Steigwert einfärben",
+      "varioDesc": "Route des verfolgten Piloten nach Steigwert einfärben, mit einer Linie von ihm hinunter zum Boden",
       "thermals": "Thermik",
       "thermalsDesc": "Beschriftete Bärte mit Ein- und Ausstiegshöhe",
       "wind": "Wind",

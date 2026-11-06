@@ -369,6 +369,7 @@
     "trackLoadFailed": "Trackgegevens laden mislukt",
     "gFactorLoadFailed": "G-factorgegevens laden mislukt",
     "viewsAria": "Weergave van de vluchtgegevens",
+    "tab3d": "3D",
     "tabAltitude": "Hoogte",
     "tabVario": "Vario",
     "tabSpeed": "Snelheid",
@@ -410,6 +411,33 @@
     "gFactorInfoButton": "Wat is de G-factor?",
     "gFactorInfoTitle": "Wat is de G-factor?",
     "gFactorInfoBody": "De <link>G-factor (belastingsfactor)</link> geeft de verticale belasting tijdens de vlucht weer: 1G = rechtuit vliegen, 1 tot 2G = rustige bochten, 2 tot 5G = stevige manoeuvres."
+  },
+  "overview3d": {
+    "loading": "3D-weergave wordt opgebouwd…",
+    "takeoff": "Start",
+    "landing": "Landing",
+    "north": "N",
+    "resetView": "Weergave resetten",
+    "noTerrain": "Hier zijn geen terreingegevens",
+    "exaggeration": "Hoogtes ×{factor, number}",
+    "noWebgl": "Je browser kan geen 3D-weergaven tonen (WebGL staat uit of is niet beschikbaar).",
+    "legend": {
+      "strongClimb": "Sterk stijgen",
+      "climb": "Stijgen",
+      "glide": "Glijvlucht",
+      "sink": "Dalen",
+      "thermal": "Thermiek"
+    },
+    "replay": {
+      "label": "Vluchtreplay",
+      "play": "Vlucht afspelen",
+      "pause": "Pauze",
+      "restart": "Replay vanaf de start",
+      "position": "Positie in de replay",
+      "speed": "Afspeelsnelheid",
+      "speedAria": "Afspeelsnelheid {speed}×, wijzigen",
+      "waiting": "De replay start zodra de hele track is geladen"
+    }
   },
   "weatherTab": {
     "wmo": {

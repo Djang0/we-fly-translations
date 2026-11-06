@@ -369,6 +369,7 @@
     "trackLoadFailed": "Trackdaten konnten nicht geladen werden",
     "gFactorLoadFailed": "G-Faktor-Daten konnten nicht geladen werden",
     "viewsAria": "Ansicht der Flugdaten",
+    "tab3d": "3D",
     "tabAltitude": "Höhe",
     "tabVario": "Vario",
     "tabSpeed": "Geschwindigkeit",
@@ -410,6 +411,33 @@
     "gFactorInfoButton": "Was ist der G-Faktor?",
     "gFactorInfoTitle": "Was der G-Faktor bedeutet",
     "gFactorInfoBody": "Der <link>G-Faktor (Lastvielfaches)</link> gibt die vertikale Last im Flug an: 1 G = Geradeausflug, 1 bis 2 G = sanfte Kurven, 2 bis 5 G = dynamische Manöver."
+  },
+  "overview3d": {
+    "loading": "3D-Ansicht wird aufgebaut…",
+    "takeoff": "Start",
+    "landing": "Landung",
+    "north": "N",
+    "resetView": "Ansicht zurücksetzen",
+    "noTerrain": "Hier gibt es keine Geländedaten",
+    "exaggeration": "Höhen ×{factor, number}",
+    "noWebgl": "Dein Browser kann keine 3D-Ansichten darstellen (WebGL ist aus oder nicht verfügbar).",
+    "legend": {
+      "strongClimb": "Starkes Steigen",
+      "climb": "Steigen",
+      "glide": "Gleitflug",
+      "sink": "Sinken",
+      "thermal": "Thermik"
+    },
+    "replay": {
+      "label": "Flug-Replay",
+      "play": "Flug abspielen",
+      "pause": "Pause",
+      "restart": "Replay ab Start",
+      "position": "Replay-Position",
+      "speed": "Wiedergabegeschwindigkeit",
+      "speedAria": "Wiedergabegeschwindigkeit {speed}×, ändern",
+      "waiting": "Das Replay startet, sobald der ganze Track geladen ist"
+    }
   },
   "weatherTab": {
     "wmo": {

@@ -369,6 +369,7 @@
     "trackLoadFailed": "Impossibile caricare i dati della traccia",
     "gFactorLoadFailed": "Impossibile caricare i dati del fattore G",
     "viewsAria": "Vista dei dati del volo",
+    "tab3d": "3D",
     "tabAltitude": "Quota",
     "tabVario": "Vario",
     "tabSpeed": "Velocità",
@@ -410,6 +411,33 @@
     "gFactorInfoButton": "Cos'è il fattore G?",
     "gFactorInfoTitle": "Capire il fattore G",
     "gFactorInfoBody": "Il <link>fattore G (fattore di carico)</link> rappresenta il carico verticale in volo: 1G = volo rettilineo livellato, da 1 a 2G = virate dolci, da 2 a 5G = manovre aggressive."
+  },
+  "overview3d": {
+    "loading": "Sto costruendo la vista 3D…",
+    "takeoff": "Decollo",
+    "landing": "Atterraggio",
+    "north": "N",
+    "resetView": "Ripristina vista",
+    "noTerrain": "Nessun dato del terreno qui",
+    "exaggeration": "Quote ×{factor, number}",
+    "noWebgl": "Il tuo browser non riesce a mostrare le viste 3D (WebGL è disattivato o non disponibile).",
+    "legend": {
+      "strongClimb": "Salita forte",
+      "climb": "Salita",
+      "glide": "Planata",
+      "sink": "Discendenza",
+      "thermal": "Termica"
+    },
+    "replay": {
+      "label": "Replay del volo",
+      "play": "Riproduci il volo",
+      "pause": "Pausa",
+      "restart": "Rivedi dal decollo",
+      "position": "Posizione del replay",
+      "speed": "Velocità di riproduzione",
+      "speedAria": "Velocità di riproduzione {speed}×, cambia",
+      "waiting": "Il replay parte quando la traccia completa è stata caricata"
+    }
   },
   "weatherTab": {
     "wmo": {

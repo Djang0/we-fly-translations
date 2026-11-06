@@ -220,7 +220,7 @@
     "hud": {
       "groupFlight": "Volo",
       "vario": "Vario",
-      "varioDesc": "Colora la rotta del pilota seguito secondo il rateo di salita",
+      "varioDesc": "Colora la rotta del pilota seguito secondo il rateo di salita, con una linea che scende da lui fino al suolo",
       "thermals": "Termiche",
       "thermalsDesc": "Salite etichettate con quota di ingresso → uscita",
       "wind": "Vento",

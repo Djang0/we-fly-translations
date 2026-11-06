@@ -128,7 +128,7 @@
     "layers": {
       "vario": {
         "label": "Vario",
-        "desc": "Track nach Steigwert einfärben"
+        "desc": "Track nach Steigwert einfärben, mit einer Linie von dir hinunter zum Boden"
       },
       "thermals": {
         "label": "Thermik",

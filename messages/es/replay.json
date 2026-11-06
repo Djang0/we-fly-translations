@@ -128,7 +128,7 @@
     "layers": {
       "vario": {
         "label": "Vario",
-        "desc": "Colorea el track según la tasa de ascenso"
+        "desc": "Colorea el track según la tasa de ascenso, con una línea desde ti hasta el suelo"
       },
       "thermals": {
         "label": "Térmicas",

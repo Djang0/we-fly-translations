@@ -128,7 +128,7 @@
     "layers": {
       "vario": {
         "label": "Vario",
-        "desc": "Kleur de track naar stijgsnelheid"
+        "desc": "Kleur de track naar stijgsnelheid, met een lijn van jou naar de grond"
       },
       "thermals": {
         "label": "Thermiek",

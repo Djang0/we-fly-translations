@@ -128,7 +128,7 @@
     "layers": {
       "vario": {
         "label": "Vario",
-        "desc": "Colora la traccia in base al rateo di salita"
+        "desc": "Colora la traccia in base al rateo di salita, con una linea da te fino al suolo"
       },
       "thermals": {
         "label": "Termiche",

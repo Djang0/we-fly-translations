@@ -128,7 +128,7 @@
     "layers": {
       "vario": {
         "label": "Vario",
-        "desc": "Colore la trace selon le taux de montée"
+        "desc": "Colore la trace selon le taux de montée, avec un trait entre toi et le sol"
       },
       "thermals": {
         "label": "Thermiques",

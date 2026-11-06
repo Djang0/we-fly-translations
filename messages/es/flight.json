@@ -369,6 +369,7 @@
     "trackLoadFailed": "No se pudieron cargar los datos del track",
     "gFactorLoadFailed": "No se pudieron cargar los datos de factor G",
     "viewsAria": "Vista de datos del vuelo",
+    "tab3d": "3D",
     "tabAltitude": "Altitud",
     "tabVario": "Vario",
     "tabSpeed": "Velocidad",
@@ -410,6 +411,33 @@
     "gFactorInfoButton": "¿Qué es el factor G?",
     "gFactorInfoTitle": "Entender el factor G",
     "gFactorInfoBody": "El <link>factor G (factor de carga)</link> representa la carga vertical durante el vuelo: 1G = vuelo recto y nivelado, de 1 a 2G = virajes suaves, de 2 a 5G = maniobras agresivas."
+  },
+  "overview3d": {
+    "loading": "Preparando la vista 3D…",
+    "takeoff": "Despegue",
+    "landing": "Aterrizaje",
+    "north": "N",
+    "resetView": "Restablecer vista",
+    "noTerrain": "No hay datos de terreno aquí",
+    "exaggeration": "Alturas ×{factor, number}",
+    "noWebgl": "Tu navegador no puede mostrar vistas 3D (WebGL está desactivado o no disponible).",
+    "legend": {
+      "strongClimb": "Ascenso fuerte",
+      "climb": "Ascenso",
+      "glide": "Planeo",
+      "sink": "Descendencia",
+      "thermal": "Térmica"
+    },
+    "replay": {
+      "label": "Repetición del vuelo",
+      "play": "Reproducir el vuelo",
+      "pause": "Pausa",
+      "restart": "Repetir desde el despegue",
+      "position": "Posición de la repetición",
+      "speed": "Velocidad de reproducción",
+      "speedAria": "Velocidad de reproducción {speed}×, cambiar",
+      "waiting": "La repetición empieza cuando se haya cargado todo el track"
+    }
   },
   "weatherTab": {
     "wmo": {

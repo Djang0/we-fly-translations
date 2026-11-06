@@ -9001,8 +9001,8 @@
       "by": "ai"
     },
     "comparison.replay3d.hud.varioDesc": {
-      "src": "eadc27c8b9f133a2",
-      "tr": "20ffd7efd10e0ab8",
+      "src": "e1d81812ea51033a",
+      "tr": "7a2c66c2562ff99d",
       "by": "ai"
     },
     "comparison.replay3d.hud.wind": {
@@ -12985,6 +12985,111 @@
       "tr": "f165e96d15be850b",
       "by": "ai"
     },
+    "flight.overview3d.exaggeration": {
+      "src": "1df7d408e539ae14",
+      "tr": "df4a00cc4b1df582",
+      "by": "ai"
+    },
+    "flight.overview3d.landing": {
+      "src": "68b70eb12f31f2e6",
+      "tr": "44df06254b9dd9fb",
+      "by": "ai"
+    },
+    "flight.overview3d.legend.climb": {
+      "src": "98ca5f27d9642dc7",
+      "tr": "1c61912c9aeb247b",
+      "by": "ai"
+    },
+    "flight.overview3d.legend.glide": {
+      "src": "f27752c0d9f3c62b",
+      "tr": "2fe70464aadf5873",
+      "by": "ai"
+    },
+    "flight.overview3d.legend.sink": {
+      "src": "35d866910e259e39",
+      "tr": "25d7f9cd59b3fa47",
+      "by": "ai"
+    },
+    "flight.overview3d.legend.strongClimb": {
+      "src": "782bc2e8241704a8",
+      "tr": "9c65cdd57b0d12e3",
+      "by": "ai"
+    },
+    "flight.overview3d.legend.thermal": {
+      "src": "5c5238042c129dbd",
+      "tr": "8b0c32ac9c4adfe1",
+      "by": "ai"
+    },
+    "flight.overview3d.loading": {
+      "src": "0fb759407686ffcb",
+      "tr": "4f28d64ae46af97d",
+      "by": "ai"
+    },
+    "flight.overview3d.north": {
+      "src": "8ce86a6ae65d3692",
+      "tr": "8ce86a6ae65d3692",
+      "by": "ai"
+    },
+    "flight.overview3d.noTerrain": {
+      "src": "51f05761b3d405f9",
+      "tr": "5b268894c1b2043c",
+      "by": "ai"
+    },
+    "flight.overview3d.noWebgl": {
+      "src": "29d993a143adfe31",
+      "tr": "c9c7a5f2b184b8c1",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.label": {
+      "src": "dcd52aad5ddd64fa",
+      "tr": "87b3162ae5729dc2",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.pause": {
+      "src": "858e4ba7a29fd38b",
+      "tr": "858e4ba7a29fd38b",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.play": {
+      "src": "6f1098d3418b3c2d",
+      "tr": "b9e08feba2a7f120",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.position": {
+      "src": "40693055fb81c106",
+      "tr": "06fe4969ff06ebf1",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.restart": {
+      "src": "a5ff99fd4eb51456",
+      "tr": "ddc69c29ff8c6ce7",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.speed": {
+      "src": "afec2b22114c05f1",
+      "tr": "19cb786abb8e8e4f",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.speedAria": {
+      "src": "eec5d6dc0da23440",
+      "tr": "16332aa0ff7acba8",
+      "by": "ai"
+    },
+    "flight.overview3d.replay.waiting": {
+      "src": "a44c6be909b5d056",
+      "tr": "fe2506eeb0b6564d",
+      "by": "ai"
+    },
+    "flight.overview3d.resetView": {
+      "src": "ce89ae822e8ba072",
+      "tr": "c304c1ca35effad2",
+      "by": "ai"
+    },
+    "flight.overview3d.takeoff": {
+      "src": "9b27eafba7eecc57",
+      "tr": "598ce999ad69ba5d",
+      "by": "ai"
+    },
     "flight.phases.float": {
       "src": "1a693c00c40cc749",
       "tr": "bafa80585987ac6c",
@@ -14218,6 +14323,11 @@
     "flight.unifiedMap.showTimeSeriesAria": {
       "src": "bc66eba1c0bd2984",
       "tr": "591de0bead864ef1",
+      "by": "ai"
+    },
+    "flight.unifiedMap.tab3d": {
+      "src": "fcffba9828157b10",
+      "tr": "fcffba9828157b10",
       "by": "ai"
     },
     "flight.unifiedMap.tabAltitude": {
@@ -24056,8 +24166,8 @@
       "by": "ai"
     },
     "replay.hud.layers.vario.desc": {
-      "src": "ba67977a3da5106c",
-      "tr": "a186189a209ac209",
+      "src": "2500183de3572194",
+      "tr": "e2e1718797b7c1b4",
       "by": "ai"
     },
     "replay.hud.layers.vario.label": {
@@ -39276,6 +39386,11 @@
       "tr": "860a9baaf366ffec",
       "by": "ai"
     },
+    "3b44d98aea7a": {
+      "src": "3b44d98aea7aaeb6",
+      "tr": "1d4c9de7a20fc4d0",
+      "by": "ai"
+    },
     "3cb7d1603351": {
       "src": "3cb7d1603351e05c",
       "tr": "b7fb75d9c3ba2bf3",
@@ -39621,6 +39736,11 @@
       "tr": "797f305f37922b53",
       "by": "ai"
     },
+    "bfb328311bd5": {
+      "src": "bfb328311bd5a7aa",
+      "tr": "91f58f299d9994d0",
+      "by": "ai"
+    },
     "c0a07dada016": {
       "src": "c0a07dada0169091",
       "tr": "f2c80ff3f322c785",
@@ -39729,6 +39849,11 @@
     "d6962f1f6d6e": {
       "src": "d6962f1f6d6eb709",
       "tr": "6144c0f16ce29b91",
+      "by": "ai"
+    },
+    "d6995ce50c24": {
+      "src": "d6995ce50c2439fb",
+      "tr": "1d337a3e076bcd88",
       "by": "ai"
     },
     "d71645ab5071": {

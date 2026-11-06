@@ -220,7 +220,7 @@
     "hud": {
       "groupFlight": "Vlucht",
       "vario": "Vario",
-      "varioDesc": "Kleur de route van de gevolgde piloot op stijgsnelheid",
+      "varioDesc": "Kleur de route van de gevolgde piloot op stijgsnelheid, met een lijn van hem of haar naar de grond",
       "thermals": "Thermiek",
       "thermalsDesc": "Gelabelde stijgingen met in- en uitstaphoogte",
       "wind": "Wind",
