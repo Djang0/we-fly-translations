@@ -259,7 +259,15 @@
       "simulate": "Simulate {speed} from {compass}",
       "sectorChip": "Site sector · {compass} {degrees}°",
       "liveChip": "Live · {compass} {degrees}°",
-      "howToReadTitle": "How to read the lines"
+      "howToReadTitle": "How to read the lines",
+      "print": {
+        "title": "3D print this terrain",
+        "hint": "The relief above as a solid with a flat base, without the airflow.",
+        "hintExaggerated": "The relief above as a solid with a flat base, heights ×{factor} like the preview, without the airflow.",
+        "download": "Download STL",
+        "sizeLabel": "Print diameter",
+        "size": "{mm} mm"
+      }
     },
     "header": {
       "back": "Takeoffs",

@@ -369,6 +369,7 @@
     "trackLoadFailed": "Failed to load track data",
     "gFactorLoadFailed": "Failed to load G-factor data",
     "viewsAria": "Flight data view",
+    "tab3d": "3D",
     "tabAltitude": "Altitude",
     "tabVario": "Vario",
     "tabSpeed": "Speed",
@@ -410,6 +411,33 @@
     "gFactorInfoButton": "What is G-Factor?",
     "gFactorInfoTitle": "Understanding G-Factor",
     "gFactorInfoBody": "<link>G-factor (load factor)</link> represents the vertical load during flight: 1G = straight and level, 1 to 2G = gentle turns, 2 to 5G = aggressive maneuvers."
+  },
+  "overview3d": {
+    "loading": "Building the 3D view…",
+    "takeoff": "Takeoff",
+    "landing": "Landing",
+    "north": "N",
+    "resetView": "Reset view",
+    "noTerrain": "No terrain data here",
+    "exaggeration": "Heights ×{factor, number}",
+    "noWebgl": "Your browser cannot show 3D views (WebGL is off or unavailable).",
+    "legend": {
+      "strongClimb": "Strong climb",
+      "climb": "Climb",
+      "glide": "Glide",
+      "sink": "Sink",
+      "thermal": "Thermal"
+    },
+    "replay": {
+      "label": "Flight replay",
+      "play": "Play the flight",
+      "pause": "Pause",
+      "restart": "Replay from takeoff",
+      "position": "Replay position",
+      "speed": "Playback speed",
+      "speedAria": "Playback speed {speed}×, change",
+      "waiting": "The replay starts once the full track has loaded"
+    }
   },
   "weatherTab": {
     "wmo": {

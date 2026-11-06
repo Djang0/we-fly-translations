@@ -128,7 +128,7 @@
     "layers": {
       "vario": {
         "label": "Vario",
-        "desc": "Colour the track by climb rate"
+        "desc": "Colour the track by climb rate, with a line from you down to the ground"
       },
       "thermals": {
         "label": "Thermals",

@@ -220,7 +220,7 @@
     "hud": {
       "groupFlight": "Flight",
       "vario": "Vario",
-      "varioDesc": "Colour the followed pilot's route by climb rate",
+      "varioDesc": "Colour the followed pilot's route by climb rate, with a line from them down to the ground",
       "thermals": "Thermals",
       "thermalsDesc": "Labelled climbs with entry → exit heights",
       "wind": "Wind",
