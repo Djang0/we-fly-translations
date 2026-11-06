@@ -259,7 +259,15 @@
       "simulate": "Simula {speed} da {compass}",
       "sectorChip": "Settore del sito · {compass} {degrees}°",
       "liveChip": "Live · {compass} {degrees}°",
-      "howToReadTitle": "Come leggere le linee"
+      "howToReadTitle": "Come leggere le linee",
+      "print": {
+        "title": "Stampa in 3D questo terreno",
+        "hint": "Il rilievo qui sopra come solido con base piatta, senza il flusso d'aria.",
+        "hintExaggerated": "Il rilievo qui sopra come solido con base piatta, quote ×{factor} come nell'anteprima, senza il flusso d'aria.",
+        "download": "Scarica STL",
+        "sizeLabel": "Diametro di stampa",
+        "size": "{mm} mm"
+      }
     },
     "header": {
       "back": "Decolli",

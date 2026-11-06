@@ -259,7 +259,15 @@
       "simulate": "Simuler {speed} du {compass}",
       "sectorChip": "Secteur du site · {compass} {degrees}°",
       "liveChip": "En direct · {compass} {degrees}°",
-      "howToReadTitle": "Comment lire les lignes"
+      "howToReadTitle": "Comment lire les lignes",
+      "print": {
+        "title": "Imprimer ce relief en 3D",
+        "hint": "Le relief ci-dessus en volume plein avec une base plate, sans l’écoulement de l’air.",
+        "hintExaggerated": "Le relief ci-dessus en volume plein avec une base plate, hauteurs ×{factor} comme dans l’aperçu, sans l’écoulement de l’air.",
+        "download": "Télécharger le STL",
+        "sizeLabel": "Diamètre d’impression",
+        "size": "{mm} mm"
+      }
     },
     "header": {
       "back": "Décollages",

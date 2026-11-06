@@ -259,7 +259,15 @@
       "simulate": "{speed} aus {compass} simulieren",
       "sectorChip": "Startsektor · {compass} {degrees}°",
       "liveChip": "Live · {compass} {degrees}°",
-      "howToReadTitle": "So liest du die Linien"
+      "howToReadTitle": "So liest du die Linien",
+      "print": {
+        "title": "Dieses Gelände in 3D drucken",
+        "hint": "Das Relief von oben als Vollkörper mit ebener Basis, ohne die Luftströmung.",
+        "hintExaggerated": "Das Relief von oben als Vollkörper mit ebener Basis, Höhen ×{factor} wie in der Vorschau, ohne die Luftströmung.",
+        "download": "STL herunterladen",
+        "sizeLabel": "Druckdurchmesser",
+        "size": "{mm} mm"
+      }
     },
     "header": {
       "back": "Startplätze",

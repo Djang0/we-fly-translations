@@ -259,7 +259,15 @@
       "simulate": "Simuleer {speed} uit {compass}",
       "sectorChip": "Sector startplaats · {compass} {degrees}°",
       "liveChip": "Live · {compass} {degrees}°",
-      "howToReadTitle": "Zo lees je de lijnen"
+      "howToReadTitle": "Zo lees je de lijnen",
+      "print": {
+        "title": "Deze terreinvorm 3D-printen",
+        "hint": "Het reliëf hierboven als massief model met een vlakke basis, zonder de luchtstroming.",
+        "hintExaggerated": "Het reliëf hierboven als massief model met een vlakke basis, hoogtes ×{factor} zoals in het voorbeeld, zonder de luchtstroming.",
+        "download": "STL downloaden",
+        "sizeLabel": "Printdiameter",
+        "size": "{mm} mm"
+      }
     },
     "header": {
       "back": "Startplaatsen",

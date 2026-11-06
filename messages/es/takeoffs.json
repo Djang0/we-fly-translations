@@ -259,7 +259,15 @@
       "simulate": "Simular {speed} de {compass}",
       "sectorChip": "Sector de la zona · {compass} {degrees}°",
       "liveChip": "En vivo · {compass} {degrees}°",
-      "howToReadTitle": "Cómo leer las líneas"
+      "howToReadTitle": "Cómo leer las líneas",
+      "print": {
+        "title": "Imprime este terreno en 3D",
+        "hint": "El relieve de arriba como un sólido con base plana, sin el flujo de aire.",
+        "hintExaggerated": "El relieve de arriba como un sólido con base plana, con las alturas ×{factor} como en la vista previa y sin el flujo de aire.",
+        "download": "Descargar STL",
+        "sizeLabel": "Diámetro de impresión",
+        "size": "{mm} mm"
+      }
     },
     "header": {
       "back": "Despegues",

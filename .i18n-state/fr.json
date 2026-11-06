@@ -29980,6 +29980,36 @@
       "tr": "858e4ba7a29fd38b",
       "by": "ai"
     },
+    "takeoffs.detail.windFlow.print.download": {
+      "src": "5dbddbb64c5f444b",
+      "tr": "94abf9a770cc4a32",
+      "by": "ai"
+    },
+    "takeoffs.detail.windFlow.print.hint": {
+      "src": "95738acb7f7747a7",
+      "tr": "71faa5f01f6e9f2c",
+      "by": "ai"
+    },
+    "takeoffs.detail.windFlow.print.hintExaggerated": {
+      "src": "2833860bf3d02a6e",
+      "tr": "cbeeda0ad5fba181",
+      "by": "ai"
+    },
+    "takeoffs.detail.windFlow.print.size": {
+      "src": "412e2c80ceccad48",
+      "tr": "412e2c80ceccad48",
+      "by": "ai"
+    },
+    "takeoffs.detail.windFlow.print.sizeLabel": {
+      "src": "220106036e3deeb7",
+      "tr": "93040834a497033f",
+      "by": "ai"
+    },
+    "takeoffs.detail.windFlow.print.title": {
+      "src": "61dc581e9ade6fb3",
+      "tr": "85b71313bb54a9b2",
+      "by": "ai"
+    },
     "takeoffs.detail.windFlow.resume": {
       "src": "d640c7421da06661",
       "tr": "ddd913203fe2d993",
@@ -39060,8 +39090,8 @@
       "by": "ai"
     },
     "20261105": {
-      "src": "3c73e495768387ac",
-      "tr": "88c8dfad45561a87",
+      "src": "60c12d558c154924",
+      "tr": "3ddb2c8caab7ae25",
       "by": "ai"
     }
   },
@@ -39239,6 +39269,11 @@
     "378a2bce3b78": {
       "src": "378a2bce3b786cce",
       "tr": "13ff529ab678a140",
+      "by": "ai"
+    },
+    "3ae90a6f208e": {
+      "src": "3ae90a6f208e2001",
+      "tr": "860a9baaf366ffec",
       "by": "ai"
     },
     "3cb7d1603351": {
@@ -39434,6 +39469,11 @@
     "840cdfdd3976": {
       "src": "840cdfdd39764e31",
       "tr": "afed9d73518c1d07",
+      "by": "ai"
+    },
+    "8501057563a6": {
+      "src": "8501057563a6dcf7",
+      "tr": "9e2ab21d4d8c0b20",
       "by": "ai"
     },
     "87ba7c6d9a69": {
