@@ -78,7 +78,7 @@
     },
     "thermal_strength": {
       "label": "Thermal Strength",
-      "description": "Strongest thermal climb rate",
+      "description": "Strongest climb, sustained over 5 seconds",
       "name": "Thermal Power {value}"
     },
     "ground_speed": {

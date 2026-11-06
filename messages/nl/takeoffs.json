@@ -116,15 +116,10 @@
     "showForecast": "Startverwachting"
   },
   "detail": {
-    "back": "Terug",
     "siteType": {
       "takeoff": "Startplaats",
       "landing": "Landingsplaats",
       "parking": "Parkeerplaats"
-    },
-    "favorites": {
-      "add": "Aan favorieten toevoegen",
-      "remove": "Uit favorieten verwijderen"
     },
     "copyCoordinates": "Coördinaten kopiëren",
     "share": "Delen",
@@ -139,48 +134,12 @@
       "coordinatesCopied": "Coördinaten gekopieerd",
       "linkCopied": "Link gekopieerd"
     },
-    "stats": {
-      "elevation": "Hoogte boven zeeniveau",
-      "orientation": "Oriëntatie",
-      "windFrom": "Wind uit deze richting",
-      "loggedFlights": "Gelogde vluchten",
-      "atThisSite": "{kind, select, landing {op deze landingsplaats} parking {op deze parkeerplaats} other {vanaf deze startplaats}}",
-      "coordinates": "Coördinaten",
-      "latLon": "lat · lon",
-      "timezone": "Tijdzone",
-      "coordinatesPair": "{lat}; {lon}"
-    },
     "siteTypeHeading": "Type plaats",
     "landingDescription": "Waar piloten meestal landen. Controleer obstakels, windrichting en toestemming van de boer voordat je hier landt.",
     "parkingDescription": "Een bekende parkeerplek of verzamelplaats in de buurt van een vlieggebied.",
-    "map": {
-      "title": "Locatiekaart",
-      "collapseMap": "Kaart inklappen",
-      "expandMap": "Kaart uitklappen",
-      "collapse": "Inklappen",
-      "expand": "Uitklappen",
-      "openFullscreen": "Kaart op volledig scherm openen"
-    },
-    "community": {
-      "label": "Community",
-      "summary": "<b>{count, plural, one {# vlucht} other {# vluchten}}</b> hier gelogd. Bekijk hieronder de recente activiteit.",
-      "view": "Naar de community →"
-    },
     "footer": {
       "base": "Gegevens over startplaatsen van <psLink>paraglidingspots.com</psLink>. Controleer altijd de lokale regels, de specifieke voorschriften van het vlieggebied en de luchtruimregels voordat je vliegt.",
       "withOsm": "Gegevens over startplaatsen van <psLink>paraglidingspots.com</psLink> · locatiegegevens © <osmLink>OpenStreetMap-bijdragers</osmLink>. Controleer altijd de lokale regels, de specifieke voorschriften van het vlieggebied en de luchtruimregels voordat je vliegt."
-    },
-    "siteInfo": {
-      "title": "Info over het vlieggebied",
-      "subtitle": "Informatie uit de community van paraglidingspots.com"
-    },
-    "sections": {
-      "map": "Kaart",
-      "rules": "Regels",
-      "analytics": "Statistieken",
-      "recentFlights": "Recente vluchten",
-      "navLabel": "Secties van de pagina",
-      "onThisPage": "Op deze pagina"
     },
     "fullscreen": {
       "title": "Kaart op volledig scherm",
@@ -217,34 +176,21 @@
       "source": "bron · {station}"
     },
     "analytics": {
-      "title": "Statistieken van het vlieggebied",
       "subtitleCounted": "Berekend uit {count, plural, one {# gelogde vlucht} other {# gelogde vluchten}}. De cijfers zijn medianen van de community.",
       "subtitleEmpty": "Berekend uit de gelogde vluchten op deze plaats.",
       "emptyMonth": "Geen vluchten geregistreerd in {month} op deze plaats.",
-      "empty": "Nog geen vluchten geregistreerd op deze plaats.",
       "totalFlights": "Vluchten in totaal",
-      "peakSub": "Piek {month} · {count, plural, one {# vlucht} other {# vluchten}}",
       "medianDuration": "Mediane duur",
       "medianXc": "Mediane XC",
-      "best": "Beste {value}",
       "maxAltitude": "Max. hoogte",
-      "median": "Mediaan {value}",
       "flightsByMonth": "Vluchten per maand",
-      "peakLine": "Piek · {month} ({count, plural, one {# vlucht} other {# vluchten}})",
-      "flightsPerMonth": "Vluchten per maand",
       "barTitle": "{month}: {count, plural, one {# vlucht} other {# vluchten}}",
-      "typeBreakdown": "Verdeling per vluchttype",
       "noScored": "Nog geen gescoorde vluchten.",
-      "peakLaunchHour": "Drukste startuur",
       "hourWithCount": "{hour} · {count, plural, one {# vlucht} other {# vluchten}}",
-      "topXcTitle": "Beste XC-vluchten",
-      "topXcSubtitle": "De langste overlandvluchten die ooit vanaf deze startplaats gelogd zijn.",
       "unknownPilot": "Onbekende piloot"
     },
     "recent": {
       "title": "Recente vluchten",
-      "subtitle": "{shown} van {total}, {sort}.",
-      "subtitleEmpty": "Hier zijn nog geen vluchten gelogd.",
       "sortSummary": {
         "date": {
           "descending": "nieuwste eerst",
@@ -270,27 +216,185 @@
       "searchPlaceholder": "Piloot, scherm, type…",
       "searchLabel": "Vluchten zoeken",
       "clearSearch": "Zoekopdracht wissen",
-      "columns": {
-        "date": "Datum",
-        "pilot": "Piloot",
-        "glider": "Scherm",
-        "distance": "Afstand",
-        "type": "Type"
-      },
-      "loading": "Vluchten laden…",
       "error": "Vluchten konden niet geladen worden, probeer het later opnieuw.",
       "noMatch": "Geen vluchten gevonden voor je zoekopdracht.",
       "none": "Nog geen vluchten op deze plaats.",
       "unknownPilot": "Onbekende piloot",
-      "footerCount": "{shown} / {total} vluchten",
-      "loadingMore": "Laden…",
-      "loadMore": "Meer laden",
-      "sortBy": "Sorteren op {label}",
-      "sortByActive": "Sorteren op {label}, {dir}",
-      "dir": {
-        "ascending": "oplopend",
-        "descending": "aflopend"
-      }
+      "loadingMore": "Laden…"
+    },
+    "windFlow": {
+      "title": "Windstroming",
+      "pause": "Pauzeren",
+      "resume": "Hervatten",
+      "direction": "Wind uit",
+      "directionValue": "{compass} · {degrees}°",
+      "strength": "Sterkte",
+      "takeoff": "Startplaats",
+      "statusIdle": "Kies een wind en start de simulatie",
+      "statusSettling": "Stroming stabiliseert… {percent} %",
+      "statusSettled": "Stroming stabiel, blijft in beweging",
+      "statusError": "De simulatie is gestopt. Herlaad de pagina om het opnieuw te proberen.",
+      "terrainUnavailable": "Geen terreindata voor dit vlieggebied.",
+      "engineGpu": "Live berekend op je grafische kaart.",
+      "engineCpu": "Berekend op je processor met minder detail, omdat deze browser geen WebGPU heeft.",
+      "disclaimer": "Een natuurkundige simulatie van een constante wind in matig stabiele lucht, boven terrein met een resolutie van 50 m. Zonne-opwarming, thermiek, bomen en veranderend weer zitten er niet in. Gebruik het om een vlieggebied te begrijpen, nooit om te beslissen of je gaat vliegen.",
+      "controlsHint": "Sleep om het beeld te draaien, scroll of knijp om te zoomen.",
+      "legend": {
+        "flow": "Luchtstroming",
+        "lift": "Stijgende lucht",
+        "sink": "Dalende lucht",
+        "turbulence": "Turbulentie",
+        "turbulenceNone": "Niets gemarkeerd bij deze wind",
+        "flowHint": "langer = sneller",
+        "turbulenceScale": "Turbulentie loopt van licht naar sterk."
+      },
+      "roughest": "Ruigste lucht",
+      "howToRead": "De lijnen volgen de lucht: langer waar die versnelt, groen waar die stijgt, rood waar die daalt. Gekleurde waas en hellingen tonen turbulentie boven de gewone ruwheid bij de grond, vooral in de lij: waar je het kunt verwachten, niet hoe hard. Tik op de legenda om een laag te verbergen.",
+      "rotor": "Rotor",
+      "settlingTitle": "De lucht komt tot rust",
+      "settlingPercent": "{percent} %",
+      "settlingHint": "De wind zoekt nog zijn weg door het reliëf. Turbulentie verschijnt zodra de stroming stabiel is.",
+      "tooFlat": "Het reliëf rond dit vlieggebied is minder dan {metres} m, te klein om met onze terreindata van 50 m de lucht erboven te simuleren.",
+      "exaggeration": "Hoogtes ×{factor}",
+      "simulate": "Simuleer {speed} uit {compass}",
+      "sectorChip": "Sector startplaats · {compass} {degrees}°",
+      "liveChip": "Live · {compass} {degrees}°",
+      "howToReadTitle": "Zo lees je de lijnen"
+    },
+    "header": {
+      "back": "Startplaatsen",
+      "unofficial": "Onofficieel vlieggebied",
+      "directions": "Route",
+      "save": "Bewaren",
+      "saved": "Bewaard",
+      "more": "Meer",
+      "moreLabel": "Meer acties: coördinaten kopiëren, instellingen vlieggebied",
+      "copyLink": "Link kopiëren"
+    },
+    "tabs": {
+      "navLabel": "Onderdelen startplaats",
+      "overview": "Overzicht",
+      "site": "Vlieggebied",
+      "activity": "Activiteit",
+      "windFlow": "Windstroming"
+    },
+    "facts": {
+      "elevation": "Hoogte",
+      "amsl": "boven zeeniveau",
+      "heightDifference": "Hoogteverschil",
+      "faces": "Richting",
+      "loggedFlights": "Gelogde vluchten",
+      "sectorRange": "{start}–{end}°",
+      "orientation": "Oriëntatie",
+      "orientationValue": "{bearing} · {range}",
+      "status": "Status",
+      "unofficial": "Geen officiële startplaats",
+      "coordinates": "Coördinaten",
+      "timezone": "Tijdzone",
+      "country": "Land",
+      "countryWithCode": "{country} ({code})",
+      "address": "Adres"
+    },
+    "flyability": {
+      "title": "Kan ik nu vliegen?",
+      "station": "Weerstation {station}",
+      "stationAge": "Weerstation {station} · {age}",
+      "age": {
+        "justNow": "zojuist",
+        "minutesAgo": "{count} min geleden",
+        "hoursAgo": "{count} u geleden"
+      },
+      "verdict": {
+        "flyable": "Vliegbaar",
+        "marginal": "Twijfelachtig",
+        "unflyable": "Niet vliegbaar",
+        "calm": "Zwakke wind"
+      },
+      "reason": {
+        "favorable": "De wind staat op de helling, binnen het {sector}-windvenster.",
+        "crosswind": "Zijwind uit {direction}, {angle}° naast de helling. Wees voorzichtig.",
+        "tailwind": "Wind uit {direction}, {angle}° naast de helling: meewind of sterke zijwind.",
+        "gustsTooStrong": "Windstoten {speed}, te sterk.",
+        "windTooStrong": "Wind {speed}, te sterk.",
+        "lightWind": "Zwakke wind, thermiekvliegen mogelijk.",
+        "bearingUnknown": "De oriëntatie van dit vlieggebied is niet gedocumenteerd. Check de helling zelf.",
+        "strongWindBearingUnknown": "Sterke wind, en de oriëntatie van dit vlieggebied is niet gedocumenteerd."
+      },
+      "noData": {
+        "title": "Geen live data",
+        "stale": "Weerstation {station} heeft al {hours, plural, one {# uur} other {# uur}} niets doorgegeven. Leg het windvenster hieronder naast je eigen weersverwachting.",
+        "none": "Er meldt nu geen weerstation in de buurt van deze startplaats. Leg het windvenster hieronder naast je eigen weersverwachting."
+      },
+      "signedOut": {
+        "title": "Live wind is voor leden",
+        "body": "Log in om de wind van het dichtstbijzijnde weerstation op dit windvenster te zien, met een vliegbaarheidscheck. Gratis account.",
+        "join": "Maak een gratis account",
+        "signIn": "Inloggen"
+      },
+      "windFrom": "Wind uit {compass} · {degrees}°",
+      "gusts": "Windstoten",
+      "temp": "Temp.",
+      "worksFrom": "Werkt bij wind uit",
+      "noBearing": "Niet gedocumenteerd",
+      "sectorRange": "{start}° tot {end}°",
+      "legendSector": "Windvenster {bearing}",
+      "legendWind": "Live wind, waait naar het midden",
+      "ariaSector": "Kompas: windvenster {bearing}, {start} tot {end} graden",
+      "ariaLive": "Kompas: windvenster {bearing}, {start} tot {end} graden, live wind uit {compass} {degrees} graden"
+    },
+    "notes": {
+      "regionLabel": "Regels en notities van het vlieggebied",
+      "beforeYouFly": "Voordat je hier vliegt",
+      "siteInformation": "Info over het vlieggebied",
+      "source": "Community-notities van <psLink>paraglidingspots.com</psLink>",
+      "suggestCorrection": "Stel een correctie voor"
+    },
+    "overview": {
+      "openSiteMap": "Open kaart van het vlieggebied",
+      "pilotsTitle": "Wat piloten hier vliegen",
+      "activityLink": "Activiteit",
+      "bestMonth": "Beste maand",
+      "bestXc": "Beste XC",
+      "peakLaunch": "Piekuur start",
+      "flightsCount": "{count, plural, one {# vlucht} other {# vluchten}}",
+      "medianValue": "mediaan {value}",
+      "monthsAria": "Vluchten per maand, piek in {month}",
+      "simulatorTitle": "Windstromingssimulator",
+      "simulatorBody": "Zie hoe een constante wind over het terrein rond deze startplaats stroomt.",
+      "openSimulator": "Open simulator",
+      "latestTitle": "Laatste vluchten",
+      "allFlights": "{count, plural, one {# vlucht} other {Alle # vluchten}}",
+      "membersOnly": "{count, plural, =0 {Nog geen vluchten gelogd vanaf {name}.} one {# vlucht gelogd vanaf {name}.} other {# vluchten gelogd vanaf {name}.}} Namen van piloten en tracks zijn zichtbaar voor leden.",
+      "join": "Word gratis lid van We-Fly",
+      "noFlightsYet": "Nog geen vluchten gelogd vanaf deze startplaats. Seizoen, beste XC en startuur verschijnen na de eerste vluchten.",
+      "logFlight": "Log een vlucht vanaf hier"
+    },
+    "site": {
+      "fullscreen": "Kaart schermvullend openen",
+      "landing": "Landing",
+      "landingValue": "{name} · {distance}",
+      "notDocumented": "Niet gedocumenteerd",
+      "nearbyTitle": "Startplaatsen in de buurt",
+      "nearbyNone": "Geen andere startplaatsen binnen 50 km."
+    },
+    "activity": {
+      "title": "Activiteit op {name}",
+      "peakSub": "piek {month} · {count, plural, one {# vlucht} other {# vluchten}}",
+      "minutes": "min",
+      "fromFlights": "uit {count, plural, one {# vlucht} other {# vluchten}}",
+      "bestValue": "beste {value}",
+      "medianValue": "mediaan {value}",
+      "allMonths": "Alle maanden",
+      "peakShort": "piek {label} · {count}",
+      "flightTypes": "Vluchttypes",
+      "typeShare": "{count} · {pct}%",
+      "launchHour": "Startuur",
+      "topXc": "Top XC",
+      "shownOf": "{shown} van {total}",
+      "moreFrom": "Meer vluchten vanaf {name}",
+      "sortLabel": "Vluchten sorteren",
+      "membersTitle": "Top XC en recente vluchten",
+      "membersBody": "Namen van piloten, tracks en de volledige vluchtenlijst zijn zichtbaar voor leden."
     }
   },
   "meta": {

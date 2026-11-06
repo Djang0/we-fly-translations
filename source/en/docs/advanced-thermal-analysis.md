@@ -80,7 +80,7 @@ Stepping frame by frame is the best way to spot the exact moment you found the c
 
 ## Thermal Details
 
-Next to the viewer (below it on a phone) is your coaching report. At the top, a big quality score with its label, plus two quick reads: **eff** (efficiency) and **ctr** (centering).
+Next to the viewer (below it on a phone) is your coaching report. At the top, a big quality score with its label, plus two quick reads: **net** (net climb, your average climb from entry to exit) and **ctr** (centering).
 
 Below that, the details are folded into sections. One opens at a time, and each shows a one-line preview while folded, so you can scan the whole story without scrolling.
 
@@ -120,7 +120,7 @@ Below that, the details are folded into sections. One opens at a time, and each 
 
 #### Score Breakdown
 
-Shows how the quality score was built: one bar per factor (**Climb**, **Efficiency**, **Centering**, **Consistency** and **Sustained**), its weight, your actual value and the points it added. The **How is this calculated?** link takes you to the full formula.
+Shows how the quality score was built: one bar per factor (**Climb**, **Net climb**, **Centering**, **Consistency** and **Sustained**), its weight, your actual value and the points it added. The **How is this calculated?** link takes you to the full formula.
 
 #### Recommendations
 
@@ -140,7 +140,7 @@ At the bottom of the tab, every thermal is placed by time of day and altitude, c
 The quality score isn't just "good climb rate = high score". It's a score out of 100 that blends five factors:
 
 1. **Climb**: how strong the lift was at its best
-2. **Efficiency**: height gained versus distance drifted
+2. **Net climb**: height gained over the time spent in the thermal, which the wind does not change
 3. **Centering**: how close you stayed to the core
 4. **Consistency**: how steady the climb was
 5. **Sustained**: whether you actually stayed and circled, rather than passing through
@@ -151,11 +151,11 @@ A booming thermal you wandered around in can score lower than a moderate one you
 
 | Score | Label |
 |---|---|
-| 80 and above | Outstanding |
-| 73 to 79 | Excellent |
-| 66 to 72 | Good |
-| 60 to 65 | Fair |
-| Below 60 | Poor |
+| 74 and above | Outstanding |
+| 68 to 73 | Excellent |
+| 63 to 67 | Good |
+| 58 to 62 | Fair |
+| Below 58 | Poor |
 
 These bands are calibrated on real flights in We-Fly: a typical thermal lands in the mid-60s. The full formula, with a worked example, is in [Overall Thermal Score Explained](/doc/overall-thermal-score).
 
@@ -163,7 +163,7 @@ These bands are calibrated on real flights in We-Fly: a typical thermal lands in
 
 **High drift, low centering**: you might be entering too wide, or not tightening your circle fast enough when you find lift.
 
-**Good centering time but low efficiency**: the thermal itself might have been weak, or the wind strong. Not always your fault!
+**Good centering time but low net climb**: the thermal itself might have been weak, or you spent turns outside it after finding the core. Not always your fault!
 
 **High variability**: could be the conditions (a rowdy day) or an inconsistent bank angle. The recommendations try to tell the two apart by looking at how much your circle radius changed.
 

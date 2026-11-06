@@ -309,6 +309,36 @@
     "returnUnavailable": "La conexión con autorouter aún no está disponible",
     "returnError": "No se pudo conectar autorouter, inténtalo de nuevo"
   },
+  "pgpilot": {
+    "title": "PGPilot",
+    "description": "Vincula tu cuenta de PGPilot y los vuelos que grabes con la app PGPilot llegarán solos a tu libro de vuelo.",
+    "learnMore": "pgpilot.app",
+    "supporterNote": "Para vincularla necesitas una cuenta PGPilot Supporter. Primero importamos tus vuelos anteriores y luego cada vuelo nuevo en cuanto esté listo.",
+    "connect": "Conectar PGPilot",
+    "reconnect": "Reconectar",
+    "connected": "Conectado",
+    "connectedAs": "Conectado como {name}",
+    "relink": "Se cortó el vínculo con PGPilot, reconecta para seguir importando",
+    "paused": "En pausa: según PGPilot, tu plan Supporter ha caducado. Nos ponemos al día en cuanto lo renueves.",
+    "importing": "Importando tus vuelos…",
+    "importedSince": "{count, plural, =0 {Aún no hay vuelos importados} one {# vuelo importado} other {# vuelos importados}}, última comprobación {when}",
+    "syncNow": "Buscar vuelos nuevos en PGPilot",
+    "synced": "{count, plural, =0 {Todo al día} one {# vuelo nuevo importado} other {# vuelos nuevos importados}}",
+    "disconnect": "Desconectar PGPilot",
+    "disconnected": "PGPilot desconectado. Los vuelos ya importados se quedan en tu libro de vuelo.",
+    "returnConnected": "PGPilot conectado, importando tus vuelos",
+    "returnCancelled": "Vinculación con PGPilot cancelada",
+    "returnTaken": "Esta cuenta de PGPilot ya está vinculada a otra cuenta de We-Fly",
+    "returnUnavailable": "La vinculación con PGPilot aún no está disponible",
+    "returnError": "No se pudo conectar PGPilot, inténtalo de nuevo",
+    "errors": {
+      "generic": "Algo falló con PGPilot, inténtalo de nuevo",
+      "tooSoon": "Espera un momento antes de volver a comprobar",
+      "busy": "Ya estamos importando, dale un minuto",
+      "supporterRequired": "PGPilot necesita un plan Supporter activo para compartir tus vuelos",
+      "relink": "Reconecta PGPilot para seguir importando"
+    }
+  },
   "licenses": {
     "title": "Licencias",
     "add": "Añadir",

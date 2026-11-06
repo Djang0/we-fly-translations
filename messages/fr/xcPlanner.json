@@ -60,7 +60,11 @@
     "controls": "Commandes",
     "backAria": "Revenir à l’étape précédente",
     "back": "Retour",
-    "notReady": "Ajoute d’abord au moins deux points et choisis une date de vol"
+    "notReady": "Ajoute d’abord au moins deux points et choisis une date de vol",
+    "needsPoints": "Ajoute un deuxième point sur la carte pour continuer.",
+    "needsDate": "Choisis une date de vol pour continuer.",
+    "flightDateAria": "Date du vol : {date}. Modifie-la à l’étape de conception",
+    "changeDate": "Changer la date du vol"
   },
   "stepPanel": {
     "route": "Route",
@@ -69,7 +73,13 @@
     "designTool": "Outil de tracé",
     "pickDate": "Choisis ta date de vol",
     "startTime": "Heure de départ prévue",
-    "unlockNeedsPoints": "Ajoute au moins deux points et choisis une date pour débloquer les espaces aériens, les NOTAM et le briefing.",
+    "glide": "Finesse",
+    "glideSource": "Finesse utilisée pour la portée dans la revue 3D",
+    "glideTyped": "Finesse saisie",
+    "glideWing": "{name} · {ratio}",
+    "glideRatioAria": "Finesse, de {min} à {max}",
+    "glideHint": "pour la portée dans la revue 3D",
+    "unlockNeedsPoints": "Ajoute au moins deux points pour débloquer les espaces aériens, les NOTAM et le briefing.",
     "unlockNeedsDate": "Choisis une date pour débloquer les espaces aériens, les NOTAM et le briefing.",
     "noDate": "Pas de date",
     "kmPlanned": "{distance} prévus",

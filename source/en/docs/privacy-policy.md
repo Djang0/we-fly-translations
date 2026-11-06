@@ -5,7 +5,7 @@ category: Account & Data
 order: 3
 ---
 
-**Last Updated:** October 11, 2026
+**Last Updated:** November 4, 2026
 
 ## 1. Introduction
 
@@ -104,6 +104,16 @@ When you generate a shareable link for a specific flight, we create:
 - A cryptographically secure 43-character identifier
 - This allows public access to a single flight without exposing your entire profile
 
+### 2.7 Connection Data
+
+When you use We-Fly while signed in, we keep the **last 5 different IP addresses** you connected from. For each one we store:
+- The IP address
+- When we first and last saw it
+- Your device type, browser and operating system
+- An approximate location (city, region and country) worked out on our own server from a GeoIP database (DB-IP). Your address is never sent to an outside service to locate it.
+
+Only We-Fly administrators can see this information, to spot account sharing, suspicious sign-ins and abuse. It is never shown to other pilots or used for anything else. When you connect from a sixth address, the oldest one is deleted. It is included in your **Export data** archive and deleted with your account.
+
 ## 3. Legal Basis for Processing
 
 Under GDPR Article 6, we process your personal data based on:
@@ -124,6 +134,7 @@ Under GDPR Article 6, we process your personal data based on:
 - Detecting and preventing fraud or abuse
 - Improving our service and user experience
 - Maintaining security and system integrity
+- Keeping your last 5 connection addresses and their approximate location to detect suspicious sign-ins and abuse (see 2.7)
 - Sending occasional tips that help you get started with the service you signed up for (you can opt out at any time, see 4.4)
 
 You may withdraw consent at any time by deleting your account or changing your privacy settings.
@@ -377,6 +388,10 @@ In the event of a data breach affecting your personal data:
 **Local Storage:**
 - Persists until you clear browser data or delete your account
 - No server-side retention
+
+**Connection Data:**
+- Only your last 5 different IP addresses and their approximate location are kept; each new address replaces the oldest one
+- Deleted with your account
 
 **Log Files:**
 - Security logs retained for 12 months (legitimate interest in security)

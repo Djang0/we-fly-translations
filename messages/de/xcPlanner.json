@@ -60,7 +60,11 @@
     "controls": "Steuerung",
     "backAria": "Zurück zum vorherigen Schritt",
     "back": "Zurück",
-    "notReady": "Setz zuerst mindestens zwei Punkte und wähl ein Flugdatum"
+    "notReady": "Setz zuerst mindestens zwei Punkte und wähl ein Flugdatum",
+    "needsPoints": "Setz einen zweiten Punkt auf der Karte, um weiterzumachen.",
+    "needsDate": "Wähl ein Flugdatum, um weiterzumachen.",
+    "flightDateAria": "Flugdatum: {date}. Ändern kannst du es im Design-Schritt",
+    "changeDate": "Flugdatum ändern"
   },
   "stepPanel": {
     "route": "Route",
@@ -69,7 +73,13 @@
     "designTool": "Entwurfswerkzeug",
     "pickDate": "Wähl dein Flugdatum",
     "startTime": "Geplante Startzeit",
-    "unlockNeedsPoints": "Setz mindestens zwei Punkte und wähl ein Datum, um Lufträume, NOTAMs und das Briefing freizuschalten.",
+    "glide": "Gleitzahl",
+    "glideSource": "Gleitzahl für die Reichweite in der 3D-Ansicht",
+    "glideTyped": "Eigene Gleitzahl",
+    "glideWing": "{name} · {ratio}",
+    "glideRatioAria": "Gleitzahl, von {min} bis {max}",
+    "glideHint": "für die Reichweite in der 3D-Ansicht",
+    "unlockNeedsPoints": "Setz mindestens zwei Punkte, um Lufträume, NOTAMs und das Briefing freizuschalten.",
     "unlockNeedsDate": "Wähl ein Datum, um Lufträume, NOTAMs und das Briefing freizuschalten.",
     "noDate": "Kein Datum",
     "kmPlanned": "{distance} geplant",

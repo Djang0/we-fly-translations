@@ -60,7 +60,11 @@
     "controls": "Controls",
     "backAria": "Back to the previous step",
     "back": "Back",
-    "notReady": "Add at least two points and pick a flight date first"
+    "notReady": "Add at least two points and pick a flight date first",
+    "needsPoints": "Add a second point on the map to continue.",
+    "needsDate": "Pick a flight date to continue.",
+    "flightDateAria": "Flight date: {date}. Change it in the design step",
+    "changeDate": "Change the flight date"
   },
   "stepPanel": {
     "route": "Route",
@@ -69,7 +73,13 @@
     "designTool": "Design tool",
     "pickDate": "Pick your flight date",
     "startTime": "Planned start time",
-    "unlockNeedsPoints": "Add at least two points and pick a date to unlock airspaces, NOTAMs and the briefing.",
+    "glide": "Glide",
+    "glideSource": "Glide used for the reach in the 3D review",
+    "glideTyped": "Typed glide ratio",
+    "glideWing": "{name} · {ratio}",
+    "glideRatioAria": "Glide ratio, from {min} to {max}",
+    "glideHint": "for the reach in the 3D review",
+    "unlockNeedsPoints": "Add at least two points to unlock airspaces, NOTAMs and the briefing.",
     "unlockNeedsDate": "Pick a date to unlock airspaces, NOTAMs and the briefing.",
     "noDate": "No date",
     "kmPlanned": "{distance} planned",

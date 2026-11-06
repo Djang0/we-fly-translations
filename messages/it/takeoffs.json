@@ -116,15 +116,10 @@
     "showForecast": "Previsioni decolli"
   },
   "detail": {
-    "back": "Indietro",
     "siteType": {
       "takeoff": "Decollo",
       "landing": "Atterraggio",
       "parking": "Parcheggio"
-    },
-    "favorites": {
-      "add": "Aggiungi ai preferiti",
-      "remove": "Rimuovi dai preferiti"
     },
     "copyCoordinates": "Copia le coordinate",
     "share": "Condividi",
@@ -139,48 +134,12 @@
       "coordinatesCopied": "Coordinate copiate",
       "linkCopied": "Link copiato"
     },
-    "stats": {
-      "elevation": "Quota s.l.m.",
-      "orientation": "Orientamento",
-      "windFrom": "Vento da questa direzione",
-      "loggedFlights": "Voli registrati",
-      "atThisSite": "{kind, select, landing {in questo atterraggio} parking {in questo parcheggio} other {da questo decollo}}",
-      "coordinates": "Coordinate",
-      "latLon": "lat · lon",
-      "timezone": "Fuso orario",
-      "coordinatesPair": "{lat}; {lon}"
-    },
     "siteTypeHeading": "Tipo di sito",
     "landingDescription": "Dove i piloti atterrano di solito. Prima di usarlo controlla ostacoli, direzione del vento e permessi del proprietario del campo.",
     "parkingDescription": "Un parcheggio o punto di ritrovo noto alla community vicino a un sito di volo.",
-    "map": {
-      "title": "Mappa della posizione",
-      "collapseMap": "Riduci la mappa",
-      "expandMap": "Espandi la mappa",
-      "collapse": "Riduci",
-      "expand": "Espandi",
-      "openFullscreen": "Apri la mappa a schermo intero"
-    },
-    "community": {
-      "label": "Community",
-      "summary": "<b>{count, plural, one {# volo registrato} other {# voli registrati}}</b> qui. Scopri l’attività recente qui sotto.",
-      "view": "Vai alla community →"
-    },
     "footer": {
       "base": "Dati dei decolli forniti da <psLink>paraglidingspots.com</psLink>. Prima di volare verifica sempre le regole locali, i requisiti del sito e le norme sullo spazio aereo.",
       "withOsm": "Dati dei decolli forniti da <psLink>paraglidingspots.com</psLink> · dati di posizione © <osmLink>contributori di OpenStreetMap</osmLink>. Prima di volare verifica sempre le regole locali, i requisiti del sito e le norme sullo spazio aereo."
-    },
-    "siteInfo": {
-      "title": "Informazioni sul sito",
-      "subtitle": "Informazioni della community da paraglidingspots.com"
-    },
-    "sections": {
-      "map": "Mappa",
-      "rules": "Regole",
-      "analytics": "Statistiche",
-      "recentFlights": "Voli recenti",
-      "navLabel": "Sezioni della pagina",
-      "onThisPage": "In questa pagina"
     },
     "fullscreen": {
       "title": "Mappa a schermo intero",
@@ -217,34 +176,21 @@
       "source": "fonte · {station}"
     },
     "analytics": {
-      "title": "Statistiche del sito",
       "subtitleCounted": "Calcolate su {count, plural, one {# volo registrato} other {# voli registrati}}. I valori sono mediane della community.",
       "subtitleEmpty": "Calcolate sui voli registrati in questo sito.",
       "emptyMonth": "Nessun volo registrato a {month} in questo sito.",
-      "empty": "Ancora nessun volo registrato in questo sito.",
       "totalFlights": "Voli totali",
-      "peakSub": "Picco a {month} · {count, plural, one {# volo} other {# voli}}",
       "medianDuration": "Durata mediana",
       "medianXc": "Distanza mediana",
-      "best": "Migliore {value}",
       "maxAltitude": "Quota massima",
-      "median": "Mediana {value}",
       "flightsByMonth": "Voli per mese",
-      "peakLine": "Picco · {month} ({count, plural, one {# volo} other {# voli}})",
-      "flightsPerMonth": "Voli al mese",
       "barTitle": "{month}: {count, plural, one {# volo} other {# voli}}",
-      "typeBreakdown": "Voli per tipo",
       "noScored": "Ancora nessun volo con punteggio.",
-      "peakLaunchHour": "Ora di decollo più frequente",
       "hourWithCount": "{hour} · {count, plural, one {# volo} other {# voli}}",
-      "topXcTitle": "Migliori voli di distanza",
-      "topXcSubtitle": "I cross più lunghi mai registrati da questo sito.",
       "unknownPilot": "Pilota sconosciuto"
     },
     "recent": {
       "title": "Voli recenti",
-      "subtitle": "{shown} di {total}, {sort}.",
-      "subtitleEmpty": "Ancora nessun volo registrato qui.",
       "sortSummary": {
         "date": {
           "descending": "dal più recente",
@@ -270,27 +216,185 @@
       "searchPlaceholder": "Pilota, vela, tipo…",
       "searchLabel": "Cerca voli",
       "clearSearch": "Cancella la ricerca",
-      "columns": {
-        "date": "Data",
-        "pilot": "Pilota",
-        "glider": "Vela",
-        "distance": "Distanza",
-        "type": "Tipo"
-      },
-      "loading": "Caricamento dei voli…",
       "error": "Impossibile caricare i voli, riprova più tardi.",
       "noMatch": "Nessun volo corrisponde alla ricerca.",
       "none": "Ancora nessun volo in questo sito.",
       "unknownPilot": "Pilota sconosciuto",
-      "footerCount": "{shown} / {total} voli",
-      "loadingMore": "Caricamento…",
-      "loadMore": "Carica altri",
-      "sortBy": "Ordina per {label}",
-      "sortByActive": "Ordina per {label}, {dir}",
-      "dir": {
-        "ascending": "crescente",
-        "descending": "decrescente"
-      }
+      "loadingMore": "Caricamento…"
+    },
+    "windFlow": {
+      "title": "Flusso del vento",
+      "pause": "Pausa",
+      "resume": "Riprendi",
+      "direction": "Vento da",
+      "directionValue": "{compass} · {degrees}°",
+      "strength": "Intensità",
+      "takeoff": "Decollo",
+      "statusIdle": "Scegli un vento, poi avvia la simulazione",
+      "statusSettling": "Il flusso si sta assestando… {percent} %",
+      "statusSettled": "Flusso assestato, ancora in movimento",
+      "statusError": "La simulazione si è fermata. Ricarica la pagina per riprovare.",
+      "terrainUnavailable": "Nessun dato del terreno per questo sito.",
+      "engineGpu": "Calcolato in tempo reale sulla tua scheda grafica.",
+      "engineCpu": "Calcolato sul tuo processore con meno dettaglio, perché questo browser non supporta WebGPU.",
+      "disclaimer": "Una simulazione fisica di un vento costante in aria moderatamente stabile, su un terreno a 50 m. Non tiene conto del riscaldamento solare, delle termiche, degli alberi e del meteo che cambia. Usala per capire un sito, mai per decidere se volare.",
+      "controlsHint": "Trascina per ruotare la vista, scorri o pizzica per lo zoom.",
+      "legend": {
+        "flow": "Flusso d’aria",
+        "lift": "Aria che sale",
+        "sink": "Aria che scende",
+        "turbulence": "Turbolenza",
+        "turbulenceNone": "Nessuna segnalata con questo vento",
+        "flowHint": "più lunga = più veloce",
+        "turbulenceScale": "La turbolenza va da sfumature leggere a forti."
+      },
+      "roughest": "Aria più turbolenta",
+      "howToRead": "Le linee seguono l’aria: più lunghe dove accelera, verdi dove sale, rosse dove scende. La foschia colorata e i pendii colorati indicano turbolenza oltre la normale rugosità vicino al suolo, soprattutto sottovento: dove aspettarsela, non quanto sarà forte. Tocca la legenda per nascondere un livello.",
+      "rotor": "Rotore",
+      "settlingTitle": "Lasciamo assestare l’aria",
+      "settlingPercent": "{percent} %",
+      "settlingHint": "Il vento sta ancora trovando la sua strada nel rilievo. La turbolenza appare quando si è assestato.",
+      "tooFlat": "Il rilievo intorno a questo sito è sotto i {metres} m, troppo poco perché i nostri dati del terreno a 50 m possano simulare l’aria sopra.",
+      "exaggeration": "Altezze ×{factor}",
+      "simulate": "Simula {speed} da {compass}",
+      "sectorChip": "Settore del sito · {compass} {degrees}°",
+      "liveChip": "Live · {compass} {degrees}°",
+      "howToReadTitle": "Come leggere le linee"
+    },
+    "header": {
+      "back": "Decolli",
+      "unofficial": "Sito non ufficiale",
+      "directions": "Indicazioni",
+      "save": "Salva",
+      "saved": "Salvato",
+      "more": "Altro",
+      "moreLabel": "Altre azioni: copia coordinate, impostazioni del sito",
+      "copyLink": "Copia link"
+    },
+    "tabs": {
+      "navLabel": "Sezioni del decollo",
+      "overview": "Panoramica",
+      "site": "Sito",
+      "activity": "Attività",
+      "windFlow": "Flusso del vento"
+    },
+    "facts": {
+      "elevation": "Quota",
+      "amsl": "s.l.m.",
+      "heightDifference": "Dislivello",
+      "faces": "Esposizione",
+      "loggedFlights": "Voli registrati",
+      "sectorRange": "{start}–{end}°",
+      "orientation": "Esposizione",
+      "orientationValue": "{bearing} · {range}",
+      "status": "Stato",
+      "unofficial": "Decollo non ufficiale",
+      "coordinates": "Coordinate",
+      "timezone": "Fuso orario",
+      "country": "Paese",
+      "countryWithCode": "{country} ({code})",
+      "address": "Indirizzo"
+    },
+    "flyability": {
+      "title": "Si vola adesso?",
+      "station": "Stazione {station}",
+      "stationAge": "Stazione {station} · {age}",
+      "age": {
+        "justNow": "proprio ora",
+        "minutesAgo": "{count} min fa",
+        "hoursAgo": "{count} h fa"
+      },
+      "verdict": {
+        "flyable": "Volabile",
+        "marginal": "Al limite",
+        "unflyable": "Non volabile",
+        "calm": "Vento debole"
+      },
+      "reason": {
+        "favorable": "Vento in pendio, dentro il settore {sector}.",
+        "crosswind": "Vento laterale da {direction}, {angle}° fuori dal pendio. Attenzione.",
+        "tailwind": "Vento da {direction}, {angle}° fuori dal pendio: vento in coda o laterale forte.",
+        "gustsTooStrong": "Raffiche {speed}, troppo forti.",
+        "windTooStrong": "Vento {speed}, troppo forte.",
+        "lightWind": "Vento debole, si può volare in termica.",
+        "bearingUnknown": "L’esposizione del sito non è documentata. Controlla tu il pendio.",
+        "strongWindBearingUnknown": "Vento forte, e l’esposizione del sito non è documentata."
+      },
+      "noData": {
+        "title": "Nessun dato live",
+        "stale": "La stazione {station} non trasmette da {hours, plural, one {# ora} other {# ore}}. Confronta il settore qui sotto con le tue previsioni.",
+        "none": "Nessuna stazione meteo vicina a questo decollo sta trasmettendo. Confronta il settore qui sotto con le tue previsioni."
+      },
+      "signedOut": {
+        "title": "Il vento live è per i membri",
+        "body": "Accedi per vedere il vento della stazione più vicina disegnato su questo settore, con una verifica di volabilità. Account gratuito.",
+        "join": "Crea un account gratuito",
+        "signIn": "Accedi"
+      },
+      "windFrom": "Vento da {compass} · {degrees}°",
+      "gusts": "Raffiche",
+      "temp": "Temp.",
+      "worksFrom": "Funziona con vento da",
+      "noBearing": "Non documentata",
+      "sectorRange": "Da {start}° a {end}°",
+      "legendSector": "Settore del sito {bearing}",
+      "legendWind": "Vento live, soffia verso il centro",
+      "ariaSector": "Bussola: settore del sito {bearing}, da {start} a {end} gradi",
+      "ariaLive": "Bussola: settore del sito {bearing}, da {start} a {end} gradi, vento live da {compass} {degrees} gradi"
+    },
+    "notes": {
+      "regionLabel": "Regole e note del sito",
+      "beforeYouFly": "Prima di volare qui",
+      "siteInformation": "Info sul sito",
+      "source": "Note della community da <psLink>paraglidingspots.com</psLink>",
+      "suggestCorrection": "Suggerisci una correzione"
+    },
+    "overview": {
+      "openSiteMap": "Apri la mappa del sito",
+      "pilotsTitle": "Come si vola qui",
+      "activityLink": "Attività",
+      "bestMonth": "Mese migliore",
+      "bestXc": "Miglior XC",
+      "peakLaunch": "Ora di punta",
+      "flightsCount": "{count, plural, one {# volo} other {# voli}}",
+      "medianValue": "mediana {value}",
+      "monthsAria": "Voli per mese, picco a {month}",
+      "simulatorTitle": "Simulatore del vento",
+      "simulatorBody": "Guarda come un vento costante scorre sul terreno attorno a questo decollo.",
+      "openSimulator": "Apri il simulatore",
+      "latestTitle": "Ultimi voli",
+      "allFlights": "{count, plural, one {# volo} other {Tutti i # voli}}",
+      "membersOnly": "{count, plural, =0 {Ancora nessun volo registrato da {name}.} one {# volo registrato da {name}.} other {# voli registrati da {name}.}} Nomi dei piloti e tracce sono visibili ai membri.",
+      "join": "Unisciti a We-Fly, è gratis",
+      "noFlightsYet": "Ancora nessun volo registrato da questo decollo. Stagione, miglior XC e ora di decollo compaiono dopo i primi voli.",
+      "logFlight": "Registra un volo da qui"
+    },
+    "site": {
+      "fullscreen": "Apri mappa a schermo intero",
+      "landing": "Atterraggio",
+      "landingValue": "{name} · {distance}",
+      "notDocumented": "Non documentato",
+      "nearbyTitle": "Decolli vicini",
+      "nearbyNone": "Nessun altro decollo entro 50 km."
+    },
+    "activity": {
+      "title": "Attività a {name}",
+      "peakSub": "picco a {month} · {count, plural, one {# volo} other {# voli}}",
+      "minutes": "min",
+      "fromFlights": "su {count, plural, one {# volo} other {# voli}}",
+      "bestValue": "migliore {value}",
+      "medianValue": "mediana {value}",
+      "allMonths": "Tutti i mesi",
+      "peakShort": "picco {label} · {count}",
+      "flightTypes": "Tipi di volo",
+      "typeShare": "{count} · {pct}%",
+      "launchHour": "Ora di decollo",
+      "topXc": "Migliori XC",
+      "shownOf": "{shown} di {total}",
+      "moreFrom": "Altri voli da {name}",
+      "sortLabel": "Ordina i voli",
+      "membersTitle": "Migliori XC e voli recenti",
+      "membersBody": "I nomi dei piloti, le tracce e l’elenco completo dei voli sono visibili ai membri."
     }
   },
   "meta": {

@@ -1,28 +1,28 @@
 ---
 title: Datenschutzerklärung
-description: Wie We-Fly deine personenbezogenen Daten nach der DSGVO erhebt, nutzt und schützt
+description: Wie We-Fly deine personenbezogenen Daten gemäß DSGVO erhebt, nutzt und schützt
 category: Account & Data
 order: 3
 ---
 
-**Zuletzt aktualisiert:** 11. Oktober 2026
+**Zuletzt aktualisiert:** 4. November 2026
 
 ## 1. Einleitung
 
-Willkommen bei We-Fly. Wir verpflichten uns, deine personenbezogenen Daten zu schützen und deine Rechte auf Privatsphäre gemäß der Datenschutz-Grundverordnung (DSGVO), Verordnung (EU) 2016/679, und den anwendbaren Datenschutzgesetzen zu achten.
+Willkommen bei We-Fly. Wir schützen deine personenbezogenen Daten und respektieren deine Datenschutzrechte gemäß der Datenschutz-Grundverordnung (DSGVO) (EU) 2016/679 und den geltenden Datenschutzgesetzen.
 
-Diese Datenschutzerklärung erläutert, wie wir deine personenbezogenen Daten erheben, nutzen, speichern und schützen, wenn du unsere Plattform zur Aufzeichnung und Analyse von Gleitschirmflügen nutzt.
+Diese Datenschutzerklärung erklärt, wie wir deine personenbezogenen Daten erheben, nutzen, speichern und schützen, wenn du unsere Plattform zur Aufzeichnung und Analyse von Gleitschirmflügen nutzt.
 
 ### 1.1 Verantwortlicher
 
-We-Fly ist der für deine personenbezogenen Daten Verantwortliche. Bei Fragen zu dieser Datenschutzerklärung oder zu deinen Rechten wende dich bitte über die in Abschnitt 15 angegebenen Kontaktdaten an uns.
+We-Fly ist der für deine personenbezogenen Daten Verantwortliche. Bei Fragen zu dieser Datenschutzerklärung oder zu deinen Rechten erreichst du uns über die Angaben in Abschnitt 15.
 
 ### 1.2 Geltungsbereich
 
-Diese Erklärung gilt für alle Nutzer der Plattform We-Fly, darunter:
-- registrierte Nutzer mit einem Konto
+Diese Erklärung gilt für alle Nutzer der We-Fly-Plattform, darunter:
+- Registrierte Nutzer mit Konto
 - Besucher unserer öffentlichen Seiten
-- Nutzer unserer Freigabelinks für Flüge
+- Nutzer unserer geteilten Flug-Links
 
 ## 2. Welche Daten wir erheben
 
@@ -30,101 +30,112 @@ Diese Erklärung gilt für alle Nutzer der Plattform We-Fly, darunter:
 
 Wenn du ein Konto über „Mit Google anmelden“ erstellst, erheben wir:
 
-- **E-Mail-Adresse**: zur Identifizierung des Kontos und zur Kommunikation
-- **Vollständiger Name**: zur Anzeige im Profil und zur Zuordnung von Flügen
-- **URL des Profilbilds**: aus deinem Google-Konto, zur Anzeige im Profil
-- **Status der E-Mail-Verifizierung**: von Google bereitgestellt
-- **Google-Nutzer-ID**: eindeutige Kennung aus Google OAuth
+- **E-Mail-Adresse** – zur Identifizierung des Kontos und zur Kommunikation
+- **Vollständiger Name** – für die Profilanzeige und die Zuordnung deiner Flüge
+- **URL des Profilbilds** – aus deinem Google-Konto, für die Profilanzeige
+- **Status der E-Mail-Verifizierung** – von Google bereitgestellt
+- **Google-Nutzer-ID** – eindeutige Kennung aus Google OAuth
 
-Wir erheben und speichern **keine** Passwörter. Die gesamte Authentifizierung wird sicher von Google abgewickelt.
+Wir erheben oder speichern **keine** Passwörter. Die gesamte Authentifizierung läuft sicher über Google.
 
 ### 2.2 Flugdaten (aus hochgeladenen IGC-Dateien)
 
-Wenn du Aufzeichnungen von Gleitschirmflügen hochlädst, erheben und verarbeiten wir:
+Wenn du Gleitschirmflüge hochlädst, erheben und verarbeiten wir:
 
-**Metadaten der Datei:**
+**Datei-Metadaten:**
 - Pilotenname (aus der IGC-Datei oder deinem Kontonamen)
-- Modell und Typ des Gleitschirms
-- Angaben zum GPS-Gerät (Hersteller, Seriennummer, Firmware)
+- Modell und Typ deines Schirms
+- Informationen zum GPS-Gerät (Hersteller, Seriennummer, Firmware)
 - Datum und Uhrzeit des Flugs
 - Ursprünglicher Dateiname
 
 **GPS-Trackdaten:**
 - Vollständiger GPS-Track (Breitengrad, Längengrad, Höhe, Zeitstempel)
-- Startort und Startzeit
-- Landeort und Landezeit
+- Ort und Zeit des Starts
+- Ort und Zeit der Landung
 - Flugdauer
 - Maximale und minimale Höhe
 - Insgesamt zurückgelegte Strecke
 
-**Berechnete Flugauswertungen:**
-- Analyse der Thermikaktivität (Steigwerte, Dauer, Höhengewinn)
-- Schätzungen von Windgeschwindigkeit und Windrichtung
-- Kennzahlen zur Flugleistung
-- Wertungsdaten von XContest (Strecke, Punkte, Einordnung der Flugart)
-- Daten der FAI-Validierung (wenn du eine Validierung anforderst)
+**Berechnete Fluganalysen:**
+- Thermikanalyse (Steigwerte, Dauer, Höhengewinn)
+- Schätzungen von Windgeschwindigkeit und -richtung
+- Leistungskennzahlen des Flugs
+- XContest-Wertungsdaten (Strecke, Punkte, Einordnung des Flugtyps)
+- FAI-Validierungsdaten (wenn du eine Validierung anforderst)
 - Wendepunkte und Streckenabschnitte
 
 **Technische Kennungen:**
 - MD5-Hash des GPS-Tracks (zur Erkennung von Duplikaten)
-- Kennungen von Datenbankeinträgen
+- Datenbank-Kennungen
 - Speicherpfade der Dateien (wenn die lokale Speicherung aktiviert ist)
 
-### 2.3 Daten zu Startplätzen
+### 2.3 Startplatzdaten
 
-Wir führen eine Datenbank mit Startplätzen für Gleitschirme. Sie enthält:
+Wir pflegen eine Datenbank mit Startplätzen für Gleitschirme, die Folgendes enthält:
 - Name und geografische Koordinaten des Startplatzes
 - Höhe über dem Meeresspiegel
 - Vorherrschende Windrichtung
 - Land, Ort und Postleitzahl (ermittelt über den Reverse-Geocoding-Dienst Nominatim von OpenStreetMap)
 
-Diese Daten werden aus den Flug-Uploads der Nutzer und aus öffentlichen geografischen Datenbanken zusammengeführt. Die Ortsangaben werden mit Daten von OpenStreetMap angereichert (© OpenStreetMap-Mitwirkende).
+Diese Daten stammen aus hochgeladenen Flügen und öffentlichen geografischen Datenbanken. Die Ortsangaben werden mit Daten von OpenStreetMap ergänzt (© OpenStreetMap-Mitwirkende).
 
 ### 2.4 Profil- und Einstellungsdaten
 
 - Nutzerrolle (Nutzer oder Administrator)
-- Einstellung zur Sichtbarkeit des Profils (öffentlich oder privat)
+- Sichtbarkeit des Profils (öffentlich oder privat)
 - Anzeigeeinstellungen (Tabellenspalten, Sortierung, Filter)
-- Design-Einstellung
-- E-Mail-Einstellungen (ob du Einstiegstipps erhältst)
-- Zeitstempel der Erstellung und Änderung des Kontos
+- Gewähltes Design
+- E-Mail-Einstellungen (ob du Tipps für den Einstieg erhältst)
+- Zeitstempel der Kontoerstellung und -änderung
 
 ### 2.5 Statistische Daten
 
-Wir berechnen aus deinen Flügen zusammenfassende Statistiken:
-- Gesamtzahl der Flüge und Flugstunden
+Aus deinen Flügen berechnen wir zusammenfassende Statistiken:
+- Gesamtzahl der Flüge und Stunden
 - Insgesamt geflogene Strecke
-- Anzahl der verschiedenen besuchten Startplätze und Länder
+- Anzahl der verschiedenen Startplätze und besuchten Länder
 - Durchschnittliche Flugdauer
-- Aufschlüsselung nach Flugarten
+- Aufschlüsselung nach Flugtyp
 
-### 2.6 Freigabelinks für Flüge
+### 2.6 Geteilte Flug-Links
 
-Wenn du einen Freigabelink für einen bestimmten Flug erzeugst, erstellen wir:
-- eine kryptografisch sichere Kennung aus 43 Zeichen
-- Diese ermöglicht den öffentlichen Zugriff auf einen einzelnen Flug, ohne dein gesamtes Profil offenzulegen
+Wenn du einen Freigabelink für einen bestimmten Flug erstellst, erzeugen wir:
+- Eine kryptografisch sichere, 43 Zeichen lange Kennung
+- Damit ist ein einzelner Flug öffentlich zugänglich, ohne dein ganzes Profil offenzulegen
+
+### 2.7 Verbindungsdaten
+
+Wenn du We-Fly angemeldet nutzt, speichern wir die **letzten 5 verschiedenen IP-Adressen**, von denen du dich verbunden hast. Zu jeder speichern wir:
+- Die IP-Adresse
+- Wann wir sie zuerst und zuletzt gesehen haben
+- Deinen Gerätetyp, Browser und dein Betriebssystem
+- Einen ungefähren Standort (Ort, Region und Land), den wir auf unserem eigenen Server aus einer GeoIP-Datenbank (DB-IP) ermitteln. Deine Adresse wird dafür nie an einen externen Dienst geschickt.
+
+Nur We-Fly-Administratoren sehen diese Informationen, um geteilte Konten, verdächtige Anmeldungen und Missbrauch zu erkennen. Sie werden nie anderen Piloten angezeigt und für nichts anderes verwendet. Verbindest du dich von einer sechsten Adresse, wird die älteste gelöscht. Sie sind in deinem Archiv von **Daten exportieren** enthalten und werden mit deinem Konto gelöscht.
 
 ## 3. Rechtsgrundlage der Verarbeitung
 
-Nach Art. 6 DSGVO verarbeiten wir deine personenbezogenen Daten auf folgenden Grundlagen:
+Gemäß Artikel 6 DSGVO verarbeiten wir deine personenbezogenen Daten auf folgenden Grundlagen:
 
-### 3.1 Einwilligung (Art. 6 Abs. 1 lit. a)
+### 3.1 Einwilligung (Artikel 6 Abs. 1 lit. a)
 - Authentifizierung über Google OAuth (du willigst ausdrücklich ein, indem du auf „Mit Google anmelden“ klickst)
-- Einstellungen zur Sichtbarkeit des Profils (du entscheidest dich aktiv dafür, dein Profil öffentlich zu machen)
-- Anbindungen an APIs Dritter (FAI-Validierung, Geocoding)
+- Einstellungen zur Profilsichtbarkeit (du entscheidest dich aktiv für ein öffentliches Profil)
+- Anbindungen an Drittanbieter-APIs (FAI-Validierung, Geocoding)
 
-### 3.2 Vertragserfüllung (Art. 6 Abs. 1 lit. b)
+### 3.2 Vertragserfüllung (Artikel 6 Abs. 1 lit. b)
 - Verarbeitung der Flüge, die du hochlädst
-- Bereitstellung von Flugauswertungen und Statistiken
-- Führung deines Kontos und deiner Nutzereinstellungen
+- Bereitstellung von Fluganalysen und Statistiken
+- Verwaltung deines Kontos und deiner Einstellungen
 - Bereitstellung der Kernfunktionen unseres Dienstes
 
-### 3.3 Berechtigtes Interesse (Art. 6 Abs. 1 lit. f)
-- Verhinderung doppelt hochgeladener Flüge
+### 3.3 Berechtigtes Interesse (Artikel 6 Abs. 1 lit. f)
+- Vermeidung doppelt hochgeladener Flüge
 - Erkennung und Verhinderung von Betrug oder Missbrauch
 - Verbesserung unseres Dienstes und der Nutzererfahrung
-- Gewährleistung der Sicherheit und Integrität des Systems
-- Versand gelegentlicher Tipps, die dir den Einstieg in den Dienst erleichtern, für den du dich registriert hast (du kannst dem jederzeit widersprechen, siehe 4.4)
+- Gewährleistung von Sicherheit und Systemintegrität
+- Speicherung deiner letzten 5 Verbindungsadressen und ihres ungefähren Standorts, um verdächtige Anmeldungen und Missbrauch zu erkennen (siehe 2.7)
+- Gelegentliche Tipps, die dir beim Einstieg in den Dienst helfen, für den du dich angemeldet hast (du kannst sie jederzeit abbestellen, siehe 4.4)
 
 Du kannst deine Einwilligung jederzeit widerrufen, indem du dein Konto löschst oder deine Privatsphäre-Einstellungen änderst.
 
@@ -132,406 +143,410 @@ Du kannst deine Einwilligung jederzeit widerrufen, indem du dein Konto löschst 
 
 Wir nutzen deine personenbezogenen Daten, um:
 
-### 4.1 Die Kerndienste bereitzustellen
-- dich bei der Anmeldung zu authentifizieren und zu identifizieren
-- deine Flugaufzeichnungen einzulesen, zu analysieren und zu speichern
+### 4.1 Kernfunktionen bereitzustellen
+- Dich bei der Anmeldung zu authentifizieren und zu identifizieren
+- Deine Flüge einzulesen, zu analysieren und zu speichern
 - Flugstatistiken und Leistungskennzahlen zu erstellen
-- dein persönliches Flugbuch und dein Dashboard anzuzeigen
+- Dein persönliches Flugbuch und Dashboard anzuzeigen
 - Flüge automatisch Startplätzen zuzuordnen
 
 ### 4.2 Community-Funktionen zu ermöglichen
-- öffentliche Flüge anzuzeigen (nur wenn du das öffentliche Profil aktivierst)
-- Pilotenprofile in den Community-Ranglisten anzuzeigen (mit deiner Einwilligung)
-- beliebte Startplätze zu ermitteln
-- anderen Piloten das Entdecken von Flugrouten zu ermöglichen
+- Öffentliche Flüge anzuzeigen (nur wenn du ein öffentliches Profil aktivierst)
+- Pilotenprofile in Ranglisten der Community zu zeigen (mit deiner Einwilligung)
+- Beliebte Startplätze zu ermitteln
+- Anderen Piloten das Entdecken von Flugrouten zu ermöglichen
 
 ### 4.3 Unsere Plattform zu verbessern
-- anonyme Statistiken zur Nutzung der Plattform zusammenzufassen
-- technische Probleme zu erkennen und zu beheben
-- die Algorithmen der Flugauswertung weiterzuentwickeln
-- Benutzeroberfläche und Nutzererfahrung zu optimieren
+- Anonyme Nutzungsstatistiken zusammenzufassen
+- Technische Probleme zu finden und zu beheben
+- Die Algorithmen der Fluganalyse zu verbessern
+- Oberfläche und Nutzererfahrung zu optimieren
 
 ### 4.4 Mit dir zu kommunizieren
-- dienstbezogene Benachrichtigungen zu versenden
-- gelegentlich Einstiegstipps zu versenden, zum Beispiel eine einzige Erinnerung, wenn dein Flugbuch eine Woche nach deiner Registrierung noch leer ist. Du kannst sie jederzeit unter **Profil → E-Mails** abschalten oder über den Abmeldelink am Ende jeder Tipp-E-Mail
-- Supportanfragen zu beantworten
-- dich über wichtige Änderungen an unserem Dienst oder an dieser Erklärung zu informieren
+- Dienstbezogene Benachrichtigungen zu senden
+- Gelegentlich Tipps für den Einstieg zu senden, zum Beispiel eine einzige Erinnerung, wenn dein Flugbuch eine Woche nach der Anmeldung noch leer ist. Du kannst sie jederzeit unter **Profil → E-Mails** abschalten oder über den Abmeldelink am Ende jeder Tipp-E-Mail
+- Auf Support-Anfragen zu antworten
+- Dich über wichtige Änderungen an unserem Dienst oder dieser Erklärung zu informieren
 
-### 4.5 Die Sicherheit zu gewährleisten
-- unbefugten Zugriff auf Konten zu verhindern
-- betrügerische Aktivitäten zu erkennen und zu verhindern
-- die Integrität der Daten zu prüfen
+### 4.5 Sicherheit zu gewährleisten
+- Unbefugten Zugriff auf Konten zu verhindern
+- Betrügerische Aktivitäten zu erkennen und zu verhindern
+- Die Datenintegrität zu prüfen
 - Prüfprotokolle sicherheitsrelevanter Ereignisse zu führen
 
 Wir nutzen deine Daten **nicht** für:
-- Werbung oder Marketing gegenüber Dritten
-- den Verkauf oder die Vermietung deiner personenbezogenen Daten
-- automatisierte Entscheidungen mit rechtlicher Wirkung
+- Werbung oder Marketing für Dritte
+- Verkauf oder Vermietung deiner personenbezogenen Daten
+- Automatisierte Entscheidungen mit rechtlicher Wirkung
 - Profiling zu kommerziellen Zwecken
 
-## 5. Dienste Dritter und Datenübermittlungen
+## 5. Drittanbieter und Datenübermittlung
 
-Wir geben begrenzte Daten an die folgenden Dienste Dritter weiter:
+Mit folgenden Drittanbietern teilen wir begrenzte Daten:
 
 ### 5.1 Google OAuth
-**Zweck:** Authentifizierung der Nutzer und Überprüfung der Identität
-**Weitergegebene Daten:** E-Mail-Adresse, Name, Profilbild (über das OAuth-Protokoll)
-**Standort:** Vereinigte Staaten (Infrastruktur von Google)
+**Zweck:** Authentifizierung der Nutzer und Identitätsprüfung
+**Weitergegebene Daten:** E-Mail, Name, Profilbild (über das OAuth-Protokoll)
+**Standort:** Vereinigte Staaten (Google-Infrastruktur)
 **Datenschutzerklärung:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
 **Rechtsgrundlage:** Einwilligung (OAuth-Autorisierung)
 
 ### 5.2 Nominatim (OpenStreetMap)
-**Zweck:** Reverse Geocoding, um aus Koordinaten Ortsnamen zu ermitteln
-**Weitergegebene Daten:** Ausschließlich Breiten- und Längengrad (keine personenbezogenen Kennungen)
-**Häufigkeit:** Von einem Administrator ausgelöst, nicht automatisch
+**Zweck:** Reverse Geocoding, um Ortsnamen aus Koordinaten zu ermitteln
+**Weitergegebene Daten:** Nur Breiten- und Längengrad (keine personenbezogenen Kennungen)
+**Häufigkeit:** Von Administratoren ausgelöst, nicht automatisch
 **Datenschutzerklärung:** [https://osmfoundation.org/wiki/Privacy_Policy](https://osmfoundation.org/wiki/Privacy_Policy)
-**Rechtsgrundlage:** Berechtigtes Interesse (Ergänzung der Angaben zu Startplätzen)
-**Namensnennung:** Ortsdaten © OpenStreetMap-Mitwirkende ([https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright))
+**Rechtsgrundlage:** Berechtigtes Interesse (Ergänzung der Startplatzinformationen)
+**Quellenangabe:** Ortsdaten © OpenStreetMap-Mitwirkende ([https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright))
 
 ### 5.3 Open Elevation API (api.open-elevation.com)
 **Zweck:** Abruf von Höhendaten für Startplätze
-**Weitergegebene Daten:** Ausschließlich Breiten- und Längengrad
-**Häufigkeit:** Von einem Administrator ausgelöst
+**Weitergegebene Daten:** Nur Breiten- und Längengrad
+**Häufigkeit:** Von Administratoren ausgelöst
 **Datenschutzerklärung:** Öffentlicher Dienst, keine Registrierung erforderlich
-**Rechtsgrundlage:** Berechtigtes Interesse (genaue Daten zu Startplätzen)
+**Rechtsgrundlage:** Berechtigtes Interesse (genaue Startplatzdaten)
 
 ### 5.4 Flugvalidierungsdienst der FAI CIVL
-**Zweck:** Validierung von Flugaufzeichnungen nach den Standards der FAI
+**Zweck:** Validierung von Flügen nach FAI-Standards
 **Weitergegebene Daten:** Vollständiger Inhalt der IGC-Datei (nur wenn du ausdrücklich eine Validierung anforderst)
 **Endpunkt:** vali.fai-civl.org/api/vali/json
 **Datenschutzerklärung:** [https://www.fai.org/privacy-policy](https://www.fai.org/privacy-policy)
-**Rechtsgrundlage:** Einwilligung (vom Nutzer ausgelöst)
+**Rechtsgrundlage:** Einwilligung (von dir ausgelöst)
 
 ### 5.5 Anbieter von Kartenkacheln
-**Zweck:** Anzeige interaktiver Karten zur Darstellung von Flügen
+**Zweck:** Anzeige interaktiver Karten zur Darstellung deiner Flüge
 **Genutzte Dienste:**
 - OpenStreetMap Foundation (tile.openstreetmap.org)
 - OpenTopoMap (tile.opentopomap.org)
 - IGN France (data.geopf.fr)
 
-**Weitergegebene Daten:** Nur Anfragen nach Kacheln (keine personenbezogenen Daten)
-**Rechtsgrundlage:** Berechtigtes Interesse (für den Dienst unerlässliche Funktionen)
+**Weitergegebene Daten:** Nur Kachelanfragen (keine personenbezogenen Daten)
+**Rechtsgrundlage:** Berechtigtes Interesse (notwendige Funktion des Dienstes)
 
-### 5.6 Internationale Datenübermittlungen
+### 5.6 Internationale Datenübermittlung
 
-Einige unserer Drittanbieter haben ihren Sitz außerhalb des Europäischen Wirtschaftsraums (EWR), insbesondere in den Vereinigten Staaten. Wenn wir Daten international übermitteln:
+Einige unserer Drittanbieter sitzen außerhalb des Europäischen Wirtschaftsraums (EWR), vor allem in den Vereinigten Staaten. Bei internationalen Übermittlungen:
 
-- stützen wir uns auf **Angemessenheitsbeschlüsse** der Europäischen Kommission (sofern vorhanden)
-- setzen wir von der Europäischen Kommission genehmigte **Standardvertragsklauseln (SCC)** ein
-- stellen wir sicher, dass die Anbieter **ein der DSGVO gleichwertiges Datenschutzniveau** einhalten
+- stützen wir uns auf **Angemessenheitsbeschlüsse** der Europäischen Kommission (soweit vorhanden)
+- verwenden wir von der Europäischen Kommission genehmigte **Standardvertragsklauseln (SCC)**
+- stellen wir sicher, dass die Anbieter **Datenschutzstandards auf DSGVO-Niveau** einhalten
 
 ## 6. Cookies und Tracking-Technologien
 
 ### 6.1 Notwendige Cookies (keine Einwilligung erforderlich)
 
 **Authentifizierungs-Cookies:**
-- **Zweck:** Aufrechterhaltung deiner angemeldeten Sitzung
-- **Art:** HTTP-only, sicher, verschlüsselte JWT-Tokens
-- **Dauer:** 30 Tage nach deinem letzten Besuch und nie mehr als 90 Tage nach deiner Anmeldung. Beim Abmelden wird es gelöscht, und wenn du dein Passwort zurücksetzt oder dein Konto löschst, endet es auf jedem Gerät.
+- **Zweck:** Deine Anmeldesitzung aufrechterhalten
+- **Typ:** HTTP-only, sicher, verschlüsselte JWT-Tokens
+- **Dauer:** 30 Tage nach deinem letzten Besuch und nie mehr als 90 Tage nach der Anmeldung. Beim Abmelden wird es gelöscht; das Zurücksetzen deines Passworts oder das Löschen deines Kontos beendet es auf allen Geräten.
 - **Anbieter:** NextAuth.js
-- **Deaktivierbar:** Nein (für die Funktion des Dienstes unerlässlich)
+- **Deaktivierbar:** Nein (für die Funktion des Dienstes notwendig)
 
-**Cookies zur Absicherung der Verbindung (autorouter):**
+**Cookies zur Verbindungssicherheit (autorouter):**
 - **Namen:** `ar_oauth_state`, `ar_oauth_return`
-- **Zweck:** Absicherung der Anmeldung bei autorouter, wenn du es für NOTAMs verbindest, und Rückkehr zu der Seite, von der du gekommen bist
-- **Art:** HTTP-only, sicher
+- **Zweck:** Die Anmeldung bei autorouter absichern, wenn du es für NOTAMs verbindest, und dich zur ursprünglichen Seite zurückbringen
+- **Typ:** HTTP-only, sicher
 - **Dauer:** 10 Minuten, gelöscht, sobald die Verbindung hergestellt ist
-- **Deaktivierbar:** Nein (wird nur gesetzt, wenn du dich entscheidest, autorouter zu verbinden)
+- **Deaktivierbar:** Nein (wird nur gesetzt, wenn du autorouter verbindest)
 
 ### 6.2 Funktionale Cookies (berechtigtes Interesse)
 
-**Cookie für den Zustand der Seitenleiste:**
+**Cookie für den Seitenleisten-Status:**
 - **Name:** `sidebar_state`
-- **Zweck:** Speichert, ob die Seitenleiste der Oberfläche auf- oder zugeklappt sein soll
+- **Zweck:** Merkt sich, ob die Seitenleiste auf- oder zugeklappt ist
 - **Dauer:** 7 Tage
-- **Gespeicherte Daten:** "true" oder "false"
+- **Gespeicherte Daten:** „true“ oder „false“
 
 **Sprach-Cookie:**
 - **Name:** `NEXT_LOCALE`
-- **Zweck:** Speichert die Sprache der Oberfläche, die du gewählt hast (Englisch, Französisch, Deutsch, Niederländisch, Italienisch oder Spanisch)
+- **Zweck:** Merkt sich die gewählte Sprache der Oberfläche (Englisch, Französisch, Deutsch, Niederländisch, Italienisch oder Spanisch)
 - **Dauer:** 1 Jahr
-- **Gespeicherte Daten:** Ein Sprachcode wie "fr"
+- **Gespeicherte Daten:** Ein Sprachcode wie „fr“
 
 **Cookie für die angezeigte Sprache:**
 - **Name:** `wf-rl`
-- **Zweck:** Merkt sich die Sprache der zuletzt angezeigten Seite, damit die App einmal neu laden kann, wenn du beim Surfen die Sprache wechselst
+- **Zweck:** Merkt sich die Sprache der zuletzt angezeigten Seite, damit die App einmal neu lädt, wenn du beim Surfen die Sprache wechselst
 - **Dauer:** Bis du deinen Browser schließt
-- **Gespeicherte Daten:** Ein Sprachcode wie "fr"
+- **Gespeicherte Daten:** Ein Sprachcode wie „fr“
 
 **Cookie für bekannte Geräte:**
 - **Name:** `wf-known-device`
 - **Zweck:** Merkt sich, dass sich in diesem Browser schon einmal jemand angemeldet hat, damit die Startseite „Anmelden“ statt „Konto erstellen“ anbietet
 - **Dauer:** Etwa 13 Monate
-- **Gespeicherte Daten:** Nur "1", nie deine E-Mail-Adresse oder Konto-ID
+- **Gespeicherte Daten:** Nur „1“, nie deine E-Mail-Adresse oder Konto-ID
 
-**Cookie für den Passkey-Hinweis:**
+**Passkey-Hinweis-Cookie:**
 - **Name:** `wf-passkey-hint`
-- **Zweck:** Merkt sich, dass dieser Browser einen Passkey für We-Fly hat, damit die Anmeldeseite ihn zuerst anbieten kann
+- **Zweck:** Merkt sich, dass dieser Browser einen Passkey für We-Fly hat, damit die Anmeldeseite ihn zuerst anbietet
 - **Dauer:** Etwa 13 Monate
-- **Gespeicherte Daten:** Nur "1"
+- **Gespeicherte Daten:** Nur „1“
 
 ### 6.3 Lokaler Speicher
 
 Wir nutzen den lokalen Speicher des Browsers für:
 
-**Anzeigeeinstellungen für Flüge:**
+**Anzeigeeinstellungen der Flüge:**
 - **Schlüssel:** `we-fly-flights-display-settings`
-- **Zweck:** Zwischenspeichern der Spaltensichtbarkeit und Sortiereinstellungen für schnelleres Laden der Seite
-- **Daten:** JSON-Objekt mit Einstellungen der Oberfläche
+- **Zweck:** Spaltensichtbarkeit und Sortierung zwischenspeichern, damit die Seite schneller lädt
+- **Daten:** JSON-Objekt mit Oberflächeneinstellungen
 - **Synchronisiert:** Mit dem Server, für den Zugriff von mehreren Geräten
 
 **Filtereinstellungen:**
-- **Zweck:** Speichern der Such- und Filtereinstellungen für Flüge
+- **Zweck:** Such- und Filtereinstellungen der Flüge beibehalten
 - **Daten:** Suchkriterien, Zeiträume, Ortsfilter
-- **Umfang:** Nur auf dem Client
+- **Umfang:** Nur im Browser
 
-Du kannst den lokalen Speicher jederzeit über die Einstellungen deines Browsers leeren. Dadurch werden die Einstellungen der Oberfläche auf die Standardwerte zurückgesetzt.
+Du kannst den lokalen Speicher jederzeit in deinen Browsereinstellungen leeren. Die Oberflächeneinstellungen werden dann auf die Standardwerte zurückgesetzt.
 
 ### 6.4 Analyse und Tracking
 
-Wir nutzen derzeit **keine**:
+Derzeit nutzen wir **nicht**:
 - Google Analytics oder ähnliche Analyseplattformen
 - Werbetracker von Drittanbietern
 - Social-Media-Pixel
-- seitenübergreifenden Tracking-Mechanismen
+- Websiteübergreifende Tracking-Mechanismen
 
-## 7. Speicherung und Sicherheit der Daten
+## 7. Datenspeicherung und Sicherheit
 
 ### 7.1 Wo wir deine Daten speichern
 
 **Datenbank:** MongoDB
-- Nutzerkonten, Flugaufzeichnungen, Angaben zu Startplätzen
+- Nutzerkonten, Flüge, Startplatzinformationen
 - Professionelle Datenbank mit Zugriffskontrollen
-- Regelmäßige automatische Sicherungen
+- Regelmäßige automatische Backups
 - Verschlüsselte Verbindungen (TLS/SSL)
 
 **Dateisystem (optional):**
 - Original-IGC-Dateien und eingelesene JSON-Daten
 - Gespeichert in nutzerspezifischen Verzeichnissen
-- Schutz vor Path Traversal umgesetzt
-- Zugriff auf authentifizierte Anfragen beschränkt
+- Schutz vor Path Traversal
+- Zugriff nur über authentifizierte Anfragen
 
-**Geografischer Standort:** Server in der EU
+**Geografischer Standort:** Server in der EU 
 
 ### 7.2 Sicherheitsmaßnahmen
 
-Wir setzen branchenübliche Sicherheitsverfahren um:
+Wir setzen branchenübliche Sicherheitsmaßnahmen um:
 
 **Technische Schutzmaßnahmen:**
-- HTTPS-Verschlüsselung aller übertragenen Daten (TLS 1.2+)
+- HTTPS-Verschlüsselung für alle übertragenen Daten (TLS 1.2+)
 - Sichere HTTP-only-Cookies mit SameSite-Schutz
-- Tokenbasierte Authentifizierung mit JWT und Ablaufzeit
+- Authentifizierung über JWT-Tokens mit Ablaufzeit
 - Schutz vor MongoDB-Injection und Bereinigung von Eingaben
-- Maskierung regulärer Ausdrücke zur Abwehr von ReDoS-Angriffen
+- Escaping regulärer Ausdrücke gegen ReDoS-Angriffe
 - Schutz vor Path Traversal bei Dateioperationen
-- Prüfung der ObjectId bei allen Datenbankabfragen
+- ObjectId-Prüfung bei allen Datenbankabfragen
 
 **Zugriffskontrollen:**
 - Sitzungsbasierte Authentifizierung über NextAuth
-- Rollenbasierte Zugriffskontrolle (Nutzer und Administrator)
-- Nutzerspezifische Filterung der Daten (Nutzer können nur auf ihre eigenen Flüge zugreifen)
-- Geschützte Routen, die eine Authentifizierung erfordern
+- Rollenbasierte Zugriffskontrolle (Nutzer vs. Administrator)
+- Nutzerspezifische Datenfilterung (Nutzer sehen nur ihre eigenen Flüge)
+- Geschützte Bereiche, die eine Anmeldung erfordern
 
 **Datenprüfung:**
-- Begrenzung der Dateigröße (höchstens 3 MB für IGC-Uploads)
+- Größenbeschränkung für Dateien (maximal 3 MB für IGC-Uploads)
 - Prüfung der Dateiendung (nur .igc)
 - Prüfung der Koordinaten (Längengrad -180 bis 180, Breitengrad -90 bis 90)
-- Erkennung doppelter Flüge über MD5-Hashes
-- Einlesen von Datumsangaben mit Formatprüfung
+- Erkennung doppelter Flüge über MD5-Hashing
+- Datumsverarbeitung mit Formatprüfung
 
 **Überwachung und Protokollierung:**
 - Strukturierte Protokollierung sicherheitsrelevanter Ereignisse
-- Prüfprotokolle über Aktionen von Administratoren
+- Prüfprotokolle für Aktionen von Administratoren
 - Protokollierung unbefugter Zugriffsversuche
-- Fehlerprotokollierung mit Kontext zur Untersuchung
+- Fehlerprotokolle mit Kontext für die Untersuchung
 
-### 7.3 Vorgehen bei Datenschutzverletzungen
+### 7.3 Vorgehen bei Datenpannen
 
-Im Fall einer Verletzung des Schutzes deiner personenbezogenen Daten:
-- melden wir sie innerhalb von 72 Stunden der zuständigen Aufsichtsbehörde (Art. 33 DSGVO)
-- benachrichtigen wir die betroffenen Nutzer unverzüglich (Art. 34 DSGVO)
-- beschreiben wir die Art der Verletzung und die ergriffenen Gegenmaßnahmen
-- dokumentieren wir alle Verletzungen in unseren internen Aufzeichnungen
+Bei einer Datenpanne, die deine personenbezogenen Daten betrifft:
+- melden wir sie der zuständigen Aufsichtsbehörde innerhalb von 72 Stunden (Artikel 33 DSGVO)
+- informieren wir betroffene Nutzer unverzüglich (Artikel 34 DSGVO)
+- beschreiben wir die Art der Panne und die ergriffenen Gegenmaßnahmen
+- dokumentieren wir alle Pannen in unseren internen Unterlagen
 
-## 8. Aufbewahrung der Daten
+## 8. Speicherdauer
 
-### 8.1 Aufbewahrungsfristen
+### 8.1 Speicherfristen
 
 **Kontodaten:**
-- Aufbewahrt für die gesamte Lebensdauer deines Kontos
-- Gelöscht bei Schließung des Kontos (siehe Abschnitt 9.3)
+- Gespeichert, solange dein Konto besteht
+- Gelöscht, wenn du dein Konto schließt (siehe Abschnitt 9.3)
 
-**Flugaufzeichnungen:**
-- Unbefristet aufbewahrt, solange dein Konto aktiv ist
+**Flüge:**
+- Unbefristet gespeichert, solange dein Konto aktiv ist
 - Du kannst einzelne Flüge jederzeit löschen
-- Alle Flüge werden bei Schließung des Kontos gelöscht
+- Alle Flüge werden beim Schließen des Kontos gelöscht
 
-**Sitzungstokens:**
-- JWT-Tokens laufen 30 Tage nach deinem letzten Besuch ab und nie später als 90 Tage nach deiner Anmeldung
-- Abgelaufene Tokens sind für die Authentifizierung nicht mehr gültig
+**Sitzungs-Tokens:**
+- JWT-Tokens laufen 30 Tage nach deinem letzten Besuch ab und nie später als 90 Tage nach der Anmeldung
+- Abgelaufene Tokens gelten nicht mehr für die Authentifizierung
 
 **Cookies:**
 - `sidebar_state`: 7 Tage ab dem letzten Besuch
 - Authentifizierungs-Cookies: 30 Tage ab dem letzten Besuch, höchstens 90 Tage (siehe Abschnitt 6.1)
 
 **Lokaler Speicher:**
-- Bleibt bestehen, bis du die Browserdaten löschst oder dein Konto löschst
-- Keine Aufbewahrung auf dem Server
+- Bleibt erhalten, bis du die Browserdaten löschst oder dein Konto löschst
+- Keine Speicherung auf dem Server
 
-**Logdateien:**
-- Sicherheitsprotokolle werden 12 Monate aufbewahrt (berechtigtes Interesse an der Sicherheit)
+**Verbindungsdaten:**
+- Nur deine letzten 5 verschiedenen IP-Adressen und ihr ungefährer Standort werden gespeichert; jede neue Adresse ersetzt die älteste
+- Gelöscht mit deinem Konto
+
+**Protokolldateien:**
+- Sicherheitsprotokolle werden 12 Monate aufbewahrt (berechtigtes Interesse an Sicherheit)
 - Nach Ablauf der Frist automatisch gelöscht
 
 ### 8.2 Inaktive Konten
 
-**Regelung zur Inaktivität:** Konten, bei denen 3 Jahre in Folge keine Anmeldung stattgefunden hat, werden automatisch gelöscht, um den Grundsatz der Speicherbegrenzung der DSGVO (Art. 5 Abs. 1 lit. e) einzuhalten.
+**Regel bei Inaktivität:** Konten ohne Anmeldung über 3 aufeinanderfolgende Jahre werden automatisch gelöscht, um dem Grundsatz der Speicherbegrenzung der DSGVO (Artikel 5 Abs. 1 lit. e) zu entsprechen.
 
 **Warnsystem:**
 - Nach **2,5 Jahren** Inaktivität erhältst du eine Warn-E-Mail, dass dein Konto in 6 Monaten gelöscht wird
-- Du kannst die Löschung verhindern, indem du dich einfach jederzeit vor Ablauf der 3-Jahres-Frist anmeldest
-- Meldest du dich nach Erhalt einer Warnung an, wird der Inaktivitätszähler zurückgesetzt und die Warnung aufgehoben
-- Ist die **3-Jahres**-Frist erreicht (und wurdest du zuvor gewarnt), wird dein Konto automatisch gelöscht
+- Du verhinderst die Löschung, indem du dich einfach vor Ablauf der 3 Jahre irgendwann anmeldest
+- Meldest du dich nach einer Warnung an, wird der Inaktivitätszähler zurückgesetzt und die Warnung aufgehoben
+- Ist die Schwelle von **3 Jahren** erreicht (und wurdest du vorher gewarnt), wird dein Konto automatisch gelöscht
 
-**Was bei der Löschung eines inaktiven Kontos passiert:**
+**Was beim Löschen eines inaktiven Kontos passiert:**
 - Alle Kontoinformationen werden endgültig gelöscht
 - Alle Flugdaten und GPS-Tracks werden endgültig gelöscht
 - Alle Einwilligungsnachweise werden endgültig gelöscht
-- Ein pseudonymisierter Eintrag im Löschprotokoll wird angelegt (siehe Abschnitt 8.3)
+- Ein pseudonymisierter Löschnachweis wird erstellt (siehe Abschnitt 8.3)
 
-**So verhinderst du die Löschung:** Melde dich einfach jederzeit bei deinem Konto an, um den Inaktivitätszähler zurückzusetzen.
+**So verhinderst du die Löschung:** Melde dich einfach irgendwann bei deinem Konto an, um den Inaktivitätszähler zurückzusetzen.
 
-### 8.3 Protokoll über Löschungen (Audit-Trail)
+### 8.3 Löschnachweis
 
-**Zweck:** Wenn du dein Konto löschst (manuell oder wegen Inaktivität), legen wir einen pseudonymisierten Protokolleintrag an, um die Einhaltung der DSGVO nachzuweisen und Betrug zu verhindern.
+**Zweck:** Wenn du dein Konto löschst (selbst oder wegen Inaktivität), erstellen wir einen pseudonymisierten Nachweis, um die Einhaltung der DSGVO zu belegen und Betrug zu verhindern.
 
 **Was gespeichert wird:**
 - Anonymisierte Nutzer-ID (MongoDB ObjectId)
 - Zeitpunkt der Löschung
-- Grund der Löschung (durch den Nutzer veranlasst oder Inaktivität)
+- Grund der Löschung (durch dich ausgelöst oder wegen Inaktivität)
 - Datum der letzten Anmeldung (bei Löschung wegen Inaktivität)
 - Datum der Inaktivitätswarnung (falls zutreffend)
 
 **Was NICHT gespeichert wird:**
 - E-Mail-Adresse
 - Benutzername
-- Jegliche personenbezogenen Identifikationsdaten
+- Irgendwelche personenbezogenen Daten
 
-**Aufbewahrungsfrist:** 7 Jahre ab dem Löschdatum (nach EU-Aufbewahrungsvorschriften erforderlich)
+**Speicherdauer:** 7 Jahre ab dem Löschdatum (vorgeschrieben durch EU-Aufbewahrungsvorschriften)
 
-**Automatische Löschung:** Protokolleinträge, die älter als 7 Jahre sind, werden monatlich automatisch gelöscht.
+**Automatische Löschung:** Nachweise, die älter als 7 Jahre sind, werden monatlich automatisch gelöscht.
 
-**Rechtsgrundlage:** Rechtliche Verpflichtung (EU-Steuer- und Aufbewahrungsvorschriften)
+**Rechtsgrundlage:** Rechtliche Verpflichtung (EU-Steuer- und Aufbewahrungsgesetze)
 
-### 8.4 Aufbewahrung von Sicherungen
+### 8.4 Aufbewahrung von Backups
 
-**Sicherungsregelung:** Wir halten zur Wiederherstellung im Notfall rollierende Datenbanksicherungen über 7 Tage vor.
+**Backup-Regel:** Wir halten für die Wiederherstellung im Notfall rollierende Datenbank-Backups über 7 Tage vor.
 
-**Wichtig:** Wenn du dein Konto oder einzelne Flüge löschst, bleiben die gelöschten Daten bis zu 7 Tage lang in den Sicherungen erhalten. Nach Ablauf dieser Frist sind die Daten endgültig nicht mehr wiederherstellbar.
+**Wichtig:** Wenn du dein Konto oder einzelne Flüge löschst, bleiben die gelöschten Daten bis zu 7 Tage in den Backups. Danach sind sie endgültig nicht mehr wiederherstellbar.
 
-**Sofortige Löschung verlangen:** Brauchst du eine sofortige und vollständige Löschung deiner Daten (z. B. aufgrund einer gesetzlichen Anforderung oder eines Notfalls), kontaktiere uns, dann können wir die Daten manuell aus den jüngsten Sicherungen entfernen. Dieses Verfahren wird nur unter außergewöhnlichen Umständen angewendet.
+**Sofortige Löschung anfordern:** Brauchst du eine sofortige, vollständige Löschung (z. B. aus rechtlichen Gründen oder in einem Notfall), kontaktiere uns, und wir entfernen die Daten manuell aus den aktuellen Backups. Das machen wir nur in Ausnahmefällen.
 
 ### 8.5 Vollständiger Aufbewahrungsplan
 
-Eine umfassende Übersicht über alle Aufbewahrungsfristen findest du in unserer ausführlichen [Richtlinie zur Datenaufbewahrung](/doc/data-retention-policy).
+Einen umfassenden Überblick über alle Speicherfristen findest du in unserer ausführlichen [Richtlinie zur Datenaufbewahrung](/doc/data-retention-policy).
 
 ## 9. Deine Datenschutzrechte
 
-Nach der DSGVO hast du in Bezug auf deine personenbezogenen Daten die folgenden Rechte:
+Nach der DSGVO hast du folgende Rechte in Bezug auf deine personenbezogenen Daten:
 
-### 9.1 Auskunftsrecht (Art. 15)
+### 9.1 Auskunftsrecht (Artikel 15)
 
-Du hast das Recht, Folgendes zu verlangen:
-- eine Bestätigung, ob wir personenbezogene Daten von dir verarbeiten
-- eine Kopie deiner personenbezogenen Daten
+Du kannst verlangen:
+- Eine Bestätigung, ob wir deine personenbezogenen Daten verarbeiten
+- Eine Kopie deiner personenbezogenen Daten
 - Informationen darüber, wie wir deine Daten nutzen
 
-**So übst du es aus:** Klick im Bereich **Konto** deines **Profils** auf **Daten exportieren**. Dadurch wird eine ZIP-Datei mit all deinen IGC-Dateien, nach Datum geordnet, erstellt, dazu eine strukturierte JSON-Datei mit deinem Profil, deinen Einstellungen, deinen Flugdatensätzen, den verknüpften Anmeldekonten und deinen Einwilligungsnachweisen.
+**So geht’s:** Klicke im Bereich **Konto** deines **Profil**s auf **Daten exportieren**. Es wird eine ZIP-Datei erstellt, die alle deine IGC-Dateien nach Datum sortiert enthält, dazu eine strukturierte JSON-Datei mit deinem Profil, deinen Einstellungen, deinen Flügen, verknüpften Anmeldekonten und Einwilligungsnachweisen.
 
-### 9.2 Recht auf Berichtigung (Art. 16)
+### 9.2 Recht auf Berichtigung (Artikel 16)
 
 Du hast das Recht, unrichtige personenbezogene Daten berichtigen zu lassen.
 
-**So übst du es aus:** Bearbeite deine Profilangaben in den Kontoeinstellungen. Die Richtigkeit der Flugdaten hängt von den hochgeladenen IGC-Dateien ab (lade bei Bedarf korrigierte Dateien hoch).
+**So geht’s:** Bearbeite deine Profilangaben in den Kontoeinstellungen. Die Genauigkeit der Flugdaten hängt von deinen hochgeladenen IGC-Dateien ab (lade bei Bedarf korrigierte Dateien hoch).
 
-### 9.3 Recht auf Löschung („Recht auf Vergessenwerden“) (Art. 17)
+### 9.3 Recht auf Löschung / „Recht auf Vergessenwerden“ (Artikel 17)
 
-Du hast das Recht, die Löschung deiner personenbezogenen Daten zu verlangen, wenn:
-- die Daten für den ursprünglichen Zweck nicht mehr notwendig sind
-- du deine Einwilligung widerrufst (bei einer Verarbeitung auf Grundlage einer Einwilligung)
-- du der Verarbeitung widersprichst (und keine vorrangigen berechtigten Gründe vorliegen)
+Du kannst die Löschung deiner personenbezogenen Daten verlangen, wenn:
+- die Daten für den ursprünglichen Zweck nicht mehr nötig sind
+- du deine Einwilligung widerrufst (bei einwilligungsbasierter Verarbeitung)
+- du der Verarbeitung widersprichst (und keine vorrangigen berechtigten Gründe bestehen)
 - die Daten unrechtmäßig verarbeitet wurden
 
-**So übst du es aus:** Klick im Bereich **Konto** deines **Profils** auf **Konto löschen**, gib zur Bestätigung deine E-Mail-Adresse ein und klick dann auf **Mein Konto endgültig löschen**. Dein Konto und alle zugehörigen Daten werden sofort gelöscht.
+**So geht’s:** Klicke im Bereich **Konto** deines **Profil**s auf **Konto löschen**, gib zur Bestätigung deine E-Mail-Adresse ein und klicke dann auf **Mein Konto endgültig löschen**. Dein Konto und alle zugehörigen Daten werden sofort gelöscht.
 
 **Was gelöscht wird:**
-- Alle Kontoinformationen (E-Mail-Adresse, Name, Profil)
+- Alle Kontoinformationen (E-Mail, Name, Profil)
 - Alle Flugdaten und GPS-Tracks
 - Alle Einwilligungsnachweise
 - Alle Sitzungsdaten
 
-**Was aufbewahrt wird:**
-- Pseudonymisierter Eintrag im Löschprotokoll (7 Jahre, keine personenbezogenen Identifikationsdaten)
-- Daten in Sicherungen (bis zu 30 Tage, danach endgültig gelöscht)
+**Was erhalten bleibt:**
+- Pseudonymisierter Löschnachweis (7 Jahre, ohne personenbezogene Daten)
+- Daten in Backups (bis zu 30 Tage, danach endgültig gelöscht)
 
-**Ausnahmen:** Wir können bestimmte Daten aufbewahren, wenn dies gesetzlich vorgeschrieben ist oder berechtigten rechtlichen Zwecken dient (Einzelheiten zum Löschprotokoll in Abschnitt 8.3).
+**Ausnahmen:** Bestimmte Daten können wir aufbewahren, wenn das Gesetz es verlangt oder es berechtigten rechtlichen Zwecken dient (Details zum Löschnachweis in Abschnitt 8.3).
 
-### 9.4 Recht auf Einschränkung der Verarbeitung (Art. 18)
+### 9.4 Recht auf Einschränkung der Verarbeitung (Artikel 18)
 
-Du hast das Recht zu verlangen, dass wir die Verarbeitung deiner Daten einschränken, wenn:
+Du kannst verlangen, dass wir die Verarbeitung deiner Daten einschränken, wenn:
 - du die Richtigkeit der Daten bestreitest
-- die Verarbeitung unrechtmäßig ist, du aber die Löschung ablehnst
-- wir die Daten nicht mehr benötigen, du sie aber zur Geltendmachung von Rechtsansprüchen brauchst
-- du Widerspruch gegen die Verarbeitung eingelegt hast (solange noch nicht feststeht, ob berechtigte Gründe überwiegen)
+- die Verarbeitung unrechtmäßig ist, du aber eine Löschung ablehnst
+- wir die Daten nicht mehr brauchen, du sie aber für Rechtsansprüche benötigst
+- du der Verarbeitung widersprochen hast (bis die berechtigten Gründe geprüft sind)
 
-**So übst du es aus:** Kontaktiere uns mit deinem konkreten Anliegen zur Einschränkung.
+**So geht’s:** Kontaktiere uns mit deinem konkreten Einschränkungswunsch.
 
-### 9.5 Recht auf Datenübertragbarkeit (Art. 20)
+### 9.5 Recht auf Datenübertragbarkeit (Artikel 20)
 
 Du hast das Recht, deine personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten.
 
-**So übst du es aus:**
+**So geht’s:**
 - **Flugdaten:** Nutze **Daten exportieren** in deinem **Profil**, um ein ZIP-Archiv mit all deinen IGC-Dateien herunterzuladen
-- **Kontodaten:** Dasselbe Archiv enthält eine JSON-Datei (`data-export.json`) mit deinen Kontoinformationen, Einstellungen und Flugdatensätzen
+- **Kontodaten:** Dasselbe Archiv enthält eine JSON-Datei (`data-export.json`) mit deinen Kontoinformationen, Einstellungen und Flügen
 
-### 9.6 Widerspruchsrecht (Art. 21)
+### 9.6 Widerspruchsrecht (Artikel 21)
 
-Du hast das Recht, einer Verarbeitung zu widersprechen, die auf berechtigtem Interesse beruht oder der Direktwerbung dient.
+Du kannst einer Verarbeitung widersprechen, die auf berechtigtem Interesse beruht oder der Direktwerbung dient.
 
-**So übst du es aus:**
-- **Community-Funktionen:** Schalte **Öffentliches Profil** unter **Privatsphäre** aus, damit du nicht in den Community-Funktionen angezeigt wirst
-- **Sonstige Verarbeitung:** Kontaktiere uns mit deinem konkreten Widerspruch
+**So geht’s:**
+- **Community-Funktionen:** Schalte **Öffentliches Profil** unter **Privatsphäre** aus, damit du in Community-Funktionen nicht angezeigt wirst
+- **Andere Verarbeitungen:** Kontaktiere uns mit deinem konkreten Widerspruch
 
-### 9.7 Recht auf Widerruf der Einwilligung (Art. 7 Abs. 3)
+### 9.7 Recht auf Widerruf der Einwilligung (Artikel 7 Abs. 3)
 
-Beruht eine Verarbeitung auf einer Einwilligung, kannst du diese jederzeit widerrufen.
+Beruht eine Verarbeitung auf deiner Einwilligung, kannst du sie jederzeit widerrufen.
 
-**So übst du es aus:**
+**So geht’s:**
 - **OAuth-Authentifizierung:** Entziehe den Zugriff in den Sicherheitseinstellungen deines Google-Kontos
 - **Öffentliches Profil:** Schalte **Öffentliches Profil** unter **Privatsphäre** in deinem **Profil** aus
 - **Konto:** Lösche dein Konto, um alle Einwilligungen zu widerrufen
 
-**Hinweis:** Der Widerruf berührt nicht die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung.
+**Hinweis:** Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung, die bis zum Widerruf auf Grundlage der Einwilligung erfolgt ist.
 
-### 9.8 Recht auf Beschwerde (Art. 77)
+### 9.8 Beschwerderecht (Artikel 77)
 
-Du hast das Recht, Beschwerde bei einer Aufsichtsbehörde einzulegen, insbesondere in:
-- dem EU-Mitgliedstaat deines gewöhnlichen Aufenthaltsorts
-- dem Mitgliedstaat deines Arbeitsplatzes
-- dem Mitgliedstaat des Orts des mutmaßlichen Verstoßes
+Du hast das Recht, dich bei einer Aufsichtsbehörde zu beschweren, insbesondere:
+- in dem EU-Mitgliedstaat, in dem du wohnst
+- an deinem Arbeitsort
+- am Ort des mutmaßlichen Verstoßes
 
-**Aufsichtsbehörden in der EU:** [https://edpb.europa.eu/about-edpb/board/members_en](https://edpb.europa.eu/about-edpb/board/members_en)
+**EU-Aufsichtsbehörden:** [https://edpb.europa.eu/about-edpb/board/members_en](https://edpb.europa.eu/about-edpb/board/members_en)
 
-Wir bitten dich, dich zuerst an uns zu wenden, damit wir uns direkt um dein Anliegen kümmern können.
+Am liebsten ist es uns, wenn du dich zuerst an uns wendest, damit wir dein Anliegen direkt klären können.
 
-### 9.9 Ausübung deiner Rechte
+### 9.9 Deine Rechte wahrnehmen
 
-So übst du eines dieser Rechte aus:
+So nimmst du eines dieser Rechte wahr:
 1. Kontaktiere uns über die Angaben in Abschnitt 15
-2. Mach ausreichende Angaben, damit wir deine Identität überprüfen können (wir können eine Bestätigung deiner E-Mail-Adresse anfordern)
-3. Gib an, welche(s) Recht(e) du ausüben möchtest
+2. Gib genug Informationen an, damit wir deine Identität prüfen können (wir bitten eventuell um Bestätigung deiner E-Mail-Adresse)
+3. Gib an, welche(s) Recht(e) du wahrnehmen möchtest
 4. Wir antworten innerhalb **eines Monats** (bei komplexen Anfragen um zwei Monate verlängerbar)
 
-**Keine Gebühren:** Die Ausübung deiner Rechte ist kostenlos, es sei denn, Anfragen sind offenkundig unbegründet oder exzessiv.
+**Keine Gebühren:** Die Wahrnehmung deiner Rechte ist kostenlos, außer bei offensichtlich unbegründeten oder exzessiven Anfragen.
 
 ## 10. Privatsphäre-Einstellungen und Kontrolle
 
@@ -540,121 +555,121 @@ So übst du eines dieser Rechte aus:
 Du entscheidest, ob dein Profil und deine Flüge für andere Nutzer sichtbar sind:
 
 **Öffentliches Profil (Standard):**
-- Deine Flüge erscheinen in den Community-Funktionen
+- Deine Flüge erscheinen in Community-Funktionen
 - Dein Profil ist für andere Nutzer sichtbar
-- Du erscheinst in Pilotenranglisten und Statistiken
+- Du erscheinst in Ranglisten und Statistiken der Piloten
 
 **Privates Profil:**
-- Deine Flüge sind nur für dich sichtbar
-- Du erscheinst nicht in den Community-Ranglisten
-- Du kannst weiterhin geheime Freigabelinks für einzelne Flüge erzeugen
+- Deine Flüge siehst nur du
+- Du erscheinst nicht in den Ranglisten der Community
+- Du kannst weiterhin geheime Freigabelinks für einzelne Flüge erstellen
 
-**So änderst du es:** Öffne dein **Profil**, klick im Bereich **Konto** auf **Privatsphäre** und schalte **Öffentliches Profil** ein oder aus. Die Änderung gilt sofort.
+**So änderst du es:** Öffne dein **Profil**, klicke im Bereich **Konto** auf **Privatsphäre** und schalte **Öffentliches Profil** ein oder aus. Die Änderung gilt sofort.
 
 ### 10.2 Anzeigeeinstellungen
 
 Du kannst anpassen:
 - Sichtbarkeit der Spalten in der Flugtabelle
-- Sortiereinstellungen
+- Sortierung
 - Filter- und Sucheinstellungen
 - Design der Oberfläche
 
-Diese Einstellungen werden geräteübergreifend synchronisiert.
+Diese Einstellungen werden zwischen deinen Geräten synchronisiert.
 
 ### 10.3 Datenexport
 
 **Export in Eigenregie:**
-- Öffne dein **Profil** und klick im Bereich **Konto** auf **Daten exportieren**
-- Erstellt eine ZIP-Datei mit all deinen IGC-Dateien, nach Datum geordnet (Verzeichnisstruktur JJJJ/MM/TT)
-- Enthält eine strukturierte JSON-Datei mit deinem Profil, deinen Einstellungen, deinen Flugdatensätzen, den verknüpften Anmeldekonten und deinen Einwilligungsnachweisen
-- Enthält eine Liste aller Flüge, zu denen keine Datei gespeichert ist
+- Öffne dein **Profil** und klicke im Bereich **Konto** auf **Daten exportieren**
+- Erstellt eine ZIP-Datei mit all deinen IGC-Dateien, nach Datum sortiert (Verzeichnisstruktur JJJJ/MM/TT)
+- Enthält eine strukturierte JSON-Datei mit deinem Profil, deinen Einstellungen, deinen Flügen, verknüpften Anmeldekonten und Einwilligungsnachweisen
+- Enthält eine Liste aller Flüge ohne gespeicherte Datei
 
-## 11. Privatsphäre von Kindern
+## 11. Datenschutz bei Kindern
 
-We-Fly richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 16 Jahren.
+We-Fly richtet sich nicht an Kinder unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 16.
 
 Wenn du Elternteil oder Erziehungsberechtigter bist und glaubst, dass dein Kind uns personenbezogene Daten übermittelt hat:
-- Kontaktiere uns umgehend über die Angaben in Abschnitt 15
-- Wir löschen diese Informationen innerhalb von 30 Tagen aus unseren Systemen
+- Kontaktiere uns sofort über die Angaben in Abschnitt 15
+- Wir löschen diese Daten innerhalb von 30 Tagen aus unseren Systemen
 
-## 12. Automatisierte Entscheidungsfindung und Profiling
+## 12. Automatisierte Entscheidungen und Profiling
 
 Wir betreiben **keine**:
-- automatisierte Entscheidungsfindung mit rechtlicher oder ähnlich erheblicher Wirkung (Art. 22 DSGVO)
-- Profiling zu Marketing- oder kommerziellen Zwecken
-- algorithmischen Entscheidungen, die deinen Zugang zu den Diensten beeinflussen
+- Automatisierten Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung (Artikel 22 DSGVO)
+- Profilbildung zu Marketing- oder kommerziellen Zwecken
+- Algorithmischen Entscheidungen, die deinen Zugang zu Diensten beeinflussen
 
-**Flugauswertung:** Wir nutzen zwar Algorithmen zur Auswertung von Flugdaten (Thermikerkennung, Wertung, Windanalyse), doch handelt es sich dabei um technische Berechnungen, die dein Nutzungserlebnis verbessern, und nicht um Profiling im Sinne der DSGVO.
+**Fluganalyse:** Wir nutzen zwar Algorithmen zur Auswertung deiner Flugdaten (Thermikerkennung, Wertung, Windanalyse), doch das sind technische Berechnungen, die dein Erlebnis verbessern, und kein Profiling im Sinne der DSGVO.
 
 ## 13. Änderungen dieser Datenschutzerklärung
 
 Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Folgendes abzubilden:
-- Änderungen unseres Umgangs mit Daten
-- neue Funktionen oder Dienste
-- rechtliche oder regulatorische Anforderungen
-- Rückmeldungen von Nutzern und bewährte Verfahren
+- Änderungen in unserem Umgang mit Daten
+- Neue Funktionen oder Dienste
+- Rechtliche oder regulatorische Anforderungen
+- Feedback der Nutzer und bewährte Verfahren
 
 **Benachrichtigung über Änderungen:**
 - Wir aktualisieren das Datum „Zuletzt aktualisiert“ oben in dieser Erklärung
-- Bei wesentlichen Änderungen benachrichtigen wir dich per E-Mail oder durch einen deutlich sichtbaren Hinweis auf unserer Plattform
-- Nutzt du unseren Dienst nach Änderungen weiter, gilt dies als Annahme der neuen Erklärung
+- Bei wesentlichen Änderungen informieren wir dich per E-Mail oder über einen gut sichtbaren Hinweis auf unserer Plattform
+- Nutzt du unseren Dienst nach den Änderungen weiter, gilt das als Zustimmung zur neuen Erklärung
 
-**Versionsverlauf:** Wir bewahren frühere Fassungen der Erklärung aus Gründen der Transparenz und der Compliance auf.
+**Versionsverlauf:** Wir bewahren frühere Fassungen der Erklärung aus Gründen der Transparenz und Compliance auf.
 
 ## 14. Rechtsrahmen und Compliance
 
 Diese Datenschutzerklärung unterliegt:
-- der **DSGVO**, Verordnung (EU) 2016/679, Datenschutz-Grundverordnung
-- der **ePrivacy-Richtlinie** 2002/58/EG (in der geänderten Fassung)
-- den anwendbaren nationalen Datenschutzgesetzen der EU-Mitgliedstaaten
+- **DSGVO** (EU) 2016/679 – Datenschutz-Grundverordnung
+- **ePrivacy-Richtlinie** 2002/58/EG (in der geänderten Fassung)
+- Den geltenden nationalen Datenschutzgesetzen der EU-Mitgliedstaaten
 
-**Grundsätze der Datenverarbeitung (Art. 5 DSGVO):**
-- **Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz:** Wir verarbeiten Daten rechtmäßig, fair und nachvollziehbar
+**Grundsätze des Datenschutzes (Artikel 5 DSGVO):**
+- **Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz:** Wir verarbeiten Daten rechtmäßig, fair und transparent
 - **Zweckbindung:** Daten werden für festgelegte, eindeutige und legitime Zwecke erhoben
 - **Datenminimierung:** Wir erheben nur Daten, die für unsere Zwecke angemessen und notwendig sind
-- **Richtigkeit:** Wir halten personenbezogene Daten richtig und auf dem neuesten Stand
-- **Speicherbegrenzung:** Daten werden nur so lange wie nötig aufbewahrt
-- **Integrität und Vertraulichkeit:** Wir gewährleisten eine angemessene Sicherheit personenbezogener Daten
+- **Richtigkeit:** Wir halten personenbezogene Daten richtig und aktuell
+- **Speicherbegrenzung:** Daten werden nur so lange gespeichert wie nötig
+- **Integrität und Vertraulichkeit:** Wir sorgen für eine angemessene Sicherheit personenbezogener Daten
 - **Rechenschaftspflicht:** Wir weisen die Einhaltung dieser Grundsätze nach
 
 ## 15. Kontakt
 
-Wenn du Fragen zu dieser Datenschutzerklärung hast oder deine Rechte ausüben möchtest, kontaktiere uns:
+Wenn du Fragen zu dieser Datenschutzerklärung hast oder deine Datenschutzrechte wahrnehmen möchtest, kontaktiere uns:
 
 **Verantwortlicher:** We-Fly
 **E-Mail:** contact@we-fly.cloud
 **Antwortzeit:** Wir bemühen uns, alle Anfragen innerhalb von 5 Werktagen zu beantworten
 
 **Für Anfragen zur DSGVO:**
-- Schreib „GDPR Request“ in die Betreffzeile
-- Mach ausreichende Angaben, damit wir deine Identität überprüfen können
-- Gib an, worum es geht (Auskunft, Löschung, Übertragbarkeit usw.)
-- Wir antworten innerhalb eines Monats, wie es Art. 12 Abs. 3 DSGVO vorschreibt
+- Schreib „DSGVO-Anfrage“ in die Betreffzeile
+- Gib genug Informationen an, damit wir deine Identität prüfen können
+- Gib die Art deiner Anfrage an (Auskunft, Löschung, Übertragbarkeit usw.)
+- Wir antworten innerhalb eines Monats, wie es Artikel 12 Abs. 3 DSGVO vorschreibt
 
 ---
 
-## 16. Begriffsbestimmungen und Auslegung
+## 16. Begriffsbestimmungen
 
-**Personenbezogene Daten:** Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (z. B. Name, E-Mail-Adresse, Standortdaten, Online-Kennung).
+**Personenbezogene Daten:** Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (z. B. Name, E-Mail, Standortdaten, Online-Kennung).
 
-**Verarbeitung:** Jeder Vorgang im Zusammenhang mit personenbezogenen Daten, einschließlich Erhebung, Speicherung, Verwendung, Offenlegung oder Löschung.
+**Verarbeitung:** Jeder Vorgang mit personenbezogenen Daten, einschließlich Erhebung, Speicherung, Nutzung, Offenlegung oder Löschung.
 
-**Verantwortlicher:** Die Stelle, die über die Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet (We-Fly).
+**Verantwortlicher:** Die Stelle, die über Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet (We-Fly).
 
-**Auftragsverarbeiter:** Eine Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet (z. B. der Hosting-Anbieter von MongoDB).
+**Auftragsverarbeiter:** Eine Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet (z. B. der MongoDB-Hosting-Anbieter).
 
-**Betroffene Person:** Die natürliche Person, auf die sich die personenbezogenen Daten beziehen (du, der Nutzer).
+**Betroffene Person:** Die Person, auf die sich die personenbezogenen Daten beziehen (du als Nutzer).
 
-**Einwilligung:** Jede freiwillig für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung, mit der die Verarbeitung personenbezogener Daten gebilligt wird.
+**Einwilligung:** Eine freiwillige, für den konkreten Fall, in informierter Weise und unmissverständlich abgegebene Zustimmung zur Verarbeitung personenbezogener Daten.
 
-**IGC-Datei:** Dateiformat der International Gliding Commission für GPS-Flugaufzeichnungen, das Trackpunkte und Metadaten enthält.
+**IGC-Datei:** Dateiformat der International Gliding Commission für GPS-Flugaufzeichnungen, mit Trackpunkten und Metadaten.
 
-**OAuth:** Offener Standard für die Delegation von Zugriffsrechten, häufig für die Anmeldung über Drittanbieter (Google) genutzt.
-
----
-
-**Kenntnisnahme:** Mit der Nutzung von We-Fly bestätigst du, dass du diese Datenschutzerklärung gelesen und verstanden hast und ihr zustimmst.
+**OAuth:** Offener Standard zur Delegation von Zugriffsrechten, häufig für die Anmeldung über Drittanbieter genutzt (Google).
 
 ---
 
-*Diese Datenschutzerklärung wurde zuletzt am 19. Dezember 2025 überprüft und freigegeben.*
+**Bestätigung:** Mit der Nutzung von We-Fly bestätigst du, dass du diese Datenschutzerklärung gelesen und verstanden hast und ihr zustimmst.
+
+---
+
+*Diese Datenschutzerklärung wurde zuletzt am 19. Dezember 2025 geprüft und freigegeben.*

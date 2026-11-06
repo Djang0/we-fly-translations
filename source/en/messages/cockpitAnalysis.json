@@ -175,6 +175,13 @@
       "description": "Moments you were about to land (≥5 min of unbroken glide, ≥200 m altitude lost, lowest below 150 m AGL over landable terrain) and a thermal rescued you. Ridge thermals are excluded by design. Top 10 across the filtered dataset, ordered by lowest AGL reached.",
       "searchContext": "{minutes, number} min search · −{lost}",
       "aglValue": "{value} AGL"
+    },
+    "byHour": {
+      "title": "Climb by hour of day",
+      "description": "Median net climb of your thermals by local hour. Your best hour: {hour}, at {value}.",
+      "axis": "Net climb",
+      "tooltip": "{value} median · {count, plural, one {# thermal} other {# thermals}}",
+      "hourLabel": "{hour}h"
     }
   },
   "phases": {
@@ -303,7 +310,10 @@
       "maxSpeed": "Max speed",
       "bestXcDistance": "Best XC distance",
       "bestXcScore": "Best XC score",
-      "viewFlight": "View flight with {label}: {value}"
+      "viewFlight": "View flight with {label}: {value}",
+      "fastestKm": "Fastest {distance}",
+      "farthestFromTakeoff": "Farthest from takeoff",
+      "bestGlide": "Best glide (2 km+)"
     },
     "lowSave": {
       "label": "Lowest low save",
@@ -317,8 +327,10 @@
       "circleTime": "Med. circle time",
       "circleRadius": "Med. circle radius",
       "gFactor": "Median G-factor",
-      "strongestThermal": "Strongest thermal peak",
-      "viewStrongest": "View strongest thermal peak flight: {value}"
+      "strongestThermal": "Strongest climb (5 s)",
+      "viewStrongest": "View the flight with your strongest climb: {value}",
+      "netClimb": "Net climb in thermals",
+      "topLandings": "Top landings"
     }
   },
   "backfill": {

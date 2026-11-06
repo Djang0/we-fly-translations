@@ -116,15 +116,10 @@
     "showForecast": "Launch forecast"
   },
   "detail": {
-    "back": "Back",
     "siteType": {
       "takeoff": "Takeoff",
       "landing": "Landing Zone",
       "parking": "Parking"
-    },
-    "favorites": {
-      "add": "Add to favorites",
-      "remove": "Remove from favorites"
     },
     "copyCoordinates": "Copy coordinates",
     "share": "Share",
@@ -139,48 +134,12 @@
       "coordinatesCopied": "Coordinates copied",
       "linkCopied": "Link copied"
     },
-    "stats": {
-      "elevation": "Elevation AMSL",
-      "orientation": "Orientation",
-      "windFrom": "Wind from this direction",
-      "loggedFlights": "Logged flights",
-      "atThisSite": "{kind, select, landing {at this landing zone} parking {at this parking} other {at this takeoff}}",
-      "coordinates": "Coordinates",
-      "latLon": "lat · lon",
-      "timezone": "Timezone",
-      "coordinatesPair": "{lat}, {lon}"
-    },
     "siteTypeHeading": "Site type",
     "landingDescription": "Where pilots typically touch down. Verify obstacles, wind direction, and farmer permissions before using.",
     "parkingDescription": "A community-known parking spot or staging area near a flying site.",
-    "map": {
-      "title": "Location map",
-      "collapseMap": "Collapse map",
-      "expandMap": "Expand map",
-      "collapse": "Collapse",
-      "expand": "Expand",
-      "openFullscreen": "Open fullscreen map"
-    },
-    "community": {
-      "label": "Community",
-      "summary": "<b>{count, plural, one {# flight} other {# flights}}</b> logged here. Browse the recent activity below.",
-      "view": "View community →"
-    },
     "footer": {
       "base": "Takeoff data provided by <psLink>paraglidingspots.com</psLink>. Always verify local rules, site-specific requirements, and airspace regulations before flying.",
       "withOsm": "Takeoff data provided by <psLink>paraglidingspots.com</psLink> · location data © <osmLink>OpenStreetMap contributors</osmLink>. Always verify local rules, site-specific requirements, and airspace regulations before flying."
-    },
-    "siteInfo": {
-      "title": "Site information",
-      "subtitle": "Community information from paraglidingspots.com"
-    },
-    "sections": {
-      "map": "Map",
-      "rules": "Rules",
-      "analytics": "Analytics",
-      "recentFlights": "Recent flights",
-      "navLabel": "Page sections",
-      "onThisPage": "On this page"
     },
     "fullscreen": {
       "title": "Fullscreen Map View",
@@ -217,34 +176,21 @@
       "source": "source · {station}"
     },
     "analytics": {
-      "title": "Site analytics",
       "subtitleCounted": "Aggregated from {count, plural, one {# logged flight} other {# logged flights}}. Numbers are community medians.",
       "subtitleEmpty": "Aggregated from logged flights at this site.",
       "emptyMonth": "No flights recorded in {month} at this site.",
-      "empty": "No flights recorded at this site yet.",
       "totalFlights": "Total flights",
-      "peakSub": "Peak {month} · {count, plural, one {# flight} other {# flights}}",
       "medianDuration": "Median duration",
       "medianXc": "Median XC",
-      "best": "Best {value}",
       "maxAltitude": "Max altitude",
-      "median": "Median {value}",
       "flightsByMonth": "Flights by month",
-      "peakLine": "Peak · {month} ({count, plural, one {# flight} other {# flights}})",
-      "flightsPerMonth": "Flights per month",
       "barTitle": "{month}: {count, plural, one {# flight} other {# flights}}",
-      "typeBreakdown": "Flight type breakdown",
       "noScored": "No scored flights yet.",
-      "peakLaunchHour": "Peak launch hour",
       "hourWithCount": "{hour} · {count, plural, one {# flight} other {# flights}}",
-      "topXcTitle": "Top XC flights",
-      "topXcSubtitle": "The longest crosses ever logged from this site.",
       "unknownPilot": "Unknown pilot"
     },
     "recent": {
       "title": "Recent flights",
-      "subtitle": "{shown} of {total}, {sort}.",
-      "subtitleEmpty": "No flights logged here yet.",
       "sortSummary": {
         "date": {
           "descending": "newest first",
@@ -270,27 +216,185 @@
       "searchPlaceholder": "Pilot, glider, type…",
       "searchLabel": "Search flights",
       "clearSearch": "Clear search",
-      "columns": {
-        "date": "Date",
-        "pilot": "Pilot",
-        "glider": "Glider",
-        "distance": "Distance",
-        "type": "Type"
-      },
-      "loading": "Loading flights…",
       "error": "Couldn’t load flights, try again later.",
       "noMatch": "No flights match your search.",
       "none": "No flights yet at this site.",
       "unknownPilot": "Unknown pilot",
-      "footerCount": "{shown} / {total} flights",
-      "loadingMore": "Loading…",
-      "loadMore": "Load more",
-      "sortBy": "Sort by {label}",
-      "sortByActive": "Sort by {label}, {dir}",
-      "dir": {
-        "ascending": "ascending",
-        "descending": "descending"
-      }
+      "loadingMore": "Loading…"
+    },
+    "windFlow": {
+      "title": "Wind flow",
+      "pause": "Pause",
+      "resume": "Resume",
+      "direction": "Wind from",
+      "directionValue": "{compass} · {degrees}°",
+      "strength": "Strength",
+      "takeoff": "Takeoff",
+      "statusIdle": "Pick a wind, then start the simulation",
+      "statusSettling": "Flow settling… {percent} %",
+      "statusSettled": "Flow settled, still moving",
+      "statusError": "The simulation stopped. Reload the page to try again.",
+      "terrainUnavailable": "No terrain data for this site.",
+      "engineGpu": "Computed live on your graphics card.",
+      "engineCpu": "Computed on your processor at lower detail, because this browser has no WebGPU.",
+      "disclaimer": "A physics simulation of a steady wind in moderately stable air, over 50 m terrain. It leaves out sun heating, thermals, trees and changing weather. Use it to understand a site, never to decide whether to fly.",
+      "controlsHint": "Drag to turn the view, scroll or pinch to zoom.",
+      "legend": {
+        "flow": "Airflow",
+        "lift": "Rising air",
+        "sink": "Sinking air",
+        "turbulence": "Turbulence",
+        "turbulenceNone": "None marked in this wind",
+        "flowHint": "longer = faster",
+        "turbulenceScale": "Turbulence is shaded from light to strong."
+      },
+      "roughest": "Roughest air",
+      "howToRead": "Lines follow the air: longer where it speeds up, green where it rises, red where it sinks. Coloured haze and slopes mark turbulence beyond the usual roughness near the ground, mostly in the lee: where to expect it, not how hard. Tap the legend to hide a layer.",
+      "rotor": "Rotor",
+      "settlingTitle": "Letting the air settle",
+      "settlingPercent": "{percent} %",
+      "settlingHint": "The wind is still finding its way through the relief. Turbulence shows once it has settled.",
+      "tooFlat": "The relief around this site is under {metres} m, too small for our 50 m terrain data to simulate the air over it.",
+      "exaggeration": "Heights ×{factor}",
+      "simulate": "Simulate {speed} from {compass}",
+      "sectorChip": "Site sector · {compass} {degrees}°",
+      "liveChip": "Live · {compass} {degrees}°",
+      "howToReadTitle": "How to read the lines"
+    },
+    "header": {
+      "back": "Takeoffs",
+      "unofficial": "Unofficial site",
+      "directions": "Directions",
+      "save": "Save",
+      "saved": "Saved",
+      "more": "More",
+      "moreLabel": "More actions: copy coordinates, site settings",
+      "copyLink": "Copy link"
+    },
+    "tabs": {
+      "navLabel": "Takeoff sections",
+      "overview": "Overview",
+      "site": "Site",
+      "activity": "Activity",
+      "windFlow": "Wind flow"
+    },
+    "facts": {
+      "elevation": "Elevation",
+      "amsl": "AMSL",
+      "heightDifference": "Height difference",
+      "faces": "Faces",
+      "loggedFlights": "Logged flights",
+      "sectorRange": "{start}–{end}°",
+      "orientation": "Orientation",
+      "orientationValue": "{bearing} · {range}",
+      "status": "Status",
+      "unofficial": "Not an official takeoff",
+      "coordinates": "Coordinates",
+      "timezone": "Timezone",
+      "country": "Country",
+      "countryWithCode": "{country} ({code})",
+      "address": "Address"
+    },
+    "flyability": {
+      "title": "Can I fly now?",
+      "station": "{station} station",
+      "stationAge": "{station} station · {age}",
+      "age": {
+        "justNow": "just now",
+        "minutesAgo": "{count} min ago",
+        "hoursAgo": "{count} h ago"
+      },
+      "verdict": {
+        "flyable": "Flyable",
+        "marginal": "Marginal",
+        "unflyable": "Not flyable",
+        "calm": "Light wind"
+      },
+      "reason": {
+        "favorable": "Wind is on the slope, inside the {sector} sector.",
+        "crosswind": "Crosswind from {direction}, {angle}° off the slope. Use caution.",
+        "tailwind": "Wind from {direction}, {angle}° off the slope: tailwind or strong crosswind.",
+        "gustsTooStrong": "Gusts {speed}, too strong.",
+        "windTooStrong": "Wind {speed}, too strong.",
+        "lightWind": "Light wind, thermal flying possible.",
+        "bearingUnknown": "The site's orientation is not documented. Check the slope yourself.",
+        "strongWindBearingUnknown": "Strong wind, and the site's orientation is not documented."
+      },
+      "noData": {
+        "title": "No live data",
+        "stale": "{station} station has not reported for {hours, plural, one {# hour} other {# hours}}. Check the sector below against your own forecast.",
+        "none": "No weather station near this takeoff is reporting right now. Check the sector below against your own forecast."
+      },
+      "signedOut": {
+        "title": "Live wind is for members",
+        "body": "Sign in to see the wind at the nearest station drawn on this sector, with a flyability check. Free account.",
+        "join": "Create a free account",
+        "signIn": "Sign in"
+      },
+      "windFrom": "Wind from {compass} · {degrees}°",
+      "gusts": "Gusts",
+      "temp": "Temp.",
+      "worksFrom": "Works in wind from",
+      "noBearing": "Not documented",
+      "sectorRange": "{start}° to {end}°",
+      "legendSector": "Site sector {bearing}",
+      "legendWind": "Live wind, blowing toward centre",
+      "ariaSector": "Compass: site sector {bearing}, {start} to {end} degrees",
+      "ariaLive": "Compass: site sector {bearing}, {start} to {end} degrees, live wind from {compass} {degrees} degrees"
+    },
+    "notes": {
+      "regionLabel": "Site rules and notes",
+      "beforeYouFly": "Before you fly here",
+      "siteInformation": "Site information",
+      "source": "Community notes from <psLink>paraglidingspots.com</psLink>",
+      "suggestCorrection": "Suggest a correction"
+    },
+    "overview": {
+      "openSiteMap": "Open site map",
+      "pilotsTitle": "What pilots fly here",
+      "activityLink": "Activity",
+      "bestMonth": "Best month",
+      "bestXc": "Best XC",
+      "peakLaunch": "Peak launch",
+      "flightsCount": "{count, plural, one {# flight} other {# flights}}",
+      "medianValue": "median {value}",
+      "monthsAria": "Flights by month, peak in {month}",
+      "simulatorTitle": "Wind flow simulator",
+      "simulatorBody": "See how a steady wind moves over the terrain around this takeoff.",
+      "openSimulator": "Open simulator",
+      "latestTitle": "Latest flights",
+      "allFlights": "{count, plural, one {# flight} other {All # flights}}",
+      "membersOnly": "{count, plural, =0 {No flights logged from {name} yet.} one {# flight logged from {name}.} other {# flights logged from {name}.}} Pilot names and tracks are visible to members.",
+      "join": "Join We-Fly, free",
+      "noFlightsYet": "No flights logged from this takeoff yet. Season, best XC and launch hour appear after the first flights.",
+      "logFlight": "Log a flight from here"
+    },
+    "site": {
+      "fullscreen": "Open fullscreen map",
+      "landing": "Landing",
+      "landingValue": "{name} · {distance}",
+      "notDocumented": "Not documented",
+      "nearbyTitle": "Nearby takeoffs",
+      "nearbyNone": "No other takeoffs within 50 km."
+    },
+    "activity": {
+      "title": "Activity at {name}",
+      "peakSub": "peak {month} · {count, plural, one {# flight} other {# flights}}",
+      "minutes": "min",
+      "fromFlights": "from {count, plural, one {# flight} other {# flights}}",
+      "bestValue": "best {value}",
+      "medianValue": "median {value}",
+      "allMonths": "All months",
+      "peakShort": "peak {label} · {count}",
+      "flightTypes": "Flight types",
+      "typeShare": "{count} · {pct}%",
+      "launchHour": "Launch hour",
+      "topXc": "Top XC",
+      "shownOf": "{shown} of {total}",
+      "moreFrom": "More flights from {name}",
+      "sortLabel": "Sort flights",
+      "membersTitle": "Top XC and recent flights",
+      "membersBody": "Pilot names, tracks and the full flight list are visible to members."
     }
   },
   "meta": {

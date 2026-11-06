@@ -309,6 +309,36 @@
     "returnUnavailable": "Il collegamento ad autorouter non è ancora disponibile",
     "returnError": "Impossibile collegare autorouter, riprova"
   },
+  "pgpilot": {
+    "title": "PGPilot",
+    "description": "Collega il tuo account PGPilot e i voli che registri con l'app PGPilot finiscono da soli nel tuo libretto di volo.",
+    "learnMore": "pgpilot.app",
+    "supporterNote": "Per collegarlo serve un account PGPilot Supporter. Prima importiamo i tuoi voli passati, poi ogni nuovo volo appena è pronto.",
+    "connect": "Collega PGPilot",
+    "reconnect": "Ricollega",
+    "connected": "Collegato",
+    "connectedAs": "Collegato come {name}",
+    "relink": "Collegamento PGPilot scaduto, ricollegalo per continuare a importare",
+    "paused": "In pausa: secondo PGPilot il tuo piano Supporter è scaduto. Recuperiamo tutto appena torna attivo.",
+    "importing": "Importazione dei tuoi voli…",
+    "importedSince": "{count, plural, =0 {Ancora nessun volo importato} one {# volo importato} other {# voli importati}}, ultimo controllo {when}",
+    "syncNow": "Cerca nuovi voli su PGPilot",
+    "synced": "{count, plural, =0 {Tutto aggiornato} one {# nuovo volo importato} other {# nuovi voli importati}}",
+    "disconnect": "Scollega PGPilot",
+    "disconnected": "PGPilot scollegato. I voli già importati restano nel tuo libretto di volo.",
+    "returnConnected": "PGPilot collegato, stiamo importando i tuoi voli",
+    "returnCancelled": "Collegamento PGPilot annullato",
+    "returnTaken": "Questo account PGPilot è già collegato a un altro account We-Fly",
+    "returnUnavailable": "Il collegamento con PGPilot non è ancora disponibile",
+    "returnError": "Impossibile collegare PGPilot, riprova",
+    "errors": {
+      "generic": "Qualcosa è andato storto con PGPilot, riprova",
+      "tooSoon": "Aspetta un momento prima di controllare di nuovo",
+      "busy": "Importazione già in corso, dagli un minuto",
+      "supporterRequired": "PGPilot richiede un piano Supporter attivo per condividere i tuoi voli",
+      "relink": "Ricollega PGPilot per continuare a importare"
+    }
+  },
   "licenses": {
     "title": "Brevetti",
     "add": "Aggiungi",

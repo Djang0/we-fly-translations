@@ -309,6 +309,36 @@
     "returnUnavailable": "autorouter connection isn't available yet",
     "returnError": "Couldn't connect autorouter, please try again"
   },
+  "pgpilot": {
+    "title": "PGPilot",
+    "description": "Link your PGPilot account and the flights you record with the PGPilot app land in your logbook on their own.",
+    "learnMore": "pgpilot.app",
+    "supporterNote": "Linking needs a PGPilot Supporter account. We import your past flights first, then each new one as soon as it is ready.",
+    "connect": "Connect PGPilot",
+    "reconnect": "Reconnect",
+    "connected": "Connected",
+    "connectedAs": "Connected as {name}",
+    "relink": "PGPilot link ended, reconnect to keep importing",
+    "paused": "Paused: PGPilot says your Supporter plan has lapsed. We catch up once it is back.",
+    "importing": "Importing your flights…",
+    "importedSince": "{count, plural, =0 {No flights imported yet} one {# flight imported} other {# flights imported}}, last checked {when}",
+    "syncNow": "Check PGPilot for new flights",
+    "synced": "{count, plural, =0 {Up to date} one {# new flight imported} other {# new flights imported}}",
+    "disconnect": "Disconnect PGPilot",
+    "disconnected": "PGPilot disconnected. Flights already imported stay in your logbook.",
+    "returnConnected": "PGPilot connected, importing your flights",
+    "returnCancelled": "PGPilot link cancelled",
+    "returnTaken": "This PGPilot account is already linked to another We-Fly account",
+    "returnUnavailable": "PGPilot linking isn't available yet",
+    "returnError": "Couldn't connect PGPilot, please try again",
+    "errors": {
+      "generic": "Something went wrong with PGPilot, please try again",
+      "tooSoon": "Please wait a moment before checking again",
+      "busy": "Already importing, give it a minute",
+      "supporterRequired": "PGPilot needs an active Supporter plan to share your flights",
+      "relink": "Reconnect PGPilot to keep importing"
+    }
+  },
   "licenses": {
     "title": "Licenses",
     "add": "Add",

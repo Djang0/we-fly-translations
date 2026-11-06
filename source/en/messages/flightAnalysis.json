@@ -2,6 +2,9 @@
   "altitudeChart": {
     "gpsAlt": "GPS alt",
     "baroAlt": "Baro alt",
+    "baroAltCalibrated": "Baro alt · set to takeoff",
+    "baroCalibratedTakeoffHint": "Barometric altitude shifted by {offset} so it matches the terrain at takeoff, like setting your vario before launch. Loggers record it against standard pressure (1013 hPa), not the day's.",
+    "baroCalibratedGpsHint": "Barometric altitude shifted by {offset} to line up with GPS altitude. Loggers record it against standard pressure (1013 hPa), not the day's.",
     "alt": "Alt",
     "altitude": "Altitude",
     "ground": "Ground",
@@ -174,12 +177,12 @@
     }
   },
   "qualityStrip": {
-    "efficiency": "eff",
+    "netClimb": "net",
     "centering": "ctr"
   },
   "scoreBreakdown": {
     "climb": "Climb",
-    "efficiency": "Efficiency",
+    "netClimb": "Net climb",
     "centering": "Centering",
     "consistency": "Consistency",
     "sustained": "Sustained",

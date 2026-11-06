@@ -166,6 +166,12 @@
     "belowTerrain": "onder het terrein",
     "agl": "{value} AGL",
     "progress": "{current} / {total}",
-    "progressWithTime": "{current} / {total} · {time}"
+    "progressWithTime": "{current} / {total} · {time}",
+    "reachToggle": "Toon het terrein dat je vanaf hier nog haalt",
+    "reachPause": "Bereik: pauzeer om te berekenen",
+    "reachComputing": "Bereik: berekenen…",
+    "reachNowhere": "Bereik: niets haalbaar op deze hoogte",
+    "reachWing": "Bereik met {name} (glijgetal {ratio}), windstil",
+    "reachRatio": "Bereik bij glijgetal {ratio}, windstil"
   }
 }

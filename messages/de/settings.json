@@ -309,6 +309,36 @@
     "returnUnavailable": "Die autorouter-Verbindung ist noch nicht verfügbar",
     "returnError": "autorouter konnte nicht verbunden werden, bitte versuch es noch einmal"
   },
+  "pgpilot": {
+    "title": "PGPilot",
+    "description": "Verbinde dein PGPilot-Konto, dann landen die Flüge, die du mit der PGPilot-App aufzeichnest, ganz von selbst in deinem Flugbuch.",
+    "learnMore": "pgpilot.app",
+    "supporterNote": "Zum Verbinden brauchst du ein PGPilot-Supporter-Konto. Wir importieren zuerst deine bisherigen Flüge, danach jeden neuen, sobald er bereit ist.",
+    "connect": "PGPilot verbinden",
+    "reconnect": "Neu verbinden",
+    "connected": "Verbunden",
+    "connectedAs": "Verbunden als {name}",
+    "relink": "PGPilot-Verbindung beendet, verbinde neu, damit der Import weiterläuft",
+    "paused": "Pausiert: Laut PGPilot ist dein Supporter-Abo abgelaufen. Sobald es wieder aktiv ist, holen wir alles nach.",
+    "importing": "Deine Flüge werden importiert…",
+    "importedSince": "{count, plural, =0 {Noch keine Flüge importiert} one {# Flug importiert} other {# Flüge importiert}}, zuletzt geprüft {when}",
+    "syncNow": "Bei PGPilot nach neuen Flügen suchen",
+    "synced": "{count, plural, =0 {Alles aktuell} one {# neuer Flug importiert} other {# neue Flüge importiert}}",
+    "disconnect": "PGPilot trennen",
+    "disconnected": "PGPilot getrennt. Bereits importierte Flüge bleiben in deinem Flugbuch.",
+    "returnConnected": "PGPilot verbunden, deine Flüge werden importiert",
+    "returnCancelled": "PGPilot-Verbindung abgebrochen",
+    "returnTaken": "Dieses PGPilot-Konto ist schon mit einem anderen We-Fly-Konto verbunden",
+    "returnUnavailable": "Die Verbindung mit PGPilot ist noch nicht verfügbar",
+    "returnError": "PGPilot konnte nicht verbunden werden, bitte versuch es noch einmal",
+    "errors": {
+      "generic": "Bei PGPilot ist etwas schiefgelaufen, bitte versuch es noch einmal",
+      "tooSoon": "Warte bitte einen Moment, bevor du erneut prüfst",
+      "busy": "Import läuft schon, gib ihm eine Minute",
+      "supporterRequired": "PGPilot braucht ein aktives Supporter-Abo, um deine Flüge zu teilen",
+      "relink": "Verbinde PGPilot neu, damit der Import weiterläuft"
+    }
+  },
   "licenses": {
     "title": "Lizenzen",
     "add": "Hinzufügen",

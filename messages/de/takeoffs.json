@@ -116,15 +116,10 @@
     "showForecast": "Startplatz-Prognose"
   },
   "detail": {
-    "back": "Zurück",
     "siteType": {
       "takeoff": "Startplatz",
       "landing": "Landeplatz",
       "parking": "Parkplatz"
-    },
-    "favorites": {
-      "add": "Zu Favoriten hinzufügen",
-      "remove": "Aus Favoriten entfernen"
     },
     "copyCoordinates": "Koordinaten kopieren",
     "share": "Teilen",
@@ -139,48 +134,12 @@
       "coordinatesCopied": "Koordinaten kopiert",
       "linkCopied": "Link kopiert"
     },
-    "stats": {
-      "elevation": "Höhe MSL",
-      "orientation": "Ausrichtung",
-      "windFrom": "Wind aus dieser Richtung",
-      "loggedFlights": "Geloggte Flüge",
-      "atThisSite": "{kind, select, landing {an diesem Landeplatz} parking {an diesem Parkplatz} other {an diesem Startplatz}}",
-      "coordinates": "Koordinaten",
-      "latLon": "Breite · Länge",
-      "timezone": "Zeitzone",
-      "coordinatesPair": "{lat}; {lon}"
-    },
     "siteTypeHeading": "Art des Platzes",
     "landingDescription": "Hier landen Piloten üblicherweise. Prüf vorher Hindernisse, Windrichtung und ob der Landwirt einverstanden ist.",
     "parkingDescription": "Ein in der Community bekannter Parkplatz oder Treffpunkt in der Nähe eines Fluggebiets.",
-    "map": {
-      "title": "Lageplan",
-      "collapseMap": "Karte einklappen",
-      "expandMap": "Karte ausklappen",
-      "collapse": "Einklappen",
-      "expand": "Ausklappen",
-      "openFullscreen": "Karte im Vollbild öffnen"
-    },
-    "community": {
-      "label": "Community",
-      "summary": "<b>{count, plural, one {# Flug} other {# Flüge}}</b> hier geloggt. Die letzten Aktivitäten findest du unten.",
-      "view": "Zur Community →"
-    },
     "footer": {
       "base": "Startplatzdaten von <psLink>paraglidingspots.com</psLink>. Prüf vor dem Fliegen immer die örtlichen Regeln, die Vorgaben des Fluggebiets und die Luftraumbestimmungen.",
       "withOsm": "Startplatzdaten von <psLink>paraglidingspots.com</psLink> · Ortsdaten © <osmLink>OpenStreetMap-Mitwirkende</osmLink>. Prüf vor dem Fliegen immer die örtlichen Regeln, die Vorgaben des Fluggebiets und die Luftraumbestimmungen."
-    },
-    "siteInfo": {
-      "title": "Infos zum Fluggebiet",
-      "subtitle": "Community-Infos von paraglidingspots.com"
-    },
-    "sections": {
-      "map": "Karte",
-      "rules": "Regeln",
-      "analytics": "Statistik",
-      "recentFlights": "Letzte Flüge",
-      "navLabel": "Abschnitte der Seite",
-      "onThisPage": "Auf dieser Seite"
     },
     "fullscreen": {
       "title": "Karte im Vollbild",
@@ -217,34 +176,21 @@
       "source": "Quelle · {station}"
     },
     "analytics": {
-      "title": "Statistik des Startplatzes",
       "subtitleCounted": "Ausgewertet aus {count, plural, one {# geloggten Flug} other {# geloggten Flügen}}. Die Zahlen sind Mediane der Community.",
       "subtitleEmpty": "Ausgewertet aus den an diesem Startplatz geloggten Flügen.",
       "emptyMonth": "Im {month} wurden an diesem Startplatz keine Flüge erfasst.",
-      "empty": "An diesem Startplatz wurden noch keine Flüge erfasst.",
       "totalFlights": "Flüge gesamt",
-      "peakSub": "Spitze im {month} · {count, plural, one {# Flug} other {# Flüge}}",
       "medianDuration": "Median Flugdauer",
       "medianXc": "Median XC",
-      "best": "Bestwert {value}",
       "maxAltitude": "Max. Höhe",
-      "median": "Median {value}",
       "flightsByMonth": "Flüge nach Monat",
-      "peakLine": "Spitze · {month} ({count, plural, one {# Flug} other {# Flüge}})",
-      "flightsPerMonth": "Flüge pro Monat",
       "barTitle": "{month}: {count, plural, one {# Flug} other {# Flüge}}",
-      "typeBreakdown": "Flüge nach Wertungsart",
       "noScored": "Noch keine gewerteten Flüge.",
-      "peakLaunchHour": "Häufigste Startzeit",
       "hourWithCount": "{hour} · {count, plural, one {# Flug} other {# Flüge}}",
-      "topXcTitle": "Top-Streckenflüge",
-      "topXcSubtitle": "Die weitesten Streckenflüge, die je von diesem Startplatz geloggt wurden.",
       "unknownPilot": "Unbekannter Pilot"
     },
     "recent": {
       "title": "Letzte Flüge",
-      "subtitle": "{shown} von {total}, {sort}.",
-      "subtitleEmpty": "Hier wurden noch keine Flüge geloggt.",
       "sortSummary": {
         "date": {
           "descending": "neueste zuerst",
@@ -270,27 +216,185 @@
       "searchPlaceholder": "Pilot, Schirm, Art…",
       "searchLabel": "Flüge suchen",
       "clearSearch": "Suche löschen",
-      "columns": {
-        "date": "Datum",
-        "pilot": "Pilot",
-        "glider": "Schirm",
-        "distance": "Strecke",
-        "type": "Art"
-      },
-      "loading": "Flüge werden geladen…",
       "error": "Flüge konnten nicht geladen werden, versuch es später noch einmal.",
       "noMatch": "Kein Flug passt zu deiner Suche.",
       "none": "An diesem Startplatz gibt es noch keine Flüge.",
       "unknownPilot": "Unbekannter Pilot",
-      "footerCount": "{shown} / {total} Flüge",
-      "loadingMore": "Wird geladen…",
-      "loadMore": "Mehr laden",
-      "sortBy": "Nach {label} sortieren",
-      "sortByActive": "Nach {label} sortieren, {dir}",
-      "dir": {
-        "ascending": "aufsteigend",
-        "descending": "absteigend"
-      }
+      "loadingMore": "Wird geladen…"
+    },
+    "windFlow": {
+      "title": "Windströmung",
+      "pause": "Pause",
+      "resume": "Fortsetzen",
+      "direction": "Wind aus",
+      "directionValue": "{compass} · {degrees}°",
+      "strength": "Stärke",
+      "takeoff": "Startplatz",
+      "statusIdle": "Wähl einen Wind und starte die Simulation",
+      "statusSettling": "Strömung stellt sich ein… {percent} %",
+      "statusSettled": "Strömung eingeschwungen, bleibt in Bewegung",
+      "statusError": "Die Simulation wurde angehalten. Lade die Seite neu, um es nochmal zu versuchen.",
+      "terrainUnavailable": "Keine Geländedaten für dieses Fluggebiet.",
+      "engineGpu": "Live auf deiner Grafikkarte berechnet.",
+      "engineCpu": "Mit weniger Details auf deinem Prozessor berechnet, weil dieser Browser kein WebGPU unterstützt.",
+      "disclaimer": "Eine physikalische Simulation eines gleichmäßigen Winds in mäßig stabiler Luft, über Geländedaten mit 50 m Auflösung. Sonneneinstrahlung, Thermik, Bäume und Wetteränderungen sind nicht berücksichtigt. Nutze sie, um ein Fluggebiet zu verstehen, nie für die Entscheidung, ob du fliegst.",
+      "controlsHint": "Ziehen zum Drehen, scrollen oder mit zwei Fingern zoomen.",
+      "legend": {
+        "flow": "Luftströmung",
+        "lift": "Steigende Luft",
+        "sink": "Sinkende Luft",
+        "turbulence": "Turbulenz",
+        "turbulenceNone": "Bei diesem Wind keine markiert",
+        "flowHint": "länger = schneller",
+        "turbulenceScale": "Turbulenz ist von leicht bis stark schattiert."
+      },
+      "roughest": "Ruppigste Luft",
+      "howToRead": "Die Linien folgen der Luft: länger, wo sie schneller wird, grün, wo sie steigt, rot, wo sie sinkt. Farbiger Dunst und eingefärbte Hänge zeigen Turbulenz, die über die übliche Bodenturbulenz hinausgeht, meist im Lee: wo du sie erwarten musst, nicht wie stark. Tipp auf die Legende, um eine Ebene auszublenden.",
+      "rotor": "Rotor",
+      "settlingTitle": "Die Luft beruhigt sich",
+      "settlingPercent": "{percent} %",
+      "settlingHint": "Der Wind sucht sich noch seinen Weg durchs Relief. Turbulenz wird angezeigt, sobald sich die Strömung eingeschwungen hat.",
+      "tooFlat": "Das Relief um dieses Fluggebiet liegt unter {metres} m, zu wenig, um die Luft darüber mit unseren Geländedaten (50 m Auflösung) zu simulieren.",
+      "exaggeration": "Höhen ×{factor}",
+      "simulate": "{speed} aus {compass} simulieren",
+      "sectorChip": "Startsektor · {compass} {degrees}°",
+      "liveChip": "Live · {compass} {degrees}°",
+      "howToReadTitle": "So liest du die Linien"
+    },
+    "header": {
+      "back": "Startplätze",
+      "unofficial": "Inoffizielles Fluggebiet",
+      "directions": "Route",
+      "save": "Merken",
+      "saved": "Gemerkt",
+      "more": "Mehr",
+      "moreLabel": "Weitere Aktionen: Koordinaten kopieren, Einstellungen zum Fluggebiet",
+      "copyLink": "Link kopieren"
+    },
+    "tabs": {
+      "navLabel": "Bereiche des Startplatzes",
+      "overview": "Übersicht",
+      "site": "Fluggebiet",
+      "activity": "Aktivität",
+      "windFlow": "Windströmung"
+    },
+    "facts": {
+      "elevation": "Höhe",
+      "amsl": "ü. M.",
+      "heightDifference": "Höhenunterschied",
+      "faces": "Ausrichtung",
+      "loggedFlights": "Erfasste Flüge",
+      "sectorRange": "{start}–{end}°",
+      "orientation": "Ausrichtung",
+      "orientationValue": "{bearing} · {range}",
+      "status": "Status",
+      "unofficial": "Kein offizieller Startplatz",
+      "coordinates": "Koordinaten",
+      "timezone": "Zeitzone",
+      "country": "Land",
+      "countryWithCode": "{country} ({code})",
+      "address": "Adresse"
+    },
+    "flyability": {
+      "title": "Kann ich jetzt fliegen?",
+      "station": "Station {station}",
+      "stationAge": "Station {station} · {age}",
+      "age": {
+        "justNow": "gerade eben",
+        "minutesAgo": "vor {count} Min.",
+        "hoursAgo": "vor {count} h"
+      },
+      "verdict": {
+        "flyable": "Fliegbar",
+        "marginal": "Grenzwertig",
+        "unflyable": "Nicht fliegbar",
+        "calm": "Schwacher Wind"
+      },
+      "reason": {
+        "favorable": "Der Wind steht auf dem Hang, im Sektor {sector}.",
+        "crosswind": "Seitenwind aus {direction}, {angle}° neben dem Hang. Vorsicht.",
+        "tailwind": "Wind aus {direction}, {angle}° neben dem Hang: Rückenwind oder starker Seitenwind.",
+        "gustsTooStrong": "Böen {speed}, zu stark.",
+        "windTooStrong": "Wind {speed}, zu stark.",
+        "lightWind": "Schwacher Wind, Thermikfliegen möglich.",
+        "bearingUnknown": "Die Ausrichtung des Startplatzes ist nicht dokumentiert. Schau dir den Hang selbst an.",
+        "strongWindBearingUnknown": "Starker Wind, und die Ausrichtung des Startplatzes ist nicht dokumentiert."
+      },
+      "noData": {
+        "title": "Keine Live-Daten",
+        "stale": "Die Station {station} hat seit {hours, plural, one {# Stunde} other {# Stunden}} nichts gemeldet. Gleich den Sektor unten mit deiner eigenen Prognose ab.",
+        "none": "Gerade meldet keine Wetterstation in der Nähe dieses Startplatzes. Gleich den Sektor unten mit deiner eigenen Prognose ab."
+      },
+      "signedOut": {
+        "title": "Live-Wind gibt’s für Mitglieder",
+        "body": "Melde dich an, um den Wind der nächsten Station auf diesem Sektor zu sehen, inklusive Fliegbarkeits-Check. Kostenloses Konto.",
+        "join": "Kostenloses Konto erstellen",
+        "signIn": "Anmelden"
+      },
+      "windFrom": "Wind aus {compass} · {degrees}°",
+      "gusts": "Böen",
+      "temp": "Temp.",
+      "worksFrom": "Geht bei Wind aus",
+      "noBearing": "Nicht dokumentiert",
+      "sectorRange": "{start}° bis {end}°",
+      "legendSector": "Startplatz-Sektor {bearing}",
+      "legendWind": "Live-Wind, weht zur Mitte",
+      "ariaSector": "Kompass: Startplatz-Sektor {bearing}, {start} bis {end} Grad",
+      "ariaLive": "Kompass: Startplatz-Sektor {bearing}, {start} bis {end} Grad, Live-Wind aus {compass} {degrees} Grad"
+    },
+    "notes": {
+      "regionLabel": "Regeln und Hinweise zum Fluggebiet",
+      "beforeYouFly": "Bevor du hier fliegst",
+      "siteInformation": "Infos zum Fluggebiet",
+      "source": "Community-Hinweise von <psLink>paraglidingspots.com</psLink>",
+      "suggestCorrection": "Korrektur vorschlagen"
+    },
+    "overview": {
+      "openSiteMap": "Karte des Fluggebiets öffnen",
+      "pilotsTitle": "Was Piloten hier fliegen",
+      "activityLink": "Aktivität",
+      "bestMonth": "Bester Monat",
+      "bestXc": "Bester XC",
+      "peakLaunch": "Hauptstartzeit",
+      "flightsCount": "{count, plural, one {# Flug} other {# Flüge}}",
+      "medianValue": "Median {value}",
+      "monthsAria": "Flüge pro Monat, Spitze im {month}",
+      "simulatorTitle": "Windströmungs-Simulator",
+      "simulatorBody": "Sieh dir an, wie ein gleichmäßiger Wind über das Gelände rund um diesen Startplatz strömt.",
+      "openSimulator": "Simulator öffnen",
+      "latestTitle": "Neueste Flüge",
+      "allFlights": "{count, plural, one {# Flug} other {Alle # Flüge}}",
+      "membersOnly": "{count, plural, =0 {Noch keine Flüge von {name} eingetragen.} one {# Flug von {name} eingetragen.} other {# Flüge von {name} eingetragen.}} Pilotennamen und Tracks sind für Mitglieder sichtbar.",
+      "join": "We-Fly beitreten, kostenlos",
+      "noFlightsYet": "Von diesem Startplatz ist noch kein Flug eingetragen. Saison, bester XC und Startzeit erscheinen nach den ersten Flügen.",
+      "logFlight": "Flug von hier eintragen"
+    },
+    "site": {
+      "fullscreen": "Karte im Vollbild öffnen",
+      "landing": "Landeplatz",
+      "landingValue": "{name} · {distance}",
+      "notDocumented": "Nicht dokumentiert",
+      "nearbyTitle": "Startplätze in der Nähe",
+      "nearbyNone": "Keine weiteren Startplätze im Umkreis von 50 km."
+    },
+    "activity": {
+      "title": "Aktivität am {name}",
+      "peakSub": "Spitze im {month} · {count, plural, one {# Flug} other {# Flüge}}",
+      "minutes": "Min.",
+      "fromFlights": "aus {count, plural, one {# Flug} other {# Flügen}}",
+      "bestValue": "bester Wert {value}",
+      "medianValue": "Median {value}",
+      "allMonths": "Alle Monate",
+      "peakShort": "Spitze {label} · {count}",
+      "flightTypes": "Flugarten",
+      "typeShare": "{count} · {pct} %",
+      "launchHour": "Startzeit",
+      "topXc": "Top-XC",
+      "shownOf": "{shown} von {total}",
+      "moreFrom": "Weitere Flüge vom {name}",
+      "sortLabel": "Flüge sortieren",
+      "membersTitle": "Top-XC und neueste Flüge",
+      "membersBody": "Pilotennamen, Tracks und die komplette Flugliste sehen nur Mitglieder."
     }
   },
   "meta": {

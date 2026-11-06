@@ -166,6 +166,12 @@
     "belowTerrain": "sotto il terreno",
     "agl": "{value} AGL",
     "progress": "{current} / {total}",
-    "progressWithTime": "{current} / {total} · {time}"
+    "progressWithTime": "{current} / {total} · {time}",
+    "reachToggle": "Mostra il terreno che puoi ancora raggiungere da qui",
+    "reachPause": "Raggiungibilità: metti in pausa per calcolare",
+    "reachComputing": "Raggiungibilità: calcolo in corso…",
+    "reachNowhere": "Raggiungibilità: niente alla portata da questa quota",
+    "reachWing": "Raggiungibilità con {name} (efficienza {ratio}), aria calma",
+    "reachRatio": "Raggiungibilità con efficienza {ratio}, aria calma"
   }
 }

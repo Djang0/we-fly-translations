@@ -309,6 +309,36 @@
     "returnUnavailable": "Koppelen met autorouter is nog niet beschikbaar",
     "returnError": "autorouter koppelen mislukt, probeer het opnieuw"
   },
+  "pgpilot": {
+    "title": "PGPilot",
+    "description": "Koppel je PGPilot-account en de vluchten die je met de PGPilot-app opneemt, komen vanzelf in je logboek terecht.",
+    "learnMore": "pgpilot.app",
+    "supporterNote": "Voor het koppelen heb je een PGPilot Supporter-account nodig. We importeren eerst je eerdere vluchten en daarna elke nieuwe zodra die klaar is.",
+    "connect": "PGPilot koppelen",
+    "reconnect": "Opnieuw koppelen",
+    "connected": "Gekoppeld",
+    "connectedAs": "Gekoppeld als {name}",
+    "relink": "PGPilot-koppeling verbroken, koppel opnieuw om te blijven importeren",
+    "paused": "Gepauzeerd: volgens PGPilot is je Supporter-abonnement verlopen. We halen alles in zodra het weer actief is.",
+    "importing": "Je vluchten worden geïmporteerd…",
+    "importedSince": "{count, plural, =0 {Nog geen vluchten geïmporteerd} one {# vlucht geïmporteerd} other {# vluchten geïmporteerd}}, laatst gecontroleerd {when}",
+    "syncNow": "PGPilot controleren op nieuwe vluchten",
+    "synced": "{count, plural, =0 {Helemaal bij} one {# nieuwe vlucht geïmporteerd} other {# nieuwe vluchten geïmporteerd}}",
+    "disconnect": "PGPilot ontkoppelen",
+    "disconnected": "PGPilot ontkoppeld. Al geïmporteerde vluchten blijven in je logboek staan.",
+    "returnConnected": "PGPilot gekoppeld, je vluchten worden geïmporteerd",
+    "returnCancelled": "PGPilot-koppeling geannuleerd",
+    "returnTaken": "Dit PGPilot-account is al aan een ander We-Fly-account gekoppeld",
+    "returnUnavailable": "Koppelen met PGPilot is nog niet beschikbaar",
+    "returnError": "Kon PGPilot niet koppelen, probeer het opnieuw",
+    "errors": {
+      "generic": "Er ging iets mis met PGPilot, probeer het opnieuw",
+      "tooSoon": "Wacht even voordat je opnieuw controleert",
+      "busy": "Importeren is al bezig, geef het even",
+      "supporterRequired": "PGPilot heeft een actief Supporter-abonnement nodig om je vluchten te delen",
+      "relink": "Koppel PGPilot opnieuw om te blijven importeren"
+    }
+  },
   "licenses": {
     "title": "Brevetten",
     "add": "Toevoegen",

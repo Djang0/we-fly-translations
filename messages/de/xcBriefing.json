@@ -166,6 +166,12 @@
     "belowTerrain": "unter Gelände",
     "agl": "{value} AGL",
     "progress": "{current} / {total}",
-    "progressWithTime": "{current} / {total} · {time}"
+    "progressWithTime": "{current} / {total} · {time}",
+    "reachToggle": "Zeig das Gelände, das du von hier noch erreichst",
+    "reachPause": "Reichweite: zum Berechnen pausieren",
+    "reachComputing": "Reichweite: wird berechnet…",
+    "reachNowhere": "Reichweite: in dieser Höhe nichts erreichbar",
+    "reachWing": "Reichweite mit {name} (Gleitzahl {ratio}), ruhige Luft",
+    "reachRatio": "Reichweite bei Gleitzahl {ratio}, ruhige Luft"
   }
 }

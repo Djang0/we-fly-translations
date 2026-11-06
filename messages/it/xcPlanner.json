@@ -60,7 +60,11 @@
     "controls": "Comandi",
     "backAria": "Torna al passo precedente",
     "back": "Indietro",
-    "notReady": "Prima aggiungi almeno due punti e scegli la data del volo"
+    "notReady": "Prima aggiungi almeno due punti e scegli la data del volo",
+    "needsPoints": "Aggiungi un secondo punto sulla mappa per continuare.",
+    "needsDate": "Scegli la data del volo per continuare.",
+    "flightDateAria": "Data del volo: {date}. Puoi cambiarla nel passaggio di progettazione",
+    "changeDate": "Cambia la data del volo"
   },
   "stepPanel": {
     "route": "Percorso",
@@ -69,7 +73,13 @@
     "designTool": "Strumento",
     "pickDate": "Scegli la data del volo",
     "startTime": "Orario di partenza previsto",
-    "unlockNeedsPoints": "Aggiungi almeno due punti e scegli una data per sbloccare spazi aerei, NOTAM e briefing.",
+    "glide": "Efficienza",
+    "glideSource": "Efficienza usata per la portata nella revisione 3D",
+    "glideTyped": "Efficienza inserita",
+    "glideWing": "{name} · {ratio}",
+    "glideRatioAria": "Efficienza, da {min} a {max}",
+    "glideHint": "per la portata nella revisione 3D",
+    "unlockNeedsPoints": "Aggiungi almeno due punti per sbloccare spazi aerei, NOTAM e briefing.",
     "unlockNeedsDate": "Scegli una data per sbloccare spazi aerei, NOTAM e briefing.",
     "noDate": "Nessuna data",
     "kmPlanned": "{distance} previsti",

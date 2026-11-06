@@ -60,7 +60,11 @@
     "controls": "Bediening",
     "backAria": "Terug naar de vorige stap",
     "back": "Terug",
-    "notReady": "Voeg eerst minstens twee punten toe en kies een vluchtdatum"
+    "notReady": "Voeg eerst minstens twee punten toe en kies een vluchtdatum",
+    "needsPoints": "Zet een tweede punt op de kaart om verder te gaan.",
+    "needsDate": "Kies een vliegdatum om verder te gaan.",
+    "flightDateAria": "Vliegdatum: {date}. Wijzig die in de ontwerpstap",
+    "changeDate": "Vliegdatum wijzigen"
   },
   "stepPanel": {
     "route": "Route",
@@ -69,7 +73,13 @@
     "designTool": "Ontwerptool",
     "pickDate": "Kies je vluchtdatum",
     "startTime": "Geplande starttijd",
-    "unlockNeedsPoints": "Voeg minstens twee punten toe en kies een datum om luchtruimen, NOTAMs en de briefing te ontgrendelen.",
+    "glide": "Glijgetal",
+    "glideSource": "Glijgetal voor het bereik in de 3D-review",
+    "glideTyped": "Ingevoerd glijgetal",
+    "glideWing": "{name} · {ratio}",
+    "glideRatioAria": "Glijgetal, van {min} tot {max}",
+    "glideHint": "voor het bereik in de 3D-review",
+    "unlockNeedsPoints": "Voeg minstens twee punten toe om luchtruimen, NOTAMs en de briefing te ontgrendelen.",
     "unlockNeedsDate": "Kies een datum om luchtruimen, NOTAMs en de briefing te ontgrendelen.",
     "noDate": "Geen datum",
     "kmPlanned": "{distance} gepland",

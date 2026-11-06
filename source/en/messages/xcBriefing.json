@@ -166,6 +166,12 @@
     "belowTerrain": "below terrain",
     "agl": "{value} AGL",
     "progress": "{current} / {total}",
-    "progressWithTime": "{current} / {total} · {time}"
+    "progressWithTime": "{current} / {total} · {time}",
+    "reachToggle": "Show the ground you can still reach from here",
+    "reachPause": "Reach: pause to compute",
+    "reachComputing": "Reach: computing…",
+    "reachNowhere": "Reach: nothing in range at this altitude",
+    "reachWing": "Reach with {name} (glide {ratio}), still air",
+    "reachRatio": "Reach at glide {ratio}, still air"
   }
 }

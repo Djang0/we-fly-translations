@@ -166,6 +166,12 @@
     "belowTerrain": "sous le relief",
     "agl": "{value} AGL",
     "progress": "{current} / {total}",
-    "progressWithTime": "{current} / {total} · {time}"
+    "progressWithTime": "{current} / {total} · {time}",
+    "reachToggle": "Montre le terrain que tu peux encore atteindre d’ici",
+    "reachPause": "Portée : mets en pause pour calculer",
+    "reachComputing": "Portée : calcul…",
+    "reachNowhere": "Portée : rien d’atteignable à cette altitude",
+    "reachWing": "Portée avec {name} (finesse {ratio}), air calme",
+    "reachRatio": "Portée à finesse {ratio}, air calme"
   }
 }

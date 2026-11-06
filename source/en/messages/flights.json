@@ -468,7 +468,7 @@
         "resolving": "Resolving...",
         "resolveAll": "Resolve all",
         "confirmTitle": "Resolve all concurrent flights?",
-        "confirmBody": "This will permanently delete the shortest flight from each of the {count, plural, one {# concurrent flight pair} other {# concurrent flight pairs}}. This action cannot be undone.",
+        "confirmBody": "This will permanently delete one flight from each of the {count, plural, one {# concurrent flight pair} other {# concurrent flight pairs}}: the newer copy when the same file was uploaded twice, otherwise the shortest flight. This action cannot be undone.",
         "confirmAction": "Delete shortest flights",
         "overlap": "Overlap",
         "date": "Date",
@@ -502,7 +502,10 @@
       "confirmTitle": "Delete shortest flight?",
       "confirmBody": "This will permanently delete the flight from <strong>{date}</strong> ({takeoff} to {landing}, {duration}). This action cannot be undone and will also remove the associated IGC file.",
       "cancel": "Cancel",
-      "confirmAction": "Delete flight"
+      "confirmAction": "Delete flight",
+      "duplicateCopy": "Duplicate copy",
+      "deleteDuplicate": "Delete the copy",
+      "deletedDuplicateDescription": "The duplicate copy has been permanently deleted; your original flight is kept"
     },
     "altitude": {
       "unknownDate": "Unknown date",

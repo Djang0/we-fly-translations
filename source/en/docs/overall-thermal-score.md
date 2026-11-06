@@ -14,7 +14,7 @@ The thermal score (0 to 100) is a weighted combination of five factors. These ar
 | Factor | Weight | What It Measures |
 |--------|--------|------------------|
 | **Climb** | 30% | How strong was the lift at its best? |
-| **Efficiency** | 20% | How direct was your climb? |
+| **Net climb** | 20% | How much of the lift did you keep? |
 | **Centering** | 20% | How well did you stay in the core? |
 | **Consistency** | 15% | How stable were the vario readings? |
 | **Sustained** | 15% | Did you actually stay and work the thermal? |
@@ -31,7 +31,7 @@ Here's the actual calculation:
 
 ```
 Quality Score = (climbScore * 0.30 +
-                 efficiencyScore * 0.20 +
+                 netClimbScore * 0.20 +
                  centeringScore * 0.20 +
                  consistencyScore * 0.15 +
                  sustainedScore * 0.15) * 100
@@ -47,11 +47,13 @@ climbScore = min(1, maxClimb / 5.0)
 ```
 Your best sustained climb in the thermal (the **Max** value in the thermal details, smoothed over 5 seconds so a single noisy GPS fix can't cheat) divided by 5.0 m/s, capped at 1. Only the top tenth of climbs in We-Fly get close to the cap; an average climb scores a bit over half.
 
-**2. Efficiency Score**
+**2. Net Climb Score**
 ```
-efficiencyScore = min(1, heightGain / driftDistance)
+netClimbScore = min(1, (heightGain / duration) / 3.0)
 ```
-Height gained divided by the horizontal distance between where the thermal started and where it ended. Gaining as much height as you drifted, or more, scores the full 1.0. The more the wind carries you sideways, the lower this gets.
+The height you gained divided by the time you spent in the thermal: your average climb, from entry to exit. 3.0 m/s scores the full 1.0; only about one thermal in a hundred gets there. Where the peak climb rewards finding the strong part, this rewards staying in it.
+
+Earlier versions used height gained against the distance drifted. Wind lowered that on its own, so the same climb dropped a band on a windy day. Net climb does not care about the wind.
 
 **3. Centering Score**
 ```
@@ -83,7 +85,7 @@ Let's walk through a real calculation using concrete numbers. Say you worked a t
 | Metric | Value |
 |--------|-------|
 | Max Climb | 3.5 m/s |
-| Efficiency | 0.41 (41%) |
+| Net Climb | 1.8 m/s |
 | Centering | 0.53 (53%) |
 | Variability | 0.92 m/s |
 | Duration | 75 seconds |
@@ -98,11 +100,12 @@ climbScore = 0.70
 ```
 Your best sustained climb of 3.5 m/s is 70% of the 5.0 m/s benchmark.
 
-**Efficiency Score:**
+**Net Climb Score:**
 ```
-efficiencyScore = 0.41
+netClimbScore = min(1, 1.8 / 3.0)
+netClimbScore = 0.60
 ```
-You gained 41% as much height as you drifted sideways. Pretty typical for a drifty thermal.
+You averaged 1.8 m/s from entry to exit, comfortably above the typical thermal (about 1 m/s).
 
 **Centering Score:**
 ```
@@ -133,19 +136,19 @@ Now multiply each score by its weight:
 | Component | Score | Weight | Contribution |
 |-----------|-------|--------|--------------|
 | Climb | 0.70 | 0.30 | 0.210 |
-| Efficiency | 0.41 | 0.20 | 0.082 |
+| Net Climb | 0.60 | 0.20 | 0.120 |
 | Centering | 0.53 | 0.20 | 0.106 |
 | Consistency | 0.54 | 0.15 | 0.081 |
 | Sustained | 0.833 | 0.15 | 0.125 |
-| **Total** | | | **0.604** |
+| **Total** | | | **0.642** |
 
 ### Step 3: Scale to 0-100
 
 ```
-qualityScore = round(0.604 * 100) = 60
+qualityScore = round(0.642 * 100) = 64
 ```
 
-**Result: a score of 60**, just inside "Fair". Tighter circles would lift both efficiency and centering, and that's where the easy points are.
+**Result: a score of 64**, just inside "Good". Tighter circles around the core would lift both centering and net climb, and that's where the easy points are.
 
 ---
 
@@ -153,13 +156,13 @@ qualityScore = round(0.604 * 100) = 60
 
 | Score Range | Label | What It Means |
 |-------------|--------|---------------|
-| **80 and above** | Outstanding | The best climbs in We-Fly. Strong lift, worked properly. |
-| **73 to 79** | Excellent | Better than three thermals out of four. You found the core fast and stayed in it. |
-| **66 to 72** | Good | Above the typical thermal. Solid work. |
-| **60 to 65** | Fair | Around the middle of the pack. Got the job done, with some performance left on the table. |
-| **Below 60** | Poor | Struggled to find or keep the core, a short climb, or conditions that were truly awful. |
+| **74 and above** | Outstanding | The best climbs in We-Fly. Strong lift, worked properly. |
+| **68 to 73** | Excellent | Better than three thermals out of five. You found the core fast and stayed in it. |
+| **63 to 67** | Good | Above the typical thermal. Solid work. |
+| **58 to 62** | Fair | Around the middle of the pack. Got the job done, with some performance left on the table. |
+| **Below 58** | Poor | Struggled to find or keep the core, a short climb, or conditions that were truly awful. |
 
-The bands are calibrated on real thermals flown by We-Fly pilots: the typical (median) thermal scores about 65, a quarter of thermals score 73 or more, and one in ten reaches 80.
+The bands are calibrated on more than 100,000 real thermals flown by We-Fly pilots: the typical (median) thermal scores about 66, a quarter of thermals score 73 or more, and one in ten reaches 80.
 
 ---
 
@@ -174,19 +177,19 @@ This is the most heavily weighted factor because... well, the whole point is goi
 - You never found the strongest part of the core (check centering)
 - You were late to the party and caught only the top
 
-### Efficiency (20% weight)
+### Net Climb (20% weight)
 
-Efficiency = height gained / horizontal drift distance, capped at 1.0. A thermal where you gain at least as much height as you drift scores the full 1.0, which takes light wind or a strong climb.
+Net climb = height gained / time in the thermal, scored against 3.0 m/s. It is the climb you actually banked, entry to exit, so every turn spent outside the lift costs you here. Wind does not change it.
 
 Typical values:
-- **0.3 to 0.4**: Normal, some drift
-- **0.5 to 0.6**: Very good, tight circles
-- **above 0.6**: Excellent, minimal drift
+- **about 1 m/s**: a typical thermal
+- **2 m/s or more**: a strong climb, worked well (the top tenth)
+- **3 m/s or more**: full marks
 
-**Low efficiency?**
-- Strong wind pushing you sideways
-- Wide circles or a shallow bank angle
-- Entering downwind and never correcting
+**Low net climb?**
+- The thermal was genuinely weak (not your fault)
+- Turns spent searching or falling out of the core
+- Wide circles or a shallow bank angle in a narrow core
 
 ### Centering Quality (20% weight)
 
@@ -235,7 +238,7 @@ The two factors multiply together, so you need BOTH to score well here. A 30-sec
 Compare thermals from several flights at the same site. You'll start to see patterns:
 - "I always struggle centering at this launch"
 - "My afternoon thermals have better consistency"
-- "That new wing really improved my efficiency"
+- "That new wing really improved my net climb"
 
 ### Don't Chase the Number
 
@@ -249,7 +252,7 @@ The weights (30/20/20/15/15) weren't pulled from thin air. They're based on what
 
 - **Climb strength leads** (30%) because the primary goal is going up. A weak thermal worked perfectly is still a weak thermal.
 
-- **Efficiency and centering share technique weight** (20% each) because they're both about skill. You can have one without the other (good centering but drifting out, or tight circles in the wrong spot).
+- **Net climb and centering share technique weight** (20% each) because they're both about skill. You can have one without the other (tight circles in the wrong spot, or a well-centred orbit in a thermal you keep leaving).
 
 - **Consistency is a modifier** (15%) because some turbulence is out of your control. It affects your score, but doesn't dominate it.
 
@@ -264,13 +267,13 @@ The weights (30/20/20/15/15) weren't pulled from thin air. They're based on what
 | Metric | Value | Score |
 |--------|-------|-------|
 | Max Climb | 5.6 m/s | 1.0 (capped) |
-| Efficiency | 0.65 | 0.65 |
+| Net Climb | 3.4 m/s | 1.0 (capped) |
 | Centering | 0.78 | 0.78 |
 | Consistency | 0.38 m/s | 0.81 |
 | Duration / Turns | 120s / 4 turns | 1.0 |
 
-**Contributions:** 0.30 + 0.13 + 0.156 + 0.121 + 0.15 = **0.858**
-**Score:** 86 (Outstanding)
+**Contributions:** 0.30 + 0.20 + 0.156 + 0.121 + 0.15 = **0.927**
+**Score:** 93 (Outstanding)
 
 You hit a monster thermal, stayed in the core, and rode it for two solid minutes. Dream scenario.
 
@@ -279,28 +282,28 @@ You hit a monster thermal, stayed in the core, and rode it for two solid minutes
 | Metric | Value | Score |
 |--------|-------|-------|
 | Max Climb | 4.8 m/s | 0.96 |
-| Efficiency | 0.72 | 0.72 |
+| Net Climb | 2.4 m/s | 0.80 |
 | Centering | 0.85 | 0.85 |
 | Consistency | 0.45 m/s | 0.78 |
 | Duration / Turns | 25s / 2 turns | 0.28 |
 
-**Contributions:** 0.288 + 0.144 + 0.17 + 0.116 + 0.042 = **0.760**
-**Score:** 76 (Excellent)
+**Contributions:** 0.288 + 0.16 + 0.17 + 0.116 + 0.042 = **0.776**
+**Score:** 78 (Outstanding)
 
-Strong lift, great centering, but you only stayed for two turns. Had you worked it for 90 seconds with the same technique, the sustained factor would have added the missing points and the score would be 87.
+Strong lift, great centering, but you only stayed for two turns. Had you worked it for 90 seconds with the same technique, the sustained factor would have added the missing points and the score would be 88.
 
 ### The Hard-Fought Climb
 
 | Metric | Value | Score |
 |--------|-------|-------|
 | Max Climb | 2.6 m/s | 0.52 |
-| Efficiency | 0.38 | 0.38 |
+| Net Climb | 0.9 m/s | 0.30 |
 | Centering | 0.45 | 0.45 |
 | Consistency | 1.4 m/s | 0.30 |
 | Duration / Turns | 180s / 6 turns | 1.0 |
 
-**Contributions:** 0.156 + 0.076 + 0.09 + 0.045 + 0.15 = **0.517**
-**Score:** 52 (Poor)
+**Contributions:** 0.156 + 0.06 + 0.09 + 0.045 + 0.15 = **0.501**
+**Score:** 50 (Poor)
 
 Weak thermal, broken core, lots of searching. The label is harsh, but it describes the thermal more than you: you stuck with it for 3 minutes and 6 turns, and the sustained factor gave you every one of its points. On a day like that, the climb that kept you in the air was the right call.
 
@@ -309,13 +312,13 @@ Weak thermal, broken core, lots of searching. The label is harsh, but it describ
 | Metric | Value | Score |
 |--------|-------|-------|
 | Max Climb | 3.4 m/s | 0.68 |
-| Efficiency | 0.52 | 0.52 |
+| Net Climb | 1.8 m/s | 0.60 |
 | Centering | 0.85 | 0.85 |
 | Consistency | 0.65 m/s | 0.68 |
 | Duration / Turns | 95s / 3 turns | 1.0 |
 
-**Contributions:** 0.204 + 0.104 + 0.17 + 0.101 + 0.15 = **0.729**
-**Score:** 73 (Excellent)
+**Contributions:** 0.204 + 0.12 + 0.17 + 0.101 + 0.15 = **0.745**
+**Score:** 75 (Outstanding)
 
 Moderate thermal, but you absolutely nailed the centering and worked it properly. Technique over power.
 
